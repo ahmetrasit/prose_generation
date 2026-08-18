@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.627525+00:00",
+  "generated_at": "2026-08-18T13:34:43.441169+00:00",
   "surah": 113,
   "ayah": 3,
   "ayahRef": "113:3",
@@ -1803,7 +1803,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:1"
+      "aligned_qac_word_ref_upstream": "113:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1817,7 +1818,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:2"
+      "aligned_qac_word_ref_upstream": "113:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1831,7 +1833,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:3"
+      "aligned_qac_word_ref_upstream": "113:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1845,7 +1848,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:4"
+      "aligned_qac_word_ref_upstream": "113:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1859,7 +1863,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:5"
+      "aligned_qac_word_ref_upstream": "113:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1873,7 +1878,8 @@
       "morpheme_ids": [
         "m-w-s113-a003-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:3:6"
+      "aligned_qac_word_ref_upstream": "113:3:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2273,7 +2279,737 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s113/packets/113_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "113:3",
+      "window": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "113:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_threshold_concealment",
+            "confidence": "strong",
+            "focus_anchor": "غَاسِقٍ إِذَا وَقَبَ joins an active darkener to a temporal condition and an entry verb.",
+            "mechanism": "Settling darkness becomes dangerous at a phase boundary: it enters concealment and converts an open field into an occluded interior. The evil is therefore attached to onset and ingress, not to darkness as an undifferentiated substance.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness supply the evaluative relation whose timing the rest of the clause specifies."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Night darkness settling in supplies the advancing dark state."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into concealment as darkness descends makes the condition an ingress threshold."
+              }
+            ],
+            "changed_reading": {
+              "before": "A general request for protection from the evil of night.",
+              "after": "A request concerning the exact transition at which a darkening state enters, encloses, and removes visibility."
+            }
+          },
+          {
+            "model_id": "baseline_perceptual_blackout",
+            "confidence": "medium",
+            "focus_anchor": "غَاسِقٍ can remain an active darkener while its root inventory specifically includes an eye losing brightness.",
+            "mechanism": "The clause can model failure of perception: an eye or faculty darkens, and danger becomes effective when that dimming enters concealment deeply enough to block discrimination. The darkener is then a process of occlusion, not necessarily the astronomical night alone.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil marks the harmful consequence of lost discrimination."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B003",
+                "role": "An eye becoming darkened supplies a literal perceptual-loss image."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entering concealment turns dimming into completed occlusion."
+              }
+            ],
+            "changed_reading": {
+              "before": "An external darkness arrives.",
+              "after": "A darkening process becomes harmful when it gets inside perception and suppresses the capacity to distinguish."
+            }
+          },
+          {
+            "model_id": "baseline_hydraulic_ingress",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus sequence itself aligns filling, pouring, and a receiving hollow across شَرّ, غَاسِق, and وَقَب.",
+            "mechanism": "A non-dominant split branch of شَرّ supplies vessel-filling, غ س ق supplies flowing or pouring, and و ق ب supplies a hollow that receives. Together they activate a material model in which harm is a dark efflux that becomes effective by entering and accumulating in a receptive cavity.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B010",
+                "role": "The split-root image of filling a basin or bowl supplies accumulation in a vessel."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing or pouring supplies the mobile dark medium."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A recess or hollow that receives something supplies the destination and retention space."
+              }
+            ],
+            "changed_reading": {
+              "before": "Darkness spreads over a scene.",
+              "after": "A dark efflux enters and fills a receptive hollow, making the threat one of penetration and accumulation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_spoken_counter_entry",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ"
+            ],
+            "mechanism": "The preceding command to voice speech and the act of taking refuge recast the focus as a paired motion: as darkness enters concealment, the speaker deliberately enters or adheres to protection. The focus is not only a scene to observe but a threshold answered by an uttered counter-entry.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Bringing speech out in articulation makes the protective response overt and enacted."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking refuge and holding fast supply the speaker's directed movement into protection."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "The darkener's entry into concealment supplies the opposing inward motion."
+              }
+            ],
+            "structural_cues": [
+              "The imperative utterance in 113:1 governs the following protection clauses.",
+              "The focus presents its danger through an explicit when-condition rather than a timeless label."
+            ],
+            "reader_inference": "The packet supplies voiced saying, refuge, and dangerous entry; I infer a functional symmetry in which utterance relocates the speaker as the threat enters. The live alternative is that قُلْ merely frames recitation and adds no spatial counter-motion.",
+            "changed_reading": {
+              "before": "The verse describes a dark threshold from which protection is requested.",
+              "after": "The dark threshold elicits an enacted counter-threshold: voiced refuge moves the speaker into shelter as concealment moves inward."
+            }
+          },
+          {
+            "model_id": "delta_opening_reverses_enclosure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ف ل ق"
+            ],
+            "mechanism": "The protecting lord is characterized by repair and completion, while الفلق supplies splitting open and the disclosure of dawn. Against that prior counter-process, the focus darkness is a reversible enclosure: its entering is real, but it is neither self-grounded nor final.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and bringing to completion supply an agency able to carry a threatened state through reversal."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Splitting and opening between two things supply the counter-action to enclosure."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B002",
+                "role": "Dawn breaking and becoming clear supply the temporal reversal of settling darkness."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Night darkness settling in supplies the enclosure that can later be opened."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into concealment gives the dark phase a bounded onset and therefore a reversible contour."
+              }
+            ],
+            "structural_cues": [
+              "The name رب الفلق precedes every listed danger.",
+              "Opening and clarification in 113:1 stand in process-level opposition to dark entry in 113:3."
+            ],
+            "reader_inference": "The packet supplies reparative lordship, splitting dawn, and entering darkness; I infer that the prior divine title names the focus danger's counter-process. A live alternative takes الفلق broadly as emergence of creation rather than specifically the reopening of night.",
+            "changed_reading": {
+              "before": "The entering darkness is an enclosing threat.",
+              "after": "The entering darkness is a temporary closure read against a protecting power that splits enclosure and brings clarity through it."
+            }
+          },
+          {
+            "model_id": "delta_created_state_actualizes",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ر",
+              "خ ل ق"
+            ],
+            "mechanism": "The general evil associated with what is created is immediately specified by a created darkener only when it enters. Measurement and origination make the phenomenon a formed capacity; إذا gates the harmful phase. This separates a thing's existence from the state in which its capacity becomes dangerous.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Repeated evil and badness establish the general relation that the focus then specifies."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning a thing supply bounded capacity rather than undifferentiated malign essence."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence places the darkening phenomenon within the created field."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Settling night supplies a created process with phases."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into concealment identifies the phase at which the capacity is actualized as danger."
+              }
+            ],
+            "structural_cues": [
+              "113:2 moves from the general category of created harm to the focus's indefinite غاسق.",
+              "The focus's إذا clause attaches danger to an event."
+            ],
+            "reader_inference": "The packet supplies creation, evil, a phased darkener, and conditional entry; I infer that 113:3 specializes the general category by actualization rather than declaring the created thing evil in every state. The alternative is that غاسق denotes an independently malicious agent whose entry merely marks access.",
+            "changed_reading": {
+              "before": "The darkener is itself a fixed evil entity.",
+              "after": "A created phenomenon carries a bounded harmful capacity that becomes operative in the event of ingress."
+            }
+          },
+          {
+            "model_id": "delta_micro_emission_retained",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "The later image of a minute mouth emission acting at tied points, together with liquid thickening, sharpens the focus hydraulic model. Harm need not arrive as a vast blanket: a small mobile output can enter a receptive opening, become caught by constriction, and accumulate.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "A slight saliva-bearing emission from the mouth supplies a minute transmissive output."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "Tying and drawing ends together supply a constricted site that can catch or retain ingress."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "A liquid thickening and solidifying supplies a possible retention mechanism after entry."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing or pouring supplies the mobile phase that the later emission image miniaturizes."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A receiving recess supplies the entry site in which a small amount can matter."
+              }
+            ],
+            "structural_cues": [
+              "113:3 and 113:4 share the exact وَمِن شَرِّ frame.",
+              "The focus uses entry, while 113:4 locates action inside tied points with فِي."
+            ],
+            "reader_inference": "The packet supplies slight emission, tied constriction, thickening liquid, flow, and a receiving hollow; I supply the arrow that emission enters and is retained at the constriction. The live alternative is that 113:4 contributes a ritual or social mechanism with no material continuity to 113:3.",
+            "changed_reading": {
+              "before": "Darkness enters as a scene-filling mass.",
+              "after": "The threat may operate through a small transmissive ingress whose effect grows because a receptive or constricted site retains it."
+            }
+          },
+          {
+            "model_id": "delta_conditional_agency_parallel",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "The later envier is harmful when envy is enacted, just as the darkener is harmful when it enters. The inventory contrast between removal-seeking envy and admiration without removal reinforces the grammatical gate: an active bearer or intense state is not enough; the destructive relation must cross into action.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Wishing for another's blessing to disappear supplies the destructive orientation actualized in the conditional clause."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Admiration without removal supplies an internal contrast showing that intensity need not become destructive."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "The settling darkener supplies the active state whose danger is likewise conditionally gated."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into concealment supplies the focus event corresponding to the envier's enacted envy."
+              }
+            ],
+            "structural_cues": [
+              "113:3 and 113:5 pair indefinite active participles with parallel إذا clauses.",
+              "Both clauses occur inside repeated وَمِن شَرِّ frames."
+            ],
+            "reader_inference": "The packet supplies destructive and non-destructive affective branches plus parallel conditional grammar; I infer that the condition marks transition from capacity to harmful operation in both verses. The live alternative is that the non-destructive branch is only lexical contrast and that each إذا has a different discourse function.",
+            "changed_reading": {
+              "before": "The darkener is feared because of what it is.",
+              "after": "The darkener is feared at the event in which its capacity crosses into harmful operation, parallel to envy becoming dangerous when enacted."
+            }
+          },
+          {
+            "model_id": "delta_darkened_attention",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "The eye-darkening branch of غ س ق and the later removal-seeking envier permit a socially charged perceptual model: hostile attention is itself darkened, and its danger begins when that occluded orientation crosses a boundary and gets inside the target's field.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Desire for another's blessing to disappear supplies a hostile social orientation."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B003",
+                "role": "An eye losing brightness supplies the literal anchor for attention darkened at its perceptual source."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A receiving aperture or hollow supplies the boundary crossed by the hostile orientation."
+              }
+            ],
+            "structural_cues": [
+              "غاسق and حاسد are both indefinite active participles.",
+              "Each becomes salient under an immediately following إذا clause."
+            ],
+            "reader_inference": "The packet supplies a darkened eye, hostile desire, and a receiving aperture; I supply the arrow that hostile attention travels from the former into the latter. A fully live alternative keeps 113:3 meteorological and treats the participial parallel as formal rather than causal.",
+            "changed_reading": {
+              "before": "Perceptual darkness is an impersonal failure to see.",
+              "after": "Perception may also be darkened at a hostile social source, becoming dangerous when that orientation penetrates another's protected field."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cloud_into_pass",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a low gap and a contracted cloud from separate context branches with the focus's flow and hollow. It remains anchored in غاسق as pouring, وَقَب as a receiving recess, and the focus entry construction. Render it only as an ecological-spatial possibility, not as a claim that غاسق lexically denotes a storm front.",
+            "focus_anchor": "غَاسِقٍ supplies a dark flowing medium and وَقَبَ supplies entry into a receiving depression.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B004",
+                "role": "A low gap between heights supplies a pass into which darkness or weather can descend."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B008",
+                "role": "Contracting cloud and accumulated material supply a dense approaching mass."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Pouring liquid, light rain, and night pouring over mountains supply motion and atmosphere."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A hollow that receives supplies the basin or pass occupied by the incoming mass."
+              }
+            ],
+            "changed_reading": {
+              "before": "Night falls evenly over the landscape.",
+              "after": "A dark moisture-bearing mass contracts and pours into a mountain gap or basin, concentrating danger through terrain."
+            }
+          },
+          {
+            "outlier_id": "outlier_vascular_thickening",
+            "confidence": "exploratory",
+            "containment": "This bodily reading is form-distant because its arterial image comes from the non-dominant split mapping of ش ر ر and is intensified by later wound and thickening branches. It remains traceable to the focus's mapped شَرّ branch, flowing غاسق, and hollow وَقَب. Render it as a material analogy for ingress and occlusion, never as an exclusive anatomical gloss.",
+            "focus_anchor": "The focus aligns an arterial split branch of شَرّ with flowing غاسق and a receptive وَقَب.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B006",
+                "role": "The non-dominant split image of arteries supplies bodily channels while preserving the exact focus-root mapping."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing discharge supplies a bodily mobile medium."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A socket, aperture, or hollow supplies an anatomical receiving space."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B002",
+                "role": "A wound emitting blood supplies a contextual bodily efflux."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "Liquid thickening and solidifying supplies the occlusive endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "The threat is environmental darkness entering a place.",
+              "after": "As a bodily analogy, a dark efflux enters a channel or cavity and becomes dangerous by thickening into an occlusion."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from generic night danger to a sharply timed transition in which darkness enters concealment.",
+            "Spoken refuge became a counter-entry, while رب الفلق supplied the opening process that can reverse enclosure.",
+            "The creation frame and the parallel إذا حسد clause made evil conditional on harmful actualization rather than fixed identity.",
+            "Flow, hollow, minute emission, and binding sustained a coexisting material-ingress model without replacing the temporal reading."
+          ],
+          "what_was_special": "The trace remained plural: temporal darkness, perceptual occlusion, conditional agency, and material penetration all attach to the focus construction. Split-root branches exposed unusually coherent hydraulic, atmospheric, and bodily mechanisms that a conservative synthesis would likely suppress.",
+          "remaining_uncertainties": [
+            "غاسق may prioritize night, a darkening agent, an eye losing brightness, or a flowing dark medium; the packet supports coexistence but not final selection.",
+            "The hydraulic and vascular readings depend on analogical alignment, especially the non-dominant ش ر ي mapping, and should remain explicitly exploratory.",
+            "The context may causally sharpen focus mechanisms or merely place formally parallel dangers beside one another; several deltas preserve that alternative."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Darkness as descent into concealment.** Evidence: `غ س ق B001` night darkness settling in and `و ق ب B002` entering into concealment as darkness descends; activated by `ف ل ق B002` dawn splitting open. Mechanism: the supplied branches form a reversible threshold: dawn opens; night enters and hides. I infer that the harm lies not simply in night as time but in the moment when concealment takes possession of the field. Reading change: `إِذَا وَقَبَ` becomes the critical event of entry/covering, not a redundant time marker.\n\n2. **Night as substance filling hollows.** Evidence: `غ س ق B004` flowing or pouring out and `و ق ب B001` a recess or hollow that receives something; activated by `خ ل ق B011` water-holding hollow, `ع ق د B003` thickening/hardening, and `ن ف ث B002` a wound sending blood out. Mechanism: the packet supplies several images of liquid or semi-liquid movement into containers and out of wounds. I infer that darkness can be read materially, as something poured into receptive recesses. Reading change: the ayah becomes tactile and spatial: harm seeps, fills, and occupies cavities rather than merely arriving as a clock-time.\n\n3. **Darkened seeing and envy.** Evidence: `غ س ق B003` the eye becoming darkened; activated by `ح س د B001` seeing another's blessing and wanting its removal, plus `ع و ذ B002` protection from fear, illness, or evil eye. Mechanism: the packet supplies eye-darkening and the envier's visual relation to another's blessing. I infer that the descending darkness also names a failure of sight: perception itself becomes occluded or hostile. Reading change: `غَاسِقٍ` can read as optical/affective darkness, not only the cosmic night.\n\n4. **Household vulnerability under cover.** Evidence: `و ق ب B005` household effects and `و ق ب B001` apertures; activated by `ع ق د B015` waist-knot nearness, `ع ق د B016` enclosure around a place, and `ع و ذ B004` clinging close beside something. Mechanism: hollows and household goods turn darkness into an invasion of intimate spaces. I infer that the danger of night is its access to what is enclosed, close, and domestic. Reading change: the ayah protects not only a traveler outside but the interior space where hidden harm can enter.",
@@ -11189,14 +11925,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s113/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 37,
+        "ayah_count": 5,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11305,10 +12047,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s113/packets/113_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s113/readers/reader_hft_a/113_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s113"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s113",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 80227,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:28.359593+00:00",
+  "generated_at": "2026-08-18T13:34:37.020608+00:00",
   "surah": 108,
   "ayah": 3,
   "ayahRef": "108:3",
@@ -1567,7 +1567,8 @@
       "morpheme_ids": [
         "m-w-s108-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "108:3:1"
+      "aligned_qac_word_ref_upstream": "108:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1583,7 +1584,8 @@
         "m-w-s108-a003-w002-01",
         "m-w-s108-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:3:2"
+      "aligned_qac_word_ref_upstream": "108:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1597,7 +1599,8 @@
       "morpheme_ids": [
         "m-w-s108-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "108:3:3"
+      "aligned_qac_word_ref_upstream": "108:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1613,7 +1616,8 @@
         "m-w-s108-a003-w004-01",
         "m-w-s108-a003-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:3:4"
+      "aligned_qac_word_ref_upstream": "108:3:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1770,7 +1774,753 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s108/packets/108_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "108:3",
+      "window": [
+        "108:1",
+        "108:2",
+        "108:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "108:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_hostility_rebounds_as_cutoff",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic predicate construction identifies the agent noun from ش ن ء with the adjective from ب ت ر.",
+            "mechanism": "The judgment is not an unrelated insult added to hostility. The construction turns the consequence back onto hostility's bearer: the one who tries to negate the addressee is himself denied continuation in posterity, mention, good effect, or an undertaking brought to completion.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Hatred and enmity supply the hostile relation whose negating force is reversed onto its bearer."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Loss of posterity, mention, and good effect makes the predicate a verdict on failed continuation rather than only physical mutilation."
+              }
+            ],
+            "changed_reading": {
+              "before": "A hostile person receives a generic counter-insult.",
+              "after": "The hater's attempt to cancel the addressee rebounds as the hater's own failure to continue or leave good effect."
+            }
+          },
+          {
+            "model_id": "b_aversion_performs_self_severance",
+            "confidence": "medium",
+            "focus_anchor": "The agent noun from ش ن ء can carry recoil and distancing, while the predicate from ب ت ر names severance.",
+            "mechanism": "Aversive withdrawal is itself the cutting action. By recoiling from the addressee, the hater does not merely feel dislike but removes himself from a relation before its possibilities can mature, making the predicate an enacted result of his posture.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B002",
+                "role": "Disgusted avoidance contributes the motion of recoiling and supplies the mechanism of self-exclusion."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting turns withdrawal into an interrupted relation rather than a static emotional state."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B004",
+                "role": "Severed kinship gives the withdrawal a social form: the hater cuts a bond and thereby occupies the severed side."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hater is externally sentenced to isolation.",
+              "after": "His own disgusted distancing performs the severance named by the predicate."
+            }
+          },
+          {
+            "model_id": "b_failed_stigma_returns_to_evaluator",
+            "confidence": "exploratory",
+            "focus_anchor": "The emphatic identification restricts the adverse predicate to the hostile evaluator rather than the evaluated addressee.",
+            "mechanism": "The unpleasant-description branch lets hostility operate as stigmatizing evaluation. The focus construction refuses the hater's assignment of defect and makes the act of hostile description disclose the evaluator's own lack of enduring good or mention.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B004",
+                "role": "The branch supplies adverse characterization, allowing hatred to function as an attempted social label."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Cut-off mention and good effect relocate the lasting reputational defect onto the hostile evaluator."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse exchanges one negative description for another.",
+              "after": "It reverses a stigmatizing gaze: the hostile label fails to adhere to its target and exposes the labeler's own noncontinuance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_grant_turns_hostility_into_conceded_claim",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ط و"
+            ],
+            "mechanism": "Once a grant has been handed to the addressee, the rare acknowledgment-and-release branch of ش ن ء can activate a contest over entitlement. The hater becomes an unsuccessful counterclaimant who must yield the right he contests, while his challenge is the thing cut short.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Actual handing over establishes a completed transfer and therefore a possible contested entitlement."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B003",
+                "role": "Acknowledging and releasing a right supplies the surprising concession role for the hostile agent."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Cutting before completion makes the opponent's counterclaim, rather than the grant, the aborted undertaking."
+              }
+            ],
+            "structural_cues": [
+              "108:1 presents the grant as completed before the focus verdict.",
+              "The second-person recipient of the grant is also the person against whom the focus hostility is directed."
+            ],
+            "reader_inference": "The packet supplies a completed handover, a remote focus-root branch of conceding a right, and premature cutting; I infer a contested claim whose resolution forces the hater to yield. A live alternative is that giving only contrasts with loss and does not create a juridical scene.",
+            "changed_reading": {
+              "before": "The hater simply loses future standing.",
+              "after": "The prior grant makes him legible as a counterclaimant whose opposition concedes the addressee's right and fails before completion."
+            }
+          },
+          {
+            "model_id": "d_received_abundance_opens_continuity_channel",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "ك ث ر"
+            ],
+            "mechanism": "Handover plus numerical growth forms a source-recipient-future circuit. Against that circuit, the focus predicate no longer means only that the hater possesses little; it means that hostility has no access to the multiplying transmission of good, mention, and effect.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handover establishes the directional path by which good reaches the addressee."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Abundance and numerical growth extend the received good forward rather than leaving it a one-time possession."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Enmity marks the relation that cannot enter or cancel the transmission circuit."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Cut-off mention and good effect specify what exclusion from the expanding circuit costs the hater."
+              }
+            ],
+            "structural_cues": [
+              "The context begins with a completed first-person-plural grant to the same second-person addressee.",
+              "The focus verdict follows after the gift and its commanded response, making continuity and cutoff sequentially contrastive."
+            ],
+            "reader_inference": "The packet supplies handing over, growth, hostility, and loss of continuing effect; I infer a durable transmission circuit and treat the hater's cutoff as exclusion from it. A live alternative is a noncausal juxtaposition of abundance and privation.",
+            "changed_reading": {
+              "before": "The predicate describes the hater's private lack of descendants, renown, or good.",
+              "after": "It describes relational exclusion from a received good that continues to multiply beyond the hater's reach."
+            }
+          },
+          {
+            "model_id": "d_numerical_contest_becomes_temporal",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ث ر"
+            ],
+            "mechanism": "The outnumbering branch turns the contrast into a contest over scale, but the focus predicate changes the axis from present headcount to future persistence. A hostile party may possess many voices or claims now, yet loses the contest if its mention and good effect do not continue.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Outnumbering supplies an explicit competitive measure rather than undifferentiated plenty."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Multiplicity in companions, speech, or demands supplies the possible present social noise of the contest."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Loss of mention and good effect moves the decisive count from present quantity to persistence through time."
+              }
+            ],
+            "structural_cues": [
+              "The abundance term occurs before the singularly identified hater in the focus ayah.",
+              "The focus emphatic pronoun isolates the bearer of the cutoff despite any wider hostile plurality inferred from competitive abundance."
+            ],
+            "reader_inference": "The packet supplies outnumbering, many companions or claims, and interrupted mention; I infer that the text changes the scoreboard from present quantity to temporal endurance. A live alternative is that numerical competition is only a branch-level analogy.",
+            "changed_reading": {
+              "before": "Abundance and cutoff are opposite quantities.",
+              "after": "They are rival measures of success: current numerical pressure is defeated by the addressee's future continuity and the hater's vanishing effect."
+            }
+          },
+          {
+            "model_id": "d_worship_enters_completion_and_growth",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "ر ب ب"
+            ],
+            "mechanism": "The commanded act is directed into a field of worship, nurture, completion, and growth. That field converts the focus predicate from a generic fate into a contrast of trajectories: responsive alignment is formed and carried onward, while the hostile project is interrupted before attaining its end.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Specific worship supplies the responsive practice that follows reception of the gift."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture, repair, and completion supply the process by which a received good is brought to maturity."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped root contributes feeding and growth, keeping a second live route from lordly nurture to developing continuity."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Hostility supplies the counter-trajectory that tries to obstruct the formed response."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting names the failure of the hostile trajectory to reach completion."
+              }
+            ],
+            "structural_cues": [
+              "108:2 converts the completed gift of 108:1 into an imperative response directed to the addressee's Lord.",
+              "The focus verdict comes after the paired imperatives, so completion and interruption can be read as divergent outcomes of response and hostility."
+            ],
+            "reader_inference": "The packet supplies worship, nurturing completion, a split-root image of feeding and growth, and premature cutting; I infer that responsive alignment enables maturation while the hostile project aborts. A live alternative is a static lexical opposition between completion and cutting with no causal participation.",
+            "changed_reading": {
+              "before": "The hater is an already cut-off person.",
+              "after": "The hater occupies a failed trajectory: opposition cannot mature, while the addressee's responsive practice is nurtured into continuity."
+            }
+          },
+          {
+            "model_id": "d_following_procession_reframes_posterity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل و",
+              "ر ب ب"
+            ],
+            "mechanism": "The image of a runner following the one ahead, joined to abiding duration, recasts continuity as a procession rather than only biological descent. The addressee's response can be followed, repeated, and carried onward; the hater is the one who cannot take or transmit a place in that sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "Following the previous runner supplies a serial model in which continuity consists of taking one's place after another."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding and duration stabilize the procession as repeated continuity rather than a single act."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Interrupted posterity, mention, and good effect identify the hater as unable to continue in the sequence."
+              }
+            ],
+            "structural_cues": [
+              "The prefixed conjunction on the first imperative makes the commanded response follow the completed grant.",
+              "The two imperatives create repeatable acts before the focus verdict names the failed continuation."
+            ],
+            "reader_inference": "The packet supplies a following-runner image, duration, and lost posterity or mention; I infer a transmissible procession of practice and memory. A live alternative is that the racing image remains a remote lexical branch and biological or reputational continuity stays primary.",
+            "changed_reading": {
+              "before": "Posterity is primarily a genealogical possession.",
+              "after": "Posterity also becomes succession: being followed in responsive practice and good effect, a chain from which the hater is absent."
+            }
+          },
+          {
+            "model_id": "d_purposeful_cut_exposes_premature_cut",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ن ح ر"
+            ],
+            "mechanism": "The context places a commanded, directed chest-cut beside nurture and completion. This distinguishes a purposeful act that consummates a response from the focus root's cutting-before-completion: the hater is not condemned for every kind of cutting but for an abortive, nonfruitful interruption.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Completion supplies the telic frame within which the commanded cut can belong to a finished response."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Piercing the camel at the chest supplies a concrete, agentive cut performed under command."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Cutting something short before completion supplies the contrasting failed and untimely severance."
+              }
+            ],
+            "structural_cues": [
+              "The cutting imperative is directed to the Lord and immediately precedes the focus verdict.",
+              "The command is coordinated with worship, embedding the physical act in a completed response rather than random violence."
+            ],
+            "reader_inference": "The packet supplies a commanded chest-cut, nurture toward completion, and premature truncation; I infer a contrast in agency and telos between consummating sacrifice and abortive hostility. A live alternative is that the two cutting images are only material resonance.",
+            "changed_reading": {
+              "before": "The predicate treats all severance as undifferentiated loss.",
+              "after": "It marks specifically an untimely and fruitless interruption, contrasted with a deliberate cut integrated into a completed act."
+            }
+          },
+          {
+            "model_id": "d_facing_body_opposes_aversive_retreat",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ح ر"
+            ],
+            "mechanism": "The chest-facing-chest branch gives the context a bodily geometry of exposed encounter. Against it, the hater's disgusted recoil becomes a refusal to face relation, and severed kinship is the social result of that retreat.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B003",
+                "role": "Chest facing chest supplies frontal presence and embodied encounter."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B002",
+                "role": "Disgusted avoidance supplies the opposite motion of recoil and distance."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B004",
+                "role": "Severing kinship turns bodily retreat into a broken social bond."
+              }
+            ],
+            "structural_cues": [
+              "The facing image is activated by the second imperative immediately before the focus ayah.",
+              "The context addresses the recipient directly, while the focus shifts to a third-person hostile agent and emphatically isolates him."
+            ],
+            "reader_inference": "The packet supplies frontal encounter, aversive retreat, and severed kinship; I infer that refusal to face relation performs the cutoff. A live alternative is that the frontal branch stays a concrete idiom of ن ح ر with no interpersonal geometry.",
+            "changed_reading": {
+              "before": "The hater's cutoff is an externally imposed social fate.",
+              "after": "It is also spatially enacted: the one who recoils from encounter breaks the bond and leaves himself on the severed side."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_hostile_heat_becomes_formative_pressure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-dominant ص ل ي heat-and-straightening branch beneath a surface act of worship. It remains anchored through focus hostility and premature cutting, with lordly completion supplying the opposite outcome. Render it only as a material analogy in which pressure may form the addressee while the hostile project fails, never as a replacement gloss for the imperative.",
+            "focus_anchor": "The focus joins hostile force from ش ن ء to a ب ت ر predicate of failure before completion.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "The non-dominant split branch supplies heating that straightens or sets a thing, making pressure potentially formative."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion constrain the heat image toward formation rather than destruction."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Enmity supplies the adversarial pressure whose intended effect is being reversed."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting confines failure to the hostile undertaking rather than to the addressee's formation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hostility is merely an external attempt to damage, and the hater is separately cut off.",
+              "after": "As a contained material analogy, hostile pressure can be absorbed into the addressee's formation while the hostile undertaking itself fails to finish."
+            }
+          },
+          {
+            "outlier_id": "o_household_circulation_vs_kin_severance",
+            "confidence": "exploratory",
+            "containment": "This social reading is branch-distant because it combines service to family with the non-dominant ر ب و household branch. It remains validly anchored in the focus branch of severed kinship and in the same recipient-hostile relation. Render it as a possible network mechanism, not as a historical claim about a particular family or genealogy.",
+            "focus_anchor": "The ب ت ر predicate has an explicit severed-kinship branch, while the ش ن ء agent supplies the hostile bond-breaker.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B003",
+                "role": "Service and handing to family supply circulation of benefit through a household relation."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B007",
+                "role": "The non-dominant mapped branch supplies an extended household of close kin as the social network."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Enmity supplies the antagonistic relation that refuses household circulation."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B004",
+                "role": "Severing kinship makes the hater's exclusion a broken network tie rather than only lack of descendants."
+              }
+            ],
+            "changed_reading": {
+              "before": "Cutoff concerns an individual's missing posterity.",
+              "after": "Cutoff may describe refusal of a circulating household bond: benefit moves through relation while hostility severs its bearer from the network."
+            }
+          },
+          {
+            "outlier_id": "o_cloud_release_models_distributed_abundance",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain ecological activation built from remote cloud branches under ر ب ب and ن ح ر. It remains anchored because handover and growth precede a focus predicate of interrupted good effect, and the two cloud branches independently align as storage and release. Render it only as an exploratory flow model, not as a lexical claim that the context nouns or imperatives denote weather.",
+            "focus_anchor": "The focus predicate from ب ت ر can mark interruption of a good effect, allowing a distributed-flow analogy to specify what is interrupted.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handover supplies transfer from a source toward a recipient."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in abundance supplies the expanding effect of what is transferred."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "The cloud branch supplies gathered capacity held before release."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B009",
+                "role": "A cloud pouring out water supplies release and distribution from the gathered source."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Interrupted good effect identifies the hater as detached from the distributed consequences of abundance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hater lacks a private stock of posterity, mention, or good.",
+              "after": "In the contained ecological analogy, the hater is a severed route outside a gathered-and-released flow whose effects keep spreading."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The completed gift and growing abundance revise cutoff into exclusion from an expanding transmission circuit.",
+            "Worship joined to nurture, completion, and the split-root image of growth makes the hater's opposition an aborted trajectory rather than a static defect.",
+            "The following-runner and duration branches broaden posterity into succession of practice, memory, and good effect.",
+            "The commanded chest-cut distinguishes purposeful completion from the premature, fruitless cutting named in the focus predicate.",
+            "Frontal encounter versus disgusted recoil makes cutoff something hostility can spatially and socially enact upon itself."
+          ],
+          "what_was_special": "The focus construction already acts as a reversal engine: hostility's attempted negation returns as the hater's own noncontinuance. Context does not collapse that engine to one reading; it activates transfer, growth, competitive scale, formation, succession, purposeful cutting, and embodied facing, while split-root and material branches preserve stranger household, heat, and cloud-flow models under explicit containment.",
+          "remaining_uncertainties": [
+            "The causal arrows from gift or responsive worship to continuity are reader-supplied; the packet directly supplies the branch contrasts but not those directions.",
+            "The concession reading from ش ن ء is visibly packet-backed but form-distant from the ordinary agent noun and should remain exploratory.",
+            "The following-runner, heat, household, and cloud models depend on peripheral or non-dominant mapped branches; they are useful activations but should not replace surface syntax.",
+            "The focus permits biological, reputational, ethical, procedural, and relational kinds of continuation without forcing one of them to exclude the others."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The hater is cut off in the same public field where the addressee is raised.** Lexical evidence: ش ن ء B001, hatred and enmity; ب ت ر B002, cut-off progeny, renown, and good; س م و B005/B008, name as raised designation and good repute; ك ث ر B001/B002, abundance and outnumbering rivalry. Structural cue: the surah begins with raised naming and then gives “kawthar,” but ends by restricting “abtar” to “your hater” with هو. Assigned role: the hater supplies hostility; abtar supplies loss of continuation; s-m-w and k-th-r supply the counter-fields of elevated mention and abundant continuation. Abductive move: I infer that the hater’s attempt to damage the addressee’s name rebounds because the packet has already installed name-elevation and abundance. Reading change: the final ayah reads not as a bare insult but as a reversal of social erasure: the one who hates becomes the one whose trace is severed.\n\n2. **Hatred becomes aversive distancing that severs kinship.** Lexical evidence: ش ن ء B002, disgusted avoidance and recoiling from filth; ب ت ر B004, severing kinship; ر ح م B002/B003, kinship bond and womb. Structural cue: doubled ر ح م at the opening is answered by a final figure whose root-pair can describe disgusted distance plus kinship severance. Assigned role: sh-n-ʾ B002 explains the emotional/spatial recoil; b-t-r B004 supplies the social cut; r-h-m supplies the bond or generative enclosure being refused. Abductive move: I infer that hatred cuts the hater out of the mercy/kinship field, not merely out of numerical posterity. Reading change: “abtar” becomes relational exile: the hater is one who has made himself unable to remain in the womb/kinship circuit of mercy.\n\n3. **The hater is an unsuccessful claimant who must release what is not his.** Lexical evidence: ش ن ء B003, acknowledging and releasing a right; ع ط و B002, handing over and giving; ر ب ب B001, ownership and authority; ب ت ر B001/B002, cut short and cut off from good. Structural cue: the packet’s grant is explicitly from “we” to “you,” and the command directs the response to “your Rabb”; the hater appears only after this transfer and orientation have been established. Assigned role: sh-n-ʾ B003 supplies a latent legal/possessive action of conceding or giving out a right; Rabb supplies rightful ownership; the gift supplies authorized transfer. Abductive move: I infer that the enemy’s hostility masks a failed claim over honor, abundance, or authority, and that the established giver-owner relationship forces that claim out of his hand. Reading change: “shāniʾaka” can be heard not only as one who hates but as a dispossessed opposer whose stance results in concession and loss.\n\n4. **The final cut is the sterile opposite of sacrificial cutting.** Lexical evidence: ب ت ر B001, cutting something short before completion; ن ح ر B002, sacrificial slaughter; ن ح ر B004, mutual contention as throat-to-throat attack; ص ل و B003, prescribed worship. Structural cue: a commanded, God-directed nahr comes immediately before a hostile figure defined by abtar. Assigned role: nahr provides a ritually ordered cut; abtar provides a premature, fruitless cut; sh-n-ʾ provides the hostile will that belongs to the second kind. Abductive move: I infer a contrast between cutting that participates in worship and cutting that ends in severance. Reading change: “abtar” reads as the enemy’s failed anti-sacrifice: he is not merely defeated, but left with a cut that produces no worship, no gift, and no continuation.",
@@ -6164,14 +6914,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s108/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 27,
+        "ayah_count": 3,
+        "row_count": 20,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6275,10 +7031,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s108/packets/108_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s108/readers/reader_hft_a/108_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s108"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s108",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 36486,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

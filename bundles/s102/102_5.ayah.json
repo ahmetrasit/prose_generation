@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.779064+00:00",
+  "generated_at": "2026-08-18T13:34:29.096754+00:00",
   "surah": 102,
   "ayah": 5,
   "ayahRef": "102:5",
@@ -1719,7 +1719,8 @@
       "morpheme_ids": [
         "m-w-s102-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:5:1"
+      "aligned_qac_word_ref_upstream": "102:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1733,7 +1734,8 @@
       "morpheme_ids": [
         "m-w-s102-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:5:2"
+      "aligned_qac_word_ref_upstream": "102:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1749,7 +1751,8 @@
         "m-w-s102-a005-w003-01",
         "m-w-s102-a005-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:5:3"
+      "aligned_qac_word_ref_upstream": "102:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1763,7 +1766,8 @@
       "morpheme_ids": [
         "m-w-s102-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:5:4"
+      "aligned_qac_word_ref_upstream": "102:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1779,7 +1783,8 @@
         "m-w-s102-a005-w005-01",
         "m-w-s102-a005-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:5:5"
+      "aligned_qac_word_ref_upstream": "102:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1980,7 +1985,777 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:5",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_disclosure_threshold",
+            "confidence": "strong",
+            "focus_anchor": "The cognate verb-noun pairing at words 3-4 and the certainty qualifier at word 5.",
+            "mechanism": "Knowing appears both as an event and as a named state: disclosure must become settled enough to remove doubt, while the conditional leaves its consequence suspended.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the transition from merely lacking information to a matter becoming clear."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge with doubt removed supplies the threshold at which disclosure becomes determinative."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic wish that the addressees possessed more information.",
+              "after": "An unrealized epistemic threshold: were the matter to become clear and stabilize beyond doubt, an unstated consequence would follow."
+            }
+          },
+          {
+            "model_id": "b_landmark_certainty",
+            "confidence": "medium",
+            "focus_anchor": "The doubled root at words 3-4 permits the noun of knowing to be heard as a discriminating mark as well as an internal state.",
+            "mechanism": "A mark points beyond itself to an absent object; certainty is reached by following a reliable distinction rather than by possessing the object in immediate sight.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The distinguishing mark makes knowledge a guidance relation between a present sign and what it indicates."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The removal of doubt makes successful sign-reading terminate in a stable judgment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty is simply a high degree of subjective confidence.",
+              "after": "Certainty can be the stable result of correctly reading a distinguishing landmark that points beyond what is presently seen."
+            }
+          },
+          {
+            "model_id": "b_reservoir_certainty",
+            "confidence": "exploratory",
+            "focus_anchor": "The repeated root at words 3-4 carries a remote branch in which gathered abundant water is named from the same root.",
+            "mechanism": "Knowledge is provisionally imaged as an accumulated body rather than an isolated proposition; certainty gives that gathered content settledness.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B005",
+                "role": "The gathered body of water supplies a reservoir image for knowledge accumulating into a coherent whole."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settledness keeps the reservoir image tied to the focus construction's demand for doubt-ending knowledge."
+              }
+            ],
+            "changed_reading": {
+              "before": "Knowing is the possession of a discrete true proposition.",
+              "after": "Exploratorily, knowing with certainty is knowledge gathering into a settled reservoir whose accumulated weight could change conduct."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_metric_reorientation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Diversion relocates attention, while competitive increase supplies the metric that captures it. The focus therefore diagnoses not a blank mind but a mind using numerical superiority as its governing sign; certainty requires a change of criterion.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark makes focus-knowledge a criterion able to sort what matters from what merely multiplies."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-ending stability defines the endpoint of the required reclassification."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Occupation by one thing away from another supplies the attentional displacement that prevents disclosure."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Rivalry through number supplies the seductive but defective metric governing that displaced attention."
+              }
+            ],
+            "structural_cues": [
+              "102:1 names the diversion and its object before 102:5 presents the unrealized conditional.",
+              "The focus doubles the knowing root as verb and noun, giving its counter-criterion internal emphasis."
+            ],
+            "reader_inference": "The packet supplies displaced attention, numerical rivalry, a discriminating mark, and settled knowledge; I infer that the rival count functions as a false epistemic metric. A live alternative is simple distraction without any metric-switch mechanism.",
+            "changed_reading": {
+              "before": "The addressees merely need more facts.",
+              "after": "They already attend and measure intensely, but by the wrong sign: knowledge of certainty would replace competitive quantity with a doubt-ending criterion."
+            }
+          },
+          {
+            "model_id": "d_hidden_waypoint",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ر",
+              "ق ب ر"
+            ],
+            "mechanism": "A purposeful visit enters a lowered, concealed place. Read through the focus's landmark branch, certainty becomes navigational: it recognizes a place that appears terminal as a passage whose hiddenness must be read rather than mistaken for finality.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The guiding landmark lets focus-knowledge orient a reader through a place whose meaning is not visible on its surface."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled certainty prevents concealed terrain from being misread as an epistemic dead end."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The visitor's directed approach supplies motion toward a place without making that place a permanent endpoint."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Lowered concealment supplies the terrain through which the distinguishing mark must guide."
+              }
+            ],
+            "structural_cues": [
+              "102:2 couples directed visitation with a plural place of burial before the conditional focus ayah."
+            ],
+            "reader_inference": "The packet supplies visitation, concealment, guidance by a mark, and settledness; I supply the arrow from temporary approach through hidden terrain to waypoint rather than terminus. The live alternative is that visitation is only a conventional description and contributes no navigational model.",
+            "changed_reading": {
+              "before": "Knowledge of certainty is an abstract increase in conviction.",
+              "after": "It is also the orientation that reads a concealed apparent endpoint as a marked passage and therefore changes how one moves toward it."
+            }
+          },
+          {
+            "model_id": "d_temporal_fork",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م"
+            ],
+            "mechanism": "The same disclosure root is promised twice in the future, then the focus switches to a conditional and adds both a cognate noun and certainty. This makes the focus a temporal fork between anticipatory, conduct-changing knowledge and disclosure that will arrive later regardless.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure in the focus names a presently unrealized mode that could become internally clear."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled certainty distinguishes anticipatory knowing from a fleeting warning."
+              },
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The first future disclosure supplies the later, unavoidable side of the temporal fork."
+              },
+              {
+                "source_ref": "102:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Repeated future disclosure intensifies inevitability and prevents the focus conditional from meaning permanent unknowability."
+              }
+            ],
+            "structural_cues": [
+              "102:3 and 102:4 repeat the same future knowing clause, with 102:4 adding a sequence marker.",
+              "102:5 changes from future assertion to a conditional and expands the root into a verb-noun pairing qualified by certainty."
+            ],
+            "reader_inference": "The packet supplies repeated future disclosure and a subsequent conditional form of the same root; I infer a choice between knowing early enough to alter conduct and knowing later by compulsion. A live alternative is that all three clauses only accumulate emphasis without contrasting temporal modes.",
+            "changed_reading": {
+              "before": "The conditional states a static absence of certain knowledge.",
+              "after": "It offers a vanishing temporal alternative: settled disclosure could be received now, before the same matter becomes unavoidable future knowledge."
+            }
+          },
+          {
+            "model_id": "d_previsual_disclosure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م"
+            ],
+            "mechanism": "The focus's clear, settled knowing is followed by repeated seeing and showing of an intensely burning object. Knowledge of certainty thus becomes a pre-visual capacity to let signs disclose what later vision will force into encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Internal disclosure supplies a mode of access that can precede direct ocular encounter."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-ending stability allows pre-visual disclosure to count as certainty rather than conjecture."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Vision by eye or insight supplies the later encounter against which the focus's prior knowing is differentiated."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing something to appear makes the later stage an imposed manifestation, not merely stronger private confidence."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "The intensely blazing object gives the later sight material force and raises the cost of deferred disclosure."
+              }
+            ],
+            "structural_cues": [
+              "102:5 is immediately followed by two emphatic future seeing clauses in 102:6-7."
+            ],
+            "reader_inference": "The packet supplies prior settled disclosure, repeated vision or showing, and an intensely burning object; I infer that knowledge can internalize the warning before vision externalizes it. A live alternative is a single escalating rhetoric in which knowledge and sight are not distinct phases.",
+            "changed_reading": {
+              "before": "Knowledge of certainty is simply the strongest point on one scale of confidence.",
+              "after": "It is a distinct pre-visual mode: signs may disclose and settle the reality before that reality is forcibly manifested to sight."
+            }
+          },
+          {
+            "model_id": "d_sign_to_presence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ي ن",
+              "ي ق ن"
+            ],
+            "mechanism": "The same certainty qualifier attaches first to knowledge in the focus and later to the eye or the thing itself. The landmark branch of knowledge and the presence branch of eye form two coexisting modes: certainty through reliable indication and certainty through immediate presence.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A mark pointing beyond itself makes focus-knowledge mediated yet capable of reliable guidance."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settledness shows that mediation need not mean residual doubt."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself supplies immediate presence as the later counterpart to knowledge by a pointing mark."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The repeated certainty root holds the epistemic endpoint constant while the mode changes from sign to presence."
+              }
+            ],
+            "structural_cues": [
+              "The focus construction pairs knowledge with certainty, while 102:7 replaces knowledge with eye and repeats certainty."
+            ],
+            "reader_inference": "The packet supplies a guiding mark, the thing itself, and the repeated certainty qualifier; I infer a controlled contrast between mediated and immediate access. A live alternative is that the parallel constructions only intensify one undifferentiated certainty.",
+            "changed_reading": {
+              "before": "Knowledge of certainty is an inferior approximation awaiting real certainty.",
+              "after": "It can be fully settled certainty in a mediated mode, distinct from but coexisting with the later certainty of the thing's immediate presence."
+            }
+          },
+          {
+            "model_id": "d_hydraulic_circuit",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك ث ر",
+              "ر ء ي",
+              "ع ي ن"
+            ],
+            "mechanism": "The focus's remote gathered-water branch becomes more than a static reservoir: context supplies accumulation, quenching, and a spring. The resulting circuit contrasts hoarded increase with knowledge that reaches a source, circulates, and actually removes thirst.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B005",
+                "role": "Gathered abundant water anchors the hydrological model directly in the repeated focus root."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge keeps the water circuit functional as an image of doubt removed rather than free association."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "The gathering of a thing supplies accumulation, which can remain inert and competitive unless it becomes usable knowledge."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch of quenching thirst supplies the functional test for whether gathered knowledge transforms the knower."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies source and circulation, changing the focus reservoir from stored quantity into replenishing contact."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from accumulation in 102:1 through the repeated knowledge root in 102:5 to seeing and eye in 102:6-7."
+            ],
+            "reader_inference": "The packet supplies gathered water, accumulation, thirst's removal through a non-dominant split mapping, and a spring; I connect them into a water circuit and contrast storage with transformation. The materially live alternative is accidental lexical clustering, especially because the quenching branch belongs to the secondary mapped root.",
+            "changed_reading": {
+              "before": "The reservoir image suggests only that many pieces of knowledge have accumulated.",
+              "after": "Exploratorily, certainty distinguishes sterile accumulation from knowledge that reaches its source and quenches: a circuit, not a hoard."
+            }
+          },
+          {
+            "model_id": "d_answerable_certainty",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "Later questioning about a good or comfortable condition makes the focus's settled disclosure answerable. Knowledge is no longer private possession; it establishes the capacity and obligation to respond for how received ease was understood and used.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower supplies the cognition that can later ground an account rather than an excuse of opacity."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt removed gives the disclosed matter enough stability to bear practical responsibility."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Question and demand convert certainty from an inward state into a relation in which a response is owed."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefit identify the concrete field for which the knower becomes answerable."
+              }
+            ],
+            "structural_cues": [
+              "102:8 follows the two seeing clauses with a sequence marker and an emphatic passive future question."
+            ],
+            "reader_inference": "The packet supplies settled disclosure, questioning, and benefit; I infer that later interrogation retroactively gives focus-knowledge an ethical and relational function. A live alternative is that the question is merely a later consequence and does not characterize the knowledge in 102:5.",
+            "changed_reading": {
+              "before": "Certain knowledge is a private achievement of the mind.",
+              "after": "Certain knowledge is answerable knowledge: once disclosure settles, the knower stands in a response-bearing relation to the benefits that shaped conduct."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_guarded_certainty",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a remote nominal branch of the certainty root involving protection and seclusion. It remains anchored at focus word 5 and gains a real contrast from the later eye or thing-itself construction. Downstream prose should present it as a guardedness resonance, not as the lexical gloss of certainty.",
+            "focus_anchor": "Word 5 can carry a remote image of something protected from exposure, while the same root later stands beside the eye or thing itself.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B002",
+                "role": "Protection and seclusion image focus-certainty as guarded knowledge that need not yet be exposed to sight."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself supplies the later presence into which guarded, pre-visual certainty can emerge."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B002",
+                "role": "Repetition of the same remote branch preserves continuity between secluded knowing and later exposure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty means maximal exposure and cognitive openness from the outset.",
+              "after": "Exploratorily, knowledge of certainty may be guarded pre-visual knowledge whose truth is protected before it is brought into immediate presence."
+            }
+          },
+          {
+            "outlier_id": "o_knowledge_drawn_out",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the extraction image belongs to the non-dominant mapped root attached to the later questioning root. It remains anchored in the focus's disclosure branch and in a packet-resolved context citation. Downstream prose should call it a split-mapping abductive echo, never an etymology or direct translation.",
+            "focus_anchor": "The disclosure root at words 3-4 leaves knowing unrealized, while the later question activates both asking and a secondary image of something quietly drawn out.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "A matter becoming clear supplies the latent content that can either be received now or elicited later."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Question and demand provide the overt social mechanism by which an answer is required."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The secondary image of gently drawing something out turns questioning into exploratory extraction of what remained concealed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hypothetical knowledge is simply absent and can remain absent.",
+              "after": "Exploratorily, disclosure refused as voluntary knowing will later be drawn out under questioning, converting concealed knowledge into an answer."
+            }
+          },
+          {
+            "outlier_id": "o_oral_mark",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins two remote bodily branches with a later act of questioning. It remains anchored in the repeated focus root and produces an embodied change from intake to answer. Downstream prose should qualify it as a somatic branch-image constellation, not a claim about ordinary word meaning.",
+            "focus_anchor": "The repeated knowing root at words 3-4 has a branch of a visible upper-lip cleft, allowing certainty to become a bodily mark at the opening of speech.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B004",
+                "role": "A visible cleft at the upper lip makes knowing an embodied interruption and publicly legible mark at speech's threshold."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B004",
+                "role": "The flesh over the throat extends the image from lip to the inner threshold of intake and utterance."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning redirects the oral threshold from consumption or diversion toward an owed answer."
+              }
+            ],
+            "changed_reading": {
+              "before": "Knowledge of certainty is wholly invisible cognition.",
+              "after": "Exploratorily, it is a rupture that marks the body of speech: diversion at the mouth is interrupted so that the knower must become answerable."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The context turns ignorance from missing data into captured attention governed by a competitive numerical metric.",
+            "Repeated future knowing makes the focus conditional a temporal fork between anticipatory disclosure and later compulsory disclosure.",
+            "The parallel certainty constructions support coexisting mediated-sign and immediate-presence modes rather than a single confidence scale.",
+            "Later questioning makes settled knowledge relational and answerable, not merely private cognition."
+          ],
+          "what_was_special": "The focus-only landmark and reservoir branches remained live under context. They generated, respectively, a strong sign-to-presence reading and an exploratory hydraulic circuit in which certainty distinguishes transformative, source-connected knowledge from inert accumulation. Remote guarded, extractive, and oral images were retained with explicit containment rather than audited away.",
+          "remaining_uncertainties": [
+            "The omitted consequence of the conditional supports several directional arrows but does not itself select among them.",
+            "The parallel knowledge-certainty and eye-certainty constructions may mark stages, coexisting modes, or rhetorical intensification.",
+            "The hydraulic model depends partly on a non-dominant split-root branch and should remain exploratory.",
+            "The guarded and oral outliers are packet-anchored but form-distant, so their value is latent resonance rather than lexical paraphrase."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Absent certainty as the missing prevention.** Branch evidence: ع ل م B001, knowledge/recognition; ي ق ن B001, settled knowledge with doubt removed; ل ه و B001, being diverted; ك ث ر B002, rivalry. Structural cue: \"لو\" makes the knowledge counterfactual after two future warnings. Assigned role: علم اليقين is the stabilizing cognition that would have blocked لهو. Abductive move: I infer that the omitted answer to \"if you knew\" is \"you would not be diverted by rivalry.\" Reading change: the ayah reads as diagnosis of a missing kind of knowing, not merely a promise that knowledge will arrive.\n\n2. **Certainty as protected interior.** Branch evidence: ي ق ن B002, protected secluded girl; ق ب ر B002, hiddenness and inward sinking; ر ح م B003, womb; ع ل م B001, inner apprehension. Structural cue: the ayah speaks of \"knowledge of certainty\" before the later eye-certainty; earlier and later packet images include womb, grave, and direct exposure. Assigned role: يقين B002 supplies protected interiority; عين اليقين later supplies exposure. Abductive move: I infer a contrast between a guarded inward certainty and the later compulsory public sight. Reading change: the ayah can read as an inner, sheltered certainty that could have lived before exposure forced it. This is exploratory because يقين B002 is a narrow nominal branch, but the concealment/protection relation is structurally active.\n\n3. **Knowledge as a gathered reservoir against heat.** Branch evidence: ع ل م B005, large gathered water; ع ي ن B006, springing water-eye; ج ح م B001, blazing fire/intense heat. Structural cue: the phrase joins علم to يقين just before the promised sight of الجحيم and then عين اليقين. Assigned role: the water branches give علم/عين a material counter-image to fire. Abductive move: I infer that the packet's later heat retroactivates water-like knowledge as what would have cooled or answered it. Reading change: \"علم اليقين\" can read not only as epistemic certainty but as a stored, life-preserving resource lacking before the blaze appears.\n\n4. **The mark of certainty.** Branch evidence: ع ل م B002, distinguishing mark; ي ق ن B001, removal of doubt; ر ء ي B011/B012, visible marker and showing. Structural cue: knowledge is named twice in the ayah, then the object is shown. Assigned role: علم B002 turns certainty into a discriminating sign that marks reality before sight confirms it. Abductive move: I infer that true certainty leaves a visible orientation-marker in conduct. Reading change: the ayah reads as \"if your lives bore the mark of certainty,\" not only \"if you possessed information.\"",
@@ -7046,14 +7821,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7170,10 +7951,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 56023,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

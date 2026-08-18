@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.270060+00:00",
+  "generated_at": "2026-08-18T13:34:35.839088+00:00",
   "surah": 107,
   "ayah": 6,
   "ayahRef": "107:6",
@@ -1219,7 +1219,8 @@
       "morpheme_ids": [
         "m-w-s107-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:6:1"
+      "aligned_qac_word_ref_upstream": "107:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1233,7 +1234,8 @@
       "morpheme_ids": [
         "m-w-s107-a006-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:6:2"
+      "aligned_qac_word_ref_upstream": "107:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1249,7 +1251,8 @@
         "m-w-s107-a006-w003-01",
         "m-w-s107-a006-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:6:3"
+      "aligned_qac_word_ref_upstream": "107:6:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1973,7 +1976,662 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:6",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_audience_as_end",
+            "confidence": "strong",
+            "focus_anchor": "The plural Form III verb at word 3, rooted in ر ء ي, makes public seeing internal to the action rather than an accidental circumstance.",
+            "mechanism": "The act is arranged so that another person's sight completes it; recognition by an audience is the intended payoff.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "The branch literally supplies action done for people to see and makes their recognition the causal endpoint of the performance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Others happen to witness what they do.",
+              "after": "They do the act for the witnessing itself, making public recognition part of what the act is meant to produce."
+            }
+          },
+          {
+            "model_id": "baseline_mutual_gaze_circuit",
+            "confidence": "medium",
+            "focus_anchor": "The reciprocal morphology and plural subject at word 3 permit more than one-way exhibition: they support a socially completed exchange of looks.",
+            "mechanism": "The performers expose selected signs, spectators return recognition, and that returned recognition closes a mutual-visibility circuit.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "The branch literally supplies parties facing and seeing one another, turning the audience from a passive backdrop into the returning half of the circuit."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The branch literally supplies making something visible to another and assigns the performers the work of producing the sign that enters the circuit."
+              }
+            ],
+            "changed_reading": {
+              "before": "They display themselves before passive spectators.",
+              "after": "They stage a reciprocal encounter in which their visible signs solicit a confirming look from others."
+            }
+          },
+          {
+            "model_id": "baseline_public_surface_as_identity",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus root at word 3 includes visible appearance, mirror, and erected-marker branches, allowing the shown surface to stand in for the person.",
+            "mechanism": "A legible public surface is manufactured and then treated as an identity-marker; what can be seen substitutes for what cannot be inspected inwardly.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The branch literally supplies a visible aspect and mirror, enabling a projected surface to function as the inspectable version of the self."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B011",
+                "role": "The branch literally supplies a marker erected to be noticed and makes the displayed act a public sign of claimed identity."
+              }
+            ],
+            "changed_reading": {
+              "before": "They seek admiration for a particular deed.",
+              "after": "They erect a visible version of themselves and let that public surface certify who they claim to be."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_commanded_sight_exposes_staged_sight",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The opening summons the reader to inspect a person, while the focus person tries to manufacture what observers see. The repeated root therefore reverses control of the gaze: staged visibility is itself made an object of diagnostic visibility.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "The focus branch supplies conduct engineered for human sight and thus the appearance that the opening gaze must test."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The context branch literally supplies an alerting tell-me formula and recruits the reader's attention as an investigative gaze."
+              }
+            ],
+            "structural_cues": [
+              "The same root occurs first at 107:1 word 1 and returns at 107:6 word 3.",
+              "The packet moves from a singular relative person under inspection to the repeated plural frame الذين هم in 107:5-6."
+            ],
+            "reader_inference": "The packet supplies an opening attention-command and a later act made for observers; I infer a reversal from controlled appearance to diagnostic seeing. A live alternative is simple lexical echo without a contest over who controls the gaze.",
+            "changed_reading": {
+              "before": "They seek to be noticed.",
+              "after": "They try to control the visible evidence about themselves, but the surah's opening gaze instructs the reader to see through that controlled surface by following its social effects."
+            }
+          },
+          {
+            "model_id": "delta_false_surface_and_public_ledger",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The shown self becomes both a misleading outer condition and a posted public account: visible piety records social credit while concealed liability remains outside the display.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The focus branch supplies the inspectable appearance or mirror-surface on which a persuasive ethical image can be presented."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The branch literally supplies a garment whose condition misrepresents, making the public surface function as evidence that lies by how it looks."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "The branch literally supplies accounting and recompense, turning displayed virtue into an entry in a public moral ledger."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "The branch literally supplies financial debt and keeps an unpaid-liability model live beside the broader reckoning model."
+              }
+            ],
+            "structural_cues": [
+              "107:1 places denial and dīn in one clause before the sequence discloses the actor's conduct.",
+              "The repeated relative-clause chain identifies an otherwise hidden disposition through outward acts."
+            ],
+            "reader_inference": "The packet supplies deceptive outward condition plus account and debt images; I infer that the display posts visible credit against concealed liability. A live alternative takes dīn primarily as obedience or religion, weakening the ledger analogy without removing the surface/substance split.",
+            "changed_reading": {
+              "before": "They perform sincerely valued acts for the wrong motive of praise.",
+              "after": "They wear a visible ethical costume and post public credit for it, while the account that would test that credit remains unpaid."
+            }
+          },
+          {
+            "model_id": "delta_selective_field_of_visibility",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The performer occupies the center of mutual visibility by forcefully removing the person cut off from protection. Spectacle thus has a boundary: the claimant whose presence would test the shown identity is pushed out of frame.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "The focus branch supplies a face-to-face visible field and lets the context specify who is admitted to or expelled from that field."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The branch literally supplies forceful pushing and provides the spatial action by which an inconvenient person is removed from view."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The branch literally supplies a child cut off from a protector, identifying the vulnerable claimant whose exclusion preserves the performance."
+              }
+            ],
+            "structural_cues": [
+              "The deictic identification in 107:2 ties the person under inspection to the forceful act.",
+              "The packet places exclusion of the unprotected before the later public display."
+            ],
+            "reader_inference": "The packet supplies mutual visibility, forceful expulsion, and loss of protection; I infer that exclusion curates the performer's visible field. A live alternative treats expulsion and ostentation as separate traits with no spatial relation.",
+            "changed_reading": {
+              "before": "They want as many people as possible to see them.",
+              "after": "They curate who may enter the scene: approving witnesses are solicited, while the vulnerable witness whose need would falsify the image is driven outside it."
+            }
+          },
+          {
+            "model_id": "delta_captured_social_influence",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "Showing demonstrates an ability to organize attention, yet no urging travels outward toward feeding and stabilizing the person without secure subsistence. Public influence is captured around the performer instead of converted into care.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The focus branch literally supplies making a sign visible to others and therefore a channel through which the performer can direct collective attention."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "The branch literally supplies urging toward an action and marks the outward mobilization that the visible performance fails to generate."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "The branch literally supplies feeding another or responding to a request for food, giving the absent mobilization a concrete recipient and outcome."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "The branch literally supplies sustenance that lets a person remain settled and expands feeding from a momentary gift into material stabilization."
+              }
+            ],
+            "structural_cues": [
+              "107:3 negates urging before the prayer-and-display sequence begins.",
+              "The context moves from another person's material need to the performer's management of observers."
+            ],
+            "reader_inference": "The packet supplies absent urging, feeding, stabilizing sustenance, and later making-visible; I infer that attention is a transferable social capacity being captured rather than relayed. A live alternative reads the failures as cumulative but causally independent.",
+            "changed_reading": {
+              "before": "They use a good act to gain personal praise.",
+              "after": "They absorb a public's mobilizable attention into spectacle and fail to relay that social force toward nourishment and stability."
+            }
+          },
+          {
+            "model_id": "delta_attention_rerouted_into_spectators",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "Heedlessness does not leave the ritual empty: reciprocal human visibility supplies a replacement orientation. Prayer remains as form, but spectators become the operative point toward which attention is organized.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "The focus branch supplies mutual facing and lets human observers become the direction that replaces the prayer's lost inward attention."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The branch literally supplies the specified act of worship, preserving the ritual form whose effective orientation is being tested."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The branch literally supplies a lapse of the heart and opens the attentional vacancy that audience-consciousness can occupy."
+              }
+            ],
+            "structural_cues": [
+              "107:5 and 107:6 repeat the full frame الذين هم in adjacent clauses.",
+              "The focus clause follows immediately after heedlessness concerning their prayer."
+            ],
+            "reader_inference": "The packet supplies worship, heart-lapse, and reciprocal visibility; I infer that attention is rerouted to spectators rather than merely absent. A live alternative treats heedlessness and showing as separate defects that happen to co-occur.",
+            "changed_reading": {
+              "before": "They are distracted in prayer and also show off.",
+              "after": "Their attention has not simply disappeared; it has changed destination, with the spectators' gaze becoming the effective orientation of the retained ritual form."
+            }
+          },
+          {
+            "model_id": "delta_one_way_recognition_economy",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The display imports recognition but exports no assistance: gaze is drawn toward the performer, while hand and help are barred from traveling outward. The focus becomes the intake valve of a one-way social economy.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The focus branch literally supplies producing something for another to see and establishes the inward flow of recognition."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The branch literally supplies holding the hand back from giving and closes the outward material channel."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "The mapped branch literally supplies assistance and identifies what the closed outward channel would otherwise convey."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent plural verbs in 107:6-7 place making-visible and withholding in direct sequence.",
+              "The conjunction at 107:7 binds the withheld assistance to the already described performers."
+            ],
+            "reader_inference": "The packet supplies incoming visibility, a hand held back, and assistance; I infer opposite directional flows in one social economy. A live alternative reads praise-seeking and stinginess as two independent items in a list.",
+            "changed_reading": {
+              "before": "They seek notice and, separately, refuse small help.",
+              "after": "They take recognition from the social field while preventing assistance from returning to it: visibility flows in, help does not flow out."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_relayed_reputation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant split mapping from the focus root into report-transmission. It remains anchored at focus word 3 and explains why an audience matters beyond the immediate scene; downstream prose should present it only as a split-root resonance, not as the verb's lexical translation.",
+            "focus_anchor": "The non-dominant mapped inventory attached to focus word 3 permits the visible act to be pre-shaped for retelling.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The split-mapped branch literally supplies transmission of reports or poetry and turns observers into carriers of the performer's desired reputation."
+              }
+            ],
+            "changed_reading": {
+              "before": "They want the people present to see them.",
+              "after": "They shape the performance so that witnesses can relay a favorable account after the scene has ended."
+            }
+          },
+          {
+            "outlier_id": "outlier_prayer_as_status_race",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a racing image from the prayer root's inventory rather than the ritual sense. It remains anchored through the context prayer at 107:4 and the focus root's mutual visibility; downstream prose should qualify it as a social-ranking analogy, not an etymology of prayer.",
+            "focus_anchor": "Mutual visibility at focus word 3 can make the displayed ritual comparative: each performer locates himself by watching and being watched by peers.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "The focus branch literally supplies parties in one another's visible range and provides the peer field in which comparative standing can emerge."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The context branch literally supplies following the leader in a race and makes displayed worship an exploratory vehicle for status positioning."
+              }
+            ],
+            "changed_reading": {
+              "before": "They seek undifferentiated praise for praying.",
+              "after": "They enter a visible status race, measuring their place behind or against other performers through the observers' response."
+            }
+          },
+          {
+            "outlier_id": "outlier_hidden_star_beneath_flag",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from an obscure-star image to an erected visible marker. It remains anchored in the adjacent heedlessness and focus visibility cues and preserves a sharp hidden/conspicuous contrast; downstream prose should render it as imagistic diagnosis, not lexical equivalence.",
+            "focus_anchor": "The focus display can be carried as a conspicuous identity-marker precisely where inward orientation has become hard to detect.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B011",
+                "role": "The focus branch literally supplies a raised marker meant to be noticed and gives the outer identity maximal legibility."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "The context branch literally supplies a faint hidden star and figures the nearly imperceptible inward point beneath the conspicuous marker."
+              }
+            ],
+            "changed_reading": {
+              "before": "They make their piety conspicuous.",
+              "after": "They raise a bright public flag over an inward point that has become as difficult to find as a faint star."
+            }
+          },
+          {
+            "outlier_id": "outlier_hydraulic_repletion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it relies on the focus root's non-dominant water-and-quenching mapping and extends it through food and assistance. It remains packet-anchored and yields a coherent provisioning contrast; downstream prose should label it a material analogy rather than a semantic gloss of the focus verb.",
+            "focus_anchor": "The split-mapped focus inventory permits a contrast between appearing socially replete and actually carrying provision to others.",
+            "activation_trace": [
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "The split-mapped branch literally supplies quenching and fullness and lets the public image appear socially satisfied or replete."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "The split-mapped branch literally supplies carrying water to people and introduces the outward provisioning movement missing from mere replete appearance."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "The context branch literally supplies feeding another and gives the provisioning flow a concrete material analogue."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "The mapped context branch literally supplies assistance and extends the absent outward flow beyond food to ordinary support."
+              }
+            ],
+            "changed_reading": {
+              "before": "They cultivate an attractive public image while neglecting generosity.",
+              "after": "They appear socially full and quenched while refusing to become carriers through whom nourishment and assistance reach anyone else."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening commanded gaze reverses the focus gaze: the reader is asked to inspect the people who try to control how they are seen.",
+            "The context turns display into a false surface and public ledger whose credits are contradicted by excluded and unfed claimants.",
+            "Heedlessness and display form an attentional transfer: spectators replace the lost orientation of the retained prayer form.",
+            "The adjacent withholding clause exposes a one-way economy in which recognition flows toward the performer while assistance is blocked from flowing outward."
+          ],
+          "what_was_special": "The single focus root generated not only ostentation but reciprocal visibility, surface-as-identity, diagnostic reversal, attention capture, and several contained split-root resonances. The context repeatedly changed seeing from a private motive into a social routing mechanism governing who is visible, what attention does, and which benefits can move.",
+          "remaining_uncertainties": [
+            "The reciprocal-gaze model may overread Form III morphology; an audience-as-end model remains the firmer baseline.",
+            "The ledger, selective-frame, and attention-transfer mechanisms require reader-supplied causal arrows even though every supplied element is packet-anchored.",
+            "The report, race, hidden-star, and hydraulic readings are live image-level activations, not lexical claims, and depend on the stated containment."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Public visibility closes the opening question.** Evidence: `ر ء ي B005` showing off before people, activated by `ر ء ي B013` tell-me formula and `ر ء ي B001` seeing/insight in 107:1. Structure: the surah starts by asking the hearer to see and then identifies people who act to be seen. Mechanism: the object of diagnosis manipulates the same visual field used for diagnosis. Abductive move: I supply the recursive visual mechanism; the packet supplies repeated root and ostentation branch. Reading change: يراءون is not an extra vice but the answer to “Have you seen?”\n\n2. **Mirror appearance replacing inner judgment.** Evidence: `ر ء ي B006` visible appearance/mirror and `ر ء ي B002` reflective judgment; activated by `س ه و B001` heart-heedlessness in 107:5. Structure: immediately after inattentive prayer, the visual surface becomes dominant. Mechanism: the mirror-like surface substitutes for inner رأي and attention. Abductive move: I infer displacement from inward judgment to outward appearance; the packet supplies mirror/appearance and heart-judgment branches. Reading change: ostentation reads as epistemic corruption: appearance governs what should have been insight.\n\n3. **Mutual visibility as social theater.** Evidence: `ر ء ي B004` mutual visibility/facing, with `ر ء ي B005` showing off; activated by plural praying group in 107:4-5. Structure: repeated plurals create a scene of people facing and seeing each other. Mechanism: worship becomes a field of reciprocal spectatorship. Abductive move: I infer audience formation from plural morphology and mutual-visibility branch; the packet supplies both. Reading change: the ayah expands from one hypocritical display to a social theater of religious reputation.\n\n4. **Raised repute versus divine Name.** Evidence: `ر ء ي B005` includes ostentation and reputation, activated by `س م و B008` good repute spread and `س م و B005` name as raised designation. Structure: beginning-name and near-ending display compete. Mechanism: the performer seeks a raised social name through acts that should have been under the divine Name. Abductive move: I supply the competition of reputational elevation; the packet supplies name/repute and showing-off. Reading change: يراءون becomes a counter-basmalah: action done in the name of audience.",
@@ -10785,14 +11443,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10989,10 +11653,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 79900,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

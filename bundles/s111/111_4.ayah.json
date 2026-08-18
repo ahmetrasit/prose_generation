@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.414942+00:00",
+  "generated_at": "2026-08-18T13:34:40.909604+00:00",
   "surah": 111,
   "ayah": 4,
   "ayahRef": "111:4",
@@ -1562,7 +1562,8 @@
       "morpheme_ids": [
         "m-w-s111-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:4:1"
+      "aligned_qac_word_ref_upstream": "111:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1578,7 +1579,8 @@
         "m-w-s111-a004-w001-02",
         "m-w-s111-a004-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "111:4:2"
+      "aligned_qac_word_ref_upstream": "111:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1592,7 +1594,8 @@
       "morpheme_ids": [
         "m-w-s111-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:4:3"
+      "aligned_qac_word_ref_upstream": "111:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1608,7 +1611,8 @@
         "m-w-s111-a004-w003-01",
         "m-w-s111-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:4:4"
+      "aligned_qac_word_ref_upstream": "111:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2703,7 +2707,1151 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s111/packets/111_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "111:4",
+      "window": [
+        "111:1",
+        "111:2",
+        "111:3",
+        "111:4",
+        "111:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ي د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001693",
+              "furuq_root_norm": "ي د ي",
+              "furuq_source_root_norm": "ي د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 107,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000071",
+              "furuq_root_norm": "ء ي د",
+              "furuq_source_root_norm": "أ ي د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "111:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_outward_fuel_logistics",
+            "confidence": "strong",
+            "focus_anchor": "The agent noun حَمَّالَةَ governs the genitive cargo ٱلْحَطَبِ and is predicated of ٱمْرَأَتُهُ.",
+            "mechanism": "The intensive feminine carrier, outward-load branch, and gathered-fuel branch form a compact supply chain: a human agent repeatedly turns scattered wood into portable ignition stock.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The person-and-woman branch fixes the wife as the human operator of the mechanism."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "The outward-load branch supplies recurrent lifting, transport, and delivery as her role."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "The gathered-firewood branch identifies the cargo as prepared fuel rather than an inert object."
+              }
+            ],
+            "changed_reading": {
+              "before": "A wife is labeled as someone carrying firewood.",
+              "after": "The line depicts a repeated fuel-supply operation, with the wife as the active logistical hinge between gathering and ignition."
+            }
+          },
+          {
+            "model_id": "baseline_social_ignition_bearer",
+            "confidence": "medium",
+            "focus_anchor": "حَمَّالَةَ ٱلْحَطَبِ remains a carrying construction, while the cargo root itself contains the tale-bearing idiom.",
+            "mechanism": "The firewood branch converts reports, slander, or agitation into portable fuel; intensive carrying makes social harm a repeated traffic rather than a single utterance.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch retains a concrete accountable agent behind the figurative traffic."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "The outward-bearing branch makes harmful material transferable from one social location to another."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "The tale-bearing branch supplies the explicit social image of carrying material that kindles harm between people."
+              }
+            ],
+            "changed_reading": {
+              "before": "The cargo is physical wood for a physical fire.",
+              "after": "The cargo can coexist as transported speech or agitation whose social effect is to furnish a fire."
+            }
+          },
+          {
+            "model_id": "baseline_indiscriminate_bundle",
+            "confidence": "medium",
+            "focus_anchor": "The intensive حَمَّالَةَ is attached to حَطَب, whose inventory includes the night gatherer who cannot inspect the bundle.",
+            "mechanism": "Repeated gathering becomes indiscriminate accumulation: good and bad material are bundled together, the load grows through unexamined collection, and the collector is exposed to the danger inside it.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "The strained self-burdening branch supplies the mounting cost of carrying what has been accumulated."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "The night-gatherer branch contributes blind mixture, excess, and the risk that the gathered bundle harms its gatherer."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carrier knowingly assembles a uniform and useful load.",
+              "after": "The title also pictures compulsive, poorly discriminating accumulation whose burden and hidden contents recoil on the collector."
+            }
+          },
+          {
+            "model_id": "baseline_inverted_fruition",
+            "confidence": "exploratory",
+            "focus_anchor": "A woman is named by an intensive form from ح م ل, but what she bears is dead combustible wood.",
+            "mechanism": "The inward-bearing and tree-fruit branch of carrying activates gestation and fruition, while the cargo branch includes vine wood cut down for fuel. The result is an anti-fruit image: bearing yields combustible residue rather than life or nourishment.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch makes the gestational resonance embodied rather than merely botanical."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "The inward-bearing and fruit branch supplies pregnancy and a tree carrying its yield as the latent positive pattern."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "The fuel branch includes cut vine wood, replacing living yield with dry material prepared for burning."
+              }
+            ],
+            "changed_reading": {
+              "before": "A woman bears an external load of wood.",
+              "after": "Her bearing can also register as inverted generativity: the expected fruit of woman or tree has become dead fuel."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_ruined_household_production",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ب ب",
+              "ي د ي",
+              "م و ل",
+              "ك س ب"
+            ],
+            "mechanism": "Hands, wealth, and acquisition establish a household economy of productive agency, but ruin cancels its yield. Against that sequence, the wife's intensive labor is productive at the wrong end: she accumulates and delivers the fuel into which the household's gains collapse.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Outward carrying gives the wife a repeated productive task within the proposed household economy."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Gathered fuel is the destructive output that answers the context's failed useful output."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "The doubled ruin branch supplies the terminal loss governing both agents' activity."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "The what-the-hands-earned branch connects bodily agency to accountable production."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The accumulation-of-wealth branch supplies the household's apparent stock of value."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "The seeking-and-obtaining-benefit branch supplies purposive gain as the process reversed by her fuel gathering."
+              }
+            ],
+            "structural_cues": [
+              "Ruin and hands precede the failed wealth-and-earnings clause, while the wife's intensive work follows as a second form of accumulation.",
+              "The possessive pair his wealth and his wife permits, without requiring, a household-level parallel."
+            ],
+            "reader_inference": "The packet supplies ruin, hand-produced accountability, wealth, acquisition, and carried fuel; I infer a parallel economy whose useful yield reverses into combustible output. A live alternative is that the husband and wife receive separate condemnations with no production symmetry.",
+            "changed_reading": {
+              "before": "Her firewood carrying is an isolated occupation or insult.",
+              "after": "Her carrying becomes the counter-production of a ruined household: what its hands accumulate no longer avails and is answered by an accumulation that feeds destruction."
+            }
+          },
+          {
+            "model_id": "delta_name_to_flame_supply_chain",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه ب"
+            ],
+            "mechanism": "The same root first supplies a name or epithet and later an actual tongue of fire. The carrier of fuel is the causal middle that converts a socially borne flame-name into an experienced flame environment.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "The outward-load branch makes her the transporter that closes the circuit."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Prepared firewood supplies the material bridge from nominal flame to actual combustion."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The name-and-epithet branch establishes flame first as personal designation."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The tongue-and-ignition branch realizes that designation as an active burning medium."
+              }
+            ],
+            "structural_cues": [
+              "The flame root recurs at the man's naming and at the fire description, followed immediately by the wife and her fuel.",
+              "The focus line supplies the missing material operation between label and combustion."
+            ],
+            "reader_inference": "The packet supplies the epithet branch, literal flame, carried load, and fuel; I infer a name-to-fate conversion with the wife as supplier. The alternative is simple word repetition with no causal role assigned to verse 4.",
+            "changed_reading": {
+              "before": "She carries fuel toward a fire unrelated to the man's designation.",
+              "after": "Her labor makes the flame-name materially self-realizing, so identity, supply, and punishment form one combustion circuit."
+            }
+          },
+          {
+            "model_id": "delta_autonomous_feminine_agency",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ن ي"
+            ],
+            "mechanism": "The context root's self-sufficient-woman branch presses against reading his wife as a passive appendage. Her intensive carrier title instead marks sustained agency of her own within the shared catastrophe.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch gives the relational noun an independently human referent."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Repeated outward bearing supplies her own ongoing action rather than borrowed culpability."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B005",
+                "role": "The self-sufficient-woman branch activates feminine independence inside a verse otherwise framed by what failed to avail him."
+              }
+            ],
+            "structural_cues": [
+              "The conjunction introduces the wife after the man's announced fire encounter and gives her a distinct intensive predicate.",
+              "The possessive his wife marks relation, but the carrier construction assigns action directly to her."
+            ],
+            "reader_inference": "The packet supplies a self-sufficient-woman image, an explicit woman, and her repeated work; I infer a corrective to appendage-reading. The live alternative is that the غ ن ي branch is only remote polysemy and the possessive relation remains foregrounded.",
+            "changed_reading": {
+              "before": "The wife appears chiefly as an extension of her husband's identity and fate.",
+              "after": "The line isolates a co-agent whose repeated carrying grounds an autonomous share in the mechanism."
+            }
+          },
+          {
+            "model_id": "delta_follower_into_combustion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل ي"
+            ],
+            "mechanism": "Both mapped inventories for the preceding fire verb preserve the image of a second runner following the first. Verse order then becomes kinetic: the man enters the fire clause first, and his wife follows carrying what sustains it.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch identifies the second member of the paired sequence."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Her outward load gives the follower a distinct function rather than making her a duplicate of the first figure."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The dominant mapped inventory contributes the race image in which the second follows immediately behind the leader."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The non-dominant mapped inventory independently preserves the same following-the-precedent motion."
+              }
+            ],
+            "structural_cues": [
+              "The masculine future fire clause in 111:3 is followed directly by and his wife in 111:4.",
+              "The wife's cargo differentiates her place in the sequence: she follows while servicing the shared combustion."
+            ],
+            "reader_inference": "The packet supplies a fire encounter, two convergent follower branches, and immediate husband-then-wife order; I map race succession onto discourse succession. The alternative is ordinary sequential mention without an enacted following motion.",
+            "changed_reading": {
+              "before": "Verse 4 is a static portrait placed after the man's punishment.",
+              "after": "The placement can enact tandem movement: she comes after him into the combustion sequence, bearing its continuing supply."
+            }
+          },
+          {
+            "model_id": "delta_social_fire_becomes_literal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه ب",
+              "ن و ر"
+            ],
+            "mechanism": "The focus idiom supplies tale-bearing that kindles harm, the fire root supplies feud among people, and flame supplies realized ignition. Social combustion and literal combustion are not alternatives here; the latter becomes a material return of the former.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Outward transport turns harmful speech into something repeatedly moved between parties."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "The tale-bearing branch explicitly provides speech or agitation as fire-kindling cargo."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The flame-tongue branch gives the social kindling a literal endpoint in active fire."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "The feud-among-people branch supplies the intermediate social blaze produced by tale-bearing."
+              }
+            ],
+            "structural_cues": [
+              "The literal fire clause immediately precedes the focus idiom whose own inventory names social kindling.",
+              "Tongue-like flame and transported speech permit a cross-domain echo without erasing either domain."
+            ],
+            "reader_inference": "The packet supplies tale-bearing, interpersonal feud, and literal flame; I infer a mirrored causal progression from carried speech to social ignition to returned fire. The alternative keeps the idiom moral and the punishment image physically separate.",
+            "changed_reading": {
+              "before": "Tale-bearing is a free-standing metaphor beside an unrelated fire punishment.",
+              "after": "Her social ignition and the literal flame form a reversible mirror: the kind of fire she transports becomes the environment that receives the pair."
+            }
+          },
+          {
+            "model_id": "delta_counter_lineage_and_dead_yield",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ب و",
+              "ن و ر",
+              "ح ب ل"
+            ],
+            "mechanism": "Fatherhood and nurture, womanhood, pregnancy or fruit-bearing, tree blossom, and pregnancy again assemble a generative field around the focus. Yet the intensive bearer produces cut fuel. The household is rendered as a counter-lineage whose yield is not child, fruit, or flower but dead combustible stock.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch supplies the embodied member of the generative field."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "Pregnancy and tree-fruit bearing supply the expected forms of living yield that the focus reverses."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "The gathered-fuel branch, including vine wood cut for burning, supplies the dead anti-yield."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The fatherhood-and-nurture branch places generative kinship at the household's named pole."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B004",
+                "role": "The tree-flower branch supplies living emergence before the image collapses into cut fuel."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B006",
+                "role": "The extended-pregnancy branch reactivates inward bearing at the rope word and sharpens the embodied inversion."
+              }
+            ],
+            "structural_cues": [
+              "A father epithet and his wife frame a household relation, while the wife's predicate names intensive bearing.",
+              "The sequence moves through fire, bearer, wood, and cord, allowing living growth and dead material to exchange places."
+            ],
+            "reader_inference": "The packet supplies kinship, woman, gestation or fruit, flower, and cut fuel; I infer a deliberately inverted generative system whose output is combustible. The live alternative is accidental cross-branch resonance with no lineage-level mechanism.",
+            "changed_reading": {
+              "before": "The woman's cargo has no relation to household generation or vegetal growth.",
+              "after": "The cargo becomes a dead counter-fruit, making the couple's household productive only of material for its own burning."
+            }
+          },
+          {
+            "model_id": "delta_carrying_gear_becomes_bond",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ي د",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "The focus carrier branch includes straps and carrying gear; the next line places an extended binding rope, explicitly twisted, at her neck. A tool that would organize and bear the fuel reverses direction and organizes, leads, or bears the carrier herself.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B006",
+                "role": "The carrying-gear and strap branch supplies the practical apparatus by which a load would normally be secured."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Gathered fuel supplies the bundle for which such carrying gear would ordinarily be used."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck branch relocates the apparatus from cargo-management to the carrier's body."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "The extended rope that binds or leads supplies restraint and directed motion."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "The twisted-cord branch gives material construction and tension to the restraining apparatus."
+              }
+            ],
+            "structural_cues": [
+              "The neck-rope line follows the carrier-and-cargo line without an intervening scene change.",
+              "Carrier, load, cord, and neck form one contiguous material arrangement."
+            ],
+            "reader_inference": "The packet supplies carrying gear, a fuel bundle, neck, binding rope, and twist; I infer that the load-securing apparatus reverses onto its operator. A live alternative treats the rope as a wholly separate punishment image with no transport function.",
+            "changed_reading": {
+              "before": "She controls a load with whatever gear carrying requires.",
+              "after": "The logistics invert: the line of support becomes a line of capture, and the former carrier is now the item bound, led, or borne."
+            }
+          },
+          {
+            "model_id": "delta_anti_ornament_status_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ل",
+              "ج ي د",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "Failed wealth activates the neck as a site where status could be displayed, while the rope inventory offers necklace ornament and the cord material offers black hide. The carrier's work strap or restraint becomes anti-jewelry: accumulated status is replaced by the visible material of burden.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch keeps the status reversal attached to the wife rather than to an abstract household."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B006",
+                "role": "The strap-and-carrying-gear branch supplies the laboring counterpart to ornament."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the status resource whose failure makes the material reversal legible."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck branch provides the bodily display site shared by necklace and restraint."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B008",
+                "role": "The necklace-jewelry branch makes the cord capable of evoking adornment before reversing it."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B006",
+                "role": "The black-hide branch gives the anti-ornament a coarse visible material."
+              }
+            ],
+            "structural_cues": [
+              "The failed wealth claim precedes the wife's occupational title and the object placed at her neck.",
+              "Necklace and load strap occupy the same bodily zone but encode opposed social values."
+            ],
+            "reader_inference": "The packet supplies failed wealth, carrying gear, a neck, necklace imagery, and black hide; I infer a status-to-burden reversal. The alternative is that the cord has no ornamental echo and functions only as restraint.",
+            "changed_reading": {
+              "before": "The neck cord merely adds a second punitive object after the firewood.",
+              "after": "The carrier's cord also reads as anti-ornament, publicly replacing household wealth and display with labor, exposure, and restraint."
+            }
+          },
+          {
+            "model_id": "delta_conjugal_tie_materializes",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ ن ي",
+              "ح ب ل"
+            ],
+            "mechanism": "The focus possessive names a wife, the context inventory activates marriage, and the rope inventory activates covenant, protection, and connection. The social tie binding the pair can therefore materialize as the cord that binds her fate to his, with protection reversed into exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman-and-wife referent supplies the explicit conjugal relation to be materialized."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B006",
+                "role": "The marriage branch makes conjugality an activated context image rather than an inference from possession alone."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "The covenant, safety, and connection branch supplies a relational bond whose protective direction can be reversed."
+              }
+            ],
+            "structural_cues": [
+              "His wife in 111:4 becomes her neck in 111:5, carrying the relational pronouns from couple to embodied bond.",
+              "The husband receives the fire clause immediately before the wife receives carrier and cord clauses."
+            ],
+            "reader_inference": "The packet supplies wife, marriage, and a protective connecting bond; I infer that shared culpability turns conjugal connection into material fastening. The live alternative is that marriage remains mere identification and the cord is exclusively literal.",
+            "changed_reading": {
+              "before": "His wife is only a kinship label identifying the next punished person.",
+              "after": "The kinship tie itself becomes mechanistic: a bond that might protect or connect instead fastens the couple into one destructive circuit."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_legal_surety_for_loss",
+            "confidence": "exploratory",
+            "containment": "This is surprising because legal indemnity is distant from the concrete carrier-plus-firewood syntax. It remains live because ح م ل directly supplies suretyship and the context supplies ruined wealth and acquisition; downstream prose should present it as a secondary legal resonance, not as a replacement translation of حَمَّالَةَ.",
+            "focus_anchor": "The intensive carrier noun is from ح م ل and its direct object-domain remains the fuel named by ح ط ب.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman branch identifies the household member imagined as bearing liability."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B004",
+                "role": "The guarantee-and-indemnity branch supplies legal or financial burden-bearing beneath the physical load."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "The fuel branch keeps the legal resonance tethered to the line's explicit cargo and destructive output."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Ruin supplies the loss for which the surety image imagines liability."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the financial field in which indemnity becomes audible."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Acquisition supplies accountable proceeds whose destructive liability she may be heard as sharing."
+              }
+            ],
+            "changed_reading": {
+              "before": "She bears only the physical weight of fuel.",
+              "after": "She can faintly resonate as the household's surety, bearing liability for the destructive economy whose material token is firewood."
+            }
+          },
+          {
+            "outlier_id": "outlier_double_self_snare",
+            "confidence": "medium",
+            "containment": "The trap reading is cross-domain because neither verse calls the wood bundle a snare. It remains anchored by the focus branch in which a blind gatherer may be harmed by what is collected and by two context roots with explicit trap images; downstream prose should mark the double-snare connection as an abductive pattern.",
+            "focus_anchor": "حَمَّالَةَ ٱلْحَطَبِ names the gathering-and-carrying process whose own cargo can conceal danger.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Outward carrying supplies the movement by which the hidden danger is brought along."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "The night-gatherer branch supplies uninspected collection and harm emerging from one's own bundle."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "The trap-and-snare branch makes the preceding fire encounter available as one capture mechanism."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "The catching-snare branch makes the following rope a second capture mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "She deliberately carries a dangerous but fully known cargo.",
+              "after": "Her repeated gathering becomes a self-ensnaring process bracketed by a fire-trap before it and a rope-trap after it."
+            }
+          },
+          {
+            "outlier_id": "outlier_carrier_becomes_cargo",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it collapses agent and object rather than preserving the ordinary syntax. It remains branch-anchored through dry-wood emaciation, a shaped body, and burning fire; downstream prose should render it only as a material analogy in which punishment makes the carrier resemble her cargo.",
+            "focus_anchor": "The same focus construction places the woman's carrying body directly beside the dry-wood cargo root.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "The outward-carrier branch supplies the initial agent side of the reversal."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B004",
+                "role": "The emaciation-like-dry-wood branch allows the cargo's material quality to migrate onto the carrier's body."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The kindled-fire branch supplies the environment in which wood-like body and fuel become materially continuous."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B002",
+                "role": "The shaped or drawn body branch reinforces bodily materialization at the cord description."
+              }
+            ],
+            "changed_reading": {
+              "before": "The woman and the firewood remain stable as carrier and separate cargo.",
+              "after": "At the edge of the branch field, the burden dries and shapes the bearer into a wood-like body, making the carrier resemble combustible cargo."
+            }
+          },
+          {
+            "outlier_id": "outlier_nocturnal_burden_procession",
+            "confidence": "medium",
+            "containment": "The extended night journey is surprising because the focus gives no explicit route or duration. It remains anchored by the night-gatherer, strained carrying, elongated terrain, and persistent night-travel branches; downstream prose should qualify it as a kinetic overlay on the nominal portrait.",
+            "focus_anchor": "The intensive carrier and night-gatherer branches make repeated burdened movement available inside حَمَّالَةَ ٱلْحَطَبِ.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "The strained-exertion branch supplies self-burdened travel under difficulty."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "The night wood-gatherer branch supplies darkness and repeated collection."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B003",
+                "role": "The elongated sand branch supplies an extended path-like spatial field."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B003",
+                "role": "The persistent night-travel branch turns the static carrier title into an ongoing nocturnal procession."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus freezes the wife in a single emblematic pose.",
+              "after": "The branch sequence animates her as repeatedly trudging through darkness under a load, with the nominal title compressing an extended punitive journey."
+            }
+          },
+          {
+            "outlier_id": "outlier_alimentary_fire_conduit",
+            "confidence": "exploratory",
+            "containment": "This is the most form-distant reading because the food and esophagus branches do not define the surface noun for woman. It remains traceable to that focus root inventory and is spatially reactivated by neck, fire, and fuel; downstream prose must call it a remote alimentary analogy, never a lexical gloss of ٱمْرَأَتُهُ.",
+            "focus_anchor": "The focus joins a م ر ء word, whose remote branches include agreeable intake and its bodily passage, to a carrier of fuel consumed by fire.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B003",
+                "role": "The palatable-food branch supplies an intake domain that can be inverted when the recipient is fire."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B004",
+                "role": "The esophageal-passage branch supplies a conduit through the throat for what is consumed."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Prepared fuel supplies the fire's consumable material in place of wholesome food."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Active flame supplies the consuming recipient of the carried material."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck branch spatially reactivates the throat passage while the cord marks its exterior."
+              }
+            ],
+            "changed_reading": {
+              "before": "She transports fuel to a fire across an external spatial relation.",
+              "after": "As a remote bodily analogy, carrier, throat, and fuel align into a feeding conduit through which the flame receives its anti-food."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The literal carrier becomes the logistical hinge in a name-to-flame circuit: the flame epithet is realized by the fuel she supplies.",
+            "Hands, wealth, acquisition, and ruin recast her work as the destructive counter-production of a failed household economy.",
+            "The tale-bearing branch and the feud branch allow social ignition and literal combustion to remain simultaneously active.",
+            "The neck, rope, and twisted cord reverse carrying gear onto the carrier, changing an agent who controls a load into a body bound and directed.",
+            "Generative branches for woman, pregnancy, fruit, flower, and fatherhood preserve an exploratory counter-fruition reading in which the household yields dead fuel."
+          ],
+          "what_was_special": "The focus is unusually compact but mechanically dense: person, intensive bearing, and fuel can organize literal labor, speech traffic, economic production, kinship, generativity, transport technology, and bodily reversal without forcing them into one final interpretation. Context repeatedly turns the carrier-cargo relation back on itself.",
+          "remaining_uncertainties": [
+            "The packet does not settle how much syntactic force to assign to the marked relation between ٱمْرَأَتُهُ and حَمَّالَةَ, so the trace avoids making one grammatical parse decide the models.",
+            "The name-to-fate and household-economy arrows are reader-supplied causal organizations; lexical repetition alone does not prove those directions.",
+            "The counter-lineage, legal surety, bodily assimilation, and alimentary conduit readings depend on distant branch coexistence and must remain explicitly exploratory.",
+            "The rope may be the carrier's load gear reversed onto her, an independent restraint, an anti-ornament, a conjugal bond, or several of these at once; the packet does not disambiguate them."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The wife is an active fuel-supplier in the same mechanism as the fire.** Branch evidence: `م ر ء` B001, woman/person; `ح م ل` B001, bearing an outward load; `ح ط ب` B001, firewood gathered as fuel; earlier `ن و ر` B002, burning fire; `ل ه ب` B001, blazing flame. Structural cue: the fire of 111:3 is immediately followed by the woman carrying fuel. Assigned role: she supplies the logistical link between fire and combustible material. Abductive move: I infer that juxtaposition makes her carrying feed the preceding fire. Reading change: she is not a peripheral spouse; she becomes part of a supply chain that sustains the blaze.\n\n2. **Carrying firewood also reads as carrying destructive speech.** Branch evidence: `ح ط ب` B003, carrying wood as tale-bearing and stirring harm; `ح ط ب` B002, night wood-gatherer mixing bad and good; earlier `ن و ر` B007, enmity flaring between people; `ك س ب` B001/B002, gain for self or brought to another. Structural cue: after wealth/earning and fire, the carrier appears with a noun whose branch explicitly includes slander and social ignition. Assigned role: firewood becomes speech-material that inflames relations. Abductive move: I supply that the carried object may be both literal fuel and socially combustible report. Reading change: the ayah reads as a portrait of participation in hostile circulation, not only physical labor.\n\n3. **Inward bearing is inverted into destructive issue.** Branch evidence: `ح م ل` B002, pregnancy and inward bearing; `ر ح م` B003, womb; `ح ب ل` B006, pregnancy extending in the womb; `م ر ء` B001, woman; `ح ط ب` B001, fuel. Structural cue: a woman is named as a `حَمَّالَة`, while the packet opens with womb/kinship mercy and ends with a rope whose branches include pregnancy. Assigned role: carrying bridges fertility imagery and fuel imagery. Abductive move: I infer an inversion: the female capacity to bear inward life is overlaid by bearing outward fuel. Reading change: the phrase becomes an anti-gestation image, where what is borne issues in combustion rather than mercy or life.\n\n4. **She bears liability rather than merely objects.** Branch evidence: `ح م ل` B003, bearing responsibility/sin; `ح م ل` B004, guarantee/indemnity; earlier `غ ن ي` B002, availing/replacing; `م و ل` B001, property; later `ح ب ل` B002, covenant/protection. Structural cue: wealth failed to avail in 111:2, and now a household member bears. Assigned role: carrying is moral/legal load-bearing, not just transport. Abductive move: I infer that after the failure of money as guarantee, the human carrier embodies the burden that cannot be transferred away. Reading change: she appears as co-bearer of obligation and harm, not as an incidental prop.",
@@ -8854,14 +10002,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s111/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 39,
+        "ayah_count": 5,
+        "row_count": 32,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9124,10 +10278,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s111/packets/111_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s111/readers/reader_hft_a/111_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s111"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s111",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 63105,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

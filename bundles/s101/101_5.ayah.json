@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.650699+00:00",
+  "generated_at": "2026-08-18T13:34:27.599530+00:00",
   "surah": 101,
   "ayah": 5,
   "ayahRef": "101:5",
@@ -1453,7 +1453,8 @@
       "morpheme_ids": [
         "m-w-s101-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:5:1"
+      "aligned_qac_word_ref_upstream": "101:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1467,7 +1468,8 @@
       "morpheme_ids": [
         "m-w-s101-a005-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:5:2"
+      "aligned_qac_word_ref_upstream": "101:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1483,7 +1485,8 @@
         "m-w-s101-a005-w002-01",
         "m-w-s101-a005-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:5:3"
+      "aligned_qac_word_ref_upstream": "101:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1501,7 +1504,8 @@
         "m-w-s101-a005-w003-02",
         "m-w-s101-a005-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "101:5:4"
+      "aligned_qac_word_ref_upstream": "101:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1517,7 +1521,8 @@
         "m-w-s101-a005-w004-01",
         "m-w-s101-a005-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:5:5"
+      "aligned_qac_word_ref_upstream": "101:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3092,7 +3097,911 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:5",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1015_mass_to_fiber",
+            "confidence": "strong",
+            "focus_anchor": "The becoming construction joins mountains, wool, and the passive quality of having been fluffed.",
+            "mechanism": "A high solid mass enters a new material state: dyed soft wool is beaten or teased until its fibers separate. The simile therefore reverses hardness, density, and cohesion while retaining conspicuous bulk and color.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal predication makes the comparison an occurring state-change rather than a timeless resemblance."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the resistant starting material whose constitution is reversed."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Soft dyed wool supplies both the comparison substance and a chromatic dimension often lost in a dust-only reading."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Teasing, beating, and spreading fibers specifies internal decompaction rather than generic destruction."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountains merely look soft or wool-like.",
+              "after": "High solid mass becomes conspicuous soft fiber whose internal bonds have been worked apart."
+            }
+          },
+          {
+            "model_id": "b1015_unweaving",
+            "confidence": "medium",
+            "focus_anchor": "The mountain root's firm textile construction and the clause's fluffed wool meet within one simile.",
+            "mechanism": "One focus branch gives the mountain root a firmly woven make, while the wool is presented after the inverse operation of teasing. The clause can therefore be carried as an unweaving image: creation-like construction is not only broken but methodically opened back into loose strands.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "Firm weaving supplies an exploratory image of the mountain as tightly made fabric."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Wool supplies the textile material through which construction can be imagined in reverse."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "The worked separation of wool fibers performs the inverse of firm weaving."
+              }
+            ],
+            "changed_reading": {
+              "before": "The comparison gives a static snapshot of fluffy mountains.",
+              "after": "The snapshot contains a process: a tightly made world is being unmade into its loose strands."
+            }
+          },
+          {
+            "model_id": "b1015_hollow_volume",
+            "confidence": "medium",
+            "focus_anchor": "The comparison combines mountain resistance with limp wool and a loose, puffed, hollow spread.",
+            "mechanism": "Fluffing can enlarge appearance while destroying load-bearing density. The image need not require immediate disappearance: a mountain-shaped volume may remain visible even after it has become limp, porous, and unable to resist.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B005",
+                "role": "Hardness that halts digging supplies the lost capacity to resist intrusion."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B002",
+                "role": "Limp bending or fracture without complete separation permits a connected but structurally failed body."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B002",
+                "role": "A loose outward puff with a hollow interior explains how visible volume can coexist with lost density."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountains are instantly annihilated into negligible debris.",
+              "after": "The image also allows an uncanny intermediate body: still voluminous or connected, but hollow, limp, and non-resistant."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1015_impact_teasing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "The repeated striking event supplies the force omitted by the passive focus wording. Its blow can be mapped onto the beating that opens wool, turning geological decompaction into an impact-driven textile operation.",
+            "activation_trace": [
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Impact of one thing upon another supplies the external force that initiates the mountain's material change."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "A rebuke that strikes the hearer extends the blow from matter to perception and preserves the event's sensory shock."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass is the resistant object upon which the inferred impact works."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Beating or teasing wool supplies the focus-side operation that the striking context can cause."
+              }
+            ],
+            "structural_cues": [
+              "The striking event is named three times in 101:1-3 before the passive participle in 101:5 leaves its agent unstated."
+            ],
+            "reader_inference": "The packet supplies repeated impact and beaten-open wool; I infer that the former performs the latter on the mountains. A live alternative is that the two images share intensity but no direct causal arrow.",
+            "changed_reading": {
+              "before": "The mountains happen to be fluffy after an unspecified collapse.",
+              "after": "The repeated blow actively beats resistant geography open as if it were wool under a worker's stroke."
+            }
+          },
+          {
+            "model_id": "d1015_parallel_decohesion",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي و م",
+              "ك و ن",
+              "ن و س",
+              "ف ر ش",
+              "ب ث ث"
+            ],
+            "mechanism": "Adjacent parallel clauses coordinate two losses of organization at different scales. Human fellowship becomes lightweight flying units broadcast apart, while the world's stationary mass becomes separated fiber. Mobility and immobility converge in one event of de-cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event of the day encloses both similes within one transformation interval."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Repeated temporal becoming makes the human and mountain changes grammatically concurrent counterparts."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Fellowship that dispels estrangement supplies the social cohesion lost when people scatter."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "Flying-creature lightness gives the human side mobile, fragile units rather than an organized collective."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Broadcast dispersal supplies the centrifugal operation applied to the human multitude."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Stationary solid mass supplies the large-scale order that fails in the paired clause."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fiber separation mirrors the broadcast dispersal of the preceding human image."
+              }
+            ],
+            "structural_cues": [
+              "101:4 and 101:5 are adjacent parallel frames: temporal becoming, plural subject, comparison with ka-, and a definite passive participle.",
+              "The first clause disperses ordinarily mobile beings; the second mobilizes ordinarily fixed terrain."
+            ],
+            "reader_inference": "The packet supplies the exact syntactic parallel and two dispersal images; I infer a coordinated cross-scale failure of cohesion. Alternatively, the clauses may simply list two independent signs occurring on the same day.",
+            "changed_reading": {
+              "before": "Mountain collapse is an isolated geological spectacle.",
+              "after": "It is the geographic half of a synchronized de-cohesion in which society and terrain both lose collective form."
+            }
+          },
+          {
+            "model_id": "d1015_epistemic_workshop",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The split root cue activates both knowing and spindle rotation. Alongside firm weaving, dyed wool, and teasing, the comparison becomes a workshop model: inaccessible catastrophe is made thinkable by reversing familiar textile production from spun and woven integrity back to loose fiber.",
+            "activation_trace": [
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge supplies the explicit epistemic problem to which the tactile mountain simile responds."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The repeated knowledge cue brackets the material images as disclosures rather than decorative comparisons."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "The split mapping's firmly turning spindle supplies a surprising textile-production activator, not a claim about the surface verb's ordinary sense."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "Firm weaving supplies the constructed state that the focus image can undo."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Dyed wool supplies the familiar hand-worked material used by the epistemic analogy."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Teasing fibers reverses spindle-and-weave consolidation and completes the workshop demonstration."
+              }
+            ],
+            "structural_cues": [
+              "The repeated 'what makes you know' frames occur at 101:3 and 101:10, enclosing the paired material similes and the weighing sequence."
+            ],
+            "reader_inference": "The packet supplies a knowledge branch and, through the split mapping, a spindle branch; I infer that textile unmaking functions as an epistemic demonstration. The materially live alternative is that the spindle activation is mapping noise, so this model remains exploratory.",
+            "changed_reading": {
+              "before": "The wool comparison only decorates an otherwise unknowable event.",
+              "after": "The comparison is a tactile way of knowing: imagine a tightly spun and woven solidity being worked backward into loose fiber."
+            }
+          },
+          {
+            "model_id": "d1015_weight_transfer",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "After the archetype of physical mass loses density, heaviness and lightness recur inside measurement, justice, worth, and contempt. Weight is transferred from visible geology to evaluated measure: monumental size no longer guarantees consequential weight.",
+            "activation_trace": [
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Precious consequential heaviness supplies a value-bearing kind of weight distinct from mountain mass."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The balance of justice turns weight into assessed proportion rather than sheer bulk."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Lightness against burden echoes the focus mountain's loss of material density."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B005",
+                "role": "Being treated as negligible adds an evaluative danger to mere physical lightness."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B007",
+                "role": "Rank or worth that has weight makes the later measure a counter-standard to visible monumentality."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The mountain supplies maximum apparent physical heft, which the focus image then disqualifies as a stable standard."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Separated fiber embodies the spectacular lightening of what had seemed materially weightiest."
+              }
+            ],
+            "structural_cues": [
+              "Immediately after 101:5, 101:6 and 101:8 oppose heavy and light while repeating the same measured object.",
+              "Physical decompaction precedes evaluative weighing, creating a deliberate change of scale."
+            ],
+            "reader_inference": "The packet supplies mountain mass, fluffed lightness, and justice- or worth-bearing weight; I infer a transfer from physical heft to evaluated consequence. Alternatively, geological and measured weight may remain separate lexical contrasts without a semantic handoff.",
+            "changed_reading": {
+              "before": "The verse says only that even very heavy objects become light.",
+              "after": "It strips visible mass of authority so that consequential weight can reappear only as something measured for worth."
+            }
+          },
+          {
+            "model_id": "d1015_airborne_phase",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ش",
+              "ه و ي"
+            ],
+            "mechanism": "Fluttering light creatures before the focus and air, void, rapid motion, and falling after it give the loosened mountain material a medium and trajectory. The wool image can be dynamic airborne particulate, not a soft heap resting where the mountain stood.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B006",
+                "role": "Fluttering near the ground supplies unstable aerial motion immediately before the mountain comparison."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Air and void supply the medium into which loosened mountain fibers can pass."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a depth supplies a downward trajectory that can follow suspension."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B008",
+                "role": "Rapid onward motion intensifies the reading of fibers in transit rather than settled debris."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The fixed elevated mass provides the starting contrast for an airborne phase."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B002",
+                "role": "A puffed, loose, hollow spread gives the mountain material aerodynamic form."
+              }
+            ],
+            "structural_cues": [
+              "The focus is positioned between a fluttering dispersal image in 101:4 and the void/fall image in 101:9."
+            ],
+            "reader_inference": "The packet supplies flutter, loose outward spread, air, and falling; I infer one possible kinematic sequence of suspension and descent. A live alternative is that the focus wool remains ground-bound and the later fall belongs only to its own outcome.",
+            "changed_reading": {
+              "before": "The collapsed mountains form static piles of wool-like debris.",
+              "after": "They pass through an airborne phase as loose colored fibers, suspended, driven onward, and capable of falling through void."
+            }
+          },
+          {
+            "model_id": "d1015_inverted_habitation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ش",
+              "ر ض و",
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "The context moves from satisfying life to an origin-or-return that is an abyss. Against those destinations, the focus removes the high hard terrain's rank and enterable stability. The spatial order is inverted: elevation ceases to secure place, while descent is named as a return.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Livelihood and lived condition supply one form of inhabitable outcome after the terrain's transformation."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance rather than displeasure qualifies that lived condition as settled and fitting."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Origin, gathering point, and return make the opposed destination function as a homeward center."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into an abyss reverses the elevation and stability supplied by mountains."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "Place, position, and rank expose the focus transformation as a loss of spatial status as well as substance."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B006",
+                "role": "Enterable mountain terrain supplies the possible place whose reliability is removed."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B005",
+                "role": "Hard ground that stops penetration supplies the former resistance inverted by the later abyss."
+              }
+            ],
+            "structural_cues": [
+              "The paired focus similes are followed by paired outcome clauses, one naming lived condition and the other naming mother/return as an abyss."
+            ],
+            "reader_inference": "The packet supplies enterable hard mountain terrain, lived outcome, return, and falling; I infer a re-ranking of habitation after geographic stability fails. The alternative is that these are separate outcome images and mountains are never implicitly a refuge.",
+            "changed_reading": {
+              "before": "The mountains are destroyed scenery with no spatial consequence beyond themselves.",
+              "after": "Their becoming wool marks a collapse of the old hierarchy of place: high resistant terrain cannot secure dwelling, and an abyss can become the named point of return."
+            }
+          },
+          {
+            "model_id": "d1015_fire_coloring",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The final ignited heat reactivates the often-muted fact that the comparison material is dyed wool. The focus can therefore carry texture, color, illumination, and heat together: not merely grey powder, but a visible field of colored fibers under a blaze.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Ignited fire supplies the blaze that can retroactively illuminate the dyed comparison material."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Fire visible from afar strengthens the conspicuous visual field rather than a colorless dust cloud."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat adds a thermal environment to the focus material transformation."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Dyed soft wool anchors the chromatic reading directly in the focus comparison."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Separated fibers preserve the texture upon which the later blaze acts visually."
+              }
+            ],
+            "structural_cues": [
+              "The terse final answer in 101:11 follows the focus's dyed material image and closes the sequence with fire and heat."
+            ],
+            "reader_inference": "The packet supplies dyed wool followed by conspicuous fire and heat; I infer a retroactive chromatic and thermal coloring of the mountain image. Alternatively, the final fire may belong only to the later destination and leave 101:5 visually independent.",
+            "changed_reading": {
+              "before": "The mountains become a grey, texture-only dust cloud.",
+              "after": "The simile can remain vividly colored and fire-lit: a fibrous visual field whose softness coexists with surrounding heat."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1015_unshepherded_landscape",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it follows a livestock branch of the focus participle rather than its direct wool branch. It remains anchored through mountain-like abundance, wool as animal material, and unshepherded nocturnal dispersal; downstream prose should present it as a latent social-ecological analogy, not as the surface denotation.",
+            "focus_anchor": "All three links occur inside the focus roots: mountain-like multitude, wool, and the spreading of livestock without a shepherd.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B002",
+                "role": "Mountain-like abundance permits the landscape mass to be re-imagined as a multitude."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Wool provides the material bridge from landscape multitude to a flock-bearing image."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B003",
+                "role": "Livestock roaming and grazing at night without a shepherd supplies loss of governance and directional control."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountain mass loses cohesion only as inert matter.",
+              "after": "Exploratorily, the landscape behaves like an immense flock whose abundance has lost shepherding and wandered apart."
+            }
+          },
+          {
+            "outlier_id": "o1015_protection_migrates_to_fire",
+            "confidence": "exploratory",
+            "containment": "This reversal is odd because the surface adjective in 101:11 is activated most directly by heat, not protection. It remains inspectable because both the mountain and heat roots carry prevention branches and the focus explicitly removes mountain resistance; downstream prose should qualify it as ironic branch resonance, never replace the blazing-fire reading with it.",
+            "focus_anchor": "The mountain's hardness and prevention are converted into limp non-resistant material in the focus comparison.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B005",
+                "role": "Hardness that stops digging supplies the mountain's original protective resistance."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B009",
+                "role": "Difficulty and prevention broaden resistance from material hardness to blocked passage."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B002",
+                "role": "Limp fracture without separation marks the loss of that resistant function."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat remains the direct contextual reading and contains the exploratory resonance."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and prevention create the ironic possibility that resistance survives lexically only in the consuming heat."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mountain resistance simply disappears and the later heat is unrelated.",
+              "after": "As contained branch resonance, protection migrates ironically: the resistant mountain goes limp while a protection-root branch flickers inside the very heat that replaces safety."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus is a worked material transformation: solid mass is beaten open into colored fiber, not merely compared with something soft.",
+            "The exact parallel with scattered people makes mountain de-cohesion the geographic half of a synchronized social and material dispersal.",
+            "The later heavy/light scales transfer consequential weight away from visible mass and into measured worth.",
+            "Air, falling, habitation, and fire preserve additional coexisting readings: airborne fibers, inverted spatial security, and a chromatic heat-lit field."
+          ],
+          "what_was_special": "The focus inventories themselves contain a striking textile reversal—firm weaving, dyed wool, and teasing apart—while the context supplies the blow, a parallel broadcast dispersal, an epistemic spindle activation from the split mapping, evaluative weight, aerial motion, inverted return, and fire. These cues do not collapse into one answer; they make the mountain image simultaneously material, social, kinetic, spatial, epistemic, and chromatic.",
+          "remaining_uncertainties": [
+            "The striking event plausibly causes the teasing operation, but the packet does not state that directional arrow.",
+            "The spindle activation is deliberately retained as a split-mapping outlier and may be lexical mapping noise rather than intended resonance.",
+            "Loose wool permits airborne suspension, but the focus does not specify whether the fibers rise, drift, fall, or remain ground-bound.",
+            "The later fire may retroactively color the dyed-wool image, or it may remain confined to its own outcome.",
+            "The unshepherded-flock and migrated-protection readings are branch-valid but should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Hard mass converted into loose fiber. Evidence: ج ب ل B001, high solid mass; ع ه ن B003, dyed soft wool; ن ف ش B001, teased/fluffed wool; ك و ن B001, occurrence/predication. Structural cue: this ayah parallels 101:4 with تكون + subject + كـ-simile. Mechanism: the same event that scatters people also turns the most solid landmarks into separated fibers. Abductive move: I infer a shared destabilizing force from the syntactic parallel. Reading change: mountains are read not as scenery but as the proof that weight and solidity have been unmade.\n\n2. Formed nature unraveling. Evidence: ج ب ل B004, innate formed nature; ج ب ل B007, firm woven make of cloth; ن ف ش B001, fluffing by beating/spreading; ع ه ن B002, limp bending without separation. Structural cue: a root of formed constitution stands next to textile branches. Mechanism: what was \"jiblah\" or firm make is not annihilated instantly but loosened into slack, teased structure. Abductive move: I infer ontological unweaving from the wool image. Reading change: the ayah reads as de-constitution: created firmness becomes unstructured softness.\n\n3. Abundance loses rank. Evidence: ج ب ل B002, mountain-like multitude/wealth; ج ب ل B012, chiefs like mountains; ع ه ن B001, ready accessible property; ث ق ل B005 later, precious weight/high worth. Structural cue: mountains precede the weighing of human worth in 101:6-8. Mechanism: large visible magnitude becomes valueless fluff, so only measured moral weight remains meaningful. Abductive move: I supply the contrast between apparent greatness and adjudicated worth. Reading change: الجبال can activate social rank and wealth, both reduced before the scales.\n\n4. Unmanaged night-spread. Evidence: ن ف ش B003, livestock spreading at night without a shepherd; ف ر ش/ب ثث in 101:4, scattered moth-people; ي و م B003, severe occasion. Structural cue: the people-scattering image and wool-fluffing image share dispersion. Mechanism: the world becomes an unguarded field where both human and mountain bodies spread without keeper or boundary. Abductive move: I infer loss of cosmic management from parallel uncontrolled dispersion. Reading change: المنفوش carries more than texture; it suggests unsupervised release.",
@@ -11042,14 +11951,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11352,10 +12267,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 95278,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

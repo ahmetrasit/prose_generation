@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:26.006896+00:00",
+  "generated_at": "2026-08-18T13:34:34.328558+00:00",
   "surah": 106,
   "ayah": 1,
   "ayahRef": "106:1",
@@ -795,7 +795,8 @@
         "m-w-s106-a001-w001-01",
         "m-w-s106-a001-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:1:1"
+      "aligned_qac_word_ref_upstream": "106:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -809,7 +810,8 @@
       "morpheme_ids": [
         "m-w-s106-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:1:2"
+      "aligned_qac_word_ref_upstream": "106:1:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1358,7 +1360,997 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s106/packets/106_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "106:1",
+      "window": [
+        "106:1",
+        "106:2",
+        "106:3",
+        "106:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "106:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_habituated_attachment",
+            "confidence": "strong",
+            "focus_anchor": "The prefixed lām leaves the relation open, while the verbal noun and its genitive attachment to Quraysh do not settle whether Quraysh possess the habit or are made to acquire it.",
+            "mechanism": "The focus can name repeated acclimation that turns a person, place, or practice into something familiar and stayable. Focus-only, both Quraysh's habituated attachment and the habituating of Quraysh remain live.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment and habitual staying supply the affective-temporal core: recurrence settles Quraysh into an enduring relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static label for the familiarity of Quraysh.",
+              "after": "An open causal or purposive heading about an acquired disposition to remain attached, with possessor and producer still unresolved."
+            }
+          },
+          {
+            "model_id": "b_composed_collective",
+            "confidence": "medium",
+            "focus_anchor": "The verbal noun in the focus can denote an operation, and Quraysh as its genitive can mark the collective assembled by it or the collective for whom it is arranged.",
+            "mechanism": "Joining after separation makes īlāf an active composition rather than a mood of concord. Distinct people, practices, or relations are fitted together so that Quraysh exists or functions as a coherent social body.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining differentiated parts after separation supplies the constructive operation and makes Quraysh the composed whole or its beneficiary."
+              }
+            ],
+            "changed_reading": {
+              "before": "Quraysh simply enjoy harmony.",
+              "after": "Quraysh are actively composed, or have a composite arrangement made for them, out of parts that could otherwise remain separate."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_seasonal_mobility_habituated",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ف",
+              "ر ح ل",
+              "ش ت و",
+              "ص ي ف"
+            ],
+            "mechanism": "The immediate echo of the focus noun is specified by a journey bracketed by winter and summer. Familiarity therefore becomes a learned cycle that domesticates mobility itself: repeated departure across opposed seasons acquires the steadiness normally associated with staying.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Habitual attachment anchors the focus as an acquired steadiness rather than a one-time agreement."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "The repeated attachment branch assigns that steadiness specifically to their recurring practice."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Actual movement in travel supplies the mobile activity that habituation renders familiar."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B001",
+                "role": "Winter supplies one recurring temporal pole of the travel cycle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer supplies the opposed recurring pole, closing the cycle rather than naming an isolated trip."
+              }
+            ],
+            "structural_cues": [
+              "106:2 repeats the focus verbal noun with a plural possessive before a singular journey.",
+              "Winter and summer form an opposed but recurring temporal pair around that journey."
+            ],
+            "reader_inference": "The packet supplies repetition, travel, and paired seasons; I infer that recurrence produces habituation and makes movement feel stable. A live alternative is that the seasons merely date two trips and do not cause the attachment.",
+            "changed_reading": {
+              "before": "Attachment suggests staying with a familiar person or place.",
+              "after": "Attachment can be a portable habit: Quraysh become at home in a recurrent pattern of movement."
+            }
+          },
+          {
+            "model_id": "d_itinerary_composition",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ف",
+              "ر ح ل",
+              "ش ت و",
+              "ص ي ف"
+            ],
+            "mechanism": "Joining, fastening a travel load, stopping, and resuming across the seasonal pair recast īlāf as an itinerary assembled from heterogeneous operations. The cohesion of Quraysh is also logistical: loads, legs, stations, and times are fitted into a repeatable whole.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition after separation anchors the focus as an arrangement whose parts must be fitted together."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "The repeated composition branch carries the focus operation into the journey specification."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B003",
+                "role": "Fastening the travel gear supplies deliberate preparation and binding at the start of each leg."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B004",
+                "role": "A place of stopping supplies the station that segments motion into an organized itinerary."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B001",
+                "role": "Winter gives one temporal compartment into which the itinerary is fitted."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer gives the complementary compartment and makes the arrangement cyclic."
+              }
+            ],
+            "structural_cues": [
+              "The singular journey is internally articulated by two seasons.",
+              "The repeated īlāf places composition before the journey's load, stops, and temporal alternation."
+            ],
+            "reader_inference": "The packet supplies joining, fastening, stopping, and seasons; I infer an itinerary architecture linking these operations. The live alternative is a simpler reference to travel with no system-level composition.",
+            "changed_reading": {
+              "before": "The joined parts are primarily people within a collective.",
+              "after": "The joined parts may also be the operational pieces of a route whose reliable composition sustains that collective."
+            }
+          },
+          {
+            "model_id": "d_affiliation_as_counterhazard",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ح ل",
+              "ش ت و",
+              "ص ي ف"
+            ],
+            "mechanism": "Harmful riding, a famine-marked winter, and summer deviation expose a hostile edge inside the otherwise ordinary seasonal journey. On this reading, īlāf is a counterforce that keeps participants attached and on course through bodily cost, scarcity, and drift.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Persistent attachment supplies the counterforce that can outlast adverse travel conditions."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining after separation supplies the collective integrity threatened by hazard and drift."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B009",
+                "role": "Riding accompanied by harm supplies bodily cost within the journey mechanism."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B004",
+                "role": "Winter associated with famine supplies a seasonal scarcity pressure."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B005",
+                "role": "Deviation from the intended course supplies the risk of directional or normative drift."
+              }
+            ],
+            "structural_cues": [
+              "The two seasons span contrasting conditions rather than a single favorable moment.",
+              "The focus names cohesion before the context exposes the movement it must survive."
+            ],
+            "reader_inference": "The packet supplies harm, famine, and deviation as branch possibilities; I infer that attachment counters those pressures. A live alternative is that these remote images do not activate here and the seasons remain neutral calendar markers.",
+            "changed_reading": {
+              "before": "Īlāf is the pleasant result of easy, familiar travel.",
+              "after": "Īlāf may be the resilience mechanism that makes recurrent travel possible precisely because the cycle can injure, empty, or deflect."
+            }
+          },
+          {
+            "model_id": "d_benefit_becomes_allegiance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د",
+              "ر ب ب",
+              "ب ي ت"
+            ],
+            "mechanism": "The imperative of submissive obedience follows the īlāf sequence, while lordship tied to a sheltering house supplies the recipient of that response. The focus phrase changes from a self-sufficient social achievement into a received condition that generates allegiance.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Habituated attachment supplies the benefit or condition whose source and demanded response are disclosed later."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Humble obedience supplies the responsive act into which received attachment is converted."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty identify the authority to whom the allegiance is redirected."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter and dwelling give lordship a concrete center associated with protection and stable return."
+              }
+            ],
+            "structural_cues": [
+              "The fa-l- imperative follows the two īlāf phrases and points toward the Lord of this house.",
+              "The deictic 'this' anchors the response in a present, singular center."
+            ],
+            "reader_inference": "The packet supplies sequence, obedience, lordship, and shelter; I infer a benefit-to-obligation arrow from īlāf to allegiance. A live alternative is that the initial lām marks purpose or another syntactic relation rather than a causal ground for worship.",
+            "changed_reading": {
+              "before": "Quraysh's stable custom is its own explanation and endpoint.",
+              "after": "Their acquired stability is a received good whose proper endpoint is allegiance to the Lord centered on the house."
+            }
+          },
+          {
+            "model_id": "d_cohesion_as_cultivated_passage",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د",
+              "ر ب ب",
+              "ب ي ت"
+            ],
+            "mechanism": "Leveling and smoothing under service, together with repair, nurture, and completion under lordship, make composition a maintained process. Centered on shelter, īlāf becomes social-spatial infrastructure continually made passable, repaired, and brought to completion.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining parts supplies the infrastructure whose continuity requires active maintenance."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Leveling and smoothing supply the work of removing roughness so a social or spatial passage can hold."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the governing maintenance that keeps the joined arrangement viable."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "A sheltering dwelling supplies the stable node toward which maintained passage and social return are oriented."
+              }
+            ],
+            "structural_cues": [
+              "The abstract focus relation is followed by an imperative practice and a concrete house.",
+              "The house is singular, allowing dispersed movement to be organized around a stable node."
+            ],
+            "reader_inference": "The packet supplies joining, smoothing, repair, nurture, and shelter; I infer that these form a maintenance chain for social and spatial continuity. A live alternative is that smoothing and nurture remain moral images of submission and lordship without any route-like mechanism.",
+            "changed_reading": {
+              "before": "Cohesion is achieved once by bringing separated parts together.",
+              "after": "Cohesion is an infrastructure repeatedly smoothed, repaired, nurtured, and oriented around shelter."
+            }
+          },
+          {
+            "model_id": "d_covenanted_household_federation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ب د",
+              "ر ب ب",
+              "ب ي ت"
+            ],
+            "mechanism": "A covenant branch under the dominant lord mapping, a related-households branch under the non-dominant split mapping, and house-as-family make Quraysh's joining legible as a compact among kin households. Obedience functions as the allegiance that holds the federation around one center.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining after separation supplies the federating operation among distinct household units."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive obedience supplies the shared allegiance that can bind the compact."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A covenant or pledged bond supplies the formal relation joining the parties."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B007",
+                "role": "The preserved non-dominant mapping contributes a household of paternal relatives as the possible social units of federation."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "Household and dependents supply the nested family units gathered under the singular house."
+              }
+            ],
+            "structural_cues": [
+              "The packet preserves two mapped inventories for the lord root, so the non-dominant household branch remains available without replacing the dominant reading.",
+              "A singular central house coexists with household plurality in the branch field."
+            ],
+            "reader_inference": "The packet supplies joining, obedience, covenant, paternal relatives, and household; I infer that they form a kin-based federation. A live alternative is that the split-root and covenant images are independent lexical branches with no joint social mechanism here.",
+            "changed_reading": {
+              "before": "Quraysh is already a unit that happens to possess harmony.",
+              "after": "Quraysh may be the result of a pledged joining of related households whose shared allegiance keeps plurality together."
+            }
+          },
+          {
+            "model_id": "d_affiliation_produced_by_provision_and_security",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ع م",
+              "ج و ع",
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "Feeding answers bodily emptiness and securing answers anticipated harm; together they supply material and affective preconditions for habituated attachment. Īlāf becomes a produced capacity to stay, trust, and repeat relations, not merely a preexisting custom.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment supplies the settled condition whose enabling causes become visible in the final context."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food to others supplies the active material provision that permits repeated social attachment."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and sound condition broaden feeding into the durable material base of the relation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty belly supplies the concrete deficit that provision reverses."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "A heart stilled in safety and confidence supplies the affective condition in which attachment can persist."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Alarm at expected harm supplies the prospective threat that security removes."
+              }
+            ],
+            "structural_cues": [
+              "106:4 presents two parallel causative benefits, each followed by a min-phrase naming the reversed condition.",
+              "The same plural object receives both feeding and security."
+            ],
+            "reader_inference": "The packet supplies paired reversals of hunger and fear; I infer that provision and security are upstream conditions producing durable attachment. A live alternative is that they are independent reasons for worship and do not causally explain īlāf.",
+            "changed_reading": {
+              "before": "Familiarity is a social custom generated by repetition alone.",
+              "after": "Familiarity is materially and affectively produced: bodies must be provisioned and expectations of harm quieted before relations can become habitual."
+            }
+          },
+          {
+            "model_id": "d_composition_against_double_depletion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م",
+              "ج و ع",
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "Joining after separation is threatened by two subtractive processes: hunger hollows and thins from within, while fear diminishes by taking away. Livelihood restores material fullness and security stills expectation, so īlāf reads as preservation of collective integrity against double attrition.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition supplies the collective integrity that depletion could loosen or fragment."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and sound condition supply restoration of the collective's material capacity."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B004",
+                "role": "Figurative emptiness and thinning supply an inward erosion of the joined body."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled safety supplies resistance to the anticipatory pressure that can disperse a group."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B004",
+                "role": "Diminution that takes from a thing supplies the second, subtractive mode of collective loss."
+              }
+            ],
+            "structural_cues": [
+              "The two min-phrases place hunger and fear in parallel as conditions from which the same group is brought out.",
+              "Material feeding and affective security answer distinct but structurally paired deficits."
+            ],
+            "reader_inference": "The packet supplies composition, thinning, diminution, livelihood, and settled safety; I infer inward and outward channels of attrition plus their remedies. A live alternative is that the two deficit images should remain literal and parallel without forming one integrity-preservation mechanism.",
+            "changed_reading": {
+              "before": "Īlāf creates a whole by joining separate parts.",
+              "after": "Īlāf also names the continued wholeness of that composition when hunger and fear would subtract from it."
+            }
+          },
+          {
+            "model_id": "d_trust_compact",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "Safety carries both settled confidence and trusted assent, while fear can be induced and mutually contested. Against that relational field, familiar attachment becomes a trust compact that interrupts escalation of intimidation, not merely passive absence of danger.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment supplies the durable relation that confidence stabilizes."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining supplies the compact form through which separate parties can coordinate."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled confidence supplies the inward effect of a functioning trust relation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assent trusted by the heart supplies an interpersonal or epistemic dimension beyond physical protection."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B002",
+                "role": "Causing fear in another supplies one side of a relational intimidation loop."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B003",
+                "role": "Mutual contest in fear supplies escalation between parties that a compact must interrupt."
+              }
+            ],
+            "structural_cues": [
+              "The causative security verb acts on the same plural group named throughout the context.",
+              "Security and fear are placed as an explicit reversal rather than as unrelated states."
+            ],
+            "reader_inference": "The packet supplies inward confidence, trusted assent, induced fear, and reciprocal fear; I infer a social feedback loop stopped by trust. A live alternative is one-way protection by a sovereign with no compact among human parties.",
+            "changed_reading": {
+              "before": "Īlāf is familiarity produced by repeated contact.",
+              "after": "Īlāf can be a trust-bearing compact that makes repeated contact possible by quieting both expected and mutually generated fear."
+            }
+          },
+          {
+            "model_id": "d_distributed_stopover_hospitality",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ح ل",
+              "ب ي ت",
+              "ط ع م"
+            ],
+            "mechanism": "An inter-journey stopping place, one-night provision, and feeding others can be composed into a chain of hospitable nodes. On this reading, īlāf is the repeatable social protocol that makes travel intermittently home-like; attachment is distributed across stops rather than fixed in one residence.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition supplies the linking of separate stops into one traversable social network."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Habitual attachment supplies the home-like familiarity repeatedly produced at network nodes."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "A lodging between journeys supplies the intermediate node rather than a final destination."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B005",
+                "role": "Provision sufficient for a night supplies the minimum hospitality that turns a stop into temporary dwelling."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the host action that reproduces the stopover protocol."
+              }
+            ],
+            "structural_cues": [
+              "The context sequence moves from journey in 106:2, to house in 106:3, to feeding in 106:4.",
+              "A single central house and multiple possible stopping places remain in productive tension."
+            ],
+            "reader_inference": "The packet supplies an inter-journey lodging, one-night provision, and feeding others; I infer that they belong to one distributed hospitality network. A live alternative is that 'this house' names only one center and the lodging and night-provision branches do not describe multiple nodes.",
+            "changed_reading": {
+              "before": "Attachment belongs either to a home place or to travel as a whole.",
+              "after": "Attachment may be regenerated piecemeal through hospitable stopovers that make a mobile cycle temporarily domestic."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_grafted_affiliation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a botanical graft is remote from ordinary feeding and īlāf is not thereby translated as grafting. It remains anchored because the focus explicitly offers composition and the context offers a fed branch accepting union plus growth; render it only as a material analogy for cultivated cohesion.",
+            "focus_anchor": "The focus verbal noun can denote joining differentiated parts, allowing a context image of a nourished graft to alter how that joining is imagined.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining separate things supplies the social union to be reimagined through a material graft."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapping's feeding and growth supply the developmental process by which a union becomes viable."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "Nourishing a branch until it accepts a graft supplies the concrete analogy of attachment taking through provision."
+              }
+            ],
+            "changed_reading": {
+              "before": "Separated social parts are placed together and immediately form a whole.",
+              "after": "Their joining may resemble a graft: contact alone is insufficient, and sustained nourishment lets the inserted relation take and grow."
+            }
+          },
+          {
+            "outlier_id": "o_ecological_attunement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because winter and summer most directly calendar the journey, while cloud and fruit images are branch-distant. It remains anchored in the focus's habituation mechanism and in a coherent context chain of seasonal rain, cloud, and ripening; render it as ecological attunement, not as a direct gloss or exclusive interpretation.",
+            "focus_anchor": "Habitual attachment in the focus can be attachment to a recurring environmental rhythm, not only to persons, places, or agreements.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Habituation supplies sustained attunement to a recurring cycle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B003",
+                "role": "Winter rain supplies one pulse in the environmental cycle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B002",
+                "role": "Summer rain supplies a second, contrasting pulse rather than a merely dry calendar label."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "A rain-bearing cloud supplies the mediating source that links season to provision."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B005",
+                "role": "Fruit reaching ripeness and taking flavor supplies the productive endpoint of seasonal water."
+              }
+            ],
+            "changed_reading": {
+              "before": "Quraysh are habituated to a timetable of journeys.",
+              "after": "Quraysh may also be attuned to a provision-bearing ecology whose alternating seasonal pulses mature what sustains the cycle."
+            }
+          },
+          {
+            "outlier_id": "o_nested_aggregate",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the numerical and object-container branches are remote from the verbal noun's ordinary social sense. It remains focus-anchored through the root's image of hundreds gathered into a thousand and gains a context-supported nested-unit mechanism; render it only as a formal aggregation analogy, never as a claim that the verse specifies a number.",
+            "focus_anchor": "The focus root includes a scale image in which smaller counted sets become one larger aggregate, and the collective name in genitive position can host that formal pattern.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B001",
+                "role": "Hundreds gathered into a thousand supply a nested scale model in which many smaller units register as one larger whole."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B010",
+                "role": "A receptacle gathering separate arrow shafts supplies a one-container-many-members geometry."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "Household members supply plausible nested social units within the larger named collective."
+              }
+            ],
+            "changed_reading": {
+              "before": "Quraysh is a flat collective related by familiarity.",
+              "after": "Quraysh can be imagined formally as a scaled aggregate: persons within households and households within one composed collective."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated noun, journey, and paired seasons turn static familiarity into habituated cyclical mobility.",
+            "Obedience, lordship, and the house recast īlāf as a received condition that generates allegiance and as cohesion maintained around a stable center.",
+            "Feeding and security reveal material and affective production conditions for attachment, while hunger and fear expose two modes of collective depletion.",
+            "Across the window, composition can coexist as itinerary architecture, kin-household covenant, trust compact, and an exploratory stopover-hospitality network."
+          ],
+          "what_was_special": "The focus remained genuinely plural: affective habituation and active composition survived together, then context produced causal, logistical, devotional, social, material, and ecological variants without forcing one final gloss. The split lord mapping and branch-distant material images generated inspectable surprises rather than being filtered away.",
+          "remaining_uncertainties": [
+            "The governor and force of the initial lām remain open, as does whether Quraysh possess īlāf or are its affected object.",
+            "Journey and seasons may be the content, evidence, or causes of habituation; the packet does not force one arrow.",
+            "The singular house may centralize the whole network or coexist with distributed temporary nodes.",
+            "The covenantal, botanical, ecological, and nested-aggregate readings depend on remote or non-dominant branches and must remain qualified rather than lexicalized."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Familiar attachment as a made social condition.** Lexical evidence: ء ل ف B005 (familiar attachment, habituated staying), ء ل ف B002 (joining after separation), and ر ح ل B001/B006 in 106:2 (journeying; stages between stops). Structural cue: 106:1 gives a compact reason phrase, and 106:2 immediately repeats the same root before expanding it into the seasonal journey. Assigned role: B005 explains the settled habit; B002 explains the social composition that lets repeated movement hold together. Abductive move: I infer that \"إِيلَاف\" names not just affection but a produced pattern of reliable attachment across dispersion. Reading change: the fixed ayah reads less like a static privilege and more like the binding of a people into a travel-capable routine.\n\n2. **Composition of scattered routes.** Lexical evidence: ء ل ف B002 (joining different parts), ع ب د B010 in 106:3 (scattering in different directions), ر ح ل B006 (journey stage), and ش ت و B001 / ص ي ف B001 in 106:2 (winter/summer as opposed seasons). Structural cue: the single \"إِيلَاف\" of 106:1 becomes seasonally doubled in 106:2 and morally redirected in 106:3. Assigned role: ء ل ف gathers the seasonal, spatial, and social pieces into one pattern; the scattering branch of ع ب د supplies the alternative condition that worship prevents or organizes. Abductive move: I infer that what needs \"joining\" is not only persons but routes, times, and obligations that could otherwise fly apart. Reading change: the ayah becomes a claim about integrated circulation rather than mere tribal habituation.\n\n3. **The thousand/multitude undertone.** Lexical evidence: ء ل ف B001 (thousand as gathered hundreds), ر ب ب B004 in 106:3 (large group or multitude), and ب ي ت B008 (lineage house of honor). Structural cue: \"قُرَيْشٍ\" is the named collective, while later \"رَبَّ هَٰذَا ٱلْبَيْتِ\" locates that collective around a house. Assigned role: the numerical/gathering branches let the root gesture toward massing many units under one named body. Abductive move: I infer that the surah's social subject is not merely individuals fond of travel but a collective made countable/gathered by a house-centered order. Reading change: \"لِإِيلَافِ قُرَيْشٍ\" reads as the making of a corporate people from many attached parts.\n\n4. **Habituation as domestication rather than mere custom.** Lexical evidence: ء ل ف B005 includes birds/animals habituated to a place; ر ح ل B004/B005 (dwelling and travelling belongings; fit riding mount); ب ي ت B001/B002 (shelter/household). Structural cue: the ayah's root of familiar attachment is followed by saddled travel and then by \"this house\". Assigned role: animal/place habituation gives an ecological image for repeated departures that still return to a center. Abductive move: I infer that the packet imagines mobility stabilized by attachment, like trained animals or resident birds that range out but remain oriented to home. Reading change: the fixed ayah reads as disciplined attachment: Quraysh are made to belong to a circuit, not merely to enjoy convenience.",
@@ -4207,14 +5199,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s106/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 36,
+        "ayah_count": 4,
+        "row_count": 29,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4412,10 +5410,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s106/packets/106_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s106/readers/reader_hft_a/106_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s106"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s106",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 44569,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

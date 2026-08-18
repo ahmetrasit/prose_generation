@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.675621+00:00",
+  "generated_at": "2026-08-18T13:34:27.671322+00:00",
   "surah": 101,
   "ayah": 7,
   "ayahRef": "101:7",
@@ -1220,7 +1220,8 @@
       "morpheme_ids": [
         "m-w-s101-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:7:1"
+      "aligned_qac_word_ref_upstream": "101:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1234,7 +1235,8 @@
       "morpheme_ids": [
         "m-w-s101-a007-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:7:2"
+      "aligned_qac_word_ref_upstream": "101:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1248,7 +1250,8 @@
       "morpheme_ids": [
         "m-w-s101-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:7:3"
+      "aligned_qac_word_ref_upstream": "101:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1262,7 +1265,8 @@
       "morpheme_ids": [
         "m-w-s101-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:7:4"
+      "aligned_qac_word_ref_upstream": "101:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1276,7 +1280,8 @@
       "morpheme_ids": [
         "m-w-s101-a007-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:7:5"
+      "aligned_qac_word_ref_upstream": "101:7:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1711,7 +1716,908 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:7",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_lived_contentment",
+            "confidence": "strong",
+            "focus_anchor": "The construction fahuwa fi places the person inside ʿishah, while the feminine active descriptor radiyah grammatically makes the lived condition itself the bearer of satisfaction.",
+            "mechanism": "Containment and personification combine: the subject does not merely possess a reward but inhabits a whole condition of living from which displeasure is absent.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life and lived condition supplies the encompassing state in which the person is placed."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance opposed to displeasure gives that encompassing life its affective quality."
+              }
+            ],
+            "changed_reading": {
+              "before": "He will have a pleasant life.",
+              "after": "He is enclosed within a lived condition that is itself satisfied and free of aversion."
+            }
+          },
+          {
+            "model_id": "baseline_sustaining_livelihood",
+            "confidence": "strong",
+            "focus_anchor": "The noun ʿishah can name not only life in the abstract but the means, provisions, and place by which living is sustained.",
+            "mechanism": "The phrase can describe an ecology of subsistence: food, drink, place, and support cohere as an acceptable livelihood rather than serving as decorative pleasures around an otherwise unchanged subject.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Livelihood, provision, and place of living turn ʿishah into a sustaining environment."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped inventory's acceptance sense marks the sustaining environment as fully acceptable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse promises a generically happy existence.",
+              "after": "The verse places him within a satisfactory means-and-place of living whose supports are part of the gift."
+            }
+          },
+          {
+            "model_id": "baseline_reciprocal_fit",
+            "confidence": "medium",
+            "focus_anchor": "Because radiyah agrees with ʿishah, the wording leaves the life grammatically active rather than stating only that its human inhabitant is pleased.",
+            "mechanism": "The mutual-consent branch activates a bilateral relation: the person fits the life and the life, personified, accepts its inhabitant. This coexists with the simpler idiom of a pleasing life.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "The lived condition provides one side of a relation rather than merely an inert possession."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual consent supplies the image of reciprocal accord between the life and its inhabitant."
+              }
+            ],
+            "changed_reading": {
+              "before": "The person likes the life awarded to him.",
+              "after": "Person and lived condition are in reciprocal fit: he is at home in it, and it is figured as accepting him."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_post_impact_enclosure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "Repeated impact and exposure make the focus preposition fi newly salient. Against a world struck open or emptied, being inside a life reads as recovered enclosure and continuity after rupture.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "The whole lived condition is the enclosure whose force changes under the impact cue."
+              },
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "One thing striking another supplies the initiating rupture against which enclosure matters."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B008",
+                "role": "Uncovering and emptiness sharpen the contrast between exposure and being held within a life."
+              }
+            ],
+            "structural_cues": [
+              "The same event-name occupies 101:1, 101:2, and 101:3 before the focus result begins with fa and locates its subject with fi."
+            ],
+            "reader_inference": "The packet supplies repeated striking and uncovering plus the focus's inside-construction; I infer a rupture-to-enclosure contrast, not that q-r-ʿ lexically means loss of shelter. A live alternative is simple temporal contrast after the event.",
+            "changed_reading": {
+              "before": "The life is a static pleasant reward.",
+              "after": "The life is also a post-impact enclosure: a condition able to hold its inhabitant after ordinary structures have been struck open."
+            }
+          },
+          {
+            "model_id": "delta_experiential_knowledge",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The repeated challenge of knowing brackets the outcomes, while the focus uses interior location and an evaluative adjective. Satisfaction can therefore function as knowledge available from inhabiting the condition, not as an external inventory of its contents.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "A lived condition is something encountered from within, supporting experiential rather than merely propositional knowledge."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance supplies the condition's internally registered verdict."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge and discernment open an epistemic gap before the scene is disclosed."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The repeated knowledge challenge near the opposite outcome makes the focus's compressed qualitative report conspicuous."
+              }
+            ],
+            "structural_cues": [
+              "The formula asking what could make the addressee know appears before the transformations and again before the final identification, whereas 101:7 names only an inhabited quality."
+            ],
+            "reader_inference": "The packet supplies explicit knowledge challenges and an interior life-description; I infer that radiyah can act as an experiential disclosure. It may instead be only concise reward language, so the epistemic function remains contextual rather than lexical.",
+            "changed_reading": {
+              "before": "Radiyah is a vague synonym for pleasant.",
+              "after": "Radiyah is the inside verdict of the life: its adequacy is known in being lived even though its contents are not itemized."
+            }
+          },
+          {
+            "model_id": "delta_event_to_abiding_regime",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي و م",
+              "ك و ن"
+            ],
+            "mechanism": "A bounded event-time in which radical transformations come to be opens into an inhabited life-state. The focus thus reads as a new regime generated by the event rather than as a continuation of ordinary biological life.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life and lived condition supplies the abiding regime reached after the event."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A delimited duration frames the transformations as an event phase."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming to presence in time supplies the transition from event to newly actualized condition."
+              }
+            ],
+            "structural_cues": [
+              "Yawm yakunu introduces what people become, then 101:6-7 moves through evaluation to fahuwa fi, a result expressed as stable location."
+            ],
+            "reader_inference": "The packet supplies event-time, coming-to-be, and an inhabited life; I infer a phase transition from bounded upheaval into an abiding regime. The alternative is that yawm merely dates an otherwise conventional reward.",
+            "changed_reading": {
+              "before": "ʿIshah is ordinary life made more pleasant.",
+              "after": "ʿIshah is a newly actualized mode of living on the far side of the event's transformations."
+            }
+          },
+          {
+            "model_id": "delta_reconstituted_habitat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و س",
+              "ف ر ش",
+              "ب ث ث",
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "The context dismantles coherence in parallel social and material domains: familiar humans lose gathering and companionship, while solid terrain becomes light, soft, and expanded. The focus life can therefore be heard as the counter-state in which social and material supports again cohere into habitability.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Means, provisions, and place of living provide the habitat whose coherence is at stake."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Human companionship that removes estrangement supplies the social coherence lost in the scene."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The light flying creature supplies unstable, directionless mobility for the human collective."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering converts the collective into separated units and breaks social containment."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Elevated solid aggregation supplies the material coherence that is being undone."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B002",
+                "role": "Softening and breakage without clean separation turns firmness into yielding fibers."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffed expansion completes the loss of compact material support."
+              }
+            ],
+            "structural_cues": [
+              "Two consecutive similes transform people and mountains in parallel before the two outcome clauses restore sharply differentiated destinations."
+            ],
+            "reader_inference": "The packet supplies social scattering and material decompaction; I infer that a means-and-place of living answers both losses by restoring coherence. A weaker alternative is that the chaos serves only as backdrop for generic comfort.",
+            "changed_reading": {
+              "before": "The good outcome is private emotional comfort.",
+              "after": "The good outcome is an inhabitable order: social belonging and material support cohere again around the person."
+            }
+          },
+          {
+            "model_id": "delta_justly_accepted_settlement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن"
+            ],
+            "mechanism": "Weight carries worth, and weighing carries justice. Because the focus follows as the direct fa-result, satisfaction becomes an accepted settlement produced by valuation, not an arbitrary sensation or decorative luxury.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "The lived condition is the settlement assigned by the evaluative process."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "Acceptance from the non-dominant mapped inventory makes radiyah sound like ratification as well as pleasure."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Precious weight turns heaviness into worth rather than mere physical load."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The balance of justice supplies the normative procedure that yields the accepted life."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B007",
+                "role": "Weight as standing or rank makes the outcome answer demonstrated value."
+              }
+            ],
+            "structural_cues": [
+              "101:6 gives the condition and 101:7 begins with fa, making the inhabited life the immediate consequence of heavy balances."
+            ],
+            "reader_inference": "The packet supplies worth, just weighing, rank, and a grammatical result; I infer that acceptance is the verdict embodied as a life. Pleasure remains a live concomitant, but it no longer exhausts radiyah.",
+            "changed_reading": {
+              "before": "The person receives a pleasant reward after being weighed.",
+              "after": "He enters a life that embodies a just, accepted verdict—its satisfaction is also ratification of the measured worth."
+            }
+          },
+          {
+            "model_id": "delta_balanced_mutual_fit",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ز ن"
+            ],
+            "mechanism": "The balance can be an alignment between two things, while the focus inventory allows mutual satisfaction. Together they activate a fit model in which person and life are brought into proportion rather than pleasure flowing only one way.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "The concrete supports and place of living form one side of the fit."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual consent makes satisfaction bilateral rather than a one-way reaction."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B003",
+                "role": "Balancing and aligning two things supplies the mechanism of proportional fit."
+              }
+            ],
+            "structural_cues": [
+              "The weighing clause and the life clause are joined as condition and consequence, while radiyah agrees with the life rather than directly predicating contentment of the person."
+            ],
+            "reader_inference": "The packet supplies alignment and mutual consent; I map physical balance onto relational congruence. The live alternative is ordinary measurement followed by a unilaterally pleasing reward.",
+            "changed_reading": {
+              "before": "A favorable measurement purchases pleasures for the person.",
+              "after": "The measurement places him in a mode of life proportioned to him, with reciprocal accord between inhabitant and habitat."
+            }
+          },
+          {
+            "model_id": "delta_weighted_counterhome",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ز ن",
+              "خ ف ف",
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "The paired weight outcomes lead to opposed receiving environments. Lightness culminates in an origin-or-return figured as a falling abyss; by contrast, being fi ʿishah becomes arrival in a stable, sustaining home-world.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Means and place of living let the positive destination function as a sustaining home."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B003",
+                "role": "The repeated balance sets the two destinations into direct structural comparison."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Lightness of load supplies the failed counterweight that opens the opposite trajectory."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Origin, gathering point, and return turn the negative destination into a perverse home or receiving matrix."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a depth gives the opposite home its irreversible downward motion."
+              }
+            ],
+            "structural_cues": [
+              "The fa-amma and wa-amma alternatives mirror each other; the positive says fahuwa fi, while the negative answers with fa-ummuhu, making both outcomes forms of reception."
+            ],
+            "reader_inference": "The packet supplies paired balances, an inside-position, a root of origin and return, and falling; I infer that both outcomes are destination-environments. The maternal force of umm may remain metaphorical rather than defining every nuance of the contrast.",
+            "changed_reading": {
+              "before": "One outcome is happiness and the other is punishment.",
+              "after": "The weighing routes each person to a counterhome: one receives and sustains life, while the other receives by letting its inhabitant fall."
+            }
+          },
+          {
+            "model_id": "delta_nurturing_host",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "The opposite destination is personified through maternal language, while the focus life is already grammatically capable of satisfaction. The contrast activates a relational host model: the good life does not merely contain goods but receives, sustains, and accords with its inhabitant.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Provision and place of living provide the sustaining functions of the positive host."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual consent allows the host-life and inhabitant to be figured in reciprocal accord."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "The mother as bearer and nurturer supplies the relational hosting pattern, inverted by the abyss."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "The falling depth makes the negative host anti-nurturing and sharpens the positive reversal."
+              }
+            ],
+            "structural_cues": [
+              "Both outcome clauses personify what receives the person: a satisfied life in 101:7 and an abyss named through umm in 101:9."
+            ],
+            "reader_inference": "The packet supplies maternal nurture, a falling destination, livelihood support, and mutual accord; I infer a positive host by contrast with the anti-maternal abyss. The alternative retains umm as a conventional destination metaphor without projecting maternal qualities onto ʿishah.",
+            "changed_reading": {
+              "before": "The person is pleased by objects located in the good life.",
+              "after": "The life-world itself receives and sustains him, and its being radiyah figures a living accord with the one it hosts."
+            }
+          },
+          {
+            "model_id": "delta_quality_as_sufficient_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The negative outcome is eventually exposed through concrete fire and heat, whereas the positive outcome remains a compressed inhabited quality. This asymmetry lets radiyah serve not as vagueness but as a sufficient disclosure: acceptability characterizes the life as a whole without a catalog.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "The whole lived condition is summarized qualitatively rather than decomposed into separate rewards."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance opposed to displeasure operates as the positive condition's complete evaluative seal."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire gives the opposite outcome a concrete destructive substance."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat completes the materially explicit disclosure against which the positive compression stands."
+              }
+            ],
+            "structural_cues": [
+              "The positive result is one compact prepositional phrase; the negative result receives a renewed knowledge question and then a two-word material identification."
+            ],
+            "reader_inference": "The packet supplies rhetorical asymmetry, fire, heat, and the focus's whole-life adjective; I infer that radiyah intentionally gives a total verdict rather than an incomplete picture. A live alternative is simple stylistic compression with no epistemic contrast.",
+            "changed_reading": {
+              "before": "The positive outcome is underspecified compared with the fire.",
+              "after": "Its non-catalog form is meaningful: the entire lived condition is disclosed as acceptable, while the opposite must be exposed by its consuming material."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_guarantor_livelihood",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins two rare guarantee branches and the radiyy descriptor is form-distant from radiyah here. It remains anchored in the focus noun's livelihood sense and adjective root, with a context branch independently supplying standing surety; downstream prose should call it a functional echo, not a lexical translation.",
+            "focus_anchor": "ʿIshah can denote the means by which life continues, and the non-dominant r-d-y inventory includes a descriptor associated with guaranteeing.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Livelihood and subsistence provide what must be maintained or guaranteed."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B004",
+                "role": "The form-distant descriptor of obedience, love, or guarantee activates a surety-like quality in radiyah."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Guaranteeing and standing over another supplies an independent support relation that keeps the activation live."
+              }
+            ],
+            "changed_reading": {
+              "before": "The life is merely enjoyable while it lasts.",
+              "after": "Exploratorily, it is a livelihood that stands surety for its inhabitant—a sustaining condition whose continuance is secured."
+            }
+          },
+          {
+            "outlier_id": "outlier_selected_allotment",
+            "confidence": "exploratory",
+            "containment": "This is surprising because drawing lots and being selected are remote branches of the repeated event-name, not the obvious force of its surface occurrence. It remains anchored in the focus's fa-marked assignment to a life and is reinforced by just weighing; downstream prose should present it only as an allotment-pattern activated across the sequence.",
+            "focus_anchor": "Fahuwa makes the person the recipient of a resultant placement, and fi ʿishah names the condition into which he is placed.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "The lived condition supplies the allotment or placement produced by the sequence."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B004",
+                "role": "Drawing lots supplies the remote image of differentiating and assigning outcomes."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B007",
+                "role": "Being picked or chosen sharpens the event's remote selection pattern."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "Just balance constrains the selection image by making the resultant placement adjudicated rather than random."
+              }
+            ],
+            "changed_reading": {
+              "before": "The good life simply follows the event.",
+              "after": "Exploratorily, the event sorts and the balance adjudicates, so the satisfied life reads as the person's selected allotment."
+            }
+          },
+          {
+            "outlier_id": "outlier_protective_reverse",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the protection branch shares the root of the surface adjective describing intense heat, so the reversal is cross-branch rather than the clause's direct sense. It remains anchored in fi plus the focus livelihood/place branch and in the final root's supplied protection image; downstream prose should mark it as a contrastive affordance, not claim that hamiyah means protective here.",
+            "focus_anchor": "Being fi a means-and-place of living permits the positive life to be read as an enclosure with a sustaining function.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B002",
+                "role": "Place and means of living anchor the positive side as a sustaining enclosure."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Absence of displeasure marks the enclosure as hospitable rather than hostile."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the hostile enclosure against which the focus is reversed."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and prevention activate the latent opposite affordance of a boundary: shelter rather than consuming confinement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus and final fire are merely unrelated reward and punishment images.",
+              "after": "Exploratorily, they are opposed enclosures: the satisfied life sustains and shelters, while the fiery depth encloses by consuming."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The phrase shifts from generic pleasure to a whole lived condition that is itself figured as satisfied.",
+            "Heavy, just balances make that condition an accepted verdict embodied as life.",
+            "The paired outcomes turn ʿishah into a sustaining counterhome to the light-weighted fall into an abyss.",
+            "The scattering of people and loosening of mountains makes the good life a reconstituted social and material habitat."
+          ],
+          "what_was_special": "The focus adjective remains productively active: context does not force a single gloss but lets life appear at once as verdict, habitat, reciprocal partner, and receiving home. Remote guarantee, allotment, and protection branches add contained exploratory readings without displacing the stronger models.",
+          "remaining_uncertainties": [
+            "The grammar keeps open how strongly radiyah personifies the life as satisfied, rather than idiomatically describing it as pleasing.",
+            "ʿIshah can foreground lived condition or concrete livelihood and habitat; the context supports both without settling their proportion.",
+            "The guarantee, selection, maternal-host, and protective-reversal mechanisms depend on abductive cross-branch arrows and should remain explicitly qualified."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Life as condition matched to weight. Evidence: ع ي ش B001, life and lived condition; ر ض و B001, acceptance opposed to displeasure; و ز ن B002/B007 in 101:6, just balance and valued standing. Structural cue: فَهُوَ marks direct consequence after ثقلت موازينه. Mechanism: adjudicated worth produces an inhabited condition that itself is accepting/accepted. Abductive move: I infer that the life is not merely pleasant but congruent with the scale's judgment. Reading change: عيشة راضية reads as an environment aligned with justice.\n\n2. Livelihood after stripped provisions. Evidence: ع ي ش B002, means of living/livelihood; ع ه ن B001 in 101:5, ready accessible property/food/drink; ف ر ش B002, prepared resting place. Structural cue: after worldly supports are scattered/fluffed, this ayah supplies a new \"in\" space. Mechanism: the rewarded person receives not only survival but a complete provision-place. Abductive move: I supply replacement: collapsed earthly provisioning is answered by a different livelihood. Reading change: عيشة is read materially as sustaining habitation, not only abstract life.\n\n3. Mutual consent/restored relation. Evidence: ر ض و B003, reciprocal satisfaction; ر ض و B004, making another satisfied; ر ح م B002 at 101:0, kinship bond. Structural cue: the singular \"he\" enters a feminized عيشة راضية after the communal chaos of الناس. Mechanism: isolated judgment is reabsorbed into a relation of acceptance and care. Abductive move: I infer social/affective repair from رضى branches and the opening kinship field. Reading change: the ayah reads as reconciled belonging rather than solitary reward.\n\n4. Obedient/guaranteeing life. Evidence: ر ض و B006, raḍiyy as obedient, loving, or guaranteeing; ك و ن B003, suretyship/responsibility; ث ق ل B005, precious protected worth. Structural cue: the life follows a successful scale result. Mechanism: the new life acts almost as guarantor for the one whose weight was accepted. Abductive move: I supply a juridical protection relation from \"guaranteeing\" to the rewarded state. Reading change: راضية can be heard as a life that receives, loves, and secures its inhabitant.",
@@ -8414,14 +9320,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8622,10 +9534,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 82516,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

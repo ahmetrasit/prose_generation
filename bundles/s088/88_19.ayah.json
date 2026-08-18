@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.031567+00:00",
+  "generated_at": "2026-08-18T13:33:35.667019+00:00",
   "surah": 88,
   "ayah": 19,
   "ayahRef": "88:19",
@@ -1515,7 +1515,8 @@
       "morpheme_ids": [
         "m-w-s088-a019-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:19:1"
+      "aligned_qac_word_ref_upstream": "88:19:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1529,7 +1530,8 @@
       "morpheme_ids": [
         "m-w-s088-a019-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:19:2"
+      "aligned_qac_word_ref_upstream": "88:19:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1545,7 +1547,8 @@
         "m-w-s088-a019-w002-01",
         "m-w-s088-a019-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:19:3"
+      "aligned_qac_word_ref_upstream": "88:19:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1559,7 +1562,8 @@
       "morpheme_ids": [
         "m-w-s088-a019-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:19:4"
+      "aligned_qac_word_ref_upstream": "88:19:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1573,7 +1577,8 @@
       "morpheme_ids": [
         "m-w-s088-a019-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:19:5"
+      "aligned_qac_word_ref_upstream": "88:19:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2968,7 +2973,1424 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_19.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:19",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:19",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_landmark_erection",
+            "confidence": "strong",
+            "focus_anchor": "The plural mountain mass at word 2 is joined to a passive setting operation at word 4.",
+            "mechanism": "A high solid mass is fixed upright and made conspicuous; the marker branch of the same setting root gives that prominence an orienting and boundary-making function.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the stable body that can dominate a terrain."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright prominent setting supplies the visible operation performed on that mass."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "The upright boundary-marker image turns mere height into orientation and demarcation."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic invitation to notice mountains as large created objects.",
+              "after": "An invitation to inspect mountains as deliberately erected, conspicuous markers that structure and orient terrain."
+            }
+          },
+          {
+            "model_id": "b_fixed_measure",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive form at word 4 can activate the allotted-share and fixed-threshold branches of ن ص ب while remaining attached to the mountain plurality.",
+            "mechanism": "The mountains become apportioned masses: each is given a fixed standing, base, or measure within an ordered world rather than merely lifted into place.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B002",
+                "role": "Mountain-like abundance supplies a plurality large enough to be distributed and measured."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "The assigned-share image recasts setting as allotting each mass its portion."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B006",
+                "role": "The fixed base and quantitative threshold supply stable measure to the allotment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountains were placed at unspecified locations.",
+              "after": "The mountains were assigned fixed standings and measures that calibrate the world's distribution."
+            }
+          },
+          {
+            "model_id": "b_embodied_posture",
+            "confidence": "exploratory",
+            "focus_anchor": "The mountain root can name thick bodily build, while the setting root can name both upright posture and exhausting strain.",
+            "mechanism": "The verse can momentarily animate mountains as thick bodies or humps made to stand, with their stable posture holding latent effort rather than inert mass alone.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B003",
+                "role": "Thick bodily build, including the hump image, supplies an anatomical profile for the mountain."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright setting supplies bodily posture to the thick mass."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Fatigue and wearing strain make the maintained posture feel load-bearing."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mountains are inert geology that happens to stand high.",
+              "after": "Mountains are thick world-bodies made to stand and bear strain in their posture."
+            }
+          },
+          {
+            "model_id": "b_woven_fixture",
+            "confidence": "exploratory",
+            "focus_anchor": "A textile-construction branch of ج ب ل at word 2 can combine with the upright-fixture branch of ن ص ب at word 4.",
+            "mechanism": "Firm weaving supplies a world-fabric, while upright installation supplies the stiff points that hold its form; mountains become structural reinforcements rather than only rock masses.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "The firm weave image supplies a tightly made material field for the mountain."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "The upright projecting fixture supplies a reinforcement point in that field."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse asks only how separate rocky objects were raised.",
+              "after": "The verse also permits mountains as upright reinforcements in a firmly made world-fabric."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_toil_posture",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج ه",
+              "خ ش ع",
+              "ع م ل",
+              "ن ص ب"
+            ],
+            "mechanism": "The earlier sequence moves through embodied identity, lowered posture, purposeful labor, and explicit ن ص ب fatigue. It converts the focus mountain's uprightness into a counter-posture that visibly bears the strain from which the earlier faces cannot escape.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B003",
+                "role": "The thick bodily-build image keeps the revised reading anchored in the mountain noun."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "The upright setting image supplies the mountain's opposed, erect posture."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "The fatigue branch lets the focus verb retain an undertone of strain."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face-as-self image supplies an embodied subject whose posture can be compared with the mountain."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission supply the downward pole of the posture contrast."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful work supplies the exertion that precedes exhaustion."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "The explicit fatigue image makes the same root's recurrence materially audible in the focus."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from faces to lowered posture to labor plus the same ن ص ب root before the focus.",
+              "The focus passive leaves the agent unstated and foregrounds the achieved upright state."
+            ],
+            "reader_inference": "The packet supplies bodies, lowering, labor, fatigue, thick build, and upright setting; I place them on one posture-and-load axis. A live alternative is that the repeated root is only a lexical recurrence between unrelated scenes.",
+            "changed_reading": {
+              "before": "The mountains' erection is a neutral construction fact.",
+              "after": "Their erection is a load-bearing posture, a monumental counterimage to laboring faces bent by exhaustion."
+            }
+          },
+          {
+            "model_id": "d_watershed_channel",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ق ي",
+              "ع ي ن",
+              "ج ر ي"
+            ],
+            "mechanism": "Drinking, springs in opposed conditions, continuous flow, and the split-root image of following one track activate the mountain-marker as a watershed and cistern-edge system that partitions, channels, and releases water.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the terrain body that can divide catchments."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "Boundary and cistern stones supply containment and channel edges."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink supplies the use relation between terrain and water."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B012",
+                "role": "The non-dominant mapped image of following one trace supplies a channel-like path for flow."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The water-source image supplies the adverse spring at one end of the hydraulic contrast."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The repeated water-source image supplies the life-giving spring at the other end."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous coursing supplies the movement that the mountain system routes."
+              }
+            ],
+            "structural_cues": [
+              "The same spring noun occurs in both the deprivation and garden sequences, but only the latter is explicitly flowing.",
+              "The focus sits after both water scenes, allowing its upright masses to be reread as the terrain between distinct water outcomes."
+            ],
+            "reader_inference": "The packet supplies drinking, two springs, flow, boundary stones, and a split-root track image; I infer watershed causality from elevation to routed water. The live alternative is that the springs and mountains are independent examples.",
+            "changed_reading": {
+              "before": "Mountains are visual landmarks on dry terrain.",
+              "after": "Mountains are installed hydraulic dividers and basin-edges whose form governs where water gathers and runs."
+            }
+          },
+          {
+            "model_id": "d_cosmic_interior",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث",
+              "س م و",
+              "س ط ح"
+            ],
+            "mechanism": "Raised rests, placed vessels, aligned cushions, spread carpets, an overhead shade, and a tent-support branch turn the focus's firm weave plus upright installation into one furnished enclosure. Mountains become ribs or tensioning fixtures in the world's fabric.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "Firm weaving supplies the textile construction retained from the focus baseline."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright prominent installation supplies the structural fixture within that textile field."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising furniture supplies the first deliberate vertical placement in the interior."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object in its appointed lower place supplies coordinated placement."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies ordered furnishing rather than random accumulation."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Spreading things abroad supplies the carpet-like horizontal field."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising the overhead element expands the furnishing grammar to cosmic scale."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What rises above and shades supplies the enclosure's canopy."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B003",
+                "role": "The pole over which a tent is extended supplies the surprising construction analogy."
+              }
+            ],
+            "structural_cues": [
+              "A run of feminine passive forms presents raised, placed, aligned, spread, installed, and surfaced results.",
+              "The branchless ك ي ف interrogative repeats across 88:17-20 and asks after construction manner rather than naming an agent."
+            ],
+            "reader_inference": "The packet supplies furnishing operations, weave, canopy, and a tent-support image; I infer that they compose one habitable enclosure. A live alternative is a rhetorical catalogue whose items should not be merged into a single interior.",
+            "changed_reading": {
+              "before": "Mountains are isolated rock objects in an outdoor landscape.",
+              "after": "Mountains are upright ribs or tensioning fixtures in a world arranged and furnished like a vast textile interior."
+            }
+          },
+          {
+            "model_id": "d_vertical_assembly",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر",
+              "ء ب ل",
+              "خ ل ق",
+              "س م و",
+              "ر ف ع",
+              "ء ر ض",
+              "س ط ح"
+            ],
+            "mechanism": "Directed inspection encounters four different operations: forming a living body, raising the overhead, installing vertical masses, and extending a lower surface. The mountain operation becomes the axial middle that differentiates and joins sky and ground.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the vertical middle member of the assembly."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright installation distinguishes the mountain operation from forming, raising, and spreading."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight and insight supply the inspection procedure for the whole sequence."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The camel supplies the living member whose operation is bodily formation."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply the formative operation applied to the living member."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The overhead expanse supplies the upper spatial member."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation supplies the operation specific to the upper member."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower counterpart to the sky supplies the assembly's ground member."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An even extended surface supplies the operation specific to the ground."
+              }
+            ],
+            "structural_cues": [
+              "The four-item sequence repeats destination phrasing, the branchless ك ي ف slot, and feminine passives.",
+              "The operations are not synonyms: formed, raised, installed, and surfaced distribute distinct spatial functions."
+            ],
+            "reader_inference": "The packet supplies four inspected entities and four distinct operations; I infer functional complementarity and assign mountains the mediating vertical role. A live alternative is that the list displays variety without describing one assembled system.",
+            "changed_reading": {
+              "before": "The mountain clause is one more independent example of creation.",
+              "after": "It names the vertical installation step in a coordinated assembly of body, overhead, axial mass, and ground."
+            }
+          },
+          {
+            "model_id": "d_camel_anatomy",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ب ل",
+              "خ ل ق"
+            ],
+            "mechanism": "The adjacent camel and creation branches activate the focus root's explicit thick-body and hump scope. Mountain installation can then be seen as anatomical articulation: load-bearing humps or bones given their world-scale posture.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B003",
+                "role": "The thick body and hump image supplies the direct anatomical bridge from mountain to camel."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B004",
+                "role": "Innate formed constitution makes the mountain's material character body-like rather than accidental."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright setting supplies articulation and posture to the body-like mass."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The camel image supplies the neighboring body and its conspicuous hump."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B004",
+                "role": "Weight and burden supply the load-bearing demand shared by camel and mountain."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete and balanced bodily form supplies the principle by which the load-bearing shape is fitted."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inner constitution supplies continuity between visible profile and created nature."
+              }
+            ],
+            "structural_cues": [
+              "Camel and mountains occupy adjacent members of the same repeated inspection sequence.",
+              "Both clauses use feminine passive forms and ask after manner through the branchless interrogative."
+            ],
+            "reader_inference": "The packet supplies camel, burden, balanced form, bodily thickness, hump, and upright posture; I analogize the mountain profile to load-bearing anatomy. A live alternative is that adjacency invites comparison of making without any zoomorphic transfer.",
+            "changed_reading": {
+              "before": "Mountains are engineering-like supports with no organic dimension.",
+              "after": "Mountains are the world's thick, hump-like anatomy, formed and articulated to carry load."
+            }
+          },
+          {
+            "model_id": "d_mnemonic_marker",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "س م و",
+              "ذ ك ر",
+              "س ط ر"
+            ],
+            "mechanism": "Looking, a non-dominant sky mapping to a visible diagnostic mark, commanded reminding, and denied control convert the mountain's boundary-marker branch into external memory architecture. Its prominence prompts recognition without coercing assent.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The massive landmark supplies a durable public surface for recollection."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "The erected marker image supplies the mnemonic object's explicit sign function."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight and insight supply the act by which the marker is read."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped image of a visible mark indicating a state supplies signification rather than height."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back after forgetfulness supplies the marker's cognitive effect."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder-object image supplies a direct functional analogue for the installed mountain."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer image, explicitly denied in context, bounds the marker's agency as noncoercive."
+              }
+            ],
+            "structural_cues": [
+              "The creation sequence begins with an imperative to look and is immediately followed by an imperative to remind.",
+              "The next clause denies human control, separating perceptual prompting from compelled response."
+            ],
+            "reader_inference": "The packet supplies sight, a visible-state mark, reminder, marker, and denied control; I infer that conspicuous nature performs mnemonic guidance. A live alternative is that the reminder command concerns the preceding discourse generally, not the mountain's physical prominence.",
+            "changed_reading": {
+              "before": "The mountains orient movement through physical terrain.",
+              "after": "Their erection also orients memory and judgment: they are conspicuous reminders whose force is evidential, not coercive."
+            }
+          },
+          {
+            "model_id": "d_anti_veiling",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ش و",
+              "ن و ر",
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The context opens with comprehensive covering and a covering of understanding, then later supplies visible beacon, turning away, and concealment of truth. Against that axis, mountains are set up as maximally exposed counter-coverings: evidence made difficult to hide except by redirected attention.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high massive landmark supplies an object whose visibility resists concealment."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Prominent installation supplies deliberate exposure to view."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "The comprehensive covering image supplies the large-scale concealment pole."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B007",
+                "role": "The non-dominant mapped image of covering understanding supplies an epistemic version of concealment."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "The visible beacon image supplies conspicuousness that can guide or warn from afar."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the bodily action required to avoid the conspicuous sign."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing truth supplies the interpretive act that completes the refusal."
+              }
+            ],
+            "structural_cues": [
+              "The surah's opening covering and later turning-away and concealment surround the visual inspection sequence.",
+              "The focus foregrounds prominence through a passive result rather than narrating the hidden agent."
+            ],
+            "reader_inference": "The packet supplies covering, obscured understanding, beacon, turning away, concealed truth, and prominent erection; I infer an exposure-versus-veiling mechanism. A live alternative is that these are eschatological and ethical frames without a specific optical function for mountains.",
+            "changed_reading": {
+              "before": "The mountains are simply available to sight.",
+              "after": "They are installed as anti-veiling evidence, so failure to see becomes active turning and covering rather than lack of access."
+            }
+          },
+          {
+            "model_id": "d_measured_account",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ب ر",
+              "ح س ب"
+            ],
+            "mechanism": "Magnitude, counting, and examination activate the focus setting root's assigned-share and fixed-threshold branches. Mountains become calibrated quantities in the same ordered reality that can later be reckoned.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B002",
+                "role": "Mountain-like abundance supplies a plurality whose scale can be compared and counted."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "The assigned portion supplies apportionment within the created order."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B006",
+                "role": "The fixed base and threshold supply a standard against which quantities can be reckoned."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Magnitude opposed to smallness supplies an explicit scale dimension."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply the terminal reckoning operation."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Looking into a matter supplies qualitative examination alongside counting."
+              }
+            ],
+            "structural_cues": [
+              "The focus asks how plurality received a fixed passive result; the ending assigns return and account with the same impersonal certainty.",
+              "Magnitude immediately precedes the final accounting frame."
+            ],
+            "reader_inference": "The packet supplies allotment, fixed threshold, magnitude, counting, and examination; I infer that mountain placement exemplifies measurable order. A live alternative is that judgment vocabulary does not retroactively quantify the landscape.",
+            "changed_reading": {
+              "before": "The mountains occupy fixed locations.",
+              "after": "Their setting is also an apportionment of scale and threshold within an order that is measurable and accountable."
+            }
+          },
+          {
+            "model_id": "d_arrival_return",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ت ي",
+              "ء و ب"
+            ],
+            "mechanism": "The discourse begins with arrival and a path-alignment branch, then ends with return to a destination. Between them, the mountain's solid-mass and erected-marker branches become wayfinding stations that stabilize approach and return.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high stable mass supplies a landmark visible over a journey."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "The erected sign and boundary stone supply explicit wayfinding function."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival supply the opening movement toward a receiver."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B010",
+                "role": "The path and alignment image supplies a route on which landmarks can orient movement."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a home-place supplies the terminal destination movement."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B004",
+                "role": "A direction from which one comes supplies an oriented approach rather than abstract return."
+              }
+            ],
+            "structural_cues": [
+              "The opening asks whether a report has come, while the ending states a return toward a named destination.",
+              "The focus preposition directs attention toward mountains, so the clause itself performs orientation."
+            ],
+            "reader_inference": "The packet supplies arrival, path alignment, return, oriented approach, and erected landmarks; I infer a journey frame in which mountains guide movement. A live alternative is that arrival and return concern report and judgment only, not physical navigation.",
+            "changed_reading": {
+              "before": "Mountains mark static territorial limits.",
+              "after": "They are installed as navigational reference points within an arc of coming, orientation, and return."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_mountain_altar",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the surface clause names ordinary mountains and upright setting, not ritual use. It remains anchored in the exact altar-stone branch of ن ص ب, the mountain's solid mass, and the later worship branch; render it only as a branch-induced monumental analogy, not as a claim that the mountains literally are altars.",
+            "focus_anchor": "The combination of a massive stone body and the set-up cult-stone branch permits a colossal natural-altar image.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the monumental stone body."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B002",
+                "role": "The stone set up for worship or sacrifice supplies the cultic visual analogy."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply the later context that keeps the ritual branch active."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mountains are large natural monuments.",
+              "after": "They can flicker as colossal set stones whose monumentality redirects the question of worship."
+            }
+          },
+          {
+            "outlier_id": "o_installed_chiefs",
+            "confidence": "exploratory",
+            "containment": "This social reading is surprising because it crosses from literal mountains to the branch that calls chiefs mountains. It remains anchored in that explicit branch and in نصب images of installation and allotted standing, while later control and governance branches give it context; downstream prose should mark it as a temporary political metaphor, not a lexical replacement for mountains.",
+            "focus_anchor": "The chief-as-mountain branch allows the passive installation question to touch social authority.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B012",
+                "role": "Chiefs likened to mountains supply the social actors."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something up prominently supplies appointment to visible standing."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "An assigned share supplies the chief's allotted rank or office."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer image supplies the authority later denied to the human reminder."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge of an affair supplies the office an installed chief might occupy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question concerns how physical mountains received their standing.",
+              "after": "It briefly also asks how mountain-like chiefs acquire visible, allotted authority, an authority the following denial of control destabilizes."
+            }
+          },
+          {
+            "outlier_id": "o_visual_chant",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the focus form ordinarily denotes erection, not song. It remains traceable through the exact raised-voice chant branch of ن ص ب, the visible mountain mass, hearing, rejected mixed noise, and ordered rows; render it as a visual-acoustic analogy in which form carries cadence, never as a direct translation.",
+            "focus_anchor": "The mountain's visible mass combines with the ن ص ب branch for a raised-voice chant.",
+            "activation_trace": [
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The high solid mass supplies the visible medium that substitutes for sound."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B009",
+                "role": "Song or chant with raised voice supplies the unexpected acoustic branch."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception supplies the channel whose absence invites a visual analogue."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy sound supplies the rejected acoustic disorder."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Order on an even line supplies the visual cadence opposed to noise."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountain array is silent visual evidence.",
+              "after": "Its ordered upright forms can be carried as a silent visual chant, raised in shape where confused sound is absent."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The same ن ص ب inventory links focus erection to the earlier exhausted laborer, turning mountain height into load-bearing posture.",
+            "The camel's adjacent body, burden, and balanced creation activate the mountain root's thick-body and hump branch.",
+            "Furnishing passives plus sky elevation and earth surfacing recast mountains both as vertical members of an assembly and as fixtures in a textile-like cosmic interior.",
+            "Reminder, concealment, allotted measure, accounting, arrival, and return keep mnemonic, epistemic, quantitative, and navigational readings alive beside the material one."
+          ],
+          "what_was_special": "The focus pair is unusually polyfunctional: ج ب ل ranges from solid mass to body, weave, and chief, while ن ص ب ranges from erection to fatigue, marker, allotment, threshold, altar, and chant. Context does not force one choice; it activates several mechanisms that remain visibly anchored in the same two focus words.",
+          "remaining_uncertainties": [
+            "The toil reading depends on hearing the 88:3 root recurrence across a different surface form rather than treating it as coincidence.",
+            "The textile-interior and watershed models infer system-level causality from adjacent branch images that could remain separate.",
+            "The split-root track and visible-mark activations are productive but morphologically more distant than the dominant mappings.",
+            "The altar, chief, and chant readings should remain explicitly analogical outliers."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Mountains as upright, prominent installations.** Evidence: `ج ب ل` B001 high solid mass; `ن ص ب` B001 setting upright and prominent. `ك ي ف` has no branch inventory. Structural cue: sky raised, mountains set, earth spread. Role: mountains are the vertical fixtures between upper sky and lower earth. Abductive move: the sequence presents a constructed spatial system. Reading change: the ayah reads as attention to emplacement, not only mountain existence.\n\n2. **Innate formed nature fixed visibly.** Evidence: `ج ب ل` B004 innate formed nature; `خ ل ق` B001/B003 creation/proportion from 88:17; `ن ص ب` B006 fixed base/origin/threshold. Structural cue: camel creation is followed by mountain installation. Role: `جبال` carries both physical mass and formed constitution. Abductive move: nature is visible as fixed proportion and stable base. Reading change: the mountains become signs of created disposition and fixity.\n\n3. **Human toil mirrored by cosmic nasb.** Evidence: earlier `ن ص ب` B004 weariness in 88:3; here `ن ص ب` B001 upright setting; `ع م ل` B001 work. Structural cue: the same root spans punished labor and mountain emplacement. Role: cosmic nasb is stable and purposeful; human nasb is exhausting. Abductive move: the same root can expose a moral contrast between rightly placed structures and disordered human effort. Reading change: the ayah retroactively clarifies `ناصبة` by contrast.",
@@ -9610,14 +11032,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10092,10 +11520,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_19.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_19.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 224758,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.982097+00:00",
+  "generated_at": "2026-08-18T13:34:44.637842+00:00",
   "surah": 114,
   "ayah": 1,
   "ayahRef": "114:1",
@@ -1617,7 +1617,8 @@
       "morpheme_ids": [
         "m-w-s114-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:1:1"
+      "aligned_qac_word_ref_upstream": "114:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1631,7 +1632,8 @@
       "morpheme_ids": [
         "m-w-s114-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:1:2"
+      "aligned_qac_word_ref_upstream": "114:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1647,7 +1649,8 @@
         "m-w-s114-a001-w003-01",
         "m-w-s114-a001-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:1:3"
+      "aligned_qac_word_ref_upstream": "114:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1663,7 +1666,8 @@
         "m-w-s114-a001-w004-01",
         "m-w-s114-a001-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:1:4"
+      "aligned_qac_word_ref_upstream": "114:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2425,7 +2429,970 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:1",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_enacted_refuge",
+            "confidence": "strong",
+            "focus_anchor": "The sequence \"Say: I seek refuge\" joins commanded articulation directly to first-person protective movement.",
+            "mechanism": "Utterance is the first movement into shelter: the commanded voice externalizes dependence and fastens the speaker to lordship that repairs and completes visible human life.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated speech supplies the overt act, which performs the turn toward protection rather than merely reporting it."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Turning for refuge supplies the protective orientation enacted by the utterance."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging close beside a shelter makes refuge an attachment, not only a request made from a distance."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion identify the sheltering power as formative care."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence defines the collective sphere whose Lord is invoked."
+              }
+            ],
+            "changed_reading": {
+              "before": "A command to recite a request for protection.",
+              "after": "A commanded speech-act that begins protection by attaching the speaker to the one who forms and repairs human life."
+            }
+          },
+          {
+            "model_id": "baseline_caregiver_attachment",
+            "confidence": "medium",
+            "focus_anchor": "The adjacency of \"I seek refuge\" and \"Lord\" allows the protective relation to be read through the roots' caregiving images.",
+            "mechanism": "Birth-near staying, foster-care, nurture, and duration refigure refuge as vulnerable dependency entering a caregiver's continuing custody rather than simply fleeing a danger.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B003",
+                "role": "A newly delivered female staying with her young supplies a birth-near pattern of vulnerable protective closeness."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B005",
+                "role": "The fostered-child and caregiver relation turns lordship into relational custody."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Stage-by-stage nurture makes that custody developmental rather than merely defensive."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Staying and lasting give the protective attachment temporal continuity."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The self or intimate companion image keeps the protected human personally near rather than anonymous."
+              }
+            ],
+            "changed_reading": {
+              "before": "Refuge is emergency escape to a superior power.",
+              "after": "Refuge is the vulnerable person's sustained attachment to a caregiver who raises, repairs, and keeps the human dependent."
+            }
+          },
+          {
+            "model_id": "baseline_inner_outer_selection",
+            "confidence": "medium",
+            "focus_anchor": "The imperative \"Say\" stands at the threshold between a saying held within and one brought into articulation.",
+            "mechanism": "The speech root can hold both unspoken inner saying and overt utterance. The imperative selects a protective saying from the interior field, draws it to the self, and gives it public form as a deliberate orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Unspoken inner saying supplies the interior side of the threshold crossed by the command."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B006",
+                "role": "Drawing a saying to oneself supplies the selective appropriation of one inward voice."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated speech carries the selected inward orientation across into audible commitment."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B008",
+                "role": "Avoidance out of aversion gives the selected saying a directional rejection as well as an attachment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker is told to pronounce a fixed formula.",
+              "after": "The speaker is trained to choose an inward protective orientation, draw it to the self, and make it an explicit voiced commitment."
+            }
+          },
+          {
+            "model_id": "baseline_human_facing_nearness",
+            "confidence": "exploratory",
+            "focus_anchor": "The object of lordship is \"the people,\" whose mapped inventory also activates perception, familiarity, and the person-facing side.",
+            "mechanism": "The human collective is not only a species label. Its branch field makes it a perceptible, familiar, near-facing world; refuge can therefore restore orientation toward a human-facing nearness governed by care when fear produces estrangement.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by sight, sense, or hearing makes the human sphere a field of awareness."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement supplies the affective pole toward which refuge turns."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The near or person-facing side gives the human sphere a spatial orientation of approachability."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing administration assigns the Lord the work of restoring that perceptible and familiar orientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "\"Lord of people\" is a generic title over the human species.",
+              "after": "\"Lord of people\" also evokes governance of the perceptible, familiar, human-facing world in which estrangement must be repaired."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_royal_stabilization",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ل ك",
+              "ن و س"
+            ],
+            "mechanism": "The next title loads nurturing lordship with the power to hold together, possess, dispose, and rule. Repetition of the same people makes refuge a transfer from unstable self-management into competent, cohesive custody.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion supply the caring work that the following royal powers can secure."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the stabilizing capacity of the kingly title."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession with power of disposition makes custody operational rather than honorific."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay of an affair supplies the structural support on which refuge can rest."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Repeated visible human presence keeps governance and nurture directed to the same collective."
+              }
+            ],
+            "structural_cues": [
+              "114:2 immediately repeats the genitive \"the people\" after a new title, so \"King\" expands the focus title \"Lord\" rather than opening an unrelated topic."
+            ],
+            "reader_inference": "The packet supplies nurture, authority, cohesion, disposition, and a repeated object; I infer that governance is the means by which care stabilizes refuge. A live alternative is simple cumulative praise without a custody mechanism.",
+            "changed_reading": {
+              "before": "The speaker seeks a nurturing superior's protection.",
+              "after": "The speaker yields unstable self-management to a caregiver whose rule can hold the human domain together and actually dispose its affairs."
+            }
+          },
+          {
+            "model_id": "delta_refuge_as_realliance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه",
+              "ن و س"
+            ],
+            "mechanism": "Adding the worshipped one after Lord and King converts the protective utterance into re-allegiance. The speaker does not merely seek an effective shelter but voices whom care, rule, and worship ultimately belong to.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Overt articulation makes allegiance confessed rather than privately assumed."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Protective turning supplies the act whose ultimate addressee is being fixed."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and authority supply the first layer of the allegiance relation."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one turn protective dependence into ultimate devotional allegiance."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The repeated human collective makes that allegiance public in scope, even though voiced in the first person."
+              }
+            ],
+            "structural_cues": [
+              "The same genitive \"the people\" closes three successive titles: Lord in 114:1, King in 114:2, and worshipped deity in 114:3."
+            ],
+            "reader_inference": "The packet supplies a title sequence ending in worship; I infer that seeking refuge functions as voiced re-allegiance before the threat is named. The live alternative is that the titles only identify an already-known protector.",
+            "changed_reading": {
+              "before": "The phrase asks a powerful Lord for useful protection.",
+              "after": "The phrase voices an exclusive relocation of care, rule, and worship before it ever specifies the danger."
+            }
+          },
+          {
+            "model_id": "delta_countervoice_at_threshold",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "The later hidden self-talk and faint voice reveal why the focus begins with overt speech. The voiced refuge becomes a countervoice at the inner-outer threshold, interrupting an adverse signal that hides, returns, and can propagate in spark-like increments.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated speech supplies the audible counter-action."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Unspoken inner saying supplies the contested interior medium shared with the whisper."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying fire-sparks supply an exploratory image of small adverse impulses propagating from a source."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk identifies the interior speech-like process that the overt saying counters."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A faint voice supplies the low-salience acoustic contrast with commanded articulation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Withdrawal into hiding makes the adverse signal intermittent rather than continuously visible."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Stars that disappear and return supply the recurrence pattern of the hidden signal."
+              }
+            ],
+            "structural_cues": [
+              "The command to speak precedes the naming of a whisperer whose root is then repeated as a finite verb in 114:5.",
+              "The adjective in 114:4 binds whispering to repeated withdrawal, so absence need not mean termination."
+            ],
+            "reader_inference": "The packet supplies overt speech, inner saying, faint self-talk, and hiding-return; I infer that the commanded utterance interrupts an oscillating speech process. It could alternatively remain a petition with no acoustic competition.",
+            "changed_reading": {
+              "before": "The opening is a general formula spoken before a danger is named.",
+              "after": "The opening deliberately places an overt protective countervoice at the same threshold where hidden, recurrent inner speech tries to form."
+            }
+          },
+          {
+            "model_id": "delta_recurrent_reattachment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "Because the whisper is repeated and its agent withdraws and returns, refuge is not a one-time relocation. The focus verb becomes a repeatable reattachment to an enduring shelter whenever the hidden pressure changes position.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging close supplies the renewable act of reattachment."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Staying and lasting supply the stable pole to which the speaker repeatedly returns."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "The finite recurrence of hidden self-talk supplies repeated pressure rather than a single event."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Disappearing and returning supplies the cycle that makes renewed attachment necessary."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B005",
+                "role": "A running horse's lateral deviation supplies a mobile threat pattern that cannot be met by static distance alone."
+              }
+            ],
+            "structural_cues": [
+              "The whisper root appears first in an agent noun in 114:4 and then as an ongoing action in 114:5."
+            ],
+            "reader_inference": "The packet supplies enduring attachment, recurrent whispering, and withdrawal-return; I infer a repeated reattachment practice. A live alternative is that the present tense only describes the enemy and says nothing about repetition of the refuge.",
+            "changed_reading": {
+              "before": "\"I seek refuge\" describes a single move into safety.",
+              "after": "\"I seek refuge\" is a renewable attachment repeatedly enacted as a mobile hidden pressure recedes and resumes."
+            }
+          },
+          {
+            "model_id": "delta_upstream_reformation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و س و س",
+              "ص د ر"
+            ],
+            "mechanism": "Locating hidden self-talk in the origin from which actions issue moves protection upstream. Nurturing lordship is asked not only to block an external attacker but to repair the interior source before suggestion becomes action.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, administration, and stage-by-stage completion supply the work of reforming an interior process."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging near the protector positions refuge at the point where formation is still occurring."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the pre-action disturbance to be repaired."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue locates intervention causally upstream of conduct."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B002",
+                "role": "The foremost or first position reinforces priority of intervention at the beginning of the action chain."
+              }
+            ],
+            "structural_cues": [
+              "114:5 places the whispering action inside the breasts of the same people named in the focus title."
+            ],
+            "reader_inference": "The packet supplies nurturing repair, hidden self-talk, and a source from which acts issue; I infer a causal arrow from suggestion through the interior source to action. The live alternative is a purely spatial reading of \"breasts.\"",
+            "changed_reading": {
+              "before": "The Lord provides an outer shelter from an approaching threat.",
+              "after": "The Lord's refuge reaches the upstream source of conduct, repairing suggestion before it can issue as action."
+            }
+          },
+          {
+            "model_id": "delta_visible_hidden_social_field",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "The final contrast between concealed beings and visible people destabilizes a simple outside-enemy model. The people are both the collective under lordship and one possible source class, so refuge operates within familiar society against influence that may arrive through either hidden or human carriers.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence defines the focus collective and one side of the later visible-hidden contrast."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the social nearness that the final source list makes morally non-guaranteeing."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Covering and concealment supply the hidden pole of the source field."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Concealed beings instantiate that hidden pole without exhausting the broader concealment mechanism."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humans appear again as a possible source class, folding risk back into the protected collective."
+              }
+            ],
+            "structural_cues": [
+              "The final coordinated pair names concealed beings and people as sources, while \"the people\" has already been repeated as the object of all three divine titles.",
+              "The same noun therefore occupies both the protected domain and one side of the source domain."
+            ],
+            "reader_inference": "The packet supplies a visible-hidden contrast and places people on both sides of the protection relation; I infer that hidden-like influence can be socially carried. This does not imply that every familiar person is hostile; a live alternative is a simple two-species source list.",
+            "changed_reading": {
+              "before": "The Lord of humanity protects people from an alien hidden enemy.",
+              "after": "The Lord of visible, familiar humanity protects within that same social field from influence carried by concealed agents or by people themselves."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_trembling_lift",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends on both non-dominant split mappings rather than the ordinary roots of \"say\" and \"Lord.\" It remains anchored to the exact focus words and yields a coherent motion from fear-tremor through bearing and rising into nurture; downstream prose should present it as a phonolexical activation, never as the lexical translation.",
+            "focus_anchor": "The command \"Say\" and the title \"Lord\" each carry a packet-supplied non-dominant mapped inventory that can couple bodily instability to upward formative care.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B005",
+                "role": "A fear- or anger-shudder supplies the bodily instability from which commanded speech may begin."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Carrying, lifting, and rising turn speech from symptom into a load-bearing upward movement."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Protective turning gives the upward movement its direction and purpose."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B001",
+                "role": "Increase and rising receive the lifted speaker into an enlarging rather than merely enclosed refuge."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Nourishing growth makes the destination formative care rather than bare elevation."
+              }
+            ],
+            "changed_reading": {
+              "before": "A stable speaker calmly recites a protective sentence.",
+              "after": "Even trembling speech can become the act that bears and lifts the vulnerable speaker toward enlarging, nutritive care."
+            }
+          },
+          {
+            "outlier_id": "outlier_refusal_of_bargain",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it uses the non-dominant exchange branch mapped from the context root for evil together with speech-negotiation and covenant. It remains anchored in \"Say, I seek refuge with the Lord\" and the later whisper, but should be rendered only as an analogy of solicited consent, not as a claim that \"evil\" means sale.",
+            "focus_anchor": "The focus combines voiced speech, protective transfer, and a Lord whose branch field includes binding covenant.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Mutual verbal negotiation supplies the possibility that inner speech solicits agreement rather than simply attacks."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "Covenant and protection agreement supply the competing bond affirmed by the refuge utterance."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange between buying and selling supplies the exploratory transaction frame for harmful suggestion."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk locates the proposed transaction inside deliberation, where consent can be withheld."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase asks to be shielded from an imposed evil.",
+              "after": "The phrase can also function as a voiced refusal to negotiate with harmful inner solicitation and a reaffirmation of the protector's covenant."
+            }
+          },
+          {
+            "outlier_id": "outlier_social_spark_circulation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it couples circulating public talk with fire-sparks and a faint whisper across social and material domains. It remains anchored in the focus's \"Say\" and \"people\" and in later branch-backed cues; downstream prose should mark it as a propagation analogy, not identify speech literally with fire.",
+            "focus_anchor": "The focus places one utterance inside the human collective, while its speech inventory includes talk that circulates among people.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Circulating talk supplies the social transmission channel into which the commanded utterance enters."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the network across which speech can pass."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying sparks supply the material analogy for many small transmissions escaping one source."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A faint voice shows that socially consequential transmission need not begin loudly."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "People named as a source class close the loop from protected audience to possible human transmitter."
+              }
+            ],
+            "changed_reading": {
+              "before": "The opening is a private individual's protective recitation.",
+              "after": "The opening is also a deliberate intervention in a human speech ecology where low-volume harmful talk can propagate in spark-like increments."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening utterance became an enacted attachment to formative care rather than a report that refuge is desired.",
+            "The title sequence revised refuge into voiced re-allegiance to one source of care, rule, and worship.",
+            "The hidden, recurrent whisper turned \"Say\" into an overt countervoice and \"I seek refuge\" into renewable reattachment.",
+            "The breast as an origin of action moved protection upstream into the formation of conduct.",
+            "The final visible-hidden pair placed human society on both sides of the protection relation."
+          ],
+          "what_was_special": "The focus roots supported several coexisting mechanisms before context arrived: performative speech, caregiver attachment, inner-to-outer selection, and human-facing familiarity. Context did not collapse them; it activated governance, allegiance, recurrent counter-speech, causal repair, social permeability, and branch-distant models of trembling lift, refused exchange, and spark-like circulation.",
+          "remaining_uncertainties": [
+            "The caregiving model is branch-backed but may be an affective analogy rather than a governing sense of the phrase.",
+            "The countervoice model infers interruption from acoustic contrast; the packet does not state that voicing causally silences whispering.",
+            "The social-carrier reading follows the final source pair but cannot determine whether human and concealed agency operate identically.",
+            "The trembling-lift and exchange models depend on non-dominant split mappings and must remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Voiced command against inward whisper.** Evidence: ق و ل B001, uttered speech; ق و ل B012, unspoken inner saying; و س و س B001/B002 from 114:4-5, hidden inward whisper and hidden rustle; ص د ر B001 from 114:5, chest. Structural cue: “قُلْ” is the first ordinary surah word, while the later threat is a voice operating inside the chest. Assigned role: commanded utterance externalizes and orders speech before the hidden inward voice appears. Abductive move: the packet frames protection as a speech-event because the danger is also speech-like. Reading change: “Say” reads as an operative counter-mechanism, not only as instruction to recite.\n\n2. **Refuge as spoken protection and enclosure.** Evidence: ع و ذ B001, turning for refuge and protection; ع و ذ B002, protective charm or invocation; ع و ذ B004, clinging close beside something; ج ن ن B008 from 114:6, protective cover; خ ن س B001 from 114:4, withdrawal into concealment. Structural cue: the act “أعوذ” follows “قل” and precedes the description of a retreating whisperer. Assigned role: refuge is a voiced protective covering that relocates the speaker near the protector. Abductive move: the thing that makes the whisperer “خناس” is not only divine power in general but the invoked refuge that causes withdrawal. Reading change: “I seek refuge” reads as entering a shielded nearness that alters the attacker’s movement.\n\n3. **Rabb as repairer of the unstable human field.** Evidence: ر ب ب B001, lordship/ownership/authority; ر ب ب B002, repair, nurture, and completion; ر ب ب B007, staying, clinging, and lasting; ن و س B001, swaying or dangling oscillation; م ل ك B003 from 114:2 and ء ل ه B001 from 114:3. Structural cue: “رب الناس” starts a threefold sequence over the same repeated الناس. Assigned role: رب is the caretaking owner who steadies and completes a wavering population. Abductive move: because الناس recurs as the possessed/governed/worshipping object, its root-branch image of oscillation marks the condition being treated. Reading change: “Lord of people” reads as lordship over instability, not simply a possessive title over humankind.\n\n4. **The people as swaying recipients, not a static class.** Evidence: ن و س B001, swaying or dangling oscillation; ن و س B002, driving camels; ر ب ب B014, herd or gathered wild cattle; م ل ك B008 from 114:2, leading forepart in animals. Structural cue: الناس closes 114:1, 114:2, 114:3, 114:5, and 114:6. Assigned role: the repeated object is a moveable, leadable, sway-prone field. Abductive move: the repeated noun’s root inventory allows the social group to be read through motion and susceptibility. Reading change: the refuge is sought for a population that can be driven, led, and made to oscillate.",
@@ -19003,14 +19970,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -19120,10 +20093,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 103156,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.746208+00:00",
+  "generated_at": "2026-08-18T13:34:28.974686+00:00",
   "surah": 102,
   "ayah": 3,
   "ayahRef": "102:3",
@@ -868,7 +868,8 @@
       "morpheme_ids": [
         "m-w-s102-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:3:1"
+      "aligned_qac_word_ref_upstream": "102:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -882,7 +883,8 @@
       "morpheme_ids": [
         "m-w-s102-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:3:2"
+      "aligned_qac_word_ref_upstream": "102:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -898,7 +900,8 @@
         "m-w-s102-a003-w003-01",
         "m-w-s102-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:3:3"
+      "aligned_qac_word_ref_upstream": "102:3:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1255,7 +1258,751 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:3",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_delayed_disclosure",
+            "confidence": "strong",
+            "focus_anchor": "The focus clause places second-person plural ع ل م after the interruption كَلَّا and the futurity marker سَوْفَ.",
+            "mechanism": "The interruption rejects an unnamed present stance, while futurity suspends but guarantees the opposite condition: a matter now resisted or obscure will become clear to the addressed group.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The image of a thing becoming clear to a knower supplies the core disclosure event promised after the sharp interruption."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified announcement that the addressees will acquire information later.",
+              "after": "A rebuff followed by delayed but unavoidable disclosure: what the group cannot or will not register now is approaching clarity."
+            }
+          },
+          {
+            "model_id": "b_marker_recognition",
+            "confidence": "medium",
+            "focus_anchor": "The same ع ل م verb can be activated through the focus inventory's branch of a distinguishing mark that guides toward its referent.",
+            "mechanism": "Knowing is modeled not only as an inward mental state but as successful orientation by a mark. سَوْفَ then predicts a future condition in which indicators become discriminable enough to guide recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The distinguishing-and-guiding mark makes future knowing a process of reading signs and locating what they indicate."
+              }
+            ],
+            "changed_reading": {
+              "before": "Future knowledge is treated as a proposition entering the mind.",
+              "after": "Future knowledge can be recognition through newly legible marks: the addressees will be unable to miss what the signs point toward."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_attention_screen_breaks",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Diversion installs a rival object of attention, and competitive increase continually replenishes it. The promised knowing therefore becomes the breaking of an attentional screen rather than the mere delivery of absent data.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure supplies the state reached when the screened matter finally becomes clear."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Being occupied away from one thing by another supplies the attentional displacement that presently blocks disclosure."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Rivalry by number supplies a self-renewing comparison mechanism that keeps attention attached to the substitute object."
+              }
+            ],
+            "structural_cues": [
+              "102:1 precedes the focus and addresses the same plural group with a causative distraction.",
+              "The distractor is reciprocal competitive increase rather than a single static possession."
+            ],
+            "reader_inference": "The packet supplies diversion, numerical rivalry, and later disclosure; I supply the arrow that repeated comparison screens a matter already available until كَلَّا breaks the screen. A live alternative is that 102:1 names only the cause of chronological delay, not the internal mechanism of knowing.",
+            "changed_reading": {
+              "before": "The group will simply receive knowledge at a later time.",
+              "after": "The group will be forcibly reoriented toward what competitive comparison has kept outside attention; knowing is the collapse of distraction."
+            }
+          },
+          {
+            "model_id": "d_competition_becomes_verdict",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Enjoyable play and rivalry by number form a social contest with a provisional metric of success. Future disclosure acts as a verdict that reverses that metric, so the apparent winners of increase become those whose mismeasurement is exposed.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Clarity functions as the adjudicating result that exposes what the contestants' present metric concealed."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B002",
+                "role": "Play and enjoyed diversion supply the contest's immediate reward and explain why its metric feels sufficient before the verdict."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Competing for numerical superiority supplies the social relation whose apparent outcome future knowing overturns."
+              }
+            ],
+            "structural_cues": [
+              "The causative distraction and reciprocal contest in 102:1 share the plural addressees of 102:3.",
+              "The abrupt كَلَّا in the focus interrupts the contest before announcing knowledge."
+            ],
+            "reader_inference": "The packet supplies game-like enjoyment, numerical rivalry, and an abrupt future disclosure; I infer a verdict relation in which disclosure judges the rival metric. The live alternative is an affective reading in which play merely distracts, without any winner-loser reversal.",
+            "changed_reading": {
+              "before": "You will later understand that the present activity was distracting.",
+              "after": "You will learn the result of a contest whose scoring system is itself condemned; the future knowledge is a reversal of apparent numerical victory."
+            }
+          },
+          {
+            "model_id": "d_concealment_reverses_to_disclosure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز و ر",
+              "ق ب ر"
+            ],
+            "mechanism": "A purposive arrival at a place characterized by burial, hiddenness, and lowering produces an inversion: passage into the strongest material image of concealment becomes the threshold at which concealment can no longer protect the addressees from disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The becoming-clear image supplies the upward epistemic reversal of what burial places out of view."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "Visiting with directed intent supplies the transition and arrival that turns سَوْفَ from vague futurity into an approached threshold."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hiddenness and downward settling supply the concealment whose reversal gives the promised disclosure its spatial force."
+              }
+            ],
+            "structural_cues": [
+              "102:2 places حَتَّىٰ before the visit, presenting it as a reached limit immediately before the focus.",
+              "The verb of visiting and the graves occur in one compact motion-to-place construction."
+            ],
+            "reader_inference": "The packet supplies a limit, purposive arrival, and hidden lowering; I supply the inverse arrow that entry into concealment triggers disclosure. A live alternative is purely chronological: the visit only dates the future knowing and does not causally reverse concealment.",
+            "changed_reading": {
+              "before": "Soon marks an unspecified later moment when information arrives.",
+              "after": "Soon points toward a terminal crossing: arrival at the concealed, lowered place becomes the point where what was hidden is forced into clarity."
+            }
+          },
+          {
+            "model_id": "d_repetition_stages_knowing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م"
+            ],
+            "mechanism": "The nearly exact return of the focus clause after ثُمَّ converts one warning into an iterable disclosure. The first knowing can be an initial breach of ignorance and the second a later or deeper registration of the same matter.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The first becoming-clear event establishes the initial promised disclosure."
+              },
+              {
+                "source_ref": "102:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The repeated becoming-clear event after ثُمَّ supplies either a second stage of realization or intensified confirmation of the first."
+              }
+            ],
+            "structural_cues": [
+              "102:4 repeats كَلَّا سَوْفَ تَعْلَمُونَ with only ثُمَّ added before it.",
+              "Both clauses retain the same second-person plural future orientation."
+            ],
+            "reader_inference": "The packet supplies exact repetition plus a sequential particle; I infer that disclosure may occur in stages rather than as one instantaneous fact. The materially live alternative is rhetorical doubling that intensifies one event without positing two epistemic moments.",
+            "changed_reading": {
+              "before": "A single future instant replaces ignorance with knowledge.",
+              "after": "Knowing arrives with recurrence: an initial recognition is followed by another disclosure or a deeper, inescapable registration."
+            }
+          },
+          {
+            "model_id": "d_future_knowing_as_late_certainty",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ي ق ن"
+            ],
+            "mechanism": "The later conditional combines a doubled knowledge expression with certainty as stable knowledge after doubt. This grades the focus promise: future knowing is not praised as timely insight but appears as the compelled, late substitute for certainty that could govern the present.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Future becoming-clear supplies the inevitable knowledge whose timing is placed under scrutiny."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The verb-and-cognate-noun doubling thickens ordinary disclosure into an explicit mode or quality of knowing."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed supplies the unrealized present standard against which the promised later knowing is judged."
+              }
+            ],
+            "structural_cues": [
+              "102:5 follows the two سَوْفَ clauses but shifts to the conditional particle لَوْ.",
+              "The same root appears as both verb and cognate noun before certainty."
+            ],
+            "reader_inference": "The packet supplies future knowing, a later conditional, cognate doubling, and doubt-free stability; I infer a contrast between missed present certainty and unavoidable later recognition. A live alternative is that 102:5 only intensifies the same future knowledge without criticizing its lateness.",
+            "changed_reading": {
+              "before": "Future knowledge is intrinsically corrective because it ends ignorance.",
+              "after": "The threat includes epistemic lateness: the addressees will know inevitably because they do not now live by the stable certainty that could have changed their course."
+            }
+          },
+          {
+            "model_id": "d_knowing_becomes_witness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن",
+              "ي ق ن"
+            ],
+            "mechanism": "Repeated future seeing gives the promised knowing a sensorium, the fiercely burning object gives it an encounter, and eye-certainty removes distance and doubt. Knowledge becomes compelled witness rather than detachable cognition.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Becoming clear supplies the epistemic event that the later visual sequence renders bodily immediate."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the first explicit perceptual mode through which future disclosure is encountered."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing and extreme heat supply an object whose intensity resists distant, merely conceptual treatment."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The repeated eye-or-insight vision supplies a second registration that confirms the encounter."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct observation by the eye makes the disclosure evidentially present rather than reported at a distance."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Certainty as stable knowledge after doubt supplies the irreversible epistemic state produced by direct witness."
+              }
+            ],
+            "structural_cues": [
+              "102:6 and 102:7 are successive emphatic future seeing clauses.",
+              "The second seeing repeats the object pronominally and adds عَيْنَ ٱلْيَقِينِ."
+            ],
+            "reader_inference": "The packet supplies promised knowing followed by repeated emphatic sight, a blazing object, and eye-certainty; I infer that the later sequence specifies the mode and felt force of the focus knowing. A live alternative is strict sequence: seeing merely follows knowledge as a separate consequence.",
+            "changed_reading": {
+              "before": "The addressees will mentally recognize that a warning was true.",
+              "after": "The addressees will be made witnesses: the truth becomes an intense seen presence whose directness stabilizes certainty and prevents retreat into doubt."
+            }
+          },
+          {
+            "model_id": "d_marker_yields_to_presence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ع ي ن",
+              "ي ق ن"
+            ],
+            "mechanism": "The focus branch begins with knowledge as orientation by a marker. Later branch images of an erected banner and active manifestation make the marker public, while the eye's branch of the thing itself carries the sequence from sign to referent; certainty is reached when mediation drops away.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark that guides supplies the initial semiotic model of future knowing."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B011",
+                "role": "The erected-banner image literalizes a publicly posted marker and amplifies the focus branch's guidance function."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Showing and making manifest turn the static marker into an event of presentation."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself supplies the terminus beyond signs, where the indicated referent is present in person."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-free stability supplies the result of moving from a guiding indication to the referent itself."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from a promise to know to two promises to see.",
+              "The second seeing points back with a pronoun and is coupled to eye-certainty."
+            ],
+            "reader_inference": "The packet supplies mark, banner, manifestation, the thing itself, and certainty; I supply the semiotic arrow from indicator to directly present referent. The live alternative is that banner and marker branches are only analogical echoes and the later sight does not describe a staged sign-to-object passage.",
+            "changed_reading": {
+              "before": "The addressees will infer the truth from sufficient signs.",
+              "after": "The addressees move from public marks that orient them toward the truth to confrontation with the indicated thing itself; knowing is a collapsing distance between sign and presence."
+            }
+          },
+          {
+            "model_id": "d_knowing_becomes_answerability",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "The final emphatic passive questioning converts disclosure from private possession into an answer owed. Because the question concerns a good condition or benefit, what becomes known is simultaneously reclassified as something received, used, and requiring an account.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Becoming clear supplies the knowledge that can no longer remain an inward, consequence-free state."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Question and request supply the demand that turns known experience into an articulated account."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefit supply the concrete object whose enjoyment becomes answerable once disclosure arrives."
+              }
+            ],
+            "structural_cues": [
+              "102:8 addresses the same plural group with an emphatic passive future verb.",
+              "The questioning construction explicitly selects the enjoyed good with عَنِ."
+            ],
+            "reader_inference": "The packet supplies future disclosure, compulsory questioning, and benefit; I infer a forensic arrow in which knowing creates answerability and requires testimony about use. A live alternative is that questioning follows knowledge without redefining its function.",
+            "changed_reading": {
+              "before": "You will know privately that your earlier valuation was mistaken.",
+              "after": "You will know under conditions of answerability: clarity becomes testimony, and enjoyed good becomes evidence about which an account is demanded."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_hydraulic_threshold_of_knowing",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare gathered-water branch of focus ع ل م and the non-dominant ر و ي mapping under a ر ء ي occurrence. It remains anchored in the focus verb's supplied branch and gains a coherent accumulation-reservoir-carriage-spring sequence from packet branches. Downstream prose should label it a material analogy for consequences reaching an outlet, not a lexical gloss of تَعْلَمُونَ.",
+            "focus_anchor": "The focus inventory itself supplies ع ل م as a large gathered body of water, allowing future knowing to be imagined as an accumulation reaching a perceptible threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B005",
+                "role": "The gathered body of abundant water supplies the focus event's reservoir image and anchors the hydraulic analogy in تَعْلَمُونَ."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "The gathering together of a thing supplies the accumulation process that fills the latent reservoir."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "The non-dominant image of bringing and carrying water supplies movement from stored accumulation toward encounter."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running-water spring supplies the visible outlet where what had accumulated below emerges into direct presence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Knowledge arrives as a discrete mental fact.",
+              "after": "Knowing is a threshold event: accumulated consequences gather like a reservoir, are carried forward, and break into visibility at their outlet."
+            }
+          },
+          {
+            "outlier_id": "o_fissure_in_concealment",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because the focus branch is a body-specific cleft in the upper lip and is stretched into a spatial fissure. It remains valid as an activation because the cleft is explicitly visible, the grave branch supplies hidden lowering, and the seeing branch supplies manifestation. Render only as a qualified image of disclosure breaking concealment, never as the ordinary lexical sense of the focus verb.",
+            "focus_anchor": "The rare focus branch makes ع ل م a visible upper cleft, so the promise can momentarily image knowing as a breach that makes a previously continuous surface readable.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B004",
+                "role": "The visible upper cleft supplies a breach-mark whose appearance anchors the disclosure image in the focus root."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hiddenness and downward settling supply the closed surface or concealed depth that the breach interrupts."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something appear supplies the revelatory function of the fissure: the breach is consequential because it manifests what was covered."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hidden matter becomes conceptually understood at some later point.",
+              "after": "A visible breach opens in concealment, and future knowing is the moment when what was sealed acquires a readable fissure."
+            }
+          },
+          {
+            "outlier_id": "o_compelled_narration_and_extraction",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it carries both split QAC roots into their non-dominant mapped inventories: ر ء ي activates narration under ر و ي, and س ء ل activates hidden drawing-out under س ل ل. It remains anchored by focus disclosure and by the packet's explicit future questioning. Downstream prose should present it as an abductive testimony model, not as a morphological claim about either surface verb.",
+            "focus_anchor": "The focus verb's disclosure branch can support knowledge that must be formulated and delivered rather than merely possessed.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Becoming clear supplies the content that can be converted from inward recognition into reportable testimony."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant narration of report or poetry supplies the act of carrying known content outward in words."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Question and request supply the overt demand under which the report must be given."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The non-dominant image of gently and secretly drawing something out supplies an extraction mechanism beneath the overt questioning."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease of living supply the experience from which the demanded testimony is drawn."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressees will internally realize the truth.",
+              "after": "The truth will be drawn out as a narrated account: future knowing becomes knowledge that questioning compels the addressees to carry into speech."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Competitive increase first changes deferred knowing into the forced recovery of attention and, in a coexisting social reading, into a verdict that reverses the contestants' metric.",
+            "Arrival at hidden, lowered graves turns سَوْفَ from vague futurity into a threshold where concealment reverses into disclosure.",
+            "Repetition, conditional certainty, and repeated seeing stage knowing from announced clarity through late doubt-free recognition into embodied witness.",
+            "Final questioning makes knowledge answerable testimony about enjoyed good rather than a private possession."
+          ],
+          "what_was_special": "The focus root sustained two productive baselines—disclosure and orientation by a mark—while ordered context activated attentional, competitive, spatial, iterative, epistemic-grade, sensory, semiotic, and forensic mechanisms without collapsing them. Rare focus branches and both non-dominant split-root inventories also produced contained material and testimonial readings that a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "The repeated warning may mark two stages of disclosure or may be rhetorical intensification of one event.",
+            "The later seeing may specify the promised knowing's modality, or it may remain a distinct consequence that follows prior knowledge.",
+            "The hydraulic, fissure, and extracted-narration readings depend on branch-distant analogies and should remain exploratory even though their packet anchoring is explicit."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Knowledge as interruption of diversion.** Branch evidence: ع ل م B001, knowing as a thing becomes clear; ل ه و B001, diversion; ي ق ن B001, settled knowledge with doubt removed. Structural cue: \"كلا\" breaks the previous motion; \"سوف\" projects a coming event of knowing. Assigned role: علم reverses لهو by bringing the avoided concern into clarity. Abductive move: I infer that the future knowledge concerns what التكاثر had displaced, because the warning follows immediately after the grave-limit. Reading change: the ayah reads as an interruption mechanism: clarity will arrive where distraction had operated.\n\n2. **The warning as a road-marker.** Branch evidence: ع ل م B002, distinguishing mark, landmark, road/boundary marker; ق ب ر B001/B002, grave and hiddenness; ر ء ي B011, flag or marker set up to be seen. Structural cue: this short ayah stands after the cemetery and before the repeated warning. Assigned role: علم B002 turns \"you will know\" into a marker planted on the route from graves to sight. Abductive move: I infer that the repeated warning functions as a visible boundary sign in the sequence, not only as information. Reading change: the ayah reads as a signpost placed at the cemetery edge.\n\n3. **Future knowledge as forced notification.** Branch evidence: ع ل م B001 includes informing; ر ء ي B012, causing someone to see; س ء ل B001, questioning. Structural cue: the surah later moves from knowing to seeing to being asked. Assigned role: علم is the first stage of compulsory disclosure; رأي and سأل intensify the same procedure. Abductive move: I infer a procedural sequence: notification precedes presentation of evidence and then interrogation. Reading change: \"you will know\" reads as the opening of an evidentiary process.",
@@ -5276,14 +6023,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5447,10 +6200,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 53421,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

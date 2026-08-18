@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.989285+00:00",
+  "generated_at": "2026-08-18T13:34:42.110195+00:00",
   "surah": 112,
   "ayah": 1,
   "ayahRef": "112:1",
@@ -1316,7 +1316,8 @@
       "morpheme_ids": [
         "m-w-s112-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:1:1"
+      "aligned_qac_word_ref_upstream": "112:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1330,7 +1331,8 @@
       "morpheme_ids": [
         "m-w-s112-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:1:2"
+      "aligned_qac_word_ref_upstream": "112:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1344,7 +1346,8 @@
       "morpheme_ids": [
         "m-w-s112-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:1:3"
+      "aligned_qac_word_ref_upstream": "112:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1358,7 +1361,8 @@
       "morpheme_ids": [
         "m-w-s112-a001-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:1:4"
+      "aligned_qac_word_ref_upstream": "112:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1960,7 +1964,673 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s112/packets/112_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "112:1",
+      "window": [
+        "112:1",
+        "112:2",
+        "112:3",
+        "112:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "112:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_spoken_identity",
+            "confidence": "strong",
+            "focus_anchor": "The imperative at word 1 governs the compact identification at words 2-4: huwa, Allah, ahad.",
+            "mechanism": "The imperative externalizes a compact identification. The pronoun holds up the referent, the fixed divine name identifies him, and ahad predicates absolute oneness. The claim is therefore a repeatable public act, not only private recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated utterance supplies the public speech act through which the identification is voiced."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name supplies stable identification rather than an unnamed member of a class."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness supplies the predicate that closes the spoken identification."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare statement that Allah is one.",
+              "after": "A commissioned utterance that publicly identifies the referent as Allah and predicates absolute oneness."
+            }
+          },
+          {
+            "model_id": "baseline_creedal_alignment",
+            "confidence": "medium",
+            "focus_anchor": "The command to say joins qawl at word 1 to the worship-name at word 3 and the oneness predicate at word 4.",
+            "mechanism": "The doctrine branch of qawl and the worship branch of ilah coactivate. Saying the clause becomes more than neutral reportage: it voices a held orientation toward the worshipped one, with absolute oneness as its content.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Qawl as held doctrine lets the commanded saying function as avowal rather than detached quotation."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one give the avowal a relational orientation."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness is the doctrine being voiced about the worshipped referent."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker reports a proposition about deity.",
+              "after": "The speaker is recruited to voice a worship-defining conviction: the worshipped referent is absolutely one."
+            }
+          },
+          {
+            "model_id": "baseline_definitional_limit",
+            "confidence": "exploratory",
+            "focus_anchor": "The terse nominal sequence after the imperative places the fixed name directly against ahad without explanatory expansion.",
+            "mechanism": "The definition branch of qawl makes the clause behave like a verbal boundary. The name is not unpacked into ancestry, parts, or a class; the short predicate limits recognition of its referent to absolute oneness.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Qawl as a definition supplies the limiting function assigned to the commanded formulation."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed name is the item whose recognition is being bounded."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute one supplies the concise defining limit rather than one incidental quality."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ahad adds one attribute to the named subject.",
+              "after": "The whole utterance acts as a compressed boundary on recognition: the named referent is to be conceived under absolute oneness."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_orienting_terminus",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه",
+              "ص م د"
+            ],
+            "mechanism": "The repeated divine name keeps the same referent in view, while samad as the relied-upon destination turns oneness into a geometry of dependence. Many acts of worship, need, or intention can converge on one terminus without making that terminus one item among the many.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness supplies the focus predicate that is recast as singular terminus."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped-one relation supplies agents whose devotion can be directed toward the repeated referent."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Directed approach toward a relied-upon destination supplies the convergent dependency structure."
+              }
+            ],
+            "structural_cues": [
+              "112:2 repeats the divine name from focus word 3 before adding a new predicate.",
+              "The two short nominal clauses move from commanded identification to the relation sustained by the identified one."
+            ],
+            "reader_inference": "The packet supplies the repeated name, worship relation, and directed reliance; I infer that diverse dependencies converge on the One. A live alternative is that samad is simply a second title with no back-projection onto ahad.",
+            "changed_reading": {
+              "before": "Oneness is an intrinsic property of Allah.",
+              "after": "Oneness is also asymmetrical orientation: all directed dependence can terminate in this one referent, who is not one dependent among others."
+            }
+          },
+          {
+            "model_id": "delta_nonporous_integrity",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص م د"
+            ],
+            "mechanism": "The compact-solid, sealed-stopper, and enduring-hardness images activate a material analogy for ahad. Oneness becomes non-porous integrity: no cavity suggests no internal lack, no opening suggests no required ingress or egress, and endurance keeps that integrity from being temporary.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness is the focus predicate receiving the material integrity analogy."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact solidity without a cavity supplies an image of integrity without internal lack."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B003",
+                "role": "A tightly sealing stopper supplies the boundary image of blocked ingress and egress."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Endurance under hardness makes the proposed integrity persistent rather than episodic."
+              }
+            ],
+            "structural_cues": [
+              "Samad directly predicates the same repeated name that ahad predicates in 112:1.",
+              "The adjacent nominal clauses invite the later predicate to respecify the earlier one."
+            ],
+            "reader_inference": "The packet supplies three material images; I project their shared closed integrity onto ahad while withholding bodily literalism. The live alternative is the non-material reliance reading, which does not require cavity, sealing, or hardness to modify oneness.",
+            "changed_reading": {
+              "before": "Ahad means one rather than many.",
+              "after": "Ahad can also be heard as indivisible, non-porous integrity, with no internal lack or opening that would make the One dependent on exchange."
+            }
+          },
+          {
+            "model_id": "delta_no_derivation_chain",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل د"
+            ],
+            "mechanism": "The active and passive negations block opposite directions of production. With walad also imaging anything obtained or newly produced from something, ahad shifts from a count to causal non-derivation: the One is neither partitioned into a result nor a result extracted from a prior source.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness supplies the focus claim that is recast as freedom from derivational chains."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The occurrence of birth supplies the concrete production event denied in both grammatical directions."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "A thing obtained or newly produced from another generalizes the denial from genealogy to derivation."
+              }
+            ],
+            "structural_cues": [
+              "The same root occurs first in active voice and then in passive voice under repeated negation.",
+              "The paired clauses reverse source and result positions while keeping the named subject implicit."
+            ],
+            "reader_inference": "The packet supplies two negated voices plus birth and derived-result images; I infer a two-way causal barrier around the One. The narrower live alternative confines both clauses to biological lineage.",
+            "changed_reading": {
+              "before": "The One is numerically singular.",
+              "after": "The One is outside every source-result chain: neither producing by self-division nor produced from an antecedent."
+            }
+          },
+          {
+            "model_id": "delta_outside_genealogy",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل د"
+            ],
+            "mechanism": "Parent and offspring images form a social genealogy in which identity and standing pass along a lineage. Denial of both positions makes the focus ahad not the last solitary member of a divine family but a referent outside the family structure itself.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B005",
+                "role": "Isolation supplies the focus-side possibility of being alone, which the context revises from lone member to nonmember."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Offspring from lineage supplies the descending kinship position denied to the referent."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parents by birth supply the ascending kinship position denied to the referent."
+              }
+            ],
+            "structural_cues": [
+              "The active-passive pair places the same subject on both possible sides of a birth relation.",
+              "Repeated negation removes both ascending and descending slots in one relational system."
+            ],
+            "reader_inference": "The packet supplies offspring, parentage, and reciprocal grammatical positions; I infer exclusion from the genealogy graph, not mere childlessness. A live alternative reads two independent biological denials without changing the kind of singularity in 112:1.",
+            "changed_reading": {
+              "before": "Ahad may suggest an individual who happens to stand alone.",
+              "after": "Ahad names one who is outside genealogical membership and succession, not a lone survivor within a lineage."
+            }
+          },
+          {
+            "model_id": "delta_positive_negative_ahad",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "ك ف ء",
+              "ء ح د"
+            ],
+            "mechanism": "The same lexeme changes force across the frame: positively predicated ahad marks absolute oneness in 112:1, while ahad under negation exhausts every eligible candidate in 112:4. Temporal presence and counterpart matching make the back-projection precise: one is affirmed; any equal at any time is exhaustively denied.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Positive absolute oneness supplies the initial predicate whose scope is later sharpened."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence or presence in time extends the denial across possible temporal instantiation."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Matching and counterpart relation specify the class of candidate being denied."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Negative exhaustive anyone removes every possible bearer of counterpart status."
+              }
+            ],
+            "structural_cues": [
+              "Ahad closes both 112:1 and 112:4 but changes from positive predication to a negated indefinite.",
+              "The final clause combines temporal being, a counterpart relation, and exhaustive negation."
+            ],
+            "reader_inference": "The packet supplies lexical repetition, changed polarity, temporal presence, and matching; I infer that the final exhaustive denial feeds back into the first positive ahad. A live alternative keeps absolute oneness and absence of peers as separate propositions.",
+            "changed_reading": {
+              "before": "Allah alone bears the property of oneness.",
+              "after": "The first ahad establishes a one-sided field: absolute oneness is positively affirmed of Allah while every possible counterpart is denied across time."
+            }
+          },
+          {
+            "model_id": "delta_unplaced_in_rank",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن",
+              "ك ف ء"
+            ],
+            "mechanism": "Place or standing from kawn combines with matching from kufu to activate a status-space model. The focus One is not merely highest on a shared ladder; no counterpart occupies a corresponding place from which equal comparison could be made.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name anchors the status claim to the same identified referent."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B005",
+                "role": "Isolation supplies separation from coordinate members of a common rank."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "Place and standing supply the imagined hierarchy or coordinate position."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Matching supplies the equal position whose existence the clause denies."
+              }
+            ],
+            "structural_cues": [
+              "The prepositional relation in 112:4 makes equivalence relational rather than an isolated quality.",
+              "Negated being prevents the proposed equal position from ever becoming occupied."
+            ],
+            "reader_inference": "The packet supplies place or standing and equivalence; I infer a shared rank-space and then read its matching position as empty. A live alternative treats place as irrelevant to kana here and limits the clause to personal similarity.",
+            "changed_reading": {
+              "before": "Allah is the single highest member in a hierarchy.",
+              "after": "Allah is not commensurably placed on a hierarchy at all, because no coordinate rank can hold an equal."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_minimal_speech",
+            "confidence": "exploratory",
+            "containment": "This is surprising because fewness belongs to the non-dominant q-l-l target of the packet's split mapping and must not redefine quli. It remains anchored to focus word 1 and yields a formal observation: the commanded clause performs radical compression. Downstream prose should present it only as a mapped-root echo, never as a lexical translation.",
+            "focus_anchor": "The entire commanded content after word 1 is reduced to the three-part sequence huwa, Allah, ahad.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "The dominant speech branch keeps the activation attached to an actual command to utter."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "The non-dominant split target supplies fewness as an exploratory image of verbal reduction."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute one makes the reduced utterance converge on a single terminal predicate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The command merely introduces a short proposition.",
+              "after": "The proposition's extreme verbal smallness can itself enact concentration: language is reduced until only referent, name, and absolute one remain."
+            }
+          },
+          {
+            "outlier_id": "outlier_not_new_or_owned",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the relevant walad branch joins the recently born with the owned, while the contextual form directly denotes birth. It remains anchored through the passive negation in 112:3 and feeds back to the named worshipped One. Render it as a secondary status echo, not as a claim that yulad lexically means being owned here.",
+            "focus_anchor": "The worship-name at word 3 and absolute-one predicate at word 4 identify the subject later placed under passive birth negation.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped-one relation makes subordination to an owner a status-reversing possibility."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness anchors the proposed freedom from acquired or dependent status."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B004",
+                "role": "The branch's newborn-or-owned image activates temporal newness and possession as contained secondary denials."
+              }
+            ],
+            "changed_reading": {
+              "before": "The context only denies parentage.",
+              "after": "The named One is also faintly heard as neither newly arrived nor held under another's ownership."
+            }
+          },
+          {
+            "outlier_id": "outlier_irreversible_comparison",
+            "confidence": "exploratory",
+            "containment": "This is surprising because turning or reversal is a form-distant branch beside the direct equivalence sense of kufu. It remains anchored to the same context root and visibly changes the focus oneness when read with the matching branch. Render it as an analogy of failed reversible mapping, not as a replacement meaning for kufuwan.",
+            "focus_anchor": "Ahad at focus word 4 is later tested by the possibility of setting another term over against the named referent.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness supplies the focus claim recast as resistance to reversible comparison."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Matching supplies the ordinary comparison relation against which the outlier operates."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B002",
+                "role": "Turning and reversal supply the exploratory image of mapping one side back onto another."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone removes every candidate that could complete the proposed reversible comparison."
+              }
+            ],
+            "changed_reading": {
+              "before": "No other entity has equal attributes.",
+              "after": "No reversible comparison can map another term onto Allah and return an equivalent; the One is not only unequal but non-interchangeable."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Samad changes static oneness into an asymmetrical field in which dependence converges on one terminus.",
+            "The two negated voices of walad change numerical singularity into freedom from both sides of a source-result chain.",
+            "The final negative ahad feeds exhaustive counterpart denial back into the first positive ahad across temporal being."
+          ],
+          "what_was_special": "The focus clause remained simultaneously a public utterance, a creed, and a compressed definition, while context activated dependency geometry, material integrity, genealogy, causation, temporality, and status-space without forcing them into one final reading. The packet's split qawl mapping and distant walad and kufu branches also preserved three qualified outliers that a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "The compact and sealed samad model may be only a material analogy, while directed reliance is the cleaner relational activation.",
+            "The q-l-l fewness echo is structurally licensed by the split mapping but is too distant to bear lexical interpretive weight.",
+            "The owned-status echo of walad and the reversal echo of kufu remain live only under explicit form-distance caution."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The command to say functions as a definition, not merely an utterance.** Lexical evidence: `ق و ل B001` (uttered speech), `ق و ل B016` (definition or essence stated as qawl), `ء ل ه B002`, `ء ح د B001` (absolute oneness), and later `ص م د B002` (compact solidity without hollowness). Structural cue: the imperative `قل` is followed by a pronoun, the repeated divine name, and a one-word predicate; 112:2 then gives another one-word predicate. Assigned roles: `قل` provides articulated form; `هو الله أحد` supplies the compressed definition; `الصمد` gives the defined One a dense, non-hollow support-image. Abductive move: I infer that the packet's extreme nominal compression makes the utterance definitional: the supplied words are not narrative events but essence-clauses. Reading change: 112:1 reads as \"voice this boundary-definition of the referent\" rather than simply \"say a sentence about God.\"\n\n2. **The speech corrects public attribution and circulating talk.** Lexical evidence: `ق و ل B005` (false saying or false attribution), `ق و ل B007` (circulating talk/public report), `و ل د B005` (generated/derived thing), `ك ف ء B001` (equal counterpart), and `ء ح د B002` in the final negated `أحد`. Structural cue: the positive command and declaration in 112:1 are followed by two negated clauses: no begetting/being begotten, no counterpart as anyone. Assigned roles: `قل` becomes the authorized counter-speech; the negated birth and counterpart clauses identify what kinds of wrong public saying are being fenced off. Abductive move: I supply the social-polemical arrow that an imperative to say a concise formula responds to possible claims in circulation; the packet supplies `ق و ل` and the subsequent denials. Reading change: 112:1 is not isolated affirmation; it is a corrective utterance that pre-empts derivative, filial, or equivalence attributions.\n\n3. **The first `أحد` is sharpened by the last `أحد`: absolute one becomes no-anyone.** Lexical evidence: `ء ح د B001` in 112:1 (oneness and absolute one), `ء ح د B002` in 112:4 (negative exhaustive anyone), and `ك ف ء B001` (equal counterpart). Structural cue: the same surface-root appears at the opening assertion and closing negation; the first is indefinite affirmative predicate, the second indefinite under negation. Assigned roles: first `أحد` states uniqueness; final `أحد` scans the field of possible persons and exhausts it under \"no counterpart.\" Abductive move: I infer that the closing negated use retroactively prevents the opening `أحد` from being read as merely numerical \"one among countables.\" Reading change: 112:1 reads as absolute unshared singularity that has already excluded the possibility of a comparable \"anyone.\"\n\n4. **Oneness resists both rank-rivalry and peerhood.** Lexical evidence: `ء ح د B001/B005` (oneness; isolation), `س م و B007` (rivaling by vying upward) from the opening root inventory, `و ل د B006` (peer of the same birth-age), and `ك ف ء B001` (equal peer/counterpart). Structural cue: an initial raised name is followed by `أحد`, while later birth-based peerhood and counterpart equality are denied. Assigned roles: `أحد` marks non-participation in a competitive scale; `كفوًا` and `لدة`-like peerhood are the possible social/material equivalents refused by the surrounding ayat. Abductive move: I infer that if something is called one in a context saturated by name, birth, and equivalence, the local mechanism is not arithmetic but removal from rival classes. Reading change: `أحد` becomes solitude from rank competition, matching, and same-origin peerhood.",
@@ -11509,14 +12179,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s112/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 26,
+        "ayah_count": 4,
+        "row_count": 19,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11652,10 +12328,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s112/packets/112_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s112/readers/reader_hft_a/112_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s112"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s112",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 50928,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

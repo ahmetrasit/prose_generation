@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.591736+00:00",
+  "generated_at": "2026-08-18T13:34:43.362490+00:00",
   "surah": 113,
   "ayah": 1,
   "ayahRef": "113:1",
@@ -1537,7 +1537,8 @@
       "morpheme_ids": [
         "m-w-s113-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:1:1"
+      "aligned_qac_word_ref_upstream": "113:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1551,7 +1552,8 @@
       "morpheme_ids": [
         "m-w-s113-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:1:2"
+      "aligned_qac_word_ref_upstream": "113:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1567,7 +1569,8 @@
         "m-w-s113-a001-w003-01",
         "m-w-s113-a001-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:1:3"
+      "aligned_qac_word_ref_upstream": "113:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1583,7 +1586,8 @@
         "m-w-s113-a001-w004-01",
         "m-w-s113-a001-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:1:4"
+      "aligned_qac_word_ref_upstream": "113:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2430,7 +2434,966 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s113/packets/113_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "113:1",
+      "window": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "113:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_performative_refuge",
+            "confidence": "strong",
+            "focus_anchor": "The imperative قُلْ joined directly to the first-person أَعُوذُ.",
+            "mechanism": "The commanded utterance does not only report a wish for safety; it performs the speaker's turn toward an authority able to protect.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech makes the imperative an audible act that initiates the refuge movement."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Turning for refuge supplies the directed movement enacted by the first-person verb."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and authority identify the addressee as an effective protector rather than a passive location."
+              }
+            ],
+            "changed_reading": {
+              "before": "A command to state a request for safety.",
+              "after": "The commanded saying is itself the enacted turn into the Lord's protection."
+            }
+          },
+          {
+            "model_id": "b_opening_not_enclosure",
+            "confidence": "medium",
+            "focus_anchor": "The attachment of أَعُوذُ to بِرَبِّ ٱلْفَلَقِ.",
+            "mechanism": "Refuge is pictured as staying close to a nurturing protector whose characteristic action is opening obscurity, so safety need not mean withdrawal into a sealed enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging close beside something turns refuge into protected proximity rather than remote escape."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion make the protector one who actively restores what stays near."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Cleaving and opening make protection compatible with a passage being opened."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B002",
+                "role": "Daybreak splitting obscurity gives the opening a directional movement toward clarity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Refuge is retreat into a protected enclosure.",
+              "after": "Refuge is proximity to the one who opens a way through obscurity."
+            }
+          },
+          {
+            "model_id": "b_governed_breach",
+            "confidence": "medium",
+            "focus_anchor": "The annexation رَبِّ ٱلْفَلَقِ.",
+            "mechanism": "The title places not only luminous dawn but the cleft or low gap itself under lordship; the vulnerable boundary is therefore governed rather than abandoned.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Ownership and authority assign control of the named opening to the Lord."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B004",
+                "role": "A low cleft between rises supplies a spatial breach that can expose, connect, or release."
+              }
+            ],
+            "changed_reading": {
+              "before": "The title names the Lord associated with dawn.",
+              "after": "The breach through which exposure and escape are both possible is itself under the Lord's authority."
+            }
+          },
+          {
+            "model_id": "b_generative_emergence",
+            "confidence": "medium",
+            "focus_anchor": "The pairing of رَبِّ with ٱلْفَلَقِ.",
+            "mechanism": "Stage-by-stage nurture converges with creation brought forth by splitting, making the protector the agent who matures what is enclosed and brings it through rupture into manifestation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion supply the gradual development preceding emergence."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B003",
+                "role": "Bringing creation out through splitting supplies the transition from enclosed development to appearance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The plea seeks static shelter from an external threat.",
+              "after": "The plea entrusts the speaker to the agency that nurtures and brings life safely through rupture."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_created_field_discrimination",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "خ ل ق"
+            ],
+            "mechanism": "Creation and harmful disclosure occupy the same emergence field: opening brings created things forth but can also expose adverse potential, so refuge becomes a request for discriminating custody within creation rather than escape from creation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B003",
+                "role": "Bringing creation out through splitting makes emergence the focus-side mechanism."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Showing and bringing something out makes harm a disclosed potential within the emerged field."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-into-being supplies the field whose products can carry differing potentials."
+              }
+            ],
+            "structural_cues": [
+              "113:2 immediately places مِن شَرِّ against the broad مَا خَلَقَ.",
+              "The focus title and the context verb both concern bringing forth, but the context adds an adverse relation."
+            ],
+            "reader_inference": "The packet supplies emergence, manifestation, creation, and harm; I infer that the Lord's opening also discriminates harmful manifestation from the created whole. A live alternative is that creation merely sets the scope of danger without sharing an emergence mechanism.",
+            "changed_reading": {
+              "before": "The opener simply brings creation forth.",
+              "after": "The opener is sought because emergence is mixed: created reality and its disclosed harmful potential must be distinguished."
+            }
+          },
+          {
+            "model_id": "d_manufactured_speech",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ش ر ر",
+              "خ ل ق"
+            ],
+            "mechanism": "The command to speak can counter a socially produced harm: false attribution becomes fabricated discourse, is made public, and is answered by an assigned first-person declaration of refuge.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "False saying or attribution supplies the speech-domain vulnerability against which the commanded utterance can be heard."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Circulating public talk gives false attribution a social propagation mechanism."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Bringing something into view makes the manufactured claim publicly consequential."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Fabricating lies or speech supplies the context trigger for harm that is made rather than physically created."
+              }
+            ],
+            "structural_cues": [
+              "The broad مَا in 113:2 does not force the harmful product to be a physical object.",
+              "The focus begins with an explicitly assigned utterance before any danger is named."
+            ],
+            "reader_inference": "The packet supplies false attribution, circulating talk, public manifestation, and fabricated speech; I infer a causal chain from manufactured claim to social harm and treat قُلْ as a counter-positioning act. The live alternative is the ordinary creation sense of خَلَقَ, with no speech-domain reference.",
+            "changed_reading": {
+              "before": "قُلْ is a neutral delivery instruction.",
+              "after": "The commanded true self-positioning can oppose harm produced by fabricated and circulating attribution."
+            }
+          },
+          {
+            "model_id": "d_harmful_edge",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ش ر ر"
+            ],
+            "mechanism": "The repeated request is from the harmful side or edge of each phenomenon, while cleaving supplies the operation of separation; the objects themselves need not be reduced to undifferentiated evil.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Cleaving and separation supply the operation that can distinguish a harmful aspect from its carrier."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B003",
+                "role": "The non-dominant side-or-edge image activates an adverse aspect rather than an exhaustively evil entity."
+              }
+            ],
+            "structural_cues": [
+              "مِن شَرِّ recurs before created reality, the darkener, the blowers, and the envier instead of simply renaming each carrier as evil.",
+              "The repeated مِن preserves a relation of separation from harm."
+            ],
+            "reader_inference": "The packet supplies a side-or-edge branch and repeated مِن شَرِّ; I infer that cleaving separates the supplicant from an activated harmful aspect. The alternative is that the split mapping is only formally adjacent and شَرّ bears its dominant badness sense throughout.",
+            "changed_reading": {
+              "before": "The plea flees a series of wholly evil entities.",
+              "after": "The Lord of cleaving is asked to separate the speaker from the harmful edge or activated side of larger realities."
+            }
+          },
+          {
+            "model_id": "d_counter_ingress",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "The darkener's entry is a directional counter-image to daybreak's opening: one movement descends into concealment while the refuge title invokes the agency that splits concealment toward clarity.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B002",
+                "role": "Daybreak splitting open supplies an outward movement from obscurity."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Night's darkness and entry supply the obscuring state opposed by daybreak."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entering a recess until hidden gives darkness an ingress trajectory that the focus opening reverses."
+              }
+            ],
+            "structural_cues": [
+              "غَاسِقٍ is activated by the temporal clause إِذَا وَقَبَ.",
+              "The focus title precedes this context and supplies the opposite transition from concealment to disclosure."
+            ],
+            "reader_inference": "The packet supplies darkness entering concealment and dawn splitting it; I infer a reversal relation in which the invoked Lord counters ingress with emergence. The alternative is a simple temporal contrast with no operative reversal.",
+            "changed_reading": {
+              "before": "ٱلْفَلَقِ is a luminous title attached to a general plea.",
+              "after": "The title names the counter-operation to harmful ingress: concealment enters, but its Lord can split it open."
+            }
+          },
+          {
+            "model_id": "d_permeability_and_repair",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "A cleft is not automatically safe: flow can find a hollow and enter it. Refuge in the nurturing Lord therefore asks for governance and repair of permeability, preserving an opening as passage without letting it become an inlet for harm.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "A physical split supplies the ambivalent channel through which release or intrusion can occur."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and administration assign the Lord an active role in maintaining the channel."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing and pouring make the threat mobile enough to exploit an opening."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A hollow in which something disappears supplies the receiving cavity for harmful flow."
+              }
+            ],
+            "structural_cues": [
+              "إِذَا marks danger at the moment the darkener enters rather than at its mere existence.",
+              "The focus binds lordship directly to an opening that can function in two directions."
+            ],
+            "reader_inference": "The packet supplies split, repair, flow, and a receiving hollow; I infer that flow finds the hollow and that lordly repair governs this permeability. The alternative is that the flow and hollow branches are separate images with no hydraulic relation.",
+            "changed_reading": {
+              "before": "Opening is an unambiguously safe opposite of darkness.",
+              "after": "Opening is ambivalent permeability, and refuge is in the one who governs and repairs passages when harmful flow enters."
+            }
+          },
+          {
+            "model_id": "d_counter_speech_unbinding",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "The focus utterance and the context breath are rival mouth-actions: articulated speech turns toward protection, while slight expelled breath operates in bindings. Cleaving then supplies a counter-action of opening what hostile breath fastens or what obstructs articulation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated utterance gives the focus its deliberate mouth-action."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B002",
+                "role": "A protective invocation makes voiced refuge an operative means of protection."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Cleaving and opening supply the counter-operation to fastening."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "Breath from the mouth with slight saliva supplies the hostile mouth-action paired with the knots."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "Tying ends together supplies the fastening that the cleaving image can undo."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B007",
+                "role": "Tongue impediment and tangled speech make hostile binding a possible obstruction of articulation itself."
+              }
+            ],
+            "structural_cues": [
+              "113:4 places an intensive plural mouth-agent inside the knots with فِى ٱلْعُقَدِ.",
+              "The surah's protective response has already been placed in the speaker's mouth by قُلْ."
+            ],
+            "reader_inference": "The packet supplies articulated speech, protective invocation, breath, fastening, and speech obstruction; I infer opposing operations in which the focus utterance opens what the hostile mouth-action binds. The alternative is that قُلْ only transmits the request and performs no counter-operation.",
+            "changed_reading": {
+              "before": "The speaker recites a plea about external knot-workers.",
+              "after": "The ayah's own utterance becomes counter-speech: articulate refuge under the Cleaver against breath that fastens or impedes articulation."
+            }
+          },
+          {
+            "model_id": "d_protective_counter_binding",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "Hostile binding activates a second account of refuge: the protective formula attaches the speaker to a lordly pact, forming a counter-binding rather than merely asking from a distance.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B002",
+                "role": "A protective invocation makes refuge available as a formula that establishes protection."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A covenant or protection pact supplies the relational bond formed with the Lord."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Verbal negotiation supplies a speech-mediated transition into the protective relation."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "Slight mouth-breath marks the hostile binding as another speech-adjacent operation."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B002",
+                "role": "Binding and ratifying a covenant supplies the context-side image that can be reversed into protective attachment."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B013",
+                "role": "Knots of magic and incantation identify the hostile counterpart to the proposed protective bond."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses بِرَبِّ to attach the refuge act to its protector, while 113:4 locates hostile action فِى ٱلْعُقَدِ.",
+              "Both sides of the sequence combine mouth-action with a relation of binding."
+            ],
+            "reader_inference": "The packet supplies protective formula, pact, negotiation, breath, covenant, and hostile knots; I infer that voiced refuge establishes a rival attachment to the Lord. A live alternative is that these pact branches are analogical only and the focus remains a unilateral appeal.",
+            "changed_reading": {
+              "before": "Refuge is a loose, one-way appeal for intervention.",
+              "after": "Refuge can be carried as a protective counter-binding: voiced attachment to the Lord against hostile attachments."
+            }
+          },
+          {
+            "model_id": "d_preserved_growth",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "Envy aims at the removal of another's good, while lordship and cleaving jointly picture nurtured growth brought into manifestation; refuge therefore asks custody over an unfolding good, not only defense of a finished possession.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Stage-by-stage nurture makes the threatened good an unfolding process under care."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant nurture-and-growing branch reinforces development as a live resonance in the title."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B003",
+                "role": "Plant, rain, and created things brought out by splitting give growth its emergence image."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Wishing for another's blessing to disappear supplies the attack on the good being nurtured."
+              }
+            ],
+            "structural_cues": [
+              "113:5 repeats the same root as agent and enacted verb: حَاسِدٍ إِذَا حَسَدَ.",
+              "The focus title combines a caretaker with emergence before the context names the wish to remove blessing."
+            ],
+            "reader_inference": "The packet supplies nurture, growth, emergence, and desired removal of blessing; I infer that the vulnerable object is good still unfolding under care. The alternative is that envy targets any possessed blessing, with no special growth mechanism.",
+            "changed_reading": {
+              "before": "The speaker seeks shelter from envy aimed at an existing blessing.",
+              "after": "The speaker entrusts an unfolding good to the Nurturer who brings it forth because enacted envy seeks its disappearance."
+            }
+          },
+          {
+            "model_id": "d_event_gated_refuge",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب",
+              "ح س د"
+            ],
+            "mechanism": "The repeated إِذَا clauses distinguish a carrier or agent from the moment its harmful capacity crosses into action. The imperative refuge formula is thus reusable at activation thresholds rather than founded on treating every carrier as continuously identical with its harm.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech makes the refuge formula deployable as an event-responsive act."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Turning for protection supplies the response made at the threshold of danger."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "The darkener supplies a carrier whose dangerous phase is grammatically delayed until entry."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Ingress into concealment supplies the first activation event."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "The desire for a blessing's removal supplies the second capacity that becomes dangerous when enacted."
+              }
+            ],
+            "structural_cues": [
+              "إِذَا وَقَبَ and إِذَا حَسَدَ repeat the same carrier-to-event gating.",
+              "The focus gives a present first-person refuge formula before those activation moments are specified."
+            ],
+            "reader_inference": "The packet supplies two explicit when-clauses and their entry and envy images; I infer a threshold from latent capacity to harmful action and treat the focus utterance as repeatably responsive. The alternative is that إِذَا only adds temporal emphasis and does not soften identification of carrier with danger.",
+            "changed_reading": {
+              "before": "The plea establishes permanent shelter from fixed evil beings.",
+              "after": "The plea is repeatable speech for moments when a latent capacity crosses into harmful action, without flattening the carrier into the act."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_speech_stabilizes_tremor",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ق ل ل mapping of قُلْ and a distant cutting-and-shaking image; it remains anchored in the packet's explicit split mapping and the focus imperative. Downstream prose should present it as a structural resonance of voiced orientation under destabilization, not as the lexical meaning of قُلْ.",
+            "focus_anchor": "قُلْ as the opening command that precedes the refuge movement.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Rattling and unstable motion make the split-mapped imperative resonate as an act that restores orientation."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B004",
+                "role": "Cutting and shaking supply the destabilizing pressure to which voiced refuge responds."
+              }
+            ],
+            "changed_reading": {
+              "before": "The command to say only conveys propositional content.",
+              "after": "At an exploratory structural level, voicing the refuge can stabilize orientation when harm cuts, shakes, or dislodges."
+            }
+          },
+          {
+            "outlier_id": "o_emergence_after_scare",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates an idiom of escaping with a scare rather than the central refuge branch; it remains anchored to أَعُوذُ and gains directional support from daybreak after ingress. It should be rendered as a possibility that protection includes surviving passage through fear, never as a promise that harm must first occur.",
+            "focus_anchor": "The movement from أَعُوذُ to the Lord of daybreak.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B006",
+                "role": "Escaping with only a scare supplies protection as survival after threatening contact rather than total non-exposure."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B002",
+                "role": "Daybreak after obscurity gives survival a movement toward emergence."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into concealment supplies the frightening passage from which emergence is sought."
+              }
+            ],
+            "changed_reading": {
+              "before": "Protection means prevention of every frightening encounter.",
+              "after": "Protection may also mean being brought through frightening contact into emergence without being overcome."
+            }
+          },
+          {
+            "outlier_id": "o_transfer_into_pact",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain reading built from verbal negotiation, a protection pact, the non-dominant exchange branch of ش ر ر, and covenantal binding. It remains focus-anchored in قُلْ and بِرَبِّ but is highly analogical; downstream prose should call it an exchange-of-allegiance model, not a grammatical or legal claim.",
+            "focus_anchor": "The voiced movement قُلْ أَعُوذُ بِرَبِّ as attachment to a new protective authority.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Mutual verbal negotiation lets the commanded speech resemble a declared relational transfer."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A covenant or protection pact supplies the protective relation entered by the declaration."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The non-dominant exchange image supplies the transfer frame activated by the first named harm."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B002",
+                "role": "Ratifying a covenant gives the proposed protective transfer a binding form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The utterance is a one-way plea made while remaining in the same relational position.",
+              "after": "Exploratorily, the utterance declares transfer into the Lord's protective pact and away from harm's claim."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The imperative is performative refuge, not merely reported content.",
+            "Daybreak becomes a counter-operation to darkness entering concealment.",
+            "Articulated protective speech coexists with a counter-binding model against breath in knots.",
+            "The repeated إِذَا clauses relocate danger from fixed essence to moments of harmful activation.",
+            "Envy reframes lordly cleaving as custody of good still unfolding."
+          ],
+          "what_was_special": "The focus supports several coexisting mechanisms: refuge by utterance, proximity to an opening protector, governed permeability, generative emergence, counter-speech, and protective attachment. Split-root branches added live but contained readings of harmful edges, stabilizing speech, exchange, and growth without displacing the dominant branch readings.",
+          "remaining_uncertainties": [
+            "Whether opening should be read primarily as luminous reversal, generative emergence, or governance of an ambivalent breach.",
+            "Whether the fabricated-speech chain is genuinely activated by 113:2 or only a distant branch analogy.",
+            "How strongly the protective-invocation and covenant branches support an operative counter-binding rather than figurative attachment.",
+            "Whether the repeated إِذَا clauses mark a general activation principle or only describe two local temporal conditions."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Commanded utterance as counter-breath.** Evidence: `ق و ل B001` uttered speech and `ق و ل B002` tongue as speech-instrument; `ع و ذ B001` turning for refuge and `ع و ذ B002` protective invocation; activated by `ن ف ث B001` mouth-blow with little spittle and `ع ق د B013` spell-knots. Mechanism: the same bodily channel, the mouth, appears in a sanctioned command (`قُلْ`) and in a harmful act (`ٱلنَّفَّٰثَٰتِ`). I infer that the commanded saying does not merely describe refuge but performs a protective speech-act. Reading change: the ayah reads as an enacted refuge formula, not only as an instruction to report a belief.\n\n2. **Lord of emergence, not merely Lord of morning.** Evidence: `ر ب ب B001` lordship/authority and `ر ب ب B002` repair, nurture, completion; `ف ل ق B002` daybreak splitting open and `ف ل ق B003` bringing creation out through splitting; activated by `خ ل ق B001/B002` measuring and bringing into being, and by 113:2's `مَا خَلَقَ`. Mechanism: `الفلق` is linked in the packet both to dawn and to the process by which created things emerge from splitting. I infer that the protector is invoked as the authority over the threshold where things come out into exposure. Reading change: `رَبِّ ٱلْفَلَقِ` reads as lordship over all openings and emergences, so refuge is sought at the point where created vulnerability begins.\n\n3. **Refuge as spatial relocation into a protected cleft.** Evidence: `ع و ذ B004` clinging close beside something and `ع و ذ B001` refuge; activated by `ف ل ق B004` a low cleft between rises, `و ق ب B001` hollow receiving something, `ع ق د B016` enclosure around a place, and `ع ق د B017` turning the neck in refuge. Mechanism: the packet supplies a geography of hollows, clefts, enclosures, and bodily turning. I infer that seeking refuge is imagined not only juridically but spatially: the speaker moves into a protected nearness rather than standing exposed in the open. Reading change: `أَعُوذُ` becomes a posture of clinging placement under the Lord of the cleft/opening.\n\n4. **Refuge from nonlethal intimidation.** Evidence: `ع و ذ B006` escaping with only a scare, activated by repeated `مِن شَرِّ` in 113:2-5, `غ س ق B001` dark onset, and `ح س د B001` envy seeking removal. Mechanism: the packet's harms need not all be completed injuries; some are threats, fear, atmosphere, and hostile intent. I infer that the refuge request includes preservation before damage is fully carried out. Reading change: `أَعُوذُ` reads as asking to be brought through threatened harm without its completion, not only rescue after injury.",
@@ -18325,14 +19288,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s113/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 37,
+        "ayah_count": 5,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -18443,10 +19412,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s113/packets/113_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s113/readers/reader_hft_a/113_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s113"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s113",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 100594,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.366755+00:00",
+  "generated_at": "2026-08-18T13:34:40.776145+00:00",
   "surah": 111,
   "ayah": 1,
   "ayahRef": "111:1",
@@ -1899,7 +1899,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:1"
+      "aligned_qac_word_ref_upstream": "111:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1913,7 +1914,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:2"
+      "aligned_qac_word_ref_upstream": "111:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1927,7 +1929,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:3"
+      "aligned_qac_word_ref_upstream": "111:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1941,7 +1944,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:4"
+      "aligned_qac_word_ref_upstream": "111:1:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1955,7 +1959,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:5"
+      "aligned_qac_word_ref_upstream": "111:1:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1969,7 +1974,8 @@
       "morpheme_ids": [
         "m-w-s111-a001-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:1:6"
+      "aligned_qac_word_ref_upstream": "111:1:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3413,7 +3419,1008 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s111/packets/111_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "111:1",
+      "window": [
+        "111:1",
+        "111:2",
+        "111:3",
+        "111:4",
+        "111:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ي د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001693",
+              "furuq_root_norm": "ي د ي",
+              "furuq_source_root_norm": "ي د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 107,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000071",
+              "furuq_root_norm": "ء ي د",
+              "furuq_source_root_norm": "أ ي د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "111:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1-operative-collapse",
+            "confidence": "strong",
+            "focus_anchor": "The first failure is predicated of the dual hands, while the repeated verb shifts the same outcome to the named bearer.",
+            "mechanism": "The dual hands expand from body parts into acts, strength, and possession. Repetition then stages collapse from the man's operative interface to the man himself: what he does, controls, and can deploy fails before his own failure is ratified.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Literal loss and ruin supplies the repeated outcome and lets it move from the hands to their bearer."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "Hands as a person's acts turns the dual body term into the man's produced conduct."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B002",
+                "role": "Hand as strength makes failed hands a loss of effective capacity, not only bodily injury."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B004",
+                "role": "Hand as possession adds whatever lies under his custody or control to the failing operative sphere."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The name-or-epithet branch identifies the bearer at the second verb and keeps the metonymic expansion target-specific."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two anatomical hands are cursed, followed by a redundant repetition against their owner.",
+              "after": "The verse performs a two-stage dismantling: deeds, power, and controlled resources fail first, and then the person constituted by that agency fails."
+            }
+          },
+          {
+            "model_id": "b2-severed-protective-perimeter",
+            "confidence": "medium",
+            "focus_anchor": "The dual hands stand between the repeated severing branch of the verb and the person named by the epithet.",
+            "mechanism": "Hands can be supporting alliances, authority, and a protective barrier. The cutting branch of the repeated verb therefore permits a spatial-social reading in which the target's supports and perimeter are severed before the now-exposed bearer is cut off.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "Literal cutting or severing supplies the mechanism that disconnects supports before reaching their bearer."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B016",
+                "role": "The supporting hand supplies alliance, aid, and a shared defensive front as what is severed."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B005",
+                "role": "Hand as authority makes the severance also a loss of command and coercive upper hand."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped branch supplies a protective barrier, extending the hands into an exploratory defensive perimeter."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hands themselves are destroyed.",
+              "after": "The target is first stripped of supporting alliances, authority, and protective enclosure; the final repeated verb lands on the exposed person."
+            }
+          },
+          {
+            "model_id": "b3-failure-made-settled",
+            "confidence": "exploratory",
+            "focus_anchor": "The same root occurs before and after the hand-name construction, allowing its divergent branches to interact across repetition.",
+            "mechanism": "The root's branch of becoming settled, regular, clear, and continuous need not replace its ruin branch; it can describe ruin's aspect. The first verb initiates failure in the operative hands and the second makes that condition settled and continuing in the bearer.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Loss and ruin supplies the adverse state carried by both occurrences."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B002",
+                "role": "Becoming settled, straight, regular, and continuous supplies an aspectual manner: the ruin becomes established rather than momentary."
+              }
+            ],
+            "changed_reading": {
+              "before": "The repetition merely intensifies a punctual curse or completed loss.",
+              "after": "The repetition can make the failure settle into a clear, regular, continuing condition, while the ordinary ruin reading remains active."
+            }
+          },
+          {
+            "model_id": "b4-producer-consumed-by-epithet",
+            "confidence": "exploratory",
+            "focus_anchor": "The father term and the flame epithet are internally adjacent, while the hands-as-acts fail on either side of the naming unit.",
+            "mechanism": "The father branch includes causal or nurturing fatherhood, and the epithet carries both proper-name and actual-flame branches. Alongside hands as deeds, this permits an imagistic reading of a man who generates or tends a flame-like output and is already named by the product that will undo him.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Fatherhood, including causal and nurturing fatherhood, makes the fixed father element available as an exploratory production relation."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Blazing flame supplies the product or process figuratively fathered and tended."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The proper-name and epithet branch keeps the flame image simultaneously attached to a particular person."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "Hands as one's acts supply the productive actions through which the flame-like effect is made."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Ruin supplies the recoil from produced effect to producer."
+              }
+            ],
+            "changed_reading": {
+              "before": "The expression only identifies a man by a conventional epithet before announcing his ruin.",
+              "after": "Without ceasing to be a proper name, the epithet can expose a producer-product irony: the hands that tend a flame-like agency fail, and its named producer fails with them."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1-acquisition-system-fails",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ن ي",
+              "م و ل",
+              "ك س ب"
+            ],
+            "mechanism": "The next ayah discloses an economic circuit behind the hands: capacity seeks benefit, accumulates property, and expects the stock to avail its owner. Its negation turns the first failure into collapse of both productive agency and stored output; the hands cannot earn a reserve capable of rescuing their bearer.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "Hands as one's acts provide the productive side of the economic circuit."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B004",
+                "role": "Hand as possession provides the accumulated and controlled side of the circuit."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency and adequacy supply the rescue function that the ayah explicitly negates."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Taking and multiplying wealth supplies the stored output expected to preserve its owner."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Seeking and obtaining livelihood or benefit supplies the acquisition process performed by the operative hands."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B003",
+                "role": "Acquisitive limbs literalize earning as bodily agency and tighten the link between anatomical hands and economic action."
+              }
+            ],
+            "structural_cues": [
+              "111:2 follows the dual hands with a negated availing construction and then names wealth and acquisition."
+            ],
+            "reader_inference": "The packet supplies acts, possession, sufficiency, accumulated wealth, and acquisition; I infer a production-storage-rescue circuit whose failure propagates back to its operator. A live alternative is that wealth and earnings are only separate failed safeguards, not expansions of the hands.",
+            "changed_reading": {
+              "before": "The hands signify generic agency that is ruined.",
+              "after": "They signify an acquisition system whose labor, holdings, and promised self-sufficiency all fail together, leaving the owner without an external reserve."
+            }
+          },
+          {
+            "model_id": "d2-name-material-feedback",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل ي",
+              "ن و ر",
+              "ل ه ب"
+            ],
+            "mechanism": "The flame element first encountered as an epithet returns as the ordinary flame of an actual fire that the named person will meet. The fatherhood-production baseline is thereby sharpened into feedback: a flame-marked identity and its acts do not remain figurative reputation but become the material environment that receives the bearer.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Causal or nurturing fatherhood supplies an exploratory producer relation between the person and flame."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The name-or-epithet branch establishes flame first as personal designation."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The blazing-flame branch keeps a material image latent inside that designation."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat turns the epithet's latent material into the bearer's encountered environment."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire and its branding supply the concrete medium and the possibility of identity marked by fire."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The renewed flame-tongue and ignition branch converts the earlier personal epithet into a surrounding physical process."
+              }
+            ],
+            "structural_cues": [
+              "The epithet's root in 111:1 recurs as an ordinary flame noun in 111:3 immediately after fire."
+            ],
+            "reader_inference": "The packet supplies a flame-derived epithet, actual fire, meeting its heat, and renewed flame; I infer feedback from cultivated identity or effect to the producer who bears it. The live alternative is concentrated wordplay and fitting retribution without a production relation.",
+            "changed_reading": {
+              "before": "The epithet merely labels the target of an otherwise generic ruin.",
+              "after": "The name is a latent causal image: a flame-marked mode of agency returns as literal flame, so the bearer enters the material realization of his own epithet."
+            }
+          },
+          {
+            "model_id": "d3-adverse-straightening",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل ي"
+            ],
+            "mechanism": "A focus branch allows the failure root to mean becoming settled or straight, while the context branch allows fire to kindle and straighten an object. Their contact yields an adverse rectification model: heat does not merely destroy but fixes the target's failure into its settled form.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B002",
+                "role": "Settling, straightening, regularity, and continuation supply the resulting fixed condition."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Ruin keeps that settled condition adverse rather than rehabilitative."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Kindling heat and straightening an object by fire supply the transformative process that sets the adverse condition."
+              }
+            ],
+            "structural_cues": [
+              "The repeated failure verb brackets the hands-to-person movement before the future fire encounter."
+            ],
+            "reader_inference": "The packet supplies one branch of settled straightness and another of fire-straightening; I infer that the later heat makes the earlier ruin irreversible or fully formed. The materially live alternative is simple burning, with the two straightening images remaining unrelated lexical branches.",
+            "changed_reading": {
+              "before": "Ruin is only breakage or annihilation.",
+              "after": "Ruin can coexist with a dark setting-right: the fire establishes, regularizes, and completes the failed condition announced twice in the focus ayah."
+            }
+          },
+          {
+            "model_id": "d4-household-distributed-agency",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ر ء",
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "The wife appears as a sustained carrier of fuel and, in another live branch, carried reports. This revises the hands from solely personal limbs into distributed agency: the target's acts and supporting front can operate through a household partner who transports what keeps the flame active.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "Hands as one's acts allow agency to include actions performed through an attached operative network."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B016",
+                "role": "The supporting hand supplies alliance and shared front as the relational form of that network."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman or wife branch introduces a specific household partner rather than an anonymous external instrument."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing a burden or liability makes the partner carry both material and accountable weight for the shared operation."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Gathered firewood supplies the transported input that sustains a flame."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "Tale-bearing and social agitation supply a second, non-material kind of fuel carried through the network."
+              }
+            ],
+            "structural_cues": [
+              "The possessive wife reference extends the target's household, and the intensive carrier form gives that partner sustained agency."
+            ],
+            "reader_inference": "The packet supplies a household partner, repeated carrying, fuel, tale-bearing, and hand-as-support; I infer that delegated or allied action belongs to the operative sphere called his hands. A live alternative is that the wife is only a parallel accountable agent and not an extension of his agency.",
+            "changed_reading": {
+              "before": "The man's two hands name only his individual conduct or power.",
+              "after": "His failing hands can include a distributed household apparatus in which a supporting partner repeatedly carries the material or social inputs of his flame-like agency."
+            }
+          },
+          {
+            "model_id": "d5-feud-as-social-combustion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "Fire develops a social analogue: feud among people is fed by transported tale-bearing just as flame is fed by carried wood. The target's hand as authority and supporting front then fails through a combustion mechanism in which the household's agitation consumes the social field that sustains its own upper hand.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Blazing flame supplies the material template for a spreading social process."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B005",
+                "role": "Hand as authority supplies the social power that the resulting feud erodes."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "A flare of feud between people translates fire from physical combustion into social conflict."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Carrying a visible load supplies the transport function that moves fuel into the conflict."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "Tale-bearing explicitly supplies speech and agitation as socially combustible fuel."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from fire and flame to a carrier and fuel, creating a visible combustion chain across 111:3-4."
+            ],
+            "reader_inference": "The packet supplies flame, interpersonal feud, carrying, tale-bearing, and authority; I infer the arrow that transported speech feeds conflict which then consumes the target's social power. The live alternative is parallel literal-fire and blame images without a single causal social mechanism.",
+            "changed_reading": {
+              "before": "The failed hands denote power lost under an externally announced doom.",
+              "after": "The failed hands can denote authority internally consumed by a feud-fueling household process: the social fire it feeds destroys its own supporting field."
+            }
+          },
+          {
+            "model_id": "d6-pledge-becomes-restraint",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م ل",
+              "ج ي د",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "A hand can be given in submission, pledge, or guarantee; carrying can name surety; and a rope can name covenant or security. The final neck-rope image materializes that legal-social bond as restraint. On this track, the cutting failure is default or severance of obligations that were supposed to secure the person but now bind and lead the household.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B006",
+                "role": "Hand as submission, pledge, guarantee, or collateral supplies the initial interpersonal bond."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "Cutting or severing supplies default, disconnection, or termination of the pledged relation."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B004",
+                "role": "Surety and guarantee transfer the hand-pledge into a burden carried within the household."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck supplies the bodily point where an abstract obligation becomes visible control."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Rope as covenant, security, and connection supplies the bond's legal-social face."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "A stretched rope that binds and leads supplies the same bond's coercive material face."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted cord gives the materialized obligation durability and constricting force."
+              }
+            ],
+            "structural_cues": [
+              "The body sequence runs from hands in 111:1 to neck and rope in 111:5, while possessive relations keep the obligations within one household."
+            ],
+            "reader_inference": "The packet supplies hand-pledge, surety, covenant, binding rope, neck, and twisted cord; I infer a figurative-to-material conversion in which security becomes liability and restraint. The live alternative is an ordinary hand metaphor followed by an unrelated literal neck-rope image.",
+            "changed_reading": {
+              "before": "The hands fail as instruments, and the later rope is a separate punishment image.",
+              "after": "The focus can announce collapse of pledged power and guarantees; the later rope reveals how a securing bond reverses into a durable instrument of custody."
+            }
+          },
+          {
+            "model_id": "d7-earned-agency-self-ensnared",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك س ب",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "The hands are both bodily instruments and authored deeds; the context adds acquisition, a hunting snare, a calamity that traps its owner, and twisted cord. Together they support a reflexive mechanism: what the hands acquire or fabricate becomes the catching device, and restraint migrates from the operative limb to the whole person.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B001",
+                "role": "The bodily-hand branch explicitly includes a hand caught in a snare, anchoring the trap image in the focus wording."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "Hands as one's authored acts make the catching device potentially deed-shaped rather than only external."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Seeking and obtaining benefit supplies the apparently advantageous activity that can recoil on its agent."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "A hunting snare supplies the concrete device that catches active agency."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B011",
+                "role": "A calamity that ensnares its own possessor supplies the reflexive owner-catching direction."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted cord turns momentary capture into durable restraint."
+              }
+            ],
+            "structural_cues": [
+              "Acquisition appears in 111:2, while the later catching cord is located on the neck, extending failure from deed to whole bearer."
+            ],
+            "reader_inference": "The packet supplies authored acts, acquisition, a hand caught in a snare, an owner-catching calamity, and twisted cord; I infer that acquired acts fabricate or activate the trap. A live alternative is wholly external capture imposed on the actor rather than self-entrapment through what he earned.",
+            "changed_reading": {
+              "before": "The hands are passively ruined and the bearer is then separately condemned.",
+              "after": "The hands fail through reflexive agency: their own acquisitions become a snare that catches the operative limb and then takes custody of the whole bearer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1-spider-holdings-web",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare spider branch under the wealth root and supplies the web only by reader inference. It remains anchored in hand-as-possession, the focus inventory's snared hand, and the later explicit snare. Downstream prose should present it only as a web-like material analogy for self-entangling holdings, never as the lexical meaning of wealth in 111:2.",
+            "focus_anchor": "The dual hands can mean both what the man possesses and bodily hands vulnerable to a snare.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B004",
+                "role": "Hand as possession anchors the outlier in holdings under the target's control."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B001",
+                "role": "The bodily hand caught in a snare supplies an explicit capture point inside the focus inventory."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The rare spider branch supplies the maker of a web-like structure, while the web itself remains a reader-supplied analogy."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "The hunting snare gives the inferred web a packet-backed catching function."
+              }
+            ],
+            "changed_reading": {
+              "before": "Accumulated wealth simply fails to rescue the ruined possessor.",
+              "after": "Exploratorily, controlled holdings resemble a structure spun around the possessor until the operative hands are caught inside their own accumulation."
+            }
+          },
+          {
+            "outlier_id": "o2-ruin-runs-ahead",
+            "confidence": "exploratory",
+            "containment": "This is surprising because gallop and race-order are peripheral branches, including a non-dominant mapped root for the context verb. It remains anchored in the focus ayah's repeated verb order and flame-derived epithet. Downstream prose should render it as a temporal analogy for clause sequence, not as a translation or claim that an actual race occurs.",
+            "focus_anchor": "The hands' failure occurs first, and the bearer's matching failure follows after the flame-derived name.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Repeated ruin supplies the same event at two ordered points, first on the hands and then on the bearer."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B004",
+                "role": "A blazing, dust-raising gallop gives the flame epithet an exploratory image of rapid forward motion."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The non-dominant branch of following the predecessor in a race supplies an ordered follower relation between the two failures."
+              }
+            ],
+            "changed_reading": {
+              "before": "The second failure verb is static emphatic repetition.",
+              "after": "As a contained temporal image, the ruin of the operative hands runs ahead and the ruin of their bearer follows it across the epithet."
+            }
+          },
+          {
+            "outlier_id": "o3-load-bearing-attrition",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it assembles secondary branches of aging, burdened strain, dry emaciation, and relentless night travel rather than the dominant ruin and fire senses. It remains anchored in the repeated failure root and hands-as-strength, with context supplying a coherent load-and-wear chain. Downstream prose should qualify it as an attritional co-reading, not replace the punctual doom reading.",
+            "focus_anchor": "The failure root has a branch of weakness, aging, and sore-backed wear, while the hands can denote strength.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B003",
+                "role": "Weakness, aging, and sore-backed wear supply progressive attrition inside the focus verb."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B002",
+                "role": "Hand as strength supplies the capacity gradually exhausted by that wear."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "Burdened strain and hardship supply sustained load as the cause of attrition."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B004",
+                "role": "Emaciation like dry wood supplies the body's depleted material condition."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B003",
+                "role": "Relentless travel by night supplies duration and repeated exertion rather than a single blow."
+              }
+            ],
+            "changed_reading": {
+              "before": "The dual hands and their bearer are annihilated in one punctual event.",
+              "after": "A coexisting attritional reading sees strength consumed under repeated load until both operative capacity and bearer become worn, dry, and unable to continue."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The dual hands became a whole operative economy of deeds, strength, possession, acquisition, and failed self-sufficiency.",
+            "The flame epithet became a feedback mechanism when its image returned as the actual fire and flame encountered by its bearer.",
+            "The household sequence distributed agency through a partner who carries material fuel or socially combustible reports.",
+            "The final rope retroactivated hand-as-pledge and hand-caught-in-a-snare, preserving both a bond-reversed-into-restraint model and a self-entrapment model."
+          ],
+          "what_was_special": "The focus ayah's compact hand-to-bearer repetition supported several coexisting causal geometries: outward agency collapsing inward, supports being severed, failure becoming settled, and a flame-marked producer being overtaken by its product. Split-root and peripheral branches then opened legal, social, temporal, and material readings without requiring them to displace the dominant ruin reading.",
+          "remaining_uncertainties": [
+            "The scope of the dual hands may stop at conventional deeds and power rather than extending to household allies or an economic system.",
+            "The causal-fatherhood image may be dormant inside a fixed epithet even though later flame recurrence strongly activates it.",
+            "Adverse straightening, spider-web accumulation, race order, and load-bearing attrition depend on branch-distant analogies and should remain explicitly exploratory.",
+            "The packet supplies the elements of the feud, pledge, and self-snare models, but the causal arrows among those elements are reader inferences rather than stated syntax."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The \"hands\" perish as agency, acquisition, and later carrying-capacity.** Branch evidence: `ت ب ب` B001, loss and ruin; `ي د ي` B009, hands as one's act; `ي د ي` B004, possession/control; `ي د ي` B005, authority; later `ك س ب` B001, seeking/obtaining gain; `ح م ل` B001, bearing an outward load. Structural cue: the ayah names the two hands before wealth and earnings are denied in 111:2 and before the wife becomes a carrier in 111:4. Assigned role: the hands gather bodily power, property, authority, and deed into one exposed organ of agency. Abductive move: I infer that what the hands \"do/hold/control\" is what 111:2 and 111:4 test. Reading change: \"hands\" are not merely anatomical; they are the whole operative apparatus by which the person acts, owns, commands, and makes others carry.\n\n2. **The flame-name is turned from social epithet into material destiny.** Branch evidence: `ل ه ب` B006, proper name or epithet from flame; later `ل ه ب` B001, flame-tongue and blazing fire; `ن و ر` B002, burning fire; `ص ل ي` B003, entering/suffering fire. Structural cue: `لَهَب` appears first inside the kunya and then again as the quality of the fire in 111:3. Assigned role: the repeated root converts the name into the medium of recompense. Abductive move: I supply the causal reversal: the name that identifies him becomes the element that receives him. Reading change: Abu Lahab is read less as a label attached to a man and more as a self-descriptive sign whose latent literalness is activated.\n\n3. **Ruin as severing and as settled completion.** Branch evidence: `ت ب ب` B001, ruin; `ت ب ب` B002, becoming settled/straight/regular/continuing; `ت ب ب` B004, cutting off; later `ح ب ل` B001, rope that binds/leads; `م س د` B001, firmly twisted rope. Structural cue: the root `ت ب ب` brackets the ayah, while the packet ends with binding and twisting. Assigned role: the first `تَبَّتْ` cuts the hands' efficacy; the second `تَبَّ` seals the person into a continuing settled outcome. Abductive move: I infer that repetition marks not redundancy but a movement from damaged instruments to confirmed person-state. Reading change: the line reads as both amputation of capacity and stabilization of doom.\n\n4. **Fatherhood is inverted into fathering flame rather than nurture.** Branch evidence: `ء ب و` B001, fatherhood and parental nurture; `ء ب و` B002, father-address formulas; `ل ه ب` B006, Abu Lahab as flame-derived name; later `ر ح م` B002/B003 from the basmalah and `م ر ء` B001 wife/woman. Structural cue: the paternal term sits between hands and flame, then the spouse appears as carrier of fuel. Assigned role: fatherhood supplies social/lineage status but is bound to a destructive element. Abductive move: I infer a punning relational mechanism: being \"father of flame\" can mean producing or sponsoring the flame-system. Reading change: the father-title stops functioning as honor or lineage security and becomes a generative link to combustion.",
@@ -13582,14 +14589,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s111/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 39,
+        "ayah_count": 5,
+        "row_count": 32,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13864,10 +14877,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s111/packets/111_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s111/readers/reader_hft_a/111_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s111"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s111",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 71351,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

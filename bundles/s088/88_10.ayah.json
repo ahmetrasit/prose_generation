@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.870154+00:00",
+  "generated_at": "2026-08-18T13:33:35.084499+00:00",
   "surah": 88,
   "ayah": 10,
   "ayahRef": "88:10",
@@ -1161,7 +1161,8 @@
       "morpheme_ids": [
         "m-w-s088-a010-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:10:1"
+      "aligned_qac_word_ref_upstream": "88:10:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1175,7 +1176,8 @@
       "morpheme_ids": [
         "m-w-s088-a010-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:10:2"
+      "aligned_qac_word_ref_upstream": "88:10:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1189,7 +1191,8 @@
       "morpheme_ids": [
         "m-w-s088-a010-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:10:3"
+      "aligned_qac_word_ref_upstream": "88:10:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2905,7 +2908,1127 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_10.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:10",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:10",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_topographic_orchard",
+            "confidence": "strong",
+            "focus_anchor": "The noun at word 2 is modified by the feminine adjective at word 3 inside a locative construction.",
+            "mechanism": "A tree-covered enclosure is located on, or itself forms, elevated terrain.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The covered orchard supplies the concrete enclosure that serves as the adjective's locus."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Physical rising supplies direct vertical elevation to the enclosed garden."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified garden.",
+              "after": "A canopied orchard-like enclosure situated high or rising above its surroundings."
+            }
+          },
+          {
+            "model_id": "baseline_sheltered_high_rank",
+            "confidence": "medium",
+            "focus_anchor": "The concealment potential of the noun at word 2 coexists with the rank potential of the adjective at word 3.",
+            "mechanism": "The place encloses and protects, while its highness marks qualitative dignity rather than only altitude.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies an interior kept from exposure and ordinary perception."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering turns enclosure into refuge rather than mere visual hiding."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Noble rank makes elevation a quality of the abode and its occupants."
+              }
+            ],
+            "changed_reading": {
+              "before": "A garden at a high location.",
+              "after": "A protected interior distinguished by high worth and dignity, whether or not altitude is foregrounded."
+            }
+          },
+          {
+            "model_id": "baseline_self_rising_growth",
+            "confidence": "exploratory",
+            "focus_anchor": "The garden noun can profile vigorous interwoven vegetation, and its adjective can profile tall, large-bodied form.",
+            "mechanism": "The enclosure is high because its own dense growth thrusts upward; elevation is generated internally by vegetation rather than supplied only by external terrain.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Vigorous interwoven growth supplies a living mass that can produce height."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B010",
+                "role": "Tall, large-bodied form gives the vegetation a vertically expansive build."
+              }
+            ],
+            "changed_reading": {
+              "before": "A garden placed somewhere high.",
+              "after": "A garden whose thick, towering life makes it high from within."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_covering_reversed_into_refuge",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ش و",
+              "خ ش ع",
+              "ن ص ب",
+              "ن ع م",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "The opening cover overwhelms lowered, exhausted faces; the second cohort is softened and satisfied with directed striving immediately before the focus. The same broad geometry is reversed: being covered becomes protective interiority, and being high becomes release from abasement and fruitless strain.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the shared covering geometry whose value can be reversed."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective cover converts enclosure from an overwhelming exterior into a sheltering interior."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Rising supplies the upward reversal of the earlier lowered state."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An all-enveloping cover supplies the oppressive outer counterpart to the focus enclosure."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission establish the vertical condition that focus highness reverses."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Debilitating fatigue supplies the spent condition from which the second scene rises."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease mark the bodily texture of the protected destination."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Directed movement toward a sought end makes the garden the attained terminus rather than static scenery."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction supplies the evaluative completion of the upward transition."
+              }
+            ],
+            "structural_cues": [
+              "The mirrored plural faces in 88:2 and 88:8 establish opposite cohorts.",
+              "The focus follows satisfaction with striving in 88:9, so its elevation lands against the earlier sequence of lowered faces and exhaustion."
+            ],
+            "reader_inference": "The packet supplies enveloping, lowering, fatigue, then softness, directed striving, satisfaction, and a high enclosure; I supply the reversal arrow from oppressive cover to refuge. A live alternative is simple contrast between two groups with no transformation of a shared spatial pattern.",
+            "changed_reading": {
+              "before": "A pleasant elevated garden after a positive description.",
+              "after": "The upward, inward reversal of an overwhelming world: exhausted exposure is exchanged for protective elevation and satisfied arrival."
+            }
+          },
+          {
+            "model_id": "delta_acoustic_cognitive_shelter",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و"
+            ],
+            "mechanism": "The following negated hearing clause makes the enclosure a selective boundary: confused sound and deviation do not penetrate it, while understanding remains intact. A potentially negative mind-covering image is therefore reversed into protection of attention.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Mind-veiling supplies the cognitive danger that the contextually purified enclosure excludes."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering turns the garden boundary into a guard for attention."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "High rank supplies qualitative order to the protected perceptual environment."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Hearing as understanding makes the excluded disturbance cognitive as well as acoustic."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noise supplies what the enclosure keeps from becoming its soundscape."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B005",
+                "role": "Deviation from what is sound supplies the excluded directional disorder."
+              }
+            ],
+            "structural_cues": [
+              "The pronoun in the repeated locative expression at 88:11 points back into the focus enclosure.",
+              "Negation scopes over what can be heard inside, defining the place by a missing intrusion."
+            ],
+            "reader_inference": "The packet supplies protected concealment, hearing or understanding, and the absence of mixed or deviant speech; I infer that the boundary actively preserves attention. The live alternative is that 88:11 describes only decorous speech, not an environmental filtering mechanism.",
+            "changed_reading": {
+              "before": "A visually enclosed, high garden.",
+              "after": "A high-order refuge for perception and understanding, sheltered from confused noise and misdirection."
+            }
+          },
+          {
+            "model_id": "delta_inhabitable_vertical_order",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر ي",
+              "س ر ر",
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "Flow, raised resting places, deliberately lowered or fixed vessels, aligned cushions, and dispersed carpets articulate both vertical and planar axes. Highness is not inaccessible remoteness; it is an inhabitable, serviced spatial order.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The orchard enclosure supplies the bounded interior in which the later arrangement operates."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Elevation supplies the master vertical axis subsequently repeated inside the scene."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous movement and spreading of water make the elevated enclosure materially live."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settled reclining makes height usable for repose."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Deliberate raising repeats the focus adjective at the scale of furnishings."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placement at a lower or appointed level counterbalances raising and makes provision reachable."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Linear alignment supplies horizontal order across the elevated interior."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution supplies broad coverage rather than a single privileged point."
+              }
+            ],
+            "structural_cues": [
+              "The locative sequence beginning in 88:10 and repeated in 88:11-13 keeps the following details inside one enclosure.",
+              "Raised, placed, aligned, and spread predicates alternate vertical control with horizontal availability."
+            ],
+            "reader_inference": "The packet supplies a high enclosure and an ordered series of flowing, raised, placed, aligned, and spread elements; I infer that these elements explain how its elevation is inhabited. A live alternative is a simple inventory of delights whose arrangement does not interpret the focus adjective.",
+            "changed_reading": {
+              "before": "A remote garden distinguished mainly by altitude.",
+              "after": "A carefully graded habitat where elevation, access, flow, rest, alignment, and broad provision form one spatial system."
+            }
+          },
+          {
+            "model_id": "delta_created_scale_model",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "س م و",
+              "ر ف ع",
+              "ج ب ل",
+              "ء ر ض",
+              "س ط ح"
+            ],
+            "mechanism": "The later invitation to inspect measured creation moves through an overhead canopy, raised expanse, solid elevations, fertile ground, and useful spread surface. Read back onto the focus, the garden becomes a compressed created world whose highness is engineered across several scales.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Dense rising vegetation supplies the garden's living middle scale."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B005",
+                "role": "The upper side supplies an orienting top to the garden's internal world."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight and insight authorize close attention to construction rather than passive scenery."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measure and proportion supply a designed relation among the scene's scales."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What rises overhead and shades supplies a macro-canopy analogous to the garden's covering."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising makes elevation an enacted construction rather than a static label."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A solid elevated mass supplies the supporting relief between upper canopy and ground."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft productive ground supplies the fertile base required by the garden."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B005",
+                "role": "A useful spread surface makes the created base inhabitable rather than merely flat."
+              }
+            ],
+            "structural_cues": [
+              "The branchless root ك ي ف repeats at 88:17-20 as a structural interrogation of how four very different forms are made.",
+              "The sequence moves from living creature to overhead expanse, elevated mass, and spread ground, traversing embodied, vertical, and horizontal scales."
+            ],
+            "reader_inference": "The packet supplies an invitation to inspect measured creation and a sequence of overhead, raised, solid, fertile, and spread forms; I map that construction grammar back onto the high garden. The live alternative is that 88:17-20 are independent signs and do not model the earlier abode.",
+            "changed_reading": {
+              "before": "A garden occupying one high point in space.",
+              "after": "A miniature inhabited cosmos whose canopy, living elevations, solid relief, and spread fertile base reproduce the surah's larger created order."
+            }
+          },
+          {
+            "model_id": "delta_domination_sense_weakened",
+            "status": "weakened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر"
+            ],
+            "mechanism": "The focus adjective can activate superiority and mastery, but the later command is restricted to reminding while controlling oversight is explicitly denied. Context therefore weakens coercive highness and strengthens dignified, non-dominating elevation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering supplies care without requiring control over those sheltered."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B003",
+                "role": "Haughty superiority supplies a live but contextually disfavored reading of highness."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B004",
+                "role": "Overcoming mastery supplies the coercive mechanism that the later negation checks."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Noble rank remains as the non-coercive qualitative alternative."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies an invitational mode of address bounded short of compulsion."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Controlling supervision supplies precisely the role denied in the clause."
+              }
+            ],
+            "structural_cues": [
+              "The imperative and agent noun repeat the reminder role in 88:21 before 88:22 negates a controlling role.",
+              "The explicit negation distinguishes communicative responsibility from coercive power."
+            ],
+            "reader_inference": "The packet supplies highness branches that include domination, then reminder and denied control; I treat the later role boundary as a disambiguating pressure on the focus adjective. The live alternative is that the denial concerns only the addressee's office and has no backward effect on the garden.",
+            "changed_reading": {
+              "before": "Highness may shade into superiority, command, or mastery.",
+              "after": "The abode's elevation is better carried as honor and shelter without domination; coercive superiority remains visible but weakened."
+            }
+          },
+          {
+            "model_id": "delta_two_coverings_and_return",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "The closing motion turns away, covers truth, returns to a destination, and enters reckoning. This activates two opposed uses of covering: the garden conceals in order to shelter, whereas refusal conceals what should remain visible; return and accounting assign the resulting orientation its destination and rank.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the common image whose function differs between refuge and refusal."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering marks the beneficial pole of concealment."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "High rank supplies the evaluated standing of the protective destination."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the outward orientation opposite arrival within the shelter."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing truth supplies a harmful counterpart to the garden's protective concealment."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination turns the focus place into a possible terminus of orientation."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Accounting supplies the sorting operation by which orientation becomes an assigned outcome."
+              }
+            ],
+            "structural_cues": [
+              "The closing sequence moves from turning away to inevitable return and then reckoning.",
+              "The focus enclosure and the later act of rejection share a covering potential but occupy opposed functional positions."
+            ],
+            "reader_inference": "The packet supplies turning away, truth-concealment, return, reckoning, and the focus root's sheltering concealment; I infer an ethical bifurcation between two functions of cover. The live alternative is that the shared covering image is accidental and the focus remains solely a literal destination.",
+            "changed_reading": {
+              "before": "A reward-place unrelated to the mechanics of refusal.",
+              "after": "The protective destination at the end of right orientation, contrasted with a self-made covering that hides truth and must still return for reckoning."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_burial_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a burial branch beneath an ordinary garden noun and supplies the upward reversal abductively. It remains anchored in the focus concealment and elevation roots, while later raising and return keep the reversal structurally live. Downstream prose should present it only as a resurrection-like spatial echo, never as a direct lexical translation.",
+            "focus_anchor": "The noun at word 2 can activate burial or shrouding, while the adjective at word 3 activates rising from a lower position.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B009",
+                "role": "Burial and shrouding supply the concealed-below starting pole."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Rising supplies the opposite upper pole directly inside the focus phrase."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Enacted raising reinforces movement from hidden low position to manifest height."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the trajectory completing the reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Life inside a high garden.",
+              "after": "A reversal in which what was shrouded below returns and is raised into a high enclosure."
+            }
+          },
+          {
+            "outlier_id": "outlier_gestational_renewal",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because neither the focus noun nor the later placement form requires an obstetric sense. It remains worth carrying because hidden gestation, fresh beginning, recovery, emergence after absence, unloading at birth, and creative origination form one anchored mechanism. Downstream prose must label it a cross-domain renewal analogy, not a claim about surface denotation.",
+            "focus_anchor": "The focus noun can hold hidden gestation and fresh beginning together, while its adjective can describe recovery out of an afflicted condition.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "Hidden gestation supplies protected life developing inside an enclosure."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B014",
+                "role": "Fresh beginning turns the enclosure into the start of a renewed condition."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B011",
+                "role": "Recovery-specific rising supplies release from an afflicted state."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B001",
+                "role": "Coming into being after absence supplies emergence into a new mode."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B002",
+                "role": "The unloading-at-birth branch turns placement into release from enclosure and activates the gestational analogy."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative origination supplies transition into a newly made condition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Entry into an already finished elevated place.",
+              "after": "Entry into a protected matrix of renewed life, as though the exhausted condition is released into a fresh and recovered one."
+            }
+          },
+          {
+            "outlier_id": "outlier_collective_elevation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it shifts the garden from place to social body through a distant crowd branch. It remains anchored in the focus noun and rank adjective, and the plural faces plus alignment and distribution cues give the collective mechanism visible support. Downstream prose should call it a metonymic social activation, not replace the ordinary garden reading with a crowd gloss.",
+            "focus_anchor": "The focus concealment root has a branch for the mass or body of people, and the adjective can elevate social standing.",
+            "activation_trace": [
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "The gathered human mass supplies a possible collective body inside the place noun."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Noble standing supplies collective elevation rather than topographic height."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "Faces standing for persons turn the positive scene into an assembly of whole selves."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment supplies coherent collective ordering rather than an undifferentiated mass."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution supplies extension of that ordered collective across the enclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "A high place occupied by unspecified individuals.",
+              "after": "An elevated social body: sheltered persons gathered, ordered, and broadly accommodated as part of the garden's own image."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening contrast changed concealment from an oppressive cover into protective refuge and changed height from mere location into reversal of abasement and exhaustion.",
+            "The furnishing sequence made highness an inhabitable vertical order balanced by flow, reachable placement, alignment, and broad distribution.",
+            "The repeated creation questions recast the garden as a small-scale created world rather than an isolated elevated plot.",
+            "The closing turn, cover, return, and account sequence split concealment into protective and truth-hiding functions."
+          ],
+          "what_was_special": "The same focus roots remained live as orchard, shelter, perceptual boundary, vertical growth, burial reversal, gestational renewal, and collective body. Elevation likewise shifted among altitude, rank, constructed order, recovery, and explicitly non-coercive dignity without forcing those readings into one compromise.",
+          "remaining_uncertainties": [
+            "Whether the adjective primarily marks location, rank, internally generated height, or transition out of a lower condition.",
+            "Whether the covering parallels with the opening event and later rejection are designed echoes or reader-supplied root analogies.",
+            "Whether the creation sequence deliberately maps back onto the garden or functions independently.",
+            "The outliers depend on distant branch senses and must remain exploratory rather than becoming direct translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Covered garden raised above the low faces.** Evidence: `ج نن` B003 tree-covered garden, B001 concealment/covering; `ع ل و` B001 rising/high; earlier `خ ش ع` B002 low ground. Structural cue: the garden follows satisfied endeavor and contrasts with humbled low faces. Role: garden supplies protective/enclosed cover; highness supplies vertical reversal. Abductive move: not every covering is punitive; the same broad cover-imagery can be sheltering when joined to favor. Reading change: the garden reads as elevated protective enclosure, not merely a location.\n\n2. **Hidden interior against the public face.** Evidence: `ج نن` B010 hidden heart/inner matter; `و ج ه` B001 outward face in 88:8; `ر ض و` B001 inward acceptance. Structural cue: face, satisfaction, and garden appear in sequence. Role: the garden externalizes an inward state of hidden contentment. Abductive move: final place can manifest the inner matter that the face displays. Reading change: `جنة` carries interiority, not only botanical cover.\n\n3. **High rank rather than only altitude.** Evidence: `ع ل و` B002 nobility/high rank, B003 haughty domination, B004 mastery; later `ك ب ر` B005/B006 rank/majesty and `س طر` B003 control negated for the messenger. Structural cue: height vocabulary culminates in the high garden, raised sky, and greater punishment. Role: `عالية` marks honorable elevation, but the surrounding account prevents it from becoming arrogant domination. Abductive move: legitimate elevation is granted placement, not self-magnification. Reading change: the garden’s height is moral/status elevation as much as vertical altitude.",
@@ -9955,14 +11078,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10473,10 +11602,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_10.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_10.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 225428,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

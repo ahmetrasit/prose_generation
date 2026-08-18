@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:29.516566+00:00",
+  "generated_at": "2026-08-18T13:34:38.248984+00:00",
   "surah": 109,
   "ayah": 2,
   "ayahRef": "109:2",
@@ -1412,7 +1412,8 @@
       "morpheme_ids": [
         "m-w-s109-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:2:1"
+      "aligned_qac_word_ref_upstream": "109:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1426,7 +1427,8 @@
       "morpheme_ids": [
         "m-w-s109-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:2:2"
+      "aligned_qac_word_ref_upstream": "109:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1440,7 +1442,8 @@
       "morpheme_ids": [
         "m-w-s109-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:2:3"
+      "aligned_qac_word_ref_upstream": "109:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1456,7 +1459,8 @@
         "m-w-s109-a002-w004-01",
         "m-w-s109-a002-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "109:2:4"
+      "aligned_qac_word_ref_upstream": "109:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1963,7 +1967,659 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s109/packets/109_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "109:2",
+      "window": [
+        "109:1",
+        "109:2",
+        "109:3",
+        "109:4",
+        "109:5",
+        "109:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "109:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_obedience_relation",
+            "confidence": "strong",
+            "focus_anchor": "The negated first-person أَعْبُدُ and second-person plural تَعْبُدُونَ repeat one root across opposed subjects while مَا holds the object position constant.",
+            "mechanism": "The submissive-obedience branch makes worship a relation of allegiance, not only a rite. The shared verb exposes a formally comparable relation, while لَا denies that the speaker enters the relation occupied by the addressees.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the relational core, with the first verb refusing the allegiance instantiated by the second."
+              }
+            ],
+            "changed_reading": {
+              "before": "I do not perform the cultic act that you perform.",
+              "after": "I do not enter the same relation of submissive allegiance toward what receives your obedience."
+            }
+          },
+          {
+            "model_id": "b_honor_allocation",
+            "confidence": "medium",
+            "focus_anchor": "The two ع ب د verbs assign the speaker and the plural addressees parallel actions toward an object introduced by مَا, but the speaker's assignment is negated.",
+            "mechanism": "The honoring-and-magnifying branch recasts worship as allocation of service, recognition, and elevated worth. The verse then withholds not merely an action but the addressees' valuation of its recipient.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honoring through service turns the repeated verb into two allocations of worth whose overlap is denied."
+              }
+            ],
+            "changed_reading": {
+              "before": "I decline your worship practice.",
+              "after": "I withhold the service, magnification, and recognition that your worship assigns to its recipient."
+            }
+          },
+          {
+            "model_id": "b_master_servant_order",
+            "confidence": "exploratory",
+            "focus_anchor": "The first-person subject of أَعْبُدُ is set against the plural subjects of تَعْبُدُونَ, allowing the shared root to be tested as a social relation between serving subjects and a governing object.",
+            "mechanism": "The owned-status and enslavement branches pull the worship relation toward mastery and subjection. The forms do not morphologically mean 'enslave'; rather, their branch network makes the negation readable as refusal to be recruited into the master-servant order presupposed by the addressees' service.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned servant status supplies the vertical social relation latent beneath acts of service."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "The making-slave branch adds the risk that repeated service installs or enforces that vertical relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "I reject an act directed to your object.",
+              "after": "I refuse incorporation into the relation of mastery and subjected service enacted by your worship."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_spoken_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The preceding imperative makes the focus denial an utterance that must be brought into public speech. The saying-as-belief branch further lets articulation enact a committed position, so the verse becomes a performed boundary rather than a report of private preference.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive obedience is the allegiance relation that the spoken denial publicly refuses."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Vocal production turns the focus sentence from an inward stance into an externally issued declaration."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Saying as belief or position lets the commanded utterance carry commitment rather than bare quotation."
+              }
+            ],
+            "structural_cues": [
+              "The imperative in 109:1 immediately governs the first-person present-tense denial in 109:2.",
+              "A direct plural address precedes the contrast between first-person singular and second-person plural worship."
+            ],
+            "reader_inference": "The packet supplies commanded vocalization and saying as an adopted position; I infer that articulation performs a public allegiance boundary. A live alternative is that the command only transmits propositional content and adds no performative force.",
+            "changed_reading": {
+              "before": "The speaker privately does not share the addressees' worship.",
+              "after": "The speaker is commanded to make nonparticipation an overt, accountable boundary of allegiance."
+            }
+          },
+          {
+            "model_id": "d_concealed_allegiance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ر"
+            ],
+            "mechanism": "The addressed group is named through branches of covering truth and disavowal immediately before its worship is mentioned. This makes the focus refusal potentially epistemic and relational: the speaker rejects obedience whose social field covers what should be disclosed and is already marked by severance.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive obedience supplies the allegiance whose character is altered by the description of its practitioners."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "The covering of truth makes their worship readable as obedience operating under concealment rather than as neutral difference."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal and detachment sharpen لَا into a severance of affiliation as well as a denial of action."
+              }
+            ],
+            "structural_cues": [
+              "The vocative classification in 109:1 directly precedes the relative object of the addressees' worship in 109:2.",
+              "The same second-person plural addressed in 109:1 supplies the subject of تَعْبُدُونَ."
+            ],
+            "reader_inference": "The packet supplies an audience label with concealment and disavowal branches; I infer that the label colors the obedience relation named next. Alternatively, it may identify the audience without semantically qualifying what they worship.",
+            "changed_reading": {
+              "before": "The verse neutrally distinguishes two worship choices.",
+              "after": "The verse refuses an allegiance associated with concealment and disaffiliation, not merely a different ritual object."
+            }
+          },
+          {
+            "model_id": "d_tense_role_closure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The focus's two finite present verbs are expanded by active participles for both parties, a past-tense act attributed to the addressees, and repeated return to the speaker's present act. The shared obedience branch therefore spans event, practiced past, and agent-role, closing off a merely momentary reading of لَا أَعْبُدُ.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The focus citation supplies the present-tense contrast in submissive action that later forms extend."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The addressees' active participle sets a worshipper identity against the speaker's finite act."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The speaker's active participle and the addressees' past act extend the contrast across role and prior practice."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The repeated participle-to-verb pairing seals rather than merely introduces the nonconvergence."
+              }
+            ],
+            "structural_cues": [
+              "109:2 uses finite present verbs for both parties; 109:3-5 alternate active participles, a past verb, and a present verb.",
+              "109:3 and 109:5 repeat the same subject-role and object-action configuration around the asymmetric 109:4 line."
+            ],
+            "reader_inference": "The packet supplies a patterned alternation of event, participial role, past practice, and repetition; I infer deliberate closure across temporal and agentive dimensions. The live alternative is emphatic restatement without a precise temporal system.",
+            "changed_reading": {
+              "before": "I am not worshipping what you worship at this moment.",
+              "after": "The nonconvergence reaches present act, established worshipper-role, and prior practice; it is not a temporary pause."
+            }
+          },
+          {
+            "model_id": "d_noninterchangeable_servanthood",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "When the repeated root shifts from finite service to named worshipper roles, the owned-status branch becomes more socially concrete. The reciprocal grammatical pattern tests both directions and portrays the two servant positions as non-interchangeable; the enslavement branch adds the possibility that adopting the other's service would install a different mastery.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned servant status gives the focus's opposed subjects a latent social-role structure."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "The plural active participle makes the addressees' servant-role, rather than only their isolated action, available to comparison."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "The subjugating branch makes role exchange consequential: changed service can place the subject under a different mastery."
+              }
+            ],
+            "structural_cues": [
+              "The sequence reverses أنا and أنتم while alternating finite verbs and active participles.",
+              "Each side is separately tested as worshipping subject against the other's object relation."
+            ],
+            "reader_inference": "The packet supplies reciprocal subject reversal, agent nouns, and servant/subjugation branches; I infer that the sequence tests occupancy of incompatible service roles. Alternatively, the participles may simply intensify the denial of corresponding acts without positing social identity.",
+            "changed_reading": {
+              "before": "The parties happen to direct similar acts toward different objects.",
+              "after": "The parties occupy non-transferable servant roles under different master-relations, so exchanging acts would also exchange subjection."
+            }
+          },
+          {
+            "model_id": "d_partitioned_obedience_regimes",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The final pair of possessive dīn clauses supplies a second obedience branch and assigns it separately to لكم and لي. This scales the focus from one denied act-object pairing into a boundary between organized regimes or ways of obedience.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the local act of allegiance that the closing dīn relation enlarges."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and compliance turn each possessed dīn into a broader order within which worship takes place."
+              }
+            ],
+            "structural_cues": [
+              "109:6 replaces the repeated verbal exchange with balanced nominal clauses, لكم دينكم and ولي دين.",
+              "Plural and singular possessive marking preserves the same party division established by أَعْبُدُ and تَعْبُدُونَ."
+            ],
+            "reader_inference": "The packet supplies overlapping obedience branches and a balanced possessive partition; I infer that dīn names the wider ordering relation containing each worship practice. Alternatively, dīn may function as a broad label for religion without specifying an obedience mechanism.",
+            "changed_reading": {
+              "before": "I decline one object of worship.",
+              "after": "I decline entry into your whole regime of obedience; the differing act belongs to a differently assigned order of allegiance."
+            }
+          },
+          {
+            "model_id": "d_separate_reckoning",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The reckoning-and-recompense branch gives the final possessive symmetry an accountability reading. Retrospectively, the focus denial can mark refusal to merge accounts: each party's service has its own answerability and outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the accountable conduct whose accounts are kept distinct."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense convert the two possessive dīn phrases into separate spheres of answerability."
+              }
+            ],
+            "structural_cues": [
+              "The two dīn nouns are distributed by second-person plural and first-person singular possessives.",
+              "The final nominal balance follows four repeated denials of cross-participation."
+            ],
+            "reader_inference": "The packet supplies reckoning as a dīn branch and a nonshared possessive structure; I infer nontransferable accountability for the worship relations. The live alternative is the obedience or religion branch, in which the possessives partition affiliations rather than accounts.",
+            "changed_reading": {
+              "before": "The speaker simply chooses a different worship relation.",
+              "after": "The speaker refuses a shared account: the service performed by each side remains attached to that side's own reckoning and consequence."
+            }
+          },
+          {
+            "model_id": "d_partitioned_mastery",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The humiliation-and-ownership branch of dīn meets the owned-servant branch of ع ب د, while the final possessives partition the relation by party. The focus denial can therefore resist transfer into the addressees' jurisdiction of mastery, not merely imitation of their rite.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned status makes worship legible as placement of the serving subject under mastery."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B004",
+                "role": "Humiliation and ownership extend the service relation into a separately possessed jurisdiction."
+              }
+            ],
+            "structural_cues": [
+              "The possessive parallel in 109:6 assigns dīn separately rather than presenting a shared neutral domain.",
+              "The first-person and second-person division of 109:2 is preserved in the final لي and لكم."
+            ],
+            "reader_inference": "The packet supplies two independently attested ownership/subjection images and a possessive partition; I infer a cross-root mastery relation in which worship locates the subject. Alternatively, each ownership image may be peripheral here and the sequence may concern worship in its ordinary devotional sense.",
+            "changed_reading": {
+              "before": "I will not copy your worship act.",
+              "after": "I will not pass under the mastery or jurisdiction constituted by your service relation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_split_root_standing",
+            "confidence": "exploratory",
+            "containment": "This activation uses the packet's non-dominant ق و ل to ق ل ل mapping, so it is surprising and must not be presented as the lexical meaning of قُلْ. It remains anchored by the commanded utterance immediately before the focus and by the strength branch of its repeated ع ب د root; downstream prose should call it a split-root image of bearing and standing up under a declaration.",
+            "focus_anchor": "The negated first-person ع ب د stance in 109:2 is immediately introduced by the imperative قُلْ in 109:1.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B007",
+                "role": "Strength and solidity let the refusal register as a stance that holds rather than a passing preference."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "The non-dominant image of carrying and rising independently makes commanded speech an act of taking up and bearing the stance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker voices a refusal.",
+              "after": "The commanded refusal is imaginatively borne and stood up as a durable, independent position."
+            }
+          },
+          {
+            "outlier_id": "o_smoothed_route",
+            "confidence": "exploratory",
+            "containment": "A physically subdued or smoothed road is branch-distant from devotional usage, so this is a material analogy, not a translation of أَعْبُدُ. It remains anchored because the same root is reiterated through the focus and three following ayat, making repeated passage a visible mechanism; downstream prose should qualify it as an image of participation wearing a route into social passability.",
+            "focus_anchor": "The focus negates one traversal of the repeated ع ب د relation, and 109:3-5 keep laying the same root across reversed subjects and times.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "The smoothed and made-passable image turns participation in worship into traffic that prepares a route."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "The first reversed repetition supplies another imagined pass over the same relational route."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "The participle and past-form pairing extends the route image from a single passage to established and prior use."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "The final verbal repetition makes repeated traffic, and thus refusal to normalize the route, salient."
+              }
+            ],
+            "changed_reading": {
+              "before": "I do not join your worship.",
+              "after": "I refuse the repeated participation by which your route of service would be worn smooth, normalized, and made passable."
+            }
+          },
+          {
+            "outlier_id": "o_debt_of_service",
+            "confidence": "exploratory",
+            "containment": "The debt reading is cross-domain and should not replace the ordinary devotional senses of either root. It remains anchored in the focus's servant-status branch and the closing dīn debt branch, joined by the explicit party-wise possessives; downstream prose should render it as an obligation analogy in which entering another service incurs another account.",
+            "focus_anchor": "The first-person servant relation denied in 109:2 is later followed by separately possessed dīn in 109:6.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned servant status supplies a person bound within another's service relation."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies the image of obligation attaching separately to each possessed dīn."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker rejects a different devotional choice.",
+              "after": "The speaker refuses to incur the obligation or indebted service that would make him answerable inside the addressees' order."
+            }
+          },
+          {
+            "outlier_id": "o_not_temporary_delay",
+            "confidence": "exploratory",
+            "containment": "The brief-delay sense belongs to a distant ع ب د branch and does not directly gloss the worship verbs. It remains useful because present negation in the focus could otherwise be heard as 'not now,' while the later participial and past forms test that temporal loophole; downstream prose should present this as an abductive exclusion of postponement, not a lexical claim.",
+            "focus_anchor": "The present-tense لَا أَعْبُدُ in 109:2 is the precise location where a merely temporary refusal could be misheard.",
+            "activation_trace": [
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B009",
+                "role": "Brief non-delay supplies the temporal possibility against which the focus's present negation is tested."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B009",
+                "role": "The later active participle and past act block reduction of the contrast to a short wait before convergence."
+              }
+            ],
+            "changed_reading": {
+              "before": "I do not worship what you worship yet or at present.",
+              "after": "The denial is not a brief delay before eventual convergence; the wider form-pattern closes the 'not yet' reading."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The shared worship verb became a disputed relation of obedience and allegiance rather than only two cultic acts.",
+            "The preceding speech command turned the denial into a publicly performed boundary.",
+            "The participle, present, past, and repeated forms extended the contrast across action, role, and prior practice.",
+            "The final dīn pair scaled the focus into separately assigned regimes of obedience, with a coexisting reckoning reading.",
+            "Ownership branches in both ع ب د and د ي ن kept a live social reading in which worship places a subject under mastery."
+          ],
+          "what_was_special": "One repeated focus root opened devotional, honorific, social-status, material-path, durability, and temporal-delay images; ordered context then selected different mechanisms without forcing them into one interpretation. The split ق و ل mapping and the dīn debt branch produced especially fragile but inspectable abductive readings.",
+          "remaining_uncertainties": [
+            "مَا may foreground recipients, practices, or whole worship relations, and the packet does not force one scope.",
+            "The active-participle and tense pattern strongly resists a momentary reading, but its exact temporal reach remains inferential.",
+            "The addressee label may qualify the character of their worship or may only identify its practitioners.",
+            "The mastery, debt, smoothed-route, and split-root standing readings are branch-activated analogies rather than secure lexical renderings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Present refusal of submissive worship.** The fixed ayah supplies ع ب د B003, \"worship and submissive obedience,\" twice, once in the first-person verb أَعْبُدُ and once in the second-person verb تَعْبُدُونَ. The activators are the prior address \"ٱلْكَٰفِرُونَ\" in 109:1 and the later دِين in 109:6. Mechanism: the first negation marks the speaker's worship-act as non-overlapping with the addressees' worship-act. The abductive move is mine: the packet gives two matched verbs and later religious allotment; I infer that the shared root highlights incompatible objects rather than shared practice. Reading change: the line reads not as \"I do not worship in general\" but as a first boundary around a specific obedience relation.\n\n2. **The speaker refuses to enter a subjugating system.** ع ب د B004, \"making someone a slave,\" is activated by the second-person plural act تَعْبُدُونَ and by د ي ن B004 in 109:6, \"subjugation and possession.\" Mechanism: what the addressees worship is read as a regime that can enslave or reduce the participant, not only as an object of ritual attention. The abductive move is mine: the packet gives slavery/subjugation branches in ع ب د and د ي ن; I infer that worship can create a social-legal relation of capture. Reading change: لَا أَعْبُدُ becomes refusal of capture into another order of ownership.\n\n3. **The ayah rejects a paved/trodden path.** ع ب د B005, \"physical subduing and smoothing,\" is activated by the repeated identical worship-root across 109:2-5 and the final د ي ن B005, \"habit and customary state.\" Mechanism: the addressees' worship is a route already made smooth by repeated habit; the speaker's negation refuses to tread that passable path. The abductive move is mine: the packet gives \"smoothed road\" and \"custom\" branches; I infer path-dependence from repetition and habit. Reading change: the ayah becomes spatial and practical, a refusal to walk an already worn ritual road.\n\n4. **Affective aversion is possible but secondary.** ع ب د B008, \"prideful aversion and anger,\" is activated by the blunt initial لَا and by the direct address of 109:1. Mechanism: the negation carries an emotional edge of offended refusal, but the surrounding formulaic repetition restrains it into declaration rather than outburst. The abductive move is mine: the packet gives the aversion branch and repeated negation; I infer affect from sharp syntax while limiting it by structure. Reading change: the refusal can sound morally/affectively resistant, not merely propositional.",
@@ -6515,14 +7171,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s109/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 45,
+        "ayah_count": 6,
+        "row_count": 38,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6648,10 +7310,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s109/packets/109_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s109/readers/reader_hft_a/109_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s109"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s109",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 34949,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

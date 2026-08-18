@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:28.344371+00:00",
+  "generated_at": "2026-08-18T13:34:36.992216+00:00",
   "surah": 108,
   "ayah": 2,
   "ayahRef": "108:2",
@@ -1568,7 +1568,8 @@
       "morpheme_ids": [
         "m-w-s108-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "108:2:1"
+      "aligned_qac_word_ref_upstream": "108:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1582,7 +1583,8 @@
       "morpheme_ids": [
         "m-w-s108-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:2:2"
+      "aligned_qac_word_ref_upstream": "108:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1600,7 +1602,8 @@
         "m-w-s108-a002-w002-02",
         "m-w-s108-a002-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "108:2:3"
+      "aligned_qac_word_ref_upstream": "108:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1614,7 +1617,8 @@
       "morpheme_ids": [
         "m-w-s108-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "108:2:4"
+      "aligned_qac_word_ref_upstream": "108:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1628,7 +1632,8 @@
       "morpheme_ids": [
         "m-w-s108-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:2:5"
+      "aligned_qac_word_ref_upstream": "108:2:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2232,7 +2237,1144 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s108/packets/108_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "108:2",
+      "window": [
+        "108:1",
+        "108:2",
+        "108:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "108:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_dedicated_ritual_pair",
+            "confidence": "strong",
+            "focus_anchor": "The first imperative, the purpose phrase directing it to the addressee's Lord, and the coordinated second imperative.",
+            "mechanism": "Prescribed, maintained prayer and throat-front sacrifice form two embodied expenditures under one owner and beneficiary. The first orders the worshipper's body; the second releases a valued animal or meal, so the coordination joins ritual form to costly outward action.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The prescribed-worship image supplies the bounded ritual form and serves as the inward and bodily pole of the paired response."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "The split-root image of binding, maintained worship adds durability rather than treating the first imperative as a momentary gesture."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and authority supply the single direction of both acts and block their conversion into self-display."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Slaughter at the throat-front supplies the concrete costly act, while its generosity scope makes that act the outward pole of worship."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus can first look like two adjacent religious commands.",
+              "after": "It reads as one dedicated circuit: disciplined bodily worship is joined to costly material release, and both are kept under the Lord's claim."
+            }
+          },
+          {
+            "model_id": "baseline_nurture_answered_by_generosity",
+            "confidence": "medium",
+            "focus_anchor": "The possessive relation in the purpose phrase links both imperatives specifically to the worshipper's Lord.",
+            "mechanism": "The Lord is not only an authority but one who repairs, nurtures, and completes. Prayer can therefore voice praise and mercy, while slaughter can enact generosity; together they answer cultivation with acknowledgment and material beneficence.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplication, praise, and mercy make the first imperative an acknowledging and blessing-bearing response."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and staged completion recast the Lord relation as prior formative care that calls for a response."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "The sacrificial throat-cut remains concrete, and its associated generosity turns the second imperative into material beneficence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The purpose phrase can sound like obedience owed to an owner.",
+              "after": "It can also sound relational: answer the one who has cultivated and completed you with praise-bearing worship and costly generosity."
+            }
+          },
+          {
+            "model_id": "baseline_exposed_frontality",
+            "confidence": "exploratory",
+            "focus_anchor": "The two bodily imperatives are vectored by the purpose phrase, while the second focus root carries chest-front and direct-facing branches.",
+            "mechanism": "Prayer supplies an ordered bodily stance; the second root exposes the throat-front and also names direct facing. Without replacing sacrifice, these branches add a spatial reading in which the worshipper places the vulnerable front of the embodied self directly before the Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding ritual postures supply the ordered body whose orientation is at stake."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship supplies the one before whom the body's orientation and exposure are directed."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B001",
+                "role": "The upper chest and throat-front image supplies bodily vulnerability and makes the second imperative an exposure of the front."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B003",
+                "role": "The direct-facing image turns that exposed front into a spatial stance before the Lord."
+              }
+            ],
+            "changed_reading": {
+              "before": "Prayer and slaughter are read chiefly as sequential acts.",
+              "after": "They also form a frontality event: order the body, expose its front, and face the Lord directly, with sacrifice still retained as the primary act of the second imperative."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_received_gift_becomes_return",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و"
+            ],
+            "mechanism": "A prior act of handing over makes the focus's opening consequence concrete. Praise-bearing prayer and generous sacrifice now answer a received benefit; the response is directed back to the nurturing Lord without reducing worship to repayment.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "The handing-over image supplies the prior transfer that makes the focus imperatives responsive rather than unprompted."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Praise, blessing, and mercy supply the acknowledging form of the response to what was handed over."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion identify the Lord relation as an ongoing source of benefit, not a one-time transaction."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Sacrificial slaughter and its generosity scope make gratitude materially costly and outward-moving."
+              }
+            ],
+            "structural_cues": [
+              "The giving clause immediately precedes the focus and addresses the same second-person recipient.",
+              "The focus opens with a consequential connective and directs both coordinated imperatives through one purpose phrase."
+            ],
+            "reader_inference": "The packet supplies a prior handing over, followed by praise, nurture, and generous slaughter; I supply the arrow that the connective turns reception into responsive circulation rather than equivalent payment. A live alternative is simple temporal sequencing with no reciprocity mechanism.",
+            "changed_reading": {
+              "before": "The focus-only model answers a generally nurturing Lord.",
+              "after": "The preceding transfer gives that answer a concrete occasion: received good is converted into directed praise and costly generosity."
+            }
+          },
+          {
+            "model_id": "delta_recipient_as_steward",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ط و"
+            ],
+            "mechanism": "The same root inventory holds taking into the hand and handing onward. Joined to the Lord's ownership and sacrifice's generosity, that bidirectionality makes the recipient a steward through whom a gift passes, not its terminal owner.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B001",
+                "role": "Taking or receiving by hand supplies the recipient's initial possession of what arrives."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing over reverses the hand's direction and activates onward transfer as the gift's possible next movement."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The ownership image keeps ultimate title with the Lord and makes the human recipient a custodian rather than an absolute possessor."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship supplies the accountable form by which custody is acknowledged."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Generous sacrificial slaughter gives onward transfer a concrete social and material outlet."
+              }
+            ],
+            "structural_cues": [
+              "The recipient suffix in the prior clause is echoed by the possessive suffix in the focus purpose phrase.",
+              "The second focus imperative can materially dispose of something rather than leave the prior gift as private possession."
+            ],
+            "reader_inference": "The packet supplies hand-reception, hand-transfer, lordly ownership, and generous slaughter; I infer an entrusted-flow relation in which receiving authorizes responsible release. The live alternative is that the gift becomes fully the recipient's and the sacrifice is an independent duty.",
+            "changed_reading": {
+              "before": "The gift may appear to terminate in the recipient, who then performs private thanksgiving.",
+              "after": "The recipient becomes a steward: what enters the hand is re-acknowledged as the Lord's and is allowed to move outward through worship and sacrifice."
+            }
+          },
+          {
+            "model_id": "delta_abundance_breaks_rival_counting",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ث ر"
+            ],
+            "mechanism": "Abundance carries both numerical growth and competitive outnumbering. The non-dominant growth branch mapped under the focus's Lord token and the generosity of slaughter jointly reverse scarcity arithmetic: expending a gift need not mean being diminished, and worship refuses to turn abundance into rank.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in number supplies abundance as increase rather than a fixed stock that expenditure can only reduce."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Competitive outnumbering exposes the rival arithmetic that the focus's directed worship can refuse."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B001",
+                "role": "The split-root image of increase and rising makes growth a live secondary resonance inside the Lord-directed phrase."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship relocates value from public numerical rank to faithful performance."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Generous slaughter supplies an expenditure that can turn plenty into shared benefit instead of a hoarded score."
+              }
+            ],
+            "structural_cues": [
+              "The abundance noun is the object of the preceding gift and stands immediately before the consequential focus.",
+              "The focus answers an unbounded abundance term with two singular, concrete imperatives rather than a numerical boast."
+            ],
+            "reader_inference": "The packet supplies numerical growth, competitive outnumbering, a split-root increase image, and generous slaughter; I infer that expenditure answers and disarms rival counting. A live alternative is that abundance only measures the gift and says nothing about the social logic of sacrifice.",
+            "changed_reading": {
+              "before": "Sacrifice can look like subtracting a finite asset from what one has received.",
+              "after": "Under abundance, sacrifice becomes anti-hoarding expenditure: value rises by being directed and shared, while competitive counting loses jurisdiction."
+            }
+          },
+          {
+            "model_id": "delta_abundance_as_outflow",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ط و",
+              "ك ث ر"
+            ],
+            "mechanism": "Handed-over abundance activates a hydrological chain already latent in the focus roots: nurturing low cloud, collected water, and a cloud pouring itself out. Prayer's mercy register and the second imperative's outpouring branch make the worshipper a conduit who answers inflow with blessing and material outflow.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "The handing-over image supplies inflow into the recipient and begins the transfer sequence."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth supplies the pressure of more-than-contained abundance that can overflow."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Mercy, blessing, and praise make prayer the non-material stream that can pass onward."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "The low persistent cloud supplies a nurturing reservoir poised above what it sustains."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B013",
+                "role": "Abundant collected water supplies stored provision and links lordly nurture to a gathered resource."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B009",
+                "role": "The cloud pouring itself out supplies the release phase and lets the second imperative image abundance becoming flow."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from a completed gift in the prior ayah to two active imperatives in the focus.",
+              "The purpose phrase keeps the outflow attached to its nurturing source rather than making it self-generated."
+            ],
+            "reader_inference": "The packet supplies handing over, increase, mercy, cloud, collected water, and cloud-outpouring images; I supply the conduit arrow that received abundance should continue moving through the recipient. A live alternative is ordinary thanksgiving with no hydrological relation among the side branches.",
+            "changed_reading": {
+              "before": "Abundance is a static possession followed by ritual gratitude.",
+              "after": "Abundance becomes a flow regime: receive from the nurturing source, voice blessing, and pour material good onward rather than becoming its reservoir."
+            }
+          },
+          {
+            "model_id": "delta_hostility_redirects_frontality",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ن ء"
+            ],
+            "mechanism": "The later hater activates both direct-facing and throat-to-throat contention inside the second focus root. The purpose phrase then decides the vector: the worshipper's body and costly act face the Lord, not the antagonist, so prayer and sacrifice interrupt reciprocal hostility without erasing the threat.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Hatred and enmity supply the opposing agent who could otherwise capture the worshipper's attention and response."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B002",
+                "role": "Disgust and distancing sharpen hostility as a relation of repulsion rather than mere disagreement."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B003",
+                "role": "Direct facing supplies the spatial possibility of confronting either the Lord or the antagonist."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B004",
+                "role": "Throat-to-throat contention supplies the retaliatory symmetry that remains possible but is rerouted by the purpose phrase."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship gives the body a non-retaliatory action to perform under pressure."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship fixes the destination of attention and action, preventing the hater from becoming the governing addressee."
+              }
+            ],
+            "structural_cues": [
+              "The focus addresses the worshipper directly, whereas the hostile figure is introduced afterward in the third person.",
+              "The purpose phrase explicitly vectors the focus acts toward the Lord before the antagonist is named."
+            ],
+            "reader_inference": "The packet supplies hatred, repulsion, direct facing, contention, prescribed worship, and lordly direction; I infer that direction to the Lord blocks mirror-image retaliation. A live alternative is that the hater is merely described afterward and does not alter how the focus imperatives function.",
+            "changed_reading": {
+              "before": "Frontality means placing the exposed self before the Lord.",
+              "after": "In the presence of hatred, that frontality becomes a disciplined redirection: do not let the antagonist dictate a throat-to-throat answer; face and act for the Lord."
+            }
+          },
+          {
+            "model_id": "delta_hostility_forces_disclosure",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ش ن ء"
+            ],
+            "mechanism": "A remote branch of the hostility root images acknowledgment and bringing truth out. Coupled with prayer as praise, lord-formed knowledge, and mastery in the second focus root, opposition can abductively function as the pressure under which allegiance becomes visible rather than as the object of argument.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B003",
+                "role": "Acknowledging and bringing truth out supplies the paradoxical disclosure image activated by the hostile agent."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Praise and supplication give disclosed allegiance a voiced devotional form."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B003",
+                "role": "Knowledge formed through lordly care supplies the truth-content that pressure can make visible."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B008",
+                "role": "Mastery as cutting through supplies an enacted competence that embodies the disclosure rather than merely asserting it."
+              }
+            ],
+            "structural_cues": [
+              "The acts commanded in the focus precede the naming of the hostile observer.",
+              "The focus contains no direct command to debate or address that observer."
+            ],
+            "reader_inference": "The packet supplies a truth-bringing branch beside hostility, plus praise, formed knowledge, and mastery; I infer that opposition occasions disclosure without intending or authoring the truth. The live alternative is that the remote branch has no bearing on the active hostile sense here.",
+            "changed_reading": {
+              "before": "Prayer and sacrifice are devotional acts performed despite an enemy.",
+              "after": "Exploratorily, they are also disclosure under pressure: allegiance is made visible by practiced worship rather than by answering the hater in kind."
+            }
+          },
+          {
+            "model_id": "delta_complete_cut_opposes_truncation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ت ر"
+            ],
+            "mechanism": "The context distinguishes two kinds of cutting. The focus's throat-cut is deliberate, properly located, joined to maintained worship, and directed to the one who completes; the later root names cutting something before completion. Sacrifice is therefore not undifferentiated destruction but a consummating release opposed to sterile truncation.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Cutting before completion supplies the failed or premature cut against which the focus's deliberate cut can be contrasted."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding and maintaining prescribed worship place the second act inside a complete devotional form."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the governing telos that distinguishes fulfillment from truncation."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "The precisely located sacrificial throat-cut supplies the intentional cut that releases value within the completed rite."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B006",
+                "role": "The time-boundary image places sacrifice at a threshold, making the cut transitional rather than merely annihilating."
+              }
+            ],
+            "structural_cues": [
+              "The coordinated prayer precedes and contains the cutting act within worship.",
+              "The predicate of truncation follows the focus and is assigned to the hostile figure, not to the worshipper's sacrifice."
+            ],
+            "reader_inference": "The packet supplies premature cutting, maintained worship, lordly completion, a located sacrificial cut, and a temporal boundary; I infer a contrast between a cut that consummates a cycle and one that aborts it. A live alternative is that the two cutting images are juxtaposed but function independently.",
+            "changed_reading": {
+              "before": "Slaughter can be flattened into destructive loss.",
+              "after": "The following truncation image differentiates it: the focus commands a deliberate, completing release at a boundary, while sterile cutting-before-completion belongs to the antagonist."
+            }
+          },
+          {
+            "model_id": "delta_worship_makes_continuity",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ت ر"
+            ],
+            "mechanism": "Cessation of posterity, mention, and good activates the focus roots' contrary capacities: maintained prayer, lasting attachment, nurture, and a boundary crossed rather than a line terminated. The imperatives become continuity-making practices, while cutoff is assigned elsewhere.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Cessation of posterity, remembrance, and good supplies the threatened endpoint against which continuity becomes visible."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Maintained binding worship supplies recurrence and durable practice rather than a one-off performance."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Staying, clinging, and lasting supply persistence within the Lord relation."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture through completion supplies continuity as a process carried to maturity."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B006",
+                "role": "The edge where one time meets another supplies transition across a boundary rather than terminal stoppage."
+              }
+            ],
+            "structural_cues": [
+              "The two imperatives stand before the explicit predicate of cutoff.",
+              "The focus directs practice toward an enduring relation, whereas the later predicate isolates the hostile figure as the one cut off."
+            ],
+            "reader_inference": "The packet supplies cessation, maintained worship, lasting attachment, staged completion, and a temporal edge; I infer that repeated worship carries relation and good across boundaries. A live alternative is that cutoff concerns only the antagonist's outcome and does not describe what the focus acts positively produce.",
+            "changed_reading": {
+              "before": "The focus commands two bounded rites in the present.",
+              "after": "Against cessation, the rites become continuity-making: maintained worship, completed nurture, and threshold-crossing carry allegiance and good beyond the immediate moment."
+            }
+          },
+          {
+            "model_id": "delta_flow_gains_cutoff_contrast",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك ث ر",
+              "ب ت ر"
+            ],
+            "mechanism": "Gathered abundance and cessation sharpen the hydrological model into a polarity. Collected water that pours outward images continuity through release; cutting off mention and good images failed transmission. Prayer and sacrifice can therefore act as openings that keep received good in motion.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Gathering a thing supplies abundance as concentration that can either remain closed or become available for release."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting supplies interruption of a process before its gathered potential reaches completion."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Cessation of remembrance and good supplies the social consequence of blocked transmission."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Mercy and blessing supply a voiced flow of good that can continue beyond the worshipper."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B013",
+                "role": "Collected abundant water supplies the reservoir whose value depends on eventual transmission."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B009",
+                "role": "The cloud pouring itself out supplies the opening by which gathered provision continues as benefit."
+              }
+            ],
+            "structural_cues": [
+              "The three-ayah sequence moves from abundance, through commanded response, to a predicate of cutoff.",
+              "The focus occupies the hinge position between reception and the named failure of continuity."
+            ],
+            "reader_inference": "The packet supplies gathering, premature cutting, cessation of good, blessing, collected water, and outpouring; I infer a flow-versus-blockage opposition centered on the focus. A live alternative is that these cross-domain branch images remain independent and only the ordinary gift-versus-cutoff contrast is active.",
+            "changed_reading": {
+              "before": "The outflow model presents the worshipper as a conduit for abundance.",
+              "after": "The later cutoff gives that conduit a contrastive necessity: prayer and sacrifice keep good transmissible, whereas the antagonist's mode terminates transmission and remembrance."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_back_to_front_merism",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses anatomical side branches far from the verbal senses of prayer and sacrifice. It remains anchored to the two focus roots and forms an exact rear-to-front bodily span under the Lord phrase. Render only as an exploratory embodied echo, never as a replacement translation.",
+            "focus_anchor": "The first and second imperatives carry rear-flank and chest-front branches on either side of the Lord-directed phrase.",
+            "activation_trace": [
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B005",
+                "role": "The back-haunch and rear-flank image supplies the body's posterior limit."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship supplies the center of dedication around which the whole body is read."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B001",
+                "role": "The upper chest and throat-front image supplies the body's anterior and vulnerable limit."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse coordinates two bodily acts.",
+              "after": "As a lexical-body echo, it spans the worshipper from rear flank to exposed chest, suggesting the whole embodied self placed under the Lord's direction."
+            }
+          },
+          {
+            "outlier_id": "outlier_provisioning_table",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it assembles domestic and agricultural side branches rather than the direct prayer sense. It remains anchored through the focus's pounding, food-treatment, and slaughter inventories and is activated by prior household handing and abundance. Render as a material analogy for hospitality, not as lexical substitution.",
+            "focus_anchor": "The coordinated focus imperatives can carry, at branch level, preparation and slaughter within one Lord-directed material response.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B003",
+                "role": "Service and handing provision to one's household supply the social destination of prepared abundance."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B006",
+                "role": "The palm-heart image materializes abundance as edible plant provision."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B008",
+                "role": "The pounding-stone image supplies processing of seed or perfume as the preparation stage."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B006",
+                "role": "Thick syrup and treating food or vessels supply preservation and enrichment under the Lord token."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Generous slaughter supplies the meat and costly culmination of the provisioning sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus is an individual ritual response to received good.",
+              "after": "As a contained material analogy, it becomes a provisioning table: abundance is processed, enriched, slaughtered, and handed into household hospitality."
+            }
+          },
+          {
+            "outlier_id": "outlier_follower_to_vanguard",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses racing and military-front branch images. It remains anchored to the first imperative's close-follower branch, the Lord's authority, and the second imperative's direct-front branch, with hostility supplying pressure. Render as a rank-and-exposure analogy only; it must not militarize the primary reading.",
+            "focus_anchor": "The first focus root can image a follower immediately behind a leader, while the second can image the exposed front of a formation.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B001",
+                "role": "Hatred and enmity supply the pressure under which following may require exposed action."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The racer just behind the leader supplies disciplined close-following as the initial position."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and obeyed authority supply the leader whose direction governs movement."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B003",
+                "role": "The direct front, including the front of an army, supplies the exposed position into which faithful action moves."
+              }
+            ],
+            "changed_reading": {
+              "before": "The worshipper performs two duties under authority.",
+              "after": "As an exploratory rank topology, prayer keeps close behind the leader and the second command moves the follower into an exposed front when hostility appears."
+            }
+          },
+          {
+            "outlier_id": "outlier_hospitality_makes_kin",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links foster-family and kin-severance branches to sacrificial generosity. It remains anchored to the Lord token's caregiving branch, the focus sacrifice, and the explicit context root for severed kin. Render as a social mechanism of care and hospitality, not as a claim that the focus imperative lexically means kin-making.",
+            "focus_anchor": "The possessive Lord relation and generous sacrifice can jointly carry a household-care model within the focus.",
+            "activation_trace": [
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B004",
+                "role": "Severing kin supplies the social anti-model of relations cut rather than sustained."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B005",
+                "role": "The fostered-child and step-family image supplies care that can create durable relation beyond simple descent."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B007",
+                "role": "Places of worship supply a shared social location in which relation can be gathered and maintained."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Generous sacrificial slaughter supplies hospitality capable of materially sustaining a household or community."
+              }
+            ],
+            "changed_reading": {
+              "before": "Prayer and sacrifice concern the worshipper's individual relation to the Lord.",
+              "after": "As a social outlier, lordly care, a shared worship place, and generous food make and sustain relation, directly opposing the context's image of severed kin."
+            }
+          },
+          {
+            "outlier_id": "outlier_heat_straightens_growth",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it relies on both non-dominant split-root mappings and a fire-straightening image distant from prayer. It remains anchored to all three focus words and coherently sequences growth, formative heat, nurture, and a temporal edge. Render only as an experimental formation analogy, never as the direct sense of the imperatives.",
+            "focus_anchor": "The split mappings under the first two focus words and the boundary branch under the second imperative permit a growth-to-formation-to-threshold sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in number supplies the initial expansion that still requires form and direction."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Heating and turning a stick to straighten it supplies formative pressure rather than destructive burning."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant nurture-and-growing branch supplies guided maturation under the Lord-directed phrase."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B006",
+                "role": "The front edge of a time period supplies the threshold at which formed growth passes into a new phase."
+              }
+            ],
+            "changed_reading": {
+              "before": "Received abundance is answered by two completed acts.",
+              "after": "As a split-root formation analogy, abundance is subjected to straightening discipline, nurtured into shape, and carried across a decisive threshold."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The prior handover turns the paired imperatives into responsive circulation and makes the recipient a steward rather than a terminal owner.",
+            "Abundance revises sacrifice from depletion into anti-hoarding expenditure and, more experimentally, into an outflow of blessing and material good.",
+            "The hostile figure activates direct-facing and contention branches, while the Lord-directed phrase reroutes response away from reciprocal hostility.",
+            "The later cutoff distinguishes a deliberate completing cut from premature truncation and makes maintained worship a carrier of continuity."
+          ],
+          "what_was_special": "The focus remained a literal prayer-and-sacrifice pair while its side branches opened several coexisting mechanisms: dedication, nurture-reciprocity, exposed frontality, stewardship, counter-counting, hydrological outflow, non-retaliation, completion, and continuity. The split mappings were not collapsed; their growth and fire-straightening images remain visibly exploratory.",
+          "remaining_uncertainties": [
+            "Whether the opening connective makes a causal thanksgiving relation or only sequences the focus after the gift.",
+            "Whether the non-dominant split-root images are audible semantic activations here or useful experimental analogies only.",
+            "How far the frontality, cloud-outpouring, and temporal-boundary branches can enrich the second imperative without displacing sacrificial slaughter.",
+            "Whether hostility and cutoff actively explain the focus mechanism or merely receive their own contrasting predicates afterward."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The command is the return path of the gift.** Lexical evidence: ص ل و B003, prescribed worship; ص ل و B002, supplication, praise, and mercy; ر ب ب B001, lordship/ownership; ر ب ب B002, nurture and completion; prior ع ط و B002, handing over and giving. Structural cue: the initial فـ links the imperative to the prior grant, and لربك directs the action to the owner/nurturer. Assigned role: prayer and nahr are not isolated duties; they complete the circuit opened by the gift. Abductive move: I supply the arrow that receiving abundance from the Rabb obligates praise and consecrated action back to that Rabb. Reading change: the ayah reads as ritual reciprocity after divine giving, not as a free-standing command.\n\n2. **“Nahr” makes the response public, frontal, and embodied.** Lexical evidence: ن ح ر B001, upper chest/throat-front; ن ح ر B003, facing directly, front to front; ص ل و B003, embodied prescribed worship; ر ب ب B001, obeyed master. Structural cue: the command moves from prayer to nahr, from a general worship verb to a word whose inventory localizes the front of the body and direct facing. Assigned role: nahr supplies exposure of the front, the place where an animal or person is visibly met; ṣalā supplies formal devotion; Rabb supplies the one before whom this frontality is ordered. Abductive move: I infer that the commanded response is not evasive or hidden but a face-to-face presentation before the Rabb. Reading change: “wanhar” reads not only as sacrifice but as bringing the vulnerable/front part of action into direct orientation toward God.\n\n3. **Sacrifice turns abundance into generosity rather than hoarding.** Lexical evidence: ن ح ر B002 includes slaughtering sacrificial animals and generosity expressed by frequent camel-slaughter; ك ث ر B001/B002 gives abundance and rivalry in abundance; ع ط و B002 gives handing over. Structural cue: the abundant gift in 108:1 is followed by the sacrificial command in 108:2. Assigned role: nahr converts received surplus into a costly outward act; ك ث ر supplies what could be hoarded or boasted of; ع ط و supplies the prior transfer. Abductive move: I infer that abundance is validated when it is offered/redistributed, not when it becomes a private token of superiority. Reading change: the ayah becomes a discipline for abundance: the answer to receiving much is not competitive display but sacrificial release.\n\n4. **The cutting image is transformed from destruction into consecration.** Lexical evidence: ن ح ر B002, slaughter at the throat-front; ن ح ر B004/B005, throat-to-throat contention and self-slaughter images; later ب ت ر B001, cutting short before completion; ب ت ر B002, cut-off renown/good. Structural cue: a commanded nahr precedes a judgment that the hater is abtar. Assigned role: nahr supplies a controlled, directed cutting; b-t-r supplies sterile severance; sh-n-ʾ supplies hostile motive. Abductive move: I supply the contrast that not every cut is the same: one cut can be an offering within worship, while another is the enemy’s cut-off condition. Reading change: “wanhar” no longer reads as mere violence; it is a transformed cutting that prevents the hostile cut from defining the surah.\n\n5. **An exploratory temporal-boundary reading: worship marks the threshold after the gift.** Lexical evidence: ن ح ر B006, front edge or boundary of a time period; فـ as sequence marker; ع ط و B002, completed giving; ب ت ر B001, cutting short before completion. Structural cue: the imperative stands at the boundary between received abundance and the final judgment on interruption. Assigned role: nahr B006 supplies a “front edge” image; b-t-r supplies the danger of premature ending. Abductive move: I infer that the command marks the transition by which the gift moves forward into continuity instead of being cut off. Reading change: the ayah can be read as a threshold-act: pray/sacrifice at the front edge of the new abundance so that the sequence continues.",
@@ -17395,14 +18537,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s108/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 27,
+        "ayah_count": 3,
+        "row_count": 20,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17521,10 +18669,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s108/packets/108_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s108/readers/reader_hft_a/108_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s108"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s108",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 71340,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

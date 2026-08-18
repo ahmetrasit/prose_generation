@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.244475+00:00",
+  "generated_at": "2026-08-18T13:34:35.772227+00:00",
   "surah": 107,
   "ayah": 4,
   "ayahRef": "107:4",
@@ -1067,7 +1067,8 @@
       "morpheme_ids": [
         "m-w-s107-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:4:1"
+      "aligned_qac_word_ref_upstream": "107:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1081,7 +1082,8 @@
       "morpheme_ids": [
         "m-w-s107-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:4:2"
+      "aligned_qac_word_ref_upstream": "107:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1099,7 +1101,8 @@
         "m-w-s107-a004-w002-02",
         "m-w-s107-a004-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "107:4:3"
+      "aligned_qac_word_ref_upstream": "107:4:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1901,7 +1904,896 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:4",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base-prescribed-insider-warning",
+            "confidence": "strong",
+            "focus_anchor": "The threat is directed by the lamed to the plural agent noun built on the prayer root.",
+            "mechanism": "The focus does not attack an abstract rite from outside; it places liability inside the class named by performing a binding, embodied practice. Ritual membership therefore cannot itself close the moral question.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The prescribed-rite sense fixes the agent noun to embodied, rule-governed worship and makes the threat an insider address."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch reinforces prayer as an obligation borne by the named practitioners rather than a loose devotional mood."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare and indiscriminate curse on everyone who prays.",
+              "after": "An insider warning: people can bear the agentive identity of prayer and still stand under the threat, so performance is evidence to examine rather than immunity."
+            }
+          },
+          {
+            "model_id": "base-mercy-vector-reversed",
+            "confidence": "medium",
+            "focus_anchor": "The same focus noun is branch-linked to supplication, blessing, praise, and mercy.",
+            "mechanism": "Prayer can be modeled as an outward relational vector rather than a self-contained possession. The collision of that vector with woe creates a reversal: a practitioner may occupy the form while blocking what should pass through it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "The branch supplies prayer as benefit directed toward another, making outward transmission a live function of the practitioner label."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B002",
+                "role": "The split-root counterpart keeps blessing and mercy active beside formal worship, supporting a relational rather than merely procedural baseline."
+              }
+            ],
+            "changed_reading": {
+              "before": "The praying ones are identified by possessing or completing a private rite.",
+              "after": "The praying ones are also potential conduits of blessing; woe marks the possibility that the conduit has been occupied but functionally reversed or blocked."
+            }
+          },
+          {
+            "model_id": "base-heat-encounter",
+            "confidence": "exploratory",
+            "focus_anchor": "Both mapped inventories for the focus root retain an encounter-with-heat branch alongside prayer.",
+            "mechanism": "The split root lets the practitioner label carry a thermal shadow. Woe is no longer only a sentence imposed after worship; it can disclose that prayer is an exposure meant to affect the one who enters it, with danger concentrated in remaining unchanged at the threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "The dominant mapped branch contributes proximity to consuming or testing heat as a material shadow of entering prayer."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch makes undergoing heat explicit and turns the worshipper label into a possible exposure-state."
+              }
+            ],
+            "changed_reading": {
+              "before": "Woe is an external penalty simply attached to a surprising group.",
+              "after": "The focus also admits a threshold reading: these practitioners repeatedly approach a transforming heat, and the threat lies in an encounter that does not transform."
+            }
+          },
+          {
+            "model_id": "base-second-runner",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus agent noun shares its form with a racer immediately following the leader.",
+            "mechanism": "The plural can carry a formation-image: practitioners as second runners positioned by another's course. That does not replace the prayer sense, but it raises a live question about derivative alignment, imitation, and whether following transmits the leader's motion or only preserves rank.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The race image supplies a practitioner who is defined by close pursuit of a predecessor, activating ordered following within the plural."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The split-root counterpart confirms the near-behind position and makes borrowed trajectory a stable exploratory mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each praying person is an independent performer of the rite.",
+              "after": "The named group can also be heard as followers in formation; the focus leaves open whether they carry a worthy course onward or merely trail its visible form."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx-visibility-loop",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The context brackets the focus with a summons to notice and an act of making oneself noticed. The praying agent is thereby relocated inside a visibility circuit: an observer is recruited, then the practitioner recruits observers, turning prayer from relation into display.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The formal rite supplies the visible, repeatable action that can become the object carried through the seeing circuit."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The opening attention-question installs the reader as witness and makes observation an active operation rather than background scenery."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "The later branch supplies conduct calibrated for human eyes, reversing the opening act of seeing into solicitation of being seen."
+              }
+            ],
+            "structural_cues": [
+              "The same seeing root occurs before and after the focus, spanning 107:1 and 107:6.",
+              "The opening address recruits an observer while the later plural action belongs to the group defined after 107:4."
+            ],
+            "reader_inference": "Packet: an attention-summons, a people-facing display branch, and the visible rite. Reader arrow: the first act of seeing becomes the audience-condition exploited by the later actor. Live alternative: the two occurrences could independently mark cognition and hypocrisy, but even then they revise the focus toward contested visibility.",
+            "changed_reading": {
+              "before": "The line warns ritual practitioners in a general, inwardly defective sense.",
+              "after": "It warns practitioners who have rewired prayer into a seeing-and-being-seen technology, using a sacred form to manufacture an audience-facing self."
+            }
+          },
+          {
+            "model_id": "ctx-lying-vestment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب"
+            ],
+            "mechanism": "A branch in the denial root pictures clothing whose appearance misreports its condition. That material analogy activates the prayer agent noun as identity-clothing: a true ritual form can still give a false report about the person wearing it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The recognized rite provides a socially legible form capable of serving as an identity surface."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The deceptive-garment image contributes a surface that makes a false claim through its condition, modeling ritual identity as misreport."
+              }
+            ],
+            "structural_cues": [
+              "The denier identified in 107:1 is later named through the socially honored agent noun in 107:4.",
+              "The demonstrative-relative sequence in 107:1-2 keeps later conduct attached to the initially identified person."
+            ],
+            "reader_inference": "Packet: denial, a materially deceptive surface, and a recognizable practitioner label. Reader arrow: the label is treated as something one can wear socially. Live alternative: the garment branch may remain only an analogy, while the direct falsehood sense still supports a mismatch between name and conduct.",
+            "changed_reading": {
+              "before": "The noun accurately classifies people by an act they really perform.",
+              "after": "The noun may classify the outer form while simultaneously exposing it as a false social vestment: authentic motion can carry an inauthentic report."
+            }
+          },
+          {
+            "model_id": "ctx-account-not-credit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The account, recompense, and debt branches turn the threat into a ledger event. Prayer is not a detachable credit that cancels other liabilities; the practitioner is precisely the one whose claimed worship is entered into an unresolved account.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding worship supplies an obligation whose performance might be mistakenly treated as sufficient credit."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "The reckoning branch supplies evaluation and consequence, making the focus threat an audit of the practitioner claim."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "The financial-liability branch contributes an unpaid-balance model in which ritual performance cannot erase obligations elsewhere."
+              }
+            ],
+            "structural_cues": [
+              "The focus threat remains syntactically attached to people already characterized by their relation to din.",
+              "The context proceeds from a denied evaluative order to observable treatment of dependents."
+            ],
+            "reader_inference": "Packet: binding worship, reckoning, debt, and the threat. Reader arrow: acts toward others are treated as entries in the same account as prayer. Live alternative: din may foreground obedience or religion rather than a literal ledger, yielding a broader allegiance-conflict without removing the evaluative mechanism.",
+            "changed_reading": {
+              "before": "Prayer stands as an independent positive credit beside unrelated moral failures.",
+              "after": "Prayer enters one account with the practitioner's other obligations; performed ritual cannot settle a balance that the same person keeps producing elsewhere."
+            }
+          },
+          {
+            "model_id": "ctx-split-body-expulsion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The context puts severe bodily expulsion beside the person already cut off from a protector. This revises defective prayer into a split-body mechanism: the body can execute prescribed devotional positions while using its force to deepen another's severance.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The prescribed rite supplies disciplined bodily motion whose ethical continuity is put under pressure."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The forceful-expulsion branch supplies the contrary bodily vector: movement used to drive a vulnerable person away."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The severance-from-protection branch identifies what the expelling motion aggravates, turning bodily contradiction into a causal harm."
+              }
+            ],
+            "structural_cues": [
+              "107:2 identifies the same person through an active verb and a vulnerable direct object.",
+              "The focus later names that person by a repeated bodily practice rather than replacing the earlier characterization."
+            ],
+            "reader_inference": "Packet: ritual postures, forceful expulsion, and prior loss of protection. Reader arrow: one body is assumed to carry both action-patterns, so devotional discipline is tested by how force is used outside the rite. Live alternative: the expulsion could be merely evidence of denial rather than a criterion internal to prayer, but the shared agent keeps the contradiction active.",
+            "changed_reading": {
+              "before": "The threatened prayer is mainly an inwardly inattentive or technically flawed performance.",
+              "after": "The threat exposes a body divided against its own worship: ritually disciplined in one space, violently extending another person's abandonment in the next."
+            }
+          },
+          {
+            "model_id": "ctx-mercy-must-circulate",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "Prayer's outward blessing branch is given a material transmission path: urge others, move food, stabilize the person whose means of remaining are weak. The failure is therefore not only refusal to give; it is refusal to activate a care network.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Prayer as benefit directed toward others supplies the relational current that the context can materialize or interrupt."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies activation of additional agents, expanding care from a private gift into coordinated circulation."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "The feeding branch gives the circulating benefit a concrete transfer and recipient-facing direction."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Sustenance that lets a person remain supplies the downstream effect: nourishment becomes social stability rather than a momentary token."
+              }
+            ],
+            "structural_cues": [
+              "107:3 negates urging toward food, so the missing act is explicitly network-generating rather than merely private.",
+              "The food object and the vulnerable beneficiary are joined in one prepositional construction."
+            ],
+            "reader_inference": "Packet: outward prayer-benefit, urging, feeding, and stabilizing sustenance. Reader arrow: the devotional vector is assumed to seek material continuation through other agents. Live alternative: ritual and feeding may be parallel duties rather than one causal circuit, but the no-urging construction makes failed propagation independently salient.",
+            "changed_reading": {
+              "before": "The practitioners fail because their private ritual coexists with a separate omission of charity.",
+              "after": "Their prayer has failed as an activation system: it does not propagate mercy into persuasion, provision, and the stabilization of vulnerable life."
+            }
+          },
+          {
+            "model_id": "ctx-ritual-motion-social-stasis",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ك ن",
+              "س ه و"
+            ],
+            "mechanism": "Two context branches converge on stillness while the focus branch entails bodily motion. This creates a kinetic paradox: repeated ritual movement can coexist with arrested attention and can leave another person's social immobility untouched.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The embodied rite supplies patterned movement and makes immobility an effect to compare rather than a literal description of prayer."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B001",
+                "role": "Cessation of movement supplies the vulnerable person's arrested social condition as the external result left unchanged."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "The stillness branch supplies arrested attention within the practitioner, linking inward non-response to outward non-mobilization."
+              }
+            ],
+            "structural_cues": [
+              "The no-urging clause precedes the naming of practitioners, and heedlessness immediately follows it.",
+              "The focus agent noun denotes an enacted practice, while the two context inventories independently offer stillness."
+            ],
+            "reader_inference": "Packet: bodily ritual, a vulnerable figure associated with loss of movement, and heedlessness associated with stillness. Reader arrow: inward attentional arrest is treated as enabling outward social arrest. Live alternative: the two stillness branches may be unrelated lexical resonances, but their convergence preserves a coherent motion-without-mobilization reading.",
+            "changed_reading": {
+              "before": "Prayer is meaningful movement even if the practitioner has unrelated social omissions.",
+              "after": "The line can expose liturgical motion that produces no mobilization: the body cycles through worship while attention and the surrounding field of care remain still."
+            }
+          },
+          {
+            "model_id": "ctx-owned-prayer-estrangement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "The agent noun is immediately unpacked by people who grammatically possess 'their prayer' while standing in a distancing relation to it. Heedlessness turns possession without presence into the central defect: the rite belongs to their identity, but its demand does not hold their attention.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The focus branch establishes the public practitioner category that the next verse internally qualifies."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "The repeated prayer root presents the rite as binding and possessed, sharpening the contradiction of being oriented away from it."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heedless-heart branch supplies the missing presence that separates nominal ownership from responsive practice."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause of 107:5 immediately specifies the plural agent noun of 107:4.",
+              "The possessive suffix on prayer coexists with the distancing preposition عن."
+            ],
+            "reader_inference": "Packet: a binding rite, its possessive repetition, distancing syntax, and heart-level heedlessness. Reader arrow: grammatical distance is read as durable relational estrangement rather than only a momentary lapse. Live alternative: episodic distraction remains possible, but it explains the surrounding sustained conduct less well.",
+            "changed_reading": {
+              "before": "The threat concerns occasional mistakes made during an otherwise owned and intact prayer.",
+              "after": "It concerns estranged ownership: prayer is theirs as schedule, label, and possession while they remain away from the claims that would make it present."
+            }
+          },
+          {
+            "model_id": "ctx-heat-encounter-unstraightened",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "A split-root branch models heat as a means of straightening material. Repeated prayer plus heedlessness revises the baseline thermal shadow: these practitioners enter the heating process, but inattention interrupts transfer, so neither posture nor conduct is reshaped.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "The material branch supplies heating and turning as a process that can straighten what is exposed to it."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Repetition of the same root after the focus makes the transformative process recurrent rather than a one-time threshold."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-level inattention supplies the insulation that lets repeated exposure occur without responsive change."
+              }
+            ],
+            "structural_cues": [
+              "The prayer root repeats in consecutive verses before the heedlessness predicate.",
+              "Conduct before and after the focus supplies observable non-transformation around the repeated rite."
+            ],
+            "reader_inference": "Packet: a fire-straightening branch, repeated prayer, and inattention. Reader arrow: prayer is treated as transformative heat and heedlessness as insulation against it. Live alternative: heat may signify punishment rather than formation; that alternative coexists and makes the failed encounter more dangerous.",
+            "changed_reading": {
+              "before": "The root's heat branch points mainly to punishment awaiting defective worshippers.",
+              "after": "It can also portray prayer itself as a repeated straightening exposure whose heat reaches the practitioner without altering the social shape."
+            }
+          },
+          {
+            "model_id": "ctx-closed-hand-blocks-aid",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The final clause places restraint of giving directly against an object mapped to assistance. This completes the blocked-mercy model: a body can enact prayer while functioning as a gate that stops help at the hand.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "The outward-benefit branch of prayer supplies what should cross from practitioner toward another."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The restrained-hand branch locates blockage at the concrete point where giving would leave the practitioner."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "The mapped assistance branch identifies the stopped object by function: help that should reinforce another."
+              }
+            ],
+            "structural_cues": [
+              "107:7 directly joins a plural withholding verb to the final object.",
+              "The surah moves from the practitioner label to a concrete outward transfer that does not occur."
+            ],
+            "reader_inference": "Packet: prayer as outward benefit, a hand withheld from giving, and assistance as the blocked function. Reader arrow: devotional relation is assumed to seek bodily continuation through the giving hand. Live alternative: the final object may denote a narrower class of useful things, but its mapped aid branch preserves the gatekeeping mechanism.",
+            "changed_reading": {
+              "before": "The practitioners' problem is an inward lack of attention during worship.",
+              "after": "Their inattention has an outward valve: prayer does not cross the hand into assistance, and the practitioner becomes the point at which benefit is deliberately stopped."
+            }
+          },
+          {
+            "model_id": "ctx-prestige-snare-resource-gate",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The focus root's trap branch combines with display, barrier, and aid to produce an institutional reading. Ritual form can capture prestige from observers while simultaneously controlling the passage of useful help; what looks empty is operationally effective at concentrating reputation and blocking resources.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B004",
+                "role": "The set-catching device supplies a focus-root image of ritual form arranged to capture something rather than transmit mercy."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "People-facing display identifies reputation and attention as what the ritual arrangement can capture."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The intervening-barrier branch supplies the complementary operation of preventing desired goods from passing through."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the resource whose blocked circulation makes the reputational trap socially consequential."
+              }
+            ],
+            "structural_cues": [
+              "Display in 107:6 is immediately followed by withholding in 107:7.",
+              "The same plural group performs both actions after being named by the focus agent noun."
+            ],
+            "reader_inference": "Packet: a trap image in the focus root, public display, a barrier, and withheld aid. Reader arrow: attention is treated as the captured input and assistance as the blocked output of one ritual system. Live alternative: display and withholding may be two independent defects, but their adjacency and shared agent sustain the coupled mechanism.",
+            "changed_reading": {
+              "before": "The prayer is hollow because it produces nothing beyond appearances.",
+              "after": "The prayer-form may be actively productive in reverse: it captures prestige for the practitioner while operating as a gate against assistance to others."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "out-pounding-without-nourishing",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the pounding implement is a remote nominal branch, not a direct gloss of the practitioner noun. It remains anchored in the focus root and gains a coherent material contrast from forceful pushing and feeding. Downstream prose should present it only as a pressure-and-processing analogy, never as the lexical meaning of the ayah.",
+            "focus_anchor": "A focus-root branch supplies a broad slab on which material is repeatedly struck and processed.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B008",
+                "role": "The processing slab supplies repetitive pressure as an odd material shadow of patterned ritual action."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Severe pushing converts pressure from neutral processing into force directed against a vulnerable body."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding supplies the absent productive output: material pressure should prepare provision for another rather than merely bear down."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ritual repetition disciplines the practitioner while feeding is an unrelated duty.",
+              "after": "As a contained material analogy, the rite becomes pounding without preparation: pressure is repeatedly enacted, yet it bears on the vulnerable instead of processing provision toward them."
+            }
+          },
+          {
+            "outlier_id": "out-follower-broken-relay",
+            "confidence": "medium",
+            "containment": "The race-follower branch is unusual but directly tied to the same agent form, and urging plus assistance provide a visible handoff mechanism. It should be rendered as a relay analogy that coexists with ritual prayer, not as a replacement translation.",
+            "focus_anchor": "The focus agent can carry the image of the runner immediately behind another.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The second-runner branch supplies close following and the expectation that motion continues through a sequence."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging another supplies the missing handoff by which one person's concern should recruit the next agent."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies what the relay is meant to carry onward rather than merely preserving ceremonial position."
+              }
+            ],
+            "changed_reading": {
+              "before": "The practitioners correctly follow an inherited ritual course but fail at separate social obligations.",
+              "after": "They may be failed relay-runners: close behind the visible religious course, yet unwilling to recruit the next helper or pass assistance onward."
+            }
+          },
+          {
+            "outlier_id": "out-grazing-on-prayer-prestige",
+            "confidence": "exploratory",
+            "containment": "The grazing-plant branch is the most form-distant activation retained here. It remains packet-backed and focus-root anchored, while the explicit food and sustaining-provision cues give it an ecological mechanism. Any use should be clearly marked as a speculative resonance about consumption of ritual prestige, not as philology or a direct sense of the noun.",
+            "focus_anchor": "A focus-root branch names a plant grazed as animal nourishment, giving the practitioner label a remote food-bearing shadow.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B009",
+                "role": "The grazed plant supplies an ecological image of consuming nourishment attached to the focus root."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the human transfer against which consumption of ritual benefit can be reversed."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Provision that sustains remaining supplies the life-preserving destination absent from the practitioner's consumption."
+              }
+            ],
+            "changed_reading": {
+              "before": "The food imagery belongs only to the social context, while the prayer label remains ritually self-contained.",
+              "after": "In an explicitly speculative ecological resonance, the group can graze on the nourishment and prestige of prayer while failing to move sustaining food toward the person whose life is made precarious."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from an indiscriminate paradox to an insider warning: the agentive identity of prayer is itself placed under examination.",
+            "Seeing before and display after the focus formed a visibility loop in which prayer can be repurposed to manufacture an audience-facing self.",
+            "Expelling the already severed dependent, failing to mobilize feeding, and blocking aid made defective prayer a bodily and distributive mechanism rather than a merely inward lapse.",
+            "The split prayer root kept live secondary models of failed transformation, derivative following, and ritual form used to capture prestige or block passage."
+          ],
+          "what_was_special": "One small agent noun sustained several coexisting mechanisms without requiring a final choice: binding rite, outward mercy, heat exposure, following, trapping, pounding, and grazing. Context did not merely add themes; it turned those branches into visibility, embodiment, circulation, stasis, transformation, and gatekeeping models.",
+          "remaining_uncertainties": [
+            "The non-dominant mapped root materially licenses the heat model, but its weight beside the ordinary prayer sense remains uncertain.",
+            "The deceptive garment, trap, pounding slab, and grazing plant are packet-backed activations whose explanatory value may exceed their form-distance; they should remain contained rather than normalized.",
+            "Heedlessness can denote episodic lapse or durable estrangement; the surrounding conduct favors the latter without eliminating the former.",
+            "The debt-ledger and relay arrows are reader-supplied causal structures; obedience, judgment, and parallel-duty readings remain live alternatives."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Woe to practitioners when prayer is severed from mercy.** Evidence: `ص ل و B003` prescribed worship, activated by `ر ح م B001` mercy and `ط ع م B002` feeding another. Structure: prayer enters only after orphan and miskīn failures. Mechanism: the ritual is judged by whether it carries mercy into social action. Abductive move: I infer that the preceding care-failures contextualize “those who pray”; the packet supplies order and branches. Reading change: the woe does not target prayer as such but a praying identity hollowed out by denied care.\n\n2. **Prayer as supplication/mercy inverted.** Evidence: `ص ل و B002` supplication, praise, mercy; activated by the double `ر ح م` in 107:0 and non-urging for food in 107:3. Structure: the prayer-root shares mercy language with the opening but is surrounded by merciless conduct. Mechanism: a practice whose branch can be mercy becomes evidence against its doer when it fails to generate mercy. Abductive move: I supply the evaluative inversion; the packet supplies mercy in both root inventories. Reading change: المصلين can mean people near a mercy-channel who have blocked its output.\n\n3. **Fire/heat behind woe.** Evidence: `ص ل و B001` meeting fire and heat; activated by the threat-word ويل and by `س ك ن B007` knife stilling an animal through death. Structure: a root used for prayer also carries fire/roasting hardship. Mechanism: the praying group is linguistically exposed to the root’s punitive heat branch. Abductive move: I infer that woe lets the fire branch resonate; the packet supplies heat/fire and woe context. Reading change: the ayah acquires a latent punitive materiality: the same root that names worship can disclose burning consequence.\n\n4. **A snare of religious form.** Evidence: `ص ل و B004` set snare/trap; activated by `ر ء ي B005` showing off in 107:6 and `م ن ع B006` reciprocal resistance over a thing. Structure: visible prayer, ostentation, and withholding form a trap-like social mechanism. Mechanism: public worship can become a device for catching status while resisting claims of the needy. Abductive move: I supply the trap mechanism; the packet supplies snare, visibility, and resistance branches. Reading change: “for the praying ones” can read as a warning that their own religious display is the trap in which they are caught.",
@@ -8441,14 +9333,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8680,10 +9578,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 72247,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

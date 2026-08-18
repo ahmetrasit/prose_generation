@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.256693+00:00",
+  "generated_at": "2026-08-18T13:34:35.802452+00:00",
   "surah": 107,
   "ayah": 5,
   "ayahRef": "107:5",
@@ -1519,7 +1519,8 @@
       "morpheme_ids": [
         "m-w-s107-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:5:1"
+      "aligned_qac_word_ref_upstream": "107:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1533,7 +1534,8 @@
       "morpheme_ids": [
         "m-w-s107-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:5:2"
+      "aligned_qac_word_ref_upstream": "107:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1547,7 +1549,8 @@
       "morpheme_ids": [
         "m-w-s107-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:5:3"
+      "aligned_qac_word_ref_upstream": "107:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1563,7 +1566,8 @@
         "m-w-s107-a005-w004-01",
         "m-w-s107-a005-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:5:4"
+      "aligned_qac_word_ref_upstream": "107:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1577,7 +1581,8 @@
       "morpheme_ids": [
         "m-w-s107-a005-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:5:5"
+      "aligned_qac_word_ref_upstream": "107:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2634,7 +2639,898 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:5",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_ritual_displacement",
+            "confidence": "strong",
+            "focus_anchor": "The construction places the heedlessness in a directional relation to their prayer through ʿan, not merely inside an episode of prayer.",
+            "mechanism": "Prescribed worship is the object from which the heart repeatedly departs. The line therefore profiles a settled orientation away from prayer even when its external motions may still occur.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship supplies the concrete instituted practice from which the construction marks displacement."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's turning away supplies the inward motion that makes ʿan a sustained departure rather than a momentary mistake."
+              }
+            ],
+            "changed_reading": {
+              "before": "They occasionally forget something while praying.",
+              "after": "Their characteristic relation is to be turned away from the prescribed prayer itself, whether or not they continue its visible form."
+            }
+          },
+          {
+            "model_id": "b2_relational_mercy_lost",
+            "confidence": "medium",
+            "focus_anchor": "Ṣalātihim can activate prayer as supplication, praise, blessing, and mercy, while sāhūn names the heart's loss of its object.",
+            "mechanism": "Prayer has an outward relational vector: it asks, blesses, praises, and carries mercy. Heedlessness from it can therefore mean loss of that relational vector, not only deficient concentration during ritual.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplication, praise, and mercy make prayer a relation that should extend beyond the worshipper."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart supplies the severing of attention from that merciful relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The defect concerns inward attention during a ritual.",
+              "after": "The defect may also be that their prayer no longer carries supplication, praise, or mercy toward another."
+            }
+          },
+          {
+            "model_id": "b3_inert_binding_form",
+            "confidence": "medium",
+            "focus_anchor": "The binding character of prayer and the stillness branch of sāhūn meet directly in the two lexical anchors of the focus ayah.",
+            "mechanism": "A binding form can remain in place while its responsive movement has gone still. The reading distinguishes ritual stability from living attentiveness: fixed form is not itself faithful orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding ritual worship supplies the maintained form whose claim remains upon the practitioners."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Stillness supplies an arrested inner response, turning stable ritual form into inert practice."
+              }
+            ],
+            "changed_reading": {
+              "before": "Stillness in prayer suggests composure.",
+              "after": "Here stillness can be pathological: a binding form remains while awareness and response have stopped moving."
+            }
+          },
+          {
+            "model_id": "b4_hidden_signal",
+            "confidence": "exploratory",
+            "focus_anchor": "Sāhūn is anchored to the packet's image of a tiny star missed by sight, while ṣalāt remains the prescribed object being missed.",
+            "mechanism": "Prayer can function as a faint orienting signal that is genuinely present yet allowed to become too small in the field of attention. The problem is not total absence but trained non-noticing.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship supplies the real but neglected orienting object."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "The barely visible star supplies a model of something present in the visual field yet habitually overlooked."
+              }
+            ],
+            "changed_reading": {
+              "before": "Prayer has simply vanished from their awareness.",
+              "after": "Prayer remains available as an orienting signal, but they have made it functionally too faint to govern attention."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_visible_form_accounted_falsehood",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The opening demand to see, the possibility of an exterior that misstates its condition, and the register of account together turn the focus ayah into diagnostic evidence. Visible prayer can declare one orientation while ʿan records the opposite inward direction, and that contradiction is answerable rather than trivial.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship supplies the publicly legible form whose meaning can be contradicted by the worshipper's orientation."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's departure supplies the hidden condition against which the visible form is tested."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "An attention-demanding inquiry frames the later prayer conduct as something to inspect and recognize."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A garment whose appearance lies about its condition supplies the model of devotional form misreporting inward reality."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Account and recompense make the mismatch between performed prayer and actual direction consequential."
+              }
+            ],
+            "structural_cues": [
+              "The surah opens by demanding recognition and later presents the focus clause as a specification of the same human type.",
+              "The possessive 'their prayer' permits visible ownership of the act while ʿan marks inward distance from it."
+            ],
+            "reader_inference": "The packet supplies inspection, deceptive appearance, account, ritual form, and heart-departure; I infer that the visible act is evidence that can falsify its own claim. A live alternative is that denial and prayer-heedlessness are coordinated faults without an evidentiary relation.",
+            "changed_reading": {
+              "before": "Their prayer suffers a private lapse of attention.",
+              "after": "Their visible prayer can become a behavioral falsehood under account: it signifies nearness while their governing direction is away."
+            }
+          },
+          {
+            "model_id": "d2_nonenduring_prayer",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب"
+            ],
+            "mechanism": "Two process-images of failure to continue activate a temporal reading of sāhūn. Their prayer may begin, appear viable, and then lose continuity; heedlessness is not a puncture in an otherwise maintained practice but the mechanism by which practice repeatedly runs out.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding worship supplies the practice whose defining demand is maintenance rather than a merely punctual appearance."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's turning away supplies the internal break that interrupts duration."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk that disappears instead of lasting supplies a material image of devotional yield that fails to persist."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "An animal that runs and then stops supplies the start-stop temporal profile of an unmaintained prayer relation."
+              }
+            ],
+            "structural_cues": [
+              "The plural active-participial description characterizes a recurring disposition rather than narrating one accidental lapse."
+            ],
+            "reader_inference": "The packet supplies two non-continuance images and binding worship; I transfer their temporal contour to the prayer relation and assign heart-departure as the interruption. The alternative is to keep these remote branches inactive and read only propositional denial.",
+            "changed_reading": {
+              "before": "They have isolated moments of distraction.",
+              "after": "They repeatedly produce the beginning or shell of prayer but do not sustain its attention, claim, or yield."
+            }
+          },
+          {
+            "model_id": "d3_praying_call_embodied_shove",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع"
+            ],
+            "mechanism": "The split mapping holds a sharp reversal: prayer can be supplicatory speech, and the context root can activate both calling someone toward oneself and violently thrusting someone away. Their prayer calls in language while their body pushes away; sāhūn names the severance that lets those opposed vectors coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplication and mercy supply the prayer's verbal and relational movement toward another."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-departure supplies the internal disconnection that permits speech and embodied conduct to point in opposite directions."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Forceful pushing supplies the enacted outward vector that reverses prayer's merciful address."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of calling and inclining by speech exposes the verbal vector that the shove contradicts."
+              }
+            ],
+            "structural_cues": [
+              "The person identified by the opening is first shown pushing away a vulnerable person and is later described as away from prayer.",
+              "The directional opposition between a call toward and a shove away resonates with ʿan in the focus construction."
+            ],
+            "reader_inference": "The packet supplies supplication, a dominant forceful shove, and a non-dominant calling image; I infer a speech–body reversal and treat heedlessness as its enabling disconnection. The live alternative is that the non-dominant call is only mapping residue and the verse points simply to cruelty.",
+            "changed_reading": {
+              "before": "Their prayer lacks sufficient inward concentration.",
+              "after": "Their prayer may still voice a merciful call, but heedlessness is proven when their embodied direction violently reverses that call."
+            }
+          },
+          {
+            "model_id": "d4_orphaned_prayer",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ي ت م"
+            ],
+            "mechanism": "The possessive says the prayer is theirs, yet the severance image activates an inversion: they behave as absent keepers of their own binding practice. Prayer is 'orphaned' inside their ownership, cut off from the attention and maintenance that should sponsor it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding worship supplies something entrusted to its practitioners for continued maintenance."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's departure supplies the practitioner's functional absence from what remains grammatically theirs."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance of a child from a sustaining keeper supplies the relational pattern transferred to an unattended prayer."
+              }
+            ],
+            "structural_cues": [
+              "The context places a severed dependent before the possessive phrase 'their prayer,' making ownership without care salient."
+            ],
+            "reader_inference": "The packet supplies severance from a keeper, possessive prayer, and heart-departure; I infer a mirrored custodial failure in which the practitioners abandon what they still claim. The alternative is that the severance applies only to the harmed child and should not be transferred to prayer.",
+            "changed_reading": {
+              "before": "They possess prayer but pay too little attention to it.",
+              "after": "Their possessive claim is ironic: they leave their own binding prayer without the inward keeper needed to sustain it."
+            }
+          },
+          {
+            "model_id": "d5_inert_prayer_fails_to_feed",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "The focus stillness becomes a blocked kinetic chain. Living prayer should impel a person toward feeding another, and provision should restore some stability to one immobilized by need; their prayer remains inert before it can become social motion.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding worship supplies the recurrent source-practice whose effects are being tested."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Stillness supplies the arrest that prevents ritual form from becoming responsive movement."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging toward an act supplies the missing propulsion between inward worship and outward conduct."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the concrete transfer that the absent propulsion should produce."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B001",
+                "role": "Loss of movement supplies the vulnerable recipient's arrested condition and echoes the worshipper's inert response."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Sustenance that stabilizes a dwelling supplies the restorative endpoint of the blocked chain."
+              }
+            ],
+            "structural_cues": [
+              "The failure to urge feeding immediately precedes the warning to worshippers and its focus specification.",
+              "Negative social motion in the context sharpens the stillness branch of the focus predicate."
+            ],
+            "reader_inference": "The packet supplies stillness, urging, feeding, loss of motion, and stabilizing sustenance; I infer a causal pipeline from prayer through moral propulsion to material support. A live alternative is that the surah lists independent failures rather than describing prayer's expected output.",
+            "changed_reading": {
+              "before": "Their prayer is inwardly static but otherwise self-contained.",
+              "after": "Its stillness is socially diagnostic: prayer has stalled before it can impel feeding and help restore another person's stability."
+            }
+          },
+          {
+            "model_id": "d6_practitioner_exterior_interior_split",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و"
+            ],
+            "mechanism": "The repeated prayer root first includes them among practitioners and only then exposes their relation to 'their prayer.' The target is therefore not simple nonperformance: the external class-marker and the internal directional stance have split.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The context occurrence identifies them by prescribed worship, preserving real external inclusion among practitioners."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The possessed prayer becomes the same practice toward which their hidden relation is then measured."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-departure supplies the interior difference concealed by membership in the praying class."
+              }
+            ],
+            "structural_cues": [
+              "The warning to the praying ones is immediately narrowed by a relative clause beginning with the same plural description.",
+              "The root repetition contrasts public practitioner identity with private orientation toward the possessed act."
+            ],
+            "reader_inference": "The packet supplies exact root repetition, prescribed worship, and heart-departure; I infer that the second line opens the interior of a genuinely performed exterior. The alternative is that the label 'praying ones' is merely ironic shorthand for people who effectively do not pray.",
+            "changed_reading": {
+              "before": "The condemned people are those who omit prayer.",
+              "after": "They can be recognizably among the praying while their actual orientation remains away from the very practice that names them."
+            }
+          },
+          {
+            "model_id": "d7_corrective_heat_evaded",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل و"
+            ],
+            "mechanism": "The split-root inventory permits prayer to activate a process in which heat straightens what is bent. Beside the warning to worshippers, ʿan can then picture evasion of prayer's re-forming exposure: the form is approached, but the practitioner remains still and withdraws before being reshaped.",
+            "activation_trace": [
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "The non-dominant split-root image of heating and straightening supplies a corrective process activated beside the warning."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "The same focus-root branch anchors the proposed re-forming force inside 'their prayer' rather than in an independent theme."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Stillness supplies resistance to the movement and reshaping that corrective heat would produce."
+              }
+            ],
+            "structural_cues": [
+              "The warning immediately precedes the clause describing the worshippers' distance from prayer.",
+              "The same split root occurs in the warning's practitioner label and in the focus possession."
+            ],
+            "reader_inference": "The packet supplies warning, split-root fire-straightening, stillness, and directional distance; I infer that prayer is an exposure meant to reshape and that heedlessness evades its effect. The live alternative is to retain fire only as remote etymological imagery with no functional force here.",
+            "changed_reading": {
+              "before": "Prayer is a form they execute without enough attention.",
+              "after": "Exploratorily, prayer is also a corrective exposure they approach without allowing it to heat, move, or straighten them."
+            }
+          },
+          {
+            "model_id": "d8_attention_reallocated_to_audience",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The following display-root reveals that attention has not disappeared; it has been reallocated. The true prayer becomes the faint object missed, while spectators and the narrated devotional persona become the bright object tracked with care.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Prescribed worship supplies the nominal object whose own claim loses priority."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "The tiny star missed by sight models true prayer receding beneath a more conspicuous social signal."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Performance for other people's sight supplies the competing target that captures the worshipper's attention."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant split-root image of transmitting a report supplies a devotional identity curated as a story for others."
+              }
+            ],
+            "structural_cues": [
+              "The next ayah repeats the same relative-clause opening and supplies public display as a further predicate of the same group.",
+              "The focus preposition marks attention away from prayer, while the next line supplies a plausible destination for that attention."
+            ],
+            "reader_inference": "The packet supplies a faint missed object, display before viewers, and a split-root reporting image; I infer a transfer of attention from prayer to audience and public narrative. The alternative is generic hypocrisy without a specific attentional reallocation, and the reporting branch may remain only a formal resonance.",
+            "changed_reading": {
+              "before": "They are generally inattentive.",
+              "after": "They may be intensely attentive, but to viewers and to the story of themselves as worshippers rather than to prayer's own object and demand."
+            }
+          },
+          {
+            "model_id": "d9_withheld_mercy_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "Prayer as mercy and supplication forms a potential circuit of aid. Heart-departure interrupts it inwardly; the withholding hand and blocked assistance show the same interruption outwardly. The possessive 'their prayer' becomes ironic enclosure when what should circulate is held as private devotional property.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplication, blessing, and mercy supply the relational content that ought to pass through prayer into conduct."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-departure supplies the inward break in the circuit before mercy becomes material response."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The hand held back from giving supplies the circuit's visible terminal blockage."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier between a person and a desired object supplies the spatial geometry shared by withheld aid and being away from prayer."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and mutual support supply the beneficial flow whose denial reveals what the prayer failed to carry."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from inward distance from prayer to public display and finally to an explicitly withholding hand.",
+              "The possessive form can mark enclosure, while the final social object demands circulation and shared use."
+            ],
+            "reader_inference": "The packet supplies prayer-as-mercy, heart-departure, hand-withholding, a barrier, and aid; I infer one interrupted inward-to-outward circuit. A live alternative is that prayer and withholding are separate marks of character rather than stages in a single mechanism.",
+            "changed_reading": {
+              "before": "Heedlessness is confined to the worshipper's interior prayer state.",
+              "after": "Heedlessness is the inward form of the same blockage later visible in the closed hand: prayer's mercy never completes its passage into aid."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_reputation_snare",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a branch-distant trap image rather than substituting a lexical meaning for prayer. It remains anchored in ṣalāt, heart-departure, deceptive exterior, and public display: performed prayer can function as a self-set device for catching reputation while also catching its maker in contradiction. Downstream prose should label it a material analogy, not a translation.",
+            "focus_anchor": "The trap branch belongs to the focus prayer root, and sāhūn supplies the actor's failure to perceive what the possessed practice has become.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B004",
+                "role": "A set snare supplies the material model of prayer arranged to capture social regard and entangle its arranger."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-departure explains why the worshipper does not register the contradiction produced by the instrument."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A deceptive exterior supplies the snare's attractive devotional covering."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Public display supplies the social attention that the devotional snare is arranged to catch."
+              }
+            ],
+            "changed_reading": {
+              "before": "Prayer is a neutral good weakened by inattention.",
+              "after": "Exploratorily, 'their prayer' can become a reputation-catching apparatus whose success in public deepens its owners' hidden entanglement."
+            }
+          },
+          {
+            "outlier_id": "o2_second_place_imitation",
+            "confidence": "exploratory",
+            "containment": "This reading is odd because it activates the racing-follower branch of the prayer root. It remains anchored in the focus possession and in the later audience orientation: they may keep immediately behind a visible devotional leader while their heart is away from prayer's own aim. Downstream prose should present it as a social-sequence analogy, not as the ordinary sense of ṣalāt.",
+            "focus_anchor": "The focus prayer root supplies the image of a follower at the leader's flank, and sāhūn supplies the absence of inward orientation despite close external position.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The second racer following at the leader's flank supplies close external conformity without identity of aim."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-departure distinguishes bodily or social following from genuine orientation."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Performance for observers supplies a motive for keeping visible pace with a devotional leader."
+              }
+            ],
+            "changed_reading": {
+              "before": "They independently perform prayer but become distracted.",
+              "after": "Exploratorily, they may keep social pace as visible followers while never orienting themselves to the prayer they imitate."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from accidental distraction inside prayer to a durable directional stance away from prayer despite continued external performance.",
+            "The context changed heedlessness from low attention into reallocated attention: prayer becomes faint while audience and devotional self-presentation become vivid.",
+            "The push, failure to feed, and withholding of aid made inward heart-departure legible as an outwardly blocked circuit of mercy and support.",
+            "Temporal failure branches preserved a coexisting reading in which prayer repeatedly begins but does not endure or yield."
+          ],
+          "what_was_special": "The decisive feature was the coexistence of possession and distance: it is 'their prayer,' yet their governing direction is away from it. Split-root material sharpened this into several non-collapsible mechanisms—call versus shove, worship versus corrective heat, seeing versus narrated appearance—while the social context made prayer's failure kinetic and material rather than merely psychological.",
+          "remaining_uncertainties": [
+            "Whether the context describes causal outputs of prayer or coordinates several independent traits remains open.",
+            "The non-dominant mapped roots preserve productive activations, but their narrative and fire-straightening force should remain explicitly exploratory.",
+            "Prayer as supplication and mercy broadens the focus beyond ritual attention, but the exact scope of that relational extension is not grammatically forced.",
+            "The trap and racing-follower readings are anchored material analogies, not lexical replacements, and should not displace the stronger ritual-displacement model."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Heedlessness as turned-away heart.** Evidence: `س ه و B001` heedlessness of heart, including in prayer, with `ص ل و B003` prescribed worship. Structure: the preposition `عن` marks being away from their ṣalāh, not simply within it. Mechanism: the rite exists, but attention has departed from its meaning and obligations. Abductive move: I infer that “away from” spatializes the heart’s departure; the packet supplies prayer and heedlessness. Reading change: the ayah reads as alienation from prayer rather than accidental forgetfulness alone.\n\n2. **Still prayer, still conscience.** Evidence: `س ه و B002` stillness; activated by `س ك ن B001` cessation of motion and `ح ض ض B001` urging. Structure: the actor does not urge; his prayer is “still” where it should move him and others. Mechanism: سهو becomes inertness: a calm, unmoved religious posture before hunger. Abductive move: I supply the moral reading of stillness as failure to be moved; the packet supplies stillness and urging. Reading change: ساهون can carry paralysis, not only distraction.\n\n3. **Overlooking fault versus refusing to overlook need.** Evidence: `س ه و B003` easy dealing by overlooking another's slip; activated by harsh `د ع ع B001` toward the orphan. Structure: a branch of social gentleness is absent where the vulnerable appears. Mechanism: the person “overlooks” prayer’s claim while not gently overlooking the orphan’s weakness. Abductive move: I supply the reversal between indulgence toward self and harshness toward dependent; the packet supplies easy-dealing and rough-driving branches. Reading change: the ayah exposes a crooked distribution of leniency.\n\n4. **The hidden star of missed obligation.** Evidence: `س ه و B005` the tiny star missed by sight; activated by `ر ء ي B001/B013` seeing/tell-me and `ر ء ي B005` showiness. Structure: seeing is thematized at 107:1 and 107:6, while this ayah names what is missed. Mechanism: showy vision amplifies what is obvious and misses the small, dim obligation. Abductive move: I infer that small duties are like the hidden star; the packet supplies visual and hidden/missed branches. Reading change: prayer-heedlessness becomes failure to perceive quiet claims such as orphan, miskīn, and maʿūn.",
@@ -9179,14 +10075,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9421,10 +10323,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 76499,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:26.014515+00:00",
+  "generated_at": "2026-08-18T13:34:34.361978+00:00",
   "surah": 106,
   "ayah": 2,
   "ayahRef": "106:2",
@@ -2179,7 +2179,8 @@
         "m-w-s106-a002-w001-01",
         "m-w-s106-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:2:1"
+      "aligned_qac_word_ref_upstream": "106:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2193,7 +2194,8 @@
       "morpheme_ids": [
         "m-w-s106-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:2:2"
+      "aligned_qac_word_ref_upstream": "106:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2209,7 +2211,8 @@
         "m-w-s106-a002-w003-01",
         "m-w-s106-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:2:3"
+      "aligned_qac_word_ref_upstream": "106:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2223,7 +2226,8 @@
       "morpheme_ids": [
         "m-w-s106-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:2:4"
+      "aligned_qac_word_ref_upstream": "106:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2239,7 +2243,8 @@
         "m-w-s106-a002-w004-02",
         "m-w-s106-a002-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "106:2:5"
+      "aligned_qac_word_ref_upstream": "106:2:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3116,7 +3121,982 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s106/packets/106_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "106:2",
+      "window": [
+        "106:1",
+        "106:2",
+        "106:3",
+        "106:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "106:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_habituated_seasonal_return",
+            "confidence": "strong",
+            "focus_anchor": "إِۦلَٰفِهِمْ joined to رِحْلَةَ and the paired seasonal genitives",
+            "mechanism": "Repeated departure across the two seasonal poles becomes familiar attachment: movement is not a one-off trip but a practiced mode of continuity.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment and habituated staying make recurrent movement a settled collective habit."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Going forth toward a destination supplies the concrete repeated motion carried by that habit."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B001",
+                "role": "Winter supplies one recurring temporal pole of the practiced movement."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer supplies the opposed recurring pole that closes the annual rhythm."
+              }
+            ],
+            "changed_reading": {
+              "before": "A journey associated with winter and summer.",
+              "after": "A winter-summer movement repeated until mobility itself becomes their familiar mode of attachment and continuity."
+            }
+          },
+          {
+            "model_id": "b_composed_seasonal_circuit",
+            "confidence": "strong",
+            "focus_anchor": "The compositional potential of إِۦلَٰفِهِمْ across رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+            "mechanism": "Distinct stages, quarters, and season-bound actions are joined into one circuit; coherence is an achieved arrangement of heterogeneous parts.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining separated parts into a composition turns the two seasons and journey stages into one organized system."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "A stopping stage between departures supplies the modular units from which the circuit is assembled."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B002",
+                "role": "Wintering and winter quarters make the cold season a situated phase rather than a bare date."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B003",
+                "role": "Summer residence and season-bound action provide the complementary operational phase."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two seasonal journeys placed side by side.",
+              "after": "A composed circuit whose winter quarters, summer operations, and intermediate stages function as interlocking parts."
+            }
+          },
+          {
+            "model_id": "b_portable_stage_system",
+            "confidence": "medium",
+            "focus_anchor": "رِحْلَةَ as both travel and the material-spatial complex carried through the seasons",
+            "mechanism": "The journey transports its own apparatus and provisional dwelling; seasonal continuity depends on mounts, gear, lodging, and readiness moving together.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B002",
+                "role": "Saddle gear makes the journey materially equipped rather than abstract motion."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B004",
+                "role": "Dwelling space and travelling belongings make mobility capable of carrying a provisional home."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B005",
+                "role": "A mount made fit after weakness supplies the readiness condition for sustaining the mobile system."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B002",
+                "role": "Winter quarters provide one temporary emplacement for the travelling household."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B003",
+                "role": "Summering provides the alternate emplacement and season-specific activity."
+              }
+            ],
+            "changed_reading": {
+              "before": "People travel in two seasons.",
+              "after": "A portable stage-system moves mounts, equipment, lodging, and seasonal work together, preserving continuity through relocation."
+            }
+          },
+          {
+            "model_id": "b_seasonal_asymmetry_exchange",
+            "confidence": "exploratory",
+            "focus_anchor": "The opposed lexical potentials of ٱلشِّتَآءِ and ٱلصَّيْفِ within one composed رِحْلَةَ",
+            "mechanism": "The circuit joins unequal seasonal conditions: winter can image famine and rough exposure, while summer can image rain and yield. Travel mediates between deficit and replenishment.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition joins unlike seasonal conditions into a compensating whole."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "Journey stages provide the transfer mechanism between the unequal conditions."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B004",
+                "role": "Winter as famine or scarcity supplies the deficit pole of the seasonal exchange."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B002",
+                "role": "Summer rain with its pasture and growth supplies a possible replenishing pole."
+              }
+            ],
+            "changed_reading": {
+              "before": "Winter and summer are neutral calendar labels.",
+              "after": "The seasonal circuit is a resilience mechanism joining periods of privation and yield so that their asymmetry can be survived."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_repetition_recursive_cohesion",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ف"
+            ],
+            "mechanism": "The immediate recurrence of the same noun makes cohesion recursive: an already named joining or familiarity is specified again as their relation to the seasonal journey, so the circuit both depends on and reproduces attachment.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "The first joining image frames the following line as specification of what is being composed."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "The suffixed recurrence shifts composition into their habituated attachment to the journey."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Concrete departure is the repeated practice through which attachment can be renewed."
+              }
+            ],
+            "structural_cues": [
+              "106:1 repeats the ء ل ف noun immediately before its suffixed occurrence at the start of 106:2.",
+              "The second occurrence opens directly onto the journey phrase, giving the repetition a specifying shape."
+            ],
+            "reader_inference": "The packet supplies immediate lexical repetition and the journey complement; I infer a feedback arrow in which cohesion enables repeated travel and repeated travel renews cohesion, while simple emphatic restatement remains a live alternative.",
+            "changed_reading": {
+              "before": "Their familiar seasonal travel is a stable habit.",
+              "after": "The repeated wording exposes a feedback loop: collective joining makes the circuit possible, and practicing the circuit continually remakes that joining."
+            }
+          },
+          {
+            "model_id": "d_service_reorients_mobility",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The following turn to submissive service prevents the seasonal system from closing around its own efficiency; habituated mobility becomes a condition that calls for directed response.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship and obedience supply the directed response into which the travel routine is made to culminate."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Habituated attachment supplies the settled condition being ethically reoriented."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "The journey supplies the practical achievement that no longer reads as self-justifying."
+              }
+            ],
+            "structural_cues": [
+              "106:3 changes from the focus ayah's nominal travel phrase to a directive verbal construction.",
+              "The service verb follows the completed winter-summer phrase rather than preceding it."
+            ],
+            "reader_inference": "The packet supplies sequence and a service branch; I infer that the later directive evaluates and redirects the earlier mobility, while the live alternative is mere topical succession without an evaluative arrow.",
+            "changed_reading": {
+              "before": "Seasonal mobility is a self-contained collective competence.",
+              "after": "The competence is deliberately left open toward submissive response: successful routine is occasion and obligation, not its own endpoint."
+            }
+          },
+          {
+            "model_id": "d_stewarded_completion",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "Repair, nurture, completion, and persistence recast the composed circuit as something continually maintained; its coherence is stewarded rather than merely assembled once.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, cultivation, and completion supply ongoing maintenance for the seasonal system."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Staying, residence, and duration give the maintained circuit temporal persistence."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition supplies the multi-part arrangement that requires maintenance."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "Successive stages make completion an iterative process across the route."
+              }
+            ],
+            "structural_cues": [
+              "In 106:3 the ر ب ب noun stands between the service verb and the demonstrated house.",
+              "The focus circuit precedes this naming of a maintaining authority."
+            ],
+            "reader_inference": "The packet supplies nurture-completion and duration branches; I infer that they act backward as the sustaining cause of the route's coherence, while sovereign ownership without a maintenance mechanism remains an equally live reading.",
+            "changed_reading": {
+              "before": "The circuit is composed by joining its stages.",
+              "after": "The circuit is a repeatedly repaired and completed arrangement whose continuity depends on ongoing stewardship."
+            }
+          },
+          {
+            "model_id": "d_growth_cycle_split_root",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The packet's non-dominant ر ب و mapping activates growth beside the focus ayah's seasonal rain potentials: the journey can be carried as a cultivated cycle that increases and matures, not only as governed motion.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Nourishment and growth from the non-dominant mapped root supply an organic development model."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining different parts gives the growing cycle an articulated structure."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B003",
+                "role": "Winter rain supplies one input into the cycle's nourishment."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B002",
+                "role": "Summer rain, pasture, and vegetation supply a second seasonal growth phase."
+              }
+            ],
+            "structural_cues": [
+              "The packet explicitly splits ر ب ب across dominant root_000532 and non-dominant root_000537.",
+              "Both focus-season inventories independently contain rain branches."
+            ],
+            "reader_inference": "The packet supplies a branch-backed split mapping plus two seasonal rain branches; I infer that growth can organize the whole route, while the live alternative is that the non-dominant mapping is only a lexical activation and governance remains primary.",
+            "changed_reading": {
+              "before": "The seasons are time slots in a maintained itinerary.",
+              "after": "The itinerary can also be imagined as a cultivated seasonal organism, fed by alternating conditions and growing through repeated composition."
+            }
+          },
+          {
+            "model_id": "d_house_anchors_mobile_home",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ي ت"
+            ],
+            "mechanism": "A fixed refuge and household center polarize the mobile dwelling potential of رِحْلَةَ; the circuit becomes departure and return around an anchor rather than indefinite displacement.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter and dwelling supply the fixed spatial anchor against which mobility is measured."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household sense makes the anchor social as well as architectural."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B004",
+                "role": "Travelling belongings and provisional dwelling provide the mobile counterpart to the fixed house."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B002",
+                "role": "Winter quarters supply one temporary satellite of the anchored household."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B003",
+                "role": "Summer residence supplies the alternate satellite and completes the oscillation."
+              }
+            ],
+            "structural_cues": [
+              "106:3 demonstratively singles out a house immediately after the seasonal journey.",
+              "The focus names two seasonal locations or activities without naming a fixed endpoint."
+            ],
+            "reader_inference": "The packet supplies fixed-house and mobile-dwelling images; I infer that the house organizes departure and return as a center, while the live alternative is that it is solely the object associated with service and has no logistical role.",
+            "changed_reading": {
+              "before": "The journey carries a provisional home from seasonal station to seasonal station.",
+              "after": "Portable seasonal dwellings orbit a fixed household center, turning mobility into an anchored rhythm of leaving and returning."
+            }
+          },
+          {
+            "model_id": "d_supply_chain_fills_lack",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ع م",
+              "ج و ع"
+            ],
+            "mechanism": "Livelihood and a time of generalized hunger sharpen the winter-famine baseline into a supply mechanism: composed route stages move sustenance across seasonal vacancies.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood, provision, and good condition supply the positive material flow carried by the route."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B002",
+                "role": "A period of widespread hunger scales lack from an individual stomach to a systemic seasonal condition."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B004",
+                "role": "Emptiness and thinning provide the vacancy that the supply flow must fill."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition connects sources, stages, and seasons into a distributive chain."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "Journey stages give the supply flow a relay structure."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B004",
+                "role": "Winter famine aligns one focus-season with the systemic lack named afterward."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B002",
+                "role": "Summer rain and pasture supply a possible yield pole feeding the relay."
+              }
+            ],
+            "structural_cues": [
+              "106:4 places feeding in a مِن relation to hunger.",
+              "The focus pairs winter and summer immediately before the material lack-relief statement."
+            ],
+            "reader_inference": "The packet supplies provision, generalized hunger, seasonal famine, yield, and route stages; I infer that the itinerary channels provision across lack, while the live alternative is that feeding occurs independently of the journey and only explains gratitude.",
+            "changed_reading": {
+              "before": "Seasonal travel compensates abstractly for unequal conditions.",
+              "after": "The composed itinerary reads as a relay that carries livelihood into seasonal emptiness, converting a calendar circuit into provision infrastructure."
+            }
+          },
+          {
+            "model_id": "d_security_revises_habituation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "Habituation acquires an affective and risk-bearing underside: repeated travel can settle the heart only because anticipated harm and attrition are held at bay, yet the causal direction may also run from repeated safe passage to trust.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Stillness of heart in security and trust supplies the affective state behind familiar movement."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Fear as expectation of harm supplies the forward-looking risk shadowing every departure."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B004",
+                "role": "Diminution or attrition turns danger into possible material loss, not feeling alone."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment is reread as trust sedimented by survivable repetition."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Actual departure is the exposure across which security or fear becomes consequential."
+              }
+            ],
+            "structural_cues": [
+              "106:4 places making-secure in a مِن relation to fear.",
+              "The security-fear pair follows the feeding-hunger pair, giving risk and subsistence parallel syntax."
+            ],
+            "reader_inference": "The packet supplies trust, expected harm, attrition, and habituated travel; I infer a reciprocal arrow between protected passage and growing familiarity, while both one-way alternatives—security enabling travel or successful travel producing confidence—remain live.",
+            "changed_reading": {
+              "before": "Familiarity is produced simply by repetition.",
+              "after": "Familiarity is stored evidence of protected passage: each journey negotiates expected harm and loss, and each survival deepens trust."
+            }
+          },
+          {
+            "model_id": "d_double_reversal_engine",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م",
+              "ج و ع",
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "The two seasonal poles become a transformation engine when read beside the paired reversals of 106:4: the circuit repeatedly carries emptiness toward sustenance and anticipated harm toward settled trust.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food supplies the first positive transformation enacted upon lack."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty stomach supplies the concrete negative state from which the first transformation begins."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Secure stillness and trust supply the second positive endpoint."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expected harm supplies the negative state from which the second transformation begins."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Composition binds the two transformations into one repeated operating system."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B001",
+                "role": "Winter supplies one alternating temporal chamber of the transformation cycle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer supplies the complementary chamber that makes the process recurrent."
+              }
+            ],
+            "structural_cues": [
+              "The focus has a coordinated winter-summer pair.",
+              "106:4 has two parallel verb-object-beneficiary patterns, each followed by مِن and a negative condition."
+            ],
+            "reader_inference": "The packet supplies paired seasons and two from-negative-to-positive constructions; I infer a shared conversion topology and assign the journey a mediating role, while the live alternative is that the later benefits motivate response without mapping onto the seasons.",
+            "changed_reading": {
+              "before": "The winter-summer pair marks recurrence.",
+              "after": "Recurrence has a directional function: the seasonal circuit repeatedly converts material vacancy and anticipated danger into sustenance and trust."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_levelled_rough_corridor",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from service vocabulary into route engineering and activates a rare rough-place winter branch. It remains anchored in رِحْلَةَ, ٱلشِّتَآءِ, and their cited inventories; downstream prose should present it as a material analogy, not as the lexical definition of the ayah.",
+            "focus_anchor": "رِحْلَةَ through a rough winter place, with the route imagined as made tractable",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Making level and tractable supplies an engineering image for disciplined passage."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B003",
+                "role": "Fastening the saddle supplies the preparatory act that makes passage operational."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B005",
+                "role": "A rough place or valley front supplies the resistant terrain to be crossed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The journey traverses a ready-made route.",
+              "after": "The journey can be carried as a corridor continually made serviceable: gear is fastened and rough seasonal terrain is disciplined into passage."
+            }
+          },
+          {
+            "outlier_id": "o_grafted_route_network",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain grafting activation rather than an ordinary travel sense. It remains valid because focus ء ل ف supplies joining and focus ر ح ل supplies fastening, while the context branch explicitly contributes acceptance of a graft; render it as an exploratory systems metaphor, never as a settled lexical claim.",
+            "focus_anchor": "إِۦلَٰفِهِمْ and رِحْلَةَ as joined and fastened structures",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "Feeding a branch and accepting a graft supply the image of a living junction that carries nourishment."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining separated parts supplies the route network's connective principle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B003",
+                "role": "Fastening travel gear supplies the mechanical analogue of securing each junction."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Nourishment and growth let the joined route behave like a living network rather than a static chain."
+              }
+            ],
+            "changed_reading": {
+              "before": "The itinerary links fixed stages.",
+              "after": "The itinerary resembles a grafted network: joined, fastened junctions accept and carry nourishment so the whole circuit can grow."
+            }
+          },
+          {
+            "outlier_id": "o_adaptive_summer_deviation",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because it activates the branch of ص ي ف concerning deviation from an aim and its proverbial timing branch, both distant from ordinary summer. It stays anchored in the explicit summer word and the staged journey; downstream use should mark it as a lexical-shadow reading about adaptive rerouting, not replace the seasonal sense.",
+            "focus_anchor": "ٱلصَّيْفِ as a possible deviation or timing signal inside the staged رِحْلَةَ",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B005",
+                "role": "Turning aside from an aim supplies a detour image within the seasonal route."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B006",
+                "role": "Proverbial missed timing or completed need turns summer into a decision threshold."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "Successive journey stages provide points at which timing and direction can be revised."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B004",
+                "role": "Possible diminution supplies the loss pressure that can make rerouting adaptive."
+              }
+            ],
+            "changed_reading": {
+              "before": "Summer is simply the second fixed season of travel.",
+              "after": "Summer also casts a lexical shadow of timing and deviation: the circuit survives by knowing when a stage must bend away from its expected line to prevent loss."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated ء ل ف wording turns habituation into a feedback loop in which cohesion enables the circuit and the circuit renews cohesion.",
+            "The fixed house polarizes the portable dwelling senses of رِحْلَةَ, producing an anchored rhythm of departure and return.",
+            "Feeding-hunger and security-fear recast the winter-summer circuit as provision and safe-passage infrastructure that transforms lack and risk."
+          ],
+          "what_was_special": "The focus ayah sustained several coexisting mechanisms—habit, composition, portable dwelling, seasonal compensation, stewardship, and conversion—while branch-distant cues opened tractable-road, grafted-network, growth, and adaptive-detour readings without displacing the ordinary seasonal journey.",
+          "remaining_uncertainties": [
+            "The direction between secure passage and habituation remains reversible: protection may enable repetition, or repeated survival may produce trust.",
+            "The non-dominant ر ب و growth activation is packet-backed but may remain only a lexical shadow beside the dominant stewardship reading.",
+            "Winter-famine and summer-rain form a coherent compensatory model, but the focus syntax itself does not assign deficit and yield causally to the two journeys.",
+            "The fixed house may organize the travel circuit spatially, or it may function only as the directed center of the following service."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Seasonal journey as a joined circuit.** Lexical evidence: ء ل ف B002/B005 (joining parts; familiar attachment), ر ح ل B001/B006 (journeying; stages), ش ت و B001 and ص ي ف B001 (winter and summer seasons). Structural cue: 106:2 repeats \"إِيلَاف\" from 106:1 and apposes it to the singular \"رِحْلَةَ\" spanning two seasons. Assigned role: ء ل ف binds the two opposite seasons and the route stages into a coherent annual circuit. Abductive move: I infer that the singular journey is conceptual, a patterned system made from repeated seasonal departures. Reading change: the fixed ayah reads as an ordered calendar of movement, not just two separate trips.\n\n2. **Journey equipment and bodily readiness.** Lexical evidence: ر ح ل B002/B003/B005 (camel saddle gear; placing the saddle; fit riding mount), ع ب د B005/B011 in 106:3 (made passable/subdued; stranded by failed mount), and ط ع م B007/B009 in 106:4 (animal fatness; eliciting a horse's run). Structural cue: the travel noun sits between habituation and divine feeding/security; the packet's branch inventory makes travel materially dependent on animals, gear, and physical condition. Assigned role: ر ح ل supplies the apparatus; ع ب د and ط ع م supply passability, animal strength, and motion. Abductive move: I infer that the ayah's \"journey\" includes the maintenance of travel capacity, not only the act of going. Reading change: the fixed ayah becomes logistical: saddles, mounts, strength, and reliable roads are latent in \"رِحْلَةَ\".\n\n3. **Winter and summer as risk ecology.** Lexical evidence: ش ت و B004 (winter as famine/privation), ج و ع B002 in 106:4 (famine-time), ص ي ف B002/B003 (summer rain; summer-season provisions or transactions), and ط ع م B004/B005 (livelihood; ripening produce). Structural cue: the two seasons in 106:2 are answered by \"from hunger\" in 106:4. Assigned role: winter activates scarcity; summer activates rain, produce, and seasonal provision. Abductive move: I infer that seasonal travel is a strategy for passing through alternating ecological threats and opportunities. Reading change: \"الشتاء والصيف\" no longer functions as a simple time label; it becomes a map of famine, rain, ripening, and livelihood.\n\n4. **Journey as displacement held short of expulsion.** Lexical evidence: ر ح ل B001 (going forth), B007 (driving away/dislodging), B009 (burdening with harm), خ و ف B001/B002 in 106:4 (fear; making afraid), and ء م ن B001 (safe-conduct). Structural cue: the same movement root can describe chosen travel or being forced away; the final ayah says they are secured from fear. Assigned role: the darker ر ح ل branches provide the threatened underside of mobility. Abductive move: I infer that safe seasonal circulation is distinguished from traumatic removal by the gift of security. Reading change: the fixed ayah reads as protected mobility: travel remains journey rather than exile, harassment, or harmful burdening.\n\n5. **Journey as temporary dwelling.** Lexical evidence: ر ح ل B004/B006 (one's dwelling and travelling belongings; stage between stops), ب ي ت B001/B005/B006 in 106:3 (shelter; one night's provision; things kept overnight), and ر ب ب B007 (staying/clinging/lasting). Structural cue: \"رِحْلَةَ\" is followed by \"البيت\"; the journey inventory itself includes dwellings and stages. Assigned role: ر ح ل makes each stop a portable house, while ب ي ت gives the fixed house that organizes the whole circuit. Abductive move: I infer that the travel system alternates between temporary shelters and a central sanctuary-house. Reading change: 106:2 becomes about inhabited movement, not empty transit.",
@@ -12798,14 +13778,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s106/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 36,
+        "ayah_count": 4,
+        "row_count": 29,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13005,10 +13991,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s106/packets/106_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s106/readers/reader_hft_a/106_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s106"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s106",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 60905,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

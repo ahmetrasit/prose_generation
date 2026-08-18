@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.821542+00:00",
+  "generated_at": "2026-08-18T13:34:24.525087+00:00",
   "surah": 99,
   "ayah": 7,
   "ayahRef": "99:7",
@@ -1869,7 +1869,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:1"
+      "aligned_qac_word_ref_upstream": "99:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1883,7 +1884,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:2"
+      "aligned_qac_word_ref_upstream": "99:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1897,7 +1899,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:3"
+      "aligned_qac_word_ref_upstream": "99:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1911,7 +1914,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:4"
+      "aligned_qac_word_ref_upstream": "99:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1925,7 +1929,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:5"
+      "aligned_qac_word_ref_upstream": "99:7:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1939,7 +1944,8 @@
       "morpheme_ids": [
         "m-w-s099-a007-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:6"
+      "aligned_qac_word_ref_upstream": "99:7:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1955,7 +1961,8 @@
         "m-w-s099-a007-w006-01",
         "m-w-s099-a007-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:7:7"
+      "aligned_qac_word_ref_upstream": "99:7:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3955,7 +3962,770 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:7",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_exact_moral_visibility",
+            "confidence": "strong",
+            "focus_anchor": "يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+            "mechanism": "Deliberate action enters an exact scale whose smallest positive unit remains perceptible to its agent.",
+            "activation_trace": [
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies deliberate human agency as the input to the accounting mechanism."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weight and weighing supplies exact calibration rather than a vague estimate."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "Tiny scattered motes supply the limiting case that tests whether any good can disappear."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Desired and beneficial good supplies the positive moral value being preserved."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies perceptible encounter as the mechanism's endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "Even a very small good deed will somehow matter.",
+              "after": "Every intentional good, down to the smallest calibrated unit, is preserved until its agent perceptibly encounters it."
+            }
+          },
+          {
+            "model_id": "baseline_small_yet_weighty",
+            "confidence": "medium",
+            "focus_anchor": "مِثْقَالَ ذَرَّةٍ خَيْرًا",
+            "mechanism": "The phrase overlays physical minuteness with evaluative weight, reversing the assumption that small scale entails small worth.",
+            "activation_trace": [
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Weight as preciousness and rank supplies qualitative worth alongside quantitative measure."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny scattered mote supplies maximal physical slightness against which worth is reassessed."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Virtue and chosen excellence supplies value that need not track outward size."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment supplies the reassessment by which apparently negligible good is recognized as weighty."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mote is merely a lower quantitative threshold.",
+              "after": "The mote stages a scale reversal: physically minute good can still carry precious evaluative weight."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_extracted_micro_burden",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "خ ر ج",
+              "ث ق ل"
+            ],
+            "mechanism": "Whole-earth upheaval and the extraction of its burdens establish a macro disclosure process; the focus ayah contracts that process to one person's mote-weight good.",
+            "activation_trace": [
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "Disturbance and shaking supplies the force that breaks the scene's prior stability and concealment."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing a thing out of hiding supplies the disclosure movement from interior concealment to exterior presence."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Physical or assessed heaviness supplies the earth-scale burden against which the focus ayah's tiny weight is set."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weighing converts the context's mass disclosure into exact individual calibration."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny mote supplies the microscopic counterpart to the earth's plural burdens."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something seen supplies the final presentation of what upheaval has exposed."
+              }
+            ],
+            "structural_cues": [
+              "99:1-2 move from the whole earth to its plural burdens, while 99:7 narrows the scale to one agent and one mote-weight good.",
+              "The sequence runs from disturbance through extraction to later individual visibility."
+            ],
+            "reader_inference": "The packet supplies shaking, extraction from hiding, and burdens; I infer that a deed can be modeled as a concealed deposit disclosed by upheaval. The burdens could instead be bodies or other contents, in which case the macro-to-micro scale analogy remains without the deposit claim.",
+            "changed_reading": {
+              "before": "A tiny good is accurately noticed.",
+              "after": "A tiny good is a concealed moral burden that the same disclosure process operating on the earth extracts and places before its agent."
+            }
+          },
+          {
+            "model_id": "delta_authorized_testimony",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح د ث",
+              "خ ب ر",
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "The earth becomes an authorized reporting medium: concealed knowledge is converted into testimony, so seeing the good becomes confrontation with disclosed evidence rather than bare visual perception.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as report supplies the earth's transition from mute setting to articulate witness."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of a report and an affair's interior supplies informed testimony rather than mere surface display."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and mastery supplies the authority under which the disclosure occurs."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "Hidden imparting of knowledge supplies the earth's access to what it will report."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B003",
+                "role": "Writing and engraving supplies an archival analogy for acts retained until disclosure."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Showing and making seen supplies the conversion of testimony into evidence presented to the agent."
+              }
+            ],
+            "structural_cues": [
+              "The human question in 99:3 is answered in 99:4-5 by the earth's reporting under command.",
+              "The feminine pronouns keep the earth as the continuous reporting medium before 99:7 shifts to the singular human recipient."
+            ],
+            "reader_inference": "The packet supplies reporting, inward knowledge, sovereign authorization, hidden communication, and an engraving branch; I infer an authorized record-witness that retains acts. A live alternative is that the agent sees only the act's consequence or recompense, not an evidentiary presentation of the act itself.",
+            "changed_reading": {
+              "before": "The agent directly sees a good act or its outcome.",
+              "after": "The agent is confronted with an authorized disclosure in which the smallest good is made evidentially present."
+            }
+          },
+          {
+            "model_id": "delta_collective_to_individual_showing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ر",
+              "ش ت ت",
+              "ر ء ي",
+              "ع م ل"
+            ],
+            "mechanism": "A departing and dispersed human multitude is made to see its deeds; the focus ayah zooms from that collective staging to the irreducible one-agent, one-act encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure from a point of arrival supplies directed movement into the display scene."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion and separation supplies differentiation within the human multitude."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing to see supplies an externally staged presentation rather than optional self-inspection."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional deeds supplies the plural corpus being presented to the dispersed people."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing narrows the plural deed corpus to one agent's concrete input."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Exact weighing supplies the per-act resolution of the collective display."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Direct perception supplies the singular agent's realized encounter with what was shown collectively."
+              }
+            ],
+            "structural_cues": [
+              "99:6 uses a plural human subject, dispersed groups, and a causative showing of plural deeds.",
+              "99:7 immediately recasts that scene through the singular conditional 'whoever' and a singular pronominal object."
+            ],
+            "reader_inference": "The packet supplies departure, dispersion, caused seeing, and plural deeds; I infer that dispersion individuates accounts and that 99:7 supplies one microscopic case. The groups may instead mark classes or destinations, but the singular conditional still personalizes the disclosure.",
+            "changed_reading": {
+              "before": "The line is a general maxim applying to any person.",
+              "after": "The crowd-level display resolves into a one-person case in which each separated agent is made to confront each calibrated act."
+            }
+          },
+          {
+            "model_id": "delta_symmetric_valence_ledger",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ث ق ل",
+              "ذ ر ر",
+              "ش ر ر",
+              "ر ء ي"
+            ],
+            "mechanism": "The next ayah repeats the entire action-measure-particle-visibility pipeline while replacing good with evil, making the focus ayah the positive side of a valence-symmetric disclosure system.",
+            "activation_trace": [
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies the same agentive input on the negative side."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weighing supplies an unchanged calibration rule across moral valences."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny mote supplies the same lower bound on the negative side."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and harm supplies the polarity reversal while the surrounding mechanism remains fixed."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the same perceptible endpoint for the negative side."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good supplies the positive pole whose separate preservation the mirror construction highlights."
+              }
+            ],
+            "structural_cues": [
+              "99:7 and 99:8 repeat the same word-root sequence around the sole lexical substitution of good and evil.",
+              "The adjacent singular conditionals preserve agent, scale, and perceptual endpoint on both sides."
+            ],
+            "reader_inference": "The packet supplies an almost invariant paired construction with only moral polarity changed; I infer that each valence is separately preserved rather than silently netted away. The pair could instead express comprehensive range without specifying whether final judgment aggregates the two sides.",
+            "changed_reading": {
+              "before": "The focus ayah is an isolated assurance that tiny good will be seen.",
+              "after": "The assurance is one half of a symmetric ledger: good follows the same exact disclosure path as evil and is not lost merely because the account also contains its opposite."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_gestation_to_visibility",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it recasts an accounting clause as gestation and growth. It remains anchored through co-occurring focus branches for a load becoming heavy in pregnancy, pregnancy becoming visible, and gentle emergence, sharpened by fertile earth and extraction. Render it only as an analogy for latency becoming visible, not as a lexical claim that the focus words denote gestation.",
+            "focus_anchor": "مِثْقَالَ ذَرَّةٍ ... يَرَهُ",
+            "activation_trace": [
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B007",
+                "role": "A pregnancy becoming heavy supplies a carried-latency stage in which consequence develops before disclosure."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B010",
+                "role": "Pregnancy becoming outwardly visible supplies the transition from hidden development to manifest sign."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B004",
+                "role": "Gentle spreading emergence, including first growth, supplies the tiny beginning's unfolding."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile earth supplies the material setting for hidden growth."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing a thing out of concealment supplies the culmination in exposed presence."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good supplies the moral content carried through the growth analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The smallest good is a static item placed on a scale.",
+              "after": "The smallest good can be carried like a latent beginning whose accumulated consequence eventually becomes visibly manifest."
+            }
+          },
+          {
+            "outlier_id": "outlier_exact_exchange_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends partly on the packet's non-dominant ش ر ي mapping attached to 99:8's ش ر ر, not on the ordinary meaning of evil. It remains anchored because focus عمل itself supplies transaction and wage branches while مثقال supplies weighing. Render settlement only as a cross-root associative model, never as a translation equating evil with sale.",
+            "focus_anchor": "يَعْمَلْ مِثْقَالَ ... خَيْرًا يَرَهُ",
+            "activation_trace": [
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Dealing or transaction between people supplies an exchange frame for the action."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "Wage or pay for work supplies the possibility of a return corresponding to action."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weight and weighing supplies exact settlement rather than rough equivalence."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift supplies the positive value transferred or returned."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The non-dominant sale-and-purchase branch supplies a deliberately form-distant exchange activation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Matching and correspondence supplies the counterpart relation between deed and disclosed return."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen supplies presentation of the settled counterpart to the actor."
+              }
+            ],
+            "changed_reading": {
+              "before": "The agent simply observes a tiny good deed or result.",
+              "after": "The smallest good enters an exactly weighed settlement and returns to its actor as a visible counterpart or credit."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The earth's extracted burdens turn the mote-weight good into the microscopic instance of a world-scale disclosure process.",
+            "The earth's authorized report turns seeing into confrontation with testimony, not merely visual awareness.",
+            "The dispersed crowd and causative showing resolve into an individualized encounter, while 99:8 makes the same mechanism symmetric across good and evil."
+          ],
+          "what_was_special": "The focus ayah concentrates the surrounding surah's macro upheaval, reporting earth, and collective display into one exact human encounter. The most unusual live activations were a latency-to-manifestation model built from pregnancy and emergence branches, and an exact-settlement model supported by focus transaction branches plus a non-dominant split-root cue.",
+          "remaining_uncertainties": [
+            "The pronoun's encountered object may be the deed itself, its evidentiary record, its consequence, or its recompense.",
+            "The paired good and evil clauses strongly preserve both sides but do not by themselves settle whether final judgment also aggregates them.",
+            "The gestation and exchange models are branch-backed analogies and should not be promoted to lexical glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Minimum good as measured visible output.** Lexical evidence: `ع م ل B001` intentional doing; `ث ق ل B004` standard weight/weighing; `ذ ر ر B001` tiny scattered mote/ant; `خ ي ر B001` desired beneficial good; `ر ء ي B001/B012` seeing and making seen. Structural cue: the ayah follows 99:6’s purpose clause `ليروا أعمالهم`, then individualizes it with `فمن`. Assigned role: action becomes a tiny measurable weight that is made visible to its doer. Abductive move: I infer that moral acts can be represented as measurable particles because the packet links works, weights, and seeing. Reading change: the ayah reads as precision-accounting of even the smallest intentional good.\n\n2. **Good as chosen excellence under coercive display.** Lexical evidence: `خ ي ر B002` virtue/chosen excellence; `خ ي ر B003` choosing/seeking the better option; activated by `ر ء ي B002` reflective judgment and 99:6’s people seeing deeds. Structural cue: `خيرا` stands between the minimal weight and seeing, after a life of عمل. Assigned role: good is not just pleasant benefit but a chosen/excellent orientation now objectified. Abductive move: I infer that the visible outcome discloses prior choice because `خ ي ر` includes selection and `عمل` includes intentionality. Reading change: the ayah reads as revelation of chosen orientation, not simply credit for a small unit.\n\n3. **Mote as scattered seed/emergence.** Lexical evidence: `ذ ر ر B002` scattering grains/powder and `ذ ر ر B004` gentle spreading emergence; activated by `ء ر ض B002` fertile ground and `خ ر ج B003` yield from land. Structural cue: the earth has already output its burdens; now a tiny particle is the measure. Assigned role: the `ذرة` can be a seed-like minimal deposit that later emerges into visibility. Abductive move: I infer that tiny acts are planted/scattered in the world and later rise/show as output. Reading change: the ayah reads agriculturally: even seed-sized good returns from the earth-account.\n\n4. **Seeing as mirror against ostentation.** Lexical evidence: `ر ء ي B006` mirror/visible appearance; `ر ء ي B005` showing off before people; activated by `س م و B008` good repute spread in the basmalah’s `اسم` field and `ق و ل B007` public talk in 99:3. Structural cue: the deed is seen by the doer (`يره`) after public-human discourse and scattering. Assigned role: the final seeing reverses performative visibility: what may have been done to be seen by people is now shown back to the self. Abductive move: I infer reversal because the same visibility-root includes ostentation and compelled showing; the packet supplies both people/public talk and final seeing. Reading change: the ayah includes a critique of reputation-management without displacing the primary measured-good reading.",
@@ -21478,14 +22248,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -21798,10 +22574,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 135871,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.377553+00:00",
+  "generated_at": "2026-08-18T13:34:06.182926+00:00",
   "surah": 90,
   "ayah": 10,
   "ayahRef": "90:10",
@@ -1135,7 +1135,8 @@
       "morpheme_ids": [
         "m-w-s090-a010-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:10:1"
+      "aligned_qac_word_ref_upstream": "90:10:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1153,7 +1154,8 @@
         "m-w-s090-a010-w001-03",
         "m-w-s090-a010-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "90:10:2"
+      "aligned_qac_word_ref_upstream": "90:10:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1169,7 +1171,8 @@
         "m-w-s090-a010-w002-01",
         "m-w-s090-a010-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "90:10:3"
+      "aligned_qac_word_ref_upstream": "90:10:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2953,7 +2956,1396 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s90/packets/90_10.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "90:10",
+      "window": [
+        "90:1",
+        "90:2",
+        "90:3",
+        "90:4",
+        "90:5",
+        "90:6",
+        "90:7",
+        "90:8",
+        "90:9",
+        "90:10",
+        "90:11",
+        "90:12",
+        "90:13",
+        "90:14",
+        "90:15",
+        "90:16",
+        "90:17",
+        "90:18",
+        "90:19",
+        "90:20"
+      ],
+      "ayah_count": 20,
+      "split_root_mappings": [
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ح ل ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000351",
+              "furuq_root_norm": "ح ل ل",
+              "furuq_source_root_norm": "ح ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 39,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000353",
+              "furuq_root_norm": "ح ل ي",
+              "furuq_source_root_norm": "ح ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "90:10",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base-visible-ridges",
+            "confidence": "strong",
+            "focus_anchor": "The transitive act in هَدَيْنَاهُ joins the definite dual ٱلنَّجْدَيْنِ.",
+            "mechanism": "Gentle indication combines with raised, conspicuous terrain: the dual presents two alternatives as exposed routes that can be distinguished before either is traversed. Their equal visibility need not make them equal in value.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle guidance toward a way or truth supplies the act that brings the alternatives before the human."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Raised hard ground or a high path supplies the concrete terrain carried by the dual object."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B002",
+                "role": "Coming clearly into view makes elevation function as manifest distinguishability rather than hidden destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "God gives the human a binary moral choice.",
+              "after": "God gently brings two elevated and plainly distinguishable courses into view, granting orientation while leaving traversal unresolved."
+            }
+          },
+          {
+            "model_id": "base-effort-bearing-courses",
+            "confidence": "medium",
+            "focus_anchor": "The course-sense of هَدَيْنَاهُ meets distress and exertion within the semantic range of ٱلنَّجْدَيْنِ.",
+            "mechanism": "A directed course across high ground is effort-bearing: distress and sweat are not accidental penalties added after choice but properties of exposed ascent. Guidance therefore supplies direction without promising ease.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course, manner, and intended direction make guidance an oriented mode of proceeding."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B005",
+                "role": "Pressing distress supplies resistance intrinsic to the two courses."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B006",
+                "role": "Sweat from effort or fear gives the high-road image a bodily cost of traversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two ways are neutral lines on a moral map.",
+              "after": "The two courses are disclosed as effort-bearing terrain; being shown a way does not remove its strain."
+            }
+          },
+          {
+            "model_id": "base-enabled-agency",
+            "confidence": "medium",
+            "focus_anchor": "هَدَيْنَاهُ names an act done for the human, while branches of ٱلنَّجْدَيْنِ carry help, courage, and effective completion.",
+            "mechanism": "Guidance can be more than information: indication joins the strength, help, and efficacy needed to advance. The dual then presents fields of consequential action rather than merely propositions to approve.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Guidance and divine enabling supply orientation as an assistance offered to the traveler."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B003",
+                "role": "Strong courage and help turn each visible route into a demand for empowered agency."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B004",
+                "role": "Quick effective completion contributes the practical capacity to carry a chosen course through."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance only tells the human which alternatives exist.",
+              "after": "Guidance also enables consequential movement, placing help, courage, and effective action inside the field of the two courses."
+            }
+          },
+          {
+            "model_id": "base-gifted-bearing",
+            "confidence": "exploratory",
+            "focus_anchor": "The benefactive force of هَدَيْنَاهُ can activate gifting and composed bearing while ٱلنَّجْدَيْنِ keeps the reading on exposed high routes.",
+            "mechanism": "A gracious gift and calm, unrouted bearing coexist as an exploratory manner-reading: what is bestowed is not only a map but steadiness for moving across exposed terrain.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "A gracious gift sent to someone close makes the guiding act sound like a bestowed capacity."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B010",
+                "role": "Calm stillness and composed bearing supply the manner in which exposed terrain can be crossed."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Raised high ground keeps the gift-and-bearing activation anchored to the verse's dual terrain."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports an external instruction.",
+              "after": "The verse can also be heard as graciously bestowing a composed capacity for negotiating two exposed routes."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx-civic-thresholds",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق س م",
+              "ب ل د",
+              "ح ل ل"
+            ],
+            "mechanism": "Partition, bounded land, and the loosening of prohibition turn the two high roads into thresholds through a civic and juridical landscape. Guidance includes recognizing which boundary is traversable and under what status.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction anchor the threshold reading in the focus verb."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Raised paths provide the traversable topography within the bounded setting."
+              },
+              {
+                "source_ref": "90:1",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating a share or dividing a thing supplies the act of partition that makes two routes distinct."
+              },
+              {
+                "source_ref": "90:1",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A bounded tract of land supplies the civic container through which the routes pass."
+              },
+              {
+                "source_ref": "90:2",
+                "root": "ح ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000351",
+                "branch_id": "B003",
+                "role": "The dissolution of a prohibition makes legal opening or closure function as a property of a route."
+              }
+            ],
+            "structural_cues": [
+              "The context opens by repeating the deictic bounded place in 90:1-2 before the focus introduces dual terrain.",
+              "The ambiguous status term in 90:2 stands between partitioning language and later route language."
+            ],
+            "reader_inference": "The packet supplies division, bounded land, released prohibition, and high paths; I infer a threshold system linking them. A live alternative is that the opening place and status remain oath-setting rather than a map of the focus dual.",
+            "changed_reading": {
+              "before": "The two ways are abstract moral options independent of place.",
+              "after": "The two ways become routes across bounded and differently permitted terrain, so guidance includes threshold literacy."
+            }
+          },
+          {
+            "model_id": "ctx-designed-discernment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ج ع ل",
+              "ع ي ن",
+              "ل س ن",
+              "ش ف ه"
+            ],
+            "mechanism": "Creation and making, followed by eyes, tongue, and lips, place guidance inside an endowed sensorimotor and communicative architecture. The two routes are made discernible through capacities to see, formulate, and transmit a response.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "A graciously sent gift lets the focus act function as an endowment rather than a later command alone."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B002",
+                "role": "Coming clearly into view supplies the perceptible object of the endowed faculties."
+              },
+              {
+                "source_ref": "90:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence establishes the human capacities as deliberately given."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B001",
+                "role": "Making or producing a thing links the paired eyes directly to the same benefactive architecture as guidance."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye supplies perceptual discrimination between manifest routes."
+              },
+              {
+                "source_ref": "90:9",
+                "root": "ل س ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001355",
+                "branch_id": "B001",
+                "role": "The tongue as the organ of speech supplies formulation of what has been discerned."
+              },
+              {
+                "source_ref": "90:9",
+                "root": "ش ف ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000804",
+                "branch_id": "B002",
+                "role": "Speech passing from lip to lip makes discernment socially transmissible rather than purely interior."
+              }
+            ],
+            "structural_cues": [
+              "The first-person plural acts of creating, making, and guiding form one benefactive sequence.",
+              "Two eyes and two lips immediately precede the two high routes."
+            ],
+            "reader_inference": "The packet supplies created faculties, paired organs, communication, gifted guidance, and visible routes; I infer that the sequence presents guidance as embodied affordance. The alternative is a looser list of favors with no single functional architecture.",
+            "changed_reading": {
+              "before": "Guidance arrives chiefly as an external verbal instruction.",
+              "after": "Guidance is also built into the human as perceptual and communicative equipment by which the two courses become actionable."
+            }
+          },
+          {
+            "model_id": "ctx-stereoscopic-duality",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "ع ي ن",
+              "ش ف ه",
+              "ي م ن",
+              "ش ء م"
+            ],
+            "mechanism": "Division, paired eyes, paired lips, and terminal right-left orientation make the focus dual relational: contrast itself produces moral depth, as two viewpoints produce discrimination that one isolated line cannot.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Intended direction makes comparative orientation, rather than bare enumeration, the focus operation."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B002",
+                "role": "Clear manifestation lets each member of the dual disclose the contrastive shape of the other."
+              },
+              {
+                "source_ref": "90:1",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B006",
+                "role": "A mind apportioned among aspects supplies the comparative act required to hold two routes in view."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The paired seeing organs supply the structural analogy of depth through two viewpoints."
+              },
+              {
+                "source_ref": "90:9",
+                "root": "ش ف ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000804",
+                "branch_id": "B001",
+                "role": "The two lips supply a second bodily dual whose coordinated contrast yields one meaningful act."
+              },
+              {
+                "source_ref": "90:18",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right hand or rightward side gives one terminal orientation to the focus dual."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ش ء م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000772",
+                "branch_id": "B001",
+                "role": "The left side supplies the opposed terminal orientation that closes the dual pattern."
+              }
+            ],
+            "structural_cues": [
+              "The sequence عينين، شفتين، النجدين repeats dual morphology before the later right-left grouping.",
+              "Each anatomical pair acts jointly, which prevents the formal dual from being reduced automatically to two unrelated objects."
+            ],
+            "reader_inference": "The packet supplies repeated duals, division among aspects, and right-left outcomes; I infer a stereoscopic logic in which contrast enables discernment. The alternative is rhetorical parallelism without a theory of comparative perception.",
+            "changed_reading": {
+              "before": "The dual merely counts two already labeled options.",
+              "after": "The dual stages contrast as a faculty: each route helps render the other legible, producing a stereoscopic moral field."
+            }
+          },
+          {
+            "model_id": "ctx-accountable-visibility",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س ب",
+              "ق د ر",
+              "ق و ل",
+              "ر ء ي"
+            ],
+            "mechanism": "Suspicion about unchecked capacity becomes a spoken claim and is answered by seeing. Against that epistemic enclosure, guidance and manifest high ground expose both route and traveler: agency is real but not private or unobserved.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Clarifying and showing a way supplies the corrective disclosure."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B002",
+                "role": "Coming clearly into view makes the routes and conduct upon them publicly legible."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Reckoning or suspicion supplies the mistaken interior estimate that guidance corrects."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Capacity sufficient for action supplies the agent's real but misread power."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced speech externalizes the agent's self-account and makes it answerable."
+              },
+              {
+                "source_ref": "90:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight defeats the fantasy that conduct on either route escapes view."
+              }
+            ],
+            "structural_cues": [
+              "Parallel questions in 90:5 and 90:7 enclose the expenditure claim of 90:6.",
+              "The seeing question is followed by eyes and then by manifest dual routes."
+            ],
+            "reader_inference": "The packet supplies mistaken reckoning, capacity, utterance, seeing, and manifest guidance; I infer that disclosure imposes accountability on agency. The alternative is that seeing only rebuts a boast and does not characterize the two routes.",
+            "changed_reading": {
+              "before": "The two paths are private choices known only to the chooser.",
+              "after": "The two paths are disclosed arenas of accountable agency: the chooser has capacity, but neither route nor conduct upon it is hidden."
+            }
+          },
+          {
+            "model_id": "ctx-ordeal-terrain",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ب د",
+              "ق ح م",
+              "ع ق ب",
+              "ص ب ر"
+            ],
+            "mechanism": "Human struggle, hazardous entry, the hard rising pass, and restraint under pressure converge on the focus branches of elevation, distress, and sweat. The later obstacle does not replace the two routes; it reveals that at least one disclosed course must be enacted uphill.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Showing the road supplies orientation into, not exemption from, the ordeal."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Raised hard ground gives the two routes their uphill material form."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B005",
+                "role": "Pressing distress makes difficulty intrinsic to the route rather than evidence that guidance failed."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B006",
+                "role": "Sweat of exertion gives bodily residue to the act of ascent."
+              },
+              {
+                "source_ref": "90:4",
+                "root": "ك ب د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001280",
+                "branch_id": "B002",
+                "role": "Struggle and sustained hardship establish exertion as the human condition surrounding the focus."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ق ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001202",
+                "branch_id": "B002",
+                "role": "Dangers and difficult roads turn seeing a route into the harder question of entering it."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B012",
+                "role": "A difficult rising obstacle concretizes one high course as an ascent demanding action."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Holding the self back from panic supplies the temporal endurance needed on difficult terrain."
+              }
+            ],
+            "structural_cues": [
+              "90:4 places the human in struggle; 90:10 discloses high routes; 90:11-12 immediately repeat the obstacle.",
+              "The shift from dual high routes to a singular definite obstacle can specify a demanded ascent without exhausting the dual."
+            ],
+            "reader_inference": "The packet supplies struggle, elevated routes, bodily exertion, hazardous entry, a hard rise, and endurance; I infer that friction belongs to guidance's terrain. A live alternative is that the singular obstacle names only one morally positive route while the other remains comparatively easy.",
+            "changed_reading": {
+              "before": "Once guidance identifies the correct route, difficulty is incidental.",
+              "after": "Guidance discloses an uphill field whose resistance, sweat, and need for endurance are constituent features of the demanded course."
+            }
+          },
+          {
+            "model_id": "ctx-opposed-expenditure-circuits",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ه ل ك",
+              "م و ل",
+              "ل ب د",
+              "ف ك ك",
+              "ط ع م",
+              "س غ ب"
+            ],
+            "mechanism": "Exhausted effort, accumulated wealth, and piled quantity form one resource circuit; releasing a captive and feeding amid hunger form another. The focus course-and-completion branches turn the dual into opposed directions of expenditure: consumption for a claim versus effective transfer that restores another's agency or life.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction make the focus capable of routing resources toward different ends."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B004",
+                "role": "Effective completion distinguishes expenditure that accomplishes a need from expenditure merely claimed."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B009",
+                "role": "Exhausting or using up effort supplies the dissipative motion of the first circuit."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquiring and multiplying wealth supplies what can be routed or consumed."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ل ب د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001340",
+                "branch_id": "B002",
+                "role": "A piled mass supplies accumulation whose quantity alone does not establish a successful course."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Releasing a pledge or captive converts resources into restored freedom."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another converts possession into sustaining transfer."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "س غ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000710",
+                "branch_id": "B001",
+                "role": "Hunger joined with exhaustion supplies the urgent need against which expenditure becomes effective or empty."
+              }
+            ],
+            "structural_cues": [
+              "The first expenditure appears as a first-person boast in 90:6; the later expenditures appear as concrete release and feeding in 90:13-14.",
+              "The focus dual lies between the claim of consumed heaps and the specification of need-answering acts."
+            ],
+            "reader_inference": "The packet supplies used-up wealth, heaps, release, feeding, and hunger; I infer two opposed flow patterns and treat effective completion as their discriminator. The text does not explicitly state that the earlier expenditure could have funded the later acts, so that resource arrow remains abductive.",
+            "changed_reading": {
+              "before": "The two ways are general categories of good and evil.",
+              "after": "The two ways become rival resource circuits: self-advertising dissipation and effective transfer that frees or feeds another."
+            }
+          },
+          {
+            "model_id": "ctx-social-lift",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ك",
+              "ر ق ب",
+              "ط ع م",
+              "ي ت م",
+              "ق ر ب",
+              "س ك ن",
+              "ت ر ب"
+            ],
+            "mechanism": "Release, feeding, severed support, kinship, abasement, and dust recast high ground as relational elevation. The difficult route is not a solitary climb: it is enacted by loosening what binds another and raising those pressed down by hunger, isolation, or poverty.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Manner and course anchor the later social acts as the practical shape of a route."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B003",
+                "role": "Help and recovered strength make elevation something that can be transferred to another."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Freeing a captive from enclosure supplies the route's first upward social motion."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B004",
+                "role": "The literal neck or person supplies the embodied other whose elevation is at stake."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food supplies direct restoration of another's capacity to continue."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child cut off from a caretaker identifies social severance that the route must answer."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Near kinship turns ascent into obligation within an already connected social field."
+              },
+              {
+                "source_ref": "90:16",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "The abasement of poverty supplies the low social position from which help must lift."
+              },
+              {
+                "source_ref": "90:16",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B002",
+                "role": "Poverty figured as sticking to dust supplies the vertical counter-image to the focus high ground."
+              }
+            ],
+            "structural_cues": [
+              "The singular obstacle is unpacked through acts whose objects are captive, hungry, orphaned, related, or ground-down persons.",
+              "High ground in the focus and dust in 90:16 create a vertical relation rather than only a moral label."
+            ],
+            "reader_inference": "The packet supplies help, release, a captive body, feeding, severed care, kinship, abasement, and dust; I infer that ascent is measured by whom is raised with the traveler. The alternative is a list of meritorious acts performed by an otherwise solitary chooser.",
+            "changed_reading": {
+              "before": "The good high road is an individual's private ascent.",
+              "after": "The demanded ascent is relational: one climbs by freeing, sustaining, and raising people whom captivity, hunger, isolation, or poverty has pressed downward."
+            }
+          },
+          {
+            "model_id": "ctx-mutual-supported-gait",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ص ي",
+              "ص ب ر",
+              "ر ح م",
+              "ص ح ب"
+            ],
+            "mechanism": "The focus branch of walking while supported between others is activated by reciprocal counsel, bearing responsibility, mercy, and companionship. Patience and mercy can be heard as two communal supports that keep a strained traveler moving across the high ground.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Swaying or supported walking supplies the literal gait that becomes a model of communal guidance."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B003",
+                "role": "Calling for and giving help makes support functional on the two difficult routes."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B005",
+                "role": "Pressing distress explains why a traveler may need others to remain upright."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Exchanging counsel among a group supplies reciprocal rather than one-way guidance."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B003",
+                "role": "Bearing responsibility and remaining with another supplies one load-bearing support."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the other support that prevents endurance from becoming mere hardness."
+              },
+              {
+                "source_ref": "90:18",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and staying alongside turn the walker into a member of a sustaining company."
+              }
+            ],
+            "structural_cues": [
+              "90:17 repeats the reciprocal verb twice, once with patience and once with mercy.",
+              "The next verse names a company, not an isolated successful climber."
+            ],
+            "reader_inference": "The packet supplies a supported gait, reciprocal counsel, two named qualities, and companionship; I infer the two qualities as figurative supports under a strained walker. A live alternative is that patience and mercy characterize one route without corresponding to the focus dual.",
+            "changed_reading": {
+              "before": "A guided individual walks one of two routes under self-sufficient power.",
+              "after": "Guidance can be socially distributed: reciprocal patience and mercy support a vulnerable gait across the difficult terrain."
+            }
+          },
+          {
+            "model_id": "ctx-disclosure-versus-closure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي م ن",
+              "ك ف ر",
+              "ء ي ي",
+              "ش ء م",
+              "ن و ر",
+              "و ص د"
+            ],
+            "mechanism": "Right-left orientation names opposed outcomes, but the sign, covering, and sealed-fire sequence adds a process distinction. One route remains responsive to what has been made visible; the other covers the sign and culminates in enclosure, converting refusal of disclosure into loss of exit.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Clarification and showing truth supply the disclosure to which the two outcomes respond."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B002",
+                "role": "Coming clearly into view makes concealment a response to manifestation rather than simple ignorance."
+              },
+              {
+                "source_ref": "90:18",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right side supplies the positive terminal orientation of one route."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Covering or blocking truth supplies the active anti-disclosure mechanism of the other route."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the visible evidence that can be accepted or covered."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ش ء م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000772",
+                "branch_id": "B001",
+                "role": "The left side supplies the negative terminal orientation paired against the right."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the terminal environment produced after the route of covering."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Shutting something completely supplies enclosure as the spatial consequence of anti-disclosure."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of firmly closing a door sharpens the loss of passage at the route's end."
+              }
+            ],
+            "structural_cues": [
+              "The context closes with parallel companies of right and left, followed only for the latter by enclosing fire.",
+              "Manifest signs, covering, and final closure form a directional sequence from epistemic refusal to spatial confinement."
+            ],
+            "reader_inference": "The packet supplies visible guidance, right-left groups, a manifest sign, covering, fire, and two mapped images of firm closure; I infer that repeated covering causes progressive loss of openness. A live alternative is that enclosure is only a terminal penalty and not the internal logic of the chosen route.",
+            "changed_reading": {
+              "before": "The two paths are symmetric options ending in different labels.",
+              "after": "The two paths are dynamically asymmetric: one stays open to disclosure, while the other covers what is visible until refusal becomes enclosure."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-difficult-descent",
+            "confidence": "exploratory",
+            "containment": "This activation uses the focus root's non-dominant split mapping to a difficult descent, so it is form-distant and cannot replace the dominant guidance sense. It remains worth carrying because descent is topographically anchored in the dual high ground and is sharpened by the later hard rise; downstream prose should present it only as a reverse-motion echo about aftermath or return.",
+            "focus_anchor": "The non-dominant mapped branch of هَدَيْنَاهُ contributes difficult descent while ٱلنَّجْدَيْنِ explicitly contributes elevated terrain.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B009",
+                "role": "A difficult descent supplies a reverse-motion echo within the packet's split mapping of the focus root."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Raised high ground makes descent a spatially coherent secondary motion rather than an unrelated image."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B012",
+                "role": "The difficult rising obstacle activates the inverse question of how one returns from or carries consequences down a height."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance concerns only choosing and ascending a high route.",
+              "after": "As a contained echo, guidance also includes negotiating descent, aftermath, and return from exposed moral heights."
+            }
+          },
+          {
+            "outlier_id": "outlier-protected-captive-passage",
+            "confidence": "exploratory",
+            "containment": "The protected-person or captive branch is nominal and distant from the verbal surface, so this is not a lexical substitution for guidance. It remains anchored by the guided object pronoun, the focus help branch, and the immediate later release of a captive neck; downstream prose should qualify it as a social-role echo that complicates the autonomous chooser.",
+            "focus_anchor": "The object in هَدَيْنَاهُ can momentarily be heard through a branch naming a protected person or captive, while help in ٱلنَّجْدَيْنِ keeps the passage relational.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B007",
+                "role": "A protected person or captive called hady supplies the vulnerable social status of the one being led."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B003",
+                "role": "Help and recovered strength turn route-finding into escorted passage toward restored agency."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Release from captivity supplies the transition out of the vulnerable status."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B004",
+                "role": "The captive neck supplies the concrete body whose passage and freedom are at issue."
+              }
+            ],
+            "changed_reading": {
+              "before": "The guided human is modeled only as a self-possessed chooser.",
+              "after": "As a contained social echo, the guided human can also be a vulnerable body escorted from captivity toward protected agency."
+            }
+          },
+          {
+            "outlier_id": "outlier-paired-harness",
+            "confidence": "exploratory",
+            "containment": "Reading the two high roads through paired sword-straps is cross-domain and cannot override the ordinary terrain sense. It remains anchored in the dual noun, the branch's literal shoulder placement, the later neck, and responsibility-bearing patience; downstream prose should render it only as a load-bearing metaphor for obligations carried while traveling.",
+            "focus_anchor": "The dual ٱلنَّجْدَيْنِ can activate paired shoulder straps while the course-sense of هَدَيْنَاهُ preserves movement rather than ornament alone.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and manner preserve the outlier as a way of proceeding under a carried load."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B009",
+                "role": "Shoulder straps or necklaces supply the paired harness image activated by the focus dual."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B004",
+                "role": "The neck supplies the adjacent body zone on which restraint or a harness becomes socially consequential."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B003",
+                "role": "Bearing responsibility and remaining committed turns the straps into an image of sustained obligation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two roads lie wholly outside the traveler as terrain.",
+              "after": "As a contained metaphor, the two roads can also be borne like paired straps: guidance is a load-bearing manner of carrying responsibility."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The body-gift sequence changes guidance from external information into designed perceptual and communicative capacity.",
+            "Hardship, the rising obstacle, and patience reveal strain as intrinsic to a disclosed high route rather than a failure of guidance.",
+            "The expenditure sequence turns the dual into opposed resource flows: dissipative display versus freeing and feeding.",
+            "Release, hunger, orphanhood, poverty, counsel, and mercy transform the good ascent from private achievement into social lifting and mutual support.",
+            "Signs, covering, right-left outcomes, and sealed fire recast the terminal contrast as disclosure kept open versus disclosure progressively closed."
+          ],
+          "what_was_special": "The focus dual remained simultaneously topographic, bodily, economic, social, and epistemic. The most productive surprise was that elevation describes not only where a chooser goes but how capacity is endowed, resources are routed, vulnerable people are raised, and communal supports keep a strained walker moving; the packet's non-dominant difficult-descent mapping was retained as a contained reverse-motion echo rather than erased.",
+          "remaining_uncertainties": [
+            "The focus verse does not itself assign a value or destination to each member of the dual; the later right-left contrast sharpens but does not prove a one-to-one lexical mapping.",
+            "It remains open whether the repeated bodily duals deliberately encode comparative discernment or simply accumulate favors.",
+            "Disclosure and enablement coexist in هَدَيْنَاهُ; the packet does not force a choice between showing the routes and empowering traversal.",
+            "The supported gait, captive-status, paired-harness, and difficult-descent readings are branch-backed activations, not claims that their distant images replace the surface construction."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Guidance to raised terrain.** Lexical evidence: ه د ي B001 “guidance toward a way or truth,” B002 “course/direction,” ن ج د B001 “raised high ground or path,” B002 “coming clearly into view.” Structural cue: the dual “نجدين” follows dual eyes and dual lips, and precedes “العقبة.” Assigned role: guidance converts bodily faculties into orientation; najd converts orientation into elevated terrain. Abductive move: I infer that seeing/speaking are meant to recognize two raised ways, not merely receive information. Reading change: the ayah reads as guided access to visible elevated routes whose difficulty will be named next.\n\n2. **Guidance as demanding courage under distress.** Lexical evidence: ن ج د B003 “courage/help,” B005 “pressing distress,” B006 “sweat of effort,” ه د ي B010 “calm stillness and composed bearing.” Structural cue: 90:4 placed the human in hardship, and 90:11 requires plunging into a hard pass. Assigned role: najd supplies both height and strain; hidaya supplies composure. Abductive move: I infer that the two ways are traversed under bodily/moral stress. Reading change: guidance is not a map alone; it is equipment for a strenuous ascent.\n\n3. **Guidance with offering undertone.** Lexical evidence: ه د ي B005 “offering sent to the sanctuary” and B004 “gift sent to someone close.” Structural cue: 90:13–16 define the pass through giving freedom and food. Assigned role: هدى carries a latent “sent gift/offering” field that turns guidance toward costly transfer. Abductive move: I infer that the path of guidance materializes as offering something out of oneself. Reading change: “we guided him” can activate not only indication but a sacrificial/gifting trajectory.",
@@ -12299,14 +13691,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s090/linguistic/morphemes.tsv",
-        "ayah_count": 21,
-        "row_count": 133,
+        "ayah_count": 20,
+        "row_count": 126,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12814,10 +14212,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s90/packets/90_10.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s90/readers/reader_hft_a/90_10.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s090",
+        "latent_activation/focus_trace/runs/s90"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s90",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 203720,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

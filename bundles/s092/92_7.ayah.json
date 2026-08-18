@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.257733+00:00",
+  "generated_at": "2026-08-18T13:34:10.769647+00:00",
   "surah": 92,
   "ayah": 7,
   "ayahRef": "92:7",
@@ -1294,7 +1294,8 @@
       "morpheme_ids": [
         "m-w-s092-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:7:1"
+      "aligned_qac_word_ref_upstream": "92:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1312,7 +1313,8 @@
         "m-w-s092-a007-w001-03",
         "m-w-s092-a007-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "92:7:2"
+      "aligned_qac_word_ref_upstream": "92:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1326,7 +1328,8 @@
       "morpheme_ids": [
         "m-w-s092-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:7:3"
+      "aligned_qac_word_ref_upstream": "92:7:3",
+      "morpheme_skip_count": 0
     },
     null
   ],
@@ -2620,7 +2623,1169 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s92/packets/92_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "92:7",
+      "window": [
+        "92:1",
+        "92:2",
+        "92:3",
+        "92:4",
+        "92:5",
+        "92:6",
+        "92:7",
+        "92:8",
+        "92:9",
+        "92:10",
+        "92:11",
+        "92:12",
+        "92:13",
+        "92:14",
+        "92:15",
+        "92:16",
+        "92:17",
+        "92:18",
+        "92:19",
+        "92:20",
+        "92:21"
+      ],
+      "ayah_count": 21,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ق و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000808",
+              "furuq_root_norm": "ش ق و",
+              "furuq_source_root_norm": "ش ق و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000809",
+              "furuq_root_norm": "ش ق ي",
+              "furuq_source_root_norm": "ش ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ج ز ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000244",
+              "furuq_root_norm": "ج ز ي",
+              "furuq_source_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 97,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000242",
+              "furuq_root_norm": "ج ز ز",
+              "furuq_source_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "92:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_opening_readiness",
+            "confidence": "strong",
+            "focus_anchor": "The future causative نُيَسِّرُهُ, its object pronoun, the goal-marking lām, and the repetition of ي س ر in يُسْرَىٰ.",
+            "mechanism": "The doubled root couples operation and endpoint: the subject is not merely handed an easy result but rendered ready for an opening whose character is itself y-s-r.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "An opening that becomes easy and ready after difficulty supplies both the causative preparation and the quality of its endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "We will make things easy for him.",
+              "after": "We will actively fit him for, and make him ready to enter, the opening called al-yusrā."
+            }
+          },
+          {
+            "model_id": "b_pliant_trajectory",
+            "confidence": "medium",
+            "focus_anchor": "The causative verb acts on a pronominal object while the lām points that object toward a same-root destination.",
+            "mechanism": "The construction can describe induced fluency of motion: the subject becomes light, responsive, and able to follow a course rather than merely receiving reduced difficulty.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, pliant, quickly following movement turns the causative-plus-goal syntax into a model of acquired fluency along a route."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease is a static condition waiting at the end.",
+              "after": "We will make his movement compliant and fluent toward an easy course."
+            }
+          },
+          {
+            "model_id": "b_capacity_of_means",
+            "confidence": "exploratory",
+            "focus_anchor": "The same root names both what is done to the object and the definite state toward which the lām directs it.",
+            "mechanism": "Yusr can be carried as ample means or capacity, so facilitation may enlarge what the subject is able to sustain instead of simply lowering the task's cost.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Prosperity and amplitude of means supply a capacity-building sense for both the operation and the destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The promise removes resistance from an otherwise unchanged subject.",
+              "after": "The promise expands the subject's means until a spacious, sustainable mode of action becomes available."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_occlusion_to_affordance",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ش و",
+              "ن ه ر",
+              "ج ل و"
+            ],
+            "mechanism": "Covering followed by opening and disclosure makes yusr dynamic: facilitation can be the conversion of a hidden or unusable route into a visible affordance.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening anchors the focus as a transition into usability."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A cover rising over and concealing something supplies the initial state in which a route can exist without being usable."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until flow becomes possible supplies the transition from obstruction to passage."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ج ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000256",
+                "branch_id": "B001",
+                "role": "Disclosure and appearance make the opened route perceptible, not merely objectively present."
+              }
+            ],
+            "structural_cues": [
+              "92:1-2 places covering and disclosure in an ordered alternation before the focus causative."
+            ],
+            "reader_inference": "The packet supplies concealment, widening, and disclosure; I infer that disclosure enables entry and thus belongs inside facilitation. A live alternative is that the alternation supplies only cosmic contrast, with no causal relation to the focus.",
+            "changed_reading": {
+              "before": "A ready opening is simply bestowed.",
+              "after": "The subject is prepared to perceive and enter an opening as it emerges from occlusion into usable visibility."
+            }
+          },
+          {
+            "model_id": "d_diverse_striving_channel",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ع ي",
+              "ش ت ت"
+            ],
+            "mechanism": "Purposeful motion is already divergent; making someone pliant toward yusr therefore channels a particular striving until movement along that route becomes fluent.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Pliant, quick-following movement supplies the focus's kinetic mechanism."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Purposeful movement toward a sought object supplies an already directed human trajectory."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion prevents 'striving' from being one neutral road and makes selective channeling necessary."
+              }
+            ],
+            "structural_cues": [
+              "The plural 'your striving' is predicated as dispersed in 92:4, then the focus gives one person a causative directional treatment."
+            ],
+            "reader_inference": "The packet supplies purposeful movement, dispersion, and pliancy; I infer a feedback arrow in which repeated movement makes one route increasingly easy to follow. The live alternative is a simpler classification of different deeds followed by an external result.",
+            "changed_reading": {
+              "before": "The focus promises a comfortable destination after effort.",
+              "after": "The focus describes the channeling of divergent effort until the subject moves fluently along one selected trajectory."
+            }
+          },
+          {
+            "model_id": "d_practices_prepare_path",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "و ق ي",
+              "ص د ق",
+              "ح س ن"
+            ],
+            "mechanism": "Transfer outward, protective self-placement, and enacted verification of the good form a practical configuration to which the focus responds by opening a congruent route.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Readiness after resistance supplies the responsive opening produced in the focus."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing something over supplies outward transfer as the first path-forming act."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself within protection supplies active boundary-setting rather than passive fear."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Realizing a promise in action turns assent into a performed commitment."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Doing what is good gives the commitment a practical rather than merely aesthetic endpoint."
+              }
+            ],
+            "structural_cues": [
+              "The three coordinated acts in 92:5-6 are followed by the consequential fa- opening 92:7."
+            ],
+            "reader_inference": "The packet supplies an ordered act-sequence and a consequent focus clause; I infer that the acts help configure the route that is then opened. A live alternative is that they are eligibility signs while facilitation remains wholly external.",
+            "changed_reading": {
+              "before": "Ease arrives as an unrelated reward after good behavior.",
+              "after": "Outward transfer, self-protection, and enacted trust make the subject congruent with a route that is then opened and readied."
+            }
+          },
+          {
+            "model_id": "d_direction_neutral_fitting",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب خ ل",
+              "غ ن ي",
+              "ك ذ ب",
+              "ح س ن",
+              "ي س ر",
+              "ع س ر"
+            ],
+            "mechanism": "The same causative y-s-r operation points toward opposed endpoints. Facilitation is therefore direction-neutral fitting or increasing accessibility; moral and experiential value lies in the endpoint and in the dispositions with which the subject becomes aligned.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening supplies the operation whose positive value initially seems intrinsic."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "ب خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000089",
+                "branch_id": "B001",
+                "role": "Withholding supplies the opposed practical disposition before the mirrored causative."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Claimed self-sufficiency closes the subject around existing means and helps define the contrary alignment."
+              },
+              {
+                "source_ref": "92:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsity to the good supplies a repudiated endpoint rather than a mere factual error."
+              },
+              {
+                "source_ref": "92:9",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "The good as the contrary of ugly identifies what the second subject refuses."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The exact same readiness-making operation reappears, proving that its directional efficiency can serve a contrary endpoint."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B004",
+                "role": "Opposition, twisting, and induced difficulty give the mirrored endpoint a path-like resistance rather than simple discomfort."
+              }
+            ],
+            "structural_cues": [
+              "92:7 and 92:10 repeat فَسَنُيَسِّرُهُۥ لِـ with only the destination changed.",
+              "The giving/protecting/confirming triad is reversed by withholding/self-sufficiency/denial."
+            ],
+            "reader_inference": "The packet supplies exact syntactic mirroring and contrary endpoints; I infer that repeated dispositions stabilize access to the corresponding route. A live alternative is a purely imposed award or penalty with no habituating feedback.",
+            "changed_reading": {
+              "before": "The verb 'make easy' is intrinsically beneficent and guarantees comfort.",
+              "after": "The verb names efficient fitting to a destination; 92:7 is good because the subject is fitted to al-yusrā, not because facilitation is always good."
+            }
+          },
+          {
+            "model_id": "d_guided_course_against_fall",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر د ي",
+              "ه د ي"
+            ],
+            "mechanism": "The route model acquires vertical stakes: fluent guidance toward yusr is contrasted with uncontrolled descent, while a non-dominant mapped branch keeps the image of a difficult slope live.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, well-following movement anchors facilitation as controlled locomotion."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "ر د ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000558",
+                "branch_id": "B003",
+                "role": "Falling into ruin supplies the uncontrolled terminal motion against which fluent routing matters."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a road or truth supplies a directional aid rather than forced transport."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B009",
+                "role": "The non-dominant mapped image of a difficult descent adds exploratory topographic pressure: guidance is meaningful on terrain that can pitch downward."
+              }
+            ],
+            "structural_cues": [
+              "The mirrored route to hardship in 92:10 is followed by falling in 92:11 and a declaration of guidance in 92:12."
+            ],
+            "reader_inference": "The packet supplies fall, gentle road-indication, and a mapped steep descent; I infer that guidance converts dangerous terrain into traversable direction. The live alternative is that fall names only a final outcome and guidance only prior information.",
+            "changed_reading": {
+              "before": "Yusr is reduced effort on level ground.",
+              "after": "Yusr is a guided, controllable course that prevents motion from becoming an ungoverned fall, even where the terrain remains demanding."
+            }
+          },
+          {
+            "model_id": "d_whole_arc_preparation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء خ ر",
+              "ء و ل"
+            ],
+            "mechanism": "Firstness, succession, and the later end stretch facilitation across a whole temporal arc: readiness can be progressively formed from inception through outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Becoming ready supplies a process capable of unfolding through time."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time supplies the far end of the process."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "The beginning and precedence of a thing supply the process's near end."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped image of one thing following another supplies incremental succession between beginning and end."
+              }
+            ],
+            "structural_cues": [
+              "92:13 binds the later and the first under one ownership immediately after the declaration of guidance."
+            ],
+            "reader_inference": "The packet supplies the two temporal poles and succession; I infer that divine facilitation can operate continuously between them. A live alternative is that 92:13 states sovereignty without specifying the timing of 92:7's action.",
+            "changed_reading": {
+              "before": "The future prefix promises one later intervention.",
+              "after": "The future promise can name a progressive preparation whose governance spans the first step, successive adjustments, and the final issue."
+            }
+          },
+          {
+            "model_id": "d_protective_side_routing",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ص ل ي",
+              "ج ن ب",
+              "و ق ي"
+            ],
+            "mechanism": "Fire defines an exposure zone, contact realizes its danger, and protective side-leading creates a safe corridor. The focus's opening can therefore be spatial rerouting around harm, not merely subjective relief.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "A ready opening supplies the traversable corridor in the focus."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the material hazard around which a route must be organized."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat defines failure as contact rather than mere awareness of danger."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "Leading something to the side supplies an active lateral rerouting operation."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Repelling harm through protection gives the side movement its functional purpose."
+              }
+            ],
+            "structural_cues": [
+              "The warning/fire/contact sequence of 92:14-15 is answered by a future passive side-removal in 92:17."
+            ],
+            "reader_inference": "The packet supplies a hazard, contact, side-leading, and protection; I infer that lateral displacement causes non-contact and is one concrete form of facilitation. The live alternative is that avoidance is only a later result, unrelated to how the focus opens a route.",
+            "changed_reading": {
+              "before": "Ease means that a difficult route becomes less painful.",
+              "after": "Ease can mean being given a traversable corridor that routes the subject to the side of an exposure zone altogether."
+            }
+          },
+          {
+            "model_id": "d_released_means_become_growth",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ت ي",
+              "م و ل",
+              "ز ك و"
+            ],
+            "mechanism": "The prosperity baseline is reversed from storage to circulation: means are handed outward, and their release is followed by increase and purification. Capacity grows through expenditure rather than enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Amplitude of means anchors the focus's exploratory prosperity reading."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving or delivering supplies the outward movement that prevents means from being modeled as hoarded stock."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessing and accumulating wealth supplies the stock that is deliberately released."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase supply the productive result that follows circulation."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purification prevents growth from being reduced to greater quantity alone."
+              }
+            ],
+            "structural_cues": [
+              "92:18 places giving, wealth, and self-purifying growth in one relative clause."
+            ],
+            "reader_inference": "The packet supplies release of wealth followed by growth/purification; I infer a circulation-to-capacity arrow. A live alternative is that giving only evidences an independently occurring moral purification.",
+            "changed_reading": {
+              "before": "Yusr as prosperity means possessing ample resources.",
+              "after": "Yusr as ample capacity is formed through releasing resources into a circulation that increases and purifies the giver."
+            }
+          },
+          {
+            "model_id": "d_nontransactional_orientation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ز ي",
+              "ب غ ي",
+              "و ج ه",
+              "ع ل و"
+            ],
+            "mechanism": "A horizontal repayment ledger is negated and replaced by active seeking toward a high-facing direction. Yusr becomes an orientation that organizes action without requiring reciprocal return.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening anchors the focus as a direction that can organize action."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Matching an act with recompense supplies the transactional mechanism that the surrounding negation excludes."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Active seeking supplies motive and forward pressure after reciprocal payment is removed."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and orientation turn seeking into a vector rather than an unspecified desire."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Elevation gives the vector a vertical ordering beyond horizontal exchange."
+              }
+            ],
+            "structural_cues": [
+              "The negated recompense clause of 92:19 is resolved by the exceptive seeking clause of 92:20.",
+              "The focus lām and the later orientation language both support goal-directed rather than merely hedonic ease."
+            ],
+            "reader_inference": "The packet supplies rejected recompense, seeking, direction, and height; I infer that non-transactional orientation sustains the route opened in 92:7. A live alternative is that 92:19-20 describes motive only, while yusr remains an externally assigned outcome.",
+            "changed_reading": {
+              "before": "The easy outcome is compensation earned by prior giving.",
+              "after": "The opened route is sustained by a non-reciprocal, upward-facing aim rather than by expectation of repayment."
+            }
+          },
+          {
+            "model_id": "d_nurtured_completion_to_satisfaction",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر ض و"
+            ],
+            "mechanism": "Cultivation and completion connect the focus's readiness to the final future satisfaction: ease is a maturation into a condition the subject can inhabit with acceptance.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Becoming ready supplies an unfinished developmental state rather than an instant reward."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and bringing to completion supply the developmental agency between opening and fulfillment."
+              },
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance rather than displeasure supplies the experiential completion of the prepared course."
+              }
+            ],
+            "structural_cues": [
+              "The future promise of 92:7 is answered by another emphatic future in 92:21.",
+              "92:20 places the Lord immediately before the final satisfaction."
+            ],
+            "reader_inference": "The packet supplies nurture/completion and eventual satisfaction; I infer a developmental arrow from being readied to inhabiting the result with acceptance. A live alternative is that satisfaction names only a terminal reward and not the quality of the intervening process.",
+            "changed_reading": {
+              "before": "Ease is immediate low effort.",
+              "after": "Ease is a cultivated maturation whose success appears when the subject can finally receive and inhabit the outcome with satisfaction."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_lateralized_route",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus inventory gives y-s-r a left-side branch while the opposed ʿ-s-r inventory also gives left/left-handed imagery, so a simple moral right-versus-left code collapses. It remains anchored in the focus root, its directional lām, and the later side-leading construction. Render it only as a spatial activation about routing to a designated side, not as a claim that يُسْرَىٰ must lexically mean 'left.'",
+            "focus_anchor": "The repeated ي س ر root, the lām-directed endpoint, and the possibility that a same-root side image spatializes the causative.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B004",
+                "role": "The left side and leftward direction supply a lateral schema for the focus's goal construction."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B005",
+                "role": "The opposed endpoint also carries left-sidedness, blocking an easy equation of lateral side with moral value."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "Leading something to one side shows that protective transformation can be represented as lateral routing."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse moves the subject only on an abstract scale from hardship to ease.",
+              "after": "The verse may also project that change spatially as routing the subject into a designated side or corridor, while refusing to make leftness itself good or bad."
+            }
+          },
+          {
+            "outlier_id": "o_lot_without_ledger",
+            "confidence": "exploratory",
+            "containment": "The allotment reading is branch-distant and becomes stranger when a form-distant r-b-b branch supplies a receptacle for lots. It remains traceable through the focus's apportionment branch and the later rejection of debt-like recompense. Render it as an exploratory distribution mechanism—release into a share not controlled by reciprocal accounting—not as a lexical substitution for the focus or for 'Lord.'",
+            "focus_anchor": "The doubled focus root can make the subject both recipient of preparation and destination of an apportioned y-s-r share.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Lots and the division of a slaughtered animal into shares supply the focus's latent allotment mechanism."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B003",
+                "role": "Collecting and settling a debt supplies the ledger model that the verse's negation refuses."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B010",
+                "role": "The form-distant image of a container gathering lots reinforces an allocation apparatus while remaining deliberately quarantined from the source word's ordinary reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease is private comfort paid out as compensation.",
+              "after": "The subject is prepared for a favorable share or distribution whose value is precisely that it is not governed by reciprocal debt collection."
+            }
+          },
+          {
+            "outlier_id": "o_fecund_ease",
+            "confidence": "exploratory",
+            "containment": "A livestock-and-herd ecology is surprising beside an abstract promise of ease, but it is anchored by the focus root's productive-livestock branch and reinforced by contextual branches of output, growth, livestock wealth, and herd formation. Render it as a material analogy for generative capacity, not as a literal promise of animals or agricultural increase.",
+            "focus_anchor": "The focus repeats the root whose inventory includes livestock becoming abundant in milk and offspring.",
+            "activation_trace": [
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B006",
+                "role": "Productive increase in milk and offspring supplies a fecund, output-generating model of yusr."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B007",
+                "role": "Emergence of growth and produce supplies output after giving rather than depletion."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Increase and growth generalize the productive mechanism beyond a single material image."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B005",
+                "role": "Livestock wealth provides a context-side material bridge to the focus's productive-livestock image."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B014",
+                "role": "A gathered herd supplies the social-material unit within which fecund increase becomes sustained abundance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease conserves effort by requiring less output.",
+              "after": "Ease can be imagined as a cultivated fecundity in which released means generate more life, capacity, and usable output."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact 92:7/92:10 mirror makes facilitation direction-neutral fitting; the endpoint, not the causative operation alone, determines value.",
+            "Diverse striving and pliant movement turn the focus from static comfort into the progressive channeling of a trajectory.",
+            "Giving, protection, enacted confirmation, and later non-transactional seeking make the opened route responsive to practice and orientation rather than a detached payout.",
+            "The prosperity branch changes under 92:18 from stored wealth to circulating means that grow and purify.",
+            "Later fall, guidance, side-removal, nurture, and satisfaction preserve spatial and developmental readings alongside the ethical one."
+          ],
+          "what_was_special": "Because one root fills both the causative verb and its destination, almost every activation feeds back across operation and endpoint. The packet supports several coexisting mechanisms—opening, kinetic fluency, directional fitting, protected rerouting, circulating capacity, and cultivated completion—while its distant side, lot, and livestock branches remain genuinely live under explicit containment.",
+          "remaining_uncertainties": [
+            "The object pronoun can foreground transformation of the person, but some mechanisms also treat the person's striving or route as the effective patient.",
+            "The lām can be read as goal, result, or alignment; the route models depend on retaining more directional force than a flat result gloss.",
+            "The causal contribution of prior acts remains abductive: the syntax supports consequence, but the acts may be signs of eligibility rather than processes that form the route.",
+            "The non-dominant mapped branches and the side, lot, and livestock images are packet-grounded but should remain analogical and exploratory in downstream prose."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Ease as opened route and readying.** Evidence: `ي س ر` B001 (ease/readiness after hardship). Structural cue: the duplicated root in verb and noun makes the mechanism recursive. Mechanism: the one oriented by giving is not merely rewarded with ease; he is actively readied for the easy course. Abductive move: I infer that divine facilitation amplifies prior orientation. Reading change: ease is a process of being fitted to a path.\n\n2. **Prosperity redefined away from hoarding.** Evidence: `ي س ر` B003 (means/prosperity), activated by 92:8 `غ ن ي` self-sufficiency and 92:18-19 wealth without repayment. Structural cue: wealth-language appears on both sides of the split. Mechanism: true “means” is mobility toward the good, not the accumulated مال that later fails. Abductive move: I infer a distinction between functional capacity and stored possession. Reading change: “يسر” can mean capacitation, not comfort only.\n\n3. **Left-side/lot imagery as surprising counter-branch.** Evidence: `ي س ر` B004 (left side) and B007 (lots/gambling shares), activated by the paired `ع س ر` B005 and the no-recompense sequence. Structural cue: yusr/‘usr are formally opposed, and wealth is later detached from reciprocal accounting. Mechanism: a route can be “easy” while also cutting across ordinary right/left or share-calculation schemas. Abductive move: I infer the easy path disrupts transactional lot-allocation. Reading change: facilitation is not winning a share by lots but being moved beyond the shares system.",
@@ -5466,6 +6631,11 @@
       "words_total": 4,
       "words_resolved": 3,
       "words_unresolved": 1,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [
         {
           "word_index": 3,
@@ -5476,10 +6646,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s092/linguistic/morphemes.tsv",
-        "ayah_count": 22,
-        "row_count": 138,
+        "ayah_count": 21,
+        "row_count": 131,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5941,10 +7112,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s92/packets/92_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s92/readers/reader_hft_a/92_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s092",
+        "latent_activation/focus_trace/runs/s92"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s92",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 168925,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:32.029739+00:00",
+  "generated_at": "2026-08-18T13:34:42.236225+00:00",
   "surah": 112,
   "ayah": 4,
   "ayahRef": "112:4",
@@ -1794,7 +1794,8 @@
       "morpheme_ids": [
         "m-w-s112-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:1"
+      "aligned_qac_word_ref_upstream": "112:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1808,7 +1809,8 @@
       "morpheme_ids": [
         "m-w-s112-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:2"
+      "aligned_qac_word_ref_upstream": "112:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1822,7 +1824,8 @@
       "morpheme_ids": [
         "m-w-s112-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:3"
+      "aligned_qac_word_ref_upstream": "112:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1838,7 +1841,8 @@
         "m-w-s112-a004-w003-01",
         "m-w-s112-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:4"
+      "aligned_qac_word_ref_upstream": "112:4:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1852,7 +1856,8 @@
       "morpheme_ids": [
         "m-w-s112-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:5"
+      "aligned_qac_word_ref_upstream": "112:4:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1866,7 +1871,8 @@
       "morpheme_ids": [
         "m-w-s112-a004-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:4:6"
+      "aligned_qac_word_ref_upstream": "112:4:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2451,7 +2457,762 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s112/packets/112_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "112:4",
+      "window": [
+        "112:1",
+        "112:2",
+        "112:3",
+        "112:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "112:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_exhaustive_counterpart_noninstantiation",
+            "confidence": "strong",
+            "focus_anchor": "The negated temporal predicate at word 2, the counterpart noun at word 4, and the exhaustive indefinite at word 5.",
+            "mechanism": "Temporal predication opens a possible relation of equal matching or reciprocal opposition, while negative exhaustive 'anyone' closes that relation over every candidate. The negation targets not only a resembling object but the occurrence of a peer relation at all.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being or temporal occurrence supplies the relation whose instantiation is denied."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart and matching response make the denied relation reciprocal, suitable, or oppositional rather than merely similar."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Negative exhaustive anyone ranges the denial over every possible claimant."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one resembles Him.",
+              "after": "At no time can any candidate enter a reciprocal matching, suitability, or oppositional relation with Him; the counterpart relation itself never obtains."
+            }
+          },
+          {
+            "model_id": "baseline_no_comparable_station",
+            "confidence": "medium",
+            "focus_anchor": "The word-2 being root also carries place, position, and rank, which meets the word-4 equal-counterpart branch under exhaustive negation.",
+            "mechanism": "The denied copular relation can be spatialized or socialized as occupying a station. Equality is then exclusion from a comparable position or rank, not only denial of shared qualities.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "Place, position, or rank turns being into occupancy of a station."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart specifies the prohibited station as one of parity."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone prevents every candidate from occupying that parity-position."
+              }
+            ],
+            "changed_reading": {
+              "before": "There is no being with the same attributes.",
+              "after": "There is no station of parity beside Him that anyone could occupy."
+            }
+          },
+          {
+            "model_id": "baseline_no_overturning_counterforce",
+            "confidence": "exploratory",
+            "focus_anchor": "The word-4 root has a live branch of tilting, overturning, and diverting, while words 2 and 5 deny occurrence for anyone.",
+            "mechanism": "A branch-distant reading hears the counterpart term as a facing force capable of turning or diverting. Exhaustive negation then blocks not only an equal peer but any counter-force that could overturn or redirect Him.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence supplies the possible arising of a counter-force."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B002",
+                "role": "Tilting, overturning, and diverting recast a counterpart as an effective turning force."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone extends the denial to every imagined counter-force."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one is His equal.",
+              "after": "No one can arise as an overturning or diverting counter-force against Him."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_spoken_boundary_against_fabricated_peers",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The opening command to speak activates both attribution of what was not and speech as definition or delimitation. Applied to the focus negation, the statement becomes a public boundary on predication: assigning a peer is not merely inaccurate comparison but speech that attributes an unreal relation.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Negated being supplies the unreal predication that the commanded utterance addresses."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "The equal counterpart is the content whose attribution is placed outside the valid boundary."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone leaves no exceptional subject for such an attribution."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying or attributing what was not makes peer-language a fabricated ontological assignment."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Saying a thing's limit makes the commanded utterance draw a category boundary around valid predication."
+              }
+            ],
+            "structural_cues": [
+              "The context begins with an imperative of speech.",
+              "The focus formulates its claim as negated predication rather than as a bare adjective."
+            ],
+            "reader_inference": "The packet supplies commanded speech, unreal attribution, delimiting speech, and a negated peer relation; I infer that utterance actively polices the attribution boundary. A live alternative is that the command only transmits an ontology already complete without a performative effect.",
+            "changed_reading": {
+              "before": "The focus reports that no equal exists.",
+              "after": "The focus also regulates speech about Him: every assertion assigning a counterpart attributes a relation that never obtained."
+            }
+          },
+          {
+            "model_id": "delta_worship_relation_without_second_recipient",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ه"
+            ],
+            "mechanism": "The repeated divine name activates worship and the worshipped as a directed relation. The focus counterpart denial can therefore be read functionally: no second recipient occupies a matching endpoint of worship, and no reciprocal peer shares that relational office.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart and mutual matching define the second relational endpoint being denied."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone excludes every possible co-recipient."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply the directed relation in which counterpart status would function."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Repetition of the worshipped referent stabilizes the single endpoint before the focus denies a peer."
+              }
+            ],
+            "structural_cues": [
+              "The same proper-name root occurs in both 112:1 and 112:2 before the pronoun in the focus.",
+              "The focus relation is marked with a directional dative construction."
+            ],
+            "reader_inference": "The packet supplies a worship relation, repetition of its named endpoint, and denial of a matching counterpart; I infer a directed graph with no second equivalent recipient. The alternative is to keep worship outside the focus and read the verse as purely ontological.",
+            "changed_reading": {
+              "before": "No entity resembles Him in itself.",
+              "after": "No one can share a matching relational office as a second endpoint of worship."
+            }
+          },
+          {
+            "model_id": "delta_the_one_not_one_of_a_class",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ح د"
+            ],
+            "mechanism": "The same root first presents affirmative absolute oneness and finally appears as exhaustive anyone under negation. Counting and one-of branches remain available at the focus, so the return empties the comparison set: the earlier One is neither one counted member nor the first item of a class of peers.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart defines the comparison class that the final negation empties."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Negative exhaustive anyone searches the whole candidate set and finds no member."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B003",
+                "role": "One in counting exposes the rejected possibility that divine oneness is a numeral inside a series."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B004",
+                "role": "First or one-of exposes the rejected possibility that the One heads or belongs to a peer class."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Absolute oneness supplies the affirmative pole that the final exhaustive negation protects from numerical reduction."
+              }
+            ],
+            "structural_cues": [
+              "The same lexical root closes both 112:1 and 112:4.",
+              "Its first occurrence is affirmative predication, while its final occurrence lies within negation."
+            ],
+            "reader_inference": "The packet supplies lexical recurrence, opposite polarity, absolute unity, counting, one-of, and exhaustive-negation branches; I infer that the ending retroactively disambiguates the opening One from one member of a set. The live alternative is a simpler repetition of unity and universal peer denial without a set-theoretic contrast.",
+            "changed_reading": {
+              "before": "God is one, and separately no one is equal to Him.",
+              "after": "The final 'any one' empties every peer class, so the opening One cannot mean one counted member, one-of-many, or first among comparables."
+            }
+          },
+          {
+            "model_id": "delta_convergent_dependence_without_counternode",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص م د"
+            ],
+            "mechanism": "The one aimed toward as the relied-upon endpoint creates a directed topology of dependence. The focus denies an equal counterpart, so convergence toward Him is not balanced by a reciprocal dependency or by a second terminal node; overseeing concern likewise has no coequal office.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart and mutual matching supply the reciprocal node whose existence is denied."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone prevents a second terminal or coequal node."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Movement toward the relied-upon intended one supplies convergence and fixes the direction of dependence."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B005",
+                "role": "Overseeing a matter with active concern supplies an office that the focus leaves without a coequal sharer."
+              }
+            ],
+            "structural_cues": [
+              "The compact nominal statement in 112:2 immediately precedes two successive negation statements.",
+              "The focus places the denied counterpart in a relation directed toward the pronominal referent."
+            ],
+            "reader_inference": "The packet supplies convergence toward a relied-upon endpoint, overseeing concern, and reciprocal counterpart imagery; I infer an asymmetric dependence graph with no second endpoint or reverse need. A live alternative is that reliance and peerlessness remain separate attributes with no directional topology between them.",
+            "changed_reading": {
+              "before": "No being has equal status.",
+              "after": "All resort can converge toward Him, but no reciprocal need and no second coequal endpoint can face Him."
+            }
+          },
+          {
+            "model_id": "delta_no_peer_can_emerge_by_derivation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل د"
+            ],
+            "mechanism": "Birth as an occurrence and a thing arising from another introduces causal production through time. The repeated negation closes both directions of that production before the focus denies any temporal occurrence of an equal; peerlessness is therefore diachronic and process-resistant, not a snapshot.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being and temporal occurrence turn peerlessness into a claim across possible emergence in time."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart identifies the outcome that no process can produce."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone quantifies over every possible product or emergent claimant."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The event of birth supplies a concrete process by which a new candidate might otherwise come to be."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "A thing obtained from or newly produced by another generalizes the blocked route from biological birth to derivation."
+              }
+            ],
+            "structural_cues": [
+              "The same negative particle and jussive verbal pattern recur from 112:3 into the focus.",
+              "Active and passive birth directions are both denied before the broader non-occurrence claim."
+            ],
+            "reader_inference": "The packet supplies birth-event, derivation, temporal-being, and counterpart branches plus repeated negation; I infer that the two blocked production arrows explain how the focus excludes later or prior emergence of a peer. The alternative is that 112:3 excludes genealogy only, while 112:4 independently excludes equality.",
+            "changed_reading": {
+              "before": "No equal is presently available.",
+              "after": "No causal or temporal process can generate, derive, or install anyone as an equal."
+            }
+          },
+          {
+            "model_id": "delta_no_genealogical_or_coeval_comparison_class",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل د"
+            ],
+            "mechanism": "Lineage supplies parent-child axes, while the same birth root also supplies a peer of the same birth-age. Denial in both generational directions removes ancestry and descent, and the focus denial removes the lateral cohort in which equal comparison would normally be established.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equal counterpart turns a birth cohort or lineage neighbor into the lateral class being excluded."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone empties every genealogical and coeval candidate position."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "A born member of lineage supplies the descendant axis of a comparison graph."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parents by birth supply the ancestral axis denied by the passive reversal."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B006",
+                "role": "A peer of the same birth-age supplies the lateral cohort in which parity would ordinarily be tested."
+              }
+            ],
+            "structural_cues": [
+              "The active and passive forms in 112:3 reverse the direction of one root.",
+              "The focus follows vertical kinship denial with horizontal counterpart denial."
+            ],
+            "reader_inference": "The packet supplies descendant, parent, coeval-peer, and equal-counterpart images; I arrange them as vertical and lateral edges of one comparison graph. The alternative is that the coeval branch is merely lexical residue and that genealogy does not organize the focus comparison.",
+            "changed_reading": {
+              "before": "He has neither offspring nor parent, and separately has no equal.",
+              "after": "No vertical lineage can locate Him and no lateral birth cohort exists within which anyone could count as His peer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_no_external_surety_or_load_bearer",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines the focus being-root's suretyship branch with the non-dominant scarcity-root mapping supplied for the opening speech root. It remains anchored in the word-2 predicate, its dative relation, and exhaustive word 5, while the relied-upon context reverses the direction of support. Render only as an exploratory relational analogy, not as the surface lexical sense of the focus verb.",
+            "focus_anchor": "The word-2 root's undertaking-responsibility branch inside the negated 'for Him' construction, closed by exhaustive anyone.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Suretyship or undertaking responsibility recasts the denied predicate as external backing."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone denies every possible guarantor or bearer."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Independent lifting and rising under a load activates the concrete image of an external bearer."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "The relied-upon endpoint reverses support: others turn toward Him rather than bearing Him."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one is equal to Him.",
+              "after": "No one stands behind Him as guarantor, underwriter, or independent bearer; the direction of reliance runs toward Him."
+            }
+          },
+          {
+            "outlier_id": "outlier_no_completing_cover_or_stop",
+            "confidence": "exploratory",
+            "containment": "The tent-cover and stopper images are materially distant from the ordinary counterpart sense, but the reading remains anchored in the focus counterpart root and is specifically activated by compact solidity and tight closure. Render it as a bounded material analogy for lack of an external completing part, not as a claim that the surface noun literally means a component.",
+            "focus_anchor": "The word-4 root's tent-back covering branch under the focus-wide negation of anyone.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B004",
+                "role": "A rear tent-cover supplies an external piece that closes or completes a dwelling."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone rules out every candidate completing piece."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact solidity without a hollow removes the opening that an external complement might fill."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B003",
+                "role": "A tightly sealed bottle-stop sharpens the image of closure without an added counterpart."
+              }
+            ],
+            "changed_reading": {
+              "before": "No comparable being exists.",
+              "after": "No external piece, cover, or complement is needed to close, complete, or structurally answer Him."
+            }
+          },
+          {
+            "outlier_id": "outlier_no_generated_yield_or_breeding_lot",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because it activates the rare yearly-produce and breeding-lot branch of the focus counterpart root. It stays anchored in word 4 and gains a direct causal trigger from the preceding birth and derivation root. Render it as an exploratory production analogy that coexists with, but does not replace, the ordinary equal-counterpart reading.",
+            "focus_anchor": "The word-4 root's annual produce, offspring, and alternating breeding-lot branch, quantified by exhaustive word 5.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B005",
+                "role": "Yearly produce and a breeding allotment recast the denied counterpart as generated yield or cohort."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive anyone prevents any product or offspring claimant from entering that slot."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The event of birth activates production as a concrete process."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "A thing newly obtained from another generalizes offspring into derived output."
+              }
+            ],
+            "changed_reading": {
+              "before": "No peer stands beside Him.",
+              "after": "Nothing can be assigned to Him as generated yield, derivative output, offspring lot, or coeval production cohort."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated oneness root becomes a polarity hinge: affirmative absolute One at the opening, exhaustive removal of every 'one-of' peer at the close.",
+            "The relied-upon context turns peerlessness into an asymmetric topology in which dependence converges toward Him without a reciprocal or second endpoint.",
+            "Birth and derivation turn a static no-peer claim into closure of every temporal, causal, genealogical, and coeval route by which parity might arise.",
+            "The opening speech command lets the focus operate as a boundary against fabricating or assigning an unreal counterpart."
+          ],
+          "what_was_special": "The focus sustains several coexisting mechanisms: ontological non-instantiation, exclusion from rank, empty comparison classes, one-way dependence, process-resistant peerlessness, and contained material or support analogies. The rare focus branches do not displace the strong equal-counterpart reading; they reveal additional ways that an answering, completing, bearing, or generated second can fail.",
+          "remaining_uncertainties": [
+            "The position, suretyship, diversion, tent-cover, and yearly-yield branches are visibly anchored but form-distant, so their readings remain secondary or exploratory.",
+            "The speech-act reading depends on treating commanded saying as boundary-making rather than simple transmission.",
+            "The material closure and support reversals are coherent packet-driven analogies, but the directional arrows are reader-supplied and should not be rendered as lexical equivalences."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **No counterpart ever occupies the field of being.** Lexical evidence: `ك و ن B001` (being/occurrence/temporal predication), `ك ف ء B001` (equal counterpart), and `ء ح د B002` (negative exhaustive anyone). Structural cue: the clause combines `لم يكن` with an indefinite `كفوًا` and an indefinite `أحد` under negation, after the earlier affirmative `أحد`. Assigned roles: `يكن` opens the temporal/existential field; `كفوًا` names the matching relation sought within that field; `أحد` exhausts possible persons. Abductive move: I infer that negated occurrence plus exhaustive anyone creates more than a present comparison: it denies that such a counterpart has ever entered the relevant field. Reading change: 112:4 reads as an existential-temporal sweep: no equal counterpart has been, occurred, or stood for Him.\n\n2. **Equivalence is denied as matching response, not only as static similarity.** Lexical evidence: `ك ف ء B001` includes equality, suitability, recompense by like-for-like response, and facing/alternation; `ص م د B001` supplies one-way resort; `ر ح م B001` supplies beneficence. Structural cue: the surah has already mapped movement toward `الصمد`; the final clause refuses a `كفو` \"for Him.\" Assigned roles: `الصمد` is the asymmetrical destination; `كفو` would be the entity able to answer, match, face, or reciprocate on equal terms; `أحد` under negation removes every candidate. Abductive move: I infer that if resort and mercy might imply reciprocal relation, `كفو` tests whether anything can meet God as equal respondent. Reading change: the ayah denies not only a look-alike but any like-for-like counterpart capable of equal opposition, recompense, or alternation.\n\n3. **The final `أحد` reverses the first: from singular title to exhausted search.** Lexical evidence: 112:1 `ء ح د B001` (absolute one) and 112:4 `ء ح د B002` (negative exhaustive anyone). Structural cue: the surah forms an inclusio around `أحد`: first after `الله`, last after `كفوًا`. Assigned roles: the first `أحد` gives the positive identity; the last `أحد` runs through the possible field of addressable others and finds none. Abductive move: I infer a search procedure: the closing syntax operationalizes the opening doctrine by trying and exhausting the class of possible peers. Reading change: `أحد` becomes dynamic: it first asserts uniqueness, then performs the absence of any matching other.\n\n4. **Tilt, reversal, and irregular rhyme remain excluded from the final balance.** Lexical evidence: `ك ف ء B002` (tilting, overturning, diverting), `ك ف ء B003` (irregular rhyme variation), and prior `ق و ل B001/B016` (spoken definition). Structural cue: the final clause arrives after four very short, balanced assertions/negations and after the command to say. Assigned roles: `ك ف ء B002/B003` provide latent images of imbalance, deviation, and mismatched correspondence; the surah's compressed repeated negatives enforce straightness and non-variation. Abductive move: I infer a formal analogy from lexical \"irregular correspondence/tilt\" to the poem-like sonic and syntactic closure; the packet supplies the branches and compact sequence, while I supply the aesthetic-mechanistic link. Reading change: the final denial can be heard as a refusal of any skewed counterpart or mismatched answering line: the utterance closes without an equivalent rhyme in reality.\n\n5. **Place/rank is also denied to any rival.** Lexical evidence: `ك و ن B002` (place, position, rank), `س م و B001/B007` (rising/noble status; rivaling upward), `ك ف ء B001`, and `ء ح د B002`. Structural cue: the opening `بسم` raises a designation; 112:2 permits a chief-like resort image; 112:4 negates any equal \"for Him.\" Assigned roles: `ك و ن B002` supplies the space/rank slot where a rival might stand; `س م و` supplies upward competition; `كفوًا أحد` denies a matching occupant. Abductive move: I infer that `لم يكن له` is not only existence but no available station/rank opposite Him. Reading change: the ayah reads as removal of every rival place in the hierarchy: no one has a standing that can face Him as equal.",
@@ -8510,14 +9271,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s112/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 26,
+        "ayah_count": 4,
+        "row_count": 19,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8665,10 +9432,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s112/packets/112_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s112/readers/reader_hft_a/112_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s112"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s112",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 41136,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

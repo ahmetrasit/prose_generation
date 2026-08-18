@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.119872+00:00",
+  "generated_at": "2026-08-18T13:34:30.288970+00:00",
   "surah": 103,
   "ayah": 1,
   "ayahRef": "103:1",
@@ -621,7 +621,8 @@
       "morpheme_ids": [
         "m-w-s103-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "103:1:1"
+      "aligned_qac_word_ref_upstream": "103:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -637,7 +638,8 @@
         "m-w-s103-a001-w001-02",
         "m-w-s103-a001-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "103:1:2"
+      "aligned_qac_word_ref_upstream": "103:1:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1390,7 +1392,720 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s103/packets/103_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "103:1",
+      "window": [
+        "103:1",
+        "103:2",
+        "103:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "103:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-recurring-witness",
+            "confidence": "strong",
+            "focus_anchor": "The noun عَصْر and the oath construction وَٱلْعَصْرِ.",
+            "mechanism": "The named span is not inert chronology: recurrence, alternation, and the arrival of phases let temporal succession function as a witness that repeatedly exposes what occupies it.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B001",
+                "role": "The literal range of age and recurring time supplies the successive temporal field and gives that field an evidentiary role in the oath."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase is a bare oath by an unspecified unit of time.",
+              "after": "The oath calls recurring succession itself as witness: alternation and return make temporal passage an active field of disclosure."
+            }
+          },
+          {
+            "model_id": "baseline-pressure-extraction",
+            "confidence": "medium",
+            "focus_anchor": "The root ع ص ر in عَصْر.",
+            "mechanism": "A span can be imagined as a press: sustained enclosure and force draw out a latent liquid, residue, gain, or yield. The oath therefore foregrounds what duration extracts from what it contains.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B002",
+                "role": "The literal press that makes liquid run supplies the pressure-to-extraction mechanism for the temporal span."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B007",
+                "role": "The literal image of bestowed or extracted yield identifies the possible output of the temporal press as gain rather than mere depletion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Time merely passes over its contents.",
+              "after": "The named span presses what it contains until its hidden yield or lack of yield becomes manifest."
+            }
+          },
+          {
+            "model_id": "baseline-constraining-refuge",
+            "confidence": "exploratory",
+            "focus_anchor": "The lexical field of ع ص ر carried by the sole focus noun.",
+            "mechanism": "The same root can organize a polarity: pressure withholds and reclaims, yet attachment provides refuge and rescue. The oath can name a constraining medium whose grip is dangerous but within which clinging is also possible.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B005",
+                "role": "The literal refuge, rescue, and attachment image supplies a mode of survival by holding fast within the root's field."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B006",
+                "role": "The literal withholding and reclamation image supplies the opposing grip that makes refuge necessary and keeps the model internally tense."
+              }
+            ],
+            "changed_reading": {
+              "before": "Time is only an external threat from which rescue must come elsewhere.",
+              "after": "Al-ʿaṣr can be the constraining grip and, simultaneously, the field in which attachment becomes refuge."
+            }
+          },
+          {
+            "model_id": "baseline-enclosed-maturation",
+            "confidence": "exploratory",
+            "focus_anchor": "The form عَصْر as a phase or condition within the root's inventory.",
+            "mechanism": "Temporal enclosure need not mean attrition. Reaching youth and grain entering protective sheaths make a span into a maturation chamber in which vulnerability, ripeness, and preservation coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B009",
+                "role": "The literal arrival at youthful maturity supplies development toward a threshold as one function of the named span."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B010",
+                "role": "The literal grain enclosed in its sheaths supplies protective containment as the spatial mechanism of maturation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Aging means only that time consumes what lives in it.",
+              "after": "The oath can invoke an enclosing phase that brings contents to ripeness while sheltering what is still forming."
+            }
+          },
+          {
+            "model_id": "baseline-atmospheric-release",
+            "confidence": "exploratory",
+            "focus_anchor": "The root ع ص ر in the focus noun, through its meteorological branches.",
+            "mechanism": "The span gathers force like a weather system: cloud is compressed toward rain while wind curls matter into a visible column. Time becomes accumulated pressure approaching release, not a flat line.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B003",
+                "role": "The literal rain-bearing compression supplies accumulation followed by release as a temporal mechanism."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B004",
+                "role": "The literal whirlwind and rising column supply circulation and visible turbulence rather than simple linear passage."
+              }
+            ],
+            "changed_reading": {
+              "before": "The oath points to a fixed time-marker.",
+              "after": "The oath can evoke a gathering temporal force whose compression, circulation, and eventual release reveal its contents."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-human-visibility",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ن س"
+            ],
+            "mechanism": "The human cue activates perception and the pupil-image, revising recurring time into a developing field: the human condition becomes something that comes into view within repeated temporal exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B001",
+                "role": "Recurring time supplies the repeated interval across which a condition can become visible."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "The literal detection of something by sight, sense, or sound makes disclosure, rather than mere duration, the interval's function."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The literal human image in the pupil supplies an optical aperture through which humanity is figured as the image developed in time."
+              }
+            ],
+            "structural_cues": [
+              "103:2 immediately places the human after the oath, making the oath's span a plausible revealer rather than background scenery.",
+              "The emphatic predication in 103:2 sharpens the move from an open temporal field to a disclosed human condition."
+            ],
+            "reader_inference": "The packet supplies recurring time, sensory detection, and a human image in the pupil; I supply the arrow that recurrence develops or exposes the human condition like an image. A live alternative is that the human is simply the proposition's subject and the optical resonance does no causal work.",
+            "changed_reading": {
+              "before": "Recurring time witnesses events from outside them.",
+              "after": "Recurring time is also the exposure medium in which the human condition becomes perceptible."
+            }
+          },
+          {
+            "model_id": "delta-loss-ledger-press",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ س ر"
+            ],
+            "mechanism": "Commercial loss and deficient measure turn the temporal press into an assay. The span extracts an output, then exposes it as a negative return or an underfilled measure; loss is thus diagnosed rather than merely announced.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B002",
+                "role": "The literal press supplies the force that extracts and tests what the span contains."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B007",
+                "role": "The literal extracted yield supplies the expected output against which deficiency can be registered."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B002",
+                "role": "The literal commercial loss turns extracted output into a negative return and gives the mechanism an accounting frame."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B003",
+                "role": "The literal short measure makes loss a measurable failure to deliver the full yield."
+              }
+            ],
+            "structural_cues": [
+              "The construction لَفِى خُسْرٍ places the human inside loss, matching material held inside a press or assay.",
+              "The oath precedes the loss statement, allowing the focus noun to provide the diagnostic process for the verdict."
+            ],
+            "reader_inference": "The packet supplies pressure, extracted yield, trade loss, and deficient measure; I supply the arrow that a lifetime is the assay that exposes short output. A live alternative is a looser commercial metaphor in which time only supplies the period over which loss accrues.",
+            "changed_reading": {
+              "before": "The span presses its contents and may produce a neutral yield.",
+              "after": "The span is an accounting press whose extracted return reveals the human measure to be short."
+            }
+          },
+          {
+            "model_id": "delta-trusted-refuge",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن"
+            ],
+            "mechanism": "The exception's security and settled trust select the refuge pole already latent in ع ص ر. The temporal field remains constraining, but trust makes holding fast within it a real counter-mechanism to loss.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B005",
+                "role": "The literal refuge and clinging image supplies the focus-side possibility of rescue through attachment."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The literal settling of the heart in safety and trust supplies the stable interior condition that makes refuge operative."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "The literal assent that brings reassurance makes clinging an entrusted commitment rather than frightened grasping."
+              }
+            ],
+            "structural_cues": [
+              "إِلَّا opens a reversal after the universal loss statement, inviting an already latent focus branch to become the exception's mechanism.",
+              "Faith begins the exception sequence before action and mutual counsel, so interior security can function as its stabilizing entry."
+            ],
+            "reader_inference": "The packet supplies refuge within ع ص ر and heart-settling trust within faith; I supply the arrow that the exception activates that refuge pole. A live alternative is that faith rescues from time without making refuge a live resonance of the focus noun.",
+            "changed_reading": {
+              "before": "The root's refuge image is an isolated lexical possibility beside temporal pressure.",
+              "after": "The exception activates a trusted mode of clinging, so the same temporal medium that constrains can also hold a refuge."
+            }
+          },
+          {
+            "model_id": "delta-cultivated-yield",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م ل",
+              "ص ل ح"
+            ],
+            "mechanism": "Intentional work and suitability against corruption convert extraction and maturation into cultivation. A span does not automatically yield gain: action works the material, while fitness and repair keep the developing output from spoiling.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B007",
+                "role": "The literal yield and extracted gain supplies the productive output toward which the temporal process can tend."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B010",
+                "role": "The literal grain protected in its sheath supplies a developing product whose preservation matters before harvest."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The literal intended act supplies deliberate labor rather than passive occupation of time."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "The literal wage or worker's provision supplies a return correlated with labor and sharpens the yield model."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "The literal opposition to corruption supplies preservation from spoilage within the productive process."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "The literal fitness of a thing supplies the matching of action to material and purpose required for a sound yield."
+              }
+            ],
+            "structural_cues": [
+              "Faith is followed by a coordinated verb of doing and a plural object of sound deeds, making productive process more specific than an abstract state.",
+              "The exception sequence moves from interior trust to enacted and fitted output."
+            ],
+            "reader_inference": "The packet supplies extracted gain, protected grain, intentional labor, return for labor, anti-corruption, and fitness; I supply the cultivation arrow linking them into one temporal production cycle. A live alternative is that these remain independent moral and economic images without an agrarian process.",
+            "changed_reading": {
+              "before": "Time extracts whatever yield happens to be present.",
+              "after": "Al-ʿaṣr is a cultivation interval whose yield depends on deliberate work fitted to its material and protected from corruption."
+            }
+          },
+          {
+            "model_id": "delta-reciprocal-relay",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص ي"
+            ],
+            "mechanism": "Connection and exchanged counsel turn refuge from solitary clinging into a relay. Persons join one temporal segment to another, transmitting what one span would otherwise withhold or erase.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B001",
+                "role": "Recurring time supplies the succession of intervals across which a relay must pass."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B005",
+                "role": "The literal attachment and refuge image supplies holding-fast as a social rather than merely individual survival mechanism."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B001",
+                "role": "The literal joining of one thing to another supplies continuity between persons and temporal segments."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "The literal mutual exchange of counsel supplies reciprocal transmission instead of one-way instruction."
+              }
+            ],
+            "structural_cues": [
+              "The same reciprocal verb occurs twice, at words 6 and 8, creating two social links rather than one isolated exhortation.",
+              "The repeated construction connects distinct objects and gives the end of 103:3 a relay-like rhythm."
+            ],
+            "reader_inference": "The packet supplies temporal succession, attachment, joining, and reciprocal counsel; I supply the arrow that mutual counsel bridges otherwise separate spans and persons. A live alternative is that the repetition intensifies two duties without implying temporal transmission.",
+            "changed_reading": {
+              "before": "Refuge within time is an individual's act of clinging.",
+              "after": "Refuge becomes a reciprocal relay that carries sustaining content across persons and successive spans."
+            }
+          },
+          {
+            "model_id": "delta-due-settlement",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ س ر",
+              "ح ق ق"
+            ],
+            "mechanism": "Withholding or reclamation, deficient measure, and a fixed due combine into a legal-economic reading. The span matures claims and settles accounts: it exposes what was underdelivered and what belongs or is owed.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B006",
+                "role": "The literal withholding and reclamation of property supplies collection and recovery as the focus-side operation."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B003",
+                "role": "The literal reduction of measure supplies the actionable shortfall that settlement exposes."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "The literal binding due supplies obligation and entitlement as the norm against which shortfall is judged."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "The literal right held by an owner supplies a claimant, preventing truth from collapsing into abstract correctness."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B007",
+                "role": "The literal reality that must be preserved supplies enduring content that remains due across the settlement interval."
+              }
+            ],
+            "structural_cues": [
+              "Loss is stated before the exception, while الحق appears inside the reciprocal practices that reverse it.",
+              "The oath can therefore frame the movement from registered deficit to the preservation and discharge of what is due."
+            ],
+            "reader_inference": "The packet supplies reclamation, short measure, binding obligation, owned right, and preservable reality; I supply the arrow that time acts as a settlement interval that matures and collects claims. A live alternative is moral accounting without any quasi-legal agency assigned to the span.",
+            "changed_reading": {
+              "before": "Time reveals a general or commercial deficit.",
+              "after": "The span settles a due account, exposing underdelivery and reclaiming what truth identifies as owed or worth preserving."
+            }
+          },
+          {
+            "model_id": "delta-communal-pressure-vessel",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص ي",
+              "ص ب ر"
+            ],
+            "mechanism": "The press is revised into a pressure vessel. Self-restraint and closure keep force from becoming rupture, while reciprocal counsel distributes the work of containment; endurance preserves the contents long enough for pressure to yield rather than destroy.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B002",
+                "role": "The literal press supplies sustained force and the possibility that containment can produce an extract."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "The literal reciprocal exchange of counsel makes containment a shared maintenance practice rather than solitary resistance."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "The literal restraint of the self from panic supplies internal containment under pressure."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B018",
+                "role": "The literal stopper for a vessel or well supplies the material closure that prevents contents from escaping under strain."
+              }
+            ],
+            "structural_cues": [
+              "The final occurrence of the repeated reciprocal verb leads directly to patience, making endurance the sequence's closing operation.",
+              "The surah ends on صبر, so containment has a terminal, sealing position."
+            ],
+            "reader_inference": "The packet supplies pressing force, reciprocal counsel, self-restraint, and a physical stopper; I supply the pressure-vessel arrow in which shared patience prevents rupture and preserves yield. A live alternative is that the stopper is only a distant material analogy and patience simply names moral endurance.",
+            "changed_reading": {
+              "before": "Temporal pressure extracts and exposes, with no mechanism preventing collapse.",
+              "after": "Reciprocal patience turns al-ʿaṣr into a maintainable pressure vessel whose contained force can yield rather than destroy."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-cloud-reservoir",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a temporal oath is being activated through weather branches and a form-distant cloud image. It remains anchored in the focus root's explicit rain-compression branch and is independently sharpened by the context's piled-cloud branch; downstream prose should present it as a material resonance of delayed release, not as a replacement gloss for عَصْر.",
+            "focus_anchor": "The rain-bearing branch of ع ص ر attached to the sole focus noun.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B003",
+                "role": "The literal compression of rain-bearing cloud supplies a reservoir that gathers until release."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B010",
+                "role": "The literal piled white cloud supplies patient accumulation and makes delayed release visible as a context activation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Time is dry chronology that only drains what it contains.",
+              "after": "Al-ʿaṣr can resonate as a compressed cloud-reservoir: patient accumulation precedes a release that may become rain rather than loss."
+            }
+          },
+          {
+            "outlier_id": "outlier-sips-through-constriction",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it promotes a rare choking-and-sipping branch into a model of the surah's ending. It remains anchored directly in the focus inventory and gains a visible sequence from reciprocal counsel, reality, and restraint; downstream prose should qualify it as a bodily analogy for traversing pressure, not claim that the focus noun lexically denotes counsel in small doses.",
+            "focus_anchor": "The ع ص ر branch of sipping little by little to pass a choking morsel.",
+            "activation_trace": [
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B008",
+                "role": "The literal small repeated sips that ease a choking passage supply the bodily mechanism for surviving constriction incrementally."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "The literal reciprocal exchange supplies repeated interpersonal delivery rather than a single rescue event."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "The literal stability that matches reality supplies the sustaining content conveyed through the repeated exchange."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "The literal restraint from panic supplies the paced response needed for the incremental passage to work."
+              }
+            ],
+            "changed_reading": {
+              "before": "The pressure of the span is endured as one overwhelming block.",
+              "after": "The constricting span can be traversed by small, repeated, reciprocal doses of reality and restraint that let what chokes gradually pass."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The loss cue converts the focus root's press and yield into an assay or ledger that exposes underfilled human output.",
+            "The exception activates the root's refuge pole, then makes temporal yield depend on trusted, deliberate, fitting work.",
+            "Repeated reciprocal counsel revises individual survival into a relay across persons and turns patience into shared containment under pressure.",
+            "Truth's branches add a coexisting settlement reading in which the span matures claims, registers short measure, and preserves what is due."
+          ],
+          "what_was_special": "A one-word oath sustained several live mechanisms without requiring a final choice: recurring witness, press, constraining refuge, maturation chamber, weather system, social relay, settlement interval, and pressure vessel. The context did more than identify 'time'; each ordered cue selected or redirected a different latent branch.",
+          "remaining_uncertainties": [
+            "The ordinary temporal branch is the cleanest lexical reading; it remains uncertain how synchronically the pressure, refuge, maturation, and weather branches should be heard in the bare noun.",
+            "The accounting and settlement arrows are strongly cross-supported but may remain metaphoric rather than assign agency to the temporal span.",
+            "The cloud-reservoir and incremental-sipping readings are deliberately form-distant and should survive only with explicit exploratory containment.",
+            "The models coexist rather than disambiguate whether al-ʿaṣr primarily witnesses, applies pressure, shelters, matures, or releases."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Time as the container that exposes loss.**  \n   Lexical evidence: `ع ص ر` B001, \"age or recurring time\"; activated by `خ س ر` B001/B002 in 103:2 and by the fourfold exception in 103:3. Structural cue: the oath precedes a spatial verdict, \"in loss,\" then an exception. Assigned role: `العصر` supplies the enveloping duration in which the human condition becomes measurable. The packet supplies: time → human → loss → exception. I supply the directional arrow: recurring time is the medium that lets deficiency show itself. Reading change: the ayah is not only \"by time\" as a neutral swear-word; it becomes an oath by the very temporal field in which human value is depleted unless a counter-pattern appears.\n\n2. **The press that extracts the hidden yield.**  \n   Lexical evidence: `ع ص ر` B002, \"pressing until liquid runs,\" and B007, \"giving, yield, and extracted gain\"; activated by `خ س ر` B002, \"trade loss,\" and by `ع م ل` B001/B004/B005 in 103:3, work, wage, and transaction. Structural cue: 103:1 is a compact noun, then 103:2 names loss, then 103:3 names practices. Assigned role: `العصر` becomes the press; human life is the material put under pressure; faith, work, truth, and patience are the extractable yield. The packet supplies the press-branch, the loss-branch, and the work/transaction branches. I infer that pressure reveals whether a yield or a deficit results. Reading change: the oath points to a compressive test, not merely duration; what comes after it is what runs out when existence is squeezed.\n\n3. **Withholding and rescue under scarcity.**  \n   Lexical evidence: `ع ص ر` B005, \"refuge, rescue, and clinging,\" and B006, \"withholding, holding back, and reclaiming\"; activated by `ء م ن` B001, secure trust, `و ص ي` B003, mutual exhortation, and `ص ب ر` B001/B003, self-restraint and suretyship. Structural cue: 103:3 is introduced by `إلا`, making a marked exit from the condition in 103:2. Assigned role: `العصر` names the constricted situation in which rescue requires attachment and disciplined holding. The packet supplies the exception and the branches of clinging, security, reciprocal charge, and restraint. I infer that the exception functions as a refuge-route out of the constriction. Reading change: the ayah can be heard as swearing by the pressure-zone in which humans are held back or rescued by what they cling to together.\n\n4. **A weather-and-growth cycle.**  \n   Lexical evidence: `ع ص ر` B003, \"rain-clouds squeezed into rain,\" and B010, \"grain enclosed in its husks\"; activated by `ص ب ر` B010, \"white layered cloud,\" `و ص ي` B004, pasture suiting grazing animals, and `ص ل ح` B003, suitability or fitness. Structural cue: the last ayah supplies ecological branches clustered around cloud, pasture, fitness, and endurance after the oath-root already offers rain-bearing clouds. Assigned role: `العصر` is the season-like compression that brings rain and encloses grain until maturity. The packet supplies all the ecological images; I supply the arrow that rain/season enables fit growth. Reading change: the oath can open a latent agricultural reading: human loss is set against a natural process in which pressure, enclosure, and patient suitability are conditions of fruitfulness.\n\n5. **The choking morsel and the small saving sip.**  \n   Lexical evidence: `ع ص ر` B008, \"sipping to get a choking morsel down\"; activated by `ص ب ر` B001, restraint, and `و ص ي` B003, repeated mutual advising. Structural cue: the exception is not one grand act but a sequence of held practices, with `تواصوا` repeated. Assigned role: `العصر` becomes the acute constriction, the stuck point; the later virtues act like repeated small sips that allow passage. The packet supplies the choking/sipping branch and repeated mutual counsel. I infer that repetition turns the rescue into gradual relief rather than instant escape. Reading change: the ayah’s compactness can be read as the throat-tight moment before the surah releases a measured remedy.",
@@ -5897,14 +6612,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 37,
+        "ayah_count": 3,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6108,10 +6829,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s103/packets/103_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s103/readers/reader_hft_a/103_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s103"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s103",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 46468,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

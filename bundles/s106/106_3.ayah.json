@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:26.043539+00:00",
+  "generated_at": "2026-08-18T13:34:34.492798+00:00",
   "surah": 106,
   "ayah": 3,
   "ayahRef": "106:3",
@@ -1741,7 +1741,8 @@
       "morpheme_ids": [
         "m-w-s106-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:1"
+      "aligned_qac_word_ref_upstream": "106:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1755,7 +1756,8 @@
       "morpheme_ids": [
         "m-w-s106-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:2"
+      "aligned_qac_word_ref_upstream": "106:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1771,7 +1773,8 @@
         "m-w-s106-a003-w001-03",
         "m-w-s106-a003-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:3"
+      "aligned_qac_word_ref_upstream": "106:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1785,7 +1788,8 @@
       "morpheme_ids": [
         "m-w-s106-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:4"
+      "aligned_qac_word_ref_upstream": "106:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1799,7 +1803,8 @@
       "morpheme_ids": [
         "m-w-s106-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:5"
+      "aligned_qac_word_ref_upstream": "106:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1815,7 +1820,8 @@
         "m-w-s106-a003-w004-01",
         "m-w-s106-a003-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:3:6"
+      "aligned_qac_word_ref_upstream": "106:3:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2930,7 +2936,1114 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s106/packets/106_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "106:3",
+      "window": [
+        "106:1",
+        "106:2",
+        "106:3",
+        "106:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "106:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_devotional_allegiance",
+            "confidence": "strong",
+            "focus_anchor": "The plural jussive imperative at word 1 governs the Lord at word 2, whose identity is localized by the deictic House at word 4.",
+            "mechanism": "Submissive worship, sovereign ownership, and shelter form a relational chain: the group is summoned to place its obedience under the authority responsible for this particular protected center.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the commanded act and makes allegiance, not mere acknowledgment, the operative relation."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and obeyed authority identify the recipient as master of the relation."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter and dwelling make the House the concrete protected center through which that authority is recognized."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic injunction to worship at or because of a sacred building.",
+              "after": "A communal transfer of obedient allegiance to the owner-authority specifically disclosed through this sheltering House."
+            }
+          },
+          {
+            "model_id": "b02_nurtured_household",
+            "confidence": "strong",
+            "focus_anchor": "The same construction can join the service verb to a Lord understood as one who tends, and the House to the people gathered and dependent within it.",
+            "mechanism": "The focus can describe a maintained social organism rather than a command attached to architecture: the Lord repairs and develops, the House names a household, and worship is the household's responsive service.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Devoted obedience turns the plural command into the household's responsive practice."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, stagewise nurture, and completion make the Lord an active maintainer rather than a static title."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "Household and dependents shift the deictic House from masonry to an affiliated human collective."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Lord and House are a title and a building external to the commanded group.",
+              "after": "The verse summons a tended household to serve the one whose continuing care makes it a coherent household."
+            }
+          },
+          {
+            "model_id": "b03_mastery_relocated",
+            "confidence": "medium",
+            "focus_anchor": "The service root, the master root, and the household root all carry social-status branches within the three-word predicative chain.",
+            "mechanism": "A miniature hierarchy is exposed and then relocated: owned dependence and household membership are not erased, but ultimate mastery over them is assigned to the Lord of the House rather than to an intra-house human owner.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned or unfree status supplies the social depth of dependence latent beneath the worship verb."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Mastery and ownership receive that dependence and concentrate authority in the named Lord."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household branch locates the authority question inside a network of members and dependents."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worship is a purely cultic act with no pressure on social mastery.",
+              "after": "The command also reassigns the household's deepest dependence away from proximate masters and toward the House's Lord."
+            }
+          },
+          {
+            "model_id": "b04_honor_transferred",
+            "confidence": "exploratory",
+            "focus_anchor": "The worship root can cast a shadow of honoring, while the House root can denote a lineage's seat of honor.",
+            "mechanism": "The imperative can stage a transfer of prestige: the honored lineage-house is not itself the final object of magnification; honor passes through the deictic House to its Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honoring and magnifying provide an exploratory affective register for the commanded worship."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign lordship marks the proper terminus of the transferred honor."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B008",
+                "role": "The noble lineage-house supplies the competing prestige center that the syntax subordinates to its Lord."
+              }
+            ],
+            "changed_reading": {
+              "before": "The House's inherited prestige simply reinforces the status of those attached to it.",
+              "after": "The command redirects the House's prestige upward, making lineage honor derivative of honoring its Lord."
+            }
+          },
+          {
+            "model_id": "b05_material_service_center",
+            "confidence": "exploratory",
+            "focus_anchor": "The service root includes a material image of making a way subdued and passable, adjacent to a maintaining Lord and a sheltering House.",
+            "mechanism": "Without replacing the ordinary worship sense, the focus carries a material undertone: devoted service can include making and keeping the approach, vessel, or center usable under the care of the one who maintains it.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Subduing and smoothing a physical surface contributes the branch-distant image of service that makes passage possible."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and upkeep assign continuing maintenance to the Lord-side of the mechanism."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "The sheltering dwelling is the durable center whose accessibility and integrity matter."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worship is an inward or ritual response performed beside a fixed sanctuary.",
+              "after": "Worship retains that sense but acquires an embodied service-shadow: sustaining a passable, protected center under its maintainer."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_affiliative_service",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ف"
+            ],
+            "mechanism": "Repeated joining and habituated companionship activate the social potential of the plural service command: worship becomes a practice that continually composes people into a familiar household around one House and one Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Shared submissive practice provides the repeated action through which affiliation can be enacted."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing and completion make social cohesion something maintained over time."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household image gives the joined collective a human form rather than reducing the House to a site."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining one thing to another supplies the compositional operation that gathers the plural subjects."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiarity, companionship, and persistence turn one-time gathering into durable social attachment."
+              }
+            ],
+            "structural_cues": [
+              "The affiliation root recurs in both 106:1 and 106:2 before the focus imperative.",
+              "A plural commanded subject is oriented toward one singular, deictically marked House."
+            ],
+            "reader_inference": "The packet supplies repeated joining and familiar attachment before a plural command; I infer that shared service helps produce and preserve the attachment, while the live alternative is that affiliation is only a prior benefit that motivates otherwise unchanged worship.",
+            "changed_reading": {
+              "before": "A maintained household responds to care, but its internal cohesion is left unexplained.",
+              "after": "Its worship is itself a communal technology of affiliation, repeatedly joining members into a familiar House-centered collective."
+            }
+          },
+          {
+            "model_id": "d02_house_as_journey_hinge",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ح ل"
+            ],
+            "mechanism": "Travel and an intermediate lodging place turn the fixed House into a hinge in a mobile system. The material service-shadow of worship now concerns keeping a protected node and its approaches usable across departures and returns.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "The passable-surface image lets devoted service acquire a material route-maintenance undertone."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and administration assign the mobile system a sustaining governor."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter gives movement a stable place of protection and return."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Going forth in travel supplies the outward motion against which the House becomes a fixed hinge."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "A lodging between journeys supplies the relay-node image that functionally links House and route."
+              }
+            ],
+            "structural_cues": [
+              "The journey cue immediately precedes the focus ayah.",
+              "Mobile travel contrasts with the singular demonstrative expression locating this House."
+            ],
+            "reader_inference": "The packet supplies travel, intermediate lodging, shelter, upkeep, and passability; I infer a relay system in which the House organizes movement and service sustains access, while the live alternative is that the House is only the journey's religious destination or retrospective symbol.",
+            "changed_reading": {
+              "before": "The House is a static sanctuary and material service is only a remote branch echo.",
+              "after": "The House becomes the maintained hinge of recurring mobility, and worship includes an embodied commitment to the protected route-center."
+            }
+          },
+          {
+            "model_id": "d03_season_spanning_fidelity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ت و",
+              "ص ي ف"
+            ],
+            "mechanism": "The opposed seasons activate a temporal reading: a lasting Lord and fixed shelter hold together a collective whose conditions alternate. Worship becomes fidelity repeated across a complete environmental cycle rather than a one-time payment.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Devoted obedience supplies the repeatable practice carried through changing conditions."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Staying, clinging, and duration provide the invariant counterweight to seasonal alternation."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "The sheltering House supplies the fixed spatial center of the temporal cycle."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B001",
+                "role": "Winter supplies one environmental phase and its distinctive exposure."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer completes the alternating pair and expands the command across the year."
+              }
+            ],
+            "structural_cues": [
+              "Winter and summer are coordinated as a pair within one journey expression.",
+              "The focus follows the seasonal pair with a singular House and an imperative marked by consequence."
+            ],
+            "reader_inference": "The packet supplies two opposed seasons, a durable-staying branch, and one shelter; I infer that worship is the invariant practice binding the cycle, while the live alternative is that the seasons merely date travel and contribute no temporal shape to the command.",
+            "changed_reading": {
+              "before": "The imperative asks for an undifferentiated act after an undifferentiated benefit.",
+              "after": "It asks for season-spanning fidelity: stable service to the lasting Lord of the fixed shelter through alternating conditions."
+            }
+          },
+          {
+            "model_id": "d04_two_lacks_repaired",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ع م",
+              "ج و ع",
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "Livelihood fills bodily and social emptiness while security arrests anticipated loss. Together they instantiate the Lord's nurturing and completing action, so the House becomes a lived ecology of provision and refuge rather than a self-sufficient monument.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worshipful obedience is the response generated by the paired acts of care."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion unify provision and protection as two modes of lordly maintenance."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter becomes effective refuge only when supplied and secured."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and well-being broaden feeding from an isolated meal to a maintained material condition."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B004",
+                "role": "Emptiness and wasting supply the deficit that material care reverses."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled confidence supplies the positive interior state produced by protection."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B004",
+                "role": "Loss that takes away from a thing makes fear an erosive deficit as well as an emotion."
+              }
+            ],
+            "structural_cues": [
+              "The following relative clause presents two parallel verbal benefits to the same plural recipients.",
+              "Each benefit is paired with a privative source construction: provision from hunger and security from fear."
+            ],
+            "reader_inference": "The packet supplies livelihood versus emptiness and settled confidence versus erosive loss; I infer two coordinated repair operations that disclose what lordly nurture does, while the live alternative is that these are independent benefits associated with the House rather than a functional definition of its Lord.",
+            "changed_reading": {
+              "before": "The House possesses sanctity in itself, and worship answers that static status.",
+              "after": "The House is the visible node of a continuously repaired ecology, and worship answers the Lord who fills material lack and halts affective and social depletion."
+            }
+          },
+          {
+            "model_id": "d05_service_enabled_by_care",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م",
+              "ء م ن"
+            ],
+            "mechanism": "A capacity branch within feeding activates the strength branch within service. Provision and settled confidence can therefore be read as enabling conditions for worship: the Lord first makes the subjects able and stable enough to answer the command.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship remains the commanded response whose conditions of possibility are being reconstructed."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B007",
+                "role": "Strength and solidity supply a latent state of empowered rather than depleted service."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture gives the Lord the role of developing the subjects' ability to respond."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B011",
+                "role": "Ability or capacity lets feeding signify endowed agency rather than calories alone."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled confidence removes the destabilization that would obstruct willing service."
+              }
+            ],
+            "structural_cues": [
+              "The command in 106:3 is followed by a clause identifying its Lord through benefits to the commanded plural group.",
+              "The same recipients appear in both enabling acts of 106:4."
+            ],
+            "reader_inference": "The packet supplies capacity, strength, nurture, and settled confidence; I supply the causal arrow from being fed and secured to being able to worship, while the live alternative is that the benefits only justify or reward worship and do not enable it.",
+            "changed_reading": {
+              "before": "The imperative extracts service from subjects whose condition is irrelevant.",
+              "after": "The imperative addresses subjects first rendered capable and steady by care, so worship is enabled agency rather than tribute wrung from deprivation."
+            }
+          },
+          {
+            "model_id": "d06_protective_not_coercive_mastery",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "خ و ف"
+            ],
+            "mechanism": "The focus's social grammar of master, dependent, and household is revised by the contrast between producing security and producing fear. Legitimate lordship is characterized as removing coercive fear, not using fear to manufacture slave-like service.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "The image of reducing another to slave-like status exposes coercion as a possible but rejected model of mastery."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship remains the actual commanded relation, now differentiated from coerced subjugation."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Ownership and authority pose the question of what kind of master the Lord is."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household branch makes the quality of authority socially consequential for members and dependents."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and inner calm positively characterize the Lord's exercise of authority."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B002",
+                "role": "Causing fear supplies the coercive counter-model that the securing action reverses."
+              }
+            ],
+            "structural_cues": [
+              "The same plural group commanded to serve is explicitly made secure in 106:4.",
+              "Security is expressed as removal from fear, making the two authority-effects directly contrastive."
+            ],
+            "reader_inference": "The packet supplies branches for enslaving, mastery, inducing fear, and granting security, but it does not state a human oppressor; I infer a contrast between fear-based domination and protective authority, while the live alternative is that security merely demonstrates power without critiquing coercive mastery.",
+            "changed_reading": {
+              "before": "The master-servant structure risks making worship resemble submission produced by superior force.",
+              "after": "The context differentiates the House's Lord from a coercive master: this authority creates calm and removes fear, enabling devoted rather than terrorized submission."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_scattering_reversed_into_convergence",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a branch associated with scattered groups rather than the ordinary worship form. It remains anchored in the focus service root and gains a visible mechanism from joining, travel, and one sheltering House. Downstream prose should present it only as a latent counter-image: worship reverses dispersion; it should not translate the verb as gathering.",
+            "focus_anchor": "The plural service verb at word 1 and the singular House at word 4 can hold a centrifugal-versus-centripetal tension.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B010",
+                "role": "Scattering into multiple directions supplies the latent condition that communal worship reverses."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "One sheltering center supplies the destination and container of convergence."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining supplies the centripetal operation that counters dispersal."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Travel supplies the multiple outward trajectories that can be reoriented toward the House."
+              }
+            ],
+            "changed_reading": {
+              "before": "The commanded plural group is already assembled and merely receives an instruction.",
+              "after": "The instruction carries a counter-image in which scattered routes and groups are repeatedly converged into House-centered service."
+            }
+          },
+          {
+            "outlier_id": "o02_stranding_shadow",
+            "confidence": "exploratory",
+            "containment": "This is surprising because breakdown and stranding belong to a remote branch of the focus service root. It remains anchored because journey-harm, an intermediate lodging, security, and the sheltering House make a coherent resilience mechanism. Render it as a shadow cast around worship by what care averts, never as the direct lexical meaning of the imperative.",
+            "focus_anchor": "The focus service root at word 1 contains a stranded-traveler branch beside the House-as-shelter at word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B011",
+                "role": "Breakdown and being cut off supply the failure-state from which the commanded relation is read as resilient dependence."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and care supply the agency that answers breakdown."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter supplies the recovery node for a vulnerable traveler."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B009",
+                "role": "Travel undertaken with harm activates the concrete risk of failure on the route."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "A lodging between journeys gives repair and recovery a spatial station."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled confidence mark successful emergence from the route's vulnerability."
+              }
+            ],
+            "changed_reading": {
+              "before": "Travel is successful background, and worship simply follows success.",
+              "after": "Worship is shadowed by remembered vulnerability to breakdown: allegiance answers the caretaker of a House that functions as repair, refuge, and recovery between risky movements."
+            }
+          },
+          {
+            "outlier_id": "o03_surplus_as_rival_lord",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant mapping of the focus lord root to a transactional-increase branch and infers an economic circuit from seasonal travel and livelihood. It remains packet-anchored and yields a sharp allegiance contrast, but neither commerce nor rivalry is explicit. Downstream prose must mark it as an abductive warning against treating generated surplus as sovereign, not as a settled reading.",
+            "focus_anchor": "The focus lord root at word 2 has a retained split mapping whose transactional branch can compete with the dominant authority sense.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship supplies the allegiance that can be redirected away from an economic rival."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B003",
+                "role": "Transactional increase supplies the non-dominant rival image activated inside the lord-root mapping."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B008",
+                "role": "The prestigious lineage-house supplies a social institution that could absorb credit for generated increase."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Recurring travel supplies circulation from which the reader tentatively infers an economic system."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and good condition supply the material yield whose ultimate source is disputed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Seasonal circulation and resulting livelihood straightforwardly support the House's prestige.",
+              "after": "The imperative can polemically deny sovereignty to the surplus generated around that circulation: serve the House's Lord, not increase, circulation, or institutional prestige as though any were lord."
+            }
+          },
+          {
+            "outlier_id": "o04_grafted_household",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses horticultural joining, foster relations, affiliation, and household membership. It remains valid as a convergent branch activation anchored in the focus Lord and House, but the cross-domain arrow is reader-supplied. Render it as an adoptive-household analogy, not as a claim that the verse lexically names grafting or adoption.",
+            "focus_anchor": "The focus joins a nurturing Lord at word 2 to a House capable of denoting its human members at word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Shared devotion supplies the practice through which non-identical members can belong together."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B005",
+                "role": "Fostered-child and step-family relations supply a model of nurtured belonging not reducible to direct descent."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household branch provides the social body into which affiliation can incorporate members."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining distinct things supplies the general operation of incorporation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "A branch accepting a graft supplies the material analogy for a joined member taking within a living whole."
+              }
+            ],
+            "changed_reading": {
+              "before": "The House denotes a closed group whose membership and honor are inherited.",
+              "after": "The House can be imagined as a nurtured, graft-capable household in which shared service composes belonging beyond a merely inherited enclosure."
+            }
+          },
+          {
+            "outlier_id": "o05_house_at_the_scale_of_one_night",
+            "confidence": "medium",
+            "containment": "This is surprising because it activates the House root's one-night provision branch inside a phrase that ordinarily denotes a dwelling. It remains strongly anchored by the following feeding-from-hunger contrast and by the Lord's nurturing branch. Downstream prose should describe a subsistence-scale resonance, not replace House with ration.",
+            "focus_anchor": "The House at word 4 can carry a branch linking overnight shelter to the minimum provision needed to remain there.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship supplies the recurring response to care experienced at an immediate human timescale."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Continuing nurture turns provision into repeated maintenance rather than a single gift."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B005",
+                "role": "Provision sufficient for one night compresses the House's grandeur to the recurring threshold of subsistence."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the concrete act that meets the overnight need."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty belly defines the immediate bodily limit that provision crosses."
+              }
+            ],
+            "changed_reading": {
+              "before": "The House is read at monumental and collective scale.",
+              "after": "It also contracts to the scale of surviving one more night: the Lord of this House is encountered in recurrent shelter and enough food for embodied dependents."
+            }
+          },
+          {
+            "outlier_id": "o06_security_as_trustful_assent",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the context form primarily supplies security, while the cited branch concerns heart-settling assent. It remains anchored through the focus's worship and lordship relation and the explicit removal of fear. Render it as an affective resonance in which safety permits trust, not as a morphological claim that the context verb directly means belief here.",
+            "focus_anchor": "The worship verb at word 1 can be modulated by whether submission to the Lord at word 2 is fearful or trustful.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the relation whose affective quality is revised."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordly authority supplies the object toward whom trust or fear may orient the worshipper."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter gives trust a concrete environment of experienced protection."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling assent supplies a trust resonance within the act of being secured."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Anticipatory dread supplies the affective condition that security removes."
+              }
+            ],
+            "changed_reading": {
+              "before": "Submission to superior lordship can remain compatible with anxious compliance.",
+              "after": "Because the Lord's shelter removes anticipated harm, worship can be heard as trustful assent arising from security rather than obedience haunted by fear."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The House changed from a static sacred object into a maintained household and the fixed hinge of a mobile, seasonally cycling system.",
+            "Worship changed from extracted tribute into a response made possible by provision, capacity, and settled confidence.",
+            "Lordship changed from bare superiority into the coordinated repair of material emptiness and fear-driven depletion.",
+            "The master-servant grammar changed under the security cue: legitimate authority protects dependents instead of manufacturing submission through fear.",
+            "Affiliation changed from prior background into something shared service may actively reproduce."
+          ],
+          "what_was_special": "The three focus roots sustain unusually dense cross-domain relays: service can shade into social dependence, material passability, strength, scattering, and stranding; lordship into mastery, nurture, duration, kin-care, growth, and surplus; House into shelter, household, lineage honor, and nightly provision. The context activates devotional, logistical, social, material, anti-coercive, and economic readings without forcing them into one synthesis.",
+          "remaining_uncertainties": [
+            "The material, scattering, and stranding activations of the service root are visibly anchored but form-distant and must remain counter-images rather than translations.",
+            "The transactional-surplus reading depends on a legitimate but non-dominant split mapping and on an inferred economic function for recurring journeys.",
+            "The causal direction remains open: the House may enable recurring movement, recurring movement may sustain the House, or both may form a feedback loop.",
+            "The following provision-and-security clause may define the Lord's mode of care, give reasons for worship, describe effects associated with the House, or support all three readings.",
+            "The affiliative mechanism may make worship a producer of cohesion or may only name the response of an already cohesive group."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Worship as repayment of stabilized circulation.** Lexical evidence: ع ب د B003 (worship and submissive obedience), ر ب ب B001 (lordship/ownership), ب ي ت B001 (shelter/dwelling), ء ل ف B005 from 106:1-2 (habituated attachment), and ر ح ل B001/B006 (journey/stage). Structural cue: the prefixed \"فَ\" ties the imperative to the preceding ilaf/rihlah sequence. Assigned role: the prior mobility supplies the reason; worship supplies the required response to the owner of the center. Abductive move: I infer that the command is generated by recognizing who makes the travel order possible. Reading change: 106:3 reads not as a detached ritual order but as the ethical consequence of a maintained seasonal system.\n\n2. **Rabb as nurturer/completer of a house-centered people.** Lexical evidence: ر ب ب B002 (repair, nurture, completion), B005 (fostered child/caregiver relation), ب ي ت B002 (household and dependents), ر ح م B002/B003 in 106:0 (kinship/womb), and ط ع م B002 in 106:4 (feeding another). Structural cue: \"رَبَّ\" is linked by construct-like proximity to \"هَٰذَا ٱلْبَيْتِ\", and the final ayah concretizes nurture through feeding and securing. Assigned role: rabb is not only sovereign but caretaker of dependents affiliated with the house. Abductive move: I infer that the house gathers Quraysh into a household relation whose lord feeds and raises them. Reading change: worship becomes the response of dependents to nurturing lordship, not only subjects to power.\n\n3. **The house as shelter against route fear.** Lexical evidence: ب ي ت B001/B004 (shelter/dwelling; night action and attack), خ و ف B001/B002 in 106:4 (fear and intimidation), ء م ن B001 (place/situation of safety), and ر ح ل B007/B009 in 106:2 (dislodging; burdening with harm). Structural cue: the demonstrative \"هَٰذَا\" fixes the house locally after the seasonal routes; the last ayah names fear as removed. Assigned role: the house is the stable shelter that makes exposed travel non-threatening. Abductive move: I infer that the sanctuary's authority extends outward from a local house into route security. Reading change: \"this house\" reads as an anchor of safety, not merely an architectural or cultic reference.\n\n4. **Submissive path-making instead of scattered self-direction.** Lexical evidence: ع ب د B005 (subduing/smoothing, a passable road), B010 (scattering in different directions), ء ل ف B002 (joining after separation), and ص ي ف B005 in 106:2 (turning aside from the aim). Structural cue: the command to worship follows the joined seasonal route; several branches contrast passability and deviation/scattering. Assigned role: worship functions like making the route \"mubaddad/muʿabbad\": smoothed, oriented, and not dispersed. Abductive move: I infer that obedient worship is the social-ritual analogue of a road made passable toward its proper center. Reading change: the ayah reads as re-channeling a mobile people away from dispersion and deviation into a single orienting service.\n\n5. **Honoring the house's Lord against prestige of the house.** Lexical evidence: ع ب د B006 (honoring/magnifying), ب ي ت B008 (lineage house of honor), س م و B008 in 106:0 (good repute spread), and ر ب ب B001 (lordship/ownership). Structural cue: \"رَبَّ هَٰذَا ٱلْبَيْتِ\" puts the Lord before the house, while the house carries potential tribal honor. Assigned role: the honor branches surface a possible prestige economy around house, lineage, and reputation. Abductive move: I infer that the imperative redirects honor attached to Quraysh/house toward the house's owner. Reading change: the ayah becomes a correction of status: the protected house is not an independent source of glory but a sign directing worship to its Lord.",
@@ -16417,14 +17530,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s106/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 36,
+        "ayah_count": 4,
+        "row_count": 29,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -16638,10 +17757,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s106/packets/106_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s106/readers/reader_hft_a/106_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 6
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s106"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s106",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 75434,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

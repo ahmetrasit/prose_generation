@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.426092+00:00",
+  "generated_at": "2026-08-18T13:34:40.943654+00:00",
   "surah": 111,
   "ayah": 5,
   "ayahRef": "111:5",
@@ -1728,7 +1728,8 @@
       "morpheme_ids": [
         "m-w-s111-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:5:1"
+      "aligned_qac_word_ref_upstream": "111:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1744,7 +1745,8 @@
         "m-w-s111-a005-w002-01",
         "m-w-s111-a005-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:5:2"
+      "aligned_qac_word_ref_upstream": "111:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1758,7 +1760,8 @@
       "morpheme_ids": [
         "m-w-s111-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:5:3"
+      "aligned_qac_word_ref_upstream": "111:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1772,7 +1775,8 @@
       "morpheme_ids": [
         "m-w-s111-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:5:4"
+      "aligned_qac_word_ref_upstream": "111:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1786,7 +1790,8 @@
       "morpheme_ids": [
         "m-w-s111-a005-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:5:5"
+      "aligned_qac_word_ref_upstream": "111:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2970,7 +2975,1231 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s111/packets/111_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "111:5",
+      "window": [
+        "111:1",
+        "111:2",
+        "111:3",
+        "111:4",
+        "111:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ي د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001693",
+              "furuq_root_norm": "ي د ي",
+              "furuq_source_root_norm": "ي د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 107,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000071",
+              "furuq_root_norm": "ء ي د",
+              "furuq_source_root_norm": "أ ي د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "111:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_neck_halter",
+            "confidence": "strong",
+            "focus_anchor": "The locative construction puts a cord at the front neck and then specifies its masad construction.",
+            "mechanism": "A cord capable of binding and leading is fixed at the body's exposed steering point, while masad supplies a tightly twisted build. The three focus nouns compose a tension-bearing halter rather than an object merely resting near the neck.",
+            "activation_trace": [
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Locates the mechanism on the exposed front neck, where a tether can redirect the whole body."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Supplies an extended cord that binds or leads, giving the neck object restraint and directional force."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Supplies firmly twisted fibrous construction, making the restraint durable under tension."
+              }
+            ],
+            "changed_reading": {
+              "before": "A rope happens to be worn at her neck.",
+              "after": "A deliberately constructed halter occupies the bodily point from which a person can be bound, led, and denied self-direction."
+            }
+          },
+          {
+            "model_id": "b02_inverted_necklace",
+            "confidence": "medium",
+            "focus_anchor": "The focus places a named cord-form at a neck, the ordinary display site of a necklace, but qualifies it with coarse twisted material.",
+            "mechanism": "The ornament branch of the cord root and the neck's display associations establish a necklace slot; masad fills that slot with hard-twisted fiber. Adornment is not simply absent but structurally retained and materially reversed.",
+            "activation_trace": [
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Provides the front neck as a conspicuous display site, including the lexical association with a fine or elongated neck."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B008",
+                "role": "Activates a cord-derived ornament specifically placed among necklace elements."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Replaces ornamental fineness with forcefully twisted palm, hair, or hide fiber."
+              }
+            ],
+            "changed_reading": {
+              "before": "The neck rope is only an instrument of restraint.",
+              "after": "The restraint is also an anti-necklace: the form and display position of adornment survive while its material and function turn punitive."
+            }
+          },
+          {
+            "model_id": "b03_protection_inverted",
+            "confidence": "medium",
+            "focus_anchor": "The same focus word that denotes a material cord can denote covenant, protection, attachment, or a means of access, and it is fixed at her neck.",
+            "mechanism": "A bond normally providing connection or security becomes inseparable from the bearer and changes polarity into encumbrance. Masad's twisting gives the social bond a material image: separate ties become one constricting liability.",
+            "activation_trace": [
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Supplies covenant, protection, attachment, and means of access as a second functional register for the cord."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Turns an abstract bond into something borne visibly at a vulnerable bodily site."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Gives multiple connective strands a single tightened and load-bearing form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse describes only a physical cord.",
+              "after": "It can simultaneously stage a bond of protection or affiliation whose very closeness has inverted into bodily liability."
+            }
+          },
+          {
+            "model_id": "b04_snare_that_closes",
+            "confidence": "medium",
+            "focus_anchor": "The cord root carries both hunting-snare and ensnaring-calamity branches, while the focus fixes the result around the neck.",
+            "mechanism": "The cord is an active capture system rather than passive equipment. The neck location shows the trap already closed, and the twisted material suggests tightening under struggle.",
+            "activation_trace": [
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "Supplies a catching and entangling trap, converting the cord into an event of capture."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B011",
+                "role": "Adds calamity or cunning that catches its own subject, making entanglement consequential rather than accidental."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Marks the neck as the point at which capture has become bodily control."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Supplies torsion and tensile coherence, allowing the trap to close rather than fall apart."
+              }
+            ],
+            "changed_reading": {
+              "before": "The rope is a static punishment imposed after capture.",
+              "after": "The rope is itself the closing trap, with the focus presenting the instant of entanglement as a settled bodily condition."
+            }
+          },
+          {
+            "model_id": "b05_constraint_embodied",
+            "confidence": "exploratory",
+            "focus_anchor": "At the neck, the cord root can name bodily veins and sinews, while masad can describe a compactly twisted human form.",
+            "mechanism": "External rope and bodily cord become analogues. The restraint does not merely touch the body; its corded structure echoes the body's own connective tissues and tightly formed shape, making captivity appear incorporated.",
+            "activation_trace": [
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Provides the anatomical site at which external tether and internal bodily structures can meet."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B004",
+                "role": "Supplies vein-like, sinew-like, and joint-like cords inside the body."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B002",
+                "role": "Supplies a human body understood as tightly formed or corded, extending twist from material to physique."
+              }
+            ],
+            "changed_reading": {
+              "before": "A foreign object is attached to an otherwise separate body.",
+              "after": "The body itself is rendered cord-like, so that the imposed constraint seems to invade and reorganize embodiment."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_agency_moves_to_neck",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ب ب",
+              "ي د ي"
+            ],
+            "mechanism": "The opening destruction and cutting of hands, read through hand-as-power and the split root's supported strength, removes the ordinary organ and symbol of agency. The focus halter then relocates control to the neck: active mastery is reversed into being led.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "Supplies severance, allowing the repeated opening verb to remove operative control rather than indicate loss only."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B002",
+                "role": "Supplies the hand as power, expanding bodily destruction into a collapse of capacity."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B005",
+                "role": "Supplies the hand as authority, sharpening the reversal from governing to being governed."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root adds reinforced strength, so the loss can include support as well as anatomy."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Provides the neck as the replacement center on which control is exercised."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Provides the binding and leading apparatus that converts lost agency into directed subjection."
+              }
+            ],
+            "structural_cues": [
+              "111:1 repeats the destruction verb around the hand-and-name phrase; 111:5 shifts the decisive bodily site from hands to neck.",
+              "The focus is a fixed locative nominal condition rather than a passing action."
+            ],
+            "reader_inference": "The packet supplies cut or destroyed hands, hand-as-power or authority, supported strength, and a neck halter; I infer a control-vector reversal across the household. A live alternative is that the two bodily images remain parallel punishments without transfer.",
+            "changed_reading": {
+              "before": "The neck rope restrains its bearer without reference to prior agency.",
+              "after": "It completes a bodily reversal in which power formerly figured by hands is removed and the household is now figured from the neck, the point by which one is led."
+            }
+          },
+          {
+            "model_id": "d02_security_accrues_as_snare",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ن ي",
+              "م و ل",
+              "ك س ب"
+            ],
+            "mechanism": "Sufficiency, accumulated property, and successfully sought benefit form the expected components of security. Because the context explicitly denies their efficacy, the focus cord's protection-and-access branch reverses: accumulated means become strands twisted into the snare they were meant to prevent.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Supplies adequacy and sufficiency, the protective function that the negative clause denies."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Supplies the taking and multiplying of property, giving the failed security an accretive material logic."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Supplies deliberate pursuit and attainment of benefit, making the eventual liability partly produced rather than merely received."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Provides the expected functions of protection, attachment, and reaching a goal that wealth and gain fail to perform."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "Reverses the failed means into an entangling trap."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Turns repeated acquisition into a strand-by-strand image of one tightened liability."
+              }
+            ],
+            "structural_cues": [
+              "111:2 coordinates property and what was acquired under a repeated negation of availing.",
+              "The focus material complement follows the cord, inviting the prior plurality of means to be recomposed as one object."
+            ],
+            "reader_inference": "The packet supplies denied sufficiency, accumulated property, acquired benefit, a protective cord, a snare, and twisted strands; I infer that failed means feed the construction of the trap. The live alternative is simple non-availing followed by an unrelated physical punishment.",
+            "changed_reading": {
+              "before": "A protective bond has somehow become a burden.",
+              "after": "The very means accumulated for sufficiency and protection are imaginatively twisted into the neck-snare, so acquisition supplies the material logic of its own reversal."
+            }
+          },
+          {
+            "model_id": "d03_rope_as_fire_conduit",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل ي",
+              "ن و ر",
+              "ل ه ب"
+            ],
+            "mechanism": "Encounter with heat, fire used to ignite or reshape, burning that can brand, and active flame meet a cord made of firmly twisted organic fiber. The neck rope can therefore be read as a wick-like tether that couples its bearer to the fire rather than as a restraint spatially unrelated to it.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Supplies direct encounter with fire and heat as the destination of the mechanism."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Supplies ignition and fire-driven reshaping, making heat an active transformer rather than scenery."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Supplies burning fire together with its capacity to leave a bodily mark."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Supplies the moving tongue and active spread of flame that the tether can conduct."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Provides an extended physical path from neck outward."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Provides tightly twisted palm, hair, or hide fiber that can be imagined as a heat-bearing wick."
+              }
+            ],
+            "structural_cues": [
+              "The future fire encounter in 111:3 is followed by the carrier and then the neck apparatus in 111:4-5.",
+              "The material specification in the focus makes physical analogy more available than a generic cord would."
+            ],
+            "reader_inference": "The packet supplies fire contact, ignition, branding, flame, and twisted organic cord; I supply the directional arrow that the cord conducts or extends the fire like a wick. It may instead remain a non-burning tether merely co-present with fire.",
+            "changed_reading": {
+              "before": "The rope restrains while fire punishes elsewhere.",
+              "after": "The rope becomes a material coupling or fuse, bringing the fire's action to the neck and making restraint and burning one process."
+            }
+          },
+          {
+            "model_id": "d04_double_mapped_trap",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل ي"
+            ],
+            "mechanism": "Both mapped inventories for the fire-encounter form independently retain trap branches, and the focus cord has its own snare branch. This three-way branch convergence turns the sequence into entrapment whose terminal environment is fire, without forcing either mapped root to disappear.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "The dominant mapped inventory supplies laid snares and traps, linking the fire-clause form to capture."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B004",
+                "role": "The non-dominant mapped inventory independently supplies set traps, preserving rather than collapsing the split-root activation."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Keeps direct fire encounter as the consequence or location reached by the trapping mechanism."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "Provides the focus-anchored snare that visibly closes around the neck."
+              }
+            ],
+            "structural_cues": [
+              "The packet deliberately preserves two mapped roots for the same 111:3 occurrence, and each contains a trap image.",
+              "The fire clause precedes the neck-snare image, permitting capture and destination to form a sequence."
+            ],
+            "reader_inference": "The packet supplies two independent trap branches, direct fire encounter, and a neck snare; I infer capture leading into fire. The alternative is accidental polysemous overlap with no causal sequence.",
+            "changed_reading": {
+              "before": "The focus rope is one possible snare image among many cord senses.",
+              "after": "The two mapped inventories of the preceding fire verb both reactivate that snare, making entrapment a repeated lexical mechanism rather than a solitary metaphor."
+            }
+          },
+          {
+            "model_id": "d05_restraint_as_public_badge",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ل ه ب"
+            ],
+            "mechanism": "Fire that marks, is visible from afar, or stands out clearly combines with elevated flame and the focus's necklace-like display position. The anti-necklace becomes a public badge of the relation to flame, not merely a private constriction.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Adds fire as a means of marking, allowing punishment to function as an impressed sign."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Adds fire perceived at a distance, shifting the mechanism toward public visibility."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B011",
+                "role": "Supplies manifest projection or obviousness, sharpening the neck object's display function."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B003",
+                "role": "Supplies elevated flame-like prominence, making the associated sign conspicuous."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Provides the visible front neck as the bodily display surface."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B008",
+                "role": "Provides the necklace-ornament template that can be inverted into a stigmatic badge."
+              }
+            ],
+            "structural_cues": [
+              "The same flame term appears first inside a name and later as the explicit quality of the fire.",
+              "The focus places its object at the front neck, a naturally legible rather than concealed site."
+            ],
+            "reader_inference": "The packet supplies marking fire, distant visibility, manifest prominence, flame, and neck ornament; I infer that the anti-necklace displays identity or outcome publicly. The live alternative is that all visibility belongs to the fire while the rope remains purely constrictive.",
+            "changed_reading": {
+              "before": "The inverted necklace substitutes rough restraint for ornament.",
+              "after": "It also operates as a conspicuous anti-insignia, making the bearer's flame-linked condition visible on the body's display surface."
+            }
+          },
+          {
+            "model_id": "d06_carriers_neck_harness",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "Repeated external carrying, a carrying implement, and gathered fuel immediately precede a twisted cord at the carrier's neck. The focus rope becomes load-bearing equipment for an ongoing labor system, joining task, apparatus, and body.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Supplies the lifting and bearing of an external load as the action the neck apparatus serves."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B006",
+                "role": "Supplies a carrying tool or mount, licensing an apparatus reading rather than burden alone."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Supplies fuel as material repeatedly gathered into the load."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Locates the rig at the bodily point used to bear or control its tension."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Supplies the extended tether or halter that joins carrier to load."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Makes the rig a robust twisted implement suited to repeated strain."
+              }
+            ],
+            "structural_cues": [
+              "The intensive feminine carrier noun and its definite load in 111:4 flow directly into the feminine possessive neck clause in 111:5.",
+              "The focus clause names apparatus, body location, and construction after the task has already been named."
+            ],
+            "reader_inference": "The packet supplies repeated carrying, an external load, carrying equipment, gathered fuel, and a neck tether; I infer that the rope is the rig coupling bearer and load. It can alternatively be a separate collar with no hauling function.",
+            "changed_reading": {
+              "before": "The rope is a finished restraint displayed on the carrier.",
+              "after": "It is also her work harness, making the punishment durative: she remains structurally attached to the task of gathering and bearing fuel."
+            }
+          },
+          {
+            "model_id": "d07_social_circulation_self_binds",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "Bearing blame, carrying slander between people, and indiscriminately mixing what is gathered activate the cord's social-connection and snare branches. Repeated circulation of mixed reports is imagined as twisting relational threads until the carrier is caught by the network she sustains.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Converts physical bearing into the carrying of blame, entrusted burden, or culpable weight."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "Supplies the social act of carrying hostile reports or slander from person to person."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "Adds indiscriminate gathering and mixture, explaining how heterogeneous reports accumulate."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Supplies interpersonal connection and attachment as the channels through which reports travel."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "Turns the network of connections into a trap for the person maintaining it."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Provides twisting as the material analogue by which repeated social threads become one constricting rope."
+              }
+            ],
+            "structural_cues": [
+              "The intensive carrier form supports recurrence rather than a single act.",
+              "The material fuel sense and the packet's explicit social-carrying branch coexist at the same context word."
+            ],
+            "reader_inference": "The packet supplies culpable bearing, slander circulation, mixed gathering, social connection, snare, and twist; I infer the return arrow by which circulated reports bind their carrier. The alternatives are literal fuel carriage or moral burden without a network mechanism.",
+            "changed_reading": {
+              "before": "The neck rope is imposed independently of the carrier's social action.",
+              "after": "It materializes the social channels she repeatedly works: many carried reports twist those connections into the snare that closes on their carrier."
+            }
+          },
+          {
+            "model_id": "d08_spousal_bond_as_surety",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ب و",
+              "ل ه ب",
+              "م ر ء",
+              "ح م ل"
+            ],
+            "mechanism": "A relational form of address, a flame-derived personal title, explicit identification as the man's wife, and the carrying root's surety branch converge on the focus cord as covenant or attachment. The neck bond becomes household affiliation functioning as guarantee and shared liability.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B002",
+                "role": "Supplies a relational paternal form of address and its analogues, making the personal designation structurally relational."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "Supplies a personal name or title derived from flame, concentrating household identity in the designation."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "Identifies the feminine person and spouse to whom the focus possessive refers."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B004",
+                "role": "Supplies guarantee and surety, allowing bearing to become responsibility for another's liability."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Supplies covenant, protection, and attachment as the legal-social substance of the neck bond."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Makes shared liability visible and personally borne rather than merely conceptual."
+              }
+            ],
+            "structural_cues": [
+              "The named man in 111:1 is resumed by the possessive in his wife in 111:4, followed by her neck in 111:5.",
+              "The sequence moves from title, to spouse relation, to a bond physically borne by that spouse."
+            ],
+            "reader_inference": "The packet supplies relational naming, a flame title, wife identification, surety, and a covenant cord; I infer that the spousal bond is rendered as shared household liability. A live alternative is that surety and covenant branches do not interact and the rope remains only individual punishment.",
+            "changed_reading": {
+              "before": "The cord is an inverted protective bond without a specified social relation.",
+              "after": "The context specifies that bond as spousal and household affiliation: what could secure belonging now acts like surety for a shared liability borne at her neck."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_wealth_web",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the spider image is a remote sibling branch of the property root, not the lexical sense of the property word in 111:2. It remains anchored through the focus cord's explicit snare branch and its closure at the neck. Downstream prose should call it a web-like associative activation, never translate property as spider.",
+            "focus_anchor": "The focus supplies an entangling cord already closed at the neck; the remote context branch supplies a web-maker image.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "Introduces a spider image beside the property cue, supplying a web-like model of accumulation and capture."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "Anchors the web analogy in a focus-root branch that explicitly catches and entangles."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Shows the entangling network already contracted around a bodily point."
+              }
+            ],
+            "changed_reading": {
+              "before": "Accumulated property fails to protect, then an unrelated rope appears.",
+              "after": "At the level of exploratory imagery, accumulation resembles a web whose own architecture becomes the neck-snare."
+            }
+          },
+          {
+            "outlier_id": "o02_race_tether_and_follower",
+            "confidence": "exploratory",
+            "containment": "This is surprising because race-station and follower branches are idiomatic side branches, not surface claims about an actual race. It remains anchored by the focus cord's halter and race-station branches plus the preceding form's two mapped follower branches. Render only as a temporal-spatial analogy for being tethered into a predecessor's trajectory.",
+            "focus_anchor": "The focus cord can denote both a leading tether and the station where racers wait before release.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The dominant mapped root supplies the competitor who follows immediately behind the one ahead."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The non-dominant mapped root independently preserves the same following-a-predecessor sequence."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B009",
+                "role": "Supplies a race station before release, turning the neck scene into a held starting position."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Supplies the halter or leading cord that fixes and directs the follower."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Anchors the trajectory image to a tether borne at the neck."
+              }
+            ],
+            "changed_reading": {
+              "before": "Her neck rope is a stationary endpoint.",
+              "after": "Exploratorily, it is a starting tether that fixes her into the path of one who has gone ahead, turning the focus into compelled following."
+            }
+          },
+          {
+            "outlier_id": "o03_gestational_burden_displaced",
+            "confidence": "exploratory",
+            "containment": "This is surprising because pregnancy is a distant branch of the focus cord root and need not be active in the surface noun. It remains anchored through that exact focus root, the feminine referent, and the context carrying branch for inward pregnancy or fruit. Downstream prose should describe a gestational echo or inversion, not assert literal pregnancy.",
+            "focus_anchor": "A pregnancy branch belongs to the focus cord root, but the cord is anomalously displaced from the interior to the woman's neck.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "Supplies the explicit feminine person needed for the gestational branch to become structurally available."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "Supplies inward pregnancy and fruit, creating a carrying cluster distinct from the visible fuel load."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B006",
+                "role": "Supplies pregnancy extending in the womb from the same root as the surface cord."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Makes the burden visibly external and anatomically displaced upward to the neck."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B002",
+                "role": "Adds a tightly formed feminine body, helping the inner and outer carrying images touch without merging."
+              }
+            ],
+            "changed_reading": {
+              "before": "The woman bears an external rope and an external load.",
+              "after": "At a contained associative level, generative inward carrying is inverted into an outward, non-generative burden displayed at the neck."
+            }
+          },
+          {
+            "outlier_id": "o04_esophageal_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the esophagus is a remote branch under the same root as the context word for woman, not its contextual sense. It remains spatially anchored by the focus neck and functionally activated by gathered fuel feeding a burning fire. Render as an anatomical reversal analogy: she feeds the fire while her own feeding passage is constrained.",
+            "focus_anchor": "The rope is fixed at the neck, the anatomical region through which the branch-activated feeding passage runs.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Supplies the burning fire that receives and consumes the carried fuel."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B004",
+                "role": "Introduces the esophageal passage, locating ingestion within the same region as the focus restraint."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Supplies gathered fuel that metaphorically feeds the burning system."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "Anchors the analogy at the front neck rather than in an unlocated internal organ."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Provides constriction and control across the neck passage."
+              }
+            ],
+            "changed_reading": {
+              "before": "She carries material that feeds the fire while wearing an external collar.",
+              "after": "Exploratorily, the collar reverses feeding itself: she supplies the fire's intake while the passage of her own intake is placed under constriction."
+            }
+          },
+          {
+            "outlier_id": "o05_nocturnal_labor_twisted_into_time",
+            "confidence": "exploratory",
+            "containment": "This is surprising because night-long travel belongs to a remote masad branch and indiscriminate night gathering to an idiomatic fuel-root branch. It remains anchored by the focus material word and the carrier's neck tether. Render as a temporal texture of ceaseless, confused labor, not as a claim that the verse explicitly sets the scene at night.",
+            "focus_anchor": "The focus material root can evoke sustained exertion through the night, and its cord remains attached to the carrier's neck.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "Supplies burdensome exertion and hardship as the quality of carrying."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "Supplies the night gatherer who mixes unlike materials without clear discrimination."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B003",
+                "role": "Supplies sustained exertion through night travel, extending masad from material texture into duration."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Keeps the temporal activation attached to a physical tether at the neck."
+              }
+            ],
+            "changed_reading": {
+              "before": "Masad specifies what the rope is made from.",
+              "after": "In a contained outlier, masad also textures the sentence with prolonged night exertion, making the tether an emblem of labor that does not reach release."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The destruction of hands as power or authority reverses agency into a neck-centered halter by which the household is led.",
+            "Denied sufficiency, accumulated property, and acquired benefit turn the cord of protection or access into a strand-built snare.",
+            "Fire contact and the trap branches preserved under both mappings of the 111:3 form make burning, capture, and the focus rope one repeated mechanism.",
+            "The carrier and gathered-fuel sequence recasts the rope as a durable neck harness for ongoing labor.",
+            "The social-carrying and surety branches let relational bonds coexist as circulated slander, self-entanglement, and shared household liability."
+          ],
+          "what_was_special": "The focus-only baseline already supported literal halter, inverted necklace, failed protection, active snare, and embodied cord. Ordered context did not collapse these readings: it supplied distinct agency, economic, thermal, material, social, and legal mechanisms, while remote spider, race, gestational, esophageal, and nocturnal branches remained live under explicit containment.",
+          "remaining_uncertainties": [
+            "The transfer from the man's ruined hands, property, and fire trajectory to the woman's neck is an abductive household-level arrow, not an explicit grammatical equation.",
+            "The fuse, work-harness, public-badge, social-return, and spousal-surety mechanisms are packet-grounded constructions whose causal directions remain reader supplied.",
+            "The spider, race, pregnancy, esophagus, and nocturnal-exertion readings must remain associative outliers and must not be promoted into lexical translations.",
+            "Masad may primarily specify material, but twist, bodily formation, and temporal exertion can continue to coexist as secondary activations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The final object closes the fuel-carrying mechanism as binding gear.** Branch evidence: `ج ي د` B001, neck/front of neck; `ح ب ل` B001, extended cord for binding or leading; `م س د` B001, twisted rope; earlier `ح م ل` B006, carrying gear/strap; `ح ط ب` B001, gathered fuel. Structural cue: after she is named a carrier, the next ayah locates a rope at the neck. Assigned role: rope becomes the harness or binding apparatus of the carrying scene. Abductive move: I infer that the neck-rope is the visible equipment that attaches the carrier to the carried burden and its consequence. Reading change: the ayah is not a separate punishment detail; it completes the material logistics of carrying fuel.\n\n2. **Covenant and protection are inverted into constriction.** Branch evidence: `ح ب ل` B002, covenant/protection/connection; `ج ي د` B001, neck; `م س د` B001, firm twisting; earlier `ر ح م` B002, kinship bond; `غ ن ي` B002, availing/protecting. Structural cue: the packet begins with mercy/kinship and passes through failed wealth-protection before ending with a bond around the throat. Assigned role: the rope supplies the same semantic form as connection, but its local placement makes connection punitive. Abductive move: I infer that bonds can reverse valence when the relation they preserve is destructive. Reading change: the final rope reads as failed covenant or corrupted kinship made bodily tight.\n\n3. **The neck ornament is converted into coarse rope.** Branch evidence: `ج ي د` B001 includes fine/long neck expressions; `ح ب ل` B008, necklace ornament; `م س د` B002, compactly formed body, especially woman/girl; `م س د` B007, arrangement of hair; earlier `ل ه ب` B008, striking beauty or abundant hair. Structural cue: the surface places `حَبْل` on `جِيد`, the position of adornment, but specifies `مَسَد` rather than precious material. Assigned role: beauty/adornment branches provide the expected social display that is downgraded into twisted fiber. Abductive move: I infer a reversal from ornament to humiliation because the local material is coarse rope and the context is firewood-bearing. Reading change: the ayah reads not simply as bondage but as anti-adornment: status display becomes punitive equipment.\n\n4. **The rope is a snare that catches the trapper.** Branch evidence: `ح ب ل` B005, snare that catches and entangles; `ص ل ي` B005, snares and traps; earlier `ي د ي` B001, hand caught in a snare; `س م و` B006, going out to hunt; `ك س ب` B003, predatory/hunting creatures called earners. Structural cue: hunting/trapping branches appear across roots in the packet, while the final image fixes the rope on the woman herself. Assigned role: the rope shifts from tool to consequence. Abductive move: I infer a reversal in which the one participating in capture/entanglement is herself caught. Reading change: the final line becomes a trap-reversal scene, not only a static collar.\n\n5. **The family/body cord is externalized as a punitive lineage line.** Branch evidence: `ح ب ل` B006, pregnancy extending in the womb; `ر ح م` B003, womb; `ح م ل` B002, inward bearing; `ء ب و` B001, fatherhood/nurture; `م س د` B001, twisted rope. Structural cue: the packet moves from mercy/womb and fatherhood to wife/carrying and then a cord at the neck. Assigned role: the rope becomes a displaced kinship/gestation cord. Abductive move: I supply the anatomical-social mapping: a family line that should carry mercy/life is twisted into a visible bond of liability. Reading change: the final ayah can be read as an anti-lineage emblem, where relation itself has become the cord of punishment.",
@@ -10591,14 +11820,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s111/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 39,
+        "ayah_count": 5,
+        "row_count": 32,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10849,10 +12084,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s111/packets/111_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s111/readers/reader_hft_a/111_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s111"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s111",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 66497,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

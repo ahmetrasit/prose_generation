@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.830382+00:00",
+  "generated_at": "2026-08-18T13:33:34.943901+00:00",
   "surah": 88,
   "ayah": 8,
   "ayahRef": "88:8",
@@ -1194,7 +1194,8 @@
       "morpheme_ids": [
         "m-w-s088-a008-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:8:1"
+      "aligned_qac_word_ref_upstream": "88:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1208,7 +1209,8 @@
       "morpheme_ids": [
         "m-w-s088-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:8:2"
+      "aligned_qac_word_ref_upstream": "88:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1222,7 +1224,8 @@
       "morpheme_ids": [
         "m-w-s088-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:8:3"
+      "aligned_qac_word_ref_upstream": "88:8:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3337,7 +3340,1241 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:8",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_visible_ease",
+            "confidence": "strong",
+            "focus_anchor": "وجوه at word 1 is the observer-facing surface, while ناعمة at word 3 carries softness and easeful living.",
+            "mechanism": "The predicate transfers both tactile softness and an unstrained mode of life onto the visible front, making condition legible as countenance.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The bodily face and outward front provide the visible surface on which the state appears."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and easeful living supply a state that is simultaneously material, bodily, and experiential."
+              }
+            ],
+            "changed_reading": {
+              "before": "Some faces look pleasant.",
+              "after": "The faces visibly carry softened, unstrained ease; bodily appearance and lived condition coincide."
+            }
+          },
+          {
+            "model_id": "baseline_whole_person_flourishing",
+            "confidence": "strong",
+            "focus_anchor": "The face at word 1 can stand for the person, and ناعمة at word 3 can denote bounty and good condition.",
+            "mechanism": "Face-for-self expands the adjective beyond skin or expression: the whole person is presented through the part that meets others, while bounty names the person's encompassing condition.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "Face as self makes the visible countenance a compact reference to the whole person."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Bounty and good condition extend the predicate from appearance to the person's total flourishing."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective describes facial texture or expression alone.",
+              "after": "Whole persons, shown through their faces, stand in a condition of received bounty and flourishing."
+            }
+          },
+          {
+            "model_id": "baseline_approved_orientation",
+            "confidence": "exploratory",
+            "focus_anchor": "وجوه at word 1 can be directions or proper courses, while the root of ناعمة at word 3 can perform praise.",
+            "mechanism": "The clause can carry a directional layer in which the subjects' facings are not only comfortable but commendable and sound.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Orientation and destination turn the plural faces into plural ways of facing or proceeding."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B008",
+                "role": "The proper aspect or sound course gives the orientation a normative rather than merely spatial value."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B003",
+                "role": "The praise branch supplies approval, allowing the predicate to commend how these faces are directed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Faces merely display comfort.",
+              "after": "Their very facing or course is excellent and rightly ordered, with comfort as one consequence of that orientation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_envelopment_made_visible",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ش و",
+              "و ج ه",
+              "خ ش ع"
+            ],
+            "mechanism": "An event that covers all is rendered locally readable on exposed fronts: the repeated face-clause divides the covered field into visibly opposed conditions.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The outward face is the observer-facing display surface for the focus condition."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Soft ease supplies the positive condition displayed on that surface."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "The branch of a covering that encompasses everything supplies the common field within which outcomes become visible."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated outward face establishes the same diagnostic surface on the contrasting side."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission provide the negative visible posture against which focus ease is differentiated."
+              }
+            ],
+            "structural_cues": [
+              "88:2 and 88:8 repeat the frame وجوه يومئذ with opposed feminine-singular predicates.",
+              "The negative face panel is expanded before the focus clause opens the positive panel."
+            ],
+            "reader_inference": "The packet supplies an all-enveloping event and two identically framed face states; I infer that the event writes differentiated outcomes onto visible fronts. A live alternative is that the pair only classifies two groups without making faces a causal display mechanism.",
+            "changed_reading": {
+              "before": "The focus independently reports pleasant faces.",
+              "after": "These faces are the exposed readout of how an all-covering event has met particular persons, sharply reversing the lowered faces of the paired panel."
+            }
+          },
+          {
+            "model_id": "delta_relief_from_failed_nourishment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ن ص ب",
+              "س م ن",
+              "غ ن ي",
+              "ج و ع"
+            ],
+            "mechanism": "The negative panel depicts expenditure without return: labor becomes exhaustion and intake neither builds the body nor answers hunger. Against that failed economy, ناعمة names successful sufficiency and release from attritional need.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and bounty supply the positive outcome absent from the failed economy."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Easeful living supplies relief from strain rather than a merely decorative softness."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposive work supplies the expenditure side of the negative mechanism."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting toil makes the work bodily depleting rather than fruitful."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "س م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000744",
+                "branch_id": "B001",
+                "role": "Bodily fattening, explicitly negated in the source clause, supplies the missing nutritive result."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency, also negated, identifies the deeper failure of the available intake."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The empty belly supplies the unmet need that remains after eating."
+              }
+            ],
+            "structural_cues": [
+              "88:3-7 continue the predicates and consequences of the faces in 88:2.",
+              "88:8 restarts the exact plural-face and day-deictic frame after the sequence of work, intake, and failed sufficiency."
+            ],
+            "reader_inference": "The packet supplies labor, exhaustion, failed bodily gain, failed sufficiency, and hunger; I infer an input-output system whose breakdown marks the first faces and whose reversal marks the focus faces. Alternatively, ناعمة may contrast only affectively with misery, without implying restored material sufficiency.",
+            "changed_reading": {
+              "before": "ناعمة means a generally luxurious or soft appearance.",
+              "after": "The softness is relief from futile expenditure: these faces register a condition in which effort and provision no longer consume the person without answering need."
+            }
+          },
+          {
+            "model_id": "delta_ease_reconciled_with_striving",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "The immediate sequel prevents ease from collapsing into idleness: purposeful movement and earning are retrospectively accepted, and that settled relation to one's striving is what the face displays.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "Face-for-person lets the satisfaction concern the whole agent rather than an isolated expression."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition supplies the settled outcome of the agent's relation to prior striving."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work, earning, and conduct supply the purposeful history behind the present condition."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction opposed to displeasure supplies settled approval of that history."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "The second mapped acceptance branch preserves the split root while reinforcing willing reception rather than resentment."
+              }
+            ],
+            "structural_cues": [
+              "88:9 follows the focus without introducing a new nominal subject, naturally continuing the focus faces.",
+              "The prepositional attachment لسعيها places striving in a direct relation to satisfaction."
+            ],
+            "reader_inference": "The packet supplies purposeful earning and acceptance; I infer that satisfaction reconciles the agent to completed striving and settles the face. A live alternative is that satisfaction merely evaluates the work while the facial ease has an independent cause.",
+            "changed_reading": {
+              "before": "Ease appears passive and detached from exertion.",
+              "after": "The face shows post-striving reconciliation: the whole person can inhabit prior effort without regret, strain, or unresolved demand."
+            }
+          },
+          {
+            "model_id": "delta_elevated_dignity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل و",
+              "ر ف ع"
+            ],
+            "mechanism": "Physical elevation in the positive setting activates the social-rank branch of وجه, so the focus faces can be honored persons whose ease includes restored standing.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Eminence and rank let faces denote persons made socially prominent or honored."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Bounty makes the elevation beneficent rather than domineering."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Elevation as honor converts the garden's height into a possible status signal."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Raised degree reinforces dignity alongside the literal raising of places of repose."
+              }
+            ],
+            "structural_cues": [
+              "The positive sequence places the faces in a high garden and then repeats elevation on the couches.",
+              "Concrete vertical arrangement follows immediately after satisfaction with striving."
+            ],
+            "reader_inference": "The packet supplies literal height together with branch images of honor and raised degree; I infer a spatial-to-social transfer onto the focus branch of eminent faces. The live alternative is that all elevation remains architectural and contributes only indirectly to comfort.",
+            "changed_reading": {
+              "before": "The faces are comfortable but socially unmarked.",
+              "after": "They are countenances of restored dignity: persons visibly raised in standing as well as placed amid elevated surroundings."
+            }
+          },
+          {
+            "model_id": "delta_habitat_person_fit",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ل غ و",
+              "ج ر ي",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "The positive environment is not an inventory of luxuries but a fitted habitat: enclosure, acoustic quiet, continuous provision, and objects already placed, aligned, and spread remove friction between person and place.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "Face-for-self supplies the person whose condition is shaped by the surrounding habitat."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place agreeing with and pleasing its inhabitant supplies the relational core of the model."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden enclosed by growth supplies protective habitation rather than bare exposure."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed clamor, explicitly absent in the source clause, supplies acoustic friction removed from the habitat."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuous provision turns the running spring into sustained availability."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placement in an appointed usable position makes the cups ready to meet need."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Even alignment supplies order and accessibility rather than random accumulation."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Spreading and distribution extend usable comfort across the setting."
+              }
+            ],
+            "structural_cues": [
+              "Repeated فيها makes the setting a containing system around the focus persons.",
+              "The passive participles مرفوعة, موضوعة, مصفوفة, and مبثوثة present a world already arranged for use."
+            ],
+            "reader_inference": "The packet supplies enclosure, silence, flow, placement, alignment, and distribution; I infer that these coordinated affordances produce the place-person agreement latent in ناعمة. Alternatively, the details may be independent signs of abundance rather than an ergonomic causal system.",
+            "changed_reading": {
+              "before": "Ease is an intrinsic property carried by the faces.",
+              "after": "Ease is relational: their faces show how completely the surrounding place fits them, with provision flowing and the material world already arranged to answer embodied need."
+            }
+          },
+          {
+            "model_id": "delta_inner_joy_becomes_countenance",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ي ن",
+              "س ر ر",
+              "ب ث ث"
+            ],
+            "mechanism": "A latent eye, concealed joy, and disclosure sequence lets the face function as the place where inward ease comes outward: the countenance is eye-gladdened and broadcasts what had been interior.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The outward face provides the surface across which an inward state becomes visible."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B013",
+                "role": "The formula of an eye gladdened by blessing supplies a specifically ocular form of manifest joy."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The eye branch, latent in the spring word, reactivates the focus inventory's eye-gladdening image."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B010",
+                "role": "Hidden joy and ease supply the interior affect that the countenance can disclose."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Expressing what was concealed supplies the outward arrow from inward joy to visible face."
+              }
+            ],
+            "structural_cues": [
+              "The focus begins with a visible body part, while the following setting moves through a spring, places of repose, and things spread outward.",
+              "The source forms at 88:12-16 support literal readings, so the eye-interior-disclosure chain remains a secondary activation."
+            ],
+            "reader_inference": "The packet supplies an eye branch, hidden joy, and disclosure; I infer a cross-branch inside-to-outside sequence ending on the face. The materially live alternative is the ordinary one: عين is only a spring, سرر only couches, and بث only spatial distribution.",
+            "changed_reading": {
+              "before": "The face simply possesses a pleasant external appearance.",
+              "after": "The countenance is the broadcast surface of inward joy, especially an eye-gladdened ease that can no longer remain hidden."
+            }
+          },
+          {
+            "model_id": "delta_created_readable_surface",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "س م و",
+              "س ط ح"
+            ],
+            "mechanism": "The repeated inspection of made and extended forms turns surfaces into evidence. Under that activation, the focus face is not just expressive but a formed, readable sign whose softness shows the condition impressed upon it.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The front that meets an observer supplies a human surface available for inspection."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Smooth softness supplies the perceivable quality carried by the formed surface."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight and reflection supply the act of treating visible form as evidence."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed and proportioned formation supplies a designed-form analogy for the focus countenance."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B008",
+                "role": "A smooth, even surface materially links created form to the softness branch of ناعمة."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped branch supplies a visible mark by which an observer reads condition."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An extended even surface reinforces surface itself as a bearer of legible arrangement."
+              }
+            ],
+            "structural_cues": [
+              "The branchless cue ك ي ف repeats at 88:17, 88:18, 88:19, and 88:20 and is used only as a structural demand to inspect manner.",
+              "Passive خُلِقَتْ, رُفِعَتْ, نُصِبَتْ, and سُطِحَتْ organize the sequence around how visible forms were made."
+            ],
+            "reader_inference": "The packet supplies directed observation, formed and smooth surfaces, a split-mapping branch of visible condition-marking, and repeated manner questions; I infer an analogy from cosmic and animal surfaces back to the human face. Alternatively, the observational sequence may remain cosmological and may not invite rereading the earlier countenance.",
+            "changed_reading": {
+              "before": "Facial softness is a spontaneous expression to be noticed in passing.",
+              "after": "The softened face is a constructed, inspectable sign: its surface makes an otherwise hidden condition readable, just as the later sequence asks visible forms to be read through how they were made."
+            }
+          },
+          {
+            "model_id": "delta_open_orientation_to_blessing",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ك ر",
+              "و ل ي",
+              "ك ف ر",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Reminder, face-turning, covering blessing, return, and reckoning create a trajectory of orientation. The focus faces can therefore be open, rightly directed countenances that carry acknowledged bounty rather than turning from and covering it.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination make the focus face a trajectory as well as a body surface."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Blessing and good condition supply what can be received openly or concealed."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection after forgetfulness supplies a possible reorientation toward what is true."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning the face and approaching provide the positive directional possibility latent inside the source root."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the explicit contrary trajectory against which open facing is read."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B004",
+                "role": "Covering a blessing creates a direct negative counterpart to the bounty branch of ناعمة."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination gives every orientation a terminal point."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and account make the result of the trajectory answerable rather than accidental."
+              }
+            ],
+            "structural_cues": [
+              "The closing sequence moves from reminding without control to an exception for one who turns away and covers, then to return and account.",
+              "The focus's face noun gives the later turn-away verb a bodily and directional echo."
+            ],
+            "reader_inference": "The packet supplies remembrance, opposed face-turning possibilities, concealment of blessing, return, and account; I infer that the positive face is open toward and visibly acknowledges bounty. Alternatively, the closing sequence may delimit only the negative addressee and need not characterize the earlier positive faces.",
+            "changed_reading": {
+              "before": "The faces enjoy bounty as passive recipients.",
+              "after": "Their ease also signals orientation: they face rather than turn away, leave blessing uncovered, and arrive at return and account with an open countenance."
+            }
+          },
+          {
+            "model_id": "delta_affirmative_countenance",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ذ ك ر",
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The answer-yes branch of نعم becomes live when the closing address sets reminder against refusal and turning away. The focus face can then be response-bearing: an embodied yes shown face-to-face rather than merely spoken.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B003",
+                "role": "Face-to-face encounter supplies the relational scene in which a response is visibly borne."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "Yes, confirmation, and promise supply an affirmative response latent beneath the adjective."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies the address to which affirmation or refusal can answer."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the bodily contrary of remaining face-to-face in response."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal supplies the contrary speech-act to confirmation."
+              }
+            ],
+            "structural_cues": [
+              "88:21 is an imperative act of address, while 88:23 identifies a turn-away response.",
+              "The focus predicate's ordinary adjectival form keeps the affirmative layer latent rather than syntactically explicit."
+            ],
+            "reader_inference": "The packet supplies the focus root's yes-branch and a later address/refusal sequence; I infer that a face can embody its answer through continued facing. The strong alternative is that ناعمة is only adjectival here and the answer-word branch contributes no semantic layer.",
+            "changed_reading": {
+              "before": "ناعمة reports how the faces feel or look.",
+              "after": "The countenances also carry an embodied yes: they remain present to the address, visibly confirming where the contrasting response turns away."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_livestock_camel_echo",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the livestock branch is form-distant from the focus adjective, but it remains anchored in the focus root and is independently reactivated by the explicit camel cue. Downstream prose should present it only as a pastoral abundance and provision echo, never as a claim that ناعمة literally means camel-like here.",
+            "focus_anchor": "ناعمة at word 3 shares a root inventory with grazing livestock, especially camels, while the focus face remains the visible human anchor.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B005",
+                "role": "The livestock and camel branch supplies a latent pastoral register inside the focus adjective."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The explicit camel and its care reactivate the focus root's otherwise remote livestock register."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed observation makes the camel image available as a deliberate retrospective cue rather than incidental vocabulary."
+              }
+            ],
+            "changed_reading": {
+              "before": "The faces show private softness and luxury.",
+              "after": "At the edge of the reading, their ease also carries a pastoral register of tended life, dependable provision, and abundance, later reawakened by the camel."
+            }
+          },
+          {
+            "outlier_id": "outlier_aimlessness_resolved_into_fit",
+            "confidence": "exploratory",
+            "containment": "This reading depends on a non-dominant split mapping of the 88:9 striving root and is therefore branch-distant, but the packet explicitly preserves that branch and it connects visibly to the focus roots of orientation and place-fit. Downstream prose should call it a lexical counter-current, not replace the strong purposeful-striving reading with it.",
+            "focus_anchor": "وجوه at word 1 can encode direction, and ناعمة at word 3 can encode arriving in a place that agrees with the person.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination supply the route whose disorder or resolution can change the face's state."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place fitting its inhabitant supplies the resolved destination."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000760",
+                "branch_id": "B002",
+                "role": "The non-dominant branch of neglect or going off without orientation supplies a competing history of aimlessness."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "Acceptance supplies the transition from unsettled movement to a destination one can inhabit willingly."
+              }
+            ],
+            "changed_reading": {
+              "before": "The faces are satisfied with purposeful effort.",
+              "after": "A coexisting counter-current reads their ease as aimlessness finally resolved into a fitting orientation and inhabitable destination."
+            }
+          },
+          {
+            "outlier_id": "outlier_soft_wind_front",
+            "confidence": "exploratory",
+            "containment": "The soft-wind branch is materially evocative but morphologically remote from the focus adjective. It remains anchored through ناعمة and the face-as-front branch, while later flow and spreading provide a coherent ecological analogy. Downstream prose should qualify it as atmospheric imagery around ease, not a lexical gloss of the clause.",
+            "focus_anchor": "The focus joins an outward front at word 1 to a root at word 3 whose inventory includes a soft moist wind.",
+            "activation_trace": [
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "Face as outward front supplies a surface across which an atmosphere can be imagined as moving."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B009",
+                "role": "The soft moist south wind supplies dynamic gentleness rather than static texture."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flow and free movement activate the wind branch's dynamic quality."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Spreading and diffusion give the gentle condition an environmental reach."
+              }
+            ],
+            "changed_reading": {
+              "before": "Softness is a fixed property of facial appearance.",
+              "after": "As a contained material analogy, ease moves across these outward fronts like a soft moisture-bearing current and participates in the flowing, spread habitat."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact 88:2/88:8 face-frame turns the focus countenance into a visible outcome surface rather than an isolated pleasant expression.",
+            "The failed work-and-nourishment sequence makes ناعمة relief from attritional need, while 88:9 makes that ease compatible with completed purposeful striving.",
+            "The positive setting activates place-person agreement: enclosure, quiet, flow, placement, alignment, and distribution jointly explain why the faces are at ease.",
+            "The closing turn-away, covering-of-blessing, return, and account sequence adds a directional reading in which the positive faces remain open toward acknowledged bounty."
+          ],
+          "what_was_special": "The focus supports several simultaneous scales: skin-softness, whole-person flourishing, approved orientation, elevated dignity, environmental fit, and an embodied affirmative response. The most unusual live activations came from the eye-gladdening branch, the sky cue's non-dominant visible-mark branch, the camel/livestock echo, and the non-dominant aimlessness branch; each changed the reading without displacing the stronger models.",
+          "remaining_uncertainties": [
+            "The clause does not force a choice among literal face, person-by-face, social eminence, and directional facing.",
+            "The context strongly correlates effort, provision, setting, and facial state, but the exact causal arrows are reader-supplied.",
+            "The eye, affirmation, camel, soft-wind, and split-mapping activations should remain explicitly exploratory rather than become direct translations.",
+            "The observational creation sequence may invite retrospective reading of the face as a made sign, or it may remain a separate exhortation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Faces softened by ease after the low-face contrast.** Evidence: `و ج ه` B001 face/front; `ن ع م` B002 softness and easeful living, B001 pleasant well-being/favor. Structural cue: this repeats the `وجوه يومئذ` frame from 88:2 with the opposite predicate. Role: the face again becomes the outward display, now of favor and ease. Abductive move: the day makes inner condition visible on the front of the body. Reading change: the ayah reads as the visual surface of bestowed ease.\n\n2. **Livestock/camel activation inside blessing.** Evidence: `ن ع م` B005 grazing livestock, especially camels; later `ء ب ل` B001 camels; earlier `ض ر ع`, `س م ن`, `ج و ع` pastoral deprivation. Structural cue: the root that marks pleasant favor also names livestock, and camels later become the first created sign. Role: `ناعمة` can carry prosperous pastoral fullness in contrast to the failed food chain. Abductive move: in this packet, blessing is intelligible through well-watered, well-fed animal life as well as human comfort. Reading change: the happy faces read as nourished and provisioned, not merely emotionally pleased.\n\n3. **Place that agrees with its inhabitant.** Evidence: `ن ع م` B011 a place agreeing with someone; later `ج نن` B003 garden, `ع ل و` B001 high place. Structural cue: 88:8 immediately leads to satisfaction with effort and residence in a high garden. Role: the face’s ease anticipates a fitting environment. Abductive move: visible well-being results when person, effort, and place are in agreement. Reading change: `ناعمة` reads as environmental congruence, not only bodily softness.",
@@ -11291,14 +12528,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11875,10 +13118,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 230428,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

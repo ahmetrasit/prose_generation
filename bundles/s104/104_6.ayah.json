@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.757661+00:00",
+  "generated_at": "2026-08-18T13:34:31.796429+00:00",
   "surah": 104,
   "ayah": 6,
   "ayahRef": "104:6",
@@ -1058,7 +1058,8 @@
       "morpheme_ids": [
         "m-w-s104-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:6:1"
+      "aligned_qac_word_ref_upstream": "104:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1072,7 +1073,8 @@
       "morpheme_ids": [
         "m-w-s104-a006-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:6:2"
+      "aligned_qac_word_ref_upstream": "104:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1088,7 +1090,8 @@
         "m-w-s104-a006-w003-01",
         "m-w-s104-a006-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:6:3"
+      "aligned_qac_word_ref_upstream": "104:6:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1854,7 +1857,1029 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:6",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_kindled_divine_fire",
+            "confidence": "strong",
+            "focus_anchor": "The full construct in 104:6, especially the fire noun, its attribution to God, and the passive adjective at word 3.",
+            "mechanism": "The focus presents more than a static substance: a fire under divine attribution has been brought into active ignition. The passive form leaves the immediate kindler unexpressed while the construct supplies ultimate ownership or source.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire with flickering motion supplies the concrete blaze and gives it a latent capacity to mark by burning."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name supplies the attribution that locates the blaze under divine ownership, source, or authorization."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Fire catching and being kindled converts the noun from a static label into an activated combustion process."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare label for God's fire.",
+              "after": "A divinely attributed blaze already brought into active ignition, with its proximate agency held behind the passive form."
+            }
+          },
+          {
+            "model_id": "baseline_revelatory_brand",
+            "confidence": "medium",
+            "focus_anchor": "The fire noun at word 1 can carry illumination and branding together, sharpened by the gleaming branch of the adjective at word 3.",
+            "mechanism": "One material can illuminate a surface and alter it permanently. Under divine attribution, the focus fire can therefore coexist as destructive heat, disclosure, and an identifying brand rather than functioning as heat alone.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Light and illumination make the blaze disclose what had not been visible."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Fire used for branding makes disclosure capable of leaving an identifying and irreversible mark."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name makes the illuminating mark an attributed act rather than an accidental flare."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B006",
+                "role": "A gleam like kindled fire supplies the visible flash through which burning becomes revelation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire is only an instrument of thermal destruction.",
+              "after": "The fire can also expose and brand, making its burning an act of visible identification."
+            }
+          },
+          {
+            "model_id": "baseline_relational_flare",
+            "confidence": "exploratory",
+            "focus_anchor": "The fire noun at word 1 and the ignition adjective at word 3 share branches of social enmity, anger, and warlike flare.",
+            "mechanism": "The lexical field permits a material blaze and a relational blaze to coexist. Divine attribution can transform a flare of hostility from a merely human disturbance into an exposed and adjudicated conflagration.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Enmity flaring between people supplies a social fire that can coexist with the physical blaze."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B005",
+                "role": "Ready ignition and the flare of anger or war turn social hostility into an actively kindled force."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name relocates the flare within divine attribution and judgment."
+              }
+            ],
+            "changed_reading": {
+              "before": "A materially burning fire with no relational dimension.",
+              "after": "Also a possible flare-form in which hostility and anger are brought to ignition under divine judgment."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_social_goads_become_flame",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The paired social agents do not only utter faults: their branch field presses, goads, and pushes. Those repeated micro-forces supply an ignition mechanism for the focus branches of enmity and anger, so the later fire can be read as the divinely scaled completion of relational heat already being produced.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Enmity flaring between people receives the accumulated social pressure as combustible relational material."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B005",
+                "role": "Ready ignition in anger or war converts repeated provocation into an actual flare."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Wholeness and encompassing totality distribute the mechanism across every member of the named class."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "A goad or thrust that moves its object supplies the initiating jolt in the social ignition sequence."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "Faulting and attacking people fixes that pressure within interpersonal harm rather than generic motion."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "Pushing by the act of faulting continues the directional force that feeds the flare."
+              }
+            ],
+            "structural_cues": [
+              "104:1 pairs two intensive agent nouns, making the harmful action habitual or characteristic rather than isolated.",
+              "The social actions precede the focus fire, allowing them to become causal material while the reading remains anchored in the fire and ignition roots."
+            ],
+            "reader_inference": "The packet supplies totalized faulting, goading, pushing, enmity, and anger-like ignition; I infer that the social acts kindle the relational heat later returned at divine scale. A live alternative is an entirely external penalty with no material continuity between act and fire.",
+            "changed_reading": {
+              "before": "An independently prepared divine blaze follows interpersonal wrongdoing.",
+              "after": "The blaze can also be the divine-scale completion of the pressure, provocation, and hostility those agents themselves propagate."
+            }
+          },
+          {
+            "model_id": "delta_hoard_reclassified_as_fuel",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د",
+              "ح س ب",
+              "خ ل د"
+            ],
+            "mechanism": "Gathering wealth into one mass, counting it, and inferring sufficiency and permanence creates a store meant to resist expenditure and time. The fuel branch of the focus adjective reverses that economy: what was secured as durable value becomes material defined by its capacity to be consumed.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel and firewood reclassify a stored material from retained value into something whose function is consumption."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The burning blaze executes the reversal by consuming and marking what had been amassed."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining scattered items into one mass supplies the construction of a concentrated stockpile."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquiring and multiplying wealth identifies what the stockpile is meant to preserve."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumerating the counted object turns possession into a repeatedly verified inventory."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition identifies the permanence claim as a mental projection rather than a secured result."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Sufficiency and self-enrichment supply the imagined protective function assigned to the hoard."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Durable remaining supplies the temporal result the counted store is falsely expected to purchase."
+              }
+            ],
+            "structural_cues": [
+              "104:2 orders gathering, wealth, and repeated counting as one accumulation sequence.",
+              "104:3 repeats wealth between an act of reckoning and a causative permanence claim.",
+              "The focus passive adjective follows that failed security claim and permits the accumulated material to be reread through fuel."
+            ],
+            "reader_inference": "The packet supplies an amassed and counted store, imagined sufficiency and permanence, and a focus branch of consumable fuel; I infer a counter-economy in which the hoard is revalued as combustible inventory. A live alternative is that only its owner, not the wealth, becomes fuel and the wealth remains merely causal.",
+            "changed_reading": {
+              "before": "The fire is an external punishment unrelated to the material logic of accumulation.",
+              "after": "The fire enacts a counter-economy: accumulated security is reclassified as consumable fuel."
+            }
+          },
+          {
+            "model_id": "delta_crusher_furnace",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "A gathered mass is thrown into a named crusher and the focus identifies that crusher as a kindled fire. The hearth branch supplies a processing chamber; ignition supplies active heat; crushing supplies brittle fracture. The mechanism therefore reverses gathering by turning a consolidated whole into fragments and transient debris.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the thermal agent inside the crushing process."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B003",
+                "role": "A hearth or place of kindling turns the fire into a bounded processing chamber."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active ignition keeps the chamber operative rather than leaving it as inert architecture."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The joining of scattered things supplies the consolidated input that the later crusher reverses."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Throwing or casting supplies the directional transfer of material into the chamber."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking a dry object until it fragments supplies the chamber's destructive output."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "Transient worldly debris makes the fragmented output an undoing of claims to durable possession."
+              }
+            ],
+            "structural_cues": [
+              "104:4 uses a passive casting verb followed by a destination introduced with the container preposition.",
+              "The crushing name recurs in 104:5 and is identified by the focus sentence in 104:6.",
+              "Gathering in 104:2 and crushing in 104:4-5 form a sequence-level reversal from consolidation to fragmentation."
+            ],
+            "reader_inference": "The packet supplies gathering, casting, a hearth, ignition, and dry fracture; I infer a process line in which a consolidated input is thermally pulverized. A live alternative is that the crushing name is only an intensive title and that fire explains it without implying a chamber-like mechanism.",
+            "changed_reading": {
+              "before": "A blaze that harms through undifferentiated burning.",
+              "after": "A maintained crusher-furnace that receives a consolidated input and outputs fragments, reversing the work of gathering."
+            }
+          },
+          {
+            "model_id": "delta_fire_as_disclosure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ر ي",
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The epistemic question before the focus and the surveying action after it activate the fire's illumination and gleam branches. Because the survey terminates at hearts figured as inward ignition, the blaze does not merely make an object visible from outside; it discloses an interior state.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination gives the fire an epistemic function alongside its heat."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B006",
+                "role": "Gleaming like a kindled flame makes the moment of ignition a moment of visibility."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge supplies the explicit epistemic demand that the focus identification answers."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Overseeing and uncovering an affair turns the flame's reach into inspection and disclosure."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart viewed as inward ignition supplies the concealed interior object made visible by the survey."
+              }
+            ],
+            "structural_cues": [
+              "The epistemic question in 104:5 immediately precedes the identifying focus sentence.",
+              "The feminine relative clause in 104:7 continues the description across the focus boundary.",
+              "The prepositional construction in 104:7 directs the action toward the hearts."
+            ],
+            "reader_inference": "The packet supplies knowledge, illumination, gleam, uncovering inspection, and an inwardly kindled heart; I infer that burning performs disclosure of an interior condition. A live alternative is that the question only informs the listener and that the following clause describes physical reach without epistemic force.",
+            "changed_reading": {
+              "before": "The focus identifies what the crusher is but adds only its physical substance.",
+              "after": "The identification also reveals how it works: its fire is an inspecting light that exposes what is inward."
+            }
+          },
+          {
+            "model_id": "delta_inner_ignition_resonance",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل د",
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "A condition imagined as settled and lasting in the heart meets a fire whose focus branches include inward flare and whose next action uncovers hearts. This permits a resonance model: the divine fire reveals and activates an already lodged interior heat rather than operating only by exterior contact.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Flared enmity supplies a relational heat capable of being lodged within rather than only surrounding the body."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B005",
+                "role": "A heart-like readiness to ignite supplies the coupling point between external blaze and internal disposition."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "A condition settled in the heart supplies the persistent interior reservoir to which ignition can attach."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Inspection and uncovering make the flame find rather than merely pass over the interior reservoir."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart as inward ignition makes resonance between outer and inner fire mechanically thinkable."
+              }
+            ],
+            "structural_cues": [
+              "104:3 frames the permanence claim as a settled mental relation to wealth.",
+              "The focus fire stands between the epistemic naming in 104:5 and the heart-directed relative clause in 104:7.",
+              "The sequence shifts the claimed site of security from possessions to an interior site reached by fire."
+            ],
+            "reader_inference": "The packet supplies a settled-heart image, inspection, inward ignition, enmity, and readiness to flare; I infer that the outer fire couples to and activates what is already inward. The materially live alternative is direct penetration by an external fire with no resonance or self-involvement.",
+            "changed_reading": {
+              "before": "The fire travels from outside to attack an otherwise passive interior.",
+              "after": "The fire may expose and ignite a lodged inner flare, making the interior condition participate in the burning."
+            }
+          },
+          {
+            "model_id": "delta_sealed_continuous_furnace",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ص د",
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Closure converts the hearth-like focus fire into a sealed chamber; supports give that chamber structure; connected extension supplies both continuing feed and duration. Kindling is therefore not merely an initial event but an engineered, retained, and replenished condition.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B003",
+                "role": "The hearth image supplies the central chamber around which enclosure and supports can organize."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel supplies the material input that a connected extension can keep replenishing."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing down upon a thing turns an open blaze into retained heat inside an enclosure."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of a door firmly shut sharpens the enclosure as an engineered seal."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "Supporting a thing with a prop gives the sealed chamber a maintained load-bearing structure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "A connected addition that feeds another supplies continuous replenishment to the kindled process."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended duration adds temporal persistence to the spatially retained fire."
+              }
+            ],
+            "structural_cues": [
+              "104:8 places the enclosure over the affected group rather than merely naming a nearby boundary.",
+              "104:9 follows with a container preposition, supports, and an extension adjective, thickening the spatial architecture.",
+              "The enclosing and extending clauses occur after the focus's already-kindled adjective, allowing them to revise how ignition persists."
+            ],
+            "reader_inference": "The packet supplies a hearth, fuel, firm closure, structural support, connected supplementation, and extended time; I infer a sealed furnace whose combustion is continuously maintained. A live alternative is that the supports restrain the occupants only and do not feed or structure the fire itself.",
+            "changed_reading": {
+              "before": "A fire lit once and then left to burn in an unspecified space.",
+              "after": "A sealed, supported furnace whose kindled state is retained, replenished, and temporally extended."
+            }
+          },
+          {
+            "model_id": "delta_treasury_becomes_furnace",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "و ص د",
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "The non-dominant branch of the closing root supplies a stone repository for wealth in a mountain. Read beside the earlier hoard and the later supports and extensions, the architecture reverses: the protected treasury that should keep wealth and owner safe becomes the sealed hearth that contains and consumes them.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B003",
+                "role": "The hearth image lets a protective repository invert into a fire chamber."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel makes the contents of the former store legible as consumable material."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Concentrating scattered things into one mass supplies the hoard placed under protection."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth identifies the store whose protective architecture is reversed."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "A stone repository for wealth in a mountain supplies the startling treasury-to-furnace spatial bridge."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "Columns or pillars make the inverted repository a constructed enclosure rather than a loose metaphor."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Drawing a thing out in connected length supplies the extended structural members of the chamber."
+              }
+            ],
+            "structural_cues": [
+              "Wealth is gathered and repeated in 104:2-3 before enclosure appears over its possessors in 104:8.",
+              "The final verse adds an interior container construction and extended structural elements.",
+              "The stone-repository image comes from the non-dominant mapped root, so the spatial reversal is available but not compulsory."
+            ],
+            "reader_inference": "The packet supplies a hoard, a stone wealth-vault branch, a hearth, fuel, columns, and extension; I infer that the architecture trusted to preserve value is inverted into the architecture of combustion. A live alternative is that the non-dominant vault image contributes only closure, with no treasury allusion in the realized reading.",
+            "changed_reading": {
+              "before": "The fire occupies a prison unrelated to the earlier architecture of economic security.",
+              "after": "The protected treasury itself becomes the model of a sealed furnace, reversing safekeeping into containment for consumption."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_rotary_fire_vortex",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it rides the dominant d-r-r side of the split mapping at 104:5 and transfers spindle and whirlpool motion into fire. It remains anchored in the focus's active ignition and the later branch of connected replenishment, so it is worth carrying as a mechanical analogy; downstream prose should never present it as the lexical gloss of the knowledge-form in 104:5.",
+            "focus_anchor": "The actively kindled adjective at focus word 3 can host a motion model for how the blaze sustains itself.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Flickering burning fire supplies the moving material whose flow can be reorganized into a rotary pattern."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active kindling keeps the proposed rotary process energetically alive."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "A spindle brought into firm rotation supplies controlled circular persistence."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A turbulent water vortex supplies recirculating engulfment rather than one-directional spread."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Connected supplementation supplies the continuing input that prevents the vortex-like fire from exhausting itself."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flame advances linearly from source to victim.",
+              "after": "Exploratorily, the kindled fire behaves like a fed vortex: rotating, recirculating, and repeatedly drawing its contents through the same destructive motion."
+            }
+          },
+          {
+            "outlier_id": "outlier_digestive_fire",
+            "confidence": "medium",
+            "containment": "This reading is surprising because it personifies a crushing fire as a digestive agent. It remains anchored by the focus fuel branch and by the crusher branch that explicitly images a voracious eater digesting like fire; downstream prose should qualify it as a material or metabolic analogy, not as a replacement translation.",
+            "focus_anchor": "The fire noun at word 1 and fuel branch of the kindling adjective at word 3 support a consumer-and-input relation.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the consuming agent in the metabolic analogy."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel supplies an ingestible input whose disappearance sustains the consumer."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Multiplied wealth supplies the accumulated store that can be inverted into nourishment for the fire."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Casting supplies the transfer of the input into the consuming process."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "A voracious eater that digests as if it were fire directly supplies the metabolic image for crushing."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire mechanically destroys whatever enters it.",
+              "after": "The fire can be pictured as a voracious metabolism that ingests the amassed store and sustains itself by digesting it."
+            }
+          },
+          {
+            "outlier_id": "outlier_interior_inscription",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries the fire noun through its smoke-pigment and tattooing branch, then joins that image to inspection and injury of the heart. It remains anchored in two focus branches of fire-made marking; downstream prose should frame it as an inscriptive analogy for exposure and consequence, not claim that the focus noun denotes tattoo pigment here.",
+            "focus_anchor": "The fire noun at focus word 1 includes both branding and smoke pigment applied after pricking.",
+            "activation_trace": [
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B008",
+                "role": "Smoke residue used as pigment after pricking supplies an image of fire-derived inscription."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Branding by fire gives the inscription permanence and punitive force."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Inspection and uncovering make the proposed mark reveal rather than conceal the interior condition."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "Affliction or injury of the heart supplies the interior surface on which the fire-derived mark is imagined."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire consumes the interior without leaving a readable result.",
+              "after": "Exploratorily, the fire inscribes the interior, turning a hidden condition into a visible and lasting mark."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The accumulation sequence activates fuel as a counter-economy: gathered and counted security becomes consumable inventory.",
+            "Casting, hearth, and crushing combine into a crusher-furnace that reverses consolidation into fragments.",
+            "Knowledge, illumination, inspection, and inward ignition let the blaze coexist as disclosure and as possible resonance with a lodged interior flare.",
+            "Closure, support, supplementation, and duration turn a once-kindled blaze into a sealed continuously maintained furnace.",
+            "The non-dominant stone wealth-vault branch permits a striking architectural reversal in which treasury becomes furnace."
+          ],
+          "what_was_special": "The focus remained a concrete divine fire while activating several non-exclusive mechanisms: returned social ignition, economic devaluation, thermal crushing, interior disclosure, resonance, and engineered containment. Split mappings were kept live rather than flattened: the non-dominant closing root yielded the treasury-furnace, while the dominant d-r-r side of the knowledge cue yielded a carefully contained vortex analogy.",
+          "remaining_uncertainties": [
+            "The divine construct permits ownership, source, authorization, and deliberate design, but the focus alone does not select one relation.",
+            "The passive kindling adjective does not by itself decide between a completed ignition and a continuously replenished state.",
+            "The heart-directed clause can support physical penetration, epistemic exposure, inner resonance, or more than one at once.",
+            "The treasury and vortex readings depend on split-root branches and should remain analogical activations rather than lexical replacements."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Divine fire as branding disclosure.** Evidence: `ن و ر B002` (burning fire and branding by it), `و ق د B001` (fire kindled), and `ء ل ه B001/B002`; activated by the name-frame of 104:0 and the social-name injury of 104:1. Structural cue: Allah reappears between نار and موقدة. Assigned role: the fire marks under divine authority. Abductive move: since the offender marked others by contemptuous speech, divine fire marks him with the truth of his act. Reading change: the fire is not merely heat; it is a divine branding that exposes and fixes moral reality.\n\n2. **Fuel reversal of stored wealth.** Evidence: `و ق د B002` (fuel/firewood) and `م و ل B001`, activated by `ج م ع B001` and `ع د د B002` in 104:2. Structural cue: stores prepared for security precede a fire described by its kindling. Assigned role: وقود supplies the consumable material side of the fire. Abductive move: what was stored as provision can be reread as potential fuel before divine judgment. Reading change: wealth loses its role as reserve and becomes combustible supply.\n\n3. **Fire as illumination into the heart.** Evidence: `ن و ر B001` (light/illumination), `و ق د B006` (gleaming like kindled fire), activated by `ط ل ع B003` and `ف ء د B002` in 104:7. Structural cue: 104:6 names the fire; 104:7 describes what it does. Assigned role: light makes the inward target visible. Abductive move: a fire that reaches hearts must also reveal, not only consume, the interior it reaches. Reading change: the ayah reads diagnostically: divine fire illuminates the hidden account at the center of the person.\n\n4. **Flaring intensity against social hostility.** Evidence: `و ق د B005` (ready spark, intensity, anger/war), activated by `ن و ر B007` (enmity flaring between people) and `ه م ز/ل م ز` in 104:1. Structural cue: social hostility at the start is answered by a fire already kindled. Assigned role: توقد supplies intensified response. Abductive move: human social fire—enmity, contempt, provocation—is overtaken by divinely kindled intensity. Reading change: the fire is a calibrated intensification of the social heat the offender helped produce.",
@@ -8013,14 +9038,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8266,10 +9297,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 81279,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

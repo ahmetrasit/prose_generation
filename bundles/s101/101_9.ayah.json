@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.698745+00:00",
+  "generated_at": "2026-08-18T13:34:27.767787+00:00",
   "surah": 101,
   "ayah": 9,
   "ayahRef": "101:9",
@@ -1273,7 +1273,8 @@
       "morpheme_ids": [
         "m-w-s101-a009-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:9:1"
+      "aligned_qac_word_ref_upstream": "101:9:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1289,7 +1290,8 @@
         "m-w-s101-a009-w001-02",
         "m-w-s101-a009-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "101:9:2"
+      "aligned_qac_word_ref_upstream": "101:9:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1303,7 +1305,8 @@
       "morpheme_ids": [
         "m-w-s101-a009-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:9:3"
+      "aligned_qac_word_ref_upstream": "101:9:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2742,7 +2745,1150 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_9.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:9",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:9",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_maternal_reversal",
+            "confidence": "strong",
+            "focus_anchor": "The possessive nominal clause directly predicates هَاوِيَةٌ of أُمُّهُ.",
+            "mechanism": "The bearer-nurturer relation is reassigned to a destructive vertical receiver: what should bear, gather, and shelter the person instead receives him by engulfing him.",
+            "activation_trace": [
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Supplies the intimate bearer and nurturer whose expected shelter is reversed."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Supplies the abyss and destructive downward reception that takes the maternal role."
+              }
+            ],
+            "changed_reading": {
+              "before": "A mother and an abyss are two independent referents joined by a startling equation.",
+              "after": "The abyss is made his mother: expected refuge becomes the very receiver that destroys him."
+            }
+          },
+          {
+            "model_id": "baseline_void_as_return_center",
+            "confidence": "medium",
+            "focus_anchor": "أُمُّهُ can activate origin, gathering point, and reference while هَاوِيَةٌ activates both hollow space and abyss.",
+            "mechanism": "A void becomes the person's governing center of return and belonging. The clause does more than name a destination; it relocates origin, home, and reference into emptiness.",
+            "activation_trace": [
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Makes the first term an origin, gathering center, and point of reference."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Makes the predicate an empty or hollow spatial field."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Gives that hollow center terminal depth and downward force."
+              }
+            ],
+            "changed_reading": {
+              "before": "Haawiyah is only the place to which he will go.",
+              "after": "Haawiyah becomes the empty origin-home that gathers him back and defines where he belongs."
+            }
+          },
+          {
+            "model_id": "baseline_compressed_trajectory",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus roots themselves contain heading toward a target and rapid thrown motion into depth.",
+            "mechanism": "The static nominal equation can be heard as a compressed motion-script: his appointed heading is the plunge, so destination and movement are packed into the two-word clause.",
+            "activation_trace": [
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B012",
+                "role": "Contributes aiming and deliberate heading as a secondary directional resonance."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B008",
+                "role": "Contributes swift, thrown travel rather than a motionless location."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Fixes the rapid trajectory as a descent into an abyss."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause supplies a static kinship metaphor for a place.",
+              "after": "The clause also compresses an assigned vector: his heading, rapid passage, and terminal plunge coincide."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_impact_opens_receiver",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "Repeated impact and uncovering turn the abyss from a passive destination into a cavity disclosed or opened by the catastrophe; the maternal gathering center is reached through a sequence of blows.",
+            "activation_trace": [
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Supplies the initiating collision that drives the sequence rather than merely naming its time."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B008",
+                "role": "Adds stripping, exposure, and vacancy, allowing impact to reveal a receiving hollow."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Turns the exposed cavity into the person's terminal gathering center."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Anchors the opened receiver in the focus word's abyssal descent."
+              }
+            ],
+            "structural_cues": [
+              "The same feminine event noun recurs in 101:1, 101:2, and 101:3 before the focus clause."
+            ],
+            "reader_inference": "The packet supplies repeated impact, exposure, vacancy, a gathering center, and an abyss; I supply the arrow that the blows open or disclose the receiver. A live alternative is that the event only announces an independently existing pit.",
+            "changed_reading": {
+              "before": "Haawiyah passively waits as the endpoint of a fall.",
+              "after": "The repeated striking strips open a hollow center, making the catastrophe part of how the terminal receiver becomes manifest."
+            }
+          },
+          {
+            "model_id": "delta_opaque_reference_then_disclosure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The repeated knowledge challenge brackets the descriptive sequence and makes Haawiyah an intentionally unresolved reference node. Its force lies partly in requiring disclosure after the maternal-abyss equation has already destabilized ordinary categories.",
+            "activation_trace": [
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Opens an epistemic gap before the sequence of images."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Reopens the epistemic gap immediately after Haawiyah has been predicated."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Lets the focus term function as a central reference whose content must be resolved."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Gives the unresolved reference the semantic shape of an empty interior."
+              }
+            ],
+            "structural_cues": [
+              "A matching interrogative knowledge formula occurs before the scene and immediately after the focus ayah."
+            ],
+            "reader_inference": "The packet supplies knowledge, repetition, an empty interior, and a reference center; I infer that the framing deliberately withholds the term's content. The formula could alternatively be pure intensification with no special referential architecture.",
+            "changed_reading": {
+              "before": "Haawiyah is a transparent place-name whose meaning is exhausted on first mention.",
+              "after": "Haawiyah is an opaque semantic center: the clause installs a relation before the context discloses what fills that relation."
+            }
+          },
+          {
+            "model_id": "delta_dispersed_swarm_regathered",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و س",
+              "ف ر ش",
+              "ب ث ث"
+            ],
+            "mechanism": "Human social coherence is loosened into a light, fluttering, broadcast multitude. The focus then reverses dispersion: the maternal gathering-point and rapid abyssal motion make Haawiyah a sink that re-collects de-socialized particles.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Supplies human sociability as the coherence that the simile is about to undo."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "Converts the human collective into light winged motion."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distributes the moving units outward as a scattered field."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Supplies the counter-motion of gathering into one center."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B008",
+                "role": "Carries the dispersed bodies in fast, thrown travel."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Turns rapid travel into terminal convergence at depth."
+              }
+            ],
+            "structural_cues": [
+              "A single simile chain maps people to light winged creatures and then marks them as scattered."
+            ],
+            "reader_inference": "The packet supplies sociability, fluttering lightness, dispersion, gathering, and rapid descent; I add the flow from outward scatter to inward convergence. The scattered multitude could remain merely chaotic without implying a later sink.",
+            "changed_reading": {
+              "before": "One person falls alone into a destination.",
+              "after": "Haawiyah acts as the counter-dispersal basin that re-collects a swarm after human social form has broken apart."
+            }
+          },
+          {
+            "model_id": "delta_lethal_bedding",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ف ر ش"
+            ],
+            "mechanism": "The moth-root also carries bedding and furnishing. Beside the maternal focus term, that domestic substrate makes the abyss an inverted cradle or bed laid beneath the falling person.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "Keeps the immediate light-creature reading active as the primary contextual image."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Adds a secondary domestic surface spread beneath a body."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Activates the cradle-like expectation of maternal bearing and care."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Replaces a supporting bed with a depth that receives by falling."
+              }
+            ],
+            "structural_cues": [
+              "The context noun occupies a simile slot while its root inventory also opens a household substrate compatible with the focus's maternal frame."
+            ],
+            "reader_inference": "The packet supplies both the light creature and bedding branches plus mother and abyss; I overlay the spatial relation of a bed beneath the falling body. The safer alternative hears only the creature branch.",
+            "changed_reading": {
+              "before": "The abyss is an alien exterior place.",
+              "after": "The abyss becomes a lethally domestic surface: an anti-cradle prepared to receive the one whose mother it is."
+            }
+          },
+          {
+            "model_id": "delta_phase_collapse_produces_void",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "An elevated solid mass becomes soft fiber and then loses compactness. This material phase change makes the void less a pre-existing hole than the negative space produced when structural support unbinds.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Supplies elevated solidity and compact mass as the initial structural state."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Changes hard mass into soft, pliable fiber."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Removes compactness by opening the fiber into diffuse volume."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Makes the residual void the new gathering and reference center."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Names the hollowness left when supporting mass loses coherence."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Turns that produced negative space into dangerous depth."
+              }
+            ],
+            "structural_cues": [
+              "The becoming construction binds mountain, wool, and fluffing into one explicit material transformation."
+            ],
+            "reader_inference": "The packet supplies solidity, softness, decompaction, hollowness, and depth; I infer the causal arrow from structural unbinding to generated void. The simile may instead depict visual chaos without claiming cavity formation.",
+            "changed_reading": {
+              "before": "Haawiyah is a fixed pit waiting below an otherwise intact world.",
+              "after": "Haawiyah is also the cavity produced when the world's formerly solid supports decohere and its gathering center migrates into absence."
+            }
+          },
+          {
+            "model_id": "delta_hidden_desire_becomes_home",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ب ث ث",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "What is hidden within is broadcast, while stable judgment is contrasted with agitated lightness. The focus branches then permit a psychological genealogy: an unstable desire becomes the followed way that generates and finally houses the person.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Allows outward scattering to double as disclosure of what had been concealed within."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B005",
+                "role": "Supplies stable, weight-bearing judgment as the missing counterforce."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B004",
+                "role": "Turns lightness into impulsive agitation rather than neutral low mass."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B005",
+                "role": "Supplies a followed way capable of functioning as a formative source."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B004",
+                "role": "Makes desire or inclination the internal force that becomes destination."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from broadcast disorder to measured lightness and immediately to the focus outcome."
+            ],
+            "reader_inference": "The packet supplies disclosure, stable judgment, impulsive lightness, a followed way, and desire; I infer that disclosed inclination generates terminal affiliation. The live alternative is wholly external judgment followed by a spatial punishment.",
+            "changed_reading": {
+              "before": "Haawiyah is only an externally imposed geographic punishment.",
+              "after": "Haawiyah can also be the person's own unstable inclination externalized as the way that formed him and the home to which it delivers him."
+            }
+          },
+          {
+            "model_id": "delta_opposed_lifeworlds",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ي ش",
+              "ر ض و"
+            ],
+            "mechanism": "The favorable counterpart is an inhabited, satisfying life. Its parallel with the focus outcome shifts mother from biological kinship toward an encompassing condition: one person dwells in a life that receives him well, while the other belongs to a hollow that receives him destructively.",
+            "activation_trace": [
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Supplies life as the positive result-space inhabited by the contrasted person."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Makes that positive environment accepting and free of discontent."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Expands mother into an origin-home and encompassing reference condition."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Makes the negative counterpart an enclosing hollow lifeworld."
+              }
+            ],
+            "structural_cues": [
+              "The opposed result clauses place an inhabited satisfying life against a possessive mother-Haawiyah predicate."
+            ],
+            "reader_inference": "The packet supplies the two result clauses, life, acceptance, origin-home, and hollow space; I infer that they perform parallel environmental functions despite their different syntax. Mother may alternatively remain personification without becoming a total lifeworld.",
+            "changed_reading": {
+              "before": "The positive side names a condition, but the negative side merely names a location.",
+              "after": "Both sides are total modes of habitation: satisfying life on one branch and an engulfing hollow origin-home on the other."
+            }
+          },
+          {
+            "model_id": "delta_measure_assigns_kinship",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "Precious weight, just measurement, rank, and lightness form an adjudicative routing system. Because the light side is sent downward, the fall reads less like ordinary gravity than assigned affiliation: measured lack determines which home can claim the person.",
+            "activation_trace": [
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Turns heaviness into precious substance and moral consequence rather than raw mass."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "Supplies the just evaluative instrument that routes the contrasted outcomes."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B007",
+                "role": "Lets measured weight register standing and worth."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Supplies the deficient load whose outcome paradoxically lies in depth."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Recasts the result as a kinship claim and assigned receiver."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Makes the assigned kinship simultaneously a destination and home."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Anchors the judicially assigned home in actual abyssal descent."
+              }
+            ],
+            "structural_cues": [
+              "Parallel conditional branches repeat possessive scales before giving opposed possessive outcomes."
+            ],
+            "reader_inference": "The packet supplies value-weight, justice, rank, lightness, possession, mother, and abyss; I infer that measurement assigns belonging and that the light-downward pairing resists a merely gravitational cause. A literal weighing followed by literal punishment remains fully live.",
+            "changed_reading": {
+              "before": "A physically light subject simply falls into a pit.",
+              "after": "A just measure assigns abyssal kinship: lack of weight means lack of standing, and Haawiyah becomes the home authorized to claim him."
+            }
+          },
+          {
+            "model_id": "delta_fire_as_anti_womb",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The following answer fills the abyss with kindled fire and heat, but the protection branch of the heat-root keeps the maternal relation active. Warmth and enclosure become a perverse womb-hearth: the boundary protects not the inhabitant but the burning condition, preventing release.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Materializes the previously hollow abyss as actively kindled fire."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Intensifies the receiver as an enveloping field of heat."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Introduces a protective boundary that can be reversed into confinement."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Keeps maternal bearing, warmth, and protection present for inversion."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Retains the vertical destructive receiver inside the thermal image."
+              }
+            ],
+            "structural_cues": [
+              "The knowledge question at 101:10 is followed by a compact noun-adjective answer at 101:11."
+            ],
+            "reader_inference": "The packet supplies fire, heat, protection, mother, and abyss; I supply the reversal from protective enclosure to enclosure that prevents escape and preserves burning. The protection branch may be inactive while heat alone describes the fire.",
+            "changed_reading": {
+              "before": "Haawiyah is a cold topographic depth opposed to maternal shelter.",
+              "after": "Haawiyah is an anti-womb: a heated enclosure whose maternal functions of warmth, bearing, and protection have turned against its inhabitant."
+            }
+          },
+          {
+            "model_id": "delta_void_becomes_beacon",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي",
+              "ن و ر"
+            ],
+            "mechanism": "The question that leaves Haawiyah epistemically hollow is answered by a root carrying illumination and visible marking. Emptiness becomes conspicuous: the unknown center discloses itself as a beacon-like fire rather than remaining blank absence.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Poses the unresolved demand for knowledge immediately after the focus."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Fills the unknown with disclosure through light."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "Makes the disclosed center a visible marker or beacon."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Provides the reference center that illumination can make conspicuous."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Provides the prior void whose blankness is overturned by light."
+              }
+            ],
+            "structural_cues": [
+              "The immediate question-answer sequence moves from demanded knowledge to a fire noun whose mapped inventory includes light and visible marking."
+            ],
+            "reader_inference": "The packet supplies ignorance, illumination, beacon, reference center, and void; I infer a transition from semantic blankness to self-display. The fire may reveal punishment without making Haawiyah itself a guiding marker.",
+            "changed_reading": {
+              "before": "The epistemic model leaves Haawiyah as an opaque, empty term awaiting explanation.",
+              "after": "The following fire-root turns the empty center into a conspicuous anti-beacon: what could not be known now marks itself by burning."
+            }
+          },
+          {
+            "model_id": "delta_conflict_as_mother_community",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "Side branches of the final fire and heat roots activate feud and angry zeal. Joined to community and mutual contention in the focus roots, Haawiyah becomes a social ecology whose members are generated, gathered, and consumed by reciprocal conflict.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Lets fire resonate as a feud flaring among people."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B003",
+                "role": "Supplies heated zeal, affront, and anger as fuel for that feud."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B004",
+                "role": "Allows mother to widen into the community or class formed by the process."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B009",
+                "role": "Makes reciprocal contention the community's ongoing relational mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The final answer's two roots place feud and heated zeal branches beside focus branches for community and mutual contest."
+            ],
+            "reader_inference": "The packet supplies feud, zeal, community, and mutual contest; I infer a self-reproducing conflict ecology in which strife becomes mother-like origin and home. Literal blazing fire remains the direct reading, and the social mechanism is a contained resonance.",
+            "changed_reading": {
+              "before": "Haawiyah is an external fire imposed on isolated individuals.",
+              "after": "Haawiyah can also figure a community generated by anger and maintained through mutual contention, a fire that is socially mothered and socially inhabited."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cranial_hollow",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the surface clause strongly presents mother and abyss, while these are remote anatomical branches. It remains anchored because both focus roots directly supply a head-core reached by injury and a gaping hollow body-space. Downstream prose should carry it only as a grotesque somatic echo, never as a replacement translation.",
+            "focus_anchor": "The two focus words can jointly activate a damaged inner core and an opened bodily cavity.",
+            "activation_trace": [
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B003",
+                "role": "Moves the maternal noun toward the head-core and a wound that reaches it."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B007",
+                "role": "Opens that core into a gaping wound or hollowed interior."
+              }
+            ],
+            "changed_reading": {
+              "before": "The horror is exclusively spatial: a person is received by a pit.",
+              "after": "A secondary bodily horror appears: the person's own core is imaged as opened into the cavity that receives him."
+            }
+          },
+          {
+            "outlier_id": "outlier_unshepherded_night",
+            "confidence": "exploratory",
+            "containment": "This activation crosses from fluffed wool to a branch about livestock wandering at night and then to a distant night-span branch of the focus predicate. It remains valid through exact packet branches and the focus's mother relation, but prose should label it a nocturnal pastoral resonance rather than the contextual sense of the words.",
+            "focus_anchor": "Mother as nurturer and Haawiyah as a stretch of night allow the focus clause to receive an abandoned-at-night pattern.",
+            "activation_trace": [
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B003",
+                "role": "Supplies creatures spreading at night without a shepherd's gathering care."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Supplies the absent maternal function of feeding, gathering, and protection."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B006",
+                "role": "Turns the predicate into a prolonged nocturnal span as well as a destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mother-abyss relation is instantaneous and purely vertical.",
+              "after": "It also flickers as abandonment across a long night: scattered beings without a shepherd acquire the night-depth itself as a counterfeit mother."
+            }
+          },
+          {
+            "outlier_id": "outlier_epistemic_whirlpool",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the source form is epistemic while the dominant split mapping contributes a water-vortex image. It remains traceable because the packet explicitly preserves that mapped root and the knowledge formula circles around the focus. Render it only as a formal-semantic vortex analogy, not as a claim that the abyss is literally water.",
+            "focus_anchor": "Haawiyah's abyssal pull and mother-center can receive the repeated framing questions as a circling current.",
+            "activation_trace": [
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "Gives the first framing question a secondary image of disturbed circular current."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "Returns the same circular image immediately after the focus, completing the enclosure."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Provides the center around which the repeated epistemic current can turn."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Gives the circling frame an abyssal inward and downward pull."
+              }
+            ],
+            "changed_reading": {
+              "before": "The repeated knowledge formulas are static brackets around explanatory content.",
+              "after": "They can also feel like a semantic whirlpool: questioning circles the mother-center and pulls attention repeatedly into Haawiyah."
+            }
+          },
+          {
+            "outlier_id": "outlier_well_lined_receiver",
+            "confidence": "exploratory",
+            "containment": "The well-lining branch is remote from the immediate heat adjective, so this cannot control the final answer. It remains anchored because that adjective directly follows the focus and the focus itself supplies abyss plus gathering center. Downstream prose should qualify it as a material-engineering echo of a contained shaft.",
+            "focus_anchor": "The focus's deep receiver and gathering center can take on a bounded, lined vertical geometry.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B011",
+                "role": "Supplies stones that contain and define the wall of a well-like shaft."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Supplies the vertical depth and falling receiver."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Makes the bounded shaft a gathering center rather than undifferentiated open depth."
+              }
+            ],
+            "changed_reading": {
+              "before": "Haawiyah is an unbounded natural chasm.",
+              "after": "A remote material echo gives it the geometry of a contained, well-like receiver built to gather what descends."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The maternal predicate turns an abyss from mere destination into an intimate anti-home that bears and receives destructively.",
+            "Scattered people and disintegrating mountains make Haawiyah both a counter-dispersal sink and the negative space produced by structural collapse.",
+            "Weight, justice, rank, and lightness recast the fall as adjudicated kinship: measure assigns which home may claim the person.",
+            "The satisfying-life counterpart expands mother-Haawiyah into a total lifeworld rather than a point location.",
+            "The final fire and heat preserve several coexisting changes: anti-womb, conspicuous anti-beacon, and an exploratory community of feud."
+          ],
+          "what_was_special": "The focus clause remained short but behaved as a high-density relation switch. Context did not collapse it to one gloss; it successively activated maternal reversal, return-center, motion vector, swarm sink, produced cavity, judged affiliation, psychological genealogy, thermal enclosure, illumination, and social conflict.",
+          "remaining_uncertainties": [
+            "The literal mother branch is strongest, but origin-center, followed way, community, aiming, and anatomical core remain live secondary resonances rather than resolved alternatives.",
+            "Haawiyah's abyss, void, rapid motion, desire, night-span, bodily hollow, and mutual contention branches may coexist as echoes, but their relative morphological distance differs sharply.",
+            "The arrows from impact to opened cavity, dispersion to re-gathering, phase collapse to produced void, and protection to confinement are reader-supplied abductive moves rather than packet-stated causes.",
+            "The final fire may exhaustively identify Haawiyah, or it may materialize one aspect while the relational, spatial, psychological, and social readings continue to operate."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Mother-source reversed into abyss. Evidence: ء م م B001, mother as bearer/nurturer; ء م م B002, origin/gathering point/reference; ه و ي B002, falling into an abyss. Structural cue: the light scales of 101:8 are followed by فَأُمُّهُ. Mechanism: the place one returns to as source becomes the place into which one falls. Abductive move: I supply reversal: origin and refuge are inverted into destination and destruction. Reading change: \"his mother\" reads as a horrifying homecoming, not only a euphemism for outcome.\n\n2. Void as parent. Evidence: ه و ي B001, air/void/hollowness; ء م م B002, gathering point; ق ر ع B008/B011 earlier, stripped bare surface; خ ف ف B001, lightness. Structural cue: weightlessness leads to Hawiyah, and the surah has stripped people and mountains of stable mass. Mechanism: the underweighted person belongs to hollow space; emptiness becomes the gathering center. Abductive move: I infer ontological affinity between lightness, strippedness, and void. Reading change: هاوية is not only a pit but the hollow parent of a hollowed self.\n\n3. The wound-mouth of the struck head. Evidence: ء م م B003, head-core and wound reaching it; ه و ي B007, gaping wound or hollowed body; ق ر ع B001, striking. Structural cue: the surah begins with striking and later says \"mother/head-core\" near a gaping Hawiyah. Mechanism: the Qarīʿah's blow opens the protected core into a mouth-like abyss. Abductive move: I supply a bodily compression of event, head, wound, and pit. Reading change: أمه هاوية can be read somatically: the inner core opened by judgment.\n\n4. Mis-aimed desire becomes destination. Evidence: ء م م B012, aiming/heading toward; ه و ي B004, desire/inclination; د ر ي B002 in 101:3/10, aiming at something; خ ف ف B004, being unsettled or misled. Structural cue: the interrogative guidance of 101:3 and 101:10 surrounds this outcome. Mechanism: what the self inclines toward becomes the path it is aimed down. Abductive move: I infer moral trajectory from desire-branch to destination-branch. Reading change: Hawiyah reads as both wanted direction and imposed fall.",
@@ -9302,14 +10448,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9616,10 +10768,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_9.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_9.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 11,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 95127,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

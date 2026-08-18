@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.674756+00:00",
+  "generated_at": "2026-08-18T13:34:13.134633+00:00",
   "surah": 93,
   "ayah": 6,
   "ayahRef": "93:6",
@@ -1784,7 +1784,8 @@
         "m-w-s093-a006-w001-01",
         "m-w-s093-a006-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:6:1"
+      "aligned_qac_word_ref_upstream": "93:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1800,7 +1801,8 @@
         "m-w-s093-a006-w002-01",
         "m-w-s093-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:6:2"
+      "aligned_qac_word_ref_upstream": "93:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1814,7 +1816,8 @@
       "morpheme_ids": [
         "m-w-s093-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:6:3"
+      "aligned_qac_word_ref_upstream": "93:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1828,7 +1831,8 @@
       "morpheme_ids": [
         "m-w-s093-a006-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:6:4"
+      "aligned_qac_word_ref_upstream": "93:6:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1842,7 +1846,8 @@
       "morpheme_ids": [
         "m-w-s093-a006-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:6:5"
+      "aligned_qac_word_ref_upstream": "93:6:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3043,7 +3048,1066 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s93/packets/93_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "93:6",
+      "window": [
+        "93:1",
+        "93:2",
+        "93:3",
+        "93:4",
+        "93:5",
+        "93:6",
+        "93:7",
+        "93:8",
+        "93:9",
+        "93:10",
+        "93:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ج د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001626",
+              "furuq_root_norm": "و ج د",
+              "furuq_source_root_norm": "و ج د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 61,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000227",
+              "furuq_root_norm": "ج د د",
+              "furuq_source_root_norm": "ج د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "93:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_protective_rehousing",
+            "confidence": "strong",
+            "focus_anchor": "The sequence يَجِدْكَ يَتِيمًا فَآوَى links a recognized state of lost parental protection to an immediate sheltering response.",
+            "mechanism": "Finding identifies the vulnerable person, orphanhood specifies severance from a protecting parent, and the consequential فَ turns recognition into drawing that person toward a gathering refuge.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Coming upon or perceptually apprehending supplies the recognition that initiates the response."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Being cut off from a protecting parent defines the precise vulnerability that needs repair."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Drawing another into a sheltering or gathering point supplies the fitted counter-movement to protective severance."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare report that God encountered an orphan and gave him somewhere to stay.",
+              "after": "A compact repair sequence: exposed dependency is recognized and answered by incorporation into a protective locus."
+            }
+          },
+          {
+            "model_id": "baseline_solitary_to_gathered",
+            "confidence": "medium",
+            "focus_anchor": "The predicate يَتِيمًا stands between being found and being caused to take refuge.",
+            "mechanism": "The peerless or solitary branch of orphanhood and the gathering branch of shelter form a social-spatial reversal: an isolated node is brought into a place of attachment.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding makes the isolated condition perceptible rather than leaving it socially unseen."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolated singleness supplies the relational topology of one without a peer or surrounding bond."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Gathering into a refuge reverses isolated singleness by giving it a point of belonging."
+              }
+            ],
+            "changed_reading": {
+              "before": "Orphanhood names only a legal-biographical category.",
+              "after": "Orphanhood is also a topology of aloneness, and shelter changes that topology from solitary exposure to gathered belonging."
+            }
+          },
+          {
+            "model_id": "baseline_compassionate_recognition",
+            "confidence": "medium",
+            "focus_anchor": "The same subject both يَجِدْكَ and فَآوَى, allowing perception and response to be read as one affective movement.",
+            "mechanism": "The inward sorrow-or-love branch of finding and the pity branch of shelter make the encounter more than detection: felt recognition becomes compassionate turning toward the orphaned person.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B004",
+                "role": "Inner sorrow or love gives the act of finding an affective resonance, while not replacing the finite verb's ordinary syntax."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of the protecting parent is the condition toward which concern is directed."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B002",
+                "role": "Tenderness and pity convert inward recognition into compassionate action."
+              }
+            ],
+            "changed_reading": {
+              "before": "Finding is neutral discovery followed by practical lodging.",
+              "after": "The finding can carry felt recognition of orphaned loss, with shelter as compassion made operative."
+            }
+          },
+          {
+            "model_id": "baseline_delayed_care_reversed",
+            "confidence": "exploratory",
+            "focus_anchor": "The consequential فَآوَى follows immediately after the orphan predicate.",
+            "mechanism": "A branch of orphanhood images kindness as arriving late; the verse reverses that lag by making recognition issue directly into compassionate refuge.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Recognition marks the point at which an unattended condition becomes actively encountered."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B004",
+                "role": "Slowness or delayed beneficence supplies a temporal dimension to orphaned vulnerability."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B002",
+                "role": "Compassionate turning is the action that interrupts the delay in care."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse moves between two static states, orphanhood and shelter.",
+              "after": "It also stages a temporal reversal: care that characteristically lags behind the orphan is made to arrive as an immediate compassionate response."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_visibility_and_cover",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ض ح و",
+              "ل ي ل",
+              "س ج و"
+            ],
+            "mechanism": "The opening alternation supplies both emergence into light and enveloping stillness. Applied back to the focus, refuge need not mean uninterrupted exposure or uninterrupted concealment; it can preserve the formerly isolated person through a rhythm of being seen and being covered.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Solitary isolation is the focus-state whose continued presence must be secured."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "A gathering refuge supplies the stable protective center across changing conditions."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Emergence into the sun contributes the phase of becoming visible rather than remaining socially hidden."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night's darkness contributes the contrasting condition in which protection cannot depend on visibility."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B002",
+                "role": "Covering with a cloth turns darkness into an image of protective enclosure rather than simple absence."
+              }
+            ],
+            "structural_cues": [
+              "93:1-2 pair bright emergence with night when it settles.",
+              "The focus's فَ keeps shelter a responsive act even when its mode is quiet covering."
+            ],
+            "reader_inference": "The packet supplies a day/night contrast, emergence, covering, isolation, and refuge; I supply the analogy that protective care can alternate between visibility and cover. A live alternative is that the cosmic pair only frames reassurance and does not model the sheltering act.",
+            "changed_reading": {
+              "before": "Shelter is a fixed place that simply removes exposure.",
+              "after": "Shelter is a stable relation capable of both bringing the isolated person into view and covering that person through periods of darkness or stillness."
+            }
+          },
+          {
+            "model_id": "delta_ongoing_custody",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و د ع",
+              "ر ب ب",
+              "ق ل ي"
+            ],
+            "mechanism": "The double negation rejects both relinquishment and affective distancing, while lordship contributes nurture and completion. The past sheltering event therefore becomes evidence of a custody that continues rather than an isolated rescue that has expired.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a protector establishes the relational breach to which continuing custody answers."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Being drawn into refuge supplies the initial act of protective custody."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Leaving and releasing, under negation, rules out the severance of the sheltering relation."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and bringing to completion gives the protecting subject an ongoing developmental role."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B003",
+                "role": "Hatred that distances the heart, also under negation, excludes affective withdrawal as well as physical abandonment."
+              }
+            ],
+            "structural_cues": [
+              "93:3 repeats the second-person object and surrounds رَبُّكَ with two coordinated negations.",
+              "The focus's completed sheltering is recalled inside a present reassurance about non-abandonment."
+            ],
+            "reader_inference": "The packet supplies a past shelter, negated leaving, negated heart-distance, and a nurturing Lord; I infer temporal continuity from the rescue to present custody. The alternative is that 93:3 reassures independently without defining the duration of فَآوَى.",
+            "changed_reading": {
+              "before": "The sheltering was one completed intervention in childhood.",
+              "after": "The sheltering manifests an enduring guardianship marked by non-relinquishment, continued formation, and refusal of affective distance."
+            }
+          },
+          {
+            "model_id": "delta_shelter_as_inaugural_care",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ر",
+              "خ ي ر",
+              "ء و ل",
+              "ع ط و",
+              "ر ب ب",
+              "ر ض و"
+            ],
+            "mechanism": "The later/first comparison and the promise of giving toward satisfaction place the focus rescue on a longer developmental arc. Shelter is the inaugural fitted gift, not the ceiling of care.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "The sheltering act supplies the concrete first stage from which the longer arc can unfold."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness establishes a horizon beyond the already completed rescue."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good makes the temporal horizon an improving trajectory rather than mere succession."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence cast the earlier condition as an initial phase rather than a final measure."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Giving by conveyance supplies the continuing movement of care toward the addressee."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion make the successive gifts stages in formation rather than disconnected favors."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction supplies the prospective human terminus toward which the care moves."
+              }
+            ],
+            "structural_cues": [
+              "93:4 explicitly compares the later with the first.",
+              "93:5 uses a future promise followed by a result clause of satisfaction."
+            ],
+            "reader_inference": "The packet supplies temporal comparison, future giving, nurture, and satisfaction; I infer that the remembered shelter is the first installment of that trajectory. The alternative is that the future promise is additive but does not reinterpret the earlier shelter.",
+            "changed_reading": {
+              "before": "Shelter closes the orphanhood crisis as a sufficient endpoint.",
+              "after": "Shelter opens a sustained pedagogy of care whose later phases continue giving and formation toward satisfaction."
+            }
+          },
+          {
+            "model_id": "delta_matched_remedy_triad",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ض ل ل",
+              "ه د ي",
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "The two following clauses repeat the found-state-then-response syntax but change both the diagnosed lack and its remedy. This parallelism differentiates three domains: severed protection receives refuge, lost direction receives guidance, and material dependency receives sufficiency.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding supplies the repeated diagnostic operation shared by all three clauses."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a protecting parent specifies the first clause's relational vulnerability."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Gathering into refuge is the remedy fitted specifically to relational and spatial exposure."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The repeated finding verb confirms a common recognition-response template."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness or disappearance supplies a distinct directional or epistemic lack."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies the second clause's fitted remedy."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "A third recurrence preserves the same diagnostic hinge while changing domains again."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need define the economic lack rather than repeating orphanhood."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the economic remedy and keeps it distinct from refuge or guidance."
+              }
+            ],
+            "structural_cues": [
+              "93:6-8 repeat the surface frame وَجَدَكَ/يَجِدْكَ plus a state and a فَ-marked response.",
+              "Each repeated frame substitutes a different state noun and a different causative remedy."
+            ],
+            "reader_inference": "The packet supplies exact syntactic recurrence and three branch-paired lacks and responses; I infer a diagnostic-to-fitted-remedy relation from the repeated فَ sequence. The alternative is a list of independent favors with parallel rhetoric but no domain-specific causal design.",
+            "changed_reading": {
+              "before": "The verse records one generic benefit among several.",
+              "after": "It is the first unit in a triad of matched repairs: shelter answers lost protection and belonging specifically, rather than standing for guidance or wealth in general."
+            }
+          },
+          {
+            "model_id": "delta_received_refuge_becomes_ethic",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي ت م",
+              "ق ه ر"
+            ],
+            "mechanism": "The exact orphan root returns as the object of a prohibition against domination from above. The received act of refuge is thereby relayed into an ethic: one who was gathered under protection must not use superior position to humiliate another who bears the same severance.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The addressee's own loss of a protector supplies the remembered vulnerability."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B002",
+                "role": "Compassionate turning supplies the positive treatment received in the focus."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The repeated orphan category transfers the focus vulnerability from remembered self to present other."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Dominating from above and abasing the weaker party, under prohibition, defines the conduct opposite to sheltering compassion."
+              }
+            ],
+            "structural_cues": [
+              "93:9 repeats the focus noun اليتيم and pivots with فَأَمَّا into a direct prohibition.",
+              "The focus's divine action and the later human command place received care before required conduct."
+            ],
+            "reader_inference": "The packet supplies lexical repetition, remembered compassion, and a ban on top-down domination; I infer a memory-to-obligation arrow. The alternative is that the command is independently ethical and the autobiographical sequence only motivates it rhetorically.",
+            "changed_reading": {
+              "before": "The sheltering is a private benefit retained by its recipient.",
+              "after": "The sheltering becomes an ethical relay: remembered protection forbids reproducing vertical pressure against another orphan."
+            }
+          },
+          {
+            "model_id": "delta_refuge_with_open_threshold",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ه ر"
+            ],
+            "mechanism": "The asker brings a request to a social boundary; harsh rebuke would close that boundary, while the same root inventory also supplies widening until flow. Under the prohibition, the focus refuge activates as a permeable shelter whose protection does not harden into exclusion.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "A gathering point supplies the focus image of a place that can receive rather than repel."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and requesting place a petitioner at the boundary of another's attention and resources."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B004",
+                "role": "Harsh verbal rebuke, under negation, identifies the boundary-closing response that is forbidden."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until something can flow supplies a latent counter-image for how the social threshold might remain passable."
+              }
+            ],
+            "structural_cues": [
+              "93:10 parallels 93:9 with وَأَمَّا followed by a vulnerable social type and فَلَا plus an imperative.",
+              "The negative command blocks expulsion at the moment of request."
+            ],
+            "reader_inference": "The packet supplies a requester, forbidden harsh rebuke, a gathering refuge, and a widening-to-flow branch; I infer that negated closure implies a socially open threshold. The live alternative is narrower: the verse regulates speech etiquette without extending the focus shelter into an institutional model.",
+            "changed_reading": {
+              "before": "Refuge is inward-facing protection for one past recipient.",
+              "after": "Refuge can become a hospitable social threshold: it protects without turning its boundary into a rebuke that drives petitioners away."
+            }
+          },
+          {
+            "model_id": "delta_refuge_becomes_testimony",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "ر ب ب",
+              "ح د ث"
+            ],
+            "mechanism": "Good condition and nurturing lordship are followed by renewed, revealing speech. The once-private sheltering event can therefore mature into narrated grace: refuge not only gives a place but restores a position from which the recipient can speak.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Solitary isolation supplies the silent or socially detached starting condition."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Gathering into refuge supplies the relational placement from which testimony becomes possible."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Blessing and good condition classify the sheltering reversal as a beneficent state worth acknowledging."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion connect the remembered rescue to the same continuing source of formation."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as report turns the sheltered past into a repeatedly voiced account."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing something forth and making it visible supplies the publicizing movement of testimony."
+              }
+            ],
+            "structural_cues": [
+              "93:11 closes the sequence with an imperative to speak about the Lord's blessing.",
+              "The possessive رَبِّكَ recalls the same protecting relation named in the earlier reassurance."
+            ],
+            "reader_inference": "The packet supplies remembered refuge, blessing, nurture, and commanded renewing or revealing speech; I infer that this shelter is among the graces that can become testimony and that restored belonging enables speech. The alternative is that the command concerns blessings generally without privileging the focus event.",
+            "changed_reading": {
+              "before": "Shelter is a private reversal whose work ends in safety.",
+              "after": "Shelter also restores social voice: the gathered recipient can renew and disclose the memory of care as testimony."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_severed_edges_drawn_together",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ج د د mapping attached to وَجَدَ and a material healing image within the shelter branch rather than the ordinary lexical reading. It remains anchored in the focus's adjacent images of protective severance and gathering, but downstream prose should present it only as a split-root material analogy, never as a replacement translation.",
+            "focus_anchor": "In 93:6, the found condition is immediately named as orphaned severance and immediately answered by causative gathering.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000227",
+                "branch_id": "B003",
+                "role": "The split target's cutting and severing image supplies a material shadow for the broken protective relation."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Being cut off from a protecting parent anchors the severing image in the explicit focus predicate."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Drawing into a gathering point, whose scope also includes wound edges drawing together, supplies the counter-image of repair."
+              }
+            ],
+            "changed_reading": {
+              "before": "He found an orphan and lodged him.",
+              "after": "As a contained material analogy, the line resembles cut protective edges being drawn back together inside a healing enclosure."
+            }
+          },
+          {
+            "outlier_id": "outlier_cradle_like_settling",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because the child-rocking image comes from the non-dominant ه د د target mapped under the context root ه د ي, not from the dominant guidance sense. It remains worth carrying because 93:7 exactly repeats the focus's found-then-response frame and the focus explicitly joins an orphaned child-state to shelter; prose should label the result a cradle-like resonance, not a lexical claim about هَدَىٰ.",
+            "focus_anchor": "The focus moves an orphaned dependent from being found to being gathered into refuge, while 93:7 repeats the same diagnostic-response frame.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The child cut off from parental protection anchors the dependent figure in the focus."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Drawing the dependent into refuge supplies the enclosing movement."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The repeated finding verb links the context response structurally back to the focus response."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B006",
+                "role": "The split target's image of gently rocking a child to sleep contributes a settling motion to the sheltering scene."
+              }
+            ],
+            "changed_reading": {
+              "before": "Shelter means relocation into a safe place.",
+              "after": "As a carefully qualified cross-branch resonance, shelter also feels cradle-like: the vulnerable dependent is gathered and gently settled."
+            }
+          },
+          {
+            "outlier_id": "outlier_guardianship_taken_up",
+            "confidence": "exploratory",
+            "containment": "This activation is surprising because it draws taking-charge and loving-support images from the non-dominant و ل ي target mapped under أُولَىٰ. It remains anchored in the focus's missing protector and sheltering response and in the later/first sequence, but downstream prose should mark it as a secondary split-root activation rather than assigning those senses directly to أُولَىٰ.",
+            "focus_anchor": "The focus names loss of a protecting parent and an answering act of refuge; 93:4 then reopens that act within a first-to-later trajectory.",
+            "activation_trace": [
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The absent protecting parent creates the vacant guardianship role."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Giving refuge supplies the concrete act by which protection is assumed."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "The split target's taking charge of an affair sharpens shelter into active guardianship."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B004",
+                "role": "The split target's love, support, and alliance prevent that guardianship from becoming merely administrative custody."
+              }
+            ],
+            "changed_reading": {
+              "before": "The orphan receives an unspecified refuge.",
+              "after": "In a contained split-root reading, the vacant work of protection is actively taken up as supportive guardianship whose first act is shelter."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus becomes a domain-specific repair of severed protection and belonging, not generic lodging.",
+            "The negated abandonment and future giving turn one past rescue into continuing guardianship and an unfolding trajectory of care.",
+            "The repeated found-state-then-response clauses reveal a triad of fitted remedies: refuge, guidance, and sufficiency answer different lacks.",
+            "The later imperatives relay received refuge outward into non-domination, hospitable reception, and testimony."
+          ],
+          "what_was_special": "The focus branches made shelter simultaneously spatial, relational, affective, and temporal; the context then converted it from a remembered event into a durable pattern of custody and ethical transmission. Non-dominant split roots also yielded live but contained images of severed edges healing, cradle-like settling, and guardianship being taken up.",
+          "remaining_uncertainties": [
+            "The affective branch of و ج د may be only resonance around the ordinary finding construction rather than an active sense in it.",
+            "The day/night visibility-and-cover model may be a genuine mechanism or only atmospheric support for reassurance.",
+            "The severing, child-rocking, and taking-charge outliers depend on non-dominant mapped roots and should remain exploratory unless corroborated by another independent signal."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Foundness before shelter.** Evidence: و ج د B001 (finding/coming upon a thing), ي ت م B001 (offspring cut off from protecting parent), ء و ي B001 (drawing into shelter/gathering point), ر ب ب B005 (fostered child and caregiver relation). Structural cue: the verse gives a three-step sequence: find → orphaned → shelter. Mechanism: the packet supplies the sequence and caregiver branch; I supply the causal assumption that recognition precedes repair. Abductive move: being found is already the first act of care because the cut-off one has become locatable to a protector. Reading change: the ayah does not simply recount shelter after loss; it makes being noticed the beginning of restoration.\n\n2. **Peerless solitude, not only bereavement.** Evidence: ي ت م B002 (isolated singleness/peerless uniqueness), س م و B002/B008 in 93:0 (raised visible outline; good repute), ح د ث B004 in 93:11 (becoming a tale people tell). Structural cue: later command to narrate favor makes singular experience publicly memorable. Mechanism: the packet supplies solitary/peerless branches and raised report branches; I supply the move that isolated singularity can become exemplary rather than merely deprived. Abductive move: the same \"orphan\" condition can be a unique standing point from which favor becomes tellable. Reading change: \"orphan\" retains vulnerability but also activates incomparable singled-outness.\n\n3. **Shelter as wound-drawing-together.** Evidence: ء و ي B001 (sheltering; wound drawing together toward healing), ر ح م B003/B004 in 93:0 (womb; womb ailment after birth), ي ت م B004 (delayed kindness to orphan). Structural cue: the surah moves from womb/mercy terms to orphaned severance to shelter. Mechanism: the packet supplies a wound-healing subimage within \"āwā\"; I supply the corporeal analogy that orphanhood is a torn relation drawn together by care. Abductive move: shelter heals by closing a social wound, not just placing a body under a roof. Reading change: the ayah becomes therapeutic and maternal, not merely residential.\n\n4. **Existence after nonexistence, exploratory.** Evidence: و ج د B002 (existence/presence after nonexistence), ح د ث B001/B002 in 93:11 (coming into being; recent freshness), ر ب ب B009 (fresh first stage after birth). Structural cue: the recollection of early orphanhood and later command to speak of blessing frame life as brought into presence. Mechanism: the packet supplies \"found in reality\" and \"newly occurring\" branches; I supply the existential reading that the addressee's history is narrated as emergence into protected existence. Abductive move: to be \"found\" may include being made present in the world of care. Reading change: the ayah can read as ontological rescue, not only biographical rescue.",
@@ -11853,14 +12917,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 83,
+        "ayah_count": 11,
+        "row_count": 76,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12162,10 +13232,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s93/packets/93_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s93/readers/reader_hft_a/93_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s093",
+        "latent_activation/focus_trace/runs/s93"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s93",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 119099,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

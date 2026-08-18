@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.365059+00:00",
+  "generated_at": "2026-08-18T13:34:15.999235+00:00",
   "surah": 95,
   "ayah": 3,
   "ayahRef": "95:3",
@@ -1524,7 +1524,8 @@
       "morpheme_ids": [
         "m-w-s095-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:3:1"
+      "aligned_qac_word_ref_upstream": "95:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1538,7 +1539,8 @@
       "morpheme_ids": [
         "m-w-s095-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:3:2"
+      "aligned_qac_word_ref_upstream": "95:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1554,7 +1556,8 @@
         "m-w-s095-a003-w002-01",
         "m-w-s095-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:3:3"
+      "aligned_qac_word_ref_upstream": "95:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1570,7 +1573,8 @@
         "m-w-s095-a003-w003-01",
         "m-w-s095-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:3:4"
+      "aligned_qac_word_ref_upstream": "95:3:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2990,7 +2994,1225 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:3",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_bounded_safe_domain",
+            "confidence": "strong",
+            "focus_anchor": "The noun at word 2 is directly qualified by the adjective at word 3.",
+            "mechanism": "A bounded tract is not merely located; settled security and trust become the condition governing its enclosure. Boundary and confidence therefore form one spatial-social mechanism.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded-land image supplies an enclosure whose inside/outside distinction can carry protection."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security and trust supply both freedom from fear and the reliable relation that makes the enclosure safe."
+              }
+            ],
+            "changed_reading": {
+              "before": "A demonstrative reference to a familiar city described as safe.",
+              "after": "A bounded domain whose very boundary organizes a settled relation of protection and trust."
+            }
+          },
+          {
+            "model_id": "base_city_as_trustee",
+            "confidence": "medium",
+            "focus_anchor": "The resident-place branch of the noun and the trustworthy-or-trusted scope of the adjective meet in the same nominal phrase.",
+            "mechanism": "The adjective can be agentive rather than merely passive: the city is not only protected but acts as a trustee that reliably holds residents, goods, promises, and safe-conduct.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Residence and staying supply the durable human occupancy over which a civic trust can operate."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The trusted or trustworthy thing image turns the adjective into a custodial capacity, not only a condition of being unharmed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The city is the passive recipient of safety.",
+              "after": "The city is a reliable civic custodian that makes residence and entrusted relations possible."
+            }
+          },
+          {
+            "model_id": "base_embodied_center",
+            "confidence": "exploratory",
+            "focus_anchor": "A direct branch of the noun names the chest and front hollow, while the adjective supplies heart-settling security.",
+            "mechanism": "The place can be carried as an embodied center: a chest-like front or hollow within which composure settles. Geographic enclosure and bodily interior coexist without requiring either to erase the other.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B002",
+                "role": "The chest and front-hollow image supplies a bodily enclosure and central receiving space."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Heart-settling security supplies the composure housed in that chest-like center."
+              }
+            ],
+            "changed_reading": {
+              "before": "The demonstrative points only to an external urban location.",
+              "after": "The external city also resonates as a protected chest-space in which fear can settle into trust."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_provisioned_security",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "Edible fruit and oil that can serve as provision make urban security metabolic and distributive. The enclosure remains trustworthy not only through a boundary but through a surrounding chain of cultivation, extraction, storage, and transfer.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded tract supplies the receiving and distributing node of the material system."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security becomes the social effect of dependable access to sustenance."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible-fruit image supplies a direct consumable input to the city's security."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "Oil as food, provision, and gift supplies a storable and transferable resource linking nourishment to social exchange."
+              }
+            ],
+            "structural_cues": [
+              "95:1 pairs two plant products before the deictic place in 95:3.",
+              "The oath sequence moves from produce through a mountain term to the city."
+            ],
+            "reader_inference": "The packet supplies edible fruit and oil-as-provision; I infer a supply chain that helps produce civic security. Alternatively, the items may be coordinate oath emblems or place markers with no material causal arrow.",
+            "changed_reading": {
+              "before": "The city is secure as a static protected location.",
+              "after": "The city is secure as a provisioned node whose dependable food and exchange flows help settle fear."
+            }
+          },
+          {
+            "model_id": "delta_threshold_security",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "The preceding edge, precinct, and stopping-limit images sharpen the city's boundedness into a threshold system. Security is produced at the approach and crossing of a limit, not merely enjoyed in an undifferentiated interior.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "Bounded land supplies the inside/outside topology that the threshold images articulate."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the protected condition achieved by governing approach to the boundary."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B002",
+                "role": "Nearness to a precinct supplies the approach-zone around what is protected."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "A limit at which one stops or crosses supplies the operative gate between outside and inside."
+              }
+            ],
+            "structural_cues": [
+              "The mountain term immediately precedes the demonstrative city.",
+              "The focus phrase itself joins a bounded-place noun to a security adjective."
+            ],
+            "reader_inference": "The packet supplies precinct-nearness and a stopping-or-crossing limit; I infer that the city's security is enacted at a governed threshold. Alternatively, the mountain can remain a proper landmark unrelated to civic jurisdiction.",
+            "changed_reading": {
+              "before": "Safety is a quality spread uniformly across the city.",
+              "after": "Safety is a threshold achievement: the city is a protected precinct whose approaches and crossings are regulated."
+            }
+          },
+          {
+            "model_id": "delta_inhabited_antiwild",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "Residence and trust are activated against two neighboring possibilities: departure from human familiarity into wildness and a place in which no one is present. The secure city becomes a maintained human habitat rather than simply terrain without danger.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Staying and residence supply the inhabited pole of the contrast."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trust and freedom from fear supply the relation that makes continued co-presence livable."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B006",
+                "role": "Departure beyond human familiarity supplies the wild outside against which civic inhabitation appears."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B007",
+                "role": "The image of nobody being in a place supplies the uninhabited limit case that residence reverses."
+              }
+            ],
+            "structural_cues": [
+              "The unpeopled or wild branch possibilities occur immediately before a demonstratively present city."
+            ],
+            "reader_inference": "The packet supplies wildness and absence-of-anyone alongside the focus branch of residence; I infer a contrast in which security means sustained human co-presence. Alternatively, those remote branches may have no contrastive force in the sequence.",
+            "changed_reading": {
+              "before": "A safe city is one from which threats are absent.",
+              "after": "A safe city is one in which trustworthy human presence can be maintained against isolation and wildness."
+            }
+          },
+          {
+            "model_id": "delta_measured_civic_form",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ء ن س",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "Measured creation, visible humanity, goodness, and upright equilibrium turn the bounded secure place into a civic analogue of formed humanity. Boundary is its contour, trust its internal balance, and human presence the life for which that form is fitted.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded tract supplies the civic contour available for measured formation."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled trust supplies the internal social balance of that civic form."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimation and measurement supply a design logic rather than accidental aggregation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humanity opposed to wildness supplies the intended inhabitant and civic character."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness opposed to ugliness supplies a normative criterion for the formed arrangement."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness, equilibrium, and evenness supply the stable geometry of the civic-human analogy."
+              }
+            ],
+            "structural_cues": [
+              "95:4 follows the city directly and shifts from place to the creation and configuration of the human.",
+              "The superlative construction presents configuration as evaluated, not merely observed."
+            ],
+            "reader_inference": "The packet supplies measured creation and upright human configuration; I infer an analogy in which the city is also a fitted form for human flourishing. Alternatively, the city and human may be successive oath-object and assertion with no shared design mechanism.",
+            "changed_reading": {
+              "before": "The city is a pre-existing container that happens to be safe.",
+              "after": "The city is a measured civic form whose boundedness and trust are fitted to upright human life."
+            }
+          },
+          {
+            "model_id": "delta_anatomical_city",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ل ق",
+              "ء ن س",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "A chest-like city, a complete bodily form, the human image in the pupil, place/body naming, and bodily stature create a nested body-city reading. The secure place becomes a protected central hollow within an upright perceiving human form.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B002",
+                "role": "The chest and front-hollow image supplies the anatomical center onto which the city can be projected."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Heart-settling security supplies the protected affective content of the chest-like place."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete and proportionate bodily formation supplies the larger body containing the secure center."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The human image in the eye's dark center supplies a second nested interior and a mechanism of reflected scale."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B004",
+                "role": "Naming associated with places and bodies licenses movement between geographic and anatomical domains."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B011",
+                "role": "Bodily stature and build supply the upright frame within which the chest-city sits."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves without a break from a demonstratively present place to the formed human body.",
+              "Both focus branches can be read as an enclosure and an inward settling."
+            ],
+            "reader_inference": "The packet supplies direct chest, body, pupil-image, and stature branches; I project their spatial nesting onto the city. Alternatively, these are independent side senses whose adjacency does not authorize an anatomical map.",
+            "changed_reading": {
+              "before": "The city and the human of the next ayah occupy separate semantic domains.",
+              "after": "The secure city can be carried as the human form's protected chest-center, with urban and bodily scales nested rather than separated."
+            }
+          },
+          {
+            "model_id": "delta_returnable_refuge",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "Return and downward movement revise safety from immunity into recoverability. A trusted place of residence is secure because it can remain a home of re-entry after reversal or descent, not because no fall can occur.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Residence and staying supply the home to which return remains meaningful."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safe-conduct and trust supply the possibility of re-entry after displacement."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Returning something to a thing or place supplies the restorative trajectory back toward residence."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed descent supplies the displacement from which a refuge must permit recovery."
+              }
+            ],
+            "structural_cues": [
+              "The temporal particle in 95:5 marks reversal after the best configuration of 95:4.",
+              "The object pronoun concerns the human, so applying return to the city is analogical rather than syntactic."
+            ],
+            "reader_inference": "The packet supplies return-to-place, residence, and descent; I infer that civic security can mean recoverable belonging after reversal. Alternatively, the return is solely a change of human condition and offers no homecoming relation.",
+            "changed_reading": {
+              "before": "The secure city promises that displacement or decline will not happen.",
+              "after": "The secure city promises a trustworthy place of re-entry even when displacement or decline does happen."
+            }
+          },
+          {
+            "model_id": "delta_antifall_support",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "Ground-contact, a support that bears and wards off falling, and the lower place produce a vertical mechanics of security. The city is imagined as load-bearing infrastructure that catches, redirects, or limits downward motion.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B010",
+                "role": "Pressing or sticking to the ground supplies the stable contact surface of the support system."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the human effect of being borne rather than abandoned to the fall."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B009",
+                "role": "A pillar or bearing element that wards off falling supplies the load-bearing mechanism."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "A low place beneath what is high supplies the downward destination the support resists."
+              }
+            ],
+            "structural_cues": [
+              "95:5 intensifies the lower direction by repeating the same root in two adjacent words.",
+              "The focus noun's ground-contact branch lets the vertical context attach back to the place."
+            ],
+            "reader_inference": "The packet supplies ground adhesion, a fall-resisting support, and doubled lowness; I infer a civic anti-fall structure. Alternatively, the verse asserts an effected descent, so the support image may expose failure rather than prevention.",
+            "changed_reading": {
+              "before": "The city is a horizontal area inside a boundary.",
+              "after": "The city is a vertical support system: grounded, load-bearing, and answerable to the possibility of human descent."
+            }
+          },
+          {
+            "model_id": "delta_security_as_removable_cover",
+            "status": "weakened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر د د"
+            ],
+            "mechanism": "The non-dominant mapped branch for stripping what covers a thing meets the focus branch of a mark on a body or surface. Security becomes a cover that can be removed, exposing the marked substrate beneath; it is maintained and vulnerable rather than essential.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B006",
+                "role": "A trace or mark on skin or another surface supplies what remains visible when a covering is lost."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the protective condition reimagined as a covering over the marked place."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The packet's non-dominant split branch supplies literal stripping of what clothes or covers a thing."
+              }
+            ],
+            "structural_cues": [
+              "The packet explicitly preserves a non-dominant mapped inventory for the 95:5 root.",
+              "The stripping possibility appears after complete human formation and before the exception in 95:6."
+            ],
+            "reader_inference": "The packet supplies a non-dominant stripping branch and a focus branch of surface marks; I infer that civic security can be a removable protective layer. Alternatively, the dominant mapping's ordinary return sense may be the only operative one here.",
+            "changed_reading": {
+              "before": "Security is an intrinsic and permanent essence of the city.",
+              "after": "Security is a protective covering over a bounded, marked substrate and can therefore be stripped, damaged, or restored."
+            }
+          },
+          {
+            "model_id": "delta_reciprocal_trust_practice",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ن",
+              "ع م ل",
+              "ص ل ح"
+            ],
+            "mechanism": "The adjective of trust in the focus echoes as human trusting assent, then becomes purposeful action and reconciliation. Civic security is a reciprocal loop: a trustworthy place enables trust, and trusting residents keep making the place trustworthy through enacted repair.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Residence supplies the continuing community in which reciprocal trust can be practiced."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trustworthy security supplies the civic condition that the later human acts answer."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting assent and confirmation supply the residents' inward response to the trusted place."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action converts inward trust into an operative civic practice."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B002",
+                "role": "Removing estrangement between people supplies the specific social repair through which security is renewed."
+              }
+            ],
+            "structural_cues": [
+              "The same root occurs as the focus adjective in 95:3 and as a human verb in 95:6.",
+              "The 95:6 exception couples inward commitment with outward action."
+            ],
+            "reader_inference": "The packet supplies a same-root adjective/verb echo followed by action and reconciliation; I infer a feedback loop between trustworthy place and trusting conduct. Alternatively, the adjective can describe the city and the verb the people independently.",
+            "changed_reading": {
+              "before": "The city's security is a finished property that residents merely consume.",
+              "after": "The city's security is a reciprocal covenant continually enacted by trust, purposeful work, and repair of social estrangement."
+            }
+          },
+          {
+            "model_id": "delta_bounded_unbroken_covenant",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ج ر",
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "A physically bounded place is set against recompense whose extension is negated from being cut. Spatial finitude and temporal continuity cease to be opposites: a good boundary can preserve an unbroken covenant rather than terminate it.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "Bounded land supplies spatial finitude and the enclosing side of the paradox."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trust supplies the durable covenantal relation that the enclosure protects."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense for work supplies the continuing return attached to faithful action."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Negation and exclusion supply the operator that removes cutting from the promised return."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting and diminution until extension ends supply the termination that is explicitly excluded."
+              }
+            ],
+            "structural_cues": [
+              "The reward clause follows the exception for trusting and repairing action.",
+              "The focus's spatial boundary and 95:6's temporal non-termination create a cross-domain contrast."
+            ],
+            "reader_inference": "The packet supplies bounded land, recompense, negation, and cutting-to-an-end; I infer that the enclosure protects rather than truncates continuity. Alternatively, the non-cut reward can remain wholly independent of the city's boundary.",
+            "changed_reading": {
+              "before": "A boundary means closure and the adjective only guarantees safety inside it.",
+              "after": "The bounded city is a finite vessel for an unbroken relation: its limit protects continuity without becoming its endpoint."
+            }
+          },
+          {
+            "model_id": "delta_city_of_obedience",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "A branch of the judgment root explicitly supplies a city organized by obedience, while denial supplies the pressure against its credibility. The focus city becomes a trusted jurisdiction in which assent, conduct, and accounting belong to one civic order.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded place supplies the concrete city onto which jurisdictional order can attach."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting confirmation supplies the credibility and assent needed by the jurisdiction."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing something or someone to falsehood supplies the act that challenges the trusted order."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "The city-of-obedience image directly supplies a civic-jurisdictional realization of the judgment root."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the answerability that keeps obedience from being mere spatial belonging."
+              }
+            ],
+            "structural_cues": [
+              "The rhetorical question in 95:7 looks back after the place, human formation, reversal, and exception have all been named.",
+              "The focus adjective and the denial verb set credibility in tension."
+            ],
+            "reader_inference": "The packet supplies a direct city-of-obedience branch, accounting, and denial; I overlay that civic sense on the explicit focus city. Alternatively, the judgment root may mean only final reckoning and the urban resonance may remain dormant.",
+            "changed_reading": {
+              "before": "The secure city is a geographic backdrop to a later question about judgment.",
+              "after": "The secure city is also a trusted jurisdiction where obedience and accounting are organized and denial becomes a civic breach of credibility."
+            }
+          },
+          {
+            "model_id": "delta_governed_repaired_security",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه",
+              "ح ك م"
+            ],
+            "mechanism": "The final divine and judgment images relocate the source of security from an inherent urban property to ongoing governance: harmful motion is restrained or turned back for repair, disputes are judged, and the structure is made sound and reliable.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded tract supplies the jurisdiction and constructed domain on which governance operates."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled trust supplies the outcome that restraint, judgment, and sound construction must maintain."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped deity supplies the ultimate agent to whom the governing mechanism is attributed."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraint and turning back for repair supply a preventive and restorative operation."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment between people supplies accountable settlement of civic conflict."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Soundness, precision, and reliability supply the constructional condition of durable safety."
+              }
+            ],
+            "structural_cues": [
+              "The closing rhetorical question repeats the judgment root in superlative and agent forms.",
+              "The final ayah supplies an agent and governing criterion after the focus merely names the secure place."
+            ],
+            "reader_inference": "The packet supplies divine agency plus restraint-for-repair, adjudication, and sound construction; I infer these as causes that maintain the city's security. Alternatively, the final question may concern ultimate judgment without specifying any civic causal chain.",
+            "changed_reading": {
+              "before": "The city simply possesses security as a self-standing quality.",
+              "after": "The city's security is a governed achievement maintained through restraint, repair, fair judgment, and reliable ordering."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_nesting_refuge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because an ostrich nesting scrape is far from the ordinary urban sense, but it remains directly anchored in a packet branch of the focus noun and in the focus adjective's security branch. Render it only as an ecological analogy for protected vulnerability, not as a replacement translation.",
+            "focus_anchor": "The focus noun has an ostrich-nest branch and is immediately qualified by settled security.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B012",
+                "role": "The ostrich nesting-place image supplies an exposed ground hollow that holds vulnerable life."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the protection that lets vulnerability remain in an otherwise exposed nest."
+              }
+            ],
+            "changed_reading": {
+              "before": "The city is secure because it is massive, enclosed, and strong.",
+              "after": "The city can also be imagined as a modest ground refuge made trustworthy enough to cradle exposed and vulnerable life."
+            }
+          },
+          {
+            "outlier_id": "outlier_supplicatory_ratification",
+            "confidence": "exploratory",
+            "containment": "This activation crosses from the adjective amīn to the differently vocalized amen formula, so it is phonetic-ritual and form-distant rather than a grammatical parsing. It remains root-anchored in the packet and gains resonance from the divine-name oath/call branch; downstream prose must label it a performative echo, never a literal translation.",
+            "focus_anchor": "The security adjective carries a same-root branch of requesting response, adjacent to a demonstratively named place.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded place supplies the object over which a blessing-like request could be heard."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B003",
+                "role": "Saying amen as a request for response supplies the performative echo of ratification or petition."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The divine name in oath or call supplies a ritual-address frame in which the response-request echo can resonate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective only reports that the city is secure or trustworthy.",
+              "after": "The phrase faintly performs what it describes: a contained wish or ratification that this bounded place be kept secure."
+            }
+          },
+          {
+            "outlier_id": "outlier_reparative_chest_brace",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain construction joining chest, upright configuration, and a rare fracture-mending branch of recompense. Every component is packet-backed and returns to the focus's chest-place and security, but it should be rendered as a material analogy for civic repair, not as a claim that the ayah denotes anatomy or medicine.",
+            "focus_anchor": "The noun's chest/front-hollow branch and the adjective's settling-security branch permit the city to function as a protected bodily center.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B002",
+                "role": "The chest and front hollow supply the body-like site to be supported or repaired."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security supplies the reparative outcome sought for the vulnerable center."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness and equilibrium supply the bodily and civic alignment to be restored."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Mending a fracture despite crookedness supplies the brace-like repair mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "The city protects an already intact human community.",
+              "after": "The city can act like a trustworthy chest-brace, helping a bent or fractured human arrangement regain upright balance."
+            }
+          },
+          {
+            "outlier_id": "outlier_brave_restrained_city",
+            "confidence": "exploratory",
+            "containment": "This reading depends on a form-distant bravery branch under the negation root and on martial and bridle branches, so it is deliberately strange. It remains anchored in the focus noun's combat branch and adjective's composure; qualify it as a martial-governance analogy in which security is courage under restraint, not evidence that the city is literally at war.",
+            "focus_anchor": "The focus noun has a close-combat branch while the adjective can denote settled freedom from fear.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B011",
+                "role": "Close fighting with swords or sticks supplies the pressure under which civic security is tested."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security against fear supplies composure rather than mere absence of threat."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B004",
+                "role": "The brave figure not frightened by war supplies courage under active danger."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle image supplies restraint that channels force instead of letting courage become uncontrolled violence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A secure city is one that never encounters danger or violence.",
+              "after": "A secure city may be one that remains composed under danger and governs force with restraint."
+            }
+          },
+          {
+            "outlier_id": "outlier_city_surface_and_disguise",
+            "confidence": "exploratory",
+            "containment": "The skin-mark and deceptive-garment overlay is materially vivid but semantically remote. It stays valid as an epistemic model because all branches resolve to the focus's place/confirmation and the later denial/accounting sequence; render it as a warning that civic appearances require judgment, not as an accusation that the named city is false.",
+            "focus_anchor": "The focus noun can name a mark on a body or surface, and the adjective can activate confirmation and credibility.",
+            "activation_trace": [
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B006",
+                "role": "The mark on skin or another surface supplies a materially readable trace."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Confirmation trusted by the heart supplies the claim that the visible trace is credible."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A garment that misrepresents its wearer's condition supplies the possibility of deceptive civic appearance."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the test that distinguishes a truthful surface from a disguise."
+              }
+            ],
+            "changed_reading": {
+              "before": "The city's visible security is self-authenticating.",
+              "after": "The city is an evidence-bearing surface whose marks may confirm trust, while its civic appearance still remains answerable to judgment rather than mere display."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The bounded safe place became a threshold and provisioning system rather than a static enclosure.",
+            "The city and the well-formed human activated reciprocal civic-form and exploratory anatomical readings.",
+            "Return and lowness changed security from immunity into recoverability and load-bearing support, while the non-dominant split branch exposed security as a removable cover.",
+            "The repeated trust root in 95:6 made security a reciprocal practice of assent, purposeful action, and reconciliation.",
+            "The judgment branches made the city a trusted jurisdiction whose safety is maintained through restraint, repair, adjudication, and sound ordering."
+          ],
+          "what_was_special": "Two focus words sustained coexisting spatial, custodial, bodily, material, civic, juridical, ecological, and performative mechanisms. The most productive surprises came from preserving boundary without equating it with closure, treating safety as something enacted and repaired, and retaining the packet's non-dominant stripping branch instead of collapsing the split root.",
+          "remaining_uncertainties": [
+            "The provisioning and civic-design arrows may be causal readings of sequence or only analogies among adjacent oath materials.",
+            "The adjective can remain passive security, active trustworthiness, or support both at once.",
+            "The anatomical, nest, fracture-brace, martial, garment, and amen activations are branch-backed but intentionally form-distant and require explicit qualification.",
+            "The stripping-cover reading depends on the non-dominant mapped inventory for the 95:5 root and may be less stable than the ordinary return reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The secure town as trust-place and later faith prototype.** Lexical evidence: ب ل د B001, bounded tract/place; ء م ن B001, settled security and trust; ء م ن B002 in 95:6, trusting assent/confirmation. Structural cue: the same root ء م ن appears as adjective أمين here and as verb آمنوا in the exception. Assigned role: the town's security becomes the environmental form of what believers later enact inwardly. Abductive move: I infer that the packet maps place-quality onto human response: the secure place models the trust that saves from the descent. Reading change: \"secure town\" becomes a prototype of faith as settled trust, not merely a description of civic safety.\n\n2. **A bounded tract that can also be wilderness, grave, or exposed earth.** Lexical evidence: ب ل د B001 includes inhabited/uninhabited land, wilderness, cemetery/grave, dust, and exposed open space; س ف ل B001/B004 in 95:5, lowness and downward motion. Structural cue: the secure town precedes human creation and then return to the lowest. Assigned role: البلد supplies a bounded earthly field that can hold both habitation/security and grave-like/exposed endpoints. Abductive move: I supply the causal field: the same \"land\" in which humans are secured is also the earthward destination when vertical dignity fails. Reading change: the ayah's البلد is not only a safe civic site; it also quietly contains dust, exposure, and burial as latent counter-images.\n\n3. **The chest/front image makes the city a body-zone.** Lexical evidence: ب ل د B002, chest and front hollow; خ ل ق B003/ق و م B011 in 95:4, well-proportioned form and stature; ح ك م B006 in 95:8, jaw/bridle restraint. Structural cue: a body-root network appears after the town: human form, stature, descent, and final restraint/judgment. Assigned role: البلد can be read as a front hollow/chest, making \"this secure place\" also a guarded bodily center. Abductive move: I infer a body-city analogy from the packet's proximity of bounded place and human form. Reading change: the secure town can read as the protected front/core of a body or community, not only an external location.\n\n4. **Confusion and collapse as the town's shadow-reading.** Lexical evidence: ب ل د B005, confusion and collapse of composure; ب ل د B007, dullness; ك ذ ب B002 in 95:7, declaring false; ب ع د B008, depth of judgment. Structural cue: after the secure oath, 95:7 asks what still makes one deny after all this. Assigned role: the same root that names the town holds a branch for perplexed collapse, activated by the later denial-question. Abductive move: I infer that refusal after evidence is not mere opposition but a collapse of perception/judgment in the very place that should secure trust. Reading change: \"secure town\" carries a counterfactual: security can be answered by trust or by dull, confused denial.",
@@ -9536,14 +10758,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9890,10 +11118,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 12,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 88999,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

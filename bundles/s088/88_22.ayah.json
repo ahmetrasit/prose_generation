@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.082676+00:00",
+  "generated_at": "2026-08-18T13:33:35.837089+00:00",
   "surah": 88,
   "ayah": 22,
   "ayahRef": "88:22",
@@ -1510,7 +1510,8 @@
         "m-w-s088-a022-w001-01",
         "m-w-s088-a022-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:22:1"
+      "aligned_qac_word_ref_upstream": "88:22:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1526,7 +1527,8 @@
         "m-w-s088-a022-w002-01",
         "m-w-s088-a022-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:22:2"
+      "aligned_qac_word_ref_upstream": "88:22:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1540,7 +1542,8 @@
       "morpheme_ids": [
         "m-w-s088-a022-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:22:3"
+      "aligned_qac_word_ref_upstream": "88:22:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1554,7 +1557,8 @@
       "morpheme_ids": [
         "m-w-s088-a022-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:22:4"
+      "aligned_qac_word_ref_upstream": "88:22:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2316,7 +2320,1078 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_22.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:22",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:22",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_present_jurisdiction",
+            "confidence": "strong",
+            "focus_anchor": "The whole predication in lَsta alayhim bi-musaytir joins emphatic negation to a relational position over them.",
+            "mechanism": "The clause denies a presently holding office, and the denied office bundles oversight, preservation, and domination. It therefore marks a jurisdictional boundary rather than merely predicting that persuasion will fail.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "The fixed present-state negation, reinforced in the predicate construction, denies that this supervisory relation presently holds."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Overseeing, preserving, and controlling authority supplies the office that is being denied."
+              }
+            ],
+            "changed_reading": {
+              "before": "You cannot make them believe.",
+              "after": "You are emphatically not installed over them as their guardian-controller; the line limits jurisdiction, not simply effectiveness."
+            }
+          },
+          {
+            "model_id": "baseline_not_line_inscriber",
+            "confidence": "medium",
+            "focus_anchor": "Musaytir carries the same focus root whose inventory includes both control and the aligned written row.",
+            "mechanism": "Control can be pictured as fixing persons into a legible line or record. Categorical negation blocks the speaker from becoming the one who writes, ranks, or fixes their responses into such an order.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B003",
+                "role": "Categorical negation excludes the addressee from the class of totalizing arrangers."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The aligned written row turns abstract control into fixing people as ordered entries."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The supervisory branch links that row image back to the actual predicate of authority."
+              }
+            ],
+            "changed_reading": {
+              "before": "You are not a ruler over them.",
+              "after": "You are not the registrar-arranger who fixes their places, responses, or outcomes into a humanly controlled row."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_report_not_enveloper",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The opening casts the addressee as recipient and transmitter of arriving news, while the announced event bears the image of comprehensive covering. The later denial of control keeps the reporter from being confused with the event that overwhelms.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Supervisory control names the encompassing relation denied of the reporter."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival makes the discourse something that comes to the addressee before being passed onward."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed report or news defines the communicative medium rather than an enforcement act."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "Comprehensive covering belongs to the announced event, supplying the enveloping force from which the speaker is distinguished."
+              }
+            ],
+            "structural_cues": [
+              "The opening question makes the addressee a recipient of a report, while the event is the grammatical topic of that report."
+            ],
+            "reader_inference": "The packet supplies arrival, renewed report, and comprehensive cover; I infer an agency contrast in which the speaker transmits what the event itself does. A live alternative is that the covering term functions only as the event's title, leaving a simpler reporter-versus-controller contrast.",
+            "changed_reading": {
+              "before": "The speaker lacks control over the audience.",
+              "after": "The speaker reports the force that will encompass; he is not himself an encompassing force laid over the audience."
+            }
+          },
+          {
+            "model_id": "delta_their_striving_not_his_administration",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "Work and purposeful striving are predicated of the faces, and the later possessive makes the striving theirs. Because the striving inventory also contains administration over a people, the focus negation blocks a transfer from their action to his management of them.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Supervisory control supplies the external management from which the addressee is excluded."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intended action locates operative effort in the described subjects."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Purposeful movement toward an object gives their striving its own direction and agency."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B003",
+                "role": "Administration over a people supplies the nearby role that the focus refuses to assign to the speaker."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction attaches an experienced evaluation to the subject's own striving rather than to imposed performance."
+              }
+            ],
+            "structural_cues": [
+              "The possessive in 'its striving' binds effort to the face whose condition is being described.",
+              "The two face sequences display outcomes without assigning the messenger as producer of either outcome."
+            ],
+            "reader_inference": "The packet supplies intended work, purposeful striving, a branch of administration over people, and satisfaction; I infer that negated control preserves the subjects' ownership of action. The alternative is that satisfaction concerns reward alone and carries no agency contrast.",
+            "changed_reading": {
+              "before": "He cannot force their response.",
+              "after": "Their striving remains theirs to enact and encounter; he is not appointed to administer people so as to manufacture either face or outcome."
+            }
+          },
+          {
+            "model_id": "delta_no_herding_into_one_track",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س ق ي"
+            ],
+            "mechanism": "The packet's non-dominant mapping from the watering occurrence activates driving, herding, and following one track. Against musaytir, this yields a social mechanism in which coercive control would treat hearers as a driven herd; the negation refuses that mode.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Controlling authority supplies the social force that can be recast as driving a group."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "The split-root image of driving, herding, or expulsion renders control as force applied to collective movement."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B012",
+                "role": "Following in one track supplies the imposed uniform path that the denied controller would enforce."
+              }
+            ],
+            "structural_cues": [
+              "The source occurrence is passive watering, while the packet deliberately preserves a non-dominant S-W-Q target beside the dominant S-Q-Y target."
+            ],
+            "reader_inference": "The packet supplies the split mapping and its driving and one-track images; I infer a herd-driving analogy for coercive control. The materially live alternative is that this is only mapping resonance with no lexical pressure on the focus clause.",
+            "changed_reading": {
+              "before": "He is not able to compel assent.",
+              "after": "Exploratorily, he is not to drive hearers as a herd or force all movement into one track."
+            }
+          },
+          {
+            "model_id": "delta_exception_scope_pressure",
+            "status": "weakened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل ي س",
+              "و ل ي"
+            ],
+            "mechanism": "An earlier explicit laysa-plus-exception construction activates the exception branch, and a later illa man follows immediately after the focus negation. This creates a live scope fork rather than allowing the categorical baseline to pass untested.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B003",
+                "role": "Categorical negation supplies the initially unqualified role boundary whose scope is put under pressure."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling office is the possible target of the later exception's backward pressure."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B002",
+                "role": "The exclusion branch is made explicit by the earlier no-food-except construction and primes exception-sensitive hearing."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away identifies the person introduced by the later exception and supplies the exceptional case."
+              }
+            ],
+            "structural_cues": [
+              "Verse 88:6 contains an explicit laysa ... illa pattern.",
+              "Verse 88:23 begins with illa man directly after the focus clause."
+            ],
+            "reader_inference": "The packet supplies the earlier exception template and the later leading illa; I infer a formal echo that reopens the scope of 88:22. One reading keeps the no-control clause absolute and attaches the exception to the reminder sequence; another lets the exception press on the denial, though the following attribution of punishment to God sharply constrains that reading.",
+            "changed_reading": {
+              "before": "The controller role is categorically and simply excluded.",
+              "after": "The boundary remains strong but carries an unresolved exception fork: either 88:23 qualifies the reception or consequence of reminder, or it presses against the scope of no-control without transferring divine punishment to the messenger."
+            }
+          },
+          {
+            "model_id": "delta_order_disclosed_not_imposed",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث",
+              "خ ل ق",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "A sequence of raised, placed, lined, spread, measured, erected, and extended things presents an already ordered environment through passive forms. The written-row branch of the focus root now becomes contrastive: the addressee discloses order and asks others to inspect it, but does not impose an analogous order on people.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The aligned written row supplies the human-ordering image that the contextual rows and placements activate."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Supervisory authority would turn perceived order into an office of ordering people, which the clause denies."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising begins the passive arrangement sequence with an object already set high."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placement in a settled position contributes deliberate spatial disposition without naming the human addressee as placer."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on a level line directly activates the focus root's row image."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution and spreading shows that order can include patterned dispersion rather than only rigid rows."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies the generative intelligence behind visible order."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something upright and prominent extends the ordered passive pattern into the landscape."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "A level extended surface closes the sequence with broad horizontal ordering."
+              }
+            ],
+            "structural_cues": [
+              "Passive result forms recur across 88:13-20 while the arranging agent remains unexpressed.",
+              "The branchless root K-Y-F repeats in 88:17-20 as a structural invitation to inspect how the order is made; no branch identifier is inferred for it."
+            ],
+            "reader_inference": "The packet supplies rows, placements, distribution, measured creation, erection, extension, and repeated how-questions; I infer a contrast between witnessing given order and arranging human beings. The alternative is that the focus row branch is dormant word history and the sequence only illustrates divine power.",
+            "changed_reading": {
+              "before": "He is not the authority who controls their response.",
+              "after": "He points people toward an order already made; he is not commissioned to reproduce that order by placing, lining, or fixing people himself."
+            }
+          },
+          {
+            "model_id": "delta_observation_not_surveillance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر"
+            ],
+            "mechanism": "The looking inventory contains both self-directed perception and a guard who watches and preserves. The context asks the audience to exercise the first, while the focus denies the speaker the second; evidence is offered for their seeing rather than surveillance being placed over them.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Overseeing and preserving control supplies the watcher-like office denied of the addressee."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directing sight or insight makes perception an act performed by the audience."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B009",
+                "role": "The watching guard supplies the surveillance alternative that the focus controller branch rejects."
+              }
+            ],
+            "structural_cues": [
+              "The repeated ila ... kayfa sequence in 88:17-20 directs the audience outward to inspect; K-Y-F is used only as a branchless structural cue."
+            ],
+            "reader_inference": "The packet supplies perceptive looking and guarding as coexisting branches; I assign the first to the hearers and use the second as a contrastive gloss on denied control. The alternative is that the guard branch is inactive and the passage makes only an epistemic appeal.",
+            "changed_reading": {
+              "before": "He may explain but cannot compel.",
+              "after": "His address opens a field for their own seeing; it does not install him as the watcher who monitors and preserves their response."
+            }
+          },
+          {
+            "model_id": "delta_remembrance_not_external_maintenance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر"
+            ],
+            "mechanism": "Reminder works by bringing something back into presence after forgetfulness; control works by externally overseeing and maintaining its object. The adjacent role restriction therefore makes the addressee catalytic rather than custodial.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation sharply closes the role definition begun in the preceding verse."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "External oversight and preservation name the custodial mechanism excluded from reminding."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection after forgetfulness locates the decisive reactivation within the recipient."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder as the means of recalling defines the limited instrument the addressee is authorized to be."
+              }
+            ],
+            "structural_cues": [
+              "The restrictive role formula in 88:21 is immediately followed by the matched second-person predication in 88:22."
+            ],
+            "reader_inference": "The packet supplies recollection, a reminder-instrument, a restrictive role formula, and negated oversight; I infer a causal distinction between triggering recall and maintaining obedience. The alternative is that reminder remains a forceful command, but that does not erase the explicit denial of the controlling office.",
+            "changed_reading": {
+              "before": "His job is to preach, not force.",
+              "after": "His authorized action is to reactivate what recipients can remember; he is not responsible for externally maintaining the resulting state in them."
+            }
+          },
+          {
+            "model_id": "delta_refusal_remains_their_act",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The next verse renders nonresponse as a person's directional turning and covering of truth. Because the messenger is not controller, refusal remains attributable to the one who turns rather than becoming a defect he must erase by force.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Denied control prevents the speaker from taking over the respondent's directional and moral act."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning the face makes reception or refusal a directional act of the addressed person."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the concrete withdrawal that control would otherwise try to prevent."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing the truth gives the respondent's refusal an inward operation as well as an outward turn."
+              }
+            ],
+            "structural_cues": [
+              "The singular relative person in 88:23 carries both verbs, concentrating agency in the respondent."
+            ],
+            "reader_inference": "The packet supplies face-turning, withdrawal, and concealment; I infer that the no-control clause preserves attribution of response to the respondent. The alternative is that these are only moral labels, not a statement about the mechanics of agency.",
+            "changed_reading": {
+              "before": "He cannot stop rejection.",
+              "after": "Turning away remains the rejecter's own directional and concealing act; the messenger's boundary preserves, rather than absorbs, that responsibility."
+            }
+          },
+          {
+            "model_id": "delta_non_delegated_return_and_account",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ذ ب",
+              "ء ل ه",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "After the denial of control, punishment receives an explicit divine subject, and return and accounting are assigned with first-person divine prepositional phrases. The focus is therefore a distribution of jurisdiction: reminder is delegated, coercive sanction and final account are not.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The denied package of oversight and domination is separated into functions subsequently assigned elsewhere."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the sanction that is not delegated to the messenger."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped divine referent is the explicitly named agent to whom sanction belongs."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the place of return supplies the terminal movement assigned to the divine side."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supplies the final evaluative operation reserved beyond the messenger's office."
+              }
+            ],
+            "structural_cues": [
+              "Verse 88:24 names Allah as grammatical agent of punishment.",
+              "The matched ilayna and alayna constructions in 88:25-26 assign return and account to the same non-messenger party."
+            ],
+            "reader_inference": "The packet supplies an explicit divine punishing agent plus assigned return and account; I infer a non-delegation of sanction and adjudication. The alternative is to hear only consolation about eventual outcome, but the repeated grammatical assignment still creates a jurisdictional contrast.",
+            "changed_reading": {
+              "before": "The messenger simply lacks enough power to control.",
+              "after": "His non-control is an authorized division of labor: he reminds, while punitive force, return, and accounting are expressly not delegated to him."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_vertical_superposition",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it lets a context root inventory illuminate the unrooted prepositional construction alayhim. It remains anchored in the focus construction joining 'over them' to musaytir and in the context branch of domination; render it as a spatial-social echo, not as an etymology of the preposition.",
+            "focus_anchor": "The phrase alayhim places the denied controller in a geometrically over-them relation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Controlling oversight converts the focus preposition's vertical relation into social superposition."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B004",
+                "role": "Domination and taking possession make height a political relation rather than mere elevation."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B012",
+                "role": "The branch explicitly gathering ala and related usage links contextual height to the focus construction."
+              }
+            ],
+            "changed_reading": {
+              "before": "He has no authority concerning them.",
+              "after": "He is not to occupy a vertically superior posture over them in which height hardens into domination."
+            }
+          },
+          {
+            "outlier_id": "outlier_cutting_people_into_line",
+            "confidence": "exploratory",
+            "containment": "The striking or cutting line is a peripheral branch, so this cannot replace the ordinary control sense. It remains valid as an exact focus-root activation that gives coercion a material mechanism; downstream prose should mark it explicitly as metaphorical.",
+            "focus_anchor": "The negated musaytir bears a focus-root branch in which a blow or cut produces a line.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation blocks the violent line-making action from becoming the addressee's current office."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B004",
+                "role": "A striking or cutting line materializes coercion as bringing bodies into line by force."
+              }
+            ],
+            "changed_reading": {
+              "before": "He must not coerce them.",
+              "after": "Metaphorically, he is not the one who strikes, cuts, or disciplines people into a compliant line."
+            }
+          },
+          {
+            "outlier_id": "outlier_spring_not_spying_eye",
+            "confidence": "exploratory",
+            "containment": "The source occurrences mean springs, so moving through the eye's care and spy branches is deliberately cross-domain. It remains anchored because supervisory preservation is explicit in the focus branch and both eye occurrences are packet cues; qualify it as a latent contrast between sources that flow and an eye stationed over people.",
+            "focus_anchor": "Musaytir includes watching and preserving, the same functional territory activated by the eye inventory.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Overseeing and preserving control supplies the watcher function denied in the focus."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The eye of care and preservation activates total custodial watching beside the punitive spring."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B005",
+                "role": "The spying eye sharpens the surveillance form that the messenger's denied office would take."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing spring returns the activation to the contextual surface and opposes stationed surveillance with an available source."
+              }
+            ],
+            "changed_reading": {
+              "before": "He is not their supervisor.",
+              "after": "Exploratorily, he is neither a spy-eye nor an all-preserving eye stationed over them; the context offers sources to encounter, not surveillance to enforce encounter."
+            }
+          },
+          {
+            "outlier_id": "outlier_forbearing_noncontrol",
+            "confidence": "exploratory",
+            "containment": "The forbearance branch belongs to collateral alis and talayasa material rather than the grammatical sense of laysa, making this the most form-distant activation retained. It is still rooted in the focus occurrence and yields a coherent posture opposite control; render it only as an ethical halo, never as the clause's lexical translation.",
+            "focus_anchor": "The focus negation and denied supervisory role meet within a root inventory that also carries patient bearing and overlooking.",
+            "activation_trace": [
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B006",
+                "role": "Forbearing load-bearing and good-natured overlooking supplies a positive manner for inhabiting the negation of control."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The denied supervisory office is the pressure against which patient non-control becomes ethically legible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse only removes authority.",
+              "after": "As a contained ethical echo, the removal of control opens a mode of patient bearing and overlooking while reminder continues."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The negation became a jurisdictional allocation rather than a statement of failed persuasion: reminder is assigned to the addressee, while sanction, return, and account are assigned elsewhere.",
+            "The audience's looking, remembering, striving, turning, and concealing remain their own operations; the messenger catalyzes but does not administer them.",
+            "Rows, placements, and passively ordered creation activated the focus root's line image, yielding a distinction between disclosing order and imposing order on people.",
+            "The explicit exception patterns preserve a real scope fork around 88:23 instead of allowing an artificially settled single reading."
+          ],
+          "what_was_special": "The packet turned a familiar no-compulsion line into several mechanisms at once: jurisdictional non-delegation, recipient-owned cognition and action, non-surveillance, and refusal to arrange people as rows, records, or a driven herd. The odd branches did not displace the ordinary control sense; they made its material and social implications inspectable.",
+          "remaining_uncertainties": [
+            "Whether the exception in 88:23 reaches back toward the control negation or belongs only to the reminder-and-consequence sequence remains deliberately unresolved.",
+            "The written-row and cutting-line branches are exact to the focus root but may be inactive historical or collateral images in the surface form.",
+            "The herd-driving reading depends on the packet's non-dominant S-Q-Y to S-W-Q mapping and may be structural resonance rather than lexical activation.",
+            "The present-state force of laysa does not by itself settle whether the denied office is only current, permanently excluded, or being defined categorically by context."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Negated present-state control.** Evidence: `ل ي س` B001 present-state denial; `س طر` B003 overseeing control. Structural cue: the line directly limits the preceding command to remind. Role: `لست` removes controlling authority from the messenger. Abductive move: admonition can be obligatory even when enforcement is not delegated. Reading change: the ayah reads as a boundary around prophetic agency.\n\n2. **No written-line domination over persons.** Evidence: `س طر` B001 aligned written row/recording, B003 control; `ذ ك ر` B008 legal instrument; later `ح س ب` B001 account. Structural cue: reminder/record/account language surrounds the control negation. Role: `مسيطر` could imply supervisory record-control, but it is denied here. Abductive move: the final record belongs elsewhere; the reminder does not own the ledger. Reading change: the ayah separates notification from accounting authority.\n\n3. **Contrast with ordered rows and spread surfaces.** Evidence: `س طر` B001 rows; earlier `ص فف` B001 rows of cushions, `س طح` B001 flat surface. Structural cue: the surah has many ordered spatial lines, but this line rejects a human controller over people. Role: order is real, but not imposed by the reminder as domination. Abductive move: created/garden order and coercive human control must be distinguished. Reading change: the ayah becomes a theological limit on order-making.",
@@ -7354,14 +8429,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7710,10 +8791,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_22.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_22.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 220344,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

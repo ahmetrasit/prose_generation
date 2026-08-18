@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:32.022806+00:00",
+  "generated_at": "2026-08-18T13:34:42.212084+00:00",
   "surah": 112,
   "ayah": 3,
   "ayahRef": "112:3",
@@ -1239,7 +1239,8 @@
       "morpheme_ids": [
         "m-w-s112-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:3:1"
+      "aligned_qac_word_ref_upstream": "112:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1253,7 +1254,8 @@
       "morpheme_ids": [
         "m-w-s112-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:3:2"
+      "aligned_qac_word_ref_upstream": "112:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1267,7 +1269,8 @@
       "morpheme_ids": [
         "m-w-s112-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:3:3"
+      "aligned_qac_word_ref_upstream": "112:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1281,7 +1284,8 @@
       "morpheme_ids": [
         "m-w-s112-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "112:3:4"
+      "aligned_qac_word_ref_upstream": "112:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1295,7 +1299,8 @@
       "morpheme_ids": [
         "m-w-s112-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:3:5"
+      "aligned_qac_word_ref_upstream": "112:3:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1474,7 +1479,673 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s112/packets/112_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "112:3",
+      "window": [
+        "112:1",
+        "112:2",
+        "112:3",
+        "112:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "112:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_bidirectional_birth_closure",
+            "confidence": "strong",
+            "focus_anchor": "The root و ل د occurs at words 2 and 4 under repeated negation, first in active voice and then in passive voice.",
+            "mechanism": "The voice reversal closes both orientations of one birth relation. The subject is denied the parent or producer position, the offspring or product position, and participation in the event that would connect those positions.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Born offspring supplies the relation's descendant endpoint, which the passive clause denies for the subject and the active clause denies as an output from the subject."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parents by birth relation supplies the complementary progenitor endpoint, making the two clauses a closure of both kinship directions."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth and delivery supplies the event linking parent and born one; repeated negation blocks the event with the subject on either side."
+              }
+            ],
+            "changed_reading": {
+              "before": "A one-sided statement that the subject has no child.",
+              "after": "A two-way closure of birth relation: no descendant proceeds from the subject, and the subject proceeds from no progenitor."
+            }
+          },
+          {
+            "model_id": "base_nonderived_nongenerative",
+            "confidence": "exploratory",
+            "focus_anchor": "The active-passive pair at words 2 and 4 can orient the same root as output-from-subject and subject-as-output.",
+            "mechanism": "The generated-or-derived branch lifts the pair beyond literal delivery into provenance. Active voice denies that the subject generates a derivative; passive voice denies that the subject is itself generated or derivative. This remains a branch-led extension, not a replacement for the birth sense.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "A thing generated, newly produced, or derived supplies a non-biological source-result relation that the two voices negate in opposite directions."
+              }
+            ],
+            "changed_reading": {
+              "before": "The negations concern only biological ancestry and offspring.",
+              "after": "The subject is neither a source of derivative being nor a derivative whose identity depends on an originating source."
+            }
+          },
+          {
+            "model_id": "base_outside_birth_cohort",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive denial at word 4 removes a birth event for the subject, while the active denial at word 2 removes a descendant generation.",
+            "mechanism": "The same-birth-age branch makes birth a coordinate that groups beings into cohorts. Denying birth removes that coordinate for the subject; denying begetting prevents a later cohort from being organized as the subject's issue.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B006",
+                "role": "A peer defined by shared birth-age supplies cohort placement; the passive clause removes such placement and the active clause removes downstream generational placement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject lacks direct ascendants and descendants.",
+              "after": "The subject also resists classification by birth cohort or by a generation descending from it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_spoken_predicate_boundary",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The command to utter, together with branches for attribution and definition, turns the focus from an unframed biographical report into a performed boundary on what may be said of the subject. The two birth directions identify the prohibited attribution precisely.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parent roles by birth give the concrete relational attribution that the commanded utterance rejects in both directions."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Producing speech by vocal utterance makes the later negations part of an enacted public saying rather than only an inward conclusion."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying or attributing what was not supplies the danger of fictive lineage attribution that the focus verbally blocks."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "A saying that states a thing's limit makes the paired negations function as a verbal delimitation of the subject."
+              }
+            ],
+            "structural_cues": [
+              "The imperative at 112:1 governs the sequence before the focus appears, placing 112:3 inside an ordered act of saying."
+            ],
+            "reader_inference": "The packet supplies vocal utterance, false attribution, definition, and the two denied birth roles; I infer that the imperative makes those negations police predication. A live alternative is that the command merely transmits content without changing its function.",
+            "changed_reading": {
+              "before": "A descriptive denial of two facts about the subject.",
+              "after": "A publicly enacted rule against assigning either side of generative lineage to the subject."
+            }
+          },
+          {
+            "model_id": "delta_worship_relation_not_birth_relation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ه"
+            ],
+            "mechanism": "Naming the subject through the worshipped relation keeps a real subject-other relation in view while the focus rejects genealogy as its grammar. The change is not from relation to isolation, but from reproductive reciprocity to worship orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parent roles by birth supply the reciprocal family relation that is denied as a model for the named subject."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply a distinct relational axis through which the subject is first identified."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The repeated worshipped-name immediately before the focus keeps that non-genealogical relation active as both birth directions are denied."
+              }
+            ],
+            "structural_cues": [
+              "The same divine name occurs in both 112:1 and 112:2, with the second occurrence immediately preceding the focus."
+            ],
+            "reader_inference": "The packet supplies worship relation, repeated naming, and denied parentage; I infer a contrast between two ways of relating subject and others. The alternative is that the divine name only fixes reference and contributes no relational contrast.",
+            "changed_reading": {
+              "before": "The verse isolates its subject by removing family relations.",
+              "after": "The verse preserves worship relation while refusing to recode that relation as parenthood or offspring."
+            }
+          },
+          {
+            "model_id": "delta_unity_exhausts_lineage",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ح د"
+            ],
+            "mechanism": "Unity before the focus and exhaustive negation after it bracket the mirrored birth clauses. A birth relation requires distinct relata occupying source and offspring slots; the bracket closes both slots and then refuses any residual member who could fill a counterpart position.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Born offspring supplies one distinct lineage participant whose emergence from the subject is denied."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth as an event supplies the differentiating transition that would establish separate lineage positions."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Oneness and unity supply the positive frame against which multiplying lineage positions becomes incongruent."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive negation closes the domain after the focus so that no unmentioned lineage or counterpart participant remains."
+              }
+            ],
+            "structural_cues": [
+              "The two occurrences of أحد stand on opposite sides of the focus window, one positive in 112:1 and one inside negation in 112:4."
+            ],
+            "reader_inference": "The packet supplies unity, exhaustive negation, and a two-place birth event; I infer that birth would establish distinct lineage slots and that the bracketing closes them. The alternative is that unity identifies uniqueness without itself supplying a metaphysical argument against birth.",
+            "changed_reading": {
+              "before": "No particular parent or offspring is asserted.",
+              "after": "Undivided unity admits no lineage slot, and exhaustive negation leaves no one available as a concealed ascendant or descendant."
+            }
+          },
+          {
+            "model_id": "delta_samad_terminal_not_relay",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص م د"
+            ],
+            "mechanism": "The one toward whom recourse is directed and who persists under severity becomes a terminal, stable center rather than a relay in a chain of derivation and succession. Passive birth would put a source behind the subject; active begetting would put a successor beyond it. The focus blocks both extensions.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Generated or derived existence supplies the backward provenance and forward production that would make the subject one link in a chain."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Directed recourse toward a dependable objective supplies an asymmetrical center at which dependence terminates."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Persistence and remaining firm supply continuity that contrasts with generational replacement."
+              }
+            ],
+            "structural_cues": [
+              "The صمد predicate immediately precedes the paired birth negations."
+            ],
+            "reader_inference": "The packet supplies directed recourse, persistence, derivation, and both voice directions; I infer a topology in which reliance ends at the subject rather than passing through it along lineage. A live alternative is that صمد contributes physical firmness only, without a dependency arrow.",
+            "changed_reading": {
+              "before": "The subject has no biological lineage.",
+              "after": "The subject is a stable terminus of recourse, not a derived relay between an origin behind it and a successor after it."
+            }
+          },
+          {
+            "model_id": "delta_no_temporal_becoming",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن"
+            ],
+            "mechanism": "The later denial of occurrence or presence in time echoes the focus's negating construction and temporalizes its two voices. Birth and generation become states the subject never enters: neither arriving as generated nor becoming a generator in a lineage sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth and delivery supply bounded events whose occurrence for or from the subject is denied."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Generation and derivation supply changes of provenance or status that can be tested against temporal becoming."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "A thing's occurrence and presence in time supplies the temporal field over which the focus's denied birth states are extended."
+              }
+            ],
+            "structural_cues": [
+              "The negating construction with يكن in 112:4 follows and formally echoes the two negated verbs in 112:3."
+            ],
+            "reader_inference": "The packet supplies temporal occurrence and denied birth events; I infer that the echo widens event denial into non-entry into a state across time. The alternative is that يكن functions only as a local copular support for 112:4.",
+            "changed_reading": {
+              "before": "Two birth events did not happen.",
+              "after": "At no temporal point does the subject come to be as a generated result or enter a generative lineage role."
+            }
+          },
+          {
+            "model_id": "delta_reversed_relation_without_counterpart",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ء"
+            ],
+            "mechanism": "The focus itself flips the same relation from active to passive. The context branches for like-for-like correspondence and turning-over make that grammatical reversal visible as a relational test: whichever way the birth relation is turned, no matching counterparty appears.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Born offspring supplies the counterpart produced when the birth relation is read outward from the subject."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B006",
+                "role": "A same-birth-age peer supplies the latent comparison class that the later denial of an equivalent sharpens."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Matching and like-for-like correspondence supply the counterpart test applied to parent, offspring, and birth-peer positions."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B002",
+                "role": "Tilting, turning, and reversing supply a formal image for the active-to-passive flip of the same focus root."
+              }
+            ],
+            "structural_cues": [
+              "Words 2 and 4 of the focus mirror one root across active and passive voice, and the following ayah denies a counterpart."
+            ],
+            "reader_inference": "The packet supplies reversal, equivalence, peerhood, and the mirrored voice pair; I infer that syntax enacts a flipped-relation test whose two orientations both fail. The alternative is that the voice symmetry is rhetorical and the reversal branch has no semantic force here.",
+            "changed_reading": {
+              "before": "The two clauses list unrelated absences of child and parent.",
+              "after": "The verse turns one relation around the subject and cancels it in both orientations, leaving neither reciprocal counterpart nor birth-defined peer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_solid_without_birth_passage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps compact solidity and a sealed vessel onto bodily delivery. It remains anchored through the focus branch for birth as an event and the immediately preceding material branches of صمد. Downstream prose should present it only as a material analogy activated by the packet, not as a lexical gloss or an anatomical claim.",
+            "focus_anchor": "The focus denies birth as an event in both active and passive orientations.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth and delivery supply the passage-event that the material images recast spatially."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Dense solidity without a cavity supplies an image of no interior from which offspring could emerge and no interior through which the subject emerged."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B003",
+                "role": "A tightly sealing stopper supplies closure of an opening, reinforcing the image of blocked ingress and egress for birth."
+              }
+            ],
+            "changed_reading": {
+              "before": "No genealogical relation exists.",
+              "after": "In a contained material image, there is no cavity or passage by which another emerges from the subject or the subject emerges from another."
+            }
+          },
+          {
+            "outlier_id": "outlier_outside_reproductive_cycle",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the annual-turn and produce branch is remote from the ordinary counterpart sense in 112:4. It remains packet-licensed and focus-anchored through birth-event and birth-cohort branches, with temporal occurrence as a bridge. Downstream prose should call it a seasonal or ecological analogy, not the direct meaning of the focus or of كفوا.",
+            "focus_anchor": "The paired focus verbs deny both entering a generation by birth and issuing a later generation.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth as an event supplies reproduction as the transition by which a new generation appears."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B006",
+                "role": "A same-birth-age peer supplies the cohort created by recurrence of birth within a cycle."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in time supplies the temporal dimension needed for recurring generations."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B005",
+                "role": "The turn of a year and its produce supply a recurrent yield-cycle against which the focus's nonparticipation in reproductive succession can be pictured."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject lacks a family line.",
+              "after": "Exploratorily, the subject stands outside recurrent cycles that produce, date, and replace one generation with another."
+            }
+          },
+          {
+            "outlier_id": "outlier_split_root_self_standing",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant ق ل ل mapping for the surface قل, not the surface's normal contextual root sense. It remains a permitted split-root activation and returns to the focus through the generated-or-derived branch. Downstream prose must label it a mapping-induced echo, never a translation of قل.",
+            "focus_anchor": "The passive focus verb can be tested as derivation from another, while the active verb tests production of another.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Generated or derived existence supplies the provenance relation against which self-standing can contrast."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "The non-dominant split branch supplies bearing a load and rising independently; obliquely, it activates a self-standing rather than carried-or-derived reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject was not biologically born.",
+              "after": "As a deliberately contained split-root echo, the subject is not carried into derived being by another but stands without transferred provenance."
+            }
+          },
+          {
+            "outlier_id": "outlier_birth_and_subjection",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the youth-or-slave sense belongs to a form-distant nominal branch while the focus uses birth verbs. It remains anchored in the packet's و ل د inventory and is activated by separate worship and subjection branches. Downstream prose should retain it only as a social-relation resonance distinguishing worship from ownership or inherited dependency, not as the clause's lexical meaning.",
+            "focus_anchor": "Both focus verbs use the root whose inventory includes a young born person or slave term.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B004",
+                "role": "A young born one or slave term supplies a form-distant overlap between birth status, youth, and social dependency."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply a live asymmetrical relation that need not be modeled as ownership or inherited subordination."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B004",
+                "role": "Submission through abasement supplies the social state that the slave-term branch brings into tension with the named worship relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus denies biological reproduction.",
+              "after": "As a form-distant social echo, it also resists imagining the subject as born into subjection or as producing dependents whose relation is ownership-like."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The active-passive repetition turns a no-child claim into closure of both source and result positions in one birth relation.",
+            "The command to say recasts the focus as an enacted boundary against lineage attribution, not only a private description.",
+            "Unity and exhaustive negation bracket the focus so that no hidden ascendant, descendant, or counterpart slot remains.",
+            "The dependable, persistent center and temporal-occurrence cues extend genealogy into a live but inferential reading of nonderivation, nonrelay, and nonbecoming.",
+            "The following reversal and equivalence branches expose the focus's voice flip as a test of the same relation in both orientations."
+          ],
+          "what_was_special": "One repeated root supported coexisting genealogical, derivational, temporal, relational, material, cyclical, and social readings. The most productive feature was not a new topic but the active-passive reversal: context repeatedly changed what kind of relation was being reversed and denied.",
+          "remaining_uncertainties": [
+            "The generated-or-derived branch is directly packet-backed but its extension from biological birth to general provenance remains broader than the focus form alone requires.",
+            "The صمد cavity and stopper images may be vivid material analogies without carrying semantic force in the focus.",
+            "The annual-yield branch may activate generational cycling only associatively.",
+            "The non-dominant ق ل ل mapping is intentionally preserved as an outlier, but its contextual distance is extreme.",
+            "The slave-term resonance is morphologically distant from the focus verbs and should not survive synthesis without explicit containment."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The paired verbs cancel both outgoing and incoming genealogy.** Lexical evidence: `و ل د B001` (born offspring), `و ل د B002` (parents by birth relation), `و ل د B003` (birth/delivery), plus 112:1 `ء ح د B001` and 112:4 `ك ف ء B001`. Structural cue: the same root appears twice, active then passive, each under `لم`; the sequence sits between `الصمد` and the final no-counterpart clause. Assigned roles: active `يلد` denies offspring proceeding from the subject; passive `يولد` denies parent-origin for the subject; `أحد/كفو` show why either direction would create comparable relational positions. Abductive move: I infer that the two negations close a genealogical circuit from both ends, not merely two independent facts. Reading change: 112:3 reads as a structural cancellation of lineage as an explanatory model for God.\n\n2. **Generated derivation is denied, not only literal childbirth.** Lexical evidence: `و ل د B005` (generated or derived thing), `ق و ل B005` (false attribution), `ق و ل B013` (held doctrine), and `ص م د B002` (compact fullness). Structural cue: 112:1 commands a saying, 112:2 gives a dense predicate, then 112:3 negates `و ل د` in both directions. Assigned roles: `و ل د B005` expands the issue from biological child to anything derived/produced from something else; `ق و ل` frames this as a possible doctrine or attribution; `الصمد` supplies non-derived fullness. Abductive move: I infer that because the packet offers a non-biological branch for `و ل د`, the local denial reaches claims of generated essence, derivative status, or produced divinity. Reading change: the ayah rejects not only \"child\" language but any account in which the subject is a product or produces another entity of the same kind.\n\n3. **Mercy/womb imagery is retained but not allowed to become origin.** Lexical evidence: prior `ر ح م B003` (womb), `ر ح م B004` (post-birth womb distress), `ر ح م B001` (mercy), and present `و ل د B003`. Structural cue: the basmalah's two mercy adjectives precede the surah; the only explicit birth-root later is completely negated. Assigned roles: `ر ح م` supplies the dormant bodily matrix; `لم يلد ولم يولد` prevents that matrix from becoming a literal generative explanation. Abductive move: I infer backward activation: the birth negation forces a distinction between mercy as intimate care and womb as biological origin. Reading change: 112:3 becomes a guardrail for the basmalah: divine mercy can sound near and womb-like without implying that God participates in birth.\n\n4. **Peerhood by same origin is blocked before equivalence is named.** Lexical evidence: `و ل د B006` (same birth-age peer), `ء ح د B005` (individual isolation), and later `ك ف ء B001` (equal counterpart). Structural cue: birth is denied before `كفوًا أحد` is denied; the negation of origin precedes the negation of peer/equal. Assigned roles: `و ل د B006` supplies the latent social category of peers generated by shared birth-time or origin; `كفو` supplies the explicit counterpart category. Abductive move: I infer that counterparthood often rides on shared origin, generation, or cohort; the packet supplies the terms and order. Reading change: the ayah does preliminary work for 112:4: no birth means no cohort from which a peer or equal could emerge.",
@@ -4053,14 +4724,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s112/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 26,
+        "ayah_count": 4,
+        "row_count": 19,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4171,10 +4848,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s112/packets/112_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s112/readers/reader_hft_a/112_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s112"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s112",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 30654,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

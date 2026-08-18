@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.705536+00:00",
+  "generated_at": "2026-08-18T13:33:34.507772+00:00",
   "surah": 88,
   "ayah": 2,
   "ayahRef": "88:2",
@@ -1098,7 +1098,8 @@
       "morpheme_ids": [
         "m-w-s088-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:2:1"
+      "aligned_qac_word_ref_upstream": "88:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1112,7 +1113,8 @@
       "morpheme_ids": [
         "m-w-s088-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:2:2"
+      "aligned_qac_word_ref_upstream": "88:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1126,7 +1128,8 @@
       "morpheme_ids": [
         "m-w-s088-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:2:3"
+      "aligned_qac_word_ref_upstream": "88:2:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2750,7 +2753,1121 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:2",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_public_bodily_lowering",
+            "confidence": "strong",
+            "focus_anchor": "The plural faces are directly predicated as khashi'a on that day.",
+            "mechanism": "The exposed fronts of persons carry a whole bodily lowering: head, gaze, voice, and limbs settle downward, making an otherwise inward condition publicly legible.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face as the outward front supplies the visible surface on which the condition appears."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Bodily lowering, downcast sight, quiet voice, and still limbs turn khushu into an observable posture."
+              }
+            ],
+            "changed_reading": {
+              "before": "People are inwardly humble on that day.",
+              "after": "Their public bodily fronts visibly sink and quiet on that day; the verse stages exposure, not an invisible feeling alone."
+            }
+          },
+          {
+            "model_id": "baseline_defeated_orientation",
+            "confidence": "medium",
+            "focus_anchor": "Wujuh can mark oriented fronts and confrontation, while khashi'a supplies their downward disposition.",
+            "mechanism": "A face is not only an expression-bearing surface but a vector aimed toward a destination or encounter. Predicating khushu of these fronts makes their orientation appear checked, lowered, or unable to hold itself in confrontation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination convert each face into an oriented front."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B003",
+                "role": "Face-to-face confrontation supplies the encounter toward which those fronts are exposed."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and downcast gaze bend the oriented front away from an upright confrontation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The faces wear an expression of humility.",
+              "after": "The fronts that should meet what approaches are directionally defeated or redirected downward."
+            }
+          },
+          {
+            "model_id": "baseline_prominence_collapsed",
+            "confidence": "exploratory",
+            "focus_anchor": "The plural wujuh can denote eminent representatives, and khushu can describe either low dormant ground or a hump whose high profile has wasted away.",
+            "mechanism": "Social height is rendered as physical profile. Those who functioned as the prominent faces of a group are shown with their projection gone, reduced toward a low, inert contour.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Eminence and leading people allow the faces to be socially prominent persons, not only anatomical faces."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B004",
+                "role": "A hump depleted until its prominence droops supplies a material model for lost rank."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B002",
+                "role": "Low, dormant ground extends the collapse from bodily profile into topography."
+              }
+            ],
+            "changed_reading": {
+              "before": "An anonymous multitude looks bowed.",
+              "after": "The once-prominent public figures have lost the very contour by which they stood above others."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_event_overruns_fronts",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The immediately preceding event is imaged both as a calamity that occurs and as an all-enveloping cover. The faces are therefore readable as exposed fronts overtaken by an event whose pressure becomes visible in their lowered posture.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The outward front provides the receiving surface on which an overtaking event can register."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Visible bodily lowering supplies the registered effect."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B005",
+                "role": "A calamity occurring in time gives the named event disruptive force rather than neutral report."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An all-covering sweep supplies the event's spatial action over the exposed fronts."
+              }
+            ],
+            "structural_cues": [
+              "88:1 names the event immediately before the verbless face-description in 88:2."
+            ],
+            "reader_inference": "The packet supplies a calamitous occurrence, an enveloping cover, visible fronts, and bodily lowering; I infer that the event overtakes and impresses itself upon those fronts. A live alternative is that 88:1 only supplies a temporal label and does not cause the posture.",
+            "changed_reading": {
+              "before": "The faces happen to be lowered at a specified future time.",
+              "after": "The arriving, all-covering event has overrun their exposed fronts and made its force bodily visible."
+            }
+          },
+          {
+            "model_id": "delta_exhaustion_deflates_profile",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م ل",
+              "ن ص ب",
+              "ج و ع"
+            ],
+            "mechanism": "Work performed through the body, exhaustion that wears a person down, and hunger figured as emptiness give the focus lowering a material history. Khushu becomes depletion: the face and bodily profile have been worked down rather than merely posed in deference.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face/front is the bodily surface on which cumulative depletion is displayed."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B004",
+                "role": "The wasting of a hump until little prominence remains supplies the deflation mechanism."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B010",
+                "role": "A working bodily member locates the labor in the organism rather than in an abstract record."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Wearisome toil supplies the force that exhausts and lowers the bodily profile."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B004",
+                "role": "Emptiness and emaciation give the exhausted lowering a visible material result."
+              }
+            ],
+            "structural_cues": [
+              "88:3 continues the feminine singular predicates attached to the plural faces.",
+              "88:6-7 presents nourishment that neither fattens nor removes hunger."
+            ],
+            "reader_inference": "The packet supplies bodily work, wearing fatigue, failed nourishment, emaciating emptiness, and a depleted high contour; I infer a causal sequence from labor and deprivation to the faces' collapse. The alternative is that the following predicates only enumerate conditions without explaining khushu.",
+            "changed_reading": {
+              "before": "The faces lower themselves in a discrete posture.",
+              "after": "Their lowered appearance is the cumulative deflation of bodies worked and deprived until their visible prominence fails."
+            }
+          },
+          {
+            "model_id": "delta_mirrored_faces_display_outcomes",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج ه",
+              "ن ع م",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "The exact return of faces and that-day framing, now joined to ease and satisfaction with striving, makes the two face clauses a paired display system. Khushu in the focus is thereby differentiated from commendable inward reverence: here it is the adverse whole-person condition publicly opposite ease and satisfaction.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face standing for the person lets each visible face-clause report a whole-person outcome."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowered bodily demeanor marks the first outcome."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The repeated person-by-face construction establishes a controlled counterpart to the focus."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and beneficence supply the positive state opposed to the focus lowering."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earned activity make the second cohort's condition an outcome of a trajectory, not surface mood alone."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction rather than displeasure gives the counterpart its evaluative affect."
+              }
+            ],
+            "structural_cues": [
+              "88:2 and 88:8 repeat the same plural subject and that-day temporal frame.",
+              "Both plural subjects take feminine singular predicates, preserving a tight formal mirror."
+            ],
+            "reader_inference": "The packet supplies the repeated face construction, opposed conditions, and an explicit relation to striving; I infer that the faces operate as public outcome displays and that focus khushu is adverse in this local contrast. The alternative is to retain a uniformly positive ritual sense for khushu despite the mirror.",
+            "changed_reading": {
+              "before": "Khashi'a is a self-contained and potentially commendable description of humility.",
+              "after": "Within the paired face display, it is the adverse embodied result set opposite ease and satisfaction with one's striving."
+            }
+          },
+          {
+            "model_id": "delta_faces_become_low_horizon",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل و",
+              "ر ف ع",
+              "و ض ع",
+              "ن ص ب",
+              "ء ر ض",
+              "س ط ح"
+            ],
+            "mechanism": "The context repeatedly raises, sets down, erects, and spreads bodies and surfaces. Against that constructed vertical field, the low dormant-ground branch of khushu turns the faces into the low pole of a spatial architecture: their affect is rendered as contour and level.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "A face as a front or surface allows human appearance to participate in the context's spatial layout."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B002",
+                "role": "Low, inert terrain supplies the focus clause's depressed horizontal contour."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Height establishes the positive field's upper pole."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The act of raising makes elevation an actively produced arrangement."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting something at a lower or fixed level adds controlled placement to the spatial system."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting a salient body supplies an upright contrast to the focus lowering."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm opposite the sky anchors the vertical scale."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "A level extended surface sharpens the image of profile reduced toward a horizon."
+              }
+            ],
+            "structural_cues": [
+              "The context repeatedly predicates spatial states of feminine nouns in a cadence resembling khashi'a.",
+              "88:18-20 orders sky, mountains, and earth as a vertical-to-horizontal sequence."
+            ],
+            "reader_inference": "The packet supplies low terrain for khushu and a context saturated with elevation, placement, erection, and flattening; I transfer that scale to the faces and read affect through geometry. The live alternative is that the spatial descriptions form an independent scene and do not reactivate the focus adjective.",
+            "changed_reading": {
+              "before": "The faces show a private emotional lowering.",
+              "after": "They occupy the low, flattened horizon of a context that measures conditions through raised and lowered surfaces."
+            }
+          },
+          {
+            "model_id": "delta_viewers_become_visible",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق"
+            ],
+            "mechanism": "The later imperative to direct sight toward formed things reactivates both the face as an observer-facing front and khushu as downcast gaze. The focus can thus stage a reversal: agents who ordinarily inspect the world become exposed surfaces whose own condition is inspected.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The outward front is what meets an observer and can itself become an object of sight."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Downcast sight weakens the faces' capacity to return the observer's gaze."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Deliberately directing vision or insight supplies the active viewing role that the lowered faces lose."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed form and balanced appearance make visible configuration itself an object of scrutiny."
+              }
+            ],
+            "structural_cues": [
+              "88:17-20 repeats the branchless cue ك ي ف only as an interrogative structure attached to four acts of looking.",
+              "The four clauses repeatedly direct attention with إلى toward visible forms."
+            ],
+            "reader_inference": "The packet supplies downcast gaze, observer-facing surfaces, an imperative of directed looking, and scrutiny of formed appearance; I infer a viewer-to-viewed reversal. The alternative is that the observational sequence addresses unrelated hearers and leaves the focus faces merely descriptive.",
+            "changed_reading": {
+              "before": "The verse reports what a set of faces looks like.",
+              "after": "It also reverses visual agency: once-viewing persons are exposed as inspectable fronts, unable to sustain a reciprocal gaze."
+            }
+          },
+          {
+            "model_id": "delta_lowering_not_humanly_forced",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ل ي س",
+              "س ط ر"
+            ],
+            "mechanism": "Reminder is followed by an explicit negation of controlling surveillance. This limits one causal reading of the focus posture: the lowered faces are not simply bodies bent by the human addressee's coercive management.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Submission and bodily lowering are the visible condition whose cause is being delimited."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to awareness supplies a non-coercive action available to the human addressee."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation explicitly blocks attribution of the following control role."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "A dominating overseer supplies the coercive mechanism that the clause denies."
+              }
+            ],
+            "structural_cues": [
+              "88:21 assigns reminder, while 88:22 immediately negates domination over the addressed group."
+            ],
+            "reader_inference": "The packet supplies a bodily submission, a reminder role, and denial of human domination; I infer that the focus lowering must arise from encounter, disclosure, or response rather than the reminder-giver's force. A live alternative is that 88:22 only defines the messenger's office and says nothing about what causes 88:2.",
+            "changed_reading": {
+              "before": "The faces are bowed by an unspecified controlling power operating through the address.",
+              "after": "Their lowering is explicitly insulated from human coercion: reminder can summon awareness, but it does not mechanically manufacture this posture."
+            }
+          },
+          {
+            "model_id": "delta_turned_away_fronts_return",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر",
+              "ء و ب"
+            ],
+            "mechanism": "Turning away and covering are followed by return to a destination. These roots activate the directional force already latent in wujuh: the khashi'a faces are fronts whose chosen orientation away is reversed when their route closes back upon its endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination make the face a trajectory-bearing front."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Downcast orientation supplies the trajectory's final bodily configuration."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning one's back and withdrawing supplies the initial movement away."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the occlusion that accompanies and protects the away-facing orientation."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination closes the path and reverses the attempted withdrawal."
+              }
+            ],
+            "structural_cues": [
+              "88:23 describes movement away, whereas 88:25 emphatically assigns the group's return toward a stated endpoint."
+            ],
+            "reader_inference": "The packet supplies facial direction, turning away, covering, return, and bodily lowering; I infer a temporal feedback arrow in which the return reverses the earlier orientation and leaves the fronts downcast. The alternative is that 88:23 only identifies a subgroup and that return does not explain the focus posture.",
+            "changed_reading": {
+              "before": "The faces are static countenances displaying submission.",
+              "after": "They are directional fronts at the end of a reversed route: having turned away under cover, they return unable to face the endpoint upright."
+            }
+          },
+          {
+            "model_id": "delta_social_capital_enters_account",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ب ر",
+              "ح س ب"
+            ],
+            "mechanism": "The focus inventory allows wujuh to denote social eminence, while the closing inventory places counting and inherited or achieved social standing within the same root field. The larger scale and final account convert public rank from protection into an item exposed to evaluation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Rank and leading representatives identify a possible socially eminent subset among the faces."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B004",
+                "role": "Loss of a formerly high contour models prestige collapsing under evaluation."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B005",
+                "role": "High honor and leadership supply the scale of worldly rank that a greater measure can overtop."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning turn status into something measured rather than presumed."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B004",
+                "role": "Social merits and inherited standing expose a second live value of the same root, linking account to prestige."
+              }
+            ],
+            "structural_cues": [
+              "The account clause closes the sequence after the greater punishment and the group's return."
+            ],
+            "reader_inference": "The packet supplies eminent faces, a larger scale, numerical account, and social standing within one closing root inventory; I infer that the account tests and collapses the status those faces embodied. The alternative is that the social-standing branch is inactive and the account is purely numerical.",
+            "changed_reading": {
+              "before": "The lowered faces belong to undifferentiated persons awaiting reckoning.",
+              "after": "The verse can also expose public elites whose social capital is no shield: their very prominence is entered into a larger account and loses its contour."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_hump_mountain_prominence",
+            "confidence": "exploratory",
+            "containment": "The activation is surprising because it carries a camel-hump image into human and social faces, then contrasts it with erected mountains. It remains valid as a structural analogy because the focus khushu inventory explicitly includes a hump whose prominence has wasted away and wujuh includes eminent people, while the context supplies camel and mountain forms. Downstream prose should call this a profile-and-rank resonance, not claim that the people are literally camel-like.",
+            "focus_anchor": "Khashi'a modifies wujuh, linking a lost high profile to faces that may also represent socially prominent persons.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Leading, high-status people make prominence part of the faces' possible social profile."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B004",
+                "role": "A hump with its fat and crest gone provides the precise image of prominence collapsing."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The camel context reactivates the otherwise remote hump image in the focus inventory."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A high, hard mass provides a durable peak against which lost profile becomes legible."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Being erected into salience sharpens the contrast with a crest that has drooped."
+              }
+            ],
+            "changed_reading": {
+              "before": "Prominent people simply bow their faces.",
+              "after": "Their rank is materially de-profiled: unlike camel crest or erected mountain, the height by which they were recognized has wasted and fallen."
+            }
+          },
+          {
+            "outlier_id": "outlier_eclipsed_day_front",
+            "confidence": "exploratory",
+            "containment": "This reading is form-distant because plural faces most readily points to persons, yet the focus inventories explicitly join wajh to the forepart of a day and khushu to an eclipsing or setting luminary; the focus itself contains the day-frame, and the context later supplies sky and sunset-return. Preserve it as an astral-temporal undertone, qualified with 'as though' or 'echoing,' rather than replacing the human reading.",
+            "focus_anchor": "The construction places faces beside that-day language, while the two focus roots separately permit a day's forepart and a sinking luminary.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B007",
+                "role": "The forepart or opening of a day lets the face image carry a secondary temporal surface."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B003",
+                "role": "An eclipsed sun or sinking star gives khushu an astral dimming and descent."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The over-arching sky supplies the domain in which the focus's sinking luminary image operates."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B007",
+                "role": "The sun's setting toward its return-place closes the temporal descent activated by khushu."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only human faces are lowered during that day.",
+              "after": "The human scene carries an undertone in which the very forepart of that day is eclipse-like, its visible lights sinking toward return."
+            }
+          },
+          {
+            "outlier_id": "outlier_eye_spring_gaze_field",
+            "confidence": "exploratory",
+            "containment": "The eye-to-spring crossing is surprising because the two context occurrences denote water sources in their clauses, but their full root inventory also retains the seeing eye. It remains anchored through the anatomical face and the downcast-gaze content of focus khushu, while the hostile and flowing sources flank the two face cohorts. Render it as lexical echo and gaze architecture, never as a claim that the springs literally mean eyeballs.",
+            "focus_anchor": "An outward face with lowered sight supplies an ocular structure that the repeated eye/source root can reactivate.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The anatomical and observer-facing surface locates the gaze on the focus faces."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowered sight gives the faces a specifically ocular form of submission."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye remains a latent image inside the first water-source occurrence and echoes the downcast gaze."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing-water source grounds the actual hydraulic side of the eye/source crossing."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The second water source repeats the hydraulic image in the contrasting face cohort's environment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Downcast gaze is only one bodily symptom on the focus faces.",
+              "after": "It becomes part of a wider eye/source field: the two face cohorts are flanked by opposed water conditions whose root keeps vision latently present."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The mirrored face clause at 88:8 makes focus khushu an adverse public outcome rather than generic commendable humility.",
+            "Labor, exhaustion, failed nourishment, and emaciation turn the lowering into cumulative bodily deflation.",
+            "Turning away, covering, and eventual return convert faces from static expressions into directional fronts at the end of a reversed route.",
+            "The context's raised, erected, placed, and flattened forms let the faces occupy a low topographic pole.",
+            "The closing account can expose and collapse the social standing carried by eminent 'faces.'"
+          ],
+          "what_was_special": "The focus roots jointly move across anatomy, orientation, social rank, terrain, animal profile, and astral descent. Context does not collapse these into one verdict: it makes bodily exhaustion, public outcome, spatial lowering, reversed direction, and loss of prestige coexist, while sustaining contained camel-mountain, day-front, and eye/source resonances.",
+          "remaining_uncertainties": [
+            "Whether the covering event causes the lowered posture or merely supplies its temporal setting remains open.",
+            "The transfer from low terrain and depleted hump to human faces is branch-backed but analogical.",
+            "The viewer-to-viewed reversal depends on reading the later looking sequence back into the focus.",
+            "The social-standing branch of the final account may be inactive beside its direct counting sense.",
+            "The astral and eye/source readings should remain secondary resonances rather than replacements for the embodied human reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Faces as fronts lowered before an approaching cover.** Evidence: `و ج ه` B001 face/front, B003 confrontation; `خ ش ع` B001 low humble submission; `غ ش و` B002 overwhelming affliction from 88:1. Structural cue: the face is the body’s exposed front directly after the cover is announced. Role: the face becomes the visible surface where the enveloping event meets the human. Abductive move: what covers everything first registers on the outward front. Reading change: the ayah reads as spatial collapse of the human front, not only emotional humiliation.\n\n2. **The face as terrain: lowered ground under a vertical surah.** Evidence: `خ ش ع` B002 low desolate ground; later `ج نن` B003 garden, `ع ل و` B001 height, `ر ف ع` B001 raising, `ء ر ض` B001 lower ground. Structural cue: the surah later maps high garden, raised sky, set mountains, and spread earth. Role: `خاشعة` makes faces terrain-like, flattened below the later vertical architecture. Abductive move: the packet uses bodies and landforms analogically; faces can be read as landscapes. Reading change: “faces humbled” also reads as surfaces made low, desolate, and ground-like.\n\n3. **Camel-hump depletion as bodily impoverishment.** Evidence: `خ ش ع` B004 flattened depleted hump; later `ء ب ل` B001 camels, `س م ن` B001 fatness negated in 88:7, `ج و ع` B001 hunger. Structural cue: the later camel-inspection and the hunger/fatness denial activate animal-body morphology. Role: the face’s khushūʿ can be read through depleted hump/fat imagery. Abductive move: the surah’s pastoral body lexicon lets a human face borrow camel depletion as a sign of failed nourishment. Reading change: the faces are not merely submissive; they look drained of height and stored life.",
@@ -8768,14 +9885,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9303,10 +10426,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 222400,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

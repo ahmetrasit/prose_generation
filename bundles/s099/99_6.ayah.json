@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.794339+00:00",
+  "generated_at": "2026-08-18T13:34:24.449968+00:00",
   "surah": 99,
   "ayah": 6,
   "ayahRef": "99:6",
@@ -1904,7 +1904,8 @@
       "morpheme_ids": [
         "m-w-s099-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:1"
+      "aligned_qac_word_ref_upstream": "99:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1918,7 +1919,8 @@
       "morpheme_ids": [
         "m-w-s099-a006-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:2"
+      "aligned_qac_word_ref_upstream": "99:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1934,7 +1936,8 @@
         "m-w-s099-a006-w003-01",
         "m-w-s099-a006-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:3"
+      "aligned_qac_word_ref_upstream": "99:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1948,7 +1951,8 @@
       "morpheme_ids": [
         "m-w-s099-a006-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:4"
+      "aligned_qac_word_ref_upstream": "99:6:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1962,7 +1966,8 @@
       "morpheme_ids": [
         "m-w-s099-a006-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:5"
+      "aligned_qac_word_ref_upstream": "99:6:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1978,7 +1983,8 @@
         "m-w-s099-a006-w005-02",
         "m-w-s099-a006-w005-03"
       ],
-      "aligned_qac_word_ref_upstream": "99:6:6"
+      "aligned_qac_word_ref_upstream": "99:6:6",
+      "morpheme_skip_count": 0
     },
     null
   ],
@@ -3673,7 +3679,770 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:6",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_departure_after_arrival",
+            "confidence": "strong",
+            "focus_anchor": "The sequence يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَٰلَهُمْ joins departure, human collectivity, dispersal, caused seeing, and intentional acts.",
+            "mechanism": "A gathered human population leaves a common station after arrival, separates into distinct groups, and enters a disclosure event in which its intentional acts are made visible. The purpose clause makes revelation, not dispersal alone, the destination of the movement.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure after coming to water supplies an outflow from a shared point and gives the movement an after-arrival structure."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence identifies what issues forth as humanity becoming publicly present rather than an anonymous mass."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Scattering a gathered group converts the common outflow into separated cohorts."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing another to see makes disclosure the purpose and endpoint of the departure."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing specifies that what is disclosed is purposive human action, including both good and bad acts."
+              }
+            ],
+            "changed_reading": {
+              "before": "People simply emerge in scattered groups and see a record of deeds.",
+              "after": "Humanity flows out from a shared station after arrival, is sorted into separated cohorts, and reaches a disclosure whose object is its own intentional activity."
+            }
+          },
+          {
+            "model_id": "baseline_social_unmaking",
+            "confidence": "medium",
+            "focus_anchor": "The collocation of ٱلنَّاسُ, أَشْتَاتًا, لِّيُرَوْا, and أَعْمَٰلَهُمْ permits a social mechanism as well as a spatial one.",
+            "mechanism": "A familiar human collective is pulled apart into parties placed at a distance, then made to face the dealings that had connected or divided them. Dispersion therefore exposes relational consequences, not only private files.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement supplies the social cohesion that the verse's scattering can undo."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B003",
+                "role": "Distance and lack of union turn أشتاتًا into separation between parties rather than mere crowd distribution."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility and facing provide the confrontation structure of the disclosure."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Dealings and transactions between people make the displayed works relational evidence linking the separated parties."
+              }
+            ],
+            "changed_reading": {
+              "before": "A crowd disperses so each person can inspect individual deeds.",
+              "after": "A once-familiar human collective is separated into distinct parties and confronted with the dealings through which its members affected one another."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_earth_discharge_sorting",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "ء ر ض",
+              "خ ر ج",
+              "ث ق ل"
+            ],
+            "mechanism": "The preceding shaking, lower ground, extraction from concealment, and burdens recast the focus departure as a pressure-driven discharge. People are released as contents formerly retained by the earth; أشتاتًا describes the sorting or deaggregation produced by that release, and the subsequent showing exposes what those contents carried.",
+            "activation_trace": [
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "Disturbance and shaking supply the destabilizing force that breaks stable containment before the focus outflow."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm opposite the sky supplies the spatial boundary from which the released contents rise into view."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing a thing out of concealment makes the earth's action an exposure as well as a physical ejection."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Weight opposed to lightness characterizes what was retained and gives the discharge material resistance."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure after arrival receives the context's force and becomes the outward flow of the earth's released population."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Scattering a gathered body supplies the sorting effect of the forced release."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen carries physical emergence into evidentiary exposure."
+              }
+            ],
+            "structural_cues": [
+              "99:1 intensifies the shaking with a verb and cognate object, while 99:2 makes the earth the agent that brings out its burdens before 99:6 names the people's departure."
+            ],
+            "reader_inference": "The packet supplies shaking, a lower ground, extraction from concealment, weight, and departure; I infer a destabilized container whose contents are discharged and sorted. A live alternative is simple sequential resurrection without a pressure or sorting relation.",
+            "changed_reading": {
+              "before": "People voluntarily-looking depart from an unspecified gathering in separate groups.",
+              "after": "The destabilized earth releases its retained human contents; their scattered departure is the sorted phase of an extraction that culminates in their deeds being exposed."
+            }
+          },
+          {
+            "model_id": "delta_epistemic_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ء ن س",
+              "ح د ث",
+              "خ ب ر",
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "The context first presents the human as a speaker who only voices bewilderment, then transfers informative speech to the earth, whose inward knowledge is activated by a sovereign hidden communication. Against that reversal, لِّيُرَوْا makes the people recipients rather than controllers of knowledge: their works arrive as authorized testimony from a witness that knows what they did.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Speech brought out in utterance supplies the human question but not yet the answer."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving something into awareness frames the human as sensing an event whose meaning remains unknown."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as report transfers articulate narration from the questioning human to the earth."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of a report and of an affair's interior makes the earth's news informed testimony rather than noise."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty authorize the witness and order the disclosure."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "Imparting knowledge in concealment supplies the hidden instruction that enables the earth's public report."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception into awareness returns at the focus human collective, now as the receiving side of disclosure."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing to see marks the decisive transfer of knowledge to people who do not generate the evidence."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional acts provide the testimonial content disclosed to their own agents."
+              }
+            ],
+            "structural_cues": [
+              "The singular human asks in 99:3, the earth becomes the reporting subject in 99:4, divine authorization is given in 99:5, and the passive causative purpose clause in 99:6 places plural humanity on the receiving side."
+            ],
+            "reader_inference": "The packet supplies a human utterance of uncertainty, an earth-report with inward knowledge, sovereign authorization, and hidden imparting; I infer an epistemic reversal in which the earth functions as an authorized witness. A live alternative is mere narrative succession without a transfer of testimonial authority.",
+            "changed_reading": {
+              "before": "People leave in groups to look at representations of what they did.",
+              "after": "People who could only voice bewilderment are separated and made to receive their deeds as authorized testimony from the now-informed earth."
+            }
+          },
+          {
+            "model_id": "delta_granular_moral_accounting",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ث ق ل",
+              "ذ ر ر",
+              "خ ي ر",
+              "ر ء ي",
+              "ش ر ر"
+            ],
+            "mechanism": "The closing pair repeats doing, weight, a minute scattered particle, moral polarity, and seeing. This decomposes the focus plural أَعْمَٰلَهُمْ into irreducible weighted units: human beings are scattered into distinct parties while their works are granularized into individually visible good and bad quantities.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Scattering and separation supply the focus-side distribution of human beings into distinct units."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing names the aggregate whose internal units the following pair measures."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen establishes the disclosure operation that the repeated final يَرَهُ resolves at unit scale."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action repeats the focus object as an act performed by an individual agent."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Measure and weight convert action from an undifferentiated record into a quantitatively accountable unit."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The smallness and spread of minute particles mirror أشتاتًا at the scale of the deeds."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies one moral polarity for the measured particle."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight makes even the minute good unit perceptually unavoidable."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and harm supply the opposing moral polarity without changing the measuring and seeing frame."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making visible at the end of the negative half confirms that disclosure is exhaustive across both polarities."
+              }
+            ],
+            "structural_cues": [
+              "99:7 and 99:8 repeat the same conditional sequence of individual agent, action, weight, minute unit, moral value, and seeing, changing only good to evil."
+            ],
+            "reader_inference": "The packet supplies exact parallel clauses, weight, tiny spread matter, moral opposites, and repeated seeing; I infer a scale correspondence between scattered people and granularized deeds. A live alternative is exact accounting with no spatial mirroring between أشتاتًا and ذرة.",
+            "changed_reading": {
+              "before": "Separated people are shown their deeds as whole personal records.",
+              "after": "The separation continues inside the record: each person's intentional activity is resolved into minute weighted units, every good and harmful particle becoming visible."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_water_station_echo",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant ر و ي mapping for the focus seeing-form. It remains worth carrying because quenching and water-carrying directly interlock with the focus branch of departing after a watering place, but downstream prose must label it a form-distant lexical echo, never a replacement translation of لِّيُرَوْا.",
+            "focus_anchor": "The focus itself places يَصْدُرُ beside لِّيُرَوْا, and the packet gives the former a watering-place branch and the latter a non-dominant water-satisfaction mapping.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure after coming to water supplies the shared station from which the people leave."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "Quenching and freedom from thirst create a water-frame echo for what awaits those departing the station."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "Bringing and carrying water lets the displayed deeds be imagined, cautiously, as provision carried to the departing people."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional acts keep the water echo attached to the verse's actual disclosed object."
+              }
+            ],
+            "changed_reading": {
+              "before": "People depart and are shown their deeds.",
+              "after": "As a contained lexical echo, people leave a watering station to encounter their own acts as the provision that satisfies them or leaves satisfaction unresolved."
+            }
+          },
+          {
+            "outlier_id": "outlier_deeds_as_traveled_routes",
+            "confidence": "exploratory",
+            "containment": "This reading is cross-domain because it treats the work inventory's traveled-road and walking-traveler branches as a spatial overlay on أَعْمَٰلَهُمْ. It stays anchored through the focus departure, separation, showing, and works, but downstream prose should present the routes as a metaphor generated by branch convergence, not as the syntax of the object phrase.",
+            "focus_anchor": "يَصْدُرُ, أَشْتَاتًا, لِّيُرَوْا, and أَعْمَٰلَهُمْ converge on departure, divergent distance, disclosure, traveled roads, and walking travelers.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "The road by which people depart after watering supplies a concrete outbound route."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B003",
+                "role": "Distance and lack of union split the outbound movement into divergent courses."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B011",
+                "role": "The worn or traveled road lets works appear as courses made durable by repeated action."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B012",
+                "role": "Walking travelers align the human parties with the roads their own works have worn."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen keeps the route image subordinate to the explicit disclosure of works."
+              }
+            ],
+            "changed_reading": {
+              "before": "People move away in groups and then view past actions.",
+              "after": "Exploratorily, their works become the divergent roads their actions have worn: departing travelers are made to see the very courses by which they have arrived."
+            }
+          },
+          {
+            "outlier_id": "outlier_weighted_settlement",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the liability sense of ص د ر and wage sense of ع م ل do not control the ordinary forms in the focus. It remains anchored by those two focus roots and gains a visible mechanism from the following weight language, but downstream prose should call it an accounting overlay rather than a lexical gloss.",
+            "focus_anchor": "The focus combines issuing, works, and separation, while the following context explicitly measures individual acts by weight.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B005",
+                "role": "Settling a monetary liability supplies an accounting frame for why separated people issue forth."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "Wage or pay for work turns the displayed deeds into the basis of a due return."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Transaction between people gives the settlement a relational rather than purely private dimension."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Weight and measure supply the context mechanism by which the due amount is calculated."
+              }
+            ],
+            "changed_reading": {
+              "before": "The groups are shown an informational record of their work.",
+              "after": "As an accounting overlay, each separated party issues into a settlement where measured work establishes liability, wage, or due return."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening context changes neutral departure into the earth's destabilized discharge and sorting of formerly hidden, weighty contents.",
+            "The human-question, earth-report, and divine-authorization sequence changes seeing into an epistemic reversal in which humanity receives testimony it did not control.",
+            "The paired ending decomposes the plural deeds into minute weighted good and harmful units, mirroring human scattering at the scale of action."
+          ],
+          "what_was_special": "The focus is a hinge between material release and moral visibility: its departure, scattering, causative seeing, and works support physical, social, testimonial, and granular mechanisms at once. The split ر ء ي mapping also creates an unusually coherent but form-distant water echo with ص د ر.",
+          "remaining_uncertainties": [
+            "The packet does not decide whether أشتاتًا primarily marks spatial groups, differentiated moral classes, social separation, or all three.",
+            "The earth-as-witness mechanism depends on reading the sequence as a transfer of testimonial authority rather than simple chronological narration.",
+            "The water, route, and settlement overlays are branch-convergent but remain too form-distant to state as direct translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **People depart like herds leaving the water-source after being brought to evidence.** Lexical evidence: `ص د ر B003` departing after coming to water; `ن و س B002` driving camels; `ش ت ت B001` scattering; `ر ء ي B012` showing/making seen; `ع م ل B001` intentional deeds. Structural cue: the people issue on the same `يومئذ` as earth’s reporting, and the purpose clause says they are made to see their deeds. Assigned role: `يصدر` supplies the movement away from a source after arrival; `أشتاتا` supplies divided exits; `ليروا` supplies the destination/purpose of visibility. Abductive move: I infer an assembly-source from which groups depart because the verb’s water-source branch and the scene’s judgment purpose cohere. Reading change: the ayah becomes a controlled post-arrival dispersal from a source of disclosure, not random scattering.\n\n2. **Chest/interior comes forward.** Lexical evidence: `ص د ر B001` chest as bodily front and `ص د ر B004` source from which actions issue; `ع م ل B001` intentional doing; activated by 99:3’s human inner question (`ق و ل B012`) and 99:4’s inner knowledge (`خ ب ر B001`). Structural cue: humans move out to be shown deeds; what was inside intention becomes outwardly visible. Assigned role: `صدر` bridges interior source and frontal exposure. Abductive move: I supply that deeds issue from inner chests/sources and are then set before their owners because the packet connects intention/work, seeing, and outward movement. Reading change: `يصدر الناس` reads as the emergence of persons with their inward sources exposed.\n\n3. **Scattered groups as differentiated moral/accounting categories.** Lexical evidence: `ش ت ت B001` scattering, difference among kinds/hearts; activated by 99:7/99:8’s mirrored good/evil outcomes and `خ ي ر B001` versus `ش ر ر B001`. Structural cue: 99:6 precedes two parallel clauses splitting tiny good and tiny evil. Assigned role: `أشتاتا` marks separation by kinds or hearts before the detailed good/evil display. Abductive move: I infer that the dispersal is not merely spatial but classificatory, because the next two ayat divide action by moral polarity and measure. Reading change: the ayah reads as sorting into differentiated evidentiary paths.\n\n4. **Works as official charge and wage.** Lexical evidence: `ع م ل B003` holding/assigning official charge; `ع م ل B004` wage/pay for work; activated by `ص د ر B005` liability on money and `ث ق ل B004` measured weight in 99:7-8. Structural cue: people are made to see `أعمالهم`, and the next clauses quantify tiny units. Assigned role: works are both deeds performed and account-lines assigned to workers. Abductive move: I infer a labor-accounting frame: intentional work generates payable/liable outcome. Reading change: the ayah is not simply autobiographical replay; it is a summons to see one’s earned account.\n\n5. **Swaying mass becomes visible humans.** Lexical evidence: `ن و س B001` swaying/dangling oscillation; `ء ن س B001/B002` human visible presence/perception in 99:3; activated by `ز ل ز ل B001` shaking. Structural cue: the root listed for `الناس` is `ن و س`, not `ء ن س`; it follows the earlier earth-shake and precedes scattering. Assigned role: people are characterized as unstable, moved, and then forced into perception. Abductive move: I infer that human collectivity physically/morally oscillates under the quake before being sorted. Reading change: `الناس` reads as a shaken, wavering mass rather than a stable assembly.",
@@ -21159,6 +21928,11 @@
       "words_total": 7,
       "words_resolved": 6,
       "words_unresolved": 1,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [
         {
           "word_index": 6,
@@ -21169,10 +21943,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -21472,10 +22247,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 3,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 132565,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

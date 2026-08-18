@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.229163+00:00",
+  "generated_at": "2026-08-18T13:34:35.736451+00:00",
   "surah": 107,
   "ayah": 3,
   "ayahRef": "107:3",
@@ -1847,7 +1847,8 @@
       "morpheme_ids": [
         "m-w-s107-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:1"
+      "aligned_qac_word_ref_upstream": "107:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1861,7 +1862,8 @@
       "morpheme_ids": [
         "m-w-s107-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:2"
+      "aligned_qac_word_ref_upstream": "107:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1875,7 +1877,8 @@
       "morpheme_ids": [
         "m-w-s107-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:3"
+      "aligned_qac_word_ref_upstream": "107:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1889,7 +1892,8 @@
       "morpheme_ids": [
         "m-w-s107-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:4"
+      "aligned_qac_word_ref_upstream": "107:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1903,7 +1907,8 @@
       "morpheme_ids": [
         "m-w-s107-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:5"
+      "aligned_qac_word_ref_upstream": "107:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1919,7 +1924,8 @@
         "m-w-s107-a003-w005-01",
         "m-w-s107-a003-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:3:6"
+      "aligned_qac_word_ref_upstream": "107:3:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3316,7 +3322,1085 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:3",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_social_exhortation_circuit",
+            "confidence": "strong",
+            "focus_anchor": "The negated exhortation at word 2 governs the provision at word 4 and its needy recipient at word 5.",
+            "mechanism": "The failure occurs upstream of a meal: the actor refuses to use interpersonal pressure to recruit other people into a directed transfer of nourishment. The focus therefore diagnoses a broken social activation circuit, not merely an unopened private hand.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the interpersonal speech-force that should mobilize action toward a concrete end."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food or answering a request supplies the directed transfer that the mobilizing speech is meant to produce."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Poverty, weakness, and abasement specify the vulnerable condition at the receiving end of the failed circuit."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse faults a person for not personally donating a meal.",
+              "after": "The verse also faults refusal to activate a wider provisioning network on behalf of someone whose weakness limits self-advocacy."
+            }
+          },
+          {
+            "model_id": "B_provision_as_stability",
+            "confidence": "medium",
+            "focus_anchor": "The word-4 provision is bound directly to the word-5 needy person, whose root also carries settlement and staying images.",
+            "mechanism": "Provision can be livelihood rather than a single edible object, while the recipient root can describe both dwelling and the supplies that permit continued residence. Exhorting toward food can thus mean mobilizing the material conditions that prevent displacement and make stable life possible.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Provision, livelihood, earnings, and a lawful share widen food into an enduring material basis of life."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Supplies that let one remain in place make nourishment function as the condition of durable staying."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B002",
+                "role": "Dwelling and lodging provide the stable social endpoint that adequate provision can preserve."
+              }
+            ],
+            "changed_reading": {
+              "before": "Food is a one-time consumable that relieves immediate hunger.",
+              "after": "Food is also livelihood infrastructure whose circulation allows a vulnerable person to remain housed, settled, and socially present."
+            }
+          },
+          {
+            "model_id": "B_reintegrative_graft",
+            "confidence": "exploratory",
+            "focus_anchor": "The construction joins exhortation, provision, and the needy person in one directed relation rather than naming three isolated themes.",
+            "mechanism": "A form-distant food branch imagines successful grafting as accepting an insertion, while the recipient root can name household inhabitants. On this activation, material provision is a joining medium: exhortation recruits the social body to receive someone at risk of exclusion into its sustaining circulation.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "A graft that accepts an inserted branch supplies the material image of successful social attachment."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B003",
+                "role": "Household inhabitants supply the collective body into which the vulnerable person could be received."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging functions as recruitment of that household or community into the act of attachment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Provision is an object passed from a giver to an external recipient.",
+              "after": "Provision can be the bond by which an excluded recipient is grafted back into a sustaining household or community."
+            }
+          },
+          {
+            "model_id": "B_restored_motion_capacity",
+            "confidence": "exploratory",
+            "focus_anchor": "The needy-person root at word 5 can mark stopped motion, while the provision root at word 4 can mark capacity.",
+            "mechanism": "Need is read kinetically as constrained movement or agency. Provision restores capacity, and exhortation is the initiating impulse that should set both resources and the recipient's possibilities in motion; refusing it helps preserve immobilization.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B001",
+                "role": "Cessation of motion supplies the recipient's constrained or stalled condition."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B011",
+                "role": "Ability or capacity makes nourishment a means of restored agency rather than mere caloric intake."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the initiating impulse that should move people and resources toward restoring capacity."
+              }
+            ],
+            "changed_reading": {
+              "before": "The omitted meal leaves hunger unrelieved.",
+              "after": "The omitted mobilization leaves a person socially motionless by withholding the provision through which practical agency could return."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D_visible_counterproof",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The opening demand for attention, attribution of falsity, and accounting frame turn the focus behavior into inspectable evidence. Refusal to recruit nourishment is not only a breach inside a moral system; it is the concrete counter-performance by which denial of that system becomes visible.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "The absent act of urging supplies the observable social behavior under inspection."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the concrete outcome against which the actor's claim is behaviorally tested."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "Attention and inquiry direct the reader to treat subsequent conduct as diagnostic evidence."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsity supplies the contradiction that the actor's treatment of provision makes concrete."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the moral order whose denial is exposed through social conduct."
+              }
+            ],
+            "structural_cues": [
+              "The opening attention-demand precedes the deictic identification in 107:2 and the focus ayah's concrete negation.",
+              "An abstractly denied order is followed by bodily and provisioning behaviors that can serve as its visible test."
+            ],
+            "reader_inference": "The packet supplies attention, falsification, accounting, and non-urging; I infer that the conduct is evidence of the denial rather than merely another item in a list. A live alternative is that the context only juxtaposes independent faults without making one diagnostic of another.",
+            "changed_reading": {
+              "before": "The focus gives a standalone social command that the actor neglects.",
+              "after": "The focus supplies observable counter-evidence: failure to mobilize food reveals what an abstract denial looks like when enacted."
+            }
+          },
+          {
+            "model_id": "D_liability_ledger",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The financial-debt and accounting branches recode provision as a claim that can be owed and reckoned. Urging is then the social act of acknowledging and recruiting discharge of a vulnerable person's outstanding material claim, not an appeal to optional generosity.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood, revenue, and lawful share make the provision capable of being read as an allocated material entitlement."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging becomes collective recognition and enforcement of that material claim."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies the creditor-debtor structure for construing unmet need as liability."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the ledger in which refusal to provision remains answerable."
+              }
+            ],
+            "structural_cues": [
+              "The accounting root in 107:1 precedes a construct linking provision directly to the needy person.",
+              "The focus condemns failure to advocate, which is intelligible as failure to recognize or press another's claim."
+            ],
+            "reader_inference": "The packet supplies debt, reckoning, livelihood, and exhortation; I infer a claim-and-liability relation between the needy person and the provision. The live alternative is a looser analogy to accountability rather than any legal or proprietary entitlement.",
+            "changed_reading": {
+              "before": "Urging food is encouragement toward supererogatory kindness.",
+              "after": "Urging food can be advocacy for payment of an outstanding social claim whose nonrecognition is itself part of denial."
+            }
+          },
+          {
+            "model_id": "D_broken_provision_continuity",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك ذ ب"
+            ],
+            "mechanism": "Two distant falsity branches picture a resource that vanishes instead of lasting and motion that begins then stops. Coupled to livelihood and supplies that permit staying, they activate a process reading: the vice is failure to make provision continuous and self-renewing, so relief repeatedly starts and collapses.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "A milk supply that disappears and does not last supplies the image of unreliable nourishment."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Running followed by stopping supplies the temporal pattern of an aid process that fails to continue."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood makes persistence, rather than one isolated meal, the relevant provisioning scale."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Supplies that enable staying define the stabilizing result that interrupted provision cannot achieve."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses an ongoing negated imperfect, permitting a habitual or process-level omission rather than one narrated incident.",
+              "Provision and the person whose staying is precarious occur in a single compact relation."
+            ],
+            "reader_inference": "The packet supplies nonlasting nourishment, stopped motion, livelihood, and staying; I supply the analogy from those distant falsity images to continuity of aid. The materially live alternative is that the falsity root contributes only denial and that the continuity imagery is accidental.",
+            "changed_reading": {
+              "before": "One occasion of feeding is not encouraged.",
+              "after": "The social mechanism that would keep nourishment circulating is allowed to stall, making provision episodic and incapable of stabilizing life."
+            }
+          },
+          {
+            "model_id": "D_force_direction_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The adjacent actions form a directional reversal. The actor is not inert or short of force: force is discharged physically against a person cut off from support, while verbal and social force is withheld from moving provision toward vulnerability. A non-dominant split branch keeps a latent calling channel beside the dominant shove, making the missing call to care especially sharp.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "A severe push supplies active force directed away from the vulnerable person."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The split mapping's verbal call and inclination supply a latent speech channel that could instead have drawn others toward care."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caregiver identifies the prior loss of support that makes the direction of force consequential."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the prosocial force that should move other agents toward provision but is negated."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another fixes the missing force's intended direction and material endpoint."
+              }
+            ],
+            "structural_cues": [
+              "107:2 and 107:3 place two force-bearing geminate verbs in immediate sequence with opposite directions.",
+              "The first action drives a vulnerable person away; the second action that would drive people toward provision is negated."
+            ],
+            "reader_inference": "The packet supplies severe pushing, a split calling image, caregiver-severance, and urging; I infer a shared economy of agency whose direction is morally reversed. A live alternative is that the adjacent verbs name independent faults without implying reallocation of one force.",
+            "changed_reading": {
+              "before": "The actor is apathetic and fails to exert effort for the needy.",
+              "after": "The actor possesses force but allocates it asymmetrically: coercion travels toward vulnerability while mobilizing speech and resources do not."
+            }
+          },
+          {
+            "model_id": "D_repair_severed_support",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The orphan branch supplies severance from a sustaining caregiver, while the food branch supplies a graft that can accept an insertion and the recipient root supplies a household. Provision becomes reparative attachment: the community should receive a severed person into a new support line, but pushing and non-urging jointly prevent that repair.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a caregiver supplies the severed support relation that requires replacement or repair."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The severe shove functions as failed reception, increasing rather than repairing separation."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "Successful grafting supplies a model for attaching a disconnected life to a new sustaining line."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B003",
+                "role": "The household supplies the social organism capable of receiving and sustaining that attachment."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging recruits the receiving community into the work of reparative attachment."
+              }
+            ],
+            "structural_cues": [
+              "A person defined by severed care in 107:2 is immediately followed by a person defined through need in 107:3.",
+              "Expulsion precedes a negated act of collective mobilization, producing a failed-reception sequence."
+            ],
+            "reader_inference": "The packet supplies caregiver-severance, pushing, graft acceptance, household, and urging; I infer that provision can repair social attachment as well as hunger. The live alternative is direct relief without any stronger claim about incorporation into a household or community.",
+            "changed_reading": {
+              "before": "Food is transferred across a stable boundary between community and recipient.",
+              "after": "Provision is a means of repairing a broken support relation by reattaching the vulnerable person to a sustaining social body."
+            }
+          },
+          {
+            "model_id": "D_ritual_to_material_translation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و"
+            ],
+            "mechanism": "The prayer inventories supply specialized worship, mercy-bearing speech, and binding practice. Set beside negated exhortation, they expose a failed transducer: devotional utterance and disciplined form do not become speech that coordinates nourishment. The focus is the missing social output of ritual language.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the outward, other-moving speech act into which devotional speech would have to translate."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the material output by which that translation becomes effective."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Specialized worship supplies the formal ritual input whose social consequence is being tested."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Prayer, praise, and mercy supply a speech field that should be capable of generating merciful coordination."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch's binding worship image adds regular obligation rather than a fleeting devotional mood."
+              }
+            ],
+            "structural_cues": [
+              "107:4-5 immediately follow the focus and repeat the prayer root across practitioner and practice.",
+              "The focus's missing speech act is followed by ritual forms that include verbal and merciful dimensions."
+            ],
+            "reader_inference": "The packet supplies ritual worship, mercy-bearing prayer, exhortation, and feeding; I infer a required conversion from devotional practice into material coordination. A live alternative is that ritual and social failures are parallel diagnostics with no causal transducer between them.",
+            "changed_reading": {
+              "before": "Failure to urge feeding is a social omission separate from ritual life.",
+              "after": "Failure to urge feeding is the missing conversion point where ritual speech should have become coordinated material mercy."
+            }
+          },
+          {
+            "model_id": "D_stillness_feedback_loop",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ه و"
+            ],
+            "mechanism": "A context branch equates heedlessness with stillness, resonating with the focus recipient root's cessation of motion. This yields a feedback loop: inward ritual stillness fails to launch exhortation, resources remain still, and the vulnerable person's practical capacity remains stalled.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Heedlessness as stillness supplies the unmoving source state from which no social impulse departs."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B001",
+                "role": "Cessation of motion supplies the vulnerable person's stalled endpoint and creates a cross-root stillness echo."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging is the missing kinetic impulse that could move people and provision out of that stillness."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B011",
+                "role": "Capacity defines the agency that moving provision could restore at the receiving end."
+              }
+            ],
+            "structural_cues": [
+              "The focus's recipient root and 107:5's heedlessness root independently offer stillness images.",
+              "A negated mobilizing verb lies between social vulnerability and later ritual inattention."
+            ],
+            "reader_inference": "The packet supplies two stillness images, absent urging, and capacity; I infer a causal loop from inward inattention to stalled resources to stalled agency. A live alternative is noncausal mirroring: the two stillnesses may diagnose analogous conditions without producing one another.",
+            "changed_reading": {
+              "before": "The verse records a missing recommendation.",
+              "after": "The missing recommendation is the absent impulse in a kinetic system: heedless stillness upstream perpetuates constrained agency downstream."
+            }
+          },
+          {
+            "model_id": "D_exhortation_under_anti_spectacle_constraint",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The focus demands an outward social speech act, but the later visibility branches warn that outwardness can be converted into display for an audience. Genuine exhortation is therefore neither silence nor spectacle: it mobilizes people toward the recipient's nourishment, with transfer rather than visibility as its controlling end.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging requires socially outward speech and therefore creates the possibility of both real mobilization and public performance."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Actual feeding supplies the recipient-centered outcome that distinguishes effective advocacy from display."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing oneself to people supplies the corrupt audience-oriented mode that can mimic outward moral action."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing something to appear supplies the mechanism by which an act can optimize its image instead of its material result."
+              }
+            ],
+            "structural_cues": [
+              "A required public-facing act in the focus is followed in 107:6 by a public-facing root used of the actor.",
+              "The material object of exhortation keeps the recipient's nourishment available as a test of whether speech merely appears or actually transfers."
+            ],
+            "reader_inference": "The packet supplies outward exhortation, feeding, showiness, and making-visible; I infer a constraint that legitimate mobilization must be governed by material benefit rather than audience capture. A live alternative is that showiness concerns ritual alone and places no special qualification on public advocacy.",
+            "changed_reading": {
+              "before": "The remedy for silence is simply more visible exhortation.",
+              "after": "The remedy is recipient-centered mobilization that can be public without turning advocacy or the vulnerable person into a prop."
+            }
+          },
+          {
+            "model_id": "D_mutual_aid_recruitment_layer",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The final context supplies a withheld hand, an access barrier, and assistance. These clarify two layers of one aid system: exhortation is upstream recruitment and norm formation; assistance and provision are downstream flow. The actor suppresses both the signal that would enlist others and the aid that would cross the barrier.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the upstream recruitment signal by which a community is enlisted into aid."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and allocated provision supply the resource stream the recruited network should move."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "A hand held back from giving supplies the downstream closure of actual transfer."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier between a person and what is sought supplies the access obstruction produced by that closure."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance and mutual backing supply the cooperative infrastructure being withheld."
+              }
+            ],
+            "structural_cues": [
+              "The focus negates mobilizing speech, while 107:7 closes with plural active withholding.",
+              "The sequence runs from failure to recruit provision to a final barrier against assistance, allowing upstream and downstream failures to be read together."
+            ],
+            "reader_inference": "The packet supplies urging, livelihood, a withheld hand, a barrier, and mutual assistance; I infer a layered aid network with recruitment upstream and transfer downstream. A live alternative is that non-urging and withholding are separate personal defects rather than coordinated suppression of a network.",
+            "changed_reading": {
+              "before": "The actor neither encourages charity nor lends small aid.",
+              "after": "The actor closes the aid ecology at both ends, suppressing the social signal that would recruit provision and the cooperative transfer that would deliver it."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_engineered_low_ground",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it transfers the root's low-ground noun image into a verb whose direct sense is exhortation. It remains anchored through word 2 and gains coherence from the recipient root's settled-position image and the preceding shove; downstream prose should present it only as a spatial activation, not as a lexical gloss.",
+            "focus_anchor": "The word-2 root carries a low-ground branch, and the word-5 root can mark a fixed position.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B002",
+                "role": "Low ground at a mountain's foot supplies a vertical social position beneath those with mobility and resources."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B009",
+                "role": "A settled position supplies the risk that the vulnerable person's low placement becomes fixed."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Poverty and abasement give the vertical image a social rather than merely topographic referent."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The severe push supplies the force by which vulnerability is driven into or kept in that lower position."
+              }
+            ],
+            "changed_reading": {
+              "before": "The actor leaves an already poor person unaided.",
+              "after": "The sequence can picture poverty as engineered low ground: coercion presses vulnerability downward, and absent mobilization lets that assigned position harden."
+            }
+          },
+          {
+            "outlier_id": "O_bitter_communal_medicine",
+            "confidence": "exploratory",
+            "containment": "This activation is branch-distant because it draws on the exhortation root's medicinal-resin branch, not the verb's direct urging sense. It remains focus-anchored and forms a coherent cure-and-ingestion mechanism with the food root; render it as a deliberately qualified metaphor for corrective speech, never as an alternative dictionary translation.",
+            "focus_anchor": "The word-2 root includes a bitter medicinal substance, while the word-4 root includes tasting and taking nourishment in.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B003",
+                "role": "The bitter medicinal substance supplies a corrective that is unpleasant yet potentially curative."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B001",
+                "role": "Tasting and taking nourishment in supply the ingestion pathway by which the corrective could enter communal practice."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Need and abasement identify the social illness whose normalization requires correction."
+              }
+            ],
+            "changed_reading": {
+              "before": "Exhortation is optional moral commentary about somebody else's meal.",
+              "after": "Exhortation can be carried as bitter communal medicine: refusing to voice it leaves a social body accustomed to need untreated."
+            }
+          },
+          {
+            "outlier_id": "O_deprivation_at_the_throat",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because it activates a fighting-and-choking branch of the food root and combines it with contextual pressure and obstruction. It remains anchored at the provision word and yields a coherent bodily-access mechanism, but downstream prose should mark it as an embodied analogy for deprivation rather than claim that the focus literally describes strangling.",
+            "focus_anchor": "The word-4 root contains a branch in which the throat is seized, allowing blocked nourishment to be felt at the body's intake point.",
+            "activation_trace": [
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B012",
+                "role": "Gripping and squeezing the throat turns denial of nourishment into pressure at the channel of intake."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The preceding severe push supplies a second bodily force against vulnerability."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "An access barrier generalizes the bodily blockage into a social obstruction between need and its object."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Weakness and abasement identify who bears the compounded pressure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Non-urging is passive distance from another person's hunger.",
+              "after": "The combined branches let deprivation register as applied pressure: social barriers tighten around the very channel through which sustaining intake should pass."
+            }
+          },
+          {
+            "outlier_id": "O_faint_recipient_attention",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain visual activation built from a faint-star branch and a showiness branch, so it cannot bear a direct lexical claim about the focus. It remains validly anchored in the absent exhortation and the needy recipient: the mechanism concerns allocation of collective attention. Render it as a qualified contrast between amplified self-display and socially faint need.",
+            "focus_anchor": "The negated word-2 act would have directed attention toward the needy person at word 5, but that redirection never occurs.",
+            "activation_trace": [
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "A faint celestial point supplies the image of a real but easily overlooked signal."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Self-display before people supplies the competing signal that captures and amplifies public attention."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging would function as attention redirection, making overlooked need socially salient enough to mobilize response."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Weakness and abasement anchor the faint signal in the actual condition of the focus recipient."
+              }
+            ],
+            "changed_reading": {
+              "before": "The actor fails to say something charitable.",
+              "after": "The actor leaves need below the threshold of collective notice while attention is available for amplifying the self."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from private non-giving to refusal to recruit and coordinate a provisioning network.",
+            "The preceding push made the omission active rather than inert: force is directed against vulnerability while prosocial force is withheld.",
+            "Food widened into livelihood, stable residence, restored agency, and a possible medium of social reattachment.",
+            "Prayer and showiness made exhortation a missing ritual-to-material translation that must remain recipient-centered rather than theatrical.",
+            "Final withholding and assistance branches exposed upstream recruitment and downstream transfer as two closures in one aid ecology."
+          ],
+          "what_was_special": "The compact focus construction supported several coexisting mechanisms without requiring a single final gloss: social signaling, force direction, debt and accountability, durable provision, graft-like reintegration, kinetic stillness, ritual translation, visibility discipline, and mutual-aid architecture. Form-distant low-ground, medicinal, throat-pressure, and faint-signal branches were retained as contained activations because each changed the focus reading while remaining visibly attached to its words.",
+          "remaining_uncertainties": [
+            "The debt model may indicate a real social claim or only an accountability analogy; the packet does not settle the degree of juridical force.",
+            "The continuity model and the four outliers depend on distant branch transfer and should remain exploratory rather than displacing direct exhortation and feeding senses.",
+            "The non-dominant calling branch in the split push root sharpens the force reversal, but its contribution may be latent wordplay rather than an intended semantic channel.",
+            "Public exhortation can be necessary for coordination and vulnerable to showmanship at once; the packet preserves this tension without specifying a single safe public form."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Failure to urge is a broken public mechanism.** Evidence: `ح ض ض B001` urging/inciting toward a thing, `ط ع م B002` feeding another, `س ك ن B006` poverty and humble abasement; activated by plural/social forms in 107:4-7. Structure: the ayah condemns not only non-feeding but non-mobilizing. Mechanism: food for the needy depends on communal pressure and exhortation; the denier blocks even the speech that would move resources. Abductive move: I supply the social-catalyst role of urging; the packet supplies urging, feeding, and needy abasement. Reading change: the ayah targets collapse of advocacy, not only private charity.\n\n2. **Low ground and abasement.** Evidence: `ح ض ض B002` low ground at a mountain-foot, `س ك ن B006` abasement/poverty; activated by `س م و B001` rising high in 107:0 and `س م و B005` raised designation. Structure: high divine naming contrasts with low social placement. Mechanism: the miskīn is not merely poor but held at the bottom while the actor seeks elevated name or display. Abductive move: I infer vertical social mapping; the packet supplies high/low and abasement branches. Reading change: “على طعام المسكين” becomes a scene of refused lifting from low ground.\n\n3. **Food as provisionary order, not morsel.** Evidence: `ط ع م B001` food/taste, `ط ع م B004` livelihood/legal share/revenue, `ط ع م B005` ripening/produce; activated by `د ي ن B003` debt/credit and `م ع ن B005` small available benefit. Structure: food sits between dīn-debt and maʿūn-benefit. Mechanism: feeding is part of an economy of due provision, shares, produce, and circulating small goods. Abductive move: I supply that “food” stands for access to livelihood channels; the packet supplies provision, legal share, debt, and lent benefit. Reading change: the ayah criticizes refusal to sustain the needy’s place in the provisioning system.\n\n4. **Need as lack of settled rest.** Evidence: `س ك ن B001` cessation/stillness, `س ك ن B002` dwelling, `س ك ن B004` comfort/rest, `س ك ن B010` provision enabling staying. Structure: miskīn is built from a root whose branches include house, rest, and food that lets one remain. Mechanism: hunger destabilizes residence; feeding restores the capacity to stay and be calm. Abductive move: I infer that food repairs motion/agitation and homelessness; the packet supplies rest, dwelling, provision, and needy branches. Reading change: طعام المسكين reads as restoration of settled human life, not just caloric relief.",
@@ -12988,14 +14072,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13240,10 +14330,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 72068,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

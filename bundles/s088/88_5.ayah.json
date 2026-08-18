@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.767258+00:00",
+  "generated_at": "2026-08-18T13:33:34.735298+00:00",
   "surah": 88,
   "ayah": 5,
   "ayahRef": "88:5",
@@ -1736,7 +1736,8 @@
       "morpheme_ids": [
         "m-w-s088-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:5:1"
+      "aligned_qac_word_ref_upstream": "88:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1750,7 +1751,8 @@
       "morpheme_ids": [
         "m-w-s088-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:5:2"
+      "aligned_qac_word_ref_upstream": "88:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1764,7 +1766,8 @@
       "morpheme_ids": [
         "m-w-s088-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:5:3"
+      "aligned_qac_word_ref_upstream": "88:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1778,7 +1781,8 @@
       "morpheme_ids": [
         "m-w-s088-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:5:4"
+      "aligned_qac_word_ref_upstream": "88:5:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3866,7 +3870,1445 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:5",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_terminal_source",
+            "confidence": "strong",
+            "focus_anchor": "The passive verb at word 1, the source noun at word 3, and the adjective at word 4.",
+            "mechanism": "The construction presents drinking as something done to a recipient, traces it back to a water-source, and characterizes that source by a process that has reached readiness or its limit. Heat is therefore terminal state, not merely ambient warmth.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink is the literal event, while the passive form makes administration to the recipient the mechanism."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A springing water-eye supplies the concrete source from which the administered liquid proceeds."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Reaching due completion, including heat reaching its limit, makes the source terminally ready rather than generically hot."
+              }
+            ],
+            "changed_reading": {
+              "before": "Someone is served very hot water.",
+              "after": "A recipient is made to take drink from a spring whose heating or maturation has reached its terminal state."
+            }
+          },
+          {
+            "model_id": "b_allocated_supply",
+            "confidence": "medium",
+            "focus_anchor": "The passive watering verb at word 1 and the source introduced at word 3.",
+            "mechanism": "Watering can mean granting a water-source or assigning an irrigation share and channel. Joined to a spring and passive reception, the verse can profile a whole provision regime rather than a single cup.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B002",
+                "role": "Providing a watering source contributes availability as an imposed arrangement, not just a momentary act of serving."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "An irrigation share and its channel supply the idea of a routed and allotted flow."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing water-eye functions as the head of the supply system."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Due completion fixes the supplied medium in its finished and harmful state."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line depicts one forced sip.",
+              "after": "The line can depict assignment to a source-and-channel regime whose entire available provision has reached terminal heat."
+            }
+          },
+          {
+            "model_id": "b_driven_to_source",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive verb at word 1, retained under both mapped root inventories, and the spring at word 3.",
+            "mechanism": "The non-dominant mapped inventory introduces driving and impelling, including livestock. Alongside the dominant act of watering, the passive can faintly carry two directions at once: liquid is driven into recipients, or recipients are driven to the source.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Driving or impelling livestock supplies coercive motion toward the drinking point."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Literal giving of drink keeps the exploratory driving image attached to the actual verbal event."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The springing source supplies the destination or origin around which the coercive motion operates."
+              }
+            ],
+            "changed_reading": {
+              "before": "The recipients are simply served from a spring.",
+              "after": "The recipients may also be heard as impelled into a watering operation, with service shading into herding."
+            }
+          },
+          {
+            "model_id": "b_aperture_vessel",
+            "confidence": "exploratory",
+            "focus_anchor": "The watering root at word 1, the eye noun at word 3, and the completion adjective at word 4.",
+            "mechanism": "An eye can be a leaking aperture in a waterskin, an associated focus branch can denote enclosed bodily fluid, and the final root can name a vessel. Their conjunction permits a material reading of controlled passage from container through opening into body.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B005",
+                "role": "Fluid enclosed in the belly contributes the bodily receiving chamber and the possibility of harmful accumulation."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B007",
+                "role": "The eye-like leaking hole in hide or waterskin supplies a delivery aperture rather than a landscape spring."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B004",
+                "role": "The vessel or container branch supplies the enclosing apparatus from which a dose can pass."
+              }
+            ],
+            "changed_reading": {
+              "before": "The source is necessarily an open natural spring.",
+              "after": "The words can also activate a containerized dosing image: liquid passes through an eye-like opening and accumulates within the recipient."
+            }
+          },
+          {
+            "model_id": "b_appointed_occasion",
+            "confidence": "exploratory",
+            "focus_anchor": "The adjective at word 4 under its dominant and non-dominant mapped inventories.",
+            "mechanism": "Due completion and the non-dominant image of a time or occasion overlap around appointed readiness. The adjective can therefore carry a temporal edge alongside the thermal one.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Coming due or reaching full heat supplies a completed state ready for administration."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000068",
+                "branch_id": "B003",
+                "role": "Time, occasion, and recurring intervals supply an appointed moment for that completed state."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "The act of giving drink functions as the event scheduled for the due occasion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective reports temperature alone.",
+              "after": "The drink may be both at full heat and at its appointed time, a dose that has come due."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_covering_enters_body",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The opening presents a calamity that comes, becomes an event, and covers comprehensively. The focus's passive drinking then offers a bodily phase of that event: what first surrounds the recipients is later made to cross into them.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Literal giving of drink supplies the inward crossing that anchors the covering-event model in the focus."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B011",
+                "role": "The coming of calamity or destruction supplies an event moving toward its recipients."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B005",
+                "role": "A temporal calamity or occurrence makes the report a happening rather than static information."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "A covering that encompasses and envelops supplies the event's external totality."
+              }
+            ],
+            "structural_cues": [
+              "The opening names a coming, encompassing event; four verses later the same scene reaches an agentless bodily intake."
+            ],
+            "reader_inference": "The packet supplies coming, calamity, comprehensive covering, and drinking. I supply the arrow from external envelopment to internal penetration; a live alternative is that the focus is only one item within the event, without a boundary-crossing design.",
+            "changed_reading": {
+              "before": "The hot drink is a local detail inside a larger scene.",
+              "after": "The drink can be the point where the all-covering event becomes internal, entering the same recipients it surrounds."
+            }
+          },
+          {
+            "model_id": "d_fire_internalized",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج ه",
+              "خ ش ع",
+              "ع م ل",
+              "ن ص ب",
+              "ص ل ي",
+              "ح م ي"
+            ],
+            "mechanism": "Faces are lowered, worked to exhaustion, and exposed to a heated fire before being given drink from a source at completed heat. The drink does not interrupt burning; it transfers the thermal environment into the body.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink supplies the bodily intake through which external heat becomes internal."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Heat reaching its limit fixes the drink at the culmination of the thermal sequence."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face and what fronts an event identify the embodied recipients carried through the predicate chain."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission supply a posture unable to refuse the later administration."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B007",
+                "role": "Self-exhausting toil supplies depletion that would ordinarily make drink restorative."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness and affliction intensify the body's need and make the offered liquid an inversion of relief."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat supplies the external thermal exposure immediately before drinking."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heating and high temperature make the fire-to-spring continuity materially explicit."
+              }
+            ],
+            "structural_cues": [
+              "Verses 88:2-5 form a continuous chain of feminine predicates whose recipient is introduced as faces.",
+              "The focus follows fire exposure immediately, so drinking occupies the expected relief slot but reverses its function."
+            ],
+            "reader_inference": "The packet supplies lowered faces, toil, exhaustion, fire heat, passive drinking, and terminal heat. I infer a transfer from environmental burning to ingested burning; the alternative is a serial catalogue of separate punishments.",
+            "changed_reading": {
+              "before": "The source happens to contain scalding water after a fire scene.",
+              "after": "The source completes a thermal circuit: fire burns from outside, then the administered liquid carries that same extremity inside."
+            }
+          },
+          {
+            "model_id": "d_failed_provision",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ع م",
+              "س م ن",
+              "غ ن ي",
+              "ج و ع"
+            ],
+            "mechanism": "The following food is present and ingested yet fails both nourishment and relief from hunger. That functional failure revises the focus's watering system into anti-provision: supply and intake remain, but benefit has been engineered out.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B002",
+                "role": "Providing a watering source supplies the formal availability whose benefit can be withheld."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The water-source makes deprivation occur through corrupted provision rather than simple absence."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Food as provision, livelihood, and good condition supplies the normal function that this food fails."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "س م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000744",
+                "branch_id": "B001",
+                "role": "Fatness opposed to wasting supplies one expressly negated nutritive outcome."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the second expressly negated function: the food does not meet the need."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty belly supplies the unmet bodily deficit that persists despite available intake."
+              }
+            ],
+            "structural_cues": [
+              "The focus's drink is followed by a food clause and then two explicit denials of food's expected effects."
+            ],
+            "reader_inference": "The packet explicitly supplies failed food function but does not state thirst. I extend the same anti-provision logic backward from food to drink because the two intake scenes are adjacent; the live alternative is that only the food is functionally null while the drink harms solely by heat.",
+            "changed_reading": {
+              "before": "The punishment is bad content replacing absent refreshment.",
+              "after": "The punishment is a functioning delivery system for non-functioning provision: recipients drink and eat, yet intake preserves need instead of answering it."
+            }
+          },
+          {
+            "model_id": "d_opposed_water_service",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج ه",
+              "ن ع م",
+              "ع ي ن",
+              "ج ر ي",
+              "ك و ب",
+              "و ض ع"
+            ],
+            "mechanism": "The later face-panel repeats the spring but changes its operating mode: it flows, continues as provision, and is accompanied by drinking vessels placed ready. Against it, the focus becomes the other half of a designed hydraulic contrast: terminal source, coerced recipient, and no service vessel.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B002",
+                "role": "Providing a watering source frames the focus as one mode of access within a larger service comparison."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The springing water-eye supplies the repeated object that allows direct comparison with the later panel."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Terminal readiness makes the focus source completed and arrested at an extreme, opposite the later ongoing flow."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated faces establish a matched recipient panel for the alternate water regime."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing supply the beneficial state associated with the alternate panel."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The repeated flowing water-eye makes the source lexeme itself the hinge of the contrast."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing and coursing supply open movement instead of liquid held at terminal heat."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision turns the flow into sustained beneficial availability."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B005",
+                "role": "Drinking by cup supplies a humane interface between source and recipient."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placement in a settled position makes the vessels ready for voluntary use."
+              }
+            ],
+            "structural_cues": [
+              "Verses 88:2 and 88:8 begin matched face-panels.",
+              "The noun rooted in ع ي ن occurs in both 88:5 and 88:12, while only the later panel adds flow and placed cups."
+            ],
+            "reader_inference": "The packet supplies matched faces, repeated springs, terminal heat, ongoing flow, and placed cups. I infer that these details encode opposed service architectures; the alternative is a simpler moral contrast with no hydraulic design beyond descriptive scenery.",
+            "changed_reading": {
+              "before": "The focus and the later spring are unrelated bad and good landscape details.",
+              "after": "The focus is one half of an engineered access contrast: punished faces are passively dosed from a terminal source, while favored faces inhabit continuous flow with vessels already placed for use."
+            }
+          },
+          {
+            "model_id": "d_hostile_speech_ingestion",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و"
+            ],
+            "mechanism": "A focus branch describes disliked or hostile matter repeatedly watered into the heart. The later panel's exclusion of heard insult, falsehood, and mixed noise activates a non-liquid layer: punitive drinking can also figure compelled affective or verbal intake.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B010",
+                "role": "Forcing disliked matter into the heart by repeated watering supplies the literal lexical bridge from liquid intake to affective imposition."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B006",
+                "role": "Making someone hear abuse or insult supplies the harmful auditory material absent from the favorable realm."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "False and ugly speech supplies the content that could be metaphorically poured inward."
+              }
+            ],
+            "structural_cues": [
+              "The favorable panel explicitly removes harmful speech from hearing, creating a sensory counterpart to the earlier forced intake."
+            ],
+            "reader_inference": "The packet supplies a watering-the-heart branch and the absence of heard ugly speech. I infer a contrast between compelled inward hostility and protected hearing; the live alternative is that the idiomatic branch remains only lexical residue and the focus denotes liquid alone.",
+            "changed_reading": {
+              "before": "Only the mouth and stomach are affected by the hot liquid.",
+              "after": "An exploratory co-reading lets the watering reach the heart: the recipient is made to internalize hostility, opposite a realm where no degrading speech is heard."
+            }
+          },
+          {
+            "model_id": "d_camel_driven_watering",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ب ل"
+            ],
+            "mechanism": "The later camel cue meets the focus root's non-dominant image of driving livestock and its dominant image of watering. The camel inventory also supplies sufficiency without water, making forced drinking an inverse animal-management scene.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Driving or impelling livestock supplies the herding motion latent in the focus's secondary mapped root."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink preserves the primary watering event while the driving image changes its agency."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "Camels and their tending provide the explicit livestock domain that the focus's driving branch lacked on its own."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B002",
+                "role": "Doing without water supplies the bodily counter-capacity that forced watering reverses."
+              }
+            ],
+            "structural_cues": [
+              "Verse 88:17 places camels under a repeated how-question soon after the two contrasting water-service scenes."
+            ],
+            "reader_inference": "The packet supplies the secondary driving map, literal watering, camels, and water-independence. I supply the cross-root herding arrow from recipients to source; the dominant alternative remains straightforward passive drinking without livestock imagery.",
+            "changed_reading": {
+              "before": "The recipients remain stationary while a drink is brought to them.",
+              "after": "A contained exploratory reading hears them herded like livestock into a compulsory watering whose excess reverses the camel's capacity to do without water."
+            }
+          },
+          {
+            "model_id": "d_engineered_dosing_station",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ل ق",
+              "ر ف ع",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "Focus branches supply channel, receptacle, and vessel. The later sequence supplies measuring a created thing, raising, setting upright, and flattening, including a flattened container. Repeated passive constructions activate the focus as an arranged dosing fixture rather than an incidental spring.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "The irrigation share and channel supply routed delivery within a constructed arrangement."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B009",
+                "role": "An eye-like socket, recess, or receptacle supplies the shaped outlet of the apparatus."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B004",
+                "role": "A vessel or container supplies the bounded reservoir from which dosing occurs."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning a thing supplies deliberate design rather than accidental form."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising a thing supplies one operation in the sequence of arranged structures."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and prominent supplies fixing an element into position."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B004",
+                "role": "A flattened or one-sided container directly reinforces the focus's vessel-and-receptacle activation."
+              }
+            ],
+            "structural_cues": [
+              "The branchless root ك ي ف occurs only as a structural cue at 88:17 word 5 and at word 3 of 88:18, 88:19, and 88:20, repeatedly asking after construction.",
+              "The passive forms at the ends of 88:17-20 echo the focus's passive administration."
+            ],
+            "reader_inference": "The packet supplies channel, receptacle, vessel, measuring, raising, setting, flattening, and repeated passive syntax. I infer that these operations can reframe the spring as an engineered station; the live alternative is that the construction sequence is rhetorically adjacent but materially unrelated to the focus.",
+            "changed_reading": {
+              "before": "The spring is a naturally occurring location from which a drink is taken.",
+              "after": "The spring can be imagined as a measured, positioned containment-and-channel apparatus that delivers a completed dose."
+            }
+          },
+          {
+            "model_id": "d_agency_transfer",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر",
+              "و ل ي",
+              "ك ف ر",
+              "ع ذ ب",
+              "ء ل ه"
+            ],
+            "mechanism": "The messenger's role is bounded as reminder rather than coercive overseer; turning away and covering truth follow; then a named divine subject punishes. This sequence sharpens the focus's unstated agent: compulsory drinking belongs to punitive agency beyond the human reminder.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "The passive giving of drink leaves the administering agent open for the later agency sequence to constrain."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder and that which reminds supply the limited communicative task assigned to the messenger."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Control by a dominating overseer supplies the coercive role explicitly denied to the messenger."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the recipient's prior directional refusal."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing truth supplies the refusal's epistemic action rather than mere bodily movement."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the class of action into which compulsory drinking can fall."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped deity branch grounds the named divine subject against the denied human controller."
+              }
+            ],
+            "structural_cues": [
+              "Verses 88:21-24 move from reminder, through denial of human control, to refusal and an explicit punitive subject.",
+              "The focus's passive verb suppresses its agent, making the later distribution of agency diagnostically relevant."
+            ],
+            "reader_inference": "The packet supplies passive administration, reminder, denied human control, refusal, and explicit divine punishment. I infer that the later clause constrains the focus's unnamed punitive agent; an alternative is that 88:24 names only the greater punishment and leaves the drink's immediate server wholly unspecified.",
+            "changed_reading": {
+              "before": "An unidentified attendant happens to serve the hot drink.",
+              "after": "The omitted agent becomes part of a deliberate agency contrast: warning does not compel, but the punitive order beyond the warner can make the body receive what the will refused."
+            }
+          },
+          {
+            "model_id": "d_anti_sweetness",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ذ ب"
+            ],
+            "mechanism": "The punishment root carries coexisting images of sweet potable water, bodily abstention from intake, withholding or weaning, and painful punishment. Beside the focus, punishment becomes a systematic reversal of water's sweetness and sustaining function rather than heat alone.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Literal giving of drink supplies real intake, preventing the model from collapsing into simple deprivation."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing water-source supplies the medium whose normal potability is reversed."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Heat at its limit supplies the concrete operation that makes the water anti-refreshing."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B001",
+                "role": "Sweetness and pleasantness in water and food supply the positive quality being inverted."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B002",
+                "role": "The body's abstention from eating and drinking supplies deprivation as a bodily state."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Withholding and weaning supply the removal of benefit while the liquid itself remains present."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Pain and punishment make the inversion operative as penalty."
+              }
+            ],
+            "structural_cues": [
+              "Verse 88:24 repeats the same punishment root as verb and noun after the drink-and-food sequence."
+            ],
+            "reader_inference": "The packet supplies sweetness, abstention, withholding, punishment, and an actually delivered hot drink. I supply the antipodal relation that punishment weaponizes the form of provision by removing its sweetness and benefit; the conservative alternative keeps only the punishment branch and treats the others as unrelated polysemy.",
+            "changed_reading": {
+              "before": "The water punishes because its temperature is painful.",
+              "after": "The water is anti-water: it is delivered and swallowed while sweetness, refreshment, and the satisfaction of need are actively reversed."
+            }
+          },
+          {
+            "model_id": "d_return_account_due_dose",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Return to a destination and subsequent counting or review activate both mapped temporal images in the focus adjective. The heated source can be read as a completed allotment that comes due at the terminal return.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Reaching due completion supplies a dose whose condition and time have matured."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000068",
+                "branch_id": "B003",
+                "role": "Time and occasion supply the secondary temporal register activated by the ending."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B002",
+                "role": "Providing a watering allotment turns terminal timing into the delivery of an assigned share."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the terminal arrival at which the allotment can fall due."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply exact apportionment rather than arbitrary serving."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Reviewing a matter supplies adjudicative inspection of the assigned outcome."
+              }
+            ],
+            "structural_cues": [
+              "The surah closes with return followed by accounting, giving the earlier completion adjective a terminal temporal frame."
+            ],
+            "reader_inference": "The packet supplies due completion, occasion, return, counting, review, and a provided water share. I infer that the focus's dose is appointed and apportioned at that return; the live alternative is that the adjective remains purely thermal and the final accounting has no timing relation to it.",
+            "changed_reading": {
+              "before": "The source is hot whenever the recipients encounter it.",
+              "after": "The source can also be an accounted allotment ripened for a due occasion, administered at the endpoint of return."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_care_form_reversed",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a punitive line activates ordinary care and gentle calm. It remains anchored in two focus roots and gains force from the dominant terminal-heat branch, which reverses rather than erases those care images. Downstream prose should present it as an ironic branch activation, not as the lexical translation of the adjective.",
+            "focus_anchor": "The act of giving drink at word 1 and the split inventory of the adjective at word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving water to a drinker supplies the recognizable outer form of care."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000068",
+                "branch_id": "B001",
+                "role": "Ease, gentleness, and calm supply the form-distant expectation of considerate administration."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Heat reaching its limit reverses the gentle expectation and turns care's gesture into torment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Forced drinking has no relation to care.",
+              "after": "The punishment can wear the exact outward grammar of care, then invert it by making the offered relief terminally harmful."
+            }
+          },
+          {
+            "outlier_id": "o_penetrating_toxic_medium",
+            "confidence": "exploratory",
+            "containment": "This activation is surprising because it comes from the non-dominant س م م mapping attached to the context word for sky. It remains valid as packet-supplied cross-domain pressure on a focus act that literally introduces liquid into the body. Downstream prose must label it a split-root resonance, not claim that the sky word or the focus spring denotes poison.",
+            "focus_anchor": "The passive drinking at word 1 and terminal-state adjective at word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink supplies the route by which a harmful medium enters the recipient."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Heat at its limit keeps the toxic resonance materially attached to the focus's extreme liquid."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B002",
+                "role": "Poison entering the body supplies a penetrating rather than merely surface-burning harm."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A hot penetrating wind reinforces heat as something that passes through and invades."
+              }
+            ],
+            "changed_reading": {
+              "before": "The liquid harms only by contact temperature.",
+              "after": "A split-root resonance lets the liquid act as a penetrating toxic medium whose harm continues after entry."
+            }
+          },
+          {
+            "outlier_id": "o_marking_liquid",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain material analogy between dye-soaked cloth and rain that marks earth with growth. It remains anchored in the focus watering verb and water-eye, with the marking cue supplied by a non-dominant context mapping. Downstream prose should qualify it as an image of irreversible inscription by intake, never as a direct lexical sense of the verse.",
+            "focus_anchor": "The watering verb at word 1 and the water-eye at word 3.",
+            "activation_trace": [
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B009",
+                "role": "Soaking cloth with dye supplies liquid that changes and marks what absorbs it."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B010",
+                "role": "Cloud and lasting rain keep the marking analogy within a water-bearing domain."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "First rain that marks the earth with vegetation supplies visible inscription by water."
+              }
+            ],
+            "changed_reading": {
+              "before": "The drink causes a transient episode of pain.",
+              "after": "The administered liquid can be imagined as a dye-like medium that marks its recipients from within."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding fire turns the drink into internalized burning rather than relief after burning.",
+            "The repeated spring, flowing modifier, and placed cups create opposed water-service architectures for the two face-panels.",
+            "The camel cue activates the non-dominant driving branch, allowing compulsory watering to shade into herding.",
+            "The punishment root's sweetness, abstention, withholding, and pain branches recast the source as anti-water whose benefit is actively reversed.",
+            "Return and accounting strengthen a temporal reading of the adjective: the heated allotment has come due at a terminal occasion."
+          ],
+          "what_was_special": "All three focus roots remained mobile. Drinking shifted among care, coercion, allocation, bodily penetration, and marking; the eye shifted among spring, aperture, receptacle, and rain; the adjective held terminal heat, vessel, gentleness, and appointed time. Context did not select one meaning but repeatedly rebuilt the same short clause as thermal circuit, failed provision, hydraulic regime, herding scene, dosing apparatus, agency boundary, and due allotment.",
+          "remaining_uncertainties": [
+            "The dominant completion branch strongly supports heat at its limit, while vessel, occasion, and gentle-calm readings remain deliberately secondary.",
+            "The س و ق, ء و ن, س م م, and و س م activations are packet-resolved but form-distant; they should coexist as exploratory pressure without displacing the ordinary watering and spring reading.",
+            "The late explicit punitive subject constrains the focus's omitted agent but does not grammatically identify the immediate server.",
+            "The anti-provision inference extends the food's stated functional failure backward to drink; the drink's failure to relieve thirst is not itself stated."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Forced watering from a source at its heat-limit.** Evidence: `س ق ي` B001 giving drink, B002 providing a watering source; `ع ي ن` B006 springing water-eye; `ء ن ي` B003 reaching due completion/heat limit. Structural cue: this drink follows hot fire and contrasts with 88:12 `عين جارية`. Role: the spring supplies the drink-source, while `آنية` makes it a source whose time/heat has fully arrived. Abductive move: water in punishment can retain the structure of watering while reversing refreshment. Reading change: the ayah reads as anti-saqyā: a complete watering that harms.\n\n2. **The eye of seeing becomes the eye of drinking.** Evidence: `ع ي ن` B001 seeing eye, B002 face-to-face seeing, B006 water-spring; later `ن ظ ر` B001 looking in 88:17 and repeated `كيف`. Structural cue: the packet repeatedly moves through faces, eyes/springs, and looking. Role: `عين` bridges perception and water-source. Abductive move: the event that should be looked at also returns as a source one must drink from. Reading change: `عين` is not only a spring; it is a visible, confronting source in the visual pedagogy of the surah.\n\n3. **Delay ripens into punishment.** Evidence: `ء ن ي` B001 deliberate delay and B003 due completion; `ء ت ي` B001/B011 arrival of event/calamity in 88:1. Structural cue: the event “has come,” and now the spring is “āniyah.” Role: delayed time reaches its endpoint as consumable punishment. Abductive move: respite or delay is not absence; it matures until the event becomes due. Reading change: `آنية` reads temporally as ripened arrival, not merely boiling quality.",
@@ -17422,14 +18864,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17986,10 +19434,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 246982,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

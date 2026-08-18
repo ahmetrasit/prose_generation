@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.707273+00:00",
+  "generated_at": "2026-08-18T13:34:31.545330+00:00",
   "surah": 104,
   "ayah": 3,
   "ayahRef": "104:3",
@@ -1668,7 +1668,8 @@
       "morpheme_ids": [
         "m-w-s104-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:3:1"
+      "aligned_qac_word_ref_upstream": "104:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1682,7 +1683,8 @@
       "morpheme_ids": [
         "m-w-s104-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:3:2"
+      "aligned_qac_word_ref_upstream": "104:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1698,7 +1700,8 @@
         "m-w-s104-a003-w003-01",
         "m-w-s104-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:3:3"
+      "aligned_qac_word_ref_upstream": "104:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1714,7 +1717,8 @@
         "m-w-s104-a003-w004-01",
         "m-w-s104-a003-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:3:4"
+      "aligned_qac_word_ref_upstream": "104:3:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2400,7 +2404,1261 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:3",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_supposed_causal_permanence",
+            "confidence": "strong",
+            "focus_anchor": "The cognition at word 1 takes the possessed wealth at word 3 as the cause expressed by the causative permanence verb at word 4.",
+            "mechanism": "A supposition transfers causal power from the possessor to his possession: accumulated property is imagined to manufacture an enduring state for him.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch supplies the uncertain mental judgment that launches the causal claim."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The acquiring-and-having branch supplies the possessed stock that is promoted into an agent."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The enduring-state branch supplies the imagined result, while the causative form assigns its production to wealth."
+              }
+            ],
+            "changed_reading": {
+              "before": "He thinks his wealth has made him immortal.",
+              "after": "He performs a causal misattribution in which possessed stock is treated as a machine for producing duration in its possessor."
+            }
+          },
+          {
+            "model_id": "b_quantity_converted_to_duration",
+            "confidence": "medium",
+            "focus_anchor": "The reckoning verb at word 1, the countable possession at word 3, and the duration predicate at word 4 form a quantity-to-time sequence.",
+            "mechanism": "The same mental operation that totals property silently extrapolates the total into lifespan: measurable abundance is mistaken for an increase in duration.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "The counting-and-accounting branch supplies the quantitative operation behind the judgment."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies an inventory capable of being totaled and increased."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The long-lasting-state branch supplies the temporal quantity onto which the property total is projected."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth vaguely gives him confidence that he will last.",
+              "after": "He reads life as a balance sheet, converting a rising property total into an imagined extension of personal time."
+            }
+          },
+          {
+            "model_id": "b_wealth_as_prop_for_clinging",
+            "confidence": "exploratory",
+            "focus_anchor": "A support image latent at word 1 can act through the possessive noun at word 3 upon the staying-and-clinging range of word 4.",
+            "mechanism": "Wealth is imagined as enoughness made material: a cushion or prop on which the subject can settle, remain attached, and resist displacement.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "The sufficiency branch supplies the belief that wealth is enough to answer vulnerability."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "The cushioning branch physicalizes that sufficiency as something that props or seats the subject."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The property branch supplies the material converted into the imagined support."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The leaning-and-clinging branch turns permanence into settled attachment rather than abstract endlessness."
+              }
+            ],
+            "changed_reading": {
+              "before": "He expects wealth to grant abstract immortality.",
+              "after": "He imagines wealth as a sufficient physical and social prop on which he can settle and become immovable."
+            }
+          },
+          {
+            "model_id": "b_wealth_as_fixed_status_insignia",
+            "confidence": "exploratory",
+            "focus_anchor": "The cognition at word 1 can reckon wealth among grounds of standing, while word 4 can image something enduringly fixed upon a person.",
+            "mechanism": "Possession is converted into visible merit; the subject mistakes an attached badge of rank for a status that cannot decay.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B004",
+                "role": "The counted-merit branch supplies social worth, including wealth, as a basis of rank."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The possession branch supplies the visible resource from which rank is inferred."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B003",
+                "role": "The body-fixed adornment branch supplies the image of status worn as a lasting insignia."
+              }
+            ],
+            "changed_reading": {
+              "before": "He expects biological survival from wealth.",
+              "after": "He may also mistake wealth-marked prestige, fixed to him like an insignia, for an undying social self."
+            }
+          },
+          {
+            "model_id": "b_immortality_as_settled_inner_thought",
+            "confidence": "exploratory",
+            "focus_anchor": "The sentence begins with an uncertain judgment at word 1 and ends with a root whose inventory includes a thought settled inwardly at word 4.",
+            "mechanism": "The predicate can echo back into the cognition: wealth not only appears to prolong the subject but makes the prolongation-belief lodge and persist inside him.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch supplies the proposition whose persistence is at issue."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies both the proposition's object and the force that repeatedly confirms it."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "The inwardly settled-thought branch relocates permanence from lifespan to the durability of the conviction itself."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports a mistaken belief about external longevity.",
+              "after": "It can simultaneously diagnose wealth as having made the longevity-belief itself settle and persist within the subject."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c_social_attack_maintains_rank",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The preceding portrait turns fixed wealth-status into a repeated comparative practice: comprehensive faulting and social pressure lower others so the subject's own rank can feel permanent.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B004",
+                "role": "The counted-merit branch anchors the changed reading in wealth-based social standing."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies the comparative resource whose prestige is being defended."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B003",
+                "role": "The fixed-adornment branch lets prestige appear attached to the subject as a durable badge."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The encompassing-whole branch makes the social practice comprehensive rather than occasional."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "The branch of attacking people's defects supplies one means of producing downward comparison."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The faulting branch doubles the mechanism and makes disparagement look habitual."
+              }
+            ],
+            "structural_cues": [
+              "The totalizing modifier and paired agent nouns precede the accumulation and belief sequence.",
+              "The two neighboring faulting expressions make social aggression a repeated profile rather than an isolated remark."
+            ],
+            "reader_inference": "The packet supplies comprehensive, repeated faulting plus wealth-based merit; I infer that lowering others is a maintenance mechanism for seemingly durable rank. A live alternative is that the first ayah only identifies the subject's conduct and does not explain his longevity belief.",
+            "changed_reading": {
+              "before": "Wealth appears to promise either life or static prestige.",
+              "after": "He makes wealth feel socially immortal by continually depressing others' standing beneath his own."
+            }
+          },
+          {
+            "model_id": "c_pressure_buffer_immovability",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "Physical pressure and pushing images activate the focus's remote cushioning branch: wealth becomes an impact-absorbing buffer that lets the subject press others while imagining himself impossible to dislodge.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "The cushioning branch supplies the buffer that absorbs pressure and props the subject in place."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The settled-clinging branch converts immortality into resistance to displacement."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "The squeezing branch supplies an external force against which the imagined wealth-buffer operates."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "The prodding branch turns social harm into force that moves another body."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "The pushing branch reinforces a force-field reading of domination and resistance."
+              }
+            ],
+            "structural_cues": [
+              "The paired actor nouns permit their verbal aggression to be heard as repeated pressure before the focus claim.",
+              "The focus's causative ending allows the wealth-buffer to be imagined as producing the subject's immovability."
+            ],
+            "reader_inference": "The packet supplies squeezing, prodding, pushing, cushioning, and clinging; I infer a counterforce relation in which wealth buffers the aggressor and transmits pressure outward. The alternative is a purely verbal-social reading with no material pressure analogy.",
+            "changed_reading": {
+              "before": "Wealth is a general comfort that makes him feel secure.",
+              "after": "Wealth is imagined as a pressure-buffer: it seats him firmly enough to push others and mistake protected position for permanence."
+            }
+          },
+          {
+            "model_id": "c_repeated_count_projects_time",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "Gathering turns scattered assets into one inventory, repeated enumeration stabilizes that inventory as a mental total, and the focus's reckoning projects the total into enduring time.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "The accounting branch anchors the mental conversion from inventory to predicted duration."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The enduring-state branch supplies the temporal result wrongly inferred from the total."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The gathering branch supplies the first operation, consolidating scattered items into a countable whole."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch identifies what is consolidated and measured."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The enumeration branch makes counting an explicit repeated practice rather than a hidden metaphor."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "The recurring-time branch supplies the bridge by which repeated totals can masquerade as renewed time."
+              }
+            ],
+            "structural_cues": [
+              "The immediately preceding sequence moves from consolidation to wealth to intensive enumeration.",
+              "The focus then begins with another reckoning term, creating an accounting echo across the ayah boundary."
+            ],
+            "reader_inference": "The packet supplies gathering, wealth, enumeration, recurring time, and enduring duration; I infer that the subject transfers numerical increase into temporal increase. The alternative is that counting merely characterizes hoarding and has no cognitive role in the permanence claim.",
+            "changed_reading": {
+              "before": "He has much wealth and therefore feels generally safe.",
+              "after": "Each recounting rehearses a false equation: a larger, repeatedly refreshed total is treated as a longer, repeatedly refreshed life."
+            }
+          },
+          {
+            "model_id": "c_possession_reverses_into_fetter",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "The hoard is not only gathered; latent fist and fetter images make gathering constrictive. Prepared stock then binds the possessor to maintenance of the stock, activating permanence as clinging rather than freedom from death.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The property branch anchors the possessive relation that will be reversed."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The clinging branch allows the supposed gift of permanence to become attachment and inability to leave."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B005",
+                "role": "The clenched-hand branch materializes accumulation as a grip rather than neutral collection."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B008",
+                "role": "The fetter branch supplies the reversal in which what is brought together also binds."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The repeated wealth branch makes the bond specifically a relation to accumulated property."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "The prepared-stock branch adds vigilance and provisioning that keep the possessor servicing the hoard."
+              }
+            ],
+            "structural_cues": [
+              "The object pronoun on the counting verb closes the action back upon the gathered wealth.",
+              "The possessive form in the focus says it is his wealth, while the causative predicate lets that possession act back upon him."
+            ],
+            "reader_inference": "The packet supplies grasping, fettering, prepared stock, possession, and clinging; I infer a reversal from owning the hoard to being held by it. The alternative is that the constraint images are remote branches and gathering remains simple acquisition.",
+            "changed_reading": {
+              "before": "He owns wealth that will keep him alive.",
+              "after": "The wealth owns his attention and fixes him to itself; what he calls immortality is the hoard's grip on its keeper."
+            }
+          },
+          {
+            "model_id": "c_discarded_prop_reversal",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "A rare branch-to-branch echo reverses the focus's imagined support: the cushion that props the subject is answered by a cushion cast aside, and the destination then breaks what seemed securely seated.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "The cushioning branch supplies the wealth-prop on which the baseline subject imagines himself securely seated."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The staying-close branch supplies the subject's expected resistance to removal."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B008",
+                "role": "The discarded-cushion branch answers the focus prop with the same object now deprived of supporting status."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The dry-object shattering branch supplies the destructive result after support is withdrawn."
+              }
+            ],
+            "structural_cues": [
+              "The emphatic passive casting immediately follows the rejection particle and reverses the focus's assignment of agency.",
+              "The destination noun follows the casting verb, turning removal into entry into a breaking process."
+            ],
+            "reader_inference": "The packet supplies a prop-cushion in the focus inventory and a cast-aside cushion in the next ayah's inventory; I infer a deliberate material reversal from being supported to being discarded. The live alternative is accidental branch homonymy with no inter-ayah object continuity.",
+            "changed_reading": {
+              "before": "Wealth is the prop that seats him permanently.",
+              "after": "The imagined prop is itself cast aside, and the supposedly immovable subject is handled like disposable cushioning before being broken."
+            }
+          },
+          {
+            "model_id": "c_permanence_becomes_disposable_debris",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "The focus grants wealth apparent agency and the subject apparent duration; the next movement makes the subject a thrown object and places him within a process whose branch range includes both shattering and the transient debris of worldly goods.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch marks the permanence claim as a mentally held estimate vulnerable to reversal."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies the supposedly durable possession whose material status is tested."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The permanence branch supplies the state directly contradicted by casting and fragmentation."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "The throwing branch reverses the focus's subject-object relation by turning the confident possessor into a handled object."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The fragmentation branch supplies an explicit material opposite to enduring intactness."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "The transient-worldly-debris branch lets the accumulated object of confidence join the field of perishability."
+              }
+            ],
+            "structural_cues": [
+              "A categorical rejection opens the ayah immediately after the subject's supposition.",
+              "The switch from an active possessor to an emphatically cast passive patient reverses agency."
+            ],
+            "reader_inference": "The packet supplies possession, permanence, throwing, fragmentation, and transient worldly debris; I infer that the hoard and its owner are exposed to the same disposability. The alternative is narrower: only the person is thrown, while wealth is not part of the debris image.",
+            "changed_reading": {
+              "before": "Possession makes the possessor last.",
+              "after": "The possessor is rendered disposable, while the wealth he treated as durable is redescribed by the destination's branch field as eventual debris."
+            }
+          },
+          {
+            "model_id": "c_supposition_broken_by_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي",
+              "ح ط م"
+            ],
+            "mechanism": "The focus's self-generated supposition is interrupted by a second-person knowledge question and the repeated breaker. The issue becomes not only a false proposition but a sealed way of knowing that must be opened from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch supplies a private estimate rather than secured knowledge."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "The settled-inner-thought branch makes the error durable as a cognitive enclosure."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant knowledge branch supplies the explicit epistemic mode that challenges mere supposition."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The repeated shattering branch makes disclosure capable of breaking the settled calculation, not merely adding information."
+              }
+            ],
+            "structural_cues": [
+              "A direct epistemic question interrupts the earlier third-person report of private reckoning.",
+              "The breaker designation is repeated, delaying resolution while intensifying the challenge to what the subject thinks he knows."
+            ],
+            "reader_inference": "The packet supplies supposition, inward settlement, knowledge, and shattering; I infer an arrow from externally posed disclosure to rupture of a self-sealed belief. The alternative is that the question only magnifies the unknown punishment and does not diagnose the subject's epistemology.",
+            "changed_reading": {
+              "before": "The subject merely holds one factually wrong expectation.",
+              "after": "His error is a self-enclosed knowledge system: private accounting has settled into certainty and must be shattered by disclosure from beyond it."
+            }
+          },
+          {
+            "model_id": "c_hoard_recast_as_fuel",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "The accumulated material that was treated as a source of life is placed beside divine fire, illumination, and fuel. Agency shifts away from wealth, while material abundance becomes thinkable as combustible input rather than a reservoir of duration.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The acquired-property branch supplies the stored material whose imagined function is reversed."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The enduring-state branch supplies the life-producing function falsely assigned to stored material."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The blazing-fire branch supplies the consuming material process that opposes preservation."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "The illumination branch makes the consuming process simultaneously an exposure of the false causal claim."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship-and-object-of-worship branch exposes the elevation of wealth by placing divine agency against it."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "The fuel-material branch allows accumulated material to be tested as something consumed to sustain another power."
+              }
+            ],
+            "structural_cues": [
+              "The terse chain names fire, divine attribution, and kindling without returning agency to the wealth.",
+              "This follows the explicit rejection and breaking sequence, so it specifies a rival causal system."
+            ],
+            "reader_inference": "The packet supplies accumulated property, divine attribution, fire, illumination, and fuel; I infer a material analogy from hoard to combustible input and an agency transfer away from wealth. A live alternative is that the person alone is exposed to fire and the wealth is not figured as fuel.",
+            "changed_reading": {
+              "before": "Stored material is a quasi-divine source that sustains life.",
+              "after": "The hoard is neither deity nor life-source; under the newly named agency, stored material can be exposed as consumable fuel rather than accumulated time."
+            }
+          },
+          {
+            "model_id": "c_fire_exposes_inner_fixation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The reaching-and-inspecting movement toward hearts activates the focus's settled-thought branch. The real persistence produced by wealth may be the immortality equation lodged inwardly, with fire functioning as both inspection and internal ignition.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch supplies the mental content that later inward penetration can expose."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "The thought-settled-in-the-heart branch anchors the changed reading in an inwardly persistent conviction."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "The overlooking-and-disclosing branch makes the movement toward hearts an inspection of what is concealed within."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B008",
+                "role": "The eager-looking branch adds an appetitive gaze that can also describe the acquisitive attention feeding the belief."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart-as-inner-kindling branch fuses the cognitive target with an internal combustion image."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause directs the previously named fire toward an interior human locus.",
+              "The motion crosses from external punishment to inward cognition, matching the focus's opening mental verb."
+            ],
+            "reader_inference": "The packet supplies supposition, settled inward thought, inspection, eager looking, and an internally kindled heart; I infer that acquisitive attention fixes the longevity equation and that the fire reveals this fixation. The alternative is a solely somatic description with no return to the focus's cognition.",
+            "changed_reading": {
+              "before": "Wealth supposedly makes the body endure.",
+              "after": "What wealth demonstrably makes endure is an acquisitive immortality-conviction inside the subject, which the later fire reaches, exposes, and ignites."
+            }
+          },
+          {
+            "model_id": "c_wealth_vault_becomes_prison",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص د"
+            ],
+            "mechanism": "Closure combines with the split root's non-dominant image of a stone store for wealth. The secure hoard-vault becomes the architecture of confinement, so settled possession produces enforced staying rather than protected permanence.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The property branch supplies what the subject would place and trust inside secure storage."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The settling-and-clinging branch turns secure residence into an inability to depart."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "The dominant sealing branch supplies complete closure around the persons inside."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone wealth-store branch makes the enclosure uncannily resemble a fortified hoard."
+              }
+            ],
+            "structural_cues": [
+              "The enclosure is described as closed over the people, reversing the usual protective relation between owner and vault.",
+              "The closure follows inward penetration, leaving no outside or inside refuge."
+            ],
+            "reader_inference": "The packet supplies wealth, settling, total closure, and a non-dominant stone storehouse specifically for property; I infer an architectural reversal from safe hoard to carceral vault. The alternative is that the storehouse branch is only lexical residue and the closure has no relation to wealth storage.",
+            "changed_reading": {
+              "before": "Wealth secures a protected place in which its owner can remain.",
+              "after": "The protected place turns inside out: the hoard's sealed architecture becomes a prison that makes the owner remain."
+            }
+          },
+          {
+            "model_id": "c_counterfeit_permanence_ironically_realized",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Supports and extension return the focus's own prop-plus-duration logic inside the closed destination. The wish is not simply denied; it is mirrored in hostile form as supported, lengthened, compulsory abiding.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "The cushioning-and-propping branch supplies the subject's imagined support structure."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The enduring-state branch supplies the duration the subject wants wealth to cause."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The clinging branch allows desired stability to invert into compulsory attachment to a place."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "The structural-support branch relocates propping from wealth to the architecture of confinement."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B014",
+                "role": "The adherence branch strengthens the sense of enforced staying within that structure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The drawn-out length branch supplies spatial extension to the enclosing supports."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "The prolonged-term branch activates a temporal extension that can echo the focus's desired duration."
+              }
+            ],
+            "structural_cues": [
+              "The final locative phrase remains inside the already sealed scene and ends on support plus extension.",
+              "Spatial length and temporal prolongation coexist in the final adjective's branch inventory."
+            ],
+            "reader_inference": "The packet supplies a focus prop, permanence, enclosure supports, adherence, spatial length, and prolonged time; I infer an ironic realization in which the desired causal form returns as enforced duration. The alternative is purely spatial: extended pillars describe structure without implying prolonged experience.",
+            "changed_reading": {
+              "before": "Wealth will support him and lengthen his secure existence.",
+              "after": "Support and extension do arrive, but as the architecture and duration of inescapable confinement; the immortality fantasy is mirrored rather than merely canceled."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_spider_mole_wealth_vault",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it chains rare nominal branches for a spider-term, a blind burrowing creature, and a non-dominant stone wealth-store. It remains anchored to the focus's wealth and permanence roots and to the explicit closure cue, but downstream prose should present it only as a cross-domain material analogy, never as a lexical translation of the ayah.",
+            "focus_anchor": "The rare animal branches attach directly to the focus nouns at words 3 and 4, while the later split-root storehouse branch supplies a sealed habitat for their interaction.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The reported spider term turns wealth into a web-making image of self-constructed security."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B005",
+                "role": "The blind rodent-like creature turns staying into enclosed, sightless burrowing rather than transcendent life."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The containing-enclosure branch supplies a habitat that holds everything within it."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone wealth-store branch ties the animal enclosure specifically back to hoarded property."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth opens an unlimited future for its owner.",
+              "after": "Exploratorily, wealth spins and burrows a sealed storage-world whose blindness and enclosure are misfelt as permanence."
+            }
+          },
+          {
+            "outlier_id": "o_gushing_disclosure_breaks_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries both targets of the split knowledge root: the dominant target contributes profuse outflow while the non-dominant target contributes knowing. Both are packet-backed and the result remains anchored to the focus's settled supposition, but prose should qualify the outflow as an image for disclosure, not the direct sense of the contextual verb.",
+            "focus_anchor": "The focus joins supposition to an inwardly settled-thought branch; the later knowledge question and repeated breaker provide a traceable means by which that settlement can be ruptured.",
+            "activation_trace": [
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch supplies the closed mental estimate that disclosure confronts."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "The settled-thought branch gives the estimate an inward persistence that must be disturbed."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B001",
+                "role": "The dominant split target's profuse-outflow branch images disclosure as pressure released from an external source."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant split target's knowledge branch keeps the outflow tied to an actual epistemic cue."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The shattering branch supplies the effect of high-pressure disclosure upon the settled belief."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question simply withholds information about the breaker.",
+              "after": "Exploratorily, knowledge arrives like a profuse discharge from beyond the subject's private calculus and bursts the immortality-thought settled within him."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding gathering and repeated counting make the focus's reckoning a precise conversion of property quantity into imagined personal duration.",
+            "Clenched, fettering, and sealed-store images reverse possession: the hoard that should preserve its owner instead binds and encloses him.",
+            "The rare cushion branch in the focus is answered by the next ayah's discarded-cushion branch, turning wealth from prop into cast-off support.",
+            "The later inward inspection strengthens a psychological reading in which wealth makes the immortality-belief, rather than the body, persist in the heart.",
+            "Final support and extension imagery mirrors the original fantasy in hostile form: permanence becomes prolonged, compulsory confinement."
+          ],
+          "what_was_special": "The trace is driven by branch collisions rather than a single resolved interpretation: counting meets recurring time, prop meets discarded cushion, settled thought meets inward ignition, and a split closure root yields both sealing and a stone store for wealth. These activations preserve causal, social, material, psychological, and carceral readings side by side.",
+          "remaining_uncertainties": [
+            "The arrows from social disparagement to rank maintenance and from hoarded wealth to fuel are reader-supplied mechanisms, not explicit packet assertions.",
+            "The cushioning, spider, blind-creature, and profuse-outflow activations are deliberately form-distant and should remain exploratory.",
+            "The final extension may be only spatial rather than temporal, so the ironic prolonged-abiding reading remains coexistent with an architectural reading.",
+            "The non-dominant stone wealth-store branch strongly activates the vault reversal, but closure need not historically or compositionally depend on that branch."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Accounting becomes false permanence.** Evidence: `ح س ب B001` (counting/reckoning), `ح س ب B002` (supposition), `م و ل B001`, and `خ ل د B001` (enduring permanence); activated backward by `ع د د B001` in 104:2. Structural cue: enumeration immediately produces a mental claim about دوام. Assigned role: حساب is the bridge from arithmetic to belief. Abductive move: repeated counting trains the self to experience quantity as ontological security. Reading change: the ayah shows how the thought of wealth-made permanence is manufactured by counting.\n\n2. **Clinging to wealth becomes sealed permanence.** Evidence: `خ ل د B002` (leaning, clinging, staying close), activated by `و ص د B001` in 104:8 and `م د د B004` in 104:9. Structural cue: the imagined \"made him endure\" is later answered by a shut, extended condition. Assigned role: خلود supplies both desired permanence and adhesive attachment. Abductive move: punishment converts chosen clinging into inescapable clinging imposed on him. Reading change: the error is not abstract belief in immortality only; it is a posture of sticking to wealth that is reversed into confinement.\n\n3. **The false thought lodged in the heart.** Evidence: `خ ل د B004` (settled thought in the heart) and `ح س ب B002`, activated by `ف ء د B002` and `ط ل ع B003` in 104:7. Structural cue: a mental verb in 104:3 is later met by fire that reaches the أفئدة. Assigned role: خلد names the inner settling-place of the delusion. Abductive move: if the fire reaches the heart, it reaches the place where false حساب has settled. Reading change: 104:3 becomes the interior target of the later fire, not merely a report of wrong opinion.\n\n4. **Wealth as imagined sufficiency.** Evidence: `ح س ب B003` (sufficiency/enoughness) with `م و ل B001`, activated by the mercy frame of 104:0 and divine fire in 104:6. Structural cue: the possessive ماله places wealth as his supposed sufficient resource. Assigned role: حسب supplies the \"enough for me\" claim beneath the thought. Abductive move: possession is mistaken for what suffices before God and society. Reading change: the ayah exposes self-sufficiency as the root of the immortalizing fantasy.",
@@ -9270,14 +10528,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9529,10 +10793,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 11,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 78603,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

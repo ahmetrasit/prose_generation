@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:28.322568+00:00",
+  "generated_at": "2026-08-18T13:34:36.888216+00:00",
   "surah": 108,
   "ayah": 1,
   "ayahRef": "108:1",
@@ -1206,7 +1206,8 @@
         "m-w-s108-a001-w001-01",
         "m-w-s108-a001-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:1:1"
+      "aligned_qac_word_ref_upstream": "108:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1224,7 +1225,8 @@
         "m-w-s108-a001-w002-02",
         "m-w-s108-a001-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "108:1:2"
+      "aligned_qac_word_ref_upstream": "108:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1240,7 +1242,8 @@
         "m-w-s108-a001-w003-01",
         "m-w-s108-a001-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "108:1:3"
+      "aligned_qac_word_ref_upstream": "108:1:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1482,7 +1485,681 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s108/packets/108_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "108:1",
+      "window": [
+        "108:1",
+        "108:2",
+        "108:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "108:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_transferred_plenitude",
+            "confidence": "strong",
+            "focus_anchor": "The completed first-person-plural giving construction and its definite direct object.",
+            "mechanism": "Handing-over combines with numerical increase so that the focus does not merely announce that much good exists: it presents multiplying plenty as already transferred into the addressee's reach.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Literal handing-over supplies a completed donor-to-recipient transfer and makes the plenty recipient-directed."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Abundance and numerical increase supply content that can keep multiplying rather than a merely honorific object."
+              }
+            ],
+            "changed_reading": {
+              "before": "A large or excellent good is announced.",
+              "after": "A multiplying plenitude has been decisively placed with the addressee."
+            }
+          },
+          {
+            "model_id": "base_comparative_preponderance",
+            "confidence": "medium",
+            "focus_anchor": "The same giving event and the abundance noun, read through their shared competitive branch potential.",
+            "mechanism": "The focus roots both contain outdoing images: one in mutual dealing and the other through number, wealth, or standing. Their conjunction makes the gift an intervention in a comparative field, granting preponderance rather than only adding possessions.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Giving keeps the advantage bestowed rather than seized by the recipient."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B007",
+                "role": "Outdoing in reciprocal dealing supplies one side of a contest whose balance can be reversed."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Outnumbering and rivalry in abundance turn quantity into comparative social force."
+              }
+            ],
+            "changed_reading": {
+              "before": "The gift is quantitatively large.",
+              "after": "The gift creates bestowed preponderance in contests of number, wealth, speech, or standing."
+            }
+          },
+          {
+            "model_id": "base_concentrated_fecundity",
+            "confidence": "exploratory",
+            "focus_anchor": "The transferred object as named by the abundance root's palm-growth and clustering branches.",
+            "mechanism": "Palm pith or inflorescence and clustering recast abundance as a compact generative node. What is handed over need not be an already expanded heap; it can be a concentrated source from which plurality unfolds.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing-over makes the compact source itself the bestowed object."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B006",
+                "role": "Palm pith or inflorescence supplies a small fertile structure carrying future proliferation."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Clustering supplies concentrated gathering as the organization of the latent abundance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The object names an already expanded quantity.",
+              "after": "The object can be a concentrated fertile source whose compact gathering unfolds into abundance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_reciprocal_return",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "ر ب ب"
+            ],
+            "mechanism": "Prayer as praise directed to the sovereign source turns the one-way transfer into a responsive circuit. The recipient is not the terminal storage point of abundance; reception generates a return of praise without cancelling the asymmetry of the original gift.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing-over establishes the descending movement from giver to recipient."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Multiplying abundance is what enters and sustains the response circuit."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Prayer, praise, and mercy supply the upward or returning response to reception."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty identify the source toward whom the response is directed."
+              }
+            ],
+            "structural_cues": [
+              "The prefixed consequential connector on the first imperative places the response after the completed focus transfer.",
+              "The directional preposition and second-person possessive relation orient the act toward the recipient's Lord."
+            ],
+            "reader_inference": "The packet supplies transfer, abundance, praise, lordship, and sequential direction; I supply the reception-to-response arrow. A live alternative is that the imperative states an independent obligation rather than an effect of the gift.",
+            "changed_reading": {
+              "before": "The focus terminates in the recipient's possession of plenty.",
+              "after": "The transferred plenty initiates a giver-recipient circuit in which abundance returns as directed praise."
+            }
+          },
+          {
+            "model_id": "delta_nurtured_multiplication",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The dominant mapped root contributes repair, nurture, and completion, while the non-dominant split contributes feeding and growth. Together with the focus's fertile palm structure, they make abundance a provision brought toward maturity, not an inert stock dropped all at once.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing-over marks the growth-bearing provision as genuinely bestowed."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B006",
+                "role": "Palm pith or inflorescence supplies an organic locus whose abundance appears through maturation."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply sustained cultivation toward a finished state."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped branch of feeding and growth intensifies the organic increase mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The possessive relation to the Lord links the context's governing source back to the recipient of the focus gift.",
+              "The split mapping keeps nurture-completion and nourishment-growth simultaneously available without collapsing their roots."
+            ],
+            "reader_inference": "The packet supplies a fertile focus image plus nurture, completion, feeding, and growth; I infer that these name the process by which the bestowed abundance develops. The live alternative is that the non-dominant growth mapping is only form-distant cross-activation.",
+            "changed_reading": {
+              "before": "The completed giving delivers a fixed stock of muchness.",
+              "after": "The completed giving places the recipient inside a sustained process of nourished, maturing multiplication."
+            }
+          },
+          {
+            "model_id": "delta_ritual_throughput",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل و",
+              "ر ب ب",
+              "ن ح ر"
+            ],
+            "mechanism": "Specified worship, sovereign ownership, and slaughter at the throat redirect abundance from retention into embodied expenditure. The gift becomes enabling surplus whose realized form includes praise and costly release toward its source.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "The handed-over gift supplies what can subsequently be put into responsive action."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Abundance supplies surplus sufficient for outward expenditure rather than anxious hoarding."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The specific act of worship gives the response a formal, enacted channel."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign ownership prevents the expenditure from becoming an aimless loss and orients it to the source."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B002",
+                "role": "Throat-slaughter supplies the material release through which retained provision becomes an embodied offering."
+              }
+            ],
+            "structural_cues": [
+              "The two coordinated imperatives pair a verbal-devotional act with a material-bodily act.",
+              "Both imperatives follow the focus's completed bestowal, allowing capacity to precede expenditure."
+            ],
+            "reader_inference": "The packet supplies bestowed surplus, worship, lordship, and slaughter; I infer that the gift enables and is expressed through return expenditure. A live alternative is that the commands express gratitude while leaving the focus object's semantics unchanged.",
+            "changed_reading": {
+              "before": "Abundance is an endowment whose fullness is measured by what remains with the recipient.",
+              "after": "Abundance is enabling throughput whose fullness is displayed by worshipful and material release."
+            }
+          },
+          {
+            "model_id": "delta_threshold_continuity",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ح ر",
+              "ب ت ر"
+            ],
+            "mechanism": "A boundary of time facing another boundary and a thing cut before completion form a contrast between meeting an edge and losing continuation. Anchored in numerical increase, the focus gift becomes renewable continuity: it can reach a limit without being exhausted there.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Increase supplies the capacity to continue beyond a presently visible amount."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B006",
+                "role": "One temporal boundary facing another supplies encounter with a limit rather than automatic termination."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting supplies the opposed failure in which a process cannot cross its edge into completion."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from an agentive imperative at the end of 108:2 to a nominal verdict in 108:3.",
+              "The focus's increase stands before both the faced boundary and the later attribution of severance."
+            ],
+            "reader_inference": "The packet supplies limit-facing, premature cutting, and increase; I infer a temporal contrast between crossing a threshold and losing futurity. The live alternative is that the temporal branch of the slaughter root is too peripheral and only offers analogy.",
+            "changed_reading": {
+              "before": "Abundance means a large amount available now.",
+              "after": "Abundance means a self-renewing continuity that can meet thresholds without being cut off at them."
+            }
+          },
+          {
+            "model_id": "delta_severance_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ن ء",
+              "ب ت ر"
+            ],
+            "mechanism": "Hostile distancing is paired with cutoff of posterity, mention, and good, but the emphatic predication assigns cutoff to the hater. This retroactively broadens the focus gift from countable plenty into durable transmission and relocates scarcity from the recipient to the adversarial relation.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Completed handing-over makes the recipient's endowment antecedent to and insulated from the hostile verdict."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Abundance attached to a person, speech, or claims opens a social and reputational dimension beyond material count."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B002",
+                "role": "Disgust and distancing supply the adversary's attempted social separation from the recipient and gift."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B002",
+                "role": "Cutoff of descendants, mention, and good specifies the continuity whose absence is reassigned to the hater."
+              }
+            ],
+            "structural_cues": [
+              "The independent pronoun in 108:3 isolates the hater as the bearer of the definite cutoff predicate.",
+              "The second-person relation in the hater expression ties the hostile social field directly back to the focus addressee."
+            ],
+            "reader_inference": "The packet supplies completed transfer, socially attached abundance, hostile distance, and loss of continuation; I infer that hostility attempts to interrupt transmission and that the syntax reverses this interruption onto its source. A live alternative is a simple contrast of outcomes with no attempted-blockage mechanism.",
+            "changed_reading": {
+              "before": "The focus gives the recipient a great but unspecified benefit.",
+              "after": "The focus grants durable good, mention, and generative aftermath whose attempted severance rebounds as the adversary's own discontinuity."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_adversarial_disclosure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare acknowledgement-and-exposure branch inside the hater root and treats opposition as a publicity mechanism. It remains anchored in the focus's outdoing and speech-attached abundance, but downstream prose should present it only as a paradoxical branch activation, not as the direct lexical sense of the hater expression.",
+            "focus_anchor": "The focus roots' branches of outdoing in exchange and abundance attached to speech or claims.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B007",
+                "role": "Outdoing in reciprocal dealing supplies a reversal in which an adversarial move can be made to serve the recipient."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Abundance attached to speech or claims makes circulation of mention a valid focus-level form of increase."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ش ن ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000820",
+                "branch_id": "B003",
+                "role": "Acknowledging truth and bringing it out supplies the paradox whereby hostility exposes what it contests."
+              },
+              {
+                "source_ref": "108:3",
+                "root": "ب ت ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000080",
+                "branch_id": "B001",
+                "role": "Premature cutting supplies the failed adversarial aim whose attempt instead increases disclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The abundance exists despite hostile speech.",
+              "after": "Hostile speech can unwittingly disclose and multiply the recipient's mention while its own truncating project fails."
+            }
+          },
+          {
+            "outlier_id": "outlier_cloud_release",
+            "confidence": "exploratory",
+            "containment": "This is surprising because cloud, abundant water, and cloud-discharge are peripheral material branches rather than a direct identification of the focus object. It remains valid as a tightly linked mechanism of gathered plenty becoming delivered flow; downstream prose should label it an ecological analogy and not claim that the focus noun denotes weather.",
+            "focus_anchor": "The handed-over abundance, especially its clustering branch, as a transition from gathered reserve to received plenty.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing-over supplies the crossing from a gathered source into recipient-accessible flow."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Clustering supplies condensation or gathering before release."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "The cloud image supplies an overhead carrier in which provision gathers."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B013",
+                "role": "Abundant water supplies the material content accumulated in that carrier."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ن ح ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001479",
+                "branch_id": "B009",
+                "role": "A cloud discharging itself with water supplies the release event that converts stored concentration into distributed plenty."
+              }
+            ],
+            "changed_reading": {
+              "before": "The gift is a static reserve transferred intact.",
+              "after": "The gift can be modeled as gathered provision whose abundance becomes real by releasing itself into flow."
+            }
+          },
+          {
+            "outlier_id": "outlier_obligation_load",
+            "confidence": "medium",
+            "containment": "This is surprising because it reads abundance as an office laden with service and claims rather than uncomplicated enrichment. It remains anchored in two focus branches and is sharpened by binding worship under lordship; downstream prose should preserve it as an entrusted-capacity reading, not reduce the gift to burden.",
+            "focus_anchor": "The focus root branches of serving by attending and of a person becoming the locus of many claims.",
+            "activation_trace": [
+              {
+                "source_ref": "108:1",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B003",
+                "role": "Attending to needs and handing over what is wanted turns reception into a capacity for service."
+              },
+              {
+                "source_ref": "108:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Many demands or claims attaching to a person make abundance generate relational obligations."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of worship as binding duty gives the entrusted capacity an obligatory response."
+              },
+              {
+                "source_ref": "108:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and ownership place the service obligation inside a governing relation rather than social demand alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "Abundance primarily enlarges the recipient's private share.",
+              "after": "Abundance entrusts the recipient with greater capacity, and therefore greater exposure to worship, service, and legitimate claims."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Generic quantity became a completed, recipient-directed transfer that can enter a circuit of praise back toward its source.",
+            "Nurture and growth branches changed static plenty into cultivated multiplication, while worship and slaughter changed retained surplus into embodied throughput.",
+            "Hostile distance and cutoff relocated severance to the adversary and recast abundance as durable good, mention, and generative aftermath."
+          ],
+          "what_was_special": "The focus roots already carried rivalry and compressed fecundity before context arrived. Context did not collapse these into one referent: it activated reciprocal, developmental, ritual, temporal, social, ecological, and obligation-bearing mechanisms, with non-dominant split-root branches preserved where they produced a visibly changed reading.",
+          "remaining_uncertainties": [
+            "Whether the non-dominant growth branch mapped from the Lord root is a live cross-activation or too form-distant for more than exploratory use.",
+            "Whether the boundary and cloud branches of the slaughter root alter the focus reading or remain material analogies for the commanded response.",
+            "Whether acknowledgement-and-exposure under the hater root can sustain the adversarial-disclosure outlier in this occurrence."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The gift is a handed-over trust that generates response, not inert abundance.** Lexical evidence: ع ط و B002, “handing over and giving”; ك ث ر B001, “abundance and numerical increase”; later ص ل و B003, prescribed worship, and ر ب ب B001/B002, lordship plus nurture/completion. Structural cue: divine “we gave you” is followed immediately by “so pray to your Rabb.” Assigned role: ع ط و supplies transfer; ك ث ر supplies magnitude; ص ل و and ر ب ب supply the expected return of the received thing toward its owner/nurturer. Abductive move: I supply the causal arrow that a bestowed abundance creates a ritual obligation of directed gratitude. Reading change: “al-kawthar” reads as entrusted superabundance whose first visible fruit is worship, not as a possession that stops with the recipient.\n\n2. **Abundance reverses a contest over number, status, and lasting trace.** Lexical evidence: ك ث ر B002, “outnumbering and rivalry in abundance”; ك ث ر B003, abundance attached to a person, speech, or claims; س م و B007/B008, rivaling upward and good repute; final ب ت ر B002, cut-off progeny, renown, and good. Structural cue: the middle grant of “kawthar” faces the final exclusive judgment “he is the abtar.” Assigned role: ك ث ر supplies the surplus side of a rivalry; ب ت ر supplies the failed rival’s lack; س م و supplies the field of public elevation/repute. Abductive move: I infer a social contest in which the hater’s attempt to define the addressee as cut short is answered by divine over-abundance. Reading change: the ayah reads as a reversal of hostile accounting: the addressee’s share is not merely “much,” but much in the exact arena where the hater imagines lack.\n\n3. **“Kawthar” takes on a roiling, life-bearing materiality.** Lexical evidence: ك ث ر B005, “roiling abundant dust”; ك ث ر B006, palm pith or inflorescence; ر ب ب B008/B013, layered cloud and abundant collected water; ن ح ر B009, cloud pouring itself out with water; س م و B004, overhead sky, cloud, rain, vegetation. Structural cue: the packet’s abundance word is surrounded by sky/rain/cloud branches in the basmalah’s س م و and the command’s ر ب ب/ن ح ر inventories. Assigned role: ك ث ر gives excessive swelling/rising; sky/cloud/water branches turn that excess into an ecological cycle; palm pith/inflorescence gives a plant-life image. Abductive move: I supply the arrow that a very abundant gift may be imagined as a swelling natural flow that nourishes, not only as countable quantity. Reading change: “al-kawthar” becomes dynamically fertile abundance, like cloudburst, rising dust, and plant interior, rather than an abstract numeral.\n\n4. **The personal giving is also service-care toward the addressee.** Lexical evidence: ع ط و B003, “serving by attending and handing things”; ر ح م B001, mercy and tenderness; ر ب ب B002, repair, nurture, and completion. Structural cue: the direct object suffix in “أعطيناك” places the addressee as the one attended to; the basmalah’s mercy precedes the grant. Assigned role: ع ط و B003 makes giving intimate and service-like; ر ح م and ر ب ب make that service nurturing rather than transactional. Abductive move: I infer from personal address plus mercy/nurture branches that the gift is care administered to the addressee. Reading change: the ayah reads not only as royal bestowal from above, but as attentive provision that repairs and completes the recipient’s situation.",
@@ -5957,14 +6634,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s108/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 27,
+        "ayah_count": 3,
+        "row_count": 20,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6068,10 +6751,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s108/packets/108_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s108/readers/reader_hft_a/108_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s108"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s108",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 39880,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

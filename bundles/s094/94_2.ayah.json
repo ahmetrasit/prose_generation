@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.473529+00:00",
+  "generated_at": "2026-08-18T13:34:14.522541+00:00",
   "surah": 94,
   "ayah": 2,
   "ayahRef": "94:2",
@@ -1488,7 +1488,8 @@
       "morpheme_ids": [
         "m-w-s094-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:2:1"
+      "aligned_qac_word_ref_upstream": "94:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1504,7 +1505,8 @@
         "m-w-s094-a002-w001-02",
         "m-w-s094-a002-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "94:2:2"
+      "aligned_qac_word_ref_upstream": "94:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1520,7 +1522,8 @@
         "m-w-s094-a002-w002-01",
         "m-w-s094-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:2:3"
+      "aligned_qac_word_ref_upstream": "94:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1536,7 +1539,8 @@
         "m-w-s094-a002-w003-01",
         "m-w-s094-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:2:4"
+      "aligned_qac_word_ref_upstream": "94:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2814,7 +2818,1168 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:2",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_spatial_unloading",
+            "confidence": "strong",
+            "focus_anchor": "The construction وَضَعْنَا عَنكَ وِزْرَكَ makes the possessed object at word 3 the thing displaced away from the addressee by the verb at word 1.",
+            "mechanism": "The two dominant branch images form a load-transfer scene: a heavy thing formerly borne by the addressee is deliberately set down off that bearer. Relief is therefore spatial and material before it is psychological.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting an object down or into a settled place supplies the downward displacement and endpoint of the event."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "A heavy carried load supplies the object whose bearer-position is changed."
+              }
+            ],
+            "changed_reading": {
+              "before": "We relieved you of an unspecified burden.",
+              "after": "We physically unload from you what had occupied the position of a heavy carried load, setting it somewhere other than on its bearer."
+            }
+          },
+          {
+            "model_id": "baseline_delegated_load",
+            "confidence": "medium",
+            "focus_anchor": "The away-vector in عَنكَ can mark reassignment rather than annihilation, while both focus roots contain branch images of placed loads and another person carrying a principal's weight.",
+            "mechanism": "The burden is redistributed into an arrangement of assigned bearers or support. What leaves the addressee can continue to exist as a responsibility, but no longer as a solitary load.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B006",
+                "role": "Assigned people, soldiers, or loads supply an organized destination for what is moved off the addressee."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B004",
+                "role": "The helper or minister who carries another's weight supplies delegated load-bearing rather than simple deletion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden simply ceased to exist.",
+              "after": "The burden was taken out of your sole charge and reassigned into a supporting arrangement that can bear it with or for you."
+            }
+          },
+          {
+            "model_id": "baseline_disarmament",
+            "confidence": "medium",
+            "focus_anchor": "The focus noun at word 3 has a branch for war equipment, and the governing verb can describe putting an object down.",
+            "mechanism": "The same syntax that depicts unloading can depict decommissioning: equipment carried for conflict is taken off and laid down, ending a state of armed readiness.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something down supplies the concrete act of laying aside equipment."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B003",
+                "role": "The gear of war supplies a specific load and turns unloading into disarmament."
+              }
+            ],
+            "changed_reading": {
+              "before": "A moral or emotional weight was removed.",
+              "after": "Your conflict-loadout was taken off you and laid down, changing the ayah into a scene of de-escalation or demobilization."
+            }
+          },
+          {
+            "model_id": "baseline_delivery",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus verb's childbirth branch is unusually exact in treating a carried pregnancy as something laid down, while the object is explicitly a heavy carried burden.",
+            "mechanism": "Removal can be a delivery rather than subtraction: a long-carried weight reaches a threshold, separates from its bearer, and opens a new phase. The result is not necessarily nothingness; something may emerge from the release.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B002",
+                "role": "Laying down a pregnancy in birth supplies release through culmination and separation from a bearer."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy carried load supplies the gestational weight that can be brought to delivery."
+              }
+            ],
+            "changed_reading": {
+              "before": "A burden was lifted away in one clean act.",
+              "after": "A burden you had carried was brought to term and delivered from you, making relief a difficult threshold that can produce a new condition."
+            }
+          },
+          {
+            "model_id": "baseline_economic_abatement",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus verb includes abatement from capital, and عَنكَ permits an obligation-like weight to be reduced from the addressee's account.",
+            "mechanism": "The burden behaves like a liability written down through a loss borne elsewhere. This preserves a cost rather than pretending that relief is costless.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B004",
+                "role": "Reduction of trading capital through loss supplies the concrete logic of an abatement or write-down."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "A heavy burden supplies the obligation-like debit removed from the addressee."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B005",
+                "role": "Securing and taking something away supplies the transfer side of the write-down rather than pure disappearance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Relief had no visible accounting or cost.",
+              "after": "A weight standing against you was abated and taken off your account, with the image retaining the possibility that another side absorbs the loss."
+            }
+          },
+          {
+            "model_id": "baseline_refuge_detachment",
+            "confidence": "exploratory",
+            "focus_anchor": "The dominant inventory for the focus noun includes refuge or mountain shelter, so the direct object can lexically be a protective recourse rather than a burden.",
+            "mechanism": "Read with عَنكَ, the act becomes unsettling: an owned refuge is detached from the addressee. Focus-only evidence does not decide whether this is deprivation, exposure, or release from a defensive dependence.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting something away from its former bearer supplies the detachment of a protective object."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B001",
+                "role": "Refuge or fortified shelter supplies the surprising object removed from the addressee."
+              }
+            ],
+            "changed_reading": {
+              "before": "The act is self-evidently beneficial because the object is a burden.",
+              "after": "Your own refuge was detached from you; the focus alone leaves open whether this is dangerous exposure or liberation from a defensive enclosure."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_opened_source_reconfiguration",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "The preceding opening of the chest, especially the chest as an origin from which acts issue, moves the burden scene inward. The removal can alter the generating center of action rather than merely subtract an external package.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting something out of its prior place supplies removal from an interior source once access is opened."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden supplies what obstructs or loads the interior center."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and making meaning clear supplies access and intelligibility rather than a merely closed interior."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest supplies the interior location immediately prepared before the unloading."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue turns that location into a causal center whose output can change."
+              }
+            ],
+            "structural_cues": [
+              "94:1 immediately precedes 94:2 and parallels لَكَ صَدْرَكَ with عَنكَ وِزْرَكَ, linking an opened possessed interior to a removed possessed load."
+            ],
+            "reader_inference": "The packet supplies opening, the bodily chest, and the chest as an origin of acts; I infer that the first operation grants access for the second and reconfigures that origin. A live alternative is that the ayat list independent favors without a causal sequence.",
+            "changed_reading": {
+              "before": "An external load is taken off the addressee.",
+              "after": "An opened action-generating interior is relieved of what loaded it, so the removal changes what can issue from the person as well as how the person feels."
+            }
+          },
+          {
+            "model_id": "delta_back_load_diagnosis",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "The next ayah gives a mechanical symptom and its site: the load makes the back or its joints creak under strain. The focus act is therefore not generic consolation but an intervention before a load-bearing structure fails.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting down supplies the relieving operation performed on an overstrained bearer."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy load supplies the force acting on the body."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints and back under weight supply an audible diagnostic of overload."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back supplies the exact load-bearing structure under stress."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ follows the focus and grammatically characterizes وِزْرَكَ by its effect."
+            ],
+            "reader_inference": "The packet supplies a heavy load, a back, and creaking under weight; I supply the causal arrow from carried load to structural strain and from unloading to rescue. The live alternative is the branch of unmaking or reopening rather than audible creaking.",
+            "changed_reading": {
+              "before": "The identity and severity of the burden remain abstract.",
+              "after": "The burden is known by the deformation it produces: it loads the back until the frame audibly protests, and its removal prevents breakdown."
+            }
+          },
+          {
+            "model_id": "delta_unrigged_war_harness",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "War gear from the focus is joined to the context's carried equipment and the undoing of a tightly constructed thing. Disarmament becomes an unrigging operation: bindings are undone and the apparatus is taken off the back.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object down supplies the endpoint after equipment is removed."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B003",
+                "role": "Weapons and war equipment specify the load as a conflict apparatus."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B001",
+                "role": "Undoing something tightly bound supplies the release of straps, fastenings, or an assembled rig."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B005",
+                "role": "Mounts and carried equipment locate the apparatus on a transport or load-bearing back."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause in 94:3 keeps the back-effect attached to the focus object, allowing equipment and its fastening to remain one mechanism."
+            ],
+            "reader_inference": "The packet supplies war gear, carried equipment, and undoing a bound construction; I infer straps or rigging that connect them and an unfastening before setting down. A live alternative is a simple heavy burden with no military specification.",
+            "changed_reading": {
+              "before": "Disarmament is only the abstract decision to stop fighting.",
+              "after": "A fitted conflict apparatus is unbound from your back and laid down, making peace a bodily de-rigging rather than a mere change of intention."
+            }
+          },
+          {
+            "model_id": "delta_vertical_exchange",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "The paired first-person-plural acts distribute verticality selectively: the load and its degrading downward pressure are put down, while the addressee's public standing and remembered name are raised. Relief is an exchange of what occupies the high and low positions.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B005",
+                "role": "Lowness of rank and humbling supply the social danger carried by the downward verb."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden supplies what is selected for downward removal rather than the person being lowered."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of rank supplies the upward social counter-movement."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honor and public repute specify what is raised in the social field."
+              }
+            ],
+            "structural_cues": [
+              "وَوَضَعْنَا in 94:2 and وَرَفَعْنَا in 94:4 mirror one another as first-person-plural perfect verbs.",
+              "The prepositional directions عَنكَ and لَكَ distinguish what moves away from the addressee from what is elevated for the addressee."
+            ],
+            "reader_inference": "The packet supplies low rank, heavy load, raised rank, and repute; I infer a coordinated exchange in which the person is not lowered with the burden. A live alternative is that removal and elevation are separate favors with no balancing mechanism.",
+            "changed_reading": {
+              "before": "Putting down is an undifferentiated downward act that could imply diminishment.",
+              "after": "Only the degrading load is lowered away; the bearer's standing is simultaneously elevated, so unloading restores rather than reduces social stature."
+            }
+          },
+          {
+            "model_id": "delta_ease_within_hardship",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The repeated pairing of hardship with ease prevents burden-removal from meaning the abolition of every difficult condition. It creates an opening and lighter movement within a still-present hardship: the bearer-load relation changes even when the terrain does not.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting the load down supplies a local change in carriage rather than disappearance of the surrounding conditions."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden distinguishes a removable load from hardship as the larger environment."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity supply the continuing resistant condition."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and tractable movement supply operational freedom inside the difficult condition."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The repeated severe condition resists reading relief as a one-time erasure of hardship."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after constriction supply the renewed possibility generated around the load."
+              }
+            ],
+            "structural_cues": [
+              "94:5 and 94:6 repeat the same عُسْر/يُسْر pairing.",
+              "The surface construction uses مَعَ, placing ease with hardship rather than merely after it."
+            ],
+            "reader_inference": "The packet supplies persistent difficulty, opening, and lighter movement; I infer that unloading is the enabling change that makes movement possible within hardship. A live alternative is that the repeated assurance is independent of the focus act.",
+            "changed_reading": {
+              "before": "Removing the burden means removing the difficult situation itself.",
+              "after": "The difficult situation may remain, but its crushing load is taken off so that an opening and maneuverability coexist with it."
+            }
+          },
+          {
+            "model_id": "delta_difficult_delivery",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The focus childbirth branch meets a context branch for obstructed or difficult birth and a repeated opening into ease. The burden is delivered through labor: release is costly, thresholded, and potentially generative rather than instantaneous subtraction.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B002",
+                "role": "Childbirth supplies the act of laying down a carried pregnancy."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden supplies the carried weight brought to the threshold of separation."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B006",
+                "role": "Difficult childbirth supplies labor, obstruction, and risk within the release process."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease supplies passage through the obstruction."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B006",
+                "role": "Repetition keeps the labor-image active rather than treating it as a momentary pang."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Repeated opening and ease make successful passage, not painless avoidance, the counterpart to labor."
+              }
+            ],
+            "structural_cues": [
+              "The doubled hardship/ease sequence follows the focus childbirth-capable verb and sustains a process rather than a single instant.",
+              "The focus object remains possessed by the addressee until it is laid down عَنكَ, matching a carried-to-separated transition."
+            ],
+            "reader_inference": "The packet supplies childbirth, difficult birth, and opening into ease; I infer that these images describe one retrospective delivery mechanism. A live alternative is that the birth branches are form-distant and the context speaks only of general hardship.",
+            "changed_reading": {
+              "before": "The burden is lifted without process or residue.",
+              "after": "The burden is delivered through constricted labor into an opening, so relief is a generative passage whose difficulty is not denied."
+            }
+          },
+          {
+            "model_id": "delta_insolvency_write_down",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "Economic branches align into an insolvency scene: a person of straitened means carries a liability, capital is reduced to abate it, and ease appears as renewed sufficiency. The cost is transferred or recognized, not magically erased.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B004",
+                "role": "Capital reduction through loss supplies the write-down operation."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden supplies the debtor-like obligation."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B002",
+                "role": "Lack of means supplies the condition that makes an obligation crushing and abatement necessary."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Sufficiency and wealth supply the restored capacity produced by relief."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B002",
+                "role": "Repeated straitened means make the economic condition persistent rather than incidental."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Repeated sufficiency supplies durable capacity rather than a fleeting reprieve."
+              }
+            ],
+            "structural_cues": [
+              "The repeated definite hardship and indefinite ease can sustain one constrained account while introducing renewed capacity alongside it."
+            ],
+            "reader_inference": "The packet supplies capital loss, heavy obligation, lack of means, and sufficiency; I infer a debt-like account and a write-down linking them. A live alternative is that the financial images independently metaphorize general hardship without a literal accounting mechanism.",
+            "changed_reading": {
+              "before": "The burden is an unpriced inner feeling.",
+              "after": "A liability crushing someone of limited means is written down from that person's side, restoring usable capacity while acknowledging that remission has a cost."
+            }
+          },
+          {
+            "model_id": "delta_unload_to_restand",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "The later conditional sequence gives unloading a telos. A vessel is emptied, then the addressee is told to set upright and enter effort: putting the old load down clears capacity and posture for a new, chosen exertion rather than terminal rest.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting the old load down supplies the first half of a posture-and-capacity reset."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy load supplies what must cease occupying the bearer's capacity."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a vessel supply cleared capacity after the prior load."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright supplies the reversal from loaded-down posture to active stance."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Effort and weariness keep the new upright stance from being mistaken for effortless repose."
+              }
+            ],
+            "structural_cues": [
+              "The فَإِذَا ... فَـ imperative sequence makes completion or emptying the condition for the next exertion.",
+              "The downward setting of 94:2 and upright setting of 94:7 create a posture reversal across the sequence."
+            ],
+            "reader_inference": "The packet supplies emptying, upright installation, and strenuous effort; I infer that these later acts reveal the purpose of the earlier unloading. A live alternative is that 94:7 begins an unrelated instruction after the relief sequence.",
+            "changed_reading": {
+              "before": "Relief culminates in being free of work.",
+              "after": "The old crushing load is removed to empty capacity and restore an upright stance for a new exertion that is chosen and directed."
+            }
+          },
+          {
+            "model_id": "delta_refuge_reorientation",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "The final directional command supplies a possible destination for reliance. Detachment from 'your refuge' can be a release from owned defensive recourse so desire and dependence can turn toward a sovereign, nurturing master; the alarming deprivation becomes a transfer of orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting away supplies detachment from a previously possessed defensive position."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B001",
+                "role": "Refuge or mountain shelter supplies the owned recourse from which the addressee is detached."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and mastery supply a new center of dependence beyond the addressee's own refuge."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and bringing to completion make the new orientation protective rather than merely subordinating."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward or away supplies the explicit vector that relocates reliance."
+              }
+            ],
+            "structural_cues": [
+              "The away-vector عَنكَ in 94:2 is answered by the toward-vector إِلَىٰ رَبِّكَ in 94:8.",
+              "The repeated second-person suffix keeps the detached refuge and redirected desire attached to one addressee."
+            ],
+            "reader_inference": "The packet supplies refuge, mastery, nurture, and directed desire; I infer that the two opposite vectors transfer reliance from owned shelter toward the Lord. A live alternative is that refuge is inactive here and the final desire-command does not explain the earlier burden removal.",
+            "changed_reading": {
+              "before": "Removing a refuge from the addressee looks like unexplained exposure.",
+              "after": "A self-possessed defensive recourse is taken out of the addressee's orbit so reliance can be redirected toward a sovereign and nurturing center."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_body_axis_correction",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ز و ر mapping of the focus lexeme and its chest-crookedness branch. It remains anchored in the exact focus word and is unusually activated by the flanking chest, back, and creaking-body branches. Downstream prose should present it as a corporeal spatial activation, not as a claim that the ordinary noun has ceased to mean burden.",
+            "focus_anchor": "The focus word וِزْرَكَ at word 3 admits a mapped chest-and-crookedness image, while وَضَعْنَا عَنكَ supplies removal from the body.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting something away supplies correction by removing a distorting element from the body."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B004",
+                "role": "The chest and chest-crookedness image supplies a frontal bend or torsion latent in the focus noun."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest activates the frontal half of the latent body axis."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints under load supplies the symptom of a frame twisted or compressed by weight."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The back supplies the rear half of the chest-to-back load-bearing axis."
+              }
+            ],
+            "changed_reading": {
+              "before": "An abstract burden is removed.",
+              "after": "A distorting load or crookedness spanning chest and back is taken off, allowing the bodily axis to open and realign."
+            }
+          },
+          {
+            "outlier_id": "outlier_speech_composition_release",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because it uses the non-dominant mapped image of inwardly shaping speech. It remains live because explanation precedes the focus and spoken/public mention follows it, forming a traceable speech-production sequence around the exact focus lexeme. It should be rendered as an activation about communicative burden, not as a lexical replacement.",
+            "focus_anchor": "The focus noun at word 3 maps non-dominantly to preparing and straightening speech, and the verb at word 1 can remove that labor from the speaker.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting a task down supplies release from a privately carried communicative labor."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B006",
+                "role": "Preparing and straightening speech before utterance supplies the specific burden being carried inwardly."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarifying meaning supplies intelligibility before expression."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on the tongue supplies successful outward utterance."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting news supplies circulation beyond the speaker once the inward labor is relieved."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden has no communicative function.",
+              "after": "The inward strain of composing and straightening speech is taken off you, allowing clarified meaning to pass onto the tongue and circulate publicly."
+            }
+          },
+          {
+            "outlier_id": "outlier_textile_harness_unbinding",
+            "confidence": "exploratory",
+            "containment": "This is deliberately cross-domain: sewing cotton and string or flax do not by themselves prove a garment or harness. It remains anchored because both are packet branches of the two focus roots, while the context adds undoing a bound construction and carried back-equipment. Downstream prose should call it a material analogy for de-rigging, not a direct object identification.",
+            "focus_anchor": "The focus roots contain images of sewing padding into cloth and of string or flax, both governed by a construction that takes the resulting weight off the addressee.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B008",
+                "role": "Placing cotton into a sewn garment supplies padding and construction around a body-borne load."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B008",
+                "role": "String or flax supplies the thread or binding element of the constructed load."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B001",
+                "role": "Undoing a tightly made construction supplies unsewing or releasing the binding."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B005",
+                "role": "Carried equipment supplies the body-borne rig whose padding and ties are dismantled."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden is a homogeneous abstract mass.",
+              "after": "The burden behaves like a padded, string-bound rig fitted to the back: its construction is undone and the apparatus is taken off piece by piece."
+            }
+          },
+          {
+            "outlier_id": "outlier_vector_reorientation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because deviation comes from the non-dominant ز و ر mapping rather than the dominant burden inventory. It remains anchored in the exact focus lexeme and gains a coherent directional mechanism from عَنكَ versus إِلَىٰ and the context branch for desire turning toward or away. It should be qualified as a vectorial activation, not asserted as the primary lexical sense.",
+            "focus_anchor": "The focus noun at word 3 can activate turning aside, while the focus preposition sends it away from the addressee.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting aside supplies removal of a deflecting trajectory from the person."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B001",
+                "role": "Turning aside and deviation supply the directional defect latent in the focus object."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign mastery supplies the endpoint named by the final directional phrase."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward or away supplies the positive steering operation after deviation is removed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Relief changes how much weight the addressee carries.",
+              "after": "Relief changes direction: a deflecting bend is removed from you so desire can be steered toward its named endpoint."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The relative clause in 94:3 turns an unspecified burden into a mechanically diagnosed load that makes the back creak.",
+            "The mirrored downward and upward verbs of 94:2 and 94:4 selectively lower the load while raising the bearer's public standing.",
+            "The repeated coexistence of hardship and ease revises removal from total problem-erasure into restored maneuverability within continuing difficulty.",
+            "The childbirth and difficult-birth branches preserve a generative model in which release occurs through labor and passage.",
+            "The emptying and upright-effort sequence in 94:7 makes unloading a reset for new directed exertion rather than terminal rest."
+          ],
+          "what_was_special": "The focus supports several mechanisms that cannot be safely merged: unloading, delegated support, disarmament, delivery, economic abatement, and detachment from refuge. Context both stabilizes the physical load model and activates stranger but inspectable readings, especially the birth/ease chain and the non-dominant mapping's chest, speech, textile, and directional images.",
+          "remaining_uncertainties": [
+            "The focus-only refuge reading has unresolved valence; 94:8 can reframe it as transferred reliance, but that causal arrow remains reader-supplied.",
+            "The economic model is coherent across capital abatement, lack of means, and sufficiency, yet the packet does not itself state that the burden is debt.",
+            "The childbirth model has unusually strong branch resonance across focus and context but remains form-distant from the ordinary construction.",
+            "The non-dominant mapped-root outliers are traceable activations rather than claims that those images control the primary lexical reading.",
+            "The context sequence strongly invites causal integration, while parallel, non-causal enumeration remains live for several deltas."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The primary mechanism is load removal from the body. Lexical evidence: `و ض ع B001` setting something down or in its place, `و ز ر B002` heavy burden; 94:3 `ن ق ض B005` creaking under strain and `ظ ه ر B002` anatomical back. Structural cue: 94:2 names the load’s removal, and 94:3 immediately identifies the load by its effect on the back. Assigned role: `وضع` is the downward transfer, `وزر` is the load, and `ظهر` is the support that had borne it. Abductive move supplied by me: removal is inferred as causal explanation for the chest opening and later ease. Reading change: the ayah reads as a mechanical unburdening whose evidence appears in the next ayah’s strained sound.\n\n2. The burden is also a false refuge or transferred support. Lexical evidence: `و ز ر B001` refuge/shelter, `و ز ر B004` supporting minister/helper, and `ر ب ب B001/B002` final lordship and nurture. Structural cue: the burden is taken “from you,” while the passage ends by directing رغبة to `رَبِّكَ`. Assigned role: `وزر` can be what one relies on for protection or help; its removal clears the relation so support is no longer carried by the addressed person. Abductive move supplied by me: some shelters become loads when they are borne as self-support. Reading change: the ayah is not only forgiveness/relief of weight; it is relocation of dependence from carried support to divine lordship.\n\n3. The laying-down is activated as birth/delivery. Lexical evidence: `و ض ع B002` laying down a pregnancy in birth; `ر ح م B003/B004` womb and womb pain after birth; `ع س ر B006` difficult childbirth; `ي س ر B001` ease/readiness and `ي س ر B006` productive increase. Structural cue: mercy/womb terms open the packet; the doubled hardship/ease couplet follows the burden episode. Assigned role: the `وزر` is a carried thing brought to term and set down. Abductive move supplied by me: the context’s womb, hardship, and ease branches let “placing down” be heard as delivery out of constriction. Reading change: the ayah becomes release-through-birth, not merely dropping an object.\n\n4. A weaker legal-economic reading is preserved. Lexical evidence: `و ض ع B004` reducing capital through loss, `ص د ر B005` settling liability on money, `ع س ر B002/B003` insolvency and pressing an insolvent debtor, `ي س ر B003` prosperity and means, `ذ ك ر B008` rights document. Structural cue: the sequence from burden to repeated ease activates debt/means vocabulary across roots. Assigned role: the “burden” can behave like a liability that is abated. Abductive move supplied by me: the passage’s relief may include release from an accounting claim. Reading change: the ayah can be heard as cancellation or reduction of an imposed liability, though this reading is secondary because the immediate body/back cue is stronger.",
@@ -10001,14 +11166,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10261,10 +11432,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 6,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 79893,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:18.672932+00:00",
+  "generated_at": "2026-08-18T13:34:26.139651+00:00",
   "surah": 100,
   "ayah": 8,
   "ayahRef": "100:8",
@@ -1515,7 +1515,8 @@
         "m-w-s100-a008-w001-02",
         "m-w-s100-a008-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "100:8:1"
+      "aligned_qac_word_ref_upstream": "100:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1529,7 +1530,8 @@
       "morpheme_ids": [
         "m-w-s100-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:8:2"
+      "aligned_qac_word_ref_upstream": "100:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1543,7 +1545,8 @@
       "morpheme_ids": [
         "m-w-s100-a008-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:8:3"
+      "aligned_qac_word_ref_upstream": "100:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1559,7 +1562,8 @@
         "m-w-s100-a008-w003-01",
         "m-w-s100-a008-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:8:4"
+      "aligned_qac_word_ref_upstream": "100:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1575,7 +1579,8 @@
         "m-w-s100-a008-w004-01",
         "m-w-s100-a008-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:8:5"
+      "aligned_qac_word_ref_upstream": "100:8:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3085,7 +3090,1365 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:8",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v3",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "100:8",
+        "hermeticity": {
+          "method": "I formed the baseline from 100:8 and its three focus branch inventories alone, then treated the context roots in packet order as possible activators while requiring every retained reading to return to حُبِّ, خَيْرِ, شَدِيدٌ, or their construction.",
+          "limitations": "This is a reconstructed one-call trace because the sealed packet exposed the focus ayah and all context simultaneously. It records recoverable baseline-to-context changes, not a temporally blind staged log, and it uses no material beyond the prompt, schema, packet, and ordinary Arabic morphology and syntax."
+        },
+        "baseline_models": [
+          {
+            "model_id": "b01-bound-attachment",
+            "status": "baseline",
+            "confidence": "strong",
+            "focus_anchor": "The construction لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ joins ح ب ب as clinging attachment, خ ي ر as desired benefit, and ش د د as a fastened bond.",
+            "mechanism": "The three focus roots yield a relational mechanism: something judged beneficial attracts preference, preference clings, and the doubled lām construction culminates in a predicate of tight fastening. شَدِيدٌ therefore describes not only degree but how firmly the subject is bound to the desired good.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love is an attachment that remains with the heart.",
+                "assigned_role": "Supplies the persistent attachment in the focus relation."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "The good is what is inclined toward as beneficial.",
+                "assigned_role": "Supplies the attachment's positively valued object."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "A bond is tied and made firm.",
+                "assigned_role": "Turns intensity into the firmness of the subject-object bond."
+              }
+            ],
+            "changed_reading": {
+              "before": "He loves the good very intensely.",
+              "after": "He is tightly fastened to what he takes to be good; the verse profiles the tenacity of the bond, not merely a large quantity of affection."
+            }
+          },
+          {
+            "model_id": "b02-miserly-gift",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "حُبِّ can be clinging preference, خَيْرِ can be beneficence or gift, and شَدِيدٌ has a branch explicitly naming miserliness.",
+            "mechanism": "A received or available gift becomes an object of possessive attachment. Because the ش د د inventory permits severity as miserliness, the predicate can diagnose retention: love of giving-as-object becomes unwillingness to let the gift pass onward.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Preference clings to the heart.",
+                "assigned_role": "Makes possession emotionally adhesive."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Khayr can image beneficence, giving, or a gift.",
+                "assigned_role": "Recasts the object from abstract goodness as transferable bounty."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Severity can denote miserliness.",
+                "assigned_role": "Makes withholding, rather than emotional volume alone, the predicate's function."
+              }
+            ],
+            "changed_reading": {
+              "before": "He has an intense love of goodness.",
+              "after": "He clings severely to bounty and is tight-fisted with what could circulate as a gift."
+            }
+          },
+          {
+            "model_id": "b03-forceful-pursuit",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "Within the focus inventories, خَيْرِ can be the better option selected, حُبِّ can be preference, and شَدِيدٌ can image a forceful charge.",
+            "mechanism": "Selection supplies a target, attachment supplies directional preference, and the charge branch of ش د د converts that preference into pursuit. The predicate can therefore be kinetic: desire does not merely sit in the subject but drives him toward the preferred outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love supplies a durable preference.",
+                "assigned_role": "Acts as the motive force."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "Khayr includes selecting or seeking the better option.",
+                "assigned_role": "Supplies the pursued target."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B003",
+                "branch_image_ar": "شد الحملة والعدو",
+                "literal_contribution": "Shidda can image a forceful charge or run.",
+                "assigned_role": "Converts preference into vigorous directed motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "He feels strongly about the good.",
+              "after": "He drives hard toward the option he prefers; شَدِيدٌ can profile pursuit as well as feeling."
+            }
+          },
+          {
+            "model_id": "b04-hidden-heart-core",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "The focus noun حُبِّ activates the branch حبة القلب سويداؤه, while خَيْرِ activates selection and شَدِيدٌ activates a firm bond.",
+            "mechanism": "The selected good is lodged at the heart's inner kernel and held there by a tightened bond. This produces an inward-causal reading: the verse identifies a compact motive at the subject's core from which conduct can issue.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "The root can image the heart's innermost kernel.",
+                "assigned_role": "Locates love as a compact interior motive."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "Khayr can be what is selected as the better option.",
+                "assigned_role": "Names the value lodged at the center."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The bond is made firm.",
+                "assigned_role": "Explains why the inner valuation is difficult to dislodge."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports an observable intensity of love.",
+              "after": "The verse locates a tightly bound valuation in the heart's kernel, presenting love as a hidden causal core."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01-exertive-drive",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:1"
+            ],
+            "trigger_roots": [
+              "ع د و",
+              "ض ب ح"
+            ],
+            "mechanism": "Running plus audible breath gives the focus-only charge model a bodily cost. The packet supplies motion and panting; I infer that the preference named in 100:8 can function as the drive that sustains exertion. شَدِيدٌ becomes force expended under attachment, not a static emotional measurement.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "A lasting preference remains attached.",
+                "assigned_role": "Supplies the drive that persists through effort."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "The good is a sought or selected outcome.",
+                "assigned_role": "Supplies a possible goal for the exertion."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B003",
+                "branch_image_ar": "شد الحملة والعدو",
+                "literal_contribution": "Severity can be a forceful charge or run.",
+                "assigned_role": "Links the focus predicate directly to vigorous movement."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "mapped_root_norm": "ع د و",
+                "branch_id": "B002",
+                "branch_image_ar": "العَدْو والحَضْر",
+                "literal_contribution": "The context supplies running and swift movement.",
+                "assigned_role": "Externalizes the charge latent in شَدِيدٌ."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "mapped_root_norm": "ض ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The context supplies an exertive breath or sound.",
+                "assigned_role": "Marks the bodily cost and persistence of the drive."
+              }
+            ],
+            "structural_cues": [
+              "The first context unit couples an agentive motion image with its audible bodily consequence.",
+              "The focus predicate شَدِيدٌ can echo that earlier exertive register through its own charge branch."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The earlier exertion can illuminate the later predicate without making the runner itself the independent subject of 100:8.",
+                "packet_supplies": "100:1 supplies running and panting; 100:8 supplies love, selected good, and a charge branch for شَدِيدٌ.",
+                "reader_infers": "Attachment to the selected good energizes sustained pursuit.",
+                "alternatives": [
+                  "The opening motion may remain scene imagery with no causal relation to the focus motive.",
+                  "شَدِيدٌ may retain only its degree or firmness sense."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "A forceful-pursuit sense was only a focus-internal possibility.",
+              "after": "The context gives that pursuit lungs and effort: love of the preferred good is a drive capable of sustaining a hard run."
+            },
+            "minimal_triggers": [
+              "100:1 عَٰدِيَٰتِ with root_000993:B002",
+              "100:1 ضَبْحًا with root_000901:B001"
+            ],
+            "ablation": "Without either the running image or its exertive sound, the kinetic focus branch remains possible but loses the contextual evidence that intensity is enacted through bodily effort."
+          },
+          {
+            "model_id": "d02-ignited-attachment",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_refs": [
+              "100:2"
+            ],
+            "trigger_roots": [
+              "و ر ي",
+              "ق د ح"
+            ],
+            "mechanism": "The context supplies a latent fire brought out by striking. I assign the directional arrow: a contact or friction event activates an inward attachment into visible energetic output. The remote ح ب ب spark branch adds a disturbing qualification: brilliance can be weak or useless even when its declared object is خَيْر.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B011",
+                "branch_image_ar": "نار الحباحب شرر لا ينتفع به",
+                "literal_contribution": "A root-distant branch images faint or useless sparks.",
+                "assigned_role": "Introduces the possibility that desire's display expends energy without yielding benefit."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Khayr is what is desired as beneficial.",
+                "assigned_role": "Creates the paradoxical test: does the energy actually produce the benefit it names?"
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B002",
+                "branch_image_ar": "شدة القوة والصلابة",
+                "literal_contribution": "The predicate supplies intensity and force.",
+                "assigned_role": "Gives the ignition high energetic amplitude."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "Fire lies latent and comes out from the fire-stick.",
+                "assigned_role": "Models attachment as stored energy awaiting activation."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "mapped_root_norm": "ق د ح",
+                "branch_id": "B001",
+                "branch_image_ar": "إيراء النار بالقدح",
+                "literal_contribution": "Striking kindles fire.",
+                "assigned_role": "Supplies the activating event that makes the latent motive flare."
+              }
+            ],
+            "structural_cues": [
+              "The ignition pair follows the exertive pair, allowing motion, friction, and flare to form a rising energy sequence.",
+              "The focus combines an attachment noun with an emphatic force predicate, a shape compatible with stored energy becoming output."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "Physical ignition can serve as a material analogy for motive activation.",
+                "packet_supplies": "100:2 supplies latent fire and striking; 100:8 supplies attachment, benefit, force, and a remote spark branch.",
+                "reader_infers": "The love is an inward combustible disposition that circumstances can strike into action.",
+                "alternatives": [
+                  "The fire imagery may describe only the earlier agents' motion.",
+                  "The ح ب ب spark branch may be too form-distant to bear more than exploratory weight."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Love is a continuously present strong attachment.",
+              "after": "Love is also latent combustible energy: it can be struck into forceful action, yet its sparks may prove spectacular and non-beneficial despite being directed toward what is called good."
+            },
+            "minimal_triggers": [
+              "100:2 مُورِيَٰتِ with root_001642:B002",
+              "100:2 قَدْحًا with root_001203:B001",
+              "100:8 حُبِّ with root_000286:B011"
+            ],
+            "ablation": "Removing the ح ب ب spark branch leaves a generic fire metaphor; removing the two 100:2 ignition branches leaves the remote focus branch unactivated and causally inert."
+          },
+          {
+            "model_id": "d03-incursive-accumulation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:4",
+              "100:5"
+            ],
+            "trigger_roots": [
+              "ث و ر",
+              "ن ق ع",
+              "و س ط",
+              "ج م ع"
+            ],
+            "mechanism": "Displacement produces a cloud, entry reaches a center, and scattered parts are gathered. The packet supplies that trajectory; I infer that the selected good in 100:8 can occupy the role of the concentrated object toward which attachment drives. The reading changes from pursuit in open space to forceful penetration and accumulation.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Attachment persists toward its object.",
+                "assigned_role": "Maintains direction through the contextual sequence."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "The good is a selected or sought option.",
+                "assigned_role": "Supplies the inferred object of directed acquisition."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B003",
+                "branch_image_ar": "شد الحملة والعدو",
+                "literal_contribution": "Shidda can be a forceful charge.",
+                "assigned_role": "Supplies the force crossing into the concentration."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "mapped_root_norm": "ث و ر",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Something is stirred and moved from its place.",
+                "assigned_role": "Begins the displacement caused by forceful pursuit."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "mapped_root_norm": "ن ق ع",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "Raised dust forms a cloud.",
+                "assigned_role": "Makes the pursuit materially disruptive and obscuring."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "و س ط",
+                "source_phrase_ar": "وَسَطْ",
+                "mapped_root_id": "root_001646",
+                "mapped_root_norm": "و س ط",
+                "branch_id": "B003",
+                "branch_image_ar": "الدخول أو الجعل في الوسط",
+                "literal_contribution": "The action enters or places something in the middle.",
+                "assigned_role": "Changes pursuit into penetration of a center."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B001",
+                "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+                "literal_contribution": "Scattered parts are joined into a collected thing.",
+                "assigned_role": "Supplies the concentration toward which the force moves."
+              }
+            ],
+            "structural_cues": [
+              "The repeated fa-linked actions progress from stirring, through a material wake, to entering the middle of a gathering.",
+              "The sequence narrows spatially from open movement to a center, while 100:8 narrows value onto one preferred good."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The gathered center can model the object-domain of desire without being equated lexically with خَيْر.",
+                "packet_supplies": "The context supplies displacement, dust, entry, and gathering; the focus supplies selected good, attachment, and charge.",
+                "reader_infers": "Desire aims not merely to approach but to penetrate and concentrate what it values.",
+                "alternatives": [
+                  "The gathered center may be unrelated to the focus object's semantics.",
+                  "The sequence may illustrate force without accumulation."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "He forcefully pursues a preferred good.",
+              "after": "His attachment drives an incursive movement into the center of concentration; the desired good is imagined as something to reach, penetrate, and gather."
+            },
+            "minimal_triggers": [
+              "100:5 وَسَطْ with root_001646:B003",
+              "100:5 جَمْعًا with root_000259:B001",
+              "100:8 شَدِيدٌ with root_000782:B003"
+            ],
+            "ablation": "Without the middle-plus-gathering pair, the model collapses back to undirected exertion; without the charge branch of شَدِيدٌ, the contextual sequence does not alter the focus predicate's function."
+          },
+          {
+            "model_id": "d04-self-monopolizing-choice",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_refs": [
+              "100:4",
+              "100:5"
+            ],
+            "trigger_roots": [
+              "ث و ر",
+              "ج م ع"
+            ],
+            "mechanism": "The packet's non-dominant ء ث ر mapping for أَثَرْ supplies self-monopolization, while the next ayah supplies gathering. Joined to خَيْر as choosing and شَدِيد as miserliness, these cues revise attachment into exclusive appropriation: the subject selects what is better, gathers it, and reserves it for himself.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Preference adheres to the heart.",
+                "assigned_role": "Supplies possessive attachment."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "Khayr can involve selecting the better option.",
+                "assigned_role": "Supplies the act of preferential selection."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Severity can be miserliness.",
+                "assigned_role": "Turns selection into restrictive retention."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "mapped_root_norm": "ء ث ر",
+                "branch_id": "B006",
+                "branch_image_ar": "استبداد المرء بالشيء لنفسه",
+                "literal_contribution": "The split mapped branch images monopolizing a thing for oneself.",
+                "assigned_role": "Introduces exclusive self-allocation as the changed mechanism."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B001",
+                "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+                "literal_contribution": "Scattered things are made into a collection.",
+                "assigned_role": "Supplies the stock on which monopolizing selection operates."
+              }
+            ],
+            "structural_cues": [
+              "The packet places أَثَرْ before entry into جَمْعًا, allowing the alternative mapped self-preference branch to act on a subsequent collection.",
+              "The focus itself juxtaposes preference with a predicate that can denote miserliness."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The accepted non-dominant ء ث ر branch can activate a focus reading even though it is not the dominant mapping of the context root.",
+                "packet_supplies": "A mapped branch for self-monopolization, a gathered collection, focus selection, and focus miserliness.",
+                "reader_infers": "The selected good is gathered under exclusive self-claim.",
+                "alternatives": [
+                  "The dominant ث و ر displacement reading may be the only contextually active one.",
+                  "Selection may remain evaluative without becoming appropriation."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "He withholds a gift because attachment is severe.",
+              "after": "He preferentially selects and gathers what he calls good under an exclusive claim for himself; miserliness is the closure of a choice-and-collection mechanism."
+            },
+            "minimal_triggers": [
+              "100:4 أَثَرْ with root_000011:B006",
+              "100:8 خَيْرِ with root_000452:B003",
+              "100:8 شَدِيدٌ with root_000782:B006"
+            ],
+            "ablation": "Removing the non-dominant ء ث ر branch removes monopolization and leaves only accumulation; removing the focus miserliness branch removes the exclusive closure."
+          },
+          {
+            "model_id": "d05-gift-relation-severed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:6"
+            ],
+            "trigger_roots": [
+              "ر ب ب",
+              "ك ن د"
+            ],
+            "mechanism": "The context places nurture and completion beside cutting and ingratitude for favor or affection. Those supplied relations revise the focus gift model: the subject adheres to the benefit while severing reciprocity with its nurturing giver. شَدِيد as miserliness is therefore relational asymmetry, not just private greed.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love is a clinging attachment.",
+                "assigned_role": "Explains why the subject keeps hold of the benefit."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Khayr can be generosity or gift.",
+                "assigned_role": "Makes the desired object something received and transferable."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Severity can name miserliness.",
+                "assigned_role": "Defines the failure to return or circulate benefit."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "The relation supplies cultivation, nurture, and completion.",
+                "assigned_role": "Supplies the giver-side process from which benefit comes."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Kanūd images cutting and separation.",
+                "assigned_role": "Severs the subject's relation to the source while attachment to the gift remains."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Kanūd names denial of favor and affection.",
+                "assigned_role": "Identifies the reciprocity failure produced by the cut."
+              }
+            ],
+            "structural_cues": [
+              "100:6 establishes a subject-to-rabb relation immediately before 100:8 specifies the subject-to-khayr relation.",
+              "The emphatic إنّ ... لَ frame in 100:6 recurs around the focus, encouraging the two relations to be read together."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The gift sense of خَيْر can be evaluated against the preceding nurture and ingratitude relation.",
+                "packet_supplies": "Nurture/completion, severance, denial of favor, love as attachment, gift as khayr, and miserliness as shidda.",
+                "reader_infers": "The subject binds himself to the received benefit while cutting acknowledgment and return toward its source.",
+                "alternatives": [
+                  "Khayr may remain general good rather than received beneficence.",
+                  "Shadīd may mean only strong attachment without withholding."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "He is miserly because he loves bounty.",
+              "after": "He preserves the bounty-side of a relation while cutting the giver-side: intense attachment to the gift and ingratitude toward nurture are one asymmetric mechanism."
+            },
+            "minimal_triggers": [
+              "100:6 رَبِّ with root_000532:B002",
+              "100:6 كَنُودٌ with root_001321:B001 and root_001321:B002",
+              "100:8 خَيْرِ with root_000452:B005"
+            ],
+            "ablation": "Without the cutting branch, the model becomes generic ingratitude; without nurture and gift, it loses the specific asymmetry between clinging to benefit and severing relation to its source."
+          },
+          {
+            "model_id": "d06-severity-as-evidence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:7"
+            ],
+            "trigger_roots": [
+              "ش ه د"
+            ],
+            "mechanism": "The near-parallel وَإِنَّهُ ... لَشَهِيدٌ and وَإِنَّهُ ... لَشَدِيدٌ frames place testimony beside severity. The packet supplies a witnessing sign; I infer that the severe bond to the selected good is itself the sign that makes the preceding relational failure legible. A private motive becomes evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "Love can image the heart's inner kernel.",
+                "assigned_role": "Supplies the otherwise hidden interior fact."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "Khayr is the preferred selection.",
+                "assigned_role": "Identifies what the sign reveals the subject to have chosen."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The attachment is tied into a firm bond.",
+                "assigned_role": "Makes the hidden preference stable enough to leave an evidentiary pattern."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A mark serves as a witness.",
+                "assigned_role": "Converts the focus's severe attachment into diagnostic evidence."
+              }
+            ],
+            "structural_cues": [
+              "Adjacent ayat repeat وَإِنَّهُ and an emphatic lām predicate, with شَهِيدٌ followed by شَدِيدٌ.",
+              "The small consonantal and rhythmic shift between the two predicates encourages evidence and severity to interact without collapsing their roots."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The parallel syntax makes the second predicate evidentiary with respect to the first.",
+                "packet_supplies": "A witnessing mark in 100:7, a firm inner bond in 100:8, and closely parallel clause frames.",
+                "reader_infers": "The pattern of attachment visibly testifies to the subject's orientation.",
+                "alternatives": [
+                  "100:7 may state self-witness independently and 100:8 may merely add another trait.",
+                  "The formal parallel may be rhetorical reinforcement without causal linkage."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse describes a hidden but strong valuation.",
+              "after": "The strength of that valuation is itself a witnessing mark: what grips the heart becomes evidence of what the subject has chosen and of the relation he has cut."
+            },
+            "minimal_triggers": [
+              "The adjacent وَإِنَّهُ ... لَشَهِيدٌ / وَإِنَّهُ ... لَشَدِيدٌ parallel",
+              "100:7 شَهِيدٌ with root_000822:B008",
+              "100:8 شَدِيدٌ with root_000782:B001"
+            ],
+            "ablation": "Without the adjacent parallel frames, the witness branch can still concern awareness but no longer strongly changes 100:8 from motive-description into evidence."
+          },
+          {
+            "model_id": "d07-forensic-heart-kernel",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:9",
+              "100:10",
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ع ل م",
+              "ب ع ث ر",
+              "ق ب ر",
+              "ح ص ل",
+              "ص د ر",
+              "خ ب ر"
+            ],
+            "mechanism": "The post-focus sequence moves from knowing, through overturning what is hidden, to extracting an inner kernel from the chests and knowing the affair's inside. Those packet elements revise the heart-core baseline into a forensic mechanism: the tightly bound selection named in 100:8 is the buried causal kernel that later exposure isolates.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "The focus root images the heart's inner kernel.",
+                "assigned_role": "Supplies the hidden material to be exposed."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "Khayr is what has been selected as better.",
+                "assigned_role": "Names the valuation discovered inside."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The inner selection is held by a firm bond.",
+                "assigned_role": "Explains its deep lodging and resistance to displacement."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "mapped_root_norm": "ع ل م",
+                "branch_id": "B001",
+                "branch_image_ar": "انكشاف الشيء للعارف",
+                "literal_contribution": "A thing becomes disclosed to the knower.",
+                "assigned_role": "Frames the following operations as disclosure rather than mere disturbance."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Earth is overturned and what was buried is uncovered.",
+                "assigned_role": "Supplies the first exposure operation."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "mapped_root_norm": "ق ب ر",
+                "branch_id": "B002",
+                "branch_image_ar": "غموض الشيء وتطامنه",
+                "literal_contribution": "Something is obscure and sunken.",
+                "assigned_role": "Supplies the hidden-state analogue for the inward motive."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "A kernel or precious interior is extracted from its covering.",
+                "assigned_role": "Isolates the heart-kernel valuation from its enclosure."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "mapped_root_norm": "ص د ر",
+                "branch_id": "B004",
+                "branch_image_ar": "الأصل الذي تصدر عنه الأفعال",
+                "literal_contribution": "The chest is the source from which actions issue.",
+                "assigned_role": "Connects the extracted valuation to outward conduct."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Knowledge reaches the report and the affair's interior.",
+                "assigned_role": "Completes the movement from hidden motive to fully known interior."
+              }
+            ],
+            "structural_cues": [
+              "After 100:8, the sequence moves from graves, to chests, to knowledge of the interior.",
+              "The outer-to-inner progression reverses the earlier outward motion and makes the focus's heart-kernel branch newly functional.",
+              "Passive exposure verbs shift agency away from the subject whose attachment had driven the earlier models."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The material operations on buried and enclosed things can model disclosure of the focus motive.",
+                "packet_supplies": "Burial, overturning, kernel extraction, chests as sources of acts, and knowledge of the interior.",
+                "reader_infers": "The severe love in 100:8 is the compact interior cause that these operations expose.",
+                "alternatives": [
+                  "The post-focus operations may concern separate objects without specifying the motive in 100:8.",
+                  "حُبِّ may remain ordinary affection without activating the heart-kernel image."
+                ]
+              },
+              {
+                "assumption": "What is extracted from the chest can explain prior outward action.",
+                "packet_supplies": "The chest branch names an origin of acts; the focus supplies a selected and firmly bound valuation.",
+                "reader_infers": "Exposure reveals not just a feeling but the source-code of conduct.",
+                "alternatives": [
+                  "The extracted content may be an inventory of deeds rather than their motive.",
+                  "Knowledge may evaluate outcome without tracing causation."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Love of the selected good is a hidden firm bond in the heart.",
+              "after": "That bond is the buried causal kernel of conduct: the later sequence overturns its cover, extracts it from the action-producing chest, and renders its inward selection fully knowable."
+            },
+            "minimal_triggers": [
+              "100:8 حُبِّ with root_000286:B004",
+              "100:10 حُصِّلَ with root_000330:B002",
+              "100:10 صُّدُورِ with root_000849:B004"
+            ],
+            "ablation": "Without kernel extraction from the chests, the burial imagery yields only general exposure; without the focus heart-kernel branch, the post-focus sequence cannot specifically revise the semantics of حُبِّ."
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01-recurrent-desire-loop",
+            "confidence": "exploratory",
+            "why_surprising": "It uses the non-dominant ع و د target embedded in the packet's split mapping for عَٰدِيَٰتِ, shifting from one forceful run to practiced recurrence.",
+            "why_still_valid": "The packet explicitly preserves that mapped target and its habit branch, while the focus supplies clinging attachment, repeated choice, and fastening. The resulting loop remains anchored in the construction لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ.",
+            "focus_anchor": "حُبِّ as clinging attachment and شَدِيدٌ as fastening make a repeatable preference-loop; خَيْرِ supplies the repeatedly selected outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Attachment remains with the heart.",
+                "assigned_role": "Supplies persistence across repetitions."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "طلب الخير بالاختيار والاستخارة",
+                "literal_contribution": "The better option is sought and selected.",
+                "assigned_role": "Supplies the repeatedly preferred target."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The bond is fastened.",
+                "assigned_role": "Stabilizes the loop into a hard-to-break pattern."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_001058",
+                "mapped_root_norm": "ع و د",
+                "branch_id": "B004",
+                "branch_image_ar": "عادة ودرَبة ومواظبة",
+                "literal_contribution": "The split target images habit, training, and persistence.",
+                "assigned_role": "Changes a single surge of desire into rehearsed recurrence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Love of the good drives a forceful episode of pursuit.",
+              "after": "The attachment is a trained return-path: the subject repeatedly selects the same valued object until preference becomes a fastened habit."
+            },
+            "rendering_caution": "Do not claim that عَٰدِيَٰتِ lexically means habit here. This is an activation from an accepted non-dominant mapped root, useful as a model of compulsion but form-distant and exploratory."
+          },
+          {
+            "outlier_id": "o02-hoarded-seed-barrenness",
+            "confidence": "exploratory",
+            "why_surprising": "It reads the focus through the material seed branch of ح ب ب and the barren-earth branch of ك ن د, making attachment an ecological failure rather than only an emotion.",
+            "why_still_valid": "The focus itself supplies seed-kernel, gift, and binding branches; 100:6 supplies both nurture and land that does not grow. The inference concerns what tight possession does to the focus good, so it remains anchored.",
+            "focus_anchor": "حُبِّ as seed-grain, خَيْرِ as gift, and شَدِيدٌ as fastening support an image of potentially fruitful good held too tightly to be released.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "الحبة التي تنبت وتحمل الحب",
+                "literal_contribution": "The root supplies a seed capable of growth and carrying grain.",
+                "assigned_role": "Materializes the desired good as latent generativity."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Khayr supplies gift and generosity.",
+                "assigned_role": "Makes release and circulation the seed's unrealized social function."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The object is tightly bound.",
+                "assigned_role": "Prevents the seed-gift from being released into a growth cycle."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "The context supplies cultivation and completion.",
+                "assigned_role": "Defines the unrealized growth process."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B003",
+                "branch_image_ar": "الأرض التي لا تنبت",
+                "literal_contribution": "The context supplies land that does not grow.",
+                "assigned_role": "Images the sterile result of withholding the seed-gift from circulation."
+              }
+            ],
+            "changed_reading": {
+              "before": "He keeps a gift because he loves it.",
+              "after": "He binds up the seed of good so tightly that its gift-potential never enters nurture: possessive love turns fertile possibility into barren retention."
+            },
+            "rendering_caution": "Treat this as a cross-domain material analogy, not as a claim that حُبِّ in the clause denotes literal seed or that كَنُودٌ denotes literal soil in context."
+          },
+          {
+            "outlier_id": "o03-surplus-cut-from-nurture",
+            "confidence": "exploratory",
+            "why_surprising": "It uses the non-dominant ر ب و target attached to رَبِّ to activate transactional increase, then contrasts that increase with the dominant ر ب ب nurture branch.",
+            "why_still_valid": "Both mapped targets are explicitly retained in the packet. Joined to focus gift, clinging, and miserliness plus context cutting, they produce a coherent relational change rather than an independent theme.",
+            "focus_anchor": "The focus's attachment to gift and its miserliness become attachment to increase itself; the reading still turns on حُبِّ ٱلْخَيْرِ and the function of شَدِيدٌ.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Attachment clings persistently.",
+                "assigned_role": "Fixes desire on continued increase."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Khayr is bounty or gift.",
+                "assigned_role": "Supplies the benefit whose increase is desired."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Shidda can be miserliness.",
+                "assigned_role": "Makes accumulation one-way rather than reciprocal."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "The dominant target supplies nurture and completion.",
+                "assigned_role": "Provides the relational growth model from which surplus is detached."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000537",
+                "mapped_root_norm": "ر ب و",
+                "branch_id": "B003",
+                "branch_image_ar": "زيادة الربا في المعاملة",
+                "literal_contribution": "The non-dominant target supplies increase in a transaction.",
+                "assigned_role": "Recasts the desired good as surplus sought for itself."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "The context supplies severance.",
+                "assigned_role": "Cuts transactional increase away from reciprocal nurture."
+              }
+            ],
+            "changed_reading": {
+              "before": "He clings to a received good and fails to reciprocate.",
+              "after": "He loves surplus as surplus: increase is detached from the nurturing relation that produced benefit and retained under a one-way, miserly bond."
+            },
+            "rendering_caution": "This depends on a non-dominant split mapping and must not be presented as the direct lexical sense of رَبِّ. Preserve it as an extractive-economic activation, not a settled interpretation."
+          },
+          {
+            "outlier_id": "o04-good-as-coaxing-lure",
+            "confidence": "exploratory",
+            "why_surprising": "It activates the rare خ ي ر image of coaxing an animal from a burrow and lets the post-focus uncovering sequence reverse the direction: what is loved also draws the hidden lover or motive out.",
+            "why_still_valid": "The lure remains the focus word خَيْرِ, while حُبِّ supplies the hidden heart-core and شَدِيدٌ its fastening. Graves, uncovering, and kernel extraction provide a visible exit-and-exposure mechanism.",
+            "focus_anchor": "خَيْرِ functions as the selected lure, حُبِّ as what is hidden inside, and شَدِيدٌ as the resistance that makes coaxing or extraction necessary.",
+            "activation_trace": [
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "The root supplies a hidden heart-kernel.",
+                "assigned_role": "Locates the motive inside its enclosure."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B006",
+                "branch_image_ar": "استدراج الحيوان من جحره",
+                "literal_contribution": "The root has a branch of coaxing an animal out of its burrow.",
+                "assigned_role": "Makes the desired good a lure that reveals hidden orientation."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "The inner bond is tightly fastened.",
+                "assigned_role": "Explains why disclosure requires pressure or an exit mechanism."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Buried contents are uncovered by overturning earth.",
+                "assigned_role": "Opens the enclosure around the hidden motive."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "mapped_root_norm": "ق ب ر",
+                "branch_id": "B002",
+                "branch_image_ar": "غموض الشيء وتطامنه",
+                "literal_contribution": "The thing is obscure and sunken.",
+                "assigned_role": "Supplies the burrow-like hidden state."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "The precious kernel is extracted from its covering.",
+                "assigned_role": "Completes the movement of hidden attachment into disclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject moves toward the good because he loves it.",
+              "after": "The direction can reverse: the presented good lures the hidden attachment into the open, revealing what the subject is tightly bound to when concealment is overturned."
+            },
+            "rendering_caution": "This is a deliberately strange directional reversal licensed by branch and sequence, not a claim that خَيْرِ straightforwardly means bait in 100:8."
+          }
+        ],
+        "discarded_or_unchanged": [
+          "100:3 صُبْحًا and its root_000839 morning branches timed the earlier action but did not independently change a focus-anchored reading beyond the kinetic model.",
+          "The focus ح ب ب branches for teeth, small stature, a jar, and water bubbles did not produce a distinct mechanism stronger than the retained binding, ignition, seed, or heart-kernel readings.",
+          "100:11 خ ب ر branches for soft soil, husbandry, abundance, and soft vegetation did not change 100:8 beyond the retained inner-knowledge endpoint.",
+          "The proper-name, animal-name, and isolated body-part branches in several context inventories failed to return coherently to حُبِّ, خَيْرِ, or شَدِيدٌ and were left inactive."
+        ],
+        "summary": {
+          "strongest_changes": [
+            "شَدِيدٌ changed from a scalar adjective into the firmness, exertion, and at times miserliness of an attachment mechanism.",
+            "The 100:6 gift relation changed love of khayr into an asymmetry: clinging to received benefit while cutting reciprocity with its nurturing source.",
+            "The adjacent شَهِيدٌ / شَدِيدٌ frames changed private attachment into a witnessing mark of the subject's chosen orientation.",
+            "The 100:9-11 exposure sequence changed حُبِّ into a buried heart-kernel that is extracted from the source of actions and made inwardly known."
+          ],
+          "what_was_special": "The most productive activations were not broad themes but reversals of function: movement became motive, gift became a severed relation, severity became evidence, and an inward heart-kernel became an excavated cause. Accepted split mappings also preserved live minority models of recurrence, monopolization, and surplus detached from nurture.",
+          "remaining_uncertainties": [
+            "The construction permits live competition among intensity, firm attachment, forceful pursuit, and miserliness; the packet does not force one predicate function.",
+            "خَيْرِ may remain general benefit, selected betterment, or transferable gift, and each scope changes the social mechanism.",
+            "The kinetic context clearly energizes the focus, but assigning the gathered center as the object-domain of desire is an explicit reader inference.",
+            "The spark, barren-seed, coaxing-lure, and non-dominant split-root readings are traceable but intentionally exploratory and should not be lexicalized as settled senses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Attachment hardened into restraint.** Evidence: ح ب ب B002 love/clinging attachment; خ ي ر B001 desired good and B005 beneficence/gift; ش د د B001 fastening a bond and B002 intensity/hardness. Structural cue: repeated \"and indeed he\" ties witness to intense love. Role: love attaches; \"good\" is the desired object; شد makes the attachment hard and binding. Abductive move: what should circulate as beneficence becomes privately fastened to the self. Reading change: the ayah reads as possessive fixation on benefit, not simply liking wealth/good.\n\n2. **Seed/kernel economy.** Evidence: ح ب ب B001 seed-grain/kernel and B004 heart's inner kernel; خ ي ر B002 choice excellence and B003 choosing; ح ص ل B002 extracting kernel/value; ص د ر B001 chest. Structural cue: later 100:10 will extract what is in breasts. Role: hubb supplies both love and kernel; khayr supplies selected value; tahsil later exposes the kernel. Abductive move: desire has an inner seed lodged in the chest that later extraction will sort. Reading change: the ayah becomes a statement about the heart's concealed kernel of valuation.\n\n3. **Charge mirrored inward.** Evidence: ش د د B003 forceful charge/running; ع د و B002 running; ض ب ح B001 breath; ج م ع B010 gathering force; ح ب ب B005 camel fixed by exhaustion. Structural cue: the opening kinetic sequence returns in the moral predicate \"shadid.\" Role: shiddah carries both martial force and hardened intensity; hubb can immobilize like an exhausted animal. Abductive move: the same force that drives the runners also knots the human inwardly, producing both charge and stuckness. Reading change: the verse mirrors the opening: the human is a battlefield of desire's charge.",
@@ -11606,14 +12969,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 79,
+        "ayah_count": 11,
+        "row_count": 72,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11958,10 +13327,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s100/readers/reader_hft_a/100_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v3",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s100"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s100",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 104035,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

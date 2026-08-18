@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.535483+00:00",
+  "generated_at": "2026-08-18T13:34:11.622190+00:00",
   "surah": 92,
   "ayah": 21,
   "ayahRef": "92:21",
@@ -960,7 +960,8 @@
       "morpheme_ids": [
         "m-w-s092-a021-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:21:1"
+      "aligned_qac_word_ref_upstream": "92:21:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -976,7 +977,8 @@
         "m-w-s092-a021-w001-02",
         "m-w-s092-a021-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "92:21:2"
+      "aligned_qac_word_ref_upstream": "92:21:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -990,7 +992,8 @@
       "morpheme_ids": [
         "m-w-s092-a021-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:21:3"
+      "aligned_qac_word_ref_upstream": "92:21:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1584,7 +1587,1367 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s92/packets/92_21.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "92:21",
+      "window": [
+        "92:1",
+        "92:2",
+        "92:3",
+        "92:4",
+        "92:5",
+        "92:6",
+        "92:7",
+        "92:8",
+        "92:9",
+        "92:10",
+        "92:11",
+        "92:12",
+        "92:13",
+        "92:14",
+        "92:15",
+        "92:16",
+        "92:17",
+        "92:18",
+        "92:19",
+        "92:20",
+        "92:21"
+      ],
+      "ayah_count": 21,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ق و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000808",
+              "furuq_root_norm": "ش ق و",
+              "furuq_source_root_norm": "ش ق و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000809",
+              "furuq_root_norm": "ش ق ي",
+              "furuq_source_root_norm": "ش ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ج ز ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000244",
+              "furuq_root_norm": "ج ز ي",
+              "furuq_source_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 97,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000242",
+              "furuq_root_norm": "ج ز ز",
+              "furuq_source_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "92:21",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_emphatic_delayed_acceptance",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic future construction لَسَوْفَ with the imperfect يَرْضَىٰ presents a masculine singular subject moving toward an assured but not-yet state.",
+            "mechanism": "The core branch opposes satisfaction to displeasure, so the minimal clause promises a reversal from unresolved affect into settled acceptance; delay belongs to the transition, not to uncertainty about it.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "The core contrast between satisfaction and displeasure supplies the endpoint of the promised state change."
+              }
+            ],
+            "changed_reading": {
+              "before": "He will be pleased.",
+              "after": "He is emphatically promised a not-yet but certain passage from displeasure or unresolvedness into settled acceptance."
+            }
+          },
+          {
+            "model_id": "baseline_acceptive_ratification",
+            "confidence": "medium",
+            "focus_anchor": "The verb states neither an object nor a complement, leaving open what the subject will come to accept.",
+            "mechanism": "The acceptance side of the split root inventory lets the event function as ratification of an encountered outcome, not merely the onset of a pleasant emotion.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped inventory preserves acceptance as the opposite of displeasure and supports an outcome-ratifying sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject will feel happy.",
+              "after": "The subject will come to accept and ratify an otherwise unstated outcome as one with which he can rest."
+            }
+          },
+          {
+            "model_id": "baseline_sought_fullness",
+            "confidence": "medium",
+            "focus_anchor": "The emphatic future leaves room for satisfaction to arrive as a culmination rather than a minimal momentary feeling.",
+            "mechanism": "The branch of abundant or specially sought approval amplifies the endpoint: the clause can promise fullness of satisfaction, not bare cessation of complaint.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B002",
+                "role": "The branch of abundant or sought approval expands the scale of the future satisfaction."
+              }
+            ],
+            "changed_reading": {
+              "before": "He will become minimally content.",
+              "after": "He will reach a sought and ample sufficiency of satisfaction."
+            }
+          },
+          {
+            "model_id": "baseline_relational_settlement",
+            "confidence": "exploratory",
+            "focus_anchor": "The subject is encoded in يَرْضَىٰ, while the party or matter with which satisfaction is reached remains unexpressed.",
+            "mechanism": "Although the focus form is not morphologically reciprocal, the mutual-consent branch activates a relational endpoint around it: one party's satisfaction may register a settlement whose counterpart is left implicit.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "The branch of reciprocal consent supplies a possible two-party horizon for the otherwise objectless verb."
+              }
+            ],
+            "changed_reading": {
+              "before": "A private feeling will arise in one person.",
+              "after": "An unstated relation may reach consent or concord, registered through the subject's becoming satisfied."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_veil_to_disclosure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي ل",
+              "غ ش و",
+              "ن ه ر",
+              "ج ل و"
+            ],
+            "mechanism": "Night and covering establish an obscured phase; day and disclosure answer it with opened visibility. The focus future can therefore be read as satisfaction arriving when a presently covered consequence becomes manifest.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Settled acceptance remains the focus endpoint whose timing is reinterpreted by the contextual alternation."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night as the dark counter-state to day establishes the first, obscured phase."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A cover rising over and hiding a thing makes concealment an active operation."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B002",
+                "role": "Day opening through light supplies the counter-phase of access and visibility."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ج ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000256",
+                "branch_id": "B001",
+                "role": "Disclosure after concealment provides the release point that can enable satisfaction."
+              }
+            ],
+            "structural_cues": [
+              "92:1-2 form an إِذَا/إِذَا antiphony in which covering is immediately answered by disclosure.",
+              "The emphatic future in 92:21 can echo that ordered temporal turn without naming what is presently hidden."
+            ],
+            "reader_inference": "The packet supplies covering followed by disclosure; I supply the arrow that revealed outcome enables رضا. A live alternative is that the cosmic alternation only frames certainty and does not cause the satisfaction.",
+            "changed_reading": {
+              "before": "Future satisfaction is merely later than the present.",
+              "after": "Future satisfaction is the affective consequence of a veil-to-disclosure transition: what cannot yet be seen will become acceptable when it is shown."
+            }
+          },
+          {
+            "model_id": "delta_designed_difference_relational_fit",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ل ق",
+              "ذ ك ر",
+              "ء ن ث"
+            ],
+            "mechanism": "Measured creation coordinates two explicitly unlike poles. This activates the relational baseline as fit across difference: satisfaction need not erase distinction but can mark concord between differentiated terms.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Reciprocal consent supplies the possible relational settlement reached across difference."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and apportioning a thing presents differentiation as designed rather than accidental."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B001",
+                "role": "The male term contributes one pole of the explicit opposition."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "ء ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000058",
+                "branch_id": "B001",
+                "role": "The female term contributes the coordinated opposite pole."
+              }
+            ],
+            "structural_cues": [
+              "One act of creation governs the coordinated male and female terms in 92:3.",
+              "The paired nouns are unlike but syntactically held within one designed relation."
+            ],
+            "reader_inference": "The packet supplies measured creation and a coordinated opposition; I infer that designed difference can terminate in fit or concord. The live alternative is that the pair belongs only to the oath and says nothing about the mechanics of رضا.",
+            "changed_reading": {
+              "before": "Relational satisfaction would require sameness or simple agreement.",
+              "after": "Relational satisfaction can be a designed fit across real difference, with concord rather than homogeneity as its endpoint."
+            }
+          },
+          {
+            "model_id": "delta_divergent_striving_to_arrival",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ع ي",
+              "ش ت ت"
+            ],
+            "mechanism": "Purposeful movement toward an aim is declared dispersed into different courses. Against that field, يَرْضَىٰ becomes a trajectory-closing arrival: satisfaction is where one course finally resolves, not an uncaused mood.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance supplies the terminal state into which a course of striving may resolve."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Goal-directed movement turns the promised state into the endpoint of a course."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion separates the available courses and makes their eventual outcomes non-equivalent."
+              }
+            ],
+            "structural_cues": [
+              "The nominal assertion in 92:4 makes the addressees' striving itself divergent before the later singular subject reaches رضا.",
+              "The focus future stands at the far end of the surah's earlier movement vocabulary."
+            ],
+            "reader_inference": "The packet supplies purposeful movement and dispersion; I infer that future رضا closes one of those trajectories. The alternative is that diverse striving only classifies agents and that satisfaction remains an externally added reward.",
+            "changed_reading": {
+              "before": "The subject simply receives a later pleasant state.",
+              "after": "The subject arrives at satisfaction as the resolution of a directed course selected from genuinely divergent strivings."
+            }
+          },
+          {
+            "model_id": "delta_enacted_path_opens",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "و ق ي",
+              "ص د ق",
+              "ح س ن",
+              "ي س ر"
+            ],
+            "mechanism": "Passing something outward, placing the self under protection, realizing truth in deed, and doing the good are followed by an opening into ease. The ample satisfaction of the focus becomes the cultivated fit of an enacted path whose next movement is made open.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B002",
+                "role": "Abundant or sought approval supplies the full endpoint generated by the positive sequence."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing something over initiates an outward transfer rather than retention."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself within protection supplies a disciplined boundary for the path."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Making a promise or claim real in action turns assent into operative commitment."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "The performance of good gives the affirmed good a behavioral form."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty supplies the pathway response to those acts."
+              }
+            ],
+            "structural_cues": [
+              "The فَأَمَّا sequence accumulates coordinated acts and then answers them with فَسَنُيَسِّرُهُ.",
+              "The repeated future marker in the facilitating clause anticipates the focus's own future culmination."
+            ],
+            "reader_inference": "The packet supplies an ordered action chain followed by facilitation; I infer that outward giving and guarded commitment dispose the subject toward the later satisfaction. The alternative is that facilitation and رضا are both independent grants rather than one causally preparing the other.",
+            "changed_reading": {
+              "before": "Full satisfaction arrives without an internal mechanism.",
+              "after": "Full satisfaction is the eventual fit produced along a path where giving, guardedness, enacted truth, and goodness are answered by opening and ease."
+            }
+          },
+          {
+            "model_id": "delta_false_sufficiency_collapses",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب خ ل",
+              "غ ن ي",
+              "ك ذ ب",
+              "ي س ر",
+              "ع س ر",
+              "م و ل",
+              "ر د ي"
+            ],
+            "mechanism": "Withholding closes the outward transfer while claimed self-sufficiency and denial misread what can sustain the subject. Facilitation then opens precisely onto difficulty, and accumulated wealth proves unable to suffice at the fall. The focus satisfaction is thereby distinguished from present complacency and from purchased security.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Settled acceptance becomes the durable state contrasted with self-deceiving present sufficiency."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "ب خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000089",
+                "branch_id": "B001",
+                "role": "Withholding blocks the transfer that opened the positive path."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Claimed independence supplies a rival, self-generated version of contentment."
+              },
+              {
+                "source_ref": "92:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth marks that claimed sufficiency as a misreading rather than a stable endpoint."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening after resistance explains how a chosen course can become increasingly accessible even when its destination is adverse."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity name the adverse destination made accessible."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Adequacy is the capacity explicitly denied to the subject's wealth at the decisive moment."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the stored resource that fails to secure its holder."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "ر د ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000558",
+                "branch_id": "B003",
+                "role": "A fall into ruin supplies the event at which false sufficiency is exposed."
+              }
+            ],
+            "structural_cues": [
+              "The وَأَمَّا/فَسَنُيَسِّرُهُ sequence mirrors the positive sequence while reversing its acts and destination.",
+              "The negation and إِذَا clause in 92:11 test wealth exactly when the subject falls."
+            ],
+            "reader_inference": "The packet supplies withholding, self-sufficiency, denial, an opened difficult path, failed wealth, and a fall; I infer that these expose a counterfeit رضا based on possession. The alternative is that the negative sequence only contrasts fates and does not define the positive satisfaction's quality.",
+            "changed_reading": {
+              "before": "The promised satisfaction is simply the pleasant counterpart of later pain.",
+              "after": "The promised رضا is durable sufficiency after the collapse of hoarded, self-declared sufficiency; it cannot be manufactured or secured by accumulated wealth."
+            }
+          },
+          {
+            "model_id": "delta_guided_temporal_wholeness",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه د ي",
+              "ء خ ر",
+              "ء و ل"
+            ],
+            "mechanism": "Gentle indication supplies direction, while the first and the last place both temporal ends within one domain and the return-to-outcome branch folds beginning toward consequence. The delayed رضا becomes arrival within an already held and guided whole.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance is recast as arrival at the end of an oriented temporal course."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies orientation rather than coercive transport."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later or last term establishes the far temporal boundary."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence establish the near temporal boundary."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return toward final outcome turns the temporal pair into a course with a meaningful terminus."
+              }
+            ],
+            "structural_cues": [
+              "92:12-13 repeat emphatic إِنَّ while shifting from human striving to first-person plural responsibility and possession.",
+              "The coordinated last and first encompass both temporal boundaries before the focus says سَوْفَ."
+            ],
+            "reader_inference": "The packet supplies guidance, both temporal ends, and return to outcome; I infer that the future satisfaction is an arrival secured within that whole. The alternative is that ownership of both ends guarantees authority but does not describe the subject's experience of guidance.",
+            "changed_reading": {
+              "before": "The delay before satisfaction is an empty interval.",
+              "after": "The delay is a guided interval whose beginning and outcome lie within one encompassing order, making رضا an assured arrival rather than a lucky turn."
+            }
+          },
+          {
+            "model_id": "delta_separation_from_consuming_contact",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ل ظ ي",
+              "ص ل ي",
+              "ش ق و",
+              "و ل ي",
+              "ج ن ب",
+              "و ق ي"
+            ],
+            "mechanism": "Kindled flame becomes pure consuming heat, and misery is defined by entering into contact with it after denial and turning away. The guarded subject is instead moved aside and warded from harm. رضا thus gains a spatial and bodily substrate: satisfaction as no longer being exposed to consumption.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "The affective endpoint is grounded in a preceding change of exposure and location."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "A kindled fire supplies the dangerous medium from which the later subject is separated."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ل ظ ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001357",
+                "branch_id": "B001",
+                "role": "Pure, actively burning flame intensifies the medium into something consuming."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat defines the adverse relation as direct contact."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ش ق و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000809",
+                "branch_id": "B001",
+                "role": "Wretchedness opposed to flourishing names the condition produced by that contact."
+              },
+              {
+                "source_ref": "92:16",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the orientation that precedes the adverse exposure."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Being made separate and distant provides the positive subject's spatial reversal."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Warding off harm supplies the protective function of that separation."
+              }
+            ],
+            "structural_cues": [
+              "The feminine object pronoun threads one danger from the blaze, through contact, to being kept aside from it.",
+              "The restrictive إِلَّا construction contrasts the one exposed with the superlative guarded subject who is separated."
+            ],
+            "reader_inference": "The packet supplies a consuming medium, direct contact, turning away, separation, and protection; I infer that removal from exposure enables the later رضا. The alternative is that the fire sequence marks fate while satisfaction remains a distinct reward with no bodily mechanism.",
+            "changed_reading": {
+              "before": "Satisfaction is only an inward evaluation.",
+              "after": "Satisfaction is also embodied relief: the subject has been relocated outside a relation of consuming contact and held within protection."
+            }
+          },
+          {
+            "model_id": "delta_release_becomes_growth",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "م و ل",
+              "ز ك و"
+            ],
+            "mechanism": "Wealth is actively transferred outward while the giver reflexively grows and is purified. The focus's abundant satisfaction becomes the surplus generated by release: what leaves as possession returns as enlargement of the person rather than of the store.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B002",
+                "role": "Abundant satisfaction supplies the eventual surplus that possession alone could not provide."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Active giving makes value leave the subject's possession and enter relation."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated property supplies the material stock being released."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase relocate gain from the stock to the giver's developing state."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purification makes the gain qualitative as well as expansive."
+              }
+            ],
+            "structural_cues": [
+              "The same relative-clause subject gives his wealth and then appears inside the reflexive يَتَزَكَّىٰ.",
+              "The object leaves the subject while the resulting change remains in the subject."
+            ],
+            "reader_inference": "The packet supplies outward transfer followed by reflexive growth and purification; I infer that this transformed subject becomes capable of the later abundant رضا. The alternative is that purification is the motive of giving while satisfaction is a separate promised consequence.",
+            "changed_reading": {
+              "before": "Satisfaction compensates the giver for a net material loss.",
+              "after": "Giving converts stored wealth into personal growth and purification, so satisfaction is the ripened surplus of release rather than reimbursement for depletion."
+            }
+          },
+          {
+            "model_id": "delta_human_reciprocity_weakened",
+            "status": "weakened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ح د",
+              "ع ن د",
+              "ن ع م",
+              "ج ز ي"
+            ],
+            "mechanism": "Exhaustive negation removes any favor held with any human party that needs repayment. This weakens the baseline's unrestricted mutual-consent reading: the later satisfaction cannot be explained as balancing a human ledger or purchasing another person's approval.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "The possible mutual-consent horizon is retained but narrowed by the cancellation of human debt."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive scope under negation removes every candidate human creditor."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Proximity or possession locates the alleged favor in the subject's social account before it is denied."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "A benefaction supplies the putative credit that could have motivated repayment."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Counterbalancing an act with its return supplies the transactional loop that the negation breaks."
+              }
+            ],
+            "structural_cues": [
+              "مَا, the indefinite أَحَدٍ, and مِن before an indefinite favor intensify the negation.",
+              "The passive تُجْزَىٰ suppresses a repaid agent and foregrounds the repayment structure itself."
+            ],
+            "reader_inference": "The packet supplies the absence of any human favor awaiting recompense; I infer that this severs human approval and repayment as causes of رضا. The alternative is narrower: the verse may negate only an antecedent motive while leaving other human relational satisfactions possible.",
+            "changed_reading": {
+              "before": "The unstated counterpart in the focus could be any human party whose consent or gratitude completes an exchange.",
+              "after": "Human repayment is explicitly cleared from the mechanism; if the focus remains relational, its decisive counterpart and source of satisfaction lie beyond the human favor-debt ledger."
+            }
+          },
+          {
+            "model_id": "delta_directed_nurturing_completion",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب غ ي",
+              "و ج ه",
+              "ر ب ب",
+              "ع ل و"
+            ],
+            "mechanism": "Seeking establishes an intentional vector toward a face or direction; lordship adds nurture and completion, and highest rank lifts the vector beyond the canceled human ledger. The future satisfaction becomes arrival into aligned relation. Mutual approval remains a coexisting possibility, but the grammar explicitly guarantees only the seeker's satisfaction.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Settled acceptance names the seeker's assured endpoint."
+              },
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual consent keeps a two-sided concord reading live without making it grammatically explicit."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Deliberate seeking supplies the vector that precedes the promised arrival."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and orientation give the seeking a determinate bearing."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B003",
+                "role": "Face-to-face encounter adds a relational endpoint alongside bare direction."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repair, and completion provide a process by which the seeker can be brought to fullness."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Elevation and honor place the sought relation above ordinary social exchange."
+              }
+            ],
+            "structural_cues": [
+              "The exception in 92:20 replaces the negated repayment motive with one positive motive: seeking.",
+              "Possessive رَبِّهِ binds the seeker to the sought Lord immediately before the focus promise.",
+              "The focus follows without restating an object, allowing the preceding directional relation to fill the omission."
+            ],
+            "reader_inference": "The packet supplies seeking, orientation or encounter, nurturing completion, and elevation; I infer that the Lord brings the directed seeker to satisfaction and that concord may be two-sided. The live alternative is grammatically important: 92:21 predicates رضا only of the human subject and does not itself state reciprocal divine approval.",
+            "changed_reading": {
+              "before": "The subject accepts an unspecified outcome, possibly through a human exchange.",
+              "after": "The subject reaches satisfaction as his upward-directed seeking is nurtured to completion—possibly as concord between seeker and sought, but certainly not as human repayment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_adversarial_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus's simple verb ordinarily names satisfaction, while its inventory's overcoming sense is an isolated idiomatic branch and the supporting context branches are contestive rather than grammatical controls. It remains anchored in the focus root and in three contextual images of competition or dominance; downstream prose should present it only as an adversarial analogy for resolution, never as the direct lexical translation of يَرْضَىٰ.",
+            "focus_anchor": "The focus root has an isolated branch in which engagement over a matter ends through overcoming.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B005",
+                "role": "The rare overcoming idiom turns satisfaction into the resolution of a contested matter."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B008",
+                "role": "Competitive striving supplies agents pressing against one another toward an outcome."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B007",
+                "role": "Dominance within mutual dealing gives the positive act a latent contestive edge."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ش ق و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000808",
+                "branch_id": "B003",
+                "role": "Prevailing through arduous contest supplies a contextual echo of the rare focus branch."
+              }
+            ],
+            "changed_reading": {
+              "before": "رضا is quiet pleasure after conflict has disappeared.",
+              "after": "Exploratorily, رضا can register that a contested matter has finally been decided and no longer holds the subject in struggle."
+            }
+          },
+          {
+            "outlier_id": "outlier_hydraulic_circulation",
+            "confidence": "exploratory",
+            "containment": "This material reading is surprising because no water term occurs in the focus and the mechanism crosses several distant branch images. It remains anchored by treating رضا as the focus endpoint and by a packet-supplied chain of channel, outward transfer, opening, and flow; downstream prose should mark it as a systems analogy for satisfaction, not a hidden dictionary meaning.",
+            "focus_anchor": "The objectless future state can be modeled as the equilibrium reached after a previously blocked circulation opens.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Settled acceptance supplies the equilibrium state to be explained by the material analogy."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "Running water cutting a channel supplies the basic image of directed circulation."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Passing value outward keeps the system from closing around retained stock."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening after obstruction supplies the transition from blockage to flow."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B004",
+                "role": "A watercourse and the clearing of its way make the flow mechanism materially explicit."
+              }
+            ],
+            "changed_reading": {
+              "before": "Satisfaction is a private quantity accumulated inside the subject.",
+              "after": "As a contained material analogy, satisfaction is systemic equilibrium reached when value is released into an opened channel and allowed to circulate."
+            }
+          },
+          {
+            "outlier_id": "outlier_implied_satisfier",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus is an active intransitive simple verb, whereas the activated focus branch concerns causing or seeking another's satisfaction. It remains useful because the immediately prior context supplies a nurturing Lord and a directed seeker, making an omitted causal agent conceivable; downstream prose must distinguish this inferred causation from the morphology and say that the subject is brought to satisfaction, not translate the verb as passive.",
+            "focus_anchor": "The focus names the subject's resulting state but leaves its cause unspoken.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B004",
+                "role": "The causative and appeasing branch raises the possibility of an unexpressed satisfier behind the intransitive result."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Seeking establishes the subject as moving toward something he does not produce for himself."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion supply a plausible contextual agency that brings the seeker to the resulting state."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject simply and spontaneously becomes satisfied.",
+              "after": "Exploratorily, the subject is brought to satisfaction by the nurturing completion of the one he seeks, though the verb itself states only his resulting state."
+            }
+          },
+          {
+            "outlier_id": "outlier_nurtured_ripening",
+            "confidence": "exploratory",
+            "containment": "This organic reading is surprising because it links a non-dominant split mapping under ر ب ب to the growth branch in the giving sequence and then materializes an affective verb as ripening. It remains anchored in the focus's abundant-satisfaction branch and in packet-backed growth and nourishment images; downstream prose should qualify it as an ecological model of how رضا develops, not as a lexical gloss.",
+            "focus_anchor": "The promised fullness can be construed as a state that matures rather than a reward delivered all at once.",
+            "activation_trace": [
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B002",
+                "role": "Abundant satisfaction supplies the mature fullness at the end of the analogy."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase make the giver's inner change developmental."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped branch of feeding and development supplies nurture across the interval before fullness."
+              }
+            ],
+            "changed_reading": {
+              "before": "Satisfaction appears suddenly as an external payment.",
+              "after": "As a contained organic analogy, satisfaction ripens from growth that is fed and brought to fullness over time."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The bare future state became a veil-to-disclosure transition in which acceptance follows manifestation.",
+            "The opposed action sequences turned رضا into the terminal fit of a path and distinguished it from hoarded self-sufficiency.",
+            "Fire, contact, separation, and protection gave the affective endpoint a spatial and bodily mechanism.",
+            "Giving followed by reflexive growth recast satisfaction as surplus generated through release rather than compensation for loss.",
+            "The negated human ledger and the directed seeking of 92:20 relocated satisfaction from social repayment to nurtured, elevated alignment."
+          ],
+          "what_was_special": "The two-word focus leaves cause, object, and counterpart unstated, so ordered context can activate several coexisting mechanisms without replacing its anchor: disclosure, trajectory closure, protected relocation, non-transactional growth, and directed relational completion. Split-root branches also preserved odd but inspectable contestive, hydraulic, causative, and organic readings.",
+          "remaining_uncertainties": [
+            "The focus alone does not name its subject; the context strongly offers the giving and guarded figure, but that antecedent is supplied by sequence rather than repeated in 92:21.",
+            "The grammar explicitly promises the human subject's satisfaction, not divine satisfaction, so mutual approval remains live but inferred.",
+            "Several strong models depend on reader-supplied causal arrows where the packet itself supplies ordered juxtaposition.",
+            "The contestive, implied-satisfier, hydraulic, and ripening outliers are branch-backed but form-distant or cross-domain and must remain qualified."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Future satisfaction as accepted outcome.** Evidence: `ر ض و` B001 (acceptance opposed to displeasure), B002 (sought/abundant approval). Structural cue: the future particle follows purified seeking of the Lord’s face. Mechanism: the sought face answers with satisfaction, whether God’s approval, the giver’s contentment, or both are activated. Abductive move: I preserve both directions because the root allows approval as state and sought approval as object. Reading change: the ending is relational acceptance, not merely payment.\n\n2. **Mutual consent after non-transactional giving.** Evidence: `ر ض و` B003 (mutual consent), activated by 92:19 no favor repaid and 92:20 face-seeking. Structural cue: after all human debts are excluded, a two-sided رضى remains. Mechanism: the purified giver and Lord meet in consent rather than exchange. Abductive move: I infer reciprocity without commerce. Reading change: the final promise is communion-like satisfaction, not wage-settlement.\n\n3. **Appeasement after warning.** Evidence: `ر ض و` B004 (making another satisfied/appeasing), activated by 92:14 warning and 92:17 avoidance of fire. Structural cue: terror is not the last word; رضى closes the sequence. Mechanism: the path from warning through giving removes displeasure. Abductive move: I infer that the warning’s purpose is to make this satisfaction possible. Reading change: the surah ends with resolved pleasure after alarm, not with fear alone.",
@@ -7018,14 +8381,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s092/linguistic/morphemes.tsv",
-        "ayah_count": 22,
-        "row_count": 138,
+        "ayah_count": 21,
+        "row_count": 131,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7331,10 +8700,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s92/packets/92_21.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s92/readers/reader_hft_a/92_21.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s092",
+        "latent_activation/focus_trace/runs/s92"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s92",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 166566,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

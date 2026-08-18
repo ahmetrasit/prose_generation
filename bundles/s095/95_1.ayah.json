@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.343036+00:00",
+  "generated_at": "2026-08-18T13:34:15.907524+00:00",
   "surah": 95,
   "ayah": 1,
   "ayahRef": "95:1",
@@ -1239,7 +1239,8 @@
       "morpheme_ids": [
         "m-w-s095-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:1:1"
+      "aligned_qac_word_ref_upstream": "95:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1255,7 +1256,8 @@
         "m-w-s095-a001-w001-02",
         "m-w-s095-a001-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "95:1:2"
+      "aligned_qac_word_ref_upstream": "95:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1269,7 +1271,8 @@
       "morpheme_ids": [
         "m-w-s095-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:1:3"
+      "aligned_qac_word_ref_upstream": "95:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1285,7 +1288,8 @@
         "m-w-s095-a001-w002-02",
         "m-w-s095-a001-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "95:1:4"
+      "aligned_qac_word_ref_upstream": "95:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1742,7 +1746,767 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:1",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_edible_complement",
+            "confidence": "strong",
+            "focus_anchor": "The two coordinated focus nouns at 95:1, rooted in ت ي ن and ز ي ت.",
+            "mechanism": "The first noun supplies an edible fruit, while the second can name both olive tree and olive fruit. Their pairing presents complementary plant yields while retaining an asymmetry between a discrete fruit and a fruit-bearing crop.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig, including fruit eaten fresh or dried, supplies the pair's first directly consumable yield."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B002",
+                "role": "The olive tree and its fruit supply a collective crop whose tree-fruit ambiguity complements the discrete fig."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two conventional plant names are placed side by side.",
+              "after": "The pair displays two modes of edible yield: a singled fruit and a tree-borne collective crop."
+            }
+          },
+          {
+            "model_id": "base_preserved_extracted_provision",
+            "confidence": "medium",
+            "focus_anchor": "The fig's fresh-or-dried scope and the olive's oil, provisioning, and pressing branches.",
+            "mechanism": "The pair can be organized by material processing rather than taxonomy: fig passes from fresh to dried food, while olive yields oil by extraction and enters circulation as condiment or provision. Drying and pressing are two ways a harvest becomes durable and distributable.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig's fresh and dried states contribute a preservation pathway that changes the fruit while retaining its nourishment."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Olive oil as extracted juice contributes transformation from contained fruit to released, usable yield."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "Oil as condiment, provision, or gift gives the extracted yield a social function of sustaining and supplying others."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B005",
+                "role": "The oil presser and seller make labor and circulation visible inside the apparently simple plant name."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus names two ready-made foods.",
+              "after": "The focus juxtaposes two harvest pathways—drying and pressing—through which perishable growth becomes provision."
+            }
+          },
+          {
+            "model_id": "base_landmark_and_grove",
+            "confidence": "exploratory",
+            "focus_anchor": "The place-name branch of ت ي ن beside the tree-and-fruit branch of ز ي ت.",
+            "mechanism": "One focus noun can designate a mountain or named place, while the other can designate a tree or crop. The pair therefore permits a spatial reading in which named terrain and characteristic vegetation jointly identify a landscape.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B002",
+                "role": "The fig as a named mountain or place shifts the first noun from an edible object to a geographic coordinate."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B002",
+                "role": "The olive tree and fruit supply the vegetation by which a place can be materially characterized."
+              }
+            ],
+            "changed_reading": {
+              "before": "The conjunction joins two foods.",
+              "after": "The conjunction may join a named landmark to its cultivated grove, allowing food and place readings to coexist."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_nested_protected_landscape",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط و ر",
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "The following mountain, bounded land, and security cues turn the baseline place-and-grove possibility into a nested topography. The opening pair can mark productive terrain, the mountain extends the upland scale, and the deictically present secure city narrows the sequence to protected inhabited ground.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B002",
+                "role": "The named mountain or place carried by the fig keeps the first focus noun available as an actual coordinate."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B002",
+                "role": "The olive tree and crop give the coordinate a cultivated ecological signature."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The mountain or mountain-name branch repeats the focus place scale and extends it into an explicit upland landmark."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The bounded tract of earth supplies a perimeter, converting loose landmarks into delimited inhabited space."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Calm security and trust qualify the bounded land as protected rather than merely enclosed."
+              }
+            ],
+            "structural_cues": [
+              "The first three ayat form one coordinated oath sequence: focus pair, mountain, then a deictically present city.",
+              "The sequence narrows from potentially named terrain and vegetation to bounded ground whose endpoint is explicitly secure."
+            ],
+            "reader_inference": "The packet supplies place, mountain, bounded-earth, and security images in that order; I supply the arrow of spatial nesting and movement toward protected settlement. A live alternative is that the oath names independent referents without forming an itinerary.",
+            "changed_reading": {
+              "before": "A place branch for the fig and a grove branch for the olive are only a lexical possibility.",
+              "after": "The focus pair opens a protected-landscape itinerary in which productive terrain, mountain, bounded city, and security successively specify one spatial field."
+            }
+          },
+          {
+            "model_id": "delta_formed_yield_and_reversal",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ح س ن",
+              "ق و م",
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "Fresh-to-dried fruit and fruit-to-oil extraction make the focus pair examples of achieved material states. Measuring creation, beauty, upright balance, return, and lowering then recast those yields as analogues for form that is produced, disclosed, and reversible rather than simply possessed.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The fig eaten fresh or dried contributes one substance carried through a visible change of state."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil as the olive's extracted yield contributes a latent content that becomes manifest through transformation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Creation as measuring and proportioning supplies the operation by which an achieved form is set."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Beauty opposed to ugliness supplies a qualitative pole for the formed result."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, moderation, and levelness give the human form an upright equilibrium rather than a static shape alone."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Returning a thing to a prior place supplies the reversal arrow that makes achieved form nonfinal."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Physical low position supplies the downward endpoint of the reversal."
+              }
+            ],
+            "structural_cues": [
+              "The superlative contrast between best and lowest brackets a directional turn introduced by then.",
+              "The context moves from an act of forming to a return, so state change rather than fixed classification controls the sequence."
+            ],
+            "reader_inference": "The packet supplies processed plant states and a measured-upright-to-lowered sequence; I supply the analogy that plant yield prefigures the making and unmaking of form. The live alternative is that the plants remain oath objects with no material analogy to the human sequence.",
+            "changed_reading": {
+              "before": "Drying and extraction make the pair durable provisions.",
+              "after": "They also become small material demonstrations of formed yield: a good state can be achieved and disclosed, yet still be returned into another condition."
+            }
+          },
+          {
+            "model_id": "delta_sustenance_as_qiwam",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و م",
+              "س ف ل",
+              "م ن ن"
+            ],
+            "mechanism": "The focus foods can be read as qiwam: livelihood that acts like a supporting pillar. Upright form, downward movement, and the force by which a thing stands or loses strength make nourishment function as material maintenance of embodied standing, not merely as abundance.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig supplies immediate nourishment as one material support of life."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "Oil as condiment and provision supplies stored sustenance that can maintain a person or group."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Qiwam as pillar, subsistence, and livelihood explicitly joins economic sustenance to structural support."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "The act of moving downward supplies the collapse that contrasts with maintained standing."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B002",
+                "role": "The force by which something stands, or the loss of that force, makes continuity of support the mechanism's hinge."
+              }
+            ],
+            "structural_cues": [
+              "Best upright formation is followed by downward return, then by an exception whose reward is described through noncessation.",
+              "The repeated standing-versus-lowering axis lets concrete provisions at the opening participate in the maintenance of form."
+            ],
+            "reader_inference": "The packet supplies foods, provision, livelihood-as-pillar, descent, and sustaining force; I infer that nourishment is one material condition of continued uprightness. A live alternative is that qiwam remains formal or moral and the foods do not enter its causal chain.",
+            "changed_reading": {
+              "before": "Fig and olive are signs or instances of nourishment.",
+              "after": "Fig and olive become the material qiwam of the body: provision imagined as the support that keeps formed life standing against decline."
+            }
+          },
+          {
+            "model_id": "delta_labor_value_and_uncut_return",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و م",
+              "ع م ل",
+              "ء ج ر",
+              "م ن ن",
+              "د ي ن"
+            ],
+            "mechanism": "The oil presser and seller already place labor and exchange inside the focus. Later valuation, work-wage, recompense, possible cutting-off, and accounting unfold that seed into an economy: finite crops are processed and priced, while the promised return is emphatically not exhausted like ordinary provision.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig, preserved fresh or dried, supplies a finite crop that can be stored and circulated."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "Oil as provision or gift supplies the distributable good around which exchange and obligation can form."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B005",
+                "role": "The presser and seller expose the otherwise hidden labor and market roles behind the olive product."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and pricing supply the operation that assigns exchange value to produced goods."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "The wage and provision of a worker connect intentional labor to a due material return."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense for work or hire formalizes the return side of the labor relation."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting and diminishing until extension ceases supply the finite limit that the grammatical negation refuses."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense extend the crop-and-wage chain into a final reckoning of value."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from work to a possessed recompense qualified as uncut, then immediately asks about accounting or requital.",
+              "The focus pair itself contains both raw crop and a product whose pressing, provisioning, gifting, and selling imply a chain of hands."
+            ],
+            "reader_inference": "The packet supplies crop, presser, seller, pricing, wage, recompense, cutting, and accounting branches; I compose them into an economy and infer a contrast between finite market return and uncut recompense. A live alternative is that these are independent ethical terms rather than one exchange mechanism.",
+            "changed_reading": {
+              "before": "The opening pair shows preserved food available for human use.",
+              "after": "It opens a miniature labor economy—crop, processing, provision, price, wage, and account—whose finite returns are exceeded by a reward that is not cut off."
+            }
+          },
+          {
+            "model_id": "delta_oath_objects_as_evidence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "د ي ن",
+              "ل ي س",
+              "ء ل ه",
+              "ح ك م"
+            ],
+            "mechanism": "Denial, accounting, negation, oath-language, and judgment retrospectively juridicize the opening coordination. The fig's manifest edible fruit and the olive's extractable inner yield become two kinds of exhibit—yield immediately seen and yield disclosed by pressure—inside a case about whether formed life can be assessed and requited.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The directly edible fig supplies a manifest yield that can function as the first material exhibit."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil as extracted olive yield supplies a second exhibit whose content becomes evident only through disclosure."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsehood as the contrary of truth creates the contested claim for which the oath objects can serve as evidence."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense define what is at stake in the contested claim."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Negation that denies a state supplies the closing interrogative challenge to denial."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The divine name's use in oath and invocation reinforces the formal oath frame surrounding the focus objects."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment between people supplies the tribunal role that converts invoked objects into evidentiary witnesses."
+              }
+            ],
+            "structural_cues": [
+              "The opening coordinated oath is answered by a claim about human formation and then by questions concerning denial, requital, and the best judge.",
+              "The final negative interrogative does not merely conclude the oath; it stages assent as the expected verdict."
+            ],
+            "reader_inference": "The packet supplies oath-capable divine naming, truth-versus-falsehood, accounting, negation, and judging; I infer a juridical arrow that makes the opening objects exhibits rather than ornament. A live alternative is a general rhetorical emphasis with no courtroom-like mechanism.",
+            "changed_reading": {
+              "before": "Fig and olive are objects invoked to intensify a later assertion.",
+              "after": "Fig and olive act as paired material witnesses—one manifest, one extractable—in an argument that moves from testimony through denial to judgment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_wolf_to_cultivated_security",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare dialectal wolf-name rather than the ordinary fig, yet it remains anchored in the exact focus branch and is independently stirred by later wilderness, bounded-land, security, and human-versus-wild branches. Downstream prose should present it only as a lexical flicker or punning countercurrent, never as a replacement gloss for the focus noun.",
+            "focus_anchor": "The ت ي ن noun at word 1 through its dialectal wolf-name branch, contrasted with the cultivated olive at word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B003",
+                "role": "The dialectal name for a wolf inserts a predator at the edge of the ordinary fig reading."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B002",
+                "role": "The cultivated olive tree and crop provide the settled agricultural counterpole to the wolf."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B006",
+                "role": "Wildness and departure from familiar human limits give the wolf branch an environmental domain rather than leaving it isolated."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "Bounded ground supplies the perimeter across which wild and cultivated domains can be contrasted."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust make the bounded cultivated side explicitly safe."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The human defined against wildness supplies the social threshold through which the predator-to-cultivation contrast passes."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus begins with two cultivated foods.",
+              "after": "At the lexical fringe, it can flicker as a crossing from wolf and wilderness toward olive cultivation, bounded settlement, security, and the human."
+            }
+          },
+          {
+            "outlier_id": "outlier_coating_wear_and_exposure",
+            "confidence": "exploratory",
+            "containment": "This cross-domain surface reading is surprising, especially because its final stripping cue comes from the non-dominant م ر د inventory mapped from ر د د. It remains valid as an activation because fresh-versus-dried fig and oiling are exact focus branches, while bodily marking, surface wear, and stripping recur in the context inventories. Downstream prose should qualify it as a material analogy about covering and exposure, not as ordinary lexical sense or a claim that the split root controls the ayah.",
+            "focus_anchor": "The fig's fresh/dried material states and the olive's oiling or anointing branch.",
+            "activation_trace": [
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig's fresh and dried states supply a visible alteration of moisture, texture, and surface."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B003",
+                "role": "Oiling or anointing the head and body supplies an applied protective or beautifying surface layer."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B006",
+                "role": "A mark on skin or body makes the context's spatial noun touch the body's visible surface."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B009",
+                "role": "A garment worn until its nap disappears contributes gradual loss of an outer covering."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch's stripping away of what covers a thing supplies the terminal exposure in the surface sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The pair consists of foods with different uses.",
+              "after": "The pair can also initiate a fragile surface sequence—drying, coating, marking, wearing away, and stripping—that makes formed embodiment vulnerable to exposure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Mountain, bounded-earth, and security branches strengthen the focus place branch into a protected topographic itinerary without eliminating the literal crops.",
+            "Measured creation, uprightness, return, and lowering turn fresh, dried, and extracted yields into an analogy for achieved but reversible form.",
+            "Pressing and provisioning join pricing, work, wage, noncessation, and accounting to expose a labor economy inside the opening foods.",
+            "Falsehood, requital, oath-language, negation, and judgment recast the focus objects as material witnesses rather than decorative oath tokens."
+          ],
+          "what_was_special": "The focus sustains several mechanisms at once: edible complement, preservation and extraction, landmark and grove, bodily support, labor economy, and juridical evidence. The rare wolf-to-human threshold and coating-to-stripping sequence remain live under explicit containment instead of being normalized away.",
+          "remaining_uncertainties": [
+            "The fig's place branch may be an active spatial coordinate or only a lexicographic alternative intensified by the following mountain and city.",
+            "The analogy between processed plant yield and reversible human form is abductively coherent but not grammatically asserted.",
+            "The labor-economy and juridical-accounting models may be distinct readings or two scales of one recompense mechanism.",
+            "The wolf branch and the non-dominant stripping branch deserve preservation as surprises, but their rarity and form-distance keep them exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Edible fruit and oil as material supports of upright formation.** Lexical evidence: ت ي ن B001, edible fig; ز ي ت B001, olive oil/extract; ز ي ت B004, oil as condiment, provision, or gift; ق و م B009 in 95:4, support/mainstay/subsistence. Structural cue: the oath by two food-bearing terms precedes \"we created the human in best taqwim.\" Assigned role: fig and olive become provision images that materially underwrite the body's standing and subsistence. Abductive move: I infer that an oath-object can activate the bodily support branch of ق و م, so nourishment and proportion belong to one mechanism. Reading change: the line reads not as decorative nature imagery but as testimony from sustaining matter before human valuation.\n\n2. **A geographic chain of bounded holy places.** Lexical evidence: ت ي ن B002, fig as named mountain/place; ز ي ت B002, olive tree/fruit as place-linked vegetation; ط و ر B005 in 95:2, the Mount; ب ل د B001 and ء م ن B001 in 95:3, bounded land and security. Structural cue: 95:1-3 are three oath units, moving from two named/fruit-place signs, to a mountain, to \"this secure town.\" Assigned role: التين can remain fruit, but B002 allows it also to stand as a place-marker; الزيتون then joins the chain as vegetation anchoring a terrain. Abductive move: I supply the assumption that parallel oath syntax can make material names behave as coordinates. Reading change: the ayah opens a map of witnessed sites, not only a pair of foods.\n\n3. **Extraction/anointing as a hidden preparation motif.** Lexical evidence: ز ي ت B001, extracted oil; ز ي ت B003, oiling/anointing; خ ل ق B010 in 95:4, perfuming/anointing with paste; ح س ن B002, skillful beneficent action. Structural cue: the oil term precedes creation \"in best taqwim,\" and the packet later distinguishes those whose عمل is صالح. Assigned role: olive oil's extract and anointing branch turns the material sign into preparation of a body or surface for honored use. Abductive move: I infer that repeated bodily/material treatment images can activate a rite-like preparation mechanism. Reading change: الزيتون is not merely one crop beside another; it can suggest refined extract applied to bodies, food, or honor before the human is assessed.",
@@ -4935,14 +5699,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5154,10 +5924,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 78151,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

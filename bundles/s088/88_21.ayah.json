@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.067423+00:00",
+  "generated_at": "2026-08-18T13:33:35.789659+00:00",
   "surah": 88,
   "ayah": 21,
   "ayahRef": "88:21",
@@ -1931,7 +1931,8 @@
       "morpheme_ids": [
         "m-w-s088-a021-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:21:1"
+      "aligned_qac_word_ref_upstream": "88:21:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1945,7 +1946,8 @@
       "morpheme_ids": [
         "m-w-s088-a021-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:21:2"
+      "aligned_qac_word_ref_upstream": "88:21:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1961,7 +1963,8 @@
         "m-w-s088-a021-w002-01",
         "m-w-s088-a021-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:21:3"
+      "aligned_qac_word_ref_upstream": "88:21:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1975,7 +1978,8 @@
       "morpheme_ids": [
         "m-w-s088-a021-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:21:4"
+      "aligned_qac_word_ref_upstream": "88:21:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1989,7 +1993,8 @@
       "morpheme_ids": [
         "m-w-s088-a021-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:21:5"
+      "aligned_qac_word_ref_upstream": "88:21:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2495,7 +2500,971 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_21.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:21",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:21",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_recall_reactivation",
+            "confidence": "strong",
+            "focus_anchor": "The Form II imperative at word 1 and the agent noun at word 4 repeat ذ ك ر around the restrictive إنما.",
+            "mechanism": "The command causes an already addressable matter to become present after absence or forgetfulness, while the repeated agent noun makes that reactivation the addressee's bounded office.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to mind supplies the cognitive operation performed by both the imperative and the named agent."
+              }
+            ],
+            "changed_reading": {
+              "before": "Issue a generic exhortation.",
+              "after": "Actively restore an absent or neglected matter to present awareness; that restorative act defines the role."
+            }
+          },
+          {
+            "model_id": "baseline_spoken_making_known",
+            "confidence": "strong",
+            "focus_anchor": "The imperative ذَكِّرْ can externalize remembrance, and مُذَكِّر names the person who repeatedly performs that public act.",
+            "mechanism": "Verbal mention is the outward carrier of inward recollection: naming and making known place the matter within hearing without yet determining its reception.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue makes voiced disclosure the means by which the reminder enters public awareness."
+              }
+            ],
+            "changed_reading": {
+              "before": "Privately prompt someone to remember.",
+              "after": "Voice, name, and make the matter known so that recollection becomes publicly available."
+            }
+          },
+          {
+            "model_id": "baseline_reminder_medium",
+            "confidence": "medium",
+            "focus_anchor": "The sequence فَذَكِّرْ ... إِنَّمَا أَنتَ مُذَكِّرٌ pairs an act with a restrictive identity statement.",
+            "mechanism": "The addressee is not represented as owning the remembered reality or its outcome, but as the recurring occasion by which it is made present.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder as the thing that makes a matter present casts the agent as a mnemonic medium rather than the controller of response."
+              }
+            ],
+            "changed_reading": {
+              "before": "Make the audience remember as an achieved result.",
+              "after": "Supply the occasion and means of renewed presence; the restrictive identity leaves the audience's resulting response open."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_arrived_enveloping_report",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The opening turns remembrance into transmission across a distance: a report arrives, renews itself as speech, and concerns an occurrence that will encompass its objects. The focus command makes that arrived report present again rather than introducing an unrelated maxim.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Mental re-presentation is the receiving operation into which the opening report is relayed."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival gives the report a trajectory toward the addressee and makes reminding a further stage of its transmission."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Ever-renewed report or speech lets old or future content arrive as a presently voiced event."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An all-encompassing covering supplies the scale and urgency of what the reminder is to make present."
+              }
+            ],
+            "structural_cues": [
+              "The opening interrogative asks whether the report has reached the addressee, while the focus begins with فَ and converts reception into a command to relay.",
+              "The focus repeats the memory root as both action and office after the report has been fully unfolded."
+            ],
+            "reader_inference": "The packet supplies arrival, renewed report, and encompassing coverage; I infer a relay from received report to renewed audience-presence. A live alternative is that 88:1 identifies only the reminder's topic and does not alter its communicative mechanism.",
+            "changed_reading": {
+              "before": "Recall a proposition already known.",
+              "after": "Relay an arrived and renewing report until its enveloping referent becomes cognitively present now."
+            }
+          },
+          {
+            "model_id": "delta_embodied_consequence_preview",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج ه",
+              "ع م ل",
+              "ن ص ب",
+              "ن ع م",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "The opposed sequences render consequences on faces and bodies: deliberate work terminates in exhaustion on one path, while striving becomes an object of satisfaction and ease on the other. Reminding therefore operates as an embodied preview in which present hearers can recognize possible future states.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing to mind allows described outcomes to be rehearsed in present awareness."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The visible face or front makes an inward trajectory externally readable in the first outcome."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action supplies the causal input whose eventual value the preview tests."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting toil turns one future portrait into the bodily result of misdirected work."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated face furnishes a matched display surface for the contrasting outcome."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease register the second trajectory somatically rather than as an abstract verdict."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earned action connect the pleasant state back to a prior course of conduct."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "Acceptance rather than resentment supplies the affective recognition that the striving reached a fitting end."
+              }
+            ],
+            "structural_cues": [
+              "The identical opening وُجُوهٌ يَوْمَئِذٍ at 88:2 and 88:8 creates two comparable outcome panels.",
+              "Bodily effort, heat, drink, food, hunger, ease, satisfaction, sound, and flowing water make the contrast progressively sensory."
+            ],
+            "reader_inference": "The packet supplies paired faces and opposed bodily trajectories; I infer that their concrete simulation is itself a mnemonic method. They may alternatively be only descriptions of final states, with no claim about how reminding works.",
+            "changed_reading": {
+              "before": "State a warning and promise in abstract terms.",
+              "after": "Make rival consequences experientially present so hearers can see their current striving in a future face."
+            }
+          },
+          {
+            "model_id": "delta_intelligible_nonwaste_speech",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و"
+            ],
+            "mechanism": "The tongue-based baseline is refined by a reception test: speech becomes reminder when it can be understood and answered, while speech that is discarded as worthless or false is its negative image.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Voiced mention provides the reminder's audible side."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Hearing as understanding and compliance supplies a possible reception beyond mere acoustic contact."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Discardable speech provides the countertype against which consequential mention is distinguished."
+              }
+            ],
+            "structural_cues": [
+              "The blessed scene is characterized negatively by the absence of any heard lāghiyah.",
+              "The focus's spoken command follows a long discourse whose relevance depends on being more than ambient sound."
+            ],
+            "reader_inference": "The packet supplies voiced mention, hearing-as-understanding, and discarded speech; I infer a functional contrast between reminder and verbal waste. The live alternative is that 88:11 describes only the destination and offers no norm for the reminder's speech.",
+            "changed_reading": {
+              "before": "Any repeated utterance can count as reminding.",
+              "after": "Offer speech whose content can be grasped and acted upon, the opposite of noise that is heard yet discarded."
+            }
+          },
+          {
+            "model_id": "delta_arranged_mnemonic_field",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "Placed vessels, aligned cushions, and dispersed carpets form a prepared environment through three different spatial operations. By analogy, a reminder can work by positioning and distributing cues into a field where recognition becomes easy, not only by delivering a single sentence.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A thing that makes another matter present permits reminder to be modeled as an arranged cue as well as an utterance."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object in a settled place supplies deliberate local positioning within the mnemonic field."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies ordered repetition rather than an isolated cue."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering and distribution extend the prepared cues across the available space."
+              }
+            ],
+            "structural_cues": [
+              "Three consecutive passive participles describe objects as raised or placed, aligned, and spread before the command to remind.",
+              "The sequence varies spatial operations while preserving a stable catalog rhythm."
+            ],
+            "reader_inference": "The packet supplies a visibly prepared environment and a branch where a reminder can be a reminder-object; I infer an analogy from environmental arrangement to mnemonic arrangement. A live alternative is that the furnishing sequence is purely reward imagery and contributes no communicative method.",
+            "changed_reading": {
+              "before": "Reminding consists only of direct verbal address.",
+              "after": "Reminding may also arrange a field of repeated, positioned cues through which the absent reality becomes easy to recognize."
+            }
+          },
+          {
+            "model_id": "delta_observational_how",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "ر ف ع",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "The four-object sequence redirects sight and insight toward measured making, elevation, erect placement, and extended surface. The reminder thus prompts an inquiry into relations and construction; it activates recognition by disciplined looking rather than supplying every conclusion.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder as a means of renewed presence gives the observational prompts their mnemonic function."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directing sight or insight supplies the attentional action through which the reminder works."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning invites inspection of construction rather than bare object recognition."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation contributes a vertical relation for inquiry."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erect and conspicuous setting contributes stability and placement as an observable relation."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An even extended surface completes the shift from vertical structures to a traversable horizontal field."
+              }
+            ],
+            "structural_cues": [
+              "The branchless root ك ي ف appears only as a structural interrogative at 88:17 word 5 and at 88:18, 88:19, and 88:20 word 3; no mapped or branch ID is assigned to it.",
+              "Repeated وَإِلَى directs attention successively to animal, sky, mountains, and earth.",
+              "Four passive predicates foreground how each object came to have its observable configuration."
+            ],
+            "reader_inference": "The packet supplies directed looking, repeated how-questions, and a measured vertical-to-horizontal construction sequence; I infer that guided inquiry causes recollection. A live alternative is that the sequence supplies proofs or wonders while reminding remains only the later verbal command.",
+            "changed_reading": {
+              "before": "Repeat a settled conclusion to the audience.",
+              "after": "Redirect attention and ask how the visible world is configured so recognition can reactivate through observation."
+            }
+          },
+          {
+            "model_id": "delta_noncoercive_role_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي س",
+              "س ط ر"
+            ],
+            "mechanism": "The restrictive identity in the focus is immediately given a negative boundary: the reminder presents and re-presents, but does not become the overseeing power who arranges people under compulsion.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder-agent supplies a positive but limited office centered on making content present."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation explicitly removes the following supervisory identity from the addressee."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The image of a dominating overseer defines the coercive function excluded from reminding."
+              }
+            ],
+            "structural_cues": [
+              "إِنَّمَا أَنتَ in 88:21 restricts identity, and لَّسْتَ عَلَيْهِم in 88:22 immediately states what that identity is not.",
+              "The repeated second-person أنت and تاء of لست hold the same agent across the positive and negative clauses."
+            ],
+            "reader_inference": "The packet supplies a restricted reminder identity and an explicit denial of dominating oversight; I infer that response and enforcement lie outside the assigned role. The live alternative is a narrower legal limitation that says nothing about the ordinary persuasive force of speech.",
+            "changed_reading": {
+              "before": "Remind until the audience's response has been secured.",
+              "after": "Make the matter present with urgency, but do not confuse presentation with control over persons or outcomes."
+            }
+          },
+          {
+            "model_id": "delta_counter_covering_reorientation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ش و",
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The focus sits between two kinds of obstruction: an event that will cover all and a hearer who turns away and covers truth. Bringing-to-mind works as counter-concealment and reorientation, while the next verse's role boundary prevents that counteraction from becoming forced exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Restoring content after absence counters the cognitive effect of concealment without guaranteeing acceptance."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B001",
+                "role": "Covering supplies the surah's opening spatial image and the scale of what cannot finally be kept outside awareness."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away gives resistance a directional form that a reminder can address but not reverse by force."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Veiling truth supplies the epistemic obstruction against which renewed presentation acts."
+              }
+            ],
+            "structural_cues": [
+              "The opening names the covering event, while the post-focus sequence names turning and covering as the resistant response.",
+              "The reminder command occupies the hinge between observational invitations and the description of refusal."
+            ],
+            "reader_inference": "The packet supplies encompassing cover, turning away, truth-veiling, and mnemonic re-presentation; I infer a counter-covering and reorientation mechanism. A live alternative is that the two cover images are independent: one names the event and the other a moral response.",
+            "changed_reading": {
+              "before": "Add information to an otherwise neutral hearer.",
+              "after": "Re-present what absence, aversion, or covering keeps out of view, while leaving the hearer able to turn away."
+            }
+          },
+          {
+            "model_id": "delta_return_before_account",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Cognitive return in the focus anticipates personal return in 88:25 and reckoning in 88:26. The reminder becomes an early, reversible return to awareness before the later return and account, whose agency is explicitly assigned elsewhere.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall supplies a return of content to present mind."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination projects the mnemonic return onto the persons' later trajectory."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and account give the later return its evaluative terminus."
+              }
+            ],
+            "structural_cues": [
+              "The closing إِلَيْنَا and عَلَيْنَا transfer return and account away from the second-person reminder.",
+              "ثُمَّ sequences account after return, whereas the focus reminder occurs before both."
+            ],
+            "reader_inference": "The packet supplies recall, eventual return, and subsequent account; I infer that present remembering is an anticipatory return with room for changed action. A live alternative is that the shared return-shape is thematic sequencing rather than a mechanism internal to ذَكِّرْ.",
+            "changed_reading": {
+              "before": "Recall a message whose timing has no larger structure.",
+              "after": "Return to awareness now, before the persons' unavoidable return and account later."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_pointed_noncoercive_edge",
+            "confidence": "exploratory",
+            "containment": "The hard, sharp, forceful branch is surprising beside ordinary mnemonic language, but it remains anchored in the twice-repeated focus root and can color the imperative's manner. Render it only as a pointed or bracing verbal edge, not as masculinity, violence, or coercive control, which 88:22 explicitly excludes.",
+            "focus_anchor": "The doubled ذ ك ر root joins a direct imperative to the identity مُذَكِّر, allowing a branch-level tonal activation while إنما keeps the office bounded.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B002",
+                "role": "Hardness and sharpness contribute a possible bracing intensity to the act of reminding."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Dominating oversight supplies the excluded extreme that contains sharpness within speech rather than compulsion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Remind in a semantically neutral tone.",
+              "after": "Deliver a pointed, bracing reminder whose force remains verbal and non-dominating."
+            }
+          },
+          {
+            "outlier_id": "outlier_preventive_weaning",
+            "confidence": "exploratory",
+            "containment": "The restraint or weaning image is branch-distant from the overt punishment wording in 88:24, so it must not replace punishment as the verse's gloss. It remains useful as a root-internal activation: the non-coercive reminder may be rendered as a preventive interruption that can detach a hearer from refusal before punishment, with the causal arrow marked as exploratory.",
+            "focus_anchor": "The imperative asks the reminder-agent to intervene before the post-focus sequence of turning away and punishment.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder supplies a present intervention capable of reopening awareness."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Restraint, prevention, and weaning contribute the exploratory idea of interruption before a settled harmful course."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment preserves the overt endpoint and prevents the weaning image from replacing the source phrase's direct sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "The reminder merely announces punishment.",
+              "after": "Exploratorily, the reminder opens a non-coercive interval in which one may be weaned from refusal before punitive consequence."
+            }
+          },
+          {
+            "outlier_id": "outlier_visible_record",
+            "confidence": "exploratory",
+            "containment": "This reading joins the focus root's rights-document branch to a non-dominant split mapping of the sky root as a visible identifying mark, then to final account. It remains packet-anchored but is form-distant: render it as an abductive analogy of notice, legibility, and record, never as an etymological claim that سَمَاء derives from وَسْم or as the primary gloss of مُذَكِّر.",
+            "focus_anchor": "The focus repeats ذ ك ر in command and agent forms, and its branch inventory includes a written instrument that preserves a right or claim.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A document preserving a right turns reminder into exploratory service of notice or durable claim."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of a visible identifying mark makes the observed world analogically legible as evidence."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and account provide the later forum in which preserved notice and legible evidence would matter."
+              }
+            ],
+            "changed_reading": {
+              "before": "The reminder is a transient spoken prompt.",
+              "after": "Exploratorily, the reminder serves notice and makes a claim legible against a visible field that culminates in account."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening report changes recall into the renewed relay of something that has arrived and will encompass its objects.",
+            "The paired bodily outcomes make reminding an experiential preview, not only abstract warning.",
+            "The repeated observational how-sequence changes reminding into guided attention and inquiry.",
+            "The immediate denial of controlling oversight sharply separates making-present from securing response.",
+            "Final return and account recast present remembrance as an anticipatory return while assigning judgment elsewhere."
+          ],
+          "what_was_special": "The focus's single repeated root proved unusually elastic: its imperative-agent enclosure supports cognitive return, public utterance, and reminder-as-medium at once. Context then supplies sensory simulation, spatial arrangement, observational inquiry, resistance by turning and covering, and a jurisdictional handoff; even branch-distant and split-root cues remain live when explicitly contained.",
+          "remaining_uncertainties": [
+            "The bodily and furnishing sequences may describe outcomes without prescribing a mnemonic method.",
+            "The link between the opening encompassing cover and later truth-covering is analogical rather than grammatically asserted.",
+            "The preventive-weaning reading depends on a live but non-overt branch of ع ذ ب.",
+            "The visible-record outlier depends on a non-dominant mapped root and must remain an activation, not an etymology or primary gloss."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Reminder as bringing to mind after visual signs.** Evidence: `ذ ك ر` B003 bringing to mind, B009 reminder/admonition; preceding `ن ظ ر` B001 looking and the four created signs. Structural cue: the command follows the inspection sequence. Role: looking supplies material; reminder activates retention and recognition. Abductive move: perception alone needs verbal recollection to become accountable understanding. Reading change: the ayah reads as converting observed order into remembered obligation.\n\n2. **Mention without control.** Evidence: `ذ ك ر` B004 mention on the tongue, B007 honorable mention; next `س طر` B003 control is negated. Structural cue: command to remind is immediately bounded by “not controller.” Role: the messenger’s task is utterance/admonition, not domination. Abductive move: truth can be made present without coercive possession of hearers. Reading change: `مذكر` becomes a limited speech office.\n\n3. **Legal document resonance before account.** Evidence: `ذ ك ر` B008 rights document/legal instrument; later `ح س ب` B001 reckoning; `ع م ل` B003 official charge and `س ع ي` B002 endeavor. Structural cue: reminder stands between signs and final return/account. Role: the reminder functions like notice before accounting. Abductive move: accountability requires prior notification preserved in memory or record. Reading change: the ayah gains legal-administrative force without becoming coercion.",
@@ -7133,14 +8102,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7417,10 +8392,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_21.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_21.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 210822,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

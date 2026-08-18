@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.740716+00:00",
+  "generated_at": "2026-08-18T13:33:34.641955+00:00",
   "surah": 88,
   "ayah": 4,
   "ayahRef": "88:4",
@@ -1342,7 +1342,8 @@
       "morpheme_ids": [
         "m-w-s088-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:4:1"
+      "aligned_qac_word_ref_upstream": "88:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1356,7 +1357,8 @@
       "morpheme_ids": [
         "m-w-s088-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:4:2"
+      "aligned_qac_word_ref_upstream": "88:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1370,7 +1372,8 @@
       "morpheme_ids": [
         "m-w-s088-a004-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:4:3"
+      "aligned_qac_word_ref_upstream": "88:4:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3482,7 +3485,1293 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:4",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_thermal_encounter",
+            "confidence": "strong",
+            "focus_anchor": "The verb at word 1 governs the fire at word 2, and the adjective at word 3 specifies the fire's intensified state.",
+            "mechanism": "Encountering or entering heat, an actively burning medium, and intensified temperature form a contact-medium-intensity chain.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "The branch supplies bodily encounter with fire and makes the verb the contact stage of the mechanism."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The branch supplies burning fire as the active medium rather than a merely visual light."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "The branch supplies heating and extreme temperature as the fire's operative force."
+              }
+            ],
+            "changed_reading": {
+              "before": "A subject encounters an unspecified punitive fire.",
+              "after": "The line stages direct and sustained bodily exposure to an actively burning, intensely heated medium."
+            }
+          },
+          {
+            "model_id": "base_furnace_reformation",
+            "confidence": "medium",
+            "focus_anchor": "The fire-straightening range of the verb at word 1 remains attached to the explicit fire and heat at words 2-3.",
+            "mechanism": "The clause can image a furnace operation: heat renders material workable, fire acts on it, and burning leaves it straightened or marked.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Kindling, roasting, and straightening by fire supply a transformative operation for the focus verb."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning and branding make the fire capable of leaving a durable surface result."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heating iron supplies the material analogy by which severe heat permits forced reshaping."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire only inflicts pain on an otherwise unchanged subject.",
+              "after": "The fire also reads as a furnace that works on, reshapes, and marks what it receives."
+            }
+          },
+          {
+            "model_id": "base_ignited_hostility",
+            "confidence": "medium",
+            "focus_anchor": "The noun at word 2 and adjective at word 3 each carry affective branches that can color the literal thermal construction.",
+            "mechanism": "Flaring hostility and heated indignation coexist with literal burning, making temperature the physical expression of antagonistic force.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root still supplies actual meeting with fire, keeping the affective reading physically anchored."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Enmity flaring between people supplies the fire's relationally hostile charge."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B003",
+                "role": "Zeal, pride, and anger turn heat into the felt intensity of indignation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire is thermally intense but affectively neutral.",
+              "after": "Its heat can be carried as ignited hostility, with physical burning and indignation occupying the same image."
+            }
+          },
+          {
+            "model_id": "base_guarded_snare",
+            "confidence": "exploratory",
+            "focus_anchor": "The trap range of word 1 and the warding range of word 3 can qualify the explicit burning fire at word 2 without replacing it.",
+            "mechanism": "A set snare catches; a protected perimeter prevents crossing; the fire becomes a bounded capture system whose heat is also its barrier.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "The snare branch supplies capture and converts exposure into entrapment."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The burning-fire branch keeps the trap materially fiery rather than merely conceptual."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and prevention reverse perspective: the fire's perimeter is guarded against escape or relief."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject stands in a passive location called fire.",
+              "after": "The fire can be carried as a guarded snare whose burning boundary performs the confinement."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_enveloping_fire",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ش و"
+            ],
+            "mechanism": "The opening event's all-covering motion enlarges the focus fire from a local object into an engulfing thermal field.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "The comprehensive covering branch supplies the spatial topology of something that closes over its subjects."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Fire contact places the subject inside the covering field rather than observing it from outside."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "The preventing branch makes the field's enclosing edge function as a denial of exit."
+              }
+            ],
+            "structural_cues": [
+              "The surah names an all-covering event before narrowing to faces and then to their fire encounter."
+            ],
+            "reader_inference": "The packet supplies comprehensive covering, fire contact, and prevention. I infer that the covering event gives the focus fire an enclosing geometry; alternatively, the opening noun may name the occasion without specifying the fire's shape.",
+            "changed_reading": {
+              "before": "The fire is a discrete blaze encountered at one point.",
+              "after": "The blaze becomes the local realization of an event that closes over the subject as an inescapable thermal field."
+            }
+          },
+          {
+            "model_id": "delta_exertion_furnace",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج ه",
+              "خ ش ع",
+              "ع م ل",
+              "ن ص ب"
+            ],
+            "mechanism": "Visible abasement, intentional labor, and exhausting strain make the focus heat continuous with prior exertion; the furnace does not begin at the flame but consummates a process already working on the person.",
+            "activation_trace": [
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "Face as the presented self makes the result of the mechanism legible on identity, not only on skin."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission supply the bodily posture produced before the fire is named."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposive work supplies ongoing expenditure rather than a momentary affliction."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhaustion and wearing affliction make the preceding labor physically depleting."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Fire-straightening turns the final exposure into a continuation of work performed upon the exhausted subject."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Bodily and exertional heat joins prior toil to the explicit fire."
+              }
+            ],
+            "structural_cues": [
+              "The participial sequence describing faces, work, and exhaustion runs directly into the finite fire verb."
+            ],
+            "reader_inference": "The packet supplies visible abasement, purposive work, exhaustion, and fire-working. I infer a causal continuity from self-spending labor into imposed furnace work; alternatively, the labor may only describe a prior condition punished afterward.",
+            "changed_reading": {
+              "before": "The furnace is an external penalty that begins only when the subject reaches it.",
+              "after": "The fire completes an exhaustion process already heating, lowering, and working upon the presented self."
+            }
+          },
+          {
+            "model_id": "delta_administered_heat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ق ي",
+              "ع ي ن",
+              "ء ن ي"
+            ],
+            "mechanism": "The passive administration of drink, a water source, terminal ripeness, and the split root's driving image turn the fire into the first station of a coerced heat-delivery circuit.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "Meeting or being cast into fire supplies the circuit's first imposed exposure."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink supplies controlled intake after external fire exposure."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "The non-dominant driving branch adds coerced routing to the otherwise nutritive act of watering."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing water source supplies the point from which the administered material is drawn."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Reaching full term supplies terminal intensity rather than fresh relief."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B008",
+                "role": "A surging sharp drink links external heat to an intensity that advances inward through ingestion."
+              }
+            ],
+            "structural_cues": [
+              "The passive watering clause follows the active fire encounter immediately, shifting heat from the surrounding medium to administered intake."
+            ],
+            "reader_inference": "The packet supplies fire exposure, watering, driving, a source, and terminal intensity. I infer an ordered coercive circuit from external burning to internalized heat; alternatively, the split driving branch may be only a remote mapping and the two torments may remain separate.",
+            "changed_reading": {
+              "before": "The fire is one isolated mode of pain.",
+              "after": "It initiates an administered sequence in which the subject is exposed, routed, and made to take the same intensity inward."
+            }
+          },
+          {
+            "model_id": "delta_zero_yield_heat",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي س",
+              "ط ع م",
+              "غ ن ي",
+              "ج و ع"
+            ],
+            "mechanism": "Intense energy enters as fire, drink, and food, yet negation, lack of sufficiency, and an empty belly prevent any conversion into nourishment; punishment is an asymmetry between maximum input and zero usable yield.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Prevention gives the fire a withholding function in addition to its literal heat."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation closes off ordinary nourishment before the exception is supplied."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Food as livelihood and good condition defines the beneficial yield that the punitive meal fails to produce."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency names the missing conversion from intake to relief."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The empty belly is the unchanged terminal state despite forced intake."
+              }
+            ],
+            "structural_cues": [
+              "Fire, drink, and food form a descending sequence from environment to ingestion, but the final double negation denies bodily benefit."
+            ],
+            "reader_inference": "The packet supplies heat, intake, negation, failed sufficiency, and persisting emptiness. I infer a no-yield energy system in which heat is abundant but nourishment is blocked; alternatively, the clauses may list independent torments without a shared metabolism.",
+            "changed_reading": {
+              "before": "The fire harms by adding excessive heat.",
+              "after": "It belongs to a system that floods the subject with unusable intensity while actively withholding every conversion into relief or sustenance."
+            }
+          },
+          {
+            "model_id": "delta_terminal_vs_flowing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ي ن",
+              "ء ن ي",
+              "ج ر ي"
+            ],
+            "mechanism": "The repeated water source is first terminally intensified and later freely flowing; the focus heat becomes the regulator that turns circulation into arrested over-completion on one side of the contrast.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Intensified heat supplies the condition that can drive a source toward terminal over-completion."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The first spring supplies water whose expected relief is captured by the punitive regime."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Arrival at full term makes the first source read as intensity that has reached its endpoint."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The repeated spring holds the material constant across the two regimes."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Free movement and spreading supply the positive alternative to terminally arrested intensity."
+              }
+            ],
+            "structural_cues": [
+              "The same spring noun appears in both face-sequences, modified first by terminal arrival and later by ongoing flow."
+            ],
+            "reader_inference": "The packet supplies identical source imagery with terminal and flowing modifiers plus the preceding heat. I infer that heat organizes the contrast as arrested versus circulating provision; alternatively, terminal arrival may denote temperature without implying stalled flow.",
+            "changed_reading": {
+              "before": "The hot fire is unrelated to the water scenes that follow.",
+              "after": "Its heat governs a punitive fluid regime in which a source is driven to terminal intensity, opposite the continuously flowing source."
+            }
+          },
+          {
+            "model_id": "delta_arranged_anti_habitat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ن ن",
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "Shelter, elevation, deliberate placement, alignment, and distribution reveal the contrasting scene as designed habitat; by contrast, the focus fire becomes designed anti-habitat whose organized environmental function is confinement in heat.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the punitive environment's central material."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and exclusion invert into an anti-shelter boundary that keeps relief out."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "A protective shield supplies the shelter function against which the fire's guarded enclosure is reversed."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Deliberate raising contributes one axis of the positive habitat's arrangement."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placement in a settled position supplies accessible, intentional furnishing."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line makes the environment ordered rather than accidental."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution across space completes the image of a fully provisioned habitat."
+              }
+            ],
+            "structural_cues": [
+              "The positive scene expands into a sequence of passive arrangements, while the negative scene condenses its environment into fire, source, and failed food."
+            ],
+            "reader_inference": "The packet supplies shelter and a systematically arranged environment. I infer that the concise fire scene is a deliberately organized counter-environment, not an accidental blaze; alternatively, the later furnishings may contrast in value without specifying punitive design.",
+            "changed_reading": {
+              "before": "The fire is an isolated object within an unspecified setting.",
+              "after": "It functions as the organizing material of a deliberately arranged anti-habitat, a guarded environment from which shelter and relief are absent."
+            }
+          },
+          {
+            "model_id": "delta_counter_creation_furnace",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ل ق",
+              "ر ف ع",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "Measured creation, raising, erecting, and flattening form a sequence of world-making operations; they reactivate fire-straightening in the focus as a punitive counter-operation performed on created form.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Heating and turning material to straighten it supplies the focus clause's form-changing operation."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply an intentional model of how form is produced."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed and balanced shape names the formal integrity against which furnace alteration can be read."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies a constructive spatial operation at cosmic scale."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something prominently supplies a second operation that fixes created form."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "Extending a level surface supplies a third operation of deliberate shaping."
+              }
+            ],
+            "structural_cues": [
+              "The branchless cue root ك ي ف repeats at 88:17-20 and is used only structurally here: it redirects attention from finished objects to the manner of their configuration."
+            ],
+            "reader_inference": "The packet supplies measured form and a fourfold sequence of configuration alongside fire-straightening. I infer a contrast between generative shaping and punitive re-forming; alternatively, the creation sequence may invite observation without feeding a material analogy back into the fire.",
+            "changed_reading": {
+              "before": "The furnace merely consumes a finished body.",
+              "after": "It can be carried as a counter-creation process that forcibly reworks form, set against the measured raising, erecting, and spreading of creation."
+            }
+          },
+          {
+            "model_id": "delta_rejected_sign_becomes_brand",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "Reminder offers a sign, turning away rejects its direction, and covering blocks its truth; the focus fire's beacon and branding ranges convert the refused sign from something seen or heard into something physically impressed.",
+            "activation_trace": [
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies a sign intended to restore awareness before coercion."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning the back supplies directional refusal of the reminder."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing truth supplies the attempted suppression of what the sign discloses."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "The beacon branch makes the fire a visible boundary marker and warning sign."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Branding by fire turns visibility into a durable mark on the one who rejected the sign."
+              }
+            ],
+            "structural_cues": [
+              "The command to remind is separated from control, then followed by turning away and covering before punishment is named."
+            ],
+            "reader_inference": "The packet supplies reminder, refusal, concealment, beacon, and brand. I infer a reversal in which the rejected sign returns as an embodied mark; alternatively, fire may be only the warned-about consequence and not itself a semiotic transformation.",
+            "changed_reading": {
+              "before": "The fire is only the content of a warning.",
+              "after": "The refused warning becomes material: a beacon that could have oriented the hearer returns as the brand that makes concealed refusal visible."
+            }
+          },
+          {
+            "model_id": "delta_flight_return_loop",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ء و ب"
+            ],
+            "mechanism": "Turning away begins an apparent escape, the fire root contributes recoil and flight, and eventual return closes the path; entering the fire becomes the endpoint of a directional loop rather than an isolated instant.",
+            "activation_trace": [
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the first directional movement, an attempted departure."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B006",
+                "role": "Aversion and flight make recoil latent inside the focus fire image itself."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the place of return closes the apparent escape trajectory."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Actual encounter with fire supplies the unavoidable destination at which the loop terminates."
+              }
+            ],
+            "structural_cues": [
+              "The focus encounter precedes the later account of turning away and return, so the reconstructed trace can read the earlier image as the disclosed endpoint of that movement."
+            ],
+            "reader_inference": "The packet supplies turning away, recoil, return, and fire contact. I infer one loop in which flight curls back into encounter; alternatively, recoil is a remote fire-root branch and return may refer to judgment without describing spatial movement into the flame.",
+            "changed_reading": {
+              "before": "Entering the fire is a static event without a visible trajectory.",
+              "after": "It is the closed endpoint of a reversal: the movement away from reminder becomes the route of return into the fire."
+            }
+          },
+          {
+            "model_id": "delta_fire_not_totality",
+            "status": "weakened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ذ ب",
+              "ك ب ر",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Explicit punishment, comparative magnitude, return, and accounting place the focus fire inside a longer adjudicative sequence, weakening any baseline that treats this one image as the whole process.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Fire encounter supplies the concrete local phase whose totality is being tested."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain explicitly classifies the larger process rather than leaving the focus image self-contained."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B002",
+                "role": "The main or greatest matter opens a scale larger than the single fire clause."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return supplies a transition into the authority under which punishment occurs."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning supply the adjudicative closure beyond raw thermal exposure."
+              }
+            ],
+            "structural_cues": [
+              "The closing sequence names greater punishment before return and account, while the focus fire appears much earlier inside the face-sequence."
+            ],
+            "reader_inference": "The packet supplies a fire scene followed later by punishment, magnitude, return, and account. I infer that the fire is one manifestation or phase within a larger process; alternatively, the greater punishment may simply identify and summarize the same fire.",
+            "changed_reading": {
+              "before": "The hot fire exhausts the meaning and extent of the punishment.",
+              "after": "The fire remains concrete and severe but is no longer securely the totality; it may be one phase within return, adjudication, and the greater punishment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_lined_thermal_well",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a concrete well-lining branch of the focus adjective rather than its ordinary heat branch. It remains anchored at word 3 and gains local support from the following spring and vessel branches. Downstream prose should present it only as a material-architecture analogy, not as a replacement lexical gloss.",
+            "focus_anchor": "The adjective at word 3 has a well-lining-stones branch, while the next ayah supplies a spring and a vessel image.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B011",
+                "role": "Well-lining stones turn the focus adjective into a possible architectural edge around an intense medium."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire fills the proposed lined structure with its thermal material."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The adjacent water source makes well architecture locally available as an image."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B004",
+                "role": "The vessel branch gives the heat-source complex a containing form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire has temperature but no implied architecture.",
+              "after": "Exploratorily, fire and the following drink can belong to one lined furnace-well or vessel apparatus that contains and delivers heat."
+            }
+          },
+          {
+            "outlier_id": "outlier_atmospheric_venom",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant mapped target of the sky root and a poison branch of the focus adjective. It remains valid as a convergence of penetrating hot wind, explicit fire, and burning venom at the focus anchor. Downstream prose should qualify it as a cross-domain activation of how heat penetrates, not as a claim that the fire literally is weather or poison.",
+            "focus_anchor": "The adjective at word 3 can carry the burning force of venom, and the explicit fire at word 2 prevents the image from drifting away from heat.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Literal burning fire supplies the stable medium for the exploratory penetration model."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B007",
+                "role": "Stinging poison and its burning force make heat invasive rather than merely surrounding."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "The split root's hot penetrating wind supplies atmospheric entry through every opening."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire burns only by external contact with its surface.",
+              "after": "Exploratorily, its heat infiltrates like a hot wind or venom, making exposure atmospheric and internally invasive."
+            }
+          },
+          {
+            "outlier_id": "outlier_creaturely_heat_adaptation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a later camel branch is fed back ecologically into the earlier fire scene. It remains anchored in the focus adjective's heat and the immediate sequence of thirst and failed nourishment, while the camel supplies a contrasting capacity to do without water. Downstream prose should mark it as a comparative adaptation model, not identify the fire's subjects with camels.",
+            "focus_anchor": "The intense heat at word 3 creates the environmental demand against which water independence and balanced creaturely form become relevant.",
+            "activation_trace": [
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Severe environmental and bodily heat supplies the adaptive stress."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B002",
+                "role": "Capacity to dispense with water supplies a creaturely counterexample to helpless thirst under heat."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Balanced completed form frames endurance as a property of creaturely configuration."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "Persisting bodily emptiness shows the fire-scene subjects denied effective adaptation or replenishment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Heat is a uniform external quantity acting on any body in the same way.",
+              "after": "Exploratorily, the fire exposes creaturely dependency and the withdrawal of adaptive fit: unlike a form equipped for heat and scarce water, these subjects cannot convert the environment into endurance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The fire expanded from a discrete blaze into an enveloping, guarded, and deliberately arranged anti-habitat.",
+            "The focus shifted from external burning alone to a furnace process that can re-form, expose, and brand its subject.",
+            "The following drink and food made heat an administered no-yield circuit, with maximum intensity but no nourishment or relief.",
+            "The paired springs changed the heat into a regulator of arrested terminal intensity versus free circulation.",
+            "Reminder, refusal, return, and account turned the fire into both a rejected sign made bodily and the endpoint of a directional loop."
+          ],
+          "what_was_special": "Opposed senses inside the focus roots stayed live together: heat with prevention, illumination with hostility or flight, and fire contact with straightening or trapping. Split mappings were productive rather than collapsed, especially driving under the watering root and penetrating hot wind under the sky root.",
+          "remaining_uncertainties": [
+            "The protective and well-lining branches of ح م ي may be vivid local analogies rather than active resonances of the adjective.",
+            "Fire-straightening supports a coherent furnace model, but the packet cannot decide whether transformation is more than a material analogy.",
+            "The non-dominant driving and hot-wind mappings generate changed readings, but their form-distance keeps them exploratory.",
+            "The greater punishment may contain the focus fire as one phase, or may simply rename that same fire at a larger rhetorical scale."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Fire as direct encounter with heat.** Evidence: `ص ل ي` B003 encountering fire and its heat; `ن و ر` B002 burning fire and branding; `ح م ي` B001 heat/heating. Structural cue: the ayah follows bodily fatigue and precedes forced drink. Role: `تصلى` is the contact event; `نار` supplies burning illumination; `حامية` intensifies the heat. Abductive move: punitive heat is experienced through forced proximity, not distant threat. Reading change: the ayah reads as bodily encounter with a heating field.\n\n2. **Fire as inverted ritual.** Evidence: `ص ل ي` B001 ritual prayer, B002 supplication/blessing/mercy, B003 fire encounter; opening `ر ح م` B001 mercy. Structural cue: the root that can name prayer/mercy here attaches to fire after the merciful basmalah. Role: the root carries a shadow of ritual approach, reversed into compulsory fire-contact. Abductive move: a body that does not align with mercy/reminder encounters a different kind of “standing before.” Reading change: the ayah gains ritual inversion: nearness that should bless instead burns.\n\n3. **Heat as failed protection.** Evidence: `ح م ي` B002 protection/prevention, B003 zeal/anger, besides B001 heat; later 88:22 negates controlling authority and 88:24 assigns punishment to Allah. Structural cue: `حامية` sits in the punitive section, while authority is clarified later. Role: the heat is also a guarded enclosure from which one is not protected. Abductive move: the same force that can protect a preserve can become a boundary of punishment when divine account activates it. Reading change: `حامية` reads as heat with a preventing/guarding edge, not simple temperature.",
@@ -15360,14 +16649,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15907,10 +17202,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 237814,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

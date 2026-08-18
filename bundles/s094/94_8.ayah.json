@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.562658+00:00",
+  "generated_at": "2026-08-18T13:34:14.790430+00:00",
   "surah": 94,
   "ayah": 8,
   "ayahRef": "94:8",
@@ -1389,7 +1389,8 @@
       "morpheme_ids": [
         "m-w-s094-a008-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:8:1"
+      "aligned_qac_word_ref_upstream": "94:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1403,7 +1404,8 @@
       "morpheme_ids": [
         "m-w-s094-a008-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:8:2"
+      "aligned_qac_word_ref_upstream": "94:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1419,7 +1421,8 @@
         "m-w-s094-a008-w002-01",
         "m-w-s094-a008-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:8:3"
+      "aligned_qac_word_ref_upstream": "94:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1433,7 +1436,8 @@
       "morpheme_ids": [
         "m-w-s094-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:8:4"
+      "aligned_qac_word_ref_upstream": "94:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1447,7 +1451,8 @@
       "morpheme_ids": [
         "m-w-s094-a008-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:8:5"
+      "aligned_qac_word_ref_upstream": "94:8:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2735,7 +2740,1007 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:8",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_directional_desire_under_lordship",
+            "confidence": "strong",
+            "focus_anchor": "The focus construction gives the imperative from ر غ ب an explicit endpoint in «إلى ربك».",
+            "mechanism": "Desire can turn toward or away, while Rabb can name ownership and authority. The prepositional endpoint therefore governs the vector of wanting itself rather than merely naming one wanted object.",
+            "activation_trace": [
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal image of lordship, ownership, and authority makes the endpoint the governor of desire rather than one item within its field."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal reversibility of desire toward or away supplies a vector that the focus construction fixes toward Rabb and, by implication, away from rival endpoints."
+              }
+            ],
+            "changed_reading": {
+              "before": "Direct a particular wish or request to your Lord.",
+              "after": "Recenter the whole direction of wanting under your Rabb's authority; the command regulates desire's vector before it specifies any desired object."
+            }
+          },
+          {
+            "model_id": "b_desire_as_consent_to_formation",
+            "confidence": "medium",
+            "focus_anchor": "The possessive relation in «ربك» joins the addressee to the endpoint of «فارغب».",
+            "mechanism": "If Rabb is the one who repairs, nurtures, administers, and completes stage by stage, then turning desire toward this Rabb can be willing exposure to formation, not only appetite for benefits.",
+            "activation_trace": [
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The literal image of repair, nurture, and gradual completion supplies the formative agency toward which the imperative directs the addressee."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal inclination toward an object functions here as voluntary alignment with the Rabb's ongoing formative work."
+              }
+            ],
+            "changed_reading": {
+              "before": "Long for what your Lord may give you.",
+              "after": "Long toward the One who forms and completes you, so aspiration includes consent to being repaired, reared, and brought to completion."
+            }
+          },
+          {
+            "model_id": "b_capacious_persistent_aspiration",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus joins a root with a branch of physical capaciousness to a Rabb branch of staying, clinging, lasting, and drawing near.",
+            "mechanism": "The imperative can spatialize desire as a broad interior capacity held in a durable orientation: not a brief wish, but room made and kept open toward Rabb.",
+            "activation_trace": [
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "The literal image of breadth, a capacious hollow, or extended ground supplies the widened interior space of aspiration."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "The literal image of staying, clinging, lasting, and drawing near turns broad desire into a maintained proximity rather than a passing impulse."
+              }
+            ],
+            "changed_reading": {
+              "before": "Feel a moment of pious longing toward your Lord.",
+              "after": "Make and maintain a broad capacity that leans toward your Rabb; aspiration becomes an enduring spatial posture."
+            }
+          },
+          {
+            "model_id": "b_giver_over_desirable_gift",
+            "confidence": "medium",
+            "focus_anchor": "The branch field of ر غ ب includes abundant desirable bounty, but the syntax names Rabb, not a bounty, as the endpoint.",
+            "mechanism": "The command does not erase longing for gifts; it relocates the terminus of that longing from bounty to the authoritative, nurturing giver.",
+            "activation_trace": [
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B004",
+                "role": "The literal image of abundant desirable giving keeps bounty within the semantic field while exposing the risk of stopping desire at the gift."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal image of ownership and lordship relocates desire's terminus from possessed bounty to the one who owns and governs it."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The literal image of nurture and completion makes the giver desirable as a continuing relation, not merely as a source of consumable rewards."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ask your Lord for an abundant desirable gift.",
+              "after": "Let bounty awaken desire without becoming its terminus: the longing passes through the gift and settles on the Rabb who governs and completes."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c01_opened_source_becomes_desiderative_capacity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "The first ayah can describe an opening that specifically lets desire spread, and the chest can be the source from which acts issue. The final imperative then reads as the downstream act of an interior source deliberately enlarged at the opening of the sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B005",
+                "role": "The literal image of desire spreading toward something supplies an aperture-and-expansion mechanism that anticipates the focus's directed wanting."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The literal image of an origin from which actions issue locates the opened chest as the upstream source of the later imperative."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal toward-or-away motion of desire supplies the downstream vector produced by the reconfigured source."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "The literal image of capaciousness makes the opening an enlargement of room for aspiration rather than generic emotional relief."
+              }
+            ],
+            "structural_cues": [
+              "The window begins with an interior opening done for the addressee and ends with a second-person imperative carrying an explicit outward vector.",
+              "The possessive addressee remains constant from the opened chest to «your Rabb», allowing the first and last constructions to form one transformation."
+            ],
+            "reader_inference": "The packet supplies an opening that can spread desire, a chest that can originate acts, and desire with a reversible vector. I infer a causal flow from opened source to redirected desire; a live alternative is that the opening supplies relief without specifying which later faculty it changes.",
+            "changed_reading": {
+              "before": "An opened chest provides comfort before a later command to desire Rabb.",
+              "after": "The chest is opened as the source and capacity of action, and «فارغب» is the final release of that enlarged interior in a vector toward Rabb."
+            }
+          },
+          {
+            "model_id": "c02_released_load_becomes_available_capacity",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر",
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "A heavy load is put down after making the back audibly strain. Against that bodily subtraction, the capacious branch of desire makes the final imperative a use of released carrying-space, not a fresh demand laid on the same back.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "The literal image of putting something down in a lower or settled place supplies the decisive transfer off the addressee."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The literal heavy load identifies what had occupied and compressed the addressee's finite capacity."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The literal creaking of joints or back under weight renders the burden as a mechanism of near-failure rather than an abstract concern."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The literal bodily back gives the load a concrete bearing surface whose release can be contrasted with inwardly chosen aspiration."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "The literal image of a broad hollow or extended capacity turns unloading into newly available room for desire."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal vector of inclination gives the released capacity an active destination instead of leaving it merely vacant."
+              }
+            ],
+            "structural_cues": [
+              "The load is moved «away from you» in 94:2, while desire is directed «toward your Rabb» in 94:8, producing opposed prepositional vectors.",
+              "The bodily sequence moves from occupied back, through removal, to a focus imperative whose object is not another carried thing."
+            ],
+            "reader_inference": "The packet supplies placement downward, a heavy load, a creaking back, and capacious directed desire. I infer that subtraction frees a capacity later reassigned to aspiration; a live alternative is that burden relief and the final command are consecutive benefits and duties without a shared capacity mechanism.",
+            "changed_reading": {
+              "before": "Once the burden is removed, accept a new devotional obligation.",
+              "after": "The burden is removed so crushed carrying-space can become spacious directed desire; «فارغب» names the active use of relief rather than another weight."
+            }
+          },
+          {
+            "model_id": "c03_corrected_tilt_becomes_arrival",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ز ر"
+            ],
+            "mechanism": "The packet's non-dominant mapped inventory lets the removed burden resonate with tilt or deviation and with a visitor's purposeful coming. The focus can then be heard as a corrected vector: what had bent movement aside is removed so desire can aim toward and arrive at Rabb.",
+            "activation_trace": [
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B001",
+                "role": "The literal image of leaning and deviation recasts the burden as a skew in orientation that must be corrected."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The literal image of visiting and purposeful coming supplies arrival as the positive motion made possible after the skew is removed."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal toward-or-away vector of desire is the focus anchor whose direction can be straightened from deviation into approach."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal image of lordship and authority provides the destination at which corrected, purposeful movement terminates."
+              }
+            ],
+            "structural_cues": [
+              "The packet explicitly preserves a split mapping for و ز ر rather than collapsing it to the dominant heavy-load inventory.",
+              "The movement away from the addressee in 94:2 and toward Rabb in 94:8 permits a reversal from deviation to arrival."
+            ],
+            "reader_inference": "The packet supplies a non-dominant mapped branch of tilt and another of purposeful visiting, while the focus supplies directed desire. I infer a correction-and-arrival sequence across them; the materially live alternative is the dominant reading in which only a physical or moral load is removed.",
+            "changed_reading": {
+              "before": "A burden is lifted, and later the addressee is told to want Rabb.",
+              "after": "The removal also images the straightening of a bent vector, so desire becomes purposeful approach and arrival at Rabb."
+            }
+          },
+          {
+            "model_id": "c04_public_elevation_is_returned_not_consumed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "Raised, broadcast reputation is an especially plausible rival object for desire. By ending at «your Rabb», the focus converts bestowed public elevation into a reason to return desire to its source rather than seek ever more circulation of the self.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "The literal broadcasting of news makes elevation socially circulatory and exposes publicity as a possible appetite."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "The literal image of honor and reputation identifies the elevated social good that could capture desire."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal capacity of desire to turn toward or away supplies the reversal from self-circulating renown toward Rabb."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal image of ownership and authority marks Rabb, rather than public reputation, as the governing endpoint."
+              }
+            ],
+            "structural_cues": [
+              "The same second-person possessive pattern links «your mention» in 94:4 with «your Rabb» in 94:8.",
+              "A passive social good bestowed earlier is followed by an active imperative governing what the addressee is to want."
+            ],
+            "reader_inference": "The packet supplies broadcast elevation, reputation, and desire capable of changing direction. I infer that the final endpoint prevents reputation from becoming self-reinforcing appetite; a live alternative is that raised mention only reassures the addressee and never functions as a temptation.",
+            "changed_reading": {
+              "before": "Receive raised reputation, then independently cultivate devotion.",
+              "after": "Return the appetite awakened by public elevation to Rabb: reputation is a bestowed sign, not the endpoint that desire should consume and amplify."
+            }
+          },
+          {
+            "model_id": "c05_ease_is_companion_not_destination",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The doubled construction keeps severity and opening in one repeated frame. Because the focus directs desire to Rabb, neither hardship as the thing to escape nor ease as desirable bounty becomes the terminus; both become the lived medium in which direction is maintained.",
+            "activation_trace": [
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The literal image of difficulty and severity supplies the constricting condition within which orientation must remain live."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The literal opening and ease after difficulty supplies relief while keeping it within the hardship frame rather than making it the final endpoint."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The repeated literal severity prevents the first assurance from simply deleting hardship from the mechanism."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated literal opening makes ease a durable accompaniment and not a single prize after which direction can lapse."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B004",
+                "role": "The literal image of abundant desirable bounty exposes how easily ease could become desire's object rather than its context."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal directional flexibility of desire allows the focus endpoint to displace both flight from hardship and fixation on ease."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal authority of Rabb supplies the stable endpoint while circumstances alternate or coexist."
+              }
+            ],
+            "structural_cues": [
+              "94:5 and 94:6 repeat the same hardship-with-ease relation before the imperative pair of 94:7–8.",
+              "The focus names a personal endpoint after two ayat whose desirable term could otherwise absorb the reader's attention."
+            ],
+            "reader_inference": "The packet supplies repeated severity, repeated opening, desirable bounty, and a final personal endpoint. I infer that the repetition trains desire not to terminate at circumstantial relief; a live alternative is a simpler reassurance in which ease is promised and the focus command is only subsequent gratitude.",
+            "changed_reading": {
+              "before": "Wait for hardship to yield to ease, then desire your Lord.",
+              "after": "While hardship and ease accompany one another, refuse to make either escape or relief the terminus; hold desire at Rabb through both."
+            }
+          },
+          {
+            "model_id": "c06_emptied_vessel_is_refilled_as_orientation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "The immediately preceding roots can image a vessel poured empty and something set upright. The focus's capacious desire then supplies a directed refill of attention: completion creates vacancy, disciplined exertion stabilizes it, and aspiration prevents the open capacity from diffusing.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "The literal pouring and emptying of a vessel supplies the newly vacant container of attention after completion."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "The literal setting of something upright and prominent supplies stabilization and readiness for the emptied capacity."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "The literal toil that exhausts a person prevents the upright vessel model from becoming passive receptivity without disciplined effort."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "The literal broad hollow or capacious vessel supplies the interior volume that completion has opened."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal inclination toward an endpoint gives the open volume a vector and keeps vacancy from becoming dispersal."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The literal image of nurture and completion makes Rabb both the one who brings a phase to fullness and the destination of the capacity released afterward."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent ayat form a paired sequence of conditional completion, imperative exertion, explicit endpoint, and imperative desire.",
+              "Both final commands carry an immediate fa-response, making vacancy, exertion, and orientation feel operationally linked."
+            ],
+            "reader_inference": "The packet supplies emptying, upright erection, exhausting effort, capaciousness, and directed desire. I infer an empty-stabilize-direct sequence and treat desire as the vessel's new orientation; a live alternative is the ordinary temporal sequence of finishing one task and beginning another with no container transfer.",
+            "changed_reading": {
+              "before": "When free, undertake another labor and afterward turn devotionally to Rabb.",
+              "after": "Completion empties a vessel of attention, exertion sets it upright, and «فارغب» directs the newly open capacity toward Rabb before vacancy can scatter it."
+            }
+          },
+          {
+            "model_id": "c07_aspiration_runs_through_recurrent_labor",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "Vacancy after one occupation, renewed intention, and exhausting labor make a recurrent work-cycle. The Rabb branch of staying and the desire branch of direction move aspiration inside that cycle as its durable axis rather than reserving it for leisure after work.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "The literal vacancy after occupation marks a transition point rather than permanent release from action."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B006",
+                "role": "The literal intention toward a matter turns the vacant interval into renewed purposive engagement."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "The literal exhausting toil keeps the renewed engagement materially strenuous rather than merely contemplative."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "The literal image of staying, clinging, lasting, and drawing near supplies continuity across successive episodes of work."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal directed inclination supplies the stable orientation carried through vacancy, intention, and toil."
+              }
+            ],
+            "structural_cues": [
+              "The two final imperatives are adjacent rather than separated into a work section and a devotional appendix.",
+              "The conditional transition in 94:7 is followed immediately by the explicit destination in 94:8."
+            ],
+            "reader_inference": "The packet supplies post-occupation vacancy, fresh intention, toil, durable staying, and directed desire. I infer that orientation persists through the recurrent labor-cycle; a live alternative is a strictly sequential reading in which aspiration begins only after the new exertion is complete.",
+            "changed_reading": {
+              "before": "Complete worldly work, perform a separate devotional labor, and then long for Rabb.",
+              "after": "Carry longing toward Rabb as the continuous axis through each cycle of completion, renewed intention, and strenuous work."
+            }
+          },
+          {
+            "model_id": "c08_received_acts_become_answering_desire",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ح",
+              "و ض ع",
+              "ر ف ع"
+            ],
+            "mechanism": "Opening, putting down the burden, and raising the addressee's mention form a pattern of prior action upon the addressee. Read through Rabb as nurture and completion, the final imperative becomes reciprocal: desire answers a formative agency already experienced across the window.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "The literal opening and clarification supplies the first formative act performed for the addressee."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "The literal putting down into a lower or settled place supplies the formative act of unloading what had pressed on the addressee."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The literal raising of a thing supplies the complementary upward act that restores and elevates the addressee."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The literal image of repair, administration, nurture, and completion gathers the prior opening, unloading, and raising into a coherent Rabb-like agency."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal turn of desire toward something supplies the answering movement from the formed addressee back toward the formative Rabb."
+              }
+            ],
+            "structural_cues": [
+              "The earlier first-person-plural acts are done for, away from, or in favor of the same second-person addressee who receives the final imperatives.",
+              "The last ayah names «your Rabb» only after the window has displayed a sequence of opening, unloading, and raising."
+            ],
+            "reader_inference": "The packet supplies the ordered acts of opening, putting down, and raising plus the Rabb branch of staged nurture. I infer that «your Rabb» retrospectively profiles the agent of those acts and that desire is a reciprocal answer; a live alternative is that the acts remain separate favors and Rabb functions only as the command's conventional title.",
+            "changed_reading": {
+              "before": "The final ayah issues a standalone demand that the addressee desire the Lord.",
+              "after": "The addressee's desire is an answering movement toward the Rabb already encountered as opener, unloader, raiser, and gradual completer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_split_rabb_as_rising_breath",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant ر ب و mapping for the focus root and links it to chest-opening and exertion. It remains anchored in an explicitly supplied mapped focus branch and the final directional construction, but downstream prose should present it only as an embodied resonance, never as a replacement gloss or etymology for Rabb.",
+            "focus_anchor": "The packet preserves root_000537 for the focus occurrence of ر ب ب, while «إلى» and the desire imperative retain the focus's directional control.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The literal bodily chest supplies the organ through which an imagistic breath of aspiration can be enacted."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "The literal exhausting toil supplies the bodily condition that produces labored or rising breath."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B004",
+                "role": "The literal image of panting or breath swelling upward supplies an embodied rising motion at the focus endpoint."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal directed inclination converts rising breath from a bodily symptom into a contained image of aspiration toward Rabb."
+              }
+            ],
+            "changed_reading": {
+              "before": "After exertion, direct a mental or devotional desire toward Rabb.",
+              "after": "The opened, laboring body releases a rising breath of desire toward Rabb, so aspiration is somatically enacted as well as inwardly intended."
+            }
+          },
+          {
+            "outlier_id": "o_erected_object_corrected_by_endpoint",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the cult-stone branch of ن ص ب is remote from the immediate imperative sense. It remains valid as a contrast activated by the directly preceding root and checked by the focus's explicit endpoint; downstream prose should render it as a prophylactic ritual resonance, not as a translation of «فانصب» or an allegation of actual object-worship.",
+            "focus_anchor": "The focus explicitly directs desire to Rabb, whose dominant branch supplies authority and ownership.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B002",
+                "role": "The literal image of an erected stone for worship or slaughter raises the possibility that an installed ritual means could capture attention."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal toward-or-away vector of desire lets the final endpoint correct any fixation on the erected form."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal image of lordship and ownership identifies the authority beyond the installed ritual object at which desire must terminate."
+              }
+            ],
+            "changed_reading": {
+              "before": "Set yourself to worship and then desire your Lord.",
+              "after": "Whatever form is erected or enacted in worship, desire must pass beyond the installed means and terminate at Rabb; the endpoint guards ritual orientation."
+            }
+          },
+          {
+            "outlier_id": "o_covenantal_return_of_bestowed_name",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins distant covenant and documentary branches to the raised mention. It remains anchored in a focus branch of ر ب ب, the focus desire vector, and the explicit social action in 94:4; downstream prose should qualify it as a juridical-social resonance rather than a lexical gloss of Rabb or ذكر.",
+            "focus_anchor": "A covenant branch belongs to the dominant mapped inventory of the focus root ر ب ب, and directed desire supplies the addressee's responsive act.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The literal raising of a thing supplies the bestowed elevation whose use now calls for an answering relation."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "The literal deed or document of a right recasts elevated mention as something entrusted and answerable rather than merely enjoyed."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "The literal covenant, pact, or protection agreement supplies a binding relational frame for «your Rabb»."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal turn of inclination supplies the addressee's active return-performance within the covenantal frame."
+              }
+            ],
+            "changed_reading": {
+              "before": "Respond to raised reputation by privately desiring Rabb.",
+              "after": "The raised name behaves like an entrusted deed within a pact, and directed desire becomes the addressee's return of fidelity rather than consumption of status."
+            }
+          },
+          {
+            "outlier_id": "o_ravenous_appetite_transmuted",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries the greed and gluttony branch of ر غ ب into a devotional imperative. It remains directly anchored in the focus root and is contained by Rabb's authority plus the toward-or-away branch; downstream prose should use it only as an analogy for intensity and redirection, never as praise of greed or excess.",
+            "focus_anchor": "Both the ravenous-appetite branch and the directional branch belong to the focus occurrence of ر غ ب, and Rabb supplies the governing endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B003",
+                "role": "The literal image of ravenous appetite or greed supplies an unsettling intensity and near-insatiability to the act of wanting."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "The literal capacity of desire to turn toward or away converts raw appetite into a redirectable force rather than endorsing its former objects."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The literal authority and ownership of Rabb disciplines the appetite's object and keeps intensity under governance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Approach Rabb with restrained, decorous preference.",
+              "after": "Do not merely suppress appetite; transfer its full hunger toward Rabb, where its intensity is governed and its former objects are displaced."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opened chest became an enlarged source of action whose downstream expression is directed desire.",
+            "The removed burden and emptied post-work vessel became released capacity, so the final imperative uses relief rather than adding a new weight.",
+            "Repeated hardship and ease became the medium of orientation; neither escape from one nor possession of the other remains desire's endpoint.",
+            "Raised reputation and the prior sequence of opening, unloading, and raising turned desire into a reciprocal return toward the formative Rabb."
+          ],
+          "what_was_special": "The focus sustained several coexisting mechanisms: sovereign redirection, consent to nurture, spatial capacity, giver-over-gift, anti-reputational reversal, an empty-and-upright vessel sequence, and aspiration continuous with labor. Form-distant but packet-backed activations added rising breath, ritual endpoint correction, covenantal fidelity, and transmuted appetite without being promoted to exclusive readings.",
+          "remaining_uncertainties": [
+            "The causal arrows from chest-opening, unloading, and post-work vacancy into desire are reader-supplied; the context may instead present adjacent favors and commands.",
+            "The toward construction strongly fixes a positive endpoint, but its implication of turning away from every rival endpoint remains an inference.",
+            "The non-dominant ر ب و breath resonance and the cult-stone and covenantal models are imagistic activations, not replacement lexical senses.",
+            "Capacious longing for bounty and longing that passes beyond bounty to the giver remain live together rather than fully resolving into one model."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. Desire is finally given direction. Lexical evidence: `ر غ ب B001` desire turning toward or away; `ر ب ب B001` lordship/ownership/authority and `ر ب ب B002` repair, nurture, completion. Structural cue: the prepositional phrase `إِلَىٰ رَبِّكَ` precedes the imperative, making the destination explicit. Assigned role: `رب` is the proper object of the capacity opened in 94:1 and emptied in 94:7. Abductive move supplied by me: the passage assumes desire must be governed, not merely intensified. Reading change: the ayah reads as orientation of the newly freed self toward its completing caretaker.\n\n2. The final desire reverses worldly expansion. Lexical evidence: earlier `ش ر ح B005` expansive inclination toward worldly things; `ر غ ب B001` includes desire toward and aversion/turning away. Structural cue: 94:1 opens the chest; 94:8 directs رغبة to the Lord. Assigned role: the same inner expansion that could spread toward possession is narrowed and purified by direction. Abductive move supplied by me: `إلى ربك` both attracts desire toward the Lord and implies turning away from rival objects. Reading change: the ayah becomes disciplined desire, not generic longing.\n\n3. Lordship is read as nurturing completion of the whole bodily process. Lexical evidence: `ر ب ب B002` repair, nurture, completion stage by stage; `ر ح م B001/B003` mercy and womb; `و ض ع B002` birth; `ع س ر B006` difficult labor; `ي س ر B006` productive increase. Structural cue: the surah begins with mercy, moves through chest/burden/back, repeats hardship/ease, and ends at `ربك`. Assigned role: the Lord is the one who tends the process from constriction to delivery to growth. Abductive move supplied by me: the final `رب` gathers the earlier maternal/generative branches into a theology of nurture. Reading change: the ayah reads as return to the caretaker of growth, not only submission to authority.\n\n4. Spacious desire answers spacious ease. Lexical evidence: `ر غ ب B002` physical breadth/capaciousness; `ي س ر B001` ease/readiness; `ف ر غ B003` breadth in movement/road; `ص د ر B001/B002` chest/front opening. Structural cue: spatial language of opening, ease, road-breadth, and capacious desire accumulates across the packet. Assigned role: desire becomes the widened interior’s directed motion. Abductive move supplied by me: the surah’s “ease” is not just lower pressure but more navigable space for longing. Reading change: `فارغب` reads as spacious movement toward the Lord.\n\n5. A gift/bounty and covenant reading is preserved. Lexical evidence: `ر غ ب B004` abundant desirable gift; `ر ب ب B011` covenant or pact, `ر ب ب B016` need/firm knot/favor; `ي س ر B003` prosperity/means; `ذ ك ر B008` document of right. Structural cue: earlier burden/liability and raised mention are followed by final directed desire to the Lord. Assigned role: final رغبة can be desire for bounty within a binding relation, not appetite without limit. Abductive move supplied by me: the one who removes burden and raises mention is also the grantor with whom covenantal dependence is renewed. Reading change: the ayah can read as covenantal seeking of favor, not mere psychological yearning.",
@@ -12178,14 +13183,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12465,10 +13476,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 85056,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

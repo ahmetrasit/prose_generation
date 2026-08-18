@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.195669+00:00",
+  "generated_at": "2026-08-18T13:34:35.660666+00:00",
   "surah": 107,
   "ayah": 1,
   "ayahRef": "107:1",
@@ -1335,7 +1335,8 @@
         "m-w-s107-a001-w001-02",
         "m-w-s107-a001-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "107:1:1"
+      "aligned_qac_word_ref_upstream": "107:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1349,7 +1350,8 @@
       "morpheme_ids": [
         "m-w-s107-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:1:2"
+      "aligned_qac_word_ref_upstream": "107:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1363,7 +1365,8 @@
       "morpheme_ids": [
         "m-w-s107-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:1:3"
+      "aligned_qac_word_ref_upstream": "107:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1381,7 +1384,8 @@
         "m-w-s107-a001-w004-02",
         "m-w-s107-a001-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "107:1:4"
+      "aligned_qac_word_ref_upstream": "107:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2710,7 +2714,1187 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:1",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_alerted_recognition",
+            "confidence": "strong",
+            "focus_anchor": "The opening أرأيت construction and the relative description الذي يكذب بالدين.",
+            "mechanism": "The seeing root combines perceptual recognition with an alerting tell-me formula. The question therefore recruits the addressee as a witness who must identify a type, while the denial root supplies the type's defining relation to dīn.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting and inquiring use makes the opening a summons to recognize and characterize, not a request for bare visual history."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Eye-seeing and insight keep the demanded recognition both observable and interpretive."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring a thing false supplies the relation by which the person is to be recognized."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and lived submission make dīn a practice-bearing object rather than a label alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "A yes-or-no question asking whether the addressee has happened to see a denier.",
+              "after": "An alerting summons to recognize a recurring human type whose relation to lived dīn can be inspected."
+            }
+          },
+          {
+            "model_id": "baseline_rejected_reckoning",
+            "confidence": "strong",
+            "focus_anchor": "The transitive denial in يكذب بالدين and the reckoning range of دين.",
+            "mechanism": "Denial targets not only a religious proposition but the operative claim that deeds enter judgment and return as recompense. Reflective seeing asks the addressee to grasp the behavioral consequences of treating that account as false.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution of falsehood gives denial an object whose authority is actively rejected."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and requital make the rejected object an account in which conduct has consequences."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment turns seeing into inference from a person's stance toward accountability."
+              }
+            ],
+            "changed_reading": {
+              "before": "The person rejects a general religious doctrine.",
+              "after": "The person nullifies the claim that action is answerable and will be requited, a stance the addressee is asked to diagnose."
+            }
+          },
+          {
+            "model_id": "baseline_moral_default",
+            "confidence": "medium",
+            "focus_anchor": "The debt-and-credit branch of دين joined to the branch in which a charge proves true only by being carried through.",
+            "mechanism": "Dīn can configure an obligation as something owed, while denial can be tested by whether a charge is fulfilled or fails in execution. The denier is thus readable as a practical defaulter who treats a due claim as though it will never mature.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and deferred settlement supply an obligation that remains due even before collection."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge that fails to be carried through converts falsehood from speech into nonperformance."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Crediting a person and leaving him to conscience sharpens the risk that entrusted responsibility will be betrayed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is an inward opinion about religion.",
+              "after": "Denial is a practical default on an entrusted and eventually settleable obligation."
+            }
+          },
+          {
+            "model_id": "baseline_lived_counterfeit",
+            "confidence": "exploratory",
+            "focus_anchor": "The command to see, the denier's active falsification, and dīn as habitual way.",
+            "mechanism": "A visible surface can misstate its own condition, while dīn can name a customary mode of life. The focus ayah can therefore hold open a person whose displayed identity and practiced habit contradict one another, even before context specifies the contradiction.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance and the mirror supply a surface that may need interpretation rather than trust."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The deceptively patterned cloth supplies an image of a condition whose surface gives a false account of itself."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state relocate dīn into the person's repeated way of being."
+              }
+            ],
+            "changed_reading": {
+              "before": "The denier is identified by an explicit verbal proposition.",
+              "after": "The denier may be identified by a lived surface whose repeated condition falsifies the order it appears to bear."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_1072_deictic_social_proof",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The deictic answer converts the opening recognition task into an observable test: the denier forcibly drives away someone already cut off from a caregiver. Severe force aggravates prior severance, so repudiating dīn becomes enacted refusal of a protective debt rather than an invisible opinion.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting question creates the demand that the following conduct answer."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "Failure to carry through a charge lets conduct prove the professed obligation false."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt supplies the protective obligation on which the agent practically defaults."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Severe pushing makes the denial bodily, directional, and publicly inspectable."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caregiver identifies the vulnerable relation that the push further ruptures."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolation broadens orphanhood into the social condition intensified by expulsion."
+              }
+            ],
+            "structural_cues": [
+              "فذلك answers the opening أرأيت with a demonstrative identification.",
+              "The repeated الذي binds the violent predicate to the same person introduced in the focus ayah."
+            ],
+            "reader_inference": "The packet supplies an alerting question, severe pushing, and a child severed from a caregiver; I supply the arrow that aggravated severance is evidence of default on dīn's protective claim. A live alternative is that the conduct is only one symptom of denial rather than its operational definition.",
+            "changed_reading": {
+              "before": "A denier is recognized chiefly by a stated belief about dīn.",
+              "after": "The demonstratively identified denier is recognized by force that deepens an already vulnerable person's social severance."
+            }
+          },
+          {
+            "model_id": "delta_1072_disallowed_claim",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "The non-dominant mapped branch of the pushing root activates a claim of right or affiliation. Without replacing the direct severe-push sense, it lets the act be read as a counter-verdict: the orphan's claim to belonging and support is treated as false, mirroring the focus subject's falsification of dīn.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring a person or claim false supplies the juridical shape of rejection."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt makes the rejected affiliation carry a concrete claim to support."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "The dominant branch preserves the literal core of forceful expulsion."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B002",
+                "role": "The split mapped image of asserting right or affiliation overlays the shove with a refused claim to belonging."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a caregiver makes affiliation and support precisely what is at stake."
+              }
+            ],
+            "structural_cues": [
+              "The demonstrative identification makes this refused relation answer the focus question.",
+              "The object اليتيم receives the force directly, keeping the claim-reading attached to a concrete exclusion."
+            ],
+            "reader_inference": "The packet supplies both severe thrusting and, through a split mapping, assertion of right or affiliation; I infer that the shove enacts a denial of the orphan's social claim. The direct alternative is physical cruelty without any claim-adjudication overlay.",
+            "changed_reading": {
+              "before": "The subject declares dīn false in the abstract.",
+              "after": "Exploratorily, he reenacts that falsification by treating the orphan's claim to kinship-like support as invalid."
+            }
+          },
+          {
+            "model_id": "delta_1073_distributed_provision",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "The evidence expands from direct violence to failure of social mobilization. Urging is an action upon other agents; food is provision and livelihood; the miskīn inventory supplies both abasement and the sustenance by which a dwelling remains stable. Denial now disables a civic distribution process, not merely one person's private generosity.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "The city as ordered authority supplies a communal system whose obedience is tested by provision."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt makes provision an owed relation rather than discretionary surplus."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging supplies the missing act of recruiting and pressuring others toward provision."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another makes the object a transfer to a recipient, not merely food as a substance."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and good condition extend feeding into durable maintenance of life."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Abasement locates the recipient in a social condition that provision should answer."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Sustenance that stabilizes residence turns food into infrastructure for remaining securely in place."
+              }
+            ],
+            "structural_cues": [
+              "ولا adds omission of advocacy to the prior positive act of expulsion.",
+              "The construction يحض على points beyond the subject toward conduct he should induce in others."
+            ],
+            "reader_inference": "The packet supplies urging, feeding another, livelihood, abasement, and stabilizing sustenance; I infer a distribution network in which advocacy recruits provision and provision secures social residence. An alternative keeps the verse at the narrower level of personal failure to recommend feeding.",
+            "changed_reading": {
+              "before": "Denial appears as one individual's failure toward one vulnerable person.",
+              "after": "Denial also appears as refusal to activate a wider provision network capable of stabilizing those in need."
+            }
+          },
+          {
+            "model_id": "delta_1073_social_graft",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ي ت م",
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "A cross-material model emerges: orphanhood isolates, low ground spatializes social descent, a food-root branch depicts a branch accepting graft, and dwelling-root stability supplies the result. The missing urging can then be read as refusal to graft the severed or lowered person back into a sustaining social body.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "Ordered civic obedience supplies the social body into which repair would reconnect the excluded."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge failing in execution lets the absence of repair falsify the claimed order."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolation supplies the severed condition requiring reconnection."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B002",
+                "role": "The lowest ground spatializes the vulnerable person's socially depressed position."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "A branch accepting graft contributes the repair image of one life being joined into a sustaining stock."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B009",
+                "role": "A place of settlement supplies the stable outcome that successful reconnection would enable."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from active expulsion in 107:2 to refusal of restorative urging in 107:3.",
+              "Food is grammatically attached to the miskīn, keeping the graft analogy tied to material sustenance."
+            ],
+            "reader_inference": "The packet supplies isolation, low ground, graft acceptance, and stable settlement; I supply the repair arrow that provision can reattach a severed person to the civic body. The live alternative is that these remote material branches remain separate images and should not be assembled into one mechanism.",
+            "changed_reading": {
+              "before": "The denier merely fails to recommend a charitable transfer.",
+              "after": "Exploratorily, the denier blocks a reparative graft by which excluded people could regain stable attachment to the social order."
+            }
+          },
+          {
+            "model_id": "delta_1074_5_ritual_counterfeit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "Obligatory worship supplies a visible pattern of obedience, but heart-level heedlessness and distance from the prayer prevent that pattern from governing conduct. The earlier counterfeit baseline is sharpened: ritual can be present as surface while the life carrying it falsifies dīn.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance and mirroring make outward form an object that can conceal rather than disclose condition."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A patterned surface that deceives supplies the model for correct-looking ritual with a contradictory condition."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission define what the ritual should enact beyond its visible performance."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Specified worship supplies the outwardly valid ritual form under scrutiny."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Obligatory worship raises the stakes of being detached from what is performed."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart supplies the internal disconnection beneath the ritual surface."
+              }
+            ],
+            "structural_cues": [
+              "فويل pivots from identifying the denier to warning a class who visibly perform prayer.",
+              "The relative clause and عن صلاتهم frame heedlessness as a standing relation of distance from their prayer."
+            ],
+            "reader_inference": "The packet supplies worship, obligation, visible appearance, and heart-level heedlessness; I infer that ritual detached from its governing demand becomes evidence that a life falsifies dīn. An alternative treats prayer negligence as an additional fault without making it a counterfeit mechanism.",
+            "changed_reading": {
+              "before": "The focus denier stands outside ritual religion.",
+              "after": "The denier-type can inhabit ritual form while a heedless life makes that form a deceptive surface rather than operative obedience."
+            }
+          },
+          {
+            "model_id": "delta_1074_5_failed_annealing",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "The non-dominant prayer mapping carries fire and the straightening of a thing by heat, while heedlessness can image motionless stasis. As a material analogy, repeated worship should expose the person to a formative heat; if conduct remains inert, the discipline has failed to anneal the moral charge into action.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge proves false when it is not carried through, providing the test for failed transformation."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience supplies the intended formed condition that ritual discipline should produce."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "Encountering fire and heat begins the material analogy of formative exposure."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Heating that straightens a thing supplies the inferred transformative function of repeated discipline."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Stillness supplies the contrary result: exposure without moral movement."
+              }
+            ],
+            "structural_cues": [
+              "Prayer recurs across 107:4-5 before heedlessness names the failed relation to it.",
+              "The preposition عن marks separation, supporting a failure of transfer from rite to conduct."
+            ],
+            "reader_inference": "The packet supplies heat, straightening by fire, worship, and stillness; I supply the annealing arrow that ritual exposure ought to reshape conduct. The materially live alternative is that the fire branches are unrelated senses and the passage concerns worship alone.",
+            "changed_reading": {
+              "before": "The denier's prayer is defective because attention lapses.",
+              "after": "Exploratorily, the prayer is a formative process that has failed: repeated exposure leaves conduct unstraightened and inert."
+            }
+          },
+          {
+            "model_id": "delta_1076_gaze_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The focus begins by asking the addressee to see with insight; the same root later names action performed so others will see. This reverses the direction of gaze. The denier attempts to manufacture the very evidence by which the opening asks to judge him, so genuine recognition must look through staged visibility to the social effects surrounding it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Eye-seeing joined to insight establishes the addressee's diagnostic gaze."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting formula recruits the addressee to answer by recognition."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A deceptive visible condition explains why the gaze must discriminate rather than merely register display."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Performing for people to see supplies the denier's attempt to control public perception."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing something to be seen makes visibility an actively produced artifact."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Appearance and mirroring provide the managed surface placed before observers."
+              }
+            ],
+            "structural_cues": [
+              "The focus root recurs near the end in a form centered on being seen by others.",
+              "The repeated الذين هم continues the same class while shifting from inattentive relation to prayer to active management of observers."
+            ],
+            "reader_inference": "The packet supplies diagnostic seeing, ostentation, caused visibility, and deceptive appearance; I infer that the later subject tries to precompose the evidence the opening viewer receives. A live alternative is that root repetition marks hypocrisy generally without setting up a contested gaze.",
+            "changed_reading": {
+              "before": "أرأيت simply asks the addressee to look at an already obvious denier.",
+              "after": "أرأيت trains a counter-gaze: recognize the denier by seeing through the pious visibility he deliberately manufactures."
+            }
+          },
+          {
+            "model_id": "delta_1077_blocked_aid_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "Withholding is not a passive absence but a hand checked and a barrier interposed; the mapped object branch supplies aid and mutual backing. The final act therefore exposes denial as negative infrastructure: the subject blocks small circulations of support and defaults on dīn's social debt.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt makes assistance a due relation whose nontransfer can count as default."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "Failure to carry through a charge makes blocked support a practical falsification."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The hand held back from giving turns omission into a controlled bodily act."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier between a person and what is sought supplies the architecture of blocked circulation."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and mutual backing identify what the barrier prevents from reaching another."
+              }
+            ],
+            "structural_cues": [
+              "The final coordinated plural verb extends the earlier profile into repeated conduct by the same class.",
+              "The verb-object pairing places active withholding immediately against an object whose mapped inventory centers assistance."
+            ],
+            "reader_inference": "The packet supplies a checked hand, an interposed barrier, and assistance; I infer a circuit in which small support should pass but is actively stopped, making nontransfer a default on dīn. An alternative treats the object as a particular utensil or commodity without a broader circulation model.",
+            "changed_reading": {
+              "before": "Denial is a belief accompanied by occasional stinginess.",
+              "after": "Denial is maintained by repeatedly engineering blockages in the ordinary circulation of mutual aid."
+            }
+          },
+          {
+            "model_id": "delta_1077_fortified_possession",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "A branch of withholding is protective strength that cannot be penetrated. Joined to dīn's possession and subjugation branch, it activates an inversion: power that could protect the vulnerable instead fortifies possessions against claims for assistance. Denial becomes a property regime that safeguards control rather than relation.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B004",
+                "role": "Subjugation and possession supply the asymmetry by which control of goods becomes control over people."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "Ordered authority supplies the public alternative in which strength serves a shared civic relation."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Protective power that cannot be reached supplies the image of resources enclosed behind strength."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance identifies the relational use from which fortified resources are diverted."
+              }
+            ],
+            "structural_cues": [
+              "The same plural agents who manage public visibility are the agents who withhold assistance.",
+              "The closing object makes the target of fortified refusal concrete rather than merely attitudinal."
+            ],
+            "reader_inference": "The packet supplies inaccessible protective strength, possession, and aid; I supply the reversal that strength meant for protection is redirected to protect holdings from relational claims. The live alternative is ordinary refusal without an institutional property model.",
+            "changed_reading": {
+              "before": "The denier merely keeps a small useful thing to himself.",
+              "after": "The denier uses power and possession as a fortification against the claims of mutual assistance."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_narrated_reputation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ر و ي target of the split seeing-root mapping and treats visibility as report circulation. It remains anchored in the focus summons, active falsification, dīn's credit relation, and the recurrence of the seeing root in 107:6. Render it only as a reputational analogy carried by a packet-supplied split mapping, not as the morphology of أرأيت or يراءون.",
+            "focus_anchor": "أرأيت asks for recognition of one who falsifies dīn, whose branches include crediting a person's responsibility.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "Relaying reports and poetry lets the opening recognition circulate as an account about a person."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A condition that deceives by appearance supplies the possibility of a false public story."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Crediting a person and leaving him to conscience gives reputation the function of social credit."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing off supplies the public performance from which a favorable report can be manufactured."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The split report branch at the recurring root keeps the reputation mechanism active at the point of display."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hypocritical denier seeks only immediate visual admiration.",
+              "after": "Exploratorily, he authors a performance designed to become a favorable circulating report and thereby obtain social credit."
+            }
+          },
+          {
+            "outlier_id": "outlier_hidden_obligation_star",
+            "confidence": "exploratory",
+            "containment": "This is a poetic attention model activated by the faint-star branch of سهو, not a lexical claim that the prayer is a star. It remains validly anchored in the focus demand to see, the debt branch of dīn, later ostentation, and withheld aid. Downstream prose should mark it as an analogy for selective visibility: conspicuous acts are staged while small obligations are allowed to become hard to notice.",
+            "focus_anchor": "The focus asks the addressee to perceive the person who denies an obligation-bearing dīn.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the task of noticing what public display obscures."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt supplies the small but real obligation that remains due even when attention leaves it."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "The faint hidden star images an obligation present in the field yet easy to overlook."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Ostentation redirects attention toward conspicuous acts selected for observers."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Ordinary assistance supplies the low-visibility obligation eclipsed by the staged display."
+              }
+            ],
+            "changed_reading": {
+              "before": "The denier simply forgets prayer while displaying piety.",
+              "after": "Exploratorily, denial is an allocation of visibility: spectacular piety is made bright while small binding assistance is rendered faint."
+            }
+          },
+          {
+            "outlier_id": "outlier_quenching_and_burden",
+            "confidence": "exploratory",
+            "containment": "This is the most form-distant reading because it activates quenching, water-carrying, and burden-bearing from the non-dominant ر و ي target attached to the focus root. It remains anchored by the focus's split inventory, dīn as debt, and the later provision and aid cues. Carry it only as a material-social resonance: recognition of denial is tested by whether need is refreshed and communal burdens are borne, not as an alternative etymology for أرأيت.",
+            "focus_anchor": "The opening seeing root has a packet-supplied secondary mapping, while يكذب بالدين permits the question of a due responsibility failing in practice.",
+            "activation_trace": [
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "Quenching and release from thirst supply the material outcome of need being genuinely answered."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "Bringing and carrying water contributes the labor required to move relief toward another."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B015",
+                "role": "Chiefs who bear communal burdens scale carrying from a vessel to social responsibility."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt anchors burden-bearing as something due rather than merely admirable."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and sound condition extend quenching into sustained material provision."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and backing connect the burden image to the passage's final withheld relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Recognition asks only whether the addressee can visually identify disbelief.",
+              "after": "At the edge of the split mapping, recognition tests whether a person's social practice carries relief, quenches need, and bears what is owed."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The demonstrative answer in 107:2 turns denial from a proposition into severe force that compounds an orphan's prior severance.",
+            "The lack of urging in 107:3 expands the fault from private non-giving into failure to mobilize a provision network that stabilizes vulnerable lives.",
+            "Prayer, heedlessness, and ostentation reverse the opening gaze: the denier manufactures pious visibility, so أرأيت becomes a demand to see through display.",
+            "The closing withholding of aid recasts denial as active blockage and default within ordinary circuits of mutual support."
+          ],
+          "what_was_special": "The same seeing root frames both genuine recognition and managed visibility, making perception itself contested. Split mappings also kept live, without displacing direct senses, an orphan's refused claim to belonging, reputation as circulated report, ritual as failed annealing, and provision as social graft or burden-bearing.",
+          "remaining_uncertainties": [
+            "Whether the debt, civic-order, possession, and customary-state branches of dīn should remain coequal semantic facets or be treated only as analogical activators.",
+            "How much explanatory weight the non-dominant د ع و and ر و ي mappings can bear beyond preserving exploratory resonance.",
+            "Whether the graft, faint-star, and fire-straightening models reveal durable mechanisms or are packet-induced material analogies that should remain contained."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **“Have you seen?” as a demanded social diagnosis.** Evidence: `ر ء ي B013` tell-me/alert formula, with `ر ء ي B001` eye or insight; activated by the return of `ر ء ي B005` showing off before people in 107:6. Structure: the same seeing-root frames the surah at the question and at ostentation. Mechanism: the opening question asks the hearer to see through the later performer who acts to be seen. Abductive move: I infer that later public display clarifies the first seeing as discernment, not mere observation. Reading change: the ayah becomes an invitation to identify a type whose religion is visually legible in social behavior.\n\n2. **Denying الدين as breaking a debt/reckoning circuit.** Evidence: `ك ذ ب B002` declaring false/denying, `د ي ن B002` reckoning and recompense, `د ي ن B003` debt and credit; activated by `ط ع م B002` feeding another and `م ع ن B005` small lent household benefit. Structure: denial of dīn is followed by failures in feeding and lending. Mechanism: obligation, repayment, and recompense form one economy; the denier acts as if no account is due. Abductive move: I supply the causal arrow from denied reckoning to withheld goods; the packet supplies the debt/recompense and giving/withholding lexicon. Reading change: “denies the dīn” reads materially: he cancels the due of God and neighbor.\n\n3. **Falsehood as failed performance, not only false speech.** Evidence: `ك ذ ب B001` falsehood in speech/action, `ك ذ ب B004` a charge proving false by failing, and `ك ذ ب B006` milk failing expectation; activated by `ص ل و B003` prescribed worship in 107:4-5 and `س ه و B001` heedlessness in prayer. Structure: the person may still be among the praying, yet the act fails its expected yield. Mechanism: visible rite promises care, attention, and mercy; neglect of the vulnerable reveals the promise false. Abductive move: I infer that prayer is tested by its output in care; the packet supplies prayer, heedlessness, and failure branches. Reading change: تكذيب becomes embodied falsification, a life proving its religious claim untrue.\n\n4. **Dīn as customary regime or subjugating order.** Evidence: `د ي ن B005` habit/customary state and `د ي ن B004` subjugation/possession; activated by `د ع ع B001` harsh driving of the orphan and `س ك ن B006` abasement of the miskīn. Structure: the abstract object of denial is immediately translated into treatment of weak persons. Mechanism: denying dīn can mean refusing the ordered moral regime and replacing it with domination. Abductive move: I supply the social-order inference; the packet supplies habit, authority, pushing, and abasement. Reading change: the ayah can read as exposure of an anti-dīn social custom: a habit of mastery over the dependent.",
@@ -16141,14 +17325,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -16387,10 +17577,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 91224,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

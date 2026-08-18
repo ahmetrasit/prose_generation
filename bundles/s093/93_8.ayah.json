@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.720530+00:00",
+  "generated_at": "2026-08-18T13:34:13.269712+00:00",
   "surah": 93,
   "ayah": 8,
   "ayahRef": "93:8",
@@ -1501,7 +1501,8 @@
       "morpheme_ids": [
         "m-w-s093-a008-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:8:1"
+      "aligned_qac_word_ref_upstream": "93:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1517,7 +1518,8 @@
         "m-w-s093-a008-w001-02",
         "m-w-s093-a008-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "93:8:2"
+      "aligned_qac_word_ref_upstream": "93:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1531,7 +1533,8 @@
       "morpheme_ids": [
         "m-w-s093-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:8:3"
+      "aligned_qac_word_ref_upstream": "93:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1545,7 +1548,8 @@
       "morpheme_ids": [
         "m-w-s093-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:8:4"
+      "aligned_qac_word_ref_upstream": "93:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1559,7 +1563,8 @@
       "morpheme_ids": [
         "m-w-s093-a008-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:8:5"
+      "aligned_qac_word_ref_upstream": "93:8:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2517,7 +2522,1194 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s93/packets/93_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "93:8",
+      "window": [
+        "93:1",
+        "93:2",
+        "93:3",
+        "93:4",
+        "93:5",
+        "93:6",
+        "93:7",
+        "93:8",
+        "93:9",
+        "93:10",
+        "93:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ج د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001626",
+              "furuq_root_norm": "و ج د",
+              "furuq_source_root_norm": "و ج د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 61,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000227",
+              "furuq_root_norm": "ج د د",
+              "furuq_source_root_norm": "ج د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "93:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_need_to_sufficiency",
+            "confidence": "strong",
+            "focus_anchor": "The sequence وَوَجَدَكَ ... عَائِلًا ... فَأَغْنَىٰ joins an encountered state to a causally marked counter-state.",
+            "mechanism": "Finding locates an actual condition of poverty and need; the fa-linked causative then reduces the addressee's dependence and establishes means. The center is not an abstract label but the condition on which the final intervention acts.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding and coming upon supplies detection of the actual condition and opens the state-to-remedy sequence."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need supply the deficient state that the final causative changes."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Wealth and reduced need supply the resulting condition in which lack no longer governs."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare gloss: he found you poor and made you rich.",
+              "after": "He encountered you in real need and causally moved you into a condition in which need no longer ruled."
+            }
+          },
+          {
+            "model_id": "b02_capacity_for_dependents",
+            "confidence": "medium",
+            "focus_anchor": "عَائِلًا can activate not only personal lack but the field of عِيال, while the two flanking verbs carry images of means and sufficing.",
+            "mechanism": "The focus can describe a mismatch between obligations and capacity: one is responsible for dependents without enough means, then is made adequate to support them. Enrichment is functional carrying capacity, not merely a larger private balance.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B003",
+                "role": "Capacity, means, and wealth make the opening verb resonate with the resource dimension diagnosed as missing."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B002",
+                "role": "Dependents under one's support turn the middle state into a relational burden of care rather than solitary poverty."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and standing in for what is absent supply the outcome as adequate support capacity."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse changes one person's financial status.",
+              "after": "The verse repairs a gap between dependents and means by making the addressee able to carry support."
+            }
+          },
+          {
+            "model_id": "b03_directionless_to_capable",
+            "confidence": "exploratory",
+            "focus_anchor": "The predicate عَائِلًا has packet branches of a stray creature without a direction and of being overwhelmed, while أَغْنَىٰ can mean making something suffice or avail.",
+            "mechanism": "Need can be practical disorientation or incapacity: the subject is unable to find a viable direction or is overmatched by what confronts him. The outcome is enough means, substitution, or competence to proceed.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Coming upon a lost thing supplies the encounter with a subject whose viable way is not yet secured."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B008",
+                "role": "A stray creature unable to choose a direction supplies a spatial image for the focus state."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B009",
+                "role": "Being overwhelmed supplies the functional incapacity that makes directionlessness consequential."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing, availing, and replacing supply enough capability to overcome the impasse."
+              }
+            ],
+            "changed_reading": {
+              "before": "عَائِلًا names only economic poverty.",
+              "after": "عَائِلًا can also expose directionless or overwhelmed incapacity, and أَغْنَىٰ can mark being made practically able to proceed."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_need_across_visibility_and_cover",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ض ح و",
+              "ل ي ل",
+              "س ج و"
+            ],
+            "mechanism": "The opening alternation between emergence in clear light and a still, covering night revises finding as recognition across changing visibility. The need in 93:8 need not become real only when exposed; the resulting sufficiency is care that persists when the condition is manifest and when it is covered.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding and coming upon anchor the revised model in the focus act of recognizing a condition."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing supplies the durable counter-state that can hold across changes in visibility."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Emergence into sunlight and appearance supply the phase in which a condition becomes plainly detectable."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night and its darkness supply the contrasting phase in which the same condition may not be outwardly visible."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B002",
+                "role": "Covering with a cloth turns nocturnal stillness into an image of hidden rather than absent need."
+              }
+            ],
+            "structural_cues": [
+              "The paired opening oaths place bright emergence and settled darkness before the three وَجَدَكَ recollections.",
+              "The focus keeps the state between recognition and a fa-marked outcome."
+            ],
+            "reader_inference": "The packet supplies emergence, darkness, covering, finding, and sufficing; I infer that visibility changes while care remains operative. A live alternative is that the opening contrast offers reassurance only and does not alter the semantics of 93:8.",
+            "changed_reading": {
+              "before": "A visible lack is discovered and then ended.",
+              "after": "Need is recognized whether exposed or covered, and sufficiency names care that remains through both phases."
+            }
+          },
+          {
+            "model_id": "d02_nonabandoning_nurture",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و د ع",
+              "ر ب ب",
+              "ق ل ي"
+            ],
+            "mechanism": "Negated leaving and heart-distancing flank the image of lordly repair, upbringing, and completion. Against that field, فَأَغْنَىٰ becomes the material face of sustained nurture: the needy state is not answered by a detached payment but by a relation that neither releases nor repels.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need supply the vulnerable condition requiring more than a momentary transfer."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and standing in supply the focus outcome as reliable provision."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Leaving and releasing are explicitly negated, defining the transition out of need as non-abandonment."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply the longitudinal process by which sufficiency is produced."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B003",
+                "role": "Heart-distancing hatred is also negated, excluding emotionally repellent provision from the care mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The paired مَا ... وَمَا negations place رَبُّكَ between two rejected forms of severance.",
+              "Verse 93:3 establishes the agent's enduring relation before 93:8 names the material transformation."
+            ],
+            "reader_inference": "The packet supplies negated abandonment, negated heart-distance, and nurturing completion; I infer that these specify how the later sufficing operates. A live alternative is that 93:3 reassures emotionally while 93:8 reports an independent economic act.",
+            "changed_reading": {
+              "before": "Enrichment is a one-time transfer that happens to remove poverty.",
+              "after": "Enrichment is sustained, non-repellent nurture that completes what the needy person cannot yet supply."
+            }
+          },
+          {
+            "model_id": "d03_sufficiency_as_unfolding_outcome",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء خ ر",
+              "خ ي ر",
+              "ء و ل"
+            ],
+            "mechanism": "The contrast of later and first, joined to beneficial good and the return of a thing to its outcome, stretches the compact fa-sequence into a trajectory. What begins as relief from need can mature into a better, more useful adequacy whose value is visible at its outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need supply the initial condition from which the trajectory departs."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and availing define the outcome by usefulness rather than by quantity alone."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness after a first phase supplies the temporal comparison within which adequacy can improve."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good makes the later outcome functionally better, not merely chronologically later."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an eventual outcome supplies maturation from first condition to realized consequence."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split target's one-thing-after-another image supplies staged continuity between the first state and what follows."
+              }
+            ],
+            "structural_cues": [
+              "Verse 93:4 explicitly compares a later phase with a first phase.",
+              "The focus's فَ links state and outcome tightly but does not itself require that the full benefit be exhausted in one instant."
+            ],
+            "reader_inference": "The packet supplies first/later contrast, beneficial good, outcome, and succession; I infer that the focus transformation may unfold and be evaluated by what it becomes. A live alternative is that the temporal comparison concerns only verse 93:4 and leaves 93:8 punctiliar.",
+            "changed_reading": {
+              "before": "فَأَغْنَىٰ records a completed instant of enrichment.",
+              "after": "فَأَغْنَىٰ initiates an adequacy whose beneficial force can unfold from an earlier condition toward a better outcome."
+            }
+          },
+          {
+            "model_id": "d04_gift_calibrated_to_satisfaction",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "ر ب ب",
+              "ر ض و"
+            ],
+            "mechanism": "Giving, nurturing completion, and satisfaction form a relational measure of enough. The result of أَغْنَىٰ is therefore not defined only by the amount transferred; it is provision that actually reaches adequacy for the recipient.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Need supplies the recipient-side deficit against which a gift must be measured."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and availing define enrichment by whether it genuinely answers the lack."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing over and giving supply the transfer mechanism rather than an unexplained change of status."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing and bringing to completion make the gift responsive to development over time."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "Acceptance and satisfaction supply the recipient-side sign that provision has reached enough."
+              }
+            ],
+            "structural_cues": [
+              "Verse 93:5 runs from future giving through the same ربّ relation to a fa-marked satisfaction.",
+              "The recipient pronoun links the promised giving and the remembered finding-enriching sequence."
+            ],
+            "reader_inference": "The packet supplies giving, nurturing completion, satisfaction, need, and sufficing; I infer a gift calibrated by achieved adequacy. A live alternative is that satisfaction is an independent promised response and does not set the measure of أَغْنَىٰ.",
+            "changed_reading": {
+              "before": "He made you wealthy by an unspecified amount.",
+              "after": "He provisioned you in a way measured by actual sufficiency and settled recipient satisfaction."
+            }
+          },
+          {
+            "model_id": "d05_support_network_repair",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ي ت م",
+              "ء و ي"
+            ],
+            "mechanism": "The immediately preceding parallel maps finding an orphaned state to gathering into shelter. Because orphanhood is severance from a caregiver, it makes the focus's need relational: أَغْنَىٰ can repair a support network and confer capacity within it, not merely add cash to an isolated individual.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding and coming upon anchor 93:8 in the same diagnostic action as the preceding parallel."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B002",
+                "role": "Dependents under support make the focus lack a question of sustaining relationships."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and standing in for an absence supply repaired support capacity."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The repeated finding branch establishes an explicit parallel state-diagnosis frame."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child cut off from a caregiver supplies the structural form of unsupported vulnerability."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a gathering place that shelters supplies relational reattachment as the counter-state."
+              }
+            ],
+            "structural_cues": [
+              "93:6 and 93:8 share the frame يَجِدْكَ/وَجَدَكَ + circumstantial state + فَ + remedy.",
+              "The two verses are adjacent members of a three-part recollection."
+            ],
+            "reader_inference": "The packet supplies a repeated grammar, caregiver severance, sheltering union, dependents, and sufficing; I infer that the first remedy teaches how to read the third as network repair. A live alternative is that only the syntax repeats while each remedy remains semantically independent.",
+            "changed_reading": {
+              "before": "An isolated poor individual receives private wealth.",
+              "after": "A person situated in unsupported dependency is gathered into, and made adequate within, a functioning support ecology."
+            }
+          },
+          {
+            "model_id": "d06_guided_capacity",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج د",
+              "ض ل ل",
+              "ه د ي"
+            ],
+            "mechanism": "The preceding parallel gives the baseline's directionless branch a striking echo: a lost creature in a place of loss is answered by gentle direction. The focus can then retain an economic reading while also describing the granting of enough practical orientation and capacity to move beyond an impasse.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B008",
+                "role": "A stray creature unable to choose its direction supplies the focus's exploratory spatial state."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B009",
+                "role": "Being overwhelmed supplies the incapacity that orientation and means must overcome."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and availing supply enough functional competence to proceed."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Repeated finding binds the context's lost state to the focus's neighboring state."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B005",
+                "role": "A stray thing in a place of loss closely echoes the focus root's directionless stray image."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a road supplies the context's directional remedy."
+              }
+            ],
+            "structural_cues": [
+              "93:7 and 93:8 repeat وَوَجَدَكَ + state + فَ + remedy without a break.",
+              "The packet places two independent stray-direction branch images on the adjacent middle states."
+            ],
+            "reader_inference": "The packet supplies repeated syntax, two stray-direction images, gentle guidance, and focus sufficing; I infer that 93:8 can continue the movement from orientation to practical capability. A live alternative is that the branch echo is accidental and 93:8 remains exclusively economic.",
+            "changed_reading": {
+              "before": "The focus-only directionless reading is a remote branch possibility.",
+              "after": "The adjacent lost-to-guided parallel makes a coexisting reading live: he found you directionless or overmatched and made you sufficiently capable to proceed."
+            }
+          },
+          {
+            "model_id": "d07_sufficiency_without_domination",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي ت م",
+              "ق ه ر"
+            ],
+            "mechanism": "The first command after the recollections reverses the enriched person's position: one who has received capacity must not turn that elevation into pressure upon someone cut off from a caregiver. Enrichment therefore carries an anti-domination obligation toward structurally unsupported people.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B002",
+                "role": "Dependents under support keep the focus state relational and expose who remains vulnerable to unequal power."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency and means supply the new position of capacity whose use is ethically constrained."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caregiver identifies the person toward whom received sufficiency must remain protective."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Domination from above that humiliates the subdued is explicitly prohibited, blocking sufficiency from becoming coercive rank."
+              }
+            ],
+            "structural_cues": [
+              "فَأَمَّا begins the first consequence immediately after the three remembered remedies.",
+              "The beneficiary of 93:8 becomes the grammatical addressee responsible for conduct in 93:9."
+            ],
+            "reader_inference": "The packet supplies received means, caregiver severance, and a prohibition on humiliating domination; I infer that remembered enrichment becomes the ground of an anti-domination norm. A live alternative is that the command follows rhetorically but does not redefine the earlier gift.",
+            "changed_reading": {
+              "before": "The benefit of enrichment terminates in the enriched recipient.",
+              "after": "Received sufficiency creates a duty not to convert capacity into dominance over those whose support has been severed."
+            }
+          },
+          {
+            "model_id": "d08_open_channel_for_request",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ه ر"
+            ],
+            "mechanism": "Asking, fulfillment of a request, negated harsh rebuke, and an opening that allows flow recast sufficiency as porous capacity. The person made sufficient is not a closed reservoir; the gift remains socially operative by letting another's need be voiced and answered without humiliation.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need anchor the later request in the same field of lack as the focus."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and standing in supply capacity that can answer another person's lack."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and requesting supply the social act through which hidden need reaches the sufficient person."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B003",
+                "role": "Fulfilling a request supplies the live possibility that sufficiency becomes responsive action."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The split target's gentle drawing-out image supplies a non-coercive manner of receiving what the asker discloses."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B004",
+                "role": "Harsh verbal rebuke is explicitly negated, preventing the holder of means from silencing the request."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until something flows supply the counter-image of keeping provision and speech unobstructed."
+              }
+            ],
+            "structural_cues": [
+              "The second فَأَمَّا consequence places a named requester opposite a negated act of verbal expulsion.",
+              "عَائِلًا in the focus and ٱلسَّائِلَ in 93:10 are both person-states positioned inside the recollection-to-obligation sequence."
+            ],
+            "reader_inference": "The packet supplies asking, request-fulfillment, gentle drawing-out, harsh rebuke, and opening to flow; I infer that sufficiency should remain a channel through which need can safely become answerable. A live alternative is that 93:10 regulates speech alone and implies no circulation of the gift.",
+            "changed_reading": {
+              "before": "Self-sufficiency is private possession and the end of one's own asking.",
+              "after": "Sufficiency is porous capacity: it receives another's request gently and keeps an answerable flow open."
+            }
+          },
+          {
+            "model_id": "d09_blessing_becomes_voice",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "ر ب ب",
+              "ح د ث"
+            ],
+            "mechanism": "The final consequence names a good condition as a nurtured blessing and commands it to become renewed speech and manifest report. This activates the focus root's vocal branch: enrichment can include the recovery of a voice by which inward lack and its transformation become publicly tellable.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B004",
+                "role": "Inward sorrow or love supplies an affective condition that may initially remain unvoiced."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B003",
+                "role": "Song and vocal modulation supply a non-material mode in which enrichment becomes audible expression."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing identify the transformed state as a benefit rather than mere possession."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion identify the blessing as cultivated by the same sustaining relation."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as news supplies the form through which the transformed condition is repeatedly told."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing forth and making manifest turns an inwardly held benefit into public witness."
+              }
+            ],
+            "structural_cues": [
+              "The third فَأَمَّا consequence converts remembered benefit into an imperative of narration.",
+              "The final verse repeats رَبِّكَ, reconnecting the narrated blessing to the agent of the earlier transformations."
+            ],
+            "reader_inference": "The packet supplies inward feeling, vocal modulation, good condition, nurture, renewed speech, and manifestation; I infer that one dimension of being enriched is gaining a tellable voice. A live alternative is that the command merely reports material blessing and does not activate the vocal branch of غ ن ي.",
+            "changed_reading": {
+              "before": "Enrichment is a silent possession that can simply be inventoried.",
+              "after": "Enrichment can be a nurtured good condition that converts inward experience into renewed, manifest, and shareable voice."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_supported_sway",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reads عَائِلًا through bodily sway rather than poverty and lets an adjacent guidance branch preserve reliance and swaying within motion. It remains anchored in exact focus branches for swaying and sufficing and in the packet's neighboring gait image. Downstream prose should present it only as a kinetic analogy: enough support to continue moving, not a claim that the focus word's ordinary contextual sense is gait.",
+            "focus_anchor": "The focus predicate has a swaying-gait branch, and the final verb has a branch of sufficing or standing in for what is absent.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B003",
+                "role": "Swaying or unsteady gait supplies a bodily image of the focus deficiency."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing and standing in supply the support that makes continued motion possible."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Walking with reliance and sway shows that guided movement may be supported without erasing bodily instability."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deficient state is static poverty and the remedy is stored wealth.",
+              "after": "As a contained bodily analogy, he found you moving unsteadily and supplied enough support for the movement to continue."
+            }
+          },
+          {
+            "outlier_id": "o02_renewal_after_severance",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant ج د د mapping for focus و ج د and combines its newness-after-cutting branch with wilderness release, dwelling, and the day-night cycle. It remains formally available because the split target and every cited branch are packet-supplied and the model returns to all three focus positions. Downstream prose must label it a mapping-derived renewal analogy, not replace وَجَدَ with جَدَّ or assert a lexical equivalence.",
+            "focus_anchor": "The focus opening has a split mapped branch of newness after cutting; its middle and final roots also provide wilderness release and settled dwelling.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000227",
+                "branch_id": "B004",
+                "role": "Newness arising after a cut supplies renewal as the opening edge of the focus transformation."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B005",
+                "role": "A horse released into the wilderness supplies severance, exposure, and lack of a containing home."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B004",
+                "role": "Settled dwelling supplies the counter-state in which exposed wandering becomes habitable continuity."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B001",
+                "role": "The extension of morning through the day supplies one phase of recurring temporal renewal."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night as the contrary of day supplies the alternating phase that makes renewal cyclical rather than singular."
+              }
+            ],
+            "changed_reading": {
+              "before": "A financial deficit is corrected once.",
+              "after": "As a mapping-derived analogy, a cut and exposed phase is followed by renewed, settled habitability within a recurring day-night order."
+            }
+          },
+          {
+            "outlier_id": "o03_household_protection",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the focus root's marriage-as-sufficiency branch and reads enrichment as protective household emplacement. It remains anchored through the focus's dependents and protection branches plus context images of caregiver severance, sheltering union, and ward-like kinship. Downstream prose should retain it only as a household-protection resonance and must not infer a specific marriage event or biography.",
+            "focus_anchor": "The focus joins dependents under support to a final branch in which marriage can function as sufficiency or protection.",
+            "activation_trace": [
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B002",
+                "role": "Dependents under one's support supply the household field in which need and responsibility coexist."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B006",
+                "role": "Marriage as sufficiency or protection supplies a possible form of household-based security."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caregiver supplies the relational deficit that a protective household counters."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a gathering place that shelters supplies emplacement inside a protective social unit."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B005",
+                "role": "Ward and stepchild kinship supplies a concrete household-care relation rather than abstract ownership."
+              }
+            ],
+            "changed_reading": {
+              "before": "Enrichment means an increase in individually owned resources.",
+              "after": "As a contained social resonance, enrichment can mean being placed within a protective household capable of carrying dependents."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 93:6 parallel changes private wealth into repair of a severed support network and capacity to sustain dependents.",
+            "The 93:7 parallel makes the focus root's directionless-stray branch live, allowing practical orientation and capability to coexist with the economic reading.",
+            "The 93:9-10 consequences make received sufficiency ethically porous: it must neither dominate unsupported people nor silence a request.",
+            "The 93:11 consequence activates vocal enrichment, in which a nurtured good condition becomes renewed and manifest speech."
+          ],
+          "what_was_special": "The focus is unusually polyphonic because its three roots already span finding, means, poverty, dependents, disorientation, sufficing, dwelling, voice, and household protection. The surrounding repeated وَجَدَكَ ... فَ constructions and the three فَأَمَّا consequences do not collapse those branches; they organize them into coexisting material, relational, directional, ethical, and expressive mechanisms.",
+          "remaining_uncertainties": [
+            "The economic sense remains the strongest lexical baseline, so directional, kinetic, vocal, and household readings should supplement rather than displace it.",
+            "The non-dominant split mappings for و ج د, ء و ل, and س ء ل generate productive but mapping-sensitive analogies whose force is structural rather than lexical identity.",
+            "The text supports an ethical flow from received sufficiency to care for others, but the precise causal strength of that flow remains a reader-supplied inference from sequence.",
+            "The vocal branch of غ ن ي may mark expressive sufficiency or may only resonate with the later command to narrate an otherwise material blessing."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Poverty repaired as sufficiency.** Evidence: و ج د B001/B003 (finding; means/wealth), ع ي ل B001 (poverty and need), غ ن ي B001/B002 (wealth/self-sufficiency; sufficing/availing), ر ب ب B002 (nurture/completion). Structural cue: this is the third find → lack → remedy line. Mechanism: the packet supplies need and sufficiency branches; I supply the completion arrow from exposed lack to enoughness. Abductive move: enrichment means making the found state viable, not necessarily luxury. Reading change: \"made rich\" reads as making sufficient and capable.\n\n2. **Dependent-care reversal.** Evidence: ع ي ل B002 (dependents under support), ر ب ب B005 (fostered child/caregiver), ي ت م B001 in 93:6/9 (orphaned child), س ء ل B001 in 93:10 (requester). Structural cue: the addressee's own dependent/vulnerable state precedes commands about dependent others. Mechanism: the packet supplies dependency branches on both sides; I supply the ethical reversal that one who was supported must not crush or rebuke others needing support. Abductive move: remembered dependency becomes the mechanism for social law. Reading change: 93:8 is not only personal enrichment; it prepares the addressee to become a non-oppressive support node.\n\n3. **Stray confusion resolved by sufficing place.** Evidence: ع ي ل B008 (stray animal losing direction), ض ل ل B005 in 93:7 (stray animal in wasteland), غ ن ي B004 (settled dwelling/inhabiting), ء و ي B001 in 93:6 (shelter/refuge). Structural cue: the previous ayah names lostness and guidance; this one names need and enrichment. Mechanism: the packet supplies stray directionlessness and settled dwelling; I supply the move that sufficiency includes being placed somewhere one can dwell. Abductive move: lack is spatial as well as financial: the needy one has no stable ground. Reading change: \"اغنى\" becomes settling and making at-home, not only giving wealth.\n\n4. **Marriage/protection as sufficiency, exploratory.** Evidence: ع ي ل B005 (woman lacking husband/remains unmarried) indirectly echoed by dependence, غ ن ي B005/B006 (woman made independent by husband/beauty; marriage as protection), ه د ي B006 in 93:7 (bride led to husband). Structural cue: the packet's guidance and sufficiency inventories contain marital-protection branches adjacent to عائل/أغنى. Mechanism: the packet supplies marriage-as-sufficiency branches; I supply the social analogy that a protector relation can convert exposure into sufficiency. Abductive move: the verse's enrichment may include incorporation into protective relations, not merely property. Reading change: this remains exploratory but preserves a household-protection reading.\n\n5. **Voice/modulated gratitude.** Evidence: غ ن ي B003 (song/vocal modulation), ح د ث B003 in 93:11 (speech/report), ن ع م B013 (eye-gladdening courtesy formula), س م و B008 (good repute spread). Structural cue: enrichment is followed by commanded narration of blessing. Mechanism: the packet supplies vocal richness and speech/report branches; I supply the expressive arrow that sufficiency overflows into a voiced account. Abductive move: being made sufficient produces a voice capable of telling favor beautifully. Reading change: \"اغنى\" can activate not only wealth but a voice enriched enough to narrate.",
@@ -14550,14 +15742,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 83,
+        "ayah_count": 11,
+        "row_count": 76,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14829,10 +16027,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s93/packets/93_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s93/readers/reader_hft_a/93_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s093",
+        "latent_activation/focus_trace/runs/s93"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s93",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 122054,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

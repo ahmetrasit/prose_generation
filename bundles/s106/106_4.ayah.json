@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:26.067851+00:00",
+  "generated_at": "2026-08-18T13:34:34.564418+00:00",
   "surah": 106,
   "ayah": 4,
   "ayahRef": "106:4",
@@ -2104,7 +2104,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:1"
+      "aligned_qac_word_ref_upstream": "106:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2120,7 +2121,8 @@
         "m-w-s106-a004-w002-01",
         "m-w-s106-a004-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:2"
+      "aligned_qac_word_ref_upstream": "106:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2134,7 +2136,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:3"
+      "aligned_qac_word_ref_upstream": "106:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2148,7 +2151,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:4"
+      "aligned_qac_word_ref_upstream": "106:4:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2162,7 +2166,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:5"
+      "aligned_qac_word_ref_upstream": "106:4:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2178,7 +2183,8 @@
         "m-w-s106-a004-w005-02",
         "m-w-s106-a004-w005-03"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:6"
+      "aligned_qac_word_ref_upstream": "106:4:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2192,7 +2198,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:7"
+      "aligned_qac_word_ref_upstream": "106:4:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2206,7 +2213,8 @@
       "morpheme_ids": [
         "m-w-s106-a004-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "106:4:8"
+      "aligned_qac_word_ref_upstream": "106:4:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3083,7 +3091,1073 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s106/packets/106_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "106:4",
+      "window": [
+        "106:1",
+        "106:2",
+        "106:3",
+        "106:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "106:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_double_release",
+            "confidence": "strong",
+            "focus_anchor": "The two causative verbs share the same plural object and are each followed by a min-phrase naming a privative condition.",
+            "mechanism": "A single agent actively reverses two coupled deficits: bodily emptiness is answered by intake, while anticipatory harm is answered by settled safety. The parallel syntax makes nourishment and security mutually interpreting forms of release rather than unrelated favors.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food supplies the concrete first intervention and makes the subject an active feeder of the plural object."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The empty-stomach image defines the embodied deficit from which the first intervention releases them."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security and trust supply the positive state produced by the second causative."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Anticipation of harm supplies the second deficit, making safety a release from an active horizon of threat."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse lists food and safety as two benefits.",
+              "after": "The verse stages a coordinated transfer of one collective out of bodily lack and threat-expectation into nourishment and settled trust."
+            }
+          },
+          {
+            "model_id": "b_systemic_viability",
+            "confidence": "medium",
+            "focus_anchor": "The feeding and securing clauses are parallel, while the two indefinite min-phrases can denote conditions larger than a single meal or fright.",
+            "mechanism": "The first causative can establish livelihood rather than merely deliver a portion, and hunger can name a famine-time. In parallel, safety arrests the attritional taking-away latent in fear. The pair therefore restores the material and social conditions under which a collective remains viable.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Provision, livelihood, and good condition enlarge feeding from a meal into a durable material basis."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B002",
+                "role": "The famine-time image enlarges hunger from an individual sensation into a collective temporal condition."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safe-conduct and reliability make security an enduring social condition, not only a passing feeling."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B004",
+                "role": "The image of diminishing by taking away recasts feared harm as attrition that security prevents."
+              }
+            ],
+            "changed_reading": {
+              "before": "The agent solves an episode of hunger and an episode of fear.",
+              "after": "The agent establishes collective viability by replacing famine conditions with livelihood and stopping the erosion associated with insecurity."
+            }
+          },
+          {
+            "model_id": "b_inner_outer_reanimation",
+            "confidence": "exploratory",
+            "focus_anchor": "The roots of both causatives have branches reaching beyond external supply: feeding can touch responsiveness or worth, and security can settle trusting assent.",
+            "mechanism": "Material lack, longing, visible fear, and inward trust form a psychosomatic sequence. Feeding reanimates a depleted collective's responsiveness and sense of worth; securing them allows alarm displayed on the body to settle into confidence.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B008",
+                "role": "Discernment, worth, and responsiveness make feeding a possible restoration of agency as well as intake."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B004",
+                "role": "Emptiness and longing widen hunger into an affective lack that can drain collective responsiveness."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting assent supplies the inward stabilization produced alongside outward protection."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B005",
+                "role": "Visible manifestation of fear gives the threatened condition a bodily surface that can be calmed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Food repairs the body and safety removes an external danger.",
+              "after": "The paired causatives reanimate both embodied agency and inward trust, moving the group from displayed depletion and alarm into responsiveness."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c_alif_social_composition",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ف"
+            ],
+            "mechanism": "Repeated joining and familiarity recast the plural recipients as a collective continually composed through stable relations. Feeding and security now do social work: they keep bodies together long enough for repeated association to become dependable cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining one thing to another supplies the compositional image by which separate recipients become a maintained collective."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiarity, sociability, and continued association turn composition into a repeated and affectively settled bond."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding supplies the shared material practice that can preserve association."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trust and security supply the relational stability in which familiarity can persist."
+              }
+            ],
+            "structural_cues": [
+              "The same context root occurs in both 106:1 and 106:2 before the plural object suffixes recur in 106:4.",
+              "The focus ayah addresses the same plural object in both causatives, allowing material and relational stabilization to converge on one group."
+            ],
+            "reader_inference": "The packet supplies repeated composition/familiarity and the focus supplies feeding/security; I infer that the latter help sustain the former. A live alternative is that cohesion merely identifies the beneficiaries and is not itself produced by the two gifts.",
+            "changed_reading": {
+              "before": "An already formed group receives food and safety.",
+              "after": "Food and safety help keep forming the group as a familiar, durable association rather than merely serving isolated members."
+            }
+          },
+          {
+            "model_id": "c_journey_mobile_corridor",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ح ل"
+            ],
+            "mechanism": "Travel, fastening a saddle, and the station between trips convert the paired gifts into mobile infrastructure. Livelihood has to be carried or renewed along a route, while security becomes reliable passage through exposed intervals.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Going forth in travel moves hunger and fear from a static domestic scene onto an exposed route."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B003",
+                "role": "Fastening the saddle supplies the practical preparation through which provision and protection become journey-enabling."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B006",
+                "role": "A station between journeys supplies a recurrent node where feeding and security must be renewed."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and provision become the material flow that supports repeated movement."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safe-conduct and reliability turn security into confidence that passage and return can recur."
+              }
+            ],
+            "structural_cues": [
+              "The journey noun precedes the focus ayah and is specified by two seasonal terms.",
+              "The two focus causatives retain the same mobile plural object, so provisioning and protection travel together."
+            ],
+            "reader_inference": "The packet supplies travel preparation, recurrent stopping, livelihood, and safe-conduct; I infer a route system that mediates the two focus benefits. The live alternative is direct feeding and protection unrelated to any logistical mechanism.",
+            "changed_reading": {
+              "before": "Food and safety are enjoyed at a settled destination.",
+              "after": "Provision and safe-conduct form a corridor that makes repeated departure, transit, stopping, and return viable."
+            }
+          },
+          {
+            "model_id": "c_seasonal_resilience",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ت و",
+              "ص ي ف"
+            ],
+            "mechanism": "The opposed seasons make the verse calendar-scale. Winter's explicit famine branch activates hunger as a recurrent season of scarcity, while summer completes a full cycle; feeding and securing become resilience maintained across changing environmental pressures.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ش ت و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000776",
+                "branch_id": "B004",
+                "role": "Winter-famine directly couples a named season to the hunger condition in the focus ayah."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B001",
+                "role": "Summer-time supplies the opposite seasonal pole and closes the annual cycle."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B002",
+                "role": "Famine-time lets hunger denote a broad period rather than a momentary pang."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood supplies continuity of provision across the seasonal alternation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled safety supplies continuity on the threat side of the same cycle."
+              }
+            ],
+            "structural_cues": [
+              "Winter and summer occur as a paired sequence in one journey construction.",
+              "The focus ayah then answers with a second pair, feeding from hunger and securing from fear."
+            ],
+            "reader_inference": "The packet supplies a winter-famine image, summer as the paired season, and famine-time in the focus; I infer year-round resilience from their sequence. The alternative is that the seasons only date journeys and do not broaden the scope of the benefits.",
+            "changed_reading": {
+              "before": "A meal and a rescue answer immediate emergencies.",
+              "after": "The two acts maintain a collective through a repeating annual ecology of scarcity and exposure."
+            }
+          },
+          {
+            "model_id": "c_worship_as_enabled_response",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The imperative of worship before the relative clause makes provision and security intelligible as grounds for responsive obedience. Because the benefits remove hunger and fear, the response is not extracted by those pressures; the same acts that warrant worship also create room for it to be offered from stability.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship and humble obedience supply the response toward which the two focus acts are retrospectively oriented."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding removes material compulsion and supplies a concrete reason for responsive obedience."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safety and trust remove coercive fear and supply the settled condition of the response."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B002",
+                "role": "Fear-induction supplies the coercive alternative that the securing causative reverses."
+              }
+            ],
+            "structural_cues": [
+              "The worship imperative in 106:3 immediately governs the identification of the beneficent agent in 106:4.",
+              "Both causatives remove conditions that could otherwise force compliance through need or intimidation."
+            ],
+            "reader_inference": "The packet supplies humble worship, feeding, settled safety, and induced fear; I infer that removing need and intimidation enables a non-coerced response. The alternative is a simpler reward-obligation relation with no claim about the manner of worship.",
+            "changed_reading": {
+              "before": "Food and safety are benefits for which worship is owed.",
+              "after": "Food and safety are simultaneously reasons for worship and the release from hunger-driven or fear-driven compulsion that makes responsive worship possible."
+            }
+          },
+          {
+            "model_id": "c_level_ground_for_agency",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "A branch of the worship root images leveling and making traversable. Activated beside feeding as capacity and security as settled trust, it suggests that the two gifts prepare level ground on which responsible action can occur.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Leveling and smoothing supply the terrain analogy for removing impediments to action."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship and humble obedience identify the action made possible on that prepared ground."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B011",
+                "role": "Capacity over something lets feeding register as restored ability rather than caloric transfer alone."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled trust supplies the non-obstructed affective ground for agency."
+              }
+            ],
+            "structural_cues": [
+              "The command to worship precedes the two releases from hunger and fear.",
+              "The focus clauses are both causative and therefore foreground the production of enabling conditions."
+            ],
+            "reader_inference": "The packet supplies leveling, worship, capacity, and trust; I supply the analogy that relief levels a field for action. The live alternative is that the leveling branch has no operative relation to the form used in 106:3.",
+            "changed_reading": {
+              "before": "Feeding and protection reward or obligate a passive recipient.",
+              "after": "They prepare the material and affective ground on which the recipients regain capacity to act and worship."
+            }
+          },
+          {
+            "model_id": "c_rabb_sustaining_completion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The agent identified in the relative clause is framed by lordship as repair, nurture, completion, and continuance. Feeding and security thus become the ongoing work of bringing a dependent collective toward viable completeness, not isolated emergency interventions.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the governing process into which feeding and securing fit."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Remaining, dwelling, and duration make the governing process continuous rather than episodic."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood is the material maintenance dimension of sustained nurture."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Reliable safety is the protective maintenance dimension of the same process."
+              }
+            ],
+            "structural_cues": [
+              "The relative pronoun opening 106:4 identifies the Lord named immediately before it by characteristic actions.",
+              "The matched perfect causatives can name completed acts while the lordship branches activate an enduring role behind them."
+            ],
+            "reader_inference": "The packet supplies nurture/completion, duration, livelihood, and reliable safety; I infer an ongoing husbandry behind the completed acts. The alternative is that the perfect verbs report bounded past favors without implying continuity.",
+            "changed_reading": {
+              "before": "An agent intervened twice when crises arose.",
+              "after": "The Lord's characteristic governance continuously repairs, matures, provisions, and protects the collective."
+            }
+          },
+          {
+            "model_id": "c_rabb_split_growth",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The non-dominant mapped root activates nourishment and growth, which meets focus branches of ripening and successive formation. On this reading, feeding and security do more than preserve an already finished group: they create the conditions in which its form can mature and continue.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split-root image of nourishment and growth supplies a developmental rather than merely sovereign frame."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B005",
+                "role": "Ripening and taking on flavor make feeding a condition of maturation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B014",
+                "role": "Successive formation makes nourishment support continuity of collective form."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the protected interval in which maturation and continued formation can occur."
+              }
+            ],
+            "structural_cues": [
+              "The packet explicitly maps the context root to both a dominant root and a non-dominant growth root.",
+              "The same plural object receives both nourishment and security, two prerequisites for development."
+            ],
+            "reader_inference": "The packet supplies a legitimate split-root growth branch plus focus images of ripening and formation; I infer a developmental mechanism linking them. The alternative is that the non-dominant mapping is only lexical spillover and should not color the immediate construction.",
+            "changed_reading": {
+              "before": "Feeding and safety keep existing recipients alive.",
+              "after": "Nourishment and protected duration let the collective ripen, grow, and reproduce its form."
+            }
+          },
+          {
+            "model_id": "c_covenantal_safe_conduct",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ف",
+              "ر ح ل",
+              "ر ب ب"
+            ],
+            "mechanism": "Joining, journeying, covenant, livelihood, and safe-conduct combine into a governance model. The beneficent agent may be read as sustaining the agreements and reliable relations through which a mobile collective can obtain provision and pass without predation; divine action remains primary, while the packet leaves its mediation open.",
+            "activation_trace": [
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining supplies the network-forming relation needed for coordinated passage and exchange."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Travel supplies the exposed movement whose material and security needs the network must answer."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A bond or covenant supplies a concrete social instrument for stabilizing obligations."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Livelihood and revenue make feeding the material yield of a functioning network."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safe-conduct, trust, and reliability make securing them the network's protective guarantee."
+              }
+            ],
+            "structural_cues": [
+              "The context moves in order from social joining to recurrent journey to the Lord, then names feeding and security.",
+              "The repeated plural suffix links the beneficiaries of affiliation, travel, provision, and protection."
+            ],
+            "reader_inference": "The packet supplies joining, travel, covenant, livelihood, and safe-conduct; I supply the causal arrow that agreements mediate provision and protected mobility under divine governance. A live alternative is wholly immediate provision and protection with no social-institutional mediation.",
+            "changed_reading": {
+              "before": "Food appears and danger is removed as two direct outcomes.",
+              "after": "The two outcomes can also be carried through a divinely sustained ecology of bonds, livelihood, and safe passage."
+            }
+          },
+          {
+            "model_id": "c_house_refuge_larder",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ي ت"
+            ],
+            "mechanism": "Shelter and a night's provision concentrate the paired reliefs in one concrete hub. The House becomes a spatial model of a protected larder: it gathers vulnerable bodies, answers recurring intake, and encloses them against exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter and dwelling supply the enclosing spatial function that corresponds to security."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B005",
+                "role": "A night's sustenance supplies the recurring domestic unit that corresponds to feeding."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Giving food fills the provisioning function of the hub."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "Bodily emptiness is the recurring need answered inside the provisioning space."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "A place of safety and settled trust fills the refuge function of the same hub."
+              }
+            ],
+            "structural_cues": [
+              "The deictic House is named immediately before the relative clause that identifies its Lord through feeding and securing.",
+              "The focus ayah pairs a recurrent bodily need with a recurrent exposure risk."
+            ],
+            "reader_inference": "The packet supplies shelter, nightly sustenance, feeding, hunger, and a place of safety; I infer that the House images their convergence in a provisioning refuge. The alternative is that the House only identifies the Lord and is not the spatial mediator of either benefit.",
+            "changed_reading": {
+              "before": "The House and the two benefits are adjacent but functionally separate.",
+              "after": "The House becomes a model or hub in which nourishment and refuge are coordinated for a vulnerable collective."
+            }
+          },
+          {
+            "model_id": "c_hospitality_and_honor",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ب د",
+              "ب ي ت"
+            ],
+            "mechanism": "Honor branches around worship and house activate a hospitality economy: abundant feeding and trusted protection do not merely preserve life but confer standing. The commanded response can then coexist with a reading of reciprocal honoring rather than bare submission.",
+            "activation_trace": [
+              {
+                "source_ref": "106:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honoring and magnifying supply a reciprocal register alongside humble worship."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B008",
+                "role": "A house of honor supplies the social space in which provision and protection confer standing."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Good condition and generous provision turn feeding into maintained dignity, not survival alone."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trust and safe-conduct supply the protected status of those received under honor."
+              }
+            ],
+            "structural_cues": [
+              "The imperative, the Lord, and the House occur together immediately before the paired benefits.",
+              "The same plural beneficiaries are both fed and granted trustworthy protection."
+            ],
+            "reader_inference": "The packet supplies honoring, a house of honor, generous provision, and trusted protection; I infer a hospitality mechanism that confers dignity. The alternative is that the honor branches remain inactive and the relation is solely obedience for survival benefits.",
+            "changed_reading": {
+              "before": "The recipients survive through food and escape danger through protection.",
+              "after": "They are received into a regime of hospitality in which provision and safe-conduct also establish dignity and trusted standing."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_grafted_collective",
+            "confidence": "exploratory",
+            "containment": "This is surprising because graft acceptance is form-distant from the ordinary causative feeding verb. It remains anchored in the focus feeding root and is activated by contextual joining plus focus security; downstream prose should present it only as a material analogy for social incorporation, never as a lexical replacement for feeding.",
+            "focus_anchor": "The feeding root's graft branch and the plural object allow an image of recipients being made able to take within a sustaining whole.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "A graft accepting insertion supplies the material analogy of a vulnerable attachment taking within a living stock."
+              },
+              {
+                "source_ref": "106:1",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining supplies the social operation corresponding to grafted incorporation."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the stable environment in which the joined element can take and endure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Feeding maintains separate recipients.",
+              "after": "As a contained material analogy, nourishment and security let a joined collective take, survive, and become continuous with a sustaining whole."
+            }
+          },
+          {
+            "outlier_id": "o_release_of_constriction",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because the throat-grip branch is remote from the surface causative. It remains focus-anchored through the feeding root, bodily hunger, and the parallel release from fear; downstream prose should mark it as an embodied counter-image of unblocking, not claim that the verb denotes choking here.",
+            "focus_anchor": "The first causative can evoke the reversal of a blocked intake, while the second reverses the constriction of anticipated harm.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B012",
+                "role": "The seized and squeezed throat supplies the negative bodily state that feeding reverses by reopening intake."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The empty stomach keeps the image tied to actual bodily deprivation rather than free metaphor."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B005",
+                "role": "Fear visibly manifest on the body supplies a parallel affective constriction."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled safety supplies release and bodily-affective easing on the second side."
+              }
+            ],
+            "changed_reading": {
+              "before": "Food is added and danger is externally removed.",
+              "after": "The paired reliefs can be felt as reopening two constricted channels: intake blocked by deprivation and action constricted by fear."
+            }
+          },
+          {
+            "outlier_id": "o_route_kept_on_course",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the summer-root deviation branch is peripheral to the seasonal noun in context. It remains anchored through the named journey and the focus opposition of security and anticipated harm; downstream prose should qualify it as a route-governance resonance, not parse summer itself as deviation.",
+            "focus_anchor": "Making the travelers secure from fear can be modeled as keeping recurrent movement from being driven off its intended course.",
+            "activation_trace": [
+              {
+                "source_ref": "106:2",
+                "root": "ص ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000899",
+                "branch_id": "B005",
+                "role": "Deviation from an intended course supplies the latent failure mode that secure passage prevents."
+              },
+              {
+                "source_ref": "106:2",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B001",
+                "role": "Travel gives that possible deviation a concrete route on which to operate."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Anticipated harm supplies the pressure that could divert or halt movement."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Safe-conduct supplies continuity toward the intended destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "Security is the absence of attack during a journey.",
+              "after": "Security also resonates as preservation of directed movement: threat does not force the recurrent route off course."
+            }
+          },
+          {
+            "outlier_id": "o_provisioned_protective_container",
+            "confidence": "exploratory",
+            "containment": "This is the most concrete and branch-distant outlier: a carrier's protective pouch is not the ordinary meaning of fear. It remains anchored to the focus fear root and gains coherence from the House as shelter and feeding as provision; downstream prose should render it only as a container-schema—filled within, covered without.",
+            "focus_anchor": "The paired causatives can be spatialized as provision placed inside a protective enclosure around the same plural object.",
+            "activation_trace": [
+              {
+                "source_ref": "106:4",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B006",
+                "role": "The carrier's pouch or cover supplies a concrete enclosing schema latent at the fear root."
+              },
+              {
+                "source_ref": "106:3",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Shelter scales the enclosing schema from a carried cover to collective refuge."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding supplies what is placed within and sustained by the enclosure."
+              },
+              {
+                "source_ref": "106:4",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "A place of safety validates the enclosure's protective function."
+              }
+            ],
+            "changed_reading": {
+              "before": "Feeding and safety are abstractly parallel benefits.",
+              "after": "As a tightly contained image-schema, the collective is both filled from within by provision and covered from without by refuge."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only pair changes from two favors into a coordinated release from bodily and anticipatory deficits.",
+            "Journey and seasonal cues enlarge the verse into a recurring infrastructure of livelihood, safe passage, and year-round resilience.",
+            "Worship and lordship recast the benefits as both enabling conditions for non-coerced response and the continuous work of nurture.",
+            "Joining, covenant, and safe-conduct permit a coexisting institutional reading in which divine provision operates through durable bonds.",
+            "The House gathers food and protection into a spatial ecology of larder, refuge, hospitality, and honor."
+          ],
+          "what_was_special": "The packet repeatedly turned a compact bodily pair outward without dissolving its focus anchors: stomach and alarm became route, season, covenant, household, development, and worship. The most productive surprise was that security is not merely danger's absence; it can be trust, safe-conduct, protected duration, and the condition under which cohesion, growth, and responsive agency become possible.",
+          "remaining_uncertainties": [
+            "The syntax clearly coordinates feeding and securing, but it does not by itself decide whether their operation is immediate, infrastructural, or both.",
+            "The covenantal and hospitality mechanisms are coherent cumulative activations, yet the packet does not specify the historical institutions that would realize them.",
+            "The non-dominant lordship-to-growth mapping is packet-authorized but remains lexically secondary.",
+            "Grafting, throat release, route correction, and protective-container readings should coexist only as qualified image-schemas, not replace the ordinary senses of feeding, hunger, safety, and fear."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Feeding as more than removing an empty stomach.** Lexical evidence: ط ع م B002 (feeding another), B004 (provision, livelihood, good condition), ج و ع B001 (empty stomach), and ج و ع B002 (famine-time). Structural cue: the ayah pairs a positive act \"أَطْعَمَهُم\" with \"مِّن جُوعٍ\" after 106:2's winter/summer cycle. Assigned role: feeding fills immediate hunger while B004 extends it to livelihood and social good condition. Abductive move: I infer that the divine act covers both acute hunger and the economy that prevents famine. Reading change: the fixed ayah reads as provisioned subsistence, not only a single meal.\n\n2. **Security as safe-conduct for travel.** Lexical evidence: ء م ن B001 (safe-conduct, place of safety, trust), خ و ف B001/B002 (fear and fear-causing intimidation), ر ح ل B001/B007/B009 in 106:2 (journey; forced removal; harmful burden), and ب ي ت B001 in 106:3 (shelter). Structural cue: \"ءَامَنَهُم مِّنْ خَوْفٍ\" answers the exposed mobility of \"رِحْلَةَ\". Assigned role: security converts dangerous movement into trusted passage. Abductive move: I infer that fear here includes the route's social violence and threat of dislodgement, not only inner emotion. Reading change: the ayah becomes an account of protected circulation: they are made able to move without being turned into victims of the road.\n\n3. **Famine-season and seasonal rain behind hunger.** Lexical evidence: ج و ع B002 (famine-time), ش ت و B004 in 106:2 (winter as famine/privation), ش ت و B003 (winter rain), ص ي ف B002 (summer rain), ط ع م B005 (ripening produce), and ر ب ب B008/B012/B013 in 106:3 (cloud nurturing plants; green vegetation; abundant water). Structural cue: the final hunger clause retrospectively lights up the seasonal pair. Assigned role: the seasonal/rain branches provide the ecological mechanism by which hunger is prevented. Abductive move: I infer that feeding includes climate-timed provision through rain, crops, and travel-enabled access to food. Reading change: \"جوع\" reads as an environmental-economic vulnerability spanning bad seasons, not merely individual appetite.\n\n4. **Trusting assent after experienced safety.** Lexical evidence: ء م ن B002 (trusting assent and confirmation), ء م ن B001 (settled security), ء ل ه B001/ع ب د B003 from 106:0/3 (worshipped one; worship), and س م و B005 from 106:0 (raised designation/name). Structural cue: the sequence names God, narrates habituation, commands worship, then states experienced security. Assigned role: ء م ن B002 lets the safety claim become a basis for assent: the protected people can confirm the named Lord by their worship. Abductive move: I infer that bodily/social security grounds a movement from safety to acknowledgment. Reading change: \"ءَامَنَهُم\" can remain \"made them secure\" while also activating the logic by which security calls forth trusting recognition.\n\n5. **Relief from fear as relief from visible diminution.** Lexical evidence: خ و ف B004/B005 (diminishing by taking away; visible manifestation of fear), ج و ع B004 (hunger as emptiness/leanness), and ط ع م B004/B007 (good condition; animal fatness). Structural cue: hunger and fear are paired as two reductions: one empties the body/economy, the other visibly contracts or diminishes life. Assigned role: the non-primary fear branches make security restorative, returning fullness, motion, and public composure. Abductive move: I infer that fear is not only a feeling but a social state that visibly reduces capacity. Reading change: the final ayah reads as rescue from depletion: fed from emptiness and secured from shrinkage/intimidation.",
@@ -14349,14 +15423,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s106/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 36,
+        "ayah_count": 4,
+        "row_count": 29,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14564,10 +15644,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s106/packets/106_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s106/readers/reader_hft_a/106_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s106"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s106",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 62624,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

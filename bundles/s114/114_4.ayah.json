@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.036458+00:00",
+  "generated_at": "2026-08-18T13:34:44.801241+00:00",
   "surah": 114,
   "ayah": 4,
   "ayahRef": "114:4",
@@ -1474,7 +1474,8 @@
       "morpheme_ids": [
         "m-w-s114-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:4:1"
+      "aligned_qac_word_ref_upstream": "114:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1488,7 +1489,8 @@
       "morpheme_ids": [
         "m-w-s114-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:4:2"
+      "aligned_qac_word_ref_upstream": "114:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1504,7 +1506,8 @@
         "m-w-s114-a004-w003-01",
         "m-w-s114-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:4:3"
+      "aligned_qac_word_ref_upstream": "114:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1520,7 +1523,8 @@
         "m-w-s114-a004-w004-01",
         "m-w-s114-a004-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:4:4"
+      "aligned_qac_word_ref_upstream": "114:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1869,7 +1873,977 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:4",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_intermittent_intrusion",
+            "confidence": "strong",
+            "focus_anchor": "The construction min sharri governs the paired nominal and intensive epithet al-waswas al-khannas.",
+            "mechanism": "A covert inward utterance intrudes and then contracts out of view. Retreat protects the source and permits return, so the evil is an intermittent operating cycle rather than a continuously exposed object.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Supplies explicit harmful valence, making the following covert cycle an evil from which protection is sought."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies hidden inward self-talk as the medium through which the intrusion enters."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Supplies contraction, concealment, and delay as the retreat phase that keeps the operator hard to locate."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static evil belonging to a named whispering being.",
+              "after": "A recurring intrusion-retreat process whose disappearance is itself part of how the harm persists."
+            }
+          },
+          {
+            "model_id": "baseline_surfaced_content_hidden_source",
+            "confidence": "medium",
+            "focus_anchor": "Sharri, al-waswas, and al-khannas can be read as a sequence of harmful surfacing, inward presentation, and source-withdrawal.",
+            "mechanism": "One focus branch makes the first root a bringing-out operation, while the next two supply a hidden inward signal and a retreating source. The danger can therefore lie in making latent content salient while erasing evidence of where that salience came from.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Supplies manifestation or bringing-out as the harmful effect: a thought is raised into prominence."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Places that surfacing inside covert self-talk, where imported content can feel endogenous."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Withdraws the source after salience has been created, leaving the surfaced content behind."
+              }
+            ],
+            "changed_reading": {
+              "before": "The evil is primarily the bad proposition spoken by the whisperer.",
+              "after": "The evil may be a salience operation: content is made to appear inwardly as one's own while its prompting source recedes."
+            }
+          },
+          {
+            "model_id": "baseline_lateral_steering",
+            "confidence": "exploratory",
+            "focus_anchor": "The split inventory for sharri and the motion branch of khannas remain attached to words 2 and 4, with al-waswas supplying the interior channel.",
+            "mechanism": "Agitated persistence supplies pressure, covert self-talk supplies the steering interface, and veering during forward motion supplies the result. The whisperer's evil becomes small repeated course corrections rather than a demand for an immediate reversal.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "The non-dominant mapped root supplies agitation, persistence, and rushing as sustained steering pressure."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Locates the pressure in hidden inner speech, where incremental redirection can pass as deliberation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B005",
+                "role": "Supplies the image of a running course that repeatedly veers sideways, functioning as the changed trajectory."
+              }
+            ],
+            "changed_reading": {
+              "before": "Khannas only describes an agent that disappears.",
+              "after": "Exploratorily, the focus describes covert lateral steering: apparent forward motion is preserved while its course is repeatedly bent."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_articulated_countervoice",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The opening command introduces articulated saying as a counter-operation to hidden inward speech. Voicing the refuge formula breaks the whisper's anonymity and gives the retreating predicate a possible trigger.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Supplies speech brought out through articulation, functioning as an explicit counter-signal."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies the concealed interior speech against which articulated saying is contrasted."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Supplies withdrawal as the response phase that explicit counter-speech may provoke."
+              }
+            ],
+            "structural_cues": [
+              "114:1 places an imperative of saying before the refuge construction and before the threat is named."
+            ],
+            "reader_inference": "The packet supplies articulated saying, hidden inward speech, and withdrawal; I infer that explicit saying interrupts anonymity and prompts retreat. A live alternative is that the imperative only frames recitation and has no causal force against the whisper.",
+            "changed_reading": {
+              "before": "Protection is requested against a fixed whispering agent.",
+              "after": "The commanded utterance enters the mechanism as a counter-voice that can interrupt the hidden cycle and make its operator withdraw."
+            }
+          },
+          {
+            "model_id": "delta_contested_inner_speech",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "A second saying branch occupies the same unvoiced interior medium as waswas. This preserves a reading that does not depend on loudness: commanded refuge and harmful whisper may be phenomenologically similar inner speech distinguished by source, direction, and allegiance.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Supplies saying that remains within the self, placing protective speech inside the same medium as the threat."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies hidden self-talk as the rival interior current whose authorship is at issue."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Makes source attribution unstable because the prompting current withdraws while its inward wording remains."
+              }
+            ],
+            "structural_cues": [
+              "The commanded first-person refuge formula can be enacted inwardly as well as audibly."
+            ],
+            "reader_inference": "The packet supplies both unmanifest saying and covert self-talk; I infer a contest over authorship within one interior speech-medium. The live alternative is the stronger acoustic contrast in which qul specifically requires voiced articulation.",
+            "changed_reading": {
+              "before": "Protective speech is external and the whisper is internal.",
+              "after": "Two coexisting inner voices become possible, so the decisive distinction is not volume but which source and orientation the self adopts."
+            }
+          },
+          {
+            "model_id": "delta_deterrence_not_erasure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و ذ"
+            ],
+            "mechanism": "A refuge branch supplies escape through deterrence before an act reaches completion. Joined to khannas, protection can mean aborting an incursion rather than destroying its source, which explains why retreat and recurrence coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B006",
+                "role": "Supplies an escape secured before an attempted act is completed, functioning as interruption rather than elimination."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Supplies the adversary's withdrawal, matching the incomplete-attack result of deterrent refuge."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Identifies the interrupted act as covert inward insertion rather than an overt assault."
+              }
+            ],
+            "structural_cues": [
+              "The refuge act is stated in 114:1, while the retreating threat it addresses is specified in 114:4."
+            ],
+            "reader_inference": "The packet supplies deterrent escape, hidden insertion, and withdrawal; I infer that refuge breaks an attempt before completion. An alternative is that the refuge branch is merely lexical background and the ayah seeks comprehensive removal.",
+            "changed_reading": {
+              "before": "Successful refuge should remove the whisperer once and for all.",
+              "after": "Successful refuge may repeatedly abort the whisperer's operation, making retreat without final disappearance an expected protective outcome."
+            }
+          },
+          {
+            "model_id": "delta_repair_against_fragmentation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The protective title supplies repair, completion, and continuity, while a focus branch supplies shredding and the whisper supplies small hidden interventions. The harm can therefore be fragmentation of an inner process, answered by sustained re-integration.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Supplies repair, nurture, and completion as the positive operation that restores an interrupted whole."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Supplies staying and continuity, functioning as the stable temporal counterweight to intermittent intrusion."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B004",
+                "role": "Supplies cutting and shaking-apart as a material model for the harm done to inner coherence."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Makes covert thought-insertion the repeated means by which fragmentation occurs."
+              }
+            ],
+            "structural_cues": [
+              "The refuge is attached to Rabb al-nas, placing the restorative title inside the protective relation."
+            ],
+            "reader_inference": "The packet supplies completion, continuity, shredding, and covert self-talk; I infer a polarity in which hidden interruptions fragment and lordly care re-integrates. The alternative is that sharri carries only general moral badness with no fragmentation mechanism.",
+            "changed_reading": {
+              "before": "The whisperer contributes isolated bad thoughts.",
+              "after": "The whisperer can damage by repeatedly fragmenting attention, intention, or self-continuity, while refuge seeks repair and completion."
+            }
+          },
+          {
+            "model_id": "delta_familiar_voice_camouflage",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و س"
+            ],
+            "mechanism": "The human-root inventory supplies familiarity that removes estrangement. Applied to hidden self-talk and a withdrawing source, the whisper gains access by sounding familiar enough to escape recognition as an intrusion.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Supplies familiarity that removes alienness, functioning as camouflage for the incoming voice."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Locates the camouflaged signal in self-talk, where familiarity most readily appears as self-authorship."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Removes the source from inspection once the familiar-seeming thought has entered."
+              }
+            ],
+            "structural_cues": [
+              "Al-nas recurs in 114:1, 114:2, 114:3, 114:5, and 114:6, surrounding the focus with the human field in which the signal becomes familiar."
+            ],
+            "reader_inference": "The packet supplies familiarization, covert self-talk, and source-withdrawal; I infer that felt familiarity is an access strategy. The alternative is that the repeated human noun marks only the protected audience and contributes no camouflage.",
+            "changed_reading": {
+              "before": "The whisper is recognizable as an alien or uncanny voice.",
+              "after": "Its effectiveness may depend on sounding ordinary, intimate, or self-generated, so familiarity itself becomes part of the concealment."
+            }
+          },
+          {
+            "model_id": "delta_coherence_and_agency",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ل ك"
+            ],
+            "mechanism": "Kingship supplies both cohesion and legitimate disposition, while the focus supplies fragmentation and covert inward influence. The threat is not only bad content but an unauthorized attempt to divide and steer the person's deliberative field.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Supplies strength and cohesion as the protected integrity that covert intervention threatens."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Supplies possession and power of disposition, raising the question of who legitimately directs the inner field."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B004",
+                "role": "Supplies fragmentation as the loss of cohesion produced by the harmful operation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Provides the covert interface through which unauthorized direction is attempted."
+              }
+            ],
+            "structural_cues": [
+              "Malik al-nas follows Rabb al-nas as a second protective title before the threat is introduced."
+            ],
+            "reader_inference": "The packet supplies cohesion, rightful disposition, fragmentation, and covert speech; I infer a contest over agency in which whispering tries to exercise unowned control. The alternative is that the royal title marks authority without specifying an inner-control mechanism.",
+            "changed_reading": {
+              "before": "The whisperer merely offers morally bad information.",
+              "after": "The whisperer attempts an unauthorized redistribution of agency by fragmenting coherence and quietly steering disposition."
+            }
+          },
+          {
+            "model_id": "delta_covert_allegiance_claim",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ه"
+            ],
+            "mechanism": "The worship branch changes hidden suggestion into a rival claim on orientation. A focus branch of whole-self investment supplies the uptake: the harm matures when attention, concern, and effort are covertly recruited around the whispered current.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Supplies worship and its object, functioning as the rightful orientation against which rival allegiance is measured."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B007",
+                "role": "Supplies wholehearted investment of concern and effort as the dangerous uptake of a covert solicitation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Makes hidden self-talk the channel through which a competing orientation recruits the person."
+              }
+            ],
+            "structural_cues": [
+              "Ilah al-nas is the third protective title and stands immediately before min sharri in 114:4."
+            ],
+            "reader_inference": "The packet supplies worship, wholehearted investment, and covert self-talk; I infer that some whispers function as solicitations of allegiance rather than mere propositions. The alternative is that the whole-self branch marks intensity only and has no devotional direction.",
+            "changed_reading": {
+              "before": "A whisper is dangerous because its statement is false or immoral.",
+              "after": "A whisper can be dangerous because it quietly captures attention and whole-person investment, acting as a rival claim on orientation."
+            }
+          },
+          {
+            "model_id": "delta_agent_as_repeated_operation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و س و س"
+            ],
+            "mechanism": "The nominal label in the focus is followed by a finite whispering action in 114:5. Identity is thereby read operationally: the agent is known by a repeated hidden act coupled to retreat, not only by a fixed name.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B003",
+                "role": "Supplies the nominal use as an agent-name, establishing the apparent fixed identity."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies the hidden inward act in verbal context, converting the name into an observable operation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Adds withdrawal after operation, completing the recurrent behavioral signature."
+              }
+            ],
+            "structural_cues": [
+              "The nominal pair in 114:4 is immediately expanded by the relative clause and finite verb in 114:5."
+            ],
+            "reader_inference": "The packet supplies an agent-name branch, the corresponding hidden act, and retreat; I infer that the label denotes a repeatable operating pattern. The alternative is a simpler syntax in which 114:5 only describes an already fixed personal agent.",
+            "changed_reading": {
+              "before": "Al-waswas is chiefly the proper designation of one adversary.",
+              "after": "Al-waswas al-khannas can designate a reproducible behavior-pattern: covert insertion followed by withdrawal, whoever instantiates it."
+            }
+          },
+          {
+            "model_id": "delta_upstream_action_source",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ر"
+            ],
+            "mechanism": "The chest inventory supplies an origin from which actions issue. Whispering therefore occurs upstream of visible conduct; after the source withdraws, the generated impulse can emerge as though it originated wholly within the person.",
+            "activation_trace": [
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "Supplies the generative origin of actions, making the chest an upstream intervention point rather than a passive container."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies the hidden input inserted at that action-generating origin."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Withdraws the prompting source before the resulting impulse or action becomes visible."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Supplies emergence into visibility as the downstream effect left behind by a hidden intervention."
+              }
+            ],
+            "structural_cues": [
+              "The prepositional phrase in 114:5 locates the repeated operation inside the chests of people."
+            ],
+            "reader_inference": "The packet supplies hidden inward input, an action-origin, source-withdrawal, and later manifestation; I infer an upstream causal intervention that can masquerade as endogenous action. The alternative is that chest denotes only a conventional locus of thought without an action-generating claim.",
+            "changed_reading": {
+              "before": "The whisper is distracting noise inside an otherwise completed decision process.",
+              "after": "The whisper enters at the source from which decisions become acts, then retreats before its influence appears downstream."
+            }
+          },
+          {
+            "model_id": "delta_distributed_visible_hidden_sources",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "The final source pair supplies concealed beings and manifest human presence. The singular-seeming focus figure can therefore be retained as a functional type distributed across hidden and visible channels, including social transmission.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Supplies concealment as one source-class, matching the hidden side of the focus operation."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Supplies manifest humanity in contrast with concealed beings, adding a visible social source-class."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Provides the common hidden-speech operation that either source-class can instantiate."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Defines the shared retreating behavior, allowing multiple agents to realize one functional pattern."
+              }
+            ],
+            "structural_cues": [
+              "114:6 coordinates al-jinnah and al-nas after the relative clause that describes where whispering occurs."
+            ],
+            "reader_inference": "The packet supplies concealed and manifest source-classes joined under one described operation; I infer a distributed channel model that includes interpersonal transmission. The alternative is a simple enumeration of two kinds of personal whisperer without a broader functional type.",
+            "changed_reading": {
+              "before": "The focus names one exclusively hidden supernatural source.",
+              "after": "The focus names a covert operating pattern that may travel through concealed agents or visible human voices and relations."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_flicker_and_retrograde",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines fire, acoustics, and celestial motion rather than agentive speech. It remains valid as a material analogy anchored to all three focus roots; downstream prose should render it as a phenomenology of fleeting signals and reversals, not claim that the ayah lexically denotes sparks or planets.",
+            "focus_anchor": "The three focus words supply a harmful flicker, a barely perceptible signal, and a motion that hides and returns.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Supplies flying sparks as brief harmful appearances rather than a stable visible source."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "Supplies a faint rustle or murmur as a signal near the threshold of detection."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Supplies hiding and retrograde return as the intermittent trajectory of the signal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus depicts a speaker delivering identifiable propositions.",
+              "after": "Exploratorily, it also depicts fleeting micro-signals that flash, murmur below clear recognition, disappear, and return against expected motion."
+            }
+          },
+          {
+            "outlier_id": "outlier_protective_concealment_reversal",
+            "confidence": "medium",
+            "containment": "This is surprising because concealment supports both the adversary's retreat and a protective shield. It remains anchored by khannas and the refuge frame; downstream prose should present a polarity reversal in the image of cover, not equate attacker and protector or treat all hiddenness as evil.",
+            "focus_anchor": "The concealment component of khannas is tested against the requested refuge and the final root's protective-cover branch.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Supplies predatory withdrawal into concealment, where cover prevents attribution."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Supplies recourse to shelter, establishing a positive use of protected enclosure."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Supplies shielding cover as a defensive counterpart to the adversary's concealing retreat."
+              }
+            ],
+            "changed_reading": {
+              "before": "The task is simply to expose and abolish concealment.",
+              "after": "Concealment has opposed functions: the whisperer hides to evade attribution, while refuge can cover the person defensively; the issue is the direction and ownership of cover."
+            }
+          },
+          {
+            "outlier_id": "outlier_latent_seed_after_withdrawal",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain developmental model built from hidden gestation, growth, and retreat. It remains anchored to the covert inward insertion and withdrawal in the focus; downstream prose should qualify it as an ecological analogy for delayed activation, not a lexical claim that whispering is pregnancy or vegetation.",
+            "focus_anchor": "Waswas supplies a concealed interior insertion and khannas supplies departure before the inserted material's later development.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Supplies the hidden inward insertion that functions as a latent seed."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Removes the initiating source before the inserted tendency becomes visibly active."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped root supplies nourishment and growth as a developmental arrow after insertion."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "Supplies hidden gestation as the latency interval in which an unseen beginning develops."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Supplies entangling growth and outward impetus as the later self-propagation of the planted tendency."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each harmful result requires a whisperer to remain present and keep speaking.",
+              "after": "A brief covert insertion may continue developing after the source retreats, with the host's own processes feeding and propagating it."
+            }
+          },
+          {
+            "outlier_id": "outlier_ambient_swarm_noise",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it renders the threat as ambient nuisance and sound rather than a discrete proposition. It remains multiply anchored in the focus and receives an acoustic echo from 114:6; downstream prose should keep it as a sensory analogy for cumulative low-grade interference, not a zoological identification.",
+            "focus_anchor": "Sharri supplies a low-grade obscuring nuisance, waswas supplies faint sound, and khannas supplies intermittent disappearance.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B009",
+                "role": "Supplies a small face-covering nuisance that impairs without a direct bite, modeling cumulative distraction."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "Supplies low-volume sound as the sensory texture of the interference."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Makes the nuisance intermittent and difficult to confront as a stable source."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B015",
+                "role": "Supplies a buzzing acoustic image that reinforces the model of surrounding, non-propositional noise."
+              }
+            ],
+            "changed_reading": {
+              "before": "The harm consists in one clearly formed deceptive statement.",
+              "after": "Exploratorily, harm can accumulate as ambient micro-noise that occupies attention, obscures perception, and vanishes whenever directly inspected."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from a static antagonist to an intermittent operation: covert insertion, source-withdrawal, and recurrent return.",
+            "Qul generated two coexisting counter-readings: articulated refuge can interrupt the hidden cycle, yet protective and harmful speech may also contest one another within the same inward medium.",
+            "Familiarity, legitimate agency, worship, and the chest as an action-source changed the whisper from alien bad content into self-like upstream influence that can recruit attention and steer conduct.",
+            "The final hidden-visible source pair generalized al-waswas al-khannas into a distributed behavior-pattern that concealed agents and human social channels can both instantiate."
+          ],
+          "what_was_special": "The most productive activations were reversals and delayed mechanisms: retreat preserved influence, familiar speech concealed foreign prompting, refuge deterred without erasing, and protective cover answered predatory concealment. Split and form-distant branches also kept live the lateral-steering, latent-seed, flicker, and ambient-noise readings without forcing them into the strongest model.",
+          "remaining_uncertainties": [
+            "Whether qul functions causally as voiced counter-speech or can be fully enacted as inward saying remains deliberately unresolved.",
+            "The packet supports withdrawal but does not itself settle whether refuge triggers it, whether it is automatic after insertion, or whether both cycles coexist.",
+            "The developmental, acoustic, celestial, and motion models are branch-backed but remain analogical; their explanatory gain must be kept distinct from direct lexical substitution.",
+            "The focus can still support both a personal agent and a distributed operational pattern, and the context does not require collapsing one into the other."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Evil as a retreating whisper-process.** Evidence: ش ر ر B001, evil and badness; و س و س B001/B003, hidden inward whisper and Waswas as Satan’s name; خ ن س B001, withdrawal into concealment or delay. Structural cue: this ayah finally names the object of refuge after the three divine titles. Assigned role: شر is not an abstract property but the harm produced by an agent/process that whispers and withdraws. Abductive move: the sequence delays the enemy’s naming so the reader first sees the authority structure under which the enemy is contained. Reading change: “evil” reads as a mode of covert action with a retreat-cycle, not merely a moral category.\n\n2. **Sparks inside the chest.** Evidence: ش ر ر B003, flying sparks of fire; و س و س B002, hidden rustle or murmur; ص د ر B001 from 114:5, chest; ج ن ن B010 from 114:6, hidden heart or inner fear. Structural cue: 114:5 immediately locates the whispering “in the breasts of people.” Assigned role: sparks model the small, mobile, dangerous particles of whisper entering the interior. Abductive move: a faint whisper can be causally like a spark: tiny at contact, large in possible effect. Reading change: “شر” becomes a subtle ignition in the inner person, not only a named evil to flee.\n\n3. **Dispersed nuisance rather than frontal assault.** Evidence: ش ر ر B009, gnat-like nuisance covering the human face without biting; و س و س B002, faint sound; ن و س B001 from repeated الناس, swaying/dangling susceptibility. Structural cue: the named enemy is “وسواس” and “خناس,” both suggesting indirectness, faintness, and withdrawal. Assigned role: the threat harasses perception and attention rather than striking openly. Abductive move: because the harm is described by hidden sound plus retreat, its force may be irritation, distraction, and coverage. Reading change: the ayah reads as protection from a low-grade but pervasive affliction, not only from an overt attacker.\n\n4. **Spread and circulation of evil-talk.** Evidence: ش ر ر B002, spreading something out to dry; ق و ل B007 from 114:1, circulating talk/public report; س م و B008 from 114:0, good repute spread; و س و س B001, hidden inward whisper. Structural cue: the packet contrasts raised good naming at the opening with hidden whisper later, both within a repeated الناس field. Assigned role: شر can be laid out and distributed as talk across a social surface. Abductive move: inward whisper becomes socially effective when it is spread through circulating speech among people. Reading change: the evil is both internal and social: a hidden suggestion can dry out into public report.\n\n5. **Veering and retrograde motion.** Evidence: خ ن س B001, withdrawing/hiding/delaying; خ ن س B002, stars or planets that hide and retreat; خ ن س B005, horse veering right and left while running straight; ن و س B001, swaying oscillation. Structural cue: الخناس stands at the end of the ayah as a descriptive epithet after الوسواس. Assigned role: خناس supplies the motion-pattern: approach, retreat, veer, and return. Abductive move: the whisperer’s danger is rhythmic and evasive; it cannot be read as a single static presence. Reading change: the ayah becomes a description of an intermittent, elusive enemy whose motion exploits human oscillation.",
@@ -11079,14 +12053,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11188,10 +12168,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 74077,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

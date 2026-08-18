@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.768724+00:00",
+  "generated_at": "2026-08-18T13:34:31.827633+00:00",
   "surah": 104,
   "ayah": 7,
   "ayahRef": "104:7",
@@ -1142,7 +1142,8 @@
       "morpheme_ids": [
         "m-w-s104-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:7:1"
+      "aligned_qac_word_ref_upstream": "104:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1156,7 +1157,8 @@
       "morpheme_ids": [
         "m-w-s104-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:7:2"
+      "aligned_qac_word_ref_upstream": "104:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1170,7 +1172,8 @@
       "morpheme_ids": [
         "m-w-s104-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:7:3"
+      "aligned_qac_word_ref_upstream": "104:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1186,7 +1189,8 @@
         "m-w-s104-a007-w004-01",
         "m-w-s104-a007-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:7:4"
+      "aligned_qac_word_ref_upstream": "104:7:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2027,7 +2031,1190 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:7",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_inner_overlook",
+            "confidence": "strong",
+            "focus_anchor": "The construction joins an upward or overlooking motion directly to the definite plural hearts.",
+            "mechanism": "The verb can supply an elevated access that uncovers an interior, while the heart-root can supply a center actually struck or afflicted. The motion is therefore not mere arrival at an organ but acquisition of invasive vantage over a vulnerable inside.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Overlooking and disclosure make the motion an access to hidden interiority rather than surface contact."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The struck or afflicted heart makes the disclosed interior the point of impact."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified feminine subject comes up to the hearts.",
+              "after": "It gains an overlooking access to the inward center, exposing and striking what is normally hidden."
+            }
+          },
+          {
+            "model_id": "baseline_rising_inner_kindling",
+            "confidence": "strong",
+            "focus_anchor": "The rising verb is predicated of an agent whose path terminates at hearts, and the heart noun itself carries a heat-bearing branch.",
+            "mechanism": "A rising or dawning motion meets the heart as an inner kindling rather than a neutral container. Even before context identifies the feminine antecedent, the focus line permits a thermal resonance in which rising heat encounters latent inward heat.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "Luminary-like rising supplies upward emergence and the onset of visible intensity."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart understood as inward kindling gives the destination its own latent combustion."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B001",
+                "role": "Roasting and kindling heat makes the thermal relation materially forceful, not merely emotional."
+              }
+            ],
+            "changed_reading": {
+              "before": "Something rises over an inner human faculty.",
+              "after": "A heat-bearing agency rises at hearts already lexically figured as inward kindling, allowing heat to meet and expose latent heat."
+            }
+          },
+          {
+            "model_id": "baseline_exhaustive_saturation",
+            "confidence": "medium",
+            "focus_anchor": "The motion governs the plural hearts through a preposition that can sustain ranging over a field.",
+            "mechanism": "The fullness branch of the rising-root changes a punctual touch into exhaustive occupation: the agent ranges across or fills the heart-field to capacity.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B007",
+                "role": "Fullness to the brim turns ascent into comprehensive range and saturation."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The plural inner-kindling hearts provide the distributed field that is saturated."
+              }
+            ],
+            "changed_reading": {
+              "before": "The agent reaches each heart at one point.",
+              "after": "The agent ranges through the whole field of hearts and fills their inward capacity without leaving a protected recess."
+            }
+          },
+          {
+            "model_id": "baseline_overshot_heart_target",
+            "confidence": "exploratory",
+            "focus_anchor": "The heart is the governed destination of a verb whose inventory includes a projectile rising beyond its target.",
+            "mechanism": "The projectile branch and the struck-heart branch produce a double relation: the heart is hit as a target yet also becomes a threshold the force exceeds. This keeps open a reading of transgressive reach rather than neatly bounded impact.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B010",
+                "role": "The overshooting projectile supplies a trajectory that rises past the expected stopping point."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The heart struck at its center supplies the target that is reached and exceeded."
+              }
+            ],
+            "changed_reading": {
+              "before": "The heart is the terminal object of impact.",
+              "after": "The heart is both target and breached threshold: the force reaches the center but is not bounded by an ordinary hit."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_totality_encircles_saturation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل"
+            ],
+            "mechanism": "The opening totality cue has an encircling-completion branch that strengthens the focus fullness model. Saturation becomes exhaustive in both distribution and enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B007",
+                "role": "Fullness supplies the focus-side image of complete inward occupation."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "Plural inward-kindling hearts are the field across which the totality operates."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Totality as encompassing completion converts distributive scope into an encircling whole."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B005",
+                "role": "A surrounding crown or ring gives the exhaustive whole a spatial edge around what it contains."
+              }
+            ],
+            "structural_cues": [
+              "The totalizing expression precedes the two repeated aggressor nouns, so exhaustive scope is established before the manner of assault."
+            ],
+            "reader_inference": "The packet supplies totality, surrounding completion, and focus fullness; I infer exhaustive spatial reach through the hearts, while a merely distributive sense of 'every' remains live.",
+            "changed_reading": {
+              "before": "The force can fill a heart or range over several hearts.",
+              "after": "Its reach is an encompassing totality: the whole inward field is occupied and no recess stands outside the circuit."
+            }
+          },
+          {
+            "model_id": "delta_social_pressure_recoils_inward",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The paired aggressor roots physicalize social injury as squeezing, jabbing, and pushing. Against the focus disclosure and heart-strike, those outward micro-forces reverse direction and return as invasive pressure on the aggressor's own interior.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Overlooking disclosure carries the returned force past an outer social persona."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The afflicted heart is the inward site where the recoil lands."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "Manual squeezing gives the social offense a compressive material force."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "A jab that sets something moving supplies the initiating outward impulse."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "Pushing reinforces the offense as directed force rather than only speech."
+              }
+            ],
+            "structural_cues": [
+              "The paired intensive agent nouns make repeated outward aggression a patterned practice rather than a single utterance."
+            ],
+            "reader_inference": "The packet supplies squeezing, jabbing, pushing, disclosure, and heart-affliction; I supply the reversal arrow by which outward pressure recoils inward, while simple succession between offense and punishment remains a live alternative.",
+            "changed_reading": {
+              "before": "An external agency independently exposes and strikes hearts.",
+              "after": "The heartward invasion is a recoil of the offender's own social mechanics: pressure once directed at others returns past the exterior and compresses the inner center."
+            }
+          },
+          {
+            "model_id": "delta_counter_ledger_of_attachment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "Gathering dispersed units, making wealth, and recurrent counting form an external inventory practice. The focus disclosure turns that practice inside out: the heart is read as the ledger where dispersed attachments have been assembled into one governing total.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Disclosure supplies the counter-inspection that makes an inward ledger legible."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The inward heart is the site where the external inventory has become motive and attachment."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed things into a collected unit supplies the ledger's aggregating operation."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquiring and multiplying property supplies what the subject treats as stored value."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration turns the collection into a monitored and repeatedly verified inventory."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Recurring count or time gives the inventory a self-renewing rhythm."
+              }
+            ],
+            "structural_cues": [
+              "The sequence in one relative clause moves from gathering, to the valued object, to repeated enumeration."
+            ],
+            "reader_inference": "The packet supplies aggregation, property-making, counting, recurrence, and inward disclosure; I infer that the outer practice builds an inner valuation ledger, while a reading limited to biography and later physical punishment remains possible.",
+            "changed_reading": {
+              "before": "The force discloses an otherwise unspecified hidden interior.",
+              "after": "It performs a counter-accounting, exposing in the heart the assembled system of attachment that external counting had concealed."
+            }
+          },
+          {
+            "model_id": "delta_lodged_permanence_exposed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س ب",
+              "م و ل",
+              "خ ل د"
+            ],
+            "mechanism": "Supposition, imagined sufficiency, wealth, and a thought settled in the heart specify what the focus disclosure finds. The heart is not only heated matter; it is the seat of a lodged permanence-calculus that the rising agency exposes and overturns.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Looking into and disclosing a hidden matter makes the inward supposition inspectable."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart as inward kindling holds the belief as both cognition and combustible attachment."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition identifies the interior content as a fallible estimate rather than settled fact."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Imagined sufficiency supplies the belief that the stored value can be enough in itself."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated property is the object credited with sufficiency and duration."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "A thought settled in the heart locates the permanence claim precisely inside the focus destination."
+              }
+            ],
+            "structural_cues": [
+              "The causal syntax attributes enduring power to wealth, and the focus line later names the hearts as the reached interior."
+            ],
+            "reader_inference": "The packet supplies supposition, sufficiency, wealth, permanence, and a thought resident in the heart; I infer that this resident calculus is what disclosure targets, while undifferentiated bodily burning remains live.",
+            "changed_reading": {
+              "before": "The rising heat reaches the heart as physical inner matter.",
+              "after": "It reaches the exact seat of the false permanence estimate, exposing and burning the settled equation between accumulated value, sufficiency, and survival."
+            }
+          },
+          {
+            "model_id": "delta_discard_to_inner_fragmentation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "Casting away initiates a trajectory, and brittle crushing converts the cast body or construct into fragments. The focus ascent/access and heart-strike continue that trajectory inward: disposal into an external crusher does not stop at the surface but finds the vulnerable center.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "Ascent and access-point provide the crusher's route from enclosing exterior toward the inner center."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The afflicted heart is the deepest point reached by the casting-and-breaking sequence."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Throwing or casting supplies the abrupt displacement into the destructive process."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking dry matter into fragments supplies the process that undoes apparent solidity."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "Perishable debris reverses the earlier claim that accumulated value can confer permanence."
+              }
+            ],
+            "structural_cues": [
+              "The passive emphatic casting is followed by two verses that identify the destination before the focus line describes its inward reach."
+            ],
+            "reader_inference": "The packet supplies displacement, fragmentation, perishability, an access route, and heart-affliction; I infer a continuous outside-to-inside trajectory, while external containment and internal injury could remain separate stages.",
+            "changed_reading": {
+              "before": "The offender is thrown into a destructive external place.",
+              "after": "Casting begins a phase change from stored solidity to fragments, and the destructive route continues until it accesses and afflicts the inward center."
+            }
+          },
+          {
+            "model_id": "delta_knowing_delivered_as_impact",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ر ي",
+              "ح ط م"
+            ],
+            "mechanism": "The split mapping keeps both knowing and authoritative impact live around the rhetorical question. Repetition of the crusher then lets the following focus line function as enacted knowledge: its answer is learned through a force that discloses and strikes the heart.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Disclosure makes the focus action an unveiling that can answer a question."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "A heart actually struck makes the knowledge experiential rather than merely propositional."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root supplies direct knowing as one side of the rhetorical operation."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B006",
+                "role": "The dominant mapped root supplies an authoritative blow as the forceful side of the same activation."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Crushing fragmentation gives the enacted answer its specific destructive content."
+              }
+            ],
+            "structural_cues": [
+              "The rhetorical question repeats the crusher noun, and the next two verses answer first by naming fire and then by stating what it does."
+            ],
+            "reader_inference": "The packet supplies two mapped branch families, one for knowing and one for force, plus rhetorical repetition; I infer that the answer can be delivered as experienced impact, while ordinary rhetorical instruction remains the materially live alternative.",
+            "changed_reading": {
+              "before": "The focus line adds descriptive information about the crusher.",
+              "after": "The focus line is the crusher's mode of making itself known: disclosure becomes an authoritative impact learned at the heart."
+            }
+          },
+          {
+            "model_id": "delta_recursive_kindling",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "The preceding identification of a divinely attributed, actively kindled fire resolves the feminine agent and reactivates the focus heart-root's own heat. Outer ignition and inner kindling become a recursive thermal encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "Rising luminosity supplies the fire's upward emergence into the focus line."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart as inner kindling makes the reached object thermally resonant with the agent."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B001",
+                "role": "Roasting and baking heat gives the inward encounter consuming material force."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire supplies the explicit outer thermal agent."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship-and-worshipped relation marks the fire's attribution as an authority relation, not anonymous combustion."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active ignition establishes that the fire is maintained in a state of burning."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B005",
+                "role": "Rapid flare and surging intensity supply the transition from kindling to heartward eruption."
+              }
+            ],
+            "structural_cues": [
+              "The feminine relative in the focus line immediately follows a feminine fire expression and its kindled modifier, making antecedent continuity structurally immediate."
+            ],
+            "reader_inference": "The packet supplies explicit fire, active ignition, rising, and a heart named through inward heat; I infer a resonance in which outer fire activates or reveals inner kindling, while direct physical burning without semantic recursion remains live.",
+            "changed_reading": {
+              "before": "An unidentified heat-bearing agency rises toward hearts that can be imagined as inward kindling.",
+              "after": "The identified kindled fire rises into hearts whose own lexical image is combustion, so punishment consumes and manifests an already inwardly organized heat."
+            }
+          },
+          {
+            "model_id": "delta_luminous_allegiance_disclosure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ل",
+              "ن و ر",
+              "ء ل ه"
+            ],
+            "mechanism": "The fire-root also carries illumination and conspicuous clarity, while divine attribution activates worship relation against the earlier accumulation of wealth. The heartward action can therefore coexist as forensic illumination that reveals which value has functioned as the heart's governing object.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Disclosure turns fiery light into inspection of an inwardly hidden relation."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The inward-kindling heart is the seat where governing attachment becomes visible."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquired and multiplied property supplies the candidate value around which allegiance has formed."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination makes the fire revelatory as well as destructive."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B011",
+                "role": "Conspicuous clarity makes the disclosed inward ordering impossible to keep obscure."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship relation provides the axis against which the heart's dominant attachment is read."
+              }
+            ],
+            "structural_cues": [
+              "The divine genitive stands between the fire noun and its kindled modifier, while wealth has already been repeated as possessed and permanence-conferring."
+            ],
+            "reader_inference": "The packet supplies property accumulation, illumination, worship relation, and heart disclosure; I infer an allegiance test in which fiery clarity reveals the heart's governing value, while illumination may remain only a visual branch and the divine name only attribution.",
+            "changed_reading": {
+              "before": "The fire exposes and consumes a false belief located in the heart.",
+              "after": "Its brightness also functions forensically, making visible the heart's ordering of ultimate value and the attachment that had occupied the governing place."
+            }
+          },
+          {
+            "model_id": "delta_sealed_cache_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ل",
+              "و ص د"
+            ],
+            "mechanism": "The split closure inventory supplies both sealed enclosure and a stone cache for property. Joined to earlier wealth accumulation, the owner-content relation reverses: the accumulator becomes the stored content, while the fire's access route remains the heart inside the seal.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "Ascent and access-point explain how the action retains an inward route despite exterior closure."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The inner-kindling heart is the accessible core inside the sealed container."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Property accumulation establishes the earlier owner who treats valuables as enclosed possessions."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Complete closure supplies the sealed outer system."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone-cache branch recasts the enclosed person as stored property."
+              }
+            ],
+            "structural_cues": [
+              "The closure is stated after the fire has already been said to reach hearts, so sealing does not prevent inward access."
+            ],
+            "reader_inference": "The packet supplies wealth accumulation, closure, a property cache, and a focus access route; I infer a container-content reversal in which the possessor becomes possessed inventory, while the cache branch may remain an unrelated lexical image.",
+            "changed_reading": {
+              "before": "The offender is simply confined in a closed punishment chamber.",
+              "after": "The former accumulator is itself cached as enclosed content, and the seal reroutes rather than blocks the fire's access to the heart."
+            }
+          },
+          {
+            "model_id": "delta_extended_support_and_feed",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق د",
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Support, columns, connected addition, prolonged time, and fuel allow the final architecture to be read dynamically. The extended supports can function as a maintained feed-system or ascent-path that keeps the inward ignition supplied and prolonged.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "An ascent and access route lets the columnar structure conduct motion toward the heart."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "Inner kindling supplies the terminal combustion that the structure maintains."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel material supplies what a maintained system would continuously deliver."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "Supporting a thing with a prop makes the columns functional bearers rather than inert scenery."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The column image gives the support-and-access system its vertical structure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Connected increase that supplies another thing provides the inferred feed relation."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended duration changes the heartward event from a punctual strike into sustained exposure."
+              }
+            ],
+            "structural_cues": [
+              "The final prepositional phrase situates the enclosed subjects within an extended columnar arrangement after the fire has been described as actively kindled."
+            ],
+            "reader_inference": "The packet supplies fuel, support, vertical columns, connected addition, and prolonged time; I infer that the architecture conducts and feeds the heartward ignition, while static bars and merely spatial length remain live alternatives.",
+            "changed_reading": {
+              "before": "Extended columns are static objects surrounding a one-time inward burn.",
+              "after": "They can be the support-and-feed architecture of a sustained process, conducting and prolonging ignition at the inward center."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_digestive_reflux_furnace",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins remote vessel, digestion, and vomiting branches into a bodily furnace analogy. It remains anchored by the focus verb's explicit upward-vomit branch and the heart-root's roasting heat, with context supplying cast material and an eater-like crusher. Downstream prose should label it a speculative material analogy, not a lexical substitution for the surface reading.",
+            "focus_anchor": "The focus motion has an upward-expulsion branch and terminates at a heart-root carrying roasting and kindling heat.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B011",
+                "role": "Upward vomiting supplies the reflux trajectory by which consumed heat rises."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B001",
+                "role": "Roasting and baking heat makes the reached heart part of a furnace-like material process."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B006",
+                "role": "Material thrown into a vessel supplies the intake stage of the analogy."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "An eater that digests like fire supplies the consuming chamber."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B003",
+                "role": "A hearth or fire-place stabilizes the digestive image as a furnace chamber."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fire rises inward along an unspecified route.",
+              "after": "A furnace-like chamber receives cast matter, consumes it, and sends scorching reflux upward toward the hearts."
+            }
+          },
+          {
+            "outlier_id": "outlier_wealth_webbed_interior",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the spider image is a remote branch under the wealth root and could easily overtake the actual money sense. It remains anchored through the focus scouting/disclosure motion into the inner-kindling heart and through later closure. Downstream prose should preserve it only as a tentative network-and-trap analogy for accumulated attachment.",
+            "focus_anchor": "The focus verb can act as a scout or disclosure operation directed into the inward heart.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B004",
+                "role": "A scouting vanguard supplies deliberate entry into and reconnaissance of a concealed interior."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The inward-kindling heart is the interior in which the attachment network has formed."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The spider branch supplies a web-like network spun from the wealth-root's activation."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "Tight door closure turns the webbed interior into a trap with no outward release."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire scouts and exposes a generic hidden heart.",
+              "after": "It enters a wealth-webbed interior whose accumulated attachments have become the sealed trap architecture of the heart."
+            }
+          },
+          {
+            "outlier_id": "outlier_rhizomatic_heartward_fire",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from fire and enclosure into botanical emergence and close-rooted growth. It remains anchored directly in the focus verb's plant-emergence branch and the heart's inner heat, while context supplies clustered roots and connected extension. Downstream prose should qualify it as an ecological spread-model, not as a claim that the verse literally names vegetation.",
+            "focus_anchor": "The focus verb includes putting forth plant growth, and that emergence is directed toward thermally figured hearts.",
+            "activation_trace": [
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B005",
+                "role": "The emergence of shoots or inflorescence makes the heartward motion a propagating growth."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "Inner kindling makes each heart a heated node reached by the spreading growth."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active ignition keeps the ecological spread tied to fire rather than free-floating vegetation."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B004",
+                "role": "Close-set plant roots supply the rhizomatic network inside enclosure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Long connected extension supplies the path along which the ignited growth propagates."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Connected increase lets one burning node continuously reinforce another."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire moves upward toward hearts as one continuous mass.",
+              "after": "It can be imagined as close-rooted, connected growth that keeps putting forth ignited shoots through the field of hearts."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The explicit kindled fire activates the heart-root's own heat, producing a recursive outer-fire/inner-kindling reading.",
+            "Gathering, wealth, counting, supposition, and settled permanence turn heartward disclosure into a counter-accounting of an inward valuation system.",
+            "Squeezing, jabbing, casting, and crushing yield a reversal in which outward social force returns inward and fragments the apparent solidity of the self.",
+            "Closure, cache, support, fuel, connected extension, and prolonged time turn the final setting into a sealed architecture that can sustain access to the heart."
+          ],
+          "what_was_special": "The focus line is a compact hinge: its rising-root simultaneously supports ascent, disclosure, saturation, access, projectile excess, and stranger material motions, while its heart-root is already thermally charged. Context does not collapse that plurality; it reorganizes it into coexisting thermal, epistemic, social-reversal, accounting, enclosure, and infrastructural mechanisms.",
+          "remaining_uncertainties": [
+            "The exact directional geometry remains open among rising over, gaining access to, ranging through, and erupting from the hearts.",
+            "The relation between outer fire and inner kindling may be causal activation, revelatory resonance, or simply intensified physical contact.",
+            "The force-bearing side of the split knowing-root and the cache, spider, digestive, and botanical branches remain productive but deliberately contained because of branch distance.",
+            "The columnar ending can support a static spatial reading alongside the inferred conduit, feed, and duration models."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Fire as investigator of the inward account.** Evidence: `ط ل ع B003` (overlooking/disclosing a matter) and `ف ء د B002` (heart as inner kindling), activated by `ح س ب B002` and `خ ل د B004` in 104:3. Structural cue: the fire named in 104:6 is immediately given an action toward أفئدة. Assigned role: تطلع supplies disclosure; أفئدة supplies the hidden seat. Abductive move: the fire is directed toward where the false reckoning settled. Reading change: the ayah reads less as mere burning and more as inner audit.\n\n2. **A rising luminary inside the concealed person.** Evidence: `ط ل ع B001` (rising of a luminary) with `ن و ر B001/B002` and `و ق د B001` from 104:6. Structural cue: نار is followed by تطلع. Assigned role: طلوع turns the fire's motion into a kind of rising light. Abductive move: the heart becomes the horizon on which the divine fire rises. Reading change: the ayah joins punishment to illumination: the hidden interior is dawned upon.\n\n3. **Scouting the covert gesture.** Evidence: `ط ل ع B004` (scouting vanguard) and `د ر ي B002/B003` (aiming, stealthy pursuit), activated by `ل م ز B001` in 104:1. Structural cue: the surah moves from covert social signaling to a fire that \"comes upon\" the heart. Assigned role: تطلع is the scout/approach that reaches what concealed speech tried to hide. Abductive move: the only adequate answer to hidden لمز is a disclosure that can track the hidden source. Reading change: the ayah makes judgment a search operation, not only a penalty.\n\n4. **The heart struck by the violence it sent outward.** Evidence: `ف ء د B003` (heart struck/afflicted), activated by `ه م ز B003` and `ل م ز B002` (prodding, pushing, striking) and `ح ط م B001`. Structural cue: outward pressures at 104:1 culminate in an inward target. Assigned role: فؤاد receives the returned force. Abductive move: the social blows dealt through speech are redirected to the center from which they came. Reading change: the ayah turns the punishment inward: the offender's heart becomes the struck object.",
@@ -7685,14 +8872,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7924,10 +9117,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 78046,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.675965+00:00",
+  "generated_at": "2026-08-18T13:34:31.442951+00:00",
   "surah": 104,
   "ayah": 1,
   "ayahRef": "104:1",
@@ -1249,7 +1249,8 @@
       "morpheme_ids": [
         "m-w-s104-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:1:1"
+      "aligned_qac_word_ref_upstream": "104:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1265,7 +1266,8 @@
         "m-w-s104-a001-w002-01",
         "m-w-s104-a001-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:1:2"
+      "aligned_qac_word_ref_upstream": "104:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1279,7 +1281,8 @@
       "morpheme_ids": [
         "m-w-s104-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:1:3"
+      "aligned_qac_word_ref_upstream": "104:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1293,7 +1296,8 @@
       "morpheme_ids": [
         "m-w-s104-a001-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:1:4"
+      "aligned_qac_word_ref_upstream": "104:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2054,7 +2058,964 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:1",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_dual_channel_faultfinding",
+            "confidence": "strong",
+            "focus_anchor": "The distributive construction attaches woe to the paired habitual labels rooted in ه م ز and ل م ز.",
+            "mechanism": "The pair is not merely redundant abuse: one branch supplies overt taunting and reputational attack, while the other includes defect-tracking, backbiting, and covert signals by eye or mouth. Together they describe an aggressor who can move between public speech and deniable gesture, while the totalizer makes the type exhaustively liable.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The branch literally supplies totality and completeness; here it distributes the condemnation across every instance of the paired aggressive type."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "The branch literally supplies taunting, backbiting, and attacking people's standing; it forms the more overt reputational channel."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally supplies covert fault-finding and signaling by eye, mouth, or hidden speech; it forms the deniable channel paired with overt attack."
+              }
+            ],
+            "changed_reading": {
+              "before": "Woe to every person who insults or slanders.",
+              "after": "Woe attaches to the habitual two-channel aggressor who circulates between open reputational attack and covert defect-signaling; the two labels map a social method rather than simply repeat one gloss."
+            }
+          },
+          {
+            "model_id": "b_pressure_and_impulse",
+            "confidence": "medium",
+            "focus_anchor": "Both focus labels retain physical-force branches: squeezing or prodding under ه م ز and pushing or striking under ل م ز.",
+            "mechanism": "The paired acts can be felt as a sequence of applied pressure: compress a person into a defect, then prod or shove that person before an audience. Verbal and gestural contempt thereby operate as social force, not merely as descriptive speech.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "The branch literally supplies hand-pressure and squeezing; it makes the first label a social compression of the target."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "The branch literally supplies a prod or impulse that sets something moving; it lets the attack mobilize others against the compressed target."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "The branch literally supplies pushing or striking; it gives the second label the force of a social shove rather than a neutral observation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two nouns name kinds of bad speech.",
+              "after": "The two nouns stage contempt as pressure and impulse: the victim is first compressed into a flaw and then pushed through the social field by word, look, or gesture."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_defect_ledger",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "Gathering wealth and repeatedly counting it activates an acquisitive analogue inside the focus: the covert fault-finder also gathers scattered defects and turns persons into countable entries. Possessions and blemishes become parallel ledgers through which the aggressor accumulates control.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally includes tracking people's defects; it supplies the human entries collected in the inferred ledger."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The branch literally joins scattered items into a collected whole; it turns isolated observations into an amassed stock of faults."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The branch literally supplies acquiring and multiplying wealth; it provides the acquisitive template transferred to reputational knowledge."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The branch literally supplies enumeration; it makes each noticed defect function like another counted asset."
+              }
+            ],
+            "structural_cues": [
+              "104:2 immediately predicates gathering, wealth, and repeated counting of the same figure introduced by the focus labels.",
+              "The rapid sequence from collection to enumeration gives the actor a repeated acquisition procedure, not a single possession."
+            ],
+            "reader_inference": "The packet supplies defect-tracking in the focus and collection, wealth, and enumeration in 104:2; I infer a shared method, wealth-hoarding → fault-hoarding. A live alternative is that 104:2 only identifies the offender socioeconomically and does not describe how the insults work.",
+            "changed_reading": {
+              "before": "The offender insults people and separately hoards money.",
+              "after": "The offender's insult and hoard share one acquisitive grammar: he collects defects as he collects assets, reducing people to countable liabilities in a private ledger."
+            }
+          },
+          {
+            "model_id": "d_status_calculus",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س ب",
+              "م و ل",
+              "خ ل د"
+            ],
+            "mechanism": "The wealth-holder's calculation of sufficiency and permanence revises the baseline aggression into status enforcement. His fault-finding can function as a ranking operation: clinging to wealth as durable worth, he presses others downward so that his imagined elevation appears stable.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "The branch literally supplies attacks on people's standing; it becomes the downward social judgment produced by the wealth calculus."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The branch literally supplies supposition; it marks the status system as grounded in an imagined equation rather than secure knowledge."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "The branch literally supplies sufficiency and enrichment; it lets wealth be misread as enough to secure the self."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The branch literally supplies accumulated wealth; it is the metric by which the offender imagines persons can be ranked."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The branch literally supplies clinging and prolonged attachment; it makes the imagined status order something the offender grips and inhabits."
+              }
+            ],
+            "structural_cues": [
+              "104:3 exposes an inward calculation and assigns wealth the imagined power to make its owner endure."
+            ],
+            "reader_inference": "The packet supplies reputational attack, supposition, sufficiency, wealth, and clinging; I infer false self-security → downward ranking of others. A live alternative is that the belief explains only attachment to wealth, while the fault-finding remains an independent vice.",
+            "changed_reading": {
+              "before": "The focus describes malicious speech motivated by generic bad character.",
+              "after": "The focus can describe status-policing speech: a person who treats wealth as sufficient and durable manufactures his own elevation by continually pressing other people into lower ranks."
+            }
+          },
+          {
+            "model_id": "d_force_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "The physical-force baseline becomes a measure-for-measure reversal. The person who prods, pushes, and socially objectifies others is himself made the passive object of casting; the one who compresses a person into a flaw is delivered to a force that breaks compact objects into fragments.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "The branch literally supplies prodding and forceful propulsion; it establishes the offender's outward vector of aggression."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "The branch literally supplies pushing or striking; it reinforces the focus as enacted force against another body."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "The branch literally supplies throwing or casting away; it reverses the offender from force-agent into discarded object."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The branch literally supplies breaking a dry object until it fragments; it answers social compression with material disintegration."
+              }
+            ],
+            "structural_cues": [
+              "104:4 changes the focus's active habitual offender into the passive object of an emphatic future casting.",
+              "The destination is named by the same intensive nominal pattern that made the focus labels sound habitual and agentive."
+            ],
+            "reader_inference": "The packet supplies outward prodding and pushing in the focus, then passive casting and fragmentation; I infer aggressor-force → reversed force upon the aggressor. A live alternative is that the punishment follows the offense without encoding a directional symmetry.",
+            "changed_reading": {
+              "before": "Woe is a general threat attached to harmful speech.",
+              "after": "Woe announces a reversal of vectors: the habitual social pusher will be pushed out of agency, cast as an object, and subjected to the fragmentation he figuratively imposed on persons."
+            }
+          },
+          {
+            "model_id": "d_whole_to_fragments",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "ح ط م"
+            ],
+            "mechanism": "A second, non-identical reversal runs from totalization and assembly to fragmentation. The offender gathers a complete stock and uses an exhaustive gaze toward every target; the crushing destination destroys the fantasy that gathered pieces can be secured as one lasting whole.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The branch literally supplies an encompassing whole; it marks both the offender's totalizing reach and the condemnation that captures the whole type."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "The branch literally supplies completion without scattering or deficiency; it gives the hoard its imagined integrity."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The branch literally supplies reduction into fragments; it materially negates the completed whole assembled earlier."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "The branch literally supplies the transient wreckage of worldly goods; it exposes the gathered whole as already destined to become debris."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from assembling and numbering in 104:2 to a destination named for crushing in 104:4.",
+              "The focus's universal quantifier stands before this assembly-to-disassembly arc."
+            ],
+            "reader_inference": "The packet supplies totality, completed gathering, fragmentation, and transient worldly wreckage; I infer assembled whole → exposed debris. A live alternative is that gathering identifies the crime and crushing names the penalty without a whole-versus-fragments design.",
+            "changed_reading": {
+              "before": "The word for every simply broadens the class of offenders.",
+              "after": "The totalizer also participates in an irony of wholes: the person who gathers wealth and gathers people into exhaustive judgments is wholly captured by a process that scatters every imagined integrity."
+            }
+          },
+          {
+            "model_id": "d_epistemic_reversal",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع د د",
+              "ح س ب",
+              "د ر ي",
+              "ح ط م"
+            ],
+            "mechanism": "Counting and presumption expose the focus aggressor as an epistemic totalizer: he tracks defects as though people were fully knowable and enumerable. The intervening question about what can make the hearer know the crushing destination breaks that confidence, distinguishing calculative mastery from disclosed knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally supplies pursuit of defects; it makes the offender pose as a knower who can inventory another person."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The branch literally supplies encompassing totality; it sharpens the aggressor's pretense to exhaustive judgment."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The branch literally supplies counting; it is the offender's preferred procedure for making value seem fully manageable."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The branch literally supplies supposition; it exposes apparent mastery as a mistaken mental estimate."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch literally supplies knowledge and discernment; it marks the question as a rupture between counting and being made to know."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The branch literally supplies fragmentation; it is the object whose disclosed reality defeats the offender's totalizing calculus."
+              }
+            ],
+            "structural_cues": [
+              "104:5 interrupts the punishment sequence with a direct knowledge-question and then repeats the destination.",
+              "This interruption follows the actor's counting and mistaken calculation in 104:2-3."
+            ],
+            "reader_inference": "The packet supplies counting, supposition, defect-tracking, a knowledge branch, and the interrogative interruption; I infer enumerable value → false claim to know persons exhaustively → corrective disclosure. A live alternative is that the knowledge-question magnifies the punishment only and does not answer the offender's way of judging people.",
+            "changed_reading": {
+              "before": "The fault-finder is morally cruel but epistemically unremarkable.",
+              "after": "The fault-finder also commits epistemic violence: he treats persons as exhaustively searchable and countable, while the context overturns his confident calculations by confronting him with what he cannot know unaided."
+            }
+          },
+          {
+            "model_id": "d_social_arson_rebound",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "Pressed letters, covert signals, and reputational attacks can act as sparks and fuel for conflict between people. The focus figure therefore becomes a social arsonist whose small verbal pressures rapidly kindle a larger feud; the explicitly divine, kindled fire then rebounds upon the human kindler without collapsing into the social metaphor.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B002",
+                "role": "The branch literally pictures articulation as pressure on a letter; it gives the social fire a minute verbal ignition point."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally supplies hidden speech and covert signals; it lets ignition travel through channels whose source can remain deniable."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "The branch literally supplies a flare of enmity between people; it names the wider social blaze produced by repeated fault-finding."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The branch literally supplies deity and worship; it keeps the punitive fire under divine ownership rather than reducing it to interpersonal conflict."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "The branch literally supplies fuel; it lets accumulated insinuations sustain a conflict beyond the first utterance."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B005",
+                "role": "The branch literally supplies rapid ignition and surging intensity; it explains how a small jab can flare into collective hostility."
+              }
+            ],
+            "structural_cues": [
+              "104:6 identifies the crushing destination as an already kindled divine fire after the focus has named repeated social aggressors."
+            ],
+            "reader_inference": "The packet supplies pressured speech, covert fault-signals, interpersonal enmity, fuel, rapid ignition, and divine attribution; I infer verbal jab → social flare → punitive rebound. A live alternative is that the fire has no analogical relation to the offender's speech and only names the punishment.",
+            "changed_reading": {
+              "before": "The focus condemns a speaker who damages individual reputations.",
+              "after": "The focus can also condemn a social kindler: each pressed word or covert cue feeds enmity beyond its immediate target, and the fire he helps spread is answered by a divine fire he does not control."
+            }
+          },
+          {
+            "model_id": "d_gaze_to_heart_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The covert fault-finder's restless gaze searches and exposes the surfaces of other people. The later movement of fire toward the hearts reverses that surveillance: the examiner becomes inwardly exposed, and the attack is traced back to an already inflamed center rather than left at the lips or eyes.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally includes tracking defects and signaling by eye or mouth; it establishes the offender's searching outward gaze."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "The branch literally supplies overlooking and uncovering a matter; it reverses scrutiny onto what the offender keeps inward."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B008",
+                "role": "The branch literally supplies restless looking and appetite to see; it sharpens fault-finding into a compulsive scanning practice."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The branch literally pictures the heart as inward kindling; it relocates the source of the outward attack inside the aggressor."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The branch literally supplies the heart being struck or afflicted; it makes exposure consequential rather than merely observational."
+              }
+            ],
+            "structural_cues": [
+              "104:7 gives the fire an upward or penetrating relation to the hearts, shifting the scene from public surfaces to inward centers."
+            ],
+            "reader_inference": "The packet supplies covert visual fault-tracking, restless looking, disclosure, and an inwardly kindled or afflicted heart; I infer outward surveillance → inward exposure of the surveillant. A live alternative is that the heart reference only intensifies bodily punishment and does not mirror the offender's gaze.",
+            "changed_reading": {
+              "before": "The two labels describe outward acts of tongue and face.",
+              "after": "The labels also expose a predatory gaze generated by an inward fire: the one who scans others for defects is finally scanned through, with the attack's hidden center brought under judgment."
+            }
+          },
+          {
+            "model_id": "d_enclosed_counterworld",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص د",
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "The late enclosure cues activate a spatial counterworld around the focus totalizer. A person who tries to surround others with a complete reputational verdict and to secure value in a protected hoard is himself surrounded: closure, stone storage, supporting columns, and extension convert imagined security into sustained containment.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B005",
+                "role": "The branch literally supplies an encircling ring; it spatializes the focus totalizer as a verdict that tries to surround its targets and finally surrounds its speaker."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B006",
+                "role": "The branch literally supplies a sewn curtain or shelter; it adds the ambiguous image of protection becoming confinement."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "The dominant mapped branch literally supplies complete closure; it turns the offender's fantasy of security into inescapable containment."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch literally supplies a stone enclosure for property; it links closure to the hoarding economy without making that branch the lexical gloss of the verse."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "The branch literally supplies propping something with a support; it makes the very architecture of security hold the enclosure in place."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The branch literally supplies drawing something out in connected length; it removes the prospect that the enclosing structure is momentary or local."
+              }
+            ],
+            "structural_cues": [
+              "104:8 closes the fire over its occupants, and 104:9 follows with supports characterized by extension.",
+              "These closing images follow the earlier effort to secure accumulated wealth."
+            ],
+            "reader_inference": "The packet supplies a focus-root ring and shelter, two mapped closure inventories including stone property-storage, support, and extension; I infer attempted protective enclosure → punitive enclosure. A live alternative is that the focus totalizer remains purely distributive and only the later punishment has spatial geometry.",
+            "changed_reading": {
+              "before": "For every merely ranges the warning over all offenders.",
+              "after": "The focus totalizer can faintly prefigure enclosure: the one who surrounds people with complete judgments and surrounds wealth with security is himself comprehensively surrounded, with shelter and support reversed into prison architecture."
+            }
+          },
+          {
+            "model_id": "d_deliberate_extended_practice",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "The habitual shape of the paired focus labels is sharpened by branches of deliberate purpose and temporal extension. The offense can be carried as a maintained social practice rather than a slip: repeated gestures and words become an intentional regime whose consequences are correspondingly prolonged.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "The branch literally supplies a person characterized by recurring disparagement; it anchors the model in practiced reputational aggression."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally includes sustained pursuit of defects and habitual covert signaling; it supplies repetition across occasions and channels."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B001",
+                "role": "The branch literally supplies deliberate purpose; it raises the possibility that the habitual offense is maintained by intent rather than accident."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "The branch literally supplies extended duration; it carries the practice-and-consequence relation beyond a single episode."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses paired character labels rather than narrating one isolated utterance, while the closing construction adds extension."
+            ],
+            "reader_inference": "The packet supplies recurring offender-types, deliberate purpose, and duration; I infer repetition + purpose → maintained practice answered by extended consequence. A live alternative is that the late roots describe only literal architecture and contribute nothing to the offender's intent.",
+            "changed_reading": {
+              "before": "The warning may be heard as a response to discrete insulting acts.",
+              "after": "The warning is more plausibly heard against a cultivated practice: repeated social injury becomes part of the actor's durable posture, not an accidental word detached from intent."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_closed_fist_wealth",
+            "confidence": "medium",
+            "containment": "This is surprising because the closed-fist image is a branch-distant activation of gathering, not the ordinary sense of collecting wealth. It remains anchored by the exact gathering cue and the focus branch of hand-pressure, which together form a coherent material analogy. Render it as an embodied resonance, never as a claim that the context word lexically means fist.",
+            "focus_anchor": "The ه م ز inventory includes squeezing in the hand, allowing the focus aggressor's pressure to meet the context's gathered fist.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "The branch literally supplies squeezing an object in the hand; it gives the offender's attack the bodily shape of a grip."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B005",
+                "role": "The branch literally supplies a fist formed by gathering the fingers; it makes accumulation and interpersonal pressure share one closed-hand posture."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The branch literally supplies acquiring and multiplying wealth; it identifies what the inferred fist refuses to release."
+              }
+            ],
+            "changed_reading": {
+              "before": "The offender's wealth-gathering and verbal pressure are separate behaviors.",
+              "after": "As a contained bodily analogy, hoarding and humiliation become one clenched gesture: the hand closes around wealth while social pressure closes around another person."
+            }
+          },
+          {
+            "outlier_id": "o_whirling_jab_cycle",
+            "confidence": "exploratory",
+            "containment": "This activation is surprising because it uses the dominant د ر ر target in the split mapping for a source occurrence ordinarily read through knowledge. It remains worth carrying because rapid succession and rotation meet the exact focus branches of pressed articulation and pushing, yielding a coherent kinetic reading of repeated jabs. Downstream prose must identify it as a split-map sonic-mechanical resonance, not a lexical interpretation of the knowledge-question.",
+            "focus_anchor": "The focus's ه م ز and ل م ز branches permit pressed articulation and repeated impulse, so the paired labels can carry a staccato kinetic contour.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B002",
+                "role": "The branch literally pictures a letter under articulatory pressure; it anchors the outlier in the audible compression of the first label."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "The branch literally supplies a push or strike; it lets the paired sound-pattern land as successive social jabs."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B002",
+                "role": "The dominant split-map branch literally supplies rapid successive running; it activates acceleration across repeated verbal blows."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "The dominant split-map branch literally supplies a spindle's tightened rotation; it turns repetition into a self-reinforcing cycle rather than isolated strikes."
+              }
+            ],
+            "changed_reading": {
+              "before": "The paired nouns statically classify an offender.",
+              "after": "As a contained kinetic resonance, their pressed sounds enact a cycle of quickening jabs: each push winds the practice tighter and prepares the next."
+            }
+          },
+          {
+            "outlier_id": "o_flashing_smile_ignition",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the smiling or flashing branch of ك ل ل beneath a form whose ordinary focus function is totality. It remains anchored by that exact focus root, covert mouth-signaling, and the context branches of deception and fiery sparkle. Render it as a possible mask or visual undertone, not as a replacement gloss for the totalizer.",
+            "focus_anchor": "The ك ل ل inventory permits a flash of exposed teeth, while the ل م ز branch explicitly permits covert signaling by the mouth.",
+            "activation_trace": [
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B011",
+                "role": "The branch literally supplies a smile with teeth showing or a lightning-like flash; it gives hostility a bright, socially acceptable mask."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B001",
+                "role": "The branch literally includes covert signaling by the mouth; it lets a smile carry a concealed barb."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B010",
+                "role": "The branch literally supplies disguising or misleading another; it makes the bright surface function as concealment."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B006",
+                "role": "The branch literally supplies a sparkle like ignition; it lets the concealed barb flash into the first spark of conflict."
+              }
+            ],
+            "changed_reading": {
+              "before": "The offender's hostility is openly legible as a sneer or insult.",
+              "after": "Exploratorily, the hostility may arrive in a flashing smile: exposed teeth and covert mouth-signaling disguise the barb at the instant it ignites."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus pair changed from near-synonymous insults into two coordinated channels—overt reputational attack and covert defect-signaling—and into a material sequence of pressure and shove.",
+            "Gathering, wealth, counting, and supposition activated two coexisting motives: a defect-ledger that acquires faults like assets, and a status calculus that pushes others down to stabilize imagined wealth-based permanence.",
+            "Casting and crushing produced a strong reversal of agency, while gathering and fragmentation produced a separate reversal from completed wholes to debris.",
+            "Kindling and heart-disclosure changed the offender into both a social arsonist and a predatory observer whose own inward source is exposed.",
+            "Closure, support, and extension activated a contained spatial reading in which total judgment and protected accumulation return as comprehensive enclosure."
+          ],
+          "what_was_special": "The packet repeatedly converted the focus's small acts of tongue, eye, mouth, and pressure into larger systems—ledger, hierarchy, fire, surveillance, and architecture—then reversed each system upon its operator. The split mappings remained productive without being collapsed: the non-dominant knowledge branch supported an epistemic correction, the dominant rapid-motion branches survived as a contained kinetic outlier, and both closure targets contributed distinct spatial cues.",
+          "remaining_uncertainties": [
+            "The defect-ledger and status-calculus readings may describe one integrated economy of contempt, but they remain separate because collection and ranking have different causal mechanisms.",
+            "The measure-for-measure arrows are abductive: the packet supplies paired forces and reversals, but does not explicitly state that each punishment mirrors a specific social act.",
+            "The encircling, closed-fist, flashing-smile, deliberate-duration, and whirling-cycle readings depend on form-distant branches and should remain marked as medium or exploratory rather than replace ordinary syntax.",
+            "The social-fire and gaze-reversal models can coexist with a purely punitive reading of the later fire; the context does not force the analogies even though it materially supports them."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Speech as pressure that returns as crushing.** Evidence: `ه م ز B004` (taunting/backbiting) and `ل م ز B001` (covert fault-finding), with physical undertones from `ه م ز B001/B003` (pressing, prodding) and `ل م ز B002` (pushing/striking). Structural cue: the speech-pair at the start is answered by `ن ب ذ B001` and `ح ط م B001` in 104:4. Assigned role: the two speech roots supply the initial social force. Abductive move: verbal contempt is treated as pressure applied to others, so later crushing is a material return of that force. Reading change: the ayah condemns not merely insulting content but an embodied practice of squeezing, prodding, and displacing people through speech.\n\n2. **Open vocal attack plus hidden signaling.** Evidence: `ه م ز B002` (pressing a letter in speech), `ه م ز B004`, and `ل م ز B001` (eye, mouth, or hidden speech). Structural cue: the paired nouns keep two modes side by side, then 104:5-7 move from knowing to fire that reaches hearts. Assigned role: همزة marks audible articulation; لمزة marks covert insinuation. Abductive move: because the later fire exposes inner seats, the initial vice includes hidden micro-signals as well as public insult. Reading change: 104:1 reads as a social technology of harm—voice, gesture, and concealed intent.\n\n3. **\"Every\" as an enclosing totality.** Evidence: `ك ل ل B003` (totality/completeness), activated by `و ص د B001` and `ع م د B003` in 104:8-9. Structural cue: كل begins as a quantifier and the surah ends in comprehensive enclosure. Assigned role: كل gathers the type without exception. Abductive move: the totalizing judgment at the beginning anticipates total closure at the end. Reading change: \"for every\" becomes more than distribution; it previews an all-around consequence fitted to an all-encompassing habit.\n\n4. **Dulling beneath sharp contempt.** Evidence: `ك ل ل B001` (loss of sharpness in tongue, eye, hearing, sight), activated by `ح س ب B002` in 104:3 and `ف ء د B002` in 104:7. Structural cue: the speech-crime is followed by faulty reckoning and then exposure of the heart. Assigned role: كلال supplies inward dulling beneath outward verbal sharpness. Abductive move: a person can be socially sharp because inward perception is morally dulled. Reading change: the aggressor is not simply keen-tongued; his tongue and sight are compromised by a deeper dullness.",
@@ -7903,14 +8864,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8148,10 +9115,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 78487,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.827574+00:00",
+  "generated_at": "2026-08-18T13:34:29.229313+00:00",
   "surah": 102,
   "ayah": 8,
   "ayahRef": "102:8",
@@ -1769,7 +1769,8 @@
       "morpheme_ids": [
         "m-w-s102-a008-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:1"
+      "aligned_qac_word_ref_upstream": "102:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1783,7 +1784,8 @@
       "morpheme_ids": [
         "m-w-s102-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:2"
+      "aligned_qac_word_ref_upstream": "102:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1799,7 +1801,8 @@
         "m-w-s102-a008-w002-02",
         "m-w-s102-a008-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:3"
+      "aligned_qac_word_ref_upstream": "102:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1813,7 +1816,8 @@
       "morpheme_ids": [
         "m-w-s102-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:4"
+      "aligned_qac_word_ref_upstream": "102:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1827,7 +1831,8 @@
       "morpheme_ids": [
         "m-w-s102-a008-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:5"
+      "aligned_qac_word_ref_upstream": "102:8:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1843,7 +1848,8 @@
         "m-w-s102-a008-w005-01",
         "m-w-s102-a008-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:8:6"
+      "aligned_qac_word_ref_upstream": "102:8:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2336,7 +2342,989 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:8",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_account_of_bestowed_ease",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic passive لَتُسْأَلُنَّ with عَنِ makes النعيم the unavoidable object of inquiry.",
+            "mechanism": "Questioning turns enjoyed well-being from ambient circumstance into a received good with an answerable history: who received it, how it was recognized, and what was done through it.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The asking and requesting image supplies the explicit accountable speech-act directed at the addressee."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The well-being and bestowed-favor image makes the object a received benefit rather than a neutral possession."
+              }
+            ],
+            "changed_reading": {
+              "before": "You will be asked about pleasure or comfort.",
+              "after": "Every enjoyed condition appears as a bestowed relation whose reception, recognition, and use are answerable."
+            }
+          },
+          {
+            "model_id": "baseline_fulfilled_desire_reversal",
+            "confidence": "medium",
+            "focus_anchor": "The questioned object النعيم stands beside a root whose inventory includes both the desired request and its fulfillment.",
+            "mechanism": "The direction of asking reverses. Human beings first inhabit needs and sought objects that become fulfilled ease; on that day the beneficiaries themselves are addressed about what those fulfilled desires produced.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B002",
+                "role": "The sought-object image lets the inquiry echo the desires and needs that preceded possession."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B003",
+                "role": "The request-fulfillment image supplies the transition from earlier need to later enjoyed satisfaction."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The bestowed-good image identifies ease as the field in which prior requests came to fruition."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse announces an inquiry into comforts already possessed.",
+              "after": "The one whose requests were once met is now the one addressed: fulfilled desires return as questions about what their fulfillment produced."
+            }
+          },
+          {
+            "model_id": "baseline_affirmation_inside_the_object",
+            "confidence": "exploratory",
+            "focus_anchor": "النعيم remains the noun for ease, yet its root inventory also carries the response نعم, while لتسألن supplies a question.",
+            "mechanism": "A paronomastic layer makes the object of questioning resonate with an affirmative answer. The inquiry is not merely an inventory of goods; it presses the beneficiary toward acknowledgment that the good was indeed given and enjoyed.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The question image establishes a speech situation in which an answer and acknowledgment are demanded."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "The yes-and-confirmation image overlays the questioned good with the affirmative response it calls forth."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressee must list or explain enjoyed goods.",
+              "after": "The addressee is also pressed to say yes to the reality of having received and inhabited the good before accounting for it."
+            }
+          },
+          {
+            "model_id": "baseline_hidden_extraction",
+            "confidence": "exploratory",
+            "focus_anchor": "The split mapping attached to تُسْأَلُ supplies images of gentle drawing-out and extracted essence, while النعيم supplies the soft surface of ease.",
+            "mechanism": "Alongside ordinary interrogation, questioning behaves like extraction: it draws from a life softened by comfort the concealed source, residue, and consequences that had remained embedded within it.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The dominant question image keeps the model anchored in the actual speech-act."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The non-dominant drawing-out image recasts examination as the removal of something quietly embedded."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B003",
+                "role": "The extracted-essence image narrows what is drawn out to origin, substance, and transmitted consequence."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "The softness and ease image supplies the enveloping condition from which a hidden account must be drawn."
+              }
+            ],
+            "changed_reading": {
+              "before": "Questioning verbally requests information about ease.",
+              "after": "Questioning also figuratively pulls from ease what ease had hidden: its sources, dependencies, uses, and residue in the person."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_abundance_as_attention_machine",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Diversion and competitive numerical dominance turn bestowed ease into fuel for an attention-and-ranking machine. The final inquiry concerns not only possession but the conversion of good into comparison, preoccupation, and social victory.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The inquiry image makes the downstream effects of abundance answerable."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The bestowed-good image supplies the resources that can be redirected into rivalry."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "The being-occupied-away image provides the attentional displacement produced by the mechanism."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "The numerical-outdoing image supplies the comparative engine that keeps attention captured."
+              }
+            ],
+            "structural_cues": [
+              "102:1 couples diversion directly to competitive increase, while 102:8 later places enjoyed good under inquiry."
+            ],
+            "reader_inference": "The packet supplies diversion and numerical rivalry before the inquiry; I infer that enjoyed goods fuel that rivalry rather than merely coexist with it. A live alternative is that only the competitive practice, not every favor, is implicated.",
+            "changed_reading": {
+              "before": "Bestowed ease is accountable as a received good.",
+              "after": "Ease is accountable as material that can be converted into diverted attention, competitive measurement, and dominance over others."
+            }
+          },
+          {
+            "model_id": "delta_incremental_feed_loop",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "A material feedback loop appears: each added good is fed into a mill-like process whose output is still more accumulation. Questioning interrupts the loop and asks about the decision to feed every increment back into increase.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B003",
+                "role": "The casting-into-a-mill image gives diversion the concrete role of a feed mechanism."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "The growing-number image supplies the accumulating output returned by the mechanism."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B010",
+                "role": "The adding-and-going-further image turns the questioned good from a stock into repeated increments."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The inquiry image interrupts the self-renewing process and demands an account of its continuation."
+              }
+            ],
+            "structural_cues": [
+              "The two activator roots occupy one compressed opening clause, and the final verse singles out the enjoyed condition as the questioned object."
+            ],
+            "reader_inference": "The packet supplies mill-feed, numerical growth, and adding-further images; I supply the feedback arrow by which each increment becomes new feed. Alternatively, the mill image may remain an isolated material analogy without causal force.",
+            "changed_reading": {
+              "before": "The inquiry concerns a static inventory of blessings.",
+              "after": "It concerns an escalation process in which each increment of ease was made to generate appetite for the next."
+            }
+          },
+          {
+            "model_id": "delta_temporary_lodging_reopens_concealed_ease",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ر",
+              "ق ب ر"
+            ],
+            "mechanism": "Visitation, burial, and hidden low-lyingness reclassify the place that suited the beneficiary as temporary lodging. The grave closes over the enjoyed history, but the inquiry draws that history back out rather than allowing it to remain covered.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The visitor's-arrival image supplies temporary occupancy rather than permanent possession."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "The burial image supplies the bodily endpoint that interrupts settled enjoyment."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "The hidden-and-lowered image supplies concealment of the prior life and its uses."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "The agreeable-place image explains how ease can make temporary lodging feel like a settled home."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The drawing-out image makes inquiry reopen what burial and habituation had covered."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The dominant asking image keeps the reopening mechanism attached to actual questioning."
+              }
+            ],
+            "structural_cues": [
+              "The endpoint marked by حَتَّىٰ in 102:2 precedes the deictic يَوْمَئِذٍ of 102:8."
+            ],
+            "reader_inference": "The packet supplies visit, burial, concealment, and a place that agrees with its occupant; I infer that comfort produces a feeling of settlement that death revokes and questioning reopens. Alternatively, visitation may mark arrival at graves without implying a temporary-world analogy.",
+            "changed_reading": {
+              "before": "The beneficiary is questioned about comfort within a stable life setting.",
+              "after": "The beneficiary is questioned after that setting is exposed as temporary lodging, and the concealed history of settling into it is drawn back out."
+            }
+          },
+          {
+            "model_id": "delta_epistemic_marks_before_account",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ي ق ن"
+            ],
+            "mechanism": "Repeated disclosure, distinguishing marks, and settled certainty add an epistemic dimension to the account. Enjoyed goods are not only usable benefits; they can function as marks that disclose their source and obligations, making failure to recognize them part of what is questioned.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The disclosure-to-the-knower image begins the repeated movement from ignorance toward exposure."
+              },
+              {
+                "source_ref": "102:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The repeated disclosure image makes eventual knowing insistent rather than incidental."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The distinguishing-mark image lets the enjoyed good itself bear evidence that should guide recognition."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The settled-knowledge image removes doubt from the epistemic horizon of the inquiry."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The bestowed-good image is recast as both benefit and legible sign of benefaction."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The inquiry image converts missed recognition into an answerable failure rather than a neutral lack."
+              }
+            ],
+            "structural_cues": [
+              "102:3-5 repeat knowing, intensify it through the conditional لو, and move toward certainty before 102:8 asks about the enjoyed good."
+            ],
+            "reader_inference": "The packet supplies repeated disclosure, guiding marks, and certainty; I infer that favor itself can carry a recognizable mark of source and obligation. A live alternative is that the knowledge concerns only the coming consequence, not the evidentiary character of favor.",
+            "changed_reading": {
+              "before": "The inquiry asks how benefits were used.",
+              "after": "It also asks why benefits that could disclose their source and obligations were treated as mute possessions."
+            }
+          },
+          {
+            "model_id": "delta_display_then_compelled_acknowledgment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن",
+              "ي ق ن"
+            ],
+            "mechanism": "The sequence moves through showing, direct sight, and certainty before questioning. The final inquiry therefore need not discover facts; it elicits acknowledgment and particulars after the addressee has already been made an eyewitness to consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The showing-and-manifesting image supplies an externally imposed disclosure before speech begins."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "The fiercely burning image gives the disclosure an undeniable consequential object."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The eye-and-insight image intensifies disclosure into the addressee's own seeing."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "The direct-ocular-witness image removes distance between evidence and witness."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The doubt-removed image fixes the evidence before the final question."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The question image now functions as accountable address after evidence rather than information seeking."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "The affirmative-response image strengthens the reading of the answer as compelled acknowledgment."
+              }
+            ],
+            "structural_cues": [
+              "102:6-7 repeat the emphatic future seeing construction, and 102:8 repeats ثم plus the same emphatic future shape for questioning."
+            ],
+            "reader_inference": "The packet supplies manifestation, direct seeing, certainty, and then inquiry; I infer that the sequence removes fact-finding as the question's main purpose. Alternatively, the question may still seek detailed uses even when the reality of consequence is settled.",
+            "changed_reading": {
+              "before": "The final question gathers information about past comforts.",
+              "after": "It compels an already-evidenced witness to acknowledge the good and give its particulars after denial has lost its shelter."
+            }
+          },
+          {
+            "model_id": "delta_gaze_reversal",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن"
+            ],
+            "mechanism": "A visual-affective reversal emerges. What once gladdened the eye and offered an attractive scene is followed by the eye's exposure to a fiery scene; the consumer of spectacle becomes the exposed witness, and visual appetite enters the account of ease.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The scene-and-mirror image supplies the attractive visual field in which enjoyment can be organized."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B003",
+                "role": "The fiery or bulging-eye image reverses a pleased gaze into a gaze marked by exposure and alarm."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The observing-eye image locates the reversal in the same organ through which spectacle was consumed."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B013",
+                "role": "The eye-gladdening image gives questioned ease a specifically visual and affective anchor."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The inquiry image makes habits of looking and being pleased part of the account."
+              }
+            ],
+            "structural_cues": [
+              "Seeing is repeated and intensified by عين immediately before the question about النعيم."
+            ],
+            "reader_inference": "The packet supplies visual scene, fiery eye, observing eye, and eye-gladdening images; I infer a reversal from consuming sights to being an exposed witness. A live alternative is that the sequence intensifies certainty without placing visual appetite under special scrutiny.",
+            "changed_reading": {
+              "before": "The inquiry concerns comfort in an undifferentiated sense.",
+              "after": "It can also concern the economy of the gaze: what was made pleasing to see, how attention consumed it, and how the pleased observer became an exposed witness."
+            }
+          },
+          {
+            "model_id": "delta_quenching_flow_under_fire",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن"
+            ],
+            "mechanism": "The non-dominant water-bearing mapping of seeing joins fire, a flowing spring, smooth drinkability, and soft ease. This activates a material reading of نعيم as access to quenching flows and makes the question concern how life-sustaining ease was received, channeled, or withheld.",
+            "activation_trace": [
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "The non-dominant satiation-against-thirst image activates quenching as the countercondition to the fiery scene."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "The carrying-and-delivering-water image introduces distribution and mediation of the quenching resource."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "The severe-heat image creates the material pressure under which water and relief become salient."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing-spring image supplies a source from which sustaining ease can issue."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B006",
+                "role": "The smooth-flowing drink image links the question word's split mapping to embodied access and passage."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The dominant question image makes access to and handling of the flow answerable."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "The softness and ease image supplies relief as an embodied condition rather than an abstract category."
+              }
+            ],
+            "structural_cues": [
+              "The fiery object in 102:6, intensified perception in 102:7, and inquiry in 102:8 form the sequence that holds the cross-domain water activation together."
+            ],
+            "reader_inference": "The packet supplies thirst-relief, water delivery, severe heat, spring, smooth drink, and ease; I infer that heat foregrounds quenching and that delivery makes distribution morally relevant. Alternatively, the water constellation may be only a form-distant echo with no referential claim.",
+            "changed_reading": {
+              "before": "نعيم denotes general ease that must be accounted for.",
+              "after": "It can be felt materially as access to sustaining and quenching flows, with the account extending to who received them, who carried them, and who was left thirsty."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_present_value_and_loan_ledger",
+            "confidence": "exploratory",
+            "containment": "This is surprising because cash and loan are distant branches of ع ي ن; it remains anchored through النعيم as bestowed value and لتسألن as inquiry, but downstream prose should present it only as a ledger-like activation, not as a lexical gloss of النعيم.",
+            "focus_anchor": "The questioned bestowed good can be overlaid by the preceding عين inventory's images of present value and advance or loan.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "The numerical-outdoing image supplies the expanding balance that organizes social comparison."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B011",
+                "role": "The present-cash image recasts enjoyed good as value immediately held and spendable."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B012",
+                "role": "The advance-or-loan image adds entrustment, temporariness, and an eventual settlement."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The bestowed-favor image supplies value received from beyond the holder."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The question image functions as settlement of how entrusted value was handled."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressee accounts for pleasant experiences.",
+              "after": "The addressee can be imagined settling a ledger of present value that was received like an advance rather than owned without remainder."
+            }
+          },
+          {
+            "outlier_id": "outlier_narrated_testimony_after_sight",
+            "confidence": "exploratory",
+            "containment": "This activation depends on the non-dominant ر و ي mapping and is therefore form-distant; it remains anchored because emphatic seeing immediately precedes emphatic questioning and because the focus roots support dialogue and affirmation. Render it as a testimonial overlay, never as the direct morphology of ترون.",
+            "focus_anchor": "The question about النعيم can become a demand to narrate and affirm one's history of ease after direct seeing has fixed the witness's position.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The narration-of-report image converts prior seeing into testimony that can be spoken."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The doubt-removed image fixes the witness's knowledge before narration."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B004",
+                "role": "The reciprocal-questioning image supplies a dialogic frame rather than a one-way data request."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The ordinary question image keeps the testimonial overlay tied to the explicit examination."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "The affirmative-response image makes testimony culminate in acknowledgment rather than evasive narration."
+              }
+            ],
+            "changed_reading": {
+              "before": "The person answers discrete questions about blessings.",
+              "after": "The person is made to narrate a witnessed history of ease and affirm its reality within an inescapable dialogue."
+            }
+          },
+          {
+            "outlier_id": "outlier_inherited_stock_and_scattered_cohesion",
+            "confidence": "exploratory",
+            "containment": "This is a deliberately cross-domain conjunction of lineage, livestock wealth, numerical rivalry, scattering, and graves. It remains anchored in both focus roots and the surah's sequence, but downstream prose must qualify it as an activation about inherited stock and group continuity, not claim that النعيم directly means livestock or that questioning morphologically means lineage.",
+            "focus_anchor": "The split mapping of تُسألن can evoke extracted lineage, while the inventory of النعيم can evoke productive stock and the loss of group cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B003",
+                "role": "The extracted-lineage image supplies transmission of substance or status from an origin."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The dominant question image makes inherited and transmitted advantage answerable."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B005",
+                "role": "The grazing-stock image supplies a concrete form of reproductive and accumulable wealth."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B008",
+                "role": "The scattering-and-loss-of-cohesion image supplies the dissolution of the group that accumulation seemed to strengthen."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "The numerical-outdoing image supplies rivalry through descendants, dependents, or productive holdings."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "The burial image supplies the endpoint at which accumulated continuity is dispersed and reevaluated."
+              }
+            ],
+            "changed_reading": {
+              "before": "The inquiry concerns individually enjoyed comfort.",
+              "after": "It can also probe inherited and reproductive forms of abundance: what was accumulated through group continuity, transmitted as advantage, and finally scattered at the grave."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening context converts a generic audit of comfort into an inquiry about the attention-and-ranking machinery built from abundance.",
+            "Visitation and burial recast ease as temporary lodging and strengthen the image of a concealed enjoyed history being drawn back out.",
+            "Repeated knowing and unavoidable seeing make the final question evidence-following acknowledgment rather than simple information gathering.",
+            "Visual, hydraulic, financial, testimonial, and lineage activations remain live as contained overlays rather than being collapsed into one final interpretation."
+          ],
+          "what_was_special": "The focus roots themselves produced a direction reversal from fulfilled request to later questioning, a yes-like acknowledgment inside the questioned object, and a split-root extraction model. Context then activated distinct mechanisms—competitive attention, incremental feed, temporary lodging, epistemic marks, compelled witnessing, gaze reversal, and quenching flow—without forcing them into consensus.",
+          "remaining_uncertainties": [
+            "Whether the non-dominant س ل ل and ر و ي mappings are productive echoes here or only form-distant prompts.",
+            "Whether the affirmation branch of ن ع م should color the syntax of عن النعيم or remain a deliberately contained paronomastic activation.",
+            "How much causal weight to assign material branch images such as mill-feed, spring, present cash, and loan rather than to the explicit sequence alone."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Favor converted into interrogation.** Branch evidence: س ء ل B001, asking/questioning; ن ع م B001, pleasant well-being and bestowed favor; ن ع م B002, softness/easeful living; ل ه و B001, diversion; ك ث ر B002, rivalry. Structural cue: the final \"ثم\" follows knowledge and sight, and the preposition \"عن\" directs the question toward النعيم. Assigned role: نعيم is the enjoyed field; سأل turns it into the object of account. Abductive move: I infer that ease becomes answerable precisely because it had functioned as distraction and rivalry-material. Reading change: النعيم reads not as simple comfort but as favor placed under examination.\n\n2. **The asker/requester is reversed.** Branch evidence: س ء ل B001, asking/requesting; س ء ل B002, the sought request; س ء ل B003, fulfilling a request; ن ع م B001, benefaction given to another; ن ع م B004, answering yes/affirming. Structural cue: the passive \"لتسألن\" hides the interrogator while foregrounding the addressees as questioned. Assigned role: earlier نعيم implies received gifts and fulfilled wants; سأل reverses the direction of asking. Abductive move: I infer that the ones whose requests were met now become the respondents. Reading change: the ayah reads as a reversal from \"having one's wants answered\" to \"having to answer for what was wanted and granted.\"\n\n3. **Softness and livestock become concrete assets.** Branch evidence: ن ع م B002, soft/easeful living; ن ع م B005, grazing livestock especially camels; ع ي ن B011, present cash; ك ث ر B003, wealth/claims attached to persons. Structural cue: the final object النعيم is singularly broad after earlier competitive increase and eye-certainty. Assigned role: نعيم expands from pleasant feeling to bodily softness, animals, wealth, and tangible assets. Abductive move: I infer that the question reaches both comfort-experience and material supports of comfort. Reading change: the final question becomes materially concrete, not an abstract question about \"blessings\" alone.\n\n4. **Settlement, walking, and the grave-visit return.** Branch evidence: ن ع م B011, a place agreeing with someone/pleasant settlement; ن ع م B012, going on foot or using the feet; ز و ر B003, visiting; ق ب ر B001, graves. Structural cue: the surah began with being driven until a visit, and ends with a day-of-questioning after another \"ثم.\" Assigned role: نعيم B011/B012 rereads life as places one settled into and paths one walked by ease or exertion. Abductive move: I infer that the question \"about نعيم\" includes how comfort shaped movement and dwelling. Reading change: the final ayah asks not only what goods were enjoyed, but what kind of journey and settlement those goods produced.\n\n5. **Scattering after abundance.** Branch evidence: ن ع م B008, ostrich-flight image for scattering/rout/loss of cohesion; ك ث ر B007, clustering together; ك ث ر B002, rivalry by number; ق ب ر B001, graves. Structural cue: the surah moves from gathered increase to cemetery plurality and final individual questioning. Assigned role: كثر gathers; نعم B008 scatters. Abductive move: I infer that competitive cohesion dissolves when the account arrives. Reading change: النعيم can carry a surprise image of the very comfortable collectivity breaking apart under questioning.",
@@ -12679,14 +13667,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12852,10 +13846,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 72476,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

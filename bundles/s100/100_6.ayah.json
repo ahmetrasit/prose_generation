@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:18.645271+00:00",
+  "generated_at": "2026-08-18T13:34:26.032908+00:00",
   "surah": 100,
   "ayah": 6,
   "ayahRef": "100:6",
@@ -1705,7 +1705,8 @@
       "morpheme_ids": [
         "m-w-s100-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:1"
+      "aligned_qac_word_ref_upstream": "100:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1721,7 +1722,8 @@
         "m-w-s100-a006-w002-01",
         "m-w-s100-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:2"
+      "aligned_qac_word_ref_upstream": "100:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1735,7 +1737,8 @@
       "morpheme_ids": [
         "m-w-s100-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:3"
+      "aligned_qac_word_ref_upstream": "100:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1751,7 +1754,8 @@
         "m-w-s100-a006-w003-02",
         "m-w-s100-a006-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:4"
+      "aligned_qac_word_ref_upstream": "100:6:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1765,7 +1769,8 @@
       "morpheme_ids": [
         "m-w-s100-a006-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:5"
+      "aligned_qac_word_ref_upstream": "100:6:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1779,7 +1784,8 @@
       "morpheme_ids": [
         "m-w-s100-a006-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:6:6"
+      "aligned_qac_word_ref_upstream": "100:6:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3396,7 +3402,1728 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:6",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v3",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "100:6",
+        "hermeticity": {
+          "method": "I first formed focus-only models from 100:6 and its three supplied branch inventories, then tested the context root cues in packet order for changes that remained anchored in إِنسَٰنَ, رَبِّ, كَنُودٌ, or the focus construction.",
+          "limitations": "This is a one-call reconstruction made with the focus and all context visible together, not a strict staged discovery log. It uses only the sealed packet, response schema, protocol prompt, and ordinary Arabic morphology and syntax; no target reading, tafsir, other reader output, or external source was consulted."
+        },
+        "baseline_models": [
+          {
+            "model_id": "b01_relational_nonreciprocity",
+            "status": "baseline",
+            "confidence": "strong",
+            "focus_anchor": "The construction لِرَبِّهِ makes كَنُودٌ relational: the predicate is directed specifically toward the human's Rabb.",
+            "mechanism": "The human is the familiar, social being; Rabb supplies ownership and authority; kanūd supplies ingratitude toward favor and affection. The result is not generic bad character but failed reciprocity inside a constitutive relation.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B003",
+                "branch_image_ar": "الأنس الذي يزيل الوحشة",
+                "literal_contribution": "Familiarity and companionship that remove estrangement.",
+                "assigned_role": "Makes the subject intrinsically relational rather than an isolated moral unit."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "ربوبية وملك وسيادة",
+                "literal_contribution": "Lordship, ownership, and authority.",
+                "assigned_role": "Defines the relation's governing and possessive pole."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Names the nonreciprocal response inside that relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human being is ungrateful to his Lord.",
+              "after": "The socially constituted human fails reciprocity precisely within the bond of lordship, favor, and affection that sustains him."
+            }
+          },
+          {
+            "model_id": "b02_nurture_severance",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "رَبِّ and كَنُودٌ support a care-versus-cut mechanism, while the possessive pronoun keeps the cut inside 'his Rabb' relation.",
+            "mechanism": "Rabb is the one who repairs, nurtures, and completes; kanūd is cutting and separation. The human-facing side of insān sharpens the irony: the subject is grammatically turned toward the nurturer while functionally severing the channel of formation.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B004",
+                "branch_image_ar": "الجانب الإنسي المقبل على الإنسان",
+                "literal_contribution": "The near or human-facing side.",
+                "assigned_role": "Supplies an orientation toward a relational counterpart."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repair, nurture, and completion.",
+                "assigned_role": "Supplies the formative flow being resisted."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Turns ingratitude into an active rupture of nurture."
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd describes a negative attitude.",
+              "after": "Kanūd is a severing response to the very process that repairs, raises, and completes the human."
+            }
+          },
+          {
+            "model_id": "b03_barren_recipient",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "The supplied ك ن د inventory directly includes barren soil, and both mapped inventories under ر ب ب supply nurture or growth.",
+            "mechanism": "The focus can be modeled agriculturally: Rabb tends and brings growth, whereas kanūd is land that does not produce. The moral failure becomes failed yield after received cultivation, not merely missing verbal thanks.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repair, nurture, and completion.",
+                "assigned_role": "Makes Rabb the cultivative and developmental input."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000537",
+                "mapped_root_norm": "ر ب و",
+                "branch_id": "B005",
+                "branch_image_ar": "تغذية ونشوء",
+                "literal_contribution": "Nourishment and growth.",
+                "assigned_role": "The non-dominant mapped root intensifies the growth side of the contrast."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B003",
+                "branch_image_ar": "الأرض التي لا تنبت",
+                "literal_contribution": "Land that does not grow.",
+                "assigned_role": "Makes the human a non-yielding recipient of cultivation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human fails to acknowledge favors.",
+              "after": "The human is like tended ground that absorbs formative inputs yet gives no answering growth toward its cultivator."
+            }
+          },
+          {
+            "model_id": "b04_perceptual_refusal",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "إِنسَٰنَ activates perception and the reflected human in the pupil; كَنُودٌ anchors the failure as denial of favor.",
+            "mechanism": "The subject is not merely uninformed. The insān inventory evokes perceiving and even a self-image in the eye, while kanūd evokes refusal of acknowledgment. The tension permits a reflexive reading: one capable of seeing signs and seeing oneself nevertheless withholds recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B002",
+                "branch_image_ar": "إيناس الشيء برؤية أو إحساس أو سماع",
+                "literal_contribution": "Bringing something into awareness through seeing, sensing, or hearing.",
+                "assigned_role": "Supplies perceptual capacity."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B005",
+                "branch_image_ar": "إنسان العين وصورة الإنسان في السواد",
+                "literal_contribution": "The little human image in the pupil.",
+                "assigned_role": "Supplies reflexive visibility: the perceiver can become an image within perception."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Changes ignorance into resisted recognition."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human may be ungrateful because he does not notice the favor.",
+              "after": "The focus permits the sharper paradox of a perceiving, self-reflective being who sees enough to recognize yet refuses relational acknowledgment."
+            }
+          },
+          {
+            "model_id": "b05_covenant_cut",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "A remote but supplied ر ب ب branch names a covenant, while both cutting and denial are direct ك ن د branches.",
+            "mechanism": "The Rabb relation can cast a covenantal shadow: an intimate human relation is established, then kanūd both cuts it and denies its favor. This does not replace lordship with 'covenant'; it adds breach as a live relational mechanism.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B006",
+                "branch_image_ar": "ابن الإنس للنفس والصفوة",
+                "literal_contribution": "The self or an intimate chosen companion.",
+                "assigned_role": "Supplies intimacy rather than an impersonal obligation."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B011",
+                "branch_image_ar": "ربابة عهد وميثاق",
+                "literal_contribution": "A bond of عهد and ميثاق.",
+                "assigned_role": "Supplies the covenantal shadow of the Rabb relation."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Makes the failure a breach."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Keeps the breach anchored in the adjective's central relational sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus reports ingratitude.",
+              "after": "Exploratorily, it reports an intimate favor-bond being breached from the human side."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_kinetic_breach",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:1",
+              "100:5"
+            ],
+            "trigger_roots": [
+              "ع د و",
+              "ض ب ح",
+              "و س ط",
+              "ج م ع"
+            ],
+            "mechanism": "The ordered motion supplies an engine for the focus cut: running with audible exertion proceeds into the middle of something gathered, where the middle-root also offers division into halves. I infer that this motion enacts, rather than merely accompanies, the severing force of kanūd.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Focus anchor whose static cut is given a kinetic mechanism."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "mapped_root_norm": "ع د و",
+                "branch_id": "B002",
+                "branch_image_ar": "العَدْو والحَضْر",
+                "literal_contribution": "Running and rapid movement.",
+                "assigned_role": "Supplies acceleration toward rupture."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "mapped_root_norm": "ض ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The audible sound of forceful breathing.",
+                "assigned_role": "Makes the motion embodied and effortful."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "و س ط",
+                "source_phrase_ar": "وَسَطْ",
+                "mapped_root_id": "root_001646",
+                "mapped_root_norm": "و س ط",
+                "branch_id": "B003",
+                "branch_image_ar": "الدخول أو الجعل في الوسط",
+                "literal_contribution": "Entering or placing something in the middle.",
+                "assigned_role": "Locates the force inside, rather than outside, the gathered body."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "و س ط",
+                "source_phrase_ar": "وَسَطْ",
+                "mapped_root_id": "root_001646",
+                "mapped_root_norm": "و س ط",
+                "branch_id": "B006",
+                "branch_image_ar": "قطع الشيء نصفين",
+                "literal_contribution": "Cutting a thing into two halves.",
+                "assigned_role": "Directly echoes the cutting branch of kanūd."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B001",
+                "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+                "literal_contribution": "Joining dispersed parts into a gathered thing.",
+                "assigned_role": "Supplies the whole that penetration can part."
+              }
+            ],
+            "structural_cues": [
+              "The packet orders rapid motion at 100:1 before entry into a gathered middle at 100:5.",
+              "The repeated فـ progression through 100:2-5 makes the movement read as a causal-temporal sequence."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The opening motion can model the predicate's manner rather than remain an independent scene.",
+                "packet_supplies": "Running, panting, entering the middle, a branch for halving, and a gathered whole.",
+                "reader_infers": "Acceleration and penetration are the directional arrows by which the relational cut is enacted.",
+                "alternatives": [
+                  "The movement may only precede the focus rhetorically.",
+                  "The gathered body may have no social or relational correspondence to the focus."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd is a settled trait of separation.",
+              "after": "Kanūd becomes a forceful act-pattern: the human accelerates into a relation or whole and parts it from within."
+            },
+            "minimal_triggers": [
+              "100:1 عَٰدِيَٰتِ with running",
+              "100:5 وَسَطْ with entering/halving",
+              "100:5 جَمْعًا with gathered wholeness",
+              "Focus كَنُودٌ with cutting"
+            ],
+            "ablation": "Without the middle/halving and gathering cues, the opening remains mere speed; without the focus cutting branch, the sequence does not become a reading of 100:6."
+          },
+          {
+            "model_id": "d02_reveal_conceal_oscillation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:2",
+              "100:3",
+              "100:4"
+            ],
+            "trigger_roots": [
+              "و ر ي",
+              "ق د ح",
+              "غ ي ر",
+              "ص ب ح",
+              "ث و ر",
+              "ن ق ع"
+            ],
+            "mechanism": "A concealed fire is struck into appearance; morning opens visibility; something is stirred and spread outward; then raised dust alters or occludes the image. Against insān as visible and perceptive, kanūd becomes a latent condition that activity repeatedly exposes and re-veils.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B001",
+                "branch_image_ar": "ظهور الإنسان المخالف للتوحش والجن",
+                "literal_contribution": "Visible human presence contrasted with hidden or wild beings.",
+                "assigned_role": "Anchors the model in the subject's visibility."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B002",
+                "branch_image_ar": "إيناس الشيء برؤية أو إحساس أو سماع",
+                "literal_contribution": "Perceiving something into awareness.",
+                "assigned_role": "Anchors the model in the subject's capacity to notice disclosure."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Names the hidden condition being disclosed."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "Latent fire emerging from flint.",
+                "assigned_role": "Supplies hidden potential becoming visible."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B005",
+                "branch_image_ar": "ستر الشيء وجعله وراء الظهور",
+                "literal_contribution": "Covering a thing and putting it behind appearance.",
+                "assigned_role": "Supplies the counter-motion of concealment."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "mapped_root_norm": "ق د ح",
+                "branch_id": "B001",
+                "branch_image_ar": "إيراء النار بالقدح",
+                "literal_contribution": "Kindling fire by striking.",
+                "assigned_role": "Supplies friction as the disclosure event."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "غ ي ر",
+                "source_phrase_ar": "مُغِيرَٰتِ",
+                "mapped_root_id": "root_001119",
+                "mapped_root_norm": "غ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "تغيير الصورة أو إبدال الشيء بغيره",
+                "literal_contribution": "Changing an image or replacing a thing with another.",
+                "assigned_role": "Marks instability in what appears."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "ص ب ح",
+                "source_phrase_ar": "صُبْحًا",
+                "mapped_root_id": "root_000839",
+                "mapped_root_norm": "ص ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "الصبح وأول النهار",
+                "literal_contribution": "Morning and the first of daylight.",
+                "assigned_role": "Supplies a widening field of visibility."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "mapped_root_norm": "ث و ر",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "A thing rising and spreading outward visibly.",
+                "assigned_role": "Extends disclosure from spark to distributed sign."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "mapped_root_norm": "ن ق ع",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "A cloud of stirred dust.",
+                "assigned_role": "Re-veils what the preceding light and emergence exposed."
+              }
+            ],
+            "structural_cues": [
+              "100:2-4 move in packet order from ignition to morning visibility to outward stirring and dust.",
+              "The focus follows this oscillation and asserts the human condition with emphatic particles."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The visible/hidden alternation can qualify how the focus condition becomes knowable.",
+                "packet_supplies": "Latent fire, striking, daylight, visible spreading, image-change, dust, and an insān inventory of visibility and perception.",
+                "reader_infers": "Human action is the friction that reveals kanūd, while its consequences can also obscure recognition.",
+                "alternatives": [
+                  "The sequence may describe only external visibility.",
+                  "Dust may be a result without any epistemic role."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus simply labels an inward trait.",
+              "after": "Kanūd is latent but not inaccessible: exertion strikes it into signs, even as the human's own activity raises a veil over those signs."
+            },
+            "minimal_triggers": [
+              "100:2 latent fire and striking",
+              "100:4 visible stirring and dust",
+              "Focus إِنسَٰنَ as visible/perceiving",
+              "Focus كَنُودٌ as the disclosed condition"
+            ],
+            "ablation": "Removing the latent-fire pair loses emergence; removing dust loses the concealment reversal; removing the insān visibility branches leaves a generic fire metaphor rather than a changed focus reading."
+          },
+          {
+            "model_id": "d03_habitual_asymmetry",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:1",
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ع د و",
+              "ر ب ب"
+            ],
+            "mechanism": "The non-dominant ع و د mapping contributes habit and a returning benefit; the closing repetition of Rabb contributes sustained nurture and duration. I infer recurrence: benefits and care return, yet the human's severing nonresponse also hardens into a repeated disposition.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B007",
+                "branch_image_ar": "لزوم وإقامة ودوام",
+                "literal_contribution": "Adherence, staying, and duration.",
+                "assigned_role": "Anchors ongoing rather than episodic lordly relation."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Names the nonreturn within recurring benefit."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_001058",
+                "mapped_root_norm": "ع و د",
+                "branch_id": "B004",
+                "branch_image_ar": "عادة ودرَبة ومواظبة",
+                "literal_contribution": "Habit, practiced routine, and persistence.",
+                "assigned_role": "Turns the predicate from an isolated act into a rehearsed pattern."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_001058",
+                "mapped_root_norm": "ع و د",
+                "branch_id": "B006",
+                "branch_image_ar": "عائدة ومعروف يرجع",
+                "literal_contribution": "A returning benefit or kindness.",
+                "assigned_role": "Supplies the recurring gift to which no reciprocal acknowledgment returns."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبَّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repair, nurture, and completion.",
+                "assigned_role": "Reasserts care at the end of the context."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبَّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B007",
+                "branch_image_ar": "لزوم وإقامة ودوام",
+                "literal_contribution": "Adherence, staying, and duration.",
+                "assigned_role": "Closes the sequence with continuity on the Rabb side."
+              }
+            ],
+            "structural_cues": [
+              "The packet begins with a root split that includes return/habit and ends by repeating رَبّ from the focus.",
+              "The repeated Rabb makes 100:6 and 100:11 a relational frame around the later disclosures."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The accepted non-dominant ع و د mapping can modulate the temporal profile of kanūd.",
+                "packet_supplies": "Branches for habit, returning benefit, duration, and repeated nurture.",
+                "reader_infers": "The asymmetry recurs: care returns, acknowledgment does not.",
+                "alternatives": [
+                  "The ع و د branches may remain only remote mapping material.",
+                  "Duration may characterize Rabb without implying repeated human refusal."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus may report one instance of ingratitude.",
+              "after": "It names a rehearsed asymmetry: sustaining benefit repeatedly returns while the human repeatedly withholds relational return."
+            },
+            "minimal_triggers": [
+              "100:1 non-dominant ع و د branches for habit and returning favor",
+              "100:11 repeated رَبَّ with duration",
+              "Focus كَنُودٌ as denial of favor"
+            ],
+            "ablation": "Without the ع و د split, persistence is much weaker; without the closing Rabb repetition, the model loses its enclosing care-versus-nonreturn structure."
+          },
+          {
+            "model_id": "d04_self_witness",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:7",
+              "100:9"
+            ],
+            "trigger_roots": [
+              "ش ه د",
+              "ع ل م"
+            ],
+            "mechanism": "The perceiving human and the reflected human in the pupil meet witness as presence/viewing and as a sign, then knowledge as disclosure and a distinguishing mark. One live reading is self-attestation: the human's own perception, embodied signs, and acts witness the kanūd condition.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B002",
+                "branch_image_ar": "إيناس الشيء برؤية أو إحساس أو سماع",
+                "literal_contribution": "Perception through seeing, sensing, or hearing.",
+                "assigned_role": "Makes the human capable of being an internal witness."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B005",
+                "branch_image_ar": "إنسان العين وصورة الإنسان في السواد",
+                "literal_contribution": "The human image in the pupil.",
+                "assigned_role": "Makes witnessing reflexive: the human appears within the organ of sight."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "The condition to which testimony attaches."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B001",
+                "branch_image_ar": "الحضور مع المشاهدة",
+                "literal_contribution": "Presence together with seeing.",
+                "assigned_role": "Supplies direct self-presence to the evidence."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A sign that bears witness.",
+                "assigned_role": "Allows conduct or embodiment to testify even without confession."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "mapped_root_norm": "ع ل م",
+                "branch_id": "B001",
+                "branch_image_ar": "انكشاف الشيء للعارف",
+                "literal_contribution": "A thing becoming disclosed to the knower.",
+                "assigned_role": "Turns latent self-evidence into possible recognition."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "mapped_root_norm": "ع ل م",
+                "branch_id": "B002",
+                "branch_image_ar": "أثر يميز الشيء ويهدي إليه",
+                "literal_contribution": "A mark that distinguishes and guides to a thing.",
+                "assigned_role": "Links the witness to trace-like evidence."
+              }
+            ],
+            "structural_cues": [
+              "100:7 immediately follows the focus and uses a pronoun whose referent the packet does not independently disambiguate.",
+              "100:9 turns from testimony to the question of knowing."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The 100:7 witness can be carried by the human rather than only by an external knower.",
+                "packet_supplies": "A perceiving human, the pupil's reflected human, witnessing presence, a witnessing sign, disclosure, and a distinguishing trace.",
+                "reader_infers": "The human's own sensorium and conduct make the denial self-evidencing.",
+                "alternatives": [
+                  "The witness may instead be Rabb.",
+                  "The witness may be conduct alone without reflexive self-knowledge."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "100:6 is an accusation delivered from outside the human.",
+              "after": "One coexisting reading makes the human and his traces witnesses against the denial: the perceiver carries the evidence of what he refuses to acknowledge."
+            },
+            "minimal_triggers": [
+              "Focus إِنسَٰنَ as perceiver",
+              "100:7 شَهِيدٌ as presence/sign",
+              "Focus كَنُودٌ as the testified condition"
+            ],
+            "ablation": "Without the insān perception branches, this collapses into generic testimony; without 100:7, the focus does not independently generate a witness relation. The 100:9 roots sharpen but are not indispensable."
+          },
+          {
+            "model_id": "d05_divine_expert_witness",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:7",
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ش ه د",
+              "ر ب ب",
+              "خ ب ر"
+            ],
+            "mechanism": "A competing reading keeps the witness external to the human: witness can be declaration grounded in knowledge, and the closing repetition of Rabb is joined to expert knowledge of the inward matter. The focus assertion then reads as an informed diagnosis by the same Rabb toward whom kanūd is directed.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "ربوبية وملك وسيادة",
+                "literal_contribution": "Lordship, ownership, and authority.",
+                "assigned_role": "Anchors the knower as the focus relation's Rabb."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "The diagnosed relational condition."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B002",
+                "branch_image_ar": "البيان بعلم",
+                "literal_contribution": "Declaration grounded in knowledge.",
+                "assigned_role": "Allows witness to be expert affirmation."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبَّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "ربوبية وملك وسيادة",
+                "literal_contribution": "Lordship, ownership, and authority.",
+                "assigned_role": "Identifies the closing knower with the focus relation."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Knowledge of the report and the matter's interior.",
+                "assigned_role": "Supplies access to the hidden basis of the focus judgment."
+              }
+            ],
+            "structural_cues": [
+              "The focus Rabb reappears at 100:11 as the subject associated with خَبِير.",
+              "The emphatic assertion at 100:6 is answered by emphatic expert knowledge at the sequence's close."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The witness and closing expert knower can be read as one evidentiary pole.",
+                "packet_supplies": "Witness as declaration by knowledge, repeated Rabb, and knowledge of the interior.",
+                "reader_infers": "Rabb authoritatively diagnoses kanūd rather than merely reacting to visible behavior.",
+                "alternatives": [
+                  "The witness at 100:7 may be the human.",
+                  "The closing knowledge may confirm a separate witness rather than identify it."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "100:6 is a general moral claim.",
+              "after": "A coexisting reading makes it the Rabb's expert diagnosis of a relational condition whose inward basis is fully known."
+            },
+            "minimal_triggers": [
+              "100:7 witness as declaration by knowledge",
+              "100:11 repeated رَبَّ",
+              "100:11 خَبِيرٌۢ as knowledge of the interior"
+            ],
+            "ablation": "Without repeated Rabb, the expert knower is less tightly tied to لِرَبِّهِ; without خَبِير, the reading loses inward diagnostic force. This model intentionally does not eliminate the self-witness model."
+          },
+          {
+            "model_id": "d06_displaced_attachment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:8"
+            ],
+            "trigger_roots": [
+              "ح ب ب",
+              "خ ي ر",
+              "ش د د"
+            ],
+            "mechanism": "The context denies that kanūd is simple lovelessness. Love is present and lodged in the heart, but it fastens around useful good and gift; شدت supplies both a tightened bond and avarice. I infer a competition of bonds: attachment to what is received displaces acknowledgment of the giver.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repair, nurture, and completion.",
+                "assigned_role": "Makes Rabb the source of formative good."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Defines the failed giver-directed bond."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love adhering to the heart.",
+                "assigned_role": "Shows that attachment is intense and inward, not absent."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "The heart's innermost dark core.",
+                "assigned_role": "Locates the attachment at an inward center."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Inclination toward useful good.",
+                "assigned_role": "Specifies the attachment's object as benefit."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Generosity and gift.",
+                "assigned_role": "Makes the loved good legible as something given."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "Tightening a knot or bond.",
+                "assigned_role": "Turns love into a constricting attachment."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Intensity of avarice.",
+                "assigned_role": "Explains why received good is retained without reciprocal acknowledgment."
+              }
+            ],
+            "structural_cues": [
+              "100:8 places love, good, and intensity in one compact construction immediately after the witness statement.",
+              "The focus directs kanūd toward Rabb, whereas 100:8 directs intense attachment toward good."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The two directed relations can compete for the human's attachment.",
+                "packet_supplies": "Denial of favor, heart-adhering love, useful good/gift, tightened bond, and avarice.",
+                "reader_infers": "The bond to the gift tightens as the bond to the giver is cut.",
+                "alternatives": [
+                  "Love of good may merely coexist with ingratitude without causing it.",
+                  "Shiddah may indicate force without avarice or binding."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd is a lack of affection or gratitude.",
+              "after": "Kanūd is misdirected attachment: the human loves and grips the received good so tightly that the giver-directed bond is denied."
+            },
+            "minimal_triggers": [
+              "100:8 love adhering to the heart",
+              "100:8 good as useful benefit or gift",
+              "100:8 intensity as binding and avarice",
+              "Focus كَنُودٌ as denial of favor"
+            ],
+            "ablation": "Without the binding/avarice branches, this is only preference; without gift and focus ingratitude, it no longer describes displaced reciprocity."
+          },
+          {
+            "model_id": "d07_exhumed_interior",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:9",
+              "100:10",
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ع ل م",
+              "ب ع ث ر",
+              "ق ب ر",
+              "ح ص ل",
+              "ص د ر",
+              "خ ب ر"
+            ],
+            "mechanism": "The later sequence supplies an epistemic excavation: what is hidden low is overturned, the kernel is extracted from its covering, the chest is the source from which acts issue, and the interior is expertly known. Kanūd shifts from visible conduct to the buried generator of conduct.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "The focus condition whose depth is revised."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "mapped_root_norm": "ع ل م",
+                "branch_id": "B001",
+                "branch_image_ar": "انكشاف الشيء للعارف",
+                "literal_contribution": "Disclosure of a thing to the knower.",
+                "assigned_role": "Sets the sequence's epistemic aim."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Turning soil over and exposing what is buried.",
+                "assigned_role": "Supplies the first uncovering operation."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "mapped_root_norm": "ق ب ر",
+                "branch_id": "B002",
+                "branch_image_ar": "غموض الشيء وتطامنه",
+                "literal_contribution": "A thing's obscurity and low concealment.",
+                "assigned_role": "Supplies the hidden state from which disclosure proceeds."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "Extracting the kernel or precious part from its covering.",
+                "assigned_role": "Moves from opening the ground to isolating the inward core."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "mapped_root_norm": "ص د ر",
+                "branch_id": "B004",
+                "branch_image_ar": "الأصل الذي تصدر عنه الأفعال",
+                "literal_contribution": "The origin from which acts issue.",
+                "assigned_role": "Locates kanūd at the generative source of behavior."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Knowledge of the report and the affair's interior.",
+                "assigned_role": "Completes the movement from outer trace to inward cause."
+              }
+            ],
+            "structural_cues": [
+              "100:9-11 proceed from knowing, to overturning concealment, to extracting what is in chests, to expert inward knowledge.",
+              "The passive forms at 100:9-10 foreground operations on what was hidden before the closing knower is named."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The material exhumation can model disclosure of the focus predicate's source.",
+                "packet_supplies": "Burial/obscurity, overturned soil, kernel extraction, chests as origins of acts, and inward expertise.",
+                "reader_infers": "Kanūd is rooted beneath outward conduct and is excavated as its generative core.",
+                "alternatives": [
+                  "The buried and inward domains may remain parallel rather than causal.",
+                  "What is extracted may be deeds or intentions without privileging kanūd."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd is inferred from outward failures of gratitude.",
+              "after": "Kanūd is the buried, action-generating orientation inside the chest, recoverable by an ordered disclosure that strips away its coverings."
+            },
+            "minimal_triggers": [
+              "100:9 overturning soil and exposing the buried",
+              "100:10 extracting a kernel",
+              "100:10 chest as the source of acts",
+              "100:11 knowledge of the interior"
+            ],
+            "ablation": "Without the chest-origin branch, exhumation remains merely external; without kernel extraction and interior knowledge, the focus is exposed but not relocated to a generative core."
+          },
+          {
+            "model_id": "d08_cultivated_non_yield",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:3",
+              "100:8",
+              "100:10",
+              "100:11"
+            ],
+            "trigger_roots": [
+              "غ ي ر",
+              "ح ب ب",
+              "خ ي ر",
+              "ح ص ل",
+              "خ ب ر"
+            ],
+            "mechanism": "The baseline barren-land reading gains a full cultivation cycle: provision, watering, and repair; seed and gift; extraction of kernel or residue; then knowledge and working of soft earth. I infer that Rabb's nurture is input and the human's kanūd is failed yield despite that input.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repair, nurture, and completion.",
+                "assigned_role": "Anchors Rabb as cultivator and developmental input."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000537",
+                "mapped_root_norm": "ر ب و",
+                "branch_id": "B005",
+                "branch_image_ar": "تغذية ونشوء",
+                "literal_contribution": "Nourishment and growth.",
+                "assigned_role": "Adds the non-dominant growth branch without collapsing the split mapping."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B003",
+                "branch_image_ar": "الأرض التي لا تنبت",
+                "literal_contribution": "Land that does not grow.",
+                "assigned_role": "Focus anchor for non-yield."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "غ ي ر",
+                "source_phrase_ar": "مُغِيرَٰتِ",
+                "mapped_root_id": "root_001119",
+                "mapped_root_norm": "غ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الصلاح والمنفعة بالميرة والسقي والإصلاح",
+                "literal_contribution": "Benefit through provision, watering, and repair.",
+                "assigned_role": "Supplies material inputs to cultivation."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "الحبة التي تنبت وتحمل الحب",
+                "literal_contribution": "The seed that sprouts and bears grain.",
+                "assigned_role": "Supplies reproductive potential."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B005",
+                "branch_image_ar": "الكرم والهبة",
+                "literal_contribution": "Generosity and gift.",
+                "assigned_role": "Frames the seed/input as received benefit."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "Extracting the kernel or precious part from its covering.",
+                "assigned_role": "Tests whether inward yield exists."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B003",
+                "branch_image_ar": "البقية والحثالة بعد الرفع أو الفصل",
+                "literal_contribution": "The remainder or dregs after lifting and separation.",
+                "assigned_role": "Supplies the possibility that cultivation leaves only residue."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B002",
+                "branch_image_ar": "لين الأرض ومائها",
+                "literal_contribution": "Softness of earth and its water.",
+                "assigned_role": "Returns the closing expertise to the soil domain."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B003",
+                "branch_image_ar": "إصلاح الأرض بالمخابرة",
+                "literal_contribution": "Working or repairing land through cultivation.",
+                "assigned_role": "Makes the final knower also legible as one who knows cultivated ground."
+              }
+            ],
+            "structural_cues": [
+              "The cues distribute a material sequence across provision/watering, seed/gift, extraction, and cultivated earth.",
+              "The focus itself already pairs nurture/growth with non-growing land."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The scattered agricultural branches can form one response-and-yield mechanism around the direct barren-land anchor.",
+                "packet_supplies": "Nurture, growth, watering, seed, gift, kernel/residue, soft earth, cultivation, and barren land.",
+                "reader_infers": "Received care should produce relational yield; kanūd names the failure of that response.",
+                "alternatives": [
+                  "The branches may be independent material analogies.",
+                  "The extracted kernel may reveal hidden value rather than failed yield."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The barren-land branch is an isolated metaphor for ingratitude.",
+              "after": "The context activates an entire ecology: the human receives water, seed, gift, and cultivation yet remains non-yielding toward the one who nurtures him."
+            },
+            "minimal_triggers": [
+              "Focus كَنُودٌ as land that does not grow",
+              "Focus رَبِّ as nurture/growth",
+              "100:8 seed",
+              "100:11 cultivation of soft earth"
+            ],
+            "ablation": "Without the direct barren-soil anchor this becomes free agricultural imagery; without nurture and cultivation, barrenness loses its relational cause. Provision and extraction strengthen but are not individually required."
+          },
+          {
+            "model_id": "d09_fragmentation_recollection",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:5",
+              "100:9",
+              "100:10"
+            ],
+            "trigger_roots": [
+              "ج م ع",
+              "ب ع ث ر",
+              "ح ص ل"
+            ],
+            "mechanism": "The context alternates wholeness, dispersal, and collection: parts become a complete gathered thing, goods are scattered and overturned, then everything is collected until its result and residue appear. Kanūd as cutting becomes fragmentation whose pieces are later recollected into an inspectable total.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Anchors fragmentation in the focus predicate."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B001",
+                "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+                "literal_contribution": "Joining dispersed parts into one gathered thing.",
+                "assigned_role": "Supplies the pre-cut and post-cut possibility of wholeness."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B009",
+                "branch_image_ar": "اكتمال الشيء كله بلا تفرق أو نقص",
+                "literal_contribution": "Completion of a whole without dispersal or lack.",
+                "assigned_role": "Defines the integrity opposed by kanūd."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B002",
+                "branch_image_ar": "تبديد المتاع وقلب بعضه على بعض",
+                "literal_contribution": "Scattering goods and turning them over one upon another.",
+                "assigned_role": "Materializes the disorder produced by separation."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B001",
+                "branch_image_ar": "جمع الشيء حتى يظهر حاصله",
+                "literal_contribution": "Collecting a thing until its result becomes visible.",
+                "assigned_role": "Reverses dispersal by making a total appear."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B003",
+                "branch_image_ar": "البقية والحثالة بعد الرفع أو الفصل",
+                "literal_contribution": "The remainder or dregs after separation.",
+                "assigned_role": "Makes the final residue of the human's cut inspectable."
+              }
+            ],
+            "structural_cues": [
+              "A gathered whole at 100:5 precedes the focus cut; scattering at 100:9 is followed by collection at 100:10.",
+              "The sequence does not end in dispersal: it ends in an exposed حاصل."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The later collecting operation reverses the focus's separating operation.",
+                "packet_supplies": "Wholeness, cutting, scattering, recollection, visible result, and residue.",
+                "reader_infers": "Relational fragmentation cannot remain diffuse; it is reassembled as an accountable total.",
+                "alternatives": [
+                  "The gathering and scattering may concern different objects.",
+                  "Collection may disclose contents without reversing kanūd."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd severs a bond and leaves it broken.",
+              "after": "Kanūd fragments relation and benefit, but the context imagines those fragments later recollected until the human's resultant remainder becomes visible."
+            },
+            "minimal_triggers": [
+              "Focus كَنُودٌ as cutting",
+              "100:5 gathered wholeness",
+              "100:9 scattering",
+              "100:10 collection to a visible result"
+            ],
+            "ablation": "Without scattering, collection is not a reversal; without the focus cutting branch, the material cycle does not specifically revise 100:6."
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_lots_receptacle_accounting",
+            "confidence": "exploratory",
+            "why_surprising": "It activates a very remote ر ب ب nominal branch—ربابة as a receptacle gathering casting arrows—through the packet's later ق د ح, gathering, and collection branches.",
+            "why_still_valid": "The cross-branch lock is unusually exact: the focus Rabb inventory supplies a receptacle that gathers قداح, 100:2 supplies the gaming-arrow branch of قدح, and 100:5/100:10 supply gathering to a result. كَنُودٌ still anchors the reading in denial of received favor.",
+            "focus_anchor": "رَبِّ through the supplied ربابة/قداح branch and كَنُودٌ through denial of favor.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B010",
+                "branch_image_ar": "ربابة تجمع القداح",
+                "literal_contribution": "A rabābah receptacle that gathers casting arrows.",
+                "assigned_role": "Provides the focus-side container for the lots image."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Keeps the outlier about reception without acknowledgment."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "mapped_root_norm": "ق د ح",
+                "branch_id": "B007",
+                "branch_image_ar": "عود السهم والقدح في الميسر",
+                "literal_contribution": "An arrow shaft and a casting arrow used in maysir.",
+                "assigned_role": "Activates the exact object gathered by the remote focus branch."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B001",
+                "branch_image_ar": "ضم المتفرق حتى يصير شيئا مجموعا",
+                "literal_contribution": "Gathering dispersed objects into one thing.",
+                "assigned_role": "Reinforces the receptacle operation."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B001",
+                "branch_image_ar": "جمع الشيء حتى يظهر حاصله",
+                "literal_contribution": "Collecting until the result appears.",
+                "assigned_role": "Turns gathered lots into an eventual disclosed outcome."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human simply receives favors from his Lord and denies them.",
+              "after": "Exploratorily, he treats received portions like chance lots gathered without a giver-relation, while the sequence later gathers those portions into a disclosed result."
+            },
+            "rendering_caution": "Do not gloss رَبِّ as a gaming receptacle or claim that maysir is the verse's referent. Preserve this only as a packet-induced material echo that reframes reception and accounting."
+          },
+          {
+            "outlier_id": "o02_panting_self_inflation",
+            "confidence": "exploratory",
+            "why_surprising": "It uses the non-dominant ر ب و mapping under focus ر ب ب, specifically rising breath and swelling, and couples it to panting and charging.",
+            "why_still_valid": "The packet explicitly preserves the split mapping; 100:1 supplies forceful breath and running, 100:8 supplies a forceful charge, and focus كَنُودٌ supplies separation. The mechanism remains attached to the focus Rabb mapping rather than becoming free body imagery.",
+            "focus_anchor": "The split ر ب ب → ر ب و branch at رَبِّ and the separation branch at كَنُودٌ.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000537",
+                "mapped_root_norm": "ر ب و",
+                "branch_id": "B004",
+                "branch_image_ar": "تصعد النفس وانتفاخه",
+                "literal_contribution": "Breath rising and swelling.",
+                "assigned_role": "Supplies corporeal self-expansion within the focus root split."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Makes the swelling coincide with relational severance."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "mapped_root_norm": "ض ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The sound of panting.",
+                "assigned_role": "Audibly activates the breath branch."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "mapped_root_norm": "ع د و",
+                "branch_id": "B002",
+                "branch_image_ar": "العَدْو والحَضْر",
+                "literal_contribution": "Running and rapid movement.",
+                "assigned_role": "Supplies the exertion that drives breath upward."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B003",
+                "branch_image_ar": "شد الحملة والعدو",
+                "literal_contribution": "Pressing a charge or run.",
+                "assigned_role": "Extends exertive drive into the human's attachment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus contrasts the human with his Lord in abstract moral terms.",
+              "after": "Exploratorily, the charging human swells with exertive breath and self-expansion at the same moment that he cuts the sustaining relation."
+            },
+            "rendering_caution": "Keep this as a somatic echo licensed by a non-dominant mapped root, not as the lexical sense of رَبِّ or as an identification of the opening agents."
+          },
+          {
+            "outlier_id": "o03_contagious_interior_corrosion",
+            "confidence": "exploratory",
+            "why_surprising": "It crosses social, pathological, and epistemic domains: contagion, a disease eating the interior or lung, a gathering, the chest, and expert inward knowledge.",
+            "why_still_valid": "إِنسَٰنَ supplies visible social humanity, كَنُودٌ supplies the denied favor, and the context branches form a possible transmission-to-interior mechanism rather than an unanchored disease theme.",
+            "focus_anchor": "The social-human branch of إِنسَٰنَ and the ingratitude branch of كَنُودٌ.",
+            "activation_trace": [
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B001",
+                "branch_image_ar": "ظهور الإنسان المخالف للتوحش والجن",
+                "literal_contribution": "Visible human presence, individually or collectively.",
+                "assigned_role": "Anchors the pathology reading in human social presence."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Names the condition being modeled as corrosion."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "mapped_root_norm": "ع د و",
+                "branch_id": "B006",
+                "branch_image_ar": "العَدْوى في انتقال الداء",
+                "literal_contribution": "Contagion in the transmission of disease.",
+                "assigned_role": "Supplies possible movement of the condition between humans."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B001",
+                "branch_image_ar": "داء يأكل الجوف أو يصيب الرئة",
+                "literal_contribution": "A disease that eats the interior or strikes the lung.",
+                "assigned_role": "Supplies hidden inward corrosion."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B002",
+                "branch_image_ar": "جماعة اجتمعت أو أخلاط ضمتها الجهة",
+                "literal_contribution": "A gathered group or mixture joined by one direction.",
+                "assigned_role": "Provides the social medium in which transmission is imaginable."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "mapped_root_norm": "ص د ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الصدر الجارحة وما يتصل بها",
+                "literal_contribution": "The bodily chest and what connects to it.",
+                "assigned_role": "Locates the corrosion in the bodily-inward domain."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Knowledge of the matter's interior.",
+                "assigned_role": "Makes the hidden corrosion detectable."
+              }
+            ],
+            "changed_reading": {
+              "before": "Kanūd is an individual's moral failure.",
+              "after": "Exploratorily, it is an inward corrosion of social humanity that can propagate through a gathered direction while remaining fully visible to inward expertise."
+            },
+            "rendering_caution": "Do not medicalize the ayah, claim literal contagion, or treat a branch possibility as doctrine. Carry it only as a cross-domain model of how relational denial can become socially transmissible and inwardly corrosive."
+          }
+        ],
+        "discarded_or_unchanged": [
+          "Proper-name and isolated creature branches—such as كندة, the bull, named birds, and tribal labels—did not produce a changed reading anchored more strongly than the retained mechanisms.",
+          "Peripheral food, drink, vessel, nose-tip, thigh-protuberance, and similar object branches remained unintegrated or merely repeated the stronger cultivation, embodiment, or collection models.",
+          "The justice/mediation senses of وَسَطْ, the otherness/exception senses of مُغِيرَٰتِ, and childbirth or honey senses of شَهِيدٌ did not establish a causal link back to كَنُودٌ.",
+          "Literal morning time and literal charging remain important sequence cues, but by themselves they do not change 100:6; they were retained only where they participate in kinetic or reveal/conceal mechanisms.",
+          "A direct equation of Rabb with growth, covenant, lots, or breath was rejected. Those branches survive only as contained activations alongside the dominant lordship/nurture anchor."
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Kanūd changed from a static label into enacted and habituated severance: motion penetrates a gathered whole, while recurring benefit receives no relational return.",
+            "100:8 changed ingratitude from absence of love into displaced attachment: love tightens around useful gift and can become avaricious while the giver-bond is cut.",
+            "100:9-11 changed an outward moral judgment into an excavation of the inward source from which acts issue.",
+            "The barren-land branch expanded into a full nurture-seed-cultivation-yield mechanism rather than remaining a decorative metaphor.",
+            "Self-witness and divine expert witness remain coexisting readings; neither was collapsed into the other.",
+            "Gathering, scattering, and recollection changed cutting into fragmentation that is later totaled and made visible."
+          ],
+          "what_was_special": "The focus inventories already contain unusually productive tensions—social familiarity versus separation, nurture/growth versus barren soil, perception versus denial, and a split Rabb mapping. The ordered context then supplies motion, ignition, concealment, witness, gift-binding, burial, extraction, and repeated Rabb, allowing several causal models and a few branch-distant outliers to coexist without selecting one final interpretation.",
+          "remaining_uncertainties": [
+            "The packet does not force a single referent for the witness in 100:7, so self-attestation and Rabb's expert testimony remain genuinely competitive.",
+            "The arrows from opening motion to human severance, and from material exhumation to inward moral disclosure, are reader inferences rather than packet-stated equations.",
+            "Agricultural and collection models are strongly cross-anchored but remain analogical; the packet does not specify that the human literally is soil, seed, residue, or an account.",
+            "The lots, breath-swelling, and contagion models depend on remote or non-dominant branch activations and require explicit containment in any downstream rendering."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Human as visible domestic being who severs nurture.** Evidence: ء ن س B001 visible human presence, B003 familiarity/comfort; ر ب ب B002 nurture/completion and B001 lordship/authority; ك ن د B001 severing, B002 ingratitude. Structural cue: the oaths about animals/forces give way to \"the human\" in relation to \"his Lord.\" Role: insān supplies the tamed/familiar creature; rabb supplies the nurturing owner; kanud names the cut. Abductive move: ingratitude is intelligible as a domesticated dependent refusing the relation that made it stable. Reading change: the ayah reads as a relational rupture, not merely a trait-label.\n\n2. **Barren land after withheld rain.** Evidence: ك ن د B003 barren nonproductive land; ر ب ب B008 low/layered cloud and B013 abundant collected water; غ ي ر B001 watering/repair; ن ق ع B002 quenching. Structural cue: the first half is arid dust and heat; the divine side has cloud/water/nurture branches. Role: kanud turns the human into land that yields nothing under care. Abductive move: gratitude should be the \"produce\" of nurture; its absence is barrenness. Reading change: the accusation becomes ecological: the human is nonproductive ground under a sustaining Lord.\n\n3. **False autonomy of the gathered self.** Evidence: ء ن س B006 self/intimate companion; ج م ع B009 wholeness/allness; ر ب ب B001 ownership; ك ن د B002 self-serving withholding. Structural cue: 100:5's gathered center is immediately followed by a possessive relation to Rabb. Role: the human self is an internally gathered companion to itself; rabb asserts external ownership. Abductive move: self-gathering becomes morally corrupt when it denies the owner/nurturer. Reading change: the ayah reads as a critique of self-contained subjectivity.",
@@ -14807,14 +16534,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 79,
+        "ayah_count": 11,
+        "row_count": 72,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15170,10 +16903,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s100/readers/reader_hft_a/100_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v3",
+          "baseline_models": 5,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s100"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s100",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 121505,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

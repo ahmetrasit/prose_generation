@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.585043+00:00",
+  "generated_at": "2026-08-18T13:34:06.811963+00:00",
   "surah": 90,
   "ayah": 20,
   "ayahRef": "90:20",
@@ -1075,7 +1075,8 @@
         "m-w-s090-a020-w001-01",
         "m-w-s090-a020-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "90:20:1"
+      "aligned_qac_word_ref_upstream": "90:20:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1089,7 +1090,8 @@
       "morpheme_ids": [
         "m-w-s090-a020-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:20:2"
+      "aligned_qac_word_ref_upstream": "90:20:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1103,7 +1105,8 @@
       "morpheme_ids": [
         "m-w-s090-a020-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:20:3"
+      "aligned_qac_word_ref_upstream": "90:20:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1972,7 +1975,1155 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s90/packets/90_20.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "90:20",
+      "window": [
+        "90:1",
+        "90:2",
+        "90:3",
+        "90:4",
+        "90:5",
+        "90:6",
+        "90:7",
+        "90:8",
+        "90:9",
+        "90:10",
+        "90:11",
+        "90:12",
+        "90:13",
+        "90:14",
+        "90:15",
+        "90:16",
+        "90:17",
+        "90:18",
+        "90:19",
+        "90:20"
+      ],
+      "ayah_count": 20,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ح ل ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000351",
+              "furuq_root_norm": "ح ل ل",
+              "furuq_source_root_norm": "ح ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 39,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000353",
+              "furuq_root_norm": "ح ل ي",
+              "furuq_source_root_norm": "ح ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "90:20",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_enclosing_fire_lid",
+            "confidence": "strong",
+            "focus_anchor": "The construction عليهم نار مؤصدة joins an over-upon relation to a burning noun and an adjective of fastening shut.",
+            "mechanism": "Fire is not merely placed inside a closed room. The closing-over image lets the fire itself function as the enclosing surface: it burns, covers, and denies exit in one operation.",
+            "activation_trace": [
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire, including its capacity to leave a brand, supplies the active punitive material that is laid over the group."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over and shutting in makes the adjective an all-around containment mechanism rather than a incidental property."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "A door fastened fully shut adds the concrete denial of an exit to the focus enclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "A fire is upon them and happens to be in a closed place.",
+              "after": "The fire is itself the closure, shutting over them as an inescapable burning lid."
+            }
+          },
+          {
+            "model_id": "b_threshold_consumed",
+            "confidence": "medium",
+            "focus_anchor": "The split inventory of مؤصدة contains both doorway-forecourt and fastening images, while نار occupies the predicated space over them.",
+            "mechanism": "A threshold ordinarily mediates passage between inside and outside. Combining its doorway and forecourt branches with sealing makes that mediating zone disappear: the boundary itself is fiery and fastened.",
+            "activation_trace": [
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B002",
+                "role": "The forecourt or doorway adjoining a dwelling supplies the transitional boundary that the focus seal cancels."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B004",
+                "role": "The courtyard-close image broadens the relevant boundary from a door leaf to the approach around it."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "Fastening the door shut converts a zone of transition into a terminal edge."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The burning material occupies that terminal edge, leaving no neutral threshold from which to depart."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire is located somewhere behind a shut boundary.",
+              "after": "The doorway and forecourt have themselves become fire and closure; there is no safe threshold left."
+            }
+          },
+          {
+            "model_id": "b_visible_seal",
+            "confidence": "exploratory",
+            "focus_anchor": "نار can activate distant sighting and beacon images even while مؤصدة anchors complete inward closure.",
+            "mechanism": "Sealed need not mean visually hidden. The same fire can be inaccessible from within yet conspicuous from without, producing an asymmetry between the captives' lack of exit and the scene's outward legibility.",
+            "activation_trace": [
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Fire sighted or sought from afar supplies long-range visibility to the otherwise closed scene."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "The visible beacon or boundary-marker image lets the fire identify a location rather than disappear behind its seal."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Total shutting-in restricts the victims while leaving the separate question of outward visibility open."
+              }
+            ],
+            "changed_reading": {
+              "before": "A sealed fire is hidden as well as inaccessible.",
+              "after": "It may be sealed against escape yet remain a conspicuous beacon of the enclosure."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_anti_city",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ل د",
+              "ح ل ل"
+            ],
+            "mechanism": "The opening city scenes supply bounded territory, dwelling, and loosening; the focus recombines those materials as an anti-city whose boundary admits neither lawful release nor ordinary settlement. The fiery enclosure is a jurisdiction made entirely of terminal boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "90:1",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A delimited tract of land supplies the city as a bounded spatial whole that can be inverted into a punitive domain."
+              },
+              {
+                "source_ref": "90:2",
+                "root": "ح ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000351",
+                "branch_id": "B001",
+                "role": "Untying a knot supplies release as the precise operation negated by the final fastening."
+              },
+              {
+                "source_ref": "90:2",
+                "root": "ح ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000351",
+                "branch_id": "B002",
+                "role": "Settling in a place supplies voluntary habitation, against which forced residence under fire becomes an anti-dwelling."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B002",
+                "role": "The doorway or forecourt attached to a dwelling carries the city-scale boundary into the focus word."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over converts the inhabited boundary into a seal with no civic outside."
+              }
+            ],
+            "structural_cues": [
+              "The packet repeats بهذا البلد in 90:1-2, then 90:20 replaces the demonstrative city scene with the static locative عليهم.",
+              "The opening vocabulary of bounded place and release contrasts with the focus adjective's terminal fastening."
+            ],
+            "reader_inference": "The packet supplies a bounded city, loosening, dwelling, and a sealed doorway; I supply the reversal from sanctuary or habitation to anti-city. A live alternative is that the city frame marks only the surah's setting and does not spatially model the final fire.",
+            "changed_reading": {
+              "before": "The focus removes the threshold of an otherwise unspecified chamber.",
+              "after": "It closes the surah with an anti-city: a bounded dwelling whose only boundary and atmosphere are fire."
+            }
+          },
+          {
+            "model_id": "d_power_becomes_constriction",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س ب",
+              "ق د ر"
+            ],
+            "mechanism": "The earlier supposition that no one can exercise power over the speaker is answered materially. Capacity to act and the separate branch of narrowing to a restricted measure converge in the final seal: power over them is rendered as space constricted over them.",
+            "activation_trace": [
+              {
+                "source_ref": "90:5",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition rather than knowledge frames the claimed immunity as a mental model available for reversal."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capacity that reaches action and control supplies the agency whose absence was presumed."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B004",
+                "role": "Narrowing something to a scant measure turns abstract power into the spatial compression enacted by the focus."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "The shutting-over image realizes constriction as a complete enclosure above and around its occupants."
+              }
+            ],
+            "structural_cues": [
+              "The same prepositional form appears in يقدر عليه at 90:5 and عليهم at 90:20, shifting from singular claimed immunity to plural imposed condition.",
+              "The interrogative challenge precedes a final verbless scene in which the answer is already spatially accomplished."
+            ],
+            "reader_inference": "The packet supplies failed supposition, operative capacity, narrowing, and closure; I infer that the final spatial state is the enacted rebuttal to the earlier claim. The alternative is a looser thematic echo between divine power and punishment without a specific constriction mechanism.",
+            "changed_reading": {
+              "before": "The sealed fire is a generic confinement imposed at the end.",
+              "after": "It is the concrete answer to imagined invulnerability: denied power becomes a power that narrows and seals space over them."
+            }
+          },
+          {
+            "model_id": "d_piled_wealth_overburden",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ه ل ك",
+              "م و ل",
+              "ل ب د"
+            ],
+            "mechanism": "The boast of exhausting accumulated wealth carries a material image of matter piled layer upon layer. The focus can echo that economy as an overburden: what was presented as dissipated expenditure returns analogically as compacted, non-dispersing fire that closes over the boaster's cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "90:6",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B009",
+                "role": "Exhausting and using up effort supplies the boast's claim that a resource has been fully dissipated."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquiring and multiplying wealth supplies the accumulated material whose disposal is being claimed."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ل ب د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001340",
+                "branch_id": "B001",
+                "role": "Material matted in layers supplies the physical model of an overburden that does not disperse."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire converts the accumulated material analogy into a punitive medium rather than literal wealth."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over gives the piled matter a terminal direction: it becomes an overlying seal."
+              }
+            ],
+            "structural_cues": [
+              "The boast in 90:6 foregrounds first-person disposal of piled wealth; the focus ends with a passive condition imposed on a plural group.",
+              "لُّبَدًا and عليهم support a material shift from layers amassed by the agent to a layer pressing over the agent."
+            ],
+            "reader_inference": "The packet supplies exhausted wealth, layered matter, burning, and closure; I supply the return-arrow by which boasted accumulation becomes punitive overburden. The live alternative is that لبد merely intensifies quantity and does not foreshadow the geometry of the seal.",
+            "changed_reading": {
+              "before": "The fire arrives as an entirely external penalty.",
+              "after": "Its sealed overburden mirrors the earlier economy of piling and waste: claimed dispersal returns as matter that cannot disperse."
+            }
+          },
+          {
+            "model_id": "d_denied_witness_beacon",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ع ي ن"
+            ],
+            "mechanism": "The denial of being seen is followed by the gift of two eyes. Against that sequence, the focus fire's distant-sighting and beacon branches become more than incidental luminosity: the sealed punishment is legible evidence, while the people inside it remain unable to cross its boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "90:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the witness relation that the challenged speaker imagines absent."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct ocular witnessing makes visibility an endowed capacity and not merely an outside accusation."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Fire discerned from a distance reverses the fantasy that the consequential scene can remain unseen."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "A conspicuous beacon or landmark turns the punishment into a location-sign visible to others."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "The seal preserves the asymmetry: the scene can be seen from outside while no one inside can leave it."
+              }
+            ],
+            "structural_cues": [
+              "The question in 90:7 denies a witness, and 90:8 immediately names two eyes.",
+              "The focus combines a potentially visible fire with an adjective governing access rather than an adjective of darkness."
+            ],
+            "reader_inference": "The packet supplies denied seeing, endowed eyes, distant-visible fire, and closure; I infer that the fire functions as public evidence or exposure. A live alternative is that the visibility branches only enrich the physical flame and carry no witness logic.",
+            "changed_reading": {
+              "before": "The focus-only seal may be visible, but that visibility has no defined function.",
+              "after": "The sealed fire answers denied witness by becoming an unavoidable beacon: inaccessible inwardly, evidentiary outwardly."
+            }
+          },
+          {
+            "model_id": "d_passage_reversed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ه د ي",
+              "ن ج د",
+              "ق ح م",
+              "ع ق ب",
+              "ف ك ك"
+            ],
+            "mechanism": "Guidance presents elevated ways; the hard pass must be entered, and its first explication is opening what is locked or bound. The focus reverses that topology: failure to undertake a difficult opening culminates in being forced into a mountain-like enclosure whose door cannot be opened from within.",
+            "activation_trace": [
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies an offered direction before the later terminal enclosure."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Elevation supplies the terrain of two rising ways and makes vertical effort part of the mechanism."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ق ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001202",
+                "branch_id": "B002",
+                "role": "Entering dangerous hardships and road difficulties supplies the energetic crossing demanded by the pass."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B012",
+                "role": "The steep, protruding obstacle gives the passage a resistant spatial form rather than a generic moral topic."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B001",
+                "role": "Opening what is locked and separating what is entangled identifies release as the operative way through the obstacle."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B005",
+                "role": "A hollow among mountains gives a form-distant but packet-backed landscape bridge from the pass to the final enclosure."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "A stone pen made in a mountain turns the focus enclosure into the inverse of traversable high ground."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The door sealed shut completes the reversal from voluntarily breaching difficulty to involuntary no-exit confinement."
+              }
+            ],
+            "structural_cues": [
+              "90:10 offers two elevated ways, 90:11-12 repeats the difficult pass, 90:13 begins its explanation with release, and 90:20 ends in closure.",
+              "The sequence alternates movement vocabulary with a final static nominal sentence."
+            ],
+            "reader_inference": "The packet supplies guidance, height, difficult entry, release, mountain enclosures, and a shut door; I supply the consequential arrow from refusing the hard opening to suffering the easy-to-enter but impossible-to-exit closure. The alternative is a rhetorical contrast of deeds and outcome without continuous spatial topology.",
+            "changed_reading": {
+              "before": "The final seal is a closed threshold with no history.",
+              "after": "It is the pass turned inside out: the opening not undertaken becomes the mountain enclosure from which no breach is possible."
+            }
+          },
+          {
+            "model_id": "d_closed_social_circulation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ك ك",
+              "ط ع م",
+              "ي ت م",
+              "ق ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "Release opens a bound relation, feeding moves sustenance outward, kinship restores nearness, and aid reaches one severed from a guardian or pressed to the dust. These are all repairs of blocked circulation. The focus then reads as their social-material opposite: a closed system in which no person, help, or relief crosses the boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Freeing a pledged or captive person supplies literal release from a relation that has become a lock."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies outward transfer of life-sustaining material across a social boundary."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child cut off from a guardian supplies the broken protective link that the prescribed transfer repairs."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Kinship proximity makes aid move along an already present relation rather than toward an abstraction."
+              },
+              {
+                "source_ref": "90:16",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B002",
+                "role": "Poverty imaged as sticking to dust supplies the ground-level immobilization from which aid should lift a person."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "An enclosing pen supplies a system that retains all occupants and interrupts movement across its perimeter."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Shutting over completes the anti-circulatory condition by denying both ingress of relief and egress of the confined."
+              }
+            ],
+            "structural_cues": [
+              "The alternatives in 90:13-16 coordinate release and feeding, then identify recipients through severance, nearness, and contact with dust.",
+              "The focus has no verb of giving, opening, or motion; it fixes a plural object under a noun-adjective enclosure."
+            ],
+            "reader_inference": "The packet supplies release, transfer, relational repair, immobilized need, and enclosure; I infer moral-spatial reciprocity in which refused circulation becomes a closed environment. The alternative is that the charitable acts and final punishment are linked only by judgment, not by a shared flow mechanism.",
+            "changed_reading": {
+              "before": "The enclosure prevents bodily escape.",
+              "after": "It also materializes refused social circulation: a system sealed against release, nourishment, kin-aid, and relief."
+            }
+          },
+          {
+            "model_id": "d_counter_companionship",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص ي",
+              "ص ح ب"
+            ],
+            "mechanism": "Mutual counsel builds connective tissue through exchanged charge, while companionship names sustained co-presence. The plural عليهم and enclosing pen preserve co-presence on the rejected side but invert its quality: they become a counter-community bound together by hostile fire and shared inability to leave.",
+            "activation_trace": [
+              {
+                "source_ref": "90:17",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B001",
+                "role": "Joining one thing to another supplies the connective structure enacted socially by reciprocal counsel."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Exchanged counsel among a group makes the good community actively reciprocal rather than merely co-located."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and sustained adherence supply the group bond carried directly into the focus pronoun."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "The root's image of enmity flaring between people turns shared fire into hostile co-presence rather than fellowship."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The containing pen keeps the hostile plurality together and makes confinement their only durable common relation."
+              }
+            ],
+            "structural_cues": [
+              "90:17 repeats the reciprocal verb, 90:18-19 repeats أصحاب for opposed collectivities, and 90:20 resumes the latter group with عليهم.",
+              "The good group is connected by exchanged patience and mercy; the final group is connected by a shared enclosing condition."
+            ],
+            "reader_inference": "The packet supplies reciprocal joining, companionship, a plural antecedent, social enmity, and a pen; I infer an anti-community whose bond is co-confinement. The alternative is that companionship is only a class label and contributes no internal social topology to the fire.",
+            "changed_reading": {
+              "before": "The focus depicts the same punishment repeated across separate individuals.",
+              "after": "It depicts a counter-community: companions whose only reciprocity is hostile fire and whose only shared place is the sealed pen."
+            }
+          },
+          {
+            "model_id": "d_coverer_becomes_covered",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ف ر",
+              "ء ي ي"
+            ],
+            "mechanism": "Immediately before the focus, people cover or occlude manifest signs. The focus reverses grammatical and material roles: the coverers become the covered, and the covering medium is a luminous, landmark-like fire that makes their attempted occlusion conspicuous.",
+            "activation_trace": [
+              {
+                "source_ref": "90:19",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering and concealing supplies the action whose agent is reversed into the object under a cover."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Occluding truth specifies that the earlier cover acts on something meant to be apprehended."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the visible object that was covered and prepares a reversal into manifest punishment."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination makes the covering fire disclose rather than hide those beneath it."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "The beacon or boundary-marker image lets the fire become a conspicuous sign of the reversal."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over transfers the role of covering from the earlier agents to the fire acting upon them."
+              }
+            ],
+            "structural_cues": [
+              "90:19 and 90:20 are adjacent, and عليهم directly resumes the plural group that covered the signs.",
+              "The active rejection in 90:19 gives way to a passive adjectival state in 90:20, supporting an agent-object reversal."
+            ],
+            "reader_inference": "The packet supplies covering, manifest signs, illumination, and closing over; I supply the contrapuntal arrow that the coverers are made covered by a sign-producing fire. The alternative is straightforward sequence—rejection followed by punishment—without exact role reversal.",
+            "changed_reading": {
+              "before": "The visible sealed fire exposes a denial of witness.",
+              "after": "It is also an exact epistemic-material reversal: those who covered visible signs are covered by a fire that makes them a visible sign."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_anti_womb",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses punitive architecture with gestational containment. It remains anchored in مؤصدة through the enclosing-pen branch and in نار through actual burning, while the packet explicitly supplies birth, secure holding, mercy, and womb. Downstream prose should render it only as a structural inversion—an anti-womb—not as a claim that the focus nouns lexically mean womb or birth.",
+            "focus_anchor": "مؤصدة supplies a holding enclosure and نار keeps that enclosure destructive rather than nurturing.",
+            "activation_trace": [
+              {
+                "source_ref": "90:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth and delivery supply a containing process whose normal direction culminates in emergence."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The heart's settled security supplies protective holding as the positive counterpart to punitive confinement."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the nurturing quality deliberately absent from the focus enclosure."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies a bounded chamber ordered toward life and eventual release, enabling the inversion."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The enclosing pen anchors the shared structural feature of being held inside a containing perimeter."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire reverses nurturing warmth into destructive heat and blocks any literal gestational equation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus enclosure is merely a prison that holds.",
+              "after": "Against birth, security, and mercy, it is an anti-womb: it holds without nourishing and closes without emergence."
+            }
+          },
+          {
+            "outlier_id": "o_collective_brand",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the focus fire-root's branding branch and extends it to group identity. It remains anchored in the actual fire noun, the plural عليهم, the immediately preceding companions of the left side, and the sealed-door branch. Downstream prose should call it a social-material analogy or secondary resonance, never translate نار as a brand.",
+            "focus_anchor": "نار supplies fire capable of branding, while مؤصدة fixes the result over the plural group.",
+            "activation_trace": [
+              {
+                "source_ref": "90:19",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Sustained companionship supplies a collective identity that can receive a shared material mark."
+              },
+              {
+                "source_ref": "90:19",
+                "root": "ش ء م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000772",
+                "branch_id": "B001",
+                "role": "The left-side orientation supplies the group's distinguishing side-label immediately before the focus."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Fire used to brand supplies a mark that burns group classification onto bodies rather than merely surrounding them."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The fully fastened door makes the imposed mark and group condition read as irreversible."
+              }
+            ],
+            "changed_reading": {
+              "before": "A classified group happens to be burned together.",
+              "after": "The fire also acts as a collective brand, sealing the companions' side-identity into an irreversible condition."
+            }
+          },
+          {
+            "outlier_id": "o_anti_orchard",
+            "confidence": "exploratory",
+            "containment": "This is the most branch-distant reading: it combines the focus roots' bloom and close-growing-root images with the context's ripening fruit and famine. It remains focus-anchored because both ecological images come from the two actual focus roots and burning fire constrains the result. Downstream prose should present it as an ecological material analogy—a non-nourishing anti-orchard or interlocked fuel bed—not as lexical substitution.",
+            "focus_anchor": "The two focus roots can jointly activate bloom, tightly intergrown roots, burning, and sealing.",
+            "activation_trace": [
+              {
+                "source_ref": "90:14",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B005",
+                "role": "Fruit reaching edible ripeness supplies the expected nourishing outcome of a living plant system."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "س غ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000710",
+                "branch_id": "B001",
+                "role": "Hunger joined with exhaustion supplies the unmet need against which the final ecology becomes anti-nourishing."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B004",
+                "role": "Tree blossom supplies the productive plant image that the actual focus fire can invert."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B004",
+                "role": "Plants with roots growing tightly together supply a self-interlocking material network analogous to a living seal."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire turns the intergrown bloom from orchard into fuel bed and prevents a merely benign botanical reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The seal is only architectural, like a shut chamber.",
+              "after": "Exploratorily, it is also an anti-orchard: roots interlock into a living seal, bloom becomes flame, and no edible fruit answers hunger."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated عليه-عليهم relation turns denied power into power materially enacted as narrowing and closure over the group.",
+            "The difficult pass and the command to open or release reverse into a mountain-like enclosure that cannot be opened from within.",
+            "Release, feeding, kin-nearness, and aid establish circulation whose refusal is spatialized as a system sealed against relief.",
+            "Covering manifest signs reverses into being covered by an illuminating, beacon-like fire that makes the covered group conspicuous."
+          ],
+          "what_was_special": "The split focus inventory made مؤصدة simultaneously a shut door, erased threshold, containing pen, mountain enclosure, and—at the exploratory edge—intergrown roots; نار contributed not only combustion but beacon, branding, social flare, and bloom. Context therefore changed a simple punishment clause into several coexisting mechanisms: carceral, topological, epistemic, social, and ecological, without forcing them into one final interpretation.",
+          "remaining_uncertainties": [
+            "The syntax of عليهم strongly supports overlying pressure, but it does not alone decide whether fire is the lid, fills a closed chamber, or does both.",
+            "Beacon, branding, anti-city, anti-womb, and anti-orchard readings are branch-backed analogies; their distance from the ordinary focus senses varies substantially.",
+            "The consequential arrows from refused opening, circulation, or sign-recognition to exact forms of closure are abductive constructions, not explicit causal statements in the packet.",
+            "The two mapped inventories for و ص د coexist productively, but their threshold, pen, and mountain images should not be collapsed into a single lexical gloss."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Fire as sealed counter-opening.** Lexical evidence: ن و ر B002 “burning fire,” و ص د B001 “door sealed shut”; against ف ك ك B001/B002 in 90:13 “opening/freeing.” Structural cue: the surah’s first pass-act opens a bound neck, while the final image closes over the rejecters. Assigned role: fire burns; wasd seals the exit. Abductive move: I infer moral reversal: those who refused opening practices are placed under closure. Reading change: the final fire is not only heat; it is locked consequence.\n\n2. **Lost illumination becomes burning enclosure.** Lexical evidence: ن و ر B001 “light/illumination,” B005 “beacon/landmark,” B002 “fire”; ء ي ي B003 visible sign in 90:19. Structural cue: signs, eyes, and guidance all precede this fire. Assigned role: نور’s light/marker potential is inverted into fire. Abductive move: I infer that unaccepted guidance/sign-light returns as destructive brightness. Reading change: the final نار is an anti-guidance: illumination without exit.\n\n3. **Enclosure like property pen or dwelling threshold.** Lexical evidence: و ص د B002 “house forecourt/doorway joined to dwelling,” B003 “stone pen for livestock/property,” B004 “plants with roots close together.” Structural cue: the surah moved through city, wealth/property, necks in bondage, and companions. Assigned role: مؤصدة makes a closed compound around the group. Abductive move: I infer that the same social world of possession and enclosure culminates in being enclosed. Reading change: “upon them” becomes spatially heavy: a locked structure comes down over those who did not loosen others.",
@@ -7311,14 +8462,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s090/linguistic/morphemes.tsv",
-        "ayah_count": 21,
-        "row_count": 133,
+        "ayah_count": 20,
+        "row_count": 126,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7664,10 +8821,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s90/packets/90_20.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s90/readers/reader_hft_a/90_20.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s090",
+        "latent_activation/focus_trace/runs/s90"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s90",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 191066,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

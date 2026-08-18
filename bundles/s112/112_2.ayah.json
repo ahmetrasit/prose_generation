@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:32.015216+00:00",
+  "generated_at": "2026-08-18T13:34:42.189326+00:00",
   "surah": 112,
   "ayah": 2,
   "ayahRef": "112:2",
@@ -964,7 +964,8 @@
       "morpheme_ids": [
         "m-w-s112-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "112:2:1"
+      "aligned_qac_word_ref_upstream": "112:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -980,7 +981,8 @@
         "m-w-s112-a002-w002-01",
         "m-w-s112-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "112:2:2"
+      "aligned_qac_word_ref_upstream": "112:2:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1310,7 +1312,705 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s112/packets/112_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "112:2",
+      "window": [
+        "112:1",
+        "112:2",
+        "112:3",
+        "112:4"
+      ],
+      "ayah_count": 4,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "112:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-resort-terminal",
+            "confidence": "strong",
+            "focus_anchor": "The nominal predicate الصمد is attached directly to the named divine referent الله.",
+            "mechanism": "The worshipped referent and the one intentionally resorted to combine into a directed dependency structure: affairs and needs move toward this referent and terminate in reliance there rather than being passed onward.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one supplies the relational pole that the predicate identifies more precisely."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Intentional resort to a relied-on one supplies the directed motion and makes that pole the endpoint for affairs and needs."
+              }
+            ],
+            "changed_reading": {
+              "before": "Allah bears an honorific meaning roughly 'the self-sufficient lord.'",
+              "after": "Allah is presented functionally as the terminal destination of directed need and reliance."
+            }
+          },
+          {
+            "model_id": "baseline-compact-integrity",
+            "confidence": "medium",
+            "focus_anchor": "The same predicate الصمد carries a concrete image of compact solidity without hollowness.",
+            "mechanism": "A material analogy overlays the social image of a relied-on chief: dependability is pictured as compact integrity with no cavity or internal lack through which support would have to be received. The analogy concerns structure, not divine anatomy.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name holds the concrete analogy to this particular referent rather than to an unnamed solid object."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact, non-hollow solidity supplies the image of integral support that does not depend on filling an inner lack."
+              }
+            ],
+            "changed_reading": {
+              "before": "The predicate says only that others seek or depend on Allah.",
+              "after": "Their dependence terminates in one pictured as integrally full: support is not obtained by first repairing an interior deficiency."
+            }
+          },
+          {
+            "model_id": "baseline-sealing-closure",
+            "confidence": "exploratory",
+            "focus_anchor": "The root ص م د in الصمد also supplies the concrete operation of tightly stopping a bottle.",
+            "mechanism": "By material analogy, the predicate does more than name a destination: it marks closure. Resort reaches one capable of containing an affair and stopping leakage or indefinite referral beyond that point.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped referent supplies the personal pole to which the sealing image is predicated."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B003",
+                "role": "A tight stopper supplies containment and closure, functioning as an analogy for an affair that does not leak into further dependencies."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sought destination is simply the highest point in a chain of recourse.",
+              "after": "The predicate pictures the point at which recourse is sealed and the chain of referral closes."
+            }
+          },
+          {
+            "model_id": "baseline-enduring-supply",
+            "confidence": "medium",
+            "focus_anchor": "The branch of الصمد involving continued endurance under severity remains attached to the divine predicate.",
+            "mechanism": "Dependability becomes tested continuity rather than static permanence: the branch's creature enduring cold and drought while continuing its yield makes الصمد evoke support that does not cease when conditions become scarce or severe.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one supplies the recipient of dependence whose reliability is being characterized."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Lasting through cold and drought while continuing provision supplies resilient continuity as the reason reliance holds under pressure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Allah is permanently present as an abstract invariant.",
+              "after": "Allah's permanence is read dynamically as support whose continuance is not exhausted by adverse or barren conditions."
+            }
+          },
+          {
+            "model_id": "baseline-attentive-threshold",
+            "confidence": "exploratory",
+            "focus_anchor": "The predicate الصمد retains a branch for being poised over an affair and occupied with it.",
+            "mechanism": "The branch changes the relied-on endpoint from remote rank into attentive proximity: an affair brought to the Samad is pictured as already under concentrated regard at its threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped referent anchors the otherwise idiomatic image as a claim about the divine relation to an affair."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B005",
+                "role": "Being on the verge of an affair and occupied with it supplies attentive immediacy to the endpoint of recourse."
+              }
+            ],
+            "changed_reading": {
+              "before": "The predicate names a remote superior approached by petitioners.",
+              "after": "The approached one is also pictured as attentively poised over the affair for which recourse is made."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-speech-as-definition",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The command to speak activates saying as both indication and delimiting definition. The compact nominal equation in 112:2 therefore functions not only as information but as a publicly uttered boundary for where reliance is to terminate.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "A thing's 'saying' as its indication makes the commanded utterance point beyond sound to the relation asserted in the focus."
+              },
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Saying a thing as defining its limit makes the utterance set a conceptual boundary around the focus predicate."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Resort to the relied-on destination supplies the relation that the spoken definition publicly fixes."
+              }
+            ],
+            "structural_cues": [
+              "112:1 opens with an imperative of speech immediately before the verbless two-term predication in 112:2.",
+              "The focus ayah's brevity lets the commanded utterance operate like a formula rather than a narrative description."
+            ],
+            "reader_inference": "The packet supplies commanded speech, indication, definition, and directed resort. I infer that utterance performs boundary-setting for reliance. A live alternative is that the command merely reports a proposition and adds no performative force.",
+            "changed_reading": {
+              "before": "Allah al-Samad is a private descriptive proposition about divine status.",
+              "after": "Allah al-Samad is also a commanded public definition that fixes the endpoint of recourse in speech."
+            }
+          },
+          {
+            "model_id": "delta-repeated-referent",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه"
+            ],
+            "mechanism": "Repetition of the same divine name across 112:1 and 112:2 creates a tight referential bridge: the worshipped one just identified is precisely the one now predicated as the destination of resort, preventing الصمد from drifting into a generic class of chiefs.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped referent is introduced in the preceding equation and supplies the repeated identity carried into the focus."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "The destination relied upon supplies the new relation predicated of that repeated referent."
+              }
+            ],
+            "structural_cues": [
+              "The exact proper name recurs in adjacent ayat, each time in a short nominal predication.",
+              "The second occurrence replaces the preceding predicate أحد with الصمد while retaining the subject."
+            ],
+            "reader_inference": "The packet supplies a repeated named worshipped referent and a resorted-to predicate. I infer deliberate coreference that excludes a merely generic 'reliable chief.' A live alternative is simple rhetorical repetition without this narrowing effect.",
+            "changed_reading": {
+              "before": "Al-Samad could denote a high but generic type of dependable lord.",
+              "after": "The predicate is locked to the same named worshipped referent identified immediately before it."
+            }
+          },
+          {
+            "model_id": "delta-single-convergence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ح د"
+            ],
+            "mechanism": "Unity before the focus and exhaustive negation at the close reshape resort into a topology of convergence: many affairs can be directed, but they do not terminate at several coordinate destinations. The one endpoint is also left without any residual competing instance.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B001",
+                "role": "Oneness and unity supply a single pole toward which the focus predicate's directed resort can converge."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive negation removes any leftover instance that could serve as a coordinate endpoint."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Intentional resort supplies the many directed paths whose convergence is reorganized by the two context occurrences."
+              }
+            ],
+            "structural_cues": [
+              "The focus is preceded by أحد as a positive predicate and the sequence closes with أحد inside a negated counterpart construction.",
+              "The two occurrences bracket the focus with positive singularity and exhaustive exclusion."
+            ],
+            "reader_inference": "The packet supplies unity, exhaustive negation, and directed resort. I infer a many-paths-to-one-endpoint structure. A live alternative is that unity and resort remain independent predicates with no spatial or network relation.",
+            "changed_reading": {
+              "before": "Al-Samad is one dependable option distinguished by supreme rank.",
+              "after": "Al-Samad configures recourse as convergence on one endpoint with no coordinate remainder."
+            }
+          },
+          {
+            "model_id": "delta-uncomposed-integrity",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ح د"
+            ],
+            "mechanism": "The counting-and-composition branch of أحد presses the compact, non-hollow image of الصمد into a mereological question. Read against asserted unity and final exhaustive negation, compactness can suggest integrity not assembled from independently sustaining pieces.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B003",
+                "role": "The one as a unit in counting and composition introduces the live question of whether unity is aggregate or integral."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive negation prevents an unmentioned constituent or peer from casually remaining outside the unity claim."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact solidity without a hollow supplies the material analogy for integrity without an interior dependency."
+              }
+            ],
+            "structural_cues": [
+              "أحد directly precedes the focus predicate and recurs in the closing negation.",
+              "The focus itself is a bare nominal equation, so the concrete property is asserted without an intervening comparison marker."
+            ],
+            "reader_inference": "The packet supplies one-as-unit/composition, exhaustive negation, and compact non-hollowness. I infer a contrast between assembled unity and integral unity. A live alternative is that the counting branch marks only numerical one and cannot support non-composition.",
+            "changed_reading": {
+              "before": "Non-hollowness is only a vivid image of physical firmness.",
+              "after": "It becomes an exploratory image of integral unity whose reliability is not produced by cooperating internal parts."
+            }
+          },
+          {
+            "model_id": "delta-nonderived-nonemanating",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل د"
+            ],
+            "mechanism": "The paired active and passive birth negations turn compact endurance into causal independence in both directions. The Samad is neither a product derived from an upstream source nor a source that secures continuity by issuing a downstream successor.",
+            "activation_trace": [
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The event of birth supplies the concrete incoming and outgoing transitions canceled by the paired verbal forms."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Something obtained or newly produced from something else generalizes lineage into derivation and lets the two negations test causal dependence."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact integrity supplies the focus anchor that is recast as having neither an originating deficit nor a generated continuation."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Lasting continuance supplies the persistence that no predecessor or offspring is needed to maintain."
+              }
+            ],
+            "structural_cues": [
+              "The same root occurs twice in reversed active and passive verbal orientation.",
+              "The paired negations immediately follow the nominal focus, supplying two directional tests of its claim."
+            ],
+            "reader_inference": "The packet supplies birth, derivation, active/passive reversal, and enduring compactness. I infer that the reversal blocks both incoming origin and outgoing successor as supports for persistence. A live alternative confines the negation to biological parentage and leaves broader causal derivation unstated.",
+            "changed_reading": {
+              "before": "The Samad is enduring because the referent lasts exceptionally long.",
+              "after": "The Samad's endurance is non-genealogical and non-derivative: it neither arrives from a producer nor continues by producing a successor."
+            }
+          },
+          {
+            "model_id": "delta-temporal-invariance",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن"
+            ],
+            "mechanism": "The context branch of coming to presence in time tests the focus's enduring support against temporal occurrence. The closing negation allows no time at which a counterpart comes to be, so the Samad's singular reliability is not a temporary unmatched phase.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence or presence in time supplies the temporal field across which the negated counterpart fails to appear."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Lasting endurance supplies the focus claim that is strengthened from persistence under hardship to persistence without a temporal peer-phase."
+              }
+            ],
+            "structural_cues": [
+              "The timeless-looking nominal focus is followed by a negated form of being in the final ayah.",
+              "The final construction places the absence of a counterpart under temporalized existence rather than stating only a static inequality."
+            ],
+            "reader_inference": "The packet supplies enduring continuance and occurrence in time under negation. I infer that no temporal state introduces a counterpart and that this stabilizes the focus relation across time. A live alternative treats يكن as only copular support with no independent temporal activation.",
+            "changed_reading": {
+              "before": "The Samad happens to stand without an equal in the asserted present.",
+              "after": "The Samad's unmatched reliability is read across temporal occurrence, not as a temporary configuration."
+            }
+          },
+          {
+            "model_id": "delta-asymmetric-dependence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ف ء"
+            ],
+            "mechanism": "Resort establishes directed dependence toward the Samad; the negated equal counterpart removes any peer that could mirror or reciprocate that relation. The result is not merely maximal rank but an asymmetric dependency network with one terminal pole.",
+            "activation_trace": [
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B001",
+                "role": "Equality and matching opposition supply the possible coordinate pole that the context explicitly negates."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Directed resort and reliance supply the dependency arrows whose symmetry would require such a matching pole."
+              }
+            ],
+            "structural_cues": [
+              "The focus positively names the endpoint of recourse, while the final ayah negates a matching counterpart.",
+              "The counterpart is placed in relation to له, making equality relational rather than merely descriptive."
+            ],
+            "reader_inference": "The packet supplies directed resort and negated matching equivalence. I infer that a peer would make the dependency structure reciprocal or multipolar, so its negation yields asymmetry. A live alternative is that the context denies likeness without saying anything about dependency arrows.",
+            "changed_reading": {
+              "before": "The Samad is the highest member within a field of comparable powers.",
+              "after": "The Samad is the terminal pole of a non-reciprocal dependency field for which no matching pole exists."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-split-root-load-bearing",
+            "confidence": "exploratory",
+            "containment": "This activation is surprising because it uses the packet's non-dominant ق ل ل mapping for قُلْ rather than the ordinary speech root. It remains anchored through that explicit split mapping and its convergence with الصمد's solidity and endurance, but downstream prose should label it a mapping-induced load-bearing analogy, not a lexical gloss of the imperative.",
+            "focus_anchor": "The compact and enduring branches of الصمد can receive the context image of independently taking up and rising under a load.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Independently carrying and rising under a load supplies a dynamic load-bearing image from the packet's secondary root mapping."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B002",
+                "role": "Compact solidity supplies the stable structure capable of receiving the load-bearing activation."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B007",
+                "role": "Endurance under severity turns carrying from a static pose into sustained support under adverse conditions."
+              }
+            ],
+            "changed_reading": {
+              "before": "The opening command only introduces a statement about a firm, enduring referent.",
+              "after": "At the split-root fringe, the command activates the Samad as independently rising under and sustaining the loads that recourse directs there."
+            }
+          },
+          {
+            "outlier_id": "outlier-bound-attention",
+            "confidence": "exploratory",
+            "containment": "This is odd because it joins a head-wrapping branch of ص م د to an inward, unvoiced branch of saying even though قُلْ is overtly imperative. Both branches are packet-backed and the result stays anchored in the focus predicate, but it should be rendered only as a somatic-cognitive analogy for gathered attention, never as the lexical meaning of الصمد.",
+            "focus_anchor": "The concrete head-binding branch of الصمد can picture concentration around the focus formula.",
+            "activation_trace": [
+              {
+                "source_ref": "112:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Unvoiced saying within oneself supplies an interior recitation-space behind the overt command."
+              },
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B004",
+                "role": "Wrapping the head with a cloth supplies a bodily image of binding and gathering attention around the predicate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase is only an outward declaration naming the destination of need.",
+              "after": "As an exploratory recitational image, the phrase also binds inward attention around a single dependable focus."
+            }
+          },
+          {
+            "outlier_id": "outlier-sealed-derivation",
+            "confidence": "exploratory",
+            "containment": "The model is surprising because a bottle stopper and generation belong to distant material and biological domains. It remains valid as an analogy anchored in الصمد and the paired derivation cue, but downstream prose must say that causal referral closes here, not imply a literal container, bodily closure, or a denial of all divine action.",
+            "focus_anchor": "The tight-stopper branch of الصمد can be reactivated by the context's negation of being produced and producing.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B003",
+                "role": "The tightly fitted stopper supplies a concrete image of a boundary that closes passage and referral."
+              },
+              {
+                "source_ref": "112:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Something derived or newly produced from another supplies the causal throughput canceled in both directions by the context."
+              }
+            ],
+            "changed_reading": {
+              "before": "The birth negations merely exclude two kinship relations.",
+              "after": "Through the sealing image, the Samad is the boundary at which origin-and-offshoot referral closes rather than passing through."
+            }
+          },
+          {
+            "outlier_id": "outlier-unturnable-orientation",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the surface كُفُوًا most directly activates equivalence, while turning, tilting, and reversal come from another inventory branch. It remains anchored by the directional 'resorting toward' structure of الصمد, but downstream prose should present it as a secondary kinetic resonance, not as a replacement translation.",
+            "focus_anchor": "The directional resort encoded by الصمد supplies a trajectory that the turning branch of ك ف ء can test.",
+            "activation_trace": [
+              {
+                "source_ref": "112:2",
+                "root": "ص م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000882",
+                "branch_id": "B001",
+                "role": "Intending and resorting to the relied-on one supplies a directed trajectory toward the focus referent."
+              },
+              {
+                "source_ref": "112:4",
+                "root": "ك ف ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001305",
+                "branch_id": "B002",
+                "role": "Tilting, overturning, and diverting supply the possible counterforce that would bend or reverse that trajectory."
+              }
+            ],
+            "changed_reading": {
+              "before": "No being resembles the one to whom recourse is directed.",
+              "after": "At the kinetic fringe, no counterforce can tilt, reverse, or redirect the trajectory of recourse away from the Samad."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moves from a static title to a directional structure in which need and reliance terminate.",
+            "Unity and exhaustive negation turn that structure into convergence on one endpoint rather than selection among coordinate chiefs.",
+            "The reversed birth forms recast endurance as neither derived from a predecessor nor maintained through a successor.",
+            "Negated equivalence makes dependence asymmetric: no matching pole can mirror the terminal relation."
+          ],
+          "what_was_special": "The one-word predicate sustains social, spatial, material, temporal, and causal readings at once. Its least expected live activations were closure by sealing, provision continuing under scarcity, attentive proximity to an affair, split-root load-bearing independence, and an unturnable trajectory of recourse.",
+          "remaining_uncertainties": [
+            "The compact and non-hollow image may support integrity and lacklessness without licensing a full claim about non-composition.",
+            "The broader causal reading of the birth negations remains an extrapolation beyond literal lineage.",
+            "Temporal force from يكن may be semantically active or merely grammatical support for counterpart negation.",
+            "The split-root, head-binding, sealing, and turning models should remain marked exploratory even though each is packet-anchored."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The One is the resorted-to center of need, but without reciprocal dependency.** Lexical evidence: `ص م د B001` (intending/resorting to the relied-on one), `ء ل ه B001` (worship and the worshipped one), `ء ل ه B002`, and 112:0 `ر ح م B001` (beneficence toward one shown mercy). Structural cue: `ٱللَّهُ` is repeated from 112:1 and immediately predicated as `ٱلصمد`; the basmalah's mercy precedes this, while 112:3-4 deny filial and peer relations. Assigned roles: `الصمد` supplies the direction of approach and reliance; `الرحمن الرحيم` supplies benevolent reception; the negations block any reading in which the relied-on One needs offspring, parent, or counterpart. Abductive move: I supply the asymmetry: creatures may direct need toward the relied-on One, but the local denials make that direction non-reciprocal. Reading change: 112:2 reads not merely as a title, but as a dependency map: all resort terminates there, while no genealogical or equalizing dependency returns.\n\n2. **Compact solidity without hollowness activates the anti-birth reading.** Lexical evidence: `ص م د B002` (compact solidity without hollowness), `ص م د B003` (tight bottle stopper/seal), `و ل د B003` (birth/delivery), and `ر ح م B003/B004` (womb; afterbirth distress). Structural cue: `الصمد` stands immediately before the doubled negated birth verbs in 112:3. Assigned roles: compactness/no-hollowness supplies a material image of no internal cavity or reproductive aperture; the stopper variant intensifies sealing/closure; `لم يلد ولم يولد` states the relational denial. Abductive move: I infer a material analogy from `صمد` to the birth negation: the packet supplies solidity/no hollow and denied birth; I supply the image of generative passage being impossible or irrelevant. Reading change: `الصمد` reads as ontological fullness that makes begetting/being begotten incoherent, not just as \"the one asked for.\"\n\n3. **Endurance under severity recasts mercy as stable provision rather than soft dependence.** Lexical evidence: `ص م د B007` (lasting endurance and continuance; enduring cold/drought while continuing milk), `ر ح م B001` (tenderness/beneficence), and `ك و ن B001` (being/occurrence across time). Structural cue: the basmalah's mercy comes before, `الصمد` stands as central predicate, and 112:4 negates any occurring counterpart. Assigned roles: `صمد B007` provides continuity under harshness; mercy provides beneficent orientation; `يكن` later supplies the temporal/existential field in which no equal ever occurs. Abductive move: I infer that durable benevolence is locally stronger than affective softness alone: mercy is carried by an enduring, non-contingent support. Reading change: 112:2 allows `الصمد` to color the merciful names as steadfast provision that remains under need and pressure.\n\n4. **The addressed worshipped One is not a chief among chiefs.** Lexical evidence: `ص م د B001` includes a chief/master sought for affairs, `ق و ل B004` includes a titled chief whose word has force, `س م و B007` includes rivalry/boasting, and `ك ف ء B001` later denies equal counterparts. Structural cue: the surah moves from `قل` to `الله الصمد` and then to denials of lineage and peer. Assigned roles: the social \"chief sought in need\" branch gives `الصمد` a recognizable hierarchy; the later denials strip hierarchy of competitive succession, lineage, and matching peers. Abductive move: I infer that the packet first permits a social analogy for intelligibility, then immediately breaks its ordinary social conditions. Reading change: `الصمد` may be read through lordly resort, but not as membership in a ranked political or tribal order.",
@@ -5668,14 +6368,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s112/linguistic/morphemes.tsv",
-        "ayah_count": 5,
-        "row_count": 26,
+        "ayah_count": 4,
+        "row_count": 19,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5811,10 +6517,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s112/packets/112_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s112/readers/reader_hft_a/112_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s112"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s112",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 33379,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

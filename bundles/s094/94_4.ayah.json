@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.503883+00:00",
+  "generated_at": "2026-08-18T13:34:14.608096+00:00",
   "surah": 94,
   "ayah": 4,
   "ayahRef": "94:4",
@@ -1479,7 +1479,8 @@
       "morpheme_ids": [
         "m-w-s094-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:4:1"
+      "aligned_qac_word_ref_upstream": "94:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1495,7 +1496,8 @@
         "m-w-s094-a004-w001-02",
         "m-w-s094-a004-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "94:4:2"
+      "aligned_qac_word_ref_upstream": "94:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1511,7 +1513,8 @@
         "m-w-s094-a004-w002-01",
         "m-w-s094-a004-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:4:3"
+      "aligned_qac_word_ref_upstream": "94:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1527,7 +1530,8 @@
         "m-w-s094-a004-w003-01",
         "m-w-s094-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:4:4"
+      "aligned_qac_word_ref_upstream": "94:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2759,7 +2763,762 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:4",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_exalted_renown",
+            "confidence": "strong",
+            "focus_anchor": "The raising action directly governs the possessed mention, while لَكَ marks the addressee as beneficiary.",
+            "mechanism": "A status-elevation branch of ر ف ع and a renown branch of ذ ك ر converge on a social-valuational lift: the thing raised is not the body but the standing carried whenever the addressee is mentioned.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of rank supplies the vertical value-axis on which the addressee's standing is raised."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honorable reputation supplies the social object that can occupy the higher rank."
+              }
+            ],
+            "changed_reading": {
+              "before": "We caused people to mention you favorably.",
+              "after": "We elevated the standing inhering in your very mention, making each mention bear heightened honor for you."
+            }
+          },
+          {
+            "model_id": "baseline_public_circulation",
+            "confidence": "strong",
+            "focus_anchor": "The direct object ذِكْرَكَ can denote voiced mention, and the governing رفع has branches of public transmission and vocal height.",
+            "mechanism": "Elevation becomes propagation rather than only prestige: mention is made public, carried onward, and given greater audibility across speakers.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Publicizing and relaying a report turns upward movement into outward circulation."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B010",
+                "role": "Vocal height gives the circulation an audible register rather than a purely reputational one."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on tongues supplies the transmissible content whose reach and audibility increase."
+              }
+            ],
+            "changed_reading": {
+              "before": "We increased your reputation.",
+              "after": "We caused your mention to travel outward and remain publicly audible, multiplying the occasions on which it is voiced."
+            }
+          },
+          {
+            "model_id": "baseline_retrievable_remembrance",
+            "confidence": "medium",
+            "focus_anchor": "ذِكْرَكَ remains the object of raising, but its recall and reminder branches permit a cognitive rather than social verticality.",
+            "mechanism": "What lies low or latent is lifted into availability: remembrance is brought above the threshold of forgetting and made easy to recover in mind.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Literal upward displacement supplies a cognitive topology from latent depth to accessible prominence."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after or against forgetting identifies the raised object as renewed mental presence."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder branch makes that mental presence reproducible through cues, not merely a one-time recollection."
+              }
+            ],
+            "changed_reading": {
+              "before": "We granted you high renown.",
+              "after": "We lifted remembrance of you into durable cognitive reach, so it can be recalled and reactivated rather than sink into forgetting."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_opened_source_to_expression",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "The opened and clarified interior is also the source from which acts issue; the later raised mention can therefore be read as outward expression generated by an inwardly opened source. Public circulation is revised from externally conferred publicity into an inside-to-outside movement of articulability.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Public transmission supplies the outward endpoint of the interior-to-expression movement."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Voiced mention supplies the expressive product that moves from interior source to public tongue."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarifying meaning supplies an interior operation that makes expression possible."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue turns the chest into the mechanism's generative interior."
+              }
+            ],
+            "structural_cues": [
+              "94:1 and 94:4 repeat لَكَ and a second-person possessive object, linking the opened interior and raised mention to the same beneficiary.",
+              "The earlier inward action precedes the outwardly legible object of mention."
+            ],
+            "reader_inference": "The packet supplies opening/clarification, an action-producing source, public transmission, and voiced mention; I infer an inside-to-outside causal arrow from opened source to articulable circulation. A live alternative is that the two benefits are parallel and that raised mention is social honor without a speech-production mechanism.",
+            "changed_reading": {
+              "before": "Your mention was made externally prominent.",
+              "after": "Your mention was raised as the outward, publicly voiced issue of an interior that had first been opened to meaning."
+            }
+          },
+          {
+            "model_id": "delta_load_lift_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر",
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "A heavy load is set down from a back that audibly strains, followed by the raising of mention. The sequence creates a vertical redistribution: oppressive weight leaves the private bearer while valued weight rises in the public object of mention.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Physical upward displacement supplies the lifting half of the down/up reversal."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Renown converts the lifted element from bodily load into socially valued prominence."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placing something lower supplies the downward motion opposed by the focus ayah's lift."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy-load branch identifies what the lowering action removes from the addressee."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints or back under weight supplies evidence of load beyond sustainable bearing."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The bodily back supplies the private load-bearing surface from which oppressive weight is removed."
+              }
+            ],
+            "structural_cues": [
+              "The same first-person plural agent coordinates the lowering and raising actions.",
+              "The sequence عَنكَ/وِزْرَكَ/ظَهْرَكَ then لَكَ/ذِكْرَكَ keeps the addressee constant while reversing the direction and kind of weight."
+            ],
+            "reader_inference": "The packet supplies lowering, heavy load, a straining back, upward movement, and renown; I infer that release enables the lift and that the sequence transforms oppressive private weight into valued public weight. The live alternative is a list of independent favors with no causal conversion between burden and mention.",
+            "changed_reading": {
+              "before": "After relieving you, We also added honor.",
+              "after": "We completed a load-to-lift reversal: weight that bent your back was taken down, while the social weight of your mention was raised."
+            }
+          },
+          {
+            "model_id": "delta_reputational_rectification",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر"
+            ],
+            "mechanism": "The non-dominant split inventory for و ز ر activates deviation and false discourse. Read beside setting-down and public mention, this yields a reputational repair model: distorted speech is displaced before the addressee's mention is amplified.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting a report supplies the later amplification stage whose content must first be distinguished from distortion."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Speech about the addressee supplies the discourse field in which correction and renewed circulation occur."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something down supplies the removal or demotion of the distorted account."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B002",
+                "role": "The split-root image of false and baseless speech supplies the reputational obstruction that is set aside."
+              }
+            ],
+            "structural_cues": [
+              "The paired possessives وِزْرَكَ and ذِكْرَكَ permit the removed object and raised object to be heard as competing accounts attached to the same person.",
+              "The antithesis between وضع and رفع supplies demotion followed by amplification."
+            ],
+            "reader_inference": "The packet supplies a formally split, non-dominant false-speech branch, a downward placement, voiced mention, and broadcast; I infer that the removed burden can be a distorted public account and that elevation includes rectification. The dominant and much stronger alternative is bodily or moral burden, with no discourse correction at all.",
+            "changed_reading": {
+              "before": "We increased the amount of favorable mention.",
+              "after": "We first displaced a false or crooked account attached to you and then raised a corrected mention into public circulation."
+            }
+          },
+          {
+            "model_id": "delta_co_present_resilience",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The repeated pairing of difficulty with an opening revises elevation from a post-crisis trophy into a resource that can coexist with constraint. Raised remembrance remains available inside hardship rather than proving that hardship has vanished.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevated standing supplies a benefit whose coexistence with continuing difficulty must be explained."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recoverable remembrance supplies an inwardly available resource during constraint, not only an external reputation after it."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity supply the constraint within which raised remembrance remains operative."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "An opening into ease supplies the concurrent affordance carried within the constraint."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The repeated severity image prevents the reading from treating elevation as simple erasure of hardship."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated opening image makes availability under pressure durable rather than momentary."
+              }
+            ],
+            "structural_cues": [
+              "The preposition مَعَ is repeated, placing ease with difficulty rather than only after it.",
+              "The whole difficulty/ease construction occurs twice immediately after the focus ayah."
+            ],
+            "reader_inference": "The packet supplies repeated severity, repeated opening, and the grammar of accompaniment; I infer that the already-raised remembrance functions within difficulty and is resilient across recurrence. A live alternative is that 94:5-6 offers separate reassurance and does not specify any function for the raised mention.",
+            "changed_reading": {
+              "before": "Your elevated mention marks the successful end of adversity.",
+              "after": "Your mention was raised into a resilient availability that can accompany adversity, bearing an opening within pressure without denying the pressure."
+            }
+          },
+          {
+            "model_id": "delta_sonic_enactment",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "After a cleared interval, the imperative whose inventory includes raising the voice in song activates a performed reading of 94:4. Raised mention is not only a fact reported about reputation; it becomes an event repeatedly enacted in voiced remembrance.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B010",
+                "role": "Vocal height supplies the acoustic dimension of the focus ayah's raising."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue supplies the verbal material that can be audibly performed."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Clearance after occupation supplies the temporal opening in which renewed voicing can occur."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B009",
+                "role": "A song or chant that raises the voice supplies the surprising performative trigger for audible mention."
+              }
+            ],
+            "structural_cues": [
+              "The فإذا ... فـ sequence converts a completed occupation into a prompt for a new act.",
+              "The discourse shifts from divine first-person action in 94:4 to a second-person imperative in 94:7."
+            ],
+            "reader_inference": "The packet supplies vocal height, tongue-borne mention, post-occupation clearance, and a rare raised-song branch; I infer that the imperative operationalizes the earlier gift through recurrent voicing. The materially stronger alternative takes نصب as exertion or upright commitment and leaves the focus ayah as externally conferred reputation.",
+            "changed_reading": {
+              "before": "Your mention has been elevated as a settled public status.",
+              "after": "Your mention is raised anew whenever cleared time is turned into an act of elevated voice."
+            }
+          },
+          {
+            "model_id": "delta_directional_waymarker",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ص ب",
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "An erected marker, sovereign destination, and directed desire recast raised remembrance as a waymarker rather than a terminal monument. Its prominence has a routing function: attention encountered at the raised mention is sent onward toward the Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation makes the reminder visible enough to function as a marker in a directional field."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder branch supplies the signifying object that points beyond its own prominence."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "An erected boundary or water-place marker supplies the concrete wayfinding analogy."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and mastery identify the destination to which the marker's prominence is subordinated."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward or away supplies the directional motion that the raised reminder channels."
+              }
+            ],
+            "structural_cues": [
+              "The explicit preposition إِلَىٰ gives the final desire a destination.",
+              "The move from فَٱنصَبْ to وَإِلَىٰ ... فَٱرْغَب links upright prominence with directed orientation."
+            ],
+            "reader_inference": "The packet supplies elevation, reminder, an erected marker, sovereign destination, and directional desire; I infer that prominent mention serves as a signpost routing attention beyond itself. A live alternative is that the commands concern the addressee's work and desire independently, while raised mention remains an end-state of honor.",
+            "changed_reading": {
+              "before": "Your raised mention is itself the summit of public honor.",
+              "after": "Your raised remembrance is an elevated waymarker: conspicuous for your benefit, yet functionally directing desire toward your Lord rather than terminating it on you."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_juridical_attestation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines two peripheral focus-root branches and the verse names no court or document. It remains anchored in the governing رفع, the direct object ذِكْرَكَ, and beneficiary لَكَ, which can sustain an analogy of presenting a claim for recognition. Downstream prose should label it a juridical image, not a lexical translation.",
+            "focus_anchor": "The construction raises a possessed ذكر for the addressee, permitting the raised object to be modeled as a claim or instrument presented on the beneficiary's behalf.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B004",
+                "role": "Bringing a person or case before authority supplies the act of formal presentation."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A documentary instrument of right supplies the presented object and its claim-bearing force."
+              }
+            ],
+            "changed_reading": {
+              "before": "We made your reputation higher.",
+              "after": "We advanced for you a claim-bearing memorial into recognized standing, as though your mention were formally presented and attested."
+            }
+          },
+          {
+            "outlier_id": "outlier_kinetic_propagation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because an animal's intensified gait and ease of motion are cross-domain images for discourse. It remains valid as a material analogy anchored in رفع as gait and ذكر as tongue-borne mention, with the hardship/ease pair supplying resistant and tractable terrain. Render it as a kinetic activation, not as the ordinary sense of the words.",
+            "focus_anchor": "A motion branch of رفع can modify how tongue-borne mention travels, turning elevation into increased gait rather than rank.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B003",
+                "role": "An intensified but controlled gait supplies the propagation speed and persistence of the mention."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Tongue-borne mention supplies what moves from speaker to speaker."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B004",
+                "role": "Twisting, obstruction, and imposed difficulty supply resistant terrain for the mention's movement."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, tractable motion supplies the changed gait by which mention crosses that resistance."
+              }
+            ],
+            "changed_reading": {
+              "before": "We placed your mention at a higher social level.",
+              "after": "We gave your voiced mention a raised gait, enabling it to travel lightly and persistently through obstructed conditions."
+            }
+          },
+          {
+            "outlier_id": "outlier_reservoir_release",
+            "confidence": "exploratory",
+            "containment": "This is surprising because one rare رفع branch means withholding rather than visibly lifting, producing a paradoxical model of elevation by reserve. It remains anchored through retained remembrance and the later image of emptying a vessel, which together form a coherent storage-release mechanism. Downstream prose should present it only as a material counter-reading to indiscriminate publicity.",
+            "focus_anchor": "The focus combines a withholding branch of رفع with a retention branch of ذكر, allowing raised remembrance to be held in reserve before release.",
+            "activation_trace": [
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B007",
+                "role": "Withholding milk in a reservoir supplies controlled retention rather than immediate outward flow."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Mental retention and renewed recall supply the content preserved in reserve."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a vessel supplies the later release phase of the reservoir model."
+              }
+            ],
+            "changed_reading": {
+              "before": "Elevation means maximizing continuous public exposure.",
+              "after": "Elevation can also preserve remembrance in a charged reserve, releasing it at a fitting opening rather than spending it in constant display."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only reading split from generic prestige into three mechanisms: exalted renown, public vocal circulation, and resistance to forgetting.",
+            "The preceding burden sequence turned elevation into a down/up load reversal rather than an unrelated additional favor.",
+            "The repeated hardship/ease pairing made raised remembrance a resource co-present with pressure, not merely a trophy after pressure ends.",
+            "The closing imperatives changed prominent mention from a self-terminal monument into voiced practice and a directional waymarker."
+          ],
+          "what_was_special": "The most productive activation was the repeated conversion of verticality into other domains: bodily load became social weight, inner opening became outward speech, vocal height became recurrent performance, and erected prominence became directional guidance. The split و ز ر inventory also kept alive a form-distant reputational-correction reading instead of collapsing everything into burden relief.",
+          "remaining_uncertainties": [
+            "The focus alone does not decide whether رفع primarily marks rank, reach, audibility, or cognitive availability; these readings can coexist but should not be silently merged.",
+            "The causal arrow from burden removal to raised mention is inferred from sequence and reversal; the actions may instead be parallel benefits.",
+            "The discourse-repair, sonic, kinetic, juridical, and reservoir models depend on rare or split branches and must remain explicitly exploratory.",
+            "The final commands may operationalize the raised mention, or they may begin a separate instruction sequence with no backward causal link."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. Raised mention reverses the downward load. Lexical evidence: `ر ف ع B002` high rank/elevated mention, `ذ ك ر B007` honorable mention and renown; earlier `و ض ع B001` setting down and `و ز ر B002` burden. Structural cue: 94:2 says the burden was put down; 94:4 says the mention was raised. Assigned role: vertical reversal transforms the addressed person’s public condition from pressed-down to lifted-up. Abductive move supplied by me: the same divine agency that lowers the load raises the name. Reading change: the ayah is not isolated honor; it is the upward counterpart to unburdening.\n\n2. Mention becomes public transmission, not only reputation. Lexical evidence: `ر ف ع B005` announcing a report, `ر ف ع B010` highness of voice, `ذ ك ر B004` mention on the tongue, and later `ن ص ب B009` raised-voice song/chant. Structural cue: the passage moves from opened chest/source of speech (94:1) to raised mention (94:4) and then to renewed activity (94:7). Assigned role: `ذكر` is verbal circulation; `رفع` gives it height and audibility. Abductive move supplied by me: inner expansion becomes outward voice. Reading change: the ayah reads as broadcast and performative utterance, not only status.\n\n3. The raised mention can function as reminder and retained memory. Lexical evidence: `ذ ك ر B003` bringing to mind, `ذ ك ر B009` reminder/admonition, `ظ ه ر B019` memory without a book. Structural cue: 94:5-6 repeats the hardship/ease statement, making remembrance itself a structural act. Assigned role: the raised `ذكر` keeps the relief pattern present against forgetting. Abductive move supplied by me: repetition is a memory device generated by raised mention. Reading change: the ayah makes public remembrance a means of sustaining ease through hardship.\n\n4. A legal/right-document reading is possible but narrower. Lexical evidence: `ذ ك ر B008` rights document or legal instrument; `ص د ر B005` liability settlement; `ع س ر B003` pressing an insolvent debtor; `ن ص ب B005/B006` assigned share and fixed threshold. Structural cue: 94:2’s burden-removal and 94:5-6’s hardship/ease activate an economy of liability, means, and assigned portions. Assigned role: the raised `ذكر` can be the acknowledged document of right after liability is lifted. Abductive move supplied by me: public mention can formalize restored standing. Reading change: the ayah may read as official recognition, not just praise.\n\n5. The shackle-lifting branch creates a liberation image. Lexical evidence: `ر ف ع B009` cord by which a bound person lifts his shackle; earlier `و ز ر B002` burden and `ن ق ض B005` strained joints/back. Structural cue: the shift from load and creak to elevation suggests a constrained body regaining movement. Assigned role: `رفع` lifts what impedes, while `ذكر` is the person’s re-emergent identity. Abductive move supplied by me: raised mention is the social equivalent of lifting a restraint. Reading change: the ayah becomes emancipation into voice and movement.",
@@ -10956,14 +11715,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11223,10 +11988,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 72680,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

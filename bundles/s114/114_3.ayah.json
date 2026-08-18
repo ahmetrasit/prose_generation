@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.027677+00:00",
+  "generated_at": "2026-08-18T13:34:44.771160+00:00",
   "surah": 114,
   "ayah": 3,
   "ayahRef": "114:3",
@@ -875,7 +875,8 @@
       "morpheme_ids": [
         "m-w-s114-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:3:1"
+      "aligned_qac_word_ref_upstream": "114:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -891,7 +892,8 @@
         "m-w-s114-a003-w002-01",
         "m-w-s114-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:3:2"
+      "aligned_qac_word_ref_upstream": "114:3:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -980,7 +982,967 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:3",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_public_worship",
+            "confidence": "strong",
+            "focus_anchor": "The construct phrase joins `إله` directly to `الناس`.",
+            "mechanism": "The head names a worship relation, while the dependent noun profiles manifest human presence. The construct therefore presents a center of enacted human devotion, not merely a divine label associated with a species.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one make the head noun a relational center of devotion."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the manifest collective whose devotion is in view."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic divine title assigned to people.",
+              "after": "The worshipped center toward which the visible human collective directs devotion."
+            }
+          },
+          {
+            "model_id": "b_perceptive_humanity",
+            "confidence": "medium",
+            "focus_anchor": "`الناس` can profile humans through their capacity to notice by sight, sound, feeling, or inward sensing.",
+            "mechanism": "The worship relation is attached to awareness-bearing subjects. Humanity is not only a population here; it is the class whose perception can recognize, miss, or misread what solicits its allegiance.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship branch supplies the orientation that human awareness may recognize or misdirect."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception by seeing, hearing, or sensing profiles the people as awareness-bearing subjects."
+              }
+            ],
+            "changed_reading": {
+              "before": "People are a demographic object of divine authority.",
+              "after": "The deity is related to humans precisely at the level of their perceiving and discerning awareness."
+            }
+          },
+          {
+            "model_id": "b_familiar_nearness",
+            "confidence": "exploratory",
+            "focus_anchor": "The `الناس` inventory carries both familiarity that removes estrangement and the side turned toward a person.",
+            "mechanism": "Those branch images make the construct capable of an affective-spatial reading: worship is encountered on the human-facing side as a relation of nearness that counters estrangement.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one anchors nearness in devotion rather than generic companionship."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement gives the human relation an affective function."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The person-facing side gives that comfort a near-side spatial orientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase marks remote authority over humanity.",
+              "after": "It can also name the worshipped relation on humanity's near side, where familiarity displaces estrangement."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_performed_refuge",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ",
+              "ر ب ب"
+            ],
+            "mechanism": "Audible saying initiates refuge, and refuge is directed through a lordly relation of repair and completion. Inside that frame, `إله الناس` changes from a static title into the avowed worship relation by which the speaker enters protective formation.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped-one image supplies the allegiance enacted within the refuge utterance."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Bringing speech out in pronunciation makes the surrounding construction a performed utterance."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking shelter and holding fast supplies the protective action performed by the utterance."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion make refuge an active process of restoring the speaker."
+              }
+            ],
+            "structural_cues": [
+              "The imperative `قُلْ` and first-person `أَعُوذُ` place the following titles inside one performed refuge utterance.",
+              "`الناس` remains the genitive while the governing title changes across 114:1-3."
+            ],
+            "reader_inference": "The packet supplies pronounced saying, refuge, and reparative nurture; I supply the arrow that avowing the deity-title helps enact entry into that refuge. A live alternative is that the command merely reports the titles without making their pronunciation operative.",
+            "changed_reading": {
+              "before": "`إله الناس` is a nominal statement about who God is.",
+              "after": "`إله الناس` is also an avowed allegiance inside a speech-act of entering restorative protection."
+            }
+          },
+          {
+            "model_id": "d_title_progression",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "م ل ك"
+            ],
+            "mechanism": "Repairing nurture, governing disposition, and worship form a possible progression while `الناس` remains constant: humans are formed, ordered, and finally oriented in allegiance. The focus title is the culmination of relation rather than a synonym mechanically added to the first two.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship supplies the terminal relation of allegiance in the three-title sequence."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture, repair, and completion supply the formative first relation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession and power of disposition supply the governing middle relation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay of an affair makes kingship the structural pivot between nurture and worship."
+              }
+            ],
+            "structural_cues": [
+              "The same genitive `الناس` follows three different heads in immediate sequence.",
+              "The focus ayah is the shortest and final member of the title series."
+            ],
+            "reader_inference": "The packet supplies sequence plus the branch functions of nurture, disposition, mainstay, and worship; I supply the directional movement from formation through governance to allegiance. The titles may instead be an unordered cumulative stack.",
+            "changed_reading": {
+              "before": "`إله الناس` repeats the authority already expressed by lord and king.",
+              "after": "It names the distinct culmination where being nurtured and governed becomes an orientation of worship."
+            }
+          },
+          {
+            "model_id": "d_collective_cohesion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ل ك"
+            ],
+            "mechanism": "The adjacent kingship inventory activates strength, cohesion, and a mainstay. Read back through the worship relation, `إله الناس` can describe the shared allegiance that holds a visible collective together, not only the private belief of each member.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Common worship supplies the relation capable of binding separate persons."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence makes the social collective, rather than an abstract species, the focus."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the social effect attributed to shared orientation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "A mainstay supplies the image of worship as the collective's organizing support."
+              }
+            ],
+            "structural_cues": [
+              "`ملك الناس` and `إله الناس` are adjacent constructions with the same dependent collective."
+            ],
+            "reader_inference": "The packet supplies cohesion and mainstay under the adjacent kingship root; I transfer those as effects of the focus ayah's shared worship relation. The alternative is to keep cohesion wholly inside political sovereignty.",
+            "changed_reading": {
+              "before": "The deity stands over an already constituted set of individuals.",
+              "after": "Shared orientation to the deity can itself be the mainstay that constitutes people as a coherent public."
+            }
+          },
+          {
+            "model_id": "d_abiding_companionship",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و ذ",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "Refuge as adhering within protection joins the focus inventory's familiar comfort, while the hostile voice is hidden and recurrently retreats. The deity-human relation becomes abiding companionship whose continuity counters an invasive voice defined by unstable appearance.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship keeps the companionship model anchored in the focus title's devotional relation."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement supplies the affective quality of protection."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Adhering and remaining within a shelter gives protective nearness temporal persistence."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the intimate but hostile voice against which companionship operates."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Retreat into concealment makes the hostile presence intermittent rather than abiding."
+              }
+            ],
+            "structural_cues": [
+              "The refuge frame precedes the divine titles, while the withdrawing whisperer follows them.",
+              "The focus relation stands between sought shelter and unstable hidden speech."
+            ],
+            "reader_inference": "The packet supplies adhesion in shelter, familiar comfort, hidden self-talk, and retreat; I supply the contrast between stable companionship and intermittent intrusion. A live alternative is that refuge remains juridical protection with no affective companionship.",
+            "changed_reading": {
+              "before": "`إله الناس` is primarily a public relation of collective worship.",
+              "after": "It also names an abiding, estrangement-removing nearness that outlasts the whisperer's arrivals and withdrawals."
+            }
+          },
+          {
+            "model_id": "d_intermitent_attention",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "Flying sparks, a low hidden sound, and star-like hiding and return converge on intermittent stimulation. The perceptive-human baseline is therefore revised: human awareness is a pulsed field, and the worship relation supplies a stable reference through sensory flicker.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship supplies a durable orientation against intermittent solicitations."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Seeing, hearing, and sensing locate the contest inside human perceptual awareness."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Scattered fire-sparks supply brief, attention-catching bursts."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A hidden low sound supplies a stimulus near the threshold of hearing."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Stars that disappear and return supply a recurring visibility cycle."
+              }
+            ],
+            "structural_cues": [
+              "The threat description immediately follows the completed three-title sequence.",
+              "`الخناس` modifies the whispering source, combining low signal with recurrent withdrawal."
+            ],
+            "reader_inference": "The packet supplies sparks, hidden sound, recurrent disappearance, and perceptive humanity; I supply their shared temporal pattern and contrast it with stable worship. They may instead remain unrelated lexical images with no common attention model.",
+            "changed_reading": {
+              "before": "The deity is related to humans as generally perceptive beings.",
+              "after": "The deity is the stable orientation of perceivers whose attention is vulnerable to brief, low, repeatedly vanishing signals."
+            }
+          },
+          {
+            "model_id": "d_covert_exchange",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "The non-dominant mapped branch of `ش ر ر` activates exchange and equivalence. Joined to concealed self-talk that then recedes, it models temptation as a covert transaction: whispered comparisons make some substitute seem worth trading for the focus ayah's true object of worship.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped object supplies what covert exchange attempts to replace or reprice."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange between buying and selling supplies the transactional mechanism."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Equivalence and comparison supply the whispered claim that a substitute has matching value."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk locates the bargaining process inside apparently private thought."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Withdrawal into concealment lets the proposal evade inspection after it is planted."
+              }
+            ],
+            "structural_cues": [
+              "`شَرِّ` governs the whole whisperer construction, allowing its split inventory to color the threat's mechanism.",
+              "The threat appears only after the focus ayah has identified the object of worship."
+            ],
+            "reader_inference": "The packet explicitly supplies a non-dominant exchange branch, equivalence, hidden self-talk, and retreat; I supply the arrow from exchange to substitution of allegiance. The ordinary harm branch remains a live and much nearer alternative.",
+            "changed_reading": {
+              "before": "`إله الناس` identifies the proper object of worship before an unspecified evil.",
+              "after": "It fixes the non-substitutable object of worship against covert inner bargains that counterfeit equivalence and trade allegiance away."
+            }
+          },
+          {
+            "model_id": "d_action_source",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و س و س",
+              "ص د ر",
+              "ن و س"
+            ],
+            "mechanism": "Hidden self-talk enters the breast understood as the source from which actions issue, while the repeated human root can narrow toward one's own self. The focus worship relation is thus upstream governance of action-generation, exactly where rival impulses seek to become deeds.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship supplies the governing allegiance whose practical effects emerge as action."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the covert input introduced before action becomes visible."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue supplies the causal location of the contest."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The idiom of one's self or intimate companion makes the apparently private self the immediate target."
+              }
+            ],
+            "structural_cues": [
+              "The prepositional phrase `في صدور الناس` explicitly locates whispering inside the people named by the focus construct.",
+              "The same `الناس` is first related to the deity and later named as the interior site of intrusion."
+            ],
+            "reader_inference": "The packet supplies hidden self-talk, an action-origin, and the private self; I supply the arrow that competing inward inputs become outward deeds and that worship governs this upstream point. `صدور` may remain chiefly anatomical without the causal extension.",
+            "changed_reading": {
+              "before": "The focus phrase governs the public fact of human worship.",
+              "after": "It reaches the pre-action source of the self, where allegiance organizes which inner prompt is allowed to issue as conduct."
+            }
+          },
+          {
+            "model_id": "d_speech_channels",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "و س و س"
+            ],
+            "mechanism": "The command to say spans both articulated speech and a qawl branch for unmanifested inner saying; the later whisper is hidden self-talk. `إله الناس` can therefore function as the allegiance-marker that distinguishes avowed speech from speech that arrives covertly in the first-person register.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship relation supplies the criterion by which competing speech channels are oriented."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Pronounced saying supplies the overt and accountable speech channel."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Unmanifested saying within the self shows that qawl can also occupy an inner channel."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the covert channel that can masquerade as one's own thought."
+              }
+            ],
+            "structural_cues": [
+              "An imperative of saying opens the unit, while a finite verb of whispering later defines the threat.",
+              "The focus title lies between the overt command and the covert speech description."
+            ],
+            "reader_inference": "The packet supplies overt saying, inner saying, and hidden self-talk; I supply the competition between accountable avowal and covertly inserted speech. A live alternative is that these are merely different speech modes without a contest over authorship.",
+            "changed_reading": {
+              "before": "`إله الناس` is content named by the speaker.",
+              "after": "It becomes the allegiance by which a person tests whether inner or outer speech is avowed, answerable, and truly one's own."
+            }
+          },
+          {
+            "model_id": "d_porous_human_network",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "The ending coordinates hidden beings with visible humans as source classes. The very people attached to the deity in the focus ayah are therefore not only recipients of protection; they can become relays of concealed prompting to one another, making the worship relation a safeguard within a porous social network.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Shared worship supplies the relation that can orient humans despite influence moving through the group."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence identifies the focus collective later reused as a possible source class."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Hidden beings supply one concealed origin of the invasive prompting."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humans supply the coordinated second origin and make social transmission possible."
+              }
+            ],
+            "structural_cues": [
+              "The closing coordination `من الجنة والناس` pairs hidden and visible source classes.",
+              "`الناس` moves from dependent of the deity in 114:3 to a coordinated source category in 114:6."
+            ],
+            "reader_inference": "The packet supplies the hidden-visible pairing and recurrence of the same human noun; I supply the network arrow by which humans relay covert influence to other humans. The alternative is a simple two-species classification with no emphasis on transmission.",
+            "changed_reading": {
+              "before": "The people in `إله الناس` are only protected beneficiaries.",
+              "after": "They are a porous collective whose members may receive or transmit hidden pressure, so shared worship also governs social mediation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_pupil_interface",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries the eye's tiny human image into a cross-sensory model of inward representation. It remains anchored in the focus noun's attested branch and in context branches for hidden sound and action-source. Render it only as an optical analogy for vulnerable self-perception, never as a lexical translation of `الناس` as pupil.",
+            "focus_anchor": "The focus noun's inventory includes the human-like image seen in the pupil.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The little human image in the dark pupil supplies a model of the self appearing inside perception."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship anchors the optical image in the question of what the perceived self is oriented toward."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A hidden sound adds a barely perceived signal that can alter the inward image."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue connects altered self-perception to later conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deity is related to people as externally visible bodies.",
+              "after": "Exploratorily, the deity is also the orientation of the inward human image at the perceptual interface where subtle signals can reshape action."
+            }
+          },
+          {
+            "outlier_id": "o_crowd_opacity",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a `ج ن ن` branch names the dark mass or crowd of people, partially folding visible humanity back into concealment. It remains relevant because 114:6 directly coordinates that root with the same `الناس` that anchors the focus. Use it as a social-opacity analogy, not as a replacement gloss for `الجنة` or proof that the two nouns are identical.",
+            "focus_anchor": "`الناس` names the manifest collective related to the deity, while the closing context places that collective beside a root with a crowd-mass branch.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship keeps the model about the collective's orientation rather than crowd behavior in general."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the public collective that can nevertheless become opaque in aggregate."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "The dark mass or crowd of people supplies collective density as a form of concealment."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The coordinated visible-human category keeps the opacity model tied to actual social presence."
+              }
+            ],
+            "changed_reading": {
+              "before": "`إله الناس` concerns a transparent sum of visible individuals.",
+              "after": "Exploratorily, it concerns allegiance within a crowd whose very density can hide agency and circulate influence without a visible author."
+            }
+          },
+          {
+            "outlier_id": "o_route_deviation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses a route owned under `م ل ك` with a horse's lateral veering under `خ ن س`. It remains anchored in `إله` as orientation of worship and in the immediate title-threat sequence. Render it as a spatial analogy for allegiance and deviation, not as the lexical meaning of any focus word.",
+            "focus_anchor": "Worship in `إله` supplies an orientation, while the neighboring context inventories supply a governed route and a sudden deviation from motion.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Devotional orientation supplies the course from which deviation matters."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The person-facing side supplies a directional face for human orientation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B006",
+                "role": "Owning a road or valley supplies the image of a course lying within ordered jurisdiction."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B005",
+                "role": "A horse veering during its run supplies lateral deflection without stopping forward motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "`إله الناس` is a destination named independently of movement.",
+              "after": "Exploratorily, it is the orienting course of human allegiance, while whispering works as a concealed lateral deviation that can occur even during apparent forward motion."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The nominal title became a performed allegiance inside an utterance of restorative refuge.",
+            "The three repeated constructs formed a live progression from nurture through governance to worship, while also supporting a distinct social-cohesion reading.",
+            "Whispering in the action-source moved the deity-human relation upstream into authorship of thought, speech, and conduct.",
+            "The final hidden-visible pairing made humans both protected perceivers and possible relays of covert influence.",
+            "The split `ش ر ر` mapping preserved an exploratory counter-reading of temptation as covert exchange rather than reducing every branch to generic evil."
+          ],
+          "what_was_special": "A two-word focus ayah remained multiply active because `الناس` could mark visible collectivity, perception, familiar nearness, private selfhood, and even an optical human image. Repetition kept that noun stable while lordship, kingship, worship, hidden speech, interior action, and hidden-visible sources changed around it; the result is several coexisting public, affective, perceptual, social, and causal readings rather than one harmonized title.",
+          "remaining_uncertainties": [
+            "The nurture-governance-worship progression may be directional, or the three titles may simply accumulate without an ordered mechanism.",
+            "The intermittent-attention and route models depend on analogical transfer among branch images rather than direct lexical predication.",
+            "The non-dominant exchange mapping is packet-backed but remains much more form-distant than the ordinary harm branch.",
+            "The closing coordination clearly juxtaposes hidden and visible classes, but its exact force as a transmission network remains reader-supplied."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Worship as the deepest site of protection.** Evidence: ء ل ه B001, worship and the worshipped one; ر ب ب B001 and م ل ك B003 from 114:1-2, authority and dominion; و س و س B001 from 114:5, what is cast into the heart; ص د ر B001/B004 from 114:5, chest and source from which actions issue. Structural cue: إله comes after رب and ملك, then the packet reveals the attack as internal whisper. Assigned role: إله names the final attachment or worship-center of the people. Abductive move: a whisper in the chest is dangerous because it can redirect devotion, not merely because it annoys. Reading change: “God of people” reads as securing the ultimate inward orientation of the same people already owned and governed.\n\n2. **Invocation-name completed.** Evidence: ء ل ه B002 in 114:0, Allah as fixed name in invocation formulas; ء ل ه B001 here, worship and the worshipped one; ق و ل B001 from 114:1, uttered speech. Structural cue: the basmalah names Allah before “قل أعوذ,” and 114:3 rearticulates the divine relation as إله الناس. Assigned role: the ayah converts the proper-name invocation into a relational claim over people. Abductive move: the opening formula and the refuge formula are one speech-chain; the named one in the basmalah is the one invoked as worshipped protector here. Reading change: 114:3 reads as the completion of the basmalah’s invocation logic, not only the third item in a list.\n\n3. **People as worshippers under oscillation.** Evidence: ن و س B001, swaying or dangling oscillation; ق و ل B013 from 114:1, belief or held doctrine; و س و س B001, inward whisper. Structural cue: the third repeated الناس is followed by the disclosure of a whisperer that works in the same الناس. Assigned role: الناس are not just subjects but inwardly persuadable worshippers. Abductive move: oscillation in the human field includes doctrinal or devotional wavering because the threat is inner saying. Reading change: “people” becomes a site of competing inward allegiance.",
@@ -6219,14 +7181,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6320,10 +7288,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 60181,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

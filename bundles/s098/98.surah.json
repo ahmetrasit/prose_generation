@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
   "schema_version": "input-bundle-surah-v3",
-  "generated_at": "2026-07-29T22:32:17.408616+00:00",
+  "generated_at": "2026-08-18T13:34:23.002818+00:00",
   "surah": 98,
   "ayah_refs": [
     "98:1",
@@ -2200,14 +2200,20 @@
           "words_total": 13,
           "words_resolved": 13,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 13
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -2878,10 +2884,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_1.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_1.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 7,
+              "surprising_valid_outliers": 3
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 237722,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -3420,32 +3446,29 @@
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
           "words_total": 6,
-          "words_resolved": 3,
-          "words_unresolved": 3,
+          "words_resolved": 5,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 1,
+          "morpheme_skip_max": 1,
+          "morpheme_skip_histogram": {
+            "0": 4,
+            "1": 1
+          },
           "unresolved": [
             {
               "word_index": 3,
               "surface_ar": "يَتْلُو",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "صُحُفًا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "مُطَهَّرَةً",
               "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -4013,10 +4036,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_2.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_2.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 6,
+              "surprising_valid_outliers": 2
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 191257,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -4439,14 +4482,20 @@
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -4918,10 +4967,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_3.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_3.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 6,
+              "surprising_valid_outliers": 3
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 189259,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -5136,52 +5205,29 @@
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
           "words_total": 12,
-          "words_resolved": 5,
-          "words_unresolved": 7,
+          "words_resolved": 11,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 2,
+          "morpheme_skip_max": 2,
+          "morpheme_skip_histogram": {
+            "0": 10,
+            "2": 1
+          },
           "unresolved": [
             {
               "word_index": 5,
               "surface_ar": "الْكِتَابَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "إِلَّا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "مِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "بَعْدِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "مَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "جَاءَتْهُمُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "الْبَيِّنَةُ",
               "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -5800,10 +5846,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_4.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_4.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 7,
+              "surprising_valid_outliers": 3
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 221777,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -6232,14 +6298,20 @@
           "words_total": 21,
           "words_resolved": 21,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 21
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -6893,10 +6965,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_5.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_5.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 2,
+              "context_deltas": 6,
+              "surprising_valid_outliers": 3
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 244749,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -7599,14 +7691,20 @@
           "words_total": 17,
           "words_resolved": 17,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 17
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -8244,10 +8342,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_6.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_6.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 6,
+              "surprising_valid_outliers": 2
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 237786,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -8824,14 +8942,20 @@
           "words_total": 10,
           "words_resolved": 10,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 10
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -9408,10 +9532,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_7.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_7.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 5,
+              "surprising_valid_outliers": 2
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 189247,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,
@@ -9770,14 +9914,20 @@
           "words_total": 23,
           "words_resolved": 23,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 23
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-            "ayah_count": 9,
-            "row_count": 149,
+            "ayah_count": 8,
+            "row_count": 142,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
           "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
         },
@@ -10427,10 +10577,30 @@
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_focus_trace_hermetic": {
-          "present": false,
-          "packet_present": false,
-          "readers": {},
-          "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+          "present": true,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_8.packet.json",
+          "readers": {
+            "reader_hft_a": {
+              "present": true,
+              "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_8.focus_trace.json",
+              "variant": "default",
+              "protocol": "focus-trace-hermetic-response-v4",
+              "baseline_models": 3,
+              "context_deltas": 7,
+              "surprising_valid_outliers": 1
+            }
+          },
+          "run_dirs_checked": [
+            "latent_activation/focus_trace/runs/s098",
+            "latent_activation/focus_trace/runs/s98"
+          ],
+          "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+          "excluded": false,
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 247708,
+          "split_root_count": 6,
+          "reader_count": 1
         },
         "v12_reader_walks": {
           "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.621656+00:00",
+  "generated_at": "2026-08-18T13:34:12.959361+00:00",
   "surah": 93,
   "ayah": 4,
   "ayahRef": "93:4",
@@ -2245,7 +2245,8 @@
       "morpheme_ids": [
         "m-w-s093-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:4:1"
+      "aligned_qac_word_ref_upstream": "93:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2259,13 +2260,88 @@
       "morpheme_ids": [
         "m-w-s093-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:4:2"
+      "aligned_qac_word_ref_upstream": "93:4:2",
+      "morpheme_skip_count": 0
     },
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 2,
+      "surface_ar": "ءَاخِرَةُ",
+      "word_ids": [
+        "w-s093-a004-w001"
+      ],
+      "qac_refs": [
+        "93:4:1:4"
+      ],
+      "morpheme_ids": [
+        "m-w-s093-a004-w001-04"
+      ],
+      "aligned_qac_word_ref_upstream": "93:4:3",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "خَيْرٌ",
+      "word_ids": [
+        "w-s093-a004-w002"
+      ],
+      "qac_refs": [
+        "93:4:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s093-a004-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "93:4:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "لَّكَ",
+      "word_ids": [
+        "w-s093-a004-w003"
+      ],
+      "qac_refs": [
+        "93:4:3:1",
+        "93:4:3:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s093-a004-w003-01",
+        "m-w-s093-a004-w003-02"
+      ],
+      "aligned_qac_word_ref_upstream": "93:4:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "مِنَ",
+      "word_ids": [
+        "w-s093-a004-w004"
+      ],
+      "qac_refs": [
+        "93:4:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s093-a004-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "93:4:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "ٱلْأُولَىٰ",
+      "word_ids": [
+        "w-s093-a004-w005"
+      ],
+      "qac_refs": [
+        "93:4:5:1",
+        "93:4:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s093-a004-w005-01",
+        "m-w-s093-a004-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "93:4:7",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3604,7 +3680,1290 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s93/packets/93_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "93:4",
+      "window": [
+        "93:1",
+        "93:2",
+        "93:3",
+        "93:4",
+        "93:5",
+        "93:6",
+        "93:7",
+        "93:8",
+        "93:9",
+        "93:10",
+        "93:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ج د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001626",
+              "furuq_root_norm": "و ج د",
+              "furuq_source_root_norm": "و ج د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 61,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000227",
+              "furuq_root_norm": "ج د د",
+              "furuq_source_root_norm": "ج د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "93:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_temporal_benefit_gradient",
+            "confidence": "strong",
+            "focus_anchor": "The definite later term and first term flank khayr, while laka fixes the addressee as beneficiary.",
+            "mechanism": "A later phase follows an initial phase and is evaluated not merely as later but as more beneficial for the addressee.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second position in a sequence and makes it the positively ranked horizon."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Desired benefit supplies the comparison's value axis, making superiority practical rather than merely chronological."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply the initial condition that the later condition exceeds."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later simply comes after the first.",
+              "after": "The later phase is beneficially superior for the addressee to the initial phase."
+            }
+          },
+          {
+            "model_id": "b_deferred_outcome",
+            "confidence": "medium",
+            "focus_anchor": "The contrast can be activated through deferral in the later term and return-to-outcome in the first-term root inventory.",
+            "mechanism": "What is deferred can acquire its proper valuation only at its outcome, so the initial condition cannot settle the comparison.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time makes delay an active interval rather than an empty gap."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Seeking or choosing the better option makes the comparison a movement toward an outcome, not a static label."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to final outcome or meaning supplies the point at which the deferred good becomes intelligible."
+              }
+            ],
+            "changed_reading": {
+              "before": "A later period will happen to be better than an earlier one.",
+              "after": "The delay itself can carry the first condition toward a better outcome whose value is not yet visible."
+            }
+          },
+          {
+            "model_id": "b_beneficent_allotment",
+            "confidence": "medium",
+            "focus_anchor": "Khayr is predicated with laka, allowing goodness to be heard as beneficence directed to a particular recipient.",
+            "mechanism": "The comparison concerns an allotted good: the later carries generosity specifically toward the addressee rather than an impersonal ranking.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later member locates the beneficent allotment beyond the initial phase."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift turn khayr into directed giving and make laka function as its recipient relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later is objectively better.",
+              "after": "The later bears a beneficent allotment addressed specifically to you."
+            }
+          },
+          {
+            "model_id": "b_successive_priority",
+            "confidence": "exploratory",
+            "focus_anchor": "The packet's split mapping for the first term opens adjacency, succession, and superior claim alongside dominant firstness.",
+            "mechanism": "The two terms can be heard as adjacent claims within an unbroken succession; the later horizon becomes the worthier claimant on the addressee's orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The other or later member supplies the horizon that follows the presently prior one."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing the better option makes rival temporal claims solicit orientation."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Continuous succession keeps first and later contiguous rather than sealing them into unrelated domains."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Priority and superior right recast the comparison as a contest over which horizon deserves precedence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A first era and a later era are compared as separate blocks.",
+              "after": "Within continuous succession, the later horizon has the better claim on your confidence and orientation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c_covered_interval_not_abandonment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ض ح و",
+              "ل ي ل",
+              "س ج و",
+              "و د ع",
+              "ر ب ب",
+              "ق ل ي"
+            ],
+            "mechanism": "Manifest daylight gives way to a settled covering, while the paired negations reject both severance and affective distance and abiding lordship holds the interval together. The later good is therefore latent during concealment, not created after an abandonment.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral supplies a later disclosure and lets the intervening interval carry rather than cancel the promise."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good identifies what remains real even before it becomes manifest."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Emergence into sunlight supplies the visible pole against which hidden good can later appear."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night and its darkness supply a phase of nonvisibility without themselves implying loss."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B001",
+                "role": "Settled stillness makes the dark interval a composed state rather than evidence of rupture."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B002",
+                "role": "Covering by a cloth supplies the image of something present yet temporarily concealed."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Leaving and relinquishment name the severance that the clause explicitly negates."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding and duration supply continuity across the apparently silent interval."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B003",
+                "role": "Heart-distancing aversion names the affective withdrawal that the second negation excludes."
+              }
+            ],
+            "structural_cues": [
+              "93:1-2 stage a bright-to-covered alternation immediately before the focus.",
+              "93:3 repeats mā ... wa-mā to deny both relational severance and aversion."
+            ],
+            "reader_inference": "The packet supplies alternation, still covering, and negated leaving and aversion; I infer that concealment is an interval inside continuing care and that laterness reveals an already held good. A live alternative is that the oath imagery and reassurance accompany the promise without defining its temporal mechanism.",
+            "changed_reading": {
+              "before": "The present may be inferior because care has withdrawn until a future replacement arrives.",
+              "after": "The covered present is a quiet interval within continuous care; its latent good becomes visible later without implying prior abandonment."
+            }
+          },
+          {
+            "model_id": "c_cultivated_completion",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "Repeated lordship activates repair, upbringing, completion, nourishment, and growth. Later goodness develops from a continuously tended first condition instead of merely replacing it.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the developed phase reached after tending."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Chosen excellence supplies the qualitative improvement produced by development."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "The beginning supplies the seed condition from which completion proceeds."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply the process that joins first condition to better later condition."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant nourishment-and-growth image makes improvement organic and cumulative."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding duration holds cultivation continuous through promise, reception, and later report."
+              }
+            ],
+            "structural_cues": [
+              "The same possessive Rabb occurs at 93:3, 93:5, and 93:11 around reassurance, giving, and narration.",
+              "The focus comparison stands between denial of severance and a future giving clause."
+            ],
+            "reader_inference": "The packet supplies repair-to-completion, growth, and repeated lordship; I infer a developmental arrow from the first state into the later one. A live alternative is that each Rabb occurrence marks agency without making growth the internal logic of the comparison.",
+            "changed_reading": {
+              "before": "The better later phase displaces a deficient first phase.",
+              "after": "The better later phase is the cultivated completion and growth of a first phase that was never left untended."
+            }
+          },
+          {
+            "model_id": "c_recipient_calibrated_gift",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "ر ض و"
+            ],
+            "mechanism": "The future is enacted as a handover whose sequel is acceptance or satisfaction. Khayr becomes a gift whose goodness is calibrated at the recipient rather than an abstract quantity.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift supply the focus comparison's transferable good."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handover and giving make the promised better concrete as something delivered to the addressee."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction opposed to displeasure supplies the recipient-side test of the gift's goodness."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual acceptance keeps the promised benefit relational rather than reducible to sheer accumulation."
+              }
+            ],
+            "structural_cues": [
+              "Wa-la-sawfa projects giving forward from the focus.",
+              "The fa before satisfaction presents it as a sequel to giving."
+            ],
+            "reader_inference": "The packet supplies future giving followed by satisfaction and branches of handover and acceptance; I infer that the gift produces a recipient-ratified better state. A live alternative is that satisfaction names a broad promised result whose precise relation to the gift remains open.",
+            "changed_reading": {
+              "before": "Better means a larger or objectively superior future.",
+              "after": "Better is a personally delivered good whose adequacy is registered in the addressee's satisfaction."
+            }
+          },
+          {
+            "model_id": "c_serial_state_transitions",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ي ت م",
+              "ء و ي",
+              "ض ل ل",
+              "ه د ي",
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "Three repeated findings expose severance, lostness, and need, and each is followed by a concrete transition into shelter, guidance, or sufficiency. The focus comparison becomes a reusable transformation pattern rather than only one distant binary.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later member supplies the transformed state on the far side of each intervention."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good evaluates each resulting state as a real improvement."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply each vulnerable starting state."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding and encountering initiate the first intervention rather than leaving vulnerability unseen."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caretaker supplies the first vulnerable state."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a gathering shelter supplies the first better state."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Repeated finding restarts the transition mechanism for a second domain."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Being away from guidance and intended direction supplies the second starting state."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward path and truth supplies the second transition."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "A third finding confirms that noticed need repeatedly becomes the entry point of change."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Want and poverty supply the third starting state."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the third better state without requiring limitless wealth."
+              }
+            ],
+            "structural_cues": [
+              "93:6-8 repeat a finding-plus-condition-plus-fa-transition construction three times.",
+              "The three transitions move across social, directional, and material domains while retaining the same causal shape."
+            ],
+            "reader_inference": "The packet supplies three parallel vulnerable-state transitions; I infer that they instantiate the focus's first-to-better-later relation at several scales. A live alternative is that they are retrospective proofs of care without defining every scope of al-ākhirah.",
+            "changed_reading": {
+              "before": "The focus contrasts one first domain with one later domain.",
+              "after": "The focus also names a recurrent grammar of care: a vulnerable first state is found and actively carried into a concretely better next state."
+            }
+          },
+          {
+            "model_id": "c_guardianship_and_better_claim",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ي ت م",
+              "ء و ي"
+            ],
+            "mechanism": "The split W-L-Y inventory in the focus activates charge, proximity, and superior right; orphaned severance followed by shelter then lets the later horizon be imagined as a relation better entitled and better able to take charge.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Assuming charge and guardianship turns the focus comparison toward who or what tends the addressee's affair."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Superior right lets the later horizon be heard as the worthier claimant to that charge."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Chosen excellence qualifies the later relation as better fitted, not merely subsequent."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caretaker supplies the relational lack to which guardianship answers."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a sheltering side supplies the restored relation of proximity and care."
+              }
+            ],
+            "structural_cues": [
+              "93:6 places orphaned status immediately before a fa-marked sheltering response.",
+              "The focus's laka keeps the exploratory claim relationally directed to the addressee."
+            ],
+            "reader_inference": "The packet supplies a non-dominant guardianship and entitlement mapping plus caretaker-severance and shelter; I infer a transfer toward a better-qualified relation of care. A live alternative is that the W-L-Y resonance is only formal activation and the context supports straightforward shelter without a claim structure.",
+            "changed_reading": {
+              "before": "The later simply has more value than the first.",
+              "after": "Exploratorily, the later relation is better entitled and better fitted to stand near you and take charge after an earlier severance."
+            }
+          },
+          {
+            "model_id": "c_hidden_appearance_to_meaning",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ض ل ل",
+              "ه د ي"
+            ],
+            "mechanism": "Hiddenness and gentle indication activate a movement from an initially visible outline toward a later outcome or final meaning. The temporal comparison acquires an epistemic layer: first appearance is not final interpretation.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later member supplies the subsequently disclosed interpretive horizon."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B006",
+                "role": "A visible outline or shimmering appearance supplies the provisional first impression."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to outcome or final meaning supplies the deeper reading reached beyond appearance."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies why the better meaning may be unavailable at first sight."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication supplies the process by which hidden outcome becomes legible."
+              }
+            ],
+            "structural_cues": [
+              "In 93:7, the fa joins a state of lostness or hiddenness to guidance.",
+              "The focus itself places the comparative between two definite poles, inviting more than one axis for their contrast."
+            ],
+            "reader_inference": "The packet supplies hiddenness, guidance, visible-outline, and final-meaning branches; I infer an epistemic arrow from first appearance to later construal. A live alternative is that 93:7 concerns direction alone and leaves the focus comparison strictly temporal.",
+            "changed_reading": {
+              "before": "The first and later are only chronological periods.",
+              "after": "The later construal or outcome can be better for you than the first visible appearance of events."
+            }
+          },
+          {
+            "model_id": "c_sufficiency_not_accumulation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "The explicit passage from want to sufficiency constrains the value axis of khayr. Better need not mean maximal accumulation; it can mean release from disabling dependence into enough.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good lets adequacy, rather than sheer amount, define what counts as better."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Want and poverty establish the disabling threshold from which improvement is measured."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Adequacy and sufficiency supply a bounded yet genuine better state."
+              }
+            ],
+            "structural_cues": [
+              "93:8 pairs need and enrichment in a compact condition-to-fa-result construction.",
+              "The focus's laka makes benefit relative to what answers the addressee's need."
+            ],
+            "reader_inference": "The packet supplies poverty followed by sufficiency; I infer that sufficiency specifies the focus's scale of better. A live alternative is that enrichment exceeds adequacy and leaves the quantity of the promised good open.",
+            "changed_reading": {
+              "before": "A better future means indefinitely more possession.",
+              "after": "A better future can mean the decisive arrival of enough: benefit measured by freedom from need, not by limitless accumulation."
+            }
+          },
+          {
+            "model_id": "c_benefit_as_ethical_relay",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي ت م",
+              "ق ه ر",
+              "س ء ل",
+              "ن ه ر"
+            ],
+            "mechanism": "The beneficiary of promised khayr is forbidden to impose downward domination or harsh verbal blockage on vulnerable others. The private later good becomes transmissive: its truth is enacted by refusing to make another person's next state worse.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift make the focus good capable of being relayed beyond its first recipient."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a caretaker identifies a person whose next state is especially exposed to the beneficiary's conduct."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Domination from above names the social mechanism that would reproduce an inferior state and is prohibited."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and seeking identify another vulnerable approach to the recipient of good."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B004",
+                "role": "Harsh verbal rebuke names the blockage that would stop beneficence at the recipient and is prohibited."
+              }
+            ],
+            "structural_cues": [
+              "93:9-10 repeat fa-ammā ... fa-lā, pairing two vulnerable figures with two prohibitions.",
+              "These commands follow the three remembered improvements of 93:6-8."
+            ],
+            "reader_inference": "The packet supplies remembered care followed by prohibitions against domination and rebuke; I infer an ethical arrow from receiving better to preserving the possibility of better for others. A live alternative is that the commands are consequences of gratitude without entering the semantic content of the focus comparison.",
+            "changed_reading": {
+              "before": "The later good is a private promise exhausted in the addressee's receipt.",
+              "after": "The later good becomes an ethical relay: its beneficiary must not close another vulnerable person's path toward a better next state."
+            }
+          },
+          {
+            "model_id": "c_narrated_renewal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ن ع م",
+              "ح د ث"
+            ],
+            "mechanism": "Good condition is named as a bestowed favor, then made into renewed and disclosed speech. The better later state is not a silent terminus; once narrated, it becomes a fresh event that can reactivate benefit.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the newly arrived state that can subsequently be reported."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Gift and beneficence identify what the later state carries and what narration passes onward."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and favor identify the received better as grace rather than self-generated possession."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and completion attribute the favor to an ongoing tending agency."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as news turns received good into an event that can recur in telling."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure and manifestation reverse the earlier possibility of covered or hidden good."
+              }
+            ],
+            "structural_cues": [
+              "The surah closes with an imperative to speak about favor.",
+              "The final possessive Rabb echoes the agent named before and after the focus promise."
+            ],
+            "reader_inference": "The packet supplies favor, ongoing repair, renewed speech, and disclosure; I infer that narration extends the life of the better state by making it newly present to others. A live alternative is that the imperative expresses gratitude without making narration part of the focus's improvement mechanism.",
+            "changed_reading": {
+              "before": "The better later state is complete once privately received.",
+              "after": "The better later state remains generative: received as favor, it is disclosed and made newly present through narration."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_alternate_exit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates khayr's animal-coaxing idiom and the context never states a burrow; it remains anchored in the focus branch and in covering, hiddenness, and guidance cues, but downstream prose should present it only as a material analogy for rerouted emergence.",
+            "focus_anchor": "Khayr itself contains an image in which blocking one opening coaxes a hidden creature to emerge by another.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B006",
+                "role": "Coaxing an animal from a burrow by obstructing one opening supplies an indirect route into the better."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B002",
+                "role": "Covering supplies the enclosed or unavailable first route."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies the unseen position from which emergence must occur."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle direction supplies the rerouting toward a viable opening rather than forced extraction."
+              }
+            ],
+            "changed_reading": {
+              "before": "The better future lies straight ahead on the same open route.",
+              "after": "Exploratorily, closure of the first route can be the means by which hidden life is gently redirected toward a better later opening."
+            }
+          },
+          {
+            "outlier_id": "o_late_rain_ecology",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant W-L-Y rain branch under the focus's first term and links dispersed water images; it remains structurally anchored in first/later succession and beneficial consequence, but it should be rendered as an ecological analogy rather than a lexical replacement for the ayah.",
+            "focus_anchor": "The split inventory under the focus's first term contains rain that follows an earlier rain, allowing laterness and firstness to be modeled as successive waterings.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second watering in the ecological sequence."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Benefit supplies the fertility or usefulness by which the later watering is judged."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B010",
+                "role": "Rain following the wasmi supplies a concrete image of a later gift arriving after an initial rain."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B006",
+                "role": "Abundance in milk or well-water supplies stored saturation before outward flow."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "Rain cloud supplies the carrier from which the later watering descends."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting earth with running water supplies the later visible distribution of accumulated benefit."
+              }
+            ],
+            "changed_reading": {
+              "before": "First and later are abstract temporal containers.",
+              "after": "As an ecological analogy, the later can be the follow-up rain whose added watering turns hidden saturation into flowing, usable benefit."
+            }
+          },
+          {
+            "outlier_id": "o_rear_over_front",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it spatializes temporal nouns and draws a social reversal from a prohibition; it remains anchored in the focus's posterior branch, firstness, and khayr plus the context's explicit top-down domination image, but prose should mark it as a secondary critique of visible rank, not the primary syntax.",
+            "focus_anchor": "The later term has a rear or posterior branch, allowing the comparison with firstness to be tested as rear versus front.",
+            "activation_trace": [
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B003",
+                "role": "The posterior or rear supplies what ordinary hierarchy leaves behind or out of view."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Precedence supplies the socially visible front position against which the rear is reevaluated."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Chosen excellence denies that front position by itself determines worth."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Domination from above supplies the hierarchy whose ranking of front and rear is ethically interrupted."
+              }
+            ],
+            "changed_reading": {
+              "before": "What is first, frontmost, or visibly dominant naturally appears best.",
+              "after": "Exploratorily, the ayah reverses visible rank: what has been placed behind may carry greater worth than what forces itself to the front or above."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Night and still covering revise delay from apparent abandonment into latent good held within continuous care.",
+            "Repeated lordship makes the later better state a cultivated completion of the first rather than its unrelated replacement.",
+            "Future giving and satisfaction turn abstract superiority into a recipient-calibrated gift.",
+            "The three finding-and-transition clauses instantiate the focus as a repeatable movement from vulnerability into shelter, guidance, and sufficiency.",
+            "The prohibitions against domination and rebuke make received benefit transmissive: better must remain possible for vulnerable others."
+          ],
+          "what_was_special": "The focus sustained temporal, developmental, relational, epistemic, and ethical readings at once. Especially productive were the tension between concealment and continuity, khayr as gift rather than quantity, and split mappings that opened guardianship, priority, alternate-exit, rain-cycle, and rank-reversal readings without forcing them into a single interpretation.",
+          "remaining_uncertainties": [
+            "The scope of the definite later and first terms remains open between an ultimate contrast and repeated biographical transitions.",
+            "The developmental, recipient-calibrated, and ethical arrows are abductive links from sequence and grammar, not directions explicitly stated by the branch inventories.",
+            "The W-L-Y, alternate-exit, rain, and posterior activations are packet-grounded but form-distant and should remain visibly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Laterness as better ripening, not mere chronology.** Evidence: ء خ ر B001/B002 (later after first; deferral), خ ي ر B001/B002 (beneficial good; chosen excellence), ء و ل B001/B002 (beginning; return to outcome/final meaning). Structural cue: the ayah explicitly opposes later to first, and the packet repeatedly moves from lack to remedy in 93:6-8. Mechanism: the packet supplies the temporal polarity and later remedial sequence; I supply the ripening arrow that what comes after discloses the meaning of what came first. Abductive move: \"better\" is measured by outcome, not by immediate brightness. Reading change: the ayah reads as an interpretive rule for the whole surah: first states are to be read by their later completion.\n\n2. **Choice and divine selection.** Evidence: خ ي ر B003 (choosing/seeking better option), ر ب ب B002/B003 in 93:3/5/11 (nurture; knowledge formed by care), ه د ي B001/B002 in 93:7 (guidance; direction/course). Structural cue: \"khayr for you\" stands before \"your Lord will give you\" and after \"your Lord has not left.\" Mechanism: the packet supplies chosen-good and Lordly guidance branches; I supply the agency relation that the better later state is selected and steered, not random improvement. Abductive move: the Lord's care chooses a course whose value may appear after delay. Reading change: \"better\" is activated as selected course and pedagogical direction.\n\n3. **Household/dependents expansion.** Evidence: ء و ل B003 (a person's household/dependents), ي ت م B001 in 93:6/9 (orphan cut off), ع ي ل B002 in 93:8 (dependents under support), ر ب ب B005 (fostered child/step-family relation). Structural cue: \"for you\" is followed by orphan and dependent language. Mechanism: the packet supplies household/dependent branches inside \"first/outcome\" vocabulary; I supply the social reading that the addressee's later good includes a community of dependents referred back to him. Abductive move: laterness is not private advancement only; it reorganizes relations around care. Reading change: the ayah can mean the later sphere of responsibility and support is better than the first solitary state.\n\n4. **Thickening/condensing value, exploratory.** Evidence: ء و ل B005 (thickening/coagulating in final state), ر ب ب B006 (thick rubb syrup and treating with it), ن ع م B001/B002 in 93:11 (favor; pleasant ease). Structural cue: material branches of final thickening and prepared sweetness sit beside later favor language. Mechanism: the packet supplies images of liquids becoming concentrated or improved by being kept; I supply the metaphor that deferred good becomes denser. Abductive move: postponement improves by concentration, like a substance held until it is fit. Reading change: 93:4 can carry a material sense of maturation: the later is \"better\" because time has made it substantial.",
@@ -13737,42 +15096,23 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
       "words_total": 7,
-      "words_resolved": 2,
-      "words_unresolved": 5,
-      "unresolved": [
-        {
-          "word_index": 2,
-          "surface_ar": "ءَاخِرَةُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "خَيْرٌ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "لَّكَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "مِنَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "ٱلْأُولَىٰ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "words_resolved": 7,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 6,
+        "1": 1
+      },
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 83,
+        "ayah_count": 11,
+        "row_count": 76,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14113,10 +15453,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s93/packets/93_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s93/readers/reader_hft_a/93_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s093",
+        "latent_activation/focus_trace/runs/s93"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s93",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 122234,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

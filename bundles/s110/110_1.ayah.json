@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:30.995214+00:00",
+  "generated_at": "2026-08-18T13:34:39.477259+00:00",
   "surah": 110,
   "ayah": 1,
   "ayahRef": "110:1",
@@ -1743,7 +1743,8 @@
       "morpheme_ids": [
         "m-w-s110-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:1"
+      "aligned_qac_word_ref_upstream": "110:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1757,7 +1758,8 @@
       "morpheme_ids": [
         "m-w-s110-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:2"
+      "aligned_qac_word_ref_upstream": "110:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1771,7 +1773,8 @@
       "morpheme_ids": [
         "m-w-s110-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:3"
+      "aligned_qac_word_ref_upstream": "110:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1785,7 +1788,8 @@
       "morpheme_ids": [
         "m-w-s110-a001-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:4"
+      "aligned_qac_word_ref_upstream": "110:1:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1799,7 +1803,8 @@
       "morpheme_ids": [
         "m-w-s110-a001-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:5"
+      "aligned_qac_word_ref_upstream": "110:1:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1815,7 +1820,8 @@
         "m-w-s110-a001-w005-02",
         "m-w-s110-a001-w005-03"
       ],
-      "aligned_qac_word_ref_upstream": "110:1:6"
+      "aligned_qac_word_ref_upstream": "110:1:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2261,7 +2267,1234 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s110/packets/110_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "110:1",
+      "window": [
+        "110:1",
+        "110:2",
+        "110:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ت و ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000189",
+              "furuq_root_norm": "ت و ب",
+              "furuq_source_root_norm": "ت و ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000172",
+              "furuq_root_norm": "ت ب ب",
+              "furuq_source_root_norm": "ت ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "110:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_arrival_aperture",
+            "confidence": "strong",
+            "focus_anchor": "The conditional إذا, the arrival verb جاء, and the coordinated nouns نصر الله and الفتح make the ayah an event threshold.",
+            "mechanism": "Aid becomes present, then a formerly closed state is rendered open. The coordination keeps enabling support and opened outcome distinguishable rather than reducing both nouns to one generic victory label.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and arrival supply the threshold at which aid becomes present rather than remaining a static possession."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid that makes someone prevail supplies the enabling force of the event."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name identifies the aid's source and prevents an unnamed human actor from absorbing that role."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening a closure and widening an aperture supply the changed state paired with the arriving aid."
+              }
+            ],
+            "changed_reading": {
+              "before": "A compact promise that divine victory will happen.",
+              "after": "A threshold mechanism in which enabling aid becomes present and a blocked field becomes traversably open."
+            }
+          },
+          {
+            "model_id": "baseline_adjudicated_redress",
+            "confidence": "medium",
+            "focus_anchor": "نصر can image redress after oppression while الفتح can image judgment that settles a closed dispute.",
+            "mechanism": "The paired nouns can describe a juridical event: divine redress arrives and an unresolved conflict is decisively opened by adjudication. This coexists with, rather than cancels, the military-prevailing reading.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the moment at which a previously pending settlement takes effect."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Redress after oppression recasts aid as the restoration of a wronged party."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name locates the authority of the redress beyond the disputants."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B003",
+                "role": "Judgment that resolves a closed dispute supplies the decisive settlement paired with redress."
+              }
+            ],
+            "changed_reading": {
+              "before": "Victory is chiefly the defeat of an opposing force.",
+              "after": "Victory can also be a divinely authorized redress that closes oppression by settling what had remained judicially locked."
+            }
+          },
+          {
+            "model_id": "baseline_gifted_inner_opening",
+            "confidence": "medium",
+            "focus_anchor": "The cluster جاء، نصر، الفتح permits brought good to culminate in relief, disclosure, or guidance.",
+            "mechanism": "Aid is not only force against an opponent; it can arrive as a presented gift whose effect is to remove an inward obstruction and disclose a way forward.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing or presenting something lets the arrival be heard as the presentation of an effective good."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B005",
+                "role": "Granting a gift supplies the beneficent substance of the arriving aid."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one keep the gift relationally directed toward devotion rather than mere advantage."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B008",
+                "role": "Relief, insight, and disclosure supply the inward effect of the granted aid."
+              }
+            ],
+            "changed_reading": {
+              "before": "Aid arrives as external power and conquest.",
+              "after": "Aid may arrive as a divine gift that relieves an inward closure and makes knowledge, guidance, or possibility accessible."
+            }
+          },
+          {
+            "model_id": "baseline_hydraulic_relief",
+            "confidence": "exploratory",
+            "focus_anchor": "All three event roots carry a coherent water constellation: gathering, rain-relief or tributary flow, and release through an opening.",
+            "mechanism": "As a material analogy, distant channels bring relieving rain into a gathering place and an opened outlet releases it. The coherence across جاء، نصر، and فتح makes this more than a free-standing water theme, though it remains branch-distant from the surface construction.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B003",
+                "role": "A hollow where water gathers supplies the receiving basin of the material mechanism."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B004",
+                "role": "Rain that relieves and makes land grow supplies aid as life-giving water."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B007",
+                "role": "Tributary channels arriving from afar supply the conveyance that gathers relief at the threshold."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Water released from an outlet supplies the transition from gathered potential to distributed effect."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah names an abstract or military victory.",
+              "after": "Exploratorily, divine aid behaves like relieving water: it arrives through tributaries, gathers, and becomes effective when an outlet is opened."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_publicly_legible_threshold",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ن و س",
+              "ف و ج"
+            ],
+            "mechanism": "The threshold in 110:1 acquires a public diagnostic in 110:2: it is seen and sensed through human cohorts, so the opening is socially legible rather than an invisible transfer of power.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the event whose occurrence needs a perceptible marker."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "A widened opening supplies the changed condition that can become visible in what passes through it."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies direct recognition of the event's manifested effect."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Sensing or detecting a thing makes the human presence function as evidence rather than background population."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Groups of people supply repeated, collective units through which the opening becomes publicly legible."
+              }
+            ],
+            "structural_cues": [
+              "The second-person observation in 110:2 follows the conditional event of 110:1.",
+              "A singular witness is set before plural human movement in cohorts."
+            ],
+            "reader_inference": "The packet supplies arrival, sight or detection, and grouped humans; I infer that the latter are evidence that the 110:1 threshold has occurred. A live alternative is that they are merely consequences after an independently complete victory.",
+            "changed_reading": {
+              "before": "The arrival of aid is a divine event whose occurrence could remain privately known.",
+              "after": "Its arrival becomes recognizable by a public social change: cohorts of humans visibly traverse the newly opened field."
+            }
+          },
+          {
+            "model_id": "delta_permeable_communal_entry",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و س",
+              "د خ ل",
+              "د ي ن",
+              "ف و ج"
+            ],
+            "mechanism": "The conquest-like opening is revised into permeability: estranged humans can cross an enlarged threshold into a domain of obedience. Success is measured by access and participation, not by keeping an enemy outside.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Prevailing aid supplies the power that removes the prior barrier."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "A widened aperture supplies the permeable boundary through which the social result occurs."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Sociability that removes estrangement recasts the people as a relation newly made possible by the opening."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Literal entry into an interior supplies the crossing action."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and willing compliance supply the domain entered rather than a territory merely occupied."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B002",
+                "role": "The broad gap reinforces the opening as an aperture enlarged enough for collective passage."
+              }
+            ],
+            "structural_cues": [
+              "The construction يدخلون في presents religion as an interior or field crossed into.",
+              "The plural imperfect and أفواجا make passage distributed across groups rather than a single ceremonial crossing."
+            ],
+            "reader_inference": "The packet supplies a widened aperture, entry, removed estrangement, and obedience; I infer that the victory works by enabling communal access. An alternative is externally compelled submission without transformed social relation.",
+            "changed_reading": {
+              "before": "Opening means conquest of a closed enemy space.",
+              "after": "Opening means a boundary becoming permeable enough for formerly estranged people to enter a shared practice of obedience in groups."
+            }
+          },
+          {
+            "model_id": "delta_inward_entry_with_surface_risk",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "د خ ل",
+              "د ي ن"
+            ],
+            "mechanism": "Visible entry has two live depths. It can be an inner opening into entrusted commitment, but the same publicly seen movement can stop at display; the success of 110:1 therefore cannot be exhausted by counting visible entrants.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B008",
+                "role": "Inner opening by guidance or disclosure supplies the possible depth beneath outward passage."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing oneself before people supplies the live possibility that a visible entry is performative."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B003",
+                "role": "The inward or secret dimension supplies a depth not settled by exterior observation."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B004",
+                "role": "Hidden corruption supplies a contrary interior state that may coexist with successful outward entry."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Assent and entrustment supply the positive inward realization of entry."
+              }
+            ],
+            "structural_cues": [
+              "110:2 juxtaposes what the addressee sees with an action directed into a named interior.",
+              "The verse reports collective motion but does not separately state each entrant's inward condition."
+            ],
+            "reader_inference": "The packet supplies public display, inner secrecy, hidden corruption, and entrustment; I infer two coexisting depths of the same entry. Alternatively, the odd display and corruption branches may be irrelevant shadows and the line may describe unqualified entry.",
+            "changed_reading": {
+              "before": "The visible mass entry straightforwardly completes the meaning of victory.",
+              "after": "The opening permits both outward passage and possible inward assent, while leaving a diagnostic gap in which display or hidden corruption can coexist with the visible success."
+            }
+          },
+          {
+            "model_id": "delta_source_destination_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه",
+              "د ي ن"
+            ],
+            "mechanism": "The repeated divine name links source and destination: aid is of Allah, and the entered obedience is of Allah. Victory is thus a circuit returning bestowed capacity toward worship, not an asset transferred into human ownership.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B005",
+                "role": "Aid as a granted good supplies what moves from source toward social effect."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one supplies the divine source to whom the aid already belongs."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience supplies the relational mode into which the social movement enters."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The repeated worshipped one supplies the destination of that obedience and closes the circuit."
+              }
+            ],
+            "structural_cues": [
+              "الله appears in a genitive relation to both نصر in 110:1 and دين in 110:2.",
+              "The same named referent brackets the transition from arriving aid to human entry."
+            ],
+            "reader_inference": "The packet supplies the repeated divine name as source-marker and destination-marker; I infer a directed circuit from gift to worship. Alternatively, the repetition may mark possession in two independent phrases without a functional return.",
+            "changed_reading": {
+              "before": "Divine aid becomes a victory possessed by its human beneficiaries.",
+              "after": "What comes from Allah remains oriented back toward Allah as people enter divine obedience; the event resists appropriation as human capital."
+            }
+          },
+          {
+            "model_id": "delta_inhabited_accountable_order",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د خ ل",
+              "د ي ن",
+              "ف و ج"
+            ],
+            "mechanism": "The baseline juridical settlement becomes an inhabitable order. Redress and judgment do not merely end a dispute; cohorts enter a city-like domain of obedience and reckoning, turning verdict into durable social form.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Redress after oppression supplies the justice claim behind the new order."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B003",
+                "role": "Adjudication supplies the decisive settlement from which an accountable order can begin."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Entry into an interior makes the settled order something people inhabit."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the order's answerability rather than mere allegiance."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "The city of obedience supplies a civic-spatial image for the domain entered."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Human cohorts supply the population by which the verdict becomes social order."
+              }
+            ],
+            "structural_cues": [
+              "The result of 110:1 is followed by repeated plural entry rather than a description of a defeated opponent.",
+              "The container construction في دين allows a spatial-social model without requiring دين itself to be a literal city."
+            ],
+            "reader_inference": "The packet supplies redress, judgment, entry, accounting, and a city-of-obedience image; I infer that the verdict is institutionalized as an inhabitable order. Alternatively, city and accounting may remain separate lexical branches with no civic mechanism here.",
+            "changed_reading": {
+              "before": "Divine judgment ends an oppressive dispute.",
+              "after": "The settlement opens an accountable order that groups can enter and inhabit, so justice becomes a social arrangement rather than a terminating verdict."
+            }
+          },
+          {
+            "model_id": "delta_opening_as_postvictory_beginning",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ب ح",
+              "ح م د",
+              "ر ب ب"
+            ],
+            "mechanism": "The opening is not the end-state but the beginning that opens what follows: worship, a praiseworthy aim, nurture, completion, and growth. The conqueror's task changes from obtaining the event to being formed after it.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B002",
+                "role": "An opening beginning that unlocks what follows makes victory the first phase rather than the finish."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B001",
+                "role": "Worship through glorification and prayer supplies the first discipline opened by the event."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B004",
+                "role": "The praiseworthy end supplies a telos beyond simply obtaining victory."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture, repair, and completion supply the formative work required after opening."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant split image of nourishment and growth extends completion into an exploratory organic process."
+              }
+            ],
+            "structural_cues": [
+              "The فـ at the start of 110:3 links imperatives to the achieved condition in the preceding ayat.",
+              "The sequence moves from public influx to second-person worship and self-correction."
+            ],
+            "reader_inference": "The packet supplies an opening-beginning, consequent worship, a praiseworthy end, nurture, and growth; I infer that victory inaugurates formation. A live alternative is that 110:3 prescribes gratitude after a fully complete event without redefining the opening.",
+            "changed_reading": {
+              "before": "The opening is the terminal achievement for which one later gives thanks.",
+              "after": "The opening begins a post-victory formation in which worship, repair, maturation, and a praiseworthy end still have to unfold."
+            }
+          },
+          {
+            "model_id": "delta_antiboast_guard",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "س ب ح",
+              "ح م د",
+              "غ ف ر"
+            ],
+            "mechanism": "A publicly visible opening carries a semantic shadow of display and self-credit. Glorification, praise, and seeking protective forgiveness function as a guard against converting divine aid into the victor's boast.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one fixes the proper object of devotion and attribution."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B009",
+                "role": "Boastful display of wealth or learning supplies the dangerous shadow carried by an achieved opening."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing oneself before people makes public visibility the setting in which self-display can arise."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring transcendence and clearing from fault redirects the event away from human self-magnification."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B005",
+                "role": "Claiming praise by conferring a favor names the precise appropriation risk that praise of the Lord reverses."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Covering a fault and protecting its bearer from its effect supplies remediation for the victor's attributional failure."
+              }
+            ],
+            "structural_cues": [
+              "Public seeing and mass movement are followed immediately by commands centered on the Lord rather than the human witness.",
+              "Praise and seeking forgiveness are coordinated in the response to success."
+            ],
+            "reader_inference": "The packet supplies public display, a boast branch of opening, praise-claiming, transcendence, and forgiveness; I infer an ego hazard generated by success and a ritual guard against it. Alternatively, the commands may be generic devotion with no implied boast risk.",
+            "changed_reading": {
+              "before": "The opening authorizes uncomplicated celebration by the victorious party.",
+              "after": "The opening is also an attributional test: its visibility can feed self-display, so its proper completion requires praise redirected to the Lord and protection from self-credit."
+            }
+          },
+          {
+            "model_id": "delta_open_then_protect",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د خ ل",
+              "غ ف ر"
+            ],
+            "mechanism": "فتح and غفر create a controlled-boundary paradox. The aperture must open for entry, yet opening also permits hidden corruption or an alien element to mingle; protective covering is therefore part of governing, not undoing, permeability.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "A widened aperture supplies the necessary but potentially vulnerable boundary condition."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B004",
+                "role": "Hidden corruption supplies a possible adverse interior effect of successful entry."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B005",
+                "role": "An outsider who mingles with a group supplies the permeability risk without negating genuine entrants."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "Covering that preserves and protects supplies the counter-operation that makes openness governable."
+              }
+            ],
+            "structural_cues": [
+              "Entry through the opened field precedes the command to seek covering and protection.",
+              "The sequence preserves both openness and a subsequent protective act rather than choosing one boundary state."
+            ],
+            "reader_inference": "The packet supplies aperture, entry, hidden interior damage, mingling, and protective covering; I infer that opening creates a need for governed protection. Alternatively, غفر may concern only moral fault and have no boundary-management role.",
+            "changed_reading": {
+              "before": "Success is maximal, unqualified openness after a barrier falls.",
+              "after": "Success is selective permeability: the boundary opens for entry but must also be protected against harms that openness can carry inward."
+            }
+          },
+          {
+            "model_id": "delta_event_within_enduring_return",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ك و ن",
+              "ت و ب"
+            ],
+            "mechanism": "The punctual coming of 110:1 is nested within continuity in 110:3. The opening starts what follows, while enduring lordship and the solicitation of return prevent the event from closing history into a completed triumph.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the bounded event that occurs at a threshold in time."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B002",
+                "role": "An opening beginning supplies the event's forward-facing rather than terminal aspect."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding, residence, and continuance supply durable lordship around the punctual event."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the closing description explicitly temporal."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ت و ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000189",
+                "branch_id": "B003",
+                "role": "Calling another to repent supplies an ongoing invitation to return after the opening."
+              }
+            ],
+            "structural_cues": [
+              "The threshold construction إذا جاء is answered later by a clause containing كان.",
+              "The event nouns are followed by imperatives and a stable divine description rather than a narrative stop."
+            ],
+            "reader_inference": "The packet supplies a punctual arrival, an opening-beginning, continuance, temporal presence, and elicited return; I infer that the event is nested in an enduring return-process. Alternatively, كان may simply support a conventional divine predicate without contrasting temporal scales.",
+            "changed_reading": {
+              "before": "Victory arrives once and closes the prior story.",
+              "after": "A punctual opening occurs inside enduring lordship and begins repeated reorientation; the event is real but not self-sufficient or terminal."
+            }
+          },
+          {
+            "model_id": "delta_social_irrigation",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ف و ج",
+              "س ب ح",
+              "ر ب ب"
+            ],
+            "mechanism": "The baseline water network acquires a social-ecological extension: rain and tributaries reach an opened channel, cohorts move through a broad gap like distributed flow, and the result is nurture and growth. The people are not equated with water; flow is the reader-supplied analogy linking the packet's material branches.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B003",
+                "role": "The water-gathering hollow supplies the catchment into which distant relief converges."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B004",
+                "role": "Relieving rain that causes growth supplies the life-giving input."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B007",
+                "role": "Tributaries bringing water from afar supply convergence and distribution."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Water released through an opening supplies controlled outflow from the achieved threshold."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Human groups supply the distributed social units carried by the analogy."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B002",
+                "role": "A broad gap supplies the channel widened for grouped passage."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B004",
+                "role": "Running or swimming supplies movement through a medium rather than static accumulation."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "Rain-bearing cloud supplies an upstream ecological counterpart to the rain-relief branch."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split image of nourishment and growth supplies the downstream effect of distributed flow."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from arrival and opening to grouped entry and then to an imperative whose root also carries free movement through water.",
+              "Plural cohorts prevent the material analogy from collapsing into one undifferentiated mass."
+            ],
+            "reader_inference": "The packet supplies rain, tributaries, an opened watercourse, a broad gap, grouped movement, cloud, and growth; I infer a social-irrigation analogy connecting them. A live alternative is accidental branch resonance with no intended cross-domain mechanism.",
+            "changed_reading": {
+              "before": "The water branches offer a self-contained image of relief reaching an outlet.",
+              "after": "Exploratorily, the opening distributes divine relief into social growth: cohorts move through it as differentiated flows through a widened, life-giving channel."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_victory_becomes_report",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ر و ي mapping behind رأيت rather than the dominant sight branch. It remains anchored to the arrived event and to the packet's explicit split inventory, but downstream prose should call it a transmission afterimage, not translate رأيت as narration.",
+            "focus_anchor": "An event that comes and opens can pass from occurrence into a carried account of that occurrence.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the event that can subsequently become reportable."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Prevailing aid supplies the event-content carried into public memory."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The split-root image of transmitting news or poetry supplies a secondary movement from witnessed event to narrated event."
+              }
+            ],
+            "changed_reading": {
+              "before": "Victory becomes publicly visible.",
+              "after": "As a contained split-root afterimage, victory also becomes transmissible narrative: an arrival that can be carried beyond those who directly saw it."
+            }
+          },
+          {
+            "outlier_id": "outlier_wound_drainage_and_relapse",
+            "confidence": "exploratory",
+            "containment": "This cross-domain medical analogy is surprising and branch-distant, but it is anchored by a focus branch for matter collected in a wound, the focus aperture, and a context branch for wound relapse. Downstream prose should present it only as an analogy of accumulated injury, release, and aftercare, never as a lexical paraphrase of the ayah.",
+            "focus_anchor": "جاء and الفتح can jointly image accumulated matter reaching an opening, while later غفر carries the possibility of a wound's relapse.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B006",
+                "role": "Collected matter from a wound supplies the image of injury that has accumulated to a point of release."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Redress after oppression supplies the social injury for which release would count as relief."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening a closure supplies drainage or exposure of what had been trapped."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B004",
+                "role": "Relapse of illness or wound supplies the warning that opening and relief do not eliminate the need for aftercare."
+              }
+            ],
+            "changed_reading": {
+              "before": "Victory cleanly removes an external obstacle.",
+              "after": "As a contained wound analogy, redress opens and releases accumulated injury, while the command that follows guards against relapse after the dramatic relief."
+            }
+          },
+          {
+            "outlier_id": "outlier_opening_as_cutover",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-dominant ت ب ب split under توابا, especially its cutting image. It remains anchored to الفتح as an opening beginning and to the packet's supplied split, but downstream prose should call it a cutover shadow of return, not import cutting into the direct meaning of تواب.",
+            "focus_anchor": "The opening can be a beginning precisely because a prior configuration is severed at the threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the threshold at which the transition takes effect."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B002",
+                "role": "An opening beginning supplies the new phase initiated at the threshold."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ت و ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "The split-root cutting image supplies a contained severance of the prior order that makes return a genuine reorientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Opening simply adds a victorious new condition.",
+              "after": "As a contained split-root shadow, the opening is a cutover: it begins a new orientation by severing continuity with the configuration that preceded it."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The arrival-and-opening threshold becomes publicly legible through grouped human entry rather than remaining an invisible transfer of power.",
+            "Conquest is revised into permeability: people cross into obedience, while visible entry and inward entrustment remain distinguishable.",
+            "The repeated divine name makes aid's source and the entered religion's destination form an anti-appropriation circuit.",
+            "The response in 110:3 turns opening from a terminal triumph into the start of praise, protection, nurture, and repeated return.",
+            "Juridical, inward, and hydraulic mechanisms remain live beside the prevailing-aid reading rather than being merged into it."
+          ],
+          "what_was_special": "The focus-only branch constellations already supported legal redress, gifted disclosure, and a coherent water network. Context then made opening social and porous, exposed an ego-risk in public success, and extended the water network into a carefully contained social-irrigation model. Non-dominant split roots were retained as explicit exploratory activators rather than silently collapsed.",
+          "remaining_uncertainties": [
+            "The conjunction of aid and opening supports coupling but does not by itself prove that aid causally precedes opening.",
+            "The packet leaves outward group entry, inward assent, compelled compliance, and performative display simultaneously possible.",
+            "The civic, hydraulic, wound, narration, and cutover models depend on branch constellations or split mappings and should remain analogical rather than direct glosses.",
+            "The exact temporal force contributed by كان to the contrast between punctual arrival and enduring return remains open."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Help and opening as an arrival-threshold that creates access.** Lexical evidence: `ج ي ء` B001, coming/arrival; `ج ي ء` B004, bringing or presenting something; `ن ص ر` B001, aid that makes someone prevail; `ف ت ح` B001, opening what is closed; `ف ت ح` B006, key/means of access; `د خ ل` B001, entering. Structural cue: 110:1 says the help/opening \"comes\"; 110:2 immediately shows people entering; 110:3 gives the required response once the threshold has opened. Assigned role: coming marks event-arrival, help supplies efficacy, opening supplies aperture, and entry verifies that the aperture works. Abductive move: I infer that the later entry is the functional test of the earlier opening. Reading change: the ayah reads less as an abstract announcement of victory and more as the moment when a closed boundary becomes passable.\n\n2. **Victory as flowing relief, not only domination.** Lexical evidence: `ن ص ر` B004, rain and relief by rain; `ن ص ر` B007, tributary watercourse; `ف ت ح` B005, water released from its opening; `ج ي ء` B002/B003, water-collecting hollow; `س م و` B004, sky/rain; `ر ب ب` B008/B013, cloud and abundant water; `ف و ج` B001, successive groups. Structural cue: the sequence runs from coming help/opening to people entering in waves, and the branch inventories cluster around rain, water release, tributaries, and collected flow. Assigned role: `نصر` becomes relief-rain, `فتح` becomes the opened outlet, `أفواج` becomes the visible wave pattern downstream. Abductive move: I supply a hydrological causal path: sky/rain relief opens channels, and groups move like tributaries into a collection point. Reading change: \"نصر الله والفتح\" is activated as life-giving release and irrigation, not merely as military conquest.\n\n3. **Opening as adjudication and redress.** Lexical evidence: `ن ص ر` B002, redress after oppression; `ف ت ح` B003, settling a closed dispute by judgment; `د ي ن` B002, reckoning/recompense; `غ ف ر` B002, shielding from consequence; `ت و ب` B003, calling someone to repent/return. Structural cue: 110:1 pairs help with opening; 110:2 locates the mass movement in dīn; 110:3 answers with forgiveness and return. Assigned role: help/redress handles the oppressed side; opening/judgment resolves the closed case; dīn/reckoning supplies the juridical domain; istighfār/tawwāb supplies post-judgment mercy. Abductive move: I infer that an opened victory can be a court-like settlement whose end is not punishment alone but return. Reading change: the ayah reads as a decisive divine ruling that opens the way to pardon, not only as the winning of a contest.\n\n4. **The beginning of a final liturgical sequence.** Lexical evidence: `ف ت ح` B002, opening beginning; `ء ل ه` B002, invocation formula; `س ب ح` B001, worship/prayer; `ح م د` B001, praise/thanksgiving. Structural cue: the packet itself begins with basmalah, 110:1 begins the ordinary surah movement with \"when,\" and 110:3 supplies imperatives of worship. Assigned role: `فتح` opens not only territory/access but a ritual sequence: invocation, event, witnessed entry, praise, and forgiveness. Abductive move: I infer that the temporal `إذا` functions as a hinge: when this beginning arrives, a particular worship-response becomes due. Reading change: 110:1 becomes an opening cue for liturgical action, not only a reportable historical condition.",
@@ -9847,14 +11080,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s110/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 38,
+        "ayah_count": 3,
+        "row_count": 31,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9987,10 +11226,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s110/packets/110_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s110/readers/reader_hft_a/110_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s110"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s110",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 76606,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

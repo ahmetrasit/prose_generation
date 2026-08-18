@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:25.222616+00:00",
+  "generated_at": "2026-08-18T13:34:33.012637+00:00",
   "surah": 105,
   "ayah": 1,
   "ayahRef": "105:1",
@@ -2125,7 +2125,8 @@
         "m-w-s105-a001-w001-01",
         "m-w-s105-a001-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:1"
+      "aligned_qac_word_ref_upstream": "105:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2139,7 +2140,8 @@
       "morpheme_ids": [
         "m-w-s105-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:2"
+      "aligned_qac_word_ref_upstream": "105:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2153,7 +2155,8 @@
       "morpheme_ids": [
         "m-w-s105-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:3"
+      "aligned_qac_word_ref_upstream": "105:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2167,7 +2170,8 @@
       "morpheme_ids": [
         "m-w-s105-a001-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:4"
+      "aligned_qac_word_ref_upstream": "105:1:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2183,7 +2187,8 @@
         "m-w-s105-a001-w005-01",
         "m-w-s105-a001-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:5"
+      "aligned_qac_word_ref_upstream": "105:1:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2197,7 +2202,8 @@
       "morpheme_ids": [
         "m-w-s105-a001-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:6"
+      "aligned_qac_word_ref_upstream": "105:1:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2211,7 +2217,8 @@
       "morpheme_ids": [
         "m-w-s105-a001-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:7"
+      "aligned_qac_word_ref_upstream": "105:1:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2227,7 +2234,8 @@
         "m-w-s105-a001-w007-01",
         "m-w-s105-a001-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:1:8"
+      "aligned_qac_word_ref_upstream": "105:1:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -4256,7 +4264,1027 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s105/packets/105_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "105:1",
+      "window": [
+        "105:1",
+        "105:2",
+        "105:3",
+        "105:4",
+        "105:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ف ع ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001167",
+              "furuq_root_norm": "ف ع ل",
+              "furuq_source_root_norm": "ف ع ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 108,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000007",
+              "furuq_root_norm": "ء ب و",
+              "furuq_source_root_norm": "أ ب و",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ك ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000043",
+              "furuq_root_norm": "ء ك ل",
+              "furuq_source_root_norm": "أ ك ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 79,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001315",
+              "furuq_root_norm": "ك ل ل",
+              "furuq_source_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 30,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "105:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_manner_as_evidence",
+            "confidence": "strong",
+            "focus_anchor": "The negative interrogative أَلَمْ تَرَ ... كَيْفَ binds perception to the manner of رَبُّكَ's فعل.",
+            "mechanism": "Seeing or insight and the alerting question make the deed cognitively present; branchless كَيْفَ structurally keeps its manner open, while فعل and lordship supply intentional governing agency.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Eye-seeing or insight makes the clause demand apprehension rather than passive receipt of information."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting tell-me use turns the interrogative into a summons to attend to how the deed worked."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act supplies the event whose operative manner must be grasped."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Ownership and sovereignty locate the act within governing agency rather than anonymous occurrence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A question asking whether the addressee literally witnessed a past event.",
+              "after": "A summons to grasp the manner of a lordly deed as present, inspectable evidence, whether or not it was literally witnessed."
+            }
+          },
+          {
+            "model_id": "baseline_competing_attachments",
+            "confidence": "strong",
+            "focus_anchor": "رَبُّكَ and أَصْحَابِ الْفِيلِ place two relations of possession or association on opposite sides of فَعَلَ.",
+            "mechanism": "The addressee is related to a sovereign who owns, tends, and completes, while the acted-upon people are named through sustained attachment to an elephant. The verse therefore contrasts two constitutive relations, not merely two named parties.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Mastery and ownership make رَبُّكَ the governing relation set against the other group's attachment."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Tending, correction, and completion add sustained ordering to lordship's action."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Close association makes the people identifiable through what they accompany or possess."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B004",
+                "role": "Taking or carrying something along makes the elephant an incorporated instrument of the collective."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The concrete elephant supplies the conspicuous power-object around which the collective is named."
+              }
+            ],
+            "changed_reading": {
+              "before": "أَصْحَابِ الْفِيلِ is only a label for a group present with an elephant.",
+              "after": "The focus is a relational confrontation: people constituted by attachment to a power-bearing instrument are acted upon by the addressee's owning and ordering Lord."
+            }
+          },
+          {
+            "model_id": "baseline_report_becomes_sight",
+            "confidence": "medium",
+            "focus_anchor": "تَرَ can hold direct or inward seeing while its non-dominant split mapping activates transmission of a report.",
+            "mechanism": "Perception and narration coexist: a transmitted event can be rhetorically re-presented until it functions as sight. The question need not choose between eyewitnessing and report; it can convert the latter into the former's evidentiary force.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Sensory or insightful seeing supplies the immediacy claimed by تَرَ."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant report-and-poetry branch supplies transmission as the medium through which the event becomes present."
+              }
+            ],
+            "changed_reading": {
+              "before": "Seeing and hearing a report are rival explanations of the address.",
+              "after": "The received narrative is made cognitively visible: transmission does not weaken the evidence but becomes its vehicle."
+            }
+          },
+          {
+            "model_id": "baseline_bulk_masks_weak_judgment",
+            "confidence": "exploratory",
+            "focus_anchor": "تَرَ invites judgment, while الْفِيلِ has both the animal branch and a branch of slack or mistaken discernment.",
+            "mechanism": "The most visible emblem of physical mass can carry an ironic counter-image of poor judgment. The addressee is asked to look through conspicuous scale and assess the discernment of those defined by it.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment makes seeing an evaluation of the collective's reasoning."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies visible magnitude and the group's explicit identifying instrument."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Slack or mistaken judgment supplies an ironic weakness concealed by that magnitude."
+              }
+            ],
+            "changed_reading": {
+              "before": "The elephant contributes zoological identification and an impression of scale.",
+              "after": "The label can carry an ironic double activation: massive visible power coupled to weak discernment, inviting judgment of its companions rather than awe at the animal."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_plan_converted_into_failure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ك ي د",
+              "ض ل ل"
+            ],
+            "mechanism": "The broad فعل of 105:1 is specified as a transformation whose patient is the companions' own stratagem: purposive contrivance is made to occupy a state of misdirection and loss. The action works inside the plan's organization rather than only striking its agents from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "An effected deed leaves its precise operation open for the context to specify."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something assume a state supplies the conversion operator applied to the plot."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Calculated contrivance supplies an internally organized plan capable of being reversed."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from direction supplies the failed trajectory into which the plan is made."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies the terminal disappearance of the plot's intended yield."
+              }
+            ],
+            "structural_cues": [
+              "105:2 repeats أَلَمْ and answers the branchless كَيْفَ of 105:1 with a transformation clause.",
+              "The possessive object كَيْدَهُمْ keeps the operation anchored to أَصْحَابِ الْفِيلِ."
+            ],
+            "reader_inference": "The packet supplies transformation, contrivance, deviation, and loss; I infer the directional arrow that the plan's own organization becomes the site of its defeat. A live alternative is simple external cancellation without reflexive reversal.",
+            "changed_reading": {
+              "before": "The Lord performed an unspecified deed against the elephant's companions.",
+              "after": "The Lord's deed penetrates their plan and converts its designed direction into the very state of failure."
+            }
+          },
+          {
+            "model_id": "delta_strategy_exposes_miscalculation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ي د",
+              "ض ل ل"
+            ],
+            "mechanism": "The focus-only irony of great bulk with weak discernment gains a causal test: effortful, calculated strategy terminates in deviation. Failure is not caused by absence of planning; planning itself reveals misjudgment under the addressee's reflective gaze.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflection and evaluative judgment position the addressee to assess strategic intelligence."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Mistaken discernment supplies the exploratory weakness that context can test."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Severe exertion prevents the failure from reading as mere lack of effort."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Cunning supplies deliberate strategic intelligence whose adequacy is being tested."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from the intended course supplies the observable verdict on that intelligence."
+              }
+            ],
+            "structural_cues": [
+              "The plural possessive in كَيْدَهُمْ assigns the strategy to the same collective named in 105:1.",
+              "فِي تَضْلِيلٍ presents failure as an encompassing result-state rather than a single missed move."
+            ],
+            "reader_inference": "The packet supplies reflective judgment, a form-distant weakness branch, strenuous cunning, and deviation; I infer that strategic failure exposes defective discernment. The alternative is to leave the ف ي ل weakness branch inactive and read only external overpowering.",
+            "changed_reading": {
+              "before": "The elephant's scale may ironically coexist with weak judgment.",
+              "after": "The irony becomes operational: a worked-out strategy, not raw impulse, is precisely what discloses the companions' miscalculation."
+            }
+          },
+          {
+            "model_id": "delta_absence_becomes_visible_evidence",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ض ل ل"
+            ],
+            "mechanism": "The command to see is answered by images of hiding and loss. What becomes perceptible is a negative trace: the intended outcome does not arrive, so cognition moves from visible absence back to the agency that made the plan vanish.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing or insight establishes the focus's demand for evidence."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance and concealment turn non-arrival into the paradoxical thing to be seen."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies the missing effect from which the reader infers the counter-action."
+              }
+            ],
+            "structural_cues": [
+              "The repeated أَلَمْ aligns the focus's seeing question with the context's failed result.",
+              "The focus asks how, while 105:2 first answers through what no longer reaches its goal."
+            ],
+            "reader_inference": "The packet supplies seeing, concealment, and loss; I infer an evidentiary arrow from absent outcome to effective counter-agency. A live alternative confines ض ل ل to wrong direction and does not activate absence as evidence.",
+            "changed_reading": {
+              "before": "Seeing the deed requires a positively displayed spectacle.",
+              "after": "The deed can also be seen abductively in a vanished outcome: the failure to arrive is itself the trace of how the Lord acted."
+            }
+          },
+          {
+            "model_id": "delta_attached_bulk_vs_distributed_lightness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ط ي ر",
+              "ء ب ل"
+            ],
+            "mechanism": "A collective named by close attachment to one conspicuous heavy animal is answered by agents defined through dispatch, aerial lightness, spreading, and grouped multiplicity. The contrast makes organization itself part of the كيف: centralized attached bulk meets distributed mobility.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Sustained association gives the acted-upon collective a cohesive identity around its companion-object."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies the singular conspicuous center of that attached identity."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and emission supply an externally directed counter-agency."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Light flight supplies mobility that contrasts with elephant-centered mass."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spreading after light movement supplies distributed coverage rather than one concentrated front."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Successive groups organize the light agents as plural waves rather than an undifferentiated flock."
+              }
+            ],
+            "structural_cues": [
+              "عَلَيْهِمْ directs the dispatched plurality back onto the companions named in 105:1.",
+              "The collective noun طَيْرًا qualified by أَبَابِيلَ places one mode of collectivity against another."
+            ],
+            "reader_inference": "The packet supplies attachment, elephant, dispatch, flight, spreading, and groups; I infer that asymmetry of organization is a mechanism of the reversal. The live alternative treats these cues as zoological description without contrasting force architectures.",
+            "changed_reading": {
+              "before": "The Lord acts on an elephant-associated collective by an as-yet unspecified means.",
+              "after": "The manner is an inversion in force architecture: attached bulk is answered by dispatched, mobile, distributed plurality."
+            }
+          },
+          {
+            "model_id": "delta_remote_delivery_as_containment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر",
+              "س ج ل"
+            ],
+            "mechanism": "Directed throwing, hard matter, enclosure, full pouring, and fixing in a register combine into a model of saturation and closure. The Lord's فعل operates at range yet makes the advancing collective bounded and materially fixed.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The open deed receives a concrete delivery-and-containment mechanism from the context."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Sending and throwing supply force delivered from a distance."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B006",
+                "role": "Movement toward a goal lets the throwing read as targeted delivery rather than mere release."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies the literal compact impact-material."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prevention and enclosure give the impacts the functional role of stopping and bounding movement."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "A full vessel pouring out supplies saturation by repeated material delivery."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "A register that gathers and fixes supplies the exploratory image of defeat being made materially settled."
+              }
+            ],
+            "structural_cues": [
+              "The feminine singular تَرْمِيهِمْ treats the distributed bird collective as one coordinated actuator.",
+              "Instrumental بِـ on the stones and material مِنْ on سِجِّيلٍ build a delivery chain from agent to target."
+            ],
+            "reader_inference": "The packet supplies throwing, goal-directed motion, hardness, enclosure, pouring, and recording; I infer a coordinated arrow from delivery to saturation and closure. The live alternative needs only literal thrown hard stones and leaves enclosure and register as separate latent images.",
+            "changed_reading": {
+              "before": "The focus announces an unspecified overpowering act.",
+              "after": "The act becomes a coordinated remote operation that stops movement, saturates the target, and fixes the defeat in matter."
+            }
+          },
+          {
+            "model_id": "delta_companionship_unmade_into_residue",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ع ص ف",
+              "ء ك ل"
+            ],
+            "mechanism": "The repeated transformation verb carries the companions into a result-image of fragmented crop covering, wind-scattered matter, consumption, and decay. The endpoint does not merely defeat an intact collective; it dissolves the attachment and usable form by which the collective was named.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Close association supplies the coherent social relation that the result-state can undo."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B004",
+                "role": "Carrying something along makes loss of organized attachment part of the collective's unmaking."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making the object assume a new state explicitly converts the companions rather than merely comparing them."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Fragmented crop husk and leaf supply a residue stripped of integral form."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B002",
+                "role": "Wind-driven scattering supplies loss of cohesion and common direction."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Being taken as food supplies the post-use condition of what has already served another process."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Erosion and corruption supply progressive loss of material integrity."
+              }
+            ],
+            "structural_cues": [
+              "105:5 repeats جَعَلَ from 105:2, closing the sequence with a visible result-state.",
+              "The object pronoun in جَعَلَهُمْ carries the companions of 105:1 into the final comparison."
+            ],
+            "reader_inference": "The packet supplies association, transformation, crop fragments, scattering, consumption, and decay; I infer that dissolution reaches organized identity as well as material form. The live alternative limits the final image to visual bodily residue and leaves social de-association unstated.",
+            "changed_reading": {
+              "before": "The elephant's companions remain conceptually the same organized collective after being defeated.",
+              "after": "The Lordly deed unmakes the relation that named them: attached instrument-bearers become scattered, post-use residue without collective form."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_elephant_as_hidden_locus_game",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the remote game branch beside the ordinary animal branch: something is hidden in divided soil and the player must identify its locus. It remains anchored to الْفِيلِ and the focus's alerting question, but downstream prose should present it only as a metareading of discernment and distraction, never as a lexical replacement for elephant.",
+            "focus_anchor": "The alerting تَرَ construction asks the reader to discern how action occurred, while the ف ي ل inventory juxtaposes the visible animal with a game of finding a concealed object.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting inquiry places the addressee in the position of one challenged to identify the operative answer."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The animal supplies the enormous obvious object that dominates first attention."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B003",
+                "role": "The hide-and-divide game supplies an exploratory contrast between the obvious object and the concealed decisive locus."
+              }
+            ],
+            "changed_reading": {
+              "before": "The elephant is simply the most visible item in the scene.",
+              "after": "As a contained metareading, its very visibility can function as the distractor in a discernment problem: the reader must locate agency somewhere other than the largest object."
+            }
+          },
+          {
+            "outlier_id": "outlier_light_agents_transfer_burden",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the burden or liability branch of ء ب ل is collateral to the ordinary grouped أبابيل image, and the transfer arrow is reader-supplied. It remains anchored in the companions' carried attachment and in the sent birds and stones; render it as a secondary burden-reversal analogy, not as the gloss of أبابيل.",
+            "focus_anchor": "أَصْحَابِ الْفِيلِ names people through a carried attachment to the heaviest visible creature, allowing later light agents to reverse who bears weight and consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B004",
+                "role": "Taking or carrying something along makes the elephant an assumed attachment and load of identity."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies maximal visible weight on the companions' side of the relation."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Light flight supplies the paradoxically weightless carrier."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B004",
+                "role": "Weight and liability supply the consequence transferred through the grouped aerial formation."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone gives material weight to what the light carriers return upon the target."
+              }
+            ],
+            "changed_reading": {
+              "before": "Light birds simply transport small projectiles against a massive animal-centered group.",
+              "after": "As an exploratory reversal, distributed light agents return weight and liability upon those whose identity was built by carrying the heaviest attachment."
+            }
+          },
+          {
+            "outlier_id": "outlier_destructive_act_as_counter_cultivation",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading depends on non-dominant split mappings from ف ع ل to nurture and from ر ب ب to growth, so it is form-distant and cannot define the words' local senses. It remains anchored in فَعَلَ رَبُّكَ and is sharpened by the final plant residue; downstream prose should qualify it as a material analogy of selective cultivation, not an assertion of lexical identity or motive.",
+            "focus_anchor": "فَعَلَ رَبُّكَ concentrates several tending, completion, nurture, and growth images around the agent and deed.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The non-dominant fathering and nurture branch gives the deed a remote formative undertone."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Tending, correction, and completion supply the primary cultivation image around lordship."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant nourishment and growth branch doubles the formative material register."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Spent crop husk supplies the endpoint of vegetation reduced after its integral use."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B002",
+                "role": "Agricultural yield keeps the result within a cultivation-and-consumption analogy."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Decay supplies the conversion of overgrown organized matter into unusable residue."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Lord's deed is categorically opposed to nurture because its endpoint is destructive.",
+              "after": "As a tightly contained material analogy, governance can appear as counter-cultivation: one order is tended by reducing an overgrown coercive formation to spent plant matter."
+            }
+          },
+          {
+            "outlier_id": "outlier_consumption_as_dulling_and_stall",
+            "confidence": "exploratory",
+            "containment": "This reading uses the non-dominant ك ل ل target mapped from ء ك ل, so its dullness, enclosure, and hesitation cannot replace the ordinary consumed-residue sense. It remains useful because those images attach the final state back to the elephant-centered collective's operative capacity; render them as a split-root afterimage of strategic neutralization.",
+            "focus_anchor": "The companions are defined by an elephant-centered collective instrument, so the final result can be tested for what happens to that instrument's edge and momentum.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Association supplies the collective whose operative cohesion can be neutralized."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies the collective's concentrated instrument of movement and force."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B001",
+                "role": "Dullness and loss of sharpness supply neutralization of operative edge."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure supplies comprehensive containment of the once-cohesive force."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B010",
+                "role": "Suspension between proceeding and retreat supplies the final loss of strategic momentum."
+              }
+            ],
+            "changed_reading": {
+              "before": "مَأْكُولٍ contributes only the image of matter already consumed.",
+              "after": "As a form-distant afterimage, the result is also strategic dulling and total enclosure: the formation loses its edge and stalls between advance and retreat."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The open question about what the Lord did becomes a precise reversal in which the companions' own designed plan is made to lose direction.",
+            "The focus's attached elephant-centered bulk is reread against dispatched, light, distributed groups and then against the dissolution of companionship into scattered residue.",
+            "Seeing expands from literal spectacle to report-mediated presence and, more abductively, to inference from the plan's conspicuous non-arrival."
+          ],
+          "what_was_special": "The focus ayah organizes its surprise through relations and manner: رَبُّكَ faces أَصْحَابِ الْفِيلِ across an initially open فعل, and the context repeatedly specifies making, dispatch, delivery, and result. This allows causal reversal, force architecture, material decomposition, and epistemic evidence to remain coexisting readings; non-dominant split roots add contained echoes of report, weak judgment, cultivation, burden, dulling, and stalled movement.",
+          "remaining_uncertainties": [
+            "The non-dominant ر و ي, ء ب و, ر ب و, and ك ل ل mappings may be productive resonances or only form-distant packet affordances; they should remain visibly qualified.",
+            "The enclosure and register images in 105:4 may form one saturation-and-closure mechanism or remain independent alternatives beside literal hard projectiles.",
+            "The final residue certainly changes material form, but extending that change to the collective's social identity is an abductive step rather than an explicit grammatical assertion."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The ayah as an instruction to inspect a mechanism, not merely recall an event.** Lexical evidence: ر ء ي B001, seeing by eye or insight; ر ء ي B012, showing and making seen; ر ء ي B013, \"tell me\" formula; ف ع ل B001, bringing an act into being. ك ي ف has no accepted non-contaminated branch inventory in the packet, so I use it only as the surface interrogative \"how\" and do not assign a branch ID. Structural cue: 105:1 asks about manner before 105:2-5 give sequential operations: making the plot lost, sending birds, throwing stones, making them chaff. Assigned role: ر ء ي makes the reader/viewer an observer of staged causation; ف ع ل names the whole sequence as an effected act. Abductive move: I infer that the later ayat are the answer to \"how\"; the packet supplies the order, while I supply the forensic reading of that order. Reading change: \"أَلَمْ تَرَ\" reads less as simple \"did you not see\" and more as \"watch the way the action is made visible.\"\n\n2. **Lordship as corrective administration.** Lexical evidence: ر ب ب B001, lordship, ownership, and authority; ر ب ب B002, repair, nurture, and completion; ج ع ل B002 in 105:2 and 105:5, turning something into a state; ض ل ل B001/B003, going astray from aim and losing/failing to locate. Structural cue: \"رَبُّكَ\" occurs before two instances of جعل that convert their كيد into تضليل and then convert them into عصف مأكول. Assigned role: ر ب ب B001 supplies sovereign capacity; ر ب ب B002 supplies a caretaker's power to set a damaged order right. Abductive move: I supply that the two later make/turn operations are administrative acts of the Lord, not separate narrative facts. Reading change: the Lord's \"doing\" reads as a corrective governance of states and outcomes, not only an overwhelming blow.\n\n3. **\"Companions of the elephant\" as exposed dependence.** Lexical evidence: ص ح ب B001, companionship and close association; ص ح ب B004, making something accompany or carrying it along; ف ي ل B004, the elephant; ف ي ل B001, slackness and weak judgment. Structural cue: the human group is identified by companionship with the animal before their كيد is placed in تضليل. Assigned role: ص ح ب binds the group identity to what it accompanies; ف ي ل B004 supplies visible bulk, while ف ي ل B001 supplies a latent weakness of judgment activated by the later lost plot. Abductive move: I infer that the phrase does not merely label ownership but reveals the support system by which they understand themselves. Reading change: \"أصحاب الفيل\" becomes a diagnosis of dependence on heavy animal power and weak discernment, not a neutral historical tag.\n\n4. **Mighty animal force inverted by airborne and granular force.** Lexical evidence: ف ي ل B004, elephant; ط ي ر B001 in 105:3, airborne lightness and birds; ء ب ل B003, successive or scattered groups; ر م ي B001 and ح ج ر B003 in 105:4, casting hard stones. Structural cue: a single emblematic ground animal in 105:1 is answered by many airborne groups and small hard projectiles in 105:3-4. Assigned role: the elephant supplies mass and ground-bound prestige; the birds and stones supply distributed vertical force. Abductive move: I infer a reversal between the mode of confidence and the mode of defeat; the packet supplies animal/bird/projectile imagery, while I supply the directional inversion. Reading change: the ayah starts to read as the setup of a material reversal: weight below is overcome by lightness above carrying hardness.",
@@ -26405,14 +27433,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s105/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 43,
+        "ayah_count": 5,
+        "row_count": 36,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -26718,10 +27752,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s105/packets/105_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s105/readers/reader_hft_a/105_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s105"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s105",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 123485,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.680965+00:00",
+  "generated_at": "2026-08-18T13:33:34.432976+00:00",
   "surah": 88,
   "ayah": 1,
   "ayahRef": "88:1",
@@ -1727,7 +1727,8 @@
       "morpheme_ids": [
         "m-w-s088-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:1:1"
+      "aligned_qac_word_ref_upstream": "88:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1743,7 +1744,8 @@
         "m-w-s088-a001-w002-01",
         "m-w-s088-a001-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:1:2"
+      "aligned_qac_word_ref_upstream": "88:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1757,7 +1759,8 @@
       "morpheme_ids": [
         "m-w-s088-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:1:3"
+      "aligned_qac_word_ref_upstream": "88:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1773,7 +1776,8 @@
         "m-w-s088-a001-w004-01",
         "m-w-s088-a001-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:1:4"
+      "aligned_qac_word_ref_upstream": "88:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3927,7 +3931,1206 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:1",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_arriving_report",
+            "confidence": "strong",
+            "focus_anchor": "The transitive arrival in أتاك and the report noun حديث.",
+            "mechanism": "The question does more than introduce a topic: it casts speech as an incoming object that crosses into the addressee's present.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Literal coming supplies the delivery motion by which the report reaches the addressee."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Arising speech supplies the report that is made to travel."
+              }
+            ],
+            "changed_reading": {
+              "before": "A formula asking whether the addressee has heard about a named subject.",
+              "after": "A threshold scene in which the report itself arrives and enters the addressee's present."
+            }
+          },
+          {
+            "model_id": "b_event_that_envelops",
+            "confidence": "strong",
+            "focus_anchor": "The genitive bond حديث الغاشية and the active, covering force carried by الغاشية.",
+            "mechanism": "The named event is understood functionally: it is a happening whose identity lies in overtaking and enveloping rather than merely bearing a title.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B005",
+                "role": "A time-borne happening or calamity makes حديث denote an event as well as its report."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "The overwhelming affliction supplies the event's totalizing action upon those it reaches."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Covering is treated as an opaque proper name.",
+              "after": "The referent is an event defined by its action of overtaking and enveloping its field."
+            }
+          },
+          {
+            "model_id": "b_disclosure_cover_paradox",
+            "confidence": "medium",
+            "focus_anchor": "حديث as disclosure paired with الغاشية as a veil.",
+            "mechanism": "The phrase joins contrary motions: speech brings something out while its subject covers things over. The question therefore begins an unveiling of the very event of veiling.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure supplies the outward movement by which concealed matter becomes manifest."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped inventory supplies a concrete or cognitive veil opposed to disclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The report neutrally describes a covering event.",
+              "after": "The utterance performs a paradoxical unveiling of what will veil sight, heart, or world."
+            }
+          },
+          {
+            "model_id": "b_double_advent",
+            "confidence": "exploratory",
+            "focus_anchor": "The coming verb أتى and the visiting range of الغاشية.",
+            "mechanism": "Arrival is doubled: the report comes now, while the subject of that report is itself construed as something that comes upon or visits.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Ordinary arrival supplies the first advent, that of the report."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B005",
+                "role": "The split-root visiting image supplies a second advent, that of the reported event."
+              }
+            ],
+            "changed_reading": {
+              "before": "News about a future arrival is delivered in advance.",
+              "after": "One advent enters inside another: the coming report is the first visitation of the coming event."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_faces_differentiate_covering",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج ه",
+              "خ ش ع",
+              "ن ع م"
+            ],
+            "mechanism": "The repeated faces receive opposite visible states. The common covering event therefore does not erase difference; it makes divergent outcomes legible on the exposed front of persons.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A veil laid over a surface supplies the shared operation whose effects can appear differently."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face, also the forward-facing aspect, supplies the first exposed surface of outcome."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission give the first face its visibly collapsed state."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated face supplies a controlled second surface for comparison."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease give the second face the contrary state of flourishing."
+              }
+            ],
+            "structural_cues": [
+              "The identical indefinite noun وجوه opens both 88:2 and 88:8, while its predicates reverse from lowered to luxuriant."
+            ],
+            "reader_inference": "The packet supplies one covering operation and two matched facial surfaces with opposed states; I infer that the event reveals differentiated relations to itself rather than applying one homogeneous mask. A live alternative is that the two face scenes are simply separate portraits.",
+            "changed_reading": {
+              "before": "The Covering uniformly overwhelms an undifferentiated population.",
+              "after": "The same total event becomes a field of disclosure, writing contrary outcomes onto forward-facing human surfaces."
+            }
+          },
+          {
+            "model_id": "d_labor_becomes_reckonable_yield",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ن ص ب",
+              "س ع ي",
+              "ر ض و",
+              "ح س ب"
+            ],
+            "mechanism": "Purposeful work bifurcates into exhausted labor and effort with which one is satisfied, then closes under counting. The report becomes an outcome-ledger in which exertion is known by what it yields.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B007",
+                "role": "Produced increase or yield lets arrival be read as what comes out of prior cultivation or effort."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B004",
+                "role": "Becoming a tale makes lived work retrospectively reportable as an exemplary outcome."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intended action supplies labor as more than passive suffering."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness and affliction mark one terminal yield of work."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earning supply the comparable effort on the other side of the contrast."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance rather than resentment marks the contrary relation between effort and result."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting supplies the final evaluative operation under which both trajectories become reckonable."
+              }
+            ],
+            "structural_cues": [
+              "The sequence pairs عاملة ناصبة with لسعيها راضية and later ends with حسابهم."
+            ],
+            "reader_inference": "The packet supplies labor, exhaustion, striving, satisfaction, and counting; I supply the arrow from work through yield to evaluation. A live alternative is that the satisfied striving names a state without inviting comparison to the exhausted labor.",
+            "changed_reading": {
+              "before": "The opening promises a descriptive report about a catastrophic day.",
+              "after": "The opening announces a reckoning-shaped report in which forms of effort are exposed through their radically different yields."
+            }
+          },
+          {
+            "model_id": "d_arrival_as_divergent_channel",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م ي",
+              "س ق ي",
+              "ع ي ن",
+              "ء ن ي",
+              "ج ر ي"
+            ],
+            "mechanism": "The focus inventory's watercourse image is activated by two springs: one delivers heat at its reached limit, the other flows. Arrival becomes directed transmission with sharply different contents and destinations.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B004",
+                "role": "A cleared or directed watercourse supplies the latent conduit inside the focus verb."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat supplies the harmful charge carried by the first destination sequence."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "A share of watering and its channel makes delivery and allocation explicit."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The water source supplies the origin of the first directed flow."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Reaching a terminal time or readiness sharpens the first spring as flow brought to an extreme limit."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The repeated source supplies a matched origin for the contrary, beneficent flow."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous streaming realizes the unblocked channel on the flourishing side."
+              }
+            ],
+            "structural_cues": [
+              "عين occurs in both outcome sequences, first qualified by terminal heat and later by active flow."
+            ],
+            "reader_inference": "The packet supplies a latent channel in أتى and paired source-and-flow images; I infer that report-arrival is modeled as a current carrying the future into present hearing. A live alternative is that the water imagery contrasts outcomes without modeling communication.",
+            "changed_reading": {
+              "before": "The report simply reaches a listener.",
+              "after": "The report is a directed current from the event, already carrying a foretaste of divergent terminal conditions."
+            }
+          },
+          {
+            "model_id": "d_hostile_and_protective_coverings",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ن ن",
+              "ع ل و"
+            ],
+            "mechanism": "The threatening cover of الغاشية meets the sheltered, tree-covered enclosure of جنة. Covering is no longer one-note: it can overwhelm from above or preserve within an elevated enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "The veil over a thing supplies the broad relation of one layer enclosing another."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "The overwhelming use gives that enclosing relation its hostile realization."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden hidden and covered by trees supplies a protective realization of enclosure."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Elevation relocates the sheltered enclosure above the lowered condition of the contrary faces."
+              }
+            ],
+            "structural_cues": [
+              "The low faces of 88:2 and the high garden of 88:10 organize the two coverings vertically."
+            ],
+            "reader_inference": "The packet supplies hostile covering, a garden lexically constituted by sheltering cover, and elevation; I infer a reversal from being covered by affliction to being enclosed in protection. A live alternative keeps جنة as a lexicalized place with no active relation to الغاشية.",
+            "changed_reading": {
+              "before": "Covering is exclusively a smothering act.",
+              "after": "The event redistributes enclosure itself: hostile overtaking on one side, elevated shelter on the other."
+            }
+          },
+          {
+            "model_id": "d_hearing_polished_into_insight",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ن ظ ر",
+              "خ ل ق",
+              "ذ ك ر"
+            ],
+            "mechanism": "Speech is sorted from worthless noise, then joined to directed seeing, measured creation, and reminder. The opening question tests not acoustic exposure but whether the report has become understanding and recovered recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Report and conversation supply the audible medium under examination."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B007",
+                "role": "Polishing a blade or heart supplies the report's transformative work on perception."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Hearing as understanding and response distinguishes reception from mere sound."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Discarded, uncounted speech supplies the negative class from which this report is separated."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or insight converts reception into active examination."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply intelligible structure for that examination."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder supplies the speech-act that restores recognition rather than adding inert information."
+              }
+            ],
+            "structural_cues": [
+              "The opening هل is answered by a later perceptual challenge; branchless كيف repeats at 88:17-20 as a structural demand to inspect manner."
+            ],
+            "reader_inference": "The packet supplies report, meaningful hearing, rejection of empty speech, directed inspection, measured making, and reminder; I infer a reception chain from sound to insight to recollection. A live alternative treats these as distinct exhortative units rather than one epistemic process.",
+            "changed_reading": {
+              "before": "Has information about the event reached your ears?",
+              "after": "Has the report arrived deeply enough to polish understanding, direct sight, and reactivate recognition?"
+            }
+          },
+          {
+            "model_id": "d_event_as_spatial_relayering",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "Raised, placed, aligned, scattered, erected, and spread elements form a repeated grammar of arrangement across furnishings and cosmos. Against that field, the covering event becomes a re-layering of an ordered world, while its report discloses the construction.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing out and disclosure make the report an exposure of hidden arrangement."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A layer covering what lies beneath anchors the model in spatial superposition."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Lifting supplies the vertical placement of the furnished scene."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting an object in its assigned lower place supplies deliberate positioning."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies lateral order."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersal supplies distributed coverage rather than a single localized object."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The same lifting operation scales vertical placement from couch to sky."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something upright and prominent supplies the mountainous vertical supports."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An even extended surface supplies the horizontal ground layer."
+              }
+            ],
+            "structural_cues": [
+              "88:13-20 repeats passive states and passive acts of placement across intimate furnishings and the largest visible structures."
+            ],
+            "reader_inference": "The packet supplies a dense series of positioning operations and a focus cover; I infer that the event changes the world's layered arrangement and that the report verbally reveals that architecture. A live alternative reads the two spatial catalogs only as comfort and creation evidence.",
+            "changed_reading": {
+              "before": "The Covering is an abstract total event.",
+              "after": "The Covering is spatially imaginable as a total re-layering of surfaces, heights, supports, and distributed contents."
+            }
+          },
+          {
+            "model_id": "d_noncoercive_arrival_and_self_cover",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر",
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The report is delivered as reminder, explicitly not as controlling surveillance. A hearer may turn away and add a cover of refusal; the report of the Covering can itself be covered until its referent overtakes the coverer.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival supplies successful delivery without by itself guaranteeing reception."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Report-speech supplies the non-coercive medium."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "Veiling supplies the event's operation and the relation recursively imitated by refusal."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder defines the messenger's task as making recognition available."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Controlling oversight supplies the mode explicitly denied to the reminder."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning one's back supplies the recipient's directional refusal after delivery."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the recipient's counter-veil over the delivered report."
+              }
+            ],
+            "structural_cues": [
+              "The imperative فذكر is immediately bounded by لست عليهم بمصيطر before the exception names turning and covering."
+            ],
+            "reader_inference": "The packet supplies reminder, denied control, turning away, and two independently anchored covering images; I infer a recursive contest between disclosed report and self-veiling response. A live alternative takes كفر only in its conventional doctrinal sense without activating its material cover.",
+            "changed_reading": {
+              "before": "Has the report been audibly delivered to you?",
+              "after": "Has it truly entered, or has the recipient turned and covered over the report of the event that will itself cover?"
+            }
+          },
+          {
+            "model_id": "d_arrival_closes_as_return_and_account",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "The opening movement toward the singular addressee closes with collective return and counting. The report can therefore be heard as arriving from the endpoint toward which its human subjects are traveling.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming supplies the opening vector toward the addressee."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Report-speech carries the endpoint into the present before bodily arrival there."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the closing counter-vector."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B004",
+                "role": "A direction from which one comes permits the endpoint to function imaginatively as the report's source."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting supplies the terminal operation that makes the incoming report an anticipatory account."
+              }
+            ],
+            "structural_cues": [
+              "The movement from أتاك to إلينا إيابهم and علينا حسابهم changes the deictic center from present address to final destination."
+            ],
+            "reader_inference": "The packet supplies coming, return, direction, and account; I infer that the report moves proleptically backward from the narrated endpoint. A live alternative is a simpler ring closure with no implied temporal source.",
+            "changed_reading": {
+              "before": "A report about an event has arrived from an unspecified past or source.",
+              "after": "A future endpoint sends its account ahead: the report arrives now from the direction to which everyone returns."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_covering_as_interior_seizure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-dominant split-root image of an inward gripping disease through the food, drink, and hunger sequence. It remains anchored in الغاشية and in packet-supplied ingestion cues, but downstream prose should present it as an alimentary-spatial analogy, not as a literal diagnosis or lexical disambiguation.",
+            "focus_anchor": "The non-dominant غ ش ي inventory attached to focus-word الغاشية.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B003",
+                "role": "An affliction gripping the interior relocates covering from an outer layer to an inward seizure."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B010",
+                "role": "Making the heart drink what it dislikes supplies harmful intake as an affective and bodily conduit."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B001",
+                "role": "Tasting and taking in supply the boundary crossing into the body."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty belly supplies the interior lack that the offered intake fails to repair."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Covering descends externally upon persons.",
+              "after": "Exploratorily, the Covering also takes hold from within through an economy of intake that cannot nourish."
+            }
+          },
+          {
+            "outlier_id": "o_visible_animal_face_mark",
+            "confidence": "exploratory",
+            "containment": "This is surprising because an animal-color branch is activated by repeated human faces and the later camel. It remains anchored in a focus branch and unusually exact packet cues, but downstream prose should call it a cross-domain surface analogy rather than claim literal whiteness, animalization, or a fixed referent.",
+            "focus_anchor": "The dominant غ ش و branch in which a visible coating covers an animal's face.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B007",
+                "role": "A full facial color-cover supplies a concrete model of an enveloping condition becoming visibly marked."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The first face supplies the surface on which one condition is legible."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated face supplies a second, contrastive marked surface."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The explicit camel cue reactivates the otherwise remote animal scope of the focus branch."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Covering is inferred as an invisible total condition.",
+              "after": "Exploratorily, it behaves like a condition whose coverage becomes readable as a changed mark across the face."
+            }
+          },
+          {
+            "outlier_id": "o_arrival_as_gait_and_return",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the remote camel-foreleg branch of أتى and joins it to bodily oscillation in إياب. It remains anchored in the focus verb, the explicit camel, and the closing return, but downstream prose should describe a kinetic cadence or formal echo, not replace the ordinary meaning of أتى with camel gait.",
+            "focus_anchor": "The focus verb أتى through its branch of returning forelegs in camel movement.",
+            "activation_trace": [
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B009",
+                "role": "Alternating foreleg return supplies a cyclical micro-motion inside forward arrival."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The camel and its care reactivate the specific locomotor domain of the remote focus branch."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B003",
+                "role": "Repeated bodily movement in travel and return scales the gait image into the surah's closing motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Arrival and return are opposite endpoints of a linear route.",
+              "after": "Exploratorily, each arrival already contains recurrent return-motions, giving the opening and close a gait-like cadence."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The covering event becomes a differentiating field whose contrary effects are displayed on matched faces.",
+            "The report becomes an evaluative account of labor, yield, satisfaction, exhaustion, and final counting.",
+            "The opening question tests transformative reception: hearing must become insight and remembrance.",
+            "Reminder arrives without coercion, while refusal recursively covers over the report of the Covering.",
+            "The final return and account recast the opening as a message arriving proleptically from the endpoint."
+          ],
+          "what_was_special": "The focus roots generated unusually coherent cross-context mechanics: doubled advent, disclosure versus veil, hostile versus protective enclosure, waterborne transmission, spatial re-layering, and a recursive contest between the delivered report and the recipient's own cover.",
+          "remaining_uncertainties": [
+            "The channel and spatial-re-layering models may be designed analogies rather than active semantic organization.",
+            "The non-dominant غ ش ي interior-seizure branch is live but cannot by itself disambiguate the focus form.",
+            "The animal-face and gait readings depend on remote lexical branches and should remain visibly exploratory.",
+            "The inference that the report arrives from the final endpoint is stronger as narrative geometry than as literal temporal direction."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The report as an arriving calamity, not only narrated information.** Evidence: `ء ت ي` B001 coming and arriving, B011 being overtaken by ruin; `ح د ث` B003 speech/report, B005 calamity of time; `غ ش و` B002 overwhelming affliction. Structural cue: the initial question is followed by immediate embodied effects on faces, labor, heat, drink, and food. Role: `أتى` supplies arrival, `حديث` supplies narratable event, and `الغاشية` supplies total coverage. Abductive move: the report arrives with some of the force of the event it reports. Reading change: the ayah reads as a threshold where news and event converge; the “حديث” is not distant commentary but the onset of an enveloping reality.\n\n2. **The covering event as counter-report to false or vain speech.** Evidence: `ح د ث` B006 disclosure/bringing out, B007 polishing heart by admonition; `غ ش و` B001 covering veil; later `ل غ و` B002 vain/foul speech and `ذ ك ر` B009 reminder. Structural cue: report at 88:1, no vain speech in 88:11, then reminder in 88:21. Role: the event uncovers by covering: it silences empty language and becomes admonitory speech. Abductive move: true disclosure may arrive as a total experience that strips away other talk. Reading change: “حديث الغاشية” becomes a corrective discourse that polishes or shocks the heart, not merely a title.",
@@ -14581,14 +15784,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15179,10 +16388,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 231323,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

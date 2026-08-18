@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.462601+00:00",
+  "generated_at": "2026-08-18T13:34:14.478750+00:00",
   "surah": 94,
   "ayah": 1,
   "ayahRef": "94:1",
@@ -1229,7 +1229,8 @@
         "m-w-s094-a001-w001-01",
         "m-w-s094-a001-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:1:1"
+      "aligned_qac_word_ref_upstream": "94:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1243,7 +1244,8 @@
       "morpheme_ids": [
         "m-w-s094-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:1:2"
+      "aligned_qac_word_ref_upstream": "94:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1259,7 +1261,8 @@
         "m-w-s094-a001-w003-01",
         "m-w-s094-a001-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:1:3"
+      "aligned_qac_word_ref_upstream": "94:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1275,7 +1278,8 @@
         "m-w-s094-a001-w004-01",
         "m-w-s094-a001-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:1:4"
+      "aligned_qac_word_ref_upstream": "94:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2325,7 +2329,811 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:1",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_clarified_inner_source",
+            "confidence": "strong",
+            "focus_anchor": "نَشْرَحْ acts on صَدْرَكَ: an opening or explication is applied to the chest, which can also image an originating source.",
+            "mechanism": "The chest is construed as the inward source from which speech and action issue. شرح opens what is hidden until it becomes intelligible, so the intervention makes that source both spacious and legible.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening a hidden meaning into clarity supplies the operation: an opaque interior is rendered intelligible."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest fixes that clarified interior in an embodied site rather than an abstract faculty."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "A source from which actions issue turns the chest into the generative interior being clarified."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic reassurance that the chest was made broad.",
+              "after": "A claim that the inward source of response was opened into intelligibility, so action can issue from a clarified interior."
+            }
+          },
+          {
+            "model_id": "baseline_material_unfolding",
+            "confidence": "medium",
+            "focus_anchor": "The same verb-root can image flesh being spread or sliced, while its object names the bodily front.",
+            "mechanism": "The construction permits an embodied geometry: constricted material at the front of the torso is spread, thinned, or unfolded. Relief is therefore not only a mental state but a change in how pressure occupies the body.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading and slicing flesh contributes a material operation of opening surface and redistributing thickness."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest supplies the bodily material and load-bearing front on which that operation is imagined."
+              }
+            ],
+            "changed_reading": {
+              "before": "An idiom for inward comfort with no specified mechanics.",
+              "after": "An embodied unbinding or spreading of the bodily front, with relief imagined as altered material geometry."
+            }
+          },
+          {
+            "model_id": "baseline_guarded_capacity",
+            "confidence": "exploratory",
+            "focus_anchor": "A branch of شرح means guarding young growth, and صدر can denote the source from which acts issue.",
+            "mechanism": "Opening need not mean leaving the interior exposed. It can establish a protected generative enclosure: capacity is made usable while what is young or vulnerable within it is kept from loss.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B006",
+                "role": "Guarding crops or young palms contributes preservation as the way newly available capacity is kept viable."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The originating source supplies the protected generative center whose future acts are being preserved."
+              }
+            ],
+            "changed_reading": {
+              "before": "Opening removes boundaries and exposes what was inside.",
+              "after": "Opening establishes protected capacity: the source becomes usable without being abandoned to exposure."
+            }
+          },
+          {
+            "model_id": "baseline_expanded_desire",
+            "confidence": "medium",
+            "focus_anchor": "شرح can name an inward expansion of inclination, and the chest can be the source of ensuing action.",
+            "mechanism": "The opening enlarges motivational range. The chest is not merely calmed; its power to incline, choose, and send action outward is expanded, although the focus ayah alone leaves the desired object unspecified.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B005",
+                "role": "Expansive inclination toward something supplies a widening of desire rather than only a widening of space."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which acts issue makes expanded inclination operational: desire can become conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "The chest receives passive emotional relief.",
+              "after": "The motivational source gains a larger capacity to incline and act, without yet specifying where that desire should point."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_94_2_load_transfer",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر"
+            ],
+            "mechanism": "The next ayah supplies downward placement and a heavy load. Coupled with the bodily-material baseline, expansion becomes a load-transfer operation: the chest ceases to be compressed because weight is placed away from the addressee. The non-dominant mapped branch adds a tilted chest, making the relief potentially postural unwarping.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Material spreading supplies the chest's change of geometry under released pressure."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily front supplies the site that had borne compression and can visibly open after unloading."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something in a lower or settled place contributes the downward relocation that releases pressure."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy load supplies the compressive mass whose removal makes expansion mechanically intelligible."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B004",
+                "role": "The split-root image of a chest's tilt contributes a postural symptom that unloading can reverse."
+              }
+            ],
+            "structural_cues": [
+              "94:2 repeats the first-person plural agent and the second-person attachment pattern of 94:1, binding both acts as one intervention.",
+              "The sequence moves from opening the chest to placing something away from the addressee."
+            ],
+            "reader_inference": "The packet supplies bodily opening, lowering, a heavy load, and through split mapping a tilted chest; I supply the causal arrow that unloading straightens and expands the torso. A live alternative is that 94:2 specifies non-mechanical relief and the tilted-chest branch is only lexical spillover.",
+            "changed_reading": {
+              "before": "The chest is enlarged by an unspecified inward act.",
+              "after": "The chest is decompressed by relocation of a load, possibly restoring an unwarped bodily stance."
+            }
+          },
+          {
+            "model_id": "delta_94_3_front_back_release",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "The creak of a back under weight and the explicit rear of the body turn chest and back into a coupled shell. شرح is now pressure-release across a whole load-bearing torso: expansion at the front answers strain approaching audible structural failure at the back.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading bodily material provides the pressure-releasing change at the front of the torso."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest supplies the front half of the coupled load-bearing structure."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints or back under weight makes the hidden strain audible and marks proximity to failure."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The back as counterpart to the belly supplies the rear surface mechanically coupled to the opened chest."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B006",
+                "role": "Strengthening by a back or support makes the rear not just anatomy but the structure expected to carry load."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause in 94:3 carries forward the burden of 94:2 and identifies its effect.",
+              "صَدْرَكَ and ظَهْرَكَ place possessed front and back in adjacent parts of one bodily sequence."
+            ],
+            "reader_inference": "The packet supplies a bodily front, a back, support, and creaking under weight; I infer front-back mechanical coupling and read chest-opening as counter-strain. A live alternative is that the body pair is rhetorical parallelism without a physiological or structural arrow.",
+            "changed_reading": {
+              "before": "The chest is an isolated inward site made spacious.",
+              "after": "The whole torso is a load-bearing shell: opening its front is the counterpart to arresting or reversing failure at its back."
+            }
+          },
+          {
+            "model_id": "delta_94_4_public_issuance",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "The focus chest can be a source from which acts issue, while شرح makes hidden content clear. Raising as broadcasting and mention as speech on tongues create a transmission path: an opened, clarified interior becomes the upstream condition for an outward signal that can circulate.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Clarifying hidden meaning supplies intelligible content capable of being communicated."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The originating source supplies the interior point from which the public output can issue."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting a report contributes the outward amplification stage of the mechanism."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on the tongue supplies the social medium in which inward clarity becomes circulation."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honor and repute supply the durable public consequence of amplified mention."
+              }
+            ],
+            "structural_cues": [
+              "وَرَفَعْنَا لَكَ ذِكْرَكَ closely mirrors نَشْرَحْ لَكَ صَدْرَكَ in agent, beneficiary, possessed object, and cadence.",
+              "The sequence moves from a private bodily interior to a socially circulating name."
+            ],
+            "reader_inference": "The packet supplies an originating source, clarification, broadcast, tongue-borne mention, and repute; I infer a flow from opened interior to public signal. A live alternative is that raised mention is a parallel gift rather than an effect of the chest's opening.",
+            "changed_reading": {
+              "before": "The opening is private assistance contained within the addressee.",
+              "after": "The opening is an upstream communicative intervention: a clarified source can issue a signal that is amplified and socially carried."
+            }
+          },
+          {
+            "model_id": "delta_94_5_6_coexisting_aperture",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "Difficulty supplies constriction and twisting, while ease supplies an opening after difficulty. Because the pair is stated with accompaniment and then repeated, chest-opening changes from completed removal of pressure into an aperture available in the presence of pressure: constriction remains named, but it no longer occupies all available capacity.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening what was closed or obscure supplies an aperture through which a constricted situation can become traversable and intelligible."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B004",
+                "role": "Twisting, opposition, and imposed difficulty contribute the constrictive geometry that still remains present."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty supply the counter-space that appears without denying the constriction."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Repeated hardship preserves the pressure term rather than narrating its disappearance."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and compliant movement add mobility within pressure, not merely a later static reward."
+              }
+            ],
+            "structural_cues": [
+              "مَعَ marks accompaniment rather than explicitly replacing hardship with ease.",
+              "94:5 and 94:6 repeat the relation, retaining the named hardship while presenting ease anew."
+            ],
+            "reader_inference": "The packet supplies hardship, twisting, opening, light movement, accompaniment, and repetition; I infer that chest-opening is capacity to find or make passage within constriction rather than only relief after it. A live alternative is temporal succession: ease follows hardship even though the wording presents them together.",
+            "changed_reading": {
+              "before": "Chest expansion is completed relief obtained when prior pressure is gone.",
+              "after": "Chest expansion is enlarged carrying-and-moving capacity in which constriction and an opening can coexist."
+            }
+          },
+          {
+            "model_id": "delta_94_7_clearance_for_upright_exertion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "Emptying a vessel after occupation followed by setting something upright or accepting exhausting exertion gives opening a cycle. The chest is cleared not for permanent vacancy but so capacity can be erected, committed, and spent again.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading bodily material supplies increased working room rather than an inert feeling."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest supplies the container-like capacity that can be occupied, cleared, and used again."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a vessel contributes active clearance of previously occupied capacity."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something upright and prominent contributes renewed stance and commitment after clearance."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting toil contributes the expenditure for which opened capacity is made available."
+              }
+            ],
+            "structural_cues": [
+              "The فَإِذَا ... فَـ sequence couples completion directly to a new imperative.",
+              "The discourse shifts from first-person acts upon the addressee to the addressee's own renewed action."
+            ],
+            "reader_inference": "The packet supplies vacancy, vessel-emptying, upright erection, and exhausting work; I infer that cleared chest-capacity is deliberately redeployed. A live alternative is that the two commands mark ordinary task succession with no container mechanics.",
+            "changed_reading": {
+              "before": "The opened chest is a settled state of rest after strain.",
+              "after": "The opened chest is renewable capacity: it can be cleared, set upright, and expended in another committed effort."
+            }
+          },
+          {
+            "model_id": "delta_94_8_vectorized_desire",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "The baseline expansion of inclination is initially objectless. رغبة supplies a vector toward or away and also spatial breadth; رب supplies nurture, repair, and completion, while its non-dominant mapped root adds feeding and growth. The opened chest thus becomes cultivated desire-space whose breadth is directed rather than indiscriminate.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B005",
+                "role": "Expansive inclination supplies the motivational capacity that the later imperative can orient."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which acts issue makes directed desire consequential rather than merely felt."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Inclination toward or away supplies the directional vector missing from the focus-only desire model."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "Breadth, a wide cavity, or spatial extension turns desire into a roomy field that can receive direction."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the governing relation under which expanded inclination is cultivated."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split-root image of feeding and growth contributes development rather than mere enlargement of appetite."
+              }
+            ],
+            "structural_cues": [
+              "The fronted إِلَىٰ رَبِّكَ immediately precedes فَٱرْغَب, making direction explicit.",
+              "رَبِّكَ repeats the second-person possession that marked صَدْرَكَ, linking the opened interior to its relational orientation."
+            ],
+            "reader_inference": "The packet supplies expanded inclination, direction toward or away, spatial breadth, nurture, and growth; I infer that chest-opening prepares desire to be directed and cultivated. A live alternative is that شرح's acquisitive desire branch is a negative contrast to be redirected, not a positive capacity being completed.",
+            "changed_reading": {
+              "before": "The chest gains a larger but unspecified capacity to desire and act.",
+              "after": "Its desire-space is widened and then vectorized toward the nurturing, completing رب; opening becomes reorientation and cultivation of appetite."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_partitioned_load",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins flesh-slicing, a portion, and the lots used to divide a slaughtered animal across distant branches. It remains anchored to both focus roots and to the repeated ease-context, where division can model how an overwhelming whole becomes bearable. Render it only as a material problem-solving analogy, not as the lexical meaning of 94:1.",
+            "focus_anchor": "شرح can spread or slice flesh, while صدر can denote a portion of something; together they permit expansion by partition rather than by simple enlargement.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Slicing and spreading flesh supplies the operation that breaks an undifferentiated mass into manageable surfaces."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B006",
+                "role": "A portion of something supplies the resulting units into which pressure or obligation can be divided."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Lots and division of a slaughtered animal contribute an allocation mechanism by which shares replace one crushing whole."
+              }
+            ],
+            "changed_reading": {
+              "before": "Expansion adds one undifferentiated volume of inner space.",
+              "after": "Expansion may work analytically: cut an overwhelming whole into portions that can be allocated, understood, and borne."
+            }
+          },
+          {
+            "outlier_id": "outlier_reopened_seam",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the activating branch describes a thing returning to openness after having been joined, which can sound like failed repair. It remains anchored in the opening verb, the anatomical chest, and the immediate account of bodily strain. Render it as speculative topology—a constrictive closure may need reopening—not as a claim that healing itself was undone.",
+            "focus_anchor": "The focus applies an opening operation to the bodily chest; 94:3 activates the image of something reopening after prior joining.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading bodily material supplies the seam-like opening operation."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest keeps the reopening image attached to the focus rather than becoming a free-standing repair metaphor."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B004",
+                "role": "Returning to openness after being joined supplies the possibility that a prior closure became constrictive and had to part again."
+              }
+            ],
+            "changed_reading": {
+              "before": "The chest receives breadth for the first time.",
+              "after": "The chest may be reopened along a constrictive seam: some prior closure or integration is parted so the body can carry life again."
+            }
+          },
+          {
+            "outlier_id": "outlier_rising_breath",
+            "confidence": "exploratory",
+            "containment": "This is surprising because rising or swelling breath comes from the non-dominant ر ب و mapping of ر ب ب, not the dominant lexical target of رَبِّكَ. It remains valid as a packet-sanctioned activation anchored to the anatomical chest, material opening, and the wide-cavity image of رغبة. Render it as a sensory echo of the verse's effect, never as a replacement parsing of رَبِّكَ.",
+            "focus_anchor": "A materially opened anatomical chest can be experienced as a widened breathing chamber.",
+            "activation_trace": [
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading bodily material supplies physical enlargement of the breathing chamber."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest supplies the respiratory site in which expansion can be felt."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B004",
+                "role": "Rising and swelling breath contributes the bodily event made possible by the opened chest."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "A wide cavity or spatial extension reinforces the chest as an expanded chamber that can carry rising breath."
+              }
+            ],
+            "changed_reading": {
+              "before": "The opening is grasped only as an abstract assurance or cognitive state.",
+              "after": "The opening can be somatically heard and felt as a chest chamber admitting a fuller, rising breath that carries directed longing."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "94:2-3 recasts chest-opening as load transfer across a coupled front-back structure, moving from generic comfort to decompression and restored bearing.",
+            "94:4 turns a private clarified interior into the upstream source of speech, circulation, and public consequence.",
+            "94:5-6 changes relief-after-pressure into an aperture that can coexist with continuing constriction.",
+            "94:7-8 makes openness active and renewable: capacity is cleared for exertion, while expanded desire is given direction and cultivation."
+          ],
+          "what_was_special": "Material branches made the chest behave as flesh, container, frontage, and load-bearing shell rather than only a metaphorical emotion. The split mappings added two contained but productive surprises: a tilted chest that can unwarp when unloaded and rising breath inside the widened chamber. Distinct cognitive, mechanical, communicative, temporal, and motivational readings remain co-present rather than being merged into one consensus gloss.",
+          "remaining_uncertainties": [
+            "The flesh-spreading and guarding branches may be analogical affordances rather than intended mechanisms.",
+            "The accompaniment of hardship and ease strongly supports coexistence, but a temporal succession reading remains live.",
+            "The non-dominant و ز ر→ز و ر and ر ب ب→ر ب و activations may illuminate bodily experience or may remain only packet-enabled echoes.",
+            "The flow from clarified inner source to raised public mention is abductively coherent but not grammatically forced."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The chest opening is a bodily decompression caused by the following load-removal sequence. Lexical evidence: `ش ر ح B001` opening and clarifying, `ص د ر B001` chest as bodily front; later `و ض ع B001` setting down, `و ز ر B002` heavy burden, `ن ق ض B005` creaking under strain, `ظ ه ر B002` back opposite belly. Structural cue: 94:1 names the front/interior; 94:2-3 name the burden and the back strained by it. Assigned role: `شرح` releases the front while `وضع` removes what had crushed the back. Abductive move supplied by me: front expansion and back relief belong to one bodily mechanism of pressure removed from the torso. Reading change: the ayah becomes somatic relief, not only inner consolation.\n\n2. The opening is also interpretive clarification of a hard affair. Lexical evidence: `ش ر ح B001` opening a meaning so it becomes clear; `ص د ر B002` foremost/beginning of an affair or speech, and `ص د ر B004` source from which forms issue; later `ذ ك ر B003/B004/B009` recall, mention on the tongue, and reminder. Structural cue: after the chest is opened, the “mention” is raised in 94:4 and then the repeated maxim of hardship/ease appears in 94:5-6. Assigned role: `صدر` is the internal source or head of speech/meaning, and `شرح` makes what issues from it intelligible. Abductive move supplied by me: the passage treats relief as a cognitive-linguistic opening that allows the burdened condition to be named and remembered differently. Reading change: the ayah reads as the opening of understanding and speech, not only expansion of emotion.\n\n3. The opening has a guarded-cultivation reading. Lexical evidence: `ش ر ح B006` guarding and preserving crops or young palms; `ر ح م B001/B003` tenderness and womb; later `ر ب ب B002` nurture stage by stage. Structural cue: the basmalah’s mercy precedes the chest, while final `رَبِّكَ` names the caretaker toward whom desire turns. Assigned role: the opened chest is vulnerable new growth needing protection. Abductive move supplied by me: opening without guarding would expose the interior; the mercy/lordship frame supplies protection for the opened interior. Reading change: `نشرح لك صدرك` becomes not just making space but preserving what has been opened.\n\n4. A secondary desire reading is activated but remains ambivalent. Lexical evidence: `ش ر ح B005` expansive inclination toward worldly things; later `ر غ ب B001` desire turning toward or away in 94:8. Structural cue: the first ayah opens inward space, while the last ayah directs رغبة specifically `إلى ربك`. Assigned role: `شرح` creates capacity for desire, and 94:8 governs its direction. Abductive move supplied by me: expanded inward capacity can become undirected appetite unless the final ayah orients it. Reading change: the chest-opening includes a latent risk and remedy: expansion is good when desire is turned toward the Lord.",
@@ -7830,14 +8638,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8097,10 +8911,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 69415,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

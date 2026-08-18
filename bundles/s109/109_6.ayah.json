@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:29.559517+00:00",
+  "generated_at": "2026-08-18T13:34:38.378139+00:00",
   "surah": 109,
   "ayah": 6,
   "ayahRef": "109:6",
@@ -1680,7 +1680,8 @@
         "m-w-s109-a006-w001-01",
         "m-w-s109-a006-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "109:6:1"
+      "aligned_qac_word_ref_upstream": "109:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1696,7 +1697,8 @@
         "m-w-s109-a006-w002-01",
         "m-w-s109-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "109:6:2"
+      "aligned_qac_word_ref_upstream": "109:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1710,10 +1712,25 @@
       "morpheme_ids": [
         "m-w-s109-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:6:3"
+      "aligned_qac_word_ref_upstream": "109:6:3",
+      "morpheme_skip_count": 0
     },
     null,
-    null
+    {
+      "word_index": 4,
+      "surface_ar": "دِينِ",
+      "word_ids": [
+        "w-s109-a006-w004"
+      ],
+      "qac_refs": [
+        "109:6:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s109-a006-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "109:6:5",
+      "morpheme_skip_count": 2
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2151,7 +2168,693 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s109/packets/109_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "109:6",
+      "window": [
+        "109:1",
+        "109:2",
+        "109:3",
+        "109:4",
+        "109:5",
+        "109:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "109:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_partitioned_allegiance",
+            "confidence": "strong",
+            "focus_anchor": "The mirrored allocations لكم ... ولي frame two occurrences of دين at words 2 and 4.",
+            "mechanism": "The same noun is assigned to two pronominal domains. The obedience branch makes each دين a governing allegiance, so the symmetry separates commitments without making them interchangeable.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission supplies the allegiance-content that the mirrored possessives allocate to separate parties."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each side simply has a religion.",
+              "after": "Your governing allegiance remains yours, while my governing allegiance remains mine; grammatical balance marks a boundary, not equivalence."
+            }
+          },
+          {
+            "model_id": "base_separate_reckonings",
+            "confidence": "medium",
+            "focus_anchor": "The doubled دين is distributively possessed, once by the plural addressees and once by the speaker.",
+            "mechanism": "If دين activates reckoning and recompense, the two possessive slots resemble distinct accounts: neither party's judgment or return is grammatically transferred to the other.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense turns the repeated noun into two separately assigned trajectories of accounting and return."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line partitions religious identities.",
+              "after": "The line can also partition reckonings: your course carries its account, and mine carries mine."
+            }
+          },
+          {
+            "model_id": "base_nontransferable_obligations",
+            "confidence": "exploratory",
+            "focus_anchor": "لكم and لي place each occurrence of دين against a different holder.",
+            "mechanism": "The debt branch materializes دين as something owed or carried. Possessive symmetry then functions like two ledgers whose liabilities cannot be assumed, discharged, or exchanged by the other side.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit supplies the ledger-like obligation that each pronominal side bears separately."
+              }
+            ],
+            "changed_reading": {
+              "before": "The possessives merely label two affiliations.",
+              "after": "The possessives can allocate nontransferable religious obligations: what is due from you is yours to bear, and what is due from me is mine."
+            }
+          },
+          {
+            "model_id": "base_customary_courses",
+            "confidence": "medium",
+            "focus_anchor": "One lexeme is repeated across a balanced you/me construction rather than replaced by two different labels.",
+            "mechanism": "The habit branch makes دين a settled manner of proceeding. The line thus contrasts durable customary courses, not only stated creeds.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state supplies the repeated course of conduct assigned to each side."
+              }
+            ],
+            "changed_reading": {
+              "before": "دين denotes a static confessional label.",
+              "after": "دين can denote each side's accustomed way of living and recurring conduct."
+            }
+          },
+          {
+            "model_id": "base_delegated_responsibility",
+            "confidence": "medium",
+            "focus_anchor": "The terminal balance gives the addressees their دين and the speaker his, with no shared possessive domain.",
+            "mechanism": "The crediting-and-delegation branch turns the allocation into a release of vouching: each party is left to its own religious responsibility and conscience.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Crediting and leaving to conscience supplies a bounded delegation of responsibility rather than approval of the other's position."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line grants two religions equal endorsement.",
+              "after": "The line may instead decline to vouch across the boundary: you answer within your responsibility, and I within mine."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_performative_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The opening command to vocalize the discourse changes the final symmetry from a private observation into a public boundary-act. Speech both externalizes the distinction and gives it a stated limit.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission supplies the two allegiances that the utterance publicly separates."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Vocalized speech makes the terminal allocation an audible declaration addressed to others."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Speech as defining a thing's limit supplies the demarcating function of the closing formula."
+              }
+            ],
+            "structural_cues": [
+              "The imperative at 109:1 opens a commanded address whose final clause is the balanced allocation at 109:6."
+            ],
+            "reader_inference": "The packet supplies overt vocalization and speech as delimitation; I supply the arrow that a commanded declaration socially enacts the boundary it states. A live alternative is that the speech only reports an already existing distinction.",
+            "changed_reading": {
+              "before": "Your religion is yours and mine is mine as a static description.",
+              "after": "Say and thereby mark the limit: the closing line performs a public separation of allegiances."
+            }
+          },
+          {
+            "model_id": "ctx_independently_borne_obligation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The non-dominant split mapping activates independent bearing and rising. Joined to دين as debt, the final allocation becomes a bodily ledger-image in which each party must stand with and carry its own obligation.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit supplies an obligation capable of being borne but not transferred between the two possessive domains."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "The secondary mapped image of independently carrying and rising supplies the bearer who stands under each allocated obligation."
+              }
+            ],
+            "structural_cues": [
+              "The initial imperative and terminal لكم/لي symmetry attach the question of bearing to two explicitly separated parties."
+            ],
+            "reader_inference": "The packet supplies a non-dominant mapped branch of independent carrying and a focus branch of debt; I analogize obligation to a burden each party must bear. The live alternative is that the ق ل ل mapping is only a formal split and contributes no semantics here.",
+            "changed_reading": {
+              "before": "The sentence tolerates two static identities.",
+              "after": "Each side must independently stand under its own religious liability; neither can carry or settle the other's."
+            }
+          },
+          {
+            "model_id": "ctx_exposed_divergent_reckoning",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ر"
+            ],
+            "mechanism": "The opening designation activates the image of obstructing or covering truth. Against that pressure, the explicit final partition can function as an uncovering refusal: divergent reckonings are named instead of being concealed beneath a false common formula.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supplies the consequential divergence that the closing symmetry leaves distinct."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Obstructing truth supplies the covering pressure that explicit differentiation counteracts."
+              }
+            ],
+            "structural_cues": [
+              "The named addressees precede four verses of negated cross-relations before the closing possessive symmetry."
+            ],
+            "reader_inference": "The packet supplies concealment of truth and a reckoning branch; I infer that explicit separation exposes rather than smooths over consequential difference. A live alternative is that ك ف ر merely identifies the audience and does not color the closing line.",
+            "changed_reading": {
+              "before": "The line is a neutral pluralist formula.",
+              "after": "The line can be an anti-covering disclosure: the two courses do not collapse into one account or one outcome."
+            }
+          },
+          {
+            "model_id": "ctx_disavowal_without_endorsement",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ر"
+            ],
+            "mechanism": "Disavowal joins the focus branch of leaving another to conscience. The result is bounded non-vouching rather than endorsement, while the same branch leaves an asymmetric possibility that the addressees' stance is evasion rather than an equally validated option.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Leaving a person to religious conscience supplies the release of responsibility across the you/me boundary."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal and evasion supplies both principled renunciation and the live suspicion that separation can mask avoidance."
+              }
+            ],
+            "structural_cues": [
+              "The final allocation follows repeated cross-negations and nowhere states that the two دين are equivalent."
+            ],
+            "reader_inference": "The packet supplies disavowal and delegated conscience; I infer a refusal to assume or guarantee the other's commitment. A live alternative assigns evasion only to the named addressees, making the line polemically asymmetric rather than a reciprocal release.",
+            "changed_reading": {
+              "before": "For you your religion sounds like uncomplicated approval.",
+              "after": "For you your دين can mean I neither annex nor vouch for it; reciprocal grammar coexists with possible evaluative asymmetry."
+            }
+          },
+          {
+            "model_id": "ctx_din_as_enacted_regime",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The repeated sequence supplies acts of service, identities as servants, and persistence across verbal and nominal forms. The terminal دين compresses that enacted pattern into each side's governing regime of obedience.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission supplies the umbrella regime into which the preceding acts of service are gathered."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies reciprocal finite acts whose objects do not cross."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship links a plural servant identity to the speaker's act, widening the contrast from deeds to agents."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship links the speaker's servant identity to the addressees' prior action, adding disposition and history."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The repeated servant/action pairing closes the cycle and stabilizes the mismatch before دين names it."
+              }
+            ],
+            "structural_cues": [
+              "109:2-5 repeat the same root while alternating finite verbs and agent nouns before 109:6 shifts to the noun دين."
+            ],
+            "reader_inference": "The packet supplies repeated worship, submissive obedience, and verb/agent alternation; I infer that the final noun compresses acts, agents, and persistence into a regime. A live alternative keeps دين broader than worship even though worship concretizes it.",
+            "changed_reading": {
+              "before": "دين is an abstract affiliation possessed by each group.",
+              "after": "دين is the enacted system produced and inhabited through whom each side repeatedly serves."
+            }
+          },
+          {
+            "model_id": "ctx_reckoning_accrues_from_service",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The service sequence provides conduct, while the reckoning branch provides consequence. Their temporal linkage makes the final allocation two accruing accounts: each worship trajectory bears its own return.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supplies the account or return assigned at the end of the sequence."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the conduct from which the separate accounts are inferred to accrue."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The agent/action contrast extends accountable service across identity and prior deed rather than a single moment."
+              }
+            ],
+            "structural_cues": [
+              "Four negated cross-relations precede the final allocation, preventing one side's service from substituting for the other's."
+            ],
+            "reader_inference": "The packet supplies worship acts and the focus branch of reckoning; I supply the causal-temporal arrow that deeds accrue toward distinct accounts. A live alternative reads دين only as a present way of life, not its later recompense.",
+            "changed_reading": {
+              "before": "The ending restates that worship practices differ.",
+              "after": "The ending can state that each distinct practice generates or reveals its own reckoning and return."
+            }
+          },
+          {
+            "model_id": "ctx_blocked_transfer_of_mastery",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "Ownership, enslavement, and subjugation branches make worship a relation of mastery. The repeated refusal of crossed service blocks transfer of that relation, and the closing possessives seal each regime against being imposed by the other.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B004",
+                "role": "Subjugation and possession supplies the coercive regime whose transfer the final partition can refuse."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Bondage and ownership exposes mastery as a possible social structure beneath the paired acts of service."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "Enslaving supplies the attempted making-subject relation that repeated negation prevents from crossing sides."
+              }
+            ],
+            "structural_cues": [
+              "The four middle verses repeatedly negate cross-service before لكم/لي assigns two nonshared domains."
+            ],
+            "reader_inference": "The packet supplies ownership, enslavement, and subjugation; I interpret negated cross-service as blocking a transfer of mastery between parties. A live alternative keeps these branches inside the worshipper-object relation and draws no interparty political claim.",
+            "changed_reading": {
+              "before": "The line only acknowledges different cultic choices.",
+              "after": "The line can refuse religious annexation: neither side's regime of mastery is allowed to conscript the other's service."
+            }
+          },
+          {
+            "model_id": "ctx_practice_worn_into_custom",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "Leveling and smoothing supplies a material analogy for repetition. Recurrent service wears conduct into a traversable customary course, so the final دين names a path-dependent habit rather than an inert label.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state supplies the settled course that repeated practice produces."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Leveling and smoothing supplies the first material image of conduct being made into an established route."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Repetition of the leveling image supplies the iterative pressure by which a route becomes customary."
+              }
+            ],
+            "structural_cues": [
+              "The same worship contrast recurs through 109:2-5 and is followed only then by the nominal summary in 109:6."
+            ],
+            "reader_inference": "The packet supplies leveling and habit; I supply the temporal-material arrow that repetition smooths conduct into a customary path. A live alternative takes leveling as subjugation rather than path formation, leaving only the mastery model.",
+            "changed_reading": {
+              "before": "Each دين is a preexisting category that explains conduct.",
+              "after": "Repeated conduct also makes each دين: service wears a distinct customary route that then carries its practitioners."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_separate_authority_places",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it spatializes a confessional formula. It remains anchored in the focus branch of a city ordered by authority, the cut-off-place context branch, and the لكم/لي partition; downstream prose should present it only as a jurisdictional analogy, not literal geography or a political program.",
+            "focus_anchor": "The two possessive domains can be imagined as separately governed spaces because دين itself has an ordered-city branch.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "The city of ordered authority supplies a spatial jurisdiction for each possessively assigned دين."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B012",
+                "role": "A cut-off place supplies the separating edge between the two imagined jurisdictions."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse assigns two abstract religions.",
+              "after": "The verse can be pictured as drawing a border between two authority-spaces, each ordering obedience within its own domain."
+            }
+          },
+          {
+            "outlier_id": "outlier_distinct_economies_of_honor",
+            "confidence": "medium",
+            "containment": "This is surprising because the honoring branch reverses the usual servility foregrounded in عبد. It remains anchored because repeated worship identifies what each side magnifies and the focus obedience branch organizes that valuation; downstream prose should qualify it as a secondary axiological reading, not replace worship with social prestige.",
+            "focus_anchor": "The repeated دين can gather not only submission but each side's hierarchy of what deserves obedience and magnification.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission supplies the governing order within which honor is directed."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honoring and magnifying supplies the positive valuation that worship confers on its object."
+              }
+            ],
+            "changed_reading": {
+              "before": "The contrast concerns whom each side submissively serves.",
+              "after": "The contrast can also concern two economies of honor: each دين orders what its adherents elevate, magnify, and obey."
+            }
+          },
+          {
+            "outlier_id": "outlier_divergent_worship_vectors",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it converts a branch about dispersal among faces or directions into a trajectory model. It remains anchored in the repeated worship root, the focus habit branch, and the bilateral syntax; downstream prose should mark it as a spatial metaphor for orientation, not a claim about literal direction.",
+            "focus_anchor": "لكم ... ولي can route the two recurring دين toward distinct habitual orientations.",
+            "activation_trace": [
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state stabilizes each divergent orientation into a continuing course."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B010",
+                "role": "Dispersion among faces or directions supplies the divergent vectors along which recurring service moves."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two communities hold two stationary labels.",
+              "after": "Their repeated service moves along divergent orientations, and each دين stabilizes one vector as a habitual course."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening command turns the closing symmetry from description into a performative public boundary.",
+            "Repeated عبد forms make دين an enacted regime of service rather than only an abstract affiliation.",
+            "Reckoning and debt branches preserve distinct consequence and nontransferable-obligation readings alongside allegiance.",
+            "The كفر branches prevent a simple tolerance gloss: non-vouching, exposure, and possible polemical asymmetry remain live.",
+            "Mastery and smoothing branches yield competing social and material mechanisms: blocked conscription versus practice worn into custom."
+          ],
+          "what_was_special": "The same balanced لكم/لي syntax supports several noncollapsible mechanisms. Context does not merely specify which religions are meant; speech makes the partition operative, repeated worship makes it embodied and temporal, and concealment, debt, mastery, habit, and delegated conscience alter what separation itself does.",
+          "remaining_uncertainties": [
+            "Whether reckoning and financial debt are active senses here or controlled analogies generated by the focus inventory.",
+            "Whether the non-dominant ق ل ل mapping contributes a real independent-bearing activation or only formal noise.",
+            "Whether reciprocal grammar primarily releases both sides from mutual claims or carries an asymmetric disavowal of the addressees.",
+            "Whether spatial, jurisdictional, and path-wearing readings should remain latent metaphors rather than enter ordinary prose."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Distinct religion/obedience orders are allotted to distinct pronouns.** The fixed ayah supplies د ي ن B001, \"obedience and submission,\" twice in دِينُكُمْ and دِينِ. The activators are the repeated ع ب د B003 worship denials in 109:2-5. Mechanism: worship-relations crystallize into two dīn-relations, each attached to its own pronoun. The abductive move is mine: the packet gives repeated worship and final dīn nouns; I infer that dīn names the broader order generated by worship. Reading change: the final ayah is not a vague pluralism formula; it is the grammatical allotment of incompatible obedience systems.\n\n2. **The final line has an accounting/judgment shadow.** د ي ن B002, \"reckoning and recompense,\" is activated by the balanced possessive construction لَكُمْ / وَلِىَ and by the public قُلْ of 109:1. Mechanism: each side's dīn is not only its path but its account; the declaration leaves the reckoning attached to the proper party. The abductive move is mine: the packet gives judgment/recompense and possessive allotment; I infer responsibility from possession. Reading change: \"your dīn / my dīn\" reads as separation of accountability, not merely separation of preference.\n\n3. **Debt/credit imagery makes the boundary non-transferable.** د ي ن B003, \"debt and credit,\" is activated by the possessive suffixes كُمْ and the first-person دِينِ. Mechanism: each party carries its own liability/credit account; worship cannot be exchanged or paid across the boundary. The abductive move is mine: the packet gives debt/credit and pronoun possession; I infer non-transferability from the account metaphor. Reading change: the ayah becomes a ledger-like settlement after the preceding denials.\n\n4. **No coercive subjugation remains after the refusal.** د ي ن B004, \"subjugation and possession,\" is activated by ع ب د B001/B004 in 109:2-5. Mechanism: the final allocation prevents either side from enslaving or owning the other's worship-relation inside this speech-act. The abductive move is mine: the packet gives subjugation/possession and worship-as-servitude branches; I infer that separation blocks coercive absorption. Reading change: the final ayah reads as a boundary against religious capture, not as indifference.\n\n5. **The line also leaves each side to its own conscience.** د ي ن B007, \"crediting and leaving to conscience,\" is activated by the absence of further argument after the final allotment. Mechanism: once the repeated worship denials have done their work, the speech stops and leaves the addressees with their dīn. The abductive move is mine: the packet gives \"leaving to religious responsibility\"; I infer that the terminal position of the ayah performs that leaving. Reading change: the ending is a deliberate release from debate, not a failure to continue persuading.",
@@ -5927,27 +6630,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s109/linguistic/morphemes.tsv",
       "words_total": 5,
-      "words_resolved": 3,
-      "words_unresolved": 2,
+      "words_resolved": 4,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 3,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
           "surface_ar": "لِيَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "دِينِ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s109/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 45,
+        "ayah_count": 6,
+        "row_count": 38,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6079,10 +6784,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s109/packets/109_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s109/readers/reader_hft_a/109_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s109"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s109",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 27937,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

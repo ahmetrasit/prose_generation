@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.049543+00:00",
+  "generated_at": "2026-08-18T13:33:35.727379+00:00",
   "surah": 88,
   "ayah": 20,
   "ayahRef": "88:20",
@@ -1679,7 +1679,8 @@
       "morpheme_ids": [
         "m-w-s088-a020-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:20:1"
+      "aligned_qac_word_ref_upstream": "88:20:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1693,7 +1694,8 @@
       "morpheme_ids": [
         "m-w-s088-a020-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:20:2"
+      "aligned_qac_word_ref_upstream": "88:20:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1709,7 +1711,8 @@
         "m-w-s088-a020-w002-01",
         "m-w-s088-a020-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:20:3"
+      "aligned_qac_word_ref_upstream": "88:20:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1723,7 +1726,8 @@
       "morpheme_ids": [
         "m-w-s088-a020-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:20:4"
+      "aligned_qac_word_ref_upstream": "88:20:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1737,7 +1741,8 @@
       "morpheme_ids": [
         "m-w-s088-a020-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:20:5"
+      "aligned_qac_word_ref_upstream": "88:20:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3259,7 +3264,1178 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_20.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:20",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:20",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_extended_lower_plane",
+            "confidence": "strong",
+            "focus_anchor": "The earth at word 2 is joined to the passive surfacing verb at word 4.",
+            "mechanism": "The lower member opposite the sky is acted upon by spreading, extending, and leveling, yielding a broad traversable plane.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground opposite the sky supplies the vertically low substrate being considered."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "A level extended surface supplies the passive operation that makes the substrate broad and even."
+              }
+            ],
+            "changed_reading": {
+              "before": "A question about the earth's shape.",
+              "after": "A question about the making of the lower realm into an extended, usable plane."
+            }
+          },
+          {
+            "model_id": "baseline_prepared_spread",
+            "confidence": "medium",
+            "focus_anchor": "The earth noun and surfacing verb both carry branches involving mats or useful flat places.",
+            "mechanism": "The two roots converge on a spread deliberately laid and prepared for use, so the verse can evoke site preparation rather than geometry alone.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B005",
+                "role": "The thick hair-or-wool mat makes the earth available as a deliberately laid spread."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B005",
+                "role": "The flat working place or woven mat gives the spread a practical, prepared function."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth is merely a naturally flat expanse.",
+              "after": "The earth is a prepared floor or spread arranged for creatures to use."
+            }
+          },
+          {
+            "model_id": "baseline_fertile_surface",
+            "confidence": "medium",
+            "focus_anchor": "The earth at word 2 can be fertile ground, while the surfacing root at word 4 can describe vegetation spreading along ground.",
+            "mechanism": "Surfacing can be read dynamically as making a receptive plane across which rooted life establishes and extends itself.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile ground supplies receptivity, establishment, and productive growth."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B006",
+                "role": "A plant spreading along the ground turns extension into a living process across the surface."
+              }
+            ],
+            "changed_reading": {
+              "before": "Surfacing is a one-time physical flattening.",
+              "after": "Surfacing is also the making of a receptive, growth-bearing field."
+            }
+          },
+          {
+            "model_id": "baseline_prone_body",
+            "confidence": "exploratory",
+            "focus_anchor": "The earth root can pull a body downward, and the surfacing root can picture a body laid flat on the ground.",
+            "mechanism": "The passive verb permits a bodily analogy in which the earth is itself laid out, or becomes the plane on which a body is laid low.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Sticking to the ground and being slow to rise supplies the earthward pull of the bodily image."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B002",
+                "role": "A body laid out flat through incapacity supplies the surprising prone analogue for the passive verb."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only an impersonal landscape is spread out.",
+              "after": "The landscape can also register the vulnerable image of a body laid low or a ground that receives such bodies."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_cover_disclosure_surface",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The opening couples manifestation with a cover that overtops and conceals. Against that pair, the focus surface becomes an interface: an exposed plane through which a hidden or covered order becomes inspectable.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground supplies the material side of the exposed interface."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "The level top plane supplies the visible side of what has been surfaced."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Making something manifest supplies disclosure across the interface."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A cover lying above and hiding its object supplies the occluding layer opposed to exposure."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001089",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped inventory independently supplies concealment, preserving the split-root activation."
+              }
+            ],
+            "structural_cues": [
+              "The surah opens with a report of an all-covering event before moving toward inspectable created forms.",
+              "The passive focus verb leaves the maker implicit and foregrounds the resulting visible interface."
+            ],
+            "reader_inference": "The packet supplies manifestation and covering; I infer that a surface mediates what is hidden and what can be seen. A live alternative is simple horizontal extension with no concealment mechanism.",
+            "changed_reading": {
+              "before": "The surface is only the earth's flat top.",
+              "after": "The surface is the earth's exposed interface, making an otherwise covered order available to attention."
+            }
+          },
+          {
+            "model_id": "delta_exhausted_body",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ش ع",
+              "ع م ل",
+              "ن ص ب"
+            ],
+            "mechanism": "Lowered faces, purposive labor, and exhaustion turn the focus-only prone-body branch into a coherent downward sequence: effort spends the body until it is flattened against the earth.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Clinging to the ground and failing to rise supplies the endpoint of bodily depletion."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B002",
+                "role": "The incapacitated body laid flat supplies the focus's bodily surface image."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B002",
+                "role": "Low dormant earth materially joins human abasement to a groundward condition."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional work supplies the exertion that precedes collapse."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness that debilitates a person supplies the causal pressure toward being laid low."
+              }
+            ],
+            "structural_cues": [
+              "Human faces and working bodies are described before the later sequence of passively formed landscape members.",
+              "The focus's passive morphology can hold both a land-making event and the state of something laid out."
+            ],
+            "reader_inference": "The packet supplies low dormant earth, work, and debilitating weariness; I map their downward vector onto the focus branch of a prone body. The live alternative keeps the human scene and the later landscape entirely separate.",
+            "changed_reading": {
+              "before": "The prone-body branch is an isolated lexical curiosity.",
+              "after": "The spread earth can echo bodily exhaustion and the terminal posture of being brought low."
+            }
+          },
+          {
+            "model_id": "delta_provisioning_field",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ق ي",
+              "ض ر ع",
+              "غ ن ي",
+              "ن ع م",
+              "ع ي ن",
+              "ج ر ي"
+            ],
+            "mechanism": "Water delivery, plant output, failed sufficiency, soft well-being, and a flowing spring convert the fertile baseline into a provisioning system. The earth is surfaced so water and growth can circulate, yet the context preserves the possibility of a surface that produces without nourishing.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile ground supplies the receptive and productive medium."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B006",
+                "role": "Ground-spreading vegetation supplies the living extension across that medium."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "An apportioned irrigation flow supplies a water-delivery channel for the field."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ض ر ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000908",
+                "branch_id": "B005",
+                "role": "The named plant supplies an actual surface output whose nourishment can be tested."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the functional criterion that distinguishes productive appearance from sustaining yield."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease supply the positive bodily result of a well-provisioned environment."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A spring supplies a point source from which surface fertility can be renewed."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing and coursing supply circulation rather than stagnant possession of water."
+              }
+            ],
+            "structural_cues": [
+              "Verses 5-7 present water and plant-food that fail to sustain; verses 8-12 reverse toward softness and a running spring.",
+              "The focus gathers these contrasting outcomes under the final ground member of the created-form sequence."
+            ],
+            "reader_inference": "The packet supplies water channels, a plant, sufficiency, softness, a spring, and flow; I infer that leveling enables their ecological coordination. A live alternative confines those images to two afterlife settings without carrying them into the earth's making.",
+            "changed_reading": {
+              "before": "The earth is a passive geometric expanse.",
+              "after": "The earth is an engineered provisioning field whose surface mediates water, growth, and the difference between mere yield and true sustenance."
+            }
+          },
+          {
+            "model_id": "delta_cosmic_furnishing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ر ر",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "A sequence of resting places, deliberate placement, linear arrangement, and spreading furnishes a habitation at small scale. It activates the focus's two mat-like branches at cosmic scale, making the earth a floor prepared for ordered use.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B005",
+                "role": "The thick mat supplies the earth-sized furnishing on which the model turns."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B005",
+                "role": "The useful flat place or woven mat supplies preparation for work, rest, and placement."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settling and reclining supplies the habitation's resting function."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object in a lower or appointed place supplies deliberate positioning on the floor."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on a level line supplies ordered arrangement across the prepared plane."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersing and spreading supplies the final act of furnishing the available area."
+              }
+            ],
+            "structural_cues": [
+              "Verses 13-16 move through elevated resting places, placed vessels, aligned cushions, and spread carpets immediately before the inspection sequence.",
+              "The focus concludes that inspection sequence with the only member that can function as the shared floor."
+            ],
+            "reader_inference": "The packet supplies rest, placement, alignment, and spreading; I scale that arrangement from an interior to the landscape. A live alternative treats the adjacency as descriptive rhythm without a functional analogy.",
+            "changed_reading": {
+              "before": "The earth is spread only to describe its extent.",
+              "after": "The earth is spread as a cosmic furnishing: a deliberately prepared common floor."
+            }
+          },
+          {
+            "model_id": "delta_measured_habitat",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر",
+              "ء ب ل",
+              "خ ل ق"
+            ],
+            "mechanism": "Directed observation, an embodied creature requiring care, measured creation, and a creation-branch explicitly involving smoothness revise extension into calibrated affordance. The ground and the creature can be read as mutually fitted rather than separately displayed.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground supplies the creature's contact and travel substrate."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "Level extension supplies the broad physical affordance to be calibrated."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directing sight or insight supplies examination of functional fit rather than passive noticing."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "The camel together with its care supplies an embodied user of the habitat."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply deliberate calibration in the making process."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B008",
+                "role": "Smoothness and evenness of a surface directly bridge creature-creation language to the focus operation."
+              }
+            ],
+            "structural_cues": [
+              "Verses 17-20 repeat one directional, interrogative, passive frame; the branchless root ك ي ف is used only as this structural cue.",
+              "The sequence moves from creature to overhead cover, upright masses, and ground."
+            ],
+            "reader_inference": "The packet supplies directed inspection, camel care, proportioning, and surface evenness; I infer a design relation between creature and ground. A live alternative takes each created item as an independent sign with no habitat-level coupling.",
+            "changed_reading": {
+              "before": "Leveling gives the earth a generic physical shape.",
+              "after": "Leveling calibrates the earth as an embodied habitat, fitted to movement, care, and use."
+            }
+          },
+          {
+            "model_id": "delta_vertical_architecture",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ر ف ع",
+              "ج ب ل",
+              "ن ص ب"
+            ],
+            "mechanism": "An overhead cover is raised, hard masses are erected, and the lower member is extended. These are complementary operations in one vertical architecture, so surfacing names the horizontal role of earth within a coordinated system.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground opposite the sky supplies the system's bottom member."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "Level extension supplies the horizontal operation complementary to raising and erecting."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What rises and shades supplies an overhead covering member."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Lifting something upward supplies the operation that establishes the top member."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A high solid aggregation supplies resistant vertical mass between sky and ground."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and prominent supplies the operation that establishes the vertical masses."
+              }
+            ],
+            "structural_cues": [
+              "The same directional and passive syntax coordinates sky, mountains, and earth.",
+              "The operations differ by member: raising above, erecting vertically, and extending below."
+            ],
+            "reader_inference": "The packet supplies an overhead cover, upward lifting, solid height, upright erection, lower ground, and level extension; I assemble them into a spatial system. A live alternative reads the list as independent marvels without architectural interdependence.",
+            "changed_reading": {
+              "before": "The earth's flatness is an isolated proposition.",
+              "after": "The earth's extension is its relational job as the lower horizontal member of a raised and erected world."
+            }
+          },
+          {
+            "model_id": "delta_visible_reminder",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "ذ ك ر",
+              "س ط ر"
+            ],
+            "mechanism": "The ground's made surface is offered to directed attention, then the discourse moves to reminding while denying controlling surveillance. The focus therefore works as accessible mnemonic evidence rather than a proposition imposed by force.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "Ordinary lower ground supplies evidence continuously available to embodied observers."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "The broad visible plane supplies the inspectable form that can prompt recollection."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or insight supplies the observer's active engagement with the sign."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that causes recollection supplies the pedagogical function of the visible surface."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer supplies the coercive mode explicitly denied after the reminder."
+              }
+            ],
+            "structural_cues": [
+              "The repeated branchless interrogative root in verses 17-20 sustains process-focused attention without supplying a branch citation.",
+              "The command to remind and denial of control immediately follow the earth question."
+            ],
+            "reader_inference": "The packet supplies observation, reminder, and denied control; I assign the visible surface a mnemonic rather than coercive function. A live alternative limits the non-control statement to the messenger and gives it no bearing on how the earth question operates.",
+            "changed_reading": {
+              "before": "The verse asserts a fact about terrain.",
+              "after": "The verse makes the familiar ground into an open-ended visual reminder whose process must be attended to rather than compelled as a conclusion."
+            }
+          },
+          {
+            "model_id": "delta_productive_or_occluding_cover",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The same material act of covering can hide truth or protect seed until growth emerges. Joined to fertile earth and a ground-spreading plant, this makes the surfaced earth a test case in morally and causally divergent concealment.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile ground supplies the medium in which concealment can become germination."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B006",
+                "role": "Vegetation spreading visibly over the ground supplies the disclosed result of productive covering."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the directional refusal that converts concealment into evasion."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Hiding truth supplies the epistemically destructive form of covering."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B008",
+                "role": "Covering seed supplies the materially productive form of the same action."
+              }
+            ],
+            "structural_cues": [
+              "The discourse moves directly from looking and reminding to turning away and covering.",
+              "The focus surface is both what covers depth and where buried growth becomes visible."
+            ],
+            "reader_inference": "The packet supplies fertile ground, spreading growth, turning away, truth-concealment, and seed-covering; I infer a contrast between generative and evasive concealment. A live alternative treats the agricultural branch as an etymological side image with no role in the focus.",
+            "changed_reading": {
+              "before": "The earth's surface simply lies above what is beneath it.",
+              "after": "The earth's surface dramatizes two kinds of cover: one that incubates emergence and one that suppresses recognition."
+            }
+          },
+          {
+            "model_id": "delta_work_return_account",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ع ي",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "A flat working place, purposeful earning, return to a destination, and final counting produce a temporal-social reading: the earth is the prepared arena on which striving is enacted before its yield returns to account.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B005",
+                "role": "The level working place supplies the terrestrial arena for repeated action."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work, earning, and active disposal supply what agents produce on the arena."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies closure to the period of terrestrial movement."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply evaluation of what the arena's striving yielded."
+              }
+            ],
+            "structural_cues": [
+              "The surah names striving before the focus and closes after it with return and accounting.",
+              "The focus's practical-place branch allows spatial preparation to acquire a bounded temporal use."
+            ],
+            "reader_inference": "The packet supplies a working surface, earning, return, and calculation; I connect them as arena, action, closure, and evaluation. A live alternative keeps the earth purely physical and locates return explicitly beyond rather than back into that arena.",
+            "changed_reading": {
+              "before": "The prepared earth is useful but temporally neutral.",
+              "after": "The prepared earth is a bounded field of striving whose uses and yields stand before return and account."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_rain_written_surface",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends on the non-dominant mapped inventory of the sky root and a later rain branch activated from turning. It remains anchored in the focus's fertile-earth and ground-spreading-plant branches, while sequential rains provide a concrete mechanism for vegetation to mark the visible plane. Downstream prose should label it a split-root, cross-domain activation rather than a direct gloss of the focus verb.",
+            "focus_anchor": "Fertile earth at word 2 and vegetation spreading along ground at word 4 can receive visible marks made by successive rains.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile ground supplies the receptive medium on which rain can leave living marks."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B006",
+                "role": "A plant spreading along the ground supplies the visible inscription across the surface."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "The non-dominant mapping's first rain marks the earth with vegetation, supplying the initial inscription."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B010",
+                "role": "Rain following the first marking rain supplies a successive layer in the surface-making process."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth receives a finished surface once.",
+              "after": "The earth's visible face is repeatedly written into being by rain and the vegetation that follows."
+            }
+          },
+          {
+            "outlier_id": "outlier_surface_as_ledger",
+            "confidence": "exploratory",
+            "containment": "This is surprising because writing and accounting are activated from branch-distant context roots rather than from the ordinary sense of the focus. It remains anchored in the focus branch of a flat working surface, which can materially host ordered marks, while document, line, and count form a coherent recording mechanism. Downstream prose should present it as a ledger analogy, not as a lexical translation.",
+            "focus_anchor": "The surfacing verb at word 4 has a branch for a flat working place or mat capable of bearing arranged marks.",
+            "activation_trace": [
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B005",
+                "role": "The flat working place supplies the material tablet on which the analogy is anchored."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A document establishing a right supplies durable recording rather than fleeting recollection."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "An aligned written line supplies ordered inscription across the flat support."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply the operation that reads and evaluates the inscribed record."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth is a neutral floor for action.",
+              "after": "The earth can be imagined as a legible working surface on which action leaves ordered traces available to account."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The furnishing sequence recast passive leveling as preparation of a cosmic floor for ordered use.",
+            "The water, plant, sufficiency, and spring sequence strengthened the earth into a provisioning field rather than a geometric object.",
+            "The repeated created-form frame made surfacing both a calibrated habitat operation and the earth's horizontal role in a vertical architecture.",
+            "Observation, reminder, denied control, and divergent covering made the visible surface epistemically active without collapsing its material readings."
+          ],
+          "what_was_special": "The rare surfacing root carried branches for an extended plane, practical mat, ground-spreading plant, prone body, and structural support. Context activated several of these at once without forcing a single final reading; the split sky mapping and following-rain branch also opened a contained image of a rain-written surface.",
+          "remaining_uncertainties": [
+            "Whether the furnishing analogy is functional or only a lexical echo from adjacent placement and spreading.",
+            "Whether the body-earth lowering relation is intended or remains branch-driven resonance.",
+            "Whether the non-dominant sky mapping can support prose beyond a marked exploratory outlier.",
+            "How much process emphasis the repeated branchless interrogative root licenses without its own branch inventory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Earth as lower plane spread for use.** Evidence: `ء ر ض` B001 lower ground opposite sky; `س ط ح` B001 flat extended surface. `ك ي ف` has no branch inventory. Structural cue: the inspection sequence descends from camel to sky, mountains, earth; this line completes the spatial frame. Role: earth is the usable lower surface, not inert backdrop. Abductive move: the created world is readable as arranged planes and supports. Reading change: the ayah reads as attention to habitability and extension.\n\n2. **Fertile ground beneath the pastoral signs.** Evidence: `ء ر ض` B002 soft fertile ground; `س ط ح` B006 plant spreading along ground; earlier `ض ر ع` plant, `ن ع م` livestock, `ء ب ل` camels. Structural cue: food/pasture and camel imagery culminate in earth’s surface. Role: the spread earth is the base for pasture and provision. Abductive move: nourishment depends on the relation between water, animal, plant, and ground. Reading change: earth’s flattening becomes ecological preparation.\n\n3. **Flattening as reversal of bodies laid low.** Evidence: `س ط ح` B002 body laid flat on ground; `خ ش ع` B002 low ground; earlier faces humbled. Structural cue: punished faces are lowered; earth is spread. Role: the same flatness can be ordered ground or defeated body. Abductive move: moral reading distinguishes beneficial leveling from humiliating collapse. Reading change: `سطحت` is not simply flattening; it is purposeful surface-making.",
@@ -8345,14 +9521,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8884,10 +10066,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_20.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_20.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 218961,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.710164+00:00",
+  "generated_at": "2026-08-18T13:34:27.799503+00:00",
   "surah": 101,
   "ayah": 10,
   "ayahRef": "101:10",
@@ -1445,7 +1445,8 @@
       "morpheme_ids": [
         "m-w-s101-a010-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:10:1"
+      "aligned_qac_word_ref_upstream": "101:10:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1459,7 +1460,8 @@
       "morpheme_ids": [
         "m-w-s101-a010-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:10:2"
+      "aligned_qac_word_ref_upstream": "101:10:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1475,7 +1477,8 @@
         "m-w-s101-a010-w002-01",
         "m-w-s101-a010-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:10:3"
+      "aligned_qac_word_ref_upstream": "101:10:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1489,7 +1492,8 @@
       "morpheme_ids": [
         "m-w-s101-a010-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:10:4"
+      "aligned_qac_word_ref_upstream": "101:10:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1503,7 +1507,8 @@
       "morpheme_ids": [
         "m-w-s101-a010-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:10:5"
+      "aligned_qac_word_ref_upstream": "101:10:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1587,7 +1592,672 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_10.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:10",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:10",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_epistemic_threshold",
+            "confidence": "strong",
+            "focus_anchor": "The causative أَدْرَىٰكَ inside وَمَا أَدْرَىٰكَ مَا هِيَهْ, with the referent held in the feminine pronoun هِيَهْ.",
+            "mechanism": "The knowing branch and doubled interrogative stage a threshold: the address does not merely request a label but asks what agency could bring the hearer into knowledge while identity remains withheld.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and causing another to know supply the literal epistemic act, while the causative address makes disclosure the mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "A direct request to identify an unknown thing.",
+              "after": "A staged threshold asking what can cause the addressee to know an intentionally unresolved referent."
+            }
+          },
+          {
+            "model_id": "b_directed_concealed_encounter",
+            "confidence": "exploratory",
+            "focus_anchor": "أَدْرَىٰكَ directs the addressee through the second مَا toward an object still concealed behind هِيَهْ.",
+            "mechanism": "The aiming, stalking, and practice-target branches let cognition coexist with directed encounter: attention is aimed and trained upon a screened object rather than handed a detached definition.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B002",
+                "role": "Aiming at and setting upon something supplies directed attention as the question's functional motion."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B003",
+                "role": "Concealment while stalking supplies the screened visibility of the referent held behind هِيَهْ."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B005",
+                "role": "A target used for learning a thrust supplies the exploratory sense that the address trains perception by fixing an endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "Knowledge is passively received as information.",
+              "after": "The utterance sights and trains the hearer upon a deliberately concealed target whose identity must be encountered."
+            }
+          },
+          {
+            "model_id": "b_yielding_disclosure",
+            "confidence": "exploratory",
+            "focus_anchor": "The supplied split mapping of the focus root remains attached to أَدْرَىٰكَ at word 2.",
+            "mechanism": "Alongside ordinary knowing, the mapped image of abundant issue from a source makes disclosure feel like released pressure: the question withholds a source so that knowledge can arrive as outflow rather than static definition.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing supplies the semantic event that the model treats as disclosure."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B001",
+                "role": "Abundant yielding from a source supplies the form-distant image of knowledge issuing after deliberate withholding."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker asks for a fact.",
+              "after": "The question opens a withheld source from which knowledge is about to issue in a concentrated release."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_percussive_disclosure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ع",
+              "د ر ي"
+            ],
+            "mechanism": "The earlier title repeatedly carries impact and then enters the same مَا أَدْرَىٰكَ مَا frame. When that frame returns at 101:10, disclosure is no longer only epistemic delay; it is a second verbal percussion that makes the hearer know by striking attention.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and causing to know anchor the returning focus formula as an act of disclosure."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The same knowing image in the earlier matching formula makes 101:10 a deliberate recurrence rather than an isolated question."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "One thing striking another supplies literal impact, which the repeated interrogative frame can reenact upon attention."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "A deterrent that strikes the listener gives the impact an auditory function: the formula awakens by jolt."
+              }
+            ],
+            "structural_cues": [
+              "101:1-3 repeat the feminine title and then the full وَمَا أَدْرَىٰكَ مَا... frame that reappears at 101:10.",
+              "The earlier frame names its referent, whereas 101:10 substitutes هِيَهْ after the compressed statement of 101:9."
+            ],
+            "reader_inference": "The packet supplies recurrence, a matching knowing formula, and impact branches; I supply the arrow that recurrence reenacts the named impact and primes the later question as a blow. A live alternative is conventional rhetorical magnification without performative percussion.",
+            "changed_reading": {
+              "before": "The formula suspends an answer in order to magnify an unknown.",
+              "after": "The returning formula itself performs the surah's impact, making disclosure arrive as an attentional strike."
+            }
+          },
+          {
+            "model_id": "d_counterspun_identity",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك و ن",
+              "ف ر ش",
+              "ب ث ث",
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "The paired becoming clauses turn people into dispersed light fliers and solid mountains into loosened fiber. Against that unmaking, the focus split branch of spindle rotation makes the question a counter-spin: a verbal attempt to draw scattered images into one referential thread.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "Spindle rotation that tightens twist supplies the exploratory focus-side image of making coherence by circling."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "A thing occurring and becoming present in time makes the simile a state transition that begins the world's loosening."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The moth and lightness image makes human form mobile and fragile rather than stably gathered."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Literal scattering supplies the first loss of aggregation that the inferred counter-spin tries to bind."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Solid elevated aggregation supplies the stable material pole that the following fiber images reverse."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Soft dyed wool supplies the fibrous medium into which solidity is transformed."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffing wool supplies expansion and untwisting, the material reversal answered by the inferred epistemic spin."
+              }
+            ],
+            "structural_cues": [
+              "Parallel كَـ similes and repeated يَكُونُ/تَكُونُ replace people and mountains with loose media before the focus.",
+              "The sequence moves from scattered animate multiplicity to disaggregated solid mass, making loss of bounded identity recurrent."
+            ],
+            "reader_inference": "The packet supplies paired becoming clauses, dispersion, solid mountain, wool, and fluffing; I supply the arrow that these material reversals characterize the later question's epistemic work as retwisting. A live alternative is that the images depict catastrophe without modeling knowing.",
+            "changed_reading": {
+              "before": "The question points to one stable thing awaiting a name.",
+              "after": "In a world whose entities have been scattered and fluffed, the question tries to spin an unstable referent back into a knowable thread."
+            }
+          },
+          {
+            "model_id": "d_calibrated_consequence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "The matched heavy and light scale clauses establish a comparative apparatus. Positioned after the light outcome, مَا هِيَهْ asks not only for essence but for that consequence's place in a measured opposition; knowing becomes calibration against weight, justice, and alignment.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and causing another to know supply the epistemic act that the scale sequence recalibrates."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Weight opposed to lightness supplies one pole of the consequence system."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The balance of justice and equity makes measurement evaluative rather than merely physical."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Lightness of weight supplies the opposed pole immediately preceding the focus question's outcome."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B003",
+                "role": "Balancing and aligning two things supplies comparison as the inferred method of making the destination intelligible."
+              }
+            ],
+            "structural_cues": [
+              "فَأَمَّا...وَأَمَّا pair 101:6 and 101:8 around the repeated possessive مَوَازِينُهُ with opposite heavy and light predicates.",
+              "The focus formula appears only after the light branch has yielded the paradoxical statement of 101:9."
+            ],
+            "reader_inference": "The packet supplies paired scales, opposed weights, and divergent consequences; I supply the arrow that the focus question inherits the scale as an epistemic calibration device. A live alternative is that weighing is only antecedent narrative and the question independently magnifies its referent.",
+            "changed_reading": {
+              "before": "What is the unnamed thing in itself?",
+              "after": "What makes the adverse destination intelligible within the heavy/light calculus that has assigned it?"
+            }
+          },
+          {
+            "model_id": "d_return_that_drops",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "The mother, origin, and return images of أُمّ collide with the void and downward fall of هَاوِيَة. Because focus هِيَهْ is feminine and follows both the maternal construction and its predicate, the question holds open a relational contradiction: the receiving home is also the fall.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and making known anchor the focus as an attempt to render the preceding contradiction intelligible."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "The mother as bearer and nurturer supplies the expectation of holding and care that the predicate reverses."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Origin, gathering point, and return supply the destination or homecoming function of the maternal term."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Air and void remove the support expected from a receiving origin."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a chasm turns return into descent and maternal reception into engulfment."
+              }
+            ],
+            "structural_cues": [
+              "101:9 is the compressed nominal relation فَأُمُّهُ هَاوِيَةٌ, immediately followed by the focus's feminine هِيَهْ.",
+              "The answer is delayed until 101:11, so 101:10 preserves rather than resolves the relational tension for one beat."
+            ],
+            "reader_inference": "The packet supplies mother/return and void/fall branches; I infer that the feminine pronoun lets the maternal relation continue to color its proximate predicate. A live alternative limits هِيَهْ to هَاوِيَةٌ and reads أُمّ idiomatically as abode or destination without personification.",
+            "changed_reading": {
+              "before": "What is the abyss?",
+              "after": "What can make intelligible a mother or return that receives by removing support and making one fall?"
+            }
+          },
+          {
+            "model_id": "d_sensory_self_disclosure",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The delayed answer joins fire with light and heat. The object therefore does more than receive a definition: its radiance and burning become possible media by which it makes itself known, turning epistemic distance into exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and causing another to know supply the question's disclosure frame."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B005",
+                "role": "Pearl-like clarity and brightness supply an exploratory focus-side bridge from knowing to illumination."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Light and illumination supply visibility as one way the answer can disclose itself."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire supplies the concrete answer and joins illumination to consuming contact."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat and heating make disclosure bodily sensible rather than solely propositional."
+              }
+            ],
+            "structural_cues": [
+              "101:10 ends on the sustained هِيَهْ pause, and 101:11 supplies the two-word nominal answer نَارٌ حَامِيَةٌ.",
+              "The answer moves from interrogative distance to immediately sensible qualities: fire, light, and heat."
+            ],
+            "reader_inference": "The packet supplies the delayed answer and its fire, illumination, and heat branches; I infer that these qualities are also the channel of disclosure. A live alternative is that 101:11 only identifies and intensifies the punishment without making knowledge experiential.",
+            "changed_reading": {
+              "before": "The next verse supplies a verbal definition.",
+              "after": "The answer is self-evidencing: light and heat make the unknown known by exposure, so knowing and undergoing begin to coincide."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_whirlpool_at_the_lip",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the whirlpool comes from the focus root's split-mapped د ر ر inventory rather than the ordinary lexical force of أَدْرَىٰ. It remains anchored to a supplied focus branch and to the double مَا circling the withheld هِيَهْ, while contextual scattering and falling furnish a visible vortex mechanism. Render it only as a speculative formal-spatial activation, never as a translation.",
+            "focus_anchor": "The split-mapped focus root at أَدْرَىٰ and the construction مَا...مَا هِيَهْ, which circles a still-unnamed center.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A churning whirlpool and dangerous drowning-place supply circular motion around a downward center for the focus question."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the dispersed material that the inferred vortex draws into circulation."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into an abyss supplies the downward center concealed immediately before the focus question."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question pauses before naming an abyss.",
+              "after": "The words circle an absent center like the lip of a vortex and then orient the hearer into the named fall."
+            }
+          },
+          {
+            "outlier_id": "o_guarded_anti_mother",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the protection branch of ح م ي sits beside the primary heat reading and is not the straightforward adjective sense. It remains focus-anchored through the question's feminine pronoun and its demand to know the mother/abyss relation; protection then inverts into enclosure, guarding the fall rather than the fallen. Render it as a shadow activation alongside, not instead of, the hot-fire reading.",
+            "focus_anchor": "مَا هِيَهْ asks after a feminine referent whose maternal and abyssal relation is not yet resolved.",
+            "activation_trace": [
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and making known anchor the outlier as one exploratory answer to the focus question."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "The nurturing mother supplies the protective expectation that the final branch image will invert."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into an abyss supplies the anti-maternal destination enclosed by the answer."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat supplies the direct adjectival force that must remain primary."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and prevention supply the contained inversion of a fire that guards the abyss or prevents exit."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hot fire simply identifies what the abyss is.",
+              "after": "A shadow reading sees an anti-maternal enclosure: heat that protects not the fallen person but the integrity of the fall."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact return of the 101:3 formula makes 101:10 a second percussive disclosure, not an isolated rhetorical question.",
+            "The heavy/light scales and the mother/abyss equation turn a request for identity into calibration of a relational reversal.",
+            "The answer's fire, light, and heat let disclosure become sensory exposure, so knowing can begin to coincide with undergoing."
+          ],
+          "what_was_special": "The focus has only one explicit root, yet its supplied split inventory sustains coexisting knowing, targeting, yielding, spindle, brightness, and whirlpool activations. The context does not collapse them: repeated impact, material disaggregation, weighing, maternal return, falling, and fire each change how the same compact question works.",
+          "remaining_uncertainties": [
+            "Whether هِيَهْ resumes only هَاوِيَةٌ or also keeps the maternal relation of أُمُّهُ actively personified.",
+            "How much interpretive weight the form-distant د ر ر split branches should carry beside the direct د ر ي knowing branch.",
+            "Whether illumination under ن و ر should color the answer as an epistemic event or remain only a branch-level possibility beside literal fire."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Second epistemic blow, now reduced to \"it.\" Evidence: د ر ي B001, knowing/causing to know; ق ر ع B006 from 101:1-3, striking warning; ه و ي B002 in 101:9, Hawiyah as abyss. Structural cue: the formula of 101:3 returns, but القارعة is replaced by the pronoun هيه. Mechanism: the first unknown event narrows into a second unknown referent whose identity is still withheld. Abductive move: I infer intensification by pronominal compression. Reading change: the ayah makes Hawiyah more uncanny: nearer in grammar, still beyond grasp.\n\n2. Directed approach to the hidden target. Evidence: د ر ي B002, aiming/setting upon; د ر ي B003, stalking concealed game; ن و ر B005 in 101:11, beacon/visible marker. Structural cue: \"what makes you know\" immediately precedes the final disclosure, نار حامية. Mechanism: the question aims the hearer at the concealed object, and the next ayah flashes it into view. Abductive move: I supply the hunting/targeting model for the delayed reveal. Reading change: أدراك becomes guided approach to the fire, not merely intellectual notification.\n\n3. Cutting away false speech. Evidence: د ر ي B004, sharp horn/comb implement; ه و ي B010, false and idle speech; ع ه ن B006 in 101:5, speech cast without reflection. Structural cue: the surah's repeated questions forbid easy verbal filling. Mechanism: the sharp knowing-instrument strips away careless speech until only the final terse answer remains. Abductive move: I infer a corrective function from the contrast between speculative speech branches and the compressed answer. Reading change: the ayah reads as discipline of language before eschatic reality.",
@@ -7101,14 +7771,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7211,10 +7887,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_10.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_10.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 86819,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

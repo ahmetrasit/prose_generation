@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.049348+00:00",
+  "generated_at": "2026-08-18T13:34:44.830480+00:00",
   "surah": 114,
   "ayah": 5,
   "ayahRef": "114:5",
@@ -1377,7 +1377,8 @@
       "morpheme_ids": [
         "m-w-s114-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:5:1"
+      "aligned_qac_word_ref_upstream": "114:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1391,7 +1392,8 @@
       "morpheme_ids": [
         "m-w-s114-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:5:2"
+      "aligned_qac_word_ref_upstream": "114:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1405,7 +1407,8 @@
       "morpheme_ids": [
         "m-w-s114-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:5:3"
+      "aligned_qac_word_ref_upstream": "114:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1419,7 +1422,8 @@
       "morpheme_ids": [
         "m-w-s114-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:5:4"
+      "aligned_qac_word_ref_upstream": "114:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1435,7 +1439,8 @@
         "m-w-s114-a005-w005-01",
         "m-w-s114-a005-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:5:5"
+      "aligned_qac_word_ref_upstream": "114:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1648,7 +1653,1011 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:5",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_covert_self_speech",
+            "confidence": "strong",
+            "focus_anchor": "The iterative verb at 114:5 word 2 acts inside the plural chests at word 4 and upon the people at word 5.",
+            "mechanism": "Repeated hidden inward speech is placed in a bodily interior where its external source is no longer audible; because the human branch can denote one's own self or an intimate companion, the intrusion can be experienced as self-authored or familiarly voiced.",
+            "activation_trace": [
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward self-talk supplies the covert signal and lets an introduced thought resemble the recipient's own speech."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest supplies a bodily chamber in which the covert signal is localized."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The self or intimate companion image explains why the inward voice can pass as one's own or as trusted speech."
+              }
+            ],
+            "changed_reading": {
+              "before": "A hostile speaker quietly tells people bad things.",
+              "after": "An iterative covert signal is staged inside the human interior so that alien prompting can be misrecognized as self-speech or an intimate voice."
+            }
+          },
+          {
+            "model_id": "baseline_preaction_source",
+            "confidence": "strong",
+            "focus_anchor": "The preposition fi places the whispering in sudur, whose branches include both the foremost part and the source from which actions issue.",
+            "mechanism": "The whisper operates upstream of visible conduct: it perturbs what first reaches awareness at the action-generating source, so its effect may appear later as an apparently spontaneous judgment, intention, or act.",
+            "activation_trace": [
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech provides a low-visibility input before a public word or act exists."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B002",
+                "role": "The foremost or first part makes the chest a threshold at the front of an emerging response."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue turns that threshold into a production point for later conduct."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception into awareness supplies the transition by which a covert input becomes noticed, felt, or actionable."
+              }
+            ],
+            "changed_reading": {
+              "before": "Whispering adds a proposition to an already formed mind.",
+              "after": "Whispering intervenes at the pre-action source, biasing what becomes salient and what can issue as thought, speech, or conduct."
+            }
+          },
+          {
+            "model_id": "baseline_familiar_facing_access",
+            "confidence": "medium",
+            "focus_anchor": "The target noun at 114:5 word 5 carries branches of familiarity and the near human-facing side, while the action remains hidden inward speech.",
+            "mechanism": "The signal gains access through the side already turned toward relationship and comfort. Its efficacy is not only secrecy but resemblance to what is socially near, tame, and reassuring.",
+            "activation_trace": [
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech supplies content whose provenance is difficult to inspect."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement supplies the trusted tone through which the signal can be admitted."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The near human-facing side supplies an exposed relational surface rather than an obviously alien point of attack."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily front localizes that human-facing access at the person's presented yet inwardly vulnerable side."
+              }
+            ],
+            "changed_reading": {
+              "before": "The whisper succeeds because it is quiet.",
+              "after": "The whisper succeeds through both quietness and familiarity, entering from the side that feels near, human, and already trusted."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_overt_counter_speech",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The commanded outward utterance and the concealed inward utterance occupy rival stages of one speech pathway. Audible, deliberate saying can expose and counter a pre-vocal saying that otherwise reaches the source of action without declaring itself.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Speech brought out in articulation supplies the overt, inspectable counter-channel."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "A saying held in the self and not manifested supplies a direct lexical bridge to covert whispering."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward self-talk supplies the rival pre-vocal stream."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which acts issue locates the competition before speech or conduct becomes public."
+              }
+            ],
+            "structural_cues": [
+              "The opening imperative at 114:1 precedes the relative clause at 114:5, placing deliberate audible response before the description of concealed inward speech."
+            ],
+            "reader_inference": "The packet supplies articulated saying, unmanifest saying in the self, and hidden inward whisper; I infer competition on a shared utterance pathway. A live alternative is that the imperative only frames recitation and does not causally interrupt the whisper.",
+            "changed_reading": {
+              "before": "The whisper is merely secret content lodged within.",
+              "after": "The whisper is a rival unspoken saying, and deliberate outward speech can reclaim the same pathway by making allegiance and source explicit."
+            }
+          },
+          {
+            "model_id": "delta_protective_attachment_and_cultivation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و ذ",
+              "ر ب ب"
+            ],
+            "mechanism": "Refuge appears as attachment within a shelter and the Lord as one who repairs, nurtures, and completes. Against an influence working at the source of action, protection can therefore be read as sustained re-formation of the interior, not only expulsion of an external attacker.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking shelter and holding fast supplies the primary protective relation."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging and remaining within another's protection turns refuge into durable attachment rather than momentary flight."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply a restorative process for the interior being influenced."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split-root image of feeding and growth makes gradual formation a live secondary mechanism."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue identifies what protection must repair and form."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Repeated hidden self-talk supplies the competing formative pressure."
+              }
+            ],
+            "structural_cues": [
+              "At 114:1 the first-person refuge verb is joined to the governing and nurturing noun before 114:5 locates the threat inside plural chests."
+            ],
+            "reader_inference": "The packet supplies sheltering attachment, repair and completion, a secondary growth image, and an action-source under covert pressure; I infer two competing processes of interior formation. The live alternative is instantaneous protection with no developmental arrow.",
+            "changed_reading": {
+              "before": "Refuge blocks a hostile voice from entering.",
+              "after": "Refuge also attaches the person to a sustained reparative formation that can recondition the very source from which influenced actions issue."
+            }
+          },
+          {
+            "model_id": "delta_distributed_familiar_network",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و س"
+            ],
+            "mechanism": "Repeated naming of people activates visible human presence, familiarity, and the near-facing side. The inward signal may therefore travel through ordinary social proximity and trusted human voices, while still becoming internalized in each recipient's chest.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the socially trusted medium through which a covert suggestion can travel."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies an embodied carrier alongside hidden sources."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The near human-facing side identifies the relational surface where trusted transmission becomes inward reception."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech explains how socially received language can be internalized as private self-talk."
+              }
+            ],
+            "structural_cues": [
+              "The same plural noun recurs in 114:1, 114:2, 114:3, 114:5, and 114:6, moving across addressee, governed community, target interior, and possible source class."
+            ],
+            "reader_inference": "The packet supplies repetition, visible human presence, familiarity, and a near-facing side; I infer transmission through familiar people and subsequent internalization. The live alternative is that every repetition only identifies the protected population, with no social circulation implied.",
+            "changed_reading": {
+              "before": "Each isolated person receives a wholly private intrusion.",
+              "after": "A whisper can circulate through familiar human relations and then disappear into private self-speech inside many chests."
+            }
+          },
+          {
+            "model_id": "delta_contested_control_layer",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ل ك"
+            ],
+            "mechanism": "Kingship activates possession, disposal, and the mainstay of an affair. Because the whisper acts at the source from which conduct issues, the conflict concerns practical control of the action-generating center, not merely the presence of unwanted content.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession and power of disposal supply the governing relation contested by covert influence."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay or pivot of an affair identifies the decisive control point."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue supplies the interior control point where influence becomes conduct."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech supplies a covert attempt to exercise control without appearing as a ruler."
+              }
+            ],
+            "structural_cues": [
+              "The compact title at 114:2 governs the same repeated people whose action-generating interiors are named in 114:5."
+            ],
+            "reader_inference": "The packet supplies possession, disposal, a decisive mainstay, and an interior source of action; I infer a contest over effective governance of that source. A live alternative is that kingship remains a title of protection without specifying the whisper's mechanism.",
+            "changed_reading": {
+              "before": "The whisperer inserts objectionable thoughts into a protected subject.",
+              "after": "The whisperer covertly contests practical command of the subject's action-source, while true sovereignty is invoked over that same center."
+            }
+          },
+          {
+            "model_id": "delta_orientation_capture",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ل ه"
+            ],
+            "mechanism": "The worship relation widens the stakes from isolated thought content to orientation and allegiance. Repeated covert speech at the source of action can train what a person treats as ultimate, obeys reflexively, or organizes conduct around.",
+            "activation_trace": [
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped object supply the axis of ultimate orientation that covert repetition may try to redirect."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Repeated hidden self-talk supplies the rehearsal mechanism by which an orientation can become habitual."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue connects inward orientation to enacted allegiance."
+              }
+            ],
+            "structural_cues": [
+              "The sequence of titles reaches the worship relation at 114:3 immediately before the threat is named and then localized in 114:4-5."
+            ],
+            "reader_inference": "The packet supplies worship, repeated inward speech, and an action-source; I infer that rehearsal can redirect practical allegiance. A live alternative is that the divine title only identifies whom to invoke and does not describe what the whisper attempts to capture.",
+            "changed_reading": {
+              "before": "The whisper modifies discrete judgments or urges.",
+              "after": "The whisper can work cumulatively on the person's organizing allegiance, training the action-source toward a rival practical object of obedience."
+            }
+          },
+          {
+            "model_id": "delta_spark_to_impulse",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س"
+            ],
+            "mechanism": "The preceding evil branches supply both scattered sparks and, through the non-dominant split mapping, agitation and headlong insistence. Joined to the faint whisper, they yield an escalation model: a small hidden input can scatter, catch, and become an urgent drive.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying fire-sparks supply the image of small inputs scattering into multiple points of ignition."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "Agitation, obstinacy, and rushing impulse from the split mapping supply the later driven phase of escalation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A faint murmur supplies the initially low-amplitude trigger."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech locates the ignition within self-talk rather than in an overt command."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B006",
+                "role": "A portion or group from a larger thing permits one small interior region to be activated before the effect spreads."
+              }
+            ],
+            "structural_cues": [
+              "At 114:4 evil directly governs the nominal whisperer, and 114:5 immediately converts the same whisper root into an ongoing verb inside plural chests."
+            ],
+            "reader_inference": "The packet supplies sparks, agitation, faint sound, hidden self-talk, and a portion; I supply the arrow from small covert trigger to spreading urgency. The live alternatives are the plain moral label of evil and a stable whisper that never escalates.",
+            "changed_reading": {
+              "before": "The whisper is a steady stream of bad propositions.",
+              "after": "The whisper may begin below notice, seed scattered interior ignitions, and intensify into insistent momentum."
+            }
+          },
+          {
+            "model_id": "delta_agent_process_oscillation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و س و س"
+            ],
+            "mechanism": "The context nominalizes and can name an agent, while the focus repeats the same root as behavior under a relative pronoun. The reading can therefore oscillate between a personal whisperer and a portable whispering role instantiated through more than one channel.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B003",
+                "role": "The lexical use of Waswas as a name for Satan supplies a strongly personalized agent reading."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "The verbal hidden-self-talk branch supplies a repeatable behavior that need not disclose the immediate carrier."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence keeps embodied human mediation available without erasing the personalized agent."
+              }
+            ],
+            "structural_cues": [
+              "The nominal form in 114:4 is followed by alladhi and a finite verb from the same root in 114:5, moving from label to enacted behavior."
+            ],
+            "reader_inference": "The packet supplies an agent-name branch and a verbal behavior inside humans; I infer that agency and process remain deliberately superimposed. A live alternative is one fixed Satanic agent whose action alone is being elaborated.",
+            "changed_reading": {
+              "before": "A single named being performs a single kind of attack.",
+              "after": "A personalized whisperer remains live, but the repeated verb also exposes a transmissible role or process whose immediate carrier may vary."
+            }
+          },
+          {
+            "model_id": "delta_pulsed_reentry",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ن س"
+            ],
+            "mechanism": "Withdrawal into hiding and the image of bodies that disappear and return make intermittence part of the attack. The whisper recedes after contact, allowing its trace to look self-generated, then re-enters along a route of arrival and departure.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Withdrawal into concealment or delay supplies the disappearing phase of the cycle."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Stars or planets that hide and return supply a recurrent rather than final disappearance."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech supplies the contact phase whose source becomes obscure during retreat."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure after arrival at a watering place supplies an in-and-out route through the interior rather than permanent residence."
+              }
+            ],
+            "structural_cues": [
+              "The withdrawing adjective at the end of 114:4 is immediately unfolded by a present-tense whispering action in 114:5."
+            ],
+            "reader_inference": "The packet supplies retreat, hidden return, inward whisper, and departure after arrival; I infer a pulsed re-entry cycle that obscures provenance. A live alternative is a single withdrawal triggered by resistance rather than recurrent timing.",
+            "changed_reading": {
+              "before": "The whisperer applies continuous pressure inside the chest.",
+              "after": "The whisperer alternates contact, retreat, and return, using gaps in presence to make each recurrence seem native to the recipient."
+            }
+          },
+          {
+            "model_id": "delta_hidden_visible_source_duality",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "The final coordination places concealed beings and visible humans in the source field. The relative agent in the focus can thus remain personally real while operating through hidden and embodied channels; the people whose chests are targeted can also become human relays.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Covering and concealment supply the invisible side of the source field."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Hidden jinn supply a personal concealed-agent reading rather than mere abstraction."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the embodied side of the same coordinated source field."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest supplies the receiving interior shared by targets regardless of the source channel."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward speech explains how either source channel can converge on an indistinguishable interior effect."
+              }
+            ],
+            "structural_cues": [
+              "The coordinated phrase at 114:6 follows the relative clause and can attach source classes to the whispering agent while repeating the same people named as targets in 114:5."
+            ],
+            "reader_inference": "The packet supplies concealed beings, visible humans, coordination, and a shared inward effect; I infer channel plurality and possible human relay. A live alternative is a simple two-class taxonomy of independent agents with no transmission between target and carrier.",
+            "changed_reading": {
+              "before": "An exclusively invisible source whispers into passive human recipients.",
+              "after": "Concealed and visible agents can produce the same inward signature, and a recipient may become an embodied relay without dissolving the personal hidden-agent reading."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_somatic_rustle",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it takes the physical murmur branch seriously beside the anatomical chest rather than immediately psychologizing both. It remains anchored in the focus verb and chest noun, but downstream prose should present it as a somatic or acoustic analogy, not as a claim that the verse reduces whispering to bodily noise.",
+            "focus_anchor": "The whisper verb at 114:5 word 2 and the anatomical chest at word 4 can jointly support a barely sensed bodily-rustle model.",
+            "activation_trace": [
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A faint physical rustle or murmur supplies an almost subliminal sensory signal."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The anatomical chest supplies the bodily resonant site where that faint signal may be felt."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by sensing or hearing supplies the threshold at which bodily murmur enters awareness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The intrusion arrives as semantically formed inner language.",
+              "after": "The intrusion may first register as a faint bodily or acoustic disturbance that is only later interpreted into thought."
+            }
+          },
+          {
+            "outlier_id": "outlier_transactional_revaluation",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because it uses the exchange and equivalence images from the non-dominant split mapping of the context root. It remains anchored by treating whispering as covert revaluation at the focus ayah's action-source; downstream prose should label it an economic analogy and keep ordinary evil as the primary live branch.",
+            "focus_anchor": "The hidden speech at 114:5 word 2 acts in the source from which choices issue at word 4, allowing a context-triggered model of covert valuation exchange.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange between buying and selling supplies a model in which one valuation is quietly traded for another."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Apparent equivalence or countervalue supplies the misleading comparison that makes the trade seem acceptable."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden inward self-talk supplies the unannounced negotiation."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue supplies the decision point where altered valuation becomes choice."
+              }
+            ],
+            "changed_reading": {
+              "before": "The whisper simply recommends an obviously bad option.",
+              "after": "The whisper covertly reprices alternatives, presenting a damaging exchange as fair before the resulting choice issues outward."
+            }
+          },
+          {
+            "outlier_id": "outlier_incubated_suggestion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because fetal concealment and a thing's hidden beginning are cross-domain images activated by the final source noun. It remains anchored in the focus chest as an action-source and in repeated hidden speech, but downstream prose should call it an incubation analogy rather than a lexical gloss of the ayah.",
+            "focus_anchor": "The whispering at 114:5 word 2 occurs inside the source of later actions at word 4, permitting a delayed maturation model.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "A fetus concealed in the womb supplies the image of an inward formation developing before appearance."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B014",
+                "role": "A thing hidden at its beginning supplies the early phase before the influenced act is recognizable."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Repeated hidden self-talk supplies the continuing input by which an unformed tendency can mature."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue supplies the emergence point where hidden formation becomes conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "A whisper produces an immediate thought or urge.",
+              "after": "A whisper can incubate an initially hidden tendency until it emerges from the interior as a seemingly mature intention or act."
+            }
+          },
+          {
+            "outlier_id": "outlier_trajectory_nudge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports the image of a running horse veering from the withdrawing root. It remains anchored in hidden murmuring and the chest as the foremost part, but downstream prose should render it as a kinetic analogy for slight steering, not as the literal sense of the focus verb.",
+            "focus_anchor": "The faint whisper at 114:5 word 2 operates in a noun whose branch can mean the foremost or leading part at word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B005",
+                "role": "A horse veering during its run supplies a small trajectory change without stopping forward motion."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "The faint murmur supplies the low-force perturbation rather than an overt command."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B002",
+                "role": "The foremost or leading part supplies the point where a slight nudge can redirect the whole course."
+              }
+            ],
+            "changed_reading": {
+              "before": "The whisper halts sound judgment and substitutes a contrary command.",
+              "after": "The whisper may only nudge the leading edge of an ongoing intention, producing a large downstream deviation from a nearly invisible correction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus shifted from secret content to intervention at the pre-action source from which speech and conduct issue.",
+            "The opening command activated a rival-channel reading in which overt deliberate saying counters unmanifest saying in the self.",
+            "Withdrawal and return changed a continuous-pressure model into pulsed re-entry that hides the signal's provenance.",
+            "The final hidden-visible coordination preserved a personal concealed agent while also allowing visible human mediation and relay.",
+            "Kingship, refuge, nurture, and worship widened the stakes from thought insertion to governance, formation, and practical allegiance."
+          ],
+          "what_was_special": "The same compact focus clause sustained bodily, cognitive, social, political, temporal, and material mechanisms without collapsing them: whispering could masquerade as self-speech, bias an action-source, circulate through familiarity, contest control, ignite or incubate, and recur through strategic absence.",
+          "remaining_uncertainties": [
+            "The packet does not decide whether the chest branches are simultaneously anatomical, threshold-like, and action-generating or whether these should remain separate readings.",
+            "Social relay is abductively strong but the repeated people may only mark the protected population rather than a transmission network.",
+            "The split-root spark, impulse, exchange, and growth activations are live but depend on form-distant mappings and should remain visibly qualified.",
+            "The personalized Satan-name branch and the distributed process reading coexist; the focus trace should not force a single-agent or channel-only resolution."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Counterfeit speech within the person.** Evidence: و س و س B001, hidden inward whisper; ق و ل B001/B012 from 114:1, uttered speech and unspoken inner saying; ص د ر B001, chest as bodily front. Structural cue: the first ayah commands outward saying, while this ayah names inward whispering. Assigned role: وسوس is a counterfeit qawl that remains inside rather than becoming accountable utterance. Abductive move: because the remedy is “say,” the disease is an alternative form of saying. Reading change: the ayah reads as an invasion of speech-function, not merely as a temptation located somewhere inside.\n\n2. **Chest as source and first point of action.** Evidence: ص د ر B001, chest; ص د ر B002, foremost or first part; ص د ر B004, source from which forms issue; م ل ك B005 from 114:2, mainstay of a matter; ر ب ب B002 from 114:1, repair/nurture/completion. Structural cue: the phrase “في صدور الناس” follows the authority triad over الناس. Assigned role: the chest is not only a container but the front/source from which action and orientation issue. Abductive move: the whisperer chooses the chest because controlling the source controls what later emerges as action, belief, or public speech. Reading change: “in the breasts” reads as at the command-origin of the human being.\n\n3. **Subtle physical murmur in an embodied interior.** Evidence: و س و س B002, hidden rustle or murmur; ص د ر B001, anatomical chest and what covers or marks it; ج ن ن B016 from 114:6, chest bones; ج ن ن B010, hidden heart/inner fear. Structural cue: the packet moves from named divine authority to an embodied location. Assigned role: the whisper has tactile/acoustic faintness within the ribbed bodily space. Abductive move: the lexicon’s faint sounds allow the threat to be imagined as barely perceptible movement inside the body. Reading change: the ayah becomes somatic and affective, not only cognitive.\n\n4. **The swaying population as the resonant medium.** Evidence: ن و س B001, swaying or dangling oscillation; ن و س B002, driving camels; م ل ك B008 from 114:2, leading forepart in animals; خ ن س B005 from 114:4, veering horse. Structural cue: الناس appears again after the chest-location, making the interior plural and repeated. Assigned role: people are a resonating medium that can sway, be driven, or veer under the hidden impulse. Abductive move: the same inner whisper becomes collective motion because each chest belongs to the repeated الناس. Reading change: the ayah reads as a social-embodied mechanism: inner whispers can move a population.",
@@ -8651,14 +9660,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8760,10 +9775,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 66307,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

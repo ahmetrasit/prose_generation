@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.215305+00:00",
+  "generated_at": "2026-08-18T13:34:35.699757+00:00",
   "surah": 107,
   "ayah": 2,
   "ayahRef": "107:2",
@@ -1484,7 +1484,8 @@
       "morpheme_ids": [
         "m-w-s107-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:2:1"
+      "aligned_qac_word_ref_upstream": "107:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1498,7 +1499,8 @@
       "morpheme_ids": [
         "m-w-s107-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:2:2"
+      "aligned_qac_word_ref_upstream": "107:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1512,7 +1514,8 @@
       "morpheme_ids": [
         "m-w-s107-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:2:3"
+      "aligned_qac_word_ref_upstream": "107:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1526,7 +1529,8 @@
       "morpheme_ids": [
         "m-w-s107-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:2:4"
+      "aligned_qac_word_ref_upstream": "107:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1542,7 +1546,8 @@
         "m-w-s107-a002-w004-01",
         "m-w-s107-a002-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:2:5"
+      "aligned_qac_word_ref_upstream": "107:2:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2429,7 +2434,1008 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:2",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_forceful_resevering",
+            "confidence": "strong",
+            "focus_anchor": "The transitive focus verb at word 3 acts directly on the unprotected person named at word 4.",
+            "mechanism": "Forceful driving meets a person already defined by severance from a protector. The act therefore does more than fail to repair vulnerability: it actively repeats and intensifies the orphan's constitutive separation.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies rough, forceful thrusting and makes the predicate an enacted expulsion rather than passive neglect."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies a child cut off from parental protection, so the thrust compounds an already broken protective relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "He is harsh to the orphan or sends the orphan away.",
+              "after": "He actively re-enacts orphaning: force is used to drive an already unprotected dependent farther from access, belonging, and protection."
+            }
+          },
+          {
+            "model_id": "b_summons_reversed",
+            "confidence": "medium",
+            "focus_anchor": "The focus verb's split mapping holds both forceful driving and speech that draws someone near, while its object is socially isolated.",
+            "mechanism": "The opposed branch directions create a relational reversal. A person who most needs to be called into proximity is instead propelled outward; exclusion becomes the corruption of an available summons.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Contributes outward force and supplies the expelling pole of the reversal."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Contributes calling that draws near and supplies the unrealized relational alternative to expulsion."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Contributes solitary disconnection, making nearness versus further isolation the mechanism's decisive axis."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line depicts a one-directional shove.",
+              "after": "The shove is the inverse of hospitality and summons: the isolated person who should be drawn into relation is deliberately driven out of it."
+            }
+          },
+          {
+            "model_id": "b_herding_the_singular",
+            "confidence": "exploratory",
+            "focus_anchor": "A chiding-herding branch of the focus verb converges with the object's branch of singular, peerless isolation.",
+            "mechanism": "The act can be carried as social reduction: a singular person is handled as a steerable unit, moved by rebuke rather than addressed as a claimant or relation. The reading coexists with literal bodily force but shifts attention to dehumanizing command.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B003",
+                "role": "Supplies the chiding call used to drive a herd and frames the action as coercive management by voice."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Supplies isolated singularity, highlighting the violence of reducing an irreducible person to movable stock."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B009",
+                "role": "Supplies small dependents as a branch image and keeps the coercive management attached to the focus object's dependency."
+              }
+            ],
+            "changed_reading": {
+              "before": "The orphan receives an isolated act of rough treatment.",
+              "after": "The orphan is coercively managed and de-personed: singular vulnerability is treated as a troublesome dependent category to be driven along."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_evidentiary_ledger",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The preceding summons to attend, attribution of falsification, and account/recompense convert the focus action into visible evidence. Treatment of the least protected person functions as the bodily ledger in which a hidden rejection becomes inspectable.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the observable forceful act that can bear evidentiary weight."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies the unprotected test case whose treatment exposes the actor's operative commitments."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "Supplies attention-directing inquiry and turns the next action into the requested object of recognition."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Supplies active attribution of falsity and frames rejection as a stance manifested through conduct."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Supplies accounting and recompense, allowing the social act to register as an entry in a moral ledger."
+              }
+            ],
+            "structural_cues": [
+              "The attention-command in 107:1 is answered by the deictic identification at the start of 107:2.",
+              "The repeated relative construction binds an abstract rejected commitment to a concrete action and actor."
+            ],
+            "reader_inference": "The packet supplies attention, falsification, accounting, force, and unprotectedness; I infer the arrow from conduct to disclosure, while a live alternative is that 107:2 merely gives one example without making it an exhaustive diagnostic.",
+            "changed_reading": {
+              "before": "The verse reports a cruel act.",
+              "after": "The cruel act is a public fingerprint of an otherwise hidden denial: the orphan's treatment becomes the place where the actor's real account is made visible."
+            }
+          },
+          {
+            "model_id": "d_claim_foreclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The focus split root supplies the assertion of a right or affiliation; the context supplies discrediting and debt. Physical expulsion can therefore enforce a prior discursive move: mark the vulnerable claimant false so that kinship, property, or care obligations never enter the account.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B002",
+                "role": "Supplies claiming a right or affiliation and makes the focus object legible as a bearer of a denied claim."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the force that physically executes exclusion after the claim is refused."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies loss of the normal protector who could validate or enforce the claim."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Supplies the act of imputing falsehood and functions as the discursive foreclosure of the claim."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Supplies financial indebtedness and renders care or property as an obligation the actor refuses to recognize."
+              }
+            ],
+            "structural_cues": [
+              "The abstract object of rejection in 107:1 is followed immediately by a vulnerable human direct object in 107:2.",
+              "The orphan's lack of a protector makes denial of standing materially effective rather than merely verbal."
+            ],
+            "reader_inference": "The packet supplies right-claim, false-attribution, debt, and force; I infer that discrediting a claim enables expulsion, while the live alternative is a broader rejection of accountability with no specific legal dispute.",
+            "changed_reading": {
+              "before": "The actor drives away a socially weak child.",
+              "after": "The actor first makes the orphan's claim socially unreal, then makes the claimant physically absent; the shove is enforcement of denied standing."
+            }
+          },
+          {
+            "model_id": "d_asymmetric_social_force",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "The sequence contrasts abundant coercive energy toward the orphan with absent motivating energy toward feeding the poor. This is not simple apathy: social force is selectively vectored, pushing vulnerability away while refusing to move others or resources toward relief.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies strong outward propulsion and establishes that the actor is capable of forceful initiative."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies the first unprotected recipient toward whom force is directed."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Supplies vigorous urging and, under negation, marks the missing counter-force that could mobilize care."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Supplies feeding another and gives the withheld social motion a concrete destination."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "Supplies abject need and links the second vulnerable person to the orphan's exposure."
+              }
+            ],
+            "structural_cues": [
+              "A positive forceful verb in 107:2 is followed by a negated urging verb in 107:3.",
+              "Both clauses direct attention to vulnerable human objects, but the direction of agency reverses."
+            ],
+            "reader_inference": "The packet supplies outward force, negated urging, feeding, and abjection; I infer a shared force-budget whose direction reveals preference, while the live alternative is simply two independent failures placed in sequence.",
+            "changed_reading": {
+              "before": "The actor is callous or inactive toward vulnerable people.",
+              "after": "The actor is highly active, but only in the wrong direction: force expels need, while no force is spent mobilizing nourishment toward it."
+            }
+          },
+          {
+            "model_id": "d_motion_produces_stasis",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "The focus applies violent motion to a person whose care is already delayed; the context couples livelihood with loss of motion and sustenance that stabilizes a dwelling. The paradoxical result is that imposed movement produces social immobility by removing access to what lets a person remain and recover.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies imposed bodily or social motion and initiates the displacement mechanism."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B004",
+                "role": "Supplies delayed care and makes deprivation temporal as well as relational."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Supplies livelihood and well-being as the resource base removed by exclusion."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B001",
+                "role": "Supplies cessation of motion and names the disabling endpoint of resource deprivation."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Supplies sustenance that fixes residence and clarifies what would permit stable belonging."
+              }
+            ],
+            "structural_cues": [
+              "The focus verb moves a person away; the following clause names food and a person marked by diminished capacity.",
+              "The orphan branch already encodes care arriving late, so the sequence can be read temporally as accumulating disablement."
+            ],
+            "reader_inference": "The packet supplies force, delayed care, livelihood, stasis, and stabilizing sustenance; I infer that exclusion from resources converts forced movement into reduced agency, while a live alternative is that motion and stasis remain separate images.",
+            "changed_reading": {
+              "before": "The shove merely removes the orphan from one place.",
+              "after": "The shove removes the conditions of stable agency: outward displacement and delayed provision make the vulnerable person less able to move, dwell, or recover."
+            }
+          },
+          {
+            "model_id": "d_mercy_ritual_inversion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "Prayer branches supply supplication, blessing, and mercy, while heedlessness supplies failure of inward attention. Against them, the focus verb's split call-near branch and literal thrust expose a reversal: ritual speech draws mercy near in form while embodied conduct drives its human addressee away.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Supplies a call that draws near and creates the relational action ritual mercy would be expected to perform."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the contrary bodily action, turning invocation into expulsion."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies the unprotected human recipient through whom claimed mercy can be tested."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplies prayer as supplication, praise, and mercy and establishes the ritual pole of the contradiction."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B002",
+                "role": "Supplies blessing and mercy from the non-dominant mapped root, reinforcing relational beneficence rather than mere ceremony."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Supplies inward heedlessness and explains how ritual language can fail to redirect embodied conduct."
+              }
+            ],
+            "structural_cues": [
+              "The sequence turns from vulnerable bodies and food to prayer, inviting conduct to read ritual rather than remain a separate topic.",
+              "The call-versus-drive opposition is internal to the focus root mapping and is sharpened by prayer's mercy branches."
+            ],
+            "reader_inference": "The packet supplies calling-near, thrusting-away, mercy, and heedlessness; I infer that conduct tests whether ritual invocation has become relational action, while a live alternative is that the prayer group is a parallel type rather than strictly the same individual.",
+            "changed_reading": {
+              "before": "The orphan's expulsion is a social fault beside a separate ritual fault.",
+              "after": "The expulsion is the embodied falsification of ritual mercy: the mouth calls blessing near while the body drives its possible recipient away."
+            }
+          },
+          {
+            "model_id": "d_visibility_choreography",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The opening directs sight toward the actor, and the later occurrence supplies ostentatious visibility. Forceful displacement of an isolated person can then be read as scene management: remove need from the field while placing the pious self inside it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the physical force capable of editing who remains present in the social scene."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Supplies isolated singularity and makes the removed person easy to erase from collective view."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "Supplies an attention-directing frame that asks the reader to watch how identity is disclosed."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Supplies ostentatious display and makes controlled visibility a motive-bearing social mechanism."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Supplies making something visible and frames the actor's self-presentation as selective revelation."
+              }
+            ],
+            "structural_cues": [
+              "The sight root appears at the opening and again after the prayer sequence, enclosing the treatment of the vulnerable within a visibility frame.",
+              "The focus action has a spatial direction, making removal from a viewed scene mechanically available."
+            ],
+            "reader_inference": "The packet supplies directed attention, display, force, and isolation; I infer the spatial arrow that expulsion edits the visible scene, while a live alternative is that ostentation concerns only worship and does not motivate the earlier shove.",
+            "changed_reading": {
+              "before": "The actor wants the orphan gone.",
+              "after": "The actor curates visibility: need is pushed out of frame so that a polished religious self can occupy the frame uncontested."
+            }
+          },
+          {
+            "model_id": "d_aid_boundary_system",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The final roots supply a withheld hand, a barrier, and assistance. They generalize the focus shove from an episode into boundary infrastructure: body, hand, and resource all enforce the same rule that aid must not cross toward the dependent.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the bodily push as the first enacted boundary against access."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies the dependent already lacking a protector and therefore most exposed to an access barrier."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Supplies the hand deliberately held back from giving and extends bodily rejection into resource withholding."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Supplies a barrier between a person and what is sought, making exclusion a durable arrangement."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Supplies assistance and names precisely what the barrier prevents from reaching the vulnerable person."
+              }
+            ],
+            "structural_cues": [
+              "The surah's final paired verbs and object repeat the focus pattern of an agent actively obstructing a vulnerable person's access.",
+              "The movement runs consistently away from relation: push the person out, hold the hand back, retain the aid."
+            ],
+            "reader_inference": "The packet supplies shove, withheld giving, barrier, and aid; I infer that these are scales of one exclusion system, while a live alternative is a list of related but operationally separate acts.",
+            "changed_reading": {
+              "before": "The shove is a moment of personal cruelty.",
+              "after": "The shove is the bodily edge of an aid-denial system: exclusion is reproduced through space, gesture, and control of ordinary assistance."
+            }
+          },
+          {
+            "model_id": "d_protection_inverted",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "م ع ن"
+            ],
+            "mechanism": "The orphan branch names lost protection, while the prevention branch includes strength that protects against penetration. The actor has protective capacity but turns it around: strength guards possessions and boundaries from the orphan instead of guarding the orphan from exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies the absence of a protecting parent and establishes protection as the focus object's missing relation."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies force that can either defend or expel and here is directed against the unprotected person."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Supplies protective strength that cannot be penetrated and reveals the actor's capacity to construct safety."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Supplies assistance and marks the alternative object toward which protective strength could have been directed."
+              }
+            ],
+            "structural_cues": [
+              "The focus object is defined by missing protection; the closing prevention image supplies protection used as exclusion.",
+              "The same actor-position is associated with force against a person and strength around retained goods."
+            ],
+            "reader_inference": "The packet supplies lost guardianship, force, defensive strength, and aid; I infer a reversal in the object of protection, while a live alternative is that the protective-strength branch remains a remote analogy to ordinary withholding.",
+            "changed_reading": {
+              "before": "The orphan suffers because no protector is present.",
+              "after": "The orphan is orphaned again by a social protector in reverse: available strength fortifies resources against the child instead of sheltering the child."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_stumbler_recovery_reversed",
+            "confidence": "exploratory",
+            "containment": "The recovery-call branch is surprising because it is formulaic and not the ordinary sense of the focus verb. It remains anchored in the same focus root and converges with the object's lost support: speech that should help a fallen person rise is inverted into force that keeps an unsupported person down. Render only as a contained reversal, not as a replacement lexical gloss.",
+            "focus_anchor": "The focus verb at word 3 carries both severe thrusting and a formula addressed to a stumbler, while word 4 names someone without ordinary support.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B004",
+                "role": "Supplies a restorative cry to a stumbler and creates the help-to-rise pole of the reversal."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies actual rough thrusting and turns potential restoration into renewed downfall."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Supplies missing support and makes the failure to raise the fallen relationally exact."
+              }
+            ],
+            "changed_reading": {
+              "before": "The actor knocks or drives the orphan away.",
+              "after": "Exploratorily, the line stages anti-rescue: the verbal space that could tell the unsupported person to rise is converted into the force that makes rising harder."
+            }
+          },
+          {
+            "outlier_id": "o_refused_social_graft",
+            "confidence": "exploratory",
+            "containment": "The graft image is cross-domain and therefore surprising, but it remains anchored through the orphan's focus branch of isolated singleness and the focus verb's expulsion. The context branch contributes acceptance of union as the live counter-mechanism. Render as a botanical social analogy, never as the lexical meaning of feeding or thrusting here.",
+            "focus_anchor": "Force at focus word 3 preserves the solitary condition named by focus word 4 instead of allowing incorporation.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies the rejecting force that prevents incorporation."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Supplies isolated singleness and defines the social condition that a successful joining would change."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "Supplies a branch accepting a graft and models nourishment as successful union with a sustaining body."
+              }
+            ],
+            "changed_reading": {
+              "before": "The orphan is excluded from an encounter or portion.",
+              "after": "Exploratorily, the orphan is treated as a graft the social stock refuses to receive; expulsion preserves isolation by blocking nourishing union."
+            }
+          },
+          {
+            "outlier_id": "o_reputational_editing",
+            "confidence": "exploratory",
+            "containment": "The report and handsome-appearance images come from the non-dominant split mapping of the visibility root, so the mechanism is branch-distant. It remains worth carrying because context explicitly activates public display and the focus supplies spatial removal of an isolated person. Render as an exploratory account of narrative and visual curation, not as a claim that the context verb lexically means reporting or beautifying.",
+            "focus_anchor": "The focus action can remove a solitary witness or visible need from the actor's social field.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Supplies forceful removal and gives reputational editing a concrete spatial operation."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Supplies isolated singularity and makes the vulnerable person an easily omitted counter-image."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "Supplies transmission of a report and activates control over the story others receive."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B009",
+                "role": "Supplies attractive outward appearance and gives the edited report a polished visual aim."
+              }
+            ],
+            "changed_reading": {
+              "before": "The actor removes an unwanted person.",
+              "after": "Exploratorily, the actor removes the counter-story: visible need is expelled so a handsome public account of the self can circulate without contradiction."
+            }
+          },
+          {
+            "outlier_id": "o_packed_container_enclosure",
+            "confidence": "exploratory",
+            "containment": "The packed-container branch of the focus verb is materially remote, but it is focus-root anchored and becomes coherent beside livelihood, barriers, and aid. The reader-supplied arrow is that resource enclosure treats social space like a vessel packed by displacing a weak claimant. Render as a contained scarcity or accumulation analogy, not as a lexical substitution for the focus verb.",
+            "focus_anchor": "The focus root at word 3 includes agitation used to make a vessel take more, and its object at word 4 is marked by delayed care.",
+            "activation_trace": [
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B002",
+                "role": "Supplies shaking a container until it packs full and models accumulation through rearrangement and pressure."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B004",
+                "role": "Supplies delayed care and identifies who is displaced when accumulation takes priority."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Supplies livelihood and well-being as the material contents around which enclosure operates."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Supplies the barrier that keeps packed resources from crossing toward a claimant."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Supplies assistance as the excluded flow that would otherwise open the container outward."
+              }
+            ],
+            "changed_reading": {
+              "before": "The actor pushes away a person while separately retaining small goods.",
+              "after": "Exploratorily, person-removal and resource-retention form one packing logic: social space is compressed around possession, and delayed care is what gets shaken out."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus action became active re-severing: force repeats the orphan's prior loss of protection.",
+            "The opening context turned the shove into visible evidence and, separately, into enforcement of a discredited right or debt claim.",
+            "The next verse exposed asymmetric social force: strong propulsion expels need while no counter-force mobilizes nourishment toward it.",
+            "Prayer and public display recast expulsion as embodied falsification of mercy and as selective control of who remains visible.",
+            "The closing withholding roots revealed a durable aid barrier and an inversion in which protective strength guards resources from the unprotected person."
+          ],
+          "what_was_special": "The focus root's split inventory kept force, summons, and right-claim alive together rather than collapsing them. Context then activated distinct evidentiary, kinetic, ritual, visual, legal, and resource mechanisms. Remote but anchored branches also preserved anti-rescue, refused-graft, reputational-editing, and packed-container readings as qualified outliers.",
+          "remaining_uncertainties": [
+            "The summons and claim readings use the non-dominant split mapping of the focus root and should remain coexisting activations, not substitute glosses.",
+            "The report and attractive-appearance outlier uses the non-dominant split mapping of the visibility root and is materially more distant than the direct ostentation model.",
+            "The sequence supports but does not prove strict identity between the focus actor and every later prayer or display subject; type-level continuity remains possible.",
+            "Causal arrows from denied accountability to expulsion, from display to scene-clearing, and from resource enclosure to displacement are abductive rather than explicitly stated.",
+            "The stumbler, graft, and packed-container models are branch-grounded analogies whose value lies in changed reading, not lexical disambiguation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The orphan is physically and legally thrust away.** Evidence: `د ع ع B001` rough thrusting or forceful driving, `ي ت م B001` offspring cut from protecting parent; activated by `م ن ع B002` barrier between a person and what he seeks in 107:7. Structure: pushing comes early; explicit withholding comes last. Mechanism: the push is not only bodily harshness but the creation of a barrier between the orphan and due support. Abductive move: I supply the connection from physical force to social/legal exclusion; the packet supplies thrust, orphan-cutoff, and barrier branches. Reading change: يدع اليتيم reads as active displacement from protection, not merely rudeness.\n\n2. **Orphaning as intensified isolation.** Evidence: `ي ت م B002` isolated singleness/peerless separation, with `ي ت م B004` delay in care; activated by `س ك ن B003` household inhabitants and `م ع ن B006` dwelling/stopping-place. Structure: household/dwelling roots later define what the orphan lacks. Mechanism: the denier converts a child already cut off into a socially un-housed solitary figure. Abductive move: I infer that the later domestic lexicon casts the orphan as excluded from household circulation. Reading change: the ayah becomes about isolating the vulnerable from the house, not only pushing one child.\n\n3. **Resource-packing without mercy.** Evidence: `د ع ع B002` agitating a vessel until it fills; activated by `ط ع م B004` provision/livelihood and `م ع ن B005` small available benefit. Structure: the same root that can move a container toward fullness appears in an ayah about pushing away need. Mechanism: goods can be packed and retained while the dependent is driven off. Abductive move: I supply the economic inversion: movement that should help a vessel receive becomes social violence that keeps resources inside. Reading change: يدع becomes a pressure of hoarding as much as a shove.\n\n4. **Heedless shortfall around the orphan.** Evidence: `ي ت م B003` heedlessness/falling short and `ي ت م B004` delayed kindness; activated by `س ه و B001` heedlessness in 107:5. Structure: later “heedless of prayer” echoes a dormant orphan-root branch. Mechanism: ritual inattention and social delay are the same posture of missed attention. Abductive move: I infer a parallel between failure to attend to prayer and failure to attend to the orphan; the packet supplies both heedlessness branches. Reading change: the orphan ayah becomes an early sign of the later prayer-defect.",
@@ -9522,14 +10528,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9764,10 +10776,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 69022,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.690897+00:00",
+  "generated_at": "2026-08-18T13:34:31.497328+00:00",
   "surah": 104,
   "ayah": 2,
   "ayahRef": "104:2",
@@ -1363,7 +1363,8 @@
       "morpheme_ids": [
         "m-w-s104-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:2:1"
+      "aligned_qac_word_ref_upstream": "104:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1377,7 +1378,8 @@
       "morpheme_ids": [
         "m-w-s104-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:2:2"
+      "aligned_qac_word_ref_upstream": "104:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1391,7 +1393,8 @@
       "morpheme_ids": [
         "m-w-s104-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:2:3"
+      "aligned_qac_word_ref_upstream": "104:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1405,7 +1408,8 @@
       "morpheme_ids": [
         "m-w-s104-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:2:4"
+      "aligned_qac_word_ref_upstream": "104:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1421,7 +1425,8 @@
         "m-w-s104-a002-w004-02",
         "m-w-s104-a002-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "104:2:5"
+      "aligned_qac_word_ref_upstream": "104:2:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2576,7 +2581,1343 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:2",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-aggregation-ledger",
+            "confidence": "strong",
+            "focus_anchor": "The sequence جَمَعَ مَالًا وَعَدَّدَهُ makes wealth the product of one active operation and the pronominal object of a second.",
+            "mechanism": "Dispersed assets are consolidated into a possessed whole and then rendered repeatedly inspectable through enumeration; gathering makes the stock, while counting maintains cognitive and practical control over it.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The consolidation of scattered parts supplies the inward motion by which separate assets become one controlled stock."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquired and abundant property supplies the substance being consolidated and controlled."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration turns the collected stock into discrete, reviewable units and closes the control loop."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse merely identifies someone who has much money.",
+              "after": "The verse depicts an operation: he converts dispersed assets into a controlled whole and keeps that whole present to himself by tallying it."
+            }
+          },
+          {
+            "model_id": "baseline-contingency-stockpile",
+            "confidence": "medium",
+            "focus_anchor": "جَمَعَ and the intensive عَدَّدَ can be read prospectively around مَالًا, not only as a report of completed possession.",
+            "mechanism": "Gathering concentrates intention, wealth supplies stored means, and counting functions as preparing an inventory for a coming need. The hoard is therefore an imagined defense against contingency.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B003",
+                "role": "Concerted resolve supplies the purposeful planning that organizes the stockpile."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed wealth supplies the reserve through which the plan expects to meet future need."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Readied equipment and stores recast the tally as prospective provisioning rather than retrospective arithmetic."
+              }
+            ],
+            "changed_reading": {
+              "before": "He counts what he already owns.",
+              "after": "He inventories wealth as preparedness, treating stored means as protection against whatever may arrive."
+            }
+          },
+          {
+            "model_id": "baseline-totality-recurrence",
+            "confidence": "medium",
+            "focus_anchor": "The joined verbs around the same wealth-object permit counting to be a recurrent practice that preserves the collection's felt wholeness.",
+            "mechanism": "A desire for an intact total requires recurrent return to the ledger. Enumeration does not finish possession; it periodically renews the assurance that nothing has scattered or gone missing.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Intact wholeness supplies the desired state that the repeated audit tries to preserve."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The acquired stock gives the recurring assurance ritual a material object."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Counted time and recurrence make the tally a returning practice rather than a single completed act."
+              }
+            ],
+            "changed_reading": {
+              "before": "Counting confirms a stable quantity once.",
+              "after": "Counting is a recurring reassurance ritual by which the possessor repeatedly reconstructs the hoard as intact."
+            }
+          },
+          {
+            "model_id": "baseline-comparative-score",
+            "confidence": "exploratory",
+            "focus_anchor": "مَالًا is gathered and then counted in a construction that can make the total meaningful relative to other totals, not solely in isolation.",
+            "mechanism": "Wealth is assembled into a socially legible score: a collection becomes a count, and a count becomes a counterpart against which persons or shares can be compared.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "role": "An assembled group supplies the social field within which a total can acquire comparative force."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquired wealth supplies the measurable medium of distinction."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B006",
+                "role": "The counted counterpart turns quantity into a relation of comparison rather than a self-contained sum."
+              }
+            ],
+            "changed_reading": {
+              "before": "The total matters because it is large.",
+              "after": "The total matters because it can rank its possessor against others and make social difference numerically legible."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-social-ranking-machine",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The preceding universalized portrait of faulting and disparagement activates the comparative baseline: counted wealth becomes the score from which a person licenses a repeated social audit, finding defects and pushing others downward.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated property supplies the status-medium from which the subject evaluates others."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B006",
+                "role": "Counterpart comparison supplies the conversion from a private total to a relative social score."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Encompassing totality gives the hostile evaluation an indiscriminate scope."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B004",
+                "role": "Faulting and attacking people supplies the social use to which the wealth-score is put."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "A disparaging push supplies the downward vector produced by the ranking."
+              }
+            ],
+            "structural_cues": [
+              "The relative الَّذِي in 104:2 identifies the condemned type of 104:1 through the two wealth-actions.",
+              "The paired agent nouns in 104:1 make repetition in conduct salient before the intensive counting verb."
+            ],
+            "reader_inference": "The packet supplies totalizing disparagement, comparative counting, and wealth; I infer that the wealth-count is the metric enabling the social attack. A live alternative is that the two behaviors merely coexist as traits without a causal arrow.",
+            "changed_reading": {
+              "before": "Wealth is a score by which the possessor privately locates himself among peers.",
+              "after": "The ledger becomes a social ranking machine: it furnishes the superiority from which he repeatedly detects and presses down supposed defects in others."
+            }
+          },
+          {
+            "model_id": "delta-compression-economy",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The context's pressure and pushing images materialize a shared force: property is pressed inward into a concentrated holding, while the same possessive force travels outward as verbal or social jabbing.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Consolidating scattered parts supplies the inward compression of assets."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "Manual squeezing makes the gathering operation legible as pressure rather than neutral collection."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "Pushing redirects the same pressure outward onto other people."
+              }
+            ],
+            "structural_cues": [
+              "104:1 places two parallel forms of interpersonal attack immediately before the relative clause of accumulation."
+            ],
+            "reader_inference": "The packet supplies inward gathering, squeezing, and pushing; I supply the claim that one pressure-pattern links property practice to social conduct. The alternative is to keep the physical branch images unrelated to the surface social senses.",
+            "changed_reading": {
+              "before": "Gathering wealth is spatially neutral accumulation.",
+              "after": "Accumulation has a pressure signature: it compresses value inward and reappears as pressure exerted outward on people."
+            }
+          },
+          {
+            "model_id": "delta-arithmetic-produces-illusion",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س ب",
+              "م و ل",
+              "خ ل د"
+            ],
+            "mechanism": "The repeated wealth-object links tallying to reckoning, while the shift within ح س ب from calculation to supposition exposes a cognitive slide: a measurable total is silently promoted into evidence that wealth can cause enduring existence.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the apparently objective procedure from which certainty is generated."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Calculation echoes the focus tally and carries its arithmetic into the following cognition."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition marks the point where a count becomes an unproved belief."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The repeated wealth term keeps the same stock at the center of both arithmetic and belief."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Durable remaining supplies the impossible outcome inferred from finite property."
+              }
+            ],
+            "structural_cues": [
+              "The object pronouns in عَدَّدَهُ and مَالَهُ/أَخْلَدَهُ make a tight chain from tally to wealth to imagined effect.",
+              "104:3 follows the counting clause without an intervening scene."
+            ],
+            "reader_inference": "The packet supplies enumeration, the calculation/supposition branch pair, repeated wealth, and lasting; I infer a feedback arrow from repeated tally to causal conviction. The live alternative is that the belief in permanence is independent of the act of counting.",
+            "changed_reading": {
+              "before": "Counting records a quantity already possessed.",
+              "after": "Counting manufactures conviction: the clarity of the number is misread as proof that finite wealth can secure enduring life."
+            }
+          },
+          {
+            "model_id": "delta-contingency-becomes-self-sufficiency",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س ب",
+              "خ ل د"
+            ],
+            "mechanism": "The prepared reserve is no longer merely prudent provision. Activated by sufficiency and lasting attachment, it becomes an attempted substitute for dependence: enough stored means are imagined to answer even decay.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Prepared stores supply the baseline strategy of meeting future need in advance."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Sufficiency and enrichment turn preparedness into a claim of needing nothing beyond the reserve."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Durable remaining extends the imagined coverage of the reserve from ordinary need to mortality itself."
+              }
+            ],
+            "structural_cues": [
+              "The explicit causal syntax أَنَّ مَالَهُ أَخْلَدَهُ places wealth in the subject-position of the imagined effect."
+            ],
+            "reader_inference": "The packet supplies prepared stores, sufficiency, and lasting; I infer that provisioning has expanded into existential self-sufficiency. The alternative is a narrower wish for long reputation or long worldly security.",
+            "changed_reading": {
+              "before": "The stockpile is a practical buffer against foreseeable need.",
+              "after": "The stockpile is treated as exhaustive sufficiency, a reserve expected to answer the unforeseeable limit of death."
+            }
+          },
+          {
+            "model_id": "delta-gathering-reversed-into-fragmentation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "The focus's two control operations are reversed in order and agency: the gatherer is himself cast away, and the intact stock he tried to preserve is re-imaged through crushing and the debris of a passing world.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Gathering scattered parts supplies the constructive motion that the context overturns."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Intactness supplies the preserved state specifically undone by crushing."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Casting away reverses the gatherer's inward motion and turns the acting subject into a handled object."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking a dry thing into fragments reverses the focus's production of a collected whole."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "The debris of transient worldly goods projects the wealth itself toward its terminal material state."
+              }
+            ],
+            "structural_cues": [
+              "The emphatic passive لَيُنْبَذَنَّ changes the focus's active accumulator into the object of an external action.",
+              "فِي introduces a destination whose name is an intensive breaking image."
+            ],
+            "reader_inference": "The packet supplies gathering versus casting and intactness versus crushing; I infer a deliberate operation-by-operation reversal and extend the debris image to the hoard. The alternative is that only the person, not his wealth-practice, is reversed.",
+            "changed_reading": {
+              "before": "He gathers fragments into a durable, countable whole.",
+              "after": "His gathering already contains its counter-motion: the gatherer will be thrown, and the whole he secured is read forward as breakable debris."
+            }
+          },
+          {
+            "model_id": "delta-epistemic-counter-audit",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ر ي",
+              "ح ط م"
+            ],
+            "mechanism": "The ledger offers mastery by finite enumeration, but the interrogative appeal to knowledge opens an object that defeats that mastery. The one who makes wealth knowable by counting meets a crushing process whose identity must be disclosed from beyond his account.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the subject's model of knowledge as exhaustive inventory."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped knowledge branch supplies the explicit epistemic challenge to that inventory model."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Fragmentation supplies an object whose action undoes the stable units on which exhaustive counting depends."
+              }
+            ],
+            "structural_cues": [
+              "The repeated مَا in 104:5 suspends identification before naming the same crushing term again.",
+              "The formula addresses a limit of the addressee's unaided knowing immediately after the accumulator's self-assured reckoning."
+            ],
+            "reader_inference": "The packet supplies enumeration, explicit knowing, and fragmentation; I infer that the knowledge-question counter-audits the subject's faith in countability. The alternative is that the formula magnifies punishment without commenting on his epistemic habit.",
+            "changed_reading": {
+              "before": "To count is to make what matters fully knowable.",
+              "after": "The focus ledger becomes an epistemic foil: its finite mastery is confronted by a reality it cannot identify, bound, or neutralize through number."
+            }
+          },
+          {
+            "model_id": "delta-stockpile-becomes-fuel",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "و ق د"
+            ],
+            "mechanism": "The preparedness reading is materially inverted. What was assembled and inventoried as reserve is reclassified as combustible supply; accumulation does not starve the coming event but stocks what its fire consumes.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated property supplies the reserve whose function is reclassified."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Prepared stores supply the stockpile logic that makes the fuel reversal exact."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the consuming process opposed to preservation."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel material converts the idea of stored means into stored combustibility."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active ignition supplies the arrow by which reserve becomes expenditure."
+              }
+            ],
+            "structural_cues": [
+              "The nominal identification نَارُ اللَّهِ is followed by a passive participle of sustained ignition.",
+              "The fire specification immediately unfolds the previously named crusher."
+            ],
+            "reader_inference": "The packet supplies a prepared wealth-reserve, fire, fuel, and ignition; I infer that the hoard is analogically recoded as combustible inventory. The alternative is that wealth and fuel remain separate and only the person is consumed.",
+            "changed_reading": {
+              "before": "Counted wealth is stored capacity reserved against loss.",
+              "after": "The reserve is combustible capacity: every secured unit can be reread as another unit of fuel for the process meant to defeat security."
+            }
+          },
+          {
+            "model_id": "delta-ledger-as-liturgy",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "Repeated counting concentrates attention around wealth until the ledger resembles a private devotional practice. The divine attribution of the ignited fire then contests not merely an asset but the orientation of repeated reliance toward that asset.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed wealth supplies the object around which attention and reliance gather."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Timed recurrence supplies the repeated observance-like quality of the count."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and its object supply the category by which recurrent attention can be tested as ultimate orientation."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Ignition supplies the decisive displacement of the wealth-centered practice."
+              }
+            ],
+            "structural_cues": [
+              "The focus gives two successive acts to wealth, while 104:6 gives the fire an explicit divine attribution."
+            ],
+            "reader_inference": "The packet supplies recurrent counting, wealth, worship, and divinely attributed ignition; I infer a ritual analogy between repeated attention and devotion. A live alternative is a judicial contrast with no claim that counting itself has liturgical form.",
+            "changed_reading": {
+              "before": "Counting is an administrative habit directed at property.",
+              "after": "Counting can be carried as a private liturgy of reliance, with wealth functioning as the recurrent center that the later divine fire displaces."
+            }
+          },
+          {
+            "model_id": "delta-outward-ledger-inward-audit",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The direction of inspection reverses. The subject surveys external units and imagines control; the context supplies an exposing ascent that reaches the inner heart, making the counter-audit penetrate the auditor rather than his property.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the outward audit performed on discrete possessions."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Surveying and disclosure reverse who inspects whom and open what the ledger cannot see."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart conceived through internal ignition supplies the hidden interior reached by the counter-audit."
+              }
+            ],
+            "structural_cues": [
+              "The relative الَّتِي gives the fire an active penetrating predicate.",
+              "عَلَى moves the action onto the hearts after the focus subject acted upon wealth."
+            ],
+            "reader_inference": "The packet supplies external enumeration, disclosure/survey, and an inwardly heated heart; I infer an audit reversal from possessions to possessor. The alternative is purely spatial penetration without an epistemic answer to counting.",
+            "changed_reading": {
+              "before": "The subject is the knowing auditor and wealth is the inspected object.",
+              "after": "His ledger is answered by an inward audit: the apparent observer becomes the exposed object, and the uncounted center of valuation is reached."
+            }
+          },
+          {
+            "model_id": "delta-counting-as-appetite-loop",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "Recurrent tallying joins repeated looking and inward ignition. Each review intended to certify enough instead renews desire, so the count is a positive-feedback loop that makes the hoard psychologically unfinished.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the repeatedly viewed stimulus."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Recurrence supplies the repeated return through which desire can feed itself."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B008",
+                "role": "Aspiration and much looking convert visual review into renewed appetite."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "Internal ignition supplies the affective heat generated by the repeated gaze."
+              }
+            ],
+            "structural_cues": [
+              "The focus's intensive counting action and the context's imperfect penetrating action both resist a single completed event."
+            ],
+            "reader_inference": "The packet supplies recurrent count, acquisitive wealth, repeated looking/desire, and inward heat; I infer a feedback arrow in which checking renews wanting. The alternative is that the heart-fire is only punitive and says nothing about the psychology of counting.",
+            "changed_reading": {
+              "before": "Counting closes the account by confirming that the stock is enough.",
+              "after": "Every recount reopens the account: looking at the total reheats desire and makes possession feel incomplete."
+            }
+          },
+          {
+            "model_id": "delta-vault-becomes-prison",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ص د"
+            ],
+            "mechanism": "The split inventory supplies both sealed enclosure and, unusually, a stone cache for wealth. Those branches activate an inside-out reversal: gathering and counting build the conceptual vault, but the hoarder ends up on the inside of the security architecture.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Consolidation supplies the act of bringing valuables into one bounded holding."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Property supplies the content for which a secure cache would be built."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Inventory supplies the access-and-control practice associated with the imagined vault."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Complete closure supplies the terminal state in which exit and control are removed."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone wealth-cache branch makes the vault analogy materially specific rather than generic enclosure."
+              }
+            ],
+            "structural_cues": [
+              "عَلَيْهِم places the sealed condition over and around the plural objects.",
+              "The passive result-state مُؤْصَدَةٌ removes the accumulator's former agency over containment."
+            ],
+            "reader_inference": "The packet supplies gathered wealth, inventory, sealed enclosure, and a stone cache for wealth; I supply the inside-out arrow by which the protective vault becomes the possessor's prison. The live alternative is ordinary confinement with no echo of hoarding architecture.",
+            "changed_reading": {
+              "before": "Gathering and counting place wealth safely inside a controlled store.",
+              "after": "The focus actions prefigure a vault whose logic turns inside out: the architecture made to enclose wealth closes over the wealth-counter himself."
+            }
+          },
+          {
+            "model_id": "delta-ledger-builds-bars",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Discrete additions to the hoard become modular construction. Gathering joins units, counting supplies repeatable modules, and extended supports materialize that additive logic as an architecture of confinement.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining separate parts supplies the assembly operation from which a structure can be built."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Counted units supply repeatable modules for the imagined construction."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "Columns and supports give the accumulated modules an enclosing architectural form."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Drawing connected material out in length turns addition into extended bars or supports."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Continuous supplementation supplies the open-ended addition by which the structure keeps extending."
+              }
+            ],
+            "structural_cues": [
+              "The final prepositional phrase locates the enclosed subjects within plural supports qualified by extension.",
+              "The focus's serial verbs and the ending's noun-plus-adjective both stage assembly followed by expansion."
+            ],
+            "reader_inference": "The packet supplies joined parts, countable units, columns, lengthening, and supplementation; I infer that repeated accumulation builds the confinement module by module. The alternative is literal punishment architecture unrelated to the ledger's additive form.",
+            "changed_reading": {
+              "before": "Each counted unit adds to the owner's security.",
+              "after": "Each counted unit is also an imagined building unit: the additive ledger extends the bars of the enclosure it promised to prevent."
+            }
+          },
+          {
+            "model_id": "delta-hoard-dams-circulation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "A cross-domain hydraulic reading emerges: wealth is treated as a replenished flow, while gathering arrests that flow behind a deliberate obstruction. The count measures a reservoir produced by stopped circulation, not value newly created.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Collection from scattered sources supplies the convergence of a flow into one reservoir."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Property supplies the economic substance transferred into the hydraulic analogy."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B013",
+                "role": "Blocking a flood-channel supplies the obstruction that converts circulation into hoarded pressure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "Running water replenished by other water supplies the model of value sustained through circulation."
+              }
+            ],
+            "structural_cues": [
+              "The final pair combines a support-root with an extension-root, allowing both architectural and hydraulic mechanisms to coexist.",
+              "The focus moves from convergence to a repeated measure, the same sequence by which a reservoir becomes legible."
+            ],
+            "reader_inference": "The packet supplies collection, wealth, a dammed watercourse, and replenished running water; I transfer the flow relation to wealth and infer that hoarding interrupts circulation. The literal extended-column reading remains fully live and should not be merged with this analogy.",
+            "changed_reading": {
+              "before": "The hoard is simply more wealth brought under one ownership.",
+              "after": "The hoard is a dammed circulation: its impressive measured level may register how much flow has been arrested and how much pressure the obstruction creates."
+            }
+          },
+          {
+            "model_id": "delta-counted-time-counterfeits-lasting",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل د",
+              "م د د"
+            ],
+            "mechanism": "Recurrent counted intervals are joined to both imagined permanence and actual extension. This distinguishes duration from immortality: the ledger can keep adding finite terms, but endless addition only simulates the qualitative state the subject attributes to wealth.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Counted recurrence supplies the sequence of finite intervals that can feel indefinitely renewable."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Lasting without rapid decay supplies the qualitatively different state falsely inferred from the sequence."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "A lengthened term supplies real extension while preserving its finitude."
+              }
+            ],
+            "structural_cues": [
+              "The surah moves from repeated counting through a claim of lasting to a closing adjective of extension.",
+              "The indefinite مَالًا contrasts with the definite personal claim مَالَهُ and then with an extended terminal state."
+            ],
+            "reader_inference": "The packet supplies recurrent counted time, lasting, and an extended term; I infer that additive duration is being mistaken for permanence. The alternative is that the final extension concerns only spatial columns and does not reactivate time.",
+            "changed_reading": {
+              "before": "Recounting wealth reassures the subject that security can be renewed without limit.",
+              "after": "Recounting manufactures a counterfeit eternity by adding finite intervals; the later extension exposes duration as prolonged yet still imposed and bounded."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-clenched-palm-ledger",
+            "confidence": "exploratory",
+            "containment": "The bodily image is surprising because جَمَعَ does not lexically mean clenching here, yet the focus inventory explicitly supplies the gathered palm and the count remains directly anchored in عَدَّدَهُ. Carry this only as a tactile material analogy: the hoard is mentally reduced to graspable palmfuls, not as a replacement translation.",
+            "focus_anchor": "The adjacent gathering, wealth, and counting operations permit a bodily picture of possession as grasp plus tactile enumeration.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B005",
+                "role": "The closed palm supplies a bodily model of possession as gripping and containing."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Wealth supplies what the imagined grip tries to retain."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration breaks the mass into mentally handled units, like repeated palmfuls."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hoard is an abstract financial total.",
+              "after": "The hoard acquires a bodily posture: value is repeatedly gathered into an imagined fist and handled unit by unit."
+            }
+          },
+          {
+            "outlier_id": "outlier-spider-vault",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the rare م و ل inventory item is a spider term, and the web/trap relation is reader-supplied rather than stated. It remains anchored in the focus wealth-root and is sharpened by the later sealed enclosure; render it explicitly as an exploratory web analogy, never as the lexical meaning of مَالًا.",
+            "focus_anchor": "مَالًا is the gathered center of the focus clause, while the context later closes an enclosure over its possessors.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The rare spider branch supplies the living source for a web-like material analogy around wealth."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Drawing scattered material into one construction supplies the web's aggregating action."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Sealed closure converts the constructed network from shelter into trap."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth is inert material placed in a secure container.",
+              "after": "Exploratorily, wealth is a web-like construction: the possessor gathers it strand by strand until his own security-system closes as a trap."
+            }
+          },
+          {
+            "outlier_id": "outlier-spindle-whirlpool-ledger",
+            "confidence": "exploratory",
+            "containment": "The spinning and whirlpool images come from the dominant د ر ر target in a split mapping for أَدْرَىٰ, so they are deliberately form-distant and must not gloss the surface verb. They remain worth carrying because recurrent counting is a direct focus branch and the context packet explicitly preserves this mapped target; qualify the result as a kinetic analogy for a self-repeating ledger.",
+            "focus_anchor": "The recurrent branch of عَدَّدَهُ allows the count itself to be modeled as circular motion that fails to advance toward knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Timed recurrence supplies the repeated return of the counting cycle."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "A spindle's tightened rotation supplies an image of disciplined repetition that remains in place."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A water-whirlpool supplies the more dangerous alternative in which repeated motion draws the counter inward."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each recount advances knowledge by refreshing the total.",
+              "after": "The ledger can spin like a spindle or whirlpool: intense recurrence gives the sensation of disciplined motion while returning to the same point and drawing its user inward."
+            }
+          },
+          {
+            "outlier_id": "outlier-containerized-hoarder",
+            "confidence": "medium",
+            "containment": "The vessel image is surprising because it activates a specialized ن ب ذ branch rather than the ordinary act of casting, and the processor relation is abductive. It remains anchored by the focus's consolidation operation, the passive casting into فِي, and the crusher's consuming branch; render it as a contained material reversal, not a literal claim about a beverage vessel.",
+            "focus_anchor": "The one who gathers wealth into a bounded stock is later passively cast into a bounded destination.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Consolidation supplies the focus subject's original act of placing many items into one holding."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B006",
+                "role": "Material cast into a vessel supplies the reversal in which the accumulator becomes deposited content."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "A consuming, digesting force supplies the vessel's function as processor rather than store."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject is the container-maker who deposits and inventories valuables.",
+              "after": "The agency inverts: he becomes the deposited item inside a consuming processor, handled as completely as he handled his stock."
+            }
+          },
+          {
+            "outlier_id": "outlier-count-without-stopping-number",
+            "confidence": "exploratory",
+            "containment": "The overshooting projectile is remote from the surface sense of تَطَّلِعُ, but it is a packet branch and it couples visibly to the focus's preparedness and tally. Preserve it only as a diagnostic analogy: no attained number can function as the target that finally ends accumulation.",
+            "focus_anchor": "عَدَّدَهُ can make the desired total into a moving target because every achieved inventory permits another increment.",
+            "activation_trace": [
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Prepared stores supply the initial finite target of having enough for what may come."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B010",
+                "role": "A projectile rising beyond its target supplies the image of accumulation passing every proposed sufficiency threshold."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B008",
+                "role": "Aspiration and repeated looking explain why the target moves after each count reaches it."
+              }
+            ],
+            "changed_reading": {
+              "before": "Counting measures progress toward a determinate amount of security.",
+              "after": "Counting abolishes the stopping number: each reached target is overshot because the act of checking generates a farther target."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Enumeration becomes a cognitive engine that converts exact quantity into the unsupported belief that wealth causes lasting.",
+            "The focus operations undergo paired reversals: gathering becomes casting, intactness becomes crushing, and reserve becomes fuel.",
+            "The split و ص د inventory makes the wealth-vault turn into the possessor's sealed prison.",
+            "The outward audit of possessions is answered by an inward exposure of the heart.",
+            "The final support and extension branches preserve both an architectural reading in which counted units build bars and a hydraulic reading in which hoarding dams circulation."
+          ],
+          "what_was_special": "The focus is not only a portrait of greed but a compact machine whose own operations are re-used against it. Gathering, inventory, preparedness, comparison, recurrence, and enclosure remain simultaneous readings; context successively turns those same operations into social pressure, false inference, fragmentation, combustion, inward audit, and self-built confinement. The most packet-specific surprise is the non-dominant stone wealth-cache branch under و ص د, which makes the vault-to-prison inversion unusually exact.",
+          "remaining_uncertainties": [
+            "The causal arrow from counting wealth to disparaging people is coherent but the context can also present independent traits of one person.",
+            "عَدَّدَهُ supports enumeration most directly; preparedness, recurrence, and counterpart comparison are live branch activations rather than exclusive lexical resolutions.",
+            "The hydraulic circulation model is cross-domain and must coexist with the more immediate extended-column architecture.",
+            "Spider, vessel, spindle, whirlpool, and overshooting images are valid packet activations but remain deliberately contained material analogies, not proposed surface translations.",
+            "The temporal reading of مُمَدَّدَةٍ remains live beside its spatial modification of عَمَدٍ and should not displace it."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Hoarded parts become prison-architecture.** Evidence: `ج م ع B001` (gathering scattered parts into one whole), `م و ل B001` (wealth/property), and `ع د د B001` (enumerating), activated by `ع م د B003` and `م د د B001` in 104:9. Structural cue: gathered and counted units precede extended structural units. Assigned role: gathering/counting turns wealth into an ordered aggregate. Abductive move: what the hoarder assembles for possession can be reassembled by the text as the material logic of confinement. Reading change: the ayah is not only about accumulation; it begins constructing the later prison out of counted units.\n\n2. **Counting as preparation against a coming need.** Evidence: `ع د د B002` (preparing equipment, stores, wealth, arms) alongside `م و ل B001`, activated by `خ ل د B001` in 104:3 and `م د د B004` in 104:9. Structural cue: \"collected and counted it\" is followed immediately by the thought that wealth has made him endure. Assigned role: counting functions as readiness for future vulnerability. Abductive move: he counts because he imagines a stored reserve can answer time, death, or exposure. Reading change: the ayah reads as anxious provisioning, not mere greed.\n\n3. **The clenched hand behind wealth and insult.** Evidence: `ج م ع B005` (clenched hollow of the hand), activated by `ه م ز B001` (pressing/squeezing) and `ن ب ذ B001` (casting from the hand). Structural cue: bodily pressure links speech, gathering, and later throwing. Assigned role: the hand-image turns accumulation into grip. Abductive move: the same contracted posture that holds wealth also presses others and will finally be forced open in casting. Reading change: collecting money becomes a bodily stance of contraction.\n\n4. **Restraint latent inside accumulation.** Evidence: `ج م ع B008` (restraint gathering hands to neck), activated by `و ص د B001` and `ع م د B003`. Structural cue: gathered possession moves toward immobilizing enclosure. Assigned role: جمع supplies the hidden shackle-image inside collection. Abductive move: when possession becomes the organizing principle, gathered things also gather the possessor into bonds. Reading change: the wealth is already a restraint before explicit punishment arrives.",
@@ -9821,14 +11162,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10125,10 +11472,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 14,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 84028,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

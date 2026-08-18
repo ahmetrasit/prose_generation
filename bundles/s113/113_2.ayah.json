@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.613624+00:00",
+  "generated_at": "2026-08-18T13:34:43.411222+00:00",
   "surah": 113,
   "ayah": 2,
   "ayahRef": "113:2",
@@ -1327,7 +1327,8 @@
       "morpheme_ids": [
         "m-w-s113-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:2:1"
+      "aligned_qac_word_ref_upstream": "113:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1341,7 +1342,8 @@
       "morpheme_ids": [
         "m-w-s113-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:2:2"
+      "aligned_qac_word_ref_upstream": "113:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1355,7 +1357,8 @@
       "morpheme_ids": [
         "m-w-s113-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:2:3"
+      "aligned_qac_word_ref_upstream": "113:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1369,7 +1372,8 @@
       "morpheme_ids": [
         "m-w-s113-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:2:4"
+      "aligned_qac_word_ref_upstream": "113:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1764,7 +1768,958 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s113/packets/113_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "113:2",
+      "window": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "113:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_originated_agency",
+            "confidence": "strong",
+            "focus_anchor": "The genitive construction in مِن شَرِّ مَا خَلَقَ joins شَرّ to the open relative مَا and the act خَلَقَ.",
+            "mechanism": "Evil is a harmful agency, effect, or relation arising within the open class of originated things; createdness itself is not equated with evil.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness supply the literal harmful pole attached by the genitive."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Originating and bringing into being supplies the unrestricted domain within which harmful agents or effects can arise."
+              }
+            ],
+            "changed_reading": {
+              "before": "A request for protection from evil in the abstract.",
+              "after": "A request concerning harmful agency or effects anywhere within originated reality, without declaring originated reality itself evil."
+            }
+          },
+          {
+            "model_id": "b_apportioned_vulnerability",
+            "confidence": "medium",
+            "focus_anchor": "خَلَقَ can activate measuring and proportioning, while شَرِّ names the adverse result related to what is proportioned.",
+            "mechanism": "A made arrangement has limits, interfaces, and affordances. Harm can therefore belong relationally to a creature's proportion or configuration rather than to a separately existing evil substance.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness name the adverse outcome whose location in a made arrangement is being tested."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies configuration, making limits and affordances the possible site of harm."
+              }
+            ],
+            "changed_reading": {
+              "before": "Some created objects are simply harmful objects.",
+              "after": "Created configurations can carry vulnerabilities: harm may emerge from how proportions, capacities, and surroundings meet."
+            }
+          },
+          {
+            "model_id": "b_inward_disposition",
+            "confidence": "medium",
+            "focus_anchor": "The root of خَلَقَ includes inner character as well as visible making, so مَا خَلَقَ can include disposition-bearing creatures.",
+            "mechanism": "The source of harm need not be an external object. A created being can mediate harm through an inward disposition that becomes socially effective.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness identify the adverse direction an inward disposition may take."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inner disposition and character move the focus from visible products to the latent character of created persons."
+              }
+            ],
+            "changed_reading": {
+              "before": "The danger lies outside the speaker in visibly created things.",
+              "after": "The open relative also covers inward traits carried by creatures, before context identifies when such a trait becomes harmful."
+            }
+          },
+          {
+            "model_id": "b_fabricated_speech_harm",
+            "confidence": "exploratory",
+            "focus_anchor": "The branch inventory of خَلَقَ includes fabricated false speech, and the inventory of شَرّ includes quarrelling.",
+            "mechanism": "What is 'made' can be discourse: a forged report, attribution, or story can generate conflict and become a created vehicle of harm.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness keep the discourse model anchored in the focus noun's direct adverse sense."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B011",
+                "role": "Quarrelling supplies the social effect through which a fabrication can become harmful."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Fabricating false speech supplies a non-material product that still falls under made harmful things."
+              }
+            ],
+            "changed_reading": {
+              "before": "What is created means only beings or material objects.",
+              "after": "The phrase can also contain manufactured discourse whose false attribution produces conflict."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_spoken_refuge_bounds_threat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ"
+            ],
+            "mechanism": "The focus clause becomes part of an enacted utterance of refuge. Saying externalizes and delimits the otherwise indefinite threat, while refuge relocates the speaker into a protective relation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness provide the threat that the utterance names and bounds."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Originated things keep the threat class open even as the speech act gives it a relation and boundary."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced utterance makes the focus clause a performed appeal rather than detached description."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Speech as a thing's definition supplies the bounding function applied to the indefinite مَا."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Resort and protective attachment supply the new relation into which the spoken naming places the speaker."
+              }
+            ],
+            "structural_cues": [
+              "The imperative قُلْ governs the first-person refuge formula rather than merely introducing information.",
+              "The preposition مِنْ makes the focus clause the adverse source relative to which refuge is enacted."
+            ],
+            "reader_inference": "The packet supplies voiced saying, definition, and protective resort; I infer that articulation bounds the threat and performs a relocation, while a live alternative is that قُلْ only commands recital.",
+            "changed_reading": {
+              "before": "The verse reports a category of created evil.",
+              "after": "The verse is one move in a speech act that names an unbounded threat class while placing the speaker in a bounded protective relation to it."
+            }
+          },
+          {
+            "model_id": "d_reopened_created_order",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ف ل ق"
+            ],
+            "mechanism": "The one addressed is associated both with repair toward completion and with opening what is closed. Harm in a proportioned creation is therefore local and reconfigurable, not the final identity of the created order.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness remain the local adverse condition from which repair is sought."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply the made configuration that can contain a vulnerability."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply a counter-process able to continue work on a vulnerable configuration."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Splitting and opening supply the possibility that an apparently closed harmful state can be breached."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B003",
+                "role": "Bringing creation out through splitting directly couples opening with a renewed phase of created form."
+              }
+            ],
+            "structural_cues": [
+              "The construct رَبِّ ٱلْفَلَقِ joins sustaining agency to an opening process immediately before the focus clause.",
+              "The focus genitive relates evil to what is made without making evil coextensive with making."
+            ],
+            "reader_inference": "The packet supplies repair, completion, opening, and emergence of creation; I infer that these can counter or reconfigure harm, while the live alternative is that الفلق only identifies the refuge-giver by dawn.",
+            "changed_reading": {
+              "before": "A harmful created configuration is a fixed fact to escape.",
+              "after": "Its harm is a local state within an order that its sustaining Lord can reopen, repair, and carry toward another completion."
+            }
+          },
+          {
+            "model_id": "d_state_triggered_ingress",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ر",
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "The general relation in 113:2 is instantiated as a timed transition: darkness enters and something goes into a recess until concealed. Harm is activated by a creature or condition entering a particular state, not continuously identical with its bearer.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness provide the broad focus relation that the next verse turns into an episode."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Originated reality supplies the bearer or setting whose harmful state is temporally activated."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The repeated evil-and-badness branch explicitly instantiates the focus category in a contextual case."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Night's darkness and entry supply the onset phase rather than a permanently harmful substance."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into a hidden recess until disappearance supplies the directional transition that makes the condition operative."
+              }
+            ],
+            "structural_cues": [
+              "وَمِن شَرِّ repeats the focus relation as a reusable frame.",
+              "إِذَا places danger at an occurrence or transition, distinguishing a bearer from the moment its harm becomes active."
+            ],
+            "reader_inference": "The packet supplies darkness entering and entry into concealment; I infer that their conjunction activates harm, while the live alternative is a direct warning about nightfall with no general state model.",
+            "changed_reading": {
+              "before": "Created things divide stably into harmful and harmless kinds.",
+              "after": "A created bearer may become dangerous at a threshold of ingress, concealment, or changed condition; evil is episodic and relational."
+            }
+          },
+          {
+            "model_id": "d_receptacle_flow_topology",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "Flow coupled to a cavity yields collection, conduction, and concealment. The harm of 'what He created' can thus be read through the topology of created receivers and channels, not only through named hostile agents.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness identify the adverse result of the proposed flow-and-receptacle coupling."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B011",
+                "role": "A water-holding rock hollow or new well supplies a focus-root image of created receptivity."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing and pouring supply the mobile input that a receptacle can channel or accumulate."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B001",
+                "role": "A pit in which something disappears supplies the concealed receiving geometry."
+              }
+            ],
+            "structural_cues": [
+              "The sequence names a darkening bearer and then its ingress, supporting a source-to-receiver path.",
+              "The conditional إِذَا highlights occupation of the receiving space as an event."
+            ],
+            "reader_inference": "The packet supplies flow and two cavity images; I supply the causal arrow that a flow entering a receptacle can accumulate or hide harm, while the live alternative keeps the images independent and nocturnal.",
+            "changed_reading": {
+              "before": "The phrase concerns a list of dangerous created entities.",
+              "after": "It can also concern created affordances: channels, hollows, and thresholds through which an otherwise diffuse danger is gathered and concealed."
+            }
+          },
+          {
+            "model_id": "d_microinput_bound_into_persistence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "A minute emission is coupled to a binding structure. Harm need not scale with the size of its input; repeated small inputs can gain persistence or leverage when organized by ties and enclosures.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness keep the amplification model tied to the direct sense of the focus noun."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B009",
+                "role": "A gnat-like nuisance covering the face without biting supplies a focus-root image of disproportionate effect from a slight agent."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply the organized configuration through which a small input can acquire leverage."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "A mouth emission with little saliva supplies the physically minute input."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "Tying endpoints supplies the structure that retains, organizes, or transmits the small input."
+              }
+            ],
+            "structural_cues": [
+              "The intensive plural نَفَّاثَات and plural عُقَد permit repeated emissions distributed across multiple bindings.",
+              "The preposition فِي places the operation within the binding structure."
+            ],
+            "reader_inference": "The packet supplies slight oral moisture, tied endpoints, and measured arrangement; I infer that binding stores or amplifies the input, while a live alternative is a ritual action with no general amplification mechanism.",
+            "changed_reading": {
+              "before": "Created evil is proportionate to the obvious size or force of a harmful agent.",
+              "after": "The danger may be systemic: tiny inputs become durable or effective through repetition and created organization."
+            }
+          },
+          {
+            "model_id": "d_fabrication_knotted_into_social_force",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ل",
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "The focus-root fabrication branch is activated across context as false saying emitted from the mouth and then made durable through knotted speech, obligation, or covenant. Harm is manufactured discourse acquiring social force.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B011",
+                "role": "Quarrelling supplies the social damage that bound fabrication can produce."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Fabricated false speech supplies the made object at the center of this non-material reading."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying what did not exist or falsely attributing it supplies the contextual speech act that generates fabrication."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "Emission from the mouth supplies the material analogy for putting fabricated speech into circulation."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B007",
+                "role": "A knot or impediment in speech supplies the linguistic binding that makes discourse opaque and difficult to undo."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B002",
+                "role": "Binding and ratifying a covenant supplies the social mechanism by which uttered claims acquire durable obligation."
+              }
+            ],
+            "structural_cues": [
+              "The opening command to speak and the later mouth-oriented emission place voiced production at both ends of the context.",
+              "The open مَا in the focus can contain made discourse as well as material products."
+            ],
+            "reader_inference": "The packet supplies false attribution, mouth emission, knotted speech, and binding covenant; I infer a path from fabrication to circulation to social durability, while the live alternative keeps the blowing and knots wholly material or ritual.",
+            "changed_reading": {
+              "before": "Fabricated speech is merely one unusual item among made harms.",
+              "after": "Its mechanism becomes visible: false claims are emitted, made opaque, and bound into obligations or relations that let them produce conflict."
+            }
+          },
+          {
+            "model_id": "d_disposition_crosses_into_deprivation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "The contrast between wishing away another's blessing and admiring it without removal, combined with the conditional repetition of the same root, marks a threshold. A created disposition or capacity is not itself continuously evil; it becomes harmful when comparison turns toward deprivation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness name the adverse side of the threshold rather than every instance of comparison."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inner disposition and character supply the latent trait whose activation the context distinguishes."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Wishing for another's blessing to disappear supplies the deprivation-oriented state that crosses into harm."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Admiration without removal supplies the live neighboring state that prevents all desire or comparison from being classified as evil."
+              }
+            ],
+            "structural_cues": [
+              "The participle حَاسِدٍ names a bearer, while إِذَا حَسَدَ marks the occurrence of the root's action.",
+              "The conditional separates capacity or identity from the moment of harmful enactment."
+            ],
+            "reader_inference": "The packet supplies two morally distinct branches and a bearer-when-action construction; I infer a transition from comparison to deprivation, while the live alternative treats the repetition only as emphasis.",
+            "changed_reading": {
+              "before": "A creature with an envious disposition is intrinsically and continuously the evil named in 113:2.",
+              "after": "The danger is the activated relation: comparison crosses into harm when it seeks subtraction from another, while non-removing admiration remains distinct."
+            }
+          },
+          {
+            "model_id": "d_zero_sum_exchange_of_blessing",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "The non-dominant split inventory for شَرّ introduces exchange and equivalence. In contact with the two envy branches, neutral matching becomes harmful when another's blessing is imagined as a zero-sum exchange requiring its removal.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange through buying and selling supplies the transactional frame imposed on another's blessing."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Equivalence and matching supply the initially neutral act of comparing one share with another."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete visible form supplies the perceivable created difference that becomes an object of comparison."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Wishing away another's blessing converts comparison into a subtractive transaction."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Admiration without removal preserves the non-zero-sum alternative against which the harmful conversion is visible."
+              }
+            ],
+            "structural_cues": [
+              "The same root appears as bearer and action around إِذَا, locating the conversion at an enacted moment.",
+              "The focus relative مَا leaves created differences and distributions open as objects of social comparison."
+            ],
+            "reader_inference": "The packet supplies exchange, equivalence, removal-envy, and non-removing admiration; I infer the zero-sum arrow, while the live alternative is that the non-dominant mapped root is only a form-distant lexical neighbor.",
+            "changed_reading": {
+              "before": "Envy is an isolated hostile feeling toward a created good.",
+              "after": "One possible mechanism is a false economy of creation: equivalence is recoded as exchange, so another's good is treated as obtainable only through the other's loss."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_wear_fragmentation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it couples remote material branches rather than translating the surface phrase. It remains anchored in both focus roots and yields a coherent failure mechanism; downstream prose should mark it as a material analogy for degradation, not as the lexical sense of the ayah.",
+            "focus_anchor": "The focus roots themselves contain worn fabric and shredding or shaking-loose images.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B004",
+                "role": "Shredding, splitting, and shaking loose supply the harmful fragments or failure products."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B009",
+                "role": "Fabric worn smooth, threadbare, or torn by use supplies the process by which a made thing degrades."
+              }
+            ],
+            "changed_reading": {
+              "before": "Harm comes only from an intact created agent acting as designed.",
+              "after": "Created things may also become harmful through wear: use loosens, fragments, and converts formed matter into adverse by-products."
+            }
+          },
+          {
+            "outlier_id": "o_harm_as_disclosure",
+            "confidence": "exploratory",
+            "containment": "The manifestation branch of ش ر ر is form-distant from the focus noun, so this cannot replace its direct evil sense. It remains worth carrying because dawn, opening, and creation-emerging-from-splitting converge on disclosure; render it only as an exploratory model of latent harm becoming visible.",
+            "focus_anchor": "شَرِّ supplies a branch of bringing out, while خَلَقَ supplies what has been originated; the adjacent الفلق inventory supplies opening and disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Showing or bringing something out supplies manifestation as the phase in which latent harm becomes encounterable."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Originating and bringing into being supply the created substrate from which a latent possibility can emerge."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Splitting and opening supply the transition from enclosure to exposure."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B002",
+                "role": "Dawn's breaking and clarification supply visibility after the opening."
+              }
+            ],
+            "changed_reading": {
+              "before": "Evil is a static ingredient already obvious in a created thing.",
+              "after": "A latent adverse potential may become 'evil' in experience at the phase when opening or changed conditions disclose it."
+            }
+          },
+          {
+            "outlier_id": "o_recursive_escalation",
+            "confidence": "exploratory",
+            "containment": "This reading depends on the non-dominant ش ر ي target and on repetition across verses, so it is unsuitable as a direct gloss. It stays anchored through the packet's explicit split mapping and the repeated focus construction; downstream prose should qualify it as a process analogy for cumulative activation.",
+            "focus_anchor": "The focus شَرِّ maps to a branch of agitation, persistence, rushing, and escalation, then the same surface root recurs in three contextual frames.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "Agitation, persistence, rushing, and escalation supply a dynamic alternative to a static evil category."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "The first contextual recurrence makes the dynamic branch an episode tied to ingress."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "The second recurrence extends escalation to repeated emission and binding."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B008",
+                "role": "The third recurrence extends escalation to a disposition becoming active under إِذَا."
+              }
+            ],
+            "changed_reading": {
+              "before": "113:2 names one undifferentiated stock of evil.",
+              "after": "It can function as a recursive template for harms that gather force through ingress, repetition, binding, and enacted persistence."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The broad focus category becomes state-dependent: a created bearer is distinguished from the threshold at which its harm enters, binds, or is enacted.",
+            "Repair and opening keep evil local to vulnerable configurations rather than identical with the created order.",
+            "Minute emissions joined to binding structures reveal an amplification mechanism in which organization matters more than input size.",
+            "The two envy branches separate inward capacity and non-removing admiration from the deprivation-oriented action that crosses into harm.",
+            "Fabricated speech remains a coexisting non-material reading: made words can acquire force through emission, opacity, covenant, and conflict."
+          ],
+          "what_was_special": "Material and social mechanisms coexisted without collapse. Cavities, flows, knots, wear, utterance, character, and exchange all remained anchored in 113:2, and the non-dominant ش ر ي mapping was retained where it generated inspectable escalation and zero-sum comparison rather than being silently discarded.",
+          "remaining_uncertainties": [
+            "Whether مَا foregrounds created entities, the act of creating, or a deliberately open relation among both.",
+            "How far the form-distant material branches should shape prose beyond serving as diagnostic analogies.",
+            "Whether voiced refuge causally bounds the threat or simply performs commanded recital.",
+            "Whether إِذَا marks a general activation threshold or only the ordinary occurrence of each named danger."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Createdness as exposed emergence.** Evidence: `ش ر ر B001` evil/badness; `خ ل ق B002` originating and bringing into being and `خ ل ق B003` complete formed shape; activated by `ف ل ق B003` bringing creation out through splitting and `ر ب ب B002` nurture/completion. Mechanism: creation and cleaving share an emergence pattern: something measured or formed comes out and becomes visible. I infer that exposure itself creates vulnerability to harm. Reading change: `مَا خَلَقَ` is not a blanket suspicion of existence; it marks the total exposed field of formed things within which harm can arise.\n\n2. **Evil as inner disposition becoming social action.** Evidence: `خ ل ق B004` inner disposition and character; `ش ر ر B001` evil/badness; activated by `ح س د B001` wishing removal of another's blessing, `ع ق د B006/B012` fixed conviction and knotted anger, and `ق و ل B007/B005` circulating report and false attribution. Mechanism: the packet moves from general createdness to concrete hostile agents: envier, knotted intention, and damaging speech. I infer that a created thing's harm can be its moral texture, not only its physical existence. Reading change: `مَا خَلَقَ` includes created characters and social dispositions that become harmful.\n\n3. **Manufactured media of harm.** Evidence: `خ ل ق B001` measuring/proportioning before cutting or doing, `خ ل ق B008` smooth/leveled surfaces, and `ش ر ر B004` shredding/cutting loose; activated by `ع ق د B001/B013` physical and magic knots, `ن ف ث B001` breath-spittle into knots, and `و ق ب B001` apertures/hollows. Mechanism: the packet's later harms are not only persons but worked media: knots, surfaces, openings, breath, and possibly prepared objects. I infer that `created` can include things apportioned, handled, and repurposed as channels of injury. Reading change: the ayah becomes a broad prelude to harm mediated through crafted or manipulated forms.\n\n4. **Evil as spark and spread.** Evidence: `ش ر ر B003` flying sparks of fire and `ش ر ر B002` spreading something in the sun; activated by `غ س ق B001` night darkness, `ف ل ق B002` dawn split, and `ق و ل B007` circulating talk. Mechanism: the root inventory lets `شر` carry images of tiny flying fragments and spreading surfaces, while the surah later gives hidden darkness and social circulation. I infer that harm can spread by small emissions rather than by a single large force. Reading change: `شَرِّ` becomes an image of diffusive, spark-like damage as well as moral evil.",
@@ -11998,14 +12953,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s113/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 37,
+        "ayah_count": 5,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12100,10 +13061,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s113/packets/113_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s113/readers/reader_hft_a/113_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s113"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s113",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 81869,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

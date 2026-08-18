@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:15.596872+00:00",
+  "generated_at": "2026-08-18T13:34:18.632477+00:00",
   "surah": 96,
   "ayah": 12,
   "ayahRef": "96:12",
@@ -1124,7 +1124,8 @@
       "morpheme_ids": [
         "m-w-s096-a012-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "96:12:1"
+      "aligned_qac_word_ref_upstream": "96:12:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1138,7 +1139,8 @@
       "morpheme_ids": [
         "m-w-s096-a012-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "96:12:2"
+      "aligned_qac_word_ref_upstream": "96:12:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1156,7 +1158,8 @@
         "m-w-s096-a012-w003-02",
         "m-w-s096-a012-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "96:12:3"
+      "aligned_qac_word_ref_upstream": "96:12:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2419,7 +2422,1276 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s96/packets/96_12.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "96:12",
+      "window": [
+        "96:1",
+        "96:2",
+        "96:3",
+        "96:4",
+        "96:5",
+        "96:6",
+        "96:7",
+        "96:8",
+        "96:9",
+        "96:10",
+        "96:11",
+        "96:12",
+        "96:13",
+        "96:14",
+        "96:15",
+        "96:16",
+        "96:17",
+        "96:18",
+        "96:19"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": [
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط غ ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000937",
+              "furuq_root_norm": "ط غ ي",
+              "furuq_source_root_norm": "ط غ ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 13,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000936",
+              "furuq_root_norm": "ط غ و",
+              "furuq_source_root_norm": "ط غ و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 77,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 22,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ن د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001487",
+              "furuq_root_norm": "ن د ي",
+              "furuq_source_root_norm": "ن د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 33,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001486",
+              "furuq_root_norm": "ن د و",
+              "furuq_source_root_norm": "ن د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001563",
+              "furuq_root_norm": "ن و د",
+              "furuq_source_root_norm": "ن و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط و ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000956",
+              "furuq_root_norm": "ط و ع",
+              "furuq_source_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 96,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000706",
+              "furuq_root_norm": "س ط ع",
+              "furuq_source_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "96:12",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_directive_as_self_protection",
+            "confidence": "strong",
+            "focus_anchor": "The verb أَمَرَ and the governed noun تَّقْوَىٰ.",
+            "mechanism": "A directive transfers an obligation to the hearer, while taqwa names the hearer's active placement of the self behind a guard. The construction therefore joins outward speech to inward risk regulation.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The command-or-directive image supplies an obligating speech act and functions as the initiating force of the mechanism."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The image of placing oneself in protective caution supplies the commanded content and locates its work inside the hearer's conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or enjoined piety.",
+              "after": "Or issued a directive by which the hearer actively places the self under protective caution."
+            }
+          },
+          {
+            "model_id": "baseline_authority_measured_by_shelter",
+            "confidence": "medium",
+            "focus_anchor": "The authority potential of أَمَرَ is constrained by the protective object تَّقْوَىٰ.",
+            "mechanism": "The command root can activate office and command-holding, but the object prevents authority from being self-validating: its legitimate tendency here is to ward harm away. Authority is read functionally, by what it shelters.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B003",
+                "role": "The authority-and-command-holder image supplies a vertical social relation whose legitimacy is being tested."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies shelter from damage and functions as the criterion imposed on authority."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or exercised the power to command.",
+              "after": "Or exercised command in a way whose defining result was protection rather than domination."
+            }
+          },
+          {
+            "model_id": "baseline_deliberated_guarding",
+            "confidence": "exploratory",
+            "focus_anchor": "The deliberative branch of أَمَرَ and the reflexive guarding carried by تَّقْوَىٰ.",
+            "mechanism": "The utterance can faintly activate counsel, inward consultation, and formed intent alongside ordinary command. On that branch, taqwa is not merely imposed from outside; it is a protective resolve considered and accepted.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B007",
+                "role": "The consultation-and-deliberation image supplies considered intent and functions as an inward echo of the outward command."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-guarding image gives the deliberation a concrete behavioral end: voluntarily taking protective caution."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or told another person to be wary.",
+              "after": "Or formed and transmitted a considered resolve toward self-guarding."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_recitation_to_protective_formation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ء",
+              "ر ب ب",
+              "ع ل م",
+              "ق ل م"
+            ],
+            "mechanism": "The opening sequence turns the focus command into the culmination of a formative process: material is gathered and recited, a lord nurtures it toward completion, knowledge is disclosed, and a prepared writing tool transmits it. Commanding taqwa is thus pedagogical formation of a protective capacity, not a detached order.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image remains the focus speech act but now functions as one stage in an instructional process."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-protective caution image supplies the disposition that the instructional process is inferred to form."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "The reading-and-recitation image supplies repeated vocal transmission and functions as the first formative channel."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The nurture-repair-completion image supplies sustained formation and makes the command developmental rather than merely coercive."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The disclosure-to-a-knower image supplies cognitive unveiling and functions as the command's epistemic preparation."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ق ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001252",
+                "branch_id": "B003",
+                "role": "The pared writing-stick image supplies durable inscription and functions as a material carrier of instruction."
+              }
+            ],
+            "structural_cues": [
+              "The repeated imperative to read in 96:1 and 96:3 precedes the teaching sequence of 96:4-5.",
+              "The focus clause is grammatically short but arrives after creation, nurture, and teaching have accumulated."
+            ],
+            "reader_inference": "The packet supplies recitation, nurture, disclosure, writing, command, and self-guarding; I supply the arrow that treats them as a formation pipeline culminating in protective conduct. A live alternative is that the opening pedagogy and the focus command remain parallel rather than causally staged.",
+            "changed_reading": {
+              "before": "Or gave an isolated moral command.",
+              "after": "Or completed a process of recitation and teaching by forming the hearer into protective self-governance."
+            }
+          },
+          {
+            "model_id": "delta_cultivated_protection",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب",
+              "خ ل ق",
+              "ك ر م"
+            ],
+            "mechanism": "Growth, measured formation, and good vegetation activate a cultivation model inside the focus roots: command tends a capacity until it flourishes, while taqwa protects that growth. Restraint and increase become mutually enabling rather than opposed.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B004",
+                "role": "The growth-and-blessing image supplies increase within the command root and functions as the cultivated outcome."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies preservation from damage and functions as the condition under which growth can continue."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "The nurture-and-completion image supplies tending over time and links authority to development."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "The measuring-and-proportioning image supplies shaped limits and functions as disciplined formation."
+              },
+              {
+                "source_ref": "96:3",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "The good-vegetation-and-rain image supplies flourishing and makes the protective limit productive rather than merely restrictive."
+              }
+            ],
+            "structural_cues": [
+              "Creation in 96:1-2 is followed by generosity and teaching in 96:3-5.",
+              "The focus couples an active verb of command with a noun of guardedness."
+            ],
+            "reader_inference": "The packet supplies lexical images of nurture, measured formation, vegetation, growth, and protection; I supply the horticultural arrow that protection enables flourishing. The live alternative is that the growth branch of the focus command is only associative and should not color the verbal form strongly.",
+            "changed_reading": {
+              "before": "Or restricted conduct through a cautionary order.",
+              "after": "Or cultivated a guarded mode of life whose limits allow it to grow well."
+            }
+          },
+          {
+            "model_id": "delta_boundary_against_overflow",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط غ ي",
+              "غ ن ي",
+              "ر ج ع"
+            ],
+            "mechanism": "The human's imagined self-sufficiency removes felt dependence and releases boundary-crossing like water rising beyond its limit. The announced return restores an outer horizon. Taqwa becomes the inner barrier that checks overflow before return imposes the boundary from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies an intervention and functions as the call to restore a breached limit."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The harm-warding barrier supplies containment and functions as the internal check on overflow."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "The rising-water and sweeping-force image supplies uncontrolled excess and functions as the danger the barrier must contain."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "The self-sufficiency image supplies the perceived absence of need and functions as the condition that disables voluntary restraint."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "The return-to-what-was image supplies an unavoidable reversal and functions as the outer boundary denied by self-sufficiency."
+              }
+            ],
+            "structural_cues": [
+              "The causal particle in 96:7 places perceived self-sufficiency immediately after human overflow in 96:6.",
+              "The return in 96:8 closes the sequence before the scene of prohibition begins."
+            ],
+            "reader_inference": "The packet supplies self-sufficiency, overflow, return, a protective barrier, and a directive; I supply the causal arrow from imagined independence to lost restraint and the contrast between voluntary and imposed limits. Overflow could alternatively remain a general moral excess without a hydraulic mechanism.",
+            "changed_reading": {
+              "before": "Or commanded an abstract virtue.",
+              "after": "Or commanded an inner retaining boundary against the overflow produced by imagined self-sufficiency."
+            }
+          },
+          {
+            "model_id": "delta_praying_servant_becomes_guardian",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ن ه ي",
+              "ع ب د",
+              "ص ل و",
+              "ه د ي"
+            ],
+            "mechanism": "On the reading that the praying servant remains the subject of being on guidance and commanding taqwa, embodied worship does not terminate in private devotion. It generates speech that invites others into self-protection; the prohibited servant becomes a protective guide.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies outward address and functions as the servant's social extension of worship."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-guarding image supplies the content shared with others and makes the servant's action protective."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "The prohibition-and-restraint image supplies the hostile speech act against which the servant's protective directive is contrasted."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The worship-and-submissive-obedience image identifies the servant's vertical allegiance and functions as the source of his alternative conduct."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The specific-worship image supplies embodied prayer and functions as the act from which guidance and protective speech radiate."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The attention-and-inquiry image supplies an open evaluative question and keeps the pronoun assignment under examination."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "The gentle indication toward road and truth supplies orientation and functions as the path that issues in commanding protection."
+              }
+            ],
+            "structural_cues": [
+              "The servant praying in 96:10 is a grammatically live antecedent for the singular subject continued through 96:11-12.",
+              "The pair 'upon guidance / commanded taqwa' forms a positive alternative before denial and turning away in 96:13."
+            ],
+            "reader_inference": "The packet supplies a prohibited servant, prayer, guidance, command, and guardedness; I assign the servant as the continuing subject and infer that worship produces protective public address. The materially live alternative is that the prohibitor is the subject being tested in 96:11-13.",
+            "changed_reading": {
+              "before": "Or the praying servant displayed personal piety.",
+              "after": "Or the praying servant's guided worship became an outward summons into protective self-governance."
+            }
+          },
+          {
+            "model_id": "delta_prohibitor_faces_authority_test",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ن ه ي",
+              "ه د ي",
+              "ك ذ ب",
+              "و ل ي"
+            ],
+            "mechanism": "On the competing pronoun reading, the one who prohibits is tested by counterfactual alternatives: is his exercise of command guided and protective, or does it deny truth and turn away? The focus is then an audit of command itself, distinguishing protective authority from obstructive control.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B003",
+                "role": "The authority-and-command-holder image supplies office-like power and functions as the social capacity under examination."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies the positive criterion by which an authority's command is tested."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "The forbidding-and-checking image supplies the observed use of power and functions as the act placed on trial."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The interrogative-attention image supplies explicit examination and functions as the frame for testing the prohibitor."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "The gentle guidance-to-the-road image supplies the first positive criterion paired with protective command."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The contrary-to-truth image supplies the negative alternative and functions as corruption of authoritative judgment."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "The turning-away image supplies withdrawal from truth and completes the negative alternative to protective authority."
+              }
+            ],
+            "structural_cues": [
+              "Repeated 'have you seen?' clauses in 96:9, 96:11, and 96:13 repeatedly reopen judgment of one actor.",
+              "Prohibition, guidance plus protective command, and denial plus turning away form competing profiles of agency."
+            ],
+            "reader_inference": "The packet supplies repeated interrogation and the opposed profiles of prohibition, guidance, protective command, denial, and withdrawal; I keep the prohibitor as subject and infer a test of legitimate authority. The competing servant-subject reading remains fully live.",
+            "changed_reading": {
+              "before": "Or happened to tell people to be pious.",
+              "after": "Or proved his claim to command by directing power toward protection rather than obstructing worship."
+            }
+          },
+          {
+            "model_id": "delta_guarding_under_seen_accountability",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل م",
+              "ء ل ه",
+              "ر ء ي"
+            ],
+            "mechanism": "Knowledge and divine seeing relocate the protective barrier from external surveillance to internalized accountability. Taqwa becomes conduct regulated before compulsion because the actor understands the act to be disclosed and seen.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies the articulated norm and functions as the external statement to be internalized."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-placing-in-caution image supplies internal regulation and functions as conduct maintained without immediate force."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The disclosure-to-the-knower image supplies awareness and functions as the epistemic condition of accountability."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship-and-deity image identifies the vertical relation within which being seen acquires normative force."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The seeing-by-eye-or-insight image supplies observation and functions as the horizon within which self-guarding operates."
+              }
+            ],
+            "structural_cues": [
+              "The focus question is followed immediately by a question about knowing that God sees in 96:14.",
+              "The movement from command to knowledge and seeing precedes bodily enforcement in 96:15."
+            ],
+            "reader_inference": "The packet supplies command, self-caution, knowledge, deity, and seeing; I supply the arrow by which awareness of being seen becomes voluntary self-regulation. A live alternative is that 96:14 targets only the prohibitor and does not generalize the focus's account of taqwa.",
+            "changed_reading": {
+              "before": "Or ordered compliance under an external rule.",
+              "after": "Or called for self-guarding sustained by the awareness that conduct is already disclosed and seen."
+            }
+          },
+          {
+            "model_id": "delta_self_restraint_before_imposed_restraint",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "س ف ع",
+              "ن ص ي",
+              "ز ب ن"
+            ],
+            "mechanism": "The sequence offers two ways for harmful motion to stop. Taqwa is a self-installed guard responsive to command; failure to stop leads to seizure by the forelock and agents characterized by pushing and prevention. The focus becomes the still-open interval for voluntary restraint before restraint is imposed.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies a non-physical intervention and functions as the opportunity for voluntary response."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective barrier supplies self-restraint and functions as the alternative to being physically checked."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "The stopping-and-restraining image supplies the unmet demand to cease and marks the transition toward compulsion."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "The taking-by-the-forelock image supplies bodily seizure and functions as externally imposed control."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock-and-grasp image locates external restraint on the body and makes loss of agency concrete."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The pushing, collision, and prevention image supplies enforcement and functions as the terminal counterpart to voluntary guarding."
+              }
+            ],
+            "structural_cues": [
+              "The conditional warning in 96:15 explicitly makes external seizure follow failure to stop.",
+              "The focus command occurs before the escalating bodily and collective enforcement of 96:15-18."
+            ],
+            "reader_inference": "The packet supplies a protective barrier, a command, failure to stop, seizure, a grasped forelock, and pushing agents; I supply the contrast between self-restraint and imposed restraint and read their order as an interval of agency. The later force could alternatively be read only as punishment, not as a structural counterpart to taqwa.",
+            "changed_reading": {
+              "before": "Or commanded caution as one moral option.",
+              "after": "Or opened the possibility of self-restraint before unchecked conduct is stopped by restraint from outside."
+            }
+          },
+          {
+            "model_id": "delta_competing_social_mobilizations",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع و",
+              "ن د و",
+              "ز ب ن"
+            ],
+            "mechanism": "The later exchange of calls and collectives turns the focus command into a contest between social powers. One side can summon its assembly; the counter-call summons preventing force. Against both, commanding taqwa names authority by its protective end, not by the size of the group it can mobilize.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B003",
+                "role": "The authority-and-command-holder image supplies organized power and functions as the focus of the social comparison."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies the criterion that distinguishes guardianship from mere mobilizing power."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The calling-and-verbal-drawing image supplies the first act of mobilization and functions as the challenger's social reach."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The council-and-assembly image supplies an organized peer group and functions as the challenger's claimed support."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The repeated calling image supplies the answering mobilization and creates a mirrored contest of summons."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The pushing-and-preventing image supplies coercive capacity and functions as the force behind the counter-summons."
+              }
+            ],
+            "structural_cues": [
+              "The matched verbs of calling in 96:17 and 96:18 create a deliberate call-and-counter-call.",
+              "The focus's command vocabulary anticipates the later question of who can direct collective action."
+            ],
+            "reader_inference": "The packet supplies command-holding, protection, two calls, an assembly, and preventing force; I supply the social-political arrow that compares kinds of mobilized authority. A live alternative is that the later calls dramatize power without redefining the focus command.",
+            "changed_reading": {
+              "before": "Or held enough authority to issue an order.",
+              "after": "Or used authority to create protection, the quality that separates guardianship from a faction's ability to summon force."
+            }
+          },
+          {
+            "model_id": "delta_protective_noncompliance_enables_nearness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط و ع",
+              "س ج د",
+              "ق ر ب"
+            ],
+            "mechanism": "The closing sequence resolves taqwa as selective allegiance rather than generalized timidity. A protective barrier is placed against obedience to the obstructing human; bodily lowering redirects submission, and that refusal enables approach. Guarding and nearness become consecutive motions.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies a norm that must be distinguished from the rival human demand."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies resistance to harmful compliance and functions as the condition of redirected movement."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "The obedience-and-submission image supplies the rejected relation and makes taqwa a filter over whom one follows."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B001",
+                "role": "The lowering-and-humbling image supplies embodied submission and functions as the positive redirection of allegiance."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "The drawing-near image supplies forward movement and functions as the result enabled by protective noncompliance."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B005",
+                "role": "The offering-and-nearness-to-God image specifies the relational destination of the approach."
+              }
+            ],
+            "structural_cues": [
+              "The three imperatives in 96:19 move from refusal, through bodily submission, to approach.",
+              "The final order reverses the earlier human attempt to stop the servant's prayer."
+            ],
+            "reader_inference": "The packet supplies rejected obedience, prostration, approach, command, and protection; I supply the arrow that a barrier against false obedience enables redirected submission and nearness. Taqwa could alternatively remain a general quality beside, rather than a mechanism inside, the closing sequence.",
+            "changed_reading": {
+              "before": "Or commanded wary withdrawal from danger.",
+              "after": "Or commanded a protective refusal of false obedience that makes prostration and nearness possible."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_taqwa_as_legible_mark",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the mark branch of the focus command and a non-dominant split mapping for 'name.' It remains anchored in أَمَرَ and تَّقْوَىٰ and is reinforced by contextual images of marking and recognition. Downstream prose should present it as a sign-system metaphor, not as a lexical replacement for the verbal command.",
+            "focus_anchor": "The mark-or-appointed-sign branch of أَمَرَ makes the commanded تَّقْوَىٰ potentially legible as a distinguishing sign.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The mark, sign, or appointed-time image supplies legibility within the focus root and functions as the proposed public trace of the command."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-protective caution image supplies the inward disposition whose outward pattern is inferred to become recognizable."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "The visible branding-mark image supplies an identifying trace and functions as the contextual activator of legibility."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The distinguishing trace that guides toward a thing supplies recognition and functions as a second sign-like support."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or voiced a command whose effect might remain invisible.",
+              "after": "Or established self-guarding as the legible mark by which a guided orientation can be recognized."
+            }
+          },
+          {
+            "outlier_id": "outlier_guarded_gait_toward_nearness",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus activation comes from the animal gait and hoof-pain branch of protection. It remains valid as a material analogy anchored directly in تَّقْوَىٰ and sharpened by contextual road-guidance and approach. Downstream prose should say 'as if' and preserve the vulnerability metaphor rather than claiming an animal sense in the ayah.",
+            "focus_anchor": "The guarded-gait branch of تَّقْوَىٰ recasts protective caution as adjusted movement rather than immobility.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies guidance for conduct and functions as an instruction to alter how one moves."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B003",
+                "role": "The guarded gait prompted by hoof pain supplies vulnerable, terrain-sensitive movement and functions as the core material analogy."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "The gentle indication toward a road supplies orientation and gives the guarded gait a traversable path."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "The drawing-near image supplies destination-directed motion and shows that caution need not end in withdrawal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or commanded a static state of caution.",
+              "after": "Or instructed a guarded gait: movement adjusted to vulnerability so that approach can continue without ruin."
+            }
+          },
+          {
+            "outlier_id": "outlier_hydraulic_restraining_basin",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines the flood image of transgression with the rare basin-at-a-torrent's-end branch of prohibition. It remains anchored in the focus's protective barrier and produces a coherent material account of restraint. Downstream prose should mark it as an exploratory hydraulic model, not a claim that the focus words literally denote waterworks.",
+            "focus_anchor": "The protective barrier in تَّقْوَىٰ can be imagined materially as containment erected against excess.",
+            "activation_trace": [
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The directive image supplies the act that calls containment into operation."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The protective-barrier image supplies the retaining structure and functions as defense against destructive flow."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "The water rising with sweeping force supplies the excess flow and functions as the pressure requiring containment."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B004",
+                "role": "The basin where floodwater settles at the torrent's end supplies collected arrest and functions as the material analogue of a limit."
+              }
+            ],
+            "changed_reading": {
+              "before": "Or commanded a general check on wrongdoing.",
+              "after": "Or called for a protective retaining basin within the self, receiving and stopping the flood of excess before it sweeps onward."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Taqwa changed from an abstract virtue into an active inner barrier against the overflow generated by imagined self-sufficiency.",
+            "The focus became an interval for voluntary self-restraint before the later sequence imposes bodily restraint.",
+            "The closing refusal, prostration, and approach changed protective caution from withdrawal into selective noncompliance that enables nearness.",
+            "Competing pronoun assignments preserve two live readings: the praying servant extends worship into protective guidance, or the prohibitor's authority is tested by whether it protects."
+          ],
+          "what_was_special": "The two-word root pairing acts as a hinge between pedagogy and force: command can form, cultivate, test, or mobilize, while protection can be inward caution, social shelter, a boundary against overflow, or movement carefully redirected toward nearness.",
+          "remaining_uncertainties": [
+            "The subject of being on guidance and commanding taqwa remains genuinely open between the praying servant and the prohibitor.",
+            "The authority, growth, mark, guarded-gait, and hydraulic activations are branch-driven models whose explanatory force exceeds their morphological proximity.",
+            "The sequence supports a contrast between voluntary and imposed restraint, but it does not explicitly state the causal equivalence inferred between them."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. Command is reclaimed from the transgressor: the servant may be one who commands protective God-consciousness. Evidence: `ء م ر B002` command/directive, `و ق ي B002` self-protective caution/taqwa, `و ق ي B001` protective barrier. Structural cue: this ayah answers the illegitimate `ينهى` with a legitimate `أمر`. Mechanism: true command does not block worship; it places the self behind a protective moral barrier. Abductive move: the packet supplies command and protection; I infer that taqwa is the content that distinguishes rightful command from coercive prohibition. Reading change: the ayah reads as a counter-authority scene: perhaps the forbidden servant is actually directing protection.\n\n2. `أمر` also activates affair, consultation, and authority. Evidence: `ء م ر B001` matter/affair, `ء م ر B003` authority/command-holder, `ء م ر B007` consultation/deliberation; later `ن د و B001` council gathering. Structural cue: the human opponent later calls his council in 96:17. Mechanism: the passage contrasts a command toward protection with a council-backed command toward obstruction. Abductive move: the packet gives `أمر` and later `ناديه`; I infer a social governance mechanism. Reading change: the ayah is not private advice only; it points to which social command-system should govern the affair.\n\n3. Taqwa activates bodily guarded movement. Evidence: `و ق ي B003` guarded gait from hoof pain and `ق ر ب B007/B008` careful approach/water-seeking. Structural cue: the final ayah commands approach, but only after “do not obey him.” Mechanism: protective caution is not paralysis; it regulates how one moves near. Abductive move: the packet gives guard/protection and later approach; I infer that taqwa is disciplined movement toward God while avoiding harmful obedience. Reading change: `بالتقوى` becomes active protective orientation, not abstract piety.",
@@ -8028,14 +9300,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
-        "ayah_count": 20,
-        "row_count": 118,
+        "ayah_count": 19,
+        "row_count": 111,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8422,10 +9700,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s96/packets/96_12.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s96/readers/reader_hft_a/96_12.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s096",
+        "latent_activation/focus_trace/runs/s96"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s96",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 163089,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

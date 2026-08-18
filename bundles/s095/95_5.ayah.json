@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.411455+00:00",
+  "generated_at": "2026-08-18T13:34:16.165563+00:00",
   "surah": 95,
   "ayah": 5,
   "ayahRef": "95:5",
@@ -1479,7 +1479,8 @@
       "morpheme_ids": [
         "m-w-s095-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:5:1"
+      "aligned_qac_word_ref_upstream": "95:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1497,7 +1498,8 @@
         "m-w-s095-a005-w002-02",
         "m-w-s095-a005-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "95:5:2"
+      "aligned_qac_word_ref_upstream": "95:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1511,7 +1513,8 @@
       "morpheme_ids": [
         "m-w-s095-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:5:3"
+      "aligned_qac_word_ref_upstream": "95:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1525,7 +1528,8 @@
       "morpheme_ids": [
         "m-w-s095-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:5:4"
+      "aligned_qac_word_ref_upstream": "95:5:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2765,7 +2769,1095 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:5",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_returned_endpoint",
+            "confidence": "strong",
+            "focus_anchor": "رَدَدْنَٰهُ joined to أَسْفَلَ سَٰفِلِينَ",
+            "mechanism": "Agentive return restores the pronoun-referent to a former place or state, while the doubled low-root construction makes that restored endpoint maximally low.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Return to a former place or state supplies a reversible trajectory and presupposes an earlier position."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Concrete lowness supplies the destination and keeps the model spatially anchored."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject is simply lowered.",
+              "after": "The subject is deliberately sent back to a prior or latent low state; the verse describes reversal, not merely first-time descent."
+            }
+          },
+          {
+            "model_id": "baseline_repelled_trajectory",
+            "confidence": "medium",
+            "focus_anchor": "The causative agency in رَدَدْنَٰهُ and the directional predicate أَسْفَلَ سَٰفِلِينَ",
+            "mechanism": "The return verb can function as repulsion from a course, and the low-root can mark directed descent; together they describe a path being blocked and bent downward.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B002",
+                "role": "Turning away, repelling, and preventing supply the blocked-course operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed downward movement gives the repelled course its new orientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Return is neutral restoration.",
+              "after": "An advancing trajectory is refused passage and forcibly redirected toward the lowest course."
+            }
+          },
+          {
+            "model_id": "baseline_rejected_assay",
+            "confidence": "medium",
+            "focus_anchor": "رَدَدْنَٰهُ as an act upon the referent, followed by the rank-bearing أَسْفَلَ سَٰفِلِينَ",
+            "mechanism": "A branch of return treats an item as unacceptable or counterfeit; coupled with low rank, the clause can stage an assay whose result is rejection and devaluation.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B003",
+                "role": "Rejection of an invalid claim or debased coin supplies an evaluative rather than merely locomotive return."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Low rank and degraded standing supply the adverse valuation produced by the assay."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause reports a change of location or condition.",
+              "after": "The clause can also report failed valuation: the referent is returned as unacceptable and assigned the lowest standing."
+            }
+          },
+          {
+            "model_id": "baseline_recursive_fallback",
+            "confidence": "exploratory",
+            "focus_anchor": "The intensive/reduplicative feel of رَدَدْنَٰهُ beside the lexical recurrence أَسْفَلَ سَٰفِلِينَ",
+            "mechanism": "Repetition and wavering in the return-root combine with the repeated low lexeme to picture iterative fallback, as if each attempted level folds back into another lower one.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B010",
+                "role": "Repetition, wavering, and parts folded back on one another supply the recursive motion."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Repeatedly becoming lower converts recursion into a descending rather than stationary loop."
+              }
+            ],
+            "changed_reading": {
+              "before": "There is one decisive transfer to the bottom.",
+              "after": "The transfer may be an iterative backsliding or folding-down process whose repetitions produce the extreme endpoint."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_processed_substrate",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "Edible fruit and the olive's expressed oil activate the split-mapped image of food softened by mashing or soaking; with downward becoming, the focus return can be imagined as reduction from formed body to processed substrate.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B004",
+                "role": "The non-dominant mapped branch supplies softening by mashing or soaking as the material operation attached to the focus verb."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Becoming downward turns material processing into reduction toward a lower substrate."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fruit supplies a formed organic material that can undergo processing."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil as olive extract supplies a whole-to-expressed-substance transformation."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B005",
+                "role": "The oil-presser image makes extraction an active operation rather than an unexplained association."
+              }
+            ],
+            "structural_cues": [
+              "The paired food substances open the packet before the later creation-and-return sequence."
+            ],
+            "reader_inference": "The packet supplies fruit, expressed oil, pressing, softening, and downward movement; I supply the analogy from food processing to bodily reduction. A live alternative is that the opening items remain oath objects with no material causation.",
+            "changed_reading": {
+              "before": "The return is chiefly spatial or evaluative.",
+              "after": "Exploratorily, the return is a material de-formation: an integrated form is processed down toward softened or extracted substrate."
+            }
+          },
+          {
+            "model_id": "delta_terminal_phase",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "Successive phases and a limit that may be reached or crossed turn baseline reversal into a bounded temporal transition: the lowest state can be the terminal phase of a sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Return to a former state supplies recurrence within a sequence rather than an unrelated new condition."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "The low endpoint gives the phase sequence a terminal orientation."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "A stopping or crossing limit supplies the threshold between the prior form and the returned state."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "Successive states supply the temporal architecture that makes return one phase transition among several."
+              }
+            ],
+            "structural_cues": [
+              "The phase-bearing cue precedes the creation-to-return sequence, and the focus begins with ثُمَّ, foregrounding ordered succession."
+            ],
+            "reader_inference": "The packet supplies phases, a threshold, return, and sequence; I infer that the low endpoint is a terminal phase. The live alternative is the literal mountain branch, which would make the cue spatial or commemorative rather than temporal.",
+            "changed_reading": {
+              "before": "The referent is restored to a low place or rank.",
+              "after": "The restoration becomes a thresholded phase change, potentially the last stage in a reversible or cyclical trajectory."
+            }
+          },
+          {
+            "model_id": "delta_grounded_outside_security",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "A bounded secure emplacement is set against the same place-root's image of sticking to earth; the focus return can therefore be read as re-siting from protected, trusted placement into immobilized ground-level attachment.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Return to a place supplies the re-siting operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Physical below-ness makes the new emplacement groundward."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A delimited tract supplies protected emplacement as a spatial container."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B010",
+                "role": "Sticking to the earth supplies immobilization at the lower boundary of that spatial system."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust supply the protected condition from which the groundward return departs."
+              }
+            ],
+            "structural_cues": [
+              "The demonstratively bounded secure place occurs immediately before the creation-and-return pair."
+            ],
+            "reader_inference": "The packet supplies bounded place, security, earth-adhesion, return, and lowness; I infer a polarity between protected emplacement and immobilized grounding. The alternative is that both place branches merely enrich the setting without describing the referent's transfer.",
+            "changed_reading": {
+              "before": "Lowest means an abstract inferior condition.",
+              "after": "Lowest can also mean loss of secure emplacement: the referent is reattached to the ground outside the mobility or protection implied by the secure enclosure."
+            }
+          },
+          {
+            "model_id": "delta_upright_support_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "Measured creation, completed form, beauty, bodily uprightness, and straight balance establish an engineered load-bearing configuration. The focus root's prop image and its downward predicate then read as inversion of the very support that held the form upright.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B009",
+                "role": "A prop that prevents collapse supplies the load-bearing function whose reversal can produce the focus movement."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed descent supplies the mechanical result when upright support no longer holds."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply an intentionally configured initial structure."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed, balanced bodily form supplies the integrity of the starting configuration."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Beauty opposed to ugliness supplies a qualitative polarity alongside the vertical one."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily standing supplies the vertical initial state that descent reverses."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness and equilibrium supply the balanced geometry vulnerable to reversal."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent clauses place best formation before ثُمَّ and an agentive return, making the change sequential and contrastive."
+            ],
+            "reader_inference": "The packet supplies design, completed form, upright balance, a prop, and downward motion; I infer that the return reverses a support function. A live alternative is purely moral demotion, with the engineering vocabulary functioning only as metaphor.",
+            "changed_reading": {
+              "before": "The focus is a generic fall from a better condition.",
+              "after": "The focus becomes structural failure by inversion: a measured upright system is made to lose or reverse its load-bearing organization and collapses downward."
+            }
+          },
+          {
+            "model_id": "delta_human_cover_stripped",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ن س"
+            ],
+            "mechanism": "Human visibility and sociable relief from wildness activate the non-dominant split-root image of being stripped of covering; the lowest return can be carried as removal of the visible and relational layer by which the human appears human.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The split-mapped image of a body, branch, or land stripped bare supplies loss of covering as the focus operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Degraded standing makes the stripping socially and qualitatively downward."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The human as manifest and opposed to wildness supplies the visible category that can be stripped away."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Sociable familiarity that removes estrangement supplies the relational layer lost in the return."
+              }
+            ],
+            "structural_cues": [
+              "The explicit human noun is the grammatical object established immediately before the pronoun in the focus clause."
+            ],
+            "reader_inference": "The packet supplies manifest humanity, sociability, baring, and degraded rank; I infer that social-visible humanness behaves like a removable covering. The ordinary dominant-root return remains the materially live alternative, and the split mapping makes this reading deliberately provisional.",
+            "changed_reading": {
+              "before": "A human undergoes an externally imposed lowering.",
+              "after": "Exploratorily, the lowering is de-humanizing exposure: visible and relational human form is stripped back to a bare, lower substrate."
+            }
+          },
+          {
+            "model_id": "delta_repairable_deformation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م ل",
+              "ص ل ح",
+              "ء ج ر"
+            ],
+            "mechanism": "Intentional operation, fitness against corruption, and the branch image of splinting a crooked fracture recast the preceding support-collapse as a deformation that can be actively maintained or repaired rather than an automatic fate.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B009",
+                "role": "Load-bearing support gives the focus return a structural failure that repair could address."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Downward becoming supplies the deformation's observable trajectory."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B002",
+                "role": "Putting something into operation supplies active maintenance rather than passive exemption."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Soundness opposed to corruption supplies the repaired condition."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Fitness for a thing supplies functional alignment as the repair criterion."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Splinting a fracture despite crookedness supplies a concrete repair image inside the result clause."
+              }
+            ],
+            "structural_cues": [
+              "The exception construction in 95:6 follows the collapse clause and coordinates belief with enacted sound deeds before naming the result."
+            ],
+            "reader_inference": "The packet supplies exception, operation, soundness, fitness, and fracture-setting; I infer a maintenance-and-repair relation that arrests collapse. The live alternative is that the fracture image is only a distant branch and the clause promises recompense without describing how descent is avoided.",
+            "changed_reading": {
+              "before": "The lowest return is an unavoidable terminal reversal.",
+              "after": "The exception makes it legible as preventable or repairable loss of structural fitness, with enacted soundness functioning like maintenance or a splint."
+            }
+          },
+          {
+            "model_id": "delta_uncut_continuity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "Negation or exception combines with cutting off an extension and loss of sustaining force. In contrast, the focus's repeated downward fallback becomes a discontinuity event: a process loses what keeps it extended and folds into a lower state.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B010",
+                "role": "Wavering and repeated folding-back supply failure to maintain a continuous course."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Becoming lower supplies the state reached when continuity fails."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Otherness, exception, and negation supply the operator that excludes interruption from the promised result."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting or diminishing until extension ends supplies the interruption that the construction negates."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B002",
+                "role": "The force by which something stands, or its disappearance, supplies a sustaining variable whose loss can produce descent."
+              }
+            ],
+            "structural_cues": [
+              "In 95:6, غَيْرُ directly governs مَمْنُونٍ, grammatically opposing the preceding return with a result characterized as not cut off."
+            ],
+            "reader_inference": "The packet supplies negation, severed extension, sustaining force, wavering, and descent; I infer that loss of continuity is a mechanism of the low return. The alternative is a narrower contrast in which only the reward is endless and no mechanics of the focus are implied.",
+            "changed_reading": {
+              "before": "Lowest is chiefly a place, rank, or terminal phase.",
+              "after": "Lowest can be the state produced when sustaining continuity is cut: the trajectory no longer holds and repeatedly folds back, while the exception retains an uncut extension."
+            }
+          },
+          {
+            "model_id": "delta_truth_accounting_verdict",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ب ع د",
+              "د ي ن"
+            ],
+            "mechanism": "Attribution of falsehood, temporal aftermath, and reckoning activate the baseline invalidation model: the return resembles sending back a failed claim or debased item after an assay, with low rank as the adverse account rendered.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B003",
+                "role": "Returning an invalid statement or debased coin supplies the failed-assay operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Degraded rank supplies the assay's adverse valuation."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the truth-test against which rejection becomes intelligible."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "After-ness relative to before supplies the retrospective position from which the evidence is assessed."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the formal evaluation that converts low rank into a verdict."
+              }
+            ],
+            "structural_cues": [
+              "The rhetorical question about denial comes after the creation, return, and exception sequence, so the focus event is available as evidence under review."
+            ],
+            "reader_inference": "The packet supplies rejection-as-invalid, falsehood attribution, after-ness, and accounting; I infer an assay-to-verdict arrow applied backward to the focus. The alternative is that 95:7 challenges the addressee without classifying the pronoun-referent of 95:5 as a tested item.",
+            "changed_reading": {
+              "before": "The subject is physically or socially lowered.",
+              "after": "The subject is also evaluatively returned: a claim or formed identity fails verification and is entered at the lowest rank in an account."
+            }
+          },
+          {
+            "model_id": "delta_judicial_ranking",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ك م"
+            ],
+            "mechanism": "Judgment between parties gives the focus's rejection-and-low-rank model an explicit adjudicative frame, while the matching superlative constructions align the lowest assessed class with the highest judging authority.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B003",
+                "role": "Rejection as invalid supplies the adverse disposition issued by judgment."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Low standing supplies the rank assigned by the disposition."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment and adjudication between people supply the institutional frame for rejection and ranking."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Mastery and exactness supply confidence that the ranking is deliberate rather than accidental."
+              }
+            ],
+            "structural_cues": [
+              "أَسْفَلَ سَٰفِلِينَ in 95:5 and أَحْكَمِ حَٰكِمِينَ in 95:8 echo an أفعل-plus-class construction, coupling extreme rank with supreme judgment.",
+              "The closing rhetorical question places judgment after the focus and the challenge about accounting."
+            ],
+            "reader_inference": "The packet supplies rejection, degraded rank, judgment, exactness, and a formal constructional echo; I infer that the focus lowering is a ranked judicial disposition. The alternative is physical decline later ratified by judgment rather than judgment itself producing the descent.",
+            "changed_reading": {
+              "before": "The lowest state is an observed result.",
+              "after": "The lowest state is also an adjudicated rank: rejection as invalid is issued within a deliberately ordered hierarchy."
+            }
+          },
+          {
+            "model_id": "delta_corrective_brake",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ك م"
+            ],
+            "mechanism": "The judgment-root's prevention for reform, bridle, and turning-back images resonate with the focus root's repelling branch. The downward return can thus be carried as a governing brake that arrests and redirects a trajectory, distinct from both natural decay and final rejection.",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B002",
+                "role": "Repelling and preventing supply the focus-side braking operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed descent supplies the corrected trajectory's imposed orientation."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Prevention and turning back for reform supply a corrective purpose for restraint."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle supplies a concrete control device that redirects motion without annihilating the moving subject."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B007",
+                "role": "Turning or being turned back directly echoes the focus return and links governance to reversal."
+              }
+            ],
+            "structural_cues": [
+              "The final judgment clause closes the same sequence in which an explicit first-person-plural agent performs the focus return."
+            ],
+            "reader_inference": "The packet supplies repulsion, reforming restraint, a bridle, return, and downward direction; I infer that authority uses descent as corrective redirection. The live alternative is a terminal punitive verdict, preserved separately in the judicial-ranking model.",
+            "changed_reading": {
+              "before": "The downward return is collapse or adverse classification.",
+              "after": "It may instead be a controlled brake: authority turns a course back and downward in order to restrain or reform it."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_fruiting_then_bare",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends on the non-dominant م ر د target of the focus root and adds a seasonal arrow not stated by the packet. It remains anchored through the packet-issued split mapping, its bare-tree image, and the preceding fruit images. Downstream prose should call it an ecological process analogy, not a lexical gloss of رَدَدْنَٰهُ.",
+            "focus_anchor": "The split-mapped inventory attached to رَدَدْنَٰهُ and the lower endpoint",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "A branch or tree stripped of leaves or bark supplies the bare terminal form attached to the focus verb."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Lowness supplies the exposed substrate toward which the organic cycle returns."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "Edible fig fruit supplies one image of organic fruition before baring."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B002",
+                "role": "Olive and olive tree supply a second fruit-bearing organism that makes the bare-tree branch ecologically salient."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus describes a human fall in place or worth.",
+              "after": "As a contained ecological analogy, it can picture post-fruition baring: an elaborated living form is returned to an exposed lower substrate."
+            }
+          },
+          {
+            "outlier_id": "outlier_motion_that_cannot_last",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it recruits branch-distant images of milk that does not last and an animal that runs then stops. It remains anchored to the focus root's repetition or wavering and the explicit downward endpoint, with the uncut contrast in 95:6. Render it only as a process analogy for failed persistence, not as a claim that the focus words denote milk or animal motion.",
+            "focus_anchor": "رَدَدْنَٰهُ as repeated fallback and أَسْفَلَ سَٰفِلِينَ as the resulting direction",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B010",
+                "role": "Wavering and repeated return supply a trajectory that cannot hold its advance."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Downward becoming supplies the direction taken after persistence fails."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk that disappears instead of lasting supplies failure of flow or yield over time."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "An animal that runs and then stops supplies failed continuation in motion."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting off an extension supplies the shared interruption pattern that the adjacent exception negates."
+              }
+            ],
+            "changed_reading": {
+              "before": "Return means reversal after reaching a better state.",
+              "after": "The return may analogically mark failure to sustain flow or motion: advance starts, stalls, and folds downward."
+            }
+          },
+          {
+            "outlier_id": "outlier_return_to_dependency",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the activated focus branch specifically images a divorced woman returned without support, whereas the focus pronoun is masculine. It remains useful only at the level of social mechanics—return from independent placement to dependent kin and lowered standing—supported by the security and residence cues. Downstream prose must not identify the pronoun-referent as female or import divorce into the verse.",
+            "focus_anchor": "The social-return branch attached to رَدَدْنَٰهُ and the rank branch of أَسْفَلَ سَٰفِلِينَ",
+            "activation_trace": [
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B006",
+                "role": "Return to one's family without independent support supplies a social relation of forced dependency."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Low social rank supplies the status effect of that dependency."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Residence and remaining bound to a place supply the social emplacement to which one can be returned."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and trust supply the protected standing whose loss or transfer makes dependency consequential."
+              }
+            ],
+            "changed_reading": {
+              "before": "Lowest is vertical or moral abasement.",
+              "after": "As a carefully contained social analogy, lowest is loss of independent standing: the referent is returned into dependence on another household or support structure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus shifts from one-way lowering to reversal into a prior or latent low state.",
+            "The creation and formation cues recast the return as inversion of measured upright support and consequent structural collapse.",
+            "The exception activates repair and uncut continuity, making collapse potentially maintainable or preventable rather than mechanically inevitable.",
+            "Truth, accounting, and judgment recast return as failed assay and adjudicated low rank.",
+            "A coexisting governance model reads the same return as a corrective brake rather than a final punitive verdict."
+          ],
+          "what_was_special": "The trace stayed plural: spatial return, repelled trajectory, invalidation, recursive fallback, phase transition, structural collapse, repair, continuity failure, adjudication, and corrective restraint remain distinct. The packet's non-dominant م ر د mapping also opened unusually vivid material and de-humanizing readings, while the constructional echo between أَسْفَلَ سَٰفِلِينَ and أَحْكَمِ حَٰكِمِينَ strongly linked extreme rank to judgment.",
+          "remaining_uncertainties": [
+            "The dominant return sense may outrank repulsion and rejection in the focus form, but context makes all three mechanisms live.",
+            "The non-dominant م ر د activations may be productive latent cues or only mapping spillover; they should remain explicitly exploratory.",
+            "The repair and continuity models depend on reading the 95:6 exception as mechanistically related to the descent rather than only promising a separate result.",
+            "Physical lowness, social rank, temporal terminality, and judicial valuation coexist without a packet-internal rule that selects one."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Downward return as reversal of upright taqwim.** Lexical evidence: ر د د B001, returning/sending back; س ف ل B001/B004, lowness and directing downward; ق و م B002/B008/B011 in 95:4, bodily uprightness/straightness/stature. Structural cue: ثم marks sequence from best taqwim to lowest low. Assigned role: رددناه supplies the reversal action; سفل supplies the spatial endpoint; ق و م supplies the prior upright state being reversed. Abductive move: I infer that \"return\" is not neutral motion but undoing of the previously established upright proportion. Reading change: the ayah reads as a deliberate inversion of formed height, not merely punishment vocabulary.\n\n2. **Rejection and invalidation of a corrupted form.** Lexical evidence: ر د د B003, rejection/returning as invalid; خ ل ق B007 in 95:4, fabricated false speech; ك ذ ب B002 in 95:7, declaring false. Structural cue: the fall is followed by an exception and then a denial-question. Assigned role: ردد can mean a form is sent back as unacceptable, like debased coin returned to a money changer. Abductive move: I infer that the \"lowest\" return can be a quality-control/judicial rejection when the human refuses the evidence. Reading change: the ayah reads as invalidation after failed valuation, not only a spatial descent.\n\n3. **Lowest as social baseness, not only physical depth.** Lexical evidence: س ف ل B002, low rank and baseness; ب ل د B005/B007 in 95:3, confused collapse and dullness; د ي ن B004 in 95:7, humbling/subjugation. Structural cue: the descent occurs after the secure town and before the exception for believers/workers. Assigned role: سفل converts height/lowness into rank and moral/social baseness. Abductive move: I infer that the packet's vertical vocabulary becomes social-evaluative because faith/work/recompense immediately sort persons. Reading change: \"lowest of low\" is activated as degraded rank and condition, not only a place below.\n\n4. **Return as repetitive wavering into confusion.** Lexical evidence: ر د د B010, repetition, wavering, bewilderment; ب ل د B005, confusion/collapse; ك ذ ب B007, wild animal runs then stops to look back. Structural cue: 95:5 lies between measured creation and the \"what then makes you deny?\" question. Assigned role: radd can depict folding back and wavering, while later denial looks like a stop-start failure to proceed from evidence. Abductive move: I infer that descent may operate through repeated self-reversal rather than a single drop. Reading change: the ayah can describe a person turned back into oscillation and bewilderment after having been made upright.\n\n5. **Loss of support beneath the upright body.** Lexical evidence: ر د د B009, prop/support preventing collapse; س ف ل B005/B006, lower limbs/offspring of camels; ق و م B009/B016, mainstay and stoppage/exhaustion. Structural cue: the word أسفل is doubled and follows taqwim, an upright body/support term. Assigned role: the lower parts and lost props make the fall bodily/mechanical: the support-system fails or is removed. Abductive move: I infer a structural engineering analogy from ق و م support to ر د د prop and س ف ل lower limbs. Reading change: the fall is not only moral demotion; it can be read as collapse of the supports that made standing possible.",
@@ -11550,14 +12642,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11858,10 +12956,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 94189,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

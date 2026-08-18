@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.030298+00:00",
+  "generated_at": "2026-08-18T13:34:39.594213+00:00",
   "surah": 110,
   "ayah": 2,
   "ayahRef": "110:2",
@@ -2624,7 +2624,8 @@
       "morpheme_ids": [
         "m-w-s110-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:1"
+      "aligned_qac_word_ref_upstream": "110:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2640,7 +2641,8 @@
         "m-w-s110-a002-w001-02",
         "m-w-s110-a002-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:2"
+      "aligned_qac_word_ref_upstream": "110:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2656,7 +2658,8 @@
         "m-w-s110-a002-w002-01",
         "m-w-s110-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:3"
+      "aligned_qac_word_ref_upstream": "110:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2672,7 +2675,8 @@
         "m-w-s110-a002-w003-01",
         "m-w-s110-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:4"
+      "aligned_qac_word_ref_upstream": "110:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2686,7 +2690,8 @@
       "morpheme_ids": [
         "m-w-s110-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:5"
+      "aligned_qac_word_ref_upstream": "110:2:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2700,7 +2705,8 @@
       "morpheme_ids": [
         "m-w-s110-a002-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:6"
+      "aligned_qac_word_ref_upstream": "110:2:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2714,7 +2720,8 @@
       "morpheme_ids": [
         "m-w-s110-a002-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:7"
+      "aligned_qac_word_ref_upstream": "110:2:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2728,7 +2735,8 @@
       "morpheme_ids": [
         "m-w-s110-a002-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "110:2:8"
+      "aligned_qac_word_ref_upstream": "110:2:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3381,7 +3389,915 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s110/packets/110_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "110:2",
+      "window": [
+        "110:1",
+        "110:2",
+        "110:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ت و ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000189",
+              "furuq_root_norm": "ت و ب",
+              "furuq_source_root_norm": "ت و ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000172",
+              "furuq_root_norm": "ت ب ب",
+              "furuq_source_root_norm": "ت ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "110:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_VISIBLE_SUCCESSIVE_INGRESS",
+            "confidence": "strong",
+            "focus_anchor": "The seeing verb governs a plural, ongoing act of entering, while the final cohort term distributes the people into successive groups.",
+            "mechanism": "Direct perception, boundary crossing, obedience, and grouped succession combine into a process rather than a census: human cohorts are visibly passing from outside to inside an order of worship.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Supplies sensory or insightful witnessing and makes the transition an observed event."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Keeps the moving collectivity specifically human and publicly manifest."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Provides literal passage across a boundary into an interior."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Defines the entered domain functionally as worship, obedience, and submission."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Segments the influx into bands arriving one after another rather than isolated persons."
+              }
+            ],
+            "changed_reading": {
+              "before": "Many people adopted a religion.",
+              "after": "A witnessed and still-unfolding transfer carries successive human cohorts across a boundary into God's order of worship and obedience."
+            }
+          },
+          {
+            "model_id": "B2_PUBLIC_THRESHOLD_PRIVATE_INTERIOR",
+            "confidence": "medium",
+            "focus_anchor": "The verse joins what can be seen with a verb whose inventory also opens onto the inner and secret.",
+            "mechanism": "Visible appearance and sensory detection establish public ingress, but entering also creates an interior that sight does not automatically disclose. The scene therefore distinguishes observable inclusion from inward integration.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Foregrounds visible appearance and the surface available to an observer."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Contributes recognition through sight, sensation, or hearing as the public evidence."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B003",
+                "role": "Introduces an inward or secret dimension that is not exhausted by visible crossing."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B005",
+                "role": "Adds the social ambiguity of a newcomer mixing among established insiders."
+              }
+            ],
+            "changed_reading": {
+              "before": "Seeing the entrants certifies a completed inward transformation.",
+              "after": "The verse certifies public boundary crossing while leaving inward integration open; visible membership and interior condition coexist without becoming identical."
+            }
+          },
+          {
+            "model_id": "B3_SOCIAL_ORDER_RECOMPOSED",
+            "confidence": "medium",
+            "focus_anchor": "People enter in groups into a domain whose branches include customary practice and organized authority.",
+            "mechanism": "Cohorts do not merely add private convictions. Newcomers mix with insiders, estrangement can become familiarity, and repeated practice places them within an ordered social world; the influx recomposes the community that receives it.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Supplies familiarity overcoming estrangement as a possible effect of incorporation."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B005",
+                "role": "Figures entrants as newcomers who mix into an existing people or affair."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Makes habitual practice, not a momentary declaration, part of the entered order."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "Contributes the civic image of a place structured by authority and obedience."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Makes incorporation collective and serial, so each cohort changes the receiving whole."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse counts individual conversions.",
+              "after": "The verse depicts serial social incorporation: formerly external groups become familiar participants in a practiced and organized order."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_OPENING_CAUSES_INGRESS",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ي ء",
+              "ف ت ح"
+            ],
+            "mechanism": "The prior arrival and release of closure give the focus entry a causal prehistory. What is seen in 110:2 is not spontaneous crowd motion but the downstream passage made possible when a closed approach becomes traversable.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Supplies the arrival or occurrence that initiates the temporal threshold."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Supplies release of closure and widening of an entrance as the enabling condition."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Realizes the enabled condition as actual passage into the interior."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Shows the opened route being used serially by successive groups."
+              }
+            ],
+            "structural_cues": [
+              "The conditional onset in 110:1 precedes the witnessed progressive action in 110:2.",
+              "Opening and entering form a cross-ayah threshold sequence."
+            ],
+            "reader_inference": "The packet supplies arrival, released closure, and ingress; I supply the arrow that the opening enables the entry. A live alternative is that opening names victory or judgment without specifying a spatial cause.",
+            "changed_reading": {
+              "before": "Groups happen to be entering.",
+              "after": "Groups traverse an access newly made possible; their visible ingress is the enacted consequence of an arrived opening."
+            }
+          },
+          {
+            "model_id": "D2_AID_SHIFTS_AGENCY",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ص ر",
+              "ء ل ه"
+            ],
+            "mechanism": "Aid is explicitly manifested before the crowd scene, and the same divine referent marks both the source of that aid and the destination's ownership. The people's movement remains real agency, but it is nested inside an event not possessed by either crowd or observer.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Contributes aid that also makes its result manifest, reframing what the observer sees."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Locates the antecedent aid in the same divine source toward whom worship is directed."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Marks the entered religious domain as belonging to the worshipped one rather than to the witness."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Makes the crowd's ingress evidence perceived by the witness, not an achievement authored by sight."
+              }
+            ],
+            "structural_cues": [
+              "The divine name recurs as possessor of both the aid in 110:1 and the entered order in 110:2.",
+              "The observer is grammatically a witness while the people remain the entering subject."
+            ],
+            "reader_inference": "The packet supplies aid, repeated divine attribution, and witnessed entry; I infer that the crowd scene manifests aid and redistributes credit. Alternatively, aid may label only the prior event while human response remains the immediate cause of entry.",
+            "changed_reading": {
+              "before": "The crowd and its witness jointly own a human success.",
+              "after": "Human cohorts genuinely enter, but their movement is seen as the manifestation of aid whose source and destination exceed both entrants and observer."
+            }
+          },
+          {
+            "model_id": "D3_RELEASED_WATER_CASCADE",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ص ر",
+              "ف ت ح"
+            ],
+            "mechanism": "Rain-like relief, water issuing from an outlet, a carried water supply, and a broad pass align into a material analogy: cohorts move through the opened terrain like released water finding channels. This sharpens succession into a cascading, distributed influx.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B004",
+                "role": "Supplies rain and relief as the initiating influx in the material analogy."
+              },
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Supplies water bursting from its outlet as the release mechanism."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped root contributes carrying and delivering water to the observed cascade."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Anchors the analogy back to actual ingress rather than free-standing water imagery."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B002",
+                "role": "Contributes the broad gap or open stretch through which the influx can spread."
+              }
+            ],
+            "structural_cues": [
+              "Release in 110:1 precedes plural progressive movement in 110:2.",
+              "The final accusative describes the manner of entry, allowing distributed flow to color how the movement is imagined."
+            ],
+            "reader_inference": "The packet supplies rain, an issuing outlet, water carriage, a broad pass, and ingress; I align them as a hydrological analogy for cohort movement. The ordinary alternatives—victory, opening, direct sight, and human groups—remain primary lexical readings.",
+            "changed_reading": {
+              "before": "The groups are a static plural count.",
+              "after": "The groups form a released cascade, distributing through newly opened channels while remaining actual human cohorts entering the divine order."
+            }
+          },
+          {
+            "model_id": "D4_SPECTACLE_DECENTERED",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ب ح",
+              "ح م د"
+            ],
+            "mechanism": "A highly visible mass event can become an occasion for display or self-credit. The following acts of exoneration and praise redirect the witness away from possessing the spectacle and toward a response that clears the divine source and assigns praiseworthiness beyond the observer.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Introduces the live danger that public visibility can be converted into performance before people."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Supplies exoneration and transcendence as a corrective to appropriating the visible success."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B001",
+                "role": "Supplies explicit praise rather than blame and directs the event's evaluation."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B005",
+                "role": "Makes self-credit through a received favor a diagnostic counterpressure within the praise response."
+              }
+            ],
+            "structural_cues": [
+              "The imperative response follows immediately after the second-person act of seeing.",
+              "The witnessed multitude supplies an audience-like scene in which display and credit become structurally possible."
+            ],
+            "reader_inference": "The packet supplies public seeing, a branch of ostentation, exoneration, praise, and credit-taking; I infer that the response disciplines the witness's relation to spectacle. Alternatively, 110:3 may prescribe worship without diagnosing any temptation in the observer.",
+            "changed_reading": {
+              "before": "The witness surveys and celebrates a success available for personal possession.",
+              "after": "The witness is made answerable to what is seen: the crowd spectacle must be de-centered, exonerated from self-credit, and answered with praise."
+            }
+          },
+          {
+            "model_id": "D5_ENTRY_BEGINS_CULTIVATION",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The following address to lordship activates repair, nurture, completion, and growth. Joined to newcomers mixing into a habitual order, this makes boundary crossing the beginning of formation rather than proof that formation is finished.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B005",
+                "role": "Supplies newcomers mixing among a people, creating the social material that requires formation."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Makes durable habit the post-entry form that cannot be completed at the threshold."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Supplies repair, upbringing, and completion as the work that follows ingress."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped root adds feeding and growth, making formation organic and ongoing."
+              }
+            ],
+            "structural_cues": [
+              "The crowd is described in the act of entering, not as already settled.",
+              "The possessive address to the observer's Lord follows the influx and supplies a relation of continuing care."
+            ],
+            "reader_inference": "The packet supplies newcomer-mixing, habit, repair, completion, feeding, and growth; I infer a post-entry process of cultivation. A live alternative is that lordship governs only the observer's worship and says nothing about the entrants' subsequent formation.",
+            "changed_reading": {
+              "before": "Crossing into the religion is the completed outcome.",
+              "after": "Crossing is an intake point: successive newcomers enter a domain in which habit, repair, nurture, and completion still have to unfold."
+            }
+          },
+          {
+            "model_id": "D6_VISIBLE_SHELL_VULNERABLE_INTERIOR",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ف ر"
+            ],
+            "mechanism": "The request for protective covering after the visible influx intensifies the baseline split between appearance and interior. Entry exposes new inner relations and possible consequences; protective attention is needed precisely where sight alone might declare completion.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Supplies the visible surface that can make the event look self-evidently complete."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B003",
+                "role": "Supplies the inward and secret dimension created by entry."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B004",
+                "role": "Keeps latent interior disorder available as a risk, not as an accusation against the cohorts."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "Supplies a covering that protects what it encloses, turning forgiveness into protective care."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Adds protection from consequences and makes vulnerability live after the public threshold."
+              }
+            ],
+            "structural_cues": [
+              "The command to seek covering follows rather than precedes the visible mass entry.",
+              "Seeing and entering create an explicit surface/interior contrast across the focus construction."
+            ],
+            "reader_inference": "The packet supplies visible appearance, inwardness, latent disorder, and protective covering; I infer that success does not cancel vulnerability. The protection may concern the observer alone, the entrants, or the whole event, and the packet does not force one scope.",
+            "changed_reading": {
+              "before": "Visible mass entry is transparent evidence that nothing remains exposed or unresolved.",
+              "after": "Visible entry forms only the public shell of a vulnerable interior; the climax remains open to protective covering and release from consequences."
+            }
+          },
+          {
+            "model_id": "D7_ENTRY_AS_RECURRENT_RETURN",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك و ن",
+              "ت و ب"
+            ],
+            "mechanism": "Temporal occurrence, a summons toward repentance, continued preparedness, and the focus branch of bringing animals back for another watering create a return-loop. Entry can be reread as recurrent access and reorientation, not a single irreversible crossing.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B007",
+                "role": "Supplies a concrete pattern of being brought in again for another watering."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Translates repeated access into a sustained habitual orientation."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Places the event within temporal occurrence rather than outside process and duration."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ت و ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000189",
+                "branch_id": "B003",
+                "role": "Supplies an active summons for another to turn, making return relational rather than merely private."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "ت و ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B002",
+                "role": "The non-dominant mapped root contributes straightening, readiness, and continuation to the return-loop."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses progressive plural entry, while the closing predicate places receptivity across time.",
+              "The mapped split for the final context root allows return and continued preparedness to coexist without collapsing their inventories."
+            ],
+            "reader_inference": "The packet supplies re-entry for watering, habit, temporal presence, a summons to repent, and continued preparedness; I connect them as recurrent reorientation. The safer alternative is a one-time historical entry followed only by the observer's repentance.",
+            "changed_reading": {
+              "before": "Entry is a once-for-all crossing whose only meaningful direction is inward.",
+              "after": "Entry can initiate a repeated rhythm of access, turning, straightening, and continuation; the cohorts arrive, but their orientation remains renewable."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_OBSERVER_AS_MIRROR",
+            "confidence": "exploratory",
+            "containment": "This optical reading is surprising because it activates mirror and pupil branches rather than treating seeing as neutral reportage. It remains anchored in the focus pairing of seeing and people, and the following exoneration supplies an ethical check on vision. Render it only as a figuration of the observer's transformed visual field, not as a claim that the nouns lexically mean mirror or pupil here.",
+            "focus_anchor": "The direct object of seeing is the people, and two focus inventories permit the seen human image to occupy a reflective visual surface.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Contributes mirror and visible appearance, turning the witness's sight into a reflective surface."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "Contributes the human image in the eye, locating the multitude within the observer's visual field."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Makes exoneration the discipline applied to a perception that could otherwise center its human witness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The observer looks outward at a crowd that leaves the observer unchanged.",
+              "after": "The entering people fill and alter the observer's field of vision like an image in a mirror or pupil, so seeing becomes an ethically disciplined transformation of the witness."
+            }
+          },
+          {
+            "outlier_id": "O2_WIDE_PASS_INTO_ORDERED_CITY",
+            "confidence": "exploratory",
+            "containment": "This topographic-civic model is branch-distant because it lets the cohort root's wide-pass branch coexist with the ordinary human-group branch. It remains anchored in entry, the entered order, and the manner term, with the prior opening supplying a real threshold mechanism. Render it as spatial-social analogy, never as a replacement translation of the cohort term.",
+            "focus_anchor": "The focus arranges people, entering, an ordered domain, and the cohort term along a single path-like construction.",
+            "activation_trace": [
+              {
+                "source_ref": "110:1",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Supplies the opening and widening of an approach before the movement begins."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B002",
+                "role": "Contributes a broad passage between raised boundaries as the geometry of mass ingress."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Anchors the topography in actual crossing from outside to inside."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "Supplies the ordered city as a social interior organized by authority and obedience."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Preserves the primary human-cohort sense within the spatial analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final term only quantifies how many people arrive.",
+              "after": "The cohorts also disclose the geometry of incorporation: an opened broad approach conducts human groups into an ordered civic-religious interior."
+            }
+          },
+          {
+            "outlier_id": "O3_WHOLE_CROWD_UNDER_COVER",
+            "confidence": "medium",
+            "containment": "This reading is surprising because a later covering root carries a remote branch for the whole crowd. It remains anchored in the focus's people and cohorts and in the immediate request for protective covering. Render it as a scope-expanding resonance—every visible group and hidden interior falls under care—not as an etymological equation between crowd and forgiveness.",
+            "focus_anchor": "The focus presents the people distributively as cohorts, while the following covering inventory can reassemble them as a total crowd.",
+            "activation_trace": [
+              {
+                "source_ref": "110:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Supplies the manifest human total whose members are entering."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "ف و ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001184",
+                "branch_id": "B001",
+                "role": "Distributes that total into successive groups without erasing their collectivity."
+              },
+              {
+                "source_ref": "110:2",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B003",
+                "role": "Keeps each entrant's hidden interior within the scope of the crowd scene."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B008",
+                "role": "Reassembles the successive cohorts as the crowd in its entirety."
+              },
+              {
+                "source_ref": "110:3",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "Places that entire collectivity, including unseen interiors, under a protective covering."
+              }
+            ],
+            "changed_reading": {
+              "before": "The influx is viewed as separable batches whose significance ends at their visible arrival.",
+              "after": "Successive batches are gathered into a whole crowd under protective care, extending attention from public numbers to every concealed interior."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The prior arrival and opening turn observed entry into an enabled threshold event rather than spontaneous crowd motion.",
+            "Aid and repeated divine attribution shift ownership of the spectacle away from both entrants and observer without erasing human movement.",
+            "The following cultivation, covering, and return cues make entry a vulnerable beginning that requires formation and renewal, not a finished endpoint.",
+            "The focus itself sustains a tension between public visibility and hidden interior condition."
+          ],
+          "what_was_special": "The trace stayed with multiple mechanisms at once: causal opening, redistributed agency, social incorporation, optical asymmetry, post-entry cultivation, protective covering, and recurrent return. Non-dominant mapped roots also released coherent but contained water-flow and growth continuities that a conservative reading would likely suppress.",
+          "remaining_uncertainties": [
+            "The opening may function spatially, as victory or judgment, or in more than one mode; the packet does not force a single mechanism.",
+            "The scope of protective covering after the influx may be the observer, the entrants, or the event as a whole.",
+            "The hydrological, optical, and recurrent-watering readings are branch-backed analogies and should remain explicitly exploratory rather than substitute translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Mass entry as the visible proof that the opening has worked.** Lexical evidence: `ر ء ي` B001, seeing by eye or insight; `ر ء ي` B012, showing/making seen; `د خ ل` B001, entering; `د ي ن` B001, obedience/religion; `ف و ج` B001, group after group; activated by `ف ت ح` B001/B006, opened aperture/key. Structural cue: 110:1 names opening; 110:2 gives sight, people, entering, dīn, and groups in one chain. Assigned role: vision verifies; people are the moving body; entry is the boundary-crossing; dīn is the interior domain; groups show repeated passage through the opened access. Abductive move: I infer that seeing is not incidental but evidentiary: the opened way is known by the traffic through it. Reading change: the ayah reads not just as \"many people join,\" but as the empirical disclosure of a newly passable divine domain.\n\n2. **Entering dīn as entering ordered authority, not only private belief.** Lexical evidence: `د ي ن` B001, obedience/submission/religion; `د ي ن` B006, city/place of ordered authority; `د ي ن` B002, reckoning/recompense; `ر ب ب` B001, lordship/ownership/authority; `ن ص ر` B001, aid that makes prevail; `ف ت ح` B003, judgment. Structural cue: 110:2 says \"dīn of Allah\" after \"help of Allah\"; 110:3 addresses \"your Lord\" and forgiveness. Assigned role: dīn is the governed order entered; lordship names the authority of that order; judgment/reckoning keeps entry from being merely social affiliation. Abductive move: I infer that collective entry into dīn creates a civic-juridical space with obligations and reckoning. Reading change: \"في دين الله\" reads as entering God's ordered jurisdiction, not merely adopting an identity label.\n\n3. **The groups as waves, tributaries, or herds moving through opened space.** Lexical evidence: `ف و ج` B001, successive groups; `ف و ج` B002, wide opening/stretch; `ن ص ر` B007, tributary watercourses coming from afar; `ف ت ح` B005, water released from an opening; `د خ ل` B007, bringing camels back to water; `ن و س` B002, driving camels; `ر ب ب` B014, gathered herd. Structural cue: \"أفواجا\" sits at the end of the entry line, after the opening in 110:1 and before ritual regulation in 110:3. Assigned role: the branch network turns the groups into mobile batches, either water-like tributaries or pastoral bodies guided toward a trough/interior. Abductive move: I supply the movement-model that turns separate branch images into one process: opened access produces repeated incoming bodies needing guidance. Reading change: the ayah gains a kinetic texture; the people are not a static crowd but successive flows requiring channeling.\n\n4. **Seeing the people also tests the danger of public display.** Lexical evidence: `ر ء ي` B005, showing off before people; `س م و` B008, good repute spread; `ح م د` B005, claiming praise by favor; `س ب ح` B002, declaring God free; `ح م د` B001, praise/thanks. Structural cue: 110:2 centers the addressee's seeing of people, then 110:3 immediately orders praise of the Lord and seeking forgiveness. Assigned role: the public spectacle activates the risk of reputational self-credit; tasbīḥ and ḥamd redirect the visible success away from the human observer. Abductive move: I infer a moral danger from the packet's sequence: seeing crowds after victory can convert divine help into human glory unless corrected. Reading change: \"ورأيت الناس\" is not neutral observation only; it becomes a temptation-point that requires the corrective worship of 110:3.\n\n5. **Entry into the interior exposes the need for inward repair.** Lexical evidence: `د خ ل` B003, inner side/hidden interior; `د خ ل` B004, hidden defect/deceit; `غ ف ر` B001/B002, covering and forgiveness; `ت و ب` B003, calling to repent/return; `ر ب ب` B002, repair, nurture, completion. Structural cue: the line says people enter; the following line commands seeking forgiveness and names divine tawwāb. Assigned role: entry is not only admission into an interior but exposure of interiors; forgiveness covers defects; lordly nurture repairs what entry reveals. Abductive move: I infer that mass entry brings unprocessed inward states into the dīn, so the next action must be protective repair rather than celebration alone. Reading change: the ayah reads as a pastoral burden: new entrants bring hidden interiors that must be received, covered, and nurtured.",
@@ -21974,14 +22890,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s110/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 38,
+        "ayah_count": 3,
+        "row_count": 31,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -22130,10 +23052,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s110/packets/110_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s110/readers/reader_hft_a/110_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s110"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s110",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 98683,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

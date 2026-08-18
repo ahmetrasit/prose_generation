@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:25.276462+00:00",
+  "generated_at": "2026-08-18T13:34:33.156710+00:00",
   "surah": 105,
   "ayah": 3,
   "ayahRef": "105:3",
@@ -1411,7 +1411,8 @@
       "morpheme_ids": [
         "m-w-s105-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:3:1"
+      "aligned_qac_word_ref_upstream": "105:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1425,7 +1426,8 @@
       "morpheme_ids": [
         "m-w-s105-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:3:2"
+      "aligned_qac_word_ref_upstream": "105:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1441,7 +1443,8 @@
         "m-w-s105-a003-w002-01",
         "m-w-s105-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:3:3"
+      "aligned_qac_word_ref_upstream": "105:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1455,7 +1458,8 @@
       "morpheme_ids": [
         "m-w-s105-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:3:4"
+      "aligned_qac_word_ref_upstream": "105:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1469,7 +1473,8 @@
       "morpheme_ids": [
         "m-w-s105-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:3:5"
+      "aligned_qac_word_ref_upstream": "105:3:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3000,7 +3005,1152 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s105/packets/105_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "105:3",
+      "window": [
+        "105:1",
+        "105:2",
+        "105:3",
+        "105:4",
+        "105:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ف ع ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001167",
+              "furuq_root_norm": "ف ع ل",
+              "furuq_source_root_norm": "ف ع ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 108,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000007",
+              "furuq_root_norm": "ء ب و",
+              "furuq_source_root_norm": "أ ب و",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ك ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000043",
+              "furuq_root_norm": "ء ك ل",
+              "furuq_source_root_norm": "أ ك ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 79,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001315",
+              "furuq_root_norm": "ك ل ل",
+              "furuq_source_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 30,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "105:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_dispatched_airborne_agency",
+            "confidence": "strong",
+            "focus_anchor": "The causative dispatch verb, the adversarial/overhead relation in عَلَيْهِمْ, and the collective bird expression make agency, vector, and formation visible inside 105:3.",
+            "mechanism": "A sender releases a light airborne collective against a target, while the banded modifier prevents the birds from reading as an undifferentiated mass.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release and dispatch supply the initiating transfer from sender to target."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Airborne lightness supplies the mobile medium of the intervention."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Separate or successive bands organize the airborne collective into deployable units."
+              }
+            ],
+            "changed_reading": {
+              "before": "He simply sent birds against them.",
+              "after": "He released an airborne agency against them in organized bands, so deployment geometry belongs to the act itself."
+            }
+          },
+          {
+            "model_id": "base_pulsed_distributed_swarm",
+            "confidence": "medium",
+            "focus_anchor": "The focus verse combines a dispatch root that can mark batch succession, a flight root that can mark scattering, and an adjective of separate or successive groups.",
+            "mechanism": "Temporal succession and spatial dispersion coexist: fresh bands can arrive one after another while each band spreads, producing resilient coverage rather than one concentrated flock.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Successive batches give the dispatch a pulsed temporal structure."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Light scattering gives each pulse a spreading spatial behavior."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Scattered and successive groups couple the temporal and spatial readings."
+              }
+            ],
+            "changed_reading": {
+              "before": "A single flock arrives as one event.",
+              "after": "The intervention unfolds as repeated, distributed swarm pulses whose sequence and spread are both operative."
+            }
+          },
+          {
+            "model_id": "base_embodied_message",
+            "confidence": "exploratory",
+            "focus_anchor": "The same focus verb that dispatches forces also carries messenger/message imagery, and its object is a conspicuously patterned airborne collective.",
+            "mechanism": "The birds can remain physical agents while their ordered arrival also functions as a carried communication: the intervention makes the sender's agency legible through embodied messengers.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and carried-message imagery opens a communicative dimension within dispatch."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Visible airborne movement gives the communication an embodied carrier."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Ordered bands make the carried sign repeatable and publicly patterned."
+              }
+            ],
+            "changed_reading": {
+              "before": "The birds are only instruments sent to act.",
+              "after": "The birds are instruments whose patterned arrival also bears a message of the sender's intervention."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_visible_narratable_message",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The opening appeal to seeing and showing, together with the split root's report-transmission branch, strengthens the focus-only message model: the dispatched formation is an event made perceptible and retellable.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "The messenger/message branch supplies the communicative potential being strengthened."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Airborne visibility gives the message a perceptible public form."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Showing and making visible frame the later dispatch as disclosed evidence."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "Rhetorical alert and inquiry recruit the hearer to inspect how the intervention appears."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch of transmitting a report adds narratability to visibility."
+              }
+            ],
+            "structural_cues": [
+              "105:1 opens with a negated interrogative appeal to seeing, while branchless ك ي ف at word 3 asks after manner; together they frame the later dispatch as demonstrative evidence without supplying a branch citation."
+            ],
+            "reader_inference": "The packet supplies showing, rhetorical inspection, report transmission, and a focus messenger branch; I infer that the physical deployment also communicates agency. A live alternative is that the seeing frame applies only to the whole episode and the birds remain purely instrumental.",
+            "changed_reading": {
+              "before": "The patterned flock is an unusual physical means.",
+              "after": "The patterned flock is also the visible and narratable signature through which the intervention becomes knowable."
+            }
+          },
+          {
+            "model_id": "ctx_governed_deliberate_deployment",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ع ل",
+              "ر ب ب"
+            ],
+            "mechanism": "Action explicitly attributed to sovereign, completing governance retroactively colors the dispatch as a controlled operation; deliberate pacing and successive bands look coordinated rather than spontaneous.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B004",
+                "role": "Deliberate, unhurried proceeding supplies controlled tempo to the dispatch."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Successive bands provide the units over which coordination can operate."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act marks the episode as effected action, not mere occurrence."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and mastery supply a command structure for the effected action."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Ordering toward completion supplies process-control rather than a merely initiating command."
+              }
+            ],
+            "structural_cues": [
+              "The compact sequence فَعَلَ رَبُّكَ in 105:1 binds the deed directly to its governing agent before 105:3 names the dispatched means."
+            ],
+            "reader_inference": "The packet supplies effected action, sovereignty, completion, deliberate pace, and banded units; I infer a coordinated operation with controlled timing. The alternative is a spontaneous flock whose timing is not semantically foregrounded.",
+            "changed_reading": {
+              "before": "A flock happens to be sent into the scene.",
+              "after": "A governing agent deploys successive units with controlled timing as part of a completed operation."
+            }
+          },
+          {
+            "model_id": "ctx_formation_asymmetry",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ف ي ل"
+            ],
+            "mechanism": "The target is named as a cohesive companion-group organized around one elephant, whereas the attacking collective is scattered into many bands; the encounter can therefore be read as concentrated formation answered by distributed formation.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spreading after lightness gives the attacking side decentralized spatial reach."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Separate bands make that reach a formation rather than random dispersal."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and sustained association construe the target as a cohesive company."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies the singular heavy center around which that company is named."
+              }
+            ],
+            "structural_cues": [
+              "The plural companions are defined by a singular elephant in 105:1, while the plural target pronoun in عَلَيْهِمْ is met by the banded collective of 105:3."
+            ],
+            "reader_inference": "The packet supplies target cohesion around a singular animal and attacker dispersion into bands; I infer opposing organizational geometries. The alternative is that both expressions merely identify participants and carry no tactical contrast.",
+            "changed_reading": {
+              "before": "Birds attack the people associated with an elephant.",
+              "after": "A decentralized airborne formation is set against a concentrated company organized around one heavy center."
+            }
+          },
+          {
+            "model_id": "ctx_counterplan_state_conversion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ك ي د",
+              "ض ل ل"
+            ],
+            "mechanism": "The preceding verse announces a conversion of a forcefully worked scheme into deviation and loss; 105:3 then supplies the distributed operational means, turning the birds into the causal hinge between plan and failed state.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch supplies the intervening action that can connect an initial plan to a changed outcome."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spatial spread supplies a distributed counter-pattern rather than one point of resistance."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Successive bands make the counter-pattern persistent across more than one wave."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-transformation supplies the before-to-after architecture of the counteraction."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Strategic contrivance supplies the organized plan that is being countered."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from aim supplies failure as loss of intended direction."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss of the thing itself intensifies failed direction into dissolution of the plan."
+              }
+            ],
+            "structural_cues": [
+              "105:2 states the failed-plan result before 105:3 reveals the dispatched means, and the phrase فِى تَضْلِيلٍ construes the scheme as placed inside a failure-state."
+            ],
+            "reader_inference": "The packet supplies a scheme, its conversion into deviation/loss, and a later distributed dispatch; I supply the causal arrow that the birds instantiate that conversion. A live alternative is that both are parallel divine acts and the verse does not foreground mechanics.",
+            "changed_reading": {
+              "before": "Birds are an added punishment after a plan has already failed.",
+              "after": "The distributed dispatch is the operational hinge by which an organized plan is converted into misdirection and loss."
+            }
+          },
+          {
+            "model_id": "ctx_two_stage_payload_relay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر"
+            ],
+            "mechanism": "The release in 105:3 is repeated at a second scale by throwing in 105:4: the sender releases airborne carriers, then the carriers release hard payloads, creating a nested delivery chain.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Primary dispatch launches the carriers into the target relation."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Airborne mobility supplies the intermediate transport layer."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Sending by throwing repeats release from carrier to target at the payload stage."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Solid stone supplies the hard payload whose motion completes the relay."
+              }
+            ],
+            "structural_cues": [
+              "The singular feminine تَرْمِي in 105:4 can continue the collective طَيْر subject, and its attached target pronoun preserves the same recipient as عَلَيْهِمْ."
+            ],
+            "reader_inference": "The packet supplies primary dispatch, airborne carriers, secondary throwing, and solid payload; I infer a two-stage transport arrow. The alternative is a simpler predication in which no relay architecture is foregrounded.",
+            "changed_reading": {
+              "before": "The birds themselves are the complete sent instrument.",
+              "after": "The birds are a mobile middle layer in a sender-to-carrier-to-payload-to-target delivery chain."
+            }
+          },
+          {
+            "model_id": "ctx_poured_saturation_cascade",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر م ي",
+              "س ج ل"
+            ],
+            "mechanism": "The baseline's successive bands gain a delivery profile from cloud-like casting and the pouring of a full bucket: repeated units can produce a cascading saturation rather than isolated drops.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Batch succession provides repeated release events."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Successive and scattered bands distribute those events across the formation."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "Cloud-like casting of pieces or drops supplies an aerial precipitation analogy."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "A full bucket pouring out supplies volume and cascading discharge."
+              }
+            ],
+            "structural_cues": [
+              "The immediate continuation from banded birds in 105:3 to their repeated throwing in 105:4 lets group succession govern payload succession."
+            ],
+            "reader_inference": "The packet supplies repeated bands, cloud-like casting, and full-bucket pouring; I infer a saturation profile produced by their combination. The live alternative is a finite series of discrete projectiles with no rain-like system behavior.",
+            "changed_reading": {
+              "before": "Several groups of birds throw individual objects.",
+              "after": "Successive aerial units generate a distributed, pouring cascade whose cumulative coverage is the operative force."
+            }
+          },
+          {
+            "model_id": "ctx_mobile_cordon",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر"
+            ],
+            "mechanism": "Scattered bands can occupy multiple approaches while the stone root activates prevention, enclosure, and a circle around something; throwing then reads not only as impact but as enforcement of a moving perimeter.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spreading supplies the spatial reach needed to cover more than one route."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Separate bands turn spread into distributed positions around the target."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Throwing supplies the active enforcement from those positions."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prevention and enclosure recast the payload as route-denial as well as impact."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B006",
+                "role": "A circle around something supplies the perimeter geometry."
+              }
+            ],
+            "structural_cues": [
+              "عَلَيْهِمْ positions the airborne collective over/against the plural target, and 105:4 repeats the same target pronoun while naming the projected material."
+            ],
+            "reader_inference": "The packet supplies spread, separate bands, throwing, prevention, and circular enclosure; I infer area denial and a mobile cordon. The alternative is that the enclosure branches remain dormant and stone denotes only projectile material.",
+            "changed_reading": {
+              "before": "The flock strikes a target from above.",
+              "after": "The flock also occupies and enforces surrounding space, converting aerial spread into a mobile cordon that closes routes."
+            }
+          },
+          {
+            "model_id": "ctx_material_state_change",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ع ص ف",
+              "ء ك ل"
+            ],
+            "mechanism": "The final verse supplies a transformation endpoint—cohesive persons become fragmented, consumed or corroded plant residue—so the distributed dispatch in 105:3 becomes the causal middle of a material disassembly process.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch initiates the process that connects the intact target to its altered state."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Scattering supplies distributed contact across the target rather than one local blow."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Repeated bands sustain the distributed process through successive applications."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something enter a new state supplies the explicit transformation operator."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Fragmented crop husk supplies the low-cohesion material endpoint."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Corrosion and decay specify degradation rather than mere displacement."
+              }
+            ],
+            "structural_cues": [
+              "The sequential فَ of 105:5 and the continuing plural object pronoun preserve the target across the operation; repeated ج ع ل in 105:2 and 105:5 brackets the dispatch between two state descriptions."
+            ],
+            "reader_inference": "The packet supplies dispatch, distributed contact, explicit transformation, fragmentation, and decay; I infer that the birds mediate the state change. The alternative is that the final making is independently direct and 105:3-4 merely precede it.",
+            "changed_reading": {
+              "before": "The verse introduces creatures that attack and then leave a result.",
+              "after": "The verse introduces a distributed processing layer that converts a cohesive host into fragmented, degraded matter."
+            }
+          },
+          {
+            "model_id": "ctx_avian_weather_system",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر م ي",
+              "س ج ل",
+              "ع ص ف"
+            ],
+            "mechanism": "Airborne scattering, cloud-like casting, full-volume pouring, and wind-scattered residue align into a weather-system analogy: discrete birds remain present, but their collective behavior is storm-like.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release of persons or forces allows the dispatched collective to function as an impersonal-seeming force."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Airborne spread supplies the broad moving field of the analogy."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "A cloud casting pieces or drops directly activates precipitation-like delivery."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "Fullness pouring down supplies storm volume and downward discharge."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B002",
+                "role": "A severe wind scattering things supplies the storm's dispersive aftermath."
+              }
+            ],
+            "structural_cues": [
+              "The sequence flies, throws downward, then leaves scattered plant matter, allowing the adjacent verses to trace a storm-like path from atmosphere to ground effect."
+            ],
+            "reader_inference": "The packet supplies airborne spread, a cloud-dropping image, pouring, and wind-scattered residue; I infer one coherent meteorological analogy across them. The live alternative is the straightforward zoological scene of birds carrying discrete stones.",
+            "changed_reading": {
+              "before": "Many birds execute many small deliveries.",
+              "after": "The banded birds collectively behave like a moving storm system whose aerial field, discharge, and scattered aftermath form one mechanism."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "out_light_medium_heavy_burden",
+            "confidence": "medium",
+            "containment": "The collision is surprising because flight contributes lightness while a distant branch of the banding adjective contributes oppressive weight or liability. It remains anchored in two explicit focus inventories and in عَلَيْهِمْ, but downstream prose should present it as a paradoxical force-image, not as an alternate lexical gloss for the adjective.",
+            "focus_anchor": "The focus places a light airborne collective over/against the target and qualifies it with a root whose inventory includes heaviness and burden.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch transfers the paradoxical force onto the target."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Flight supplies physical lightness and mobility."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B004",
+                "role": "Heaviness, liability, and oppressive burden supply the effect imposed by the light medium."
+              }
+            ],
+            "changed_reading": {
+              "before": "Light birds are unlikely carriers of overwhelming force.",
+              "after": "The verse stages a reversal in which what is physically light becomes an oppressive weight upon the target."
+            }
+          },
+          {
+            "outlier_id": "out_airborne_herd_logic",
+            "confidence": "exploratory",
+            "containment": "This is surprising because camel-herd and smooth-animal branches are transferred into an avian scene. It remains focus-anchored through the mapped inventory of أبابيل and the dispatch verb, but it should be rendered only as an organizational analogy—birds moving with herd or convoy logic—not as an identification of the birds with camels.",
+            "focus_anchor": "All three focus roots converge on mobile animals organized and released as collectives.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B003",
+                "role": "Smooth-moving animals supply coordinated, easy collective motion."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Bird flight relocates that collective-motion analogy into the air."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "Herd abundance and skilled tending supply convoy-like organization."
+              }
+            ],
+            "changed_reading": {
+              "before": "The birds form exceptional but otherwise ordinary flocks.",
+              "after": "The airborne bands can be imagined as a herded convoy in the sky, released with the coordinated logic of tended animal groups."
+            }
+          },
+          {
+            "outlier_id": "out_cultivated_cohort",
+            "confidence": "exploratory",
+            "containment": "The activation is form-distant because it uses the non-dominant mapped target of ف ع ل and combines its upbringing branch with lordly completion and the focus's herd-tending imagery. It is still anchored in deliberate dispatch and band organization, but downstream prose must call it a training/coordination analogy and must not claim that the surface فَعَلَ lexically means fathering here.",
+            "focus_anchor": "The focus verb can mark deliberate pace, and its grouped object has an inventory branch of skilled herd tending.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B004",
+                "role": "Deliberate pace supplies disciplined execution."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "Skilled tending of abundant herds supplies managed-cohort organization."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The split mapping's fathering and upbringing branch activates cultivation rather than spontaneous assembly."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, ordering, and completing supply the trajectory toward coordinated readiness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The groups are assembled only at the moment of dispatch.",
+              "after": "Exploratorily, the groups read as a cultivated cohort whose readiness and discipline precede their release."
+            }
+          },
+          {
+            "outlier_id": "out_inscribed_material_message",
+            "confidence": "exploratory",
+            "containment": "The reading is surprising because it joins the message branch of dispatch to the record/book branch of س ج ل and then materializes that record in thrown stone. The chain remains anchored in the focus verb and the immediately following payload construction, but it should be qualified as a juridical or communicative metaphor, not as a claim about literal writing on the stones.",
+            "focus_anchor": "The focus dispatch verb admits carried-message imagery, and its airborne carriers continue syntactically into the throwing action.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message imagery makes the dispatched birds potential bearers of a pronouncement."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Throwing delivers the pronouncement as an event rather than speech alone."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone gives the delivered message irreversible material force."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "A gathering and fixing record supplies the image of an inscribed or settled verdict."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carriers deliver only destructive material.",
+              "after": "Their hard delivery can also be carried as a materialized, settled pronouncement whose impact enacts its message."
+            }
+          },
+          {
+            "outlier_id": "out_mobility_exhausts_mass",
+            "confidence": "exploratory",
+            "containment": "This cross-window reading is surprising because it activates weakness within the elephant root and fatigue or hesitation within the non-dominant mapping of مَأْكُول. It remains anchored in the focus contrast between light mobile bands and their heavy target, but prose should mark it as an abductive dynamics model, not as the direct lexical meaning of either contextual surface.",
+            "focus_anchor": "The focus foregrounds light airborne mobility deployed in repeated groups against the company named around the elephant.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Airborne lightness supplies mobility and low inertia."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Successive groups sustain pressure without concentrating the mobile force."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Relaxation and weakness expose latent vulnerability inside the root naming the heavy center."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B001",
+                "role": "Fatigue and loss of sharpness supply degradation of capacity before total material ruin."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B010",
+                "role": "Suspension between advancing and holding back supplies stalled momentum."
+              }
+            ],
+            "changed_reading": {
+              "before": "Small flying agents overcome a massive target by direct damage alone.",
+              "after": "Exploratorily, repeated mobility first drains sharpness and arrests the heavy formation's momentum, with material destruction as the terminal state."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only reading changed from generic sending to a pulsed, spatially distributed deployment architecture.",
+            "The preceding failed-plan verse recast the flock as the causal hinge that converts organized strategy into deviation and loss.",
+            "The following throwing verse exposed a nested carrier-payload relay, with live saturation and containment variants.",
+            "The final transformation verse recast the flock as a distributed material process that ends in fragmentation and decay."
+          ],
+          "what_was_special": "The focus roots supported simultaneous logistical, communicative, spatial, and material readings. Split mappings added a narratable-evidence reading and carefully contained training/exhaustion outliers, while the lightness-versus-burden collision preserved a paradox a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "أَبَابِيل may foreground temporal succession, spatial separation, or both; the packet keeps all three possibilities live.",
+            "The messenger/message model may be a real functional layer of dispatch or only a retrospective metaphor activated by the seeing frame.",
+            "The mobile-cordon and avian-weather models are coherent across adjacent branches, but their directional mechanics are reader-supplied.",
+            "Non-dominant split-root activations are packet-licensed yet form-distant and therefore require explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Release in ordered waves.** Lexical evidence: ر س ل B001, being sent forth and released; ر س ل B005, succession in batches; ط ي ر B001, airborne lightness and birds; ء ب ل B003, successive or scattered groups. Structural cue: \"أرسل\" is immediately followed by \"طيرا أبابيل\", and the branch inventories for ر س ل and ء ب ل both contain successive group movement. Assigned role: ر س ل supplies the dispatch; طير supplies the airborne medium; أبابيل supplies the batch-pattern. Abductive move: I infer that the sending is not just release but controlled sequencing; the packet supplies the repeated batch semantics. Reading change: the ayah reads as a patterned deployment, not merely \"birds were sent.\"\n\n2. **The sky-herd countering the elephant-company.** Lexical evidence: ء ب ل B001, camels and their tending/herds; ء ب ل B003, successive/scattered groups; ف ي ل B004 in 105:1, elephant; ص ح ب B001 in 105:1, companionship and close association; ر ب ب B014 in 105:1, herd or gathered wild cattle. Structural cue: 105:1 names a ground animal and its human company; 105:3 names airborne animals in grouped succession. Assigned role: ء ب ل B001/B003 lets \"أبابيل\" carry herd/group resonance as well as the surface descriptor of scattered bands. Abductive move: I infer an animal-social inversion: the elephant-company is met by another kind of company, a dispersed sky-herd. Reading change: \"طيرا أبابيل\" becomes a counter-formation to \"أصحاب الفيل\", not just a species plus adjective.\n\n3. **Message-bearing dispatch.** Lexical evidence: ر س ل B002, messenger and message; س ج ل B004 in 105:4, the record that gathers and secures; ر ء ي B012/B013 in 105:1, showing/alerting; ف ع ل B001 in 105:1, bringing an act into being. Structural cue: the sent birds are followed by stones \"من سجيل\", whose root inventory includes record/deed, and the whole sequence is introduced as something to see. Assigned role: ر س ل B002 makes the sent element potentially communicative; سجل B004 supplies what can be \"record-like\" or secured; رأي supplies the audience of the sign. Abductive move: I infer that the birds carry not merely impact but a readable verdict; the packet supplies sending, seeing, and record branches, while I supply the message relation. Reading change: the birds read as envoys of a legible act, not only as weapons.\n\n4. **Scattering that defeats concentrated plotting.** Lexical evidence: ط ي ر B002, spreading as if flying loose; ء ب ل B003, scattered/successive groups; ك ي د B002 in 105:2, plotting and stratagem; ض ل ل B001/B003 in 105:2, deviation and loss. Structural cue: the compact noun \"كيدهم\" is followed by distributed plural movement from above. Assigned role: the bird branches supply dispersion; the plot branches supply concentrated intent. Abductive move: I infer that distributed movement breaks the plot's ability to coordinate; the packet supplies scattering and lost aim, but I supply the interference mechanism. Reading change: the ayah becomes the spatial means by which their كيد enters تضليل.",
@@ -12359,14 +13509,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s105/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 43,
+        "ayah_count": 5,
+        "row_count": 36,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12658,10 +13814,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s105/packets/105_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s105/readers/reader_hft_a/105_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s105"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s105",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 86511,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

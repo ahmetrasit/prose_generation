@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.940102+00:00",
+  "generated_at": "2026-08-18T13:33:35.346418+00:00",
   "surah": 88,
   "ayah": 14,
   "ayahRef": "88:14",
@@ -1122,7 +1122,8 @@
       "morpheme_ids": [
         "m-w-s088-a014-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:14:1"
+      "aligned_qac_word_ref_upstream": "88:14:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1136,7 +1137,8 @@
       "morpheme_ids": [
         "m-w-s088-a014-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:14:2"
+      "aligned_qac_word_ref_upstream": "88:14:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1150,7 +1152,8 @@
       "morpheme_ids": [
         "m-w-s088-a014-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:14:3"
+      "aligned_qac_word_ref_upstream": "88:14:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2414,7 +2417,888 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_14.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:14",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:14",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-ready-drinking-stations",
+            "confidence": "strong",
+            "focus_anchor": "The plural أَكْوَابٌ and passive participle مَّوْضُوعَةٌ join drinking vessels to a completed act of deliberate placement.",
+            "mechanism": "Handleless cups require direct bodily approach, while setting each object in a determined place removes fetching and preparation from the drinker's side. The line depicts readiness for use rather than a still-life inventory.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless drinking-vessel image identifies an object meant for direct access and use."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting something down in its determined place supplies the completed preparation that makes the cups ready."
+              }
+            ],
+            "changed_reading": {
+              "before": "Cups are simply present.",
+              "after": "Handleless drinking vessels have already been stationed where use can begin without retrieval or further preparation."
+            }
+          },
+          {
+            "model_id": "baseline-configured-service-array",
+            "confidence": "medium",
+            "focus_anchor": "The plural vessel noun is qualified by a placement participle, allowing plurality to be read as a configured arrangement.",
+            "mechanism": "The attachment image in ك و ب makes the many units compositional, and the assigned-place image in و ض ع gives each unit a station. Together they support a service array rather than an accidental heap.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B004",
+                "role": "Attaching one part upon another makes the vessel plurality available as a coordinated configuration."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B006",
+                "role": "Loads or persons assigned to a fixed place supply the functional image of each cup occupying a service station."
+              }
+            ],
+            "changed_reading": {
+              "before": "Several cups have been put somewhere.",
+              "after": "The cups form a deliberately configured plurality in which placement assigns each vessel a role within an accessible array."
+            }
+          },
+          {
+            "model_id": "baseline-entrusted-hospitality",
+            "confidence": "exploratory",
+            "focus_anchor": "The vessel root can foreground drinking as an act, while the placement root can carry the image of leaving a deposit with another.",
+            "mechanism": "The objects are not only prepared but handed over: placement transfers drinking capacity into another's reach or keeping. Hospitality is therefore rendered as relinquished control over a usable provision.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B005",
+                "role": "Drinking by means of the cup turns the displayed noun toward the act it enables."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B010",
+                "role": "Depositing something with another recasts completed placement as a transfer of usable provision."
+              }
+            ],
+            "changed_reading": {
+              "before": "The cups belong to the decor of the scene.",
+              "after": "The cups are provision deliberately relinquished into the beneficiary's reach, making hospitality a transfer rather than a display."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-administered-versus-offered-drink",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ق ي",
+              "ع ي ن",
+              "ء ن ي"
+            ],
+            "mechanism": "The earlier drink scene couples being made to drink with a spring and a content that has reached an extreme state. Against that apparatus, the focus ayah relocates drinking into vessels already set down. The changed variable is agency: imposed intake from a source becomes unforced access to prepared portions.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B005",
+                "role": "Drinking from a cup anchors the revised model in the use latent in the focus object."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Completed placement makes the favorable drink available before any action is demanded of its recipient."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving someone drink supplies the contrasting causative relation in which intake is administered."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing water source supplies an undivided origin from which the earlier recipients are made to drink."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "ء ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000063",
+                "branch_id": "B003",
+                "role": "Reaching full maturity or limit sharpens the source's extreme condition against the neutral readiness of the placed cups."
+              }
+            ],
+            "structural_cues": [
+              "88:4-5 forms a fire-to-administered-drink sequence, whereas 88:14 is a verbless display of already prepared objects.",
+              "The same ع ي ن source-slot recurs at 88:12 before the cups, allowing the two drink environments to be compared without equating them."
+            ],
+            "reader_inference": "The packet supplies administered drinking, a water source, extremity, cup-use, and completed placement; I infer that their opposed grammatical agencies are contrastive. A live alternative is that the scenes contrast only contents and outcomes, with no intended agency contrast.",
+            "changed_reading": {
+              "before": "The set cups merely add a pleasant counterpart to an earlier unpleasant drink.",
+              "after": "The cups reverse the earlier drink mechanism: coercive delivery from an extreme source gives way to portioned drink made available without compulsion."
+            }
+          },
+          {
+            "model_id": "delta-downward-service-in-high-estate",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج ه",
+              "ن ع م",
+              "ع ل و"
+            ],
+            "mechanism": "A low-rank or humbling branch of the focus placement word is activated between persons in good condition and a high garden. The apparent contradiction resolves functionally: persons are elevated while service objects descend into reach. Lowness becomes accommodation rather than degradation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless vessel makes bodily reach especially relevant to where the object is lowered or placed."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B005",
+                "role": "Lowness of rank and humility supplies a social-vertical shadow to the cups' physical placement."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face standing for the whole person identifies the beneficiaries whose position is being contrasted with the objects."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and beneficence supply the recipients' favorable estate."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Elevation of rank lets the garden's height operate socially as well as spatially."
+              }
+            ],
+            "structural_cues": [
+              "88:8 names the persons before 88:10 names the high setting and 88:14 names the placed service objects.",
+              "The passive participle leaves the placing agent unexpressed, foregrounding the completed accommodation rather than command."
+            ],
+            "reader_inference": "The packet supplies favorable persons, elevation, handleless cups, and a lowness branch of placement; I infer a service relation in which objects are lowered so recipients need not lower themselves. The ordinary alternative is simple location with no social inversion.",
+            "changed_reading": {
+              "before": "Placed means only that the cups occupy a location.",
+              "after": "Within a high estate, the cups' downward placement performs service: status rises for the persons while useful objects are made low and reachable."
+            }
+          },
+          {
+            "model_id": "delta-hydraulic-furnishing-topology",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر ي",
+              "س ر ر",
+              "ر ف ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "The sequence around 88:14 moves from continuous flow to resting places raised, cups stationed, cushions aligned, and carpets dispersed. The cups become transfer nodes between a resource and bodies at rest; their placement mediates vertical elevation and horizontal distribution.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B005",
+                "role": "Cup-mediated drinking gives the central objects a transfer function rather than a merely decorative one."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B006",
+                "role": "Assignment to a determined station makes each cup a node in the surrounding arrangement."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision or supply gives the upstream flow a sustaining function that the cups can portion."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settled rest identifies the bodies and activity around which the service nodes are arranged."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Physical raising supplies the vertical coordinate immediately before the focus placement."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies ordered horizontal adjacency after the cups."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersal supplies broad coverage, extending the local cup stations into a complete inhabited surface."
+              }
+            ],
+            "structural_cues": [
+              "88:12-16 is an uninterrupted sequence of source, resting furniture, cups, cushions, and floor coverings.",
+              "The four object lines 88:13-16 use parallel indefinite nouns followed by feminine passive participles.",
+              "The participles progress through raised, placed, aligned, and dispersed, giving placement a distinct middle operation."
+            ],
+            "reader_inference": "The packet supplies continuous provision, rest, elevation, stationing, alignment, and dispersal; I infer a functional topology in which cups transfer flow to resting occupants. A live alternative is a noncausal catalogue whose spatial verbs signal abundance only.",
+            "changed_reading": {
+              "before": "The cups are one furnishing among several.",
+              "after": "The cups are the middle transfer layer of an engineered hospitality field, connecting continuous supply to elevated rest and distributing access across the furnished surface."
+            }
+          },
+          {
+            "model_id": "delta-domestic-cosmography",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ر ف ع",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "The later inspection sequence repeats made, raised, erected, and spread forms at world scale. Its measured vertical and horizontal operations reactivate the focus participle: setting cups is the domestic-scale member of the same grammar of assigning forms to useful positions.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B004",
+                "role": "Parts attached into a configuration let the cup plurality behave as a small constructed order."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting an object in a determined place anchors the domestic scene in the later sequence of world-shaping operations."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies deliberate calibration rather than unexplained existence."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising establishes the cosmic vertical operation that echoes the raised furniture before the focus."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something visibly upright supplies fixed placement at monumental scale."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An extended level surface supplies the horizontal field on which smaller useful arrangements can be placed."
+              }
+            ],
+            "structural_cues": [
+              "The branchless cue ك ي ف recurs at 88:17 word 5, 88:18 word 3, 88:19 word 3, and 88:20 word 3; it is used only as the repeated question-frame linking four operations.",
+              "The feminine passive sequence خُلِقَتْ, رُفِعَتْ, نُصِبَتْ, and سُطِحَتْ recalls the passive participial sequence surrounding مَّوْضُوعَةٌ.",
+              "The later sequence spans creature, sky, mountain, and earth, scaling placement from local furnishing to an inhabitable world."
+            ],
+            "reader_inference": "The packet supplies calibrated creation, vertical raising, erection, leveling, and repeated ك ي ف framing; I infer that the shared passive spatial grammar invites a microcosm-to-cosmos analogy. The alternative is purely rhetorical parallelism with no backward activation of the cups.",
+            "changed_reading": {
+              "before": "The cups are a localized luxury detail.",
+              "after": "Their exact placement miniaturizes the later world-order: hospitality and habitat are made intelligible by the same measured allocation of forms to positions."
+            }
+          },
+          {
+            "model_id": "delta-provision-at-the-place-of-return",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Return to a place and reckoning-as-sufficiency pull the deposited-provision baseline toward destination logic. The cups read as an already credited sufficiency waiting at the terminus, not as a temporary amenity encountered en route.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B005",
+                "role": "The act of drinking identifies the concrete benefit made available at the destination."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B010",
+                "role": "A deposit left with another supplies the image of provision already lodged ahead of its beneficiary."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a home or place supplies the terminal location toward which the prepared provision can be read."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Sufficiency and enrichment activate the cups as an adequate provision rather than an ornamental quantity."
+              }
+            ],
+            "structural_cues": [
+              "88:25-26 closes with parallel destination and responsibility constructions using إِلَيْنَا and عَلَيْنَا.",
+              "The possessive endings in إِيَابَهُمْ and حِسَابَهُم make return and account belong to the same persons for whom the earlier scene is furnished."
+            ],
+            "reader_inference": "The packet supplies a deposited object, return to a place, and a sufficiency branch within account; I infer that the prepared cups can be read prospectively as provision at the terminus. A live alternative is that return and account concern only judgment and do not reactivate furnishing.",
+            "changed_reading": {
+              "before": "The cups are amenities inside a static scene.",
+              "after": "The cups are provision lodged at the destination in advance, making arrival a return to already sufficient hospitality."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-silenced-instrument-shadow",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the surface plural ordinarily identifies drinking cups, while the cited ك و ب branch names a music instrument. It remains valid as a root-branch and sonic activation under the nearby negation of heard noise: an instrument-shadow can be imagined as laid down and inactive. Downstream prose must mark this as lexical resonance, never translate أَكْوَابٌ as instruments.",
+            "focus_anchor": "The instrument branch belongs to the focus root ك و ب, and the placement participle can materially render sonic potential as set down.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B002",
+                "role": "The drum or reed-instrument image supplies a latent sonic object behind the ordinary cup surface."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting the object down lets the activated instrument-shadow be physically stilled."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B007",
+                "role": "Pleasurable hearing and music make the absent sonic channel specific enough to activate the instrument branch."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy sound supplies what the scene excludes, turning set-down sonic objects into an image of tranquility."
+              }
+            ],
+            "changed_reading": {
+              "before": "The absence of idle sound and the presence of cups are unrelated comforts.",
+              "after": "At the level of lexical shadow, even an instrument latent in the cup-root has been laid down: abundance remains, but clamor is disarmed."
+            }
+          },
+          {
+            "outlier_id": "outlier-gameboard-hospitality",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because a chessboard sense of ك و ب does not override the explicit cup form. It remains anchored as a configuration analogy: placed cups, aligned cushions, dispersed coverings, and later counting can make the furnished field resemble pieces distributed over a board. Downstream prose must present it only as a spatial activation, not as a claim that the ayah denotes a game.",
+            "focus_anchor": "The chess or board branch is internal to ك و ب, while مَّوْضُوعَةٌ explicitly makes disposition in space part of the focus line.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B003",
+                "role": "The chessboard or game-object image activates a field of discrete pieces and positions behind the vessel plurality."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B006",
+                "role": "Units assigned to fixed places make the cups behave visually like positioned pieces."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Straight alignment supplies one organizing rule for the surrounding field."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution across space supplies the complementary rule of coverage rather than a single row."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting supplies a remote terminal echo of discrete, positionable units."
+              }
+            ],
+            "changed_reading": {
+              "before": "The furnishings form a static catalogue.",
+              "after": "As a contained spatial analogy, the cups become positioned units in a legible field whose rows, spread, and count imply designed relational order."
+            }
+          },
+          {
+            "outlier_id": "outlier-anthropomorphic-cup-stations",
+            "confidence": "exploratory",
+            "containment": "This is surprising because thin-necked, large-headed morphology is a remote descriptive branch and cups are not persons. It remains materially anchored in the vessel silhouettes and in the focus root's own assigned-person branch, while faces and resting places provide nearby bodily cues. Downstream prose must qualify it as visual anthropomorphism, not lexical personification or doctrine.",
+            "focus_anchor": "The cup root contains a thin-necked, large-headed profile, and the placement root contains persons assigned to positions.",
+            "activation_trace": [
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B006",
+                "role": "A thin neck and enlarged head supply an anthropomorphic silhouette latent in the cup-root."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B006",
+                "role": "Persons assigned to a fixed place let the repeated vessel silhouettes be imagined as stationed bodies."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face as a stand-in for the person supplies the nearby bodily scale for the visual analogy."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A resting or reclining place situates bodies near the stationed cup silhouettes."
+              }
+            ],
+            "changed_reading": {
+              "before": "The cups are inert objects beside human occupants.",
+              "after": "As a visual-material outlier, their necked silhouettes and assigned stations echo the resting occupants, making service objects into quiet proxies for a fully populated scene."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The earlier administered drink and the later set cups form an agency reversal from imposed intake to unforced availability.",
+            "The 88:12-16 furnishing chain turns the cups into transfer nodes between continuous supply, elevated rest, ordered adjacency, and broad coverage.",
+            "The 88:17-20 passive spatial sequence scales deliberate placement from domestic hospitality to an ordered inhabitable world.",
+            "A secondary vertical reading lets objects descend into reach while beneficiaries and setting remain elevated."
+          ],
+          "what_was_special": "The focus line's brevity concentrates several live functions in مَّوْضُوعَةٌ: readiness, assignment, lowering, deposit, and participation in a larger placement grammar. The sparse cup root then contributes unusually vivid shadows of attachment, instrument, board, and bodily profile without requiring any of them to replace the ordinary vessel reading.",
+          "remaining_uncertainties": [
+            "It is uncertain whether the agency contrast between administered and offered drink is encoded by the sequence or supplied mainly by reader comparison.",
+            "The social lowering, destination-provision, instrument, board, and anthropomorphic readings depend on branch activation beyond the most immediate lexical senses.",
+            "The microcosm-to-cosmos relation may be a designed backward echo or only a shared passive descriptive style."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Cups placed in ready service.** Evidence: `ك و ب` B001 cup/goblet, B005 drinking from a cup; `و ض ع` B001 setting something down/in its place. Structural cue: the running spring is followed by drink-vessels set out. Role: the cups mediate the spring into hospitable access. Abductive move: provision becomes mercy when it is placed within reach. Reading change: the ayah reads as arranged hospitality, not inventory.\n\n2. **Lowered placement as benevolent counterpart to raised couches.** Evidence: `و ض ع` B001 placing down, B005 lowness/humility; `ر ف ع` B001 raising in 88:13. Structural cue: `مرفوعة` is followed by `موضوعة`. Role: the environment has vertical coordination: seats raised, cups set down. Abductive move: blessed order is not simply upward; things are placed at their fitting level. Reading change: `موضوعة` reads as calibrated accessibility.\n\n3. **No coercive drinking.** Evidence: `س ق ي` B001 forced/passive being given drink in 88:5; `ك و ب` B005 drinking from a cup; `و ض ع` B010 deposit/entrusting. Structural cue: punishment drink is administered; garden cups are simply placed. Role: the cup allows non-coercive availability. Abductive move: the same water economy distinguishes compulsion from entrusted hospitality. Reading change: the ayah quietly reverses `تسقى`.",
@@ -6741,14 +7625,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7228,10 +8118,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_14.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_14.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 217514,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

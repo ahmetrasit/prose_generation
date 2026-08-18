@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.718694+00:00",
+  "generated_at": "2026-08-18T13:34:28.869673+00:00",
   "surah": 102,
   "ayah": 1,
   "ayahRef": "102:1",
@@ -1034,7 +1034,8 @@
         "m-w-s102-a001-w001-01",
         "m-w-s102-a001-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:1:1"
+      "aligned_qac_word_ref_upstream": "102:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1050,7 +1051,8 @@
         "m-w-s102-a001-w002-01",
         "m-w-s102-a001-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:1:2"
+      "aligned_qac_word_ref_upstream": "102:1:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1351,7 +1353,1051 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:1",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_competitive_capture",
+            "confidence": "strong",
+            "focus_anchor": "The causative verb at word 1 takes the addressed plural as its object, while the reciprocal-incremental noun at word 2 stands as the active cause.",
+            "mechanism": "The attempt to exceed others is a feedback process: every comparative gain creates a new comparison, so rivalry itself becomes the agent that repeatedly displaces another concern.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion from one concern by another supplies the displacement relation, and the causative form assigns that displacement to word 2."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Mutual outnumbering supplies the recursive contest that keeps renewing the distracting occupation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Having many things made the addressees busy.",
+              "after": "The self-renewing contest to outnumber others actively captured the addressees away from an unstated prior concern."
+            }
+          },
+          {
+            "model_id": "baseline_pleasurable_more",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can carry an enjoyment-laden mode of diversion, and word 2 names increase as an ongoing nominal process rather than a completed stock.",
+            "mechanism": "Each increment supplies a small affective reward; enjoyment is therefore not incidental to accumulation but the reinforcement that makes increasing quantity continue to occupy attention.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B002",
+                "role": "Amusement and enjoyment supply the rewarding affect through which diversion can operate."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth supplies the repeatable increments that feed the reward loop."
+              }
+            ],
+            "changed_reading": {
+              "before": "Increase was an external task that consumed time.",
+              "after": "The felt pleasure of each new increment was itself the medium of capture, making 'more' affectively self-propelling."
+            }
+          },
+          {
+            "model_id": "baseline_claim_proliferation",
+            "confidence": "medium",
+            "focus_anchor": "The abundance noun at word 2 can attach increase to speech, claims, status, or another person's wealth, while word 1 marks the resulting attentional displacement.",
+            "mechanism": "What multiplies need not be possessions alone: assertions of standing, comparative stories, and claims upon wealth can proliferate until maintaining the representation of abundance becomes the occupation.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Displacement by a substitute occupation lets the maintenance of claims take over attention."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Abundance in speech, claims, wealth, or borrowed status supplies a symbolic rather than merely material object of increase."
+              }
+            ],
+            "changed_reading": {
+              "before": "Material possessions multiplied and distracted.",
+              "after": "The distracting surplus could be a proliferating layer of claims and status-talk through which abundance is socially manufactured."
+            }
+          },
+          {
+            "model_id": "baseline_feed_mill",
+            "confidence": "exploratory",
+            "focus_anchor": "A concrete branch under the root of word 1 supplies repeated feeding into a mill, while word 2 supplies growing quantity.",
+            "mechanism": "As a material analogy, every new unit of abundance becomes fresh input to a process that consumes it and demands another unit; accumulation behaves like throughput rather than stable possession.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B003",
+                "role": "Casting material into a mill mouth supplies the repeated-feed image and the conversion of each gain into process input."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Continuing numerical increase supplies the stream of units that keeps the imagined mechanism turning."
+              }
+            ],
+            "changed_reading": {
+              "before": "Abundance was a stock that happened to occupy its owners.",
+              "after": "Abundance functioned like feed for a mill: each acquisition was consumed by the accumulating process and generated demand for the next."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_mortality_bounded_itinerary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز و ر",
+              "ق ب ر"
+            ],
+            "mechanism": "The distracting contest becomes a journey with a boundary: it carries the addressed group forward until a visit at a place of burial. Visitation makes tenure provisional, while burial and concealment reverse the fantasy that accumulated standing is permanent.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion by another occupation supplies the force that carries attention along the itinerary."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Competitive outnumbering supplies the journey's self-renewing activity."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "A visitor's directed but temporary arrival supplies the endpoint as provisional presence rather than possession."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "Burial supplies the bodily terminus that limits the competitive process."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Lowering and concealment supply a spatial reversal of public increase and display."
+              }
+            ],
+            "structural_cues": [
+              "The boundary particle at the start of 102:2 links the capture in 102:1 to a reached limit.",
+              "The addressed plural object of 102:1 continues as the plural visitor-subject of 102:2."
+            ],
+            "reader_inference": "The packet supplies causative displacement, reciprocal increase, a visit, burial, concealment, and a temporal boundary; I infer that distraction behaves as an itinerary whose endpoint exposes temporary tenure. A live alternative is that the visit only measures duration without revising the status of possessions.",
+            "changed_reading": {
+              "before": "Rivalry distracted for an indefinitely long time.",
+              "after": "Rivalry carried its participants along a mortality-bounded route, and the endpoint exposed both their tenure and their accumulated standing as provisional."
+            }
+          },
+          {
+            "model_id": "delta_delayed_sign_recognition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ي ق ن"
+            ],
+            "mechanism": "Quantity does not merely consume time that could be used for learning; it crowds out discriminating marks. The repeated promise of knowing and the later stabilization of certainty recast diversion as a delay between available signs and settled recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Attentional displacement supplies the gap between what can be marked and what is actually recognized."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growing quantity supplies the excess signal environment in which distinctions are crowded out."
+              },
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing and guiding mark supplies the kind of signal that abundance can prevent from governing attention."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the eventual transition from available indication to recognized fact."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge after doubt supplies the settled state that the distracting regime postpones."
+              }
+            ],
+            "structural_cues": [
+              "Future knowing is repeated in 102:3 and 102:4 before knowledge is internally repeated in 102:5.",
+              "The sequence delays stable certainty rather than presenting the addressees as having no access to signs."
+            ],
+            "reader_inference": "The packet supplies displacement, numerical growth, distinguishing marks, disclosure, and stabilized knowledge; I infer that excess quantity masks or devalues signals rather than erasing them. The live alternative is a simpler temporal reading in which distraction only postpones learning.",
+            "changed_reading": {
+              "before": "Competition stole time that might otherwise have produced knowledge.",
+              "after": "Competition established a quantity-heavy attention regime in which guiding marks failed to settle into recognition until certainty could no longer be deferred."
+            }
+          },
+          {
+            "model_id": "delta_social_spectacle_loop",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ر",
+              "ر ء ي",
+              "ع ي ن"
+            ],
+            "mechanism": "Rivalry in number couples with proliferating claims, adjusted speech, ostentation, and an audience. The cause of distraction is therefore a social feedback loop: people increase what can be displayed because others are watching, then attend to the watching itself.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion by a substitute occupation supplies the transfer of attention from the underlying concern to audience response."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Mutual outnumbering supplies the comparative engine of the social performance."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Many claims and much status-talk supply the representational material performed before others."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B006",
+                "role": "Shaping or adjusting speech supplies the crafted comparative story that makes abundance displayable."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing oneself for people supplies the motive to turn comparative abundance into spectacle."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B017",
+                "role": "People physically present supply the audience whose gaze closes the feedback loop."
+              }
+            ],
+            "structural_cues": [
+              "Plural address persists from the competitive process into repeated plural acts of seeing.",
+              "The context moves from claims about standing toward an intensified encounter with what is seen."
+            ],
+            "reader_inference": "The packet supplies rivalry, abundance in claims, crafted speech, ostentation, and present onlookers; I supply the arrow that audience response rewards further competitive display. A live alternative is that these branch images remain separate lexical activations rather than one social mechanism.",
+            "changed_reading": {
+              "before": "Private desire for more distracted each individual.",
+              "after": "A public attention economy distracted the group: comparative claims were staged for watchers, and the watchers' response drove further increase."
+            }
+          },
+          {
+            "model_id": "delta_forced_visibility_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي ق ن",
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن"
+            ],
+            "mechanism": "The context reverses the direction of word 1. Competitive quantity first redirects attention away; stabilized knowledge, emphatic seeing, a blazing object, and direct eyewitness then make the screened object impossible to avoid.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion away from a concern supplies the initial direction that later disclosure reverses."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Accumulating quantity supplies the foreground that monopolizes attention and screens another object."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Knowledge stabilized beyond doubt supplies the first closure of the escape route."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something appear supplies the active reversal from screened concern to disclosed object."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Intense blazing heat supplies an object whose sensory force defeats continued inattention."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct ocular witnessing supplies unmediated contact after the earlier attentional displacement."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from repeated future knowing to emphatic seeing and then to eye-linked certainty.",
+              "Seeing is repeated, so the correction is staged rather than a single informational update."
+            ],
+            "reader_inference": "The packet supplies displacement, accumulated foreground, settled knowledge, active disclosure, sensory intensity, and direct witnessing; I infer a reversal in which what was avoided is forced into view. A live alternative is a general escalation of evidence with no specifically attentional reversal.",
+            "changed_reading": {
+              "before": "Abundance distracted by occupying attention with the wrong object.",
+              "after": "Abundance functioned as a perceptual screen, and the later sequence forcibly reversed that screen through disclosure, sensory impact, and direct witnessing."
+            }
+          },
+          {
+            "model_id": "delta_rivalry_combustion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ب ر",
+              "ج ح م"
+            ],
+            "mechanism": "Reciprocal outnumbering can be read as an escalation circuit. Comparative gains provoke embodied anger, anger intensifies conflict, and conflict tends toward death; the later blaze activates a latent social combustion already present in the rivalry.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Preoccupation supplies the narrowing of attention that lets escalation crowd out restraint."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Mutual numerical rivalry supplies the reciprocal trigger that can intensify from one side to the other."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B004",
+                "role": "A bodily sign of anger supplies an early somatic stage in the escalation."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B004",
+                "role": "A face flaring with anger supplies the transition from comparison to affective heat."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B002",
+                "role": "Fierce conflict and death supply the social outcome of unchecked reciprocal heat."
+              }
+            ],
+            "structural_cues": [
+              "The reciprocal morphology of the focus noun permits a two-sided escalation rather than one-way acquisition.",
+              "The context places graves before the blazing encounter, allowing death and heat to participate in one causal sequence."
+            ],
+            "reader_inference": "The packet supplies rivalry, embodied anger, conflict, death, and blaze; I infer the causal arrows from comparison to anger and from anger to conflict. A live alternative is that death and blaze describe only the later destination and not the internal dynamics of rivalry.",
+            "changed_reading": {
+              "before": "Competition distracted because contestants kept counting.",
+              "after": "Competition distracted by becoming an escalating social heat-system in which comparative attention displaced restraint and could culminate in conflict and death."
+            }
+          },
+          {
+            "model_id": "delta_report_to_presence",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ي ق ن",
+              "ر ء ي",
+              "ع ي ن"
+            ],
+            "mechanism": "The claims-and-speech baseline acquires a contrast between mediated report and the thing itself. Competitive abundance can multiply narratives of standing; the seeing sequence then collapses that representational buffer into direct presence and stable recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion supplies the substitution of a maintained representation for the concern it keeps out of view."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Proliferating speech and claims supply the mediated layer whose abundance can become self-validating."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch of transmitting report or verse supplies mediation rather than immediate encounter."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The very thing itself supplies presence that cannot be replaced by comparative narration."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Knowledge no longer shaken by doubt supplies the settled result of the move from report to presence."
+              }
+            ],
+            "structural_cues": [
+              "Future knowing gives way to repeated seeing and then an eye-linked certainty construction.",
+              "The repeated second-person plural keeps the producers of comparative claims as the subjects of the later encounter."
+            ],
+            "reader_inference": "The packet supplies abundance in claims, a non-dominant report branch, the thing itself, and stable knowledge; I infer a passage from representations to presence. A live alternative is that the split mapped report branch is only a form-distant activation and that the dominant seeing branches fully explain the sequence.",
+            "changed_reading": {
+              "before": "Claims about wealth or status distracted because there were many of them.",
+              "after": "Proliferating representations of standing formed the distraction, while direct presence later stripped those representations of their buffering power."
+            }
+          },
+          {
+            "model_id": "delta_accountable_blessing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "The final question changes the legal and social status of 'more.' Conditions of well-being that were counted as achievements become received benefits about which an answer is demanded; competitive possession is reclassified as accountable custody.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion supplies the misclassification that lets custody be experienced as unrestricted ownership."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Competitive abundance supplies the score by which received benefits are wrongly treated as status."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and demanding supply the accountability relation that converts a score into an answerable inventory."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefit supply what was received and is therefore liable to account."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Ease and comfortable living supply the experiential form in which accountable benefit may have felt self-owned."
+              }
+            ],
+            "structural_cues": [
+              "The final ayah uses an emphatic passive question followed by a preposition marking the matter asked about.",
+              "The context ends not with acquisition but with an answer demanded from the same addressed plural."
+            ],
+            "reader_inference": "The packet supplies competitive increase, diversion, a demanded answer, benefit, and ease; I infer a custody relation in which reception entails responsibility. Live alternatives concern the scope of responsibility: source, use, gratitude, distribution, or all of these.",
+            "changed_reading": {
+              "before": "People were distracted while trying to own a larger share of good things.",
+              "after": "They were distracted by treating received and answerable benefits as a competitive score of unrestricted ownership."
+            }
+          },
+          {
+            "model_id": "delta_luxury_anesthesia",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م"
+            ],
+            "mechanism": "The pleasurable baseline sharpens into a low-friction mechanism. Increasing ease and softness can damp urgency without spectacle or conflict, so abundance distracts by making the present condition comfortable enough that another concern ceases to press.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B002",
+                "role": "Enjoyment supplies the affective channel through which comfort can quiet competing concerns."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Repeated increase supplies progressively more insulation from friction and urgency."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness, ease, and comfortable living supply the anesthetic quality of the distracting condition."
+              }
+            ],
+            "structural_cues": [
+              "The final context names the enjoyed condition only after the sequence of warning, knowing, and seeing.",
+              "The delayed naming permits the end of the sequence to reactivate the affective branch of the focus verb."
+            ],
+            "reader_inference": "The packet supplies enjoyment, numerical increase, and softness or ease; I infer that reduced friction weakens urgency and thereby causes diversion. A live alternative is that ease is merely one object of the rivalry rather than its attentional mechanism.",
+            "changed_reading": {
+              "before": "The pursuit of more distracted through restless effort.",
+              "after": "The achieved softness of more could also distract quietly, anesthetizing urgency and making continued increase feel like harmless comfort."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_dust_generated_opacity",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a concrete dust branch as a material analogy, not as the ordinary gloss of word 2. It remains anchored because that branch belongs to the focus root and combines directly with the focus verb's displacement, while later active disclosure makes obscured sight consequential. Downstream prose should render it as an 'as-if' model of informational opacity, not claim that the focus noun literally denotes dust here.",
+            "focus_anchor": "The abundance root at word 2 supplies a roiling material image, and the diversion root at word 1 supplies what that opacity does to attention.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Attentional diversion supplies the functional effect of the imagined opacity."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B005",
+                "role": "A rising mass of abundant dust supplies the concrete model of quantity generating its own visual noise."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Active showing supplies the later counter-operation that breaks through quantity-generated opacity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Many objects diverted attention by competing for it.",
+              "after": "Increasing quantity behaved like a self-raised dust cloud: it did not merely occupy the visual field but made orientation within that field progressively harder."
+            }
+          },
+          {
+            "outlier_id": "outlier_screened_certainty",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a protected-seclusion branch under certainty is spatialized into a screen, and it should not be read as identifying certainty with the branch's gendered referent. It remains valid as an exploratory mechanism because diversion, clustering, concealment, and protected interiority all attach back to the focus construction's attentional result. Downstream prose should call it a branch-triggered enclosure analogy and retain the simpler delayed-knowledge alternative.",
+            "focus_anchor": "The focus verb marks removal of attention, while the clustering branch of the focus noun allows accumulated items to act as an enclosure rather than only a count.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Turning away supplies the outside position from which the enclosed concern is no longer attended."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Clustering into a gathered mass supplies the material from which an attentional enclosure can be inferred."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Concealment and lowering supply the hidden position of what the cluster screens."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B002",
+                "role": "Protected seclusion supplies a bounded interior as the odd spatial activator for certainty kept out of ordinary access."
+              }
+            ],
+            "changed_reading": {
+              "before": "Accumulation delayed certainty by taking up time.",
+              "after": "The gathered mass of 'more' acted as an enclosure: certainty was not absent but screened in a protected interior until the enclosure was breached."
+            }
+          },
+          {
+            "outlier_id": "outlier_satiety_inversion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant mapped root of the seeing cue to activate quenching and satiety. It remains anchored to the focus through enjoyment and repeated increase, which readily form an appetite loop, but the causal claim that promised satiety produces thirst is reader-supplied. Downstream prose should identify the split mapping and present this as an affective inversion, never as a gloss of the seeing verb.",
+            "focus_anchor": "The focus combines enjoyment-capable diversion at word 1 with continuing increase at word 2, allowing 'more' to behave like an appetite that promises completion.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B002",
+                "role": "Enjoyment supplies the appetitive reward that makes another increment attractive."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Continuing increase supplies repeated consumption without a built-in stopping point."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "Quenching as the opposite of thirst supplies the completion-state that endless increase promises but fails to deliver."
+              }
+            ],
+            "changed_reading": {
+              "before": "People pursued more because each gain satisfied them.",
+              "after": "Each pleasurable gain promised satiety yet trained renewed thirst, so the promise of completion became the mechanism of endless distraction."
+            }
+          },
+          {
+            "outlier_id": "outlier_hidden_extraction_unbundles",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-dominant extraction mapping under the final questioning cue. It remains anchored through the focus noun's clustering branch and the focus verb's diversion: aggregation can hide the provenance of units, while questioning can figuratively draw them back out. Downstream prose should state that extraction is a split-root material analogy for audit, not the lexical meaning assigned to the contextual question.",
+            "focus_anchor": "Word 2 can image abundance as a cluster, and word 1 permits that aggregate to distract from the identity and liability of its individual units.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion supplies the failure to attend to each unit once it disappears into the aggregate."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Gathering into a cluster supplies the aggregate that can conceal individual provenance and use."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "A demanded answer supplies the overt audit operation applied to the aggregate."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "Gentle or hidden drawing-out supplies the non-dominant material image of units being extracted one by one."
+              }
+            ],
+            "changed_reading": {
+              "before": "The total count distracted because it was impressive.",
+              "after": "The total distracted by bundling unlike items into one impressive mass; final accountability figuratively unbundled the cluster and drew out each hidden liability."
+            }
+          },
+          {
+            "outlier_id": "outlier_present_cash_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a present-cash branch under the eye cue turns the sequence into a settlement analogy. It remains anchored to the focus branch of wealth, speech, and claims and to the final demanded answer about benefit. Downstream prose should qualify the finance language as a cross-domain model contrasting claimed valuation with realized accountability, not as a lexical translation of the context.",
+            "focus_anchor": "The focus noun can carry abundance in wealth and claims, while the focus verb marks capture by that expanding valuation layer.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Diversion supplies absorption in the expanding ledger rather than in the reality against which it will be settled."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Wealth and proliferating claims supply the ledger-like valuation whose size becomes a status measure."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B011",
+                "role": "Present cash supplies realized settlement in contrast with accumulated claims."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Demand and question supply the call to settle rather than continue carrying the expanding ledger."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Received benefit supplies the underlying value against which comparative claims are finally measured."
+              }
+            ],
+            "changed_reading": {
+              "before": "More wealth and status claims were treated as an already realized gain.",
+              "after": "Competitive abundance inflated a ledger of claims; direct certainty and questioning arrived like present settlement against the actual benefits received."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only contest became a mortality-bounded itinerary that exposes apparent possession as provisional tenure.",
+            "Diversion became an epistemic and perceptual mechanism: excess quantity delays recognition of marks until disclosure and direct witnessing reverse the screen.",
+            "The final question reclassified competitive abundance from owned score to received, answerable benefit.",
+            "A distinct social reading remained live in which claims, crafted speech, ostentation, and watchers form a self-reinforcing spectacle."
+          ],
+          "what_was_special": "The two-word focus sustained several non-equivalent causal models at once: recursive rivalry, pleasurable reinforcement, proliferating claims, material throughput, social combustion, perceptual screening, and quiet luxury anesthesia. Concrete and split-root activations were retained with containment because they changed the reading rather than merely decorating it.",
+          "remaining_uncertainties": [
+            "The omitted concern from which attention is diverted remains structurally open, so epistemic, ethical, temporal, and social objects can coexist.",
+            "The visitation cue securely marks a boundary, but whether it also reclassifies all possession as temporary is an abductive step.",
+            "The report, satiety, and extraction models depend on non-dominant mapped roots and should remain analogical rather than lexical claims.",
+            "The final accountability relation is strong, while its precise scope among source, use, gratitude, and distribution remains unresolved."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Distraction as competitive displacement.** Branch evidence: ل ه و B001, \"being diverted from a concern by another occupation\"; ك ث ر B002, \"outnumbering and rivalry in abundance\"; ق ب ر B001, grave; س ء ل B001, questioning. Structural cue: \"ألهاكم\" is immediately followed by the object \"التكاثر\" and then by the limit \"حتى زرتم المقابر\"; the final ayah adds interrogation. Assigned role: لهو supplies the displacement, تكاثر supplies the competing occupation, قبر/سأل supply the concern from which one was displaced. Abductive move: I infer the omitted displaced concern from the later grave and question rather than from the verb alone. Reading change: the ayah reads less as \"you enjoyed many things\" and more as \"a rivalry-system occupied you away from mortality and answerability.\"\n\n2. **Abundance as a public scoreboard.** Branch evidence: ك ث ر B002, mutual boasting by number/wealth/status; ك ث ر B003, abundance attached to a person, speech, or claims; ر ء ي B005, showing off before people; ع ي ن B011, present cash; س م و B007, rivaling upward. Structural cue: the verbal form التكاثر is reciprocal/intensive, and the later seeing-language turns hidden claims into exposed realities. Assigned role: abundance becomes a visible social measure, not merely private possession. Abductive move: I infer that rivalry requires observers, comparison, and signs of possession. Reading change: the ayah becomes a critique of displayable surplus and status performance.\n\n3. **The mill-mouth mechanism.** Branch evidence: ل ه و B003, \"casting grain into the mill mouth, with gift by likeness\"; ك ث ر B001, abundance and numerical increase; ج ح م B001, blazing fire/intense heat; ق ب ر B002, inward hiddenness. Structural cue: the first ayah's occupation moves into grave-enclosure and then fire-vision. Assigned role: تكاثر supplies material volume; لهو B003 supplies the process-image of being fed into a consuming mechanism. Abductive move: I supply the metaphorical arrow from \"that which is put into the mill\" to \"a life fed into consumption.\" Reading change: التكاثر reads as the very feedstock of a grinding course, not only the object that distracts.\n\n4. **Counting people through graves.** Branch evidence: ك ث ر B002, boasting by number/status; ر ح م B002, kinship bond; ق ب ر B001, cemetery/place of graves. Structural cue: the rivalry is followed directly by a plural cemetery, not by a marketplace or storehouse. Assigned role: kinship and the dead can become counted assets in the competitive field. Abductive move: I infer that the plural \"المقابر\" can activate a counting-place for lineages and bodies because التكاثر seeks numerical superiority. Reading change: the ayah may include not only wealth-rivalry but enlargement through persons, ancestry, and the dead.",
@@ -5605,14 +6651,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5764,10 +6816,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 55876,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:15.614606+00:00",
+  "generated_at": "2026-08-18T13:34:18.693709+00:00",
   "surah": 96,
   "ayah": 13,
   "ayahRef": "96:13",
@@ -1572,10 +1572,66 @@
   },
   "word_morpheme_spans": [
     null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 1,
+      "surface_ar": "إِنْ",
+      "word_ids": [
+        "w-s096-a013-w002"
+      ],
+      "qac_refs": [
+        "96:13:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a013-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "96:13:2",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "كَذَّبَ",
+      "word_ids": [
+        "w-s096-a013-w003"
+      ],
+      "qac_refs": [
+        "96:13:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a013-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "96:13:3",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s096-a013-w004"
+      ],
+      "qac_refs": [
+        "96:13:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a013-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "96:13:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "تَوَلَّىٰ",
+      "word_ids": [
+        "w-s096-a013-w004"
+      ],
+      "qac_refs": [
+        "96:13:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a013-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "96:13:5",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3900,7 +3956,1324 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s96/packets/96_13.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "96:13",
+      "window": [
+        "96:1",
+        "96:2",
+        "96:3",
+        "96:4",
+        "96:5",
+        "96:6",
+        "96:7",
+        "96:8",
+        "96:9",
+        "96:10",
+        "96:11",
+        "96:12",
+        "96:13",
+        "96:14",
+        "96:15",
+        "96:16",
+        "96:17",
+        "96:18",
+        "96:19"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط غ ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000937",
+              "furuq_root_norm": "ط غ ي",
+              "furuq_source_root_norm": "ط غ ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 13,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000936",
+              "furuq_root_norm": "ط غ و",
+              "furuq_source_root_norm": "ط غ و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 77,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 22,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ن د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001487",
+              "furuq_root_norm": "ن د ي",
+              "furuq_source_root_norm": "ن د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 33,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001486",
+              "furuq_root_norm": "ن د و",
+              "furuq_source_root_norm": "ن د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001563",
+              "furuq_root_norm": "ن و د",
+              "furuq_source_root_norm": "ن و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط و ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000956",
+              "furuq_root_norm": "ط و ع",
+              "furuq_source_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 96,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000706",
+              "furuq_root_norm": "س ط ع",
+              "furuq_source_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "96:13",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_inquiry_denial_withdrawal",
+            "confidence": "strong",
+            "focus_anchor": "The construction أرأيت + إن + كذّب + وتولّى joins an alerting question to a conditional pair of actions.",
+            "mechanism": "The opening does not simply report misconduct; it recruits the addressee to consider a possibility. Form-II denial actively assigns falsehood, and the coordinated withdrawal makes that epistemic act culminate in disengagement.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting tell-me formula turns the clause into a diagnostic question rather than a flat visual report."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies an active repudiation, not merely the speaker's own untruth."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away converts the preceding verdict into bodily, attentional, or practical refusal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Someone denied and departed.",
+              "after": "Consider the consequential possibility that active falsification completes itself as withdrawal."
+            }
+          },
+          {
+            "model_id": "b_visible_counterfacing",
+            "confidence": "medium",
+            "focus_anchor": "The seeing verb and the final orientation verb can organize the ayah as a visible encounter with a change of facing.",
+            "mechanism": "Seeing places parties within an inspectable field; denial contests what is presented there; turning the face changes one's orientation without erasing the encounter. The ayah can therefore stage evasion under observation rather than a purely interior opinion.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility and facing supply an encounter in which the conduct can be watched."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the contested content inside the visible encounter."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning or directing the face makes orientation itself the mechanism by which the encounter is accepted or evaded."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal selects the evasive direction within the broader face-orientation image."
+              }
+            ],
+            "changed_reading": {
+              "before": "A rhetorical question about an abstract denier.",
+              "after": "An observable face-to-face test in which contradiction is followed by a visible reorientation away."
+            }
+          },
+          {
+            "model_id": "b_denial_assumes_charge",
+            "confidence": "exploratory",
+            "focus_anchor": "The final form تولّى can activate both withdrawal and taking charge of an affair.",
+            "mechanism": "If the governance branch remains live, denial does not end in absence but advances into control: a judgment that marks something false is followed by assuming authority over what happens next. This coexists with, rather than replaces, the ordinary withdrawal reading.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment supplies the evaluative arena in which the denial is made."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the delegitimating act that can precede control."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge of an affair changes the endpoint from private retreat to exercised authority."
+              }
+            ],
+            "changed_reading": {
+              "before": "The denier merely leaves the scene.",
+              "after": "Exploratorily, the denier's verdict can become administrative: he falsifies, then takes charge."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_knowledge_chain_refusal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ء",
+              "ع ل م",
+              "ق ل م"
+            ],
+            "mechanism": "Repeated reading gathers material; teaching discloses what was not known; the pen stabilizes that disclosure. Against this upstream chain, the focus pair becomes a counter-process: what has been assembled and made knowable is actively marked false and then abandoned.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting inquiry summons an assessment of what happens to the preceding knowledge process."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering and assembly make reading an upstream collection of signs into a coherent whole."
+              },
+              {
+                "source_ref": "96:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the transition from prior nonknowledge to intelligibility."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ق ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001252",
+                "branch_id": "B003",
+                "role": "The trimmed writing instrument gives the disclosed knowledge a transmissible and durable medium."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Active falsification interrupts the authority of the assembled and transmitted material."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal completes the interruption by refusing continued attention or participation."
+              }
+            ],
+            "structural_cues": [
+              "96:1-5 repeats reading and teaching before naming the pen and prior nonknowledge.",
+              "The focus conditional arrives after that knowledge sequence rather than defining its own object."
+            ],
+            "reader_inference": "The packet supplies gathering, disclosure, inscription, falsification, and withdrawal; I infer a directional chain in which the last two acts break the first three. A live alternative is ordinary interpersonal denial with no claim about transmission.",
+            "changed_reading": {
+              "before": "The objectless denial is a generic rejection.",
+              "after": "The denial is an attempted break in a gathered, taught, and inscribed chain of knowing."
+            }
+          },
+          {
+            "model_id": "d_dependency_denied_as_autonomy",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ع ل ق",
+              "ط غ ي",
+              "ر ء ي",
+              "غ ن ي",
+              "ر ج ع"
+            ],
+            "mechanism": "The human begins as created attachment, then self-perception of sufficiency licenses overflow beyond a limit, while return remains unavoidable. The focus denial can thus enact a false declaration of independence, and turning away attempts to sever a dependence that the surrounding sequence keeps in force.",
+            "activation_trace": [
+              {
+                "source_ref": "96:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative origination supplies a received beginning rather than self-production."
+              },
+              {
+                "source_ref": "96:2",
+                "root": "ع ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001039",
+                "branch_id": "B001",
+                "role": "Attachment and clinging make dependence material at the human origin."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "Overflowing water supplies a force that exceeds its containing boundary."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment makes perceived self-sufficiency an interpretation of the self, not a neutral fact."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency supplies the imagined release from dependence."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to a prior destination bounds the autonomy claim with an unavoidable counter-movement."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth becomes the verbal enactment of the false independence claim."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away gives the attempted severance a spatial and behavioral form."
+              }
+            ],
+            "structural_cues": [
+              "96:2 places human origin in attachment; 96:6-7 explicitly links transgression to seeing oneself self-sufficient.",
+              "96:8 immediately counters self-sufficiency with return."
+            ],
+            "reader_inference": "The packet supplies created attachment, self-assessed sufficiency, overflow, return, denial, and withdrawal; I infer that denial performs a severing of dependence. The live alternative is a chronological list of distinct moral facts without this causal arrow.",
+            "changed_reading": {
+              "before": "Denial rejects an unspecified proposition and turning away exits an encounter.",
+              "after": "Denial and turning away perform an impossible autonomy: the attached creature declares independence, overflows, and tries to sever the relation to which it returns."
+            }
+          },
+          {
+            "model_id": "d_enclosed_sightlines",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ر ء ي"
+            ],
+            "mechanism": "The repeated inquiry moves seeing among the self, the addressee, and finally God. The focus actor can turn away from an addressed field of attention, but the next ayah reverses visual agency: the one considered is also seen. Withdrawal changes direction, not visibility.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility supplies a field in which changing one's facing cannot abolish the other sightline."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The earlier alerting formula begins the repeated summons to inspect conduct."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Knowledge as disclosure makes the final seeing epistemically consequential rather than merely optical."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight shifts the observing subject and encloses the attempted withdrawal."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away is recast as movement within, rather than escape from, the field of observation."
+              }
+            ],
+            "structural_cues": [
+              "أرأيت recurs at 96:9, 96:11, and 96:13 before 96:14 changes the subject of seeing.",
+              "The focus withdrawal is immediately followed by a question about knowing that God sees."
+            ],
+            "reader_inference": "The packet supplies repeated seeing, a subject shift, disclosure, and withdrawal; I infer a reversal from viewer to viewed that encloses the actor. The live alternative is rhetorical repetition followed by a separate statement of surveillance.",
+            "changed_reading": {
+              "before": "The addressee observes a denier who can leave the scene.",
+              "after": "The inquiry turns the denier into the observed object: he may turn away, but he cannot turn himself out of sight."
+            }
+          },
+          {
+            "model_id": "d_guidance_denial_fork",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه د ي",
+              "ء م ر",
+              "و ق ي"
+            ],
+            "mechanism": "The preceding conditional offers gentle direction and protective command; the focus conditional offers falsification and withdrawal. Read together, they form a fork of orientations and effects rather than a self-contained accusation, while leaving open whether one subject is tested under alternatives or different roles are contrasted.",
+            "activation_trace": [
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies the positive directional alternative."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Request and obligation turn orientation into conduct that can be extended to another."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Ward against harm gives the commanded conduct a protective social effect."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the negative epistemic alternative to guidance."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the negative directional alternative to being led along a path."
+              }
+            ],
+            "structural_cues": [
+              "96:11 and 96:13 repeat أرأيت إن around different predicates, with 96:12 joined by أو.",
+              "The packet does not resolve the pronoun or subject relation across the paired conditionals."
+            ],
+            "reader_inference": "The packet supplies parallel conditional frames, direction, protective command, denial, and withdrawal; I infer an evaluative fork. A live alternative is that the conditions describe different actors or successive questions rather than two possibilities for one actor.",
+            "changed_reading": {
+              "before": "The ayah independently condemns denial and retreat.",
+              "after": "The ayah occupies one arm of a live test: direction that protects others versus falsification that turns away."
+            }
+          },
+          {
+            "model_id": "d_restrainer_becomes_restrained",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "س ف ع",
+              "ن ص ي",
+              "ك ذ ب",
+              "خ ط ء"
+            ],
+            "mechanism": "The one who restrains another is later required to reach an endpoint, and the threatened grasp targets the body's leading edge. The focus is the hinge: verbal falsification and voluntary withdrawal are recoded as an embodied direction that can itself be stopped, seized, and characterized as false and culpably off-course.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act establishes the first direction of control."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Falsification supplies the speech-act hinge between controlling another and being countered."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal gives the culpable orientation a bodily trajectory."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B002",
+                "role": "Reaching an endpoint reverses the root's earlier restraint back onto the restrainer as a demand to cease."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "Taking by the forelock supplies the counter-force that arrests the attempted trajectory."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock localizes agency at the body's front or leading edge."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsehood reappears as a quality of that embodied leading edge, extending the focus act into character."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Culpable wrong adds intentional moral deviation to the embodied falsehood."
+              }
+            ],
+            "structural_cues": [
+              "The same ن ه ي root moves from restraining another at 96:9 to a demand that the restrainer desist at 96:15.",
+              "96:15-16 shifts from actions to the forelock as a bodily bearer of falsehood and wrong."
+            ],
+            "reader_inference": "The packet supplies restraint, cessation, withdrawal, seizure of the front, falsehood, and culpable error; I infer a reversal of control and a localization of agency. The live alternative is a punishment sequence that does not conceptually relocate the focus denial into the body.",
+            "changed_reading": {
+              "before": "Denial is verbal and turning away ends contact.",
+              "after": "The pair marks a governing bodily direction: the restrainer's false course is reversed, stopped at its leading edge, and made answerable."
+            }
+          },
+          {
+            "model_id": "d_alliance_mobilization",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع و",
+              "ن د و",
+              "ز ب ن"
+            ],
+            "mechanism": "Calling an assembly and answering with a force of pushing and prevention reveals organized sides. This activates the focus authority and alliance branches: turning away need not be a solitary disappearance but can be a pivot from direct encounter toward one's council, with denial functioning as the claim around which support is mobilized.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the delegitimating claim around which a side can be organized."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B004",
+                "role": "Alliance, support, and patronage make the turn socially connective rather than merely evasive."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge supplies a leadership role within the mobilized side."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Vocal calling supplies the act that recruits a side into the conflict."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The council or gathering supplies the denier's available social body."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The answering call mirrors recruitment and establishes a counter-side."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Pushing, collision, and prevention give the counter-assembly a functional force."
+              }
+            ],
+            "structural_cues": [
+              "96:17-18 forms a matched call and counter-call immediately after the focus and threat sequence.",
+              "The first call targets a council or gathering; the answering call targets a pushing and preventing force."
+            ],
+            "reader_inference": "The packet supplies alliance, governance, two calls, an assembly, and counter-force; I infer that the focus turn pivots toward organized backing. A live alternative is simple retreat followed only later by an unrelated boast about allies.",
+            "changed_reading": {
+              "before": "A lone denier rejects and leaves.",
+              "after": "The denier's turn can be a regrouping maneuver: falsification becomes a public claim, and patronage converts withdrawal into mobilization."
+            }
+          },
+          {
+            "model_id": "d_refusal_descent_approach",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط و ع",
+              "س ج د",
+              "ق ر ب"
+            ],
+            "mechanism": "The closing commands answer the focus trajectory point by point: do not align your will with his, lower the body's front, and move near. The denier's turning away becomes a directional pressure that could propagate through obedience, while the commanded response breaks that succession and substitutes descent-plus-approach.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Succession without a break makes one orientation potentially reproducible by a follower."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the trajectory that the final imperatives counter."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "Obedient compliance identifies the channel through which another person's orientation could be copied."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B004",
+                "role": "Bowing the head gives the counter-response a concrete downward bodily vector."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Drawing near supplies the opposite spatial endpoint to turning away."
+              }
+            ],
+            "structural_cues": [
+              "96:19 places non-obedience, prostration, and approach in one imperative sequence.",
+              "The final approach is the direct spatial inverse of the focus withdrawal."
+            ],
+            "reader_inference": "The packet supplies succession, withdrawal, obedience, bodily lowering, and nearness; I infer that obedience would transmit the denier's direction and that the imperatives interrupt it. A live alternative is that the commands concern only the addressee's worship and do not model contagion.",
+            "changed_reading": {
+              "before": "Turning away describes only the denier's own exit.",
+              "after": "Turning away exerts a copyable social direction, but refusal of obedience, bodily descent, and approach break and reverse it."
+            }
+          },
+          {
+            "model_id": "d_turning_bounded_by_return",
+            "status": "weakened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر ج ع",
+              "ق ر ب"
+            ],
+            "mechanism": "Return to the sovereign source appears before the focus, and commanded nearness appears after it. These two vectors bound the turn away, weakening any reading of تولّى as a final or successful exit: it is a local orientation inside a larger return-and-approach frame.",
+            "activation_trace": [
+              {
+                "source_ref": "96:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and possession identify the pole toward which return is directed."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to what was supplies a larger counter-vector before the focus withdrawal."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the local vector whose finality is being tested."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Drawing near closes the context with a chosen counter-vector."
+              }
+            ],
+            "structural_cues": [
+              "96:8 places return before the repeated أرأيت sequence.",
+              "96:19 ends the window with an imperative of nearness."
+            ],
+            "reader_inference": "The packet supplies a sovereign destination, return, withdrawal, and approach; I infer that the outer vectors spatially contain the focus turn. A live alternative is that return is temporally remote and approach addresses another actor, so no immediate containment is intended.",
+            "changed_reading": {
+              "before": "The withdrawal is a terminal break.",
+              "after": "Its terminality is weakened: the turn away is a temporary vector bounded by unavoidable return and an available movement near."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_failed_charge_and_lookback",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates peripheral motion senses of كذب rather than the focus form's ordinary denial sense. It remains anchored in the focus verb sequence and gains contextual traction from pursuit and counter-pushing; downstream prose should present it only as a kinetic analogy for failed resolve, not as a lexical replacement translation.",
+            "focus_anchor": "The sequence كذّب وتولّى can carry a branch-backed motion pattern in which an advance fails, pauses to look behind, and becomes retreat.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing supplies the observer who registers the change from advance to retreat."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge that fails to hold supplies the first breakdown in forward motion."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Running and then stopping to look behind supplies the pivot between failed advance and withdrawal."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away completes the kinetic pattern as retreat."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B005",
+                "role": "Pursuit in the later threat keeps the failed-advance image dynamically connected to the context."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Pushing and collision supply the counter-force before which the attempted charge fails."
+              }
+            ],
+            "changed_reading": {
+              "before": "A doctrinal denial is followed by disengagement.",
+              "after": "As a contained kinetic analogy, the ayah asks the observer to notice a failed advance: resolve breaks, looks back, and retreats under counter-force."
+            }
+          },
+          {
+            "outlier_id": "o_hydraulic_false_sufficiency",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ر و ي mapping of the focus seeing root and remote material branches for كذب and ولى. It remains inspectable through the packet's explicit split mapping and a dense sequence of saturation, overflow, failed supply, following rain, and returning water; downstream prose should label it a hydrological resonance about unstable sufficiency, never a direct gloss of the ayah.",
+            "focus_anchor": "All three focus roots possess packet branches that can form a material sequence of apparent quenching, a supply that does not last, and a following rain.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "The split-root quenching image supplies apparent saturation at the opening of the focus sequence."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk expected to continue but drying up supplies a concrete failure of presumed sufficiency."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B010",
+                "role": "Rain following an earlier rain supplies succession after the failed supply."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "Overflowing water makes excess, rather than lack, the immediate condition of transgression."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency supplies the human interpretation placed upon temporary saturation."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B006",
+                "role": "Returning rain or water makes supply cyclical and received rather than autonomously possessed."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B005",
+                "role": "Dew, rain, and moisture extend the contextual water field without determining the focus lexemes."
+              }
+            ],
+            "changed_reading": {
+              "before": "Self-sufficiency is an abstract moral illusion behind denial.",
+              "after": "As a contained water analogy, apparent saturation overflows into autonomy, its expected supply fails, and returning or following water exposes dependence."
+            }
+          },
+          {
+            "outlier_id": "o_surface_that_lies",
+            "confidence": "medium",
+            "containment": "This is surprising because it materializes falsification as a deceptive visible surface and links turning to control of viewing angle. It remains anchored in focus branches for appearance, a garment that lies by its condition, and face-orientation, while contextual marks and inscription make surfaces readable; downstream prose should qualify it as a visual-material model, not claim that كذّب literally denotes clothing here.",
+            "focus_anchor": "Seeing, falsification, and face-turning permit a compact model in which a presented surface makes a false claim and then changes its orientation under inspection.",
+            "activation_trace": [
+              {
+                "source_ref": "96:13",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance and mirror supply a surface offered for inspection."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A colored garment that lies by its condition materializes falsehood as misleading presentation."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning the face supplies an attempt to control which aspect remains visible."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B002",
+                "role": "A visible sign from which a viewer reads condition makes surface evidence contextually active."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ق ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001252",
+                "branch_id": "B003",
+                "role": "The writing instrument supplies deliberate inscription as a contrast to deceptive appearance."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark that guides recognition makes the inspected body or surface legible."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock brings visible bodily frontage into the later attribution of falsehood."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is only a spoken verdict, followed by departure.",
+              "after": "As a contained visual model, the actor's presented surface itself makes a false claim, and turning the face attempts to manage an inspection that later reads the body's front."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The objectless denial became a break in a gathered, taught, and inscribed knowledge chain.",
+            "Created attachment, perceived self-sufficiency, overflow, and return made denial-and-withdrawal an enacted but impossible autonomy.",
+            "Repeated seeing reversed viewer and viewed, so turning away changed orientation without escaping visibility.",
+            "Later cessation, seizure of the forelock, counter-calls, and final approach converted private refusal into embodied and social contests of direction."
+          ],
+          "what_was_special": "The three focus verbs remained productive across epistemic, spatial, bodily, social, and authority mechanisms. Context did not settle them into one story: it made withdrawal both evasion and mobilization, denial both a verdict and a rupture of dependence, and seeing both inquiry and enclosing counter-observation. Peripheral branches also sustained contained kinetic, hydrological, and surface-display readings that a conservative synthesis would lose.",
+          "remaining_uncertainties": [
+            "The packet does not resolve whether the conditional subjects across 96:9-13 are identical, contrasted, or deliberately left available for reassignment.",
+            "The withdrawal and taking-charge branches of تولّى remain live competitors; context strengthens both without licensing a merger.",
+            "The non-dominant ر و ي mapping and peripheral material senses of كذب and ولى support analogies, not secure lexical substitutions.",
+            "Causal arrows from knowledge to refusal, attachment to false autonomy, and obedience to copied orientation are reader-supplied abductions rather than explicit grammatical statements."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The third inquiry tests denial plus bodily/social turning away. Evidence: `ر ء ي B013` alerting formula; `ك ذ ب B002` declaring false/denying, `ك ذ ب B001` falsehood; `و ل ي B007` turning away/withdrawal. Structural cue: this ayah mirrors 96:11-12: if the other was on guidance/commanded taqwa, what if this one denied and turned away? Mechanism: denial is not merely a proposition; it produces directional withdrawal from guidance and worship. Abductive move: the packet supplies denial and turning branches; I infer that falsehood has a posture. Reading change: the ayah reads as a diagnosis of a whole movement away from truth.\n\n2. `تولى` also activates authority and loyalty, preserving an alternate reading: he may turn away by assuming a rival charge. Evidence: `و ل ي B003` assuming authority, `و ل ي B004` alliance/support, `و ل ي B006` turning face/attention toward, contrasted with `و ل ي B007` withdrawal. Structural cue: the same form can imply turning oneself toward another alliance while away from guidance. Mechanism: the opponent's denial is sustained by social backing, later explicit in `ناديه`. Abductive move: the packet gives multiple `ولي` directions; I infer coexistence of retreat from guidance and alignment with a faction. Reading change: `تولى` reads both as retreat and as taking up the wrong patronage/side.\n\n3. `كذب` activates fabricated speech against divine creation. Evidence: `ك ذ ب B001/B002` falsehood/denial; `خ ل ق B007` fabricated false speech; `ق ر ء B001/B002` gathered true recitation. Structural cue: the surah began with reading by the Creator and now shows the counter-speech of denial. Mechanism: denial fabricates a rival verbal world, attempting to unmake the authority under which reading occurs. Abductive move: the packet supplies false-speech and creation branches; I infer a speech-conflict mechanism. Reading change: the ayah becomes not only rejection but anti-recitation.",
@@ -16902,45 +18275,32 @@
       "word_count": 5
     },
     "word_morpheme_spans": {
-      "present": false,
+      "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
       "words_total": 5,
-      "words_resolved": 0,
-      "words_unresolved": 5,
+      "words_resolved": 4,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "3": 1,
+        "0": 3
+      },
       "unresolved": [
         {
           "word_index": 0,
           "surface_ar": "أَرَأَيْتَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 1,
-          "surface_ar": "إِنْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "كَذَّبَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "تَوَلَّىٰ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
-        "ayah_count": 20,
-        "row_count": 118,
+        "ayah_count": 19,
+        "row_count": 111,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17390,10 +18750,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s96/packets/96_13.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s96/readers/reader_hft_a/96_13.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s096",
+        "latent_activation/focus_trace/runs/s96"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s96",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 201080,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

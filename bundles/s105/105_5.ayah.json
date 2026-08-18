@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:25.314702+00:00",
+  "generated_at": "2026-08-18T13:34:33.284536+00:00",
   "surah": 105,
   "ayah": 5,
   "ayahRef": "105:5",
@@ -1387,7 +1387,8 @@
       "morpheme_ids": [
         "m-w-s105-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:5:1"
+      "aligned_qac_word_ref_upstream": "105:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1403,7 +1404,8 @@
         "m-w-s105-a005-w001-02",
         "m-w-s105-a005-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "105:5:2"
+      "aligned_qac_word_ref_upstream": "105:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1417,7 +1419,8 @@
       "morpheme_ids": [
         "m-w-s105-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:5:3"
+      "aligned_qac_word_ref_upstream": "105:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1431,7 +1434,8 @@
       "morpheme_ids": [
         "m-w-s105-a005-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:5:4"
+      "aligned_qac_word_ref_upstream": "105:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1445,7 +1449,8 @@
       "morpheme_ids": [
         "m-w-s105-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:5:5"
+      "aligned_qac_word_ref_upstream": "105:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2913,7 +2918,986 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s105/packets/105_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "105:5",
+      "window": [
+        "105:1",
+        "105:2",
+        "105:3",
+        "105:4",
+        "105:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ء ك ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000043",
+              "furuq_root_norm": "ء ك ل",
+              "furuq_source_root_norm": "أ ك ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 79,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001315",
+              "furuq_root_norm": "ك ل ل",
+              "furuq_source_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 30,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ف ع ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001167",
+              "furuq_root_norm": "ف ع ل",
+              "furuq_source_root_norm": "ف ع ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 108,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000007",
+              "furuq_root_norm": "ء ب و",
+              "furuq_source_root_norm": "أ ب و",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "105:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_state_conversion",
+            "confidence": "strong",
+            "focus_anchor": "The transitive جَعَلَهُمْ, the predicative comparison كَعَصْفٍ, and the passive-result adjective مَأْكُولٍ form a compact object-to-output construction.",
+            "mechanism": "The collective is not merely struck or killed; it is made to cross a category boundary. Dry, broken crop remainder supplies the output material, while prior consumption marks that material as already stripped of integrity and use.",
+            "activation_trace": [
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-making supplies the explicit conversion operator that turns the object pronoun into a new condition."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Dry husk and broken crop matter supply the low-cohesion output state of the comparison."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Ingestion supplies a completed removal process, making the residue something already acted upon rather than untouched straw."
+              }
+            ],
+            "changed_reading": {
+              "before": "They ended up resembling damaged vegetation.",
+              "after": "They were converted from an organized collective into already-consumed agricultural remainder, a loss of category, cohesion, and usable substance."
+            }
+          },
+          {
+            "model_id": "baseline_swept_and_eroded",
+            "confidence": "medium",
+            "focus_anchor": "The same comparison joins the force-bearing range of عَصْفٍ to the eaten-away range latent in مَأْكُولٍ.",
+            "mechanism": "The final image can preserve a process signature inside a static result: sweeping force first disperses and breaks, then attrition eats away what remains. The focus does not name the intervening force, so this is a result-to-process reconstruction rather than a second event claim.",
+            "activation_trace": [
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Resultative state-making licenses reading the final condition as the endpoint of a process."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B002",
+                "role": "Violent sweeping wind contributes dispersal, lifting, and breakage as a possible process retained in the residue."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B004",
+                "role": "Sweeping destructive force extends the image from loose chaff to people reduced by a force that passes through them."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Being eaten away contributes abrasion, decay, and loss of material continuity after the initial breakage."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse offers a still photograph of chaff.",
+              "after": "The still photograph carries traces of a two-phase process: violent dispersal followed by erosion into nearly structureless remainder."
+            }
+          },
+          {
+            "model_id": "baseline_failed_harvest",
+            "confidence": "exploratory",
+            "focus_anchor": "عَصْفٍ can include crop matter cut before ripeness, while the mapped yield range of مَأْكُولٍ keeps production and provision latent in the simile.",
+            "mechanism": "The comparison can be temporal as well as visual. A body that expected to arrive, act, and secure an outcome is recoded as a failed crop: cut before fulfillment and deprived of yield. This coexists with the literal residue model without requiring the people to be plants.",
+            "activation_trace": [
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-making permits a reversal from prospective actor to prematurely finished product."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Pre-ripe cut fodder and fallen crop waste contribute the image of a harvest terminated before maturation."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B002",
+                "role": "Fruit and yield contribute the unrealized productive value against which the chaff-like endpoint is measured."
+              }
+            ],
+            "changed_reading": {
+              "before": "The comparison measures only the attackers' physical ruin.",
+              "after": "It can also measure aborted fruition: a project and its bearers become a harvest cut off before producing their intended yield."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_visible_forensics",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The opening demand to see, reinforced by the showing range of the root, turns the closing simile into an exhibit. Chaff that is already consumed is readable aftermath: the visible state lets the reader abduct backward to an otherwise unseen transformation.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Visual and insightful seeing makes the final material condition available as evidence rather than decoration."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Showing and making manifest frame the residue as something deliberately presented to the addressee."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Recognizable broken crop matter gives the showing a concrete diagnostic surface."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Eaten-away material supplies traces from which prior attrition can be inferred."
+              }
+            ],
+            "structural_cues": [
+              "The branchless ك ي ف at 105:1 word 3 is used only as a structural cue: it makes manner, not merely occurrence, the object of attention.",
+              "The opening perceptual question and the closing concrete comparison form an evidence frame around the intervening actions."
+            ],
+            "reader_inference": "The packet supplies seeing, showing, a manner-question, and visible residue; I supply the arrow from aftermath to reconstruction of process. A live alternative is that seeing means settled knowledge and the simile illustrates rather than proves.",
+            "changed_reading": {
+              "before": "The chaff image is a vivid description of the result.",
+              "after": "The chaff image is also forensic evidence: a displayed remainder through which the manner of the transformation becomes mentally visible."
+            }
+          },
+          {
+            "model_id": "delta_nurture_inversion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ع ل",
+              "ر ب ب"
+            ],
+            "mechanism": "Action is assigned to the Lord whose branch field includes sovereignty, repair, nurture, completion, and, through the split mapping, growth. Against that field, the crop image becomes an inversion of cultivation: the hostile formation is prevented from ripening into its intended result, while destructive action can function as preservation of a larger order.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act supplies deliberate agency behind the later state conversion."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and dominion make the transformation an exercise of ordering authority rather than anonymous damage."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the counterintuitive possibility that one destruction serves another object's preservation."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant growth and nourishment mapping sharpens the reversal between cultivation and premature crop waste."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Cut or broken crop matter supplies the anti-cultivation endpoint of the ordered action."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B002",
+                "role": "Yield supplies the productive future that the hostile formation fails to reach."
+              }
+            ],
+            "structural_cues": [
+              "105:1 explicitly assigns the action to رَبُّكَ, while the subject of 105:5 is recovered through the continuous sequence.",
+              "The final crop comparison retrospectively places the agentive action inside a cultivation-and-counter-cultivation frame."
+            ],
+            "reader_inference": "The packet supplies deliberate action, lordship, nurture, growth, and premature crop residue; I infer that terminating one growth protects or completes another order. The live alternative is simpler sovereign punishment with no cultivation reversal.",
+            "changed_reading": {
+              "before": "The agent destroys an attacking collective.",
+              "after": "The agent counter-cultivates: the attackers' project is cut off before fruition, and their conversion into crop waste can paradoxically serve preservation and completion elsewhere."
+            }
+          },
+          {
+            "model_id": "delta_association_to_mass",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ف ي ل"
+            ],
+            "mechanism": "Companionship and attachment define the target as a relational formation organized around the elephant. The final singular mass image then erases internal ranks, roles, and even the prestige of the animal: a company held together by association is rendered as anonymous loose matter. The elephant root's weakness range adds a latent reversal of apparent bulk.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and sustained attachment supply the social cohesion that the final state dissolves."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant supplies the concrete center around which the possessive collective is organized."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Slackness and weakness supply a latent counter-image to the animal's apparent mass and force."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State conversion applies to the plural object as one transformed formation."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Loose crop remainder supplies a mass state in which the former relations are no longer distinguishable."
+              }
+            ],
+            "structural_cues": [
+              "The construct أصحاب الفيل names the people by attachment, and the plural object suffix in جَعَلَهُمْ carries that relational collective into the final comparison.",
+              "A plural organized company is predicated of a singular mass noun, compressing differentiated members into material."
+            ],
+            "reader_inference": "The packet supplies companionship, an elephant, a weakness branch, and a plural-to-mass comparison; I infer that material disaggregation also signifies social disaggregation. Alternatively, the mass noun may be purely visual and leave group identity untouched.",
+            "changed_reading": {
+              "before": "Individual attackers are likened to scattered chaff.",
+              "after": "The organized human-animal association itself is unmade: prestige, roles, and cohesion disappear into one anonymous mass of residue."
+            }
+          },
+          {
+            "model_id": "delta_two_stage_unmaking",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ك ي د",
+              "ض ل ل"
+            ],
+            "mechanism": "The repeated state-making verb creates two linked conversions. First the scheme is put into loss, concealment, or failure of destination; then its bearers are put into an eaten-chaff state. Abstract organization is unmade before embodied organization, so the final material dispersal completes the earlier strategic dispersal.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The first state conversion supplies a grammatical template that the focus repeats on a different object."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Plotting and contrivance supply the organized intention that undergoes the first conversion."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance and hiddenness make the plan lose effective presence before bodies become residue."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies the abstract counterpart to the focus's physical loss of cohesion and substance."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The repeated conversion now transfers failure from the scheme to the schemers' bodily state."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Broken crop remainder materializes the earlier loss as visible fragmentation."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Erosion and being eaten away complete the move from ineffective intention to depleted matter."
+              }
+            ],
+            "structural_cues": [
+              "جَعَلَ repeats in 105:2 and 105:5 with a possessive or object pronoun referring to the same side but with scheme first and persons second.",
+              "The resultative فَ at the start of 105:5 lets the bodily conversion read as the completion of the preceding sequence."
+            ],
+            "reader_inference": "The packet supplies parallel state-making, a plot, loss, and a final depleted material state; I infer a staged arrow from strategic unmaking to bodily unmaking. A live alternative is that the two conversions are parallel consequences without temporal or causal dependence.",
+            "changed_reading": {
+              "before": "The final destruction is a standalone physical result.",
+              "after": "The final state is the material completion of an earlier operation: intention first loses its way and presence, then its bearers lose form and substance."
+            }
+          },
+          {
+            "model_id": "delta_distributed_storm",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ط ي ر",
+              "ء ب ل"
+            ],
+            "mechanism": "Dispatch, succession, light flight, dispersal, and grouped plurality combine into a distributed-force model. Numerous mobile units need not each carry overwhelming force; their ordered repetition collectively performs the sweeping work latent in عَصْف, turning a concentrated target into dispersed remainder.",
+            "activation_trace": [
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and outward movement supply the release of agents into the action."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Succession supplies repeated arrival rather than a single indivisible blow."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Lightness in flight contributes mobile, low-mass agency."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spreading after light movement supplies spatial distribution across the target."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Grouped bodies supply multiplicity organized in successive clusters."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B002",
+                "role": "Sweeping wind supplies the emergent large-scale behavior produced by many light moving agents."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B004",
+                "role": "Destructive sweeping links distributed movement to the conversion of people into chaff-like ruin."
+              }
+            ],
+            "structural_cues": [
+              "The ordered sequence moves from dispatch in 105:3, through ongoing throwing in 105:4, to the resultative conversion in 105:5.",
+              "The plural-group descriptor modifies an unnumbered collective of birds, supporting distributed rather than singular agency."
+            ],
+            "reader_inference": "The packet supplies dispatch, succession, light flight, spreading groups, and sweeping destruction; I infer that repeated small actions aggregate into storm-like force. Alternatively, the birds are simply carriers and the wind-like behavior belongs only to the final simile.",
+            "changed_reading": {
+              "before": "An unspecified overwhelming force leaves the target like chaff.",
+              "after": "The conversion can emerge from distributed, successive micro-actions whose aggregate behavior resembles a sweeping storm."
+            }
+          },
+          {
+            "model_id": "delta_granular_threshing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر",
+              "س ج ل"
+            ],
+            "mechanism": "Thrown hard units combined with the full-bucket-and-pouring range of س ج ل supply a granular processing mechanism. A continuing shower of discrete impacts functions like violent threshing or milling: granular inputs break a collective into granular crop waste, after which مَأْكُولٍ marks further depletion.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Casting objects supplies directed impacts between the dispatched agents and the target."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies the resistant discrete material that can break softer bodies."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "A full bucket and its outpouring contribute density, repetition, and shower-like delivery."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State conversion names the endpoint produced by the impact sequence."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Broken husk and straw supply a material analogue for impact-fragmented bodies."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Erosion and being eaten away add attrition beyond initial fragmentation."
+              }
+            ],
+            "structural_cues": [
+              "The imperfect تَرْمِي in 105:4 presents ongoing action immediately before the resultative فَجَعَلَهُمْ.",
+              "The movement from plural projectiles to a singular mass residue supports a particle-to-particle material analogy."
+            ],
+            "reader_inference": "The packet supplies throwing, hard stone, pouring, broken crop matter, and erosion; I supply the mechanical arrow that repeated impacts pulverize the target like threshing. A live alternative is that the final simile reports appearance only and does not encode mechanics.",
+            "changed_reading": {
+              "before": "The stones and the chaff image are adjacent event and result.",
+              "after": "Their material forms explain one another: a dense stream of hard particles processes the target into loose, depleted particles."
+            }
+          },
+          {
+            "model_id": "delta_recorded_sentence",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر",
+              "س ج ل"
+            ],
+            "mechanism": "A second, coexisting cross-domain model activates beside the physical one. Verbal accusation, prohibition or enclosure, a record that gathers and fixes, and the focus root's handing-over range can be arranged as charge, fixed determination, blocked escape, and executed state. The material bombardment thus carries a faint juridical contour without ceasing to be material.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B008",
+                "role": "Hurling words contributes the cross-domain image of accusation alongside literal casting."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prevention and enclosure contribute the blocking of escape or further action."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "A record that gathers and fixes contributes the image of a determination made durable."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-making supplies execution of the fixed determination upon the object."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B010",
+                "role": "Imputing liability or handing someone over supplies the final juridical transfer into an imposed condition."
+              }
+            ],
+            "structural_cues": [
+              "The same plural object is carried from تَرْمِيهِم in 105:4 to جَعَلَهُمْ in 105:5, allowing charge-like action and imposed result to share a target.",
+              "The resultative conjunction makes the fixed state read as a consequence rather than an unrelated label."
+            ],
+            "reader_inference": "The packet supplies accusation, prevention, record-fixing, handing-over, and state imposition; I supply their ordering as a juridical sequence. The strong alternative is that these are independent polysemous branches and only the projectile reading is active.",
+            "changed_reading": {
+              "before": "The attack is solely a physical cause of physical ruin.",
+              "after": "Exploratorily, the same physical sequence can carry the contour of a sentence being charged, fixed, and executed upon the collective."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_total_exhaustion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends on the packet's non-dominant ك ل ل mapping for the surface مَأْكُولٍ and is therefore form-distant. It remains anchored in that focus adjective, in explicit state-making, and in a context branch of weakness; downstream prose should call it a secondary echo of exhausted capacity, not an alternative lexical gloss.",
+            "focus_anchor": "مَأْكُولٍ is the focus adjective through which the packet exposes weariness, loss of sharpness, and totality under a secondary mapped root.",
+            "activation_trace": [
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-making lets exhaustion and dullness function as an imposed endpoint."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B001",
+                "role": "Weariness and loss of edge contribute destruction of capacity, acuity, and forward force."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Totality contributes the possibility that no part of the collective escapes the imposed depletion."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Weakness in the elephant root gives the form-distant exhaustion reading a context-side resonance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their substance is eaten and scattered.",
+              "after": "A secondary echo says their entire capacity is exhausted and blunted: the collective is made unable to retain edge, perception, or forward force."
+            }
+          },
+          {
+            "outlier_id": "outlier_one_head_remnant",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the one-head provision idiom is distant from the passive adjective's ordinary syntax. It remains anchored in مَأْكُولٍ and gains scale contrast from named companionship and grouped plurality; downstream prose should render it only as an activated scale metaphor and must not assert an eater or exact surviving number.",
+            "focus_anchor": "The focus joins a plural object to crop residue and an eating-root adjective whose inventory includes a group small enough for one head to feed.",
+            "activation_trace": [
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Loose crop remainder supplies the physically negligible residue against which the former group is measured."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B011",
+                "role": "A group small enough for a single head to feed supplies an extreme reduction-of-scale image."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the initially coherent many whose scale is being reversed."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Grouped plurality amplifies the contrast between the many-agent sequence and the negligible final remainder."
+              }
+            ],
+            "changed_reading": {
+              "before": "A large company is destroyed.",
+              "after": "The image can carry an extreme scale reversal: the coherent many are reduced conceptually to a remainder scarcely amounting to one consumer's portion."
+            }
+          },
+          {
+            "outlier_id": "outlier_aftermath_as_report",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant ر و ي mapping under the opening seeing root. It remains anchored because the focus comparison packages a visible aftermath into a compact image and the opening explicitly solicits apprehension; downstream prose should describe a resonance between seeing and report-transmission, not replace seeing with narration.",
+            "focus_anchor": "The compact comparison in 105:5 converts an event into a memorable image capable of carrying knowledge of what happened.",
+            "activation_trace": [
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "Attention-directing inquiry opens a demand that the event be made cognitively present."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "Transmission of news or verse contributes the form-distant possibility that the image is designed to travel as report."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Familiar crop residue supplies a portable visual analogy that can preserve the event in memory."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Eaten-away aftermath supplies a diagnostic endpoint from which the lost action can be retold."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final simile helps the immediate addressee visualize destruction.",
+              "after": "Exploratorily, it also compresses aftermath into a transmissible report: an image through which absent hearers can cognitively see the event."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated جَعَلَ creates a two-stage unmaking in which the scheme first loses efficacy and presence, then its bearers lose bodily cohesion and substance.",
+            "Dispatch, succession, light flight, spreading groups, and sweeping force reveal a distributed-action mechanism in which many small acts aggregate into a storm-like conversion.",
+            "Thrown stone and the pouring range of س ج ل make the chaff image mechanically legible as granular impact producing granular residue.",
+            "The opening seeing-and-manner frame turns the final comparison into forensic aftermath from which process is abductively reconstructed."
+          ],
+          "what_was_special": "The focus did not settle into one destruction gloss. Its compact state-conversion frame sustained material, temporal, social, evidentiary, ecological, and exploratory juridical readings at once. Especially productive were reversals of scale and cultivation, plus non-dominant mapped roots that exposed live but carefully contained echoes of total exhaustion and report-transmission.",
+          "remaining_uncertainties": [
+            "مَأْكُولٍ can foreground literal prior ingestion, generalized erosion, removed yield, or more distant mapped echoes; the focus alone does not rank all of them.",
+            "The threshing mechanism is strongly abductive but still reader-supplied: the packet gives projectiles and residue, not an explicit impact-to-pulverization statement.",
+            "The juridical contour from accusation, enclosure, record-fixing, and handing-over may be a genuine cross-domain activation or only an alignment of remote branches.",
+            "Non-dominant mappings such as ر و ي, ر ب و, and ك ل ل are worth preserving as exploratory activations but should not be promoted to direct lexical substitutions."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Final state-conversion into crop refuse.** Lexical evidence: ج ع ل B002, turning something into a state; ع ص ف B001, dry crop chaff and broken straw; ء ك ل B001, ingesting food; ء ك ل B006, being eaten away/decay. Structural cue: this is the second جعل in the surah after 105:2, now with \"هم\" as object and a simile as the resulting condition. Assigned role: جعل supplies transformation; عصف supplies the target material state; مأكول supplies consumption or eaten-away degradation. Abductive move: I infer that the final simile is the result-state of the whole sequence, not decorative comparison; the packet supplies the repeated جعل and the material branches. Reading change: the ayah reads as a completed conversion of an organized company into spent organic residue.\n\n2. **Storm-force hidden inside the chaff image.** Lexical evidence: ع ص ف B002, violent wind that sweeps things away; ع ص ف B004, sweeping destructive force; ط ي ر B001/B002 in 105:3, airborne lightness and scattering; ر م ي B004 in 105:4, cloud/heavy-rain usage; س ج ل B001, outpouring bucket. Structural cue: the prior ayat give airborne bands and thrown-down material before the result \"عصف\". Assigned role: عصف B001 supplies the visible debris; عصف B002/B004 supplies the force that produces such debris. Abductive move: I infer a storm-like process from birds, outpouring, and projectile descent; the packet supplies several air/descent/destruction branches, while I supply the combined storm mechanism. Reading change: \"كعصف\" reads both as what they become and as the trace of the destructive force that made them so.\n\n3. **The eaters/possessors become consumable prey.** Lexical evidence: ء ك ل B007, prey or animal set aside for eating; ء ك ل B004, consuming or taking wealth; ص ح ب B001/B004 in 105:1, company/possession; ف ي ل B004, elephant and its keeper/companion; ف ي ل B001, weak judgment. Structural cue: a group named by possessing/accompanying a great animal ends as \"مأكول\", passive and consumable. Assigned role: أصحاب الفيل supplies an owning/companion identity; ء ك ل B007 supplies the prey-state; ء ك ل B004 tentatively activates reversal of taking/consuming into being consumed. Abductive move: I infer reversal from controlling an animal/resource to becoming matter available to consumption; the packet supplies the ownership/company and eating branches, while I supply the reversal arrow. Reading change: the final passive adjective reads as social inversion: the powerful animal-company is rendered prey-like.\n\n4. **Their resourceful striving yields worthless residue.** Lexical evidence: ع ص ف B005, earning and resourceful striving; ك ي د B001/B002 in 105:2, forceful handling and stratagem; ض ل ل B001, deviation from aim; ج ع ل B002, turning into state. Structural cue: the sequence moves from their intentional كيد to an عصف-state that can itself carry striving/acquisition resonance. Assigned role: كيد names the planned effort; عصف B005 names an alternate branch of busy acquisition; ضلل names the deviation of that effort's end. Abductive move: I infer ironic yield: their exertion \"produces\" only dry chaff. This is exploratory because عصف on the surface is the chaff image, while B005 is activated by the prior labor/stratagem complex. Reading change: the final ayah becomes not only annihilation but a failed harvest of their own planning.",
@@ -14922,14 +15906,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s105/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 43,
+        "ayah_count": 5,
+        "row_count": 36,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15224,10 +16214,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s105/packets/105_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s105/readers/reader_hft_a/105_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s105"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s105",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 103226,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

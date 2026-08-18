@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.469954+00:00",
+  "generated_at": "2026-08-18T13:34:06.452669+00:00",
   "surah": 90,
   "ayah": 15,
   "ayahRef": "90:15",
@@ -1237,7 +1237,8 @@
       "morpheme_ids": [
         "m-w-s090-a015-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:15:1"
+      "aligned_qac_word_ref_upstream": "90:15:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1251,7 +1252,8 @@
       "morpheme_ids": [
         "m-w-s090-a015-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:15:2"
+      "aligned_qac_word_ref_upstream": "90:15:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1265,7 +1267,8 @@
       "morpheme_ids": [
         "m-w-s090-a015-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "90:15:3"
+      "aligned_qac_word_ref_upstream": "90:15:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2898,7 +2901,1215 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s90/packets/90_15.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "90:15",
+      "window": [
+        "90:1",
+        "90:2",
+        "90:3",
+        "90:4",
+        "90:5",
+        "90:6",
+        "90:7",
+        "90:8",
+        "90:9",
+        "90:10",
+        "90:11",
+        "90:12",
+        "90:13",
+        "90:14",
+        "90:15",
+        "90:16",
+        "90:17",
+        "90:18",
+        "90:19",
+        "90:20"
+      ],
+      "ayah_count": 20,
+      "split_root_mappings": [
+        {
+          "qac_root": "ح ل ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000351",
+              "furuq_root_norm": "ح ل ل",
+              "furuq_source_root_norm": "ح ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 39,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000353",
+              "furuq_root_norm": "ح ل ي",
+              "furuq_source_root_norm": "ح ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "90:15",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_severance_within_kinship",
+            "confidence": "strong",
+            "focus_anchor": "The pairing of يَتِيمًا at word 1 with ذَا مَقْرَبَةٍ, anchored in مَقْرَبَةٍ at word 3.",
+            "mechanism": "The orphan branch supplies a child cut off from a protecting parent, while the nearness branch supplies a surviving blood relation. The phrase therefore holds rupture and connection together: one protective edge is gone, but a near relational network remains available to answer the loss.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Orphaned offspring cut off from a protector supplies the severed protective bond that defines the vulnerability."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Blood kinship supplies the still-intact near network and makes that network the possible site of repair."
+              }
+            ],
+            "changed_reading": {
+              "before": "An orphan who happens to be a relative.",
+              "after": "A child bearing a severed protective bond inside a still-near kinship network; nearness intensifies rather than cancels the rupture."
+            }
+          },
+          {
+            "model_id": "b02_near_yet_unaccompanied",
+            "confidence": "medium",
+            "focus_anchor": "The semantic collision between يَتِيمًا at word 1 and مَقْرَبَةٍ at word 3.",
+            "mechanism": "Isolated singleness and nearness coexist in one person. The result is a social topology in which someone can be physically or relationally close yet functionally alone; the problem is not lack of adjacency but lack of protective accompaniment.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolated singleness supplies functional aloneness and distinguishes it from mere material need."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness as the opposite of distance places that aloneness in immediate reach rather than far away."
+              }
+            ],
+            "changed_reading": {
+              "before": "A nearby orphan.",
+              "after": "A person who is near enough to encounter but still socially singular: proximity without accompaniment."
+            }
+          },
+          {
+            "model_id": "b03_delayed_care_at_a_closing_interval",
+            "confidence": "exploratory",
+            "focus_anchor": "The delayed-care branch of ي ت م at word 1 interacting with the temporal-nearness branch of مَقْرَبَةٍ at word 3.",
+            "mechanism": "One branch explains orphanhood through beneficence arriving slowly, while the other makes nearness temporal and end-directed. Their conjunction activates a deadline model: the vulnerable person is one toward whom care has lagged while the interval for effective repair is drawing close.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B004",
+                "role": "Slowing or delay in care supplies the neglected interval built into the orphan's condition."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal nearness and approaching completion turn delayed care into a narrowing window rather than a timeless duty."
+              }
+            ],
+            "changed_reading": {
+              "before": "An orphan of close kin.",
+              "after": "One for whom beneficence has been late and whose window for relational repair is now pressing near."
+            }
+          },
+          {
+            "model_id": "b04_access_reversal",
+            "confidence": "exploratory",
+            "focus_anchor": "يَتِيمًا at word 1 joined to the access-and-favor branch available through مَقْرَبَةٍ at word 3.",
+            "mechanism": "The phrase juxtaposes loss of a protector with privileged nearness and access. This supports a status-reversal reading in which the socially unshielded person is not kept at the edge but treated as an insider whose access has priority.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Cutoff from a protecting parent supplies the person's exclusion from ordinary access and advocacy."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored access and privileged nearness supply the inverted social position into which the unprotected person may be brought."
+              }
+            ],
+            "changed_reading": {
+              "before": "A kin orphan within the donor's existing circle.",
+              "after": "The unprotected one figured as an insider with priority access, reversing the ordinary hierarchy of social favor."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_the_specific_claim_that_audits_abundance",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق س م",
+              "ح س ب",
+              "ق د ر",
+              "ه ل ك",
+              "م و ل",
+              "ل ب د"
+            ],
+            "mechanism": "Apportioning, counting, measure, expenditure, wealth, and piled mass turn the focus person into a distributive test. A boast about exhausting accumulated wealth remains an unverified total until a measured share crosses the nearest severed protective bond.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The cut-off dependent supplies the concrete claimant against whom an abstract spending total can be tested."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Kinship supplies the near allocation channel whose neglect cannot plausibly be blamed on remoteness."
+              },
+              {
+                "source_ref": "90:1",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and apportioning a share supplies the distributive frame rather than a merely aggregate notion of expenditure."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning supply the first audit operation applied to the agent's self-estimate."
+              },
+              {
+                "source_ref": "90:7",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "The repeated counting branch makes the audit recursive: both power and visibility claims are brought back into reckoning."
+              },
+              {
+                "source_ref": "90:5",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A quantity reaching its bound supplies exact measure and resists the vagueness of a boastful total."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B009",
+                "role": "Exhausting and using up effort supplies the claimed depletion that must be distinguished from effective allocation."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessing and multiplying wealth supplies the stock from which a concrete near claim should be met."
+              },
+              {
+                "source_ref": "90:6",
+                "root": "ل ب د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001340",
+                "branch_id": "B002",
+                "role": "A piled mass with layers riding over one another supplies accumulated abundance whose scale can conceal failed distribution."
+              }
+            ],
+            "structural_cues": [
+              "90:5 and 90:7 repeat أَيَحْسَبُ and أَحَدٌ around the first-person expenditure claim in 90:6.",
+              "The singular, specified recipient in 90:15 contrasts with the undifferentiated mass of wealth in 90:6."
+            ],
+            "reader_inference": "The packet supplies apportioning, repeated reckoning, bounded measure, claimed exhaustion, wealth, and piled mass; I add the arrow that the claim is audited by whether a share reaches this named dependent. A live alternative is that these roots expose boastfulness without implying a distributive ledger.",
+            "changed_reading": {
+              "before": "One exemplary beneficiary of generosity.",
+              "after": "The close orphan is the falsifiable unit of allocation: abundance does not count as well-spent merely because its owner reports a large total."
+            }
+          },
+          {
+            "model_id": "d02_surviving_kin_as_a_guardianship_relay",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل د",
+              "ك و ن",
+              "ر ح م"
+            ],
+            "mechanism": "Parent and begetting establish a lineage line; orphanhood marks the loss of its protecting node; kinship, womb relation, and standing surety show that the surviving line can carry protection forward. The focus becomes a relay problem, not simply a sentimental appeal to relatives.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The child cut off from a protecting parent supplies the broken node in the lineage relay."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Blood relation supplies the surviving line capable of carrying the missing protective function."
+              },
+              {
+                "source_ref": "90:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parents understood from the side of birth supply the upstream relation whose loss defines the focus vulnerability."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Surety and standing over another supply the ongoing guardianship function that can be relayed to surviving kin."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "Womb relation and kinship close the lineage arc and make mercy structurally relational, not only affective."
+              }
+            ],
+            "structural_cues": [
+              "The sequence opens with parent and what was begotten in 90:3, names the orphan of kin in 90:15, and returns to رحم in 90:17.",
+              "The focus construction preserves both the lost parental edge and the remaining near relation in one noun phrase."
+            ],
+            "reader_inference": "The packet supplies birth-parentage, severance from a protector, surviving kinship, and a branch of surety; I add the arrow that surviving kin inherit a protective function. The alternative is a looser moral affinity in which kinship intensifies compassion but does not transfer guardianship.",
+            "changed_reading": {
+              "before": "An orphan related by blood.",
+              "after": "A broken point in a lineage whose surviving near members are latent replacement-bearers of the lost protection."
+            }
+          },
+          {
+            "model_id": "d03_from_seeing_to_protective_witness",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ع ل",
+              "ع ي ن"
+            ],
+            "mechanism": "The sequence moves from a claim of not being seen to the making of two eyes. The eye inventory then shifts from optical sight to an eye of preservation and care. Against an orphan cut off from a protector but already near, seeing becomes accountable witness and potentially a replacement protective gaze.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of the protecting parent supplies the absent gaze and care that the seeing agent may be called to answer."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Immediate nearness makes the vulnerable person perceptually available and removes distance as an excuse."
+              },
+              {
+                "source_ref": "90:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Sight by eye and insight supply the witnessed field in which self-concealment fails."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something into a state supplies the endowment-to-responsibility transition rather than treating eyes as inert anatomy."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye supplies literal perception of the near person's condition."
+              },
+              {
+                "source_ref": "90:8",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The eye of preservation and care converts perception into a possible guardianship function."
+              }
+            ],
+            "structural_cues": [
+              "The question about being seen in 90:7 is followed immediately by the reminder of two eyes in 90:8.",
+              "The focus person is marked as near, so the later encounter is structurally one of overlooked proximity rather than remote ignorance."
+            ],
+            "reader_inference": "The packet supplies sight, endowed eyes, an eye of care, nearness, and missing protection; I add the arrow that endowed sight entails protective witnessing. A live alternative is that the eye-of-care branch points only to divine oversight, leaving human responsibility at the level of perception.",
+            "changed_reading": {
+              "before": "A visible nearby vulnerable child.",
+              "after": "A test of whether sight becomes guardianship: the near orphan calls the endowed eye to act as a preserving witness."
+            }
+          },
+          {
+            "model_id": "d04_the_near_person_as_the_steep_terrain",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ه د ي",
+              "ن ج د",
+              "ق ح م",
+              "ع ق ب"
+            ],
+            "mechanism": "Guidance, heights, perilous entry, and the difficult rise make a topography that is subsequently specified through concrete acts. When that path reaches the orphan who is simultaneously near and isolated, the hardest distance becomes social: the ascent consists in crossing from adjacency into responsibility.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolated singleness supplies the social separation that remains even when geographic distance is small."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies the paradoxical short physical distance across which the difficult ethical crossing must occur."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a road or truth supplies directed movement into the ensuing terrain."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ن ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001473",
+                "branch_id": "B001",
+                "role": "Elevation and height supply the upward axis of the ethical landscape."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ق ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001202",
+                "branch_id": "B002",
+                "role": "Perils and hard passages supply the resistance involved in entering responsibility."
+              },
+              {
+                "source_ref": "90:11",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B012",
+                "role": "The difficult raised path supplies the named ascent that the recipient list will concretize."
+              },
+              {
+                "source_ref": "90:12",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B012",
+                "role": "Repetition of the difficult rise holds the topographic question open until the later acts answer it."
+              }
+            ],
+            "structural_cues": [
+              "90:10-12 build a road-and-ascent sequence, and 90:13-16 answer it with a coordinated list of actions and recipients.",
+              "The focus's internal contrast of isolation and nearness converts literal distance into relational distance."
+            ],
+            "reader_inference": "The packet supplies guidance, heights, hard entry, a steep rise, social singleness, and nearness; I add the arrow that the topography resolves as crossing into responsibility for the near isolated person. The alternative is that the ascent marks moral difficulty generally and the orphan is only one example rather than the terrain's interpretive key.",
+            "changed_reading": {
+              "before": "One recipient encountered after the metaphor of a steep path.",
+              "after": "The near orphan is part of the steep terrain itself: socially uphill precisely because physical or kinship distance is already small."
+            }
+          },
+          {
+            "model_id": "d05_unfastening_the_protective_circuit",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ل ل",
+              "ف ك ك",
+              "و ص د"
+            ],
+            "mechanism": "The wider sequence supplies an opening-and-closing material grammar: a knot is loosened, an entanglement and captive bond are released, and the final door is tightly shut. Because the orphan branch is itself a severed protective relation, care for near kin can be read as social unfastening—opening a closed circuit around the isolated person.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The severed protector-child relation supplies the broken circuit that requires more than a transfer of goods."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Kinship supplies nearby relational material that can be reconnected around the severed point."
+              },
+              {
+                "source_ref": "90:2",
+                "root": "ح ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000351",
+                "branch_id": "B001",
+                "role": "Loosening a knot supplies the first opening image and frames repair as undoing constriction."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B001",
+                "role": "Opening what is locked and separating what is entangled supplies the mechanics of social release."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Freeing a pledge or person from confinement supplies the liberation axis that expands care beyond subsistence."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Enclosing and shutting over something supplies the terminal opposite of relational opening."
+              },
+              {
+                "source_ref": "90:20",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root independently supplies a tightly closed door, reinforcing rather than replacing the first closure image."
+              }
+            ],
+            "structural_cues": [
+              "An early loosening image at 90:2, explicit unfastening at 90:13, the focus at 90:15, and final enclosure at 90:20 form a sequence-wide open/closed contrast.",
+              "The focus person is defined by relational cutoff while still possessing nearness, so reconnection remains structurally possible."
+            ],
+            "reader_inference": "The packet supplies knot-loosening, release from confinement, final double-mapped closure, severance, and kinship; I add the arrow that care reopens the orphan's protective circuit. The legal act of emancipation and the final punishment remain distinct literal scenes, so the connection is a material analogy, not an equation.",
+            "changed_reading": {
+              "before": "A food recipient listed after an unrelated act of liberation.",
+              "after": "A person whose support should unfasten social enclosure and reconnect protection; feeding is one material means of release rather than the whole repair."
+            }
+          },
+          {
+            "model_id": "d06_scarcity_turns_nearness_into_a_deadline",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م",
+              "ي و م",
+              "س غ ب"
+            ],
+            "mechanism": "The governing act is feeding another during a severe, hunger-exhausted event. This activates the focus branches of delayed beneficence and temporal nearness alongside the ordinary kinship branch: the near orphan is not only relationally close but situated inside a closing intervention window.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B004",
+                "role": "Delayed beneficence supplies the danger of aid arriving after the vulnerable interval has passed."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal nearness and nearing an end supply urgency and make the crisis a deadline."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Blood kinship keeps the temporal activation attached to the phrase's near relational channel."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the concrete transfer whose timing determines whether care is effective."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A severe event of the day supplies crisis-time rather than an interchangeable calendar date."
+              },
+              {
+                "source_ref": "90:14",
+                "root": "س غ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000710",
+                "branch_id": "B001",
+                "role": "Hunger compounded by exhaustion supplies the bodily threshold that makes delay consequential."
+              }
+            ],
+            "structural_cues": [
+              "The accusative يَتِيمًا in 90:15 continues the feeding construction of 90:14.",
+              "The temporal phrase فِي يَوْمٍ ذِي مَسْغَبَةٍ precedes and governs the recipient encounter."
+            ],
+            "reader_inference": "The packet supplies feeding, a severe time, hunger with exhaustion, delayed care, and temporal nearness; I add the arrow that delay risks missing an effective rescue window. The live alternative is that مَقْرَبَةٍ remains exclusively a kinship descriptor while urgency comes only from 90:14.",
+            "changed_reading": {
+              "before": "A close relative selected as the object of feeding.",
+              "after": "A close relative in time-critical need: kinship proximity and a rapidly closing bodily window converge."
+            }
+          },
+          {
+            "model_id": "d07_relational_deprivation_is_not_material_poverty",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ك ن",
+              "ت ر ب"
+            ],
+            "mechanism": "The parallel recipient in 90:16 is marked by abasement and poverty through sticking to dust, whereas the focus recipient is marked by severed protection inside kinship. The paired grammar distinguishes two deprivation axes—relational disconnection and material ground-level destitution—without ranking or collapsing them.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a protecting parent supplies relational deprivation rather than an automatic claim about wealth."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolated singleness supplies the social axis that the following dust imagery does not exhaust."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Kinship nearness locates the first deprivation within a relation that exists but is not yet functioning protectively."
+              },
+              {
+                "source_ref": "90:16",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B006",
+                "role": "The abasement of poverty supplies the second recipient's explicitly material-social condition."
+              },
+              {
+                "source_ref": "90:16",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B002",
+                "role": "Poverty figured as adhesion to dust supplies a ground-level material axis set beside the focus's kinship topology."
+              }
+            ],
+            "structural_cues": [
+              "90:15 and 90:16 form the close parallel يَتِيمًا ذَا مَقْرَبَةٍ / مِسْكِينًا ذَا مَتْرَبَةٍ.",
+              "The two accusative recipients are coordinated by أَو and each carries the same ذَا plus ma-...-ah-shaped descriptor."
+            ],
+            "reader_inference": "The packet supplies a severed protector, social singleness, kinship, poverty-abasement, dust, and exact syntactic parallelism; I add the contrastive arrow that the pair differentiates relational from material deprivation. The alternative is that both descriptions simply intensify one undifferentiated class of poverty.",
+            "changed_reading": {
+              "before": "A poor orphan, followed by another poor person.",
+              "after": "The orphan is selected for a broken care relation even without an asserted lack of property, while the paired recipient makes material destitution explicit."
+            }
+          },
+          {
+            "model_id": "d08_nearness_becomes_protective_companionship",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "و ص ي",
+              "ص ب ر",
+              "ر ح م",
+              "ص ح ب"
+            ],
+            "mechanism": "After the singular encounter, surety, mutual linkage, patient carrying, mercy, and protective companionship build a durable social architecture. This changes مَقْرَبَة from static adjacency into material for a network: the isolated person is answered by reciprocal, persistent guardianship rather than a one-off donor.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of the original protector supplies the function that a wider network must sustain."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Isolated singleness supplies the condition that companionship must actually transform."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies available adjacency but, by itself, not yet durable accompaniment."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Surety and standing over another supply an enduring guardianship role beyond the immediate transfer."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B001",
+                "role": "Joining one thing to another supplies the connective mechanics for repairing social singleness."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Exchanged counsel among a group supplies reciprocity, preventing the protective burden from remaining a solitary impulse."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B003",
+                "role": "Bearing surety and persistent attendance supply the duration needed for protection to outlast a crisis meal."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the affective force that keeps the connected structure humane."
+              },
+              {
+                "source_ref": "90:18",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preservation through companionship supplies the completed shift from mere nearness to protective accompaniment."
+              }
+            ],
+            "structural_cues": [
+              "90:17 moves through ثُمَّ into group membership and repeats the reciprocal form تَوَاصَوْا twice.",
+              "The sequence then names أَصْحَاب in 90:18-19, moving from a singular recipient encounter to durable affiliation."
+            ],
+            "reader_inference": "The packet supplies surety, joining, reciprocal counsel, patient attendance, mercy, and preservation through companionship; I add the arrow that these form a distributed protective network around the orphan. A live alternative is that 90:17 describes the giver's virtues without specifying any continuing institution of care.",
+            "changed_reading": {
+              "before": "A nearby donor performs a bounded act for a nearby recipient.",
+              "after": "Static kinship nearness is converted into reciprocal, persistent companionship that can replace the missing protective relation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_reverse_bereavement_mirror",
+            "confidence": "medium",
+            "containment": "This is surprising because it activates the rare loss-of-child branch of ر ق ب inside the surface phrase usually read through neck or captivity. It remains anchored because that packet branch sits immediately before the focus branch for a child who has lost a parent, with parentage already explicit in 90:3. Downstream prose should present a reciprocal lineage-loss mirror, not replace the literal emancipation reading of 90:13.",
+            "focus_anchor": "يَتِيمًا at word 1 as the parent-bereft pole, reinforced by مَقْرَبَةٍ at word 3 as kinship.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child cut off by the death of a protecting parent supplies one direction of lineage bereavement."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B003",
+                "role": "Blood kinship supplies the common line along which the two opposite losses can be mirrored."
+              },
+              {
+                "source_ref": "90:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B002",
+                "role": "Parents viewed from birth supply the two-ended lineage relation within which either pole can be severed."
+              },
+              {
+                "source_ref": "90:13",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B008",
+                "role": "The bereaved one who has lost a child supplies the reverse direction of loss immediately before the focus orphan."
+              }
+            ],
+            "changed_reading": {
+              "before": "The freed captive and the orphan are separate vulnerable classes in a list.",
+              "after": "The focus orphan is one pole of a bidirectional bereavement mirror: child without parent beside the branch-image of parent without child."
+            }
+          },
+          {
+            "outlier_id": "o02_devotional_approach_redirected_into_living_care",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because مَقْرَبَةٍ most immediately supports kinship, while the activated ق ر ب and ه د ي branches concern devotional offering. It remains rooted in the focus word and in a packet-supplied offering branch from 90:10. Downstream prose must frame this as an analogy of devotional direction: the orphan is never a sacrificial object or victim; care for the person functions as the means of approach.",
+            "focus_anchor": "مَقْرَبَةٍ at word 3 through the devotional-approach branch, held to the personhood and severed protection of يَتِيمًا at word 1.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "The unprotected child keeps the model directed toward living care and blocks any sacrificial objectification."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B005",
+                "role": "Devotional approach and offering supply the possibility that service to the near orphan is itself a means of drawing near."
+              },
+              {
+                "source_ref": "90:10",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B005",
+                "role": "A gift directed as an offering supplies the ritual analogue that is redirected into person-centered provision."
+              }
+            ],
+            "changed_reading": {
+              "before": "The relative orphan is the beneficiary of an ethical act.",
+              "after": "Provision directed to the unprotected near person can itself be carried as qurb and hady: living care becomes the devotional approach."
+            }
+          },
+          {
+            "outlier_id": "o03_birth_threshold_shadowed_by_orphanhood",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the near-delivery branch of ق ر ب rather than translating مَقْرَبَةٍ that way. It remains anchored through the focus's parentless child and through packet branches for birth, womb, and post-birth pain. Downstream prose should label it a birth-threshold resonance, not a lexical gloss or a claim that every orphaning occurs at delivery.",
+            "focus_anchor": "The conjunction of the orphan branch at يَتِيمًا word 1 with the near-delivery branch available at مَقْرَبَةٍ word 3.",
+            "activation_trace": [
+              {
+                "source_ref": "90:15",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child severed from parental protection supplies the fragility that can shadow entry into lineage."
+              },
+              {
+                "source_ref": "90:15",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B012",
+                "role": "Pregnancy near delivery supplies a threshold image in which care must already be close before vulnerability appears."
+              },
+              {
+                "source_ref": "90:3",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The event of birth and delivery supplies the entry point into the parent-child line."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies the bodily container of lineage before the focus's social severance."
+              },
+              {
+                "source_ref": "90:17",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B004",
+                "role": "Post-birth womb pain supplies the costly aftermath that keeps the birth threshold materially vulnerable rather than idealized."
+              }
+            ],
+            "changed_reading": {
+              "before": "An already-existing orphan who belongs to near kin.",
+              "after": "A birth-threshold resonance shadows the phrase: protection must stand near the point where lineage begins because entry into it can also expose immediate severance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Kinship nearness no longer softens orphanhood; it exposes a severed protective edge inside a network capable of repair.",
+            "The wealth-and-reckoning sequence turns the singular close orphan into a concrete audit of claimed abundance and allocation.",
+            "The ascent and opening motifs recast aid as crossing social distance and unfastening a closed protective circuit.",
+            "The parallel with the dust-bound poor person distinguishes relational deprivation from explicit material destitution.",
+            "Mutual counsel, patient surety, mercy, and companionship expand one encounter into a durable distributed guardianship."
+          ],
+          "what_was_special": "The focus phrase is internally paradoxical: isolation and nearness occupy the same person. Context repeatedly changes the operative dimension of that paradox—from kinship to accounting, sight, terrain, opening, crisis time, paired deprivation, and companionship—without forcing those readings into one final interpretation. Rare branch images also preserve a reciprocal bereavement mirror, a carefully contained devotional redirection, and a birth-threshold resonance.",
+          "remaining_uncertainties": [
+            "It remains uncertain how much weight to give temporal, privileged-access, devotional, and near-delivery branches of ق ر ب beside the direct kinship branch.",
+            "The arrows from sight to guardianship and from release or closure to relational repair are reader-supplied mechanisms; the packet also permits narrower anatomical, legal, and punitive readings.",
+            "The exact human relation marked by ذَا مَقْرَبَةٍ remains underdetermined: it clearly activates kinship, but whether it primarily identifies the giver's relative, the orphan's surviving network, or both is not settled by the focus fragment alone."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The orphan as severed birth-protection near one’s own line.** Lexical evidence: ي ت م B001 “orphaned offspring cut off from protecting parent,” ق ر ب B003 “kinship and blood relation,” with و ل د B001/B002 from 90:3. Structural cue: the orphan appears after parent/offspring and under feeding in famine. Assigned role: يتم supplies loss of protector; مقربة supplies relational nearness. Abductive move: I infer that closeness intensifies obligation because the birth-chain named earlier has failed this child. Reading change: the recipient is not a generic child but a nearby rupture in the parent-child system.\n\n2. **Nearness as devotional access.** Lexical evidence: ق ر ب B001 “nearness,” B004 “favor/access,” B005 “devotional approach/offering.” Structural cue: the pass is composed of costly acts after ه د ي B005’s offering undertone. Assigned role: مقربة turns feeding the orphan into an approach to divine nearness through human nearness. Abductive move: I infer a vertical relation from horizontal kin proximity: approaching the near vulnerable one becomes an approach to God. Reading change: the ayah reads as social closeness carrying devotional weight.\n\n3. **Delayed care corrected.** Lexical evidence: ي ت م B004 “slowing or delay in motion or care,” B003 “heedlessness/shortcoming.” Structural cue: the pass is something he did not enter in 90:11; feeding now names the missed timely response. Assigned role: orphanhood includes delayed kindness; the pass demands timely repair. Abductive move: I infer that failure to enter the pass manifests as delayed care toward the orphan. Reading change: the ayah exposes neglect as lateness and shortfall, not only absence of resources.",
@@ -8932,14 +10143,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s090/linguistic/morphemes.tsv",
-        "ayah_count": 21,
-        "row_count": 133,
+        "ayah_count": 20,
+        "row_count": 126,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9412,10 +10629,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s90/packets/90_15.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s90/readers/reader_hft_a/90_15.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s090",
+        "latent_activation/focus_trace/runs/s90"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s90",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 193260,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

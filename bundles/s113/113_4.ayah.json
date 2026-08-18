@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.641860+00:00",
+  "generated_at": "2026-08-18T13:34:43.475620+00:00",
   "surah": 113,
   "ayah": 4,
   "ayahRef": "113:4",
@@ -1706,7 +1706,8 @@
       "morpheme_ids": [
         "m-w-s113-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:1"
+      "aligned_qac_word_ref_upstream": "113:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1720,7 +1721,8 @@
       "morpheme_ids": [
         "m-w-s113-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:2"
+      "aligned_qac_word_ref_upstream": "113:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1734,7 +1736,8 @@
       "morpheme_ids": [
         "m-w-s113-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:3"
+      "aligned_qac_word_ref_upstream": "113:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1750,7 +1753,8 @@
         "m-w-s113-a004-w003-01",
         "m-w-s113-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:4"
+      "aligned_qac_word_ref_upstream": "113:4:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1764,7 +1768,8 @@
       "morpheme_ids": [
         "m-w-s113-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:5"
+      "aligned_qac_word_ref_upstream": "113:4:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1780,7 +1785,8 @@
         "m-w-s113-a004-w005-01",
         "m-w-s113-a004-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:4:6"
+      "aligned_qac_word_ref_upstream": "113:4:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2333,7 +2339,1066 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s113/packets/113_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "113:4",
+      "window": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "113:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_ritual_binding",
+            "confidence": "strong",
+            "focus_anchor": "The intensive plural agent noun, the locative phrase fi al-uqad, and the explicit evil frame join mouth action to binding sites.",
+            "mechanism": "Repeated light breath carrying slight moisture is directed into physical knots that localize and retain a hostile spell-binding operation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The evil-and-badness image supplies the evaluative harm whose operating mechanism the other focus branches specify."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The light mouth-blow with slight spittle supplies a small repeated carrier and its directed delivery."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "Fastening ends into a knot supplies the physical receiving sites that can hold the delivered action."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B013",
+                "role": "The magic-knot and spell image makes ritual binding an explicit packet-backed realization of those sites."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic request for protection from people performing an occult act.",
+              "after": "A request against a staged delivery system in which minute repeated emissions are placed into prepared binding points so that harm persists."
+            }
+          },
+          {
+            "model_id": "baseline_micro_input_lock",
+            "confidence": "medium",
+            "focus_anchor": "The slight emission encoded by al-naffathat is placed inside or at al-uqad rather than applied as an overt blow.",
+            "mechanism": "A minimal wet breath acts at a high-leverage fastening point; knotting and hardening preserve the input and amplify it into durable constraint.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The slight mouth-blow supplies the low-mass input whose smallness is central to the mechanism."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "The tied junction supplies a leverage point where a small intervention can alter a larger connected structure."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "The thickening-and-hardening image supplies persistence, turning a transient input into a set condition."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The badness image marks this amplification of a small input into lasting constraint as the protected-against harm."
+              }
+            ],
+            "changed_reading": {
+              "before": "The danger is proportional to an attacker's visible force.",
+              "after": "The danger can be a tiny, repeated input placed at a structural junction where fastening or hardening gives it disproportionate durability."
+            }
+          },
+          {
+            "model_id": "baseline_vented_conviction",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus joins a form of venting to knots that can denote fixed conviction, tangled speech, and contracted anger.",
+            "mechanism": "Pressure carried in a burdened chest is vented into already fixed or tangled structures, where it can settle as obscure speech, hardened belief, or prepared hostility.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B003",
+                "role": "The chest-burdened person's need to give vent supplies affective pressure and its outward release."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B006",
+                "role": "Fixed conviction and attachment supply durable cognitive or relational structures that can receive the vented pressure."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B007",
+                "role": "The tangled-speech image supplies a verbal structure in which released pressure can become obscurity rather than clarification."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B012",
+                "role": "Knotted anger supplies the hostile affective state that the venting may consolidate or ready for action."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The evil image assigns harmful valence to venting that loads and fixes hostility rather than releasing it harmlessly."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus refers only to a material breath applied to literal cords.",
+              "after": "It can also model affective discharge entering tangled discourse or fixed convictions and making hostility harder to release."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_spoken_counterbinding",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ",
+              "ر ب ب",
+              "ف ل ق"
+            ],
+            "mechanism": "The commanded utterance initiates refuge under an agent of repair and completion, while opening or splitting supplies a counter-motion to the focus's breath-driven fastening.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced utterance supplies an enacted oral counter-signal rather than silent awareness."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking refuge supplies the protective relocation or alignment initiated by that utterance."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the restorative capacity attributed to the refuge relation."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Splitting and opening supply the inverse spatial operation to fastening and closure."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The slight mouth-blow supplies the hostile oral operation to which voiced refuge is compared."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B013",
+                "role": "Spell-binding knots supply the closed hostile structure that the opening-and-repair sequence may counter."
+              }
+            ],
+            "structural_cues": [
+              "113:1 orders an utterance before the dangers are named, so protection is performed as well as requested.",
+              "Opening in al-falaq and fastening in al-uqad form a reversible spatial contrast across the context and focus."
+            ],
+            "reader_inference": "The packet supplies voiced saying, refuge, repair, opening, mouth-blowing, and spell-knots; I supply the arrow that the first sequence counter-operates on the second. A live alternative is that 113:1 only frames dependence and does not describe an unbinding operation.",
+            "changed_reading": {
+              "before": "Protection is a general petition external to the mechanics of the threat.",
+              "after": "The petition itself becomes an enacted counter-operation: voiced refuge aligns with repair and opening against a breath that fastens and closes."
+            }
+          },
+          {
+            "model_id": "delta_protective_attachment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و ذ",
+              "ر ب ب"
+            ],
+            "mechanism": "The context distinguishes two kinds of durable attachment: hostile fixation within knots and protective adherence within a sustaining shelter.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Sticking and remaining within a protecting ambit supplies a beneficial form of attachment."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding and continuance give the protective attachment duration rather than momentary escape."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B006",
+                "role": "Fixed conviction and attachment supply the focus-side analogue whose value depends on what holds it."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The evil image marks one attachment as harmful without making attachment itself intrinsically harmful."
+              }
+            ],
+            "structural_cues": [
+              "Both refuge and knotting organize a relation of being held, but the governing relations differ.",
+              "The repeated min sharr frame evaluates a configuration rather than every instance of firmness or attachment."
+            ],
+            "reader_inference": "The packet supplies protective adherence, duration, fixed attachment, and evil; I infer that the context contrasts good and bad holding relations. The alternative is that refuge and knotting are unrelated images with no intended structural opposition.",
+            "changed_reading": {
+              "before": "Safety means becoming wholly unbound.",
+              "after": "Safety may instead mean leaving a hostile fixation for a durable protective attachment; the issue is what holds and governs the bond."
+            }
+          },
+          {
+            "model_id": "delta_tiny_trigger",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The non-dominant split mapping from the command activates smallness, converging with the slight-spittle branch so that a minute input can set or harden a knot.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "The split-mapped smallness image supplies a branch-distant cue that scale, not loudness, may be decisive."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "A light blow with only a little spittle supplies the packet's direct image of a minute delivered quantity."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "Hardening supplies the state change through which the minute delivery can become persistent."
+              }
+            ],
+            "structural_cues": [
+              "The activating cue is a non-dominant split-root branch and therefore does not replace the surface command's ordinary sense.",
+              "The focus places the emission in a receiving structure, making a low-volume trigger mechanically conceivable."
+            ],
+            "reader_inference": "The packet supplies a split-mapped smallness image, a slight wet breath, and hardening; I infer a tiny-trigger-to-durable-state arrow. The live alternative is that the split branch is accidental resonance and contributes nothing to the focus.",
+            "changed_reading": {
+              "before": "The harmful operation must announce itself through conspicuous force.",
+              "after": "Its efficacy may lie precisely in a nearly negligible repeated dose that enters a prepared structure and sets there."
+            }
+          },
+          {
+            "model_id": "delta_engineered_latent_device",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق"
+            ],
+            "mechanism": "Measured formation and readiness recast the focus as a configured apparatus: a prepared junction remains latent until a slight input is delivered and hardened within it.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply deliberate configuration rather than an undifferentiated created object."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Aptitude and readiness supply a latent state in which the arrangement is prepared for activation."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The slight mouth-blow supplies the activating input delivered to the prepared arrangement."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "The fastening point supplies the apparatus's localized receiving junction."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "Hardening supplies the state transition that locks the input into the configured junction."
+              }
+            ],
+            "structural_cues": [
+              "The general created domain in 113:2 precedes the specific agent-action-location configuration in 113:4.",
+              "The preposition fi places the active input within a prepared receiving structure."
+            ],
+            "reader_inference": "The packet supplies measuring, readiness, a slight delivered input, fastening, and hardening; I infer an apparatus-like sequence of preparation, activation, and locking. The alternative is a simple list of unrelated dangers with no engineered sequence.",
+            "changed_reading": {
+              "before": "The focus names an irrational threat whose efficacy is left wholly opaque.",
+              "after": "It depicts a latent configured system: preparation and placement make a tiny trigger effective, after which the structure preserves the change."
+            }
+          },
+          {
+            "model_id": "delta_fabricated_tangle",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ق"
+            ],
+            "mechanism": "Fabricated speech is voiced or allowed to circulate, venting inward pressure into discourse until obscurity hardens into a fixed conviction.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the transmission channel beyond a single mouth."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Fabricating false speech supplies the manufactured verbal content entering that channel."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B003",
+                "role": "Giving vent from a burdened chest supplies the affective pressure that drives the fabricated speech outward."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B007",
+                "role": "Tangled and obscure speech supplies the immediate result of circulated fabrication."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B006",
+                "role": "Fixed conviction supplies the durable cognitive endpoint after verbal tangling."
+              }
+            ],
+            "structural_cues": [
+              "The context begins with commanded speech, while the focus contains a mouth-emission agent and a speech-entanglement branch.",
+              "113:2 broadens harm to what is formed, allowing fabricated verbal content to stand beside materially formed things."
+            ],
+            "reader_inference": "The packet supplies circulating speech, fabrication of false speech, chest-venting, tangled speech, and fixed conviction; I supply the transmission-and-hardening order. A live alternative is that these are separate branch analogies and the focus remains exclusively ritual.",
+            "changed_reading": {
+              "before": "The knots are only cords manipulated in a private rite.",
+              "after": "They can also be knots of discourse and conviction produced when burdened, fabricated speech circulates and becomes cognitively fixed."
+            }
+          },
+          {
+            "model_id": "delta_hidden_infiltration",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "Darkness entering and an object disappearing into a recess activate an ingress model: the slight payload passes into an enclosed knot, becomes hidden there, and operates after entry.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "The entering darkness supplies a surrounding condition that advances by ingress rather than impact."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into a recess until disappearance supplies concealment after penetration."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The slight wet breath supplies the payload capable of passing into a small receiving site."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B016",
+                "role": "Enclosure around a place supplies the closed interior in which an entered payload can be retained and hidden."
+              }
+            ],
+            "structural_cues": [
+              "The conditional sequence idha waqab immediately precedes the focus and foregrounds the moment a danger enters.",
+              "The focus's fi al-uqad can be read strongly as interior placement rather than mere proximity."
+            ],
+            "reader_inference": "The packet supplies entering darkness, disappearance in a recess, slight emission, and enclosure; I infer that the emission is a payload whose concealment permits delayed operation. The alternative is that 113:3 and 113:4 name independent dangers with no shared ingress logic.",
+            "changed_reading": {
+              "before": "The harmful breath acts visibly on the outside of a knot.",
+              "after": "The decisive moment is concealed penetration: a small payload enters an enclosure, disappears within it, and only then becomes operative."
+            }
+          },
+          {
+            "model_id": "delta_flow_congeal_occlusion",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "A flowing discharge enters a hidden channel and thickens there, producing an occlusive material reading centered on arteries, wound-output, and congealed constrictions.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B004",
+                "role": "Flowing and pouring supply the mobile fluid phase of the mechanism."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Entry into a hidden recess supplies movement from open flow into a concealed channel."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B006",
+                "role": "The non-dominant artery image supplies a bodily conduit in which the entered flow can become dangerous."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B002",
+                "role": "A wound sending blood outward supplies the bodily discharge linked to the flow."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B003",
+                "role": "Thickening and hardening supply congealment and the resulting constriction."
+              }
+            ],
+            "structural_cues": [
+              "113:3 supplies a flow-to-entry sequence, while 113:4 supplies emission, interior placement, and a hardening branch.",
+              "The focus permits simultaneous outward discharge from a wound and inward lodging within a constricted site."
+            ],
+            "reader_inference": "The packet supplies flow, hidden entry, an artery branch, blood-output, and thickening; I infer a vascular flow-to-congealment arrow. A live alternative is that this is only a cross-domain material analogy with no bodily referent in the ayah.",
+            "changed_reading": {
+              "before": "The focus's material action is limited to breath, saliva, and cord.",
+              "after": "It can carry an exploratory fluid-system model in which discharge enters a bodily conduit and hardens into a dangerous occlusion."
+            }
+          },
+          {
+            "model_id": "delta_enacted_intention",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س د"
+            ],
+            "mechanism": "The contrast between destructive envy and non-removing admiration, together with the agent-plus-enactment sequence, localizes evil in an operation brought into effect rather than in an undifferentiated class of persons.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Wishing a blessing removed supplies the destructive intention that becomes harmful when enacted."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Admiration without removing the blessing supplies a nearby non-destructive alternative and prevents flattening all intense regard into evil."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The agent's repeated mouth-action supplies the focus-side enactment to which the envy distinction is extended."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The evil image evaluates the enacted harmful configuration rather than independently defining every agent named by the noun."
+              }
+            ],
+            "structural_cues": [
+              "113:5 repeats the root in an agent noun and a verb under idha, marking the transition from capacity or identity to enactment.",
+              "113:4 and 113:5 share the min sharr plus agent frame, inviting the later conditional clause to sharpen how agency is evaluated."
+            ],
+            "reader_inference": "The packet supplies destructive and non-destructive envy branches, an agent-action condition, repeated blowing, and evil; I extend the enactment distinction across the parallel clauses. The alternative is that 113:4 identifies a fixed agent class without the conditional qualification found in 113:5.",
+            "changed_reading": {
+              "before": "The grammatical class named by al-naffathat is itself treated as intrinsically evil.",
+              "after": "The evil is more precisely the harmful operation when performed and directed into bindings, leaving room to distinguish agency, capacity, and enactment."
+            }
+          },
+          {
+            "model_id": "delta_social_bond_corrosion",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ق",
+              "ح س د"
+            ],
+            "mechanism": "Destructive envy motivates fabricated talk; burdened speech then circulates through a community and loads covenants or attachments until bonds weaken or hostile convictions harden.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the social propagation channel."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Fabricated false speech supplies intentionally shaped harmful content."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "The wish that another's blessing disappear supplies a motive for deploying the fabricated content."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B003",
+                "role": "Chest-burdened venting supplies the affective force with which the content is released."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B002",
+                "role": "Ratified obligations and covenants supply social bonds vulnerable to corrosive speech."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B006",
+                "role": "Fixed attachment and conviction supply both relational targets and the possible hardened hostile result."
+              }
+            ],
+            "structural_cues": [
+              "The surah moves from commanded speech through created harm to a mouth-action focus and then to an explicitly destructive social motive.",
+              "The plural agent in 113:4 permits a distributed process, while the bond branches of al-uqad permit social as well as physical attachment."
+            ],
+            "reader_inference": "The packet supplies circulating speech, fabricated talk, destructive envy, venting, covenants, and fixed attachments; I supply the motive-to-propagation-to-bond-damage sequence. A live alternative is that envy and the focus operation are parallel dangers rather than stages of one social mechanism.",
+            "changed_reading": {
+              "before": "The focus describes a secluded rite with no ordinary social pathway.",
+              "after": "It can also describe envious, manufactured talk propagated into a network of obligations and attachments, where it corrodes bonds or fixes hostility."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_knotted_storm",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from ritual action into an atmospheric material system and combines both mapped targets of the split sharr root. It remains focus-anchored through sparks or flashes, a breath-like propulsion, and gathered cloud-knots. Downstream prose should present it only as a branch-induced material analogy, not as a claim that the focus nouns lexically denote a storm.",
+            "focus_anchor": "The focus can align flying sparks or spreading flashes with a light expulsive motion occurring in gathered cloud formations.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying fire-sparks supply hazardous particles dispersed from a source."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B007",
+                "role": "The non-dominant spreading-lightning image supplies repeated flashes across a larger medium."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The light blow supplies breath-like propulsion for dispersal without requiring a heavy impact."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B008",
+                "role": "Gathered and contracted cloud supplies the knotted atmospheric medium through which flashes or sparks spread."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus's imagery is confined to a human ritual over cord.",
+              "after": "As an exploratory material analogy, it can model breath-driven hazardous sparks or flashes moving through contracted cloud-knots."
+            }
+          },
+          {
+            "outlier_id": "outlier_coercive_contract",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the exchange image comes from the non-dominant sharr mapping and turns spell-binding into a transactional speech-act. It remains anchored by the focus's breath and obligation-knot, with contextual negotiation and covenant branches reinforcing the structure. Render it as an analogy for coercive commitment, not as a lexical equation of evil with commerce.",
+            "focus_anchor": "The focus places an oral act into knots that can bind obligations, while the split sharr inventory can activate exchange.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The non-dominant buying-and-selling exchange image supplies a transfer with reciprocal stakes."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "The mouth-blow supplies the compact performative act by which the imagined transfer is effected."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B002",
+                "role": "Binding and ratifying an obligation supply the durable contractual result."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Negotiating an affair supplies a contextual speech-act setting for obligation."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "The covenant image supplies a second contextual form of socially binding commitment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Spell-binding is an opaque manipulation with no social analogue.",
+              "after": "It can be carried as an exploratory image of a coercive oral transaction that seals another into an obligation or unequal exchange."
+            }
+          },
+          {
+            "outlier_id": "outlier_venting_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the venting branch can describe release rather than attack, reversing the expected valence of the mouth-action. It remains anchored by venting, knotted anger or conviction, and the explicit evil frame. Downstream prose should qualify the source-to-target transfer as reader inference: the same discharge may relieve the source while harmfully loading another structure.",
+            "focus_anchor": "The focus grammatically marks evil from the venting agents in relation to knots, leaving the direction and recipient of released pressure open to reconstruction.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B003",
+                "role": "The burdened chest giving vent supplies a release that may benefit its source even while exporting pressure."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B012",
+                "role": "Knotted anger supplies a hostile receiving state that exported pressure may tighten or activate."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B006",
+                "role": "Fixed conviction and attachment supply additional structures that can be loaded by the discharge."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "The evil image locates harmful valence in the transfer configuration rather than necessarily in release itself."
+              }
+            ],
+            "changed_reading": {
+              "before": "Any venting or blowing named by the agent noun is intrinsically harmful.",
+              "after": "The harm may be directional: pressure released from one chest becomes evil when deposited into and used to tighten another's anger, attachment, or conviction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening command turns voiced refuge, repair, and splitting into a plausible counter-operation to breath-driven fastening.",
+            "The created-form branches expose a preparation-to-trigger-to-hardening mechanism and also open a social-cognitive path through fabricated speech.",
+            "The darkness and entry sequence shifts attention from visible attack to concealed ingress, with an exploratory flow-to-occlusion reading remaining live.",
+            "The envy contrast relocates evil from an undifferentiated agent class to destructive intention when enacted, while also supplying a motive for social bond corrosion."
+          ],
+          "what_was_special": "The focus inventories support unusually tight mouth-to-knot mechanisms across ritual, structural, affective, verbal, and material domains. Split-root branches add live but containable readings involving smallness, arteries, lightning, and exchange instead of being suppressed.",
+          "remaining_uncertainties": [
+            "The opening-and-repair sequence may merely contrast with knotting rather than causally undo it.",
+            "The split-root activations may be productive latent resonances or only mapping-distance artifacts.",
+            "The preposition fi may mark location in the knots, action upon them, or directed placement into them; several mechanisms depend on the strongest interior reading.",
+            "The feminine intensive plural may identify literal female agents, a grammatically marked class, or recurrent forces; the packet does not settle that scope.",
+            "The vascular, atmospheric, and transactional readings are coherent branch mosaics but may remain analogical rather than referential."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A technical mouth-and-knot harm.** Evidence: `ن ف ث B001` light mouth-blow with little spittle, including charmer/sorceress blowing into knots; `ع ق د B013` magic knots and spells; `ش ر ر B001` evil/badness. Activated by `ق و ل B001/B002` uttered speech and tongue, and `ع و ذ B002` protective invocation. Mechanism: the packet explicitly pairs harmful breath with tied media, then contrasts it with commanded refuge-speech. I infer a ritual technology: breath, saliva, and knot form a channel for intention. Reading change: the ayah reads as protection from a specific embodied technique, not merely from vague malice.\n\n2. **Knotted anger vented outward.** Evidence: `ن ف ث B003` chest-burdened person giving vent; `ع ق د B012` knotted anger/harsh disposition and hostile preparation; activated by `ح س د B001` envy seeking removal and `ش ر ر B007` throwing one's whole self and concerns into something. Mechanism: the packet lets `نفث` be emotional venting and `عقد` be condensed anger, while the final ayah supplies envy as motive. I infer that the outward blow can embody a stored inner knot. Reading change: `ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ` can describe affective discharge into already-contracted hostility, not only a physical charm.\n\n3. **Attack on bonds and obligations.** Evidence: `ع ق د B002` binding obligations/contracts/oaths, `ع ق د B006` fixed attachment, and `ع ق د B001` fastening ends into a knot; activated by `ر ب ب B011` covenant/protection agreement, `ر ح م B002` kinship bond, and `ق و ل B009` mutual negotiation. Mechanism: the same root that names the physical knot also names social, legal, and affective bindings. I infer that blowing into knots can target relations: the medium is a knot, but the threatened object is any binding. Reading change: the ayah becomes a prayer against corruption of covenants, kinship, and fixed loyalties, not only against manipulation of cords.\n\n4. **Constriction of speech.** Evidence: `ع ق د B007` tongue impediment and tangled speech; activated by `ق و ل B001/B002` saying and tongue, `ق و ل B005` false attribution, and `ن ف ث B001` mouth emission. Mechanism: the packet puts speech, mouth, and knot in close functional relation. I infer that a harmful knot can operate by tying up speech or making communication obscure. Reading change: `فِى ٱلْعُقَدِ` can include knots in the tongue or discourse, so the protection covers communicative blockage as well as external magic.",
@@ -13882,14 +14947,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s113/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 37,
+        "ayah_count": 5,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13998,10 +15069,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s113/packets/113_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s113/readers/reader_hft_a/113_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s113"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s113",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 87768,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.487162+00:00",
+  "generated_at": "2026-08-18T13:34:14.561432+00:00",
   "surah": 94,
   "ayah": 3,
   "ayahRef": "94:3",
@@ -879,7 +879,8 @@
       "morpheme_ids": [
         "m-w-s094-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:3:1"
+      "aligned_qac_word_ref_upstream": "94:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -893,7 +894,8 @@
       "morpheme_ids": [
         "m-w-s094-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:3:2"
+      "aligned_qac_word_ref_upstream": "94:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -909,7 +911,8 @@
         "m-w-s094-a003-w003-01",
         "m-w-s094-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:3:3"
+      "aligned_qac_word_ref_upstream": "94:3:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2566,7 +2569,947 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:3",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_audible_load",
+            "confidence": "strong",
+            "focus_anchor": "The causative verb and the possessed back form a direct load-and-response construction.",
+            "mechanism": "A weight does not merely rest on the back; it loads the body until its supporting joints audibly register strain. The sound is evidence of force nearing the body's carrying limit.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The literal image of a back or joints creaking under weight supplies the audible stress signal in the mechanism."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back opposite the belly supplies the load-bearing body part on which the force is registered."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden was simply very heavy.",
+              "after": "The burden made the body's supporting frame announce its strain: the verse gives an acoustic, near-failure measure of its force."
+            }
+          },
+          {
+            "model_id": "baseline_unmade_backing",
+            "confidence": "medium",
+            "focus_anchor": "The verb can undo what was made firm, while the noun can denote backing or support.",
+            "mechanism": "The burden acts structurally: it unfastens the very support by which the addressee remains braced. This can coexist with the anatomical reading while extending the back into capacity, aid, or a support system.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B001",
+                "role": "Undoing a firm rope, knot, or structure supplies the action of dismantling an organized support rather than merely pressing it."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B006",
+                "role": "Backing and assistance supply the functional support that the burden threatens to unmake."
+              }
+            ],
+            "changed_reading": {
+              "before": "A load hurt one bodily location.",
+              "after": "A load was undoing the addressee's means of being supported, bodily and potentially relational, from the structure outward."
+            }
+          },
+          {
+            "model_id": "baseline_journey_worn_carrier",
+            "confidence": "exploratory",
+            "focus_anchor": "Both focus roots have load-animal branches: travel-worn exhaustion and a mount kept for bearing loads.",
+            "mechanism": "The addressee is momentarily imaged as a carrier depleted by repeated journeys. The back is not passive anatomy but transport infrastructure whose strength has been consumed by what it carries.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B002",
+                "role": "The camel worn down by travel supplies cumulative depletion rather than a single instant of pressure."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B005",
+                "role": "The load-bearing mount supplies the carrier role assigned to the possessed back."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden was an abstract oppressive weight.",
+              "after": "The burden had turned the addressee into a journey-worn carrier whose load-bearing reserve was being spent over distance and time."
+            }
+          },
+          {
+            "model_id": "baseline_reopened_surface",
+            "confidence": "exploratory",
+            "focus_anchor": "The verb can describe a healed closure reopening, and the back can be an outer or upper surface.",
+            "mechanism": "Pressure reopens what had once closed or settled across the body's outer supporting surface. This gives the verse a relapse model: strain can reactivate an old seam rather than create damage from nothing.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B004",
+                "role": "A wound or settled matter reopening after closure supplies the relapse mechanism."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B003",
+                "role": "The upper or outer surface supplies the bodily plane across which the reopened seam is imagined."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden produced undifferentiated damage.",
+              "after": "The burden reopened a previously closed vulnerability in the body's outer frame, making the strain recurrent rather than merely acute."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_front_back_redistribution",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "The opened chest and the creaking back become a paired torso transformation: capacity is expanded at the front or inner source of action while pressure is registered at the rear support. Relief is therefore a redistribution of capacity and load, not a denial that the load was real.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking under weight supplies the stressed rear response that is set against opening."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back supplies the rear load-bearing pole of the torso pairing."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarifying supplies expansion, functioning here as increased interior capacity."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The chest and its connected anatomy supply the front bodily pole paired with the focus back."
+              }
+            ],
+            "structural_cues": [
+              "94:1 and 94:3 use second-person possessed body parts, creating a chest/back correspondence across the short sequence."
+            ],
+            "reader_inference": "The packet supplies opening at the chest and creaking at the back; I infer a compensatory front/back redistribution of capacity and pressure. A live alternative is that the two body images are parallel benefits and afflictions without a mechanical arrow between them.",
+            "changed_reading": {
+              "before": "The focus describes isolated damage to the back.",
+              "after": "The focus is the rear half of a whole-torso reconfiguration: inner/front capacity opens while the former load is exposed through the back's strain."
+            }
+          },
+          {
+            "model_id": "delta_retrospective_unloading",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر"
+            ],
+            "mechanism": "The immediately preceding lowering of a heavy load makes the focus clause diagnostic and retrospective. The back's creak identifies how severe the removed burden had been; it need not describe damage still being inflicted.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The creak under weight functions as a measurable trace left by the burden."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back supplies the bearing surface from which the severity of the former load is inferred."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Placing something lower or in a settled position supplies the downward removal operation."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The literal heavy load identifies what had exerted the force heard in the focus."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause in 94:3 immediately qualifies the possessed burden named in 94:2."
+            ],
+            "reader_inference": "The packet supplies lowering, a heavy load, and a back creaking under weight; I infer that the sound is retrospective evidence because the lowering precedes the relative clause. A live alternative is a timeless description of the burden rather than a temporal before-and-after state.",
+            "changed_reading": {
+              "before": "The back is presently collapsing under an ongoing burden.",
+              "after": "The burden has been taken down, while the focus preserves the body's audible record of what that burden had been doing."
+            }
+          },
+          {
+            "model_id": "delta_carrier_loading_protocol",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر"
+            ],
+            "mechanism": "The focus-only carrier model expands into a pack-animal loading scene: a neck lowers for mounting, a heavy load is borne, travel consumes the carrier, and the load-bearing back reaches exhaustion. The sequence materializes burden as a transport protocol rather than a static object.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B002",
+                "role": "The camel worn down by journeys supplies cumulative transport fatigue."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B005",
+                "role": "The mount or spare load animal supplies the back's carrier function."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B013",
+                "role": "A camel lowering its neck to be ridden supplies the loading and mounting posture."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy load supplies the cargo that links posture, journey, and exhaustion."
+              }
+            ],
+            "structural_cues": [
+              "The same second-person suffix binds the burden in 94:2 to the back in 94:3, allowing one continuous carrying scene."
+            ],
+            "reader_inference": "The packet supplies four compatible transport images; I infer a single loading-and-travel chain across them. A live alternative is that the animal images are independent lexical echoes and the focus remains purely human anatomy.",
+            "changed_reading": {
+              "before": "The addressee resembles a carrier only in the broad sense of bearing weight.",
+              "after": "The focus preserves an entire carrier history—mounting, cargo, repeated travel, and depletion—inside the burdened back."
+            }
+          },
+          {
+            "model_id": "delta_vertical_exchange",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "The focus becomes the hinge of a vertical exchange: crushing force is removed from the bodily back, while public standing or remembered presence is raised. What is elevated is not the old load but a different, non-crushing form of visibility.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking under weight supplies the downward bodily cost from which the exchange begins."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The back supplies the bodily plane that had been forced downward."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Literal elevation supplies the reversal from downward loading to upward movement."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honor and public repute supply the non-material thing raised in place of the burden."
+              }
+            ],
+            "structural_cues": [
+              "94:2 lowers, 94:3 records downward strain, and 94:4 raises, forming a compact down/strain/up sequence."
+            ],
+            "reader_inference": "The packet supplies opposed vertical actions around the focus and identifies honor as what can rise; I infer an exchange between crushing weight and non-crushing elevation. A live alternative is a list of separate favors with no transfer relation.",
+            "changed_reading": {
+              "before": "The focus is only the negative midpoint between two unrelated benefits.",
+              "after": "The focus marks the conversion point where downward bodily pressure gives way to an elevation that does not have to be carried on the back."
+            }
+          },
+          {
+            "model_id": "delta_co-present_strain_and_opening",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "Repeated co-presence of difficulty and opening prevents the creaking back from being only a terminal-break image. The strain can be real and near the limit while an opening or easier passage is already alongside it.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking under weight supplies severe, presently registered strain."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back keeps the revised model anchored in the focus body's carrying limit."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity name the resistant condition corresponding to the focus strain."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after resistance supply a passage that coexists with the loaded state."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The repeated difficulty image keeps the strain present rather than deleting it."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated opening image makes accompaniment, not a single later rescue, structurally salient."
+              }
+            ],
+            "structural_cues": [
+              "The same difficulty/ease construction is repeated in 94:5 and 94:6, and each instance uses accompaniment rather than an explicit succession marker."
+            ],
+            "reader_inference": "The packet supplies severe strain, opening after resistance, repetition, and grammatical accompaniment; I infer that an aperture is present within or beside the pressure. A live alternative is that accompaniment functions rhetorically while relief remains temporally later.",
+            "changed_reading": {
+              "before": "The creak signifies only imminent failure under a closed condition.",
+              "after": "The creak is the sound of a limit under pressure that is simultaneously being given an opening; strain and passage remain co-present."
+            }
+          },
+          {
+            "model_id": "delta_torsion_to_compliance",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "Difficulty activates as twisting or kinking, while ease activates as light compliance in motion. The undone back can therefore be read mechanically as a frame distorted by torque whose relief is restored range of movement, not merely an improved feeling.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B001",
+                "role": "Undoing a firm construction supplies loss of structural integrity under deformation."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back supplies the articulated frame subjected to deformation."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B004",
+                "role": "Twisting and crooked resistance supply torque as the specific form of difficulty."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and compliant movement supply restored mobility as the form of ease."
+              }
+            ],
+            "structural_cues": [
+              "The contrastive roots occur as paired nouns after the focus's body-and-force construction, inviting a material specification of strain and release."
+            ],
+            "reader_inference": "The packet supplies structural undoing, a back, twisting resistance, and compliant motion; I infer a torque-to-mobility mechanism. A live alternative is that the difficulty/ease pair remains affective or circumstantial rather than biomechanical.",
+            "changed_reading": {
+              "before": "The burden acts only through vertical heaviness.",
+              "after": "The burden deforms the back through resistant twisting, and ease names the return of compliant movement as well as relief."
+            }
+          },
+          {
+            "model_id": "delta_upright_redeployment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "After an imposed load is emptied away, the same body is set upright into chosen exertion. The focus distinguishes two kinds of difficulty: weight that buckles and speaks through the back, versus effort into which the relieved person deliberately stands.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The involuntary creak under imposed weight supplies the exhausted state from which redeployment begins."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The back supplies the bodily support that can move from buckling pressure to upright action."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a vessel supplies clearance of one load or occupation."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and conspicuous supplies the recovered posture and deliberate re-engagement."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting labor supplies the fact that relief redirects effort rather than abolishing it."
+              }
+            ],
+            "structural_cues": [
+              "The conditional transition in 94:7 is followed by an imperative, changing the subject from recipient of relief to agent of the next exertion."
+            ],
+            "reader_inference": "The packet supplies emptying, upright setting, fatigue, and the formerly creaking back; I infer an agency shift from imposed load to chosen effort. A live alternative is a simple succession of tasks with no bodily restoration mechanism.",
+            "changed_reading": {
+              "before": "Relief means that all exertion ends because the damaged back must remain passive.",
+              "after": "Relief removes the buckling kind of load so the same body can stand into purposeful, even tiring, work."
+            }
+          },
+          {
+            "model_id": "delta_reoriented_backing",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "The exploratory reading of the back as support is carried into a relational transfer. A burden had been undoing finite backing; desire is then directed toward enduring, repairing lordship. The focus becomes a crisis of what or who can reliably bear and restore.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B001",
+                "role": "Undoing what was firmly constructed supplies the failure of finite support."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B006",
+                "role": "Backing and assistance supply the support relation placed under threat."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply a restorative alternative to the support being undone."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding and continuance supply durability lacking in the threatened finite backing."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward or away supplies the directional transfer of reliance."
+              }
+            ],
+            "structural_cues": [
+              "The directional phrase in 94:8 explicitly gives desire a destination, while the second-person suffix maintains the addressee-centered sequence."
+            ],
+            "reader_inference": "The packet supplies undone backing, restorative endurance, and directed desire; I infer a transfer from failed finite support toward lasting support. A live alternative is that the final direction concerns worship alone and does not revise the focus's sense of back.",
+            "changed_reading": {
+              "before": "The broken support image ends in bodily or social depletion.",
+              "after": "The failure of finite backing becomes the occasion for reorienting reliance toward a support characterized by repair and continuance."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_pressure_sound_to_public_voice",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links two different kinds of sound: an involuntary bodily creak and deliberately elevated mention. It remains anchored in the focus verb's explicit sound-under-weight branch and the later voice-and-tongue branches. Render it only as an acoustic transformation across the sequence, not as a claim that the roots are synonyms.",
+            "focus_anchor": "The focus verb can make the burden audible through the back.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The creak of a loaded back supplies a forced bodily utterance produced by pressure."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B010",
+                "role": "Raising the voice supplies intentional audibility after the body's involuntary sound."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention moving on the tongue supplies meaningful public speech as the transformed sound."
+              }
+            ],
+            "changed_reading": {
+              "before": "The creak is only a private symptom of oppression.",
+              "after": "The sequence moves from a back forced to sound by pressure to a mention intentionally made audible: bodily noise is displaced by public voice."
+            }
+          },
+          {
+            "outlier_id": "outlier_emergence_through_pressure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses earth-opening and difficult-birth imagery into a verse normally heard as crushing weight. It remains anchored in two focus branches—ground splitting and an outer surface—and is sharpened by context branches of obstructed birth and subsequent opening. Render it as a contained emergence analogy, not as the focus's exclusive lexical sense.",
+            "focus_anchor": "The focus verb can image ground splitting for hidden growth, and the back can image an upper surface.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B003",
+                "role": "Earth cracking open for a truffle supplies pressure-linked emergence through a formerly closed surface."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B003",
+                "role": "The upper or outer surface supplies the layer through which emergence occurs."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B006",
+                "role": "Obstructed or difficult birth supplies emergence under resistance."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening after difficulty supplies the passage by which what is hidden can come through."
+              }
+            ],
+            "changed_reading": {
+              "before": "Pressure on the back can only crush or destroy.",
+              "after": "At the exploratory edge, pressure cracks an outer layer at the point where obstructed emergence finds an opening."
+            }
+          },
+          {
+            "outlier_id": "outlier_asymmetrical_torso_torque",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant mapped branch for the burden root, where the chest carries a lean or skew. It remains anchored in the focus's anatomical back and creaking-under-load branch, producing a coherent front/back torque model. Render it explicitly as a split-root activation, not as the dominant meaning of the burden noun.",
+            "focus_anchor": "The focus gives an anatomical back audibly strained by force.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking under weight supplies the mechanical symptom of the torso's distortion."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back supplies the rear member of the distorted torso axis."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B004",
+                "role": "The chest's lean or skew supplies asymmetry, changing force from simple downward weight into torque across the torso."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Lowering the load supplies the corrective release of the skewing force."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burden presses symmetrically downward.",
+              "after": "The burden pulls the chest/back axis out of alignment, so the back's creak records torsion as well as weight."
+            }
+          },
+          {
+            "outlier_id": "outlier_released_breath_as_aspiration",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the packet's non-dominant growth-root mapping under the final lordship root and reads its rising breath alongside directed desire. It remains anchored in the focus's loaded anatomical back as part of one compressed torso. Render it as a physiological-spiritual analogy of released breath becoming aspiration, with the split mapping named as the source of uncertainty.",
+            "focus_anchor": "The focus back belongs to the same torso whose breath can be constrained or released by loading.",
+            "activation_trace": [
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "The loaded back's creak supplies bodily compression at the start of the analogy."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The anatomical back anchors the analogy in a physically loaded torso."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B004",
+                "role": "Breath rising and swelling supplies physiological release after compression."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward a destination converts released upward breath into directed aspiration."
+              }
+            ],
+            "changed_reading": {
+              "before": "Removing the burden only stops pressure on the back.",
+              "after": "At the exploratory edge, unloading releases the compressed torso's rising breath, and that bodily rise becomes directed aspiration."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus shifts from ongoing damage to retrospective bodily evidence: the removed load is known by the creak it had produced.",
+            "The chest/back pair turns relief into a redistribution of capacity and pressure across one torso.",
+            "The repeated hardship/ease construction keeps severe strain and opening co-present rather than forcing a simple replacement sequence.",
+            "The later upright imperative distinguishes imposed buckling weight from chosen, purposeful exertion."
+          ],
+          "what_was_special": "The focus supports several simultaneous material systems—audible biomechanics, an undone support structure, a journey-worn carrier, and a reopened surface. Context does not collapse them: it converts them into unloading, vertical exchange, restored mobility, renewed agency, and redirected backing, while split-root branches preserve torque and released-breath outliers.",
+          "remaining_uncertainties": [
+            "The social-backing sense of the back is coherent but less form-near than the anatomical branch.",
+            "The carrier, emergence, torque, and breath models are analogical activations and should not displace the strong audible-load mechanism.",
+            "Grammatical accompaniment strongly supports coexistence of strain and opening, but does not by itself settle their exact temporal relation.",
+            "The two non-dominant mapped-root outliers depend on split mappings and therefore require explicit qualification downstream."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The direct image is a back audibly strained by a load. Lexical evidence: `ن ق ض B005` creaking under strain from joints, loads, saddles, or a burdened back; `ظ ه ر B002` anatomical back; 94:2 `و ز ر B002` heavy burden. Structural cue: the relative phrase in 94:3 specifies the `وزر` of 94:2 by its effect. Assigned role: `أنقض` supplies audible evidence of pressure; `ظهر` supplies the support surface. Abductive move supplied by me: sound is treated as the symptom of hidden load. Reading change: the ayah makes prior suffering materially audible, not merely conceptually heavy.\n\n2. The burden also threatens the collapse of a constructed order. Lexical evidence: `ن ق ض B001` breaking or undoing what was made firm, such as rope, structure, covenant, oath, argument; `ظ ه ر B006/B016` backing/support and supporting people; `ر ب ب B011` covenant or pact as binding bundle. Structural cue: the passage later raises mention (94:4) and directs desire to the Lord (94:8), after the old support has been strained. Assigned role: `نقض` is undoing; `ظهر` is the system of backing. Abductive move supplied by me: a burden can break not only a body but the social/covenantal support on which a person stands. Reading change: the ayah reads as near-unraveling of support, not only back pain.\n\n3. Travel-weariness enters through animal and road branches. Lexical evidence: `ن ق ض B002` a camel worn down by travel; `ظ ه ر B005` mounts and spare riding animals; `و ض ع B003` urging a mount into rapid travel; `ن ص ب B010` day-long easy march; `ف ر غ B003` breadth in a road. Structural cue: later 94:7 gives a post-relief imperative that can be read as renewed movement/labor. Assigned role: the back is also a mount/backing that has been overtraveled. Abductive move supplied by me: the strained back is a vehicle image for mission-fatigue, preparing for a different kind of onward travel. Reading change: the ayah becomes exhaustion from carrying a journey, not only static weight.\n\n4. A disclosure reading is activated by `ظهر`. Lexical evidence: `ظ ه ر B001` coming out into view, `ظ ه ر B008` finding out/access to hidden matter, and `ش ر ح B001` opening what was hidden. Structural cue: 94:1 opens the chest; 94:3 names the back/surface; 94:4 raises mention into public view. Assigned role: the pressure on the back brings an invisible burden into manifestation. Abductive move supplied by me: what creaks becomes known; the body exposes what was hidden. Reading change: the ayah reads as revelation of hidden strain as well as the strain itself.",
@@ -10055,14 +10998,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10336,10 +11285,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 82881,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:25.291369+00:00",
+  "generated_at": "2026-08-18T13:34:33.192949+00:00",
   "surah": 105,
   "ayah": 4,
   "ayahRef": "105:4",
@@ -1210,7 +1210,8 @@
         "m-w-s105-a004-w001-01",
         "m-w-s105-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:4:1"
+      "aligned_qac_word_ref_upstream": "105:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1226,7 +1227,8 @@
         "m-w-s105-a004-w002-01",
         "m-w-s105-a004-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:4:2"
+      "aligned_qac_word_ref_upstream": "105:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1240,7 +1242,8 @@
       "morpheme_ids": [
         "m-w-s105-a004-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:4:3"
+      "aligned_qac_word_ref_upstream": "105:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1254,7 +1257,8 @@
       "morpheme_ids": [
         "m-w-s105-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:4:4"
+      "aligned_qac_word_ref_upstream": "105:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2824,7 +2828,967 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s105/packets/105_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "105:4",
+      "window": [
+        "105:1",
+        "105:2",
+        "105:3",
+        "105:4",
+        "105:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ف ع ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001167",
+              "furuq_root_norm": "ف ع ل",
+              "furuq_source_root_norm": "ف ع ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 108,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000007",
+              "furuq_root_norm": "ء ب و",
+              "furuq_source_root_norm": "أ ب و",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ك ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000043",
+              "furuq_root_norm": "ء ك ل",
+              "furuq_source_root_norm": "أ ك ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 79,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001315",
+              "furuq_root_norm": "ك ل ل",
+              "furuq_source_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 30,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "105:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_projectile_outpouring",
+            "confidence": "strong",
+            "focus_anchor": "The directed verb at word 1, the plural stone payload at word 2, and the material qualifier at word 4.",
+            "mechanism": "Directed casting supplies a trajectory, hard stones supply discrete resistant units, and the filled-bucket branch supplies massed release. Focus-only, the event is therefore not a lone hit but a loaded discharge emptied onto a target.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Physical casting contributes directed transfer and functions as the payload's targetward trajectory."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes discrete resistant matter and functions as the damaging payload."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "A filled bucket pouring out contributes volume and flow, functioning as the discharge pattern for many stones."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are struck by stones.",
+              "after": "They are subjected to a directed, bucket-like outpouring of hard projectiles: a load is released, not merely a stone thrown."
+            }
+          },
+          {
+            "model_id": "base_lithic_precipitation",
+            "confidence": "medium",
+            "focus_anchor": "The same casting verb at word 1 can activate its cloud-and-rain branch while words 2 and 4 specify hard matter and outpouring.",
+            "mechanism": "The cloud/rain branch of casting changes the delivery morphology, the stone branch changes the droplets into hard particles, and the outpouring branch gives the fall density. This coexists with ordinary projectile delivery as a stone-rain image.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "Cloud or heavy rain contributes precipitation imagery and functions as an atmospheric model for the casting."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes the actual particulate matter and prevents the rain model from becoming merely watery."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "Bucketful outpouring contributes a dense downward flow and functions as the precipitation's release pattern."
+              }
+            ],
+            "changed_reading": {
+              "before": "Separate agents throw separate stones in an ordinary ballistic scene.",
+              "after": "The wording also supports lithic precipitation: a cloudlike cast whose poured drops are hard stones."
+            }
+          },
+          {
+            "model_id": "base_executable_record",
+            "confidence": "exploratory",
+            "focus_anchor": "Word 1 can carry accusatory casting, word 2 can carry both hard matter and restraint, and word 4 can carry a secured record.",
+            "mechanism": "Accusatory casting supplies a charge, enclosure/prohibition supplies binding restraint, and the secured-record branch supplies fixation; the hard-stone branch keeps the chain material. The impacts can thus coexist as executable entries rather than becoming a purely abstract allegory.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B008",
+                "role": "Casting an accusation contributes imposed charge and functions as the event's juridical-speech layer."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Enclosure and prohibition contribute binding restraint and function as the charge's enforceable effect."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes literal material impact and keeps the record model anchored in the physical event."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "A record that gathers and secures contributes fixation and functions as the lasting registration of each impact."
+              }
+            ],
+            "changed_reading": {
+              "before": "The stones are only unnamed ammunition.",
+              "after": "Each impact can also be heard as a materially enforced entry—charge, restraint, and record—without ceasing to be a stone."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_observable_executed_record",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ف ع ل",
+              "ر ب ب"
+            ],
+            "mechanism": "The opening appeal to sight, the explicit deed, and lordly authority make the focus event intentionally inspectable. Combined with the focus record branch and literal impact, the stones become an exhibited execution: the deed is shown by being registered in matter.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Literal casting contributes the observable deed and functions as its concrete execution."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes visible material evidence and functions as the medium in which the deed is exhibited."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "The secured record contributes durable registration and functions as the latent evidentiary layer of the impacts."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Sight and insight contribute apprehension and function as the audience's mode of receiving the focus event as evidence."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act contributes eventhood and functions as the causal frame into which the casting fits."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and sovereignty contribute authorized agency and function as the source of the exhibited deed."
+              }
+            ],
+            "structural_cues": [
+              "The opening negative interrogative and the branchless ك ي ف cue ask for the manner of the deed, so 105:4 can answer a how-question.",
+              "The explicit actor in 105:1 and the bird collective governing the focus verb create layered ultimate and immediate agency."
+            ],
+            "reader_inference": "The packet supplies sight, deed, lordship, literal impact, and record; I supply the arrow from publicly apprehensible action to evidence-bearing execution. A live alternative is that the opening only prompts recollection, leaving the record branch an unactivated lexical echo.",
+            "changed_reading": {
+              "before": "The record branch is an abstract resonance beside a physical pelting.",
+              "after": "The pelting can be read as an exhibited execution whose impacts materially register the authorized deed."
+            }
+          },
+          {
+            "model_id": "ctx_relational_targeting",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ف ي ل"
+            ],
+            "mechanism": "Companionship makes the earlier designation relational rather than merely numerical, and the elephant branch supplies the relation's material center. The plural object inside the focus casting then carries a corporate formation, so the barrage targets an association and its cohesion as well as individual bodies.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Directed casting contributes the plural target and functions as pressure applied to the whole relational formation."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Keeping back by enclosure contributes blocked movement and functions as disruption of the formation's collective advance."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and close attachment contribute relational cohesion and function as the principle defining the targeted group."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "The elephant contributes the literal animal center and functions as the shared object around which the companions cohere."
+              }
+            ],
+            "structural_cues": [
+              "The genitive relation in the earlier group label defines people through attachment to a shared center.",
+              "The plural object pronoun in the focus verb naturally resumes that already relational collective."
+            ],
+            "reader_inference": "The packet supplies companionship, the elephant, enclosure, and a plural target; I infer that disabling the relation is part of what the impacts do. The live alternative is that the group label is only referential and the focus describes undifferentiated bodily hits.",
+            "changed_reading": {
+              "before": "The object pronoun denotes a set of separate bodies being pelted.",
+              "after": "The object pronoun carries an elephant-centered formation whose attachment, movement, and cohesion are being broken."
+            }
+          },
+          {
+            "model_id": "ctx_plan_to_lost_matter",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ك ي د",
+              "ض ل ل"
+            ],
+            "mechanism": "State-making acts on a stratagem and terminates in loss. Read into the focus, the hard targetward projectiles become a conversion operator: organized intention is translated into unavailable coordination rather than merely punished after the fact.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B006",
+                "role": "Progress toward a terminal point contributes directional completion and functions as the plan's forced route into failure."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes the physical intervention and functions as the material operator of conversion."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something assume a state contributes transformation and functions as the governing causal operation."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Stratagem and contrivance contribute organized hostile intention and function as the structure being dismantled."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss of a thing contributes unavailability and functions as the converted plan's terminal state."
+              }
+            ],
+            "structural_cues": [
+              "The plan's failed state is announced before 105:3-4 disclose the delivery mechanism, creating outcome-before-cause narration.",
+              "The possessive plural attached to the plan and the plural object in the focus keep planners, plan, and struck formation causally linked."
+            ],
+            "reader_inference": "The packet supplies transformation, stratagem, loss, terminal trajectory, and hard impact; I supply the causal arrow that the impacts convert planning into lost coordination. Alternatively, the plan may already be nullified at another level and 105:4 may describe only a subsequent bodily effect.",
+            "changed_reading": {
+              "before": "The stones inflict generic projectile damage on plotters.",
+              "after": "The stones physically counter-engineer the plot, converting coordinated intention into a lost and unusable formation."
+            }
+          },
+          {
+            "model_id": "ctx_distributed_volley_network",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ط ي ر",
+              "ء ب ل"
+            ],
+            "mechanism": "Dispatch supplies launch, sequential sending supplies pulses, flight-spread supplies mobile distribution, and grouped cohorts supply partitioning. These cues resolve the focus outpouring into a distributed carrier-and-payload system: many coordinated units repeatedly deliver hard packets.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Physical casting contributes local release and functions as each carrier's delivery action."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stones contribute discrete units and function as packetized payloads."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "Bucketful outpouring contributes repeated volume and functions as the aggregate result of many local releases."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Sending and setting forth contribute launch and function as the upstream dispatch stage."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Sequence and segmentation contribute pulse structure and function as repeated waves of delivery."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Spreading after light movement contributes airborne distribution and functions as network coverage over the target."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Groups in cohorts contribute partitioned multiplicity and function as coordinated delivery units."
+              }
+            ],
+            "structural_cues": [
+              "The airborne collective and its group modifier precede the focus verb, supplying the verb's immediate subject.",
+              "The collective is grammatically compressed into a single casting predicate while remaining internally multiple."
+            ],
+            "reader_inference": "The packet supplies dispatch, sequence, airborne spread, grouped multiplicity, stones, and outpouring; I infer a carrier-and-payload logistics chain. The live alternative is that the sequence is only narrative and the group modifier marks abundance without coordinated volleys.",
+            "changed_reading": {
+              "before": "A mass outpouring falls with no visible internal architecture.",
+              "after": "The outpouring resolves into a distributed swarm network: dispatched cohorts spread, arrive in pulses, and release discrete stone payloads."
+            }
+          },
+          {
+            "model_id": "ctx_meteorological_field",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ء ي",
+              "ر ب ب",
+              "ط ي ر"
+            ],
+            "mechanism": "The focus already permits cloudlike casting. A non-dominant split branch adds a great rain cloud, a lordship branch adds cloud mass, and airborne spreading adds the motion of a weather front. Together they strengthen, without lexical replacement, a storm field whose precipitation is lithic.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "Cloud and heavy rain contribute the primary meteorological image and function as the casting's delivery morphology."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes solid precipitation and functions as the storm's anomalous particulate matter."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "A bucketful pouring out contributes dense fall and functions as the storm's release dynamic."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B014",
+                "role": "The split-mapped great rain cloud contributes an anomalous second cloud cue and functions only as reinforcement, not as a replacement sense for the source word."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "Cloud mass contributes an independent atmospheric image and functions as field support for the focus rain branch."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Light spreading contributes lateral airborne motion and functions as the storm front's distribution."
+              }
+            ],
+            "structural_cues": [
+              "An airborne subject immediately precedes the focus's downward casting.",
+              "The material-source construction specifies what the stones are from without fixing whether their delivery is imagined ballistically or meteorologically."
+            ],
+            "reader_inference": "The packet supplies a focus cloud/rain branch, two further cloud images including a non-dominant split mapping, airborne spread, and outpouring; I infer a cross-root weather field. A live alternative is that the split cue is mapping noise and the birds remain literal carriers with no storm-level analogy.",
+            "changed_reading": {
+              "before": "The focus cloud branch is an isolated lexical possibility.",
+              "after": "The context assembles a moving storm field in which avian spread and bucketlike release produce lithic precipitation."
+            }
+          },
+          {
+            "model_id": "ctx_impact_as_decomposition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ع ص ف",
+              "ء ك ل"
+            ],
+            "mechanism": "Repeated state-making brackets the delivery episode, while fragmented husk, wind-driven dispersal, eating, and corrosion reveal the terminal material logic. Read backward into the focus, impact initiates a decomposition pipeline: coherent formation becomes fragments, fragments lose substance, and residue disperses.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Physical casting contributes impact energy and functions as the pipeline's initiating event."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes crushing resistance and functions as the material means of breaking cohesion."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-transformation contributes the first conversion, from plan to loss, and functions as the episode's opening bracket."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Repeated state-transformation contributes the second conversion, from formation to residue, and functions as the closing bracket."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Fragmented crop husk contributes a low-cohesion residue and functions as the impact's visible product."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B002",
+                "role": "A strong wind scattering light matter contributes dispersal and functions as the residue's terminal movement."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Eating contributes subtraction by consumption and functions as the image of matter already taken away."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Corrosion and decay contribute internal breakdown and function as a second route from impact to lost integrity."
+              }
+            ],
+            "structural_cues": [
+              "The repeated state-making verb before and after the delivery episode brackets 105:3-4 as the conversion mechanism.",
+              "The initial consequence marker in 105:5 presents the residue image as a result rather than an unrelated comparison."
+            ],
+            "reader_inference": "The packet supplies two explicit transformations, hard impact, fragmented husk, dispersal, consumption, and decay; I infer that 105:4 is the causal middle linking organized form to residue. Alternatively, the final comparison may report appearance only and leave the exact mechanics of decomposition unspecified.",
+            "changed_reading": {
+              "before": "The stones hit and the next ayah separately describes the aftermath.",
+              "after": "The impacts are the middle of a staged material conversion that consumes cohesion, produces husk-like fragments, and releases them to dispersal."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_counter_bucket_turn",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the contest-and-turn-taking branch of the focus qualifier rather than its material sense. It remains valid as a secondary mechanism because the focus still supplies literal casting while context supplies war and sequential segments; render it only as a counter-volley analogy, not as an etymology or replacement translation.",
+            "focus_anchor": "The focus qualifier at word 4 carries a competitive bucket-for-bucket branch inside a literal casting construction.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Literal casting contributes an actual volley and functions as the answering action in the contest model."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B002",
+                "role": "Bucket-for-bucket rivalry contributes alternating turns and functions as the latent counter-volley structure."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B004",
+                "role": "War and fighting contribute adversarial exchange and function as the context that makes a counter-turn intelligible."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Sequence and segmentation contribute ordered pulses and function as the volley model's turn structure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The pelting is a one-sided discharge with no dialogic structure.",
+              "after": "The pelting can faintly register as the decisive answering turn in a contest, a counter-bucket that ends the opponent's initiative."
+            }
+          },
+          {
+            "outlier_id": "outlier_inverse_cultivation",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it joins rain, bucket, growth, crop residue, and consumption, including a non-dominant split mapping under the lordship root. It remains anchored in the focus's own cloud-casting, stone, and outpouring branches plus the explicit plant-result cues; render it as an inverted irrigation-and-harvest analogy, never as the lexical meaning of the source words.",
+            "focus_anchor": "Cloudlike casting at word 1 pours hard stones at word 2 through the bucket-outpouring branch of word 4.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "Cloud and rain contribute irrigation morphology and function as the cycle's deliberately inverted delivery stage."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone contributes anti-nourishing matter and functions as the reversal of water."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "Bucketful outpouring contributes irrigation-scale release and functions as the inverted watering action."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant feeding-and-growth branch contributes nourishment and functions as the normal cycle that the stone rain reverses."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Fragmented crop husk contributes failed harvest residue and functions as the inverted cycle's product."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B002",
+                "role": "Crop yield contributes the agricultural domain and functions as the consumed output against which the reversal becomes visible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The stone shower is only a destructive weather analogy.",
+              "after": "It can also appear as inverse cultivation: a bucketlike rain of stone replaces nourishment, prematurely harvests the formation, and leaves consumed crop residue."
+            }
+          },
+          {
+            "outlier_id": "outlier_protective_barrage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates custody, nurture, and an anomalous non-dominant fatherhood/upbringing mapping around a destructive event. It remains anchored in the focus enclosure branches and in the context's hostile stratagem, but the protected party is unstated; render it only as a functional reversal in which blocking a harmful plan can protect, not as a claim that stones literally mean shelter or that a beneficiary has been identified.",
+            "focus_anchor": "The focus stone root at word 2 also carries enclosure, prohibition, and sheltered-custody branches while word 1 remains a physical cast.",
+            "activation_trace": [
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Physical casting contributes destructive force and functions as the means by which the hostile trajectory is blocked."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Enclosure and prohibition contribute exclusion and function as a boundary against the plan."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B005",
+                "role": "Sheltered custody contributes protection and functions as the barrage's possible opposite-side effect."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The non-dominant fatherhood-and-upbringing branch contributes an anomalous caretaking echo and functions as weak support for protective purpose."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion contribute constructive care and function as the stronger context cue for protection."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Stratagem contributes a harmful directed plan and functions as what the enclosing barrage prevents from reaching completion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The stones have only a destructive relation to those they strike.",
+              "after": "The same barrage can tentatively be read as an exclusionary boundary: destructive toward the plotted formation, protective in function toward whatever the plan would otherwise reach."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus changed from generic pelting into a loaded and internally organized delivery system, with directed casts, discrete payloads, and bucketlike discharge.",
+            "The plan-loss and final-residue context changed impact into a causal transformation pipeline from coordinated intention through fragmentation to dispersal.",
+            "Seeing, deed, authority, and record strengthened a coexisting reading of the impacts as an exhibited execution registered in matter.",
+            "Cloud, outpouring, and airborne-spread branches preserved a competing lithic-storm reading instead of collapsing it into the swarm-logistics model."
+          ],
+          "what_was_special": "The focus roots jointly opened material, logistical, juridical, meteorological, and boundary mechanisms. Context did not select one: it sharpened several at different scales, while split mappings generated contained but productive reversals such as inverse cultivation and protective destruction.",
+          "remaining_uncertainties": [
+            "The focus qualifier supports outpouring, record, and contest branches, but the construction itself does not rank those activations.",
+            "The great-rain-cloud cue under the non-dominant split mapping may be a genuine cross-root activation or merely mapping noise.",
+            "The final residue image strongly supports decomposition, but it may specify only appearance rather than each causal stage inferred backward into the impacts.",
+            "The protective-barrage model has no explicit beneficiary in the packet and must remain functionally, not referentially, stated."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Hard rain: thrown stones as poured-out descent.** Lexical evidence: ر م ي B001, throwing or casting a thing; ر م ي B004, thrown-together cloud or heavy rain cloud; ح ج ر B003, hard stone; س ج ل B001, filled bucket and outpouring; س ج ل B003, unrestricted giving poured out; س م و B004 in 105:0, overhead sky/cover, cloud, rain. Structural cue: birds from above throw stones, while سجل contributes bucket/outpouring imagery and سمو contributes overhead/rain imagery from the opening. Assigned role: رمي supplies projectile motion, حجر supplies hardness, سجل supplies the poured measure, and سمو supplies vertical overhead space. Abductive move: I infer a \"rain of hard matter\" mechanism; the packet supplies the branch ingredients but not the meteorological metaphor as a full causal model. Reading change: the ayah reads as controlled stony downpour, not just individual missiles.\n\n2. **Stone as boundary and prohibition.** Lexical evidence: ح ج ر B001, keeping back by enclosure/prohibition; ح ج ر B004, enclosed place; ح ج ر B005, lap and sheltered custody; ر ح م B002/B003 in 105:0, kinship/womb; ص ح ب B001 in 105:1, close association. Structural cue: the material \"حجارة\" arrives at the point where the elephant-company is stopped. Assigned role: ح ج ر B003 gives physical stone; ح ج ر B001/B004/B005 activate the stone as barrier, enclosure, and guarded interior. Abductive move: I infer that the projectiles do not only injure bodies but mark a boundary the company cannot cross; the packet supplies the stone/enclosure branches, while I supply their blocking function in the episode. Reading change: \"بحجارة\" reads as interdiction and guarded limit, not only ammunition.\n\n3. **Sijjil as record-like verdict.** Lexical evidence: س ج ل B004, record/deed/registration that gathers and secures; ر س ل B002 in 105:3, messenger and message; ر ء ي B012/B013 in 105:1, showing/alerting formula; ف ع ل B001, bringing an act into being. Structural cue: the sent birds carry stones whose source word has a branch of secured writing/registration, and the whole action is displayed to the viewer. Assigned role: سجل B004 gives the stones evidentiary/judicial quality; رسل B002 makes their delivery message-like; رأي makes the result visible. Abductive move: I infer that the material blow also functions as a visible registration of judgment; the packet supplies the lexical record branch, not a fully stated legal scene. Reading change: \"من سجيل\" reads as more than material source: the impact is also a documented/secured act.\n\n4. **Thrown accusation returned as material strike.** Lexical evidence: ر م ي B008, throwing accusation in speech; ر م ي B001, physical throwing; ك ي د B002 in 105:2, stratagem; ض ل ل B001, deviation from aim. Structural cue: a plotting group is first placed in misdirection, then becomes the target of throwing. Assigned role: رمي B008 supplies a social/legal \"casting against\"; رمي B001 supplies the physical projectile. Abductive move: I infer a reflexive return: the wrongful directional intent of the plot is answered by a cast-against-them event. This is exploratory because the ayah's surface uses physical throwing, while the speech/accusation branch is activated only by the social logic of كيد and the visible verdict mechanism. Reading change: the throwing can be heard as both impact and charge, without replacing the physical sense.",
@@ -10331,14 +11295,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s105/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 43,
+        "ayah_count": 5,
+        "row_count": 36,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10640,10 +11610,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s105/packets/105_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s105/readers/reader_hft_a/105_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s105"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s105",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 81740,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

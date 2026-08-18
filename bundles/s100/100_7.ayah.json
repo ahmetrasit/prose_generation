@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:18.660119+00:00",
+  "generated_at": "2026-08-18T13:34:26.077776+00:00",
   "surah": 100,
   "ayah": 7,
   "ayahRef": "100:7",
@@ -1182,7 +1182,8 @@
       "morpheme_ids": [
         "m-w-s100-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:1"
+      "aligned_qac_word_ref_upstream": "100:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1198,7 +1199,8 @@
         "m-w-s100-a007-w001-02",
         "m-w-s100-a007-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:2"
+      "aligned_qac_word_ref_upstream": "100:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1212,7 +1214,8 @@
       "morpheme_ids": [
         "m-w-s100-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:3"
+      "aligned_qac_word_ref_upstream": "100:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1226,7 +1229,8 @@
       "morpheme_ids": [
         "m-w-s100-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:4"
+      "aligned_qac_word_ref_upstream": "100:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1240,7 +1244,8 @@
       "morpheme_ids": [
         "m-w-s100-a007-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:5"
+      "aligned_qac_word_ref_upstream": "100:7:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1254,7 +1259,8 @@
       "morpheme_ids": [
         "m-w-s100-a007-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:7:6"
+      "aligned_qac_word_ref_upstream": "100:7:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1816,7 +1822,1246 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:7",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v3",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "100:7",
+        "hermeticity": {
+          "method": "I first formed focus-only models from وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ and the complete ش ه د branch inventory, then admitted the context cues one ayah at a time in packet order and recorded only mechanisms that changed a reading still anchored in شَهِيدٌ or its construction.",
+          "limitations": "This is a reconstructed one-call trace because focus and context arrived together in one sealed packet, not a strict staged blind-reveal log. No source beyond the assigned prompt, schema, and packet was used; contextual arrows and causal directions identified as inferences are supplied by the reader rather than by the packet."
+        },
+        "baseline_models": [
+          {
+            "model_id": "BSL-01-direct-presence",
+            "status": "baseline",
+            "confidence": "strong",
+            "focus_anchor": "شَهِيدٌ, root ش ه د, through root_000822/B001; the construction عَلَىٰ ذَٰلِكَ places the pronominal subject in an evidentiary relation to an unspecified matter.",
+            "mechanism": "The witness is present with the matter and sees it directly. Its force comes from participation or immediate observation, not from receiving a report.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B001",
+                "branch_image_ar": "الحضور مع المشاهدة",
+                "literal_contribution": "Presence together with direct witnessing or seeing.",
+                "assigned_role": "Grounds the subject's witness-role in firsthand presence rather than hearsay."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified subject is called a witness concerning an unspecified matter.",
+              "after": "The subject is present to the matter indicated by ذَٰلِكَ and witnesses it from direct proximity."
+            }
+          },
+          {
+            "model_id": "BSL-02-knowledge-testimony",
+            "status": "baseline",
+            "confidence": "strong",
+            "focus_anchor": "شَهِيدٌ, root ش ه د, through root_000822/B002, with عَلَىٰ ذَٰلِكَ supplying the matter about or against which testimony bears.",
+            "mechanism": "Knowledge is converted into a decisive declaration, acknowledgement, or proof-bearing judgment. The witness does not merely perceive; it makes what is known evidentially available.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B002",
+                "branch_image_ar": "البيان بعلم",
+                "literal_contribution": "A statement, acknowledgement, or decisive report made from knowledge.",
+                "assigned_role": "Makes the subject a bearer and discloser of evidence concerning ذَٰلِكَ."
+              }
+            ],
+            "changed_reading": {
+              "before": "The predicate may mean only that the subject has seen something.",
+              "after": "The subject bears articulate, knowledge-based testimony concerning that matter."
+            }
+          },
+          {
+            "model_id": "BSL-03-visible-expression",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "شَهِيدٌ, root ش ه د, through root_000822/B005; this branch allows a tongue or outward expression to stand as its owner's witness.",
+            "mechanism": "An expression can testify about its source independently of a formal declaration. The subject's outward articulation is therefore capable of exposing the subject.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B005",
+                "branch_image_ar": "اللسان الشاهد",
+                "literal_contribution": "A tongue or visible expression that reveals its owner.",
+                "assigned_role": "Shifts testimony from a courtroom-like utterance to self-disclosing expression."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject deliberately reports what it knows.",
+              "after": "The subject's own expression can speak evidentially about the subject, even before deliberate confession."
+            }
+          },
+          {
+            "model_id": "BSL-04-witnessing-sign",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "شَهِيدٌ, root ش ه د, through root_000822/B008; the nominal predicate can characterize the subject as an enduring sign of a condition or quality.",
+            "mechanism": "A visible condition functions indexically: it points beyond itself to the state that produced it. Witnesshood can thus reside in what the subject is or displays, not only in what the subject says.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A visible sign that testifies to a time, state, or quality.",
+                "assigned_role": "Allows the subject itself to be evidence of the matter designated by ذَٰلِكَ."
+              }
+            ],
+            "changed_reading": {
+              "before": "Witnesshood is a conscious act of seeing or speaking.",
+              "after": "The subject can be a standing evidentiary sign whose condition testifies without a separate speech act."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "CTX-01-involuntary-breath-testimony",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:1"
+            ],
+            "trigger_roots": [
+              "ع د و",
+              "ض ب ح"
+            ],
+            "mechanism": "Rushing generates panting, and the generated sound discloses the exertion that caused it. The focus witness can therefore be involuntary bodily output: action gives the body a 'tongue' that testifies about its own state.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B005",
+                "branch_image_ar": "اللسان الشاهد",
+                "literal_contribution": "An expression can reveal the one from whom it issues.",
+                "assigned_role": "Receives the panting as an embodied, non-propositional tongue."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "mapped_root_norm": "ع د و",
+                "branch_id": "B002",
+                "branch_image_ar": "العَدْو والحَضْر",
+                "literal_contribution": "Running or rapid movement.",
+                "assigned_role": "Supplies the exertive motion whose bodily trace is heard."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "mapped_root_norm": "ض ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The audible panting sound.",
+                "assigned_role": "Functions as the involuntary expression that reveals exertion."
+              }
+            ],
+            "structural_cues": [
+              "100:1 couples the moving agents with their emitted sound, so an act and its bodily trace arrive together.",
+              "The nominal شَهِيدٌ can denote an abiding evidentiary role rather than one isolated utterance."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The panting is generated by the running and reliably indexes its intensity.",
+                "packet_supplies": "عَٰدِيَٰتِ with the running image root_000993/B002, ضَبْحًا with the sound image root_000901/B001, and the witnessing-expression image root_000822/B005.",
+                "reader_infers": "Running causes panting; panting then serves as testimony emitted by the moving body.",
+                "alternatives": [
+                  "ضَبْحًا may remain vivid scene texture without evidentiary force.",
+                  "شَهِيدٌ may still denote deliberate testimony rather than bodily disclosure."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The witness deliberately states or displays what it knows.",
+              "after": "The subject can betray the matter through an involuntary bodily utterance generated by its own action."
+            },
+            "minimal_triggers": [
+              "عَٰدِيَٰتِ through root_000993/B002",
+              "ضَبْحًا through root_000901/B001",
+              "شَهِيدٌ through root_000822/B005"
+            ],
+            "ablation": "Without ضَبْحًا as emitted sound, running alone leaves only an observer model; without root_000822/B005, the sound remains atmosphere rather than the body's testimony."
+          },
+          {
+            "model_id": "CTX-02-elicited-latent-sign",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:2"
+            ],
+            "trigger_roots": [
+              "و ر ي",
+              "ق د ح"
+            ],
+            "mechanism": "Fire is present but hidden in the striking-material until contact draws it out. By analogy, witnesshood can be latent in the subject and become visible only when an event strikes, tests, or agitates it.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A perceptible sign bears evidence of a condition.",
+                "assigned_role": "Receives the emitted spark as a model for evidence becoming perceptible."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "A concealed fire comes out from the fire-stick.",
+                "assigned_role": "Supplies a latent content capable of becoming manifest."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "mapped_root_norm": "ق د ح",
+                "branch_id": "B001",
+                "branch_image_ar": "إيراء النار بالقدح",
+                "literal_contribution": "Striking elicits and kindles fire.",
+                "assigned_role": "Supplies the contact event that converts latency into a visible sign."
+              }
+            ],
+            "structural_cues": [
+              "100:2 presents an agentive participle and its striking action as one production event.",
+              "The focus's emphatic nominal predicate permits witnesshood to pre-exist its later manifestation."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The concealed-fire relation can model hidden evidence without making fire the lexical meaning of شَهِيدٌ.",
+                "packet_supplies": "A hidden fire root_001642/B002, its elicitation by striking root_001203/B001, and a witnessing-sign branch root_000822/B008.",
+                "reader_infers": "Provocation or contact draws out a sign that was already materially possible within the bearer.",
+                "alternatives": [
+                  "The sparks may describe only the moving scene.",
+                  "Witnesshood may be fully active from the outset rather than elicited."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject is already an overt sign or active witness.",
+              "after": "The subject carries latent testimony that an encounter can strike into visibility."
+            },
+            "minimal_triggers": [
+              "مُورِيَٰتِ through root_001642/B002",
+              "قَدْحًا through root_001203/B001",
+              "شَهِيدٌ through root_000822/B008"
+            ],
+            "ablation": "Removing either hidden fire or striking collapses the latency-to-manifestation mechanism; the remaining cue supplies light or impact but not elicited evidence."
+          },
+          {
+            "model_id": "CTX-03-forensic-wake",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:3",
+              "100:4"
+            ],
+            "trigger_roots": [
+              "غ ي ر",
+              "ص ب ح",
+              "ث و ر",
+              "ن ق ع"
+            ],
+            "mechanism": "The incursion alters a scene; morning supplies visibility; disturbance lifts material into a dust-cloud; and the non-dominant ء ث ر mapping supplies a remaining mark of what passed. An event thus writes a forensic wake that continues to witness after the mover has gone.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A sign testifies to a state, time, or quality.",
+                "assigned_role": "Makes the altered scene and its residue capable of witnessing."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "غ ي ر",
+                "source_phrase_ar": "مُغِيرَٰتِ",
+                "mapped_root_id": "root_001119",
+                "mapped_root_norm": "غ ي ر",
+                "branch_id": "B003",
+                "branch_image_ar": "تغيير الصورة أو إبدال الشيء بغيره",
+                "literal_contribution": "A form or condition is changed into another.",
+                "assigned_role": "Supplies the before-and-after difference from which evidence can be read."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "ص ب ح",
+                "source_phrase_ar": "صُبْحًا",
+                "mapped_root_id": "root_000839",
+                "mapped_root_norm": "ص ب ح",
+                "branch_id": "B001",
+                "branch_image_ar": "الصبح وأول النهار",
+                "literal_contribution": "Morning and the opening of daylight.",
+                "assigned_role": "Supplies the visibility in which alteration and residue become legible."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "mapped_root_norm": "ث و ر",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "Something rises and spreads into visibility.",
+                "assigned_role": "Makes the disturbed material publicly perceptible."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "mapped_root_norm": "ء ث ر",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "A remaining mark indicates what previously occurred.",
+                "assigned_role": "Converts transient motion into a durable retrospective witness."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "mapped_root_norm": "ن ق ع",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "A cloud of stirred dust.",
+                "assigned_role": "Provides the material wake in which the preceding movement remains visible."
+              }
+            ],
+            "structural_cues": [
+              "The successive فَ clauses move from incursion to a materially altered scene.",
+              "The split mapping of أَثَرْ preserves both visible stirring and a remaining trace; the latter is not collapsed into the dominant ث و ر target."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "A visible wake is causally diagnostic of the passage that produced it.",
+                "packet_supplies": "Change root_001119/B003, morning root_000839/B001, visible rising root_000210/B001, a remaining mark root_000011/B003, stirred dust root_001544/B004, and witnessing sign root_000822/B008.",
+                "reader_infers": "Passage disturbs the scene; the disturbance persists as a readable sign; that sign witnesses to the absent action.",
+                "alternatives": [
+                  "The dust may obscure rather than reveal.",
+                  "The non-dominant ء ث ر mapping may remain a lexical mapping artifact rather than an active image."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The witness is a present observer or speaker.",
+              "after": "The subject can be read as the trace-bearing aftermath of action: changed matter itself testifies to what passed."
+            },
+            "minimal_triggers": [
+              "أَثَرْ through non-dominant root_000011/B003",
+              "نَقْعًا through root_001544/B004",
+              "شَهِيدٌ through root_000822/B008"
+            ],
+            "ablation": "Without the remaining-mark image root_000011/B003, the dust is only simultaneous spectacle; without dust root_001544/B004, the trace model loses its concrete carrier. Morning and change sharpen but are not minimal."
+          },
+          {
+            "model_id": "CTX-04-witness-from-within",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:5"
+            ],
+            "trigger_roots": [
+              "و س ط",
+              "ج م ع"
+            ],
+            "mechanism": "Entry into the middle of an assembled body creates an internal vantage. The witness is not detached at the perimeter; it knows through being embedded in the event's crowded center.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B001",
+                "branch_image_ar": "الحضور مع المشاهدة",
+                "literal_contribution": "Presence together with direct witnessing.",
+                "assigned_role": "Receives spatial depth: presence is specifically internal to the event."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "و س ط",
+                "source_phrase_ar": "وَسَطْ",
+                "mapped_root_id": "root_001646",
+                "mapped_root_norm": "و س ط",
+                "branch_id": "B003",
+                "branch_image_ar": "الدخول أو الجعل في الوسط",
+                "literal_contribution": "Entering or placing something in the middle.",
+                "assigned_role": "Locates the prospective witness inside rather than outside the scene."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "mapped_root_norm": "ج م ع",
+                "branch_id": "B002",
+                "branch_image_ar": "جماعة اجتمعت أو أخلاط ضمتها الجهة",
+                "literal_contribution": "A group assembled or mixed elements held together by one direction.",
+                "assigned_role": "Supplies the collective body whose interior is penetrated."
+              }
+            ],
+            "structural_cues": [
+              "The motion sequence culminates not beside a جمع but in its وسط.",
+              "Focus branch root_000822/B001 already joins presence and seeing, so spatial embeddedness changes the quality of that presence."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "Being in the center affords participatory knowledge distinct from external observation.",
+                "packet_supplies": "Entry into the middle root_001646/B003, an assembled group root_000259/B002, and presence-with-witnessing root_000822/B001.",
+                "reader_infers": "Spatial penetration produces an insider witness-position.",
+                "alternatives": [
+                  "The center may indicate only tactical location.",
+                  "Direct presence need not imply privileged understanding."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject witnesses by generic proximity.",
+              "after": "The subject witnesses from inside the collective event and is implicated in what it sees."
+            },
+            "minimal_triggers": [
+              "وَسَطْ through root_001646/B003",
+              "جَمْعًا through root_000259/B002",
+              "شَهِيدٌ through root_000822/B001"
+            ],
+            "ablation": "Removing وَسَطْ leaves only co-presence with a group; removing جَمْعًا leaves a geometric center without a social or eventful interior."
+          },
+          {
+            "model_id": "CTX-05-self-indicting-severance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:6"
+            ],
+            "trigger_roots": [
+              "ء ن س",
+              "ر ب ب",
+              "ك ن د"
+            ],
+            "mechanism": "The immediately named human can perceive, stands in a relation of nurture and completion to a lord, yet is characterized by severance and ingratitude. His own condition therefore supplies knowledge-based evidence against his relational denial: the recipient's cut-off posture testifies to the gift-relation it refuses.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B002",
+                "branch_image_ar": "البيان بعلم",
+                "literal_contribution": "Knowledge becomes acknowledgement, declaration, or decisive testimony.",
+                "assigned_role": "Makes the human both knower and evidentiary bearer concerning his condition."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A condition can itself serve as a witnessing sign.",
+                "assigned_role": "Allows conduct and posture, not only confession, to indict the subject."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "mapped_root_norm": "ء ن س",
+                "branch_id": "B002",
+                "branch_image_ar": "إيناس الشيء برؤية أو إحساس أو سماع",
+                "literal_contribution": "Perceiving something by sight, sensation, or hearing.",
+                "assigned_role": "Supplies the subject's capacity for experiential recognition."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Repairing, nurturing, and bringing toward completion.",
+                "assigned_role": "Defines the beneficent relation against which severance is measured."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B001",
+                "branch_image_ar": "القطع والانفصال",
+                "literal_contribution": "Cutting and separation.",
+                "assigned_role": "Models ingratitude as an enacted rupture from the nurturing source."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "mapped_root_norm": "ك ن د",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Denial of favor and affection.",
+                "assigned_role": "Names the relational state to which the focus's ذَٰلِكَ can point."
+              }
+            ],
+            "structural_cues": [
+              "100:6 names ٱلْإِنسَٰنَ and is followed immediately by the pronominal وَإِنَّهُۥ, strongly carrying the human subject forward.",
+              "The repeated إِنَّ ... لَ frame turns the focus into a second emphatic predication about the same condition."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The demonstrative ذَٰلِكَ reaches back to the relational condition in 100:6 and the pronoun continues its human subject.",
+                "packet_supplies": "A perceiving human root_000059/B002, nurturing lordship root_000532/B002, severance and ingratitude root_001321/B001 and root_001321/B002, followed by emphatic شَهِيدٌ.",
+                "reader_infers": "The recipient's lived condition and conduct provide evidence against his attempted disconnection from the relation that formed him.",
+                "alternatives": [
+                  "ذَٰلِكَ may point more broadly than the immediately preceding ingratitude.",
+                  "The subject may consciously testify rather than be indicted by his condition."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "An unidentified subject testifies about an unidentified matter.",
+              "after": "The human is a self-implicating witness to his own severance and ingratitude toward the source that nurtures and completes him."
+            },
+            "minimal_triggers": [
+              "كَنُودٌ through root_001321/B002",
+              "رَبِّ through root_000532/B002",
+              "the immediate 100:6-to-100:7 pronoun continuity"
+            ],
+            "ablation": "Without كَنُودٌ, the testimony lacks a specified adverse condition; without رَبِّ, it loses the relational asymmetry that makes ingratitude self-indicting."
+          },
+          {
+            "model_id": "CTX-06-desire-as-confession",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:8"
+            ],
+            "trigger_roots": [
+              "ح ب ب",
+              "خ ي ر",
+              "ش د د"
+            ],
+            "mechanism": "Abiding love occupies the heart's dark core and is tightened like a bond around what is perceived as beneficial. This durable inner attachment produces an outward pattern; the subject's intensity is itself the expression that confirms the prior claim of witnesshood.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B005",
+                "branch_image_ar": "اللسان الشاهد",
+                "literal_contribution": "A visible expression reveals its owner.",
+                "assigned_role": "Treats the pattern of attachment as an expression that speaks about the subject."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A visible sign indicates an underlying quality.",
+                "assigned_role": "Makes intensity of attachment evidentiary rather than merely descriptive."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love that abides in the heart.",
+                "assigned_role": "Supplies the durable inner orientation that can repeatedly disclose itself."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B004",
+                "branch_image_ar": "حبة القلب سويداؤه",
+                "literal_contribution": "The innermost dark core of the heart.",
+                "assigned_role": "Locates the attachment at an interior center rather than at a passing surface preference."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Inclination toward what is taken as good and beneficial.",
+                "assigned_role": "Supplies the desired object and the subject's valuation of it."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "mapped_root_norm": "ش د د",
+                "branch_id": "B001",
+                "branch_image_ar": "شد العقد والوثاق",
+                "literal_contribution": "Tightening a knot or binding.",
+                "assigned_role": "Turns preference into constraining attachment whose pressure becomes visible."
+              }
+            ],
+            "structural_cues": [
+              "100:7 and 100:8 repeat وَإِنَّهُۥ ... لَ with parallel final predicates شَهِيدٌ and شَدِيدٌ.",
+              "The parallel syntax makes 100:8 not merely a new fact but a concrete manifestation of the subject's witness against himself."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "A persistent inner attachment produces a stable outward pattern that can function as evidence.",
+                "packet_supplies": "Heart-abiding love root_000286/B002, the heart's core root_000286/B004, valued benefit root_000452/B001, binding intensity root_000782/B001, and expressive/sign witness images root_000822/B005 and root_000822/B008.",
+                "reader_infers": "Valuation binds the inner core; repeated conduct or intensity externalizes that bond; the externalized pattern confesses the attachment.",
+                "alternatives": [
+                  "شَدِيدٌ may denote intensity without a binding mechanism.",
+                  "100:8 may explain the adverse condition without functioning as its evidence."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject bears a separate testimony about the matter.",
+              "after": "The subject's tightly rooted love of perceived benefit is the confession: attachment itself visibly verifies the matter."
+            },
+            "minimal_triggers": [
+              "حُبِّ through root_000286/B002",
+              "شَدِيدٌ through root_000782/B001",
+              "the parallel وَإِنَّهُۥ ... لَ structures of 100:7 and 100:8"
+            ],
+            "ablation": "Without the binding image, love remains preference rather than constraining evidence; without the parallel syntax, the desire description is less clearly an enactment of the focus's witnesshood."
+          },
+          {
+            "model_id": "CTX-07-proleptic-excavated-witness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:9"
+            ],
+            "trigger_roots": [
+              "ع ل م",
+              "ب ع ث ر",
+              "ق ب ر"
+            ],
+            "mechanism": "What is obscure and lowered in graves is turned over and uncovered, becoming available to knowledge. The present nominal 'witness' can therefore be proleptic: the subject already carries evidentiary status whose visibility will be forced by a later excavation.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A sign testifies to a state even when its import awaits recognition.",
+                "assigned_role": "Gives hidden material a future evidentiary function."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "mapped_root_norm": "ع ل م",
+                "branch_id": "B001",
+                "branch_image_ar": "انكشاف الشيء للعارف",
+                "literal_contribution": "A thing becomes uncovered to the knower.",
+                "assigned_role": "Defines knowledge as disclosure rather than mere possession of information."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Earth is overturned and what was buried is exposed.",
+                "assigned_role": "Supplies the operation that forces concealed evidence into visibility."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "mapped_root_norm": "ق ب ر",
+                "branch_id": "B002",
+                "branch_image_ar": "غموض الشيء وتطامنه",
+                "literal_contribution": "A thing is obscure and lies low.",
+                "assigned_role": "Supplies the concealed state from which evidentiary material is raised."
+              }
+            ],
+            "structural_cues": [
+              "The conditional إِذَا opens a later disclosure event while 100:7 uses a present emphatic nominal predicate.",
+              "The question about knowing is followed by a concrete uncovering operation, linking epistemic disclosure to material exposure."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "Material that will later be exposed can already be called a witness because it already bears the relevant trace.",
+                "packet_supplies": "Uncovering to knowledge root_001040/B001, overturning and exposing root_000130/B001, obscurity root_001195/B002, and witnessing sign root_000822/B008.",
+                "reader_infers": "Concealed evidence persists through burial and is later made legible; its witness-status precedes its public display.",
+                "alternatives": [
+                  "The future event may introduce new evidence rather than reveal pre-existing evidence.",
+                  "شَهِيدٌ may refer only to present self-awareness."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject is presently and openly evidentiary.",
+              "after": "The subject is already a witness in latent status, even though a future overturning will make the evidence publicly legible."
+            },
+            "minimal_triggers": [
+              "بُعْثِرَ through root_000130/B001",
+              "قُبُورِ through root_001195/B002",
+              "شَهِيدٌ through root_000822/B008"
+            ],
+            "ablation": "Without burial/obscurity there is no latency; without overturning/exposure there is no temporal change from hidden witness to public evidence."
+          },
+          {
+            "model_id": "CTX-08-inner-archive-extracted",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:10"
+            ],
+            "trigger_roots": [
+              "ح ص ل",
+              "ص د ر"
+            ],
+            "mechanism": "The breast is treated as an origin from which actions issue, while taḥṣīl gathers dispersed contents into an appearing result and extracts a core from its envelope. The subject's witnesshood becomes archival: the inner source retains action-generating orientations until they are consolidated into evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B002",
+                "branch_image_ar": "البيان بعلم",
+                "literal_contribution": "What is known is made available as decisive evidence.",
+                "assigned_role": "Receives the extracted inner result as testimony rather than as inert content."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A sign makes an underlying state legible.",
+                "assigned_role": "Lets the consolidated result stand as an index of its inner source."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B001",
+                "branch_image_ar": "جمع الشيء حتى يظهر حاصله",
+                "literal_contribution": "Dispersed material is gathered until its result appears.",
+                "assigned_role": "Consolidates many interior traces into a legible evidentiary outcome."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "The core or precious content is extracted from its covering.",
+                "assigned_role": "Supplies the passage from enclosed inwardness to exposed evidentiary core."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "mapped_root_norm": "ص د ر",
+                "branch_id": "B004",
+                "branch_image_ar": "الأصل الذي تصدر عنه الأفعال",
+                "literal_contribution": "The origin from which actions issue.",
+                "assigned_role": "Makes the interior an action-producing source whose contents explain outward conduct."
+              }
+            ],
+            "structural_cues": [
+              "The passive حُصِّلَ acts upon مَا فِى ٱلصُّدُورِ, presenting inward content as material subjected to disclosure.",
+              "The sequence moves from grave-level concealment in 100:9 to source-level interiority in 100:10."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "An action-producing interior preserves enough structure for its extracted result to testify to prior orientations.",
+                "packet_supplies": "Gathering to an appearing result root_000330/B001, extracting a core root_000330/B002, the origin of actions root_000849/B004, and testimony/sign branches root_000822/B002 and root_000822/B008.",
+                "reader_infers": "Inner orientations generate conduct and remain recoverable; consolidation makes their cumulative evidentiary result explicit.",
+                "alternatives": [
+                  "The interior may be evaluated directly without functioning as an archive.",
+                  "حُصِّلَ may mean only summary or separation, not recovery of retained traces."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject witnesses through present observation or present conduct.",
+              "after": "The subject carries an inner archive: the source of actions can be gathered and extracted into testimony about the subject."
+            },
+            "minimal_triggers": [
+              "حُصِّلَ through root_000330/B001 and root_000330/B002",
+              "صُّدُورِ through root_000849/B004",
+              "شَهِيدٌ through root_000822/B002"
+            ],
+            "ablation": "Without the action-origin image, extracted contents lack a causal tie to conduct; without consolidation/extraction, the inward source remains hidden and does not become testimony."
+          },
+          {
+            "model_id": "CTX-09-two-tier-knowing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ر ب ب",
+              "خ ب ر"
+            ],
+            "mechanism": "The final ayah explicitly names the Lord as sovereign and attributes knowledge of the report and the matter's interior to Him. This differentiates two epistemic levels: the human is witness through self-presence, expression, or trace, while the Lord comprehends the inward reality of that witness. A divine subject for 100:7 remains grammatically imaginable in isolation but is contextually weakened rather than silently erased.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B002",
+                "branch_image_ar": "البيان بعلم",
+                "literal_contribution": "A witness makes known what is held in knowledge.",
+                "assigned_role": "Defines the human-scale evidence-bearing role that is nested under fuller knowledge."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبَّ",
+                "mapped_root_id": "root_000532",
+                "mapped_root_norm": "ر ب ب",
+                "branch_id": "B001",
+                "branch_image_ar": "ربوبية وملك وسيادة",
+                "literal_contribution": "Lordship, possession, and sovereignty.",
+                "assigned_role": "Explicitly identifies the final ayah's knowing subject and its relation to them."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "mapped_root_norm": "خ ب ر",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Knowledge of the report and of the matter's interior.",
+                "assigned_role": "Supplies a deeper knowing that encompasses both expressed evidence and concealed motive."
+              }
+            ],
+            "structural_cues": [
+              "100:11 explicitly names رَبَّهُم before خَبِيرٌۢ, whereas 100:7 leaves its subject pronominal.",
+              "The final بِهِمْ makes the people objects of the Lord's encompassing knowledge, supporting a distinction between their witness and His expertise."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The explicit subject-object allocation in 100:11 can clarify, though not formally prove, the earlier pronoun allocation.",
+                "packet_supplies": "Human-oriented context before the focus, an earlier pronominal witness, then explicit lordship root_000532/B001 and inward expertise root_000387/B001 over بِهِمْ.",
+                "reader_infers": "Human self-evidence and divine inward knowledge are complementary but non-identical epistemic layers.",
+                "alternatives": [
+                  "The pronoun in 100:7 could still be read with a different antecedent.",
+                  "شَهِيدٌ and خَبِيرٌۢ may overlap more fully rather than mark distinct epistemic levels."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Focus-only grammar leaves open whether the pronominal witness is the subject under discussion or an external knower.",
+              "after": "The context weights the human as self-witness and reserves explicitly named, inwardly comprehensive expertise for the Lord; the two readings coexist as nested rather than interchangeable."
+            },
+            "minimal_triggers": [
+              "رَبَّ through root_000532/B001",
+              "خَبِيرٌۢ through root_000387/B001",
+              "the explicit رَبَّهُم ... بِهِمْ subject-object structure of 100:11"
+            ],
+            "ablation": "Without explicit رَبَّهُم, خَبِيرٌۢ could be only another knowledge predicate; without the inward-knowledge image, the distinction from ordinary witnessing loses its depth."
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "OUT-01-counted-recurrence",
+            "confidence": "exploratory",
+            "why_surprising": "It activates the non-dominant ع د د and ع و د targets supplied for عَٰدِيَٰتِ rather than the dominant running target, turning one rushing image into count and recurrence.",
+            "why_still_valid": "The packet explicitly preserves split mappings, and countable recurrence changes the focus's root_000822/B008 sign-model into accumulated pattern-evidence while remaining anchored in شَهِيدٌ.",
+            "focus_anchor": "شَهِيدٌ as a witnessing sign through root_000822/B008.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A sign testifies to an underlying state or quality.",
+                "assigned_role": "Receives a repeated series, rather than a single token, as the evidentiary sign."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000989",
+                "mapped_root_norm": "ع د د",
+                "branch_id": "B001",
+                "branch_image_ar": "إحصاء المعدود",
+                "literal_contribution": "Enumerating what can be counted.",
+                "assigned_role": "Turns repeated acts into countable evidentiary units."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_001058",
+                "mapped_root_norm": "ع و د",
+                "branch_id": "B004",
+                "branch_image_ar": "عادة ودرَبة ومواظبة",
+                "literal_contribution": "Habit, training, and sustained recurrence.",
+                "assigned_role": "Makes recurrence a stable pattern from which disposition can be inferred."
+              }
+            ],
+            "changed_reading": {
+              "before": "One sign or statement bears witness to the matter.",
+              "after": "A countable, practiced recurrence becomes cumulative testimony: the pattern witnesses more strongly than any isolated act."
+            },
+            "rendering_caution": "Present as an activation from the packet's split mapping, not as a claim that عَٰدِيَٰتِ lexically means counting or habit in this ayah."
+          },
+          {
+            "outlier_id": "OUT-02-sterile-spark-confession",
+            "confidence": "exploratory",
+            "why_surprising": "It links the early concealed-and-struck fire to the remote ح ب ب image of useless sparks, then places that beside خَيْرِ, producing an ironic reversal from desired benefit to non-benefiting flare.",
+            "why_still_valid": "All material links are packet branches, and the result returns to شَهِيدٌ through root_000822/B008: the sterile flare is retained only as a sign that exposes the quality of the attachment.",
+            "focus_anchor": "شَهِيدٌ as an evidentiary sign through root_000822/B008.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A visible phenomenon can indicate a hidden quality.",
+                "assigned_role": "Makes the flare evidence of desire's actual yield."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "mapped_root_norm": "و ر ي",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "Concealed fire emerges from the fire-stick.",
+                "assigned_role": "Supplies latent fiery potential."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "mapped_root_norm": "ق د ح",
+                "branch_id": "B001",
+                "branch_image_ar": "إيراء النار بالقدح",
+                "literal_contribution": "Striking produces fire.",
+                "assigned_role": "Supplies repeated elicitation or expenditure of the fiery potential."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "mapped_root_norm": "ح ب ب",
+                "branch_id": "B011",
+                "branch_image_ar": "نار الحباحب شرر لا ينتفع به",
+                "literal_contribution": "Sparks that provide no benefit.",
+                "assigned_role": "Reverses impressive flare into evidence of fruitless yield."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "mapped_root_norm": "خ ي ر",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Inclination toward what is beneficial.",
+                "assigned_role": "Provides the claimed value against which the non-benefiting sparks form an ironic test."
+              }
+            ],
+            "changed_reading": {
+              "before": "Strong desire for perceived good testifies by its intensity.",
+              "after": "The desire's bright but non-benefiting output becomes its adverse witness: what flares as 'good' may expose its own sterility."
+            },
+            "rendering_caution": "Keep this as cross-domain irony, not a lexical gloss of حُبِّ and not a claim that the context explicitly evaluates the sparks as morally useless."
+          },
+          {
+            "outlier_id": "OUT-03-comb-and-extraction",
+            "confidence": "medium",
+            "why_surprising": "It activates the concrete ش ه د branch of honey remaining inside comb before pressing, a materially distant image for a witness predicate.",
+            "why_still_valid": "The image is directly within the focus root inventory, and 100:10 supplies extraction of a core from its covering. Together they create a precise containment-to-disclosure mechanism rather than an independent honey theme.",
+            "focus_anchor": "شَهِيدٌ through the contained-substance image root_000822/B007.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B007",
+                "branch_image_ar": "الشَّهْد في الشمع",
+                "literal_contribution": "Honey remains in its comb before it is pressed.",
+                "assigned_role": "Models testimony as valuable substance retained within its bearer."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "A core or precious content is extracted from its envelope.",
+                "assigned_role": "Supplies the pressing-like operation that releases enclosed testimony."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "mapped_root_norm": "ص د ر",
+                "branch_id": "B004",
+                "branch_image_ar": "الأصل الذي تصدر عنه الأفعال",
+                "literal_contribution": "An inner origin from which actions issue.",
+                "assigned_role": "Identifies the enclosing bearer as causally related to what its contents reveal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The witness openly states evidence already available at the surface.",
+              "after": "The subject is a comb-like bearer of concentrated testimony: inward content remains enclosed until an extraction makes it available."
+            },
+            "rendering_caution": "Render as a contained-evidence material analogy licensed by root_000822/B007, never as the lexical translation of شَهِيدٌ in 100:7."
+          },
+          {
+            "outlier_id": "OUT-04-emergence-with-attendant-traces",
+            "confidence": "exploratory",
+            "why_surprising": "It carries the remote focus image of discharge accompanying birth or maturity into the later uncovering of graves and extraction of enclosed content.",
+            "why_still_valid": "The focus branch itself concerns traces that accompany emergence and indicate a transition; the later packet cues supply forced emergence from concealment. The model remains about how شَهِيدٌ can function as concomitant evidence.",
+            "focus_anchor": "شَهِيدٌ through the emergence-trace image root_000822/B006.",
+            "activation_trace": [
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "mapped_root_norm": "ش ه د",
+                "branch_id": "B006",
+                "branch_image_ar": "الخارج عند الولادة والإدراك",
+                "literal_contribution": "Material traces emerge with birth or mark arrival at maturity.",
+                "assigned_role": "Models a witness as evidence accompanying and verifying a passage into a new state."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "mapped_root_norm": "ب ع ث ر",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Buried contents emerge when earth is overturned.",
+                "assigned_role": "Supplies a forced transition from enclosure to exposure."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "mapped_root_norm": "ح ص ل",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "An inner core is taken from its covering.",
+                "assigned_role": "Extends emergence from bodily exposure to disclosure of inner content."
+              }
+            ],
+            "changed_reading": {
+              "before": "Witnesshood is an observer's report about a transition.",
+              "after": "The transition emits or brings along its own verifying traces; emergence itself arrives with a witness."
+            },
+            "rendering_caution": "This is a deliberately contained material analogy. Do not equate resurrection or inward disclosure with birth, and do not promote root_000822/B006 over the ordinary witness branches."
+          }
+        ],
+        "discarded_or_unchanged": [
+          "The justice/choice image in وَسَطْ (root_001646/B001) did not alter شَهِيدٌ without importing an unsupported adjudicative scene, so the spatial middle image carried the retained model.",
+          "The blackening and ash images in ضَبْحًا (root_000901/B004 and root_000901/B005) repeated the fire-and-residue field but did not produce a changed reading distinct from CTX-02-elicited-latent-sign or CTX-03-forensic-wake.",
+          "Proper-name, animal-name, and unrelated botanical images produced no mechanism that returned to a word, root, form, or construction in 100:7.",
+          "Morning through root_000839/B001 sharpened visibility but did not independently alter witnesshood outside the larger 100:3-100:4 forensic sequence."
+        ],
+        "summary": {
+          "strongest_changes": [
+            "شَهِيدٌ moved from a conscious observer-speaker to self-generated evidence: panting, altered matter, residue, attachment, and conduct can all testify.",
+            "The immediate 100:6 relation revised the focus into self-indictment: a perceiving recipient's severance from nurture is itself evidence of ingratitude.",
+            "100:9-100:10 added temporal latency and extraction: witness-status can persist while buried or inward, then become public through uncovering and consolidation.",
+            "100:11 differentiated human-scale self-witness from the Lord's knowledge of both report and inward reality, preserving nested epistemic levels."
+          ],
+          "what_was_special": "The focus root's sign, tongue, comb, and emergence branches let one short predicate support several coexisting mechanisms: direct presence, articulate testimony, involuntary expression, forensic trace, inner archive, and material containment. The packet's non-dominant mappings added a live cumulative-pattern reading rather than noise, while the strongest contextual shift made the subject not merely a witness who speaks but a bearer whose body, habits, desire, surroundings, and interior can speak.",
+          "remaining_uncertainties": [
+            "The exact antecedent of the pronoun and scope of ذَٰلِكَ are not fixed by the focus alone; context strongly weights the human and the 100:6 condition but does not make every alternative formally impossible.",
+            "It remains open whether self-witness is conscious acknowledgement, involuntary embodied disclosure, an external forensic sign, or several of these at once.",
+            "The present predicate may describe evidence already legible or evidence only later exposed by the events of 100:9-100:10.",
+            "The counted-recurrence, sterile-spark, comb, and emergence readings are packet-anchored analogical activations, not proposed lexical replacements for شَهِيدٌ."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Self-witness through visible signs.** Evidence: ش ه د B001 presence with witnessing, B008 visible sign, B005 witnessing tongue; ء ن س B005 human image in the pupil. Structural cue: \"he\" follows the diagnosed human, and the packet moves from visible raid signs to interior disclosure. Role: shahīd names the human's own observable expression as proof. Abductive move: the human's conduct, speech, and face/pupil carry evidence of the severance. Reading change: the ayah reads as self-incrimination: the human is present as evidence against himself.\n\n2. **Witnessing as later legal testimony.** Evidence: ش ه د B002 testifying from knowledge; ج م ع B004 gathering-day/summons; ع ل م B001 knowing; ح ص ل B001 account-result. Structural cue: the moral claim is followed by a question about knowing and the extraction of what is in breasts. Role: testimony bridges present behavior and final disclosure. Abductive move: later uncovering supplies the court in which present testimony becomes decisive. Reading change: the verse becomes procedural: what is now witnessed will later be formally resolved.\n\n3. **Birth-puberty trace as embodied record.** Evidence: ش ه د B006 discharge at birth/puberty; ر ح م B003 womb and B004 afterbirth ailment; ج م ع B007 retained pregnancy; ق ب ر B001 grave. Structural cue: packet spans womb-like concealment, human life, grave, and exposure. Role: shahīd includes bodily traces that mark thresholds of emergence. Abductive move: the body itself records transitions from womb to maturity to grave, so testimony is materially stored. Reading change: 100:7 can be read as more than verbal witness: embodiment testifies.",
@@ -4493,14 +5738,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 79,
+        "ayah_count": 11,
+        "row_count": 72,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4760,10 +6011,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s100/readers/reader_hft_a/100_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v3",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s100"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s100",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 90103,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

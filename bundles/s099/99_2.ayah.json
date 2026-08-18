@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.705887+00:00",
+  "generated_at": "2026-08-18T13:34:24.144074+00:00",
   "surah": 99,
   "ayah": 2,
   "ayahRef": "99:2",
@@ -1481,7 +1481,8 @@
       "morpheme_ids": [
         "m-w-s099-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:2:1"
+      "aligned_qac_word_ref_upstream": "99:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1495,7 +1496,8 @@
       "morpheme_ids": [
         "m-w-s099-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:2:2"
+      "aligned_qac_word_ref_upstream": "99:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1511,7 +1513,8 @@
         "m-w-s099-a002-w002-01",
         "m-w-s099-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:2:3"
+      "aligned_qac_word_ref_upstream": "99:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1527,7 +1530,8 @@
         "m-w-s099-a002-w003-01",
         "m-w-s099-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:2:4"
+      "aligned_qac_word_ref_upstream": "99:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3080,7 +3084,1037 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:2",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_physical_extraction",
+            "confidence": "strong",
+            "focus_anchor": "The causative verb أخرجت, the subject الأرض, and the possessed plural أثقالها form a source-transfer-load construction.",
+            "mechanism": "The lower ground acts as a containing body and agent that transfers physically weighty contents from concealment to the outside.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Causing a hidden thing to emerge supplies the outward transfer and makes the earth the extracting agent."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground opposite the sky supplies the spatial container and point of origin."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Heaviness against lightness makes the emitted contents resistant mass rather than neutral contents."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth simply brings out unspecified burdens.",
+              "after": "The lower ground behaves as a loaded container that forces its weighty interior cargo out of concealment."
+            }
+          },
+          {
+            "model_id": "b_assessed_yield",
+            "confidence": "medium",
+            "focus_anchor": "أخرجت can denote a due yield, الأرض can be productive ground, and أثقالها can invoke measured weight and value.",
+            "mechanism": "The earth renders an assessable yield: what it has held becomes a due output whose weight and worth can be determined.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B003",
+                "role": "A known due output of wealth or yield recasts emergence as rendering what is owed."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile ground supplies the productive source from which a yield can be rendered."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weight and weighing make the output assessable rather than merely massive."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Weight as preciousness permits the burdens to be valuables or matters of consequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The burdens are heavy objects removed from the ground.",
+              "after": "The earth renders its stored yield for assessment, exposing both the measure and the worth of what it contained."
+            }
+          },
+          {
+            "model_id": "b_gravid_delivery",
+            "confidence": "exploratory",
+            "focus_anchor": "The feminine earth possesses plural أثقال, while the focus inventories join fertile ground, hidden extraction, and pregnancy made heavy.",
+            "mechanism": "The earth is modeled as a gravid body: its burdens are an internally developed load, and bringing them out is delivery rather than disposal.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Extraction from concealment supplies the transition from an enclosed interior to exposed arrival."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile established ground supplies a generative body rather than an inert container."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B007",
+                "role": "Pregnancy becoming heavy supplies the carried internal load and the delivery analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth ejects cargo that happened to be inside it.",
+              "after": "The earth delivers a load it has carried and developed within itself."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_convulsive_extraction",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "ء ر ض"
+            ],
+            "mechanism": "The preceding doubled disturbance reverses the earth's ground-clinging stability, so extraction reads as convulsion-driven release of resistant mass.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Caused emergence from concealment supplies the release that the disturbance may trigger."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Sticking to the ground and lingering supplies the normal holding state that is overturned."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Physical heaviness makes the released material something that requires force to dislodge."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "Disturbance and oscillation supply the repeated mechanical destabilization that precedes release."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B008",
+                "role": "Trembling gives the earth a bodily shudder that converts stable containment into expulsion."
+              }
+            ],
+            "structural_cues": [
+              "99:1 places two occurrences of زلزل around the same feminine earth immediately before its causative act in 99:2."
+            ],
+            "reader_inference": "The packet supplies repeated oscillation, trembling earth, extraction, and weight; I infer that destabilization causes release. A live alternative is that shaking and output are coordinated effects rather than a mechanical cause and consequence.",
+            "changed_reading": {
+              "before": "The earth intentionally outputs contents from a stable container.",
+              "after": "A violently destabilized ground loses its holding relation and convulsively dislodges its resistant interior load."
+            }
+          },
+          {
+            "model_id": "d_perceptible_anomaly",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ء ن س"
+            ],
+            "mechanism": "The output becomes a public sign: concealed material is made sensible, breaks the human observer's ordinary familiarity, and elicits overt questioning.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Making the hidden emerge supplies the newly perceptible event that confronts the observer."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Producing speech aloud turns perception of the output into an explicit public reaction."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "A thing's own indication lets the material emergence function as a sign before anyone explains it."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Recognition through sight, sensation, or hearing supplies the observer-side detection of the anomaly."
+              }
+            ],
+            "structural_cues": [
+              "99:3 immediately follows the earth's action with a human question whose feminine pronoun لها points back to the earth."
+            ],
+            "reader_inference": "The packet supplies exposed material, sensory recognition, indication, and spoken reaction; I infer that the output itself provokes the question. The question could instead respond chiefly to the preceding shaking.",
+            "changed_reading": {
+              "before": "The extraction is a transfer that could occur without an observer.",
+              "after": "The extraction is staged as a conspicuous sign whose abnormal visibility disrupts human familiarity and forces a voiced question."
+            }
+          },
+          {
+            "model_id": "d_material_testimony",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح د ث",
+              "خ ب ر"
+            ],
+            "mechanism": "Material exposure and verbal report become parallel disclosure channels: the earth first externalizes weighty hidden matter and then externalizes knowledge of its interior history.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Extraction from hiding supplies a material act of disclosure."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Precious or consequential weight makes the disclosed contents evidentially important."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing a thing forth and displaying it supplies the verbal counterpart to physical extraction."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of a report and of an affair's interior supplies the informational content released by the earth."
+              }
+            ],
+            "structural_cues": [
+              "The same feminine earth owns both أثقالها and أخبارها, and its material output precedes its report."
+            ],
+            "reader_inference": "The packet supplies two acts of making an interior exterior, one material and one informational; I infer that the burdens can function as embodied testimony for the news. They may instead be separate outputs with no evidentiary identity.",
+            "changed_reading": {
+              "before": "The earth removes consequential contents.",
+              "after": "The earth produces material exhibits from its interior, making its burdens a bodily mode of testimony alongside its spoken report."
+            }
+          },
+          {
+            "model_id": "d_hidden_commission",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "The earth's causative output is no longer merely spontaneous or mechanical; lordship and hidden impartation make it an authorized execution of an assigned disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Causing hidden contents to emerge supplies the concrete act carried out by the earth."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty supply authority over the earth's act."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, formation, and completion frame the output as completion of an ordered process."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "Imparting knowledge secretly supplies the concealed directive under which public disclosure occurs."
+              }
+            ],
+            "structural_cues": [
+              "99:5 explains the earth's immediately preceding report with لأن-like causation and retains the feminine recipient لها."
+            ],
+            "reader_inference": "The packet supplies sovereign formation and hidden impartation to the earth; I extend that authorization backward from its report to its extraction. A narrower alternative is that the impartation commissions only the telling in 99:4.",
+            "changed_reading": {
+              "before": "The earth's output is an uncontrolled consequence of disturbance.",
+              "after": "The earth executes a concealed commission, turning interior contents outward at an authorized stage of disclosure."
+            }
+          },
+          {
+            "model_id": "d_nurtured_delivery",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The non-dominant split mapping's nourishment-and-growth image activates the gravid baseline: the earth's load may be something matured within it before delivery.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Extraction from concealment supplies delivery from an interior."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile ground supplies the generative body in which a load can develop."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B007",
+                "role": "Pregnancy made heavy supplies the internal carried load."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split-mapped image of nourishment and growth supplies maturation before the load emerges."
+              }
+            ],
+            "structural_cues": [
+              "The feminine earth remains the recipient in 99:5 after being the possessor and agent in 99:2."
+            ],
+            "reader_inference": "The packet supplies fertility, pregnancy-weight, extraction, and a form-distant growth branch; I connect them as gestation followed by delivery. The dominant live alternative is governed disclosure without biological maturation.",
+            "changed_reading": {
+              "before": "The earth delivers a load it passively carried.",
+              "after": "The earth releases a load that the imagery permits it to have nourished and brought to maturity within itself."
+            }
+          },
+          {
+            "model_id": "d_differentiated_review",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص د ر",
+              "ش ت ت",
+              "ر ء ي",
+              "ع م ل"
+            ],
+            "mechanism": "The focus output initiates a two-sided logistics of exteriorization: the earth releases an aggregate load, people issue in separated units, and intentional works are made visible for differentiated review.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passing from inside to outside supplies the first outward flow."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Known weight and weighing make the released aggregate available for differentiated assessment."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departing from a watering place supplies a second outward flow, now of people."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion and scattering convert an aggregate population into separated review units."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing something to be seen supplies the inspection endpoint of the outward movement."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies the individualized material that is exposed for review."
+              }
+            ],
+            "structural_cues": [
+              "99:2 and 99:6 use different outward-motion verbs, while 99:6 adds scattering and the purpose clause 'to be shown their works.'"
+            ],
+            "reader_inference": "The packet supplies two outward flows, disaggregation, display, and intentional works; I infer a transfer system in which the earth's output helps stage individualized review. The earth's burdens may instead remain unrelated to the works shown.",
+            "changed_reading": {
+              "before": "The earth releases one undifferentiated mass.",
+              "after": "The release opens a sorting interface: aggregate hidden weight is externalized as people separate and their intentional histories become inspectable."
+            }
+          },
+          {
+            "model_id": "d_granular_inventory",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ث ق ل",
+              "ذ ر ر",
+              "خ ي ر",
+              "ش ر ر",
+              "ر ء ي"
+            ],
+            "mechanism": "The repeated weight root, minute dispersed unit, intentional work, opposed valuations, and forced visibility transform the earth's burdens into a complete fine-grained inventory rather than only large buried masses.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Extracting what was hidden supplies the exposure of the inventory."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weight and weighing make the plural burdens measurable entries."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies what the measured entries record."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "The recurrence of known measure narrows vague heaviness into exact quantification."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "Smallness and dispersal supply the inventory's minimum scale and granular distribution."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies one valuation class."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Repeated intentional action confirms that the units belong to an action inventory."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Repeated weighing applies the same exact measure across the opposite valuation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and harm supply the opposed valuation class without exempting it from measure."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing to be seen supplies inspectable presentation of even the smallest entry."
+              }
+            ],
+            "structural_cues": [
+              "99:7 and 99:8 mirror the same work-measure-minute-unit-visibility syntax while changing only the good and evil valuation."
+            ],
+            "reader_inference": "The packet supplies exact repeated weighing, minute scale, works, opposed values, and visibility; I infer that the earth's plural burdens can be the stored inventory or its material carrier. A live alternative keeps the focus burdens physical and the later deed measures separate.",
+            "changed_reading": {
+              "before": "The earth expels conspicuously heavy objects.",
+              "after": "The earth externalizes an exhaustive ledger whose burden consists of measurable entries down to dispersed minute units, across both positive and harmful action."
+            }
+          },
+          {
+            "model_id": "d_reciprocal_settlement",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع م ل",
+              "ش ر ر"
+            ],
+            "mechanism": "Focus-side due output, division, and weighing combine with work compensation and the non-dominant exchange/equivalence mapping to make the earth's output resemble exact settlement of accounts.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B003",
+                "role": "A due output of wealth or yield supplies the notion of payable proceeds."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B012",
+                "role": "Mutual settlement and division of shares supply the distribution mechanism."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Known weight and weighing supply exact assessment before settlement."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "The wage or provision of work supplies a due correlated with action."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The split-mapped exchange between sale and purchase supplies reciprocal accounting."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "The split-mapped image of equivalence and correspondence supplies exact matching between work and return."
+              }
+            ],
+            "structural_cues": [
+              "The paired 99:7-8 clauses attach an exactly measured outcome to عمل and present symmetric positive and negative sides."
+            ],
+            "reader_inference": "The packet supplies due yield, share settlement, weighing, work compensation, exchange, and equivalence; I infer that the earth acts as a settlement medium. Because the exchange branches come through a non-dominant split mapping, simple exposure rather than payout remains the stronger alternative.",
+            "changed_reading": {
+              "before": "The earth presents a measured inventory.",
+              "after": "The earth renders and distributes exact equivalents, as though settling what each intentional act has accrued."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_burrow_emergence",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the animal-from-a-burrow image is a remote branch under خير, not the contextual sense of good. It remains anchored in causative extraction from the earth and supplies a precise cavity-to-surface mechanism; downstream prose should present it only as a material analogy, not as a lexical identification.",
+            "focus_anchor": "أخرجت makes the earth the causer of emergence from its own interior.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Causing a concealed thing to emerge supplies extraction from an enclosed place."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground supplies the cavity-bearing terrain from which emergence occurs."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B006",
+                "role": "Drawing an animal from its burrow supplies an agentive model of coaxed or compelled emergence from earth."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth ejects inert cargo.",
+              "after": "The terrain acts like a network of opened burrows from which concealed, potentially agentive occupants are drawn into exposure."
+            }
+          },
+          {
+            "outlier_id": "o_weight_bearing_agents",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it agentifies أثقالها through a form-distant non-dominant mapping of the seeing root. It remains anchored by the focus branch of weight as high worth, the plural burden construction, and the later appearance and outward issue of people; downstream prose should say that the burdens may include weight-bearing or socially weighty agents, not assert their identity.",
+            "focus_anchor": "The plural possessed أثقالها can carry the focus inventory's sense of precious or high-ranking weight, not only inert mass.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passing from inside to outside supplies emergence of entities rather than only substances."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Weight as preciousness and high rank permits the burdens to be consequential beings or bearers."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The appearance of humanity supplies an agentive population in the later outward scene."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B015",
+                "role": "The split-mapped image of masters who carry weight supplies the otherwise unexpected burden-bearing agent."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth's burdens are inanimate heavy deposits.",
+              "after": "The earth may release consequential bearers of weight, so its load is partly social or agentive rather than merely mineral."
+            }
+          },
+          {
+            "outlier_id": "o_bodily_eruption",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it composes two pathological branch images into a body analogy for the earth. It remains tightly anchored in the focus roots for an erupting sore, a festering earth-wound, and heavy contents, while the later display branch only sharpens exposure; downstream prose should mark it as somatic imagery rather than claim that the ayah lexically names disease.",
+            "focus_anchor": "The same focus construction can be mapped as a bodily surface expelling accumulated internal pressure.",
+            "activation_trace": [
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B004",
+                "role": "An abscess or sore breaking out on a body supplies the eruptive motion."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B011",
+                "role": "A sore festering with pus supplies the earth-as-afflicted-body substrate."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Heaviness supplies accumulated internal matter and pressure."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Making a thing manifest and prominent supplies the final exposure of what had accumulated."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth neutrally unloads its contents.",
+              "after": "The earth behaves as an afflicted body whose sealed accumulation breaks outward and becomes impossible to conceal."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding convulsion turns stable containment into forced release.",
+            "The earth's burdens become material testimony under a concealed commission.",
+            "Repeated minute weighing of visible works turns vague heaviness into a complete granular inventory."
+          ],
+          "what_was_special": "The focus inventories already supported extraction, assessed yield, and delivery; the ordered context made these coexist as mechanical release, authorized disclosure, differentiated review, and exact settlement without collapsing them into one final reading.",
+          "remaining_uncertainties": [
+            "The packet does not settle whether the shaking mechanically causes the output or merely accompanies it.",
+            "It remains uncertain whether the burdens are identical with works and news, are their material carriers, or are a separate class of contents.",
+            "Readings activated by non-dominant split mappings and remote bodily or burrow branches should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Earth as container made to disgorge hidden liabilities.** Lexical evidence: `خ ر ج B002` causing something to emerge from hiddenness; `ء ر ض B001` lower ground; `ث ق ل B001` heaviness; activated by `ح د ث B006` disclosure in 99:4, `خ ب ر B001` inner/tested knowledge in 99:4, and `ر ء ي B012` showing/making seen in 99:6-8. Structural cue: the earth both undergoes shaking in 99:1 and produces contents in 99:2 before becoming a reporter in 99:4. Assigned role: “burdens” are the hidden weight that must move from containment to evidence. Abductive move: I infer that the hidden contents are not merely physical objects but liabilities made evidentiary because the later sequence explicitly makes deeds seen. Reading change: the ayah reads as extraction of weight from concealment into a forensic field.\n\n2. **Pregnancy/birth reading of earth’s burdens.** Lexical evidence: `ث ق ل B007` pregnancy becoming heavy; `خ ر ج B001/B002` passing out/causing emergence; activated by the feminine earth pronouns and the basmalah’s `ر ح م B003/B004` womb and womb-pain branches. Structural cue: 99:1 shaking, 99:2 خروج, and repeated `ها` produce a sequence like labor: convulsion, bearing weight, emergence. Assigned role: earth is a gravid bearer whose `أثقالها` are what has reached the point of being delivered. Abductive move: I supply the birth-arrow from the branch inventory’s pregnancy/womb images; the packet does not say “birth,” but it couples feminine earth, heaviness, exit, and later disclosed contents. Reading change: the ayah becomes a delivery scene, making the violent upheaval generative as well as destructive.\n\n3. **Due output/yield as settled account.** Lexical evidence: `خ ر ج B003` due output of wealth/rent/tax/yield; `ث ق ل B004` standard weight and weighing; activated by `ع م ل B004/B005` pay/transaction in 99:6-8 and `ص د ر B005` settling liability on money in 99:6. Structural cue: later “works” are shown to people in measured units as small as a `مثقال ذرة`. Assigned role: the earth’s outputs are like dues or yields paid out at a known measure. Abductive move: I infer an accounting mechanism: what was deposited in the earth/world is returned as quantifiable weight. Reading change: the ayah reads not only as unloading but as the world paying out its stored account.\n\n4. **Abscess/wound eruption reading.** Lexical evidence: `خ ر ج B004` erupting abscess; `ء ر ض B011` sore festering with pus; activated by `ش ر ر B004` shredding/shaking loose in 99:8 and `ز ل ز ل B001` disturbance in 99:1. Structural cue: shaking then output resembles a corrupted body breaking open. Assigned role: earth functions as a body whose hidden corruption can no longer remain under the surface. Abductive move: I supply the pathological arrow from pressure/disturbance to eruption; this is supported by the packet’s body/earth lexical bridge. Reading change: `أثقالها` can be felt as infected moral-material deposits, not only neutral cargo.",
@@ -13167,14 +14201,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13463,10 +14503,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 106059,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.751597+00:00",
+  "generated_at": "2026-08-18T13:34:24.305108+00:00",
   "surah": 99,
   "ayah": 4,
   "ayahRef": "99:4",
@@ -1048,7 +1048,8 @@
       "morpheme_ids": [
         "m-w-s099-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:4:1"
+      "aligned_qac_word_ref_upstream": "99:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1062,7 +1063,8 @@
       "morpheme_ids": [
         "m-w-s099-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:4:2"
+      "aligned_qac_word_ref_upstream": "99:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1078,7 +1080,8 @@
         "m-w-s099-a004-w003-01",
         "m-w-s099-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:4:3"
+      "aligned_qac_word_ref_upstream": "99:4:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1997,7 +2000,781 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:4",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_firsthand_report",
+            "confidence": "strong",
+            "focus_anchor": "The focus couples the act of recounting at word 2 with plural reports possessed by the feminine speaker at word 3.",
+            "mechanism": "The speaker turns her own tested inward knowledge into report: speech is the public channel, while direct acquaintance with what lies in her domain gives it evidentiary force.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech arising as report or conversation supplies the literal recounting and serves as the mechanism's public channel."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Report joined to tested knowledge of an affair's interior makes the possessed content first-hand rather than hearsay."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified feminine subject simply speaks.",
+              "after": "She recounts reports that belong to her and carry her own inward, experiential knowledge."
+            }
+          },
+          {
+            "model_id": "baseline_inside_out_disclosure",
+            "confidence": "strong",
+            "focus_anchor": "The reporting verb and the possessive 'her reports' jointly anchor an inside-to-outside movement.",
+            "mechanism": "Disclosure brings what was unavailable into view, while the reports name knowledge of an interior; the utterance therefore exposes contents from within the speaker's own domain.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure and bringing out supply the outward motion and make speaking an act of exposure."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Tested inward knowledge supplies the concealed content that the disclosure makes available."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line is only an announcement of information.",
+              "after": "The line stages exposure: concealed contents of the speaker's domain are brought outward as evidence."
+            }
+          },
+          {
+            "model_id": "baseline_report_as_reoccurrence",
+            "confidence": "medium",
+            "focus_anchor": "The eventive range of the word-2 root remains active inside its explicit speech construction.",
+            "mechanism": "Recounting does more than refer backward: speech lets an absent occurrence arise anew as a report, making narration itself a fresh event.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B001",
+                "role": "Coming into being after nonbeing supplies the eventive renewal by which an absent occurrence becomes present again."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Arising speech or report specifies that the renewed presence occurs through narration rather than physical repetition."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Report grounded in inward knowledge gives the re-presented occurrence determinate evidentiary content."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker refers retrospectively to completed events.",
+              "after": "Her reporting makes absent events newly present as report, so narration is itself a fresh occurrence."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_embodied_earth_witness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "ء ر ض",
+              "خ ر ج",
+              "ث ق ل"
+            ],
+            "mechanism": "The context identifies the feminine speaker as the earth and makes disclosure physical: agitation destabilizes the ground, which carries hidden loads outward before reporting. Altered surface and expelled contents become evidentiary acts, with speech completing an embodied chain of testimony.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure or bringing out anchors the focus report as the final outward phase of the earth's testimony."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of an affair's interior makes the earth competent to testify about what its own interior held."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "Agitation and shaking supply the literal destabilization that initiates the inside-to-outside sequence."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground opposed to the sky identifies the speaker and locates the testimony in a material below."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Taking something out of concealment supplies the earth's physical disclosure of previously hidden contents."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B007",
+                "role": "A burdening load supplies the substantial contents carried and then expelled by the witness."
+              }
+            ],
+            "structural_cues": [
+              "The recurring feminine possessive and indirect-object suffix links the shaking, burdens, reports, and recipient across 99:1-5.",
+              "The explicit earth in 99:1-2 and the extraction in 99:2 immediately prepare the feminine report in 99:4."
+            ],
+            "reader_inference": "The packet supplies shaken earth, removal of hidden burdens, and focus disclosure; I infer a causal chain from agitation to extrusion to testimony. A live alternative is that the physical events merely precede a wholly verbal report.",
+            "changed_reading": {
+              "before": "A feminine speaker discloses inward knowledge verbally.",
+              "after": "The earth testifies with its body as well as speech: shaking and extrusion expose its interior, and the utterance names that material evidence."
+            }
+          },
+          {
+            "model_id": "delta_answer_to_surface_conjecture",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ء ن س"
+            ],
+            "mechanism": "The human's perceptual and conjectural utterance is followed by the earth's inwardly grounded report. Surface bewilderment therefore yields to substrate knowledge, creating an unequal exchange between observer and witness.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech arising as report supplies the earth's answering mode."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Tested inward knowledge gives the answer a depth unavailable to an observer limited to appearances."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "A saying that runs as supposition sharpens the human utterance as uncertain conjecture rather than informed testimony."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by sight, sensation, or hearing supplies the human's surface-bound access to the event."
+              }
+            ],
+            "structural_cues": [
+              "The human question in 99:3 immediately precedes the earth's report in 99:4.",
+              "The feminine pronoun in the question points to the same referent whose reports are possessed in the focus."
+            ],
+            "reader_inference": "The packet supplies human speech framed by perception, then the earth's report grounded in inward knowledge; I infer a question-answer correction from adjacency. The live alternative is rhetorical juxtaposition without a direct reply relation.",
+            "changed_reading": {
+              "before": "The earth's report is an isolated monologue.",
+              "after": "Its report answers and corrects human surface conjecture with the witness's first-hand knowledge of its own interior."
+            }
+          },
+          {
+            "model_id": "delta_commissioned_testimony",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "Sovereign address and hidden impartation are converted into public report. The earth is not merely a spontaneous witness; its disclosure is commissioned and activated by communication from its Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Publicly arising speech or report is the outward form taken by the prior hidden address."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Inwardly grounded report supplies the authoritative content expressed under commission."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty supply the authority under which the witness speaks."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The hidden imparting of knowledge supplies the private communication that the earth converts into public testimony."
+              }
+            ],
+            "structural_cues": [
+              "The causal opening of 99:5 grammatically grounds the reporting of 99:4.",
+              "The feminine recipient in 99:5 corefers with the feminine speaker in the focus."
+            ],
+            "reader_inference": "The packet supplies sovereign lordship, hidden impartation, and an explicit causal link; I infer that the communication authorizes and activates the report. It may supply content, but the live alternative is a command or permission rather than informational dictation.",
+            "changed_reading": {
+              "before": "The earth reports because it independently possesses a memory.",
+              "after": "The earth gives commissioned testimony: concealed address under sovereign authority becomes public, evidentiary speech."
+            }
+          },
+          {
+            "model_id": "delta_report_becomes_visible_deed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ع م ل"
+            ],
+            "mechanism": "The report changes modality from something recounted to something shown. Its content is linked to intentional deeds, so testimony becomes inspectable evidence rather than an auditory narrative alone.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Arising speech or report supplies the initial communicative modality that the later display transforms."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Tested knowledge of inner reality supplies evidentiary content capable of being made inspectable."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing to see and making manifest converts reported knowledge into a public display."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action identifies deeds as the concrete content exposed by the report-display."
+              }
+            ],
+            "structural_cues": [
+              "The purpose clause in 99:6 follows reporting with the showing of people's deeds.",
+              "The seeing verb recurs in both 99:7 and 99:8, extending display across both evaluative outcomes."
+            ],
+            "reader_inference": "The packet supplies report, showing, and intentional deeds; I infer that the reports feed or constitute the display of deeds. The live alternative is that reporting and showing are successive but independent evidentiary stages.",
+            "changed_reading": {
+              "before": "The earth's testimony is heard as narrated information.",
+              "after": "The testimony becomes demonstrative: the deeds known and reported by the earth are made perceptible to their agents."
+            }
+          },
+          {
+            "model_id": "delta_aggregate_to_granular_ledger",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "ش ت ت",
+              "ع م ل",
+              "ذ ر ر",
+              "خ ي ر",
+              "ش ر ر"
+            ],
+            "mechanism": "The sequence converts aggregate hidden burdens into dispersed, deed-specific, minutely weighed items and preserves both beneficial and harmful valences. The plural reports function as an exhaustive ledger that decomposes stored history into accountable units.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure and bringing out anchor the focus as the conversion point where stored material becomes an exposed account."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Plural reports grounded in inner knowledge supply the ledger's comprehensive informational contents."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B007",
+                "role": "A carried burden supplies the aggregate store from which the later account is decomposed."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion and separation supply individualized distribution rather than one undifferentiated public mass."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional deeds supply the ledger's accountable item type."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Weight and measure convert the earlier burden into calibrated units."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "Minute, dispersed particles set the account's lower scale and block loss through coarse aggregation."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies one preserved evaluative class."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and harm supply the opposed class, making the account bidirectional rather than selectively favorable."
+              }
+            ],
+            "structural_cues": [
+              "The recurrence from the earth's burdens in 99:2 to a particle's weight in the parallel clauses of 99:7-8 creates a large-load-to-small-measure arc around the focus.",
+              "Plural reports precede separated people and two nearly mirrored clauses that differ chiefly in good versus evil."
+            ],
+            "reader_inference": "The packet supplies aggregate burden, dispersion, deeds, minute measure, and matched good/evil outcomes; I infer that the intervening reports perform the conversion into an exhaustive ledger. The live alternative is that these are separate stages without an itemization function assigned to 99:4.",
+            "changed_reading": {
+              "before": "The earth gives a global narrative about what happened.",
+              "after": "The earth exposes an exhaustive account that resolves stored history into individualized, particle-scale deed entries across both good and evil."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_ground_yield_report",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the land and sharecropping senses of the focus report-root beneath the ordinary plural 'reports.' It remains anchored in the focus possession and is reinforced by earth, extraction, and work cues. Render it only as a material analogy in which testimony resembles yielded and apportioned produce, not as a replacement lexical gloss for the focus noun.",
+            "focus_anchor": "The branch inventory for the focus noun itself includes soft ground and cultivation for an apportioned yield.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B002",
+                "role": "Soft low ground that gathers water supplies a material memory-medium beneath the ordinary report sense."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B003",
+                "role": "Working soft land for a known share of its produce supplies the analogy of testimony as an apportioned yield."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft productive earth identifies the speaking substrate as ground capable of retaining and yielding."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage to the outside supplies the yield-like emergence from the ground's interior."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "A worker's wage or return links the ground's yielded report to recompense for the deed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth verbally lists facts.",
+              "after": "As a contained material echo, the earth yields each deed's return as worked ground yields an apportioned crop: its report is produce from stored history."
+            }
+          },
+          {
+            "outlier_id": "outlier_settlement_ledger",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines the branch-distant portion sense of the focus report-root with the non-dominant exchange mapping under the evil-root. It remains anchored by the focus disclosure and exact weighing and recompense sequence. Render it as a forensic-economic analogy only, never as a claim that the focus noun means meat shares or that the evil term means sale.",
+            "focus_anchor": "The focus's disclosure and possessed plural reports can carry an apportioned-account image supplied by a branch of the report-root.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure supplies the public presentation of an account for settlement."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B006",
+                "role": "A shared animal or meat portion supplies the branch-distant image of dividing the possessed reports into assigned shares."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Weight and measure supply exact quantification for the settlement."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "The wage or return of work supplies the account's recompense relation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange between buying and selling supplies the non-dominant transactional frame for settling the account."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Equivalence and correspondence supply the reader's image of a return matched to each weighed deed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The reports narrate evidence without allocating an outcome.",
+              "after": "As a contained economic analogy, the earth's disclosure functions like account settlement: deeds are weighed, matched with return, and apportioned rather than merely narrated."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Context identifies the speaker as the earth and recasts reporting as embodied extraction of hidden evidence.",
+            "The causal hidden address of 99:5 turns an apparently autonomous witness into commissioned testimony.",
+            "Later showing, separation, weighing, particle-scale measure, and good/evil symmetry turn the reports into a visible granular audit."
+          ],
+          "what_was_special": "The focus branch pair joined renewed speech and disclosure to tested inward knowledge; context then activated the earth as substrate, answerer, commissioned witness, and itemizing interface. Land-yield and portion-exchange branches preserve two contained material analogies.",
+          "remaining_uncertainties": [
+            "The hidden communication in 99:5 may supply content, command, or permission.",
+            "The shown deeds in 99:6-8 may be constituted by the earth's reports or may follow them as an independent evidentiary stage.",
+            "The land-yield and settlement models depend on form-distant branch echoes and should remain analogical."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Earth’s report as newly arising speech.** Lexical evidence: `ح د ث B003` speech that arises as report/conversation; `خ ب ر B001` report and tested inner knowledge. Structural cue: the ayah answers the human’s `ما لها` by giving earth a reporting verb and an object of reports. Assigned role: `تحدث` is the act of converting inner knowledge into fresh report; `أخبارها` is the tested content. Abductive move: I infer that the earth reports from experience of what occurred upon/in it because `خ ب ر` includes inward tested knowledge, not mere transmitted rumor. Reading change: earth becomes a witness with experiential knowledge, not a passive stage.\n\n2. **Disclosure after emergence.** Lexical evidence: `ح د ث B006` disclosure/bringing out; `خ ر ج B002` causing hidden matter to come out in 99:2. Structural cue: physical خروج precedes verbal تحديث. Assigned role: the ayah turns extracted matter into legible statement. Abductive move: I supply the two-step evidentiary process: first expose the contents, then disclose their meaning. Reading change: the ayah is not just “the earth tells news”; it is the interpretive phase after material evidence has been produced.\n\n3. **The calamity becomes narrated event.** Lexical evidence: `ح د ث B005` event/calamity of time; `ز ل ز ل B002` time’s shocks; `ق و ل B007` public circulating talk. Structural cue: `يومئذ` ties earth’s reporting to the decisive day opened by `إذا`. Assigned role: the quake is both event and the origin of reports about events. Abductive move: I infer that the earth’s reports include the history of events accumulated in time, because the packet links day, shocks, deeds, and seeing. Reading change: `أخبارها` expands from the earth’s present condition to the record of what time deposited in it.\n\n4. **Soft-earth knowledge reading.** Lexical evidence: `خ ب ر B002` soft low ground and water-gathering place; `خ ب ر B003` working soft land through sharecropping; activated by `ء ر ض B002` fertile soft ground and `خ ر ج B003` yield from land. Structural cue: earth in 99:2 outputs burdens; earth in 99:4 reports. Assigned role: the earth is not only hard witness but worked ground whose inward softness retains traces and yields reports. Abductive move: I infer that cultivation/yield imagery can underwrite moral accounting: worked land gives back what was placed into it. Reading change: `أخبارها` reads as harvest-like output of a worked earth, not merely oral narration.",
@@ -8034,14 +8811,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8299,10 +9082,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 89838,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

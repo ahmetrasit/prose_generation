@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.727446+00:00",
+  "generated_at": "2026-08-18T13:34:28.894779+00:00",
   "surah": 102,
   "ayah": 2,
   "ayahRef": "102:2",
@@ -1174,7 +1174,8 @@
       "morpheme_ids": [
         "m-w-s102-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:2:1"
+      "aligned_qac_word_ref_upstream": "102:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1190,7 +1191,8 @@
         "m-w-s102-a002-w002-01",
         "m-w-s102-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:2:2"
+      "aligned_qac_word_ref_upstream": "102:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1206,7 +1208,8 @@
         "m-w-s102-a002-w003-01",
         "m-w-s102-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:2:3"
+      "aligned_qac_word_ref_upstream": "102:2:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1575,7 +1578,700 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:2",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_temporary_grave_visit",
+            "confidence": "strong",
+            "focus_anchor": "The limit particle حَتَّى, the perfect second-person plural زُرْتُم, and the plural destination ٱلْمَقَابِرَ.",
+            "mechanism": "Ordinary visitation supplies arrival without lexical ownership of the destination, while the burial-place branch identifies that destination as the resting place of the dead. The limit construction therefore reaches death while retaining a live asymmetry: those buried are described as visitors, so the grave is a terminal boundary in the sentence but not securely a permanent home in the visitor image.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "Visiting and turning toward someone supplies a purposeful arrival whose visitor relation remains temporary."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "Burial and the place of graves fix the destination as actual mortuary space rather than an abstract limit."
+              }
+            ],
+            "changed_reading": {
+              "before": "You continued until you reached the graves and died.",
+              "after": "You crossed the limit into burial, yet the verb casts even that arrival as a visit: the grave is a reached station whose permanence the wording pointedly withholds."
+            }
+          },
+          {
+            "model_id": "baseline_bent_descent_into_hiddenness",
+            "confidence": "medium",
+            "focus_anchor": "The motion in زُرْتُم directed toward the plural ٱلْمَقَابِرَ can activate side branches of both focus roots.",
+            "mechanism": "The visit remains the overt event, but the same motion root also carries turning aside, and the grave root carries hiddenness, depression, and enclosure. Together they spatialize the clause as a course that bends away and sinks inward; حَتَّى measures not merely elapsed time but the full extent of that diversion.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The ordinary visit keeps the model attached to the clause's actual directed motion."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B001",
+                "role": "Turning aside and deviation bend the visitor's route away from an intended course."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hiddenness, inward sinking, and sealed enclosure give the route a downward and occluding terminus."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports a neutral visit to a cemetery.",
+              "after": "The verse images a trajectory permitted to bend all the way into hidden, sunken enclosure: the cemetery is the geometry of a completed diversion."
+            }
+          },
+          {
+            "model_id": "baseline_buried_recourse",
+            "confidence": "exploratory",
+            "focus_anchor": "The collective subject turns toward plural graves through a verb whose root also contains a social point-of-recourse branch.",
+            "mechanism": "Alongside physical visitation, the root can organize people around a chief or reference point toward which they incline. Coupled with burial places, this leaves a social reading in which the living turn toward the buried dead not only as destinations but as sources of standing, precedent, or orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B005",
+                "role": "A point of recourse or leadership supplies the social topology of a group inclining toward an authority."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "The burial-place image locates that possible recourse among the dead."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group physically arrives at burial grounds.",
+              "after": "The living may also be turning toward the buried as collective reference points; the graveyard becomes a social archive of authority as well as a destination."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_competition_recruits_the_dead",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Attention is captured by a contest of numerical superiority, and حَتَّى carries that contest into the focus clause. Because the focus supplies collective visitors and plural graves, the cemetery can become the rivalry's last evidence pool: competitors recruit buried people, lineages, or grave-sites into the count. This coexists with the simpler temporal reading in which death finally stops the contest.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "Purposeful visitation lets the competitive group actively go to the mortuary field rather than merely expire."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "The plural place of burial supplies a concrete archive of dead persons or sites available to the contest."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Being occupied by one thing away from another makes the contest an attention-capturing process with momentum."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Outdoing others through number supplies the comparative counting operation that can extend into the graves."
+              }
+            ],
+            "structural_cues": [
+              "102:1 immediately precedes 102:2, and حَتَّى grammatically binds its distraction and rivalry to the focus limit.",
+              "The second-person plural subject and plural ٱلْمَقَابِرَ permit a public comparison spanning multiple dead or burial sites."
+            ],
+            "reader_inference": "The packet supplies diverted attention, numerical outdoing, purposeful visitation, and plural graves; I supply the arrow that the rivalry uses the buried as countable evidence. A live alternative is that no counting occurs in the cemetery and death simply terminates the distraction.",
+            "changed_reading": {
+              "before": "Competition in increase continues only until death cuts it off.",
+              "after": "Competition may be so absorptive that it does not merely end at the cemetery; it annexes the cemetery as its final scoreboard, while the death-as-termination reading remains live."
+            }
+          },
+          {
+            "model_id": "delta_concealment_becomes_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل م",
+              "ي ق ن"
+            ],
+            "mechanism": "The grave's side image is hidden, sunken enclosure, but the next sequence repeatedly promises disclosure and then stabilizes it as certainty. This creates an epistemic inversion: entry into the place that hides the body becomes the narrative threshold after which what distraction concealed can no longer stay concealed.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The visit supplies the crossing event between the prior condition and the later epistemic sequence."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hiddenness and inward enclosure establish the concealment that the following disclosures reverse."
+              },
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The first promised knowing supplies the initial uncovering immediately after the grave visit."
+              },
+              {
+                "source_ref": "102:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Repeated disclosure makes the post-grave uncovering staged or emphatic rather than incidental."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The paired verb and noun concentrate knowing into an explicit state of revealed understanding."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed turns disclosure into irreversible certainty."
+              }
+            ],
+            "structural_cues": [
+              "The future-knowing clause recurs in 102:3 and 102:4, then expands into verb-plus-cognate-noun in 102:5.",
+              "The focus visit stands immediately before this escalating sequence, with حَتَّى already marking a threshold."
+            ],
+            "reader_inference": "The packet supplies grave-hiddenness, repeated disclosure, and doubtless stability; I infer the reversal from entering concealment to undergoing exposure. The alternative is simple temporal succession—knowledge follows death—without any semantic work being done by the grave's hiddenness branch.",
+            "changed_reading": {
+              "before": "The grave hides the dead and ends their worldly perception.",
+              "after": "The hidden grave becomes a paradoxical epistemic hinge: bodily concealment is followed by escalating, stabilized disclosure."
+            }
+          },
+          {
+            "model_id": "delta_edited_report_to_eyewitness",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م",
+              "ع ي ن",
+              "ي ق ن"
+            ],
+            "mechanism": "A focus-side branch permits speech to be composed or cosmetically straightened, while the grave hides its occupants. The split inventory at the later seeing verb activates both transmitted report and direct vision; repeated seeing, the blazing object seen, the eye, and certainty then move authority from editable accounts to witnessed actuality. On this reading, visiting graves is the border where curated claims about the dead or their prestige lose control of the evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The actual visit keeps the proposed media transition located at the encounter with graves."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B006",
+                "role": "Preparing and improving speech supplies the editable, potentially cosmetic register of social claims."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "The dead person's hidden enclosure permits reputation to circulate without immediate visual checking."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch of transmitting news or verse activates mediated report as one possible channel."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies direct apprehension that can displace the mediated report."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing and intense heat gives direct vision a resistant, non-cosmetic object."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The repeated act of seeing reinforces the transfer from hearsay or crafted speech to encounter."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Ocular witnessing specifies that the encounter is immediate rather than merely narrated."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubtless stability closes the gap in which curated reports could compete with what is seen."
+              }
+            ],
+            "structural_cues": [
+              "102:6 and 102:7 repeat the seeing verb; the second occurrence adds an explicit eye-and-certainty construction.",
+              "The packet itself preserves a non-dominant report-transmission inventory beside the dominant vision inventory for the same context occurrences."
+            ],
+            "reader_inference": "The packet supplies speech-shaping, hiddenness, a split between report and sight, repeated vision, a blazing object, and certainty; I infer a temporal transfer of evidentiary authority at the graves. A live alternative is that the report branch is only a mapping echo and that the context activates literal sight with no contrast to curated ancestral claims.",
+            "changed_reading": {
+              "before": "The graves are a destination around which claims about the dead may continue to circulate.",
+              "after": "The grave visit marks the failure point of edited reputation: transmitted or ornamented accounts give way to an immediate spectacle that cannot be revised."
+            }
+          },
+          {
+            "model_id": "delta_guest_checkout_and_account",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "The focus names the entrants as visitors, a relation that implies temporary tenure and can include hospitality. The closing context combines a demand for an answer with good condition, ease, and pleasant lodging. Read together, enjoyed comforts look less like accumulated property and more like hospitality entrusted to temporary guests; the grave visit becomes checkout before an account is requested.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The visitor relation supplies temporary tenure and the possibility of received hospitality."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "The burial place supplies the threshold at which the prior stay is relinquished."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and requesting supplies the demand for an account after the temporary stay."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and favor identify what was enjoyed and is now placed under inquiry."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "An agreeable place and pleasant stay sharpen the hospitality and lodging analogy."
+              }
+            ],
+            "structural_cues": [
+              "102:8 follows the grave visit through the surah's repeated ثُمَّ sequence and uses emphatic future passive questioning.",
+              "The inquiry is explicitly about comfort or favor, while the focus has already chosen visitor language for the mortal transition."
+            ],
+            "reader_inference": "The packet supplies visitation, burial, questioning, favor, and pleasant stay; I supply the guest-to-checkout-to-account arrow. The live alternative is ordinary accountability for blessings with no hospitality metaphor and no special causal role for the visitor branch.",
+            "changed_reading": {
+              "before": "People enjoy comforts, die, and are later questioned about those comforts.",
+              "after": "People are temporary guests amid entrusted comforts; visiting the graves is checkout from that stay before the hospitality received is called to account."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_mill_dust_funeral_machine",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it composes remote material side branches into a machine-and-terrain analogy, not a lexical paraphrase. It remains anchored in the focus through its hard-going visit and sunken grave, and in the immediate context through mill-feeding and billowing increase. Downstream prose should label it an exploratory material model of compulsive momentum, never claim that the surface words literally denote a mill or dust storm.",
+            "focus_anchor": "The visit root's hard-driving branch and the grave root's depressed hidden place remain attached to زُرْتُمُ ٱلْمَقَابِرَ.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B007",
+                "role": "Hard driving pace turns the focus visit into accelerated, difficult motion."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "A hidden depression gives the accelerating process a hollow into which it finally sinks."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B003",
+                "role": "Casting material into a mill's mouth supplies a self-feeding mechanism for the distraction."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B005",
+                "role": "A thickening cloud of dust makes increase the residue and obscuring atmosphere of the driven process."
+              }
+            ],
+            "changed_reading": {
+              "before": "A social obsession lasts until its participants reach the cemetery.",
+              "after": "The obsession behaves like a fed mill or driven mechanism: it consumes inputs, thickens its own obscuring dust, accelerates its subjects, and deposits them in hidden hollows."
+            }
+          },
+          {
+            "outlier_id": "outlier_grave_as_eye_aperture",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain spatial activation: a grave-depression is analogized to an eye-like opening because later branches supply showing, blazing visibility, and an ocular depression. It remains validly anchored to the focus grave's hidden sunken form and the visitor's passage, but downstream prose should present it as a paradoxical aperture image, not as a claim that a grave is etymologically an eye.",
+            "focus_anchor": "The hidden, depressed ٱلْمَقَابِرَ reached by visitors can be spatially reversed by the later eye-and-showing sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "Visitation supplies passage to and through the spatial threshold."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hiddenness and a sunken enclosure provide the initially opaque depression."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Causing something to appear reverses the grave's initial function of concealment."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing heat supplies the forcefully visible scene beyond the opaque depression."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B009",
+                "role": "An eye-like hollow or localized depression lets the grave-pit be re-imaged as an aperture rather than a seal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The grave is an opaque hollow that removes its occupant from view.",
+              "after": "The grave-hollow can become a paradoxical aperture: the visitor enters concealment only for the depression to open onto unavoidable manifestation."
+            }
+          },
+          {
+            "outlier_id": "outlier_extracted_from_sealed_visit",
+            "confidence": "exploratory",
+            "containment": "This reading depends on the non-dominant split inventory attached to the later questioning root, so it is especially branch-distant. It remains anchored because the focus explicitly combines a temporary visit with hidden enclosure and the context supplies covert drawing-out or egress. Downstream prose must qualify it as a packet-triggered extraction image, not redefine the surface questioning verb as physical extraction.",
+            "focus_anchor": "Temporary visiting and the grave root's sealed inwardness leave open a motion out of the enclosure as well as motion into it.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "The visitor image makes enclosure a stay from which departure remains structurally imaginable."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Hidden inward sinking and sealed containment supply what must be exited or opened."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "Gentle or hidden drawing-out activates removal from the sealed state before the account."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B004",
+                "role": "Slipping out supplies the complementary egress motion latent in a visit rather than permanent residence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The visit ends with occupants enclosed and hidden in graves.",
+              "after": "The grave is a temporary sealed chamber in a larger motion: entry into hiddenness is paired, exploratorily, with being drawn or slipping back out before questioning."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The cemetery is both the point where numerical rivalry stops and, in a coexisting reading, the last archive that rivalry annexes as evidence.",
+            "The grave's hiddenness reverses into an epistemic threshold: concealment is followed by repeated disclosure, sight, and stabilized certainty.",
+            "A split report-versus-vision activation turns the grave visit into the failure point of curated reputation and the onset of uneditable witness.",
+            "Visitor language plus final questioning recasts enjoyed comfort as temporary hospitality subject to an account."
+          ],
+          "what_was_special": "The focus clause is unusually productive because 'visit' refuses to make the grave a possessed home, while side branches turn the same motion toward deviation, social recourse, and prepared speech. Context does not collapse these into one lesson: it supports rival scoreboard and endpoint readings, a concealment-to-disclosure reversal, a report-to-witness shift, and a guest-accounting model. Non-dominant split inventories additionally preserve contained aperture and extraction images.",
+          "remaining_uncertainties": [
+            "Whether حَتَّى merely terminates the rivalry at death or permits the rivalry to continue by counting and invoking the buried.",
+            "Whether temporary visitor language positively implies onward movement or only avoids specifying permanence.",
+            "Whether the non-dominant report and extraction branches are genuine activators here or packet-induced echoes that should remain only as outliers.",
+            "Whether the hospitality model is licensed by the visitor and pleasant-stay branches or overextends them into a host-and-checkout scenario."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The grave as a visited station, not possessed endpoint.** Branch evidence: ز و ر B003, visiting and turning toward someone; ق ب ر B001, grave/cemetery; س ء ل B001, questioning; ر ء ي B001, seeing. Structural cue: \"حتى\" gives a limit to the distraction, while \"زرتم\" uses visiting language for the cemetery. Assigned role: ز و ر B003 makes the grave a place of temporary arrival; سأل/رأي make what follows an onward exposure. Abductive move: I infer from later questioning and seeing that the visit does not close the sequence. Reading change: the ayah reads as a threshold-visit into disclosure, not a final stop.\n\n2. **Deviation reaches the graves.** Branch evidence: ز و ر B001, turning aside/deviation; ز و ر B002, falsehood and invalid speech; ل ه و B001, diversion; ك ث ر B002, rivalry; ق ب ر B001, graves. Structural cue: the root of \"visit\" also carries deviation and falsehood branches, and the previous ayah has a diversion caused by rivalry. Assigned role: ز و ر B001/B002 color the \"visit\" as a swerving course produced by false evaluation. Abductive move: I infer that the same movement toward a place can disclose the crookedness of the path that led there. Reading change: \"you visited the graves\" reads not only as arrival at death but as the spatial proof that the earlier life-course had bent away.\n\n3. **Hiddenness awaiting marks and sight.** Branch evidence: ق ب ر B002, hiddenness and inward sinking; ع ل م B002, distinguishing mark/landmark; ر ء ي B012, showing and making seen; ع ي ن B002, face-to-face seeing. Structural cue: after the grave, the surah repeats \"you will know\" and then \"you will see.\" Assigned role: the grave hides; علم/رأي/عين later mark and expose. Abductive move: I supply the temporal arrow: what goes inward at قبر becomes legible through later knowledge and sight. Reading change: the cemetery becomes a concealment-device that paradoxically prepares revelation.\n\n4. **Hard-driven movement to the limit.** Branch evidence: ز و ر B007, hard driving pace; ك ث ر B002, rivalry; \"حتى\" as sequence-limit. Structural cue: the motion verb is framed by a preceding compulsion-like occupation and a terminal \"until.\" Assigned role: ز و ر B007 supplies velocity and pressure to the journey. Abductive move: I infer that rivalry does not merely accompany movement but drives it hard toward its limit. Reading change: the ayah can be heard as an acceleration into the cemetery, not a neutral visit.",
@@ -7177,14 +7873,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7336,10 +8038,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 57152,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

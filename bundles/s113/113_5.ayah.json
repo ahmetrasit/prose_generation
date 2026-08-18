@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.656752+00:00",
+  "generated_at": "2026-08-18T13:34:43.503858+00:00",
   "surah": 113,
   "ayah": 5,
   "ayahRef": "113:5",
@@ -1754,7 +1754,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:1"
+      "aligned_qac_word_ref_upstream": "113:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1768,7 +1769,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:2"
+      "aligned_qac_word_ref_upstream": "113:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1782,7 +1784,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:3"
+      "aligned_qac_word_ref_upstream": "113:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1796,7 +1799,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:4"
+      "aligned_qac_word_ref_upstream": "113:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1810,7 +1814,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:5"
+      "aligned_qac_word_ref_upstream": "113:5:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1824,7 +1829,8 @@
       "morpheme_ids": [
         "m-w-s113-a005-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "113:5:6"
+      "aligned_qac_word_ref_upstream": "113:5:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2066,7 +2072,916 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s113/packets/113_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "113:5",
+      "window": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "113:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_event_gated_envy",
+            "confidence": "strong",
+            "focus_anchor": "The active participle حَاسِدٍ is followed by إِذَا and a finite repetition of the same root in حَسَدَ.",
+            "mechanism": "The construction separates a bearer of envy from the occasion on which removal-directed envy becomes operative. Harm is attached to an activated event, not indiscriminately to the person's bare existence.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Supplies the explicit harmful field whose timing the rest of the clause restricts."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies desire for the other's blessing to cease, functioning as the latent disposition and its enacted recurrence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse labels an envier as a continuously evil type.",
+              "after": "The verse isolates the dangerous interval when a removal-directed disposition crosses into active envy."
+            }
+          },
+          {
+            "model_id": "baseline_admiration_fork",
+            "confidence": "medium",
+            "focus_anchor": "The same ح س د root occupies both the agent noun and the event verb, while its inventory preserves both subtractive envy and non-subtractive admiration.",
+            "mechanism": "The doubled root can hold a live fork: attention to another's blessing need not itself seek loss, but the إِذَا event marks the possible turn from emulative admiration into a wish that the blessing disappear.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Supplies admiration without removal, preserving a non-harmful starting state inside the root's range."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the subtractive turn that makes the temporally activated state harmful."
+              }
+            ],
+            "changed_reading": {
+              "before": "Any intense regard for another's good is already the condemned harm.",
+              "after": "The threat may lie in a threshold where admiration ceases to coexist with the other's good and becomes removal-seeking."
+            }
+          },
+          {
+            "model_id": "baseline_false_parity",
+            "confidence": "exploratory",
+            "focus_anchor": "شَرِّ is directly paired with the repeated ح س د construction, and the packet's split mapping for ش ر ر includes a counterpart or equivalence image.",
+            "mechanism": "Envy can be modeled as counterfeit equalization: another's blessing is perceived as an imbalance, so the envier seeks parity by subtracting from the other rather than by gaining a comparable good.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Supplies matching and counter-equivalence as the imagined balancing operation performed by the harm."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies removal of the other's blessing as the destructive means used to manufacture parity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Envy is an undirected hostile feeling.",
+              "after": "Envy performs a false accounting operation that tries to make unequal shares match by reducing the other."
+            }
+          },
+          {
+            "model_id": "baseline_maledictive_projection",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus construction joins شَرِّ to the moment at which the حَاسِد enacts حَسَدَ.",
+            "mechanism": "A non-dominant mapped branch lets the harm take the form of projected ill-wishing. The removal-directed desire is then not merely stored inwardly; at its إِذَا moment it becomes a wish or invocation of misfortune toward the blessed person.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B012",
+                "role": "Supplies an invocation of misfortune as a possible outward vehicle of the focus harm."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the desire for loss that gives the projected ill-wishing its motive and target."
+              }
+            ],
+            "changed_reading": {
+              "before": "The envier's danger is exhausted by an internal emotion.",
+              "after": "The dangerous event may be the projection of that emotion as directed ill-wishing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_voiced_counter_refuge",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ"
+            ],
+            "mechanism": "The opening utterance and act of refuge place the focus malediction model inside a contest of directed acts: envy can project loss toward another, while the threatened speaker audibly redirects attachment toward protection.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Supplies speech brought out in articulation, functioning as the overt protective counter-act."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Supplies refuge and defensive holding, giving the utterance a protective destination."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Supplies clinging within another's shelter, making refuge an attachment rather than a merely verbal denial."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B012",
+                "role": "Supplies projected ill-wishing as the focus-side act answered by voiced refuge."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the wished removal that gives the hostile projection its direction."
+              }
+            ],
+            "structural_cues": [
+              "113:1 makes an imperative of saying the first action and places the speaker's refuge inside that saying before any threat is named."
+            ],
+            "reader_inference": "The packet supplies articulated speech, protective attachment, and a focus branch of ill-wishing; I infer opposed directional acts rather than a magical equivalence. A live alternative is that قُلْ only frames recitation and the focus harm remains entirely nonverbal.",
+            "changed_reading": {
+              "before": "Refuge is a generic preface to a private emotion called envy.",
+              "after": "The focus can participate in a directional speech economy: projected loss is met by voiced reattachment to protection."
+            }
+          },
+          {
+            "model_id": "delta_reparative_opening",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ف ل ق"
+            ],
+            "mechanism": "Removal-directed envy presses toward arresting another's flourishing. Repair, completion, splitting, and emergence activate the opposite vector: protection is sought from a source that can reopen what hostile comparison would close or diminish.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Supplies repair, nurture, and completion as the restorative counter-process to subtractive envy."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B001",
+                "role": "Supplies splitting and opening between closed sides, functioning as release from constriction."
+              },
+              {
+                "source_ref": "113:1",
+                "root": "ف ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001176",
+                "branch_id": "B003",
+                "role": "Supplies emergence of creation from a split, turning protection toward renewed appearance and growth."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the opposing wish that another's existing good be removed."
+              }
+            ],
+            "structural_cues": [
+              "113:1 orders refuge through lordship toward opening, while 113:5 closes the sequence with a desire aimed at another's loss."
+            ],
+            "reader_inference": "The packet supplies restorative completion and opening or emergence; I infer that envy functions as a pressure toward closure of another's development. Alternatively, these images may characterize only the protector and need not describe the threat's mechanics.",
+            "changed_reading": {
+              "before": "The requested protection only blocks an envious person's hostile intention.",
+              "after": "Protection also restores an opening for flourishing against envy understood as attempted closure or subtraction."
+            }
+          },
+          {
+            "model_id": "delta_created_capacity_to_event",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ر",
+              "خ ل ق"
+            ],
+            "mechanism": "The general created field can contain inward dispositions and preparedness without making every capacity continuously harmful. The focus's agent-to-event repetition then selects the occasion when a latent subtractive capacity becomes an operative evil.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Supplies the broad category of harm from which later clauses specify event-conditioned cases."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Supplies inward disposition or nature as the latent side of the focus agent."
+              },
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Supplies readiness or aptitude, functioning as capacity prior to harmful realization."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the removal-directed state whose finite recurrence marks realization."
+              }
+            ],
+            "structural_cues": [
+              "113:2 gives a general created field before the sequence narrows into repeated مِن شَرِّ clauses with more specific agents and events.",
+              "Within 113:5, a bearer noun precedes إِذَا and the corresponding event verb."
+            ],
+            "reader_inference": "The packet supplies inward nature, preparedness, and the noun-to-event syntax; I infer a capacity-to-actualization arrow. The live alternative is that خَلَقَ only denotes origination, so no psychological account of created disposition should be imposed.",
+            "changed_reading": {
+              "before": "The envier is harmful by a fixed essence.",
+              "after": "A created agent may bear a capacity whose evil is specifically its contingent, removal-seeking actualization."
+            }
+          },
+          {
+            "model_id": "delta_measured_false_balance",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ل ق"
+            ],
+            "mechanism": "Measurement from the creation clause sharpens the parity baseline into a distorted allocation model. The envier treats blessings as commensurable shares and tries to correct a perceived excess by making the other lose it.",
+            "activation_trace": [
+              {
+                "source_ref": "113:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Supplies estimation and measure as the imagined ledger by which shares are compared."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Supplies counterpart and equivalence as the false balancing objective."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies subtraction of the other's blessing as the operation used to balance the ledger."
+              }
+            ],
+            "structural_cues": [
+              "The broad creation clause in 113:2 precedes the final clause's tight repetition of the comparing agent and act."
+            ],
+            "reader_inference": "The packet supplies measure, equivalence, and removal; I infer that the envier misreads allocation as a zero-sum ledger and supplies subtraction as the balancing arrow. The live alternative is that the measure and equivalence branches are unrelated lexical neighbors.",
+            "changed_reading": {
+              "before": "Envy is only emotional resentment at another's good.",
+              "after": "Envy can be a counterfeit calibration that seeks equality through another's deprivation."
+            }
+          },
+          {
+            "model_id": "delta_ingress_threshold",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ر",
+              "غ س ق",
+              "و ق ب"
+            ],
+            "mechanism": "The exact parallel between the darkening agent that enters and the envying agent that envies turns إِذَا into an ingress threshold. Envy becomes dangerous when it crosses from latent condition into effective reach, as darkness enters a recess and occludes what was available.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Repeats the same harmful heading, licensing comparison between the two event-conditioned clauses."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B001",
+                "role": "Supplies darkness and its entering onset as the condition awaiting activation."
+              },
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B002",
+                "role": "Supplies entry into a recess until concealment, functioning as the threshold-crossing event."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Places envy under the same harmful heading as the ingress model."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the latent agent and removal-directed event to which the ingress threshold is transferred."
+              }
+            ],
+            "structural_cues": [
+              "113:3 and 113:5 share the full frame وَمِن شَرِّ plus an active participle plus إِذَا plus a finite verb.",
+              "Both clauses distinguish a condition-bearing agent from a later harmful onset."
+            ],
+            "reader_inference": "The packet supplies darkness, entry, concealment, and the exact grammatical parallel; I infer that the focus event is analogous to ingress into effective reach. The live alternative is that the 113:3 images remain strictly nocturnal and transfer only the temporal syntax.",
+            "changed_reading": {
+              "before": "إِذَا حَسَدَ merely means whenever the envier happens to feel envy.",
+              "after": "The phrase marks an onset: envy crosses a boundary, enters effect, and begins to occlude or reach its target."
+            }
+          },
+          {
+            "model_id": "delta_admiration_to_eclipse",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ س ق"
+            ],
+            "mechanism": "The eye-darkening branch gives the admiration fork a perceptual mechanism. One can first see and desire a comparable good without removal, then lose the capacity to see the other's good as tolerable; admiration darkens into subtractive envy.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "غ س ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001086",
+                "branch_id": "B003",
+                "role": "Supplies darkening of the eye as a model for comparison becoming perceptually occluded."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Supplies non-subtractive admiration as the still-open mode of seeing another's blessing."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the wish for removal as the darkened endpoint of the perceptual transition."
+              }
+            ],
+            "structural_cues": [
+              "The darkening clause and envy clause use matching agent-to-event frames, allowing a process in one to illuminate the other."
+            ],
+            "reader_inference": "The packet supplies eye-darkening and both non-subtractive and subtractive ح س د branches; I infer a transition from appreciative sight to occluded judgment. The live alternative is that eye-darkening is purely physical and the two ح س د branches never form a sequence.",
+            "changed_reading": {
+              "before": "Envy begins as fully formed hostility.",
+              "after": "Envy may begin in appreciative attention and become harmful when comparison darkens the ability to let the other's good remain."
+            }
+          },
+          {
+            "model_id": "delta_micro_emission_binding",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "A tiny oral emission joined to binding gives projected ill-wishing a low-amplitude transmission mechanism. Repeated breath, words, or ritualized emissions can fasten separate ends into a constraint, so envy need not arrive as one conspicuous attack.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Places the oral and binding sequence under the same harmful heading as the focus clause."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "Supplies a slight mouth-emission with little moisture, functioning as a small but directed carrier."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B001",
+                "role": "Supplies tying separate ends together, functioning as cumulative fastening or constraint."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B012",
+                "role": "Supplies ill-wishing as the hostile content that the small emissions may carry."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies removal-directed motive as the anchor that keeps the transmission model focused on envy."
+              }
+            ],
+            "structural_cues": [
+              "113:4 places an oral emission in or at knots immediately before 113:5 names the envying agent and activated act.",
+              "The repeated مِن شَرِّ frame keeps both mechanisms as neighboring forms of harm without requiring them to be identical."
+            ],
+            "reader_inference": "The packet supplies a minute oral carrier, tying, and ill-wishing; I infer that repetition lets small outputs accumulate into constraint. A live alternative is a literal ritual action with no social or psychological generalization.",
+            "changed_reading": {
+              "before": "Activated envy must appear as an overt, singular attack.",
+              "after": "Activated envy may travel through minute repeated projections that gradually bind or constrain the target."
+            }
+          },
+          {
+            "model_id": "delta_reputational_knot",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "Speech that spreads among people, slight oral emission, and entangled speech combine into a social mechanism: envy supplies the motive for insinuation or rumor, circulation ties hearers together, and the target's reputation becomes difficult to disentangle.",
+            "activation_trace": [
+              {
+                "source_ref": "113:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Supplies a saying that spreads among people, functioning as the circulation channel."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B001",
+                "role": "Supplies a slight oral emission, functioning as the small interpersonal unit of circulation."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B007",
+                "role": "Supplies impeded or complicated speech, functioning as the reputational tangle left by circulation."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B011",
+                "role": "Supplies quarrel as a plausible social effect of enviously circulated speech."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the wish for another's loss as the motive selecting harmful rather than neutral circulation."
+              }
+            ],
+            "structural_cues": [
+              "The sequence opens with commanded speech, places an oral-knot clause immediately before the focus, and ends by naming a removal-directed motive."
+            ],
+            "reader_inference": "The packet supplies spread speech, small oral output, speech entanglement, and quarrel; I assemble these into an envy-driven rumor circuit. The live alternative is that قُلْ remains only protective recitation and عُقَد remains concrete or ritual rather than reputational.",
+            "changed_reading": {
+              "before": "The envier can harm only through a direct private act against the target.",
+              "after": "Envy can recruit circulating speech, knot a community around insinuation, and damage the target indirectly through reputation and quarrel."
+            }
+          },
+          {
+            "model_id": "delta_contraction_discharge",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ف ث",
+              "ع ق د"
+            ],
+            "mechanism": "Contraction of anger or character followed by a chest-like discharge activates a pressure-cycle reading. Envy gathers inwardly as constriction, then the إِذَا event is the point at which it is expelled and made externally manifest.",
+            "activation_trace": [
+              {
+                "source_ref": "113:4",
+                "root": "ن ف ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001527",
+                "branch_id": "B003",
+                "role": "Supplies discharge from a constricted chest, functioning as outward release of accumulated pressure."
+              },
+              {
+                "source_ref": "113:4",
+                "root": "ع ق د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001034",
+                "branch_id": "B012",
+                "role": "Supplies contraction of anger or disposition, functioning as the inward compression phase."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Supplies bringing something out into appearance, functioning as manifestation of previously inward harm."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the removal-directed pressure that moves from held disposition to enacted discharge."
+              }
+            ],
+            "structural_cues": [
+              "The compressed emission-and-knot imagery of 113:4 directly precedes the focus's repeated root in agent and event forms."
+            ],
+            "reader_inference": "The packet supplies chest discharge, affective contraction, and emergence; I infer an inward-pressure to outward-release cycle whose hinge is إِذَا حَسَدَ. The live alternative is that the physiological and material branches remain separate images with no shared affective sequence.",
+            "changed_reading": {
+              "before": "Envy is a static possession lodged in a hostile person.",
+              "after": "Envy can be read as a pressure cycle whose evil peaks when contracted resentment is discharged into manifestation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_hunger_generated_by_comparison",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the hunger image belongs to the 113:3 و ق ب inventory rather than to ح س د and crosses from nocturnal imagery into social affect. It remains anchored by the focus root's admiration-versus-removal fork and its إِذَا transition: seeing another's plenty can be modeled as producing felt lack that tips toward subtraction. Render only as an abductive material analogy, not as a lexical meaning of حَسَدَ or a claim about every envier.",
+            "focus_anchor": "The repeated ح س د root can move from non-subtractive admiration to desire for removal at the focus event.",
+            "activation_trace": [
+              {
+                "source_ref": "113:3",
+                "root": "و ق ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001670",
+                "branch_id": "B004",
+                "role": "Supplies hunger befalling a group as the bodily analogy for comparison converting another's plenty into one's felt lack."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B002",
+                "role": "Supplies admiration without subtraction as the pre-hunger mode of comparison."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Supplies the later wish for loss as felt lack becomes destructive."
+              }
+            ],
+            "changed_reading": {
+              "before": "The envier attacks because another's good is simply hated.",
+              "after": "Comparison may first manufacture a felt hunger in the observer, which becomes harmful when relief is sought through the other's loss."
+            }
+          },
+          {
+            "outlier_id": "outlier_distributed_irritation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a gnat-scale harm image with a dermatological branch reached through the non-dominant ش ر ي mapping. Both remain packet-backed and attach directly to focus شَرِّ, while إِذَا حَسَدَ supplies the eruption point. Render as an analogy for distributed minor harms or irritations, never as a translation, diagnosis, or medical effect of envy.",
+            "focus_anchor": "Focus شَرِّ names the harm and the repeated ح س د construction gives it a moment of activation.",
+            "activation_trace": [
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B009",
+                "role": "Supplies gnat-like harm as an image of small, repeated, distributed injury."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B009",
+                "role": "Supplies a skin eruption as an image of many surface irritations appearing at activation."
+              },
+              {
+                "source_ref": "113:5",
+                "root": "ح س د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000319",
+                "branch_id": "B001",
+                "role": "Keeps the outlier anchored to removal-directed envy rather than free-floating bodily imagery."
+              }
+            ],
+            "changed_reading": {
+              "before": "The evil of envy must be one large and legible hostile blow.",
+              "after": "Its activation may also be imagined as many small irritations that spread across the target's social surface."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The noun-plus-إِذَا-plus-verb construction, reinforced by 113:3, moves the reading from fixed evil identity to a threshold where a disposition enters effective action.",
+            "The oral and binding inventories allow inward envy to externalize through ill-wishing, minute repeated emissions, or socially circulated speech.",
+            "The two ح س د branches preserve a live transition from non-subtractive admiration to removal-seeking envy rather than condemning all comparison.",
+            "Measurement and equivalence activate a distinct false-balance reading in which the envier tries to equalize shares through subtraction.",
+            "Repair and opening preserve a coexisting counter-model in which protection restores flourishing against envy as closure."
+          ],
+          "what_was_special": "The focus repeats one root as agent and event, while the context offers an exact ingress parallel and an immediately preceding breath-and-knot mechanism. The split ش ر ر mapping also kept transactional, maledictive, and bodily images alive alongside ordinary harm without forcing them into one final interpretation.",
+          "remaining_uncertainties": [
+            "The non-dominant ش ر ي branches may be productive cross-root activations or mapping-distance noise; they should remain explicitly exploratory.",
+            "The oral-knot sequence can sustain literal ritual, interpersonal speech, reputational circulation, and psychophysical discharge readings without deciding among them.",
+            "The admiration branch may describe a genuine pre-destructive phase in 113:5 or only a neighboring root sense that the verse itself does not stage.",
+            "The transfer from nocturnal ingress to envy is strongest at the grammatical threshold and less certain at the level of concealment or perception."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Envy as attempted removal of mercy-gift.** Evidence: `ح س د B001` wanting another's blessing removed; activated by `ر ح م B001` beneficence toward the one shown mercy, `ر ب ب B002` nurture/completion, and `خ ل ق B005` aptness/being fitted for a thing. Mechanism: the packet gives blessings as mercy, nurture, formation, and aptness, then names a subject who wants such benefit stripped from another. I infer that the envier's harm targets the recipient's divinely sustained good, not merely the envier's private feeling. Reading change: `حَاسِدٍ إِذَا حَسَدَ` reads as a threat against bestowed flourishing.\n\n2. **From visual comparison to darkened perception.** Evidence: `ح س د B001` seeing another's blessing and wishing it removed; activated by `غ س ق B003` eye becoming darkened and `ع و ذ B002` protective charm/invocation from evil eye, fear, illness, or harm. Mechanism: the packet supplies a visual trigger for envy and a branch where the eye loses brightness. I infer that envy darkens perception before it becomes action. Reading change: the final ayah is not only about social rivalry; it is the moral darkening of sight focused on another's good.\n\n3. **Competitive upward imitation at the boundary of harm.** Evidence: `ح س د B002` emulative envy without dispossession; activated by `س م و B007` rivaling by vying upward, `س م و B008` good repute spread, and `ش ر ر B011` quarreling. Mechanism: the inventory preserves a non-dispossessive branch of envy, while the phrase `مِن شَرِّ` marks the dangerous conversion of comparison into injury. I infer that the ayah protects at the threshold where emulation becomes removal-seeking or quarrel. Reading change: the repetition `حَاسِدٍ إِذَا حَسَدَ` reads as activation: not every comparison is yet harm, but the envier is dangerous when envy is enacted.\n\n4. **Hidden intention becoming performative force.** Evidence: `ح س د B001` desire/sometimes active seeking of removal; activated by `ع ق د B006/B012` fixed conviction and knotted anger, `ن ف ث B003` venting what is in the chest, `ق و ل B012` unspoken inner saying, and `ق و ل B007` circulating report. Mechanism: earlier ayat build a progression from inner saying to breath, knot, and public report. I infer that envy becomes harmful when an interior contraction finds an outward channel. Reading change: the final ayah gathers the surah's previous mechanisms into a human source: dark interior will becoming speech, breath, knot, or social circulation.",
@@ -9486,14 +10401,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s113/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 37,
+        "ayah_count": 5,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9594,10 +10515,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s113/packets/113_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s113/readers/reader_hft_a/113_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s113"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s113",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 74735,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

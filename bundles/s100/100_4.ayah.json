@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:18.609121+00:00",
+  "generated_at": "2026-08-18T13:34:25.894416+00:00",
   "surah": 100,
   "ayah": 4,
   "ayahRef": "100:4",
@@ -1320,7 +1320,8 @@
       "morpheme_ids": [
         "m-w-s100-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:4:1"
+      "aligned_qac_word_ref_upstream": "100:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1336,7 +1337,8 @@
         "m-w-s100-a004-w001-02",
         "m-w-s100-a004-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "100:4:2"
+      "aligned_qac_word_ref_upstream": "100:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1352,7 +1354,8 @@
         "m-w-s100-a004-w002-01",
         "m-w-s100-a004-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "100:4:3"
+      "aligned_qac_word_ref_upstream": "100:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1366,7 +1369,8 @@
       "morpheme_ids": [
         "m-w-s100-a004-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "100:4:4"
+      "aligned_qac_word_ref_upstream": "100:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2407,7 +2411,1545 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:4",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v3",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "100:4",
+        "hermeticity": {
+          "method": "I first built focus-only models from 100:4 and its two complete branch inventories, including the non-dominant mapping of ث و ر to ء ث ر. I then evaluated the context roots once in packet order and retained distinct causal, spatial, material, social, and epistemic changes without selecting a single winner.",
+          "limitations": "This is a reconstructed one-call trace because the focus and all context were visible in the same sealed packet; it is not a blind staged discovery log. Branch images are activation material rather than automatic word-sense assignments, and every directional or analogical arrow identified below is the reader's inference rather than packet-supplied causality."
+        },
+        "baseline_models": [
+          {
+            "model_id": "hft1004-b01-dislodged-plume",
+            "status": "baseline",
+            "confidence": "strong",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B002) and نَقْعًا (ن ق ع → root_001544/B004), joined by the instrumental or causal بِهِۦ.",
+            "mechanism": "The plural agents disturb material from a settled position and thereby make dust rise. The packet supplies stirring and raised dust; I supply the causal arrow from their motion through the referent of بِهِۦ to a visible plume.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Something is stirred and displaced from where it had rested.",
+                "assigned_role": "Supplies the initiating disturbance."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "Naqʿ is dust specifically in a raised or stirred state.",
+                "assigned_role": "Supplies the material result of the disturbance."
+              }
+            ],
+            "changed_reading": {
+              "before": "They cause an otherwise unspecified naqʿ by or through it.",
+              "after": "Their passage or impact dislodges settled ground into a raised dust plume; the ayah profiles a compact cause-to-material-result event."
+            }
+          },
+          {
+            "model_id": "hft1004-b02-burst-into-visibility",
+            "status": "baseline",
+            "confidence": "medium",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B001) and نَقْعًا (ن ق ع → root_001544/B004).",
+            "mechanism": "The event is not only displacement but emergence: something previously low, still, or latent bursts outward until it becomes visibly distributed as dust. The shift from concealment or stillness to spread is packet-supplied; treating the dust as that emerging matter is my synthesis.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "A thing bursts forth and spreads visibly after latency or stillness.",
+                "assigned_role": "Supplies the phase change from hidden or settled matter to outward display."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The displayed matter can be a raised dust mass.",
+                "assigned_role": "Gives the emergence a concrete airborne body."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah reports dust as a by-product.",
+              "after": "The ayah foregrounds a sudden visibility event: latent ground becomes an outward-spreading atmospheric body."
+            }
+          },
+          {
+            "model_id": "hft1004-b03-transient-index",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "The split mapping permits أَثَرْ to activate ء ث ر → root_000011/B003 alongside نَقْعًا → root_001544/B004.",
+            "mechanism": "On the non-dominant mapped root, the dust is not merely what motion makes but a remaining sign that points back to motion already occurring. The packet supplies the sign and dust images; I infer that a plume can function as an index of movers even when they are partly unseen.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "A remaining mark indicates a prior thing or event.",
+                "assigned_role": "Turns the event's residue into evidence of passage."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The residue is a visibly raised dust mass.",
+                "assigned_role": "Provides the transient mark that can be read backward to its cause."
+              }
+            ],
+            "changed_reading": {
+              "before": "Dust accompanies the agents.",
+              "after": "Dust writes their passage into the air: a temporary trace that indicates an event beyond what is directly visible."
+            }
+          },
+          {
+            "model_id": "hft1004-b04-settling-reversed",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B002) acts upon the settling potential carried by نَقْعًا (ن ق ع → root_001544/B001).",
+            "mechanism": "One focus root activates dislodging while the other activates water or material that gathers and remains. Their juxtaposition supports a reversible-medium model: force interrupts settlement and turns a low, gathered state into suspension. This reversal is inferred, not stated.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "The action removes something from a settled position.",
+                "assigned_role": "Supplies the anti-settling force."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B001",
+                "branch_image_ar": "استقرار الماء وما ينقع فيه",
+                "literal_contribution": "The root can image liquid or matter gathering and remaining in place.",
+                "assigned_role": "Supplies the state that the action reverses."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah names one-directional dust production.",
+              "after": "The ayah can be carried as a reversal of settlement: gathered matter is forced out of rest and into suspension."
+            }
+          },
+          {
+            "model_id": "hft1004-b05-acoustic-surge",
+            "status": "baseline",
+            "confidence": "exploratory",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B003) and نَقْعًا (ن ق ع → root_001544/B005).",
+            "mechanism": "The two focus roots can couple a surge into confrontation with a raised, sustained cry. This produces an audible rather than particulate reading: the agents cause a swelling din through the same event. The morphology does not force this branch pairing, so it remains coexistent and exploratory.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B003",
+                "branch_image_ar": "هيجان إلى مواجهة أو غضب",
+                "literal_contribution": "A force surges toward confrontation.",
+                "assigned_role": "Supplies the affective and kinetic swell."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B005",
+                "branch_image_ar": "نقع الصوت المرتفع",
+                "literal_contribution": "Naqʿ can image a raised or sustained cry.",
+                "assigned_role": "Converts the swell into an audible field."
+              }
+            ],
+            "changed_reading": {
+              "before": "The result is assumed to be exclusively visual dust.",
+              "after": "A coexisting reading hears the event as a rising, sustained din generated by the charge."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "hft1004-d01-rhythmic-kinetic-engine",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:1"
+            ],
+            "trigger_roots": [
+              "ع د و",
+              "ض ب ح"
+            ],
+            "mechanism": "Running and audible exertion turn the baseline disturbance into a repeated-contact engine. The packet supplies running and breath-sound; I infer rhythmic impacts that cumulatively dislodge ground and sustain the plume.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Ground material is stirred from rest.",
+                "assigned_role": "Focus-ayah effect requiring a kinetic driver."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The effect is a raised dust body.",
+                "assigned_role": "Material output of repeated impact."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ع د و",
+                "source_phrase_ar": "عَٰدِيَٰتِ",
+                "mapped_root_id": "root_000993",
+                "branch_id": "B002",
+                "branch_image_ar": "العَدْو والحَضْر",
+                "literal_contribution": "The agents are activated under the image of running or galloping.",
+                "assigned_role": "Supplies sustained translational motion."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The motion has an audible exertion-sound.",
+                "assigned_role": "Marks intensity and continuity rather than a single isolated contact."
+              }
+            ],
+            "structural_cues": [
+              "The initial motion-and-manner pair precedes a chain of فـ-linked effects culminating in فَأَثَرْنَ.",
+              "Plural feminine agency remains continuous from the running image into the focus verb."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The same running agents continue into 100:4.",
+                "packet_supplies": "A continuous plural feminine sequence, running imagery, exertion-sound, and later stirred dust.",
+                "reader_infers": "Repeated ground contact causes and sustains the dust plume.",
+                "alternatives": [
+                  "The sound may accompany rather than measure the force.",
+                  "The packet does not independently identify the agents' species."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Unspecified plural agents stir up dust.",
+              "after": "Audibly exerting runners operate as a rhythmic kinetic engine whose repeated impacts build and sustain the plume."
+            },
+            "minimal_triggers": [
+              "The focus stirring image",
+              "The running image in 100:1"
+            ],
+            "ablation": "Without the running cue, a plume remains possible but loses its repeated-impact mechanism; without the exertion-sound, the mechanism remains but its sustained intensity weakens."
+          },
+          {
+            "model_id": "hft1004-d02-ignition-and-self-veiling",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:2"
+            ],
+            "trigger_roots": [
+              "و ر ي",
+              "ق د ح"
+            ],
+            "mechanism": "The sequence first releases hidden fire by striking and then releases hidden ground as dust. A second accepted branch of the fire root introduces covering, allowing a reversal: one impact makes light while its continuing motion makes a veil. The reveal-then-conceal arrow is my inference.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "Latent matter bursts outward into visibility.",
+                "assigned_role": "Makes dust release parallel to fire release."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The later released matter is a dust cloud.",
+                "assigned_role": "Provides the self-generated veil."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "Fire hidden in the striker emerges.",
+                "assigned_role": "Supplies the first latent-to-visible release."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "ق د ح",
+                "source_phrase_ar": "قَدْحًا",
+                "mapped_root_id": "root_001203",
+                "branch_id": "B001",
+                "branch_image_ar": "إيراء النار بالقدح",
+                "literal_contribution": "Striking kindles the fire.",
+                "assigned_role": "Supplies the impact mechanism shared with ground disturbance."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "branch_id": "B005",
+                "branch_image_ar": "ستر الشيء وجعله وراء الظهور",
+                "literal_contribution": "The same root inventory also carries covering or placing out of sight.",
+                "assigned_role": "Activates the concealment half of the reveal/conceal reversal."
+              }
+            ],
+            "structural_cues": [
+              "100:2 and 100:4 are successive فـ-linked result clauses with parallel plural feminine forms and accusative result or manner nouns."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The striking event and the later ground disturbance belong to one kinetic sequence.",
+                "packet_supplies": "Kindled hidden fire, impact imagery, outward emergence, and raised dust.",
+                "reader_infers": "A single movement first reveals through sparks and later conceals through its dust.",
+                "alternatives": [
+                  "The dust may simply accompany the sparks without functioning as a veil.",
+                  "The covering branch is form-distant from the local participle and therefore only an activator."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The dust is an incidental by-product after sparks.",
+              "after": "The dust is the second half of a reveal/conceal machine: impact exposes latent fire, then movement raises a screen that can hide its own agents."
+            },
+            "minimal_triggers": [
+              "The focus's outward-emergence image",
+              "The hidden-fire and striking pair in 100:2"
+            ],
+            "ablation": "Removing the fire cue leaves dust emergence but erases the parallel release; removing the covering cue preserves parallel release but weakens the self-veiling reading."
+          },
+          {
+            "model_id": "hft1004-d03-dawn-visibility-threshold",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:3"
+            ],
+            "trigger_roots": [
+              "غ ي ر",
+              "ص ب ح"
+            ],
+            "mechanism": "Morning supplies a visibility threshold, while change supplies transformation of appearance. The plume therefore changes from generic material residue into an optical event that redraws the scene precisely as light begins to disclose it.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "The disturbed matter becomes outwardly visible.",
+                "assigned_role": "Supplies visual emergence."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "A raised dust cloud occupies the visual field.",
+                "assigned_role": "Material that alters visibility."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "غ ي ر",
+                "source_phrase_ar": "مُغِيرَٰتِ",
+                "mapped_root_id": "root_001119",
+                "branch_id": "B003",
+                "branch_image_ar": "تغيير الصورة أو إبدال الشيء بغيره",
+                "literal_contribution": "An image or state is changed into another.",
+                "assigned_role": "Activates transformation of the visible scene."
+              },
+              {
+                "source_ref": "100:3",
+                "root": "ص ب ح",
+                "source_phrase_ar": "صُبْحًا",
+                "mapped_root_id": "root_000839",
+                "branch_id": "B001",
+                "branch_image_ar": "الصبح وأول النهار",
+                "literal_contribution": "The event occurs at the first light of day.",
+                "assigned_role": "Supplies the threshold at which plume and landscape become newly legible."
+              }
+            ],
+            "structural_cues": [
+              "The explicit time noun in 100:3 immediately precedes the focus effect in the فـ sequence."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "Time of day changes the phenomenology of the dust rather than merely dating it.",
+                "packet_supplies": "First morning, image-change, outward visibility, and a raised airborne mass.",
+                "reader_infers": "The plume actively remakes what can be seen at dawn.",
+                "alternatives": [
+                  "Morning may be purely temporal.",
+                  "The change branch may not be the local sense of مُغِيرَٰتِ."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Dust is a mechanically produced object.",
+              "after": "Dust is also an optical state change: at first light it redraws boundaries, reveals motion, and simultaneously reduces visual access."
+            },
+            "minimal_triggers": [
+              "The focus's visible-spread image",
+              "The dawn cue in 100:3"
+            ],
+            "ablation": "Without dawn, the optical reading remains possible but loses its threshold structure; without image-change, dawn only dates the plume."
+          },
+          {
+            "model_id": "hft1004-d04-dispersal-penetrates-gathering",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:5"
+            ],
+            "trigger_roots": [
+              "و س ط",
+              "ج م ع"
+            ],
+            "mechanism": "The sequence opposes two organizations of matter: ground is dispersed upward as dust while the agents move inward toward the center of a gathered body. The repeated بِهِۦ permits, but does not require, the further inference that the plume accompanies or enables penetration as an envelope.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "Material spreads outward from a formerly low or latent state.",
+                "assigned_role": "Supplies centrifugal dispersal."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The dispersal takes the form of a dust field.",
+                "assigned_role": "Creates the surrounding medium."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "و س ط",
+                "source_phrase_ar": "وَسَطْ",
+                "mapped_root_id": "root_001646",
+                "branch_id": "B003",
+                "branch_image_ar": "الدخول أو الجعل في الوسط",
+                "literal_contribution": "The agents enter or place themselves in the middle.",
+                "assigned_role": "Supplies centripetal penetration."
+              },
+              {
+                "source_ref": "100:5",
+                "root": "ج م ع",
+                "source_phrase_ar": "جَمْعًا",
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "branch_image_ar": "جماعة اجتمعت أو أخلاط ضمتها الجهة",
+                "literal_contribution": "The destination is a gathered group or body.",
+                "assigned_role": "Supplies the compact formation whose center is breached."
+              }
+            ],
+            "structural_cues": [
+              "100:4 and 100:5 repeat فَ + plural feminine verb + بِهِۦ + accusative noun.",
+              "Outward dust spread is immediately followed by inward movement to a center."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The repeated pronoun in بِهِۦ maintains a usable relation across the two clauses.",
+                "packet_supplies": "A dust field, repeated بِهِۦ, entry into a middle, and a gathered body.",
+                "reader_infers": "The plume is an accompanying or enabling envelope for penetration.",
+                "alternatives": [
+                  "Both pronouns may point to another shared circumstance rather than dust.",
+                  "Dust may record the penetration without enabling it."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The plume trails behind movement as residue.",
+              "after": "The plume belongs to an inverse geometry: matter disperses outward as the agents drive inward, potentially carrying their own obscuring envelope into a gathered center."
+            },
+            "minimal_triggers": [
+              "The focus's spreading dust",
+              "Entry into the middle of a gathered body in 100:5"
+            ],
+            "ablation": "Without the middle/gathering pair, the plume loses its penetration geometry; without repeated بِهِۦ, the envelope function becomes weaker while the outward/inward contrast survives."
+          },
+          {
+            "model_id": "hft1004-d05-barren-yield",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_refs": [
+              "100:6"
+            ],
+            "trigger_roots": [
+              "ء ن س",
+              "ر ب ب",
+              "ك ن د"
+            ],
+            "mechanism": "The discourse's human pivot activates a material analogy: ground that has the capacity to be tended or completed yields only dust under force, like barren land that does not grow and a human who cuts off acknowledgement of received good. The packet supplies cultivation, barrenness, ingratitude, and clay-flat images; the mapping from terrain to reciprocity is mine.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "The surface is forced to yield material by disturbance.",
+                "assigned_role": "Supplies extraction by force rather than organic production."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B007",
+                "branch_image_ar": "نقاع الأرض القيعان السهلة",
+                "literal_contribution": "Naqʿ can image level clay ground or a ground-basin.",
+                "assigned_role": "Keeps the analogy anchored in the focus's material substrate."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ء ن س",
+                "source_phrase_ar": "إِنسَٰنَ",
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "branch_image_ar": "ظهور الإنسان المخالف للتوحش والجن",
+                "literal_contribution": "The sequence explicitly turns toward the human.",
+                "assigned_role": "Authorizes testing an anthropological analogue after the physical sequence."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبِّ",
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "branch_image_ar": "إصلاح وتربية وإتمام",
+                "literal_contribution": "Lordship activates tending, cultivation, repair, and completion.",
+                "assigned_role": "Supplies the received formative care against which yield is measured."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "branch_id": "B003",
+                "branch_image_ar": "الأرض التي لا تنبت",
+                "literal_contribution": "Kanūd can image land that does not grow.",
+                "assigned_role": "Supplies the barren-ground side of the analogy."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "branch_id": "B002",
+                "branch_image_ar": "كفران النعمة والمودة",
+                "literal_contribution": "Kanūd also images denial of favor or affection.",
+                "assigned_role": "Transfers non-yield from soil into failed reciprocity."
+              }
+            ],
+            "structural_cues": [
+              "The kinetic sequence ends at 100:5 and 100:6 pivots with إِنَّ to an explicit human proposition.",
+              "The terrain-like focus image precedes a root inventory that itself joins barren land and ingratitude."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The physical ground can function as a material analogue for the human claim that follows.",
+                "packet_supplies": "Disturbed clay ground, tending and completion, barren land, denial of favor, and an explicit human pivot.",
+                "reader_infers": "Dust rather than growth becomes an enacted image of receiving formation while returning no fruitful acknowledgement.",
+                "alternatives": [
+                  "The terrain and moral senses may remain unrelated homonymous branches.",
+                  "The physical sequence may illustrate force only, not reciprocity."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The ground passively emits dust under impact.",
+              "after": "The ground's dry yield becomes a live material analogue for failed reciprocity: what has been sustained or tended returns barrenness and dust rather than fruit."
+            },
+            "minimal_triggers": [
+              "The focus's ground-displacement image",
+              "The barrenness and denied-favor pairing in 100:6"
+            ],
+            "ablation": "Without the barren-land image the moral transfer becomes generic; without the cultivation image the contrast of received care and failed yield collapses."
+          },
+          {
+            "model_id": "hft1004-d06-self-witnessing-trace",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:7"
+            ],
+            "trigger_roots": [
+              "ش ه د"
+            ],
+            "mechanism": "Witnessing changes the non-dominant trace baseline from a mere residue into testimony. The dust is a mark present with the event and capable of indicating what produced it, even if the clause's witness referent remains unresolved.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "A surviving mark points to what happened.",
+                "assigned_role": "Anchors the evidentiary reading in the focus verb's split mapping."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The mark is materially instantiated as raised dust.",
+                "assigned_role": "Provides visible testimony."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "branch_id": "B008",
+                "branch_image_ar": "العلامة الشاهدة",
+                "literal_contribution": "A mark itself can bear witness.",
+                "assigned_role": "Upgrades residue into testimony."
+              },
+              {
+                "source_ref": "100:7",
+                "root": "ش ه د",
+                "source_phrase_ar": "شَهِيدٌ",
+                "mapped_root_id": "root_000822",
+                "branch_id": "B001",
+                "branch_image_ar": "الحضور مع المشاهدة",
+                "literal_contribution": "Witnessing entails presence with observation.",
+                "assigned_role": "Makes the plume contemporaneous evidence, not only a later remnant."
+              }
+            ],
+            "structural_cues": [
+              "The deictic عَلَىٰ ذَٰلِكَ in 100:7 points back toward a preceding state while leaving the pronoun's witness referent open."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "A visible consequence can testify to its cause.",
+                "packet_supplies": "A remaining sign, raised dust, a witnessing mark, and presence with observation.",
+                "reader_infers": "The plume is the action's self-produced testimony.",
+                "alternatives": [
+                  "The witness may be the human, the Lord, or another referent rather than the dust.",
+                  "The trace mapping is non-dominant and exploratory."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The plume is a transient index of passage.",
+              "after": "The plume is self-incriminating testimony: the act manufactures a present mark that bears witness to the force and direction that made it."
+            },
+            "minimal_triggers": [
+              "The focus's remaining-sign activation",
+              "The witnessing-mark image in 100:7"
+            ],
+            "ablation": "Without the witnessing cue the trace still indicates passage but loses testimonial force; without the split trace mapping, witness language does not attach specifically to the focus ayah."
+          },
+          {
+            "model_id": "hft1004-d07-appropriation-wake",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_refs": [
+              "100:8"
+            ],
+            "trigger_roots": [
+              "ح ب ب",
+              "خ ي ر",
+              "ش د د"
+            ],
+            "mechanism": "The non-dominant focus mapping carries exclusive possession as well as residual trace. Later heart-bound love of beneficial good under the image of tight or miserly intensity activates the dust as the visible wake of acquisitive drive. This does not replace the physical plume; it gives that plume a social-affective motor.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B006",
+                "branch_image_ar": "استبداد المرء بالشيء لنفسه",
+                "literal_contribution": "The mapped root can image taking exclusive possession for oneself.",
+                "assigned_role": "Supplies the acquisitive orientation."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "A remaining mark points back to its producer.",
+                "assigned_role": "Makes the dust a wake of the orientation rather than an abstract moral topic."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love is an attachment abiding in the heart.",
+                "assigned_role": "Supplies the inward motive."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Khayr activates inclination toward what is taken as beneficial.",
+                "assigned_role": "Supplies the desired object without deciding whether it is morally good or material gain."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "branch_id": "B006",
+                "branch_image_ar": "شدة البخل",
+                "literal_contribution": "Intensity can take the specific form of severe withholding.",
+                "assigned_role": "Sharpens attachment into possessive retention."
+              }
+            ],
+            "structural_cues": [
+              "The human proposition in 100:8 supplies an inward motive after the outward kinetic sequence.",
+              "The split focus mapping keeps the affective reading attached to أَثَرْ rather than allowing it to float as a separate theme."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The outward trace can expose an inward motive.",
+                "packet_supplies": "Exclusive taking, a remaining sign, abiding love, desired benefit, and severe withholding.",
+                "reader_infers": "The dust plume is a visible wake of acquisitive intensity.",
+                "alternatives": [
+                  "Khayr can remain genuinely beneficial rather than possessed wealth.",
+                  "The physical agents need not symbolize the later human."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The plume records only speed and impact.",
+              "after": "The plume can also record motive: an outward wake generated by inward attachment that drives toward exclusive possession."
+            },
+            "minimal_triggers": [
+              "The focus's exclusive-possession and trace activations",
+              "The love-of-benefit and severe-withholding images in 100:8"
+            ],
+            "ablation": "Without the focus's possession branch the reading becomes an unanchored moral gloss; without the later love and intensity cues, possession remains a dormant lexical possibility."
+          },
+          {
+            "model_id": "hft1004-d08-unquenched-dryness",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_refs": [
+              "100:8"
+            ],
+            "trigger_roots": [
+              "ح ب ب",
+              "خ ي ر",
+              "ش د د"
+            ],
+            "mechanism": "The focus noun contains a live opposition between water that settles thirst and raised dry dust. Later love, fullness, benefit, and intensity turn that opposition into an appetite model: forceful pursuit produces a dry naqʿ that cannot perform the root's quenching possibility. The non-quenching arrow is inferred.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B002",
+                "branch_image_ar": "ماء ينقع الغلة ويروي",
+                "literal_contribution": "Naqʿ can image water that settles thirst and brings satisfaction.",
+                "assigned_role": "Supplies the unrealized possibility of quenching."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The locally strong material image is raised dry dust.",
+                "assigned_role": "Supplies the actual non-quenching output."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "branch_id": "B006",
+                "branch_image_ar": "الري حتى الامتلاء",
+                "literal_contribution": "The love root inventory also carries drinking until fullness.",
+                "assigned_role": "Reinforces the appetite/satiety axis."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "branch_id": "B002",
+                "branch_image_ar": "المحبة الملازمة للقلب",
+                "literal_contribution": "Love remains attached within the heart.",
+                "assigned_role": "Supplies persistent appetite."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "The appetite inclines toward perceived benefit.",
+                "assigned_role": "Supplies the sought object."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ش د د",
+                "source_phrase_ar": "شَدِيدٌ",
+                "mapped_root_id": "root_000782",
+                "branch_id": "B002",
+                "branch_image_ar": "شدة القوة والصلابة",
+                "literal_contribution": "The attachment has force and hardness.",
+                "assigned_role": "Prevents easy relaxation or satiety."
+              }
+            ],
+            "structural_cues": [
+              "The later affective clause makes appetite explicit enough to reactivate the focus noun's water-versus-dust branch contrast."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "Contrasting accepted branches can function as an unrealized-versus-realized material fork.",
+                "packet_supplies": "Quenching water, raised dust, fullness, abiding love, desired benefit, and intensity.",
+                "reader_infers": "The pursuit raises dryness rather than reaching satiety, so motion reproduces thirst.",
+                "alternatives": [
+                  "The quenching and fullness branches may be lexically inactive here.",
+                  "The dust may have no affective function."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Naqʿ is simply dry dust.",
+              "after": "Naqʿ becomes a material paradox of appetite: the root can promise quenching, yet the driven action produces only airborne dryness and therefore no settled satisfaction."
+            },
+            "minimal_triggers": [
+              "The focus noun's quenching/dust branch opposition",
+              "The persistent-love and fullness images in 100:8"
+            ],
+            "ablation": "Without the focus water branch the appetite mechanism collapses into ordinary dust symbolism; without the later love cue the branch opposition remains material rather than affective."
+          },
+          {
+            "model_id": "hft1004-d09-micro-exhumation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:9"
+            ],
+            "trigger_roots": [
+              "ع ل م",
+              "ب ع ث ر",
+              "ق ب ر"
+            ],
+            "mechanism": "Later overturning of soil and uncovering what is buried scales up the focus disturbance. The raised dust becomes a small, present rehearsal of a larger inversion in which ground no longer contains what it covered. The scale and anticipatory relation are reader-supplied.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Earth is stirred and moved from its place.",
+                "assigned_role": "Supplies the local ground inversion."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "Displaced earth rises as dust.",
+                "assigned_role": "Makes ground's failure to remain covering visible."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "branch_image_ar": "انكشاف الشيء للعارف",
+                "literal_contribution": "Something becomes disclosed to a knower.",
+                "assigned_role": "Frames overturning as disclosure, not only displacement."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ب ع ث ر",
+                "source_phrase_ar": "بُعْثِرَ",
+                "mapped_root_id": "root_000130",
+                "branch_id": "B001",
+                "branch_image_ar": "قلب التراب وكشف المدفون",
+                "literal_contribution": "Soil is overturned and buried contents are uncovered.",
+                "assigned_role": "Supplies the later large-scale analogue."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "branch_image_ar": "مواراة الميت في القبر",
+                "literal_contribution": "The grave covers and hides the dead.",
+                "assigned_role": "Supplies the containing ground whose function is reversed."
+              }
+            ],
+            "structural_cues": [
+              "The later إِذَا clause shifts from an ongoing kinetic sequence to a future or conditional overturning.",
+              "Both scenes manipulate earth, but the later scene changes what the disturbed earth discloses."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The earlier local disturbance can prefigure the later universal or larger disturbance.",
+                "packet_supplies": "Stirred earth, raised dust, overturning soil, disclosure, and graves.",
+                "reader_infers": "The focus event is a micro-exhumation: ground already practices giving up what had been settled or covered.",
+                "alternatives": [
+                  "The two disturbances may be only verbally or materially analogous.",
+                  "The focus dust need not uncover any buried object."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Hooves or movement disturb only the surface.",
+              "after": "Surface disturbance becomes a small-scale rehearsal of ground reversal: what normally covers is made to rise, anticipating soil that yields what it concealed."
+            },
+            "minimal_triggers": [
+              "The focus's displaced-earth image",
+              "The soil-overturning and burial pair in 100:9"
+            ],
+            "ablation": "Without the later soil-overturning image the focus remains surface kinetics; without the grave image, the uncovering loses its containment reversal."
+          },
+          {
+            "model_id": "hft1004-d10-forensic-guidance",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_refs": [
+              "100:9"
+            ],
+            "trigger_roots": [
+              "ع ل م",
+              "ق ب ر"
+            ],
+            "mechanism": "Knowledge as a distinguishing mark sharpens the focus's trace branch. Dust can obscure direct sight while still guiding an observer toward the action that made it; hiddenness and evidence therefore coexist rather than cancel each other.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "A residual mark indicates a prior event.",
+                "assigned_role": "Anchors inference from dust back to action."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The mark is a raised cloud that can also block vision.",
+                "assigned_role": "Creates the evidence/concealment tension."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ع ل م",
+                "source_phrase_ar": "يَعْلَمُ",
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "branch_image_ar": "أثر يميز الشيء ويهدي إليه",
+                "literal_contribution": "A distinguishing trace guides toward the thing.",
+                "assigned_role": "Turns the plume into a navigable forensic sign."
+              },
+              {
+                "source_ref": "100:9",
+                "root": "ق ب ر",
+                "source_phrase_ar": "قُبُورِ",
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "branch_image_ar": "غموض الشيء وتطامنه",
+                "literal_contribution": "Something is obscure, low, or hidden.",
+                "assigned_role": "Supplies the hidden target that a trace can nevertheless indicate."
+              }
+            ],
+            "structural_cues": [
+              "The interrogative knowledge clause follows a sequence rich in visible effects and later asks about what is hidden."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "A cloud can reduce direct perception and increase inferential evidence at the same time.",
+                "packet_supplies": "A remaining sign, raised dust, a mark that guides, and obscured hiddenness.",
+                "reader_infers": "The plume conceals bodies locally but reveals trajectory, force, and presence indirectly.",
+                "alternatives": [
+                  "An observer may be unable to read the plume accurately.",
+                  "The knowledge-mark branch may operate independently of the focus trace."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Dust either reveals passage or conceals the movers.",
+              "after": "Dust does both: it blocks direct sight while functioning as a forensic guide to the hidden event."
+            },
+            "minimal_triggers": [
+              "The focus's trace-like dust",
+              "The guiding-mark image in 100:9"
+            ],
+            "ablation": "Without the guiding-mark cue, concealment and trace remain a loose paradox; without the hiddenness cue, the forensic function loses its target."
+          },
+          {
+            "model_id": "hft1004-d11-surface-sifting-interior",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:10"
+            ],
+            "trigger_roots": [
+              "ح ص ل",
+              "ص د ر"
+            ],
+            "mechanism": "Later extraction of a core from its covering and identification of the source from which acts issue recast the focus disturbance as a crude sifting operation. Dust is the lifted residue of disturbed surface matter; the later operation extracts and gathers what is inwardly consequential. The residue/core alignment is inferred.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Disturbance separates material from its place.",
+                "assigned_role": "Supplies the first-stage agitation."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "Fine residue becomes airborne.",
+                "assigned_role": "Supplies the separated surface fraction."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "branch_id": "B002",
+                "branch_image_ar": "استخراج اللب أو النفيس من غلافه",
+                "literal_contribution": "The core or precious content is extracted from a covering.",
+                "assigned_role": "Supplies discriminating interior extraction."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ح ص ل",
+                "source_phrase_ar": "حُصِّلَ",
+                "mapped_root_id": "root_000330",
+                "branch_id": "B003",
+                "branch_image_ar": "البقية والحثالة بعد الرفع أو الفصل",
+                "literal_contribution": "Separation leaves a remainder or dross.",
+                "assigned_role": "Allows the focus dust to be read as residue rather than the sought core."
+              },
+              {
+                "source_ref": "100:10",
+                "root": "ص د ر",
+                "source_phrase_ar": "صُّدُورِ",
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "branch_image_ar": "الأصل الذي تصدر عنه الأفعال",
+                "literal_contribution": "The breast is activated as the origin from which actions issue.",
+                "assigned_role": "Supplies the interior source whose contents matter."
+              }
+            ],
+            "structural_cues": [
+              "Passive perfect forms in 100:9-10 shift agency away from the earlier runners and toward what is done to ground and interiors.",
+              "External raised matter is followed by explicit extraction of what is within."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The physical separation of fine dust can analogize a later discriminating extraction.",
+                "packet_supplies": "Agitation, airborne residue, extraction of a core, leftover dross, and an interior source of acts.",
+                "reader_infers": "The focus is an indiscriminate surface sifting that prepares a contrast with precise disclosure of inward content.",
+                "alternatives": [
+                  "Dust may be product rather than discarded residue.",
+                  "The interior extraction may have no material analogy to the earlier scene."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "The plume is the main product of surface impact.",
+              "after": "The plume becomes the lifted residue of a rough sifting process, contrasted with the later exact extraction of the inward source and its consequential core."
+            },
+            "minimal_triggers": [
+              "The focus's separated dust",
+              "The core-extraction and interior-source pair in 100:10"
+            ],
+            "ablation": "Without the residue branch, the plume cannot cleanly occupy the dross side of the model; without the interior-source branch, later extraction remains material but not diagnostic of action."
+          },
+          {
+            "model_id": "hft1004-d12-veil-does-not-block-knowing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_refs": [
+              "100:11"
+            ],
+            "trigger_roots": [
+              "ر ب ب",
+              "خ ب ر"
+            ],
+            "mechanism": "The final knowledge-of-interiors cue changes the plume's concealment function from absolute hiding to observer-relative veiling. Dust can block human sight yet remain a trace, while sovereign inner knowledge is not occluded by the medium. The epistemic asymmetry is inferred from the branch pairing and repeated prepositional relation.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "Raised dust can occupy and obscure the visual field.",
+                "assigned_role": "Supplies the veil."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000011",
+                "branch_id": "B003",
+                "branch_image_ar": "علامة باقية تدل على ما كان",
+                "literal_contribution": "The same event leaves an indicating sign.",
+                "assigned_role": "Prevents concealment from becoming erasure."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "ر ب ب",
+                "source_phrase_ar": "رَبَّ",
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "branch_image_ar": "ربوبية وملك وسيادة",
+                "literal_contribution": "The final relation is framed by lordship, ownership, and sovereignty.",
+                "assigned_role": "Supplies the standpoint not contained by the agents' field."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "branch_image_ar": "العلم بالخبر وباطن الأمر",
+                "literal_contribution": "Khabīr activates knowledge of report and the inward reality of an affair.",
+                "assigned_role": "Supplies knowledge that penetrates beyond outward occlusion."
+              }
+            ],
+            "structural_cues": [
+              "The focus بِهِۦ and final بِهِمْ repeat the preposition while shifting from a medium of action to a relation of knowledge.",
+              "The final temporal marker يَوْمَئِذٍۢ closes the earlier visibility sequence with a claim about inward knowledge."
+            ],
+            "abductive_moves": [
+              {
+                "assumption": "The plume's concealment is relative to finite observers rather than ontologically erasing the event.",
+                "packet_supplies": "Raised dust, an indicating trace, sovereign relation, and knowledge of inward reality.",
+                "reader_infers": "The agents can manufacture a veil but cannot manufacture epistemic absence.",
+                "alternatives": [
+                  "The dust need not be intentionally concealing.",
+                  "The repeated preposition may be rhetorical without carrying a semantic reversal."
+                ]
+              }
+            ],
+            "changed_reading": {
+              "before": "Dust hides the agents or scene.",
+              "after": "Dust is an observer-relative veil, not erasure: it blocks direct sight, leaves evidence, and does not obstruct knowledge of the agents' inward reality."
+            },
+            "minimal_triggers": [
+              "The focus's veil-and-trace pairing",
+              "The inward-knowledge image in 100:11"
+            ],
+            "ablation": "Without inward knowledge the plume remains tactically concealing; without the trace branch, the model loses the claim that concealment itself still carries evidence."
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "hft1004-o01-audible-plume",
+            "confidence": "exploratory",
+            "why_surprising": "The familiar material reading of نَقْعًا strongly favors dust, so retaining a sound-field alongside it is form-distant and easy to suppress.",
+            "why_still_valid": "The focus inventory explicitly supplies a raised sustained cry, the other focus root supplies a confrontational surge, and the preceding context supplies audible exertion. The reading remains attached to both focus words rather than becoming a free-standing theme.",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B003) plus نَقْعًا (ن ق ع → root_001544/B005).",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B003",
+                "branch_image_ar": "هيجان إلى مواجهة أو غضب",
+                "literal_contribution": "A charge or affect surges toward confrontation.",
+                "assigned_role": "Supplies the rising force."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B005",
+                "branch_image_ar": "نقع الصوت المرتفع",
+                "literal_contribution": "Naqʿ can be a raised or continuous cry.",
+                "assigned_role": "Supplies an audible rather than particulate result."
+              },
+              {
+                "source_ref": "100:1",
+                "root": "ض ب ح",
+                "source_phrase_ar": "ضَبْحًا",
+                "mapped_root_id": "root_000901",
+                "branch_id": "B001",
+                "branch_image_ar": "صوت الضباح",
+                "literal_contribution": "The earlier motion is explicitly sonic.",
+                "assigned_role": "Makes the acoustic branch cohere with the sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The agents raise only a visible dust cloud.",
+              "after": "They also raise an audible plume: exertion and confrontation swell into a sustained din that occupies space like dust."
+            },
+            "rendering_caution": "Render as a coexisting sensory activation, not as a replacement lexical translation of نَقْعًا and not as a claim that the dust reading is weak."
+          },
+          {
+            "outlier_id": "hft1004-o02-sterile-spark-economy",
+            "confidence": "exploratory",
+            "why_surprising": "It connects an obscure 'useless sparks' branch under love with the earlier ignition and the focus dust, crossing kinetic, affective, and evaluative domains.",
+            "why_still_valid": "Every link is packet-supplied: hidden fire emerges, one love branch names sparks from which no benefit is obtained, khayr names beneficial good, and the focus action ends in raised dust. The claim is only that this branch network activates an expenditure-without-yield reading.",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B001) and نَقْعًا (ن ق ع → root_001544/B004).",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B001",
+                "branch_image_ar": "انبعاث الشيء وانتشاره ظاهرا",
+                "literal_contribution": "Energy releases matter into outward display.",
+                "assigned_role": "Supplies visible expenditure."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B004",
+                "branch_image_ar": "نقع الغبار المثار",
+                "literal_contribution": "The displayed output is dust.",
+                "assigned_role": "Supplies a dry residue rather than a nourishing product."
+              },
+              {
+                "source_ref": "100:2",
+                "root": "و ر ي",
+                "source_phrase_ar": "مُورِيَٰتِ",
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "branch_image_ar": "نار كامنة تخرج من الزند",
+                "literal_contribution": "Hidden fire emerges as sparks.",
+                "assigned_role": "Supplies the first spectacular output of motion."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "ح ب ب",
+                "source_phrase_ar": "حُبِّ",
+                "mapped_root_id": "root_000286",
+                "branch_id": "B011",
+                "branch_image_ar": "نار الحباحب شرر لا ينتفع به",
+                "literal_contribution": "A love-root branch names sparks from which no benefit is obtained.",
+                "assigned_role": "Activates the possibility of brilliant but sterile expenditure."
+              },
+              {
+                "source_ref": "100:8",
+                "root": "خ ي ر",
+                "source_phrase_ar": "خَيْرِ",
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "branch_image_ar": "الميل إلى الخير النافع",
+                "literal_contribution": "Khayr is oriented toward actual benefit.",
+                "assigned_role": "Provides the evaluative contrast between spectacle and yield."
+              }
+            ],
+            "changed_reading": {
+              "before": "Sparks and dust certify speed and power.",
+              "after": "Their brilliance can coexist with sterility: intense motion spends itself into sparks and dust while the question of actual benefit remains open."
+            },
+            "rendering_caution": "Keep this as a contained cross-domain activation. It does not establish that the local word حُبِّ means sparks or that the kinetic scene is simply condemned."
+          },
+          {
+            "outlier_id": "hft1004-o03-released-hazard",
+            "confidence": "exploratory",
+            "why_surprising": "It reads the cloud as a disturbed fixed toxin rather than ordinary dust, using a remote but accepted branch of the focus noun.",
+            "why_still_valid": "The model uses only focus material: one root stirs something from its settled place and the other can name a settled or lethal poison. The resulting aerosol direction is explicitly marked as reader inference.",
+            "focus_anchor": "أَثَرْ (ث و ر → root_000210/B002) acting on نَقْعًا (ن ق ع → root_001544/B006).",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "A settled substance is disturbed and moved.",
+                "assigned_role": "Supplies release from containment."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B006",
+                "branch_image_ar": "سم ناقع ثابت أو قاتل",
+                "literal_contribution": "Naqʿ can image fixed or lethal poison.",
+                "assigned_role": "Supplies the hazardous material possibility."
+              }
+            ],
+            "changed_reading": {
+              "before": "Disturbance raises inert particulate matter.",
+              "after": "Disturbance may be carried as release of a settled hazard: the cloud is dangerous because force has mobilized what was fixed."
+            },
+            "rendering_caution": "Do not translate نَقْعًا as poison here. Preserve this only as a hazard-mechanism outlier licensed by the inventory and subordinate to the strong dust reading."
+          },
+          {
+            "outlier_id": "hft1004-o04-terrain-assay",
+            "confidence": "exploratory",
+            "why_surprising": "It treats the plume as information about the substrate's ecological state by combining clay-flat, settled-water, barren-earth, and soft-earth images across distant cues.",
+            "why_still_valid": "The focus noun itself supplies ground-basin and settled-water branches, while later context supplies barren land and soft earth with water. The reading remains a material account of what kind of ground can be raised, not an independent ecology theme.",
+            "focus_anchor": "نَقْعًا under ن ق ع → root_001544/B007 and root_001544/B001, with أَثَرْ retaining the disturbance action.",
+            "activation_trace": [
+              {
+                "source_ref": "100:4",
+                "root": "ث و ر",
+                "source_phrase_ar": "أَثَرْ",
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "branch_image_ar": "إثارة الشيء وتحريكه من موضعه",
+                "literal_contribution": "Impact tests the substrate by displacing it.",
+                "assigned_role": "Supplies the material assay."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B007",
+                "branch_image_ar": "نقاع الأرض القيعان السهلة",
+                "literal_contribution": "The focus root can identify level clay flats or basins.",
+                "assigned_role": "Specifies a plausible ground morphology."
+              },
+              {
+                "source_ref": "100:4",
+                "root": "ن ق ع",
+                "source_phrase_ar": "نَقْعًا",
+                "mapped_root_id": "root_001544",
+                "branch_id": "B001",
+                "branch_image_ar": "استقرار الماء وما ينقع فيه",
+                "literal_contribution": "The same root can identify settled water and a steeping or gathering place.",
+                "assigned_role": "Introduces moisture and settlement as alternative substrate states."
+              },
+              {
+                "source_ref": "100:6",
+                "root": "ك ن د",
+                "source_phrase_ar": "كَنُودٌ",
+                "mapped_root_id": "root_001321",
+                "branch_id": "B003",
+                "branch_image_ar": "الأرض التي لا تنبت",
+                "literal_contribution": "A later cue images barren, non-growing earth.",
+                "assigned_role": "Supplies the dry ecological extreme."
+              },
+              {
+                "source_ref": "100:11",
+                "root": "خ ب ر",
+                "source_phrase_ar": "خَبِيرٌۢ",
+                "mapped_root_id": "root_000387",
+                "branch_id": "B002",
+                "branch_image_ar": "لين الأرض ومائها",
+                "literal_contribution": "A final branch image names the softness of earth and its water.",
+                "assigned_role": "Supplies the moist ecological counter-state."
+              }
+            ],
+            "changed_reading": {
+              "before": "Any sufficiently fast movement produces the same generic dust.",
+              "after": "The plume can be read as a substrate assay: impact reveals whether the traversed ground is dry and barren, clayey and basin-like, or soft with retained water."
+            },
+            "rendering_caution": "Do not infer a specific historical terrain or weather condition. The outlier preserves a branch-activated material mechanism, not a geographical identification."
+          }
+        ],
+        "discarded_or_unchanged": [
+          "Literal bovine, dried-curd, fixed-name, zodiacal, surface-scum, and protective-bag branches did not produce a coherent changed reading of the focus construction.",
+          "Prepared food, slaughter, ugly abuse, and the experienced-water-hole proverb under the focus noun remained lexically available but did not integrate with the focus verb more strongly than retained models.",
+          "Counting, waiting-period, calendrical return, proper-name, kinship, bird, vessel, and plant branches in the context did not change the focus reading.",
+          "Sword-mark and marked-hoof images repeated the stronger residual-trace mechanism without adding a distinct causal or spatial function.",
+          "The literal bull branch could reinforce animal imagery, but it did not independently alter how أَثَرْنَ بِهِۦ نَقْعًا works and was therefore left unchanged."
+        ],
+        "summary": {
+          "strongest_changes": [
+            "100:1 supplies the repeated-impact engine: audible running turns generic stirring into a sustained causal plume.",
+            "100:5 gives the plume an inverse geometry: dust disperses outward while the agents penetrate inward into a gathered center.",
+            "100:7 and 100:9 convert the non-dominant trace activation into witness and forensic guidance, allowing dust to conceal direct sight while revealing passage.",
+            "100:9-10 scale surface disturbance into exhumation and sifting: ground gives up covering matter, then inward content is precisely extracted.",
+            "100:11 makes concealment observer-relative: the plume can veil bodies without erasing their trace or blocking knowledge of inward reality."
+          ],
+          "what_was_special": "The focus pair is unusually generative because ث و ر supplies disturbance, emergence, confrontation, and a split ء ث ر trace/possession family, while ن ق ع holds dust beside settling water, quenching, sound, poison, and terrain. Context did not collapse these branches; it organized them into coexisting kinetic, optical, acoustic, evidentiary, appetitive, ecological, and disclosure mechanisms.",
+          "remaining_uncertainties": [
+            "The referent and exact function of بِهِۦ remain open; instrument, circumstance, consequence, and enabling envelope all remain possible.",
+            "The non-dominant ء ث ر mapping produces powerful trace and possession readings but is more form-distant than the dominant ث و ر disturbance model.",
+            "The acoustic, poison, sterile-spark, and terrain-assay readings are branch-anchored activations, not claims about the locally dominant lexical sense.",
+            "The human and material sequences may be analogically linked, causally linked, or simply juxtaposed; the packet does not state the direction.",
+            "The identity of the plural feminine agents is not fixed by the hermetic packet and was intentionally not imported from external commentary."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Dust as displaced concealment.** Evidence: ث و ر B002 stirring something from settled state; ن ق ع B004 raised dust; و ر ي B005 covering/hiding; ق ب ر B002 hidden inward sinking. Structural cue: the sequence moves from hidden fire to raised dust, then later to opened graves. Role: ثور supplies the act of agitation; نقع supplies the visible medium lifted from the ground. Abductive move: the same force that exposes sparks also produces a screen of dust, so disclosure and obscuration co-occur. Reading change: the ayah reads as a paradoxical unveiling that also veils.\n\n2. **Resurrection rehearsal.** Evidence: ث و ر B001 bursting up after stillness; ب ع ث ر B001 upturning buried contents; ق ب ر B001 graves; ح ص ل B001 resolving/revealing. Structural cue: a raised cloud from earth appears before the explicit eschatological upturning in 100:9. Role: dust is a preliminary sign of the ground's contents being disturbed. Abductive move: military dust becomes an image-scale rehearsal for the later cosmic excavation. Reading change: 100:4 is not only battlefield atmosphere; it anticipates earth giving up what was settled within it.\n\n3. **Noise becoming social alarm.** Evidence: ن ق ع B005 raised/sustained cry; ض ب ح B001 breath-sound; ص ب ح B004 morning alarm; ش ه د B008 visible sign. Structural cue: sound begins with animal breath, then the raid at morning implies alarm, then dust becomes a visible sign. Role: نقع as cry converts particulate disturbance into communicative disturbance. Abductive move: the dust cloud and sound together warn the gathered group before impact. Reading change: the ayah becomes an alarm event: the raid raises both matter and public awareness.",
@@ -10382,14 +11924,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 79,
+        "ayah_count": 11,
+        "row_count": 72,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10696,10 +12244,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s100/readers/reader_hft_a/100_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v3",
+          "baseline_models": 5,
+          "context_deltas": 12,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s100"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s100",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 109684,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

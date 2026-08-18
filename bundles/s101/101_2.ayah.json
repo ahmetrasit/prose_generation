@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.606794+00:00",
+  "generated_at": "2026-08-18T13:34:27.467707+00:00",
   "surah": 101,
   "ayah": 2,
   "ayahRef": "101:2",
@@ -775,7 +775,8 @@
       "morpheme_ids": [
         "m-w-s101-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:2:1"
+      "aligned_qac_word_ref_upstream": "101:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -791,7 +792,8 @@
         "m-w-s101-a002-w002-01",
         "m-w-s101-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:2:2"
+      "aligned_qac_word_ref_upstream": "101:2:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -994,7 +996,1099 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:2",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-impact-identity",
+            "confidence": "strong",
+            "focus_anchor": "The interrogative ما confronts the definite deverbal noun القارعة, whose only focus root is ق ر ع.",
+            "mechanism": "The noun can name an event or agent by the collision it delivers. The verbless question withholds every scale except impact, making identity arrive as an expected blow rather than as a neutral dictionary request.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Literal striking of one thing against another supplies the collision core and makes the focus noun an arriving striker."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare request to identify the named thing.",
+              "after": "A question about an event or agent whose identity consists in collision: what is this that strikes one thing against another?"
+            }
+          },
+          {
+            "model_id": "baseline-counterstroke",
+            "confidence": "medium",
+            "focus_anchor": "The active nominal القارعة remains anchored in the reciprocal-combat branch of ق ر ع.",
+            "mechanism": "The event is not only a one-way blow; it can be an encounter that answers resistance with resistance. The question leaves both contestants unstated and thereby keeps the adversarial relation open.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B002",
+                "role": "Meeting blow with blow supplies reciprocity and casts the named event as a counterforce rather than a single impact."
+              }
+            ],
+            "changed_reading": {
+              "before": "What is the blow that descends?",
+              "after": "What is the encounter that meets whatever stands before it blow for blow?"
+            }
+          },
+          {
+            "model_id": "baseline-warning-knock",
+            "confidence": "medium",
+            "focus_anchor": "The same القارعة can be heard through the ق ر ع branch in which a striking warning checks its hearer.",
+            "mechanism": "The question can perform the noun it asks about: it verbally knocks, rebukes, or arrests the listener before any referent is explained.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "A warning that strikes the hearer supplies the speech-act force by which the question itself checks and redirects attention."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question asks for information about an external event.",
+              "after": "The question is already a warning-knock: what is the thing whose mention should make the hearer stop and turn back?"
+            }
+          },
+          {
+            "model_id": "baseline-allotting-selector",
+            "confidence": "exploratory",
+            "focus_anchor": "القارعة is held against the lot-casting and chosen-share branches of its own root.",
+            "mechanism": "A striking event can also function as a decision procedure: lots collide or are drawn, a share emerges, and something is selected as choice or relied upon. The interrogative asks what decisive sorter bears this name.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B004",
+                "role": "Casting lots and drawing shares supplies a distributive mechanism in which the event decides an allocation."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B007",
+                "role": "The chosen or choice item supplies the result of selection and makes the event a revealer of what can be relied upon."
+              }
+            ],
+            "changed_reading": {
+              "before": "The event merely strikes indiscriminately.",
+              "after": "The event also decides shares and exposes what is selected or choice-worthy."
+            }
+          },
+          {
+            "model_id": "baseline-stripping-exposure",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus noun remains tied to ق ر ع through its bare, emptied, and hard-scraped branches.",
+            "mechanism": "Impact is read by its material aftermath: coverings are removed, an enclosure is emptied, and a hard substrate is left exposed. The event is therefore both the strike and the stripping it effects.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B008",
+                "role": "Baring, stripping, and emptying supply the event's exposing aftermath."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B011",
+                "role": "A hard surface scraped bare supplies the resistant substrate revealed when coverings and softness are removed."
+              }
+            ],
+            "changed_reading": {
+              "before": "What is the impacting event?",
+              "after": "What is the impact that strips inhabited or covered forms down to an exposed substrate?"
+            }
+          },
+          {
+            "model_id": "baseline-public-surface",
+            "confidence": "exploratory",
+            "focus_anchor": "The form القارعة exactly touches the branch naming the open, prominent part of a road or courtyard.",
+            "mechanism": "Alongside event-naming, the noun can cast a spatial undertone: a public, trafficked, exposed surface on which bodies meet and impacts occur. The interrogative leaves event and arena superimposed.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B010",
+                "role": "The open high surface of a road or courtyard supplies a public arena beneath the event sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "The noun names only what happens.",
+              "after": "The noun can also make the question hover over the exposed public arena where the happening becomes manifest."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-reverberant-name",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "The name lands before the focus, is interrogated in the focus, and returns after it. Repetition turns the three-verse sequence into strike, rebound, and restriking warning, strengthening both the physical-impact and speech-act baselines.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Literal collision anchors the focus occurrence as the middle impact in a repeated sequence."
+              },
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "The first repeated impact-name supplies the opening knock before the focus question."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "The returned name under the warning branch makes repetition function as a checking verbal blow."
+              }
+            ],
+            "structural_cues": [
+              "The same definite nominal occurs in 101:1, 101:2, and 101:3, with the shortest interrogative placed between two fuller frames."
+            ],
+            "reader_inference": "The packet supplies exact repetition plus impact and warning branches; I infer that the discourse rhythm iconically performs successive knocks. A live alternative is emphatic naming without sound-symbolic enactment.",
+            "changed_reading": {
+              "before": "The focus asks once about a previously named event.",
+              "after": "The focus is the rebound inside a threefold verbal impact: the name strikes, is questioned, and strikes again."
+            }
+          },
+          {
+            "model_id": "delta-knowledge-gate",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The simple ما question is immediately raised into a question about access to knowledge, and that access formula recurs before the terminal disclosure. The focus becomes an epistemic gate whose answer is not a synonym but a sequence of made-known effects.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "The impact branch anchors the unknown as an event encountered through its effects."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The knowledge branch supplies the first explicit threshold between the focus question and the ensuing images."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The repeated knowledge branch closes the image sequence with a second threshold before direct disclosure."
+              }
+            ],
+            "structural_cues": [
+              "101:2's compact ما-question is expanded in 101:3 and mirrored in 101:10, bracketing the intervening transformations."
+            ],
+            "reader_inference": "The packet supplies the knowing branch and the two epistemic frames; I infer that the focus asks how the event becomes knowable through staged effects. The alternative is that the formula only magnifies an already fixed referent.",
+            "changed_reading": {
+              "before": "What lexical definition identifies القارعة?",
+              "after": "What could make this impact knowable, when its identity must be reconstructed from transformations and a delayed disclosure?"
+            }
+          },
+          {
+            "model_id": "delta-transformative-time",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي و م",
+              "ك و ن"
+            ],
+            "mechanism": "A marked day and paired becoming clauses give the focus noun temporal and ontological scope. The striker is read as a regime in which people and mountains do not merely receive damage but become other kinds of matter and motion.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Physical impact supplies the initiating force whose scope is enlarged from contact to state change."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe occurring event of a day supplies a bounded temporal regime for the strike."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the people's altered state part of the event's identity."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The repeated becoming extends the same transformative regime from people to mountains."
+              }
+            ],
+            "structural_cues": [
+              "The temporal يَوْمَ governs two parallel clauses built with يكون/تكون and two similes."
+            ],
+            "reader_inference": "The packet supplies a severe day and paired state-occurrence clauses; I supply the causal arrow from القارعة to both metamorphoses. They could instead be descriptions that merely coincide with its time.",
+            "changed_reading": {
+              "before": "A discrete blow occurring at a moment.",
+              "after": "A bounded event-regime whose impact changes what kinds of beings and materials can exist within it."
+            }
+          },
+          {
+            "model_id": "delta-social-atomization",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و س",
+              "ف ر ش",
+              "ب ث ث"
+            ],
+            "mechanism": "The human collective is defined against wildness and by familiarity, then recast as light flyers dispersed from one another. The focus blow becomes a force that breaks social recognizability and coordinated gathering into erratic particles.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Literal collision supplies the disruptive force assigned to the loss of collective form."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiarity that removes estrangement supplies the human social coherence that the scene reverses."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The light flying moth supplies unstable particle-like motion for the human collective."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B006",
+                "role": "Fluttering close to the ground supplies disoriented, low, non-directed movement."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Literal scattering supplies the centrifugal result of the impact."
+              }
+            ],
+            "structural_cues": [
+              "A plural human subject is followed by a creature simile and a passive-result adjective."
+            ],
+            "reader_inference": "The packet supplies human familiarity, moth-lightness, flutter, and dispersal; I infer that the strike causes social atomization, not merely similar-looking crowd motion. The visual-only reading remains live.",
+            "changed_reading": {
+              "before": "The blow hits a crowd of still-recognizable people.",
+              "after": "The blow unthreads the crowd itself, turning human togetherness into scattered, uncoordinated motion."
+            }
+          },
+          {
+            "model_id": "delta-solid-to-fiber",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "The most elevated hard aggregate is made analogous to soft wool whose fibers are puffed apart. This activates the focus as a strike that reverses material constitution: resistance does not merely crack but loses the organization by which it was solid.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "One body striking another supplies the force acting on the hard aggregate."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B011",
+                "role": "The hard scraped surface supplies both initial resistance and the stripped substrate left after impact."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The elevated solid aggregate supplies the maximal image of coherent hardness."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B002",
+                "role": "Softness and breaking without clean separation supply the intermediate collapse of rigid structure."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Soft dyed wool supplies the replacement material for what had been mountain-hard."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffing wool or cotton supplies the final separation of compact mass into loose fibers."
+              }
+            ],
+            "structural_cues": [
+              "The mountain subject and wool predicate are joined by a simile whose final participle specifies a processed material state."
+            ],
+            "reader_inference": "The packet supplies hard aggregation, softness, wool, and fluffing; I infer a causal material sequence driven by the focus strike. A live alternative treats the simile as appearance alone, without a staged mechanics of unmaking.",
+            "changed_reading": {
+              "before": "The event is strong enough to hit even mountains.",
+              "after": "The event reverses solidity itself, unweaving a hard aggregate into loose, separated fibers."
+            }
+          },
+          {
+            "model_id": "delta-residual-weight",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر ش",
+              "ن ف ش",
+              "ث ق ل",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "People and mountains are first rendered light, fluttering, or fluffed; only afterward does a heavy/light measurement discriminate persons. The exposing event becomes an assay of residual weight: when ordinary mass and stability are stripped away, another kind of weight remains measurable.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B008",
+                "role": "Stripping and emptying supply the removal process that exposes whatever weight survives."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The moth's light flight supplies the de-weighting of human bodily coordination."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffed fibers supply the de-weighting of the landscape's most massive forms."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Heaviness opposed to lightness supplies the positive residual detected after universal destabilization."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B001",
+                "role": "Estimating by weight supplies the assay that registers the residual."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Lightness of load supplies the negative result opposed to retained weight."
+              }
+            ],
+            "structural_cues": [
+              "Two large-scale lightening similes precede paired clauses that contrast heavy and light scales."
+            ],
+            "reader_inference": "The packet supplies bodily and geological lightening followed by measurement; I infer that the event strips ordinary mass in order to reveal residual value-weight. The scales may instead begin a separate evaluative episode with no assay relation to the similes.",
+            "changed_reading": {
+              "before": "The strike destroys stable bodies and is followed by an unrelated weighing.",
+              "after": "The strike is a de-weighting test that removes visible mass so hidden weight can be measured."
+            }
+          },
+          {
+            "model_id": "delta-measured-allotment",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن",
+              "خ ف ف"
+            ],
+            "mechanism": "The focus root's lot-and-share possibility survives, but the scales revise it away from chance. Heavy and light outcomes make القارعة a decisive allocator whose sorting is disclosed as measured and just.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B004",
+                "role": "Drawing lots and shares supplies the baseline mechanism of selection and allocation."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B007",
+                "role": "The chosen or relied-on item supplies what the allocation reveals as having standing."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "The measure and weight branch replaces arbitrary selection with quantified consequence."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The scale of justice supplies the norm governing the event's distributive outcome."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B003",
+                "role": "Smallness of amount supplies the contrasting low measure by which the allocation divides."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B003",
+                "role": "Balancing and aligning two things supplies the paired comparison between the two result paths."
+              }
+            ],
+            "structural_cues": [
+              "The repeated scales occupy matching positions in the paired فأما/وأما clauses, while heavy and light reverse one another."
+            ],
+            "reader_inference": "The packet supplies lot-selection, choice, weight, justice, and paired balance; I infer that the focus event performs the allocation. A live alternative is that القارعة only precedes a distinct judgment process.",
+            "changed_reading": {
+              "before": "A selector that assigns outcomes like a cast lot.",
+              "after": "A decisive allocator whose apparently lot-like division is revised into measured, balanced, and just sorting."
+            }
+          },
+          {
+            "model_id": "delta-value-bearing-passage",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ش",
+              "ر ض و",
+              "خ ف ف"
+            ],
+            "mechanism": "Selection is not exhausted by survival: one path opens into life marked by satisfaction, acceptance, love, or assurance, while the light branch also carries a halo of being slighted. The event reveals relational standing as well as quantity.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B007",
+                "role": "The chosen, choice, or relied-on branch supplies the value-bearing result that the event reveals."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life and lived condition supply the positive path as an enduring mode rather than a momentary prize."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction opposed to displeasure supplies the affective quality of the selected life."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B004",
+                "role": "The non-dominant mapped branch of obedience, love, and guarantee broadens satisfaction into relational assurance."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B005",
+                "role": "Being treated lightly or with contempt supplies an exploratory value-halo around the low-weight path."
+              }
+            ],
+            "structural_cues": [
+              "The heavy-scale clause flows directly into a satisfying life, while the matching light-scale clause opens the opposed destination sequence."
+            ],
+            "reader_inference": "The packet supplies choice, life, two mapped satisfaction branches, and a lightness/contempt branch; I infer that measured weight discloses relational value. The live alternative confines خفت to amount and راضية to the condition of life without a selection mechanism.",
+            "changed_reading": {
+              "before": "The event selects what is quantitatively heavier.",
+              "after": "The event reveals what has relational standing: what can enter a life of acceptance and what proves slight or insubstantial."
+            }
+          },
+          {
+            "model_id": "delta-scatter-and-recollect",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ب ث ث",
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "A remote container branch in the focus is activated by a two-phase spatial sequence: the event scatters outward, then the light-scale path is assigned a 'mother' that is simultaneously origin, gathering-place, and downward fall. The strike becomes both centrifugal rupture and terminal recollection.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B012",
+                "role": "The bag or collecting-container branch supplies an exploratory receptacle function within the focus noun."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Literal dispersal supplies the outward first phase that makes later recollection consequential."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Mother as origin, gathering point, and return supplies the terminal collecting relation."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a chasm supplies the downward vector and the shape of the terminal receptacle."
+              }
+            ],
+            "structural_cues": [
+              "After the paired scales, the possessive construction فأمه is predicated directly by هاوية."
+            ],
+            "reader_inference": "The packet supplies scattering, a collecting vessel, mother as return, and falling; I infer a centrifugal-to-centripetal process governed by the event. The alternative is an idiomatic destination statement with no literal recollection or container force.",
+            "changed_reading": {
+              "before": "The impact only scatters its objects away from one another.",
+              "after": "The impact first scatters and then gathers downward, assigning an inverted origin or receptacle to what lacks weight."
+            }
+          },
+          {
+            "model_id": "delta-warning-as-protection",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي",
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The warning-knock culminates in knowledge, visible fire, and heat. A second branch of the final adjective introduces a discourse-level reversal: by making the heated endpoint known, the striking warning can itself guard or prevent.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "The striking warning supplies the focus as an utterance intended to arrest and redirect the hearer."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The knowledge branch supplies the transition from warning-question to disclosed endpoint."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire supplies the concrete danger announced by the warning."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "A visible beacon supplies the warning's function of making distant danger perceptible."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heat and heating supply the literal intensity of the disclosed endpoint."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and prevention supply the exploratory discourse effect of a warning that guards by disclosure."
+              }
+            ],
+            "structural_cues": [
+              "The second epistemic formula is answered immediately by the final two-word nominal clause."
+            ],
+            "reader_inference": "The packet supplies warning, knowing, visible fire, heat, and a protection branch under ح م ي; I assign protection to the speech's effect rather than to the fire's surface description. The live alternative is that only heat is active in حامية and no protective reversal belongs to the focus.",
+            "changed_reading": {
+              "before": "The question rebukes by frightening the hearer.",
+              "after": "The question strikes protectively: it makes the heated endpoint visible early enough for warning itself to function as a guard."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-split-root-torrent",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the packet's split mapping sends د ر ي not only to knowledge but also to د ر ر images of gush and whirlpool. It remains anchored in the focus's impact branch and in the repeated knowledge positions, but downstream prose should present the torrent as a mapping-conditioned material analogy, not as the lexical meaning of أدرى.",
+            "focus_anchor": "The impact-question at القارعة is treated as the opening strike that releases a flow of disclosed images.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "Literal impact supplies the opening action that releases the subsequent disclosure."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B001",
+                "role": "Gushing outward from a source supplies the image of effects pouring from the first epistemic threshold."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A disturbed water-whirlpool supplies the funneling turn before the terminal answer."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a chasm supplies the downward pull that makes the image-stream converge."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question waits statically for an item of knowledge.",
+              "after": "The question is an impact that opens a torrent of images, which finally curls into a downward funnel and answer."
+            }
+          },
+          {
+            "outlier_id": "outlier-emptied-public-arena",
+            "confidence": "exploratory",
+            "containment": "The place-sense is exact within the focus inventory but unusual beside the event reading. Contextual scattering makes an emptied public arena spatially coherent, yet the syntax does not force القارعة to denote a road or courtyard; downstream prose should carry it only as a secondary spatial undertone or pun.",
+            "focus_anchor": "القارعة is held to its own branch naming the exposed, trafficked part of a road or courtyard.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B010",
+                "role": "The open high road or courtyard supplies the public arena superimposed on the event name."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humanity opposed to wildness supplies the ordinary occupants of the public arena."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the evacuation and loss of organized occupancy."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The collapse of elevated solid aggregates extends the emptying from civic surface to surrounding terrain."
+              }
+            ],
+            "changed_reading": {
+              "before": "What catastrophic event enters the world?",
+              "after": "What is this exposed public surface after its familiar occupants and stable boundaries have been scattered away?"
+            }
+          },
+          {
+            "outlier_id": "outlier-anti-generative-stroke",
+            "confidence": "exploratory",
+            "containment": "This activation is deliberately remote: the focus branch concerns an animal's generative covering blow, while context supplies life, mother, and fall. The reversal is still root-anchored and mechanically coherent, but downstream prose must label it an anti-generative counterimage and never claim that breeding is the surface denotation of القارعة.",
+            "focus_anchor": "The focus noun activates the rare generative-blow branch of its own root and then has that generativity reversed by the context.",
+            "activation_trace": [
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B003",
+                "role": "The stallion's covering blow supplies a remote model of impact that normally generates life."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life supplies the positive generative pole against which the later reversal becomes visible."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "The mother as bearer and nurturer supplies the expected destination of generation."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "The falling chasm reverses maternal nurture into a downward anti-birth destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The strike is simply destructive.",
+              "after": "As a contained counterimage, the strike grotesquely reverses generation: one path reaches life, while 'mother' becomes descent rather than nurture."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Repetition changes the focus from a lexical query into the middle beat of an enacted, reverberating impact.",
+            "The day and becoming clauses enlarge a discrete blow into a regime that atomizes human society and unweaves solidity into fiber.",
+            "Moth-lightness, fluffed mountains, and later scales turn stripping into an assay of residual weight.",
+            "The lot-and-choice baseline is revised into measured allocation, while the warning baseline becomes potentially protective through disclosure of fire and heat."
+          ],
+          "what_was_special": "The single focus noun sustained coexisting collision, counterstroke, rebuke, allotment, stripping, public-space, and container mechanisms. Context did not collapse them into one referent; it organized them into temporal, material, social, judicial, epistemic, and spatial changed readings, with remote branches explicitly contained rather than suppressed.",
+          "remaining_uncertainties": [
+            "The repeated noun may iconically perform successive knocks, or repetition may only provide emphatic framing.",
+            "Lot, place, container, and generative branches may be live undertones or reader-supplied analogies rather than active lexical senses here.",
+            "The د ر ي to د ر ر torrent model depends on a split mapping and should remain exploratory.",
+            "Protection under ح م ي is assigned to the warning's discourse effect, not confidently to the surface sense of حامية."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Question as magnifying impact. Evidence: ق ر ع B001/B006; د ر ي B001 appears in the next ayah. Structural cue: bare nominal repetition is now preceded by ما. Mechanism: the question does not request ordinary information; it makes the strike reverberate by withholding definition. Abductive move: I infer that repetition plus interrogation intensifies rather than explains. Reading change: \"what is al-Qari'ah\" reads as a second knock, not a neutral query.\n\n2. The event as unassigned share. Evidence: ق ر ع B004, lots and shares; و ز ن B001/B002 later, weighing and justice. Structural cue: ما leaves the referent undetermined before the later measured division. Mechanism: unknownness marks the event before its outcomes have been distributed. Abductive move: I supply an analogy between interrogative indeterminacy and lot/scale indeterminacy before decision. Reading change: the ayah becomes the suspense before apportionment: the share has not yet fallen.\n\n3. The open road/courtyard as question-space. Evidence: ق ر ع B010, exposed road/courtyard; ف ر ش B001/B002 in 101:4, spreading and prepared surface. Structural cue: the question is followed by human dispersal across a broad scene. Mechanism: the undefined قارعة opens a visible field into which people will be spread. Abductive move: I infer spatial expansion from the later similes. Reading change: ما القارعة reads as opening an arena rather than merely asking for a definition.",
@@ -4970,14 +6064,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5074,10 +6174,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 6,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 83750,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

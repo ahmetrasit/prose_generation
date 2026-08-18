@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:29.500961+00:00",
+  "generated_at": "2026-08-18T13:34:38.205690+00:00",
   "surah": 109,
   "ayah": 1,
   "ayahRef": "109:1",
@@ -1176,7 +1176,8 @@
       "morpheme_ids": [
         "m-w-s109-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:1:1"
+      "aligned_qac_word_ref_upstream": "109:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1190,7 +1191,8 @@
       "morpheme_ids": [
         "m-w-s109-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "109:1:2"
+      "aligned_qac_word_ref_upstream": "109:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1204,7 +1206,8 @@
       "morpheme_ids": [
         "m-w-s109-a001-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "109:1:3"
+      "aligned_qac_word_ref_upstream": "109:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1220,7 +1223,8 @@
         "m-w-s109-a001-w003-01",
         "m-w-s109-a001-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "109:1:4"
+      "aligned_qac_word_ref_upstream": "109:1:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2016,7 +2020,746 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s109/packets/109_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "109:1",
+      "window": [
+        "109:1",
+        "109:2",
+        "109:3",
+        "109:4",
+        "109:5",
+        "109:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "109:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_public_articulation",
+            "confidence": "strong",
+            "focus_anchor": "The imperative قُلْ and the direct plural vocative ٱلْكَٰفِرُونَ.",
+            "mechanism": "A commanded utterance converts a distinction from an inward position into an audible event before the people named by it. The truth-covering branch of the addressee noun gives that publicity a revealing function: speech brings a concealed opposition into the shared scene.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated speech supplies the public, audible act through which the distinction is made present."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Rejection or concealment of truth supplies what the commanded utterance publicly exposes and confronts."
+              }
+            ],
+            "changed_reading": {
+              "before": "An instruction to recite a proposition to a named audience.",
+              "after": "A commissioned act of disclosure that makes a covered truth-relation publicly audible."
+            }
+          },
+          {
+            "model_id": "baseline_relational_disavowal",
+            "confidence": "medium",
+            "focus_anchor": "قُلْ opens speech toward an explicitly addressed collective, while ٱلْكَٰفِرُونَ can carry a branch of repudiation.",
+            "mechanism": "The opening can stage a verbal encounter whose purpose is not persuasion alone but the drawing of an association boundary. A negotiation branch under saying and a disavowal branch under the addressee noun make the line sound like the first move in defining which relation will not be shared.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Mutual verbal negotiation frames the imperative as entry into a live relation rather than detached reportage."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Repudiation gives the vocative a boundary-making force between the speaking and addressed parties."
+              }
+            ],
+            "changed_reading": {
+              "before": "A denunciatory label followed by an unspecified message.",
+              "after": "The opening of a face-to-face boundary declaration between parties whose association is being disclaimed."
+            }
+          },
+          {
+            "model_id": "baseline_doctrinal_self_location",
+            "confidence": "medium",
+            "focus_anchor": "The command to say stands immediately before a noun of religious rejection.",
+            "mechanism": "Because saying can denote a held doctrine, the imperative may demand public ownership of a position rather than mere vocal repetition. Addressing those who cover or reject truth simultaneously locates the speaker in relation to a counter-position.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Held belief or doctrine turns the command to speak into an instruction to own a position publicly."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Truth-rejection supplies the counter-position against which the speaker is made to locate himself."
+              }
+            ],
+            "changed_reading": {
+              "before": "Say words about unbelief.",
+              "after": "Publicly take and voice a doctrinal location before those aligned with rejection."
+            }
+          },
+          {
+            "model_id": "baseline_indication_breaks_cover",
+            "confidence": "exploratory",
+            "focus_anchor": "قُلْ is an imperative of saying, and ٱلْكَٰفِرُونَ is anchored in concrete images of covering.",
+            "mechanism": "A branch in which a thing's 'saying' is its indication allows the utterance to function as a sign, while concrete covering supplies a material obstruction. The line can therefore be heard as ordering the relation itself to become legible: indication interrupts cover.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "Saying as indication lets the utterance make an otherwise hidden relation signify itself."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Concrete concealment supplies the layer that the signifying act renders perceptible without physically removing it."
+              }
+            ],
+            "changed_reading": {
+              "before": "Speech reports that an audience has a settled identity.",
+              "after": "Speech is the sign-event by which a covered difference becomes perceptible."
+            }
+          },
+          {
+            "model_id": "baseline_delegated_classification",
+            "confidence": "exploratory",
+            "focus_anchor": "The speaker is commanded to utter the classificatory vocative ٱلْكَٰفِرُونَ rather than originating it unprompted.",
+            "mechanism": "The branch pair makes naming morally unstable: saying can shade into arrogating judgment, and the noun can participate in ascribing unbelief. The imperative resolves that pressure provisionally by presenting the classification as delegated speech, not the speaker's self-authorized verdict.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B010",
+                "role": "The possibility of arrogating judgment raises the question of who authorizes the naming act."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B006",
+                "role": "Ascription of unbelief makes the vocative an operative classification rather than a neutral description."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker chooses a polemical name for his opponents.",
+              "after": "A potentially judicial naming act is voiced under command, relocating its authority beyond the human speaker."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_109_2_allegiance_enactment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The first contextual turn repeats the same service-root across first and second persons. Its worship-and-submissive-obedience branch moves the opening away from a dispute over propositions alone: the addressed difference is enacted through incompatible relations of service.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Doctrine supplies the baseline belief-centered reading that the context expands into enacted allegiance."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Truth-rejection remains the focus anchor but is recast as a lived orientation rather than an abstract opinion alone."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship as submissive obedience supplies the practical allegiance in which the opening distinction is performed."
+              }
+            ],
+            "structural_cues": [
+              "109:2 places first-person and second-person forms of one root around parallel object positions.",
+              "The immediate shift from vocative naming to reciprocal action tests the label through practice."
+            ],
+            "reader_inference": "The packet supplies repeated person-marked service forms and an obedience branch; I infer that practical allegiance explains the vocative's classification. A live alternative is that the repetition merely specifies the doctrinal disagreement's object.",
+            "changed_reading": {
+              "before": "Address those who hold or conceal a contrary belief.",
+              "after": "Address counterparties whose truth-relation is embodied in a different and non-transferable allegiance."
+            }
+          },
+          {
+            "model_id": "delta_109_3_mirrored_role",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The audience is now described with a worshipper noun while the speaker's side retains a finite act, and the persons reverse across the clause. That mirror makes the earlier plural noun less like an isolated essence and more like one role disclosed within a reciprocal non-coincidence.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "The spoken command establishes the shared arena in which the parties can be mirrored and distinguished."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal lets the focus noun describe a relation being refused rather than only an intrinsic property."
+              },
+              {
+                "source_ref": "109:3",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "The shared worship-obedience field supplies comparable roles whose objects and personal alignments nevertheless do not coincide."
+              }
+            ],
+            "structural_cues": [
+              "109:3 reverses the persons found in 109:2.",
+              "A plural agent noun on the audience side is paired with a first-person finite verb."
+            ],
+            "reader_inference": "The packet supplies person reversal, a nominal/finite contrast, and one worship branch; I infer that these relationally reframe the focus noun. The live alternative is an emphatic restatement that leaves the noun wholly categorical.",
+            "changed_reading": {
+              "before": "ٱلْكَٰفِرُونَ names a self-contained class before any relation is stated.",
+              "after": "The name becomes legible inside a mirrored relation: comparable worshipping subjects remain non-interchangeable in allegiance."
+            }
+          },
+          {
+            "model_id": "delta_109_4_time_thickened_pledge",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "A speaker-side worshipper noun faces an audience-side past act. This variation thickens the initial command across stance and history: the utterance is not exhausted by a present retort but refuses incorporation into an already practiced pattern.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B015",
+                "role": "Earnest concern gives the commanded saying the durability of committed care rather than momentary sound."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Repudiation supplies the continuing separation that the speech carries across temporal viewpoints."
+              },
+              {
+                "source_ref": "109:4",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship and submissive obedience make the nominal stance and past practice two temporal faces of allegiance."
+              }
+            ],
+            "structural_cues": [
+              "109:4 pairs a speaker-side agent noun with an audience-side perfect verb.",
+              "The sequence varies the grammatical form while preserving the same service root."
+            ],
+            "reader_inference": "The packet supplies a nominal/perfect contrast within repeated worship language; I infer a durable refusal of inherited or prior practice. A live alternative is that the form variation is rhetorical reinforcement without a distinct temporal mechanism.",
+            "changed_reading": {
+              "before": "Say a refusal valid at the moment of confrontation.",
+              "after": "Voice a durable pledge that will not be absorbed into the addressees' established practice."
+            }
+          },
+          {
+            "model_id": "delta_109_5_anti_assimilation_formula",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "The exact worship configuration of 109:3 returns after the intervening temporal variation. In the presence of saying-as-negotiation, that return can function as a formal refusal of assimilative bargaining: the exchange is voiced, but its terms do not converge.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Negotiated speech supplies the social arena whose possible convergence the repeated formula blocks."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal gives the repetition its function as maintained non-association rather than conversational redundancy."
+              },
+              {
+                "source_ref": "109:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3",
+                  "5"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the allegiance that cannot be exchanged or blended despite continued address."
+              }
+            ],
+            "structural_cues": [
+              "109:5 repeats the wording and person alignment of 109:3 after 109:4 has varied tense and nominality.",
+              "Continued second-person address preserves encounter even while negation preserves separation."
+            ],
+            "reader_inference": "The packet supplies exact recurrence and a negotiation branch under the focus imperative; I infer that recurrence closes off negotiated assimilation. The live alternative is intensive emphasis with no bargaining scenario.",
+            "changed_reading": {
+              "before": "The opening initiates a declaration that might still be one move in persuasion.",
+              "after": "The opening licenses a repeated boundary formula: dialogue remains possible, but merger of allegiances is not its bargain."
+            }
+          },
+          {
+            "model_id": "delta_109_6_jurisdictional_partition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The final paired possessives allocate dīn to the two sides. Its obedience and customary-way branches convert the initial address into something charter-like: it defines separate regimes of allegiance and practice rather than merely fixing an insulting identity.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B016",
+                "role": "Definition or stated essence lets the commanded speech delimit the operative terms of the relationship."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal supplies the relational separation that the final allocation formalizes."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission make each possessed dīn a regime of allegiance rather than a label alone."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary way extend the allocation from belief into each party's practiced course."
+              }
+            ],
+            "structural_cues": [
+              "109:6 repeats one noun under second-person-plural and first-person possession.",
+              "The closing allocation answers the opening plural vocative with two explicitly bounded sides."
+            ],
+            "reader_inference": "The packet supplies paired possession plus obedience and customary-way images; I infer a jurisdictional partition whose speech acts like a boundary charter. A live alternative is a simpler declaration of two religions without legal or spatial force.",
+            "changed_reading": {
+              "before": "The opening labels a rejected group before listing disagreements.",
+              "after": "The opening convenes two parties so their non-shared regimes of allegiance and practice can be formally delimited."
+            }
+          },
+          {
+            "model_id": "delta_109_6_accounting_settlement",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "The account/recompense and financial-debt branches of dīn activate a second, coexisting mechanism. The paired possessives can resemble separate ledger columns, so the opening speech becomes a settlement of non-transferable liabilities rather than a demand that either party service the other's account.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Negotiated speech supplies the setting in which accounts or obligations might be stated and settled."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal prevents one party's obligation from being absorbed into the other's."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the image of separately answerable records."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies the sharper analogy of obligations that belong to distinct parties."
+              }
+            ],
+            "structural_cues": [
+              "The same dīn noun occurs twice with opposed possessors.",
+              "The closing construction allocates rather than erases the two sides."
+            ],
+            "reader_inference": "The packet supplies accounting, recompense, and debt branches plus paired possession; I supply the ledger-and-settlement arrow. The materially live alternative is that possession only distinguishes ways of worship, with no accounting mechanism active.",
+            "changed_reading": {
+              "before": "Say that the two parties profess different religions.",
+              "after": "State a settlement in which each party bears its own allegiance-account and cannot transfer its liability to the other."
+            }
+          },
+          {
+            "model_id": "delta_cross_context_non_arrogated_authority",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د",
+              "د ي ن"
+            ],
+            "mechanism": "Ownership and subjection images under both later roots return to the opening problem of classification. The one who says the charged vocative is himself under an imperative; repeated refusals of cross-service and the final allocation therefore make the utterance an exercise of received authority, not personal domination.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B010",
+                "role": "Arrogated judgment supplies the danger that the commanded form must distinguish from delegated speech."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B006",
+                "role": "Ascription of unbelief makes authority over the vocative's classification a live issue."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Bondage and ownership place the parties' speech and service inside competing authority relations."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B004",
+                "role": "Subjection and sovereignty extend the authority question into the final separation of regimes."
+              }
+            ],
+            "structural_cues": [
+              "The focus speaker appears first as the recipient of a command, not as an unprompted judge.",
+              "The context repeatedly negates cross-service before assigning dīn separately to each side."
+            ],
+            "reader_inference": "The packet supplies a commanded speaker, ownership/subjection branches, and separate allegiance; I infer that these relocate classificatory authority away from speakerly self-sovereignty. A live alternative is that the imperative only transmits wording and does not comment on authority.",
+            "changed_reading": {
+              "before": "The speaker dominates the addressees by assigning them a charged identity.",
+              "after": "A commanded speaker transmits a classification while simultaneously denying that he owns the addressees, their service, or their final account."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_few_words_boundary",
+            "confidence": "exploratory",
+            "containment": "This activation comes from the packet's non-dominant ق ل ل mapping for the focus root, so it is surprising and must not replace the morphology of قُلْ. It remains anchored through the supplied mapping and the ayah's compressed imperative-vocative form; downstream prose should present it only as a formal resonance of minimal, non-diluted speech.",
+            "focus_anchor": "The single-word imperative قُلْ initiates an unusually compressed direct address.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Fewness and smallness activate the possibility that restraint and compression are part of the utterance's boundary-making force."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Actual articulated speech keeps the resonance attached to saying rather than turning it into a lexical substitution."
+              }
+            ],
+            "changed_reading": {
+              "before": "Say whatever extended argument is needed.",
+              "after": "The command may value a few load-bearing words whose concision itself refuses argumentative dilution."
+            }
+          },
+          {
+            "outlier_id": "outlier_covered_seed",
+            "confidence": "exploratory",
+            "containment": "Reading the addressee noun through the cultivator who covers seed is materially vivid but branch-distant from its ordinary religious force. It remains valid as a packet-backed image anchored directly in ٱلْكَٰفِرُونَ and sharpened by later distinct practiced ways; downstream prose should mark it as an ecological analogy, not translate the audience as farmers or promise latent growth.",
+            "focus_anchor": "The noun ٱلْكَٰفِرُونَ carries a supplied branch in which covering is the cultivator's placement of seed under soil.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B008",
+                "role": "Seed-covering turns concealment into an ambiguous act that can bury, preserve, or prepare what is hidden."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Distinct habits or practiced ways provide the contextual analogue of different cultivations without supplying a growth claim."
+              }
+            ],
+            "changed_reading": {
+              "before": "The named group is defined only by a completed act of denial.",
+              "after": "Their covering can also be imagined, cautiously, as an active cultivation of a different field whose hidden contents remain contested."
+            }
+          },
+          {
+            "outlier_id": "outlier_submission_crowns_rival",
+            "confidence": "exploratory",
+            "containment": "The bowed-submission and crowning branches are form-distant members of the supplied ك ف ر inventory, making this a deliberately strange hierarchy reading. It remains anchored in the focus noun and is activated by the context's worship and sovereignty fields; downstream prose should describe an analogical mechanism of outward submission concealing rival authority, never claim that ٱلْكَٰفِرُونَ lexically means crowned or bowed people.",
+            "focus_anchor": "The charged plural noun ٱلْكَٰفِرُونَ is the packet anchor where covering, submissive gesture, and crowning unexpectedly coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B014",
+                "role": "Bowed submission supplies the outward posture whose true allegiance may remain covered."
+              },
+              {
+                "source_ref": "109:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B015",
+                "role": "Crowning supplies the rival center of authority that such submission can install or honor."
+              },
+              {
+                "source_ref": "109:2",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship as submissive obedience makes bodily lowering relevant to the allegiance dispute."
+              },
+              {
+                "source_ref": "109:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B004",
+                "role": "Sovereignty and subjection complete the hierarchy in which one submission can effectively crown another authority."
+              }
+            ],
+            "changed_reading": {
+              "before": "The vocative identifies people who simply refuse to submit.",
+              "after": "The vocative may expose a more paradoxical structure: visible submission can itself cover the rival authority it crowns."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated ع ب د context moves ٱلْكَٰفِرُونَ from a proposition-centered label into a distinction enacted through incompatible allegiances.",
+            "Person reversal, nominal/finite variation, and recurrence make the opening address relational and temporally durable rather than a one-off naming of an isolated essence.",
+            "The paired dīn possessives turn قُلْ into a boundary-setting act with coexisting jurisdictional, customary-way, and accounting-settlement readings.",
+            "Because the classifier is himself commanded, later ownership and sovereignty images strengthen a reading of delegated rather than self-arrogated authority."
+          ],
+          "what_was_special": "The focus inventories produced unusually live friction between speech, classification, and covering: saying could disclose, negotiate, define, or risk judgment, while the addressee noun could mark rejection, disavowal, material concealment, and hierarchy. Context did not collapse those possibilities; it redirected them into practical allegiance, reciprocal role, temporal pledge, partition, and settlement. The split ق و ل mapping also preserved a contained resonance of few, load-bearing words.",
+          "remaining_uncertainties": [
+            "The temporal force assigned to nominal and verbal variation may be a genuine mechanism or only rhetorical reinforcement.",
+            "The accounting and debt branches of dīn may structure the final allocation, or may remain a vivid but secondary analogy.",
+            "Material and derivative branches under ك ف ر are packet-backed but require careful containment when applied to the focus noun.",
+            "The ق ل ل activation is mapping-driven and formally suggestive; it must not be mistaken for the morphology or primary lexical sense of قُلْ."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The address exposes a covering before it judges a group.** The fixed ayah supplies ك ف ر B001, \"covering and concealment,\" and B003, \"covering or rejecting truth.\" The later activators are the repeated objects of worship in 109:2-5 and the final دِين split in 109:6. Mechanism: the addressees are not merely named by a social label; the address makes visible the covering relation that the later worship clauses will unfold. The abductive move is mine: the packet gives the covering/rejecting branches and later incompatible worship/dīn; I supply the arrow from hidden covering to public address. Reading change: \"ٱلْكَٰفِرُونَ\" reads as diagnostic exposure of a concealed/rejected truth, not only as a fixed category.\n\n2. **The command \"say\" turns the boundary into public record.** The fixed ayah supplies ق و ل B001, \"uttered speech,\" and B007, \"circulating talk or public report.\" The activator is the exact repetition of denial in 109:2-5, which gives the utterance a formulaic, recitable profile. Mechanism: a spoken declaration becomes something that can circulate as a public report of non-participation. The abductive move is mine: the packet gives utterance and repeated clauses; I infer public-record force from their formulaic shape. Reading change: قُلْ is not a neutral instruction to pronounce words; it launches a publicly repeatable boundary statement.\n\n3. **The ayah refuses negotiated exchange.** The fixed root ق و ل also has B009, \"mutual verbal negotiation,\" while ك ف ر has B005, \"disavowal.\" The activator is the lack of any imperative or request after 109:1; instead, the surah proceeds through four negated worship clauses and then allotment in 109:6. Mechanism: the command to speak occupies the place where bargaining might have occurred, but the speech itself disavows exchange. The abductive move is mine: the packet gives a negotiation branch and disavowal branch; I infer that repeated negation blocks the negotiation pathway. Reading change: the address becomes a controlled non-negotiation, not an invitation to doctrinal compromise.\n\n4. **Ascription is present but bounded by direct address.** ك ف ر B006, \"ascription of unbelief,\" is activated by the vocative form يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ. The later activator is 109:6, where each side is assigned its own دِين rather than the speaker absorbing the other side's account. Mechanism: the ayah performs naming/ascription, yet the direct address keeps the named party present as an interlocutor rather than turning them into an absent object. The abductive move is mine: the packet gives ascription and final allocation; I infer a bounded naming act rather than unlimited condemnation. Reading change: the vocative becomes a precise speech-act of designation inside a larger separation protocol.",
@@ -11073,14 +11816,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s109/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 45,
+        "ayah_count": 6,
+        "row_count": 38,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11208,10 +11957,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s109/packets/109_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s109/readers/reader_hft_a/109_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s109"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s109",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 51105,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

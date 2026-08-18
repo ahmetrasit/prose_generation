@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.180784+00:00",
+  "generated_at": "2026-08-18T13:33:36.177536+00:00",
   "surah": 88,
   "ayah": 26,
   "ayahRef": "88:26",
@@ -1529,7 +1529,8 @@
       "morpheme_ids": [
         "m-w-s088-a026-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:26:1"
+      "aligned_qac_word_ref_upstream": "88:26:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1543,7 +1544,8 @@
       "morpheme_ids": [
         "m-w-s088-a026-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:26:2"
+      "aligned_qac_word_ref_upstream": "88:26:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1559,7 +1561,8 @@
         "m-w-s088-a026-w003-01",
         "m-w-s088-a026-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:26:3"
+      "aligned_qac_word_ref_upstream": "88:26:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1575,7 +1578,8 @@
         "m-w-s088-a026-w004-01",
         "m-w-s088-a026-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:26:4"
+      "aligned_qac_word_ref_upstream": "88:26:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2449,7 +2453,1174 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_26.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:26",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:26",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_complete_reckoning",
+            "confidence": "strong",
+            "focus_anchor": "The noun حسابهم at 88:26[4], with the possessive suffix and fronted علينا, makes their reckoning the responsibility assumed by the speaker.",
+            "mechanism": "Counting becomes a complete account of what belongs to each person, while علينا marks custody of both the procedure and its completion.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning supplies the literal audit image and anchors a complete, proportioned account of them."
+              }
+            ],
+            "changed_reading": {
+              "before": "God will generally judge them.",
+              "after": "God takes upon Himself the complete reckoning of each person's case, with nothing delegated or left uncounted."
+            }
+          },
+          {
+            "model_id": "baseline_accountable_custody",
+            "confidence": "medium",
+            "focus_anchor": "حسابهم remains the focus noun, but علينا can frame it as an affair placed under divine responsibility rather than only a computed total.",
+            "mechanism": "The supervision branch turns reckoning into accountable management: the clause assigns an ongoing jurisdiction and not merely a moment of arithmetic.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Supervision and accountable management supplies the literal administrative image and makes علينا an assignment of jurisdiction."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their account is a number God will calculate.",
+              "after": "Their entire accountability is an affair God undertakes, administers, and brings to resolution."
+            }
+          },
+          {
+            "model_id": "baseline_sufficient_settlement",
+            "confidence": "exploratory",
+            "focus_anchor": "The same ح س ب root in حسابهم carries a branch of sufficiency, while علينا presents the matter as something the speaker guarantees.",
+            "mechanism": "Enoughness recasts the account as a settlement sufficient to dispose of every claim concerning them, without replacing the noun's primary reckoning sense.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Sufficiency and enoughness supplies a settling image: the divinely undertaken account is enough to resolve their case."
+              }
+            ],
+            "changed_reading": {
+              "before": "حسابهم names only an inventory of deeds.",
+              "after": "The undertaken reckoning is also the sufficient settlement of all that is due from and to them."
+            }
+          },
+          {
+            "model_id": "baseline_estimate_overruled",
+            "confidence": "exploratory",
+            "focus_anchor": "The possessive حسابهم can momentarily leave open whether the reckoning is merely of them or also the reckoning they form, while علينا relocates final determination.",
+            "mechanism": "The supposition branch creates an epistemic edge: human estimates remain provisional because the decisive reckoning rests with God.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Reckoning as supposition supplies the literal mental-estimate image and lets علينا reserve the conclusive estimate for God."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse concerns only an external audit performed on them.",
+              "after": "It also places every estimate, including their own expectations about themselves, under a final divine determination."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_report_to_disclosure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The surah opens with an arriving, renewed report of an all-enveloping event and closes with حساب. This activates the information-testing branch of the focus root: the final account is not bare arithmetic but the decisive disclosure and verification of what the covering event gathers.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B010",
+                "role": "Seeking and testing information supplies the focus image of an evidentiary inquiry and anchors disclosure in حسابهم."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival supplies the report's movement into hearing and starts an arrival-to-settlement frame."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as news supplies an evidentiary report whose contents the closing reckoning finally verifies."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "A covering that encompasses everything supplies both total scope and concealment, making the account a counter-movement toward disclosure."
+              }
+            ],
+            "structural_cues": [
+              "The opening interrogative introduces a report, while 88:26 closes with an emphatic nominal assignment after ثم."
+            ],
+            "reader_inference": "The packet supplies arrival, renewed report, and comprehensive covering; I supply the arrow from gathered or covered material to evidentiary disclosure in حساب. A live alternative is that 88:1 only announces the event and does not model the mechanics of reckoning.",
+            "changed_reading": {
+              "before": "The final account is a numerical total appended to the event.",
+              "after": "The final account is the event's evidentiary closure: what arrives first as report becomes fully disclosed, tested, and settled."
+            }
+          },
+          {
+            "model_id": "delta_labor_outcome_audit",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ن ص ب",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "One sequence joins purposeful work to exhaustion, while the counter-sequence joins earned striving to satisfaction. حسابهم therefore discriminates between mere expenditure of effort and effort whose result can be owned with satisfaction.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning supplies the comparative audit that can distinguish two outwardly active lives."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action supplies real labor rather than inactivity, forcing the account to assess more than whether work occurred."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting toil and affliction supplies effort's cost while withholding any guarantee that cost itself counts as success."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work, earning, and conduct supplies effort as acquired consequence, giving the positive sequence an accountable object."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction opposed to displeasure supplies the result by which the second striving is recognized as fitting."
+              }
+            ],
+            "structural_cues": [
+              "The parallel face descriptions at 88:2-3 and 88:8-9 pair activity with opposite experiential outcomes."
+            ],
+            "reader_inference": "The packet supplies purposeful work, exhausting cost, acquired striving, and satisfaction; I infer that the parallel sequences audit the relation between effort and outcome, not the quantity of motion alone. Alternatively, the sequences may describe two populations without specifying the criterion of their حساب.",
+            "changed_reading": {
+              "before": "Reckoning totals how much each person did.",
+              "after": "Reckoning tests what the labor was doing and what it actually yielded; strenuous activity and answerable striving do not count alike."
+            }
+          },
+          {
+            "model_id": "delta_sufficiency_test",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ع م",
+              "غ ن ي",
+              "ج و ع",
+              "ج ر ي"
+            ],
+            "mechanism": "The failed food is explicitly unable to suffice against hunger, whereas the positive scene contains continuously flowing provision. This sharply activates the focus root's enoughness branch: the final حساب settles what truly suffices and exposes provision that only appears to do so.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B003",
+                "role": "Sufficiency and enoughness supplies the focus criterion by which an apparent provision is tested and a case is finally settled."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Provision, livelihood, and good condition supplies food's promised function, which the following negations cancel."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the context's explicit failed criterion and directly activates enoughness within حساب."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The belly's emptiness supplies the unmet need against which the alleged provision proves insufficient."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision and giving supplies the counter-image of sufficiency that does not terminate at first consumption."
+              }
+            ],
+            "structural_cues": [
+              "The double negation in 88:7 denies both nourishment and relief from hunger, while 88:12 begins the positive scene's continuing provision."
+            ],
+            "reader_inference": "The packet supplies provision, explicit non-sufficiency, unmet hunger, and continuing giving; I infer that these make sufficiency a criterion inside the final reckoning. The alternative is that the food contrast describes reward and punishment but does not modify the sense of حساب.",
+            "changed_reading": {
+              "before": "The sufficiency branch merely suggests that God's account is adequate.",
+              "after": "The account itself becomes a test and settlement of adequacy: it distinguishes what truly answers a need from what leaves the need intact."
+            }
+          },
+          {
+            "model_id": "delta_prepared_allocation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "Raised, placed, aligned, and distributed furnishings form an administered environment in which every item has a relation and position. The management branch of حساب shifts from abstract oversight toward allocation: accountability culminates in placing outcomes within a prepared order.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Accountable management supplies the administrative focus image that can assign and maintain an ordered outcome."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising an object supplies one deliberate placement operation within the prepared environment."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something in an appointed or lower place supplies explicit positional assignment."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies relational order among repeated objects."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersing and distributing supplies coverage of the space rather than a single isolated placement."
+              }
+            ],
+            "structural_cues": [
+              "Four consecutive passive descriptions at 88:13-16 present a completed arrangement without naming a human arranger."
+            ],
+            "reader_inference": "The packet supplies four positional operations; I infer an administrative arrow from ordered objects to ordered allocation of accountable outcomes. A live alternative is that the sequence only depicts furnishings and contributes atmosphere rather than a model of حساب.",
+            "changed_reading": {
+              "before": "Accountability is an abstract record kept apart from its result.",
+              "after": "Accountability includes the managed allocation of each result into a prepared order, as exact in placement as the scene's furnishings."
+            }
+          },
+          {
+            "model_id": "delta_estimation_corrected_by_signs",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "س م و"
+            ],
+            "mechanism": "Directed perception, measured creation, and the non-dominant mapped image of a visible diagnostic sign turn the four observations into an exercise in inference. The supposition branch of حساب then reads as the conclusive correction of estimates formed from signs.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Reckoning as supposition supplies the provisional-estimate image that the final divine حساب can confirm or overturn."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directing sight or insight toward a thing supplies the deliberate evidence-gathering operation."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies an intelligible structure from which the observer can reason."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B002",
+                "role": "The split root's non-dominant image of a visible mark indicating condition supplies a diagnostic-sign reading for what is observed."
+              }
+            ],
+            "structural_cues": [
+              "Branchless ك ي ف repeats at 88:17[5], 88:18[3], 88:19[3], and 88:20[3], structurally pressing the manner of each observed arrangement without supplying a branch citation."
+            ],
+            "reader_inference": "The packet supplies directed perception, proportion, a visible-sign branch, and repeated manner questions; I infer that observers form estimates which the final حساب adjudicates. The live alternatives are ordinary contemplation of creation and the dominant س م و sense of sky or elevation.",
+            "changed_reading": {
+              "before": "Their reckoning is only something done to them after return.",
+              "after": "Their reckoning also answers the estimates they formed from visible signs, replacing provisional human inference with conclusive determination."
+            }
+          },
+          {
+            "model_id": "delta_cosmic_calibration",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ر ف ع",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "Creation is presented through proportioning, raising, erecting, and extending. These ordered operations activate the measure and proportion carried by the focus reckoning branch, so human حساب can be heard as calibration within the same exact order rather than an isolated courtroom sum.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning, including ordered measure and proportion in its packet scope, supplies the calibration image."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies the generative operation that makes created form answerable to an order."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies a vertical placement whose degree belongs to the observed arrangement."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something upright and prominent supplies fixed positioning within the terrestrial order."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An even extended surface supplies horizontal extent as the final dimension of the calibration sequence."
+              }
+            ],
+            "structural_cues": [
+              "The four parallel passive clauses at 88:17-20 move from creature to sky, mountains, and earth.",
+              "Branchless ك ي ف repeats at 88:17[5], 88:18[3], 88:19[3], and 88:20[3], foregrounding manner and proportion only as a structural cue."
+            ],
+            "reader_inference": "The packet supplies measured creation and three spatial operations; I supply the analogy that the same ordered calibration governs human حساب. Alternatively, the observations may demonstrate power without describing how persons are reckoned.",
+            "changed_reading": {
+              "before": "The final account is a legal calculation detached from the created world.",
+              "after": "Their account is a calibration within the same measured order that proportions creatures and assigns height, stance, and extent."
+            }
+          },
+          {
+            "model_id": "delta_jurisdictional_handoff",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ل ي س",
+              "س ط ر"
+            ],
+            "mechanism": "The addressee is restricted to reminding and explicitly denied controlling surveillance. The next علينا therefore becomes a jurisdictional boundary: reminder remains human speech, while coercive oversight and حساب remain God's responsibility.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Supervision and accountable management supplies the jurisdiction reserved by علينا after control is denied to the messenger."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder as that which causes recollection supplies the messenger's limited communicative office."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation supplies the explicit exclusion of controlling authority from that office."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer supplies the precise role denied to the messenger and reassigned at the level of divine حساب."
+              }
+            ],
+            "structural_cues": [
+              "The restriction إنما in 88:21 and negated عليهم in 88:22 are answered by emphatic علينا in 88:26."
+            ],
+            "reader_inference": "The packet supplies reminder, negation, and controlling oversight; I infer a transfer of jurisdiction from the denied عليهم relation to the asserted علينا relation. An alternative is that the lines only console the messenger and do not define حساب as administration.",
+            "changed_reading": {
+              "before": "علينا merely emphasizes that God will perform the calculation.",
+              "after": "علينا closes a division of offices: the messenger recalls without controlling, while God alone assumes oversight, compulsion, and final accountability."
+            }
+          },
+          {
+            "model_id": "delta_evasion_reversed_into_exposure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر",
+              "ء و ب"
+            ],
+            "mechanism": "Turning away and covering truth are followed by return. The information-testing branch of حساب becomes a reversal mechanism: evasion and concealment end in compelled presence, where the concealed matter is exposed and tested.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B010",
+                "role": "Seeking and testing information supplies the inquiry that turns concealed conduct into examinable material."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning the back and withdrawing supplies the attempted movement away from address and accountability."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing truth supplies the hidden content that the account must make answerable."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the place of return supplies the spatial reversal that brings the one who withdrew back into presence."
+              }
+            ],
+            "structural_cues": [
+              "The movement runs from turning away in 88:23 to return toward Us in 88:25 and then to reckoning in 88:26."
+            ],
+            "reader_inference": "The packet supplies withdrawal, concealment, and return; I supply the causal arrow from returned presence to exposure and testing in حساب. Alternatively, return may only precede judgement without implying an investigative process.",
+            "changed_reading": {
+              "before": "Reckoning passively records already visible deeds.",
+              "after": "Reckoning actively reverses evasion: what was turned from and covered is brought back into presence, exposed, and made answerable."
+            }
+          },
+          {
+            "model_id": "delta_account_after_announced_consequence",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ذ ب",
+              "ك ب ر",
+              "ء و ب"
+            ],
+            "mechanism": "The discourse announces the greater punishment before it states return and then حساب. That order weakens a simple model in which حساب is preliminary evidence-gathering before any consequence; it permits حساب as comprehensive settlement and accountable custody that remains after the consequence has already been announced.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Accountable management supplies a post-return settlement broad enough to follow an already announced consequence."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Pain and punitive consequence supplies the sanction stated before the return-and-account pair."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B002",
+                "role": "The gravest or main matter supplies the announced consequence's enlarged scope."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the destination supplies the stage placed between announced punishment and undertaken account."
+              }
+            ],
+            "structural_cues": [
+              "The surface order is punishment at 88:24, return at 88:25, and then حساب under ثم at 88:26."
+            ],
+            "reader_inference": "The packet supplies this discourse order; I infer that حساب need not be only a pre-sentence investigation and may name total settlement or custody. The materially live alternative is that the order is rhetorical rather than chronological, so no temporal doctrine should be extracted.",
+            "changed_reading": {
+              "before": "The account must be a trial that occurs before any punishment can be stated.",
+              "after": "The account can be the comprehensive settling and administration of accountability after return, not merely the fact-finding stage before a sentence."
+            }
+          },
+          {
+            "model_id": "delta_return_then_undertaking",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء و ب"
+            ],
+            "mechanism": "Two nearly matched emphatic clauses separate destination from responsibility: their return is to Us, then their account is upon Us. The prepositional shift creates a two-stage mechanism of recovered presence followed by assumed undertaking.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning supplies the procedure that begins once return has delivered its subjects."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Accountable management supplies the obligation encoded by upon Us and distinguishes responsibility from destination."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the place of return supplies the first-stage movement into divine presence."
+              }
+            ],
+            "structural_cues": [
+              "88:25 has إن إلينا إيابهم; 88:26 answers with ثم إن علينا حسابهم, preserving emphasis while shifting from إلى to على."
+            ],
+            "reader_inference": "The packet supplies return, the matched clauses, ثم, and the prepositional shift; I infer a handoff from arrival to undertaken procedure. A live alternative is that the parallel is stylistic emphasis without a staged mechanism.",
+            "changed_reading": {
+              "before": "Return and reckoning are one undifferentiated judgement event.",
+              "after": "Return delivers them to the destination; then God explicitly assumes the distinct work and responsibility of their account."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_celestial_return_cycle",
+            "confidence": "medium",
+            "containment": "This is surprising because it transfers a sunset image into human return and leans on the focus branch's broader scope of ordered celestial calculation. It remains anchored in حسابهم and the immediately preceding إيابهم, but downstream prose should present it as a cosmological resonance, not as the noun's direct lexical translation.",
+            "focus_anchor": "حسابهم at 88:26[4] carries counting and ordered calculation, directly adjacent to a return whose branch inventory includes the sun's return at setting.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and reckoning, whose packet scope includes ordered celestial courses, supplies the image of a completed and measurable cycle."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B007",
+                "role": "The sun setting toward its place of return supplies a cyclical model for إياب immediately before the final حساب."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The sky and whatever rises overhead supplies the visible field in which the return-cycle analogy operates."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each life ends at a static ledger.",
+              "after": "Return and account faintly resemble completion of an ordered orbit: each life comes back into the measure governing its course."
+            }
+          },
+          {
+            "outlier_id": "outlier_account_as_propping_and_placement",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the cushion image belongs to another derivational corner of ح س ب and cannot gloss حساب directly. It remains anchored by the packet's focus branch and the consecutive resting-place and placement imagery; render it only as a material analogy in which judgement sets each subject into a supported condition.",
+            "focus_anchor": "The focus root's B008 cushioning branch is activated against the prepared resting and placement sequence at 88:13-15.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "Cushioning and propping supplies the odd material focus image of an account that establishes a supported final position."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settling and reclining supplies the destination into which the propping image can place its subject."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something in an appointed position supplies the transition from abstract account to situated outcome."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies ordered relation among the positions rather than arbitrary seating."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account produces a verdict but has no material or positional consequence.",
+              "after": "As a contained material analogy, the account props and places each subject into the condition that the reckoning supports."
+            }
+          },
+          {
+            "outlier_id": "outlier_account_visible_on_faces",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins two remote color and face branches to tokens whose ordinary contextual senses differ. It remains anchored in the focus root's mottled-skin branch and the surah's repeated faces, but it should be described only as a visual activation: the account becomes manifest on persons, not as a claim that حساب literally means facial marking.",
+            "focus_anchor": "The ح س ب inventory at 88:26 includes a mottled bodily coloring branch, while the context foregrounds contrasting faces twice.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B009",
+                "role": "Mottled whiteness or altered skin coloring supplies the focus image of an inward account becoming bodily legible."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B007",
+                "role": "Whiteness covering an animal's face supplies a second remote image of condition appearing across a face."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face as the forward visible surface supplies the first display site for the negative outcome."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The repeated face supplies the matching display site on which the opposed positive outcome appears."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account remains an invisible ledger known only to the reckoner.",
+              "after": "As a visual resonance, the account becomes publicly legible in the altered condition of the persons it differentiates."
+            }
+          },
+          {
+            "outlier_id": "outlier_social_rank_revalued",
+            "confidence": "medium",
+            "containment": "This reading is form-distant because counted merit and inherited standing are peripheral branches rather than the default sense of حساب. It remains anchored in the focus root and a context saturated with face, rank, height, and elevation; qualify it as a revaluation resonance in which final account decides what genuinely counts as standing.",
+            "focus_anchor": "حسابهم activates the ح س ب branch of counted merits and social worth against contextual branches of prestige and elevation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B004",
+                "role": "Nobility and counted merits supplies the focus question of what grounds of social worth are finally allowed to count."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Prestige and social standing supplies a status value that the humbled face destabilizes."
+              },
+              {
+                "source_ref": "88:10",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Elevation in rank and honor supplies a positive status that can be distinguished from mere worldly standing."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of worth supplies the resulting reassignment of rank after what counts has been revalued."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account totals deeds while leaving prior ideas of status untouched.",
+              "after": "The account also revalues standing itself, deciding which merits truly count and reversing merely inherited or displayed prestige."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The paired labor scenes change حساب from a gross activity count into an audit of what effort was for and what it yielded.",
+            "The explicit failure to suffice against hunger activates حساب as a test and complete settlement of adequacy.",
+            "The reminder/controller contrast makes علينا a jurisdictional boundary rather than generic emphasis.",
+            "The matched return and account clauses separate arrival to God from the responsibility God then undertakes."
+          ],
+          "what_was_special": "This closing line gathers several live mechanisms without collapsing them: arithmetic reckoning, accountable custody, sufficient settlement, correction of estimates, ordered calibration, reversal of evasion, and a return-to-procedure handoff. The packet also preserves branch-distant visual, positional, social, and celestial resonances that a conservative audit would erase.",
+          "remaining_uncertainties": [
+            "The punishment-return-account order may be rhetorical rather than chronological, so the post-consequence settlement reading remains non-exclusive.",
+            "The supposition and sufficiency branches may color the primary reckoning sense without becoming independent senses of the surface noun.",
+            "The cushioning, bodily coloring, and counted-status outliers are valid activations but too derivationally distant to use as unqualified glosses.",
+            "The non-dominant و س م mapping at 88:18 may contribute a diagnostic-sign image, while the dominant sky/elevation reading remains fully live."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Final reckoning as counted account.** Evidence: `ح س ب` B001 counting/reckoning; prior `ع م ل` B001 work, `س ع ي` B002 endeavor, `ذ ك ر` B009 reminder. Structural cue: the last ayah follows return and closes the surah. Role: reckoning evaluates the deeds and responses activated throughout. Abductive move: work, effort, refusal, and reminder require a counting endpoint. Reading change: the ayah reads as the final accounting mechanism of the whole packet.\n\n2. **Sufficiency relocated to God.** Evidence: `ح س ب` B003 sufficiency/enoughness; earlier `غ ن ي` B002 availing/sufficing is negated, `ل ي س` B001 negation, and `ن ع م` B001 favor. Structural cue: the punished food does not suffice, but the final account is “upon Us.” Role: divine reckoning is sufficient where creaturely provision failed. Abductive move: the last word can answer the earlier question of what avails. Reading change: `حساب` reads not only as arithmetic judgment but as adequate divine settlement.\n\n3. **Supervisory management without messenger domination.** Evidence: `ح س ب` B006 supervision/accountable management; `س طر` B003 control denied to the messenger; `ء ل ه` B002 divine name in 88:24. Structural cue: the final claim follows the explicit denial of human control. Role: account is a divine supervisory function, not a human one. Abductive move: the surah distinguishes reminder from management and management from coercive human oversight. Reading change: the final ayah seals the agency map: remind, do not control; they return; We account.\n\n4. **Honor counted or lost.** Evidence: `ح س ب` B004 nobility/countable merits; `و ج ه` B006 status/eminence, `ك ب ر` B005 rank, `ن ع م` B001 favor. Structural cue: faces are either humbled or easeful, and final counting decides standing. Role: account counts not just acts but the merits or standing manifested by faces. Abductive move: public face-status is grounded in what can be counted before God. Reading change: `حسابهم` includes the reckoning of honor and worth, not mere numerical tally.",
@@ -6528,14 +7699,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6910,10 +8087,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_26.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_26.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 211636,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

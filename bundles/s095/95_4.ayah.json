@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.391000+00:00",
+  "generated_at": "2026-08-18T13:34:16.112451+00:00",
   "surah": 95,
   "ayah": 4,
   "ayahRef": "95:4",
@@ -1984,7 +1984,8 @@
       "morpheme_ids": [
         "m-w-s095-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:4:1"
+      "aligned_qac_word_ref_upstream": "95:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1998,7 +1999,8 @@
       "morpheme_ids": [
         "m-w-s095-a004-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:4:2"
+      "aligned_qac_word_ref_upstream": "95:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2014,7 +2016,8 @@
         "m-w-s095-a004-w002-01",
         "m-w-s095-a004-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:4:3"
+      "aligned_qac_word_ref_upstream": "95:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2030,11 +2033,40 @@
         "m-w-s095-a004-w003-01",
         "m-w-s095-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:4:4"
+      "aligned_qac_word_ref_upstream": "95:4:4",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null
+    {
+      "word_index": 5,
+      "surface_ar": "أَحْسَنِ",
+      "word_ids": [
+        "w-s095-a004-w005"
+      ],
+      "qac_refs": [
+        "95:4:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s095-a004-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "95:4:6",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "تَقْوِيمٍ",
+      "word_ids": [
+        "w-s095-a004-w006"
+      ],
+      "qac_refs": [
+        "95:4:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s095-a004-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "95:4:7",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -4262,7 +4294,1345 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:4",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_proportioned_upright_form",
+            "confidence": "strong",
+            "focus_anchor": "The creating verb at word 2 and the superlative goodness-plus-configuration construction at words 5-6.",
+            "mechanism": "Measured creation, completed visible form, beauty, straightness, and bodily proportion converge on a deliberately calibrated human architecture rather than an unspecified act of making.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and apportioning supplies the design operation that precedes and governs the resulting form."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete balanced formation supplies the visible embodiment produced by that design."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness and beauty opposed to ugliness mark the configuration as positively ordered, not merely finished."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, evenness, and uprightness give the design its orienting norm."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B011",
+                "role": "Stature and bodily proportion locate that upright norm in embodied human scale."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah says generally that the human was created in the best form.",
+              "after": "The ayah presents the human as deliberately measured into a complete, beautiful, upright, and proportioned architecture."
+            }
+          },
+          {
+            "model_id": "baseline_sustaining_architecture",
+            "confidence": "medium",
+            "focus_anchor": "The created human at words 2-3 is placed inside a configuration whose root can name maintenance and subsistence.",
+            "mechanism": "Origination produces a visible human presence, while configuration supplies care, preservation, and the supports by which that presence remains standing; excellence therefore includes maintainability, not shape alone.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the transition into an actual living presence."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence makes the designed entity a socially perceptible being rather than an abstract shape."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care, guardianship, and preservation make configuration an actively maintained condition."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence supply the material and systemic mainstay by which the human continues to stand."
+              }
+            ],
+            "changed_reading": {
+              "before": "Best configuration is a superior bodily outline.",
+              "after": "Best configuration is a living architecture equipped with the supports and maintenance needed for human presence to endure."
+            }
+          },
+          {
+            "model_id": "baseline_perceptive_sociability",
+            "confidence": "medium",
+            "focus_anchor": "The human noun at word 3 stands between creation and the goodness-configuration phrase.",
+            "mechanism": "The human root activates perception and familiarity that remove estrangement, while creation can include inner disposition and configuration can include even uprightness; the best human arrangement can thus coordinate awareness, character, and sociability.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by sight, sound, or sensation supplies the awareness component of being human."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement turns awareness toward companionship and sociability."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The near, person-facing side gives sociability a spatial orientation toward another."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inner disposition locates part of the created arrangement beneath visible anatomy."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Even uprightness supplies the integrating order among perception, inward character, and outward relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human is the object receiving an excellent form.",
+              "after": "The human is configured for discerning presence, inwardly ordered character, and familiar approach toward others."
+            }
+          },
+          {
+            "model_id": "baseline_aptitude_for_enactment",
+            "confidence": "medium",
+            "focus_anchor": "The creating verb and the paired superlative and configuration nouns can describe fitted capacity as well as completed state.",
+            "mechanism": "Aptness in creation, utmost effort in goodness, and resolve within the configuration root combine into a teleological model: the human is fitted to rise into demanding good action.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Worthiness and aptness supply a designed readiness for a task or end."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B005",
+                "role": "The utmost limit or effort makes superlative goodness a horizon of exertion rather than decoration."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B003",
+                "role": "Resolve and rising to undertake a matter convert latent fitness into possible action."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness supplies the norm toward which that undertaking is oriented."
+              }
+            ],
+            "changed_reading": {
+              "before": "Excellence is a finished property bestowed on the human.",
+              "after": "Excellence is also an aptitude: the human is fitted to rise, exert, and undertake what is good."
+            }
+          },
+          {
+            "model_id": "baseline_calibrated_value",
+            "confidence": "exploratory",
+            "focus_anchor": "The nominal configuration at word 6 sits under a superlative at word 5 and follows a root of apportionment at word 2.",
+            "mechanism": "Apportionment, positive excellence, valuation, and exact measure form an appraisal frame in which human configuration is not only shaped but assigned calibrated worth.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured apportionment supplies the initial act of calibration."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness opposed to defect supplies the positive result of appraisal."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and appraisal make configuration readable as an assessment of worth."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Exact equal measure prevents appraisal from collapsing into vague praise."
+              }
+            ],
+            "changed_reading": {
+              "before": "The superlative merely intensifies the beauty of the form.",
+              "after": "The construction can also stage an exact calibration of human worth whose consequences remain to be tested."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_nourished_yielding_design",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "Edible fruit, extracted oil, and provision activate a material analogy of latent yield: the excellent human configuration is good not only by outline but by its capacity to receive, transform, sustain, and circulate benefit.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Beneficent and skillful action makes goodness productive rather than merely attractive."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Subsistence and mainstay anchor the food-material analogy in the focus configuration."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fruit supplies a literal yielded good that can sustain another body."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil as extracted olive essence supplies transformation from latent material into usable nourishment."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "Oil as food, provision, and gift extends yield into maintenance and social circulation."
+              }
+            ],
+            "structural_cues": [
+              "The opening pair places two cultivated food materials before the claim about human configuration.",
+              "The sequence moves from products that sustain life to the architecture of the life they sustain."
+            ],
+            "reader_inference": "The packet supplies edible yield, extracted oil, provision, beneficent action, and subsistence; I supply the arrow from cultivated yield to a human capacity for transforming and circulating benefit. A live alternative is that the opening pair functions only as plant or place reference without describing human operation.",
+            "changed_reading": {
+              "before": "Best configuration is self-contained excellence of form.",
+              "after": "Best configuration is also a nourished and yielding system whose excellence appears in sustaining and transmitting benefit."
+            }
+          },
+          {
+            "model_id": "delta_staged_thresholded_formation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "Successive stages and a boundary that can be observed or crossed turn measured creation into a developmental trajectory; the contrast with wild estrangement makes human familiarity something reached and maintained within that trajectory.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured planning supplies ordered transition rather than accidental change."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiarity that removes estrangement supplies the specifically human pole of the developmental contrast."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright evenness supplies the orientation maintained across changing stages."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "A limit at which one stops or which one crosses supplies threshold structure."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "A succession of stages supplies temporal development within the designed measure."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B006",
+                "role": "Wildness beyond the boundary of familiarity supplies a possible failure mode for human sociability."
+              }
+            ],
+            "structural_cues": [
+              "The mountain expression immediately precedes the secure-place expression and then the focus claim.",
+              "The focus uses a containing preposition, compatible with configuration as a bounded field traversed through stages."
+            ],
+            "reader_inference": "The packet supplies stage, limit, and wildness branches alongside measured creation and human familiarity; I infer that excellent configuration persists through bounded development. The literal mountain or named-place reading remains fully live and may be the primary surface reference.",
+            "changed_reading": {
+              "before": "The human emerges already located in a single finished optimum.",
+              "after": "The human optimum is a measured, thresholded developmental course in which upright familiarity must be reached and maintained."
+            }
+          },
+          {
+            "model_id": "delta_secure_civic_embodiment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "Bounded land, residence, and settled trust expand the sustaining and sociable baseline into civic embodiment: a human stands well through inhabitable limits, dependable relations, and a secure heart.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the inhabitant for the bounded civic space."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar companionship supplies the relational texture of secure habitation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Guardianship and preservation supply the maintenance needed for a secure common life."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B006",
+                "role": "Station and residence attach configuration to the capacity to dwell and remain."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A bounded tract of land supplies the civic container."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "Residence and attachment to a place turn the container into durable habitation."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security and trust supply the inward condition that lets habitation become genuinely human."
+              }
+            ],
+            "structural_cues": [
+              "A bounded place is directly qualified by security immediately before the focus ayah.",
+              "The context moves from terrain to trusted habitation and then to the human."
+            ],
+            "reader_inference": "The packet supplies bounded place, residence, preservation, companionship, and inward security; I infer that these are enabling conditions for human configuration rather than scenery alone. A live alternative is that the secure city identifies an oath-location without specifying civic anthropology.",
+            "changed_reading": {
+              "before": "Best configuration belongs to an isolated individual body.",
+              "after": "Best configuration includes the capacity to inhabit bounded space with trust, preservation, familiarity, and durable social presence."
+            }
+          },
+          {
+            "model_id": "delta_reversible_orientation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "Return, anti-fall support, low position, low rank, and directed descent convert upright configuration from an invulnerable possession into a reversible orientation across spatial, bodily, social, and moral axes.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete balanced formation supplies the initially coherent state that can subsequently be reversed."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily rising and upright standing supply the vertical starting orientation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness and evenness supply the normative orientation whose loss makes descent consequential."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "A sustaining mainstay makes uprightness dependent on continuing support."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Returning a thing to a position supplies the reversal operator applied to the human."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B009",
+                "role": "A prop that bears weight and wards off falling exposes the support conditions implicit in standing."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Low place supplies the spatial inverse of upright height."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Lowness of rank supplies a coexisting social or evaluative axis of reversal."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed movement downward turns low status from a location into a process."
+              }
+            ],
+            "structural_cues": [
+              "The temporal connector after the focus claim marks a subsequent state change.",
+              "The human object is carried forward pronominally from creation into reversal.",
+              "The lower-root occurs twice in adjacent superlative-like forms, intensifying the inversion of the focus superlative."
+            ],
+            "reader_inference": "The packet supplies an initial balanced upright state, return, support against falling, and intensified descent; I infer a reversible vertical mechanism. Physical decline, social degradation, moral inversion, and eschatological lowering remain materially live alternatives rather than being collapsed into one axis.",
+            "changed_reading": {
+              "before": "Best configuration is a permanent rank secured once by creation.",
+              "after": "Best configuration is a supported orientation that can be reversed into bodily, spatial, social, or moral lowness."
+            }
+          },
+          {
+            "model_id": "delta_enacted_maintained_aptitude",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "ع م ل",
+              "ص ل ح"
+            ],
+            "mechanism": "Settled trust, intentional work, and fitness opposed to corruption operationalize the baseline aptitude: created capacity becomes excellent configuration when it is trusted, used, and maintained through fitting action.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Aptness and readiness supply latent capability rather than guaranteed performance."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Beneficent skillful action supplies the positive enactment of that capability."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B003",
+                "role": "Resolve to undertake a matter converts fitness into directed performance."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care and preservation make enacted uprightness a maintained practice."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assent that settles the heart supplies trusted orientation before action."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional deed supplies the actual exercise of created capacity."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B002",
+                "role": "Putting a thing to use makes the human endowment functional rather than dormant."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Soundness opposed to corruption supplies the condition preserved by good action."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Fitness for a thing supplies compatibility between action and designed capacity."
+              }
+            ],
+            "structural_cues": [
+              "An exception immediately follows the descent and identifies a coordinated inward commitment and outward action.",
+              "The result clause makes preservation or reward follow enacted fitness rather than bare possession."
+            ],
+            "reader_inference": "The packet supplies created aptness, trusted assent, intentional use, and fitness opposed to corruption; I infer that the exception shows how capacity is enacted and maintained. A live alternative is that the deeds determine only the later outcome, not the semantic content of the original configuration.",
+            "changed_reading": {
+              "before": "Every human automatically retains the excellence granted in creation.",
+              "after": "Creation grants an aptitude whose excellent orientation is actualized and maintained through trusted, intentional, fitting action."
+            }
+          },
+          {
+            "model_id": "delta_repairable_straightening",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل ح",
+              "ء ج ر",
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "Fitness, the setting of a crooked fracture, negation of cutting, and sustaining strength activate a repair model: after reversal, the created measure can be re-aligned and supported without treating the fall as the final definition of the human.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured apportionment supplies the prior alignment against which repair can be assessed."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness and evenness provide the focus anchor for re-alignment."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and mainstay supply the stabilizing condition by which repair can hold."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Restored fitness supplies the functional aim of repair."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Setting a fractured member even when crooked supplies the concrete material analogy of corrective support."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exclusion and negation direct the following cutting image away from the promised result."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting and diminution supply the interruption that the clause denies."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B002",
+                "role": "The strength by which a thing stands, or its loss, ties uninterrupted support directly back to configuration."
+              }
+            ],
+            "structural_cues": [
+              "The exception interrupts the descent sequence rather than allowing lowering to close the human story.",
+              "The result particle links fitting action to a consequence explicitly described as not cut off."
+            ],
+            "reader_inference": "The packet supplies fitness, a fracture-setting branch, straightness, support, negation, cutting, and sustaining strength; I infer a reparative arrow from reward to restored alignment. Ordinary compensation remains the primary live alternative, so the splint model is an exploratory material analogy rather than a lexical substitution.",
+            "changed_reading": {
+              "before": "Once upright configuration is reversed, the original measure is simply lost.",
+              "after": "The sequence leaves room for fitting action and sustained corrective support to re-align a damaged configuration."
+            }
+          },
+          {
+            "model_id": "delta_accountable_appraisal",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ب ع د",
+              "د ي ن"
+            ],
+            "mechanism": "Attribution of falsehood, temporal aftermath, account, recompense, and debt activate the exploratory valuation baseline: calibrated human capacity becomes evidence whose denial is answerable and whose use can be assessed.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured apportionment supplies the endowment against which later use can be assessed."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and appraisal supply the assessment frame activated by the later accounting language."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Exact equal measure makes responsibility proportionate to a calibrated capacity."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the act of rejecting or misreporting the evidentiary claim."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "After opposed to before supplies a temporal interval in which endowed capacity has consequences."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Account and recompense turn calibration into answerability."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies the secondary image of an obligation incurred by endowed value."
+              }
+            ],
+            "structural_cues": [
+              "A rhetorical question follows creation, reversal, and the exception, asking what can still discredit the ensuing account.",
+              "The temporal adverb makes judgment posterior to the disclosure and use of human capacity."
+            ],
+            "reader_inference": "The packet supplies exact valuation, denial, temporal aftermath, accounting, and debt; I infer that a measured capacity grounds proportionate responsibility. Obedience, religion, or delegated trust remain live readings of the accounting root and need not be reduced to a financial ledger.",
+            "changed_reading": {
+              "before": "Calibrated value is an isolated metaphor for superior form.",
+              "after": "Calibrated value becomes an evidentiary endowment that grounds later appraisal, obligation, and recompense."
+            }
+          },
+          {
+            "model_id": "delta_governed_precision_and_correction",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي س",
+              "ء ل ه",
+              "ح ك م"
+            ],
+            "mechanism": "Confirmed negation, the worshiped divine agent, restraint for repair, adjudication, and exact craftsmanship bind origin and judgment together: the measured human configuration remains inside a governance able both to secure its design and correct its deviations.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measurement and proportioning supply the precise design to be secured and judged."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination identifies configuration as a made order rather than a self-grounding fact."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Guardianship and maintenance allow design to continue under active governance."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness supplies the norm that correction and judgment preserve."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "State-negating denial, used interrogatively, supplies emphatic confirmation of the governing claim."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped deity supplies the agent who holds creation and final governance together."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraint and turning back for correction supply a reparative mode of governance."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication among people supplies the evaluative mode of governance."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Exact, secure craftsmanship closes the loop back to measured creation."
+              }
+            ],
+            "structural_cues": [
+              "The final negative interrogative confirms rather than opens a genuine doubt.",
+              "A second superlative construction at the close echoes the focus superlative while shifting from configured human to governing agent.",
+              "The closing judgment follows the full sequence of formation, reversal, exception, and account."
+            ],
+            "reader_inference": "The packet supplies measured origination, maintenance, emphatic confirmation, divine agency, correction, judgment, and exact craft; I infer one governance spanning design and recalibration. A live alternative is that the final ayah validates judgment without feeding precision or correction back into the meaning of the focus configuration.",
+            "changed_reading": {
+              "before": "The creation claim is a completed event whose excellence stands alone.",
+              "after": "The human is precisely configured within ongoing divine maintenance, correction, and proportionate judgment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_intact_form_without_sight",
+            "confidence": "exploratory",
+            "containment": "This reading joins specialized eye and deceptive-surface branches, so it is surprising and must not be rendered as the direct dictionary meaning of the focus construction. It remains anchored in the focus human noun, perception, visible formation, and configuration; downstream prose should present it as a functional analogy that distinguishes an intact apparatus from living awareness.",
+            "focus_anchor": "The human noun at word 3 and the configuration noun at word 6 can be tested against perception and the gap between intact appearance and actual function.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete visible formation supplies the apparently intact exterior."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceptive awareness supplies the living function that exterior form alone cannot guarantee."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The miniature human image in the pupil makes human visibility reflexive: a human is seen within the organ of seeing."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B021",
+                "role": "An intact eyeball with lost sight supplies the sharp counterexample in which standing form survives but function does not."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A garment whose condition misrepresents reality warns that a visible covering can make a false functional claim."
+              }
+            ],
+            "changed_reading": {
+              "before": "Excellent configuration can be identified with intact visible anatomy.",
+              "after": "An intact human-shaped apparatus can remain while perception is absent, so excellence includes operative awareness and cannot be certified by surface alone."
+            }
+          },
+          {
+            "outlier_id": "outlier_stripped_coverings_under_reversal",
+            "confidence": "exploratory",
+            "containment": "The stripping image comes from a packet-supplied non-dominant mapped root for the reversal cue, making this a deliberately remote split-root activation rather than a claim that the source verb lexically means stripping. It stays anchored through the focus contrast between inward disposition, worn covering, and uprightness; downstream prose should qualify it as an analogy of exposure under decline.",
+            "focus_anchor": "The creating verb at word 2 carries both inward-character and worn-fabric branches, while configuration at word 6 supplies the upright norm exposed by reversal.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inner disposition supplies what may remain when external acquisitions are removed."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B009",
+                "role": "Worn fabric supplies an external layer altered and thinned by time or use."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright straightness supplies the inward norm tested after coverings are lost."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch of stripping away what covers a thing supplies the exposure operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B002",
+                "role": "A polished bare surface supplies the residual exterior after covering has been removed."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed descent supplies the process during which acquired coverings are analogically stripped."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reversal merely relocates or degrades the already formed human.",
+              "after": "Reversal can be carried as an exposure event that strips worn external layers and reveals whether an upright inner disposition remains."
+            }
+          },
+          {
+            "outlier_id": "outlier_reliability_over_snapshot",
+            "confidence": "exploratory",
+            "containment": "This reading uses specialized cessation idioms for milk, animal motion, and standing, so it is cross-domain and should not be promoted to a direct gloss. It remains anchored in the configuration root's standing-versus-stoppage range and in the context's repeated concern with what continues or is cut off; downstream prose should frame it as a temporal stress test of functional reliability.",
+            "focus_anchor": "The configuration noun at word 6 can contrast active standing and support with stoppage, exhaustion, or merely momentary posture.",
+            "activation_trace": [
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Active upright standing supplies the apparent successful state at a given moment."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Sustaining support supplies the condition for standing to persist."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B016",
+                "role": "Stoppage, freezing, and exhaustion supply failure modes hidden by a snapshot of posture."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk that disappears and does not last supplies a bodily image of output failing to continue."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "An animal that runs and then stops supplies performance that initially appears sound but does not persist."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting off an extension supplies the temporal opposite of uninterrupted sustaining support."
+              }
+            ],
+            "changed_reading": {
+              "before": "Best configuration is proven by an upright state visible at one moment.",
+              "after": "Best configuration can be tested by reliable continuation: whether awareness, action, support, and upright function endure rather than start and fail."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Configuration shifted from a static superior shape to a deliberately calibrated, supported, and enactable human capacity.",
+            "The following reversal made uprightness dynamically reversible across physical, social, and moral axes while leaving those axes unresolved.",
+            "The exception activated maintenance and an exploratory repair model in which fitting action and uncut support can re-align damage.",
+            "The closing account and judgment strengthened appraisal: measured capacity becomes evidence, obligation, and an object of precise corrective governance."
+          ],
+          "what_was_special": "The richest activation came from the unusually broad configuration inventory: bodily posture, straightness, maintenance, subsistence, resolve, valuation, exact measure, stoppage, and even the intact-but-blind eye let one focus construction support several coherent models without forcing them into a single final interpretation.",
+          "remaining_uncertainties": [
+            "The cultivated-yield, staged-development, and civic-habitat models depend on analogical arrows from the opening oath images; literal plant, mountain, and place readings remain live.",
+            "The descent can be bodily, temporal, social, moral, or eschatological, and the packet does not require one axis to exclude the others.",
+            "The fracture repair, valuation ledger, pupil, deceptive garment, and persistence models use specialized branches and should remain explicitly exploratory rather than become direct lexical glosses.",
+            "The move from calibrated capacity to proportionate accountability is abductively strong in sequence but is still a reader-supplied causal relation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Creation as measured proportion before any moral verdict.** Lexical evidence: خ ل ق B001, measuring/proportioning; خ ل ق B003, complete well-proportioned form; ح س ن B001, goodness/beauty opposed to ugliness; ق و م B008/B011, straightness and bodily stature. Structural cue: the ayah combines created human, best, and taqwim in a dense cluster of making, beauty, and uprightness. Assigned role: خلق supplies the act of measured making; حسن qualifies the quality; تقويم supplies upright measured stance. Abductive move: I infer that the oath sequence has been gathering witnesses to a standard by which the human's form can be called \"best.\" Reading change: the ayah reads as a claim of calibrated proportion, not merely biological creation.\n\n2. **Human presence as domestication against wildness and absence.** Lexical evidence: ء ن س B001, visible human presence against hidden/wild beings; ء ن س B003, familiarity removing estrangement; ط و ر B006 in 95:2, wildness beyond the domestic limit; ط و ر B007, no one present in a place. Structural cue: the word الإنسان stands after topographical signs and before a fall into lowliness. Assigned role: insan supplies the presence/familiarity pole, while ط و ر supplies the possible wild/empty opposite. Abductive move: I infer that \"human\" is not just species but the emergence of visible, social, familiar presence within a bounded world. Reading change: creation in best taqwim becomes the taming/presencing of a creature capable of social familiarity, not only anatomical excellence.\n\n3. **Taqwim as uprightness, governance, and eventual court.** Lexical evidence: ق و م B002, bodily standing; ق و م B004, care/guardianship/governing; ق و م B008, straightness/uprightness; ق و م B013, resurrection/standing; ح ك م B002 in 95:8, judgment. Structural cue: تقويم is followed by الرد downward, then exception, then judgment. Assigned role: ق و م makes the human not only upright in body but placed under a regime of maintenance, straightness, and later standing-before-judgment. Abductive move: I supply the arrow that a formed uprightness implies accountability when later ayat ask about الدين and الحكم. Reading change: \"best taqwim\" becomes a legally and eschatologically loaded posture, not merely physical symmetry.\n\n4. **Aptness for work and reward.** Lexical evidence: خ ل ق B005, worthiness/aptness; ع م ل B001/B008 in 95:6, intentional work and fitness for work; ء ج ر B001, recompense for work. Structural cue: the exception in 95:6 is phrased as believing and doing صالحات, followed by أجر. Assigned role: creation makes the human \"fit\" for the work/reward circuit that later distinguishes the exception. Abductive move: I infer that the created form is a capacity for accountable action, activated by the later عمل/أجر pair. Reading change: the ayah reads as enabling condition for responsible work, not only praise of original form.\n\n5. **A shadow branch: fabricated speech threatens the created order.** Lexical evidence: خ ل ق B007, fabricating false speech; ك ذ ب B001/B002 in 95:7, falsehood and declaring false. Structural cue: after the creation claim and fall/exception, 95:7 asks what makes one deny. Assigned role: the same root خلق can move from divine proportioning to human fabrication when activated by يكذبك. Abductive move: I infer a contrast between God's measured making and the denier's invented counter-speech. Reading change: 95:4 becomes a standard against which denial looks like counterfeit making.",
@@ -19648,32 +21018,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
       "words_total": 7,
-      "words_resolved": 4,
-      "words_unresolved": 3,
+      "words_resolved": 6,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 5,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 4,
           "surface_ar": "فِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "أَحْسَنِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "تَقْوِيمٍ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -20049,10 +21416,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 109192,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

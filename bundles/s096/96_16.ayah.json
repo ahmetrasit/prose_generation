@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:15.703873+00:00",
+  "generated_at": "2026-08-18T13:34:18.961477+00:00",
   "surah": 96,
   "ayah": 16,
   "ayahRef": "96:16",
@@ -1218,7 +1218,8 @@
       "morpheme_ids": [
         "m-w-s096-a016-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "96:16:1"
+      "aligned_qac_word_ref_upstream": "96:16:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1232,7 +1233,8 @@
       "morpheme_ids": [
         "m-w-s096-a016-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "96:16:2"
+      "aligned_qac_word_ref_upstream": "96:16:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1246,7 +1248,8 @@
       "morpheme_ids": [
         "m-w-s096-a016-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "96:16:3"
+      "aligned_qac_word_ref_upstream": "96:16:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2105,7 +2108,973 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s96/packets/96_16.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "96:16",
+      "window": [
+        "96:1",
+        "96:2",
+        "96:3",
+        "96:4",
+        "96:5",
+        "96:6",
+        "96:7",
+        "96:8",
+        "96:9",
+        "96:10",
+        "96:11",
+        "96:12",
+        "96:13",
+        "96:14",
+        "96:15",
+        "96:16",
+        "96:17",
+        "96:18",
+        "96:19"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": [
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط غ ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000937",
+              "furuq_root_norm": "ط غ ي",
+              "furuq_source_root_norm": "ط غ ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 13,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000936",
+              "furuq_root_norm": "ط غ و",
+              "furuq_source_root_norm": "ط غ و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 77,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 22,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ن د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001487",
+              "furuq_root_norm": "ن د ي",
+              "furuq_source_root_norm": "ن د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 33,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001486",
+              "furuq_root_norm": "ن د و",
+              "furuq_source_root_norm": "ن د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001563",
+              "furuq_root_norm": "ن و د",
+              "furuq_source_root_norm": "ن و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط و ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000956",
+              "furuq_root_norm": "ط و ع",
+              "furuq_source_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 96,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000706",
+              "furuq_root_norm": "س ط ع",
+              "furuq_source_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "96:16",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_embodied_control_point",
+            "confidence": "strong",
+            "focus_anchor": "The noun at word 1 is directly modified by the feminine adjectives at words 2 and 3.",
+            "mechanism": "The forelock is both a body part and a graspable point of control. Grammatical agreement relocates false speech or action and deliberate wrongdoing from an unnamed owner onto that controlling front, making moral agency bodily and seizable.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The branch's forelock and seizure by it supplies both the concrete body part and its function as a graspable control point."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's falsehood against truth in speech or action makes the first adjective an active distortion rather than a decorative insult."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "The branch's culpable and intentional wrongdoing makes the second adjective mark accountable agency rather than accidental error."
+              }
+            ],
+            "changed_reading": {
+              "before": "A forelock belonging to someone who lies and sins.",
+              "after": "The agent's graspable control point is itself presented as the bodily source and bearer of false action and deliberate wrongdoing."
+            }
+          },
+          {
+            "model_id": "b2_failed_leading_trajectory",
+            "confidence": "exploratory",
+            "focus_anchor": "The inventories of all three focus words permit a coordinated front, performance, and direction model.",
+            "mechanism": "The forelock's select or foremost branch supplies a leading edge; falsehood as a charge that fails supplies a test of enacted truth; error as missing the right direction supplies the failed course. Together they depict a leader or front that cannot make its claim true in motion and veers from what is right.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B003",
+                "role": "The branch's chosen elite, noble leaders, and forerunners supplies the foremost or leading element in the trajectory."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "The branch's charge proving false when it is not carried through turns truth into a test of whether the lead action fulfills its claim."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "The branch's missing or passing beyond the right direction supplies the trajectory's deviation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two moral defects are listed on a body part.",
+              "after": "A foremost agent is diagnosed as a failed lead: its claim does not hold in action and its course misses what is right."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_autonomy_overruns_boundary",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط غ ي",
+              "ر ء ي",
+              "غ ن ي",
+              "ر ج ع"
+            ],
+            "mechanism": "The context turns the exploratory leading-trajectory baseline into a causal arc. A self-judgment of independence precedes rebellious limit-crossing, while return closes the arc; the focus forelock becomes the leading edge of an autonomy claim that overshoots and cannot remain self-directed.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The branch's forelock and figurative control by taking it anchors the autonomy arc in a bodily control point."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's falsehood in speech or action characterizes the autonomy claim as untrue in both assertion and conduct."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "The branch's passing beyond or missing what is right gives the focus error a directional endpoint."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "The branch's exceeding a limit in rebellion supplies the boundary-crossing action that the focus forelock leads."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "The branch's inward opinion and reflection supplies the self-assessment that initiates the mechanism."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "The branch's wealth or self-sufficiency supplies the content of the deceptive autonomy judgment."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "The branch's return or restoration supplies the reversal that prevents the self-directed course from remaining final."
+              }
+            ],
+            "structural_cues": [
+              "96:6-8 orders transgression, self-perceived sufficiency, and return in a compact causal-temporal run.",
+              "The focus combines a foremost body point with an adjective whose inventory includes missing the right direction."
+            ],
+            "reader_inference": "The packet supplies self-appraisal, sufficiency, limit-crossing, and return; I infer that the appraisal licenses the overshoot and that the forelock spatializes its leading edge. A live alternative is that transgression is not caused by the appraisal and the forelock is only ordinary metonymy.",
+            "changed_reading": {
+              "before": "The phrase statically labels a morally bad person through a body part.",
+              "after": "It identifies the front of a false autonomy drive: self-sufficiency becomes boundary-crossing, directional error, and an eventual loss of self-direction."
+            }
+          },
+          {
+            "model_id": "d2_counter_command_misdirects",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "ص ل و",
+              "ه د ي",
+              "ء م ر",
+              "و ق ي"
+            ],
+            "mechanism": "The focus defects become socially operative rather than private. Prohibition blocks worship that is aligned with guidance, while the opposed command directs toward protection; read through the focus's leadership branch, the forelock is a command head whose false judgment diverts others from the right course.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B003",
+                "role": "The branch's elite, noble, or leading stratum supplies the focus forelock's exploratory role as a command head."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The branch's declaring a person or report false supplies the authority's rejecting judgment."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "The branch's deviation from the proper direction makes the command head's effect one of misrouting."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "The branch's restraint and prohibition supplies the blocking act through which the focus defects affect another person."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The branch's specific act of worship identifies the practice being obstructed by the counter-command."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "The branch's gentle direction toward the path and truth supplies the right course against which the focus error is measured."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The branch's request and obligation supplies the opposed, constructive command."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "The branch's warding off harm by protection supplies the constructive command's protective destination."
+              }
+            ],
+            "structural_cues": [
+              "96:9-12 places the prohibitor over against prayer, guidance, and a command toward protection.",
+              "Repeated interrogative framing subjects the prohibitor's conduct to examination before the focus verdict."
+            ],
+            "reader_inference": "The packet supplies prohibition, worship, guidance, obligation, and protection; I assign the personified forelock the role of the prohibiting command source and read its error as transmitted misdirection. The live alternative is that the phrase only characterizes the prohibitor and carries no leadership mechanism.",
+            "changed_reading": {
+              "before": "Lying and wrongdoing are private properties of the forelock's owner.",
+              "after": "They define a misdirecting authority: a false command head suppresses a rightly oriented and protective practice."
+            }
+          },
+          {
+            "model_id": "d3_denial_turns_but_is_seen",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "و ل ي",
+              "ع ل م",
+              "ر ء ي"
+            ],
+            "mechanism": "The context unfolds the focus adjectives as a temporal sequence. Active denial is paired with turning away; knowing and seeing then expose that movement. The focus compresses this into a bodily result-state: a front marked by the false verdict it issued and by the direction it chose.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The branch's frontal body part supplies the visible result-state onto which the preceding actions are compressed."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's falsehood against truth makes the focus adjective the settled quality produced by denial."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "The branch's deviation from the proper direction lets the focus adjective register the consequence of turning away."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The branch's attribution of falsehood to a person or report supplies the active denial that precedes the focus adjective."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "The branch's turning back and withdrawal supplies the physical and volitional direction of the error."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The branch's disclosure of a thing to a knower supplies the epistemic exposure that the denial cannot evade."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The branch's sight and insight supplies the observing perspective under which the false turn becomes legible."
+              }
+            ],
+            "structural_cues": [
+              "96:13 pairs denial with turning away, and 96:14 immediately follows with a question about knowing that the act is seen.",
+              "96:16 changes the denial root from a finite action into an adjective attached to a frontal body part."
+            ],
+            "reader_inference": "The packet supplies denial, withdrawal, knowing, and seeing; I infer that the focus adjectives preserve the result of those prior acts and that the forelock displays their trajectory. A live alternative is that the adjectives are static epithets with no temporal compression.",
+            "changed_reading": {
+              "before": "The focus gives two inherent traits.",
+              "after": "It condenses an exposed sequence: a false verdict is issued, the agent turns from it, and the resulting direction is visibly inscribed on the agent's front."
+            }
+          },
+          {
+            "model_id": "d4_control_point_reversed",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ف ع",
+              "ن ص ي"
+            ],
+            "mechanism": "The preceding action resolves the body part as the precise handle of capture. The focus adjectives then do more than identify an offender: they explain why the point that projected agency and control is itself taken under control.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The branch's forelock, pulling, and figurative control supplies the focus object as an agency-bearing handle."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's false speech or action supplies the failed exercise of agency that motivates reversal."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "The branch's culpable intentional wrongdoing makes the reversal accountable rather than arbitrary."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "The branch's taking by the forelock supplies the explicit capture action that activates the focus noun's control image."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The repeated branch's forelock and seizure image links the preceding definite object directly to the focus apposition."
+              }
+            ],
+            "structural_cues": [
+              "96:16 is an appositional continuation of the object introduced by the taking action in 96:15.",
+              "The same noun occurs first as the definite object of capture and then with two feminine modifiers."
+            ],
+            "reader_inference": "The packet supplies an explicit taking action, its forelock object, and the focus's moral modifiers; I infer a reversal from exercised control to being controlled at the same bodily point. The live alternative is humiliation by a body part without a broader agency reversal.",
+            "changed_reading": {
+              "before": "The forelock is a vivid identifying body part in a threat.",
+              "after": "It is the control handle where false and culpable agency is reversed: the point that led is made the point by which its owner is led."
+            }
+          },
+          {
+            "model_id": "d5_two_modes_of_lowering",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ف ع",
+              "ط و ع",
+              "س ج د",
+              "ق ر ب"
+            ],
+            "mechanism": "The close creates a contrastive body grammar. One control point is taken by force; the addressee refuses obedience to its owner, lowers the head voluntarily, and thereby draws near. The focus phrase marks the command source whose coerced lowering must not be confused with chosen devotional lowering.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The branch's forelock as a seized control point supplies the body site for coerced lowering."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's falsehood in speech or action identifies the command source whose obedience is refused."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "The branch's culpable wrongdoing distinguishes the seized posture from the devotional posture that follows."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "The branch's taking by the forelock supplies the coerced pole of the final bodily contrast."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "The branch's submission and obedience supplies the rejected relation to the owner of the lying forelock."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B004",
+                "role": "The branch's bowing and lowering of the head supplies the voluntary bodily counter-movement."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "The branch's nearness rather than distance supplies the result of the voluntary lowering."
+              }
+            ],
+            "structural_cues": [
+              "96:15-16 threatens taking by the forelock, while 96:19 coordinates non-obedience, prostration, and approach.",
+              "A head-related body point is implicated once by force and once by a voluntary head-lowering act."
+            ],
+            "reader_inference": "The packet supplies forelock-taking, refused obedience, head-bending, and nearness; I infer a contrast between coerced submission of the false command head and chosen submission by the addressee. A live alternative is that the two postures are sequential instructions without deliberate bodily mirroring.",
+            "changed_reading": {
+              "before": "The focus is only the object-description inside a punishment threat.",
+              "after": "It is one pole of a final posture contrast: the lying command head is forcibly mastered, while refusal of that command and voluntary lowering produce nearness."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_counterfeit_frontal_sign",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it transfers mark, writing-tool, grooming, and deceptive-cloth imagery across domains. It remains anchored in the focus noun's frontal grooming branch and the first adjective's appearance-deceives branch, sharpened by packet branches for a visible sign and a pen. Downstream prose should present it only as a material analogy for public self-presentation, not as a lexical replacement for the focus words.",
+            "focus_anchor": "The frontal-hair noun and its first adjective have inventory branches for arranged display and an appearance that deceives.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B002",
+                "role": "The branch's combing, arranging, and extending of frontal hair supplies a deliberately presented public surface."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The branch's patterned cloth whose appearance deceives supplies the material model of a surface making a false claim."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B002",
+                "role": "The branch's visible sign from which an observer infers a condition supplies the idea of the front as a readable public mark."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The branch's distinguishing mark that guides toward a thing supplies the expected truth-bearing function that the deceptive front corrupts."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ق ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001252",
+                "branch_id": "B003",
+                "role": "The branch's trimmed writing stick supplies inscription as the material analogy for a condition displayed on the front."
+              }
+            ],
+            "changed_reading": {
+              "before": "The lie is chiefly something spoken or done by the person.",
+              "after": "Exploratorily, the styled front acts like a counterfeit inscription: a public sign whose curated appearance claims a condition that its conduct disproves."
+            }
+          },
+          {
+            "outlier_id": "o2_compromised_leadership_apex",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it scales a literal forelock into a select or leading social stratum. It remains anchored because that extension is supplied by the focus root's own elite branch and the following context supplies a call to an assembly and an answering force. Downstream prose should qualify it as a social-scale activation coexisting with, not replacing, the bodily reading.",
+            "focus_anchor": "The focus noun has a branch for the select, noble, or foremost part, while both adjectives can characterize accountable collective leadership.",
+            "activation_trace": [
+              {
+                "source_ref": "96:16",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B003",
+                "role": "The branch's chosen elite, noble leaders, and forerunners supplies the forelock as an exploratory leadership apex."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch's falsehood in speech or action marks the leadership apex's public claim and conduct as untrue."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "The branch's culpable wrongdoing preserves accountability when the model expands from an individual to leadership."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The branch's calling and drawing by speech supplies the leadership apex's attempt to mobilize support."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001486",
+                "branch_id": "B001",
+                "role": "The branch's gathering of people in an assembly supplies the collective body behind the leadership apex."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The repeated branch's calling action supplies the answering mobilization that reverses the first call."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The branch's pushing, striking, and preventing supplies the counterforce that answers the assembled support."
+              }
+            ],
+            "changed_reading": {
+              "before": "A single offender is reduced metonymically to a forelock.",
+              "after": "Exploratorily, a false and culpable leadership apex calls its assembly, only to have that social concentration answered by an opposing mobilized force."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus forelock becomes the leading edge of a false autonomy claim that crosses a limit and is returned.",
+            "The paired adjectives unfold as denial, directional withdrawal, and a result-state exposed by knowing and seeing.",
+            "The direct taking action converts the forelock into the control point where agency is reversed.",
+            "The close contrasts coerced mastery of the lying command head with voluntary head-lowering that yields nearness."
+          ],
+          "what_was_special": "The three-word focus acts as a hinge between cognition, authority, and posture: a false self-reading becomes misdirecting command, is condensed onto the body's leading control point, and is answered by both seizure and an opposed voluntary bodily orientation.",
+          "remaining_uncertainties": [
+            "The forelock may remain simple bodily metonymy rather than an executive or leadership mechanism.",
+            "The causal arrow from perceived sufficiency to transgression is strongly sequenced but still reader-supplied.",
+            "The counterfeit-sign and leadership-apex readings depend on form-distant inventory branches and must remain explicitly exploratory.",
+            "The final contrast between coerced and voluntary lowering is structurally visible but not grammatically stated as a comparison."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The forelock is grammatically made the bearer of falsehood and sin, so agency is localized at the front. Evidence: `ن ص ي B001` forelock/control, `ك ذ ب B001` falsehood, `خ ط ء B002` culpable sin/wrongdoing. Structural cue: the bare appositional phrase repeats `ناصية` and attaches two feminine adjectives to it. Mechanism: the text transfers the person's denial into the leading bodily sign. Abductive move: the packet gives the body-part branch and moral branches; I infer that the forelock stands for directed agency. Reading change: not “a lying person” only, but “a lying front,” the visible command-point of the person.\n\n2. `خاطئة` preserves both error and deliberate sin. Evidence: `خ ط ء B001` missing/deviating from right, and `خ ط ء B002` culpable wrongdoing. Structural cue: it follows `كاذبة`, so accidental error alone is insufficient, but the deviation branch remains active. Mechanism: falsehood bends direction away from guidance until missing the right path becomes culpable. Abductive move: the packet supplies both non-hit and sin; I infer a layered wrong: misdirected course hardened into blame. Reading change: the forelock is both off-course and guilty.\n\n3. The rain-missed branch makes the forelock a barren front by contrast with the opening teaching/mercy. Evidence: `خ ط ء B003` land missed by rain; `ر ج ع B006` cyclic rain/water; `ك ر م B002` rain-bearing bounty; `ر ح م B001` mercy. Structural cue: the surah's early gift of teaching and mercy contrasts with this dry, false front. Mechanism: a front that turns away from guidance is like land missed by rain: it does not receive what would make it grow. Abductive move: the packet supplies rain-missed and generosity/rain branches; I infer an ecological secondary reading. Reading change: `خاطئة` can also evoke deprivation from life-giving guidance, not just legal guilt.",
@@ -8853,14 +9822,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
-        "ayah_count": 20,
-        "row_count": 118,
+        "ayah_count": 19,
+        "row_count": 111,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9163,10 +10138,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s96/packets/96_16.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s96/readers/reader_hft_a/96_16.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s096",
+        "latent_activation/focus_trace/runs/s96"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s96",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 170718,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

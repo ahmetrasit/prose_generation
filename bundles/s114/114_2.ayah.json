@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.003233+00:00",
+  "generated_at": "2026-08-18T13:34:44.682887+00:00",
   "surah": 114,
   "ayah": 2,
   "ayahRef": "114:2",
@@ -995,7 +995,8 @@
       "morpheme_ids": [
         "m-w-s114-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:2:1"
+      "aligned_qac_word_ref_upstream": "114:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1011,7 +1012,8 @@
         "m-w-s114-a002-w002-01",
         "m-w-s114-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:2:2"
+      "aligned_qac_word_ref_upstream": "114:2:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1202,7 +1204,1102 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:2",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B-PUBLIC-DOMINION",
+            "confidence": "strong",
+            "focus_anchor": "The construct phrase joins مَلِكِ at word 1 to ٱلنَّاسِ at word 2.",
+            "mechanism": "The kingship branch supplies dominion and public governance, while the people branch supplies a visible human collective. The relation is therefore active jurisdiction over a human polity, not merely an honorific attached to an unspecified king.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship, dominion, and governance supply the governing relation expressed by مَلِكِ."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the governed collective denoted by ٱلنَّاسِ."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static title, 'king of people.'",
+              "after": "The one whose sovereignty actively orders the visible human collective."
+            }
+          },
+          {
+            "model_id": "B-DISPOSITIONAL-JURISDICTION",
+            "confidence": "medium",
+            "focus_anchor": "مَلِكِ can activate ownership and disposal, and ٱلنَّاسِ can activate the individual self as well as the collective.",
+            "mechanism": "Ownership is read functionally as the right to dispose, authorize, and delegate. Joined to the self-bearing branch of people, the phrase reaches human agency and not only public territory.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal supply a jurisdiction capable of authorizing action."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The idiom of one's own self carries the governed object inward from population to person."
+              }
+            ],
+            "changed_reading": {
+              "before": "A monarch standing over a population.",
+              "after": "The holder of legitimate disposal over each human self's field of action."
+            }
+          },
+          {
+            "model_id": "B-COHESIVE-MAINSTAY",
+            "confidence": "medium",
+            "focus_anchor": "The root of مَلِكِ carries both cohesion and the mainstay on which a matter depends; ٱلنَّاسِ names the human body social.",
+            "mechanism": "Rule can be imagined as load-bearing coherence: the king is not only above the people but is the support by which their collective and personal order holds together.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion make sovereignty the force that prevents disintegration."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay on which a matter depends makes the king a structural support."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Human presence supplies the social and personal material being held together."
+              }
+            ],
+            "changed_reading": {
+              "before": "Kingship as superior rank.",
+              "after": "Kingship as the cohesive mainstay by which human order remains standing."
+            }
+          },
+          {
+            "model_id": "B-LEADING-CENTER",
+            "confidence": "exploratory",
+            "focus_anchor": "مَلِكِ carries images of a road's main course and a leading forepart, while ٱلنَّاسِ carries the near, human-facing side.",
+            "mechanism": "The phrase can spatialize sovereignty as orientation: a center-course leads, and the human-facing side turns toward it. This is not a replacement gloss for king but a live functional image of leadership.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B006",
+                "role": "The center or main course supplies an orienting axis for the governing term."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B008",
+                "role": "The leading forepart supplies movement in advance that the rest can follow."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The near, person-facing side makes people the side oriented toward that lead."
+              }
+            ],
+            "changed_reading": {
+              "before": "A ruler located above people.",
+              "after": "The orienting center and leading course toward which the human-facing side is ordered."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D-REFUGE-AS-ENTERED-DOMINION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ع و ذ",
+              "ر ب ب"
+            ],
+            "mechanism": "The preceding imperative makes the sequence a voiced act, refuge makes protection an entered and clung-to relation, and lordship adds repair and nurture. مَلِكِ ٱلنَّاسِ consequently becomes a protective jurisdiction occupied by the seeker, not a detached report about rank.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Dominion supplies the jurisdiction into which the refuge-act is read."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Cohesion gives that jurisdiction a protective, holding function."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Utterance makes the title participate in an enacted spoken appeal."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking shelter supplies the protective motion toward the sovereign."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging and remaining within a shelter turns dominion into an inhabitable protection."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion make the protective rule restorative rather than merely coercive."
+              }
+            ],
+            "structural_cues": [
+              "114:2 continues the genitive title sequence opened by the refuge statement in 114:1.",
+              "The title is received after an imperative to speak, so its discourse function is performative as well as descriptive."
+            ],
+            "reader_inference": "The packet supplies voiced saying, sheltering attachment, nurture, and dominion; I infer that the title names the capacity by which refuge works. A live alternative is that the titles only identify the addressee and do not distribute separate protective functions.",
+            "changed_reading": {
+              "before": "The king of people as an externally described sovereign.",
+              "after": "The sovereign whose cohesive, nurturing jurisdiction is entered and clung to through the spoken refuge."
+            }
+          },
+          {
+            "model_id": "D-MIDDLE-HINGE-OF-TRIAD",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ء ل ه",
+              "ن و س"
+            ],
+            "mechanism": "Between nurturing lordship and worshipped divinity, kingship becomes the middle register that converts care into ordered allegiance. The repeated people-construction keeps one human object constant while the governing relation changes register.",
+            "activation_trace": [
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion supply the care-register immediately before kingship."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and governance supply the ordering middle register."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply the allegiance-register after kingship."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Repeated visible humanity keeps the same relational object across all three titles."
+              }
+            ],
+            "structural_cues": [
+              "The ordered sequence is رَبِّ ٱلنَّاسِ, مَلِكِ ٱلنَّاسِ, إِلَٰهِ ٱلنَّاسِ.",
+              "The exact repetition of ٱلنَّاسِ makes the changing first term, including مَلِكِ, the contrastive element."
+            ],
+            "reader_inference": "The packet supplies ordered titles and a repeated human complement; I infer a care-to-governance-to-worship progression in which kingship is a hinge. The live alternative is cumulative apposition with no directional progression.",
+            "changed_reading": {
+              "before": "One divine title among adjacent synonyms.",
+              "after": "The hinge where nurturing care becomes public order and prepares freely directed worship."
+            }
+          },
+          {
+            "model_id": "D-LEGITIMATE-VOICE-VS-HIDDEN-VOICE",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "و س و س",
+              "ص د ر"
+            ],
+            "mechanism": "The context opposes commanded, externalized speech to unshown inner speech and whispering at the source of action. مَلِكِ then governs a speech boundary: which prompt remains hidden, which becomes voiced, and which voice receives obedience.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty supplies authority for distinguishing commanding voices."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception by hearing or inward sensing supplies the human reception point."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Spoken utterance supplies the overt counter-channel."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "Speech held within and not manifested supplies a latent counterpart to overt saying."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the covert competing voice."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue makes inward speech behaviorally consequential."
+              }
+            ],
+            "structural_cues": [
+              "The surah begins with an imperative of speech and later predicates repeated whispering inside human breasts.",
+              "The focus title stands between the overt command and the later covert speech mechanism."
+            ],
+            "reader_inference": "The packet supplies overt utterance, unmanifest inner speech, hidden self-talk, and an action-source; I infer competition for practical obedience and assign kingship jurisdiction over that boundary. Alternatively, overt recitation may repel an external whisperer without implying governance of a general speech pipeline.",
+            "changed_reading": {
+              "before": "King of a population in the public sphere.",
+              "after": "Sovereign over the human threshold where hidden prompts become voiced commitments and actions."
+            }
+          },
+          {
+            "model_id": "D-INNER-SOURCE-JURISDICTION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و س و س",
+              "ص د ر"
+            ],
+            "mechanism": "Whispering is located at the origin from which actions issue. This revises ownership and disposal from a potentially static possession model into a contest over authorization at the human action-source; legitimate sovereignty reaches the self without erasing its agency.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal supply the question of who legitimately authorizes action."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay, including the heart as bodily mainstay, anchors sovereignty at an interior support."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The idiom for one's own self makes the governed field personal agency rather than territory."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies an unauthorized pressure within the person's own field."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue locates the contested point of practical control."
+              }
+            ],
+            "structural_cues": [
+              "The prepositional phrase places whispering inside the breasts of people rather than only around them.",
+              "The same ٱلنَّاسِ governed in 114:2 reappears as the interiorly affected humans in 114:5."
+            ],
+            "reader_inference": "The packet supplies disposal, selfhood, inward whisper, and an action-source; I infer a contest over authorization rather than literal possession of bodies. A live alternative is that divine ownership and the whisperer's influence remain unrelated registers.",
+            "changed_reading": {
+              "before": "Owner or disposer of human beings.",
+              "after": "The legitimate sovereign at the inner source from which human choices and actions are issued."
+            }
+          },
+          {
+            "model_id": "D-COHESION-AGAINST-OSCILLATION",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "Cutting and shaking apart, repetitive hidden self-talk, and a motion into concealment or delay form a fragmentation cycle. The mainstay reading of مَلِكِ now has an antagonist: sovereignty holds the human self together against prompts that intrude, withdraw, and recur.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply resistance to fragmentation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay supplies a stable center on which the human matter can depend."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B004",
+                "role": "Cutting and shaking apart supply the exploratory image of fragmentation."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the repeated inward disturbance."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Retreat into concealment or delay supplies the disturbance's evasive phase."
+              }
+            ],
+            "structural_cues": [
+              "The noun for whispering is immediately qualified by the intensive retreating descriptor.",
+              "The following ayah repeats the whisper root as a verb, supporting recurrence rather than a single event."
+            ],
+            "reader_inference": "The packet supplies cohesion, cutting, hidden self-talk, and retreat; I infer that recurring covert prompts can fragment or destabilize human self-command. Alternatively, retreat may describe only an external agent's tactic, with no claim about psychological oscillation.",
+            "changed_reading": {
+              "before": "The king as the people's general mainstay.",
+              "after": "The stabilizing sovereign who preserves human coherence through cycles of covert intrusion and retreat."
+            }
+          },
+          {
+            "model_id": "D-VISIBLE-HUMAN-POLE",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "The final concealed-versus-human pairing retroactively activates the visibility contrast already latent in ٱلنَّاسِ. The governed object is no longer a generic species label: it is manifest human presence exposed to sources that may remain hidden or may arrive through other humans.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Dominion supplies protection and order for the human pole of the contrast."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence, explicitly contrasted with hidden beings in the branch, becomes newly salient."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the hidden pole against which human visibility is read."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Concealed beings instantiate one possible source of the hidden pressure."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The repeated human term supplies the explicit visible counterpart and also a second source class."
+              }
+            ],
+            "structural_cues": [
+              "114:6 coordinates ٱلْجِنَّةِ and ٱلنَّاسِ as two possible source classes.",
+              "The focus term ٱلنَّاسِ is repeated at the end of four context titles or clauses before this final contrast."
+            ],
+            "reader_inference": "The packet supplies a branch-defined visible/hidden contrast and the final coordination; I infer that this contrast retroactively specifies the kind of people named in 114:2. The alternative is that ٱلنَّاسِ remains a plain species term and concealment characterizes only one external source.",
+            "changed_reading": {
+              "before": "King of humanity as an undifferentiated population.",
+              "after": "Sovereign of manifest human presence precisely at its vulnerable interface with concealed and human-originating influence."
+            }
+          },
+          {
+            "model_id": "D-SOCIAL-TO-INNER-CIRCULATION",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "و س و س",
+              "ج ن ن",
+              "ن و س"
+            ],
+            "mechanism": "Speech circulating among people, hidden self-talk, and the final inclusion of a human source form an information circuit from public saying to private repetition. The king of people governs both the social field that transmits speech and the individual self in which it can be re-voiced.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Public governance supplies jurisdiction across collective and individual communication."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The self and intimate associate branch links social proximity to an individual's interior."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the public transmission channel."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the internalized phase of circulation."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "A dense human mass supplies an exploratory image of social anonymity and crowd transmission."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Humans as a source class makes interpersonal transmission textually live."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from commanded saying to inward whispering and ends by naming humans among the sources.",
+              "ٱلنَّاسِ recurs as governed collective, affected interior, and possible source."
+            ],
+            "reader_inference": "The packet supplies public speech, inner speech, human sourcehood, and crowd imagery; I infer a circulation path by which social language becomes self-talk. Alternatively, each occurrence may name separate acts without an information circuit.",
+            "changed_reading": {
+              "before": "King over people considered as a stable group.",
+              "after": "Sovereign across the human communication circuit, from circulating public speech to intimate inner rehearsal."
+            }
+          },
+          {
+            "model_id": "D-NURTURING-GOVERNANCE",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The immediately preceding lord-title activates both repair/completion and, through the non-dominant mapped root, feeding and growth. This bends kingship away from bare domination toward governance that strengthens and matures its human object.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the condition that nurturing governance builds."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship supplies the governing office being revised."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply a developmental purpose for rule."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant feeding and growth branch intensifies cultivation as an exploratory function."
+              }
+            ],
+            "structural_cues": [
+              "رَبِّ ٱلنَّاسِ immediately precedes مَلِكِ ٱلنَّاسِ with the same human complement."
+            ],
+            "reader_inference": "The packet supplies adjacent nurture, growth, cohesion, and kingship images; I infer that the first title colors the function of the second. The alternative is that each title remains semantically independent despite the repeated complement.",
+            "changed_reading": {
+              "before": "Sovereignty as control imposed on people.",
+              "after": "Sovereignty that repairs, feeds, strengthens, and brings human order toward completion."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O-TRANSACTIONAL-WHISPER",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant exchange branch mapped from ش ر ر rather than the ordinary evil branch. It remains anchored through مَلِكِ as ownership/disposal and through the context's hidden self-talk at the action-source. Downstream prose should present it only as a transactional analogy for alienated agency, not as the lexical meaning of شَرِّ.",
+            "focus_anchor": "The ownership and disposal branch of مَلِكِ permits a legal-economic model of legitimate versus alienated agency.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal supply legitimate title over the person's field of action."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The split-root image of exchange between sale and purchase supplies an attempted transaction."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the covert solicitation by which agency could be traded away."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source of actions supplies what is practically transferred or reclaimed."
+              }
+            ],
+            "changed_reading": {
+              "before": "King as owner of people.",
+              "after": "The rightful sovereign whose claim exposes whispering as a covert bargain for control of human agency."
+            }
+          },
+          {
+            "outlier_id": "O-WATERING-POINT-OF-ACTION",
+            "confidence": "exploratory",
+            "containment": "The water-and-departure mechanism is a cross-domain material analogy, so it is surprising and must not replace the ordinary senses of king or breast. It remains validly anchored in a focus branch where water is what lets a group control its condition and a context branch where departure is from a watering place. Render it as an image of control at a life-source, not as etymological equivalence.",
+            "focus_anchor": "مَلِكِ carries a branch in which control of water lets travelers or a community control their situation.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B007",
+                "role": "Water as control of settlement and livelihood supplies a life-sustaining source of command."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Human presence supplies the community whose condition depends on the source."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B003",
+                "role": "Departure from a watering place supplies the outward motion from a source."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue translates the material departure into human conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "King as one who controls people from above.",
+              "after": "The holder of the life-source from which human action departs and by which collective life remains governable."
+            }
+          },
+          {
+            "outlier_id": "O-SPOKEN-LOAD-BEARING",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because it activates the non-dominant ق ل ل mapping under the command قُلْ and couples it to the mainstay branch of مَلِكِ. It remains anchored in the spoken refuge sequence and the focus root's support image. Downstream prose should call it a split-root load-bearing resonance, not derive the imperative historically from carrying or rising.",
+            "focus_anchor": "The mainstay branch of مَلِكِ allows the sovereign to function as the support on which the refuge-act bears weight.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay supplies the support that can carry the human matter."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "The non-dominant image of bearing a load and rising supplies the utterance's load-bearing motion."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking shelter makes the spoken, supported motion a refuge-act rather than generic speech."
+              }
+            ],
+            "changed_reading": {
+              "before": "The title names the one addressed after the command to speak.",
+              "after": "The sovereign mainstay makes the voiced refuge a load-bearing act by which the vulnerable person can rise and stand."
+            }
+          },
+          {
+            "outlier_id": "O-PERCEPTUAL-FIXED-CENTER",
+            "confidence": "exploratory",
+            "containment": "This is odd because it combines the pupil-image within ٱلنَّاسِ, the road-center image within مَلِكِ, and the context's receding-returning star image. The packet anchors every component and the hidden-sound context makes unstable signals relevant, but the synthesis is reader-supplied. Render it only as an orientation metaphor for perception under intermittent influence.",
+            "focus_anchor": "The focus phrase contains both a center-course branch for مَلِكِ and the reflected human image in the pupil for ٱلنَّاسِ.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B006",
+                "role": "The center or main course supplies a stable axis of orientation."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The little human image in the pupil places the governed human within a perceptual field."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Stars that hide and return supply intermittent visual signals around the fixed center."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A hidden sound broadens the unstable signal from vision to covert perception."
+              }
+            ],
+            "changed_reading": {
+              "before": "King of people as a political relation.",
+              "after": "The fixed orienting center of the human perceptual field amid signals that disappear, return, and solicit attention."
+            }
+          },
+          {
+            "outlier_id": "O-LEGITIMATE-CONCEALMENT",
+            "confidence": "exploratory",
+            "containment": "This reversal is surprising because concealment usually marks the threat in the immediate context, yet the same ج ن ن inventory also contains a protective shield. It remains anchored in sovereign protection and the refuge's clinging relation. Downstream prose should preserve the asymmetry: it is an analogy for sheltering cover, not a claim that threat and refuge are identical.",
+            "focus_anchor": "The dominion and cohesion branches of مَلِكِ can host a protective rather than merely exposing form of rule.",
+            "activation_trace": [
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Dominion supplies the authority capable of granting protection."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Cohesion supplies the holding integrity of the protection."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Clinging within a shelter supplies the seeker's protected position."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "The protective shield supplies legitimate cover as a reversal of hostile concealment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sovereign defeats what hides by exposing it.",
+              "after": "The sovereign can answer hostile concealment by granting a cohesive, legitimate cover in which the human seeker is sheltered."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding refuge-act changes detached dominion into a protective jurisdiction that is spoken, entered, and clung to.",
+            "Whispering in the source from which actions issue changes ownership into legitimate inner jurisdiction over authorization and agency.",
+            "The visible-human versus concealed-source contrast makes ٱلنَّاسِ a vulnerable mode of manifest presence rather than a flat species label.",
+            "The sequence of lord, king, and deity makes kingship a middle hinge from nurture through order toward worship."
+          ],
+          "what_was_special": "The focus phrase repeatedly crossed public and interior scales: dominion became social governance, a cohesive mainstay, authority at the action-source, and an orienting center. Split-root cues also kept live transactional, load-bearing, and growth models without forcing them into the strongest reading.",
+          "remaining_uncertainties": [
+            "Whether the three repeated titles encode a directional progression or only cumulative apposition.",
+            "Whether ownership language should be carried inward to authorization of agency or kept as a broader sovereignty claim.",
+            "How far the visible-versus-hidden branch contrast belongs to the lexical force of ٱلنَّاسِ here rather than being activated only retrospectively by 114:6.",
+            "The split-root and material outliers are packet-anchored but remain analogical and should not be rendered as direct lexical glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Kingship as public governance over the wavering many.** Evidence: م ل ك B003, kingship and dominion; ر ب ب B001 from 114:1, lordship/ownership/authority; ء ل ه B001 from 114:3, worship and the worshipped one; ن و س B001, swaying oscillation. Structural cue: this middle title is framed by رب before it and إله after it, all attached to الناس. Assigned role: ملك supplies the public-political register between caretaking lordship and devotional deity. Abductive move: the sequence moves from possession/care to governance to worship so that the same unstable human field is secured at multiple levels. Reading change: “King of people” reads less as isolated royal epithet and more as the governing layer in a protective triad.\n\n2. **Sovereignty as cohesion of the inner polity.** Evidence: م ل ك B001, strength and cohesion; م ل ك B005, mainstay of a matter, including the heart as body’s mainstay; ص د ر B004 from 114:5, source from which forms issue; و س و س B001 from 114:5, hidden inward whisper. Structural cue: the later battlefield is inside “صدور الناس,” while this ayah names ملك before that interior is revealed. Assigned role: ملك is the power that makes a self or community hold together against internal whisper-fracture. Abductive move: if the attack is inside the chest, kingship must include control of the principle that keeps the inner structure coherent. Reading change: “King” reads as stabilizing sovereignty over the interior source of action, not merely external rule.\n\n3. **King as central course and lead point.** Evidence: م ل ك B006, center or main course of road/valley; م ل ك B008, leading forepart in animals; ن و س B002, driving camels; خ ن س B005 from 114:4, a horse veering during its run. Structural cue: the surah moves from command/refuge to a sequence of titles, then to a veering/withdrawing whisperer. Assigned role: ملك marks the correct center-line and leading point for a moving body. Abductive move: a community that can sway or be driven requires a sovereign center-course to resist veering. Reading change: the ayah reads as alignment of direction, not only statement of rank.",
@@ -8065,14 +9162,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8166,10 +9269,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 65175,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

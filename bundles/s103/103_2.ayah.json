@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:23.129907+00:00",
+  "generated_at": "2026-08-18T13:34:30.318033+00:00",
   "surah": 103,
   "ayah": 2,
   "ayahRef": "103:2",
@@ -1341,7 +1341,8 @@
       "morpheme_ids": [
         "m-w-s103-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "103:2:1"
+      "aligned_qac_word_ref_upstream": "103:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1357,7 +1358,8 @@
         "m-w-s103-a002-w002-01",
         "m-w-s103-a002-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "103:2:2"
+      "aligned_qac_word_ref_upstream": "103:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1373,7 +1375,8 @@
         "m-w-s103-a002-w003-01",
         "m-w-s103-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "103:2:3"
+      "aligned_qac_word_ref_upstream": "103:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1387,7 +1390,8 @@
       "morpheme_ids": [
         "m-w-s103-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "103:2:4"
+      "aligned_qac_word_ref_upstream": "103:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2208,7 +2212,612 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s103/packets/103_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "103:2",
+      "window": [
+        "103:1",
+        "103:2",
+        "103:3"
+      ],
+      "ayah_count": 3,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "103:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_encompassing_deficit",
+            "confidence": "strong",
+            "focus_anchor": "The generic human noun, paired emphatic particles, and the locative construction placing the subject 'in' loss.",
+            "mechanism": "Manifest human presence is not described as merely undergoing an isolated setback; the locative construction embeds humanity inside broad diminution as its encompassing default condition.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Makes the subject visible human presence as a class, giving the claim an anthropological rather than incident-specific scope."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B001",
+                "role": "Supplies broad diminution as the condition that spatially surrounds the human subject."
+              }
+            ],
+            "changed_reading": {
+              "before": "Humans sometimes suffer losses.",
+              "after": "The human, precisely as manifest human presence, is emphatically situated inside an encompassing condition of diminution."
+            }
+          },
+          {
+            "model_id": "baseline_unprofitable_human_account",
+            "confidence": "medium",
+            "focus_anchor": "The generic human subject is placed inside the indefinite loss noun, whose inventory includes an unprofitable transaction.",
+            "mechanism": "Human presence can be modeled as capital already committed to a running transaction. Being 'in loss' then means not only deprivation but a life-account in which principal is consumed or no adequate return appears.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Provides the lived human presence treated, by analogy, as the capital exposed in the account."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B002",
+                "role": "Activates loss of capital or absent profit, turning the state into an accounting mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "Loss is undifferentiated harm.",
+              "after": "Human existence reads as a running account whose committed capital is being spent without adequate return."
+            }
+          },
+          {
+            "model_id": "baseline_short_measure_of_awareness",
+            "confidence": "exploratory",
+            "focus_anchor": "The human root can foreground perception and the loss root can foreground deficient measure; both remain attached to the two lexical anchors of the focus ayah.",
+            "mechanism": "The being that senses and brings things into awareness is itself enclosed in short measure. The deficit can therefore occur within apprehension and valuation: the human may perceive, assess, or render less than the whole.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Foregrounds the human as a perceiving and detecting being rather than only a biological class."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B003",
+                "role": "Introduces under-measurement, making deficiency a failure of measure as well as a suffered result."
+              }
+            ],
+            "changed_reading": {
+              "before": "A neutral human subject later incurs an external loss.",
+              "after": "The perceiving human is constituted within short measure: what the human apprehends, values, or renders may already be deficient."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_time_compounds_human_account",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ص ر"
+            ],
+            "mechanism": "Successive time converts the focus ayah's commercial branch from a static bad balance into cumulative depletion: every passing interval spends irrecoverable human capital unless it produces preserving return.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B002",
+                "role": "Provides the exposed capital and absent-profit structure of the focus state."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B001",
+                "role": "Supplies successive duration, functioning as repeated debits that make the account compound."
+              }
+            ],
+            "structural_cues": [
+              "The time-bearing context ayah immediately precedes the emphatic nominal claim.",
+              "The focus ayah describes a continuing state with a locative construction rather than a bounded event."
+            ],
+            "reader_inference": "The packet supplies successive time and commercial loss; I infer elapsed intervals as debits in a life-account. A live alternative is that time only frames or attests the loss rather than causing it.",
+            "changed_reading": {
+              "before": "Human loss is a fixed negative balance.",
+              "after": "Human loss is a compounding temporal account: continued existence consumes capital, so delay itself can deepen the deficit."
+            }
+          },
+          {
+            "model_id": "delta_pressure_exposes_latent_deficit",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ص ر"
+            ],
+            "mechanism": "A coexisting material reading treats the preceding root as pressure rather than duration. Human presence is the material under compression, and the state of loss is what pressure reveals, extracts, or leaves as deficient yield.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Provides manifest human life as the material subjected to the inferred pressure."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B001",
+                "role": "Names the broad deficiency disclosed by compression."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B002",
+                "role": "Contributes pressure until contents flow, functioning as the force that externalizes a latent condition."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B007",
+                "role": "Adds extracted yield, sharpening the question of what human life produces when pressed."
+              }
+            ],
+            "structural_cues": [
+              "The pressure-capable root stands immediately before a sentence that places the human inside a condition.",
+              "The focus sentence leaves the cause and direction of the loss unstated, permitting a diagnostic pressure model."
+            ],
+            "reader_inference": "The packet supplies compression, extracted yield, manifest humanity, and deficiency; I supply the arrow from contextual pressure to disclosure of the focus condition. Alternatively, the pressure image may be lexical resonance with no causal force.",
+            "changed_reading": {
+              "before": "Loss is simply an already visible shortage.",
+              "after": "Under contextual pressure, human life is squeezed and its latent deficiency becomes visible as inadequate or squandered yield."
+            }
+          },
+          {
+            "model_id": "delta_encompassing_deficit_as_unsecured_exposure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن"
+            ],
+            "mechanism": "The security and settled-trust branches revise broad loss into ungrounded exposure. Familiar human comfort is not yet secure trust; the generic human can remain socially at ease while inwardly lacking the stable ground that the exception activates.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Supplies familiarity and companionship, a provisional comfort that can be mistaken for genuine security."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B001",
+                "role": "Carries the broad deficit now specified as lack of durable grounding."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Contributes inward security and trust as the contrasting stable state."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Adds heart-settling assent, making the contrast epistemic and affective rather than merely material."
+              }
+            ],
+            "structural_cues": [
+              "The exceptive opening of 103:3 directly delimits the generic human claim.",
+              "The first positive verb in the exception names the security-bearing root before outward action."
+            ],
+            "reader_inference": "The packet supplies familiar comfort, broad deficit, inward security, and settled assent; I infer that the latter exposes the former as unsecured. Alternatively, faith may simply mark exemption without defining what loss consists in.",
+            "changed_reading": {
+              "before": "Humanity is enclosed in an unspecified external deficit.",
+              "after": "Humanity's default loss includes unsecured exposure: familiar comfort cannot substitute for a heart grounded in trustworthy assent."
+            }
+          },
+          {
+            "model_id": "delta_work_converts_or_wastes_capital",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل"
+            ],
+            "mechanism": "Intentional work and its wage sharpen the trade-loss baseline into a conversion problem. Human capacity is committed capital; purposive action can produce return, while unused or misdirected capacity lets the account decay.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Provides concrete human capacity as the asset whose use or neglect is at stake."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B002",
+                "role": "Supplies the commercial balance against which productive return is assessed."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Contributes intentional doing as the means by which latent capacity becomes an actual result."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "Adds wage or yield, giving the action an explicit return side in the account."
+              }
+            ],
+            "structural_cues": [
+              "Within the exception, action follows inward trust, moving from disposition to execution.",
+              "The plural action is followed by a plural class of fitting deeds, so the return is patterned rather than singular."
+            ],
+            "reader_inference": "The packet supplies trade loss, intentional work, and work's return; I infer human capacity as capital converted by action. A live alternative is that action is merely a listed condition of exemption, not the economic mechanism of the loss.",
+            "changed_reading": {
+              "before": "The human account loses value for an unspecified reason.",
+              "after": "The human account loses through failed conversion of capacity into purposive, yielding action; life-capital must be made productive rather than merely possessed."
+            }
+          },
+          {
+            "model_id": "delta_loss_as_misfit_and_estrangement",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل ح"
+            ],
+            "mechanism": "The human root's familiarity and the context root's reconciliation and fitness form a relational mechanism. Loss becomes corruption of fit: estrangement among people, or mismatch between a deed and what it should suit, diminishes specifically human social presence.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Defines a human-facing good as familiarity and companionship that removes estrangement."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B001",
+                "role": "Carries the diminution produced when relational or functional fit breaks down."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B002",
+                "role": "Contributes reconciliation that removes aversion, functioning as repair of social estrangement."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Adds suitability to a thing, broadening repair from social peace to right functional fit."
+              }
+            ],
+            "structural_cues": [
+              "The fitting deeds are the direct object-domain of the preceding action inside the exception.",
+              "The generic singular human in 103:2 is answered by plural actors and plural deeds in 103:3."
+            ],
+            "reader_inference": "The packet supplies familiarity, diminution, reconciliation, and suitability; I infer broken fit and estrangement as mechanisms of human loss. Alternatively, the fitting deeds may oppose loss normatively without specifying its internal structure.",
+            "changed_reading": {
+              "before": "Loss is primarily an individual subtraction.",
+              "after": "Human loss can be relational and functional misfit: estrangement and unsuitable action diminish the very familiarity that marks human presence."
+            }
+          },
+          {
+            "model_id": "delta_reciprocal_network_preserves_measure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ص ي",
+              "ح ق ق",
+              "ص ب ر"
+            ],
+            "mechanism": "The repeated reciprocal transmission joins persons into a preservation network. Reality-matched claims supply the standard, mutual relay carries that standard between people, and sustained commitment keeps it operative; together they counter the focus root's short-measure branch.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Supplies human social proximity as the medium in which reciprocal preservation can occur."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B003",
+                "role": "Frames loss as deficient measure, giving the network something concrete to recalibrate and prevent."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B001",
+                "role": "Contributes joining one thing to another, functioning as continuity across persons and moments."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "6",
+                  "8"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Makes the joining reciprocal, so preservation is distributed rather than delegated to a lone speaker."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Provides correspondence with reality as the calibration standard opposed to deficient measure."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B010",
+                "role": "Adds tightly made speech, fitting the idea of a standard preserved through reliable verbal transmission."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B003",
+                "role": "Contributes bearing an undertaking and staying with it, functioning as temporal maintenance of the network."
+              }
+            ],
+            "structural_cues": [
+              "The same reciprocal verb occurs twice, bracketing truth and patience.",
+              "Plural agents replace the generic singular human, and the entire sequence lies within the exception."
+            ],
+            "reader_inference": "The packet supplies connection, reciprocal exchange, reality correspondence, well-made speech, and sustained undertaking; I infer a social network that preserves correct measure over time. A live alternative is that these are parallel virtues rather than components of one causal infrastructure.",
+            "changed_reading": {
+              "before": "Human loss is an individual balance corrected by private qualities.",
+              "after": "Human short measure is also a network failure: value is preserved when reality-matched speech is reciprocally relayed and kept in force through sustained commitment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_human_image_reduced_in_measure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a marginal anatomical image with deficient measure and contextual disclosure. It remains anchored to the human and loss roots and gains a visible activator from the truth root, but downstream prose should present it only as an exploratory model of representation, not as the lexical gloss of the ayah.",
+            "focus_anchor": "The human noun's pupil-image branch and the loss noun's short-measure branch permit a model in which the human is already reduced in representation.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "Supplies the miniature human likeness seen in an eye, making representation itself the human anchor."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B003",
+                "role": "Turns the miniature image into under-measurement rather than neutral scaling."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B005",
+                "role": "Contributes making reality manifest, functioning as a possible corrective to reduced or distorted representation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human is adequately represented and only afterward suffers loss.",
+              "after": "The human may already be a reduced image in another's field of vision; being 'in loss' becomes representational shrinkage that reality-disclosure must correct."
+            }
+          },
+          {
+            "outlier_id": "outlier_bitter_yield_under_pressure",
+            "confidence": "exploratory",
+            "containment": "This cross-domain material analogy is surprising because it links compression, deficiency, and bitter extract. It remains anchored to manifest humanity and loss, with both context roots explicitly cited; downstream prose should qualify it as a sensory-mechanical activation and not claim that either context noun literally denotes the whole process here.",
+            "focus_anchor": "The human is locatively held in deficiency, allowing the context's compression and bitter-extract branches to model how that condition is experienced and exposed.",
+            "activation_trace": [
+              {
+                "source_ref": "103:2",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Provides manifest human life as the material undergoing the analogy."
+              },
+              {
+                "source_ref": "103:2",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B001",
+                "role": "Names the deficient condition that the material process concentrates and reveals."
+              },
+              {
+                "source_ref": "103:1",
+                "root": "ع ص ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001019",
+                "branch_id": "B002",
+                "role": "Supplies compression until contents emerge, functioning as the pressure applied to human life."
+              },
+              {
+                "source_ref": "103:3",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B008",
+                "role": "Adds bitter sap or extract, giving endurance a sensory form that inhabits the pressure rather than instantly cancelling it."
+              }
+            ],
+            "changed_reading": {
+              "before": "Loss is a bloodless subtraction and patience simply removes it.",
+              "after": "Human life under pressure yields a bitter concentrate: loss is tasted as the residue of compression, while endurance bears that bitterness without pretending it has vanished."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Successive time turned static trade loss into compounding depletion, while the same context root preserved a coexisting pressure-and-extraction model.",
+            "Security, intentional work, and fitting repair recast the focus state as unsecured exposure, failed conversion of capacity, and relational or functional misfit.",
+            "Repeated reciprocal transmission, reality correspondence, and sustained undertaking produced a distributed mechanism for preserving correct measure across persons and time."
+          ],
+          "what_was_special": "The focus inventories already split the human into manifest, perceiving, familiar, and represented presence, and loss into broad deficit, failed trade, and short measure. Context did not collapse those possibilities; it activated temporal, material, affective, productive, relational, and networked readings that can coexist.",
+          "remaining_uncertainties": [
+            "The context's temporal pressure may cause loss, reveal it, or merely frame it; the packet does not settle that direction.",
+            "The accounting and measurement mechanisms are strongly branch-backed analogies but are not forced by syntax alone.",
+            "The network model depends on reading the repeated reciprocal construction as causal preservation infrastructure rather than as a list of parallel virtues.",
+            "The pupil-image and bitter-extract models remain intentionally contained outliers because their branches are vivid but form-distant."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Humanity inside a loss-account.**  \n   Lexical evidence: `ء ن س` B001, visible human presence, and `خ س ر` B001/B002, general deficiency and trade loss. Activated by `ع ص ر` B001/B002 in 103:1 and by `ع م ل` B004/B005 plus `ح ق ق` B003 in 103:3. Structural cue: `لَفِي` gives spatial immersion, while the surrounding ayat create an accounting sequence: oath, deficit, exception. Assigned role: `الإنسان` is the visible human subject entered into the account; `خسر` is the negative balance. The packet supplies human presence, loss, work/pay/transaction, and right/claim. I infer the accounting frame from their adjacency. Reading change: the ayah reads not only as a universal moral claim but as a balance-sheet verdict: the human is already located inside diminishing capital.\n\n2. **The social creature loses when separated from reciprocal repair.**  \n   Lexical evidence: `ء ن س` B003/B006, familiarity, companionship, intimate associate; `خ س ر` B001, diminution. Activated by `و ص ي` B003 twice, mutual exhortation, and `ص ل ح` B002, reconciliation between people. Structural cue: 103:2 names `الإنسان` singularly/generically, while 103:3 answers with a plural community that mutually charges one another. Assigned role: `الإنسان` is not merely biological humankind but the being made for familiar nearness; `خسر` is the diminishment of that being when the reciprocal social circuit is absent. The packet supplies the companionship branches and the repeated reciprocal form. I infer that the plural exception repairs the generic human’s isolation. Reading change: the verse is sharpened from \"man is in loss\" to \"the human-as-social-being is in loss unless rejoined to a mutual moral companionship.\"\n\n3. **Loss as short measure, corrected by truth.**  \n   Lexical evidence: `خ س ر` B003, shorting measure and weight; activated by `ح ق ق` B001/B005, firm truth and making truth stand, and `ع م ل` B005, transactions between people. Structural cue: the later phrase `بالحق` follows a repeated act of mutual enjoining, suggesting correction within exchange. Assigned role: `خسر` is not only suffered loss but also deficient measuring; `الحق` becomes the standard that restores measure. The packet supplies the short-measure branch and truth/verification branches. I infer that advice \"to truth\" functions as recalibration of the deficient scale. Reading change: the human condition can be read as being inside a regime of under-measurement: one loses, and perhaps causes loss, until truth is made the measure.\n\n4. **The perceiving human fails to perceive the deficit.**  \n   Lexical evidence: `ء ن س` B002, perceiving by seeing, sensing, or hearing; `خ س ر` B001, deficiency. Activated by `ء م ن` B002, confirming a report or promise, and `ح ق ق` B001, reality/certainty. Structural cue: 103:2 is asserted with `إن` and `لـ`, while the repair in 103:3 includes assent and truth. Assigned role: `الإنسان` is the one capable of sensing and recognizing; `خسر` is the condition that must be recognized, not merely endured. The packet supplies perception, confirmation, and truth. I infer that the emphatic assertion confronts a failure of awareness. Reading change: the ayah becomes diagnostic: the human is in loss partly because the perceiving faculty must be brought to settled recognition of the real state.\n\n5. **The pupil-image inside darkness.**  \n   Lexical evidence: `ء ن س` B005, the little human image in the pupil; `خ س ر` B001/B005, diminution and ruin/baseness. Activated by `لَفِي`, the inward location, and by `ح ق ق` B011, fitted socket or exact middle, plus `ص ب ر` B004, sides or brim. Structural cue: several branches create container/interior imagery: in loss, socket, sides, brim. Assigned role: `الإنسان` is a small reflected figure inside a dark center; `خسر` is the encompassing interior darkness or diminution. The packet supplies the eye-image and container-like branches. I infer that the spatial grammar allows these images to resonate. Reading change: this is exploratory, but it makes the verse visually interior: the human appears as a small image enclosed within loss, awaiting the later stabilizing frame of truth and patience.",
@@ -7799,14 +8408,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/linguistic/morphemes.tsv",
-        "ayah_count": 4,
-        "row_count": 37,
+        "ayah_count": 3,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8012,10 +8627,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s103/packets/103_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s103/readers/reader_hft_a/103_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s103"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s103",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 41548,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.728866+00:00",
+  "generated_at": "2026-08-18T13:34:31.674467+00:00",
   "surah": 104,
   "ayah": 5,
   "ayahRef": "104:5",
@@ -1490,7 +1490,8 @@
       "morpheme_ids": [
         "m-w-s104-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:5:1"
+      "aligned_qac_word_ref_upstream": "104:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1504,7 +1505,8 @@
       "morpheme_ids": [
         "m-w-s104-a005-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:5:2"
+      "aligned_qac_word_ref_upstream": "104:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1520,7 +1522,8 @@
         "m-w-s104-a005-w002-01",
         "m-w-s104-a005-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:5:3"
+      "aligned_qac_word_ref_upstream": "104:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1534,7 +1537,8 @@
       "morpheme_ids": [
         "m-w-s104-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:5:4"
+      "aligned_qac_word_ref_upstream": "104:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1550,7 +1554,8 @@
         "m-w-s104-a005-w004-01",
         "m-w-s104-a005-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:5:5"
+      "aligned_qac_word_ref_upstream": "104:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2002,7 +2007,900 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:5",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_epistemic_threshold",
+            "confidence": "strong",
+            "focus_anchor": "The doubled interrogative construction joins أَدْرَىٰ to the unexplained definite noun ٱلْحُطَمَةُ.",
+            "mechanism": "Knowing is presented as something caused in the addressee, while the named object supplies an image of hard matter reduced to fragments. The verse therefore stages a threshold: the name alone does not make its referent knowable; disclosure must reconstruct it from an otherwise category-breaking effect.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing and causing another to know makes the interrogative an event of induced awareness rather than a request for a dictionary label."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking dry or hard matter into crumbs supplies the disruptive effect whose identity the question withholds."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse simply asks what a named punishment is.",
+              "after": "The verse dramatizes the failure of ordinary recognition and promises a caused knowing adequate to a thing recognized by its pulverizing effect."
+            }
+          },
+          {
+            "model_id": "baseline_active_grinder",
+            "confidence": "medium",
+            "focus_anchor": "The intensive noun ٱلْحُطَمَةُ is anchored in the focus root's crumbling and consuming branches.",
+            "mechanism": "The focus can name not merely an impact but an active processor: it takes resistant wholes, breaks them into debris, and consumes or grinds what enters it. The definite noun leaves open whether this is an agent, place, or process, so all three functional shapes remain live.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Crumbling a hard whole into fragments gives the mechanism its input-to-debris transformation."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "The glutton or grinder that consumes like fire makes the noun an active, appetite-like processor."
+              }
+            ],
+            "changed_reading": {
+              "before": "Al-Hutamah is a static proper name for a destination.",
+              "after": "Al-Hutamah is also readable as a functioning crusher-consumer whose operation matters as much as its location."
+            }
+          },
+          {
+            "model_id": "baseline_attritional_regime",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus noun carries branches of severe-year loss, bodily wearing-down, and the perishability of worldly goods.",
+            "mechanism": "Crushing need not be instantaneous. A harsh season can break people and property, long duration can wear down a body, and worldly display can already be debris-in-waiting. These branches sustain a temporal and ecological model in which the Hutamah is a regime of depletion.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B003",
+                "role": "A severe year that breaks people and property expands crushing from a blow into an environmental duration."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B005",
+                "role": "Age or prolonged association wearing down the body supplies cumulative attrition rather than sudden fracture."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "Perishing worldly goods make apparent solidity a temporary arrangement already tending toward debris."
+              }
+            ],
+            "changed_reading": {
+              "before": "Crushing is imagined as one catastrophic strike.",
+              "after": "The focus can also name prolonged scarcity, erosion, and loss that steadily convert bodies and possessions into remnants."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_social_pressure_return",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The paired social agents operate through encompassing pressure, squeezing, prodding, and pushing. When those motions meet the focus branch of a harsh driver who crushes a flock together, the Hutamah becomes a magnified return of the offender's own interpersonal mechanics: repeated small social compressions become total crushing.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B004",
+                "role": "A violent driver crowding and damaging a flock gives the focus an agentive model of coercive social compression."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Completion and encompassing totality scale the paired acts from isolated incidents into a comprehensive pattern."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "Hand-pressure and squeezing make the verbal offense materially legible as compression."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B003",
+                "role": "A prod that moves its target adds repeated directed force to the social mechanism."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "Pushing through lamz completes the sequence from verbal marking to displacement of another person."
+              }
+            ],
+            "structural_cues": [
+              "104:1 places a totalizing term before two paired agent nouns, and both agents precede the focus noun that names the crusher."
+            ],
+            "reader_inference": "The packet supplies totality, pressure, prodding, pushing, and harsh crowding; I supply the retributive arrow by which the offender's micro-mechanics return at a larger scale. A live alternative is that these roots characterize only the offender while the Hutamah's mechanics are unrelated.",
+            "changed_reading": {
+              "before": "The crusher is an externally assigned penalty disconnected from the preceding conduct.",
+              "after": "The crusher mirrors and totalizes the offender's own practice of pressuring, prodding, and socially crushing others."
+            }
+          },
+          {
+            "model_id": "delta_aggregation_reversal",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د",
+              "خ ل د"
+            ],
+            "mechanism": "The context builds a preservation machine: dispersed units are assembled as wealth, counted, and imagined to confer permanence. The focus branch that calls worldly goods perishing debris reverses every operation. Aggregation tends toward disaggregation, the counted becomes rubble, and the hoped-for permanence becomes evidence of misrecognized perishability.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "Worldly wealth as perishing debris supplies the reversal's terminal state."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed pieces into a collected whole supplies the operation that the crusher undoes."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquiring and multiplying wealth identifies what is being assembled and treated as durable."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration turns the collection into controlled, repeatedly verified units."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Durable persistence supplies the imagined outcome that the debris branch contradicts."
+              }
+            ],
+            "structural_cues": [
+              "104:2 sequences collecting, wealth, and counting; 104:3 repeats wealth and predicates an imagined permanence before 104:5 asks about the Hutamah."
+            ],
+            "reader_inference": "The packet supplies assembly, wealth, enumeration, permanence, and perishing debris; I infer an operation-level reversal from making-whole to breaking-apart. The alternative is a simpler moral sequence in which wealth is only the motive and is not structurally reversed by the focus noun.",
+            "changed_reading": {
+              "before": "The Hutamah destroys a person who happens to possess wealth.",
+              "after": "The Hutamah is the inverse operation of hoarding: it disaggregates the assembled world and exposes counted wealth as already perishable debris."
+            }
+          },
+          {
+            "model_id": "delta_scarcity_depletion",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "خ ل د"
+            ],
+            "mechanism": "The severe-year branch of the focus can act directly on amassed property and on the expectation that it will persist. Gathering everything into a supposedly durable reserve makes the possessor more, not less, legible to an attritional Hutamah: one prolonged scarcity event can break both people and their stored economy.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B003",
+                "role": "A severe year breaking people and property supplies a literal socioeconomic and ecological crushing regime."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B005",
+                "role": "Long wearing-down gives that regime cumulative bodily force."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Completeness without dispersal portrays the reserve as consolidated and apparently protected."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The multiplication of wealth gives prolonged depletion a material target."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Expected persistence supplies the claim that attritional loss falsifies over time."
+              }
+            ],
+            "structural_cues": [
+              "The wealth sequence in 104:2-3 immediately precedes the casting and naming sequence in 104:4-5."
+            ],
+            "reader_inference": "The packet supplies a severe year, accumulated wealth, and expected persistence; I infer that duration depletes the reserve and its owner together. The explicit fire in 104:6 remains a strong alternative realization, so this model should coexist as an ecological-economic resonance rather than replace it.",
+            "changed_reading": {
+              "before": "The focus necessarily denotes an instantaneous fiery event.",
+              "after": "The focus can additionally evoke a prolonged scarcity regime that crushes the very store meant to guarantee survival and permanence."
+            }
+          },
+          {
+            "model_id": "delta_counter_calculation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع د د",
+              "ح س ب",
+              "خ ل د"
+            ],
+            "mechanism": "The focus's caused knowing confronts a rival epistemology built from enumeration, calculation, and supposition hardened into an inwardly settled expectation. The question is therefore corrective, not merely suspenseful: quantitative control can count possessions yet cannot know the qualitative reality that will break its premise.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge communicated to another supplies the corrective mode of awareness."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Counting supplies a bounded method that mistakes enumerability for mastery."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Calculation links the preceding counting practice to a way of reaching conclusions."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition exposes the conclusion of permanence as belief rather than secured knowledge."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B004",
+                "role": "A notion settled in the heart makes the mistaken inference psychologically lodged, preparing the later inward reach."
+              }
+            ],
+            "structural_cues": [
+              "The subject counts in 104:2, supposes in 104:3, and is then confronted by the second-person knowing formula in 104:5."
+            ],
+            "reader_inference": "The packet supplies counting, calculation/supposition, settled inward belief, and caused knowing; I infer a contest between calculative and disclosed knowledge. A live alternative is that the interrogative is only an intensifier and does not specifically answer the earlier epistemic verb.",
+            "changed_reading": {
+              "before": "What-made-you-know is a generic rhetorical preface.",
+              "after": "What-made-you-know interrupts the surah's false calculation and installs a different way of knowing, one capable of exposing the premise behind the count."
+            }
+          },
+          {
+            "model_id": "delta_collector_as_feedstock",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "The collector's direction is reversed. The one who gathered discrete units is himself passively cast as a unit into the named grinder-consumer. The preposition of enclosure and the repeated Hutamah turn the focus from an abstract destructive quality into a staged process with input, chamber, and transformation.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "The consuming grinder supplies the process into which an input can be fed."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Collecting dispersed units identifies the subject's former role as organizer of inputs."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Throwing or casting converts the former collector into the process's discarded input."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "The contextual occurrence locates the casting inside the same consuming-grinder image named again by the focus."
+              }
+            ],
+            "structural_cues": [
+              "104:4 uses a passive casting verb followed by فِى and the same definite noun that 104:5 repeats as its unknown."
+            ],
+            "reader_inference": "The packet supplies collection, passive casting into the repeated Hutamah, and a grinder-consumer branch; I supply the feedstock arrow and the collector/collected reversal. The alternative is ordinary spatial casting into a place without an input-processing analogy.",
+            "changed_reading": {
+              "before": "The Hutamah is only the destination to which the offender is sent.",
+              "after": "The Hutamah is a consuming process, and the former collector is inverted into a cast-off unit fed into it."
+            }
+          },
+          {
+            "model_id": "delta_divinely_ignited_consumption",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "The focus grinder's fire-like appetite is concretized as an actively kindled fire with explicit divine attribution. Ignition gives the crushing process energy, while the fuel branch keeps open a sustained operating cycle rather than a single flash. Attribution also shifts the model from accidental calamity to purposeful agency.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "A consumer or grinder likened to fire supplies the focus-side bridge from crushing to combustion."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire realizes the grinder's appetite as combustion."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped deity's name makes ownership and agency explicit, resisting an accidental natural-fire model."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Ignition supplies the causal activation that makes the crusher-consumer operate."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "Fuel or combustible material keeps a sustained feed-and-consume mechanism latent within the ignited state."
+              }
+            ],
+            "structural_cues": [
+              "104:6 follows the focus immediately and presents a three-part nominal description: fire, divine attribution, and kindled state."
+            ],
+            "reader_inference": "The packet supplies fire, attribution, ignition, fuel, and the focus's fire-like grinder; I infer an energized and sustained consuming apparatus. An alternative is that the fuel branch contributes only lexical background and that the verse describes a blazing state without a feed cycle.",
+            "changed_reading": {
+              "before": "The crushing image and the fire image are separate labels for punishment.",
+              "after": "Ignited fire is the operating medium of the crusher: it consumes, fragments, and remains purposively active."
+            }
+          },
+          {
+            "model_id": "delta_inward_disclosure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The motion toward the hearts can be read simultaneously as penetration and inspection. The crusher does not stop at an exterior shell; its fire rises into, overlooks, and exposes the inward site where the earlier supposition settled. This echoes the focus's caused knowing: the Hutamah is not only disclosed to the hearer but itself discloses what is inside its subject.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Caused awareness supplies the focus-side epistemic frame that inward exposure can answer."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking a resistant shell into fragments supplies the movement from exterior integrity toward exposed interior."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Overlooking and uncovering a matter turns upward reach into diagnostic disclosure."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart viewed as an internal ignition point gives the external fire an inward analogue and target."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The fire's arrival as an affliction of the heart makes exposure consequential rather than merely visual."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause in 104:7 continues the description of the preceding fire and directs its action with عَلَى toward the hearts."
+            ],
+            "reader_inference": "The packet supplies uncovering/overlooking, an internally ignited heart, and affliction reaching it; I infer that physical reach also functions as disclosure of the inward premise. The live alternative is purely somatic penetration with no diagnostic or epistemic force.",
+            "changed_reading": {
+              "before": "The Hutamah breaks bodies from the outside.",
+              "after": "The Hutamah breaches exterior integrity and becomes an inward revealer, reaching the very site of settled calculation and exposing it through internal ignition."
+            }
+          },
+          {
+            "model_id": "delta_sealed_pressure_architecture",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ص د",
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Closure prevents what is under pressure from dispersing, supports give the enclosure structural force, and extension gives that force spatial or temporal continuity. The Hutamah can therefore be modeled as a durable pressure chamber: crushing is maintained by an architecture that seals, braces, and prolongs rather than by one uncontained impact.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Fragmentation under force supplies the transformation that the surrounding architecture sustains."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B005",
+                "role": "Long wearing-down supplies the temporal effect of maintained confinement."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing tightly over something prevents release and turns the fire into an enclosing pressure field."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch's firmly shut door sharpens the enclosure as an engineered barrier."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "Bracing a thing with a support gives the closed chamber a load-bearing structure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Drawing something out in connected length extends the chamber's restraints beyond a single point."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Lengthened time lets architectural extension become sustained duration as well as spatial reach."
+              }
+            ],
+            "structural_cues": [
+              "104:8 says the fire is closed over them, and 104:9 continues the spatial description with a prepositional phrase involving extended supports."
+            ],
+            "reader_inference": "The packet supplies tight closure, a shut door, structural support, connected extension, and prolonged time; I supply the causal arrow from containment to maintained crushing pressure. The alternative is that columns or barriers merely surround the punishment and do not mechanically intensify it.",
+            "changed_reading": {
+              "before": "The Hutamah is an unbounded burst of destructive fire.",
+              "after": "The Hutamah is also a sealed, braced, and extended apparatus whose containment makes crushing cumulative and inescapable."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_rotary_vortex_grinder",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the form-distant dominant split mapping of أَدْرَىٰ as spindle rotation and whirlpool motion, then couples it to the focus's grinder branch and later casting and closure. It remains anchored in exact focus branches and a coherent input-motion-enclosure mechanism. Downstream prose must present it only as latent acoustic or imagistic activation, never as a lexical translation of أَدْرَىٰ or as a claim that the verse explicitly describes machinery.",
+            "focus_anchor": "The split focus inventory for أَدْرَىٰ supplies rotation and vortex branches beside the Hutamah's consuming-grinder branch.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "A spindle stabilized by rapid rotation supplies controlled rotary motion at the focus's epistemic threshold."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A dangerous churning whirlpool adds engulfing rotational turbulence to the same split-root activation."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B008",
+                "role": "The consuming grinder gives rotational movement a crushing function anchored in the named focus object."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Casting supplies material entering the latent rotary process."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Tight closure contains the churning process and prevents its input from escaping."
+              }
+            ],
+            "changed_reading": {
+              "before": "The interrogative only introduces a static name for destruction.",
+              "after": "At the level of contained latent imagery, the introduction can spin up a sealed vortex-grinder into which material is cast."
+            }
+          },
+          {
+            "outlier_id": "outlier_wealth_vault_inversion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant split branch of و ص د that pictures a stone enclosure for wealth in a mountain. It remains anchored by the focus branch of worldly wealth as perishing debris and by the packet's explicit wealth accumulation. Render it as an architectural-economic echo: do not claim that مُّؤْصَدَةٌ lexically means treasury here or that the Hutamah is literally a vault.",
+            "focus_anchor": "The Hutamah's focus inventory explicitly includes the perishing debris of worldly display and wealth.",
+            "activation_trace": [
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B009",
+                "role": "Perishing worldly wealth anchors the outlier's inversion in the semantic range of the focus noun."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulating and multiplying wealth supplies what the subject tries to preserve."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "Clinging and remaining attached supplies the possessor's bond to the store."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone enclosure for wealth turns preservation architecture into the latent shape of confinement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sealed enclosure has no relation to the earlier amassed wealth.",
+              "after": "The architecture imagined to preserve wealth is inverted into a sealed enclosure where attachment, possessor, and treasure all terminate as debris."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus question became a correction of calculative knowledge, not only a suspense formula.",
+            "The crusher became the inverse of collection: assembled and counted wealth is returned to fragments, while the collector becomes cast input.",
+            "The fire, inward reach, closure, supports, and extension turned a generic blow into a sustained consuming and exposing apparatus.",
+            "The severe-year branch preserved a coexisting attritional and ecological reading instead of being erased by the explicit fire."
+          ],
+          "what_was_special": "The focus supported several mechanisms at once: social pressure returned at scale, accumulation reversed into debris, false calculation yielded to caused knowing, fire became an energized grinder, and confinement prolonged its inward work. Split and non-dominant mappings also produced contained but genuinely live rotary-vortex and wealth-vault echoes.",
+          "remaining_uncertainties": [
+            "Whether the severe-year and long-wearing branches remain active mechanisms after 104:6 or only secondary resonances.",
+            "Whether inward ascent primarily indicates physical penetration, diagnostic disclosure, or both.",
+            "Whether the extended supports mechanically intensify pressure or only describe containment.",
+            "The rotational split-root activation is deliberately form-distant and must not be promoted from latent imagery to lexical meaning."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Knowing interrupts reckoning.** Evidence: `د ر ي B001` (knowing, awareness, causing to know), activated by `ح س ب B001/B002` in 104:3. Structural cue: ما أدراك follows يحسب. Assigned role: دراية supplies a higher disclosure that corrects حساب. Abductive move: the text contrasts self-produced reckoning with being made to know what exceeds that reckoning. Reading change: the ayah becomes an epistemic break: the reader is moved from the offender's calculation into revealed awareness.\n\n2. **The question aims at the hidden target.** Evidence: `د ر ي B002` (aiming at/setting upon) and `د ر ي B003` (stealth and concealment in hunting), activated by `ط ل ع B003/B004` and `ف ء د B002` in 104:7. Structural cue: the question delays definition until fire reaches the hearts. Assigned role: درى provides the act of approaching a concealed object. Abductive move: because the vice includes hidden لمز and settled inner حساب, true knowledge must stalk and expose what is concealed. Reading change: ما أدراك is not only an awe-formula; it becomes the opening of a targeted investigation.\n\n3. **The repeated name sharpens the crusher.** Evidence: repeated `ح ط م B001`, with `د ر ي B004` (sharp horn/comb-like implement) as exploratory support. Structural cue: الحطمة is named in 104:4, questioned in 104:5, then explained in 104:6-7. Assigned role: repetition holds the object before definition; the sharp implement branch supplies a probing edge. Abductive move: the text makes the reader pause over the name so that \"crusher\" is felt before its medium is supplied. Reading change: الحطمة changes from an assumed noun into a problem that cuts into the reader's understanding.",
@@ -9340,14 +10238,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9540,10 +10444,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 85231,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

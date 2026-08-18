@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.698151+00:00",
+  "generated_at": "2026-08-18T13:34:13.211795+00:00",
   "surah": 93,
   "ayah": 7,
   "ayahRef": "93:7",
@@ -1393,7 +1393,8 @@
       "morpheme_ids": [
         "m-w-s093-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:7:1"
+      "aligned_qac_word_ref_upstream": "93:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1409,7 +1410,8 @@
         "m-w-s093-a007-w001-02",
         "m-w-s093-a007-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "93:7:2"
+      "aligned_qac_word_ref_upstream": "93:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1423,7 +1425,8 @@
       "morpheme_ids": [
         "m-w-s093-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:7:3"
+      "aligned_qac_word_ref_upstream": "93:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1437,7 +1440,8 @@
       "morpheme_ids": [
         "m-w-s093-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:7:4"
+      "aligned_qac_word_ref_upstream": "93:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1451,7 +1455,8 @@
       "morpheme_ids": [
         "m-w-s093-a007-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "93:7:5"
+      "aligned_qac_word_ref_upstream": "93:7:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2611,7 +2616,1255 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s93/packets/93_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "93:7",
+      "window": [
+        "93:1",
+        "93:2",
+        "93:3",
+        "93:4",
+        "93:5",
+        "93:6",
+        "93:7",
+        "93:8",
+        "93:9",
+        "93:10",
+        "93:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ج د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001626",
+              "furuq_root_norm": "و ج د",
+              "furuq_source_root_norm": "و ج د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 61,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000227",
+              "furuq_root_norm": "ج د د",
+              "furuq_source_root_norm": "ج د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "93:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_course_correction",
+            "confidence": "strong",
+            "focus_anchor": "The construction وَجَدَكَ ... ضَالًّا فَهَدَىٰ joins encounter, a state off aim, and an immediate answering act of guidance.",
+            "mechanism": "Finding discloses the addressee as missing the intended course; the fa-transition makes gentle route-giving the fitting response rather than leaving ضَالًّا as a static label.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding and coming upon supplies the encounter that reveals the condition."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance or aim defines the condition functionally as being off course."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a way or truth supplies the corrective motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare assertion that the addressee was astray and was then guided.",
+              "after": "A compact event-chain: encounter exposes a missed course, and guidance answers by gently making a viable way available."
+            }
+          },
+          {
+            "model_id": "baseline_recovery_from_hiddenness",
+            "confidence": "medium",
+            "focus_anchor": "The branch range of ضَالًّا includes disappearance and hiddenness, while وَجَدَكَ and هَدَىٰ can mark rediscovery and the emergence of a lead.",
+            "mechanism": "The addressee is not only off route but obscured from view or absorbed into an undifferentiated field; being found reverses concealment, and guidance places a leading edge before him.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Coming upon what was not evident provides the reversal from concealment to encounter."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness and disappearance recast the predicate as obscurity rather than only wrong direction."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B003",
+                "role": "The leading front part gives the newly visible subject something ahead to follow."
+              }
+            ],
+            "changed_reading": {
+              "before": "ضَالًّا names exclusively a mistaken orientation.",
+              "after": "It can also name an obscured or unmanifest condition from which encounter and a visible lead bring the addressee forth."
+            }
+          },
+          {
+            "model_id": "baseline_lost_one_given_a_course",
+            "confidence": "medium",
+            "focus_anchor": "وَجَدَكَ can be the finding of a lost thing, ضَالًّا can be unlocatable loss, and هَدَىٰ can supply course and intended direction.",
+            "mechanism": "The grammar permits a recovery model: a lost one is located and then not merely possessed but assigned a course, converting recovery into purposive movement.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding a sought or lost thing supplies the recovery event."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss or failure to locate supplies the recoverable condition."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course, manner, and intended direction turn recovery into an oriented life-path."
+              }
+            ],
+            "changed_reading": {
+              "before": "Finding and guiding are two loosely adjacent divine acts.",
+              "after": "Finding is recovery, while guiding is the second, nonredundant act of giving the recovered one a course."
+            }
+          },
+          {
+            "model_id": "baseline_supported_passage",
+            "confidence": "exploratory",
+            "focus_anchor": "The motion from ضَالًّا to هَدَىٰ can recruit the h-d-y image of walking while supported and swaying.",
+            "mechanism": "Guidance need not be only verbal indication: an unstable traveler can be accompanied bodily until a composed bearing becomes possible.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Being off the intended way supplies the travel instability that requires assistance."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Supported, swaying walking turns guidance into accompaniment that bears weakness."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B010",
+                "role": "Calm and composed bearing supplies the embodied result of that accompaniment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance points out a route to an otherwise self-moving traveler.",
+              "after": "Guidance may accompany and steady the off-course traveler until movement itself acquires composure."
+            }
+          },
+          {
+            "model_id": "baseline_cognitive_recollection",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus inventories permit ضَالًّا as failed retention, وَجَدَ as mental apprehension, and هَدَىٰ as clarification.",
+            "mechanism": "A cognitive rather than condemnatory reading becomes live: what was not retained or articulated is apprehended and clarified into a communicable way.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B004",
+                "role": "Loss of retention or forgetting supplies a deficit of held knowledge."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Perceptual or mental finding supplies apprehension of what was unavailable."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Clarifying a truth or way turns recovered apprehension into intelligible direction."
+              }
+            ],
+            "changed_reading": {
+              "before": "ضَالًّا must indicate moral or doctrinal deviation.",
+              "after": "It can exploratorily indicate unretained or unformulated knowledge that guidance renders apprehensible and clear."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_night_cover_to_disclosure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ض ح و",
+              "ل ي ل",
+              "س ج و"
+            ],
+            "mechanism": "The opening alternation between exposed, clear morning and settled, covering night turns the focus transition into a visibility cycle: ضَالًّا is a covered phase, finding is disclosure, and guidance is dawnlike legibility.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Encounter supplies the moment at which the covered subject becomes discoverable."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies the focus state that the light-dark context can modulate."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Clarification of a way supplies the transition into legibility."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Emergence into sunlight and visibility gives guidance a disclosure image."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night darkness supplies the contrasting field in which a subject can be obscured."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B001",
+                "role": "Settled stillness with the night closing over things makes concealment a phase rather than abandonment."
+              }
+            ],
+            "structural_cues": [
+              "93:1-2 establish alternating visible and covered conditions before 93:3 denies abandonment and before the focus triad."
+            ],
+            "reader_inference": "The packet supplies morning exposure, night darkness, settled closure, focus hiddenness, and clarification; I supply the arrow from nocturnal covering to dawnlike disclosure, while a live alternative is that the opening pair marks cosmic reassurance without redescribing ضَالًّا.",
+            "changed_reading": {
+              "before": "The hiddenness reading is a static synonym for being lost.",
+              "after": "Hiddenness becomes a temporary covered phase whose reversal into visibility is itself part of what هَدَىٰ accomplishes."
+            }
+          },
+          {
+            "model_id": "delta_nonabandoning_cultivation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و د ع",
+              "ر ب ب",
+              "ق ل ي"
+            ],
+            "mechanism": "The denial of leaving and heart-distance, combined with lordly repair, cultivation, and even the split-root image of growth, revises guidance from a one-time correction into sustained custodial formation.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding supplies active attention to one who could otherwise remain unlocated."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "The lost condition supplies the vulnerability to abandonment that the context explicitly negates."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Giving a course supplies the formative outcome of continued care."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Leaving and relinquishing name the relation explicitly denied, so finding remains ongoing custody."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion make guidance a developmental practice."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant growth and nourishment image deepens cultivation while remaining a form-distant activation."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B003",
+                "role": "Hatred that distances the heart supplies the second rejected mode of relation."
+              }
+            ],
+            "structural_cues": [
+              "The paired negations in 93:3 define the enduring relation before 93:6-8 recount three found conditions and their remedies."
+            ],
+            "reader_inference": "The packet supplies relinquishment, heart-distance, repair, upbringing, and a split-root growth image; I infer that their negation and contrast make guidance sustained cultivation, while the live alternative is a simpler assurance of affection followed by an otherwise discrete act of direction.",
+            "changed_reading": {
+              "before": "Guidance is an instantaneous switch from wrong route to right route.",
+              "after": "Guidance is the course-forming labor of a custodian who neither leaves nor distances the vulnerable subject and instead repairs, raises, and completes."
+            }
+          },
+          {
+            "model_id": "delta_later_beneficial_trajectory",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ر",
+              "خ ي ر",
+              "ء و ل",
+              "ع ط و",
+              "ر ض و"
+            ],
+            "mechanism": "The later-over-first comparison and promised giving toward satisfaction stretch هَدَىٰ across time: it initiates a course whose beneficial outcome is not exhausted by the moment of being found.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from aim supplies the trajectory's initial misalignment."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction let guidance extend beyond a point event."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time opens a temporal horizon for the guided course."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good supplies the value toward which the course tends."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an outcome or final consequence makes the first phase readable from its eventual issue."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Giving supplies concrete provision along the course rather than direction alone."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction opposed to discontent marks an affective fruition of the trajectory."
+              }
+            ],
+            "structural_cues": [
+              "93:4 compares a later phase with a first one, and 93:5 follows with future giving before 93:6-8 recount past transitions."
+            ],
+            "reader_inference": "The packet supplies laterness, beneficial good, outcome, giving, satisfaction, and the focus image of intended course; I infer a trajectory from guidance toward fruition, while live alternatives are an exclusively eschatological comparison or separate promises with no process-link to 93:7.",
+            "changed_reading": {
+              "before": "فَهَدَىٰ closes the lostness episode immediately.",
+              "after": "فَهَدَىٰ opens a directed trajectory whose later good, provision, and satisfaction can disclose what the initial guidance was doing."
+            }
+          },
+          {
+            "model_id": "delta_close_unbroken_following",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و د ع",
+              "ء و ل"
+            ],
+            "mechanism": "The non-abandonment cue and the non-dominant w-l-y images of nearness and close succession activate the fa in فَهَدَىٰ as care following the found condition without a relational gap.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The encounter supplies the first event in the closely linked pair."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course-giving supplies the action that follows encounter as its immediate continuation."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Relinquishment, under explicit negation, rules out a break between encounter and care."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B001",
+                "role": "The split-root image of nearness without an interval activates continuity across the transition."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Close succession of one thing after another supplies a temporal image for the focus fa."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses fa between the diagnosed state and remedy, and the neighboring recollection triads repeat the same linkage."
+            ],
+            "reader_inference": "The packet supplies negated relinquishment, nearness, succession, and the focus fa; I infer an unbroken care relation between finding and guiding, while the live alternative is that the w-l-y target is merely a form-distant split activation and fa marks ordinary sequence only.",
+            "changed_reading": {
+              "before": "Finding and guidance may be separated episodes.",
+              "after": "The exploratory split-root resonance makes guidance the close, gapless continuation of being found under non-abandoning care."
+            }
+          },
+          {
+            "model_id": "delta_parallel_need_remedy",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ي ت م",
+              "ء و ي",
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "The repeated found-you/state/fa-remedy pattern places ضَالًّا between orphaned exposure answered by shelter and material need answered by sufficiency; it becomes one vulnerable condition met by its fitting provision, not an isolated verdict.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding supplies the repeated diagnostic encounter shared by the three recollections."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Being off aim is the middle condition in the parallel need-remedy series."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Guidance is the remedy fitted specifically to disorientation."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The earlier repeated finding establishes the shared frame for vulnerable conditions."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance of a child from a caretaker supplies the first relational deficit."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a gathering refuge supplies the matching repair for severed care."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The later repeated finding closes the structural frame around the focus."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need supply the third deficit in the parallel series."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the fitting repair for material lack."
+              }
+            ],
+            "structural_cues": [
+              "93:6-8 repeat a finding clause, an accusative condition, and a fa-linked remedy, with 93:7 occupying the middle slot."
+            ],
+            "reader_inference": "The packet supplies three matched grammatical frames and branch pairs of severance/refuge, disorientation/guidance, and poverty/sufficiency; I infer a condition-specific care matrix, while a live alternative is that parallel rhetoric does not lessen any moral force carried by ضَالًّا.",
+            "changed_reading": {
+              "before": "93:7 stands alone as a special accusation followed by correction.",
+              "after": "93:7 is the middle case in a care matrix where each exposed lack is noticed and met with the provision proper to it."
+            }
+          },
+          {
+            "model_id": "delta_bewilderment_as_destitution",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ج د",
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "The third triad's ع ي ل inventory unexpectedly includes the bewilderment of a stray about its destination; under identical syntax, that image back-activates ضَالًّا as navigational bewilderment and lets sufficiency mean provision of capacity for the way.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Failure to locate a fixed place anchors the focus condition in navigational loss."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction provide what destination-bewilderment lacks."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Repeated finding licenses the neighboring branch image to echo back into the focus frame."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B008",
+                "role": "A stray's confusion about its destination closely mirrors the focus problem of unlocated direction."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency recasts the remedy as furnishing enough capacity to proceed."
+              }
+            ],
+            "structural_cues": [
+              "The identical 93:7 and 93:8 syntax places ضَالًّا beside a root whose inventory itself contains destination-bewilderment."
+            ],
+            "reader_inference": "The packet supplies repeated syntax, focus loss of location, neighboring destination-bewilderment, and sufficiency; I infer that the third triad lends a capacity-deficit model to guidance, while the live alternative is the ordinary poverty-to-enrichment reading of 93:8 with no semantic feedback.",
+            "changed_reading": {
+              "before": "The lost one lacks only information about which route is correct.",
+              "after": "The lost one may lack navigational capacity or sufficiency, so guidance equips movement rather than merely supplying an answer."
+            }
+          },
+          {
+            "model_id": "delta_noncoercive_drawn_open",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي ت م",
+              "ق ه ر",
+              "س ء ل",
+              "ن ه ر"
+            ],
+            "mechanism": "The paired prohibitions exclude domination from above and harsh verbal repulsion; the n-h-r opening/flow image and the split s-l-l images of gentle extraction and smooth flow then activate a positive mode in which guidance opens passage and draws the vulnerable traveler without crushing.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "The off-course condition anchors the social mode under discussion to the focus traveler."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication supplies the focus-side alternative to force."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Loss of a caretaker identifies the vulnerable person on whom guiding power must not bear down."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Dominance from above that humiliates the overpowered supplies the rejected coercive mode."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Question and request identify another person whose lack calls for responsive direction."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The split-root image of drawing out gently and quietly supplies an exploratory noncoercive motion."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B006",
+                "role": "Smooth flowing supplies continuity without violent displacement."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B004",
+                "role": "Harsh verbal rebuke supplies the explicitly prohibited speech mode."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until flow is possible supplies a cross-branch positive counterimage to rebuff."
+              }
+            ],
+            "structural_cues": [
+              "93:9-10 form parallel negative commands immediately after the three remembered remedies, converting received care into a rule for handling vulnerable others."
+            ],
+            "reader_inference": "The packet supplies gentle focus guidance, prohibited domination and rebuke, plus form-distant images of gentle extraction, smooth flow, and opening; I infer a positive guiding ethic from those contrasts, while live alternatives are that the commands regulate conduct only and that the split-root s-l-l images should remain lexical echoes rather than mechanism.",
+            "changed_reading": {
+              "before": "Guidance can be imagined as authoritative correction imposed on the lost.",
+              "after": "Guidance is constrained by its social afterlife: it opens a channel and draws forth gently, refusing the power that crushes or verbally drives away."
+            }
+          },
+          {
+            "model_id": "delta_guidance_made_tellable",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "ر ب ب",
+              "ح د ث"
+            ],
+            "mechanism": "The final imperative gathers the guided transition as a favorable condition to be manifested in renewing speech; guidance moves from private past event to a tellable event that can become newly present for hearers.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B002",
+                "role": "Existence or becoming present lets the found event be treated as something made manifest."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Clarification of a way supplies the content that can be made available to others."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Favorable condition and blessing classify the transition as received good rather than self-produced mastery."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion preserve the formative agent inside the narrated event."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B001",
+                "role": "Coming to be after not being supplies eventfulness and renewed presence."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as report makes the guidance transition tellable."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing something out and displaying it supplies the public manifestation of received guidance."
+              }
+            ],
+            "structural_cues": [
+              "The closing imperative follows the remembered triad and retrospectively converts its events into material for speech."
+            ],
+            "reader_inference": "The packet supplies blessing, formative completion, event-emergence, renewed report, and manifestation; I infer that recounting makes the guided way socially present again, while the live alternative is simple thanksgiving that reports a completed private favor without extending its guiding function.",
+            "changed_reading": {
+              "before": "The guidance of 93:7 is a completed inward transition.",
+              "after": "The transition is also narratable guidance: speaking it as received favor renews and manifests a way for a wider social field."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_pastoral_recovery_and_consecration",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from personal guidance into pastoral and ritual imagery; it remains anchored in focus branches for finding a lost thing, a stray in a wasteland, and an offering led to sanctuary. Downstream prose should present it only as an image-level analogy of recovery, custody, and purposive leading, never as a claim that the addressee is literally an animal or sacrificial victim.",
+            "focus_anchor": "All three material images arise from وَجَدَكَ, ضَالًّا, and هَدَىٰ in the focus inventories.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding a sought or lost thing supplies recovery into custody."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B005",
+                "role": "A stray animal exposed in a wasteland supplies the vulnerable material scene."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B005",
+                "role": "An offering led to sanctuary changes bare retrieval into protected, purposive leading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse describes only correction of an erroneous human belief or route.",
+              "after": "As a contained material analogy, it can stage recovery of an exposed stray into custody and a protected destination."
+            }
+          },
+          {
+            "outlier_id": "outlier_concealed_affect_met_as_gift",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links inward sorrow or love, hiddenness, and the gift branch of h-d-y rather than its ordinary guidance branch. It remains focus-anchored in all three roots and preserves the same encounter-to-response grammar; downstream prose should call it an affective resonance, not replace the lexical reading of هَدَىٰ as guidance.",
+            "focus_anchor": "The focus can align وَجَدَ as inward affect, ضَالًّا as concealed presence, and هَدَىٰ as a gracious sending to one held close.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B004",
+                "role": "Inward sorrow or love gives the encounter an affective interior."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness makes that interior affect unmanifest before the transition."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "A gracious gift sent to someone loved or close renders guidance as an intimate answering gift."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance answers only an external directional defect.",
+              "after": "As an affective resonance, guidance can answer a concealed interior of sorrow or longing as a gracious gift of nearness."
+            }
+          },
+          {
+            "outlier_id": "outlier_renewal_after_severance",
+            "confidence": "exploratory",
+            "containment": "This is surprising and form-distant because it uses the non-dominant j-d-d target mapped from focus w-j-d. It remains valid as packet-authorized split-root activation and still attaches to the focus sequence through hiddenness and course; downstream prose must describe renewal-after-cut as a resonance, not claim that وَجَدَ literally means renewal.",
+            "focus_anchor": "The split inventory under focus وَجَدَ supplies newness after cutting, while ضَالًّا and هَدَىٰ supply obscurity and a newly intended course.",
+            "activation_trace": [
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000227",
+                "branch_id": "B004",
+                "role": "Newness arising after a cut supplies the exploratory image of renewed emergence."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies the interval or obscured condition from which renewal emerges."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "An intended course gives renewed emergence a direction rather than mere novelty."
+              }
+            ],
+            "changed_reading": {
+              "before": "The transition restores a route without altering the mode of existence.",
+              "after": "As a contained split-root resonance, the transition can feel like a newly constituted course emerging after interruption or obscurity."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The light-night opening turns hiddenness into a phase that guidance reverses through disclosure.",
+            "The denial of abandonment and the ربّ images revise guidance into sustained repair, cultivation, and completion.",
+            "The three repeated condition-remedy frames make ضَالًّا one vulnerable lack among orphaned exposure and material need, each met by fitting care.",
+            "The later-good and future-giving sequence stretches guidance into a trajectory with provision and affective fruition.",
+            "The closing prohibitions and imperative make received guidance socially consequential: it must neither coerce the vulnerable nor remain privately untold."
+          ],
+          "what_was_special": "The focus ayah sustained several coexisting mechanisms rather than one disambiguated gloss: route correction, recovery from hiddenness, locating a lost one, embodied support, cognitive clarification, non-abandoning formation, temporal fruition, and socially renewed guidance. Split-root branches added live but contained readings of unbroken succession, gentle extraction, growth, and renewal after severance.",
+          "remaining_uncertainties": [
+            "The balance between moral deviation, navigational bewilderment, hiddenness, and cognitive non-retention remains unresolved; the parallel triads strengthen vulnerability without eliminating moral force.",
+            "The non-dominant j-d-d, w-l-y, r-b-w, and s-l-l activations are productive but form-distant and should remain explicitly exploratory.",
+            "The embodied, pastoral, ritual, and affective readings are mechanism-bearing analogies, not replacements for the dominant guidance sense.",
+            "It remains open whether later benefit and public narration are intrinsic continuations of هَدَىٰ or contextual consequences layered onto a completed act."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Lostness as redirected course.** Evidence: و ج د B001 (finding), ض ل ل B001/B003 (astray from aim; failing to locate), ه د ي B001/B002 (gentle guidance; course/direction). Structural cue: the ayah repeats the find → deficient state → remedy pattern of 93:6. Mechanism: the packet supplies loss and guidance branches; I supply the correctional arrow from mis-aim to course. Abductive move: guidance is not just information but realignment of trajectory. Reading change: \"astray\" reads as having no stable direction, and \"guided\" as being set on a course.\n\n2. **Hiddenness made visible.** Evidence: ض ل ل B002 (hidden/disappearing/burial), ض ح و B002/B005 in 93:1 (visibility; clear brightness), س م و B002 in 93:0 (raised visible outline), ح د ث B006 in 93:11 (disclosure). Structural cue: the first ayah exposes to light; this ayah names a hidden/lost condition; the final ayah commands disclosure. Mechanism: the packet supplies hiddenness and visibility/disclosure; I supply the revealing arrow. Abductive move: guidance brings the hidden person or meaning into the open. Reading change: \"guided\" becomes also \"made visible,\" not merely instructed.\n\n3. **Stray animal under a Lord-owner.** Evidence: ض ل ل B005 (stray domestic animal with no known owner), ر ب ب B001 in 93:3/5/11 (owner/master), ء و ي B001 in 93:6 (calling horses back to voice), ع ي ل B008 in 93:8 (stray animal losing direction). Structural cue: adjacent ayat use finding and sheltering; later \"Lord\" recurs. Mechanism: the packet supplies stray-animal branches and Lord-as-owner; I supply the pastoral relation that guidance is the owner's call returning the stray. Abductive move: the absence of known ownership is negated by ربّ. Reading change: 93:7 can be heard as return from ownerless wandering to recognized belonging.\n\n4. **Guidance as gracious gift/offering.** Evidence: ه د ي B004 (gift sent to someone close), ه د ي B005 (offering sent to sanctuary), ع ط و B002 in 93:5 (giving), ن ع م B001 in 93:11 (favor). Structural cue: the future gift in 93:5 and final favor in 93:11 surround the guidance recollection. Mechanism: the packet supplies gift/offering branches in ه د ي and giving/favor branches elsewhere; I supply the classification of guidance as a bestowed gift. Abductive move: a path can be given like a gift, not merely pointed out. Reading change: \"He guided\" reads as a gracious bestowal and consecrated sending, preserving a devotional/ritual overtone.\n\n5. **Composed walking after weakness.** Evidence: ه د ي B008/B010 (supported walking; calm composed bearing), ع ي ل B003 in 93:8 (swaying gait), س ج و B001/B003 in 93:2 (still settling; disposition). Structural cue: the motion/direction verse sits between shelter and enrichment. Mechanism: the packet supplies gait and stillness branches; I supply the embodiment that guidance stabilizes an unsteady walker. Abductive move: losing direction is also bodily instability, and guidance gives bearing. Reading change: \"هدى\" is not only cognitive; it is a restored composure of movement.",
@@ -17149,14 +18402,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 83,
+        "ayah_count": 11,
+        "row_count": 76,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17465,10 +18724,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s93/packets/93_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s93/readers/reader_hft_a/93_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s093",
+        "latent_activation/focus_trace/runs/s93"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s93",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 132914,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

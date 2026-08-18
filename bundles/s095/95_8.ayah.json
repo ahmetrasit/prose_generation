@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.488393+00:00",
+  "generated_at": "2026-08-18T13:34:16.448355+00:00",
   "surah": 95,
   "ayah": 8,
   "ayahRef": "95:8",
@@ -1591,7 +1591,8 @@
         "m-w-s095-a008-w001-01",
         "m-w-s095-a008-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:8:1"
+      "aligned_qac_word_ref_upstream": "95:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1605,7 +1606,8 @@
       "morpheme_ids": [
         "m-w-s095-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:8:2"
+      "aligned_qac_word_ref_upstream": "95:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1619,7 +1621,8 @@
       "morpheme_ids": [
         "m-w-s095-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:8:3"
+      "aligned_qac_word_ref_upstream": "95:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1633,7 +1636,8 @@
       "morpheme_ids": [
         "m-w-s095-a008-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:8:4"
+      "aligned_qac_word_ref_upstream": "95:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1649,7 +1653,8 @@
         "m-w-s095-a008-w004-01",
         "m-w-s095-a008-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:8:5"
+      "aligned_qac_word_ref_upstream": "95:8:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2848,7 +2853,983 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:8",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_emphatic_adjudication",
+            "confidence": "strong",
+            "focus_anchor": "The negative interrogative أَلَيْسَ, the reinforcing bāʾ in بِأَحْكَمِ, and the doubled ح ك م construction أَحْكَمِ ٱلْحَٰكِمِينَ.",
+            "mechanism": "Fixed present-state negation is turned by the interrogative into demanded assent, while the superlative and agent plural rank Allah above every other adjudicator.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Fixed present-state negation supplies the proposition whose denial the rhetorical question makes untenable."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed divine name identifies the subject whose judicial supremacy is put directly to the hearer."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication among people supplies the literal court-domain comparison intensified by the repeated root."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flat question about whether Allah is a better judge than other judges.",
+              "after": "An emphatically framed demand for assent that Allah is the unsurpassed adjudicator, with denial itself placed under pressure."
+            }
+          },
+          {
+            "model_id": "baseline_corrective_restraint",
+            "confidence": "medium",
+            "focus_anchor": "The two ح ك م forms in أَحْكَمِ ٱلْحَٰكِمِينَ retain a root-image of checking motion and preventing corruption.",
+            "mechanism": "Judgment is not only a verdict but an effective restraint: it blocks injustice, turns harmful intention, and functions like a bridle that converts force into governed motion.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraining and turning back corruption supplies judgment's corrective action rather than merely its declaration."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle-piece makes the corrective mechanism concrete as force checked and redirected."
+              }
+            ],
+            "changed_reading": {
+              "before": "Best judging means issuing the best verdict.",
+              "after": "Best judging means most effectively arresting injustice and redirecting destructive motion toward right order."
+            }
+          },
+          {
+            "model_id": "baseline_decisive_perfection",
+            "confidence": "medium",
+            "focus_anchor": "The comparative أَحْكَمِ and the agent noun حَٰكِمِينَ repeat one root while allowing perfective and juridical senses to overlap.",
+            "mechanism": "The phrase compares judges while also hearing judgment as the craft of making a matter firm, complete, and truth-hitting; decisiveness is therefore constructed, not merely announced.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Making a thing firm, perfected, and decisive supplies the result produced by the superlative judge."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Rightly guided knowledge supplies the truth-sensitive intelligence by which firmness avoids becoming mere force."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase only ranks one judge above a class of judges.",
+              "after": "It also names the one whose judging most fully firms an unsettled matter and brings it to a truth-responsive completion."
+            }
+          },
+          {
+            "model_id": "baseline_entrusted_decision",
+            "confidence": "exploratory",
+            "focus_anchor": "أَحْكَمِ ٱلْحَٰكِمِينَ can profile not only the winner of a comparison but the one most fit to receive delegated decision.",
+            "mechanism": "The question becomes jurisdictional: it presses the hearer to recognize where decision may finally be lodged and whose ruling can be accepted without appeal.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation frames refusal to entrust the decision as the position the question challenges."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B005",
+                "role": "Delegation and acceptance of another's decision supply the transfer-of-jurisdiction mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hearer is asked to acknowledge a ranking among judges.",
+              "after": "The hearer is also asked whether any authority is more fit to be entrusted with the case."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_extractable_yield",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "The edible whole and its oil-bearing companion activate a material analogy in which excellent judgment brings a contained value to usable expression: the decision is a yielded essence, not an arbitrary layer imposed from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Perfecting and completing supplies the focus-side transformation from an unsettled case to a finished result."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fig supplies a whole whose inward yield can become available and nourishing."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil and olive extract supply the movement from contained substance to expressed usable essence."
+              }
+            ],
+            "structural_cues": [
+              "95:1 opens with a paired edible fruit and oil-bearing fruit before the focus superlative."
+            ],
+            "reader_inference": "The packet supplies fruit, oil, and a perfective focus branch; I supply the arrow from extraction to adjudication as disclosure of latent value. A live alternative is that the pair remains oath scenery with no procedural analogy.",
+            "changed_reading": {
+              "before": "The best judge imposes the most authoritative decision.",
+              "after": "Exploratorily, the best judge draws a case's latent truth and benefit into a finished, usable decision."
+            }
+          },
+          {
+            "model_id": "delta_boundary_as_jurisdiction",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "A limit at which one stops or crosses spatializes the focus-root's restraint: judgment establishes a threshold, identifies transgression, and checks motion at the right boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraining injustice supplies the normative act of stopping conduct that exceeds a limit."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle supplies a local mechanism for governing movement at the limit rather than erasing movement."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The boundary where one stops or crosses supplies the spatial threshold that judgment defines and enforces."
+              }
+            ],
+            "structural_cues": [
+              "95:2 places a named mountain expression in the oath sequence, allowing both landmark and limit imagery to remain live."
+            ],
+            "reader_inference": "The packet supplies a stop-or-cross boundary and restraint branches; I treat normative judgment as boundary governance. The live alternative is the proper mountain sense without an activated legal topology.",
+            "changed_reading": {
+              "before": "Corrective judgment restrains an already identified wrong.",
+              "after": "Corrective judgment first makes the decisive boundary of wrong visible and then governs passage at that threshold."
+            }
+          },
+          {
+            "model_id": "delta_secure_civic_judgment",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "A bounded territory joined to security and trust turns adjudication into civic architecture: the finest ruling is legible in the protected space and settled confidence it makes possible.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment among people supplies the public institution operating inside the contextual civic container."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Preventing injustice supplies the causal protection by which adjudication can produce security."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A delimited place supplies jurisdiction's bounded social and spatial field."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security and trust supply the lived outcome by which the quality of judgment can be recognized."
+              }
+            ],
+            "structural_cues": [
+              "95:3 binds the place noun and its security adjective into one phrase immediately before the human sequence."
+            ],
+            "reader_inference": "The packet supplies bounded place, settled security, adjudication, and restraint; I supply the causal arrow from just restraint to civic trust. A live alternative treats security as a property of the named place independent of courts.",
+            "changed_reading": {
+              "before": "Divine superiority is an abstract rank over other judges.",
+              "after": "Divine judgment is also the ordering power by which a bounded human world can become secure and trustworthy."
+            }
+          },
+          {
+            "model_id": "delta_maker_measure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "Creation as measuring, bestness, straight proportion, and appraisal make the final Judge the maker who possesses the originating specification. Judgment becomes comparison with intended form and, potentially, restoration toward it.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Truth-hitting knowledge supplies the maker's privileged understanding of what the human measure was meant to be."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Perfecting and making firm links judicial decision to the prior work of giving a form completion."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies an originating specification against which later assessment can operate."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness over against ugliness supplies an evaluative axis already present in the act of formation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, balance, and evenness supply the target condition encoded in the human configuration."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and appraisal turn configuration into a standard that can be judicially assessed."
+              }
+            ],
+            "structural_cues": [
+              "The superlative أَحْسَنِ in 95:4 anticipates أَحْكَمِ in 95:8.",
+              "The created human is the object of the measured configuration, keeping the maker–measure–judgment chain focus-relevant."
+            ],
+            "reader_inference": "The packet supplies measured creation, an evaluative superlative, balanced configuration, appraisal, and truth-hitting judgment; I supply the arrow that the maker's specification grounds the later judgment. A live alternative keeps creation and adjudication as parallel powers without a quality-assessment mechanism.",
+            "changed_reading": {
+              "before": "Allah is the highest member in a hierarchy of judges.",
+              "after": "The creator who set the human measure is uniquely competent to judge its deformation, worth, and possible restoration."
+            }
+          },
+          {
+            "model_id": "delta_governed_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "The preceding directed return downward overlaps the focus-root's turning-back branches. The Judge is therefore not a spectator who arrives after decline but the authority over trajectory, reversal, restraint, and destination.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Turning back to set right supplies a corrective counter-motion within the semantic field of judgment."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B007",
+                "role": "Making something return supplies the focus-side capacity to govern reversal itself."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Returning a thing to a place supplies the explicit trajectory that the final judgment retroactively governs."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed descent supplies the vector and destination over which corrective or punitive judgment has force."
+              }
+            ],
+            "structural_cues": [
+              "95:5 assigns the return to the first-person plural agent before 95:8 names Allah.",
+              "أَسْفَلَ سَٰفِلِينَ repeats the descent root as 95:8 repeats the judgment root."
+            ],
+            "reader_inference": "The packet supplies agentive return, downward direction, and focus branches of turning back; I infer continuity of agency and read trajectory-management as part of judgment. A live alternative reads the descent as a condition judged only afterward, not itself as adjudicative action.",
+            "changed_reading": {
+              "before": "God judges the human after rise and decline have occurred.",
+              "after": "God's judging includes sovereignty over the return, the downward vector, and any arrest or redirection of that movement."
+            }
+          },
+          {
+            "model_id": "delta_exception_classifier",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "ص ل ح",
+              "غ ي ر"
+            ],
+            "mechanism": "The exception from general descent activates the form-distant exceptive branch of ل ي س. The final question then warrants a discriminating judgment that can identify trust and fitting action without flattening all humans into one outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B002",
+                "role": "The excepting sense supplies a lexical shadow of exclusion behind the ordinary negative interrogative."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication supplies the act that distinguishes the warranted exception from the general class."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling assent supplies one criterion by which the excepted class is differentiated."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Fitness and suitability supply the action-side criterion rather than a merely nominal group label."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Otherness, exception, and negation reinforce the contextual density of exclusion and distinction."
+              }
+            ],
+            "structural_cues": [
+              "95:6 begins with إِلَّا, grammatically carving an exception out of the preceding return.",
+              "The sequence combines an exceptive opening with غَيْرُ near its close."
+            ],
+            "reader_inference": "The packet supplies explicit exception syntax, contextual otherness, trust, fitness, and an exceptive ل ي س branch; I let that density activate an exclusion-sensitive shade in أَلَيْسَ. The live alternative is that focus لَيْسَ remains solely the ordinary negative verb.",
+            "changed_reading": {
+              "before": "The final question universally asserts that God is the best judge.",
+              "after": "It also answers why the preceding exception is not arbitrary: the best judge can discriminate fittingly within a shared human trajectory."
+            }
+          },
+          {
+            "model_id": "delta_reparative_reward",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ص ل ح",
+              "ء ج ر"
+            ],
+            "mechanism": "Intended action, anti-corruption, and the splinting image inside reward recast adjudication as reparative justice. The judgment answers action while also setting a fracture and restoring fit.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraining corruption and turning back to set right supplies the focus-side reparative operation."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication among people keeps the repair a judicial outcome rather than a free-floating healing metaphor."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposive action supplies the conduct to which the judgment responds."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Rightness opposed to corruption supplies the condition that repair seeks to restore."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Setting a crooked fracture supplies the concrete restorative image latent beside recompense."
+              }
+            ],
+            "structural_cues": [
+              "95:6 places purposive deeds, right-making, and reward in one consequence chain after the descent."
+            ],
+            "reader_inference": "The packet supplies conduct, anti-corruption, reward, fracture-setting, and corrective judgment; I infer that recompense can effect restoration rather than only record merit. The live alternative restricts أَجْر to ordinary payment and leaves repair inactive.",
+            "changed_reading": {
+              "before": "The best judge accurately pays or sentences according to deeds.",
+              "after": "The best judge answers deeds with a ruling capable of restraining corruption and setting what has been fractured back into fit."
+            }
+          },
+          {
+            "model_id": "delta_unpriced_surplus",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ج ر",
+              "م ن ن"
+            ],
+            "mechanism": "Reward as earned recompense coexists with release without exchange and with non-interruption. The resulting justice is not a closed wage ledger: it honors action yet contains a durable, non-coercive surplus that cannot be reduced to price.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication supplies the allocation framework within which earned and unpriced modes can coexist."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense and hire supply the transactional pole that answers action."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B004",
+                "role": "Release without compensation supplies a non-transactional pole beyond strict wage equivalence."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting or diminishing an extension supplies the negated failure mode, making the awarded good durable."
+              }
+            ],
+            "structural_cues": [
+              "95:6 grammatically gives the reward to the excepted group and immediately qualifies it with غَيْرُ مَمْنُونٍ."
+            ],
+            "reader_inference": "The packet supplies wage-like recompense, free release, and cutting-off; I read their juxtaposition as two coexisting modalities within just allocation. A live alternative selects only the uninterrupted-reward sense and leaves gratuitous surplus inactive.",
+            "changed_reading": {
+              "before": "Perfect judgment closes an exact account between deeds and payment.",
+              "after": "Perfect judgment recognizes deeds without enclosing divine giving inside a merely commercial equivalence."
+            }
+          },
+          {
+            "model_id": "delta_accountability_hearing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ب ع د",
+              "د ي ن"
+            ],
+            "mechanism": "Denial after the preceding evidence and dīn as reckoning turn the two closing questions into a hearing. The addressee is not only taught that a supreme Judge exists but made answerable for attributing falsehood after the case has unfolded.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "The negative proposition supplies the denial that the final interrogative requires the addressee to confront."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Adjudication supplies the hearing in which denial, evidence, and consequence become one case."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the contested stance for which the addressee must account."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "After-ness supplies evidentiary sequence: the denial occurs after, not before, the displayed pattern."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply the explicit accountability domain answered by the focus's Judge."
+              }
+            ],
+            "structural_cues": [
+              "95:7 and 95:8 form consecutive questions, so the second can answer and adjudicate the first.",
+              "بَعْدُ marks the denial as subsequent to the whole preceding sequence."
+            ],
+            "reader_inference": "The packet supplies false attribution, after-ness, reckoning, and adjudication; I infer a hearing in which the ordered context functions as evidence. A live alternative reads the questions as exhortation without a courtroom-like discourse role.",
+            "changed_reading": {
+              "before": "The final line closes with a general affirmation of divine justice.",
+              "after": "It stages the addressee's post-evidence denial before the very Judge whose reckoning is being denied."
+            }
+          },
+          {
+            "model_id": "delta_entrusted_jurisdiction",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ي ن"
+            ],
+            "mechanism": "Dīn as assent and entrustment meets ḥukm as delegated decision. The close therefore asks not only whether Allah judges best but whether the hearer will yield the case and its authority to that judgment.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one make entrustment an allegiance-bearing relation rather than a procedural convenience."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B005",
+                "role": "Entrusting decision supplies the focus-side transfer of jurisdiction."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Assent and entrustment supply the hearer's responsive act toward the final ruling."
+              }
+            ],
+            "structural_cues": [
+              "The object بِٱلدِّينِ in 95:7 is immediately followed by the question naming Allah and the judges."
+            ],
+            "reader_inference": "The packet supplies entrustment branches on both dīn and ḥukm plus the divine subject; I infer that the lexical overlap turns assertion into a jurisdictional appeal. The live alternative takes dīn only as recompense and ḥukm only as judging.",
+            "changed_reading": {
+              "before": "The hearer is asked to concede that Allah will judge.",
+              "after": "The hearer is asked to entrust the disputed matter and the right of decision to Allah."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_forbearing_load_bearing_judge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates derived nominal senses around ل ي س rather than the syntax of لَيْسَ itself; it remains focus-anchored because those senses pair load-bearing forbearance with the ح ك م branch that includes wise forbearance. Downstream prose should present it only as a root-shadow: the finest judge can bear and overlook without losing truth, not as a replacement gloss for أَلَيْسَ.",
+            "focus_anchor": "The focus juxtaposes ل ي س and repeated ح ك م, whose branch inventories independently meet in forbearance.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B006",
+                "role": "Forbearing, overlooking, and carrying a load supply the affective and load-bearing side of the exploratory judicial posture."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Wisdom that hits truth while including forbearance keeps overlooking answerable to knowledge rather than indifference."
+              }
+            ],
+            "changed_reading": {
+              "before": "Judicial excellence is maximally exact and therefore maximally severe.",
+              "after": "As a contained root-shadow, judicial excellence may include the capacity to bear, forbear, and overlook while still striking truth."
+            }
+          },
+          {
+            "outlier_id": "outlier_stripped_appearance_evidence",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a non-dominant split mapping from ر د د to م ر د with a deceptive-garment branch of ك ذ ب; it remains valid as an image-level activation because both context cues feed the focus's truth-hitting ح ك م anchor. Downstream prose must label it a cross-domain forensic analogy, not claim that رَدَدْ lexically means stripping in 95:5.",
+            "focus_anchor": "The focus's wisdom and rightly guided knowledge provide a judge capable of distinguishing truth from a surface presentation.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Truth-hitting knowledge supplies the forensic competence to see beyond presented appearance."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of stripping away a covering supplies an exploratory evidentiary unveiling."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A garment that deceives by its condition supplies the misleading surface that judgment must penetrate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The best judge evaluates the case as it is presented.",
+              "after": "Exploratorily, the best judge strips off deceptive presentation and judges the truth that the surface had dressed."
+            }
+          },
+          {
+            "outlier_id": "outlier_durability_assay",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the concrete failure of milk supply as an analogy for falsehood; it remains anchored through the focus branch of firmness and the immediately prior negation of reward being cut off. Downstream prose should qualify it as a material durability test, not as the lexical sense of يُكَذِّبُ in 95:7.",
+            "focus_anchor": "The focus can hear excellent judgment as making a matter firm and decisive.",
+            "activation_trace": [
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Firmness and completion supply the focus-side criterion of what holds under adjudicative testing."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting off an extension supplies the failure explicitly denied of the reward."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk that goes away and does not last supplies a concrete image of a claim whose apparent yield fails to persist."
+              }
+            ],
+            "changed_reading": {
+              "before": "The judge distinguishes true claims from false claims propositionally.",
+              "after": "As a contained material analogy, the judge also tests what endures: the awarded good is not cut off, while denial proves to be a supply that runs dry."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The creator's prior measuring and balancing make judgment an assessment against an originating human specification, not merely a rank among courts.",
+            "Return and downward motion make divine judgment governance of trajectory and reversal, not only an endpoint verdict.",
+            "The exception, fitting action, and fracture-setting reward disclose discriminating and reparative modes of justice.",
+            "Dīn as reckoning and entrustment turns the close into both an accountability hearing and an appeal to yield jurisdiction."
+          ],
+          "what_was_special": "The repeated ح ك م root held adjudication, corrective restraint, truth-hitting wisdom, perfective firmness, and delegated authority together without forcing one sense to erase the others. The context then moved that cluster through fruit and extraction, boundary and secure place, measured creation, descent and reversal, exception and repair, and finally denial and reckoning; the split ر د د mapping also preserved a strange but inspectable appearance-stripping outlier.",
+          "remaining_uncertainties": [
+            "How strongly أَحْكَمِ activates perfective firmness alongside the overt comparison among judges.",
+            "Whether the exceptive and forbearing branches of ل ي س are audible root-shadows here or only useful experimental activators.",
+            "Whether the non-dominant م ر د mapping should ever enter downstream prose rather than remain an explicitly contained outlier.",
+            "Whether the fig-and-oil extraction mechanism is a productive material analogy or only oath imagery."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Negation as an emphatic closure of the whole argument.** Lexical evidence: ل ي س B001, fixed negating verb for present-state denial with bāʾ in the predicate for emphasis; ء ل ه B002, fixed divine name; ح ك م B002, judgment/adjudication. Structural cue: أليس frames the final question after 95:7's \"what makes you deny?\" Assigned role: laysa does not introduce uncertainty; it negates the possibility that Allah is other than the most decisive judge. Abductive move: I infer that the final interrogative turns denial back against itself by using a negation that expects recognition. Reading change: the ayah reads as judicial closure rather than a simple doctrinal question.\n\n2. **Judgment as restraining corruption, not only passing sentence.** Lexical evidence: ح ك م B001, restraining and turning back to set right; ح ك م B006, bridle-piece that restrains; ر د د B002 in 95:5, repelling/preventing; ص ل ح B001 in 95:6, setting right. Structural cue: the root ح ك م appears doubled in superlative/plural form after fall, exception, and denial. Assigned role: الحكم is a bridle and restraint that prevents the downward/corruptive motion from becoming final chaos. Abductive move: I infer that the judge's role includes corrective restraint because the packet's fall and repair branches invite that function. Reading change: \"best of judges\" means the one whose judgment reins in corruption and redirects toward rightness.\n\n3. **Judgment as wisdom/perfection matching best taqwim.** Lexical evidence: ح ك م B003, wisdom and rightly guided knowledge; ح ك م B004, making firm/perfected/decisive; ح س ن B001/B002 and ق و م B008 in 95:4, beauty/goodness and straightness. Structural cue: أحكم mirrors أحسن in form and evaluative force: \"best/most beautiful\" formation is answered by \"most wise/decisive\" judging. Assigned role: final حكم completes the initial تقويم by providing a perfected evaluative standard. Abductive move: I infer a formal echo between أحسن and أحكم, both activated by measure, beauty, and decisiveness. Reading change: 95:8 reads as the epistemic completion of 95:4: the one who proportioned best also judges most firmly.\n\n4. **Delegated judgment is withdrawn into divine authority.** Lexical evidence: ح ك م B005, delegation/entrusting decision; د ي ن B007 in 95:7, crediting a person in judgment/oath or leaving to conscience; ء م ن B002, trusting assent. Structural cue: 95:7 confronts the addressee's denial; 95:8 asks whether Allah is not the final judge. Assigned role: human conscience and social adjudication are not abolished, but the last decision is entrusted to Allah. Abductive move: I infer that the question moves from human response to the authority competent to decide the dispute. Reading change: the ayah does not merely assert divine superiority; it reassigns the disputed case from denier to final court.\n\n5. **The brave/stationary laysa branch creates a minor counter-image.** Lexical evidence: ل ي س B004, unflinching brave one; ل ي س B005, one who stays put; ق و م B002/B016, standing and stoppage. Structural cue: this is exploratory because أليس is grammatically the negating verb, but the packet has been saturated with standing, falling, stopping, and judgment. Assigned role: the root inventory lets the final negation carry a faint image of unflinching firmness: the question does not move from its position. Abductive move: I infer a resonance, not a primary sense, between grammatical negation and steadfast judicial stance. Reading change: the final question feels like a fixed point against the earlier wavering and descent.",
@@ -10192,14 +11173,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10524,10 +11511,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 87868,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

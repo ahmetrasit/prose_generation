@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.540109+00:00",
+  "generated_at": "2026-08-18T13:34:14.700491+00:00",
   "surah": 94,
   "ayah": 7,
   "ayahRef": "94:7",
@@ -1571,7 +1571,8 @@
       "morpheme_ids": [
         "m-w-s094-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:7:1"
+      "aligned_qac_word_ref_upstream": "94:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1585,7 +1586,8 @@
       "morpheme_ids": [
         "m-w-s094-a007-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:7:2"
+      "aligned_qac_word_ref_upstream": "94:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1601,7 +1603,8 @@
         "m-w-s094-a007-w002-01",
         "m-w-s094-a007-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:7:3"
+      "aligned_qac_word_ref_upstream": "94:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1615,7 +1618,8 @@
       "morpheme_ids": [
         "m-w-s094-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:7:4"
+      "aligned_qac_word_ref_upstream": "94:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1629,7 +1633,8 @@
       "morpheme_ids": [
         "m-w-s094-a007-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:7:5"
+      "aligned_qac_word_ref_upstream": "94:7:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2628,7 +2633,782 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:7",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_release_to_chosen_strain",
+            "confidence": "strong",
+            "focus_anchor": "The temporal relay فَإِذَا ... فَـ joins second-person completion in فَرَغْتَ directly to the imperative فَٱنصَبْ.",
+            "mechanism": "Freedom after occupation is treated as newly available capacity, and the following imperative immediately spends that capacity in effort. Completion is therefore a transfer point rather than a terminal rest.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Freedom or emptiness after occupation supplies the released capacity at the first side of the relay."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness and strenuous toil supply the costly effort into which that released capacity is converted."
+              }
+            ],
+            "changed_reading": {
+              "before": "Finish one matter, then undertake another unspecified action.",
+              "after": "Whenever an occupation releases you, convert the newly free capacity immediately into chosen exertion."
+            }
+          },
+          {
+            "model_id": "baseline_empty_then_erect",
+            "confidence": "medium",
+            "focus_anchor": "The two focus roots can form a single material sequence: evacuation in فَرَغْتَ followed by erection in فَٱنصَبْ.",
+            "mechanism": "The first verb can image contents being poured out of a vessel; the second can image something being fixed upright and made salient. The verse then becomes a clear-and-establish operation: removal creates the room in which a new stance or work can be installed.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a container supplies active evacuation rather than passive leisure."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and prominent supplies the constructive form that follows evacuation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Completion merely precedes more labor.",
+              "after": "Empty the occupied space, then use the clearance to establish a visible, upright form of action."
+            }
+          },
+          {
+            "model_id": "baseline_exclusive_attention_fixed",
+            "confidence": "medium",
+            "focus_anchor": "فَرَغْتَ can involve turning deliberately to one matter, while فَٱنصَبْ can evoke both erect placement and a fixed base or threshold.",
+            "mechanism": "The condition is not only that a prior task has ended; it can mark attention becoming exclusive. The imperative answers that concentration by giving it stable footing, measure, and outward form.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B006",
+                "role": "Deliberately turning and devoting oneself to a matter supplies exclusive attention."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B006",
+                "role": "A fixed base, origin, or threshold supplies durable footing and measure for the devoted action."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright prominent placement turns inward concentration into an established stance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wait for spare time and then become busy again.",
+              "after": "When attention has been cleared and made single, establish that devotion on a fixed, upright footing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_opened_interior_issues_into_stance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "The opened chest is also an interior origin from which action issues. This revises focus-only clearance into an inside-to-outside movement: gathered attention proceeds from an expanded source and becomes an upright stance.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B006",
+                "role": "Deliberate turning gathers the cleared interior around one matter."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright prominence gives the gathered interior an embodied and outwardly legible stance."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarification make the prior interior change an enabling expansion, not merely the end of a task."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue locates the expansion upstream of the focus imperative."
+              }
+            ],
+            "structural_cues": [
+              "94:1 addresses the same second person with a benefactive opening, while 94:7 shifts that addressee into a conditional followed by an imperative.",
+              "The body-interior term in 94:1 precedes the focus verse's compact sequence of inward clearance and outward action."
+            ],
+            "reader_inference": "The packet supplies opening, an interior action-source, deliberate concentration, and upright prominence; I infer a flow from opened interior to outward stance. A live alternative is that 94:1 supplies comfort while 94:7 independently commands toil.",
+            "changed_reading": {
+              "before": "Become free of one occupation and start another.",
+              "after": "Gather the already opened interior around one purpose, then let action issue from it as an upright stance."
+            }
+          },
+          {
+            "model_id": "delta_relieved_load_becomes_chosen_strain",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر",
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "A heavy load is put down from a back that had audibly yielded under it. Against that relief sequence, فَٱنصَبْ cannot be reduced to restoration of the same crushing burden: it becomes a chosen exertion that also lets the relieved body stand upright.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Freedom after occupation supplies the state produced when the oppressive load no longer occupies the addressee."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Strain and toil preserve genuine cost in the new action, preventing relief from becoming inertia."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright erection supplies bodily recovery and active stance after the back's compression."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something into a lower or settled place supplies the downward removal that precedes renewed action."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy carried load identifies the prior strain as imposed weight rather than freely assumed effort."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints and back under weight supply the bodily failure mode from which relief releases the addressee."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The literal back fixes the load-and-uprighting mechanism in bodily posture."
+              }
+            ],
+            "structural_cues": [
+              "94:2 marks removal away from the addressee, and 94:3 makes the burden's effect on the back explicit.",
+              "The focus then gives that relieved addressee, rather than the removed load, the next imperative."
+            ],
+            "reader_inference": "The packet supplies downward placement, a heavy load, a creaking back, and the focus branches of strain and uprightness; I infer a contrast between imposed exhaustion and chosen effort. The live alternative is that فَٱنصَبْ names toil alone, without a postural recovery image.",
+            "changed_reading": {
+              "before": "Relief ends, and another burden simply begins.",
+              "after": "Once crushing weight has been removed, answer relief with self-directed effort and an upright stance, not with either inertia or re-subjection."
+            }
+          },
+          {
+            "model_id": "delta_elevated_mention_becomes_voiced_installation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "The raising of mention activates a less expected branch of ن ص ب: raised-voice song or chant. Coupled with deliberate availability, the focus imperative can carry an audible, publicly projected act alongside bodily toil.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B006",
+                "role": "Deliberate devotion supplies focused availability for an intentional vocal act."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B009",
+                "role": "A raised-voice song or riders' chant supplies the unexpected audible realization of the imperative."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Prominent upright placement keeps the vocal act anchored as something established and projected."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B010",
+                "role": "Raising the voice supplies the acoustic upward motion that activates the focus root's chant branch."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on the tongue supplies vocal content rather than undirected sound."
+              }
+            ],
+            "structural_cues": [
+              "94:4 joins an act of raising to mention before 94:7 joins deliberate clearance to the imperative from ن ص ب.",
+              "The focus imperative is phonologically compact enough to leave bodily exertion and raised vocal performance co-present."
+            ],
+            "reader_inference": "The packet supplies raised voice, tongued mention, deliberate devotion, and a chant branch under ن ص ب; I infer that the raised mention can become the content of the focus action. The live alternative is that B009 is too branch-distant here and the imperative denotes bodily effort only.",
+            "changed_reading": {
+              "before": "Use free time for silent or unspecified hard work.",
+              "after": "When deliberately available, establish and raise an audible act of mention alongside the verse's demand for effort."
+            }
+          },
+          {
+            "model_id": "delta_ease_as_recurring_working_clearance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The doubled co-presence of difficulty and ease makes فَرَغْتَ a local opening inside an unfinished field of hardship, not necessarily the final disappearance of difficulty. فَٱنصَبْ turns each such opening into the next cycle of effort.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Freedom after occupation supplies a bounded interval of availability rather than requiring total historical completion."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Toil and strain convert each available interval into another active cycle."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity supply the continuing resistant field in which a clearance appears."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease supply the first explicitly named release within that resistant field."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Repeated difficulty keeps the mechanism iterative rather than allowing a single final escape."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and compliant movement make the second ease an actionable opening, not merely an abstract consolation."
+              }
+            ],
+            "structural_cues": [
+              "94:5 and 94:6 repeat the same مع العسر يسرا relation immediately before the focus verse.",
+              "مع places ease alongside difficulty, while فإذا ... فـ in 94:7 turns a reached opening into an immediate action threshold."
+            ],
+            "reader_inference": "The packet supplies repeated difficulty, opening, and light movement; the syntax supplies co-presence. I infer that فَرَغْتَ may name recurring local clearances and that the imperative restarts work from each one. A live alternative is a single chronological sequence after one completed duty.",
+            "changed_reading": {
+              "before": "After hardship and work are completely over, begin a separate effort.",
+              "after": "Recognize each opening that arrives within continuing difficulty as a launch window for renewed, self-directed exertion."
+            }
+          },
+          {
+            "model_id": "delta_directed_axis_toward_lord",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "The next imperative supplies a destination and a directed desire. It strengthens the focus-only devotion model by turning فَٱنصَبْ into the installation of an oriented axis: cleared attention becomes an upright, sustained stance whose vector is toward the Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B006",
+                "role": "Deliberate turning to one matter supplies the collection of attention before it receives a destination."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and prominent supplies the stance or axis that can be directionally aimed."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "An erected marker or boundary stone supplies an orienting point rather than objectless exertion."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty identify the governing destination of the established stance."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Abiding and persistence give the orientation duration rather than a momentary gesture."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire turning toward or away supplies the directional vector and makes its chosen orientation consequential."
+              }
+            ],
+            "structural_cues": [
+              "94:8 follows with another فـ-prefixed imperative and explicitly places إلى ربك before it.",
+              "The destination absent from 94:7 is therefore supplied by the immediately following clause without erasing the focus verse's own effort and erection branches."
+            ],
+            "reader_inference": "The packet supplies sovereign destination, durable abiding, directional desire, deliberate attention, and an upright marker; I infer that 94:8 aims the stance installed in 94:7. A live alternative is that the two imperatives are adjacent but functionally independent.",
+            "changed_reading": {
+              "before": "Exert yourself after finishing, with the aim left unspecified.",
+              "after": "Clear and collect attention, establish a durable upright stance, and let the next verse aim that stance toward the Lord."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_hydraulic_boundary",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries vessel and cistern imagery into a material analogy rather than a likely lexical rendering. It remains anchored because both focus roots explicitly supply evacuation and erected pool-edge imagery, while the following desire root supplies a spacious hollow. Downstream prose should present it as a model of released energy receiving form, not as a claim that the verse literally commands basin construction.",
+            "focus_anchor": "The focus pair itself supports a two-stage geometry in which contents are discharged and a containing edge is then erected.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out a vessel supplies release as directed flow rather than simple cessation."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B003",
+                "role": "Erected stones around a cistern supply the boundary that contains and shapes what release makes available."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "A wide cavity or spatial extension enlarges the receiving space in the material mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "Empty time is immediately refilled with effort.",
+              "after": "Release what occupied the vessel, then give the released capacity an erected edge so it acquires direction instead of dissipating."
+            }
+          },
+          {
+            "outlier_id": "outlier_split_chest_realignment",
+            "confidence": "exploratory",
+            "containment": "This posture reading is surprising because it activates the packet's non-dominant ز و ر mapping under the source root و ز ر and joins it to chest and back imagery. The split target is packet-authorized, and the result remains anchored in the focus branch of upright erection. Downstream prose should label it an exploratory bodily geometry, not assert that وِزْر lexically means a sloping chest here.",
+            "focus_anchor": "فَٱنصَبْ remains the controlling anchor through its image of becoming or making upright after فَرَغْتَ marks release.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Release after occupation supplies freedom from the condition that held the body compressed."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright erection supplies the corrective endpoint of the bodily realignment."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest supplies the front plane whose opening can be registered as posture."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B004",
+                "role": "The non-dominant mapped image of a chest's slope supplies the oblique posture to be corrected."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The literal back completes the front-back bodily axis on which the realignment occurs."
+              }
+            ],
+            "changed_reading": {
+              "before": "After relief, work hard again.",
+              "after": "After release from compressive occupation, open and realign the chest-back axis into an upright stance."
+            }
+          },
+          {
+            "outlier_id": "outlier_cultivated_upright_growth",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it draws on the non-dominant ر ب و target mapped from ر ب ب and treats emptying plus erection as developmental imagery. It remains valid as an activation because the packet supplies nourishment and growth while the focus supplies evacuation and upright emergence. Downstream prose should call it a cultivation analogy and keep it secondary to the dominant lordship reading.",
+            "focus_anchor": "The focus sequence can image clearing a vessel or field and then raising something into prominence.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Emptying a vessel supplies cleared capacity in which development can occur."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Upright prominence supplies the visible emergence produced by cultivation."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped branch of feeding and growth supplies the developmental process between clearance and emergence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Vacancy should be suppressed by immediately filling it with labor.",
+              "after": "Clear the occupied capacity so disciplined cultivation can raise a new form from it."
+            }
+          },
+          {
+            "outlier_id": "outlier_spacious_easy_march",
+            "confidence": "medium",
+            "containment": "This is counterintuitive because it lets branches of broad movement and an easy full-day march resist reading ن ص ب only as grim exhaustion. It remains tightly anchored in both focus roots and is reinforced by contextual lightness of movement. Downstream prose should preserve it as a pacing alternative, not erase the simultaneously live toil branch.",
+            "focus_anchor": "فَرَغْتَ can release breadth of movement, and فَٱنصَبْ has a branch describing sustained day-long travel.",
+            "activation_trace": [
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B003",
+                "role": "Breadth in gait, movement, or path supplies room for sustained forward motion."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B010",
+                "role": "A full-day easy march supplies duration and steady pacing rather than a short convulsion of effort."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and compliance in motion reinforce the possibility that renewed exertion can be sustainable and fluid."
+              }
+            ],
+            "changed_reading": {
+              "before": "The imperative demands an abrupt burst of exhausting labor.",
+              "after": "Use released room to enter a sustained, light-footed march whose endurance is itself the exertion."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The removed crushing load and the new imperative separate imposed exhaustion from chosen exertion while preserving an upright recovery reading.",
+            "The repeated coexistence of difficulty and ease turns completion into recurring local clearances that launch further work, not one final endpoint.",
+            "The next verse gives deliberate clearance and upright establishment a destination, producing an oriented stance toward the Lord.",
+            "Raised mention activates a coexisting vocal reading of فَٱنصَبْ that a toil-only synthesis would lose."
+          ],
+          "what_was_special": "The focus pair generated more than a work-rest sequence: it supported evacuation and erection, exclusive attention and fixed footing, bodily decompression and uprightness, voiced projection, sustainable movement, and several contained material analogies. Split mappings added chest-realignment and cultivated-growth possibilities without displacing dominant readings.",
+          "remaining_uncertainties": [
+            "The relative weight of toil, upright erection, fixed threshold, chant, and travel within فَٱنصَبْ remains unresolved; the models should coexist rather than be harmonized.",
+            "فَرَغْتَ may foreground completed occupation, active emptying, spacious movement, or deliberate devotion, and context sharpens but does not eliminate that plurality.",
+            "The vocal, hydraulic, postural-split, and growth models are visibly anchored but branch-distant and require explicit exploratory qualification.",
+            "The directional link from 94:8 may complete the action of 94:7 or may begin a distinct adjacent imperative."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. Completion leads to renewed upright exertion. Lexical evidence: `ف ر غ B001` emptiness/freedom after occupation or completion of work; `ن ص ب B001` setting something upright/prominent and `ن ص ب B004` weariness, strain, toil. Structural cue: after relief and repeated ease (94:5-6), the imperative comes with `فـ` and `إذا`. Assigned role: `فرغت` marks emptied/completed capacity; `فانصب` turns that capacity into upright work. Abductive move supplied by me: ease is not an endpoint but the condition that makes new exertion possible. Reading change: the ayah reads as a rhythm of completion and re-engagement rather than rest after hardship.\n\n2. The vessel-pouring branch makes the chest-opening concrete. Lexical evidence: `ف ر غ B002` pouring out and emptying a vessel; earlier `ش ر ح B001` opening and `ص د ر B001` chest; `و ض ع B001/B002` setting down and delivery. Structural cue: the passage opened the chest, removed a load, then says “when you have emptied/finished.” Assigned role: the person is like a vessel emptied of constricting contents, ready to be set upright. Abductive move supplied by me: inner relief is modeled as evacuation before reorientation. Reading change: the ayah becomes a post-emptying instruction, not merely scheduling.\n\n3. A deliberate-turning reading bridges to final desire. Lexical evidence: `ف ر غ B006` turning deliberately to a matter/devoting oneself; `ر غ ب B001` desire turning toward or away; `ر ب ب B001/B002` lordship and nurture. Structural cue: 94:7 immediately precedes `وَإِلَىٰ رَبِّكَ فَٱرْغَب`. Assigned role: `فراغ` is not vacancy but undivided availability for the next object. Abductive move supplied by me: the command to set oneself up is incomplete until the next ayah supplies the direction. Reading change: the ayah reads as focused readiness for devotion.\n\n4. The upright-marker/cistern reading gives the imperative spatial form. Lexical evidence: `ن ص ب B003` upright marker/boundary or cistern stones; `س م و B004` overhead sky/cover including rain, `ر ب ب B008/B013` low cloud and abundant gathered water, `ف ر غ B002` pouring. Structural cue: water/cloud/pouring branches cluster around the final half of the passage once `فرغ` appears. Assigned role: `انصب` sets a marker or rim after pouring, making a bounded place for reception. Abductive move supplied by me: the opened/emptied self becomes a prepared site rather than a spent vessel. Reading change: the imperative can be spatially read as establishing a receiving place.\n\n5. Raised-voice chant is activated by the prior raised mention. Lexical evidence: `ن ص ب B009` raised-voice song/chant; `ر ف ع B010` highness of voice; `ذ ك ر B004` mention on the tongue. Structural cue: `رفعنا لك ذكرك` precedes `فانصب`. Assigned role: the renewed action may include voiced praise/proclamation. Abductive move supplied by me: when mention has been raised, the next upright exertion can be vocal as well as bodily. Reading change: the ayah includes performative utterance, not only labor.",
@@ -8469,14 +9249,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8736,10 +9522,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 73667,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

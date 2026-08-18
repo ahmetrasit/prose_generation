@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.888470+00:00",
+  "generated_at": "2026-08-18T13:33:35.161061+00:00",
   "surah": 88,
   "ayah": 11,
   "ayahRef": "88:11",
@@ -1291,7 +1291,8 @@
       "morpheme_ids": [
         "m-w-s088-a011-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:11:1"
+      "aligned_qac_word_ref_upstream": "88:11:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1305,7 +1306,8 @@
       "morpheme_ids": [
         "m-w-s088-a011-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:11:2"
+      "aligned_qac_word_ref_upstream": "88:11:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1321,7 +1323,8 @@
         "m-w-s088-a011-w003-01",
         "m-w-s088-a011-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:11:3"
+      "aligned_qac_word_ref_upstream": "88:11:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1335,7 +1338,8 @@
       "morpheme_ids": [
         "m-w-s088-a011-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:11:4"
+      "aligned_qac_word_ref_upstream": "88:11:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2730,7 +2734,1268 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_11.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:11",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:11",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_selective_soundscape",
+            "confidence": "strong",
+            "focus_anchor": "The negation leaves the act of hearing in place and negates its indefinite object, لاغية.",
+            "mechanism": "Ordinary hearing is available, but vain or foul speech and mixed clamor are absent; the pleasing-audition branch keeps open the possibility of positive sound.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Ear-hearing supplies the literal sensory channel that remains operative under the object-level negation."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B007",
+                "role": "Pleasing audition supplies a positive acoustic alternative, so the line need not erase sound as such."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Vain, false, or foul speech identifies the morally damaged content excluded from hearing."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed raised noise identifies acoustic confusion, making the exclusion environmental as well as semantic."
+              }
+            ],
+            "changed_reading": {
+              "before": "The place is simply silent.",
+              "after": "The place has a selective soundscape: hearing remains possible, while foul speech and confusing clamor do not enter it."
+            }
+          },
+          {
+            "model_id": "base_no_null_uptake",
+            "confidence": "medium",
+            "focus_anchor": "تسمع can activate understanding and compliance, while لاغية can activate what does not count or departs from correctness.",
+            "mechanism": "The line excludes a communicative object that solicits cognitive uptake or obedience while being void, non-counting, or misdirected.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Understanding and compliance turn hearing from bare sensation into accepted or enacted communication."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "The thing discarded from reckoning supplies the null status of the communication being refused uptake."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B005",
+                "role": "Deviation from correctness supplies the direction in which such apparently actionable speech would mislead."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one hears idle chatter.",
+              "after": "Nothing heard there asks for understanding or compliance while being null, non-counting, or off-course."
+            }
+          },
+          {
+            "model_id": "base_no_empty_public_circulation",
+            "confidence": "medium",
+            "focus_anchor": "The hearing root includes public report and reputation, and لاغية names both worthless matter and a group's habitual speech.",
+            "mechanism": "The negation can govern a social circulation system: no empty report, reputation-performance, or habitual false discourse becomes common currency.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B005",
+                "role": "Public reputation and circulated report expand hearing from an individual ear to a social transmission network."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "What is set aside as not counting gives the circulated material its lack of worth."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B004",
+                "role": "A group's repeated speech-habit supplies the mechanism by which empty talk could otherwise become a communal norm."
+              }
+            ],
+            "changed_reading": {
+              "before": "An individual does not happen to overhear nonsense.",
+              "after": "The community has no circulation economy in which empty report or reputation-performance becomes habitual speech."
+            }
+          },
+          {
+            "model_id": "base_no_abusive_transmission",
+            "confidence": "medium",
+            "focus_anchor": "The hearing inventory contains both causing another to hear and specifically making another hear abuse; لاغية includes insult and foul speech.",
+            "mechanism": "The line can describe a relation between agents, not merely a quiet recipient: no one injects verbal injury into another's hearing.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B004",
+                "role": "Causing another to hear supplies an upstream speaker-to-recipient transmission relation."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B006",
+                "role": "Making someone hear abuse specifies the injurious use of that transmission relation."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Foul speech, insult, and sinful talk supply the harmful payload that never reaches a hearer."
+              }
+            ],
+            "changed_reading": {
+              "before": "The hearer is protected by the accidental absence of bad words.",
+              "after": "The social relation itself is non-injurious: no speaker makes another person receive abuse, falsehood, or humiliation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_arriving_report_filters_public_circulation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The surah opens with a report that arrives, renews itself as news, and concerns an encompassing event; this revises the focus from speechlessness to a contrast between consequential report and empty circulation.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B005",
+                "role": "Public circulation supplies the channel in which both the opening report and excluded empty report can travel."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "The non-counting thing supplies the criterion by which one kind of circulated material is screened out."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival gives the opening report a directed path to a recipient, contrasting with excluded circulation."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed news supplies a form of speech that is not rejected merely because it is heard."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B004",
+                "role": "Becoming the talk of people makes the public-circulation mechanism explicit rather than merely private."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An encompassing cover supplies the report with consequential scope, opposing the weightlessness of laghw."
+              }
+            ],
+            "structural_cues": [
+              "88:1 asks whether a report has arrived before 88:11 states what is not heard, placing two auditory transmission events in contrast."
+            ],
+            "reader_inference": "The packet supplies arrival, renewed public news, encompassing scope, and non-counting speech; I infer a value filter between report types. A live alternative is that 88:1 and 88:11 concern unrelated speech situations.",
+            "changed_reading": {
+              "before": "No empty report circulates in the garden.",
+              "after": "Communication is retained but sorted: consequential report can arrive and encompass, while report without weight never becomes the garden's public currency."
+            }
+          },
+          {
+            "model_id": "ctx_failed_intake_becomes_auditory_diet",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ق ي",
+              "ط ع م",
+              "س م ن",
+              "غ ن ي",
+              "ج و ع"
+            ],
+            "mechanism": "The punitive scene repeatedly presents intake that enters but does not fulfill its function. That pattern recasts laghw as failed auditory nourishment and abusive speech as something poured into the inner person.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B006",
+                "role": "Making someone hear abuse supplies the painful communicative intake whose absence is being modeled."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B006",
+                "role": "Failure supplies the shared functional defect: the speech enters a channel yet produces no good end."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B010",
+                "role": "Watering the heart with something unwelcome directly bridges forced drink and injurious verbal reception."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B001",
+                "role": "Tasting and taking food supplies the bodily intake frame transferred cautiously to hearing."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "س م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000744",
+                "branch_id": "B001",
+                "role": "Fatness opposed to emaciation supplies one expected function that the punitive food fails to perform."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the other failed function and defines what worthwhile intake should achieve."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "The empty stomach supplies the unresolved need left behind by functionless intake."
+              }
+            ],
+            "structural_cues": [
+              "88:5-7 forms an intake sequence of forced drink, restricted food, and explicit failure to nourish or suffice."
+            ],
+            "reader_inference": "The packet supplies failed bodily intake, an unwelcome watering of the heart, abusive hearing, and failure; I supply the cross-domain arrow from ingestion to auditory reception. The alternative is a simple contrast between two realms with no intended speech-as-food analogy.",
+            "changed_reading": {
+              "before": "Laghw is merely objectionable talk.",
+              "after": "Laghw is communicative intake that can be forced into a hearer yet neither nourishes nor satisfies; the garden excludes that failed auditory diet."
+            }
+          },
+          {
+            "model_id": "ctx_effort_without_verbal_subjection",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع م ل",
+              "ن ص ب",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "Exhausting work in one scene is answered by satisfaction with one's striving in the other. Hearing-as-compliance therefore becomes a question of agency: no null directive converts obedience into futile, alienated labor.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Understanding followed by compliance supplies the possible command-to-action link."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "What does not count marks a directive or its resulting labor as purposeless rather than merely difficult."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional work supplies the action that may be either owned and fruitful or subordinated and futile."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting hardship supplies the bodily cost of the negative labor regime."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earning supply the positive scene's retained agency rather than an absence of effort."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction supplies the changed relation between the agent and the result of striving."
+              }
+            ],
+            "structural_cues": [
+              "88:3 and 88:9 place two labor evaluations on opposite sides of the surah's face contrast before the focus line."
+            ],
+            "reader_inference": "The packet supplies compliance, nullity, exhausting work, and satisfied striving; I infer that some heard speech functions as direction of labor. The live alternative is that the work contrast concerns outcomes only, without any implied command relation.",
+            "changed_reading": {
+              "before": "No false instruction is heard.",
+              "after": "No heard directive subordinates agency to work that does not count; striving remains purposeful enough for its agent to own with satisfaction."
+            }
+          },
+          {
+            "model_id": "ctx_arranged_acoustic_environment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر ي",
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "The positive scene is organized by controlled motion and placement: water runs, couches are raised, cups placed, cushions aligned, and carpets spread. The focus line joins that inventory as acoustic ordering, not sensory vacancy.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Literal hearing makes sound another environmental channel alongside water, furniture, vessels, and textiles."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed clamor supplies the acoustic disorder excluded from the otherwise arranged scene."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing motion supplies continuous positive sound and movement, preventing the scene from collapsing into silence."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation supplies one deliberate placement operation in the environmental sequence."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object in a settled place supplies a second deliberate ordering operation."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line turns amenity into visible arrangement rather than random abundance."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Controlled spreading supplies distribution across the space, against which uncontrolled sound-scatter is excluded."
+              }
+            ],
+            "structural_cues": [
+              "The repeated فيها at 88:10-13 makes 88:11 one spatial inventory item among flowing and deliberately placed amenities.",
+              "The sequence alternates motion, elevation, placement, alignment, and distribution, allowing sound to be read as another organized environmental variable."
+            ],
+            "reader_inference": "The packet supplies literal hearing, clamor, flow, and a sequence of placement operations; I infer that the negative auditory clause performs positive environmental design. The alternative is that the amenity list and speech ethic are adjacent but mechanically independent.",
+            "changed_reading": {
+              "before": "The line removes sound from an otherwise pleasant setting.",
+              "after": "The line furnishes the setting acoustically: flowing and social sounds may remain, while unplaced, mixed clamor is the one element not distributed through the space."
+            }
+          },
+          {
+            "model_id": "ctx_inspection_displaces_hearsay",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "س ط ح"
+            ],
+            "mechanism": "A rare hearing branch describes listening or looking, finding nothing, then acting on suspicion. The later command to direct sight toward measured creation reverses that mechanism: empty auditory inference gives way to inspectable form.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B013",
+                "role": "Suspicious hearing and looking supplies the defective epistemic sequence of weak perception followed by unsupported inference."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B005",
+                "role": "Deviation from correctness supplies the result of acting on an empty perceptual cue."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or insight supplies the corrective act of attending to something available for inspection."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measurement and proportion supply structured evidence in the created object rather than an empty report."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "An extended visible surface supplies the final inspectable plane in the repeated observation sequence."
+              }
+            ],
+            "structural_cues": [
+              "The branchless root ك ي ف repeats at 88:17, 88:18, 88:19, and 88:20 as a structural demand to inspect manner; no mapped root or branch is assigned to it.",
+              "The sequence moves from hearing at 88:11 to explicit looking at 88:17 and then repeats visible objects at multiple scales."
+            ],
+            "reader_inference": "The packet supplies the suspicion idiom, directed looking, measured creation, visible surface, and repeated branchless ك ي ف; I infer an epistemic reversal from hearsay to inspection. The alternative is that the rare idiom is lexically live but not activated by this sequence.",
+            "changed_reading": {
+              "before": "No noisy or deviant utterance is audible.",
+              "after": "No evidence-free signal is converted into suspicion or deviation; attention is redirected from empty hearsay toward forms whose manner can be inspected."
+            }
+          },
+          {
+            "model_id": "ctx_reminder_without_control",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ل ي س",
+              "س ط ر"
+            ],
+            "mechanism": "Speech remains as reminder and verbal recollection, but the speaker is explicitly not a controlling overseer. The focus therefore excludes communicative domination, not communication.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B004",
+                "role": "Making another hear supplies the communicative act whose social force is limited by the later non-control clause."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B006",
+                "role": "Making another hear abuse supplies the coercive or humiliating transmission specifically absent from the focus environment."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Foul and sinful speech supplies the verbal payload that would turn address into injury or domination."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Restoring something to awareness supplies a legitimate non-coercive purpose for speech."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue confirms that the context retains verbal address rather than idealizing muteness."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Negation of the present relation supplies the explicit limit placed on the addresser's authority."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer supplies the domination model that reminder is denied permission to become."
+              }
+            ],
+            "structural_cues": [
+              "88:21 authorizes repeated address and 88:22 immediately bounds its force, creating a speech-without-control pair."
+            ],
+            "reader_inference": "The packet supplies verbal reminding, causing another to hear, abuse, and explicit denial of controlling oversight; I infer that 88:11 projects a perfected non-dominating speech relation. The alternative is that 88:22 limits only the messenger's worldly task and does not characterize garden speech.",
+            "changed_reading": {
+              "before": "No speaker transmits abusive words.",
+              "after": "Speech can remind and restore awareness, but it never turns hearing into compelled submission, surveillance, or humiliation."
+            }
+          },
+          {
+            "model_id": "ctx_post_accounting_no_null_residue",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر",
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "The not-counting branch of laghw becomes quasi-legal in a sequence that includes a right-document, written lines, return, and accounting. The garden is read as a post-accounting field from which null or unsettled speech leaves no residue.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Speech or action discarded from count supplies the legal-accounting hinge of the revised reading."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B005",
+                "role": "Public report supplies material whose social circulation can eventually be recorded, weighed, or excluded."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A document establishing a right supplies a juridical register for consequential words."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "An aligned written line supplies inscription and ordering without importing the overseer's coercive branch."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the temporal movement into final settlement."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting activate the focus branch's explicit image of what is or is not reckoned."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Reviewing a matter supplies deliberate adjudication rather than mechanical enumeration alone."
+              }
+            ],
+            "structural_cues": [
+              "88:25-26 closes with return followed by accounting, allowing the earlier spatial description to be read as a condition after settlement.",
+              "The focus's indefinite لاغية denies any surviving instance of the non-counting category."
+            ],
+            "reader_inference": "The packet supplies not-counting speech, documentary and written branches, return, counting, and review; I infer a temporal filtration whose settled result appears at 88:11. A live alternative is the simpler qualitative claim that garden speech is worthwhile, with no procedural link to final accounting.",
+            "changed_reading": {
+              "before": "Nothing pointless is said.",
+              "after": "After return and account, no void utterance, unsettled claim, or socially circulated nullity remains in the communicative field."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cup_instrument_selective_audition",
+            "confidence": "exploratory",
+            "containment": "The actual context form denotes cups, so its instrument branch is branch-distant and must not replace that sense. It remains a packet-grounded resonance because the focus hearing inventory independently supplies pleasing audition and contrasts it with clamor; render it only as an exploratory activation of curated sonic pleasure.",
+            "focus_anchor": "تسمع activates pleasing audition, while لاغية specifically activates mixed raised noise rather than all sound.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B007",
+                "role": "Pleasing audition supplies a positive sonic category that can coexist with the focus negation."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed clamor narrows what is absent and prevents the activation from becoming a claim of total silence."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B002",
+                "role": "The homonymous entertainment-instrument branch weakly activates an auditory register inside the cup sequence."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B010",
+                "role": "Hidden joy and ease supply the affective condition under which pleasing sound, rather than clamor, would belong."
+              }
+            ],
+            "changed_reading": {
+              "before": "The negative clause implies an acoustically blank paradise.",
+              "after": "The cup cluster faintly activates enjoyable audition: sonic pleasure may remain, while confused or intrusive sound alone is excluded."
+            }
+          },
+          {
+            "outlier_id": "outlier_bucket_handle_balanced_service",
+            "confidence": "exploratory",
+            "containment": "The bucket-handle sense is nominal and materially distant from the finite verb تسمع, so it is not a lexical gloss. It remains worth carrying as a cross-domain packet activation because a flowing spring, cups, and settled placement surround the focus; downstream prose should label it a service-and-balance analogy only.",
+            "focus_anchor": "The focus hearing root contains a bucket or waterskin loop that balances or eases a load, while لاغية contains what is discarded as not counting.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B008",
+                "role": "The bucket loop or balancing handle supplies the surprising material image of a burden carried without imbalance."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "The discarded non-counting thing supplies the useless load or component absent from the analogy."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A spring as the source of running water activates the bucket handle's water-service domain."
+              },
+              {
+                "source_ref": "88:12",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous flow supplies a service system in which burdens and vessels no longer need strained transport."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless cup supplies the receiving vessel and sharpens the contrast with the focus root's handled bucket image."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Settled placement supplies readiness without needless carrying, balancing, or discarded effort."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hearing is only a sensory act and laghw only speech.",
+              "after": "As a contained material analogy, the scene carries no useless load: water service is balanced, vessels are ready, and nothing non-counting strains the system."
+            }
+          },
+          {
+            "outlier_id": "outlier_hearing_shackle_non_domination",
+            "confidence": "exploratory",
+            "containment": "The shackle called mismāʿ is a remote nominal branch, so the finite verb must still be read as hearing. The branch remains activated by the explicit reminder-versus-controller contrast and gives a concrete image to coerced listening; render it as metaphorical reinforcement, never as an alternative translation.",
+            "focus_anchor": "The hearing root contains a restraint called mismāʿ, and the focus excludes foul speech from the hearer's environment.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B009",
+                "role": "The shackle supplies a material image for speech that binds a hearer into compelled response."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Foul or sinful speech supplies the verbal substance that could make listening function like restraint."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Restoring awareness supplies a communicative purpose that need not bind or overpower its recipient."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Controlling oversight supplies the explicitly denied social mechanism that would turn hearing into a shackle."
+              }
+            ],
+            "changed_reading": {
+              "before": "No offensive words are audible.",
+              "after": "No utterance fastens the hearer into a verbal shackle; reminder can address without controlling."
+            }
+          },
+          {
+            "outlier_id": "outlier_heard_but_not_reached_closure",
+            "confidence": "exploratory",
+            "containment": "The formula of hearing without reaching is idiomatic and branch-distant from ordinary تسمع, so it cannot govern the verse directly. It remains a live structural resonance because the context opens with report-arrival and closes with return to a terminus; qualify the reading as an exploratory closure of circulation.",
+            "focus_anchor": "The hearing root includes an unwelcome report that is heard of but does not reach its owner, while لاغية supplies the worthless report category.",
+            "activation_trace": [
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B011",
+                "role": "Hearing without reaching supplies a liminal report that circulates without arriving at its proper endpoint."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "The non-counting thing identifies the kind of report denied an unresolved circulation state."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival supplies the opening endpoint question for a report in motion."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed news supplies the report-object whose successful arrival opens the sequence."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the closing endpoint and removes indefinite, ownerless circulation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worthless talk is absent as content.",
+              "after": "Worthless report is also absent as unfinished circulation: nothing merely heard-of remains suspended without arrival, return, or settlement."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The arriving, encompassing report of 88:1 turns 88:11 from a ban on all speech into a filter between consequential report and empty public circulation.",
+            "Failed drink and food, exhausting work, and satisfied striving recast laghw as communicative intake or direction that fails its recipient rather than merely sounding unpleasant.",
+            "The repeated spatial inventory of flow and deliberate placement makes the focus line acoustic furnishing: clamor is excluded from an otherwise active sensory environment.",
+            "Reminder without control and the closing return-account sequence preserve communication while removing coercion, null claims, and unreckoned residue."
+          ],
+          "what_was_special": "The pairing of a many-branched hearing root with laghw's noise, failure, deviation, and non-counting branches lets one short negative clause move among sensory, cognitive, social, labor, legal, and material mechanisms without forcing them into one final reading.",
+          "remaining_uncertainties": [
+            "The packet does not settle how strongly the active second-person form should individualize the hearer versus describe the environment generally.",
+            "The acoustic-design reading depends on treating the placement sequence as a functional analogy rather than mere adjacency.",
+            "The instrument, bucket-handle, shackle, and hearing-without-reaching branches are packet-grounded but form-distant; they should remain explicitly exploratory resonances."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Garden as protected soundscape.** Evidence: `س م ع` B001 hearing, B003 understanding/compliance; `ل غ و` B001 discarded non-counting thing, B002 vain/foul speech. Structural cue: after entry into the garden, the first furnishing is auditory absence. Role: hearing becomes a filter; `لاغية` is speech that does not count and is not allowed to define the place. Abductive move: blessed space is ordered by what cannot circulate in it. Reading change: the ayah reads as acoustic purification, not mere silence.\n\n2. **The true report replaces vain noise.** Evidence: `ح د ث` B003 report in 88:1; `ل غ و` B002 false/foul speech, B003 noisy clamor; later `ذ ك ر` B009 reminder. Structural cue: the surah begins with `حديث`, removes `لاغية`, and commands reminder. Role: `لا تسمع` establishes the garden as the place where only meaningful report/reminder survives. Abductive move: speech is judged like deeds: some counts, some is thrown away. Reading change: the ayah reads as a speech-accounting scene.\n\n3. **No insulting exposure after faces have been exposed.** Evidence: `س م ع` B006 making someone hear abuse; `و ج ه` B001 face/front; `خ ش ع` B001 humiliation earlier. Structural cue: the humbled faces endure exposure; the easy faces enter a place without abusive hearing. Role: the absence of `لاغية` protects the face from social degradation. Abductive move: honor in the garden includes freedom from verbal assault. Reading change: the ayah becomes social and affective, not only linguistic.",
@@ -10245,14 +11510,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10718,10 +11989,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_11.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_11.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 221479,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

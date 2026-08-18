@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.399395+00:00",
+  "generated_at": "2026-08-18T13:34:40.874547+00:00",
   "surah": 111,
   "ayah": 3,
   "ayahRef": "111:3",
@@ -1355,7 +1355,8 @@
         "m-w-s111-a003-w001-01",
         "m-w-s111-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:3:1"
+      "aligned_qac_word_ref_upstream": "111:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1369,7 +1370,8 @@
       "morpheme_ids": [
         "m-w-s111-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:3:2"
+      "aligned_qac_word_ref_upstream": "111:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1383,7 +1385,8 @@
       "morpheme_ids": [
         "m-w-s111-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:3:3"
+      "aligned_qac_word_ref_upstream": "111:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1397,7 +1400,8 @@
       "morpheme_ids": [
         "m-w-s111-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:3:4"
+      "aligned_qac_word_ref_upstream": "111:3:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2785,7 +2789,839 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s111/packets/111_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "111:3",
+      "window": [
+        "111:1",
+        "111:2",
+        "111:3",
+        "111:4",
+        "111:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ي د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001693",
+              "furuq_root_norm": "ي د ي",
+              "furuq_source_root_norm": "ي د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 107,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000071",
+              "furuq_root_norm": "ء ي د",
+              "furuq_source_root_norm": "أ ي د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "111:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_direct_flame_encounter",
+            "confidence": "strong",
+            "focus_anchor": "The future verb سيصلى governs نارا, which is further specified by ذات لهب.",
+            "mechanism": "The two mapped ص ل ي inventories converge on bodily meeting, entering, or suffering heat; نار supplies an ignited and flickering fire, and لهب narrows it to visible open flame. The construction therefore profiles an impending encounter with actively blazing heat rather than mere transfer to a place called Fire.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting and suffering fire supplies the verb's direct bodily exposure and entry mechanism."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root independently preserves enduring heat or being cast into fire, reinforcing exposure without collapsing the split mapping."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Ignited fire, flickering motion, and fire-branding make نار an active thermal medium rather than an abstract destination."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The visible flame-tongue specifies the fire as blazing and openly kindled."
+              }
+            ],
+            "changed_reading": {
+              "before": "He will enter a fire.",
+              "after": "He is headed for direct, sustained exposure to a fire characterized by active, visible flame."
+            }
+          },
+          {
+            "model_id": "b_conspicuous_marking_fire",
+            "confidence": "medium",
+            "focus_anchor": "The noun نارا and its modifier ذات لهب combine fire, visibility, and rising flame within the focus ayah.",
+            "mechanism": "The fire-root inventory joins combustion to branding and public marks, while its beacon branch and the rising-glare branch of لهب make the event conspicuous at a distance. The fire can thus be read as an exposure that both harms and visibly identifies, not as a hidden private consumption.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Fire-branding contributes the image of heat leaving an identifying mark."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "A visible beacon or landmark gives the fire a public, orienting conspicuousness."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B003",
+                "role": "Rising glare, smoke, or dust like flame supplies the upward signal that makes the ordeal perceptible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire only destroys its subject.",
+              "after": "The blazing fire also exposes and marks its subject in a conspicuous event."
+            }
+          },
+          {
+            "model_id": "b_thermal_reworking",
+            "confidence": "exploratory",
+            "focus_anchor": "سيصلى places the subject in a fire-working relation, and ذات لهب specifies the working heat.",
+            "mechanism": "A ص ل ي branch includes roasting and turning material over fire to straighten it. Coupled with the fire's branding capacity and لهب as both open flame and penetrating thirst-heat, this shifts the subject from traveler to patient: heat acts upon, alters, and marks him.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Kindling, roasting, and fire-straightening supply a process in which heat works material rather than merely surrounding it."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Combustion and branding contribute alteration and a lasting thermal mark."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B002",
+                "role": "Thirst-heat and ember-glow extend the blaze from exterior flame to sustained felt heat."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subject arrives at a fiery location.",
+              "after": "The subject becomes material acted on and altered by a blazing thermal process."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_name_reliteralized",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ب ب",
+              "ء ب و",
+              "ل ه ب"
+            ],
+            "mechanism": "The earlier epithet built from fatherhood and flame is enclosed by repeated loss, then the focus ayah converts its flame element from a personal name into the literal attribute of نار. Identity and environment answer one another: the person associated by name with flame is placed in a fire that itself possesses flame.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B001",
+                "role": "Repeated loss and destruction frame the epithet and set the reversal in motion."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Fatherhood supplies the relational first half of the personal epithet rather than an independent theme."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The proper-name and epithet branch establishes that the earlier لهب functions as personal designation."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The focus noun supplies actual burning fire as the environment into which the name-image is transferred."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The focus occurrence realizes لهب as visible flame rather than merely retaining it as an epithet."
+              }
+            ],
+            "structural_cues": [
+              "111:1 places the flame epithet between two occurrences of ت ب ب, while 111:3 repeats ل ه ب as the attribute of نار.",
+              "The sequence moves from designation to material environment without changing the root."
+            ],
+            "reader_inference": "The packet supplies an epithet branch, repeated destruction, and literal flame in the focus; I supply the arrow by which the name-image becomes the medium of the ordeal. A live weaker alternative is simple wordplay with no identity-to-environment causality.",
+            "changed_reading": {
+              "before": "A condemned individual will burn in an otherwise generic flame-bearing fire.",
+              "after": "The fire re-literalizes the individual's flame epithet, turning a name-image into the environment of his loss."
+            }
+          },
+          {
+            "model_id": "d_agency_inversion",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ب ب",
+              "ي د ي"
+            ],
+            "mechanism": "The hands activate bodily action, power, supported strength, and what action earns; the cutting and destruction branches of ت ب ب disable that agency. Against this, the focus's fire-working branch makes the former agent into material acted upon by heat.",
+            "activation_trace": [
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "Cutting supplies a severance of the agency represented by the hands."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B002",
+                "role": "The hand as power broadens the threatened hands from limbs to effective capacity."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "What the hands earn ties agency to produced consequences."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "The non-dominant mapping contributes supported strength, preserving a second capacity-image in the split root."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Fire-working and straightening reverse the subject's role from producer to material under treatment."
+              }
+            ],
+            "structural_cues": [
+              "111:1 first makes the two hands the locus of loss and then repeats loss of the person; 111:3 makes that person the future experiencer of fire."
+            ],
+            "reader_inference": "The packet supplies hand-as-power, cutting, earned consequence, and fire-working; I infer a directional reversal from acting capacity to being acted upon. The live alternative keeps يدا as physical hands and reads no workshop-like reversal.",
+            "changed_reading": {
+              "before": "Fire is an external penalty imposed on a still-agentive person.",
+              "after": "The destruction of effective hands precedes an agency reversal in which the former actor becomes the fire's worked material."
+            }
+          },
+          {
+            "model_id": "d_no_insulating_distance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ن ي",
+              "م و ل",
+              "ك س ب"
+            ],
+            "mechanism": "Sufficiency, accumulated wealth, and successfully sought benefit ordinarily promise buffering capacity. Their explicit failure immediately before the focus removes every proposed layer of mediation, strengthening سيصلى as unshielded contact rather than merely eventual arrival.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the protective adequacy that the negative construction declares ineffective."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies stored means that fail to create insulation."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Obtaining benefit supplies active acquisition as a second failed route to protection."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Direct encounter with heat is what remains after the proposed buffers fail."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Sighting or approaching fire from afar supplies spatial distance that wealth cannot preserve."
+              }
+            ],
+            "structural_cues": [
+              "The paired negation ما ... وما strips away both possessed stock and acquired return immediately before the future سـ of سيصلى."
+            ],
+            "reader_inference": "The packet supplies sufficiency, wealth, acquisition, negation, and direct heat encounter; I infer that resources normally mediate danger and that their failure collapses protective distance. The live alternative is narrower: they simply cannot rescue after judgment.",
+            "changed_reading": {
+              "before": "The fire is inevitable despite wealth.",
+              "after": "The fire is experienced without insulation because both stored means and active gain fail to maintain any distance from its heat."
+            }
+          },
+          {
+            "model_id": "d_supplied_combustion",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ر ء",
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "The next ayah supplies a paired participant, repeated carrying, and gathered fuel. These cues revise the focus fire from a static ready-made location into an ongoing combustion system with labor, material input, and continuity of flame.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman or spouse branch supplies a second participant in the fire-world rather than an unrelated object."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Repeated external carrying supplies the labor that moves combustible material."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Gathered firewood supplies literal fuel capable of maintaining the focus blaze."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Kindling and fuel use make the focus verb receptive to a supplied-combustion mechanism."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B007",
+                "role": "Flash following flash without a gap contributes continuity rather than a single burst."
+              }
+            ],
+            "structural_cues": [
+              "The carrier and carried fuel follow directly after نارا ذات لهب, placing an agent-material pair beside the focus combustion.",
+              "The intensive carrier form suggests repeated or characteristic supply."
+            ],
+            "reader_inference": "The packet supplies spouse, carrier, fuel, kindling, and uninterrupted flashing; I infer that the carried wood feeds the focus fire. A live alternative treats 111:4 as a parallel punishment image with no physical fuel flow into 111:3.",
+            "changed_reading": {
+              "before": "The subject enters a pre-existing blaze.",
+              "after": "The blaze appears as a maintained system whose continuity depends on carried fuel and relational participation."
+            }
+          },
+          {
+            "model_id": "d_social_combustion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "The firewood branch explicitly allows carrying wood as a figure for slander and agitation, while the focus fire-root includes enmity flaring among people. Carried speech can therefore operate as social fuel: circulation produces hostility, hostility flares, and the literal fire remains present as the material endpoint rather than disappearing into metaphor.",
+            "activation_trace": [
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing a burden or liability gives the repeated carrying a consequential social load."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "The explicit slander and agitation image turns carried firewood into circulating harmful speech."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Enmity flaring between people provides the intermediate social combustion."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Open flame keeps the social mechanism anchored in the focus's literal blazing fire."
+              }
+            ],
+            "structural_cues": [
+              "The carrier-of-firewood phrase immediately follows the flame-bearing fire, allowing literal fuel and the packet's speech-figure to remain simultaneous."
+            ],
+            "reader_inference": "The packet supplies burden-bearing, slanderous firewood, social enmity, and literal flame; I supply the causal arrow from circulated speech to enmity and from enmity to the focus blaze. The live alternative retains only literal wood supply.",
+            "changed_reading": {
+              "before": "The flame is only a physical punishment detached from prior social action.",
+              "after": "The literal flame also materializes a cycle in which harmful speech is carried as fuel and flares into social enmity."
+            }
+          },
+          {
+            "model_id": "d_coupled_capture_field",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ي د",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "The latent snare branches of the focus verb become concrete when the later context places a binding, leading, and catching rope at a neck and specifies twisted rope material. The two grammatical subjects remain distinct, but the focus fire is now read inside a shared field of capture and constrained movement.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "The dominant mapping's snare or trap supplies latent capture inside the focus verb."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B004",
+                "role": "The non-dominant mapping independently preserves a set trap, strengthening the capture activation across the split root."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck gives the restraint a bodily point of control."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "A stretched rope that binds and leads supplies constrained movement."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "The catching snare directly materializes the focus verb's trap branch."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted rope supplies the durable material construction of the restraint."
+              }
+            ],
+            "structural_cues": [
+              "111:5 locates the rope at the neck and then specifies its material, completing a restraint apparatus after 111:3's fire encounter.",
+              "The male subject of 111:3 and female possessor in 111:5 prevent a literal one-body merger."
+            ],
+            "reader_inference": "The packet supplies two trap branches, neck, binding rope, snare, and twisted material; I infer that the later apparatus changes how the earlier fire encounter is imagined. The live alternative keeps her rope wholly separate from his burning and permits only thematic, not mechanical, coupling.",
+            "changed_reading": {
+              "before": "He undergoes fire while the later neck-rope is an independent image concerning another subject.",
+              "after": "His fire exposure belongs to a coupled capture field: trap-like entry on his side is mirrored by bodily restraint on hers, adding inescapability without collapsing the two bodies."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_gain_rendered_as_combustible",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from finance into a remote material sense of كسب and then into fire-working. It remains anchored in سيصلى through its roasting and kindling branch and is activated by packet-supplied gain-extract, accumulated wealth, and literal fuel. Downstream prose should present it only as a material analogy in which gain is rendered useless or combustible, never as a claim that money literally becomes firewood.",
+            "focus_anchor": "The fire-working branch of سيصلى permits heat to process material, while نارا ذات لهب keeps the proposed rendering inside actual combustion.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Roasting, kindling, and fire-working supply the thermal transformation mechanism."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B004",
+                "role": "The remote sense of extracted fat turns gain into rendered material under heat."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the stock whose protective value is reversed."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Gathered fuel provides the combustible endpoint of the analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth and gain simply fail to prevent the fire.",
+              "after": "Exploratorily, accumulated gain is thermally reversed from protective asset into rendered, useless material within the fire's fuel economy."
+            }
+          },
+          {
+            "outlier_id": "o_recoil_overridden_by_binding",
+            "confidence": "exploratory",
+            "containment": "This is surprising because aversion and flight are root-distant activations under the surface نار, and the later rope belongs grammatically to a different person. It remains valid as a focus-anchored motion model: the fire noun supplies recoil, سيصلى supplies forced encounter, and the context supplies binding. Render it as an exploratory analogy of blocked escape across the paired scene, not as a literal rope dragging the male subject.",
+            "focus_anchor": "نارا activates a recoil branch while سيصلى fixes the future encounter, creating a motion conflict that the later binding imagery can sharpen.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B006",
+                "role": "Aversion, flight, and shying supply the body's impulse to recoil from the fire."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Inevitable meeting and suffering heat oppose the activated impulse to flee."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck localizes the later image's control over bodily motion."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Binding and leading supply the counterforce that overrides recoil."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted rope gives the counterforce durable material form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The future fire encounter says nothing about the subject's contrary motion.",
+              "after": "Exploratorily, the encounter includes a recoil that is structurally overridden by the paired scene's binding and leading imagery."
+            }
+          },
+          {
+            "outlier_id": "o_binding_worship_reversed",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the worship, prayer, mercy, and covenant branches are positive and form-distant from the immediate fire sense of سيصلى. They remain anchored in the focus verb's supplied split inventories and are reactivated by the later bond and rope branches. Downstream prose should frame this only as a latent counter-reading: beneficial binding is reversed into punitive binding, not as a replacement lexical translation of سيصلى.",
+            "focus_anchor": "The focus verb's split root inventories preserve binding worship and prayer or mercy beside the dominant fire encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B001",
+                "role": "Binding prescribed worship supplies a positive form of obligation latent in the focus root."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "The non-dominant mapping's prayer, praise, and mercy supply a second positive relation that the fire reading displaces."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Bond, covenant, safety, and connection supply the beneficial binding pole."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "The same rope field also binds and leads, converting connection into restraint."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted rope materializes the punitive pole of the binding reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "سيصلى carries only the immediate sense of suffering fire.",
+              "after": "As a contained latent counter-reading, positive bonds of worship, mercy, or safety are inverted into an enforced bond to the fire-world."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated لهب converts an earlier personal epithet into the literal material attribute of the focus fire.",
+            "The failure of sufficiency, wealth, and gain removes protective distance and sharpens سيصلى into unbuffered contact.",
+            "The carrier and fuel revise a static blaze into maintained combustion, while the slander branch preserves a coexisting social-fuel mechanism.",
+            "The later neck-rope activates both mapped trap branches of ص ل ي, placing the fire encounter within a coupled but two-subject field of capture."
+          ],
+          "what_was_special": "The split ص ل ي mapping supported several live readings at once: direct heat encounter, fire-working, trap, worship, and mercy. Context did not collapse these into one verdict; repeated flame, failed resources, carried fuel, harmful speech, and twisted rope selectively activated identity reversal, agency reversal, supplied combustion, social combustion, and capture.",
+          "remaining_uncertainties": [
+            "The name-to-environment movement may be strong wordplay rather than a causal identity reversal.",
+            "Fuel supply and social speech may explain the focus blaze, or they may remain parallel images placed after it.",
+            "The rope belongs to the female subject, so capture and blocked-recoil readings must preserve the distinction between the two bodies.",
+            "The rendered-gain and worship-bond readings depend on remote branches and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The fire is continuous with the name, not an external add-on.** Branch evidence: earlier `ل ه ب` B006, name/epithet from flame; here `ل ه ب` B001, blazing flame; `ن و ر` B002, burning fire; `ص ل ي` B003, encountering/entering/suffering fire. Structural cue: the same root `ل ه ب` moves from the man's title in 111:1 to the fire's attribute in 111:3. Assigned role: the fire actualizes the lexical matter already present in the social name. Abductive move: I infer that repetition creates identity between the named man and the fiery medium he meets. Reading change: the ayah reads as an unveiling of a latent name-reality, not merely as a new punishment scene.\n\n2. **Entering fire also means being processed by fire.** Branch evidence: `ص ل ي` B003, suffering fire; `ص ل ي` B004, kindling, roasting, and fire-straightening; earlier `ت ب ب` B002, becoming settled/straight/regular; later `ح ط ب` B001, firewood; `م س د` B001, firm twisting. Structural cue: `سَيَصْلَى` stands between repeated ruin and later fuel/rope material. Assigned role: fire is not only heat but an operation that consumes, straightens, and fixes. Abductive move: I supply the process arrow: the fire does work upon the person as later material images do work upon wood and rope. Reading change: \"he will enter fire\" becomes \"he will be put through a fire-process that completes and regularizes the ruin.\"\n\n3. **A mercy/prayer branch is present by reversal.** Branch evidence: `ص ل ي` B002, supplication, blessing, mercy; earlier `ر ح م` B001, mercy; here `ص ل ي` B003, fire-encounter. Structural cue: the basmalah's mercy-root opens the packet; the same ṣ-l-y inventory includes prayer/blessing but the surface form here is tied to fire and `نَارًا`. Assigned role: the blessing branch supplies the blocked alternative relation with God. Abductive move: I infer that the packet lets the reader hear the unused blessing branch only because the local syntax chooses fire-contact. Reading change: the ayah is sharpened: the contact that might have been prayer/mercy is experienced as heat.\n\n4. **Fire as visible branding and hostile flare.** Branch evidence: `ن و ر` B002, burning fire and branding by it; `ن و ر` B007, enmity flaring between people; `ل ه ب` B003, rising glare/dust/smoke like flame; later `ح ط ب` B003, tale-bearing/stirring harm. Structural cue: `نَارًا` is followed by `ذَاتَ لَهَب`, then the next ayah supplies a carrier of kindling or slander. Assigned role: fire makes social hostility visible as a mark and glare. Abductive move: I infer that the later tale-bearing/fuel image explains what kind of \"fire\" this is socially, while the fire branch keeps it materially hot. Reading change: the fire reads as both punishment and the visible flare of enmity that has been fed.",
@@ -13743,14 +14579,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s111/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 39,
+        "ayah_count": 5,
+        "row_count": 32,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14013,10 +14855,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s111/packets/111_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s111/readers/reader_hft_a/111_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s111"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s111",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 81216,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

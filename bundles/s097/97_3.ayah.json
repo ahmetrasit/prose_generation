@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:16.437086+00:00",
+  "generated_at": "2026-08-18T13:34:20.275783+00:00",
   "surah": 97,
   "ayah": 3,
   "ayahRef": "97:3",
@@ -1819,7 +1819,8 @@
       "morpheme_ids": [
         "m-w-s097-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:1"
+      "aligned_qac_word_ref_upstream": "97:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1835,7 +1836,8 @@
         "m-w-s097-a003-w002-01",
         "m-w-s097-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:2"
+      "aligned_qac_word_ref_upstream": "97:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1849,7 +1851,8 @@
       "morpheme_ids": [
         "m-w-s097-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:3"
+      "aligned_qac_word_ref_upstream": "97:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1863,7 +1866,8 @@
       "morpheme_ids": [
         "m-w-s097-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:4"
+      "aligned_qac_word_ref_upstream": "97:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1877,7 +1881,8 @@
       "morpheme_ids": [
         "m-w-s097-a003-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:5"
+      "aligned_qac_word_ref_upstream": "97:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1891,7 +1896,8 @@
       "morpheme_ids": [
         "m-w-s097-a003-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:3:6"
+      "aligned_qac_word_ref_upstream": "97:3:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3002,7 +3008,801 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s97/packets/97_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "97:3",
+      "window": [
+        "97:1",
+        "97:2",
+        "97:3",
+        "97:4",
+        "97:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "97:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_temporal_value_density",
+            "confidence": "strong",
+            "focus_anchor": "The full comparative construction, \"laylat al-qadr khayrun min alfi shahr,\" sets one night against one thousand months.",
+            "mechanism": "A single bounded dark interval is assigned a measure of beneficial value that exceeds an immense accumulation of crescent-marked calendar units. The comparison therefore compresses value rather than merely extending duration.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night as the dark opposite of day supplies the single bounded interval being valued."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Measure reaching a thing's extent makes the night's value an intensive measure rather than bare duration."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies the positive axis of the comparison."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B001",
+                "role": "A thousand as gathered hundreds supplies the enormous accumulated magnitude."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ش ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000823",
+                "branch_id": "B001",
+                "role": "The month known by its crescent supplies the repeated calendar unit against which the night is measured."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse states that one special night is better than a thousand months.",
+              "after": "The verse performs temporal compression: one bounded night bears a beneficial measure exceeding a vast accumulation of ordinary calendar time."
+            }
+          },
+          {
+            "model_id": "b_constricted_gift",
+            "confidence": "medium",
+            "focus_anchor": "The compact subject \"laylat al-qadr\" is evaluated as khayr against the extended quantity \"a thousand months.\"",
+            "mechanism": "The constriction branch of qadr and the gift branch of khayr produce a scarcity paradox: the temporally scant container is not deficient but concentrated beneficence, while the thousand months represent extensive accumulation.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "The single night supplies a narrow temporal container."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B004",
+                "role": "Narrowing something to a scant measure turns qadr into the mechanism of concentration."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift make the concentrated interval abundant in what it gives."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B001",
+                "role": "The thousand gathered from hundreds supplies extensive numerical accumulation."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ش ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000823",
+                "branch_id": "B001",
+                "role": "Known lunar months turn that accumulation into a long serial duration."
+              }
+            ],
+            "changed_reading": {
+              "before": "A shorter period is compared favorably with a much longer period.",
+              "after": "The shortness is part of the claim: beneficence is concentrated into a scant temporal measure that outgives prolonged accumulation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_delivery_receiving_station",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل"
+            ],
+            "mechanism": "The preceding delivery into the night turns the focus subject from an intrinsically superior span into a receiving station whose measured worth is connected to what is delivered and placed within it.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Doing or entering something by night lets the focus night function as an active occasion rather than an empty span."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Arrangement by estimate and deliberation gives the receiving occasion an ordered character."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Caused delivery and conveyance supply the event deposited into the night and the proposed source of its changed value."
+              }
+            ],
+            "structural_cues": [
+              "97:1 places the delivered object inside the named night with the construction \"anzalnahu fi\" before 97:3 evaluates that night."
+            ],
+            "reader_inference": "The packet supplies a caused delivery into the night and a focus branch of ordered estimation; I infer that the delivered content grounds the superior value. A live alternative is that descent marks only timing, leaving the night's value independent of its contents.",
+            "changed_reading": {
+              "before": "The night is a superior unit of time.",
+              "after": "The night is a receiving and ordering station whose concentrated worth is activated by a delivered event."
+            }
+          },
+          {
+            "model_id": "d_epistemic_calibration",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The knowledge-question immediately before the focus ayah makes the comparative scale function as disclosure: \"a thousand months\" calibrates an otherwise unavailable order of value rather than serving as decorative magnitude alone.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Measure reaching an extent supplies the scale on which the night is disclosed."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good supplies the evaluative knowledge being communicated."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B001",
+                "role": "The gathered thousand supplies a comprehensible but extreme calibration point."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ش ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000823",
+                "branch_id": "B001",
+                "role": "Known lunar months make the disclosed scale concrete and countable."
+              },
+              {
+                "source_ref": "97:2",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge and awareness frame the following comparison as an answer to an epistemic deficit."
+              }
+            ],
+            "structural_cues": [
+              "The interrogative sequence in 97:2 directly names the focus phrase and is immediately answered by the comparative assertion in 97:3."
+            ],
+            "reader_inference": "The packet supplies an explicit knowledge-question followed by a measured comparison; I infer that the comparison performs calibration for the addressee. It may alternatively function as awe-producing rhetoric without claiming that the numeral exhausts the night's value.",
+            "changed_reading": {
+              "before": "The numeral reports how much better the night is.",
+              "after": "The numeral is a pedagogical scale that makes an otherwise ungraspable value difference partially knowable."
+            }
+          },
+          {
+            "model_id": "d_authorized_total_operation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "م ل ك",
+              "ر و ح",
+              "ء ذ ن",
+              "ر ب ب",
+              "ك ل ل",
+              "ء م ر"
+            ],
+            "mechanism": "Repeated descent, angelic and living agency, permission, lordship, total scope, and affairs turn the night into an authorized operation. Its khayr is enacted through ordered transmission and administration rather than existing as an abstract temporal premium.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate arrangement supplies the focus anchor for a coordinated operation."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Beneficence and gift identify the operation's positive yield."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B001",
+                "role": "Descent and settling provide the operation's repeated movement into the night."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B009",
+                "role": "The angel branch identifies the descending agents rather than leaving descent impersonal."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Spirit as life-bearing soul adds living agency to the descending company."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء ذ ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000022",
+                "branch_id": "B004",
+                "role": "Permission and authorization constrain the movement as commissioned rather than autonomous."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and mastery supply the authorizing source."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure and completeness expand the operation across the stated scope."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "Affair and condition supply the manifold matters handled within that complete scope."
+              }
+            ],
+            "structural_cues": [
+              "97:4 serially combines descent, named agents, localization \"fiha,\" authorization, a governing possessor, totalization, and affairs."
+            ],
+            "reader_inference": "The packet supplies the agents, authorized descent, complete scope, and affairs; I supply the arrow that their coordinated activity produces the focus ayah's superior good. A live alternative is that they attest or accompany an already valuable night without causing its value.",
+            "changed_reading": {
+              "before": "The night possesses an exceptional amount of good.",
+              "after": "The night is an authorized, comprehensively ordered operation through which good is actively delivered across affairs."
+            }
+          },
+          {
+            "model_id": "d_compressed_seed_growth",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر و ح",
+              "ر ب ب",
+              "ء م ر"
+            ],
+            "mechanism": "The focus ayah's constricted measure can be read as seed-like compression: life, nourishment and growth, and blessing unfold from a small temporal container, explaining how one night can outgive a thousand months.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B004",
+                "role": "A scant, narrowed measure supplies the compressed container from which expansion is inferred."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Gift and beneficence supply the abundant yield of the compressed interval."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining disparate parts into a composition models multiplicity held together within the single night."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Life-bearing spirit supplies the animation of what is compressed."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped branch of nourishment and growth supplies the unfolding process."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B004",
+                "role": "Growth and blessing supply the expansive result carried by each affair."
+              }
+            ],
+            "structural_cues": [
+              "97:4 places Spirit and every affair inside the repeated descent occurring \"fiha,\" tying life and manifold effects to the single night."
+            ],
+            "reader_inference": "The packet supplies constriction, life, nourishment or growth, and blessing; I infer a seed-to-unfolding arrow that explains temporal compression. The materially live alternative is administrative distribution, with no organic growth mechanism intended.",
+            "changed_reading": {
+              "before": "One short interval inexplicably outweighs a long duration.",
+              "after": "The interval behaves like compressed generative potential whose living and blessed effects unfold beyond its small temporal measure."
+            }
+          },
+          {
+            "model_id": "d_intact_bounded_interval",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ل م",
+              "ط ل ع",
+              "ف ج ر"
+            ],
+            "mechanism": "Safety spans the night until a sharply marked emergence of dawn. The superiority of the focus ayah is thus not only density of benefit but an intact protected interval with a defined endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night's darkness supplies the interval across which the protected state extends."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measure reaching its limit supplies the boundedness of the protected interval."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good receives a concrete form as freedom from harm."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety and freedom from harms supply the night's intact beneficial state."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "The rising luminary and its point of rise supply the terminal threshold."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B002",
+                "role": "Dawn breaking out of night makes the endpoint a visible transition rather than an arbitrary clock limit."
+              }
+            ],
+            "structural_cues": [
+              "The durative marker \"hatta\" in 97:5 stretches the state of salam to the named emergence of dawn."
+            ],
+            "reader_inference": "The packet supplies safety, a durative boundary, rising, and dawn's break from night; I infer uninterrupted protection as one component of the focus ayah's khayr. An alternative is that salam is a distinct description whose duration does not explain the comparison.",
+            "changed_reading": {
+              "before": "The night is better because it contains more undifferentiated good.",
+              "after": "Its good includes a fully measured span of intact safety, maintained through darkness until dawn visibly breaks it open."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_vertical_passage",
+            "confidence": "exploratory",
+            "containment": "The ladder and ascent-route branches are surprising collateral images, not direct glosses of the surface nouns. The reading remains anchored in the focus night's fitting qadr and is reinforced by descent before dawn-rise; downstream prose should present it only as a spatial model of the sequence.",
+            "focus_anchor": "The qadr of the focus night can denote fitting proportion or placement within the comparative construction.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Entering or acting by night supplies the traversed temporal zone."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Fitting proportion and measured placement anchor the spatial passage in the focus phrase."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B001",
+                "role": "Descent and settling provide the downward leg of the passage."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B006",
+                "role": "A ladder or means supplies a cross-level connector through the night."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "An ascent route or elevated access supplies the upward terminal movement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The night is a static container located between dusk and dawn.",
+              "after": "Exploratorily, the night is a measured vertical passage: descent enters it, a connecting means spans it, and ascent at dawn closes it."
+            }
+          },
+          {
+            "outlier_id": "o_prepared_vessel",
+            "confidence": "exploratory",
+            "containment": "The cooking-pot branch of qadr and compositional branch of alif are materially remote from the surface comparison. They remain directly root-anchored and form a coherent analogy with placement and total affairs; downstream prose must mark this as a vessel analogy, never as the lexical translation of the verse.",
+            "focus_anchor": "The adjacent focus roots qadr and alif provide a vessel image and an image of assembling parts within the statement of superior good.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B007",
+                "role": "The cooking vessel supplies a bounded material container in which contents are transformed together."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Gift and beneficence supply the valuable yield of the vessel-like process."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining disparate parts into a composition supplies integration inside the single night."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B004",
+                "role": "Putting a thing in its proper station supplies the placement of contents into the prepared container."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Complete enclosure supplies the vessel's comprehensive scope."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "Affairs and conditions supply the manifold contents gathered and transformed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The night simply contains many valuable events.",
+              "after": "As a contained material analogy, the night is a prepared vessel that receives, composes, and transforms manifold affairs into concentrated gift."
+            }
+          },
+          {
+            "outlier_id": "o_hidden_over_habituated_display",
+            "confidence": "exploratory",
+            "containment": "This activation crosses from the grammatical number \"thousand\" into alif's familiarity branch and from \"month\" into shahr's publicity branch. The roots are visibly present and the contrast is coherent, but the surface syntax remains numerical; downstream prose should label it a secondary root echo, not an alternate parse.",
+            "focus_anchor": "The focus contrast places a dark night before khayr and sets it against alif plus shahr, allowing secondary root images of familiarity and exposure to color the comparison.",
+            "activation_trace": [
+              {
+                "source_ref": "97:3",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Darkness supplies the hidden side of the contrast."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing or seeking the better option makes the contrast a revision of ordinary preference."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B005",
+                "role": "Familiar attachment and habituated staying supply the pull of repeated ordinary duration."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ش ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000823",
+                "branch_id": "B002",
+                "role": "Public exposure and renown supply what is visible and socially legible."
+              }
+            ],
+            "changed_reading": {
+              "before": "Long familiar and publicly countable duration is the obvious measure of value.",
+              "after": "As a secondary root echo, the hidden single night overturns preference for what is habitual, prolonged, and publicly visible."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "d_delivery_receiving_station: value shifts from bare duration to an ordered receiving event.",
+            "d_authorized_total_operation: khayr becomes enacted through authorized, comprehensive descent across affairs.",
+            "d_intact_bounded_interval: the night becomes a protected measure extending intact to dawn."
+          ],
+          "what_was_special": "The focus ayah supports a value-density baseline, but context activates delivery, epistemic calibration, coordinated administration, generative compression, and bounded safety without forcing them into one final interpretation.",
+          "remaining_uncertainties": [
+            "Whether qadr primarily activates measure, planned ordering, constriction, or a deliberate coexistence of these branches.",
+            "Whether descent and the later agents cause the night's superior value or disclose and accompany a value it already has.",
+            "How much weight the collateral spatial and material branches can bear beyond clearly marked exploratory analogy."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Qualitative measure defeats counted duration.** Lexical evidence: `ق د ر` B001, measured extent, and B006, fitting proportion; `خ ي ر` B001/B002, beneficial good and chosen excellence; `ء ل ف` B001, thousand as gathered hundreds; `ش ه ر` B001, month known by crescent. The packet supplies one night, a thousand months, and \"خَيْر\"; I supply the proportional arrow that fitting measure, not aggregate count, determines superiority. Reading change: the comparison is not simply arithmetic excess; it is a revaluation of time by potency and proportion.\n\n2. **The hidden night surpasses public cycles.** Lexical evidence: `ل ي ل` B001, darkness; `ش ه ر` B002, publicity/renown/exposure; `ط ل ع` B003/B009 in 97:5, disclosure and visible appearance. The packet supplies darkness, months, and later emergence into visibility; I supply the contrastive mechanism that concealed temporal depth outruns publicly visible recurrence. Reading change: \"أَلْفِ شَهْرٍ\" can function as many exposed, named cycles that are outdone by one concealed interval.\n\n3. **Composition versus single integrated event.** Lexical evidence: `ء ل ف` B002, joining things into composition; `ك ل ل` B003 in 97:4, totality/completeness; `ء م ر` B001, affairs. The packet supplies \"أَلْف\" and later \"كُلِّ أَمْرٍ\"; I supply the compositional arrow that many months are an aggregate of parts, whereas the night gathers the total affair in one integrated descent. Reading change: the ayah does not merely say \"one is better than many\"; it contrasts dispersed composition with concentrated wholeness.\n\n4. **A peaceful dispatch superior to weaponized display.** Lexical evidence: `ش ه ر` B003, unsheathing/displaying a sword; `س ل م` B004 in 97:5, peace opposite war; `ن ز ل` B007 in the inventory, coming down to fight; `خ ي ر` B003, choosing the better option. The packet supplies a month-root with a weapon-display branch, later explicit peace, and descent roots with a battle branch; I supply the contrastive arrow that the preferred descent is not martial exposure but peaceful authorized arrival. Reading change: the comparison can carry a subdued anti-war underside: the qadr-night is better than cycles marked by public power or drawn weapons.",
@@ -13240,14 +14040,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s097/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 52,
+        "ayah_count": 5,
+        "row_count": 45,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13510,10 +14316,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s97/packets/97_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s97/readers/reader_hft_a/97_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s097",
+        "latent_activation/focus_trace/runs/s97"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s97",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 85264,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

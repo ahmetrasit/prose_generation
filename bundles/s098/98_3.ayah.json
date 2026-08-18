@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.121756+00:00",
+  "generated_at": "2026-08-18T13:34:22.097114+00:00",
   "surah": 98,
   "ayah": 3,
   "ayahRef": "98:3",
@@ -970,7 +970,8 @@
         "m-w-s098-a003-w001-01",
         "m-w-s098-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "98:3:1"
+      "aligned_qac_word_ref_upstream": "98:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -984,7 +985,8 @@
       "morpheme_ids": [
         "m-w-s098-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "98:3:2"
+      "aligned_qac_word_ref_upstream": "98:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -998,7 +1000,8 @@
       "morpheme_ids": [
         "m-w-s098-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "98:3:3"
+      "aligned_qac_word_ref_upstream": "98:3:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2808,7 +2811,927 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s98/packets/98_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "98:3",
+      "window": [
+        "98:1",
+        "98:2",
+        "98:3",
+        "98:4",
+        "98:5",
+        "98:6",
+        "98:7",
+        "98:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ت ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000186",
+              "furuq_root_norm": "ت ل و",
+              "furuq_source_root_norm": "ت ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 39,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000185",
+              "furuq_root_norm": "ت ل ل",
+              "furuq_source_root_norm": "ت ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ج ز ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000244",
+              "furuq_root_norm": "ج ز ي",
+              "furuq_source_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 97,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000242",
+              "furuq_root_norm": "ج ز ز",
+              "furuq_source_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "98:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_integrated_upright_units",
+            "confidence": "strong",
+            "focus_anchor": "The plural writings at word 2 and their q-w-m adjective at word 3.",
+            "mechanism": "K-t-b supplies both assembled parts and letters joined as writing, while q-w-m supplies straightness and evenness. The phrase therefore presents multiple written units whose rightness includes coherent internal arrangement.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "Joining one thing to another makes the plural writings an integrated assembly rather than a loose heap."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Letters joined into a written object fixes the assembly specifically in textual form."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, balance, and just speech make coherence an upright normative arrangement."
+              }
+            ],
+            "changed_reading": {
+              "before": "Books that are simply good or correct.",
+              "after": "A plurality of written units whose joined components form a coherent, upright arrangement."
+            }
+          },
+          {
+            "model_id": "baseline_binding_sustaining_order",
+            "confidence": "medium",
+            "focus_anchor": "The same k-t-b noun can denote binding inscription, and the q-w-m adjective can denote guardianship and support.",
+            "mechanism": "An inscription that imposes judgment is paired with what maintains, governs, and keeps a thing standing. The writings are therefore potentially operative instruments that establish and sustain an order, not merely descriptions of one.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Binding decree turns writing into an effective prescription or settled judgment."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care, guardianship, and maintenance give the adjective an active order-preserving role."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Mainstay and subsistence make the writings supports by which a larger system remains standing."
+              }
+            ],
+            "changed_reading": {
+              "before": "Correct statements contained in writings.",
+              "after": "Binding inscriptions that actively maintain and support a durable order."
+            }
+          },
+          {
+            "model_id": "baseline_appraised_register",
+            "confidence": "exploratory",
+            "focus_anchor": "The plural k-t-b form can evoke registered entries, while q-w-m includes valuation and exact measure.",
+            "mechanism": "Registration, appraisal, and equal measure combine into a documentary mechanism: the writings can be read as records that assign standing according to a stable scale.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B004",
+                "role": "Entry into a register supplies the documentary act of placing persons or matters into an ordered record."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Value and appraisal supply the scale by which registered entries receive standing."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Equal weight and exact measure constrain appraisal to a balanced standard."
+              }
+            ],
+            "changed_reading": {
+              "before": "Writings possessing intrinsic worth.",
+              "after": "Writings functioning as an appraised register whose entries are set by exact measure."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_affiliation_to_contents",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ه ل",
+              "ك ت ب"
+            ],
+            "mechanism": "The earlier singular book serves as a marker of group belonging, but the focus shifts to indefinite plural writings and qualifies their internal standing. This relocates attention from inherited affiliation with a book to the articulated contents by which such affiliation can be assessed.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "Joined components make the focus plural an inspectable internal assembly."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness supplies the criterion applied to those internal written units."
+              },
+              {
+                "source_ref": "98:1",
+                "root": "ء ه ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000064",
+                "branch_id": "B001",
+                "role": "Nearness and belonging make the earlier book phrase a social affiliation label."
+              },
+              {
+                "source_ref": "98:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The singular written book is the object around which that affiliation is named."
+              }
+            ],
+            "structural_cues": [
+              "98:1 places the belonging term before a definite singular book, whereas 98:3 uses an indefinite plural of writings inside fiha."
+            ],
+            "reader_inference": "The packet supplies social belonging, singular book, and the later plural; I supply the arrow from title-based affiliation to content-based assessment. A live alternative is ordinary number variation with no deliberate relocation of authority.",
+            "changed_reading": {
+              "before": "Books as possessions confirming an already named textual community.",
+              "after": "The internal written units, rather than the community label alone, become the locus where uprightness is tested."
+            }
+          },
+          {
+            "model_id": "delta_recitation_makes_text_processual",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ل و",
+              "ص ح ف",
+              "ط ه ر"
+            ],
+            "mechanism": "Following in sequence, written sheets, and removal of contamination turn the focus writings into ordered recitation units. Their uprightness is not only a property of stored objects; it is integrity preserved as textual parts are voiced one after another.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Joined letters anchor the focus in discrete written textual objects."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness and evenness become integrity maintained through ordered delivery."
+              },
+              {
+                "source_ref": "98:2",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000186",
+                "branch_id": "B001",
+                "role": "Following and succession supply the temporal process that carries one textual unit after another."
+              },
+              {
+                "source_ref": "98:2",
+                "root": "ص ح ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000845",
+                "branch_id": "B002",
+                "role": "The written sheet supplies the immediate material container for the focus writings."
+              },
+              {
+                "source_ref": "98:2",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Purity as removal of stain makes uncontaminated transmission part of textual uprightness."
+              }
+            ],
+            "structural_cues": [
+              "The feminine plural sheets in 98:2 provide the immediate antecedent for the focus pronoun fiha.",
+              "The recitation verb precedes the sheets and the contents they hold."
+            ],
+            "reader_inference": "The packet supplies sequence, written sheets, purity, and pronominal containment; I supply the arrow that uprightness is preserved through recited transmission. The live alternative is that purity describes only the sheets while the writings remain static contents.",
+            "changed_reading": {
+              "before": "Coherent books considered as stored written objects.",
+              "after": "Ordered textual units whose coherence and purity remain standing as they pass through recitation."
+            }
+          },
+          {
+            "model_id": "delta_coherence_exposes_fragmentation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر ق",
+              "ك ت ب",
+              "ب ي ن"
+            ],
+            "mechanism": "The focus joins textual parts and calls their arrangement straight; the later context places possession of the written book beside manifest evidence and subsequent dispersal. Upright textual coherence therefore does not mechanically produce social unity: it can instead expose fragmentation by giving disagreement a clear common axis.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "Joining supplies the internal coherence against which external dispersal becomes contrastive."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness gives the coherent text a stable axis rather than making it one faction among others."
+              },
+              {
+                "source_ref": "98:4",
+                "root": "ف ر ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001148",
+                "branch_id": "B002",
+                "role": "Scattering into parts supplies the social inverse of the focus writings joined from parts."
+              },
+              {
+                "source_ref": "98:4",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The repeated written-book branch keeps fragmentation adjacent to textual possession."
+              },
+              {
+                "source_ref": "98:4",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Manifest disclosure removes obscurity, so the ensuing division cannot be modeled simply as lack of information."
+              }
+            ],
+            "structural_cues": [
+              "98:4 marks dispersal as occurring only after the evidence came.",
+              "The focus lies between the arrival of evidence and the report of post-evidence division."
+            ],
+            "reader_inference": "The packet supplies joined writing, manifest evidence, and later scattering; I supply the contrastive arrow that textual coherence makes social incoherence legible. A live alternative is that the evidence and the focus writings are adjacent but not the operative axis of division.",
+            "changed_reading": {
+              "before": "Upright writings whose clarity should straightforwardly unify their hearers.",
+              "after": "A coherent textual axis that can reveal and intensify the visibility of human fragmentation after clarity arrives."
+            }
+          },
+          {
+            "model_id": "delta_upright_as_enacted_regimen",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ر",
+              "د ي ن",
+              "ق و م",
+              "ز ك و"
+            ],
+            "mechanism": "Binding inscription meets obligation, obedient practice, repeated establishment, and growth through purification. The writings function like an executable regimen: their uprightness is realized by acts that repeatedly maintain the order they prescribe.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "A binding decree makes the focus writings capable of prescribing conduct."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Maintenance and persevering care define uprightness as ongoing performance."
+              },
+              {
+                "source_ref": "98:5",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Request and obligation supply the directive force that activates the writings."
+              },
+              {
+                "source_ref": "98:5",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "8",
+                  "15"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and willing submission turn directive content into a lived ordering relation."
+              },
+              {
+                "source_ref": "98:5",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "10",
+                  "16"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "The repeated root joins establishing a practice to the final q-w-m qualification through maintenance and perseverance."
+              },
+              {
+                "source_ref": "98:5",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase make the maintained regimen productive rather than merely restrictive."
+              }
+            ],
+            "structural_cues": [
+              "98:5 coordinates worship, sincerity, establishing prayer, and giving alms before naming this the q-w-m religion.",
+              "The root q-w-m recurs in both the establishment verb and the closing qualification."
+            ],
+            "reader_inference": "The packet supplies command, obedience, repeated q-w-m, and productive purification; I supply the arrow that these acts instantiate what the focus writings prescribe. A live alternative is that 98:5 summarizes a religion without distributing those practices among the plural writings.",
+            "changed_reading": {
+              "before": "Binding texts whose correctness is chiefly propositional.",
+              "after": "Operative prescriptions whose uprightness consists in sustaining a repeated and productive pattern of practice."
+            }
+          },
+          {
+            "model_id": "delta_appraisal_register_polarized",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "ب ر ء",
+              "خ ي ر"
+            ],
+            "mechanism": "The same created class is placed under opposed worst and best predicates. This symmetry activates the focus branches of registration, valuation, and equal measure: the writings can function as a stable appraisal register that assigns comparative standing within one denominator.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B004",
+                "role": "Registration supplies the documentary placement of evaluated subjects into a class."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Appraisal supplies a comparative scale rather than merely intrinsic textual worth."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Exact equal weight constrains the opposed assessments to a common measure."
+              },
+              {
+                "source_ref": "98:6",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and harm supply the negative pole of the appraisal."
+              },
+              {
+                "source_ref": "98:6",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B001",
+                "role": "Created beings supply the shared class within which the negative standing is assigned."
+              },
+              {
+                "source_ref": "98:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence and selection supply the positive pole of the appraisal."
+              },
+              {
+                "source_ref": "98:7",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B001",
+                "role": "The repeated created class holds both poles to the same denominator."
+              }
+            ],
+            "structural_cues": [
+              "98:6 and 98:7 repeat the frame ulaika hum ... al-bariyya while reversing sharr and khayr."
+            ],
+            "reader_inference": "The packet supplies paired superlatives over the same class; I supply the arrow that this realizes the focus register-and-valuation branches. A live alternative is a moral contrast with no documentary or registry implication.",
+            "changed_reading": {
+              "before": "Writings that themselves possess high value.",
+              "after": "Writings that provide a balanced register for assigning opposed standings within a common created class."
+            }
+          },
+          {
+            "model_id": "delta_binding_text_as_settled_return",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ز ي",
+              "ج ر ي",
+              "خ ل د",
+              "ر ض و"
+            ],
+            "mechanism": "Recompense, continuing provision, permanence, and reciprocal acceptance add a fulfillment side to binding writing. The writings do not only impose an order; they can encode a settlement whose prescribed relation returns as durable support and mutual satisfaction.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Binding inscription supplies the settled commitment whose outcome can later be fulfilled."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence connect uprightness to an order that continues to sustain its participants."
+              },
+              {
+                "source_ref": "98:8",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "A deed met by its corresponding return supplies the settlement's responsive consequence."
+              },
+              {
+                "source_ref": "98:8",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision makes fulfillment an ongoing support rather than a single payment."
+              },
+              {
+                "source_ref": "98:8",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Stable persistence protects the fulfilled order from rapid dissolution."
+              },
+              {
+                "source_ref": "98:8",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "13",
+                  "16"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual acceptance turns a one-direction decree into a reciprocally settled relation."
+              }
+            ],
+            "structural_cues": [
+              "98:8 moves from named recompense through flowing provision and permanence to a two-direction satisfaction construction."
+            ],
+            "reader_inference": "The packet supplies recompense, continuance, permanence, and mutual acceptance; I supply the arrow that these are the fulfillment side of binding and sustaining writings. A live alternative is that the outcomes confirm the writings without contributing to the sense of their q-w-m quality.",
+            "changed_reading": {
+              "before": "One-direction prescriptions that establish obligations.",
+              "after": "Standing commitments whose enacted order resolves into durable provision and reciprocal settlement."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_contractual_release",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it couples a specialized manumission-contract branch with a release-from-bondage branch; it remains anchored in the focus k-t-b noun and q-w-m adjective and is unusually reinforced by the packet's f-k-k context. Render it only as a legal-material analogy for effective writing, not as a claim that the surface plural lexically means manumission contracts.",
+            "focus_anchor": "The k-t-b writing at word 2 carries a contract-for-release branch, while q-w-m at word 3 can maintain the binding terms.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B005",
+                "role": "A written manumission contract contributes a binding instrument whose performance produces release."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Guardianship and maintenance make the instrument effective by keeping its terms in force."
+              },
+              {
+                "source_ref": "98:1",
+                "root": "ف ك ك",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001173",
+                "branch_id": "B002",
+                "role": "Release of a pledge or neck from confinement supplies the outcome toward which the written instrument works."
+              }
+            ],
+            "changed_reading": {
+              "before": "Static authoritative contents.",
+              "after": "Exploratorily, binding release-instruments whose terms must stand in order to redeem and open an entanglement."
+            }
+          },
+          {
+            "outlier_id": "outlier_intact_but_blind_text",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the q-w-m branch of an intact but sightless eye as a negative diagnostic image. It remains valid as an anchored contrast sharpened by covering and disclosure in 98:1, but downstream prose should present it as an analogy distinguishing formal survival from functioning clarity, never as a lexical gloss of qayyima.",
+            "focus_anchor": "The q-w-m adjective at word 3 includes the edge image of an eye that remains physically standing after sight is lost.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The written object supplies the potentially intact textual form under diagnosis."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B021",
+                "role": "An intact standing eye without sight supplies the negative possibility of preserved form with lost function."
+              },
+              {
+                "source_ref": "98:1",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the mechanism by which an available form can fail to disclose."
+              },
+              {
+                "source_ref": "98:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Manifest emergence supplies the contrasting function that an upright writing must actually perform."
+              }
+            ],
+            "changed_reading": {
+              "before": "Any intact and transmitted written form can count as upright.",
+              "after": "A text may remain outwardly standing yet be functionally blind; upright writing must also remain capable of disclosure."
+            }
+          },
+          {
+            "outlier_id": "outlier_recitation_vertical_stress",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant t-l-l mapping for the recitation root and combines elevation with toppling. The split mapping is explicitly packet-supplied and q-w-m gives a direct standing anchor, so the spatial activation is worth retaining; render it as speculative branch play, not as an etymology or translation of the recitation verb.",
+            "focus_anchor": "The written units at word 2 are called q-w-m at word 3, directly supporting an upright-versus-toppled spatial test.",
+            "activation_trace": [
+              {
+                "source_ref": "98:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Joined letters provide the textual forms subjected to the spatial stress image."
+              },
+              {
+                "source_ref": "98:3",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily upright standing supplies the focus-side vertical orientation."
+              },
+              {
+                "source_ref": "98:2",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000185",
+                "branch_id": "B001",
+                "role": "The non-dominant elevated-mound image raises recited textual units into visible relief."
+              },
+              {
+                "source_ref": "98:2",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000185",
+                "branch_id": "B003",
+                "role": "The paired toppling image supplies the counterforce that tests whether those units remain upright."
+              }
+            ],
+            "changed_reading": {
+              "before": "Recitation merely transmits already upright writings.",
+              "after": "Speculatively, recitation raises writings into relief and stress-tests which textual forms remain standing rather than topple."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The sheets and recitation sequence turn the writings from stored objects into ordered units whose integrity persists through delivery.",
+            "The post-evidence dispersal reverses a simple unity model: internally joined writings can expose externally scattered reception.",
+            "The q-w-m recurrence in enacted practice makes uprightness operational and sustaining, not merely descriptive.",
+            "The opposed appraisals and durable recompense activate registry, measure, and fulfilled-settlement dimensions."
+          ],
+          "what_was_special": "The very short focus phrase behaved as a hinge between two rich branch systems: k-t-b moved among assembly, inscription, decree, registry, and contract, while q-w-m moved among straightness, maintenance, support, valuation, and standing. Context did not collapse these into one gloss; it made several mechanisms independently functional.",
+          "remaining_uncertainties": [
+            "The context strongly suggests the sheets as the referent of fiha, but the exact distributive relation between sheets and plural writings remains open.",
+            "Straightness, active maintenance, and appraisal all fit q-w-m; the packet does not force one to exhaust the adjective.",
+            "The contractual-release, intact-but-blind, and vertical-stress readings are branch-grounded analogies and should not be promoted to direct lexical translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Inside the sheets: written decrees that stand upright.** Evidence: ك ت ب B002 writing/book and B003 binding decree; ق و م B008 straightness/uprightness, B004 care/maintenance, B009 mainstay/support. Structural cue: 98:2 has صحفا مطهرة; 98:5 repeats دين القيمة and يقيموا الصلاة. Assigned role: كتب are the contents that bind; قيمة names their rectifying, sustaining posture. Abductive move: I infer that the “books” are not merely textual units but prescriptions that make a way stand. Reading change: the ayah reads as “inside them are stabilizing ordinances,” not only “valuable writings.”\n\n2. **Plural books resisting fragmentation.** Evidence: ك ت ب B001 joining one thing to another; ق و م B007 standing in another’s place and B008 straightness; ف ر ق in 98:4 B002 scattering. Structural cue: “فيها كتب” is immediately followed by the people of the book splitting after proof. Assigned role: the books are a joined plurality held upright against later human dispersal. Abductive move: I supply the contrast that ordered plurality in revelation exposes disordered plurality among recipients. Reading change: plurality here is not confusion; it is a structured multiplicity that judges later fragmentation.",
@@ -11009,14 +11932,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 149,
+        "ayah_count": 8,
+        "row_count": 142,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11488,10 +12417,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s98/packets/98_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s98/readers/reader_hft_a/98_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s098",
+        "latent_activation/focus_trace/runs/s98"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s98",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 189259,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

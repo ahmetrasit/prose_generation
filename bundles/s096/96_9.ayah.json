@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:15.527555+00:00",
+  "generated_at": "2026-08-18T13:34:18.437731+00:00",
   "surah": 96,
   "ayah": 9,
   "ayahRef": "96:9",
@@ -1124,8 +1124,36 @@
   },
   "word_morpheme_spans": [
     null,
-    null,
-    null
+    {
+      "word_index": 1,
+      "surface_ar": "ٱلَّذِى",
+      "word_ids": [
+        "w-s096-a009-w002"
+      ],
+      "qac_refs": [
+        "96:9:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a009-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "96:9:2",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "يَنْهَى",
+      "word_ids": [
+        "w-s096-a009-w003"
+      ],
+      "qac_refs": [
+        "96:9:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s096-a009-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "96:9:3",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2714,7 +2742,1125 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s96/packets/96_9.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "96:9",
+      "window": [
+        "96:1",
+        "96:2",
+        "96:3",
+        "96:4",
+        "96:5",
+        "96:6",
+        "96:7",
+        "96:8",
+        "96:9",
+        "96:10",
+        "96:11",
+        "96:12",
+        "96:13",
+        "96:14",
+        "96:15",
+        "96:16",
+        "96:17",
+        "96:18",
+        "96:19"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط غ ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000937",
+              "furuq_root_norm": "ط غ ي",
+              "furuq_source_root_norm": "ط غ ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 13,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000936",
+              "furuq_root_norm": "ط غ و",
+              "furuq_source_root_norm": "ط غ و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 77,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 22,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ن د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001487",
+              "furuq_root_norm": "ن د ي",
+              "furuq_source_root_norm": "ن د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 33,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001486",
+              "furuq_root_norm": "ن د و",
+              "furuq_source_root_norm": "ن د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001563",
+              "furuq_root_norm": "ن و د",
+              "furuq_source_root_norm": "ن و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط و ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000956",
+              "furuq_root_norm": "ط و ع",
+              "furuq_source_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 96,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000706",
+              "furuq_root_norm": "س ط ع",
+              "furuq_source_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "96:9",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_interrogated_restrainer",
+            "confidence": "strong",
+            "focus_anchor": "The alerting أَرَءَيْتَ opens onto an unnamed relative whose defining present-tense act is يَنْهَى.",
+            "mechanism": "The tell-me formula turns the clause from a sight report into a demand to inspect and judge a person identified entirely by the act of restraining someone else.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The tell-me and alerting formula makes the opening a summons to examine a case rather than a yes-or-no question about eyesight."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act supplies the operation by which the otherwise unnamed person is identified."
+              }
+            ],
+            "changed_reading": {
+              "before": "Have you seen a person who forbids?",
+              "after": "Attend closely and render judgment on the one whose defining act is making another stop."
+            }
+          },
+          {
+            "model_id": "baseline_imposed_endpoint",
+            "confidence": "medium",
+            "focus_anchor": "The pairing of أَرَءَيْتَ with يَنْهَى permits the act of prohibition to be inspected as a boundary-making operation.",
+            "mechanism": "Seeing by insight combines with the endpoint branch of ن ه ي: the prohibitor does more than utter a negative command, attempting to decide where another person's course must terminate.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight asks the addressee to recognize the functional shape of the act."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B002",
+                "role": "The endpoint reached by a thing renders prohibition as the imposition of a terminal boundary on another's trajectory."
+              }
+            ],
+            "changed_reading": {
+              "before": "The man issues a prohibition.",
+              "after": "Can you recognize the one who appoints the point at which another person's course must end?"
+            }
+          },
+          {
+            "model_id": "baseline_counterfeit_reason",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus joins reflective seeing to a verb whose root can name reason by its power to restrain from wrong.",
+            "mechanism": "Reflective judgment is summoned to audit a would-be restrainer. The question leaves open whether his prohibition is genuine moral reason or merely a claim to reason's office.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Opinion and reflective judgment makes the interrogative an exercise of discernment."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B003",
+                "role": "Reason named for restraining wrong supplies the moral office that the prohibiting actor appears to claim."
+              }
+            ],
+            "changed_reading": {
+              "before": "A prohibition is presumed to be corrective.",
+              "after": "Use judgment on the apparent moral corrector: does his restraint express reason, or counterfeit it?"
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_transmission_gate",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ء",
+              "ع ل م",
+              "ق ل م"
+            ],
+            "mechanism": "Repeated reading, disclosure through teaching, and the prepared writing instrument form a transmission chain. Against that chain, يَنْهَى can be heard as an attempted gate that stops knowledge from moving through voice, learner, and inscription.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act anchors the proposed interruption in the focus verb."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading, recitation, and causing another to read supplies the vocal and transmissive activity exposed to interruption."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the movement from hiddenness into learned recognition."
+              },
+              {
+                "source_ref": "96:4",
+                "root": "ق ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001252",
+                "branch_id": "B003",
+                "role": "The trimmed writing stick supplies the durable material link in the chain that the restrainer would gate."
+              }
+            ],
+            "structural_cues": [
+              "96:1 and 96:3 repeat the reading imperative, while 96:4-5 extend it through teaching and the pen before the focus question."
+            ],
+            "reader_inference": "The packet supplies a repeated read-teach-write sequence and then a restraining actor; I infer an interruption of circulation. A live alternative is that the knowledge sequence frames the actor morally without naming what his prohibition blocks.",
+            "changed_reading": {
+              "before": "The focus presents a generic prohibitor.",
+              "after": "The prohibitor becomes a gatekeeper trying to halt a chain in which insight is recited, taught, and made durable."
+            }
+          },
+          {
+            "model_id": "delta_development_prematurely_stopped",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب",
+              "خ ل ق",
+              "ع ل ق"
+            ],
+            "mechanism": "Creation, attachment, and nurturing toward completion form a developmental mechanism. The endpoint branch of يَنْهَى then activates a counter-image: an agent who prematurely terminates what is still attaching, forming, and being brought to completion.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B002",
+                "role": "The imposed endpoint anchors the model as a changed image of the focus prohibition."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repair, and completion supplies a process intended to reach fullness rather than be cut short."
+              },
+              {
+                "source_ref": "96:2",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-into-being supplies the emergence whose continuation is at stake."
+              },
+              {
+                "source_ref": "96:2",
+                "root": "ع ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001039",
+                "branch_id": "B001",
+                "role": "Attachment and persistent clinging supplies the fragile dependent phase that the imposed stop threatens."
+              }
+            ],
+            "structural_cues": [
+              "96:1-5 moves from creation and attachment through nurture-like teaching before the human turn toward transgression."
+            ],
+            "reader_inference": "The packet supplies creation, attachment, completion, and an endpoint image; I map biological and pedagogical development onto the blocked act. The live alternative is that these are origin contrasts only, with no developmental analogy intended for يَنْهَى.",
+            "changed_reading": {
+              "before": "The actor simply says no to a completed act.",
+              "after": "Have you seen one who cuts short a dependent act while it is still attaching, forming, and being brought toward completion?"
+            }
+          },
+          {
+            "model_id": "delta_overflower_as_limit_setter",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط غ ي",
+              "ر ء ي",
+              "غ ن ي",
+              "ر ج ع"
+            ],
+            "mechanism": "The human first exceeds a limit like rising floodwater, sees a sufficient image of himself, and is reminded of return; he then appears as the one who imposes an endpoint on someone else. The boundary-breaker becomes a self-appointed boundary-maker.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B004",
+                "role": "Water settling where a flood reaches its endpoint gives the focus restraint a material image of forcing motion to stop."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "Rising water and sweeping force supplies the actor's prior boundary-crossing motion."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance and mirror casts the claim of sufficiency as a self-image that organizes later conduct."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency supplies the actor's imagined warrant to set another person's limit."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to a prior point supplies the counter-direction to both overflow and self-appointed finality."
+              }
+            ],
+            "structural_cues": [
+              "96:6-7 causally joins transgression to self-perceived sufficiency, and 96:8 inserts return immediately before the focus question."
+            ],
+            "reader_inference": "The packet supplies overflow, self-seeing, sufficiency, return, and an endpoint image; I infer that the same human who crosses limits appoints himself as another's limit. The live alternative is that the prohibition is only one more symptom of transgression, without compensatory boundary-making.",
+            "changed_reading": {
+              "before": "A prohibitor enforces a boundary.",
+              "after": "Have you noticed the overflower who imagines himself sufficient and then appoints himself as the endpoint at which another must stop?"
+            }
+          },
+          {
+            "model_id": "delta_seen_watcher",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ع ل م",
+              "ء ل ه"
+            ],
+            "mechanism": "The repeated seeing root moves from self-image, through interrogative inspection, to God's seeing. The focus no longer grants the prohibitor the position of sovereign watcher; it turns his act into a visible object nested inside a more comprehensive knowing gaze.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility and facing makes the focus question a scene in which observer and observed positions can reverse."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The mirror and visible-appearance image supplies the actor's enclosed, self-authored field of vision."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower makes the prohibitor's conduct epistemically exposed rather than hidden."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped deity identifies the source to which the culminating gaze belongs."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the encompassing observation that catches the would-be controller within its field."
+              }
+            ],
+            "structural_cues": [
+              "The root ر ء ي recurs at 96:7, 96:9, 96:11, 96:13, and 96:14 while the grammatical owner of seeing shifts."
+            ],
+            "reader_inference": "The packet supplies repeated seeing, self-image, knowledge, and God's seeing; I infer a nesting and reversal of gazes. A live alternative is that the repetitions organize the argument rhetorically without making surveillance itself the mechanism.",
+            "changed_reading": {
+              "before": "The prohibitor controls what another may do under his watch.",
+              "after": "Look at the watcher made visible: his attempt to police another is itself exposed within a knowing divine gaze."
+            }
+          },
+          {
+            "model_id": "delta_prayer_as_rival_obedience",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د",
+              "ص ل و",
+              "ه د ي",
+              "ء م ر",
+              "و ق ي"
+            ],
+            "mechanism": "The next ayah supplies the withheld target: a servant at prayer. Worshipful obedience, guidance, command, and protection turn the prohibition into a jurisdictional conflict in which the restrainer attempts to override the servant's directed allegiance.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act anchors the conflict in the focus actor's attempt to stop another."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship and submissive obedience identifies the stopped person through an allegiance already in operation."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The specified worship act supplies the precise moment at which the prohibitor intervenes."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle direction toward the path and truth keeps open the possibility that the stopped servant is correctly oriented."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Request and obligation introduces a competing command relation rather than a merely private devotional act."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm supplies the constructive end of the command that the prohibitor may be obstructing."
+              }
+            ],
+            "structural_cues": [
+              "96:9 suspends the object of يَنْهَى; 96:10 completes it with a servant at prayer, and 96:11-12 test that servant's orientation and command."
+            ],
+            "reader_inference": "The packet directly supplies the stopped servant and prayer, then guidance and protective command; I infer that the prohibition bids to override an existing allegiance. The live alternative is coercive interruption without any desire to receive the servant's obedience.",
+            "changed_reading": {
+              "before": "Someone prevents an unspecified action.",
+              "after": "Consider the one who intercepts a servant precisely in worship, trying to place his own command over the servant's directed obedience."
+            }
+          },
+          {
+            "model_id": "delta_moral_restraint_inverted",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه د ي",
+              "و ق ي",
+              "ك ذ ب",
+              "و ل ي"
+            ],
+            "mechanism": "The conditional forks place guidance and protective conduct on one side, denial and turning away on the other. They prevent the surface title 'one who forbids' from carrying automatic moral authority: the apparent restrainer may be obstructing the very conduct that true reason would protect.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Reflective judgment turns the repeated question into an audit of competing moral descriptions."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B003",
+                "role": "Reason that restrains from wrong supplies the legitimate moral function against which this prohibitor is tested."
+              },
+              {
+                "source_ref": "96:11",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Direction toward path and truth supplies a positive orientation potentially possessed by the person being stopped."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm supplies the corrective conduct that a genuine moral restraint should preserve."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the negative alternative that strips the prohibitor's stance of epistemic authority."
+              },
+              {
+                "source_ref": "96:13",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning the back and withdrawing supplies the negative directional alternative opposed to guidance."
+              }
+            ],
+            "structural_cues": [
+              "96:11-13 repeats أَرَءَيْتَ across conditional alternatives, forcing the reader to test roles rather than trust the prohibitor's label."
+            ],
+            "reader_inference": "The packet supplies the guided/protective and denying/turning alternatives; I infer that they invert the prohibitor's claim to be reason's agent. Pronoun alignment across the conditionals remains a live uncertainty, but either alignment destabilizes automatic trust in the prohibition.",
+            "changed_reading": {
+              "before": "The one who forbids occupies the role of moral corrector.",
+              "after": "Do not confuse prohibition with moral restraint: this actor may be stopping the person whose guidance and protective command reason should defend."
+            }
+          },
+          {
+            "model_id": "delta_forbidder_who_will_not_stop",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "س ف ع",
+              "ن ص ي",
+              "ك ذ ب",
+              "خ ط ء"
+            ],
+            "mechanism": "The same root returns with reversed valency: the person who makes another desist is warned that, if he does not desist, he will be forcibly seized. The would-be agent of stopping becomes the patient of an imposed stop, with lying and missing the right course attached to his forelock.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Transitive restraint establishes the actor as the person who tries to make someone else cease."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Ceasing and being restrained returns against that actor, reversing the focus operation onto its source."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "Taking by the forelock supplies the external force that terminates the actor's failed self-restraint."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock and seizure point localizes the reversal on the prohibitor's own body."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth diagnoses the actor whose command presented itself as authoritative."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "Missing what is right diagnoses the course of the person who presumed to terminate another's course."
+              }
+            ],
+            "structural_cues": [
+              "يَنْهَى in 96:9 and يَنتَهِ in 96:15 repeat one root while reversing the actor from imposer of cessation to the one required to cease."
+            ],
+            "reader_inference": "The packet supplies the root echo, failure to desist, bodily seizure, lying, and error; I infer a critique of asymmetrical restraint. A live alternative is that 96:15 targets only this immediate act, not a general incapacity for self-restraint.",
+            "changed_reading": {
+              "before": "The prohibitor has the power to make another stop.",
+              "after": "See the one who makes another stop but will not stop himself, until cessation is imposed back upon him."
+            }
+          },
+          {
+            "model_id": "delta_collective_enforcement",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع و",
+              "ن د و",
+              "ز ب ن"
+            ],
+            "mechanism": "The singular prohibitor expands into a social enforcement system: he calls an assembly, that call is answered by a counter-call, and pushing or repelling force appears. The focus prohibition can therefore be heard as an act backed by audience, faction, and coercive capacity.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act supplies the individual command whose social machinery is later exposed."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling and drawing others by speech supplies the mobilizing action behind the prohibitor's stance."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The people's council and gathering supplies the public body from which the singular actor seeks backing."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The answering call mirrors and overtakes the actor's attempted mobilization."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Pushing, collision, and prevention supplies the coercive counter-force to the original act of prevention."
+              }
+            ],
+            "structural_cues": [
+              "The paired calls of 96:17-18 expand the singular relative of 96:9 into opposing collectives."
+            ],
+            "reader_inference": "The packet supplies his call, his assembly, a counter-call, and repelling force; I infer that social backing helps constitute his prohibitive power. The live alternative is that the assembly is late bravado rather than the original source of his authority.",
+            "changed_reading": {
+              "before": "A lone individual utters a prohibition.",
+              "after": "The prohibitor emerges as the voice of a mobilized public faction, and his enforcement network is met by a counter-mobilization."
+            }
+          },
+          {
+            "model_id": "delta_stop_reversed_into_approach",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط و ع",
+              "س ج د",
+              "ق ر ب"
+            ],
+            "mechanism": "The final sequence refuses obedience to the prohibitor and joins downward prostration to approach. His attempted endpoint is reversed: bodily lowering is not defeat or stoppage but the motion by which the servant continues and draws near.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B002",
+                "role": "The endpoint imposed by the prohibitor supplies the trajectory that the final commands overturn."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "Obedient submission names the claim explicitly denied to the prohibitor."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B004",
+                "role": "Bowing the head and bending supplies the downward bodily motion that continues despite the attempted stop."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness rather than distance supplies the direction and result of refusing the prohibitor."
+              }
+            ],
+            "structural_cues": [
+              "96:19 closes with a coordinated imperative sequence: do not obey him, prostrate, and approach."
+            ],
+            "reader_inference": "The packet supplies refusal of obedience, bodily lowering, and approach; I infer that these actions directly reverse the focus actor's attempted stop. A live alternative is that approach is relational rather than spatial, though it still supplies movement beyond his command.",
+            "changed_reading": {
+              "before": "The prohibitor's command defines where the servant must stop.",
+              "after": "Refuse his claim to obedience: bowing down becomes the way to continue past his boundary and draw near."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_sufficiency_ends_seeking",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the ن ه ي branch of sufficiency that ends further seeking beside explicit self-sufficiency. It remains anchored in focus يَنْهَى and 96:7, but downstream prose should present it as a relational analogy, not translate the verb as 'to suffice.'",
+            "focus_anchor": "The prohibitor can be modeled as someone whose claim of sufficiency attempts to end another person's search beyond him.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B005",
+                "role": "Sufficiency that stops further seeking turns prohibition into a claim that no other source or path need be pursued."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The mirror and visible appearance image supplies the self-authored perception behind that terminal claim."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency supplies the explicit context pressure that activates the unusual sufficiency branch of the focus root."
+              }
+            ],
+            "changed_reading": {
+              "before": "He orders another to stop an act.",
+              "after": "He presents himself as sufficient enough to end the other's seeking, making his own self-image the terminal horizon."
+            }
+          },
+          {
+            "outlier_id": "outlier_prohibition_as_public_performance",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the showing-off branch of ر ء ي in an interrogative form that does not itself mean ostentation. It remains anchored through أَرَءَيْتَ, the focus restraint, the later assembly, and the culminating gaze; downstream prose should call it a performance model, not a lexical gloss.",
+            "focus_anchor": "The opening visual summons can expose the act of prohibition as something staged for a watching public.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Showing an act before people supplies the exploratory possibility that the prohibitor performs authority to be seen."
+              },
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Restraint from an act anchors the performed gesture in the focus clause rather than in a free-standing spectacle theme."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The council and gathering supplies the audience before whom prohibitive authority can be staged and reinforced."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The culminating act of seeing reverses the performance by placing it under a gaze the actor does not control."
+              }
+            ],
+            "changed_reading": {
+              "before": "The prohibition is a private attempt to control one servant.",
+              "after": "Notice the man staging his prohibition before an assembly, while the performance itself remains visible to a gaze beyond that audience."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The boundary-breaker of 96:6-7 becomes a self-appointed boundary-maker in 96:9.",
+            "The repeated seeing sequence turns the apparent watcher into the watched object of a knowing divine gaze.",
+            "The echo from يَنْهَى to يَنتَهِ reverses cessation onto the person who imposed it on another.",
+            "The final refusal, prostration, and approach convert the attempted stop into continued movement and nearness."
+          ],
+          "what_was_special": "The focus supports coexisting epistemic, spatial, developmental, social, and embodied readings. Especially productive were the reversals of limit, gaze, and grammatical agency, plus the strange but packet-anchored sufficiency and public-performance activations.",
+          "remaining_uncertainties": [
+            "The exact pronoun alignment across 96:11-13 affects which actor bears each conditional property, although the moral audit remains active.",
+            "The flood-endpoint and developmental models depend on cross-domain branch analogy and should not replace the direct restraint sense.",
+            "The showing-off and sufficiency branches are exploratory activations, not claims that the surface forms lexically carry those meanings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The ayah asks the hearer to see a restrainer who misuses restraint. Evidence: `ر ء ي B013` tell-me/alerting formula, `ر ء ي B001/B002` seeing and judgment, `ن ه ي B001` restraining from an act. Structural cue: `أرأيت` opens a staged inquiry, while `ينهي` is left without object until 96:10. Mechanism: the hearer is made to inspect an act of prohibition before its target is revealed. Abductive move: the packet gives interrogative-seeing and restraint; I infer that the text makes restraint itself stand trial. Reading change: the ayah is not merely narrating a forbidding person; it summons judgment about illegitimate forbidding.\n\n2. `نهي` also activates endpoint and reason, exposing a counterfeit boundary. Evidence: `ن ه ي B002` endpoint/limit, `ن ه ي B003` reason that restrains from wrong, `ط غ ي B001/B002` exceeding bounds. Structural cue: the one who forbids appears after the human oversteps; the alleged boundary comes from the transgressor, not from reason or divine order. Mechanism: false authority tries to set the limit of worship, but its own transgression invalidates the boundary. Abductive move: the packet supplies legitimate restraint and overstepping; I infer a distinction between rightful and wrongful prohibition. Reading change: `ينهى` becomes an ironic claim to boundary-setting by one who has lost the boundary.",
@@ -14396,35 +15542,32 @@
       "word_count": 3
     },
     "word_morpheme_spans": {
-      "present": false,
+      "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
       "words_total": 3,
-      "words_resolved": 0,
-      "words_unresolved": 3,
+      "words_resolved": 2,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "3": 1,
+        "0": 1
+      },
       "unresolved": [
         {
           "word_index": 0,
           "surface_ar": "أَرَأَيْتَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 1,
-          "surface_ar": "ٱلَّذِى",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "يَنْهَى",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
-        "ayah_count": 20,
-        "row_count": 118,
+        "ayah_count": 19,
+        "row_count": 111,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14832,10 +15975,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s96/packets/96_9.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s96/readers/reader_hft_a/96_9.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s096",
+        "latent_activation/focus_trace/runs/s96"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s96",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 188504,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.633547+00:00",
+  "generated_at": "2026-08-18T13:34:27.557558+00:00",
   "surah": 101,
   "ayah": 4,
   "ayahRef": "101:4",
@@ -1925,7 +1925,8 @@
       "morpheme_ids": [
         "m-w-s101-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:1"
+      "aligned_qac_word_ref_upstream": "101:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1939,7 +1940,8 @@
       "morpheme_ids": [
         "m-w-s101-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:2"
+      "aligned_qac_word_ref_upstream": "101:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1955,7 +1957,8 @@
         "m-w-s101-a004-w003-01",
         "m-w-s101-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:3"
+      "aligned_qac_word_ref_upstream": "101:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1969,7 +1972,8 @@
       "morpheme_ids": [
         "m-w-s101-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:4"
+      "aligned_qac_word_ref_upstream": "101:4:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1985,7 +1989,8 @@
         "m-w-s101-a004-w004-02",
         "m-w-s101-a004-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:5"
+      "aligned_qac_word_ref_upstream": "101:4:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2001,7 +2006,8 @@
         "m-w-s101-a004-w005-01",
         "m-w-s101-a004-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "101:4:6"
+      "aligned_qac_word_ref_upstream": "101:4:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3552,7 +3558,1096 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:4",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_swarm_scatter",
+            "confidence": "strong",
+            "focus_anchor": "The event-time predication and the simile at words 4–5 make people become mothlike and dispersed.",
+            "mechanism": "A severe occurrence converts visible human plurality into a low-inertia, fluttering swarm, while the passive adjective makes dispersion a condition imposed on that swarm rather than a chosen migration.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day branch supplies an overwhelming occasion and makes the transformation eventive rather than routine."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal occurrence supplies the state change by which the human collective becomes newly present in another configuration."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the collective whose ordinary recognizability remains available even as its organization fails."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The light fluttering insect supplies swarming, unstable motion and a susceptibility to luminous or fiery attraction."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical spreading supplies the outward distribution that turns many people into a field of separated moving units."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse merely compares a frightened crowd to many insects.",
+              "after": "At a severe event, human collectivity is converted into an actively dispersed, fluttering swarm whose loss of coordinated motion is the point of the simile."
+            }
+          },
+          {
+            "model_id": "baseline_social_decohesion",
+            "confidence": "medium",
+            "focus_anchor": "The juxtaposition of the people-word at word 3 with the scattered swarm at words 4–5.",
+            "mechanism": "The people-word can carry familiarity and companionship, while the moth simile and scattering adjective break that relational fabric into mutually uncoordinated individuals.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the social cohesion that the ensuing comparison visibly removes."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The swarming insect supplies proximity without companionship: many bodies share a field but not a common orientation."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the functional rupture of the collective into separated social units."
+              }
+            ],
+            "changed_reading": {
+              "before": "People remain a crowd that happens to move chaotically.",
+              "after": "The verse pictures the unmaking of people-as-a-familiar-society: they remain numerous and adjacent, but the relations that made them a coordinated human collective have come apart."
+            }
+          },
+          {
+            "model_id": "baseline_disclosed_interiority",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive participle at word 5 can activate disclosure as well as physical distribution, while the people-word remains the disclosed object.",
+            "mechanism": "Spreading operates informationally: a severe occasion lays human beings out as legible material and brings what was inward or concealed into public visibility.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe occasion supplies the disclosure event under which concealed human states can no longer remain private."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception into awareness supplies legibility and makes the human collective something newly apprehended."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Laying a matter out supplies the display surface on which human realities become inspectable."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Broadcasting what is hidden in the self supplies the shift from spatial scattering to exposed inward content."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only human bodies are scattered in space.",
+              "after": "Human beings are also broadcast as disclosures: the event spreads their formerly hidden contents into a publicly perceptible field."
+            }
+          },
+          {
+            "model_id": "baseline_flattened_field",
+            "confidence": "exploratory",
+            "focus_anchor": "The noun at word 4 belongs to a spreading and bedding field as well as to the moth image, and word 5 reinforces distribution.",
+            "mechanism": "A non-aerial branch makes the comparison a material leveling: people become like things laid out, bodies brought low, or a surface covered with dispersed matter.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supplies a broad surface-state rather than an exclusively entomological picture."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B007",
+                "role": "A body laid over a place supplies the bodily lowering that can coexist with the dominant fluttering image."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Visible distribution supplies the covering of a field by many separated human units."
+              }
+            ],
+            "changed_reading": {
+              "before": "The image is wholly aerial: people fly about like moths.",
+              "after": "A coexisting material reading sees people brought low and spread across a field like laid-out matter, with fluttering and flattening left unresolved rather than forced into one picture."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_percussive_dispersion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "The repeated event-name gains the mechanics of a blow: impact precedes and produces the swarm-state, so the scattering reads as a shock response or ejecta pattern rather than spontaneous milling.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event-day supplies the temporal site at which the impact becomes manifest."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "Fluttering light bodies supply the disturbed particles set into disordered motion."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical scattering supplies the result-state that the contextual impact can explain."
+              },
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "One thing striking another supplies the initiating impulse for the dispersal mechanism."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "A blow that arrests the hearer supplies sensory force and explains why ordinary human coordination collapses."
+              }
+            ],
+            "structural_cues": [
+              "The same event-name is isolated, questioned, and repeated across 101:1–3 immediately before the focus begins with an event-time expression.",
+              "The focus supplies the first visual consequence after the threefold percussion."
+            ],
+            "reader_inference": "Packet: the context supplies repeated striking and arresting-impact branches, while the focus supplies a severe occasion and physical dispersion. Reader: I draw the causal arrow from impact to swarm ejection. Alternative: the repetition may magnify the event rhetorically without specifying physical causation.",
+            "changed_reading": {
+              "before": "The mothlike scattering is an unexplained scene of panic.",
+              "after": "The scattering is the visible aftershock of a repeated blow: humanity behaves like light matter knocked out of collective form."
+            }
+          },
+          {
+            "model_id": "delta_epistemic_unsealing",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The two knowledge questions bracket the focus and its eventual answer, strengthening the focus-only disclosure model: human scattering becomes a mode of forced legibility, not only displacement.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceptual apprehension supplies the human collective as something brought into awareness."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Disclosure of concealed inward content supplies what the epistemic frame makes newly knowable."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge supplies the first explicit demand to apprehend what the event means."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The repeated knowledge cue supplies a second epistemic threshold before the final identification."
+              }
+            ],
+            "structural_cues": [
+              "The same knowledge formula occurs before the human image at 101:3 and again before the final answer at 101:10.",
+              "The focus's passive participle permits the people to be read as what has been made public."
+            ],
+            "reader_inference": "Packet: knowledge frames occur on both sides of the scene, and the focus inventories supply perception and disclosure. Reader: I infer that scattering is also an epistemic unsealing of human reality. Alternative: the questions can signal human cognitive limitation rather than increased legibility.",
+            "changed_reading": {
+              "before": "The scene tells the observer where bodies are.",
+              "after": "The scene also tells the observer what people are when coverings and social composure fail: they are spread into visibility as knowable disclosures."
+            }
+          },
+          {
+            "model_id": "delta_shared_material_decohesion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "The adjacent parallel converts two organized masses by the same grammar: a human collective becomes dispersed light bodies while a hard geological aggregate becomes loosened fiber. The focus thus depicts a cross-scale loss of cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in time supplies the first state transition in the paired construction."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supplies the human side of the shared material transformation."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution supplies the loss of cohesion in the human aggregate."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The repeated temporal predication supplies an explicitly matched second state transition."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A raised solid aggregate supplies the maximum-cohesion counterpart to the human collective."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Soft dyed wool supplies divisible fibrous matter replacing geological solidity."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffing fiber supplies the loosening process parallel to human scattering."
+              }
+            ],
+            "structural_cues": [
+              "101:4 and 101:5 repeat the pattern 'become + definite plural subject + like + material image + passive descriptor.'",
+              "The two transformations are adjacent and differ mainly in scale: social bodies, then mountains."
+            ],
+            "reader_inference": "Packet: the focus supplies spread human units, and 101:5 supplies a solid mass converted to fluffed fiber under matching grammar. Reader: I infer a common decohesion law across social and geological scales. Alternative: the two similes may remain independent pictures joined only by sequence.",
+            "changed_reading": {
+              "before": "Human panic and mountain destruction are separate spectacular images.",
+              "after": "The human swarm is one instance of a larger material phase change in which every stable aggregate loses binding, density, and coordinated form."
+            }
+          },
+          {
+            "model_id": "delta_unherded_collective",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ف ش"
+            ],
+            "mechanism": "A branch of the adjacent passive descriptor introduces livestock dispersed at night without a keeper. Through the exact participial parallel, the focus swarm acquires a social-political dimension: people move as an unherded collective.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar companionship supplies the coordinated social condition whose loss is being modeled."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The swarm supplies many nearby bodies moving without common direction."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the distributed state onto which loss of guidance can be projected."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B003",
+                "role": "Livestock roaming at night without a herder supplies the mechanism of collective motion after guidance and enclosure fail."
+              }
+            ],
+            "structural_cues": [
+              "The neighboring passive descriptors close two otherwise matching similes.",
+              "Both verses begin with plural collectives and end with images of loosened distribution."
+            ],
+            "reader_inference": "Packet: the adjacent root inventory supplies unguarded nocturnal livestock, while the focus supplies people, swarming, and scattering. Reader: I transfer the loss-of-herder relation across the matched constructions. Alternative: the livestock branch is lexically remote from the wool sense active in 101:5 and may remain only an associative undertone.",
+            "changed_reading": {
+              "before": "People are individually panicked but still implicitly belong to an ordered society.",
+              "after": "People appear as a collectivity whose guidance, enclosure, and mutual orientation have vanished—an unherded social field as well as an insect swarm."
+            }
+          },
+          {
+            "model_id": "delta_deaggregation_for_assay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن"
+            ],
+            "mechanism": "The move from plural humanity to each person's balances makes scattering function as deaggregation: the mass is broken into separately assayable persons whose value can be weighed with justice.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humanity supplies the initially undifferentiated collective to be separated."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical distribution supplies deaggregation into distinguishable units."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Weight as precious standing supplies qualitative value rather than mere physical mass."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The just scale supplies the evaluative operation performed on separated persons."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B003",
+                "role": "Comparison between two sides supplies the contrastive sorting that follows the common swarm-state."
+              }
+            ],
+            "structural_cues": [
+              "The plural 'people' of 101:4 gives way to the singular conditional 'whoever' and the possessive 'his balances' in 101:6 and 101:8.",
+              "The paired outcomes reuse the same balance noun while reversing heavy and light."
+            ],
+            "reader_inference": "Packet: the focus supplies a collective dispersed into units, and the later pair supplies valuable weight and just comparison for each possessor. Reader: I infer that dispersion enables or images individuation for assay. Alternative: weighing may simply follow the scene without explaining why the focus uses scattering.",
+            "changed_reading": {
+              "before": "Scattering erases distinctions by reducing everyone to one chaotic mass.",
+              "after": "Scattering paradoxically destroys the crowd so that persons become individually distinguishable and weighable; loss of collective form enables exact differentiation."
+            }
+          },
+          {
+            "model_id": "delta_relational_reconstitution",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ش",
+              "ر ض و"
+            ],
+            "mechanism": "Life, mutual satisfaction, and acceptance keep the social-decohesion reading from becoming terminal. The swarm-state is a threshold that strips inherited familiarity before a differentiated form of accepted life can emerge.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the relational order disrupted in the focus."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the rupture that must be temporally distinguished from the later settled state."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life as a lived condition supplies continuity beyond the moment of collective dissolution."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual satisfaction supplies a relationally restored condition rather than bare individual survival."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch of acceptance supplies a second live contour of settled belonging."
+              }
+            ],
+            "structural_cues": [
+              "The focus is explicitly time-bounded by 'day,' while 101:7 presents a subsequent result-state.",
+              "The later singular outcome follows the weighing bifurcation rather than restoring the original undifferentiated crowd."
+            ],
+            "reader_inference": "Packet: the focus supplies broken familiarity, while 101:7 supplies continuing life, mutual satisfaction, and acceptance across both mapped roots. Reader: I infer temporal reconstitution after de-socialization. Alternative: the later satisfaction may describe an entirely non-social condition and need not repair any relation.",
+            "changed_reading": {
+              "before": "The moth-state is humanity's terminal loss of every stable relation.",
+              "after": "The moth-state is a temporary stripping of inherited social coherence; it can be followed, for a differentiated person, by a newly accepted and satisfying mode of life."
+            }
+          },
+          {
+            "model_id": "delta_weightless_turbulence",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ف ف",
+              "و ز ن"
+            ],
+            "mechanism": "The light side of the weighing pair retroactively sharpens moth motion. Low weight becomes both kinematic instability and deficient standing, so the focus's flutter is morally and socially charged without ceasing to be physical.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The moth and the light person supply low-inertia, erratic movement already latent in the focus simile."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the large-scale pattern generated by many unstable trajectories."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Lightness against burden supplies the physical lack of ballast that explains fluttering."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B004",
+                "role": "Levity and disturbance supply behavioral instability as a second register of lightness."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B007",
+                "role": "Weight as rank or consequence supplies the evaluative deficit carried by the physical image."
+              }
+            ],
+            "structural_cues": [
+              "The later predicate of lightness echoes the focus inventory's explicit association of the moth with a light person.",
+              "The same balance construction binds bodily lightness to assessed standing."
+            ],
+            "reader_inference": "Packet: the focus moth branch includes lightness, and 101:8 supplies physical lightness, disturbed levity, and weight as standing. Reader: I allow these registers to reinforce one another. Alternative: the focus may remain a purely visual simile unrelated to the later evaluative lightness.",
+            "changed_reading": {
+              "before": "Mothlike motion is random only because the crowd is frightened.",
+              "after": "The motion enacts weightlessness: lacking ballast and assessed standing, people become easy to deflect, agitate, and scatter."
+            }
+          },
+          {
+            "model_id": "delta_vectorized_return",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "The later singular destination adds vectors to the distributed swarm. A gathering origin or intended reference is paradoxically an abyss, so apparently random motion resolves into rapid downward return.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B006",
+                "role": "Low fluttering near a surface supplies trajectories that can tip from hovering into descent."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Distribution supplies many initially separated trajectories requiring later resolution."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Origin, gatherer, and return-point supply an attractor capable of recollecting what was scattered."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B012",
+                "role": "Intention and heading supply directedness rather than merely random drift."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a depth supplies the direction and terminal geometry of the light trajectory."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B008",
+                "role": "Rapid tumbling movement supplies acceleration from dispersed flutter to irreversible descent."
+              }
+            ],
+            "structural_cues": [
+              "The plural people of the focus are followed by the singular possessive 'his' in 101:9, resolving collective dispersion into individual destinations.",
+              "The maternal or return term and the abyss term are predicated together, joining recollection to descent."
+            ],
+            "reader_inference": "Packet: the focus supplies dispersed low flutter, while 101:9 supplies return, heading, rapid motion, and falling. Reader: I infer an attractor field that gives the earlier swarm directional endpoints. Alternative: 101:9 may describe only the later outcome of one weighed class, not the mechanics of 101:4.",
+            "changed_reading": {
+              "before": "The scattered people move isotropically with no destination.",
+              "after": "The field only looks directionless at first; individual trajectories can be gathered by a terrible return-point and converted into rapid descent."
+            }
+          },
+          {
+            "model_id": "delta_fire_attractor",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ح م ي"
+            ],
+            "mechanism": "The final hot fire completes a latent affordance inside the focus's moth branch. Light and heat can organize the dispersed swarm around a destructive attractor, so scattering and convergence coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The moth drawn toward light or fire supplies an attraction mechanism already encoded in the focus image."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies distributed starting positions whose paths can nevertheless share an attractor."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination supplies the signal capable of orienting mothlike motion."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the destructive object toward which the latent attraction can point."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Intense heat supplies the lethal material property that distinguishes the attractor from benign light."
+              }
+            ],
+            "structural_cues": [
+              "The fire appears as the final answer after a delayed knowledge question, allowing it to retroactively complete the earlier moth image.",
+              "The focus combines dispersion with an insect whose inventory explicitly includes movement toward light or fire."
+            ],
+            "reader_inference": "Packet: the focus supplies fire-seeking moth behavior, and 101:11 supplies illumination, burning fire, and heat. Reader: I identify the final fire as a possible attractor organizing earlier trajectories. Alternative: the fire may be only the destination of the light-scale class and not the cause of the whole human swarm.",
+            "changed_reading": {
+              "before": "Scattered moths move randomly away from a shock.",
+              "after": "They may scatter locally yet converge globally: the hot luminous endpoint organizes their disorder into a lethal attraction pattern."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_split_root_efflux",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the form-distant dominant member of the packet's split mapping for the knowledge root. It remains anchored in the focus's passive scattering and disclosure, while the co-present knowledge branch explains why an efflux becomes perceptible. Downstream prose should label it a cross-branch activation—people discharged from hiddenness—not a lexical gloss of the knowledge formula.",
+            "focus_anchor": "The physically or informationally broadcast participle at word 5.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Disclosure from concealment supplies the focus-side emergence into public view."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B001",
+                "role": "A copious outflow from a source supplies the strange image of humanity poured or discharged into dispersion."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped knowledge branch supplies the epistemic frame that keeps the efflux tied to revelation rather than fluid imagery alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus statically displays a crowd already scattered.",
+              "after": "The knowledge frame can make the crowd look like an efflux: concealed human reality gushes into visibility and is dispersed as it emerges."
+            }
+          },
+          {
+            "outlier_id": "outlier_fire_as_containing_perimeter",
+            "confidence": "exploratory",
+            "containment": "This reverses the stronger fire-attractor reading by activating protection and prevention inside the heat root. It remains valid because a dispersed moth-field can be organized by a boundary as well as a lure, and the focus supplies that field. Downstream prose should present it as a reversible spatial hypothesis: the fire may corral or block escape, not necessarily attract every trajectory.",
+            "focus_anchor": "The scattered moth-field at words 4–5 permits either an attracting center or a containing boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The mobile moth swarm supplies bodies whose accessible paths can be constrained."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Spatial distribution supplies the field across which a perimeter would operate."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire supplies the material boundary or surrounding hazard."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection, repulsion, and prevention supply the reversed function of fire as an enclosing barrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final fire is a central lure drawing mothlike people inward.",
+              "after": "The fire can instead be a prohibitive perimeter: scattered people churn within a field whose hot boundary prevents outward escape."
+            }
+          },
+          {
+            "outlier_id": "outlier_perceptual_motes",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates the tiny human image seen in the pupil rather than the ordinary collective sense of people. It remains anchored to the explicit people-word, the mothlike flicker, and the final light cue. Downstream prose should qualify it as a perceptual-scale analogy: humanity appears as unstable visual motes in an observer's field, not as a translation of the noun.",
+            "focus_anchor": "The people-word at word 3 is immediately recast by a light, scattered visual simile.",
+            "activation_trace": [
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The miniature human image in the pupil supplies a perceptual scaling-down of the collective."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "Flickering light insects supply the unstable visual texture of the observed field."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies many small figures distributed across perception."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination supplies the condition under which the visual motes appear and flicker."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse presents an objective wide shot of a massive crowd.",
+              "after": "A strange perceptual reading miniaturizes humanity into flickering, scattered figures across a field of vision, making scale and observational shock part of the image."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated striking context supplies a causal impulse: the human swarm reads as matter knocked out of collective form.",
+            "The adjacent mountain-and-wool parallel turns the focus into a cross-scale phase change from cohesion to loose particles or fibers.",
+            "The weighing sequence makes dispersion individuating rather than homogenizing: the crowd breaks apart into separately assayable persons.",
+            "The abyss and final hot fire add competing directional structures—falling return, luminous attraction, or exploratory containment—to an apparently random swarm."
+          ],
+          "what_was_special": "The focus supports several mechanisms at once: insect kinematics, social decohesion, informational disclosure, and material leveling. Context does not select one. It successively adds impact, a matched geological phase change, individual assay, possible relational reconstitution, downward destination, and a fire already latent in the moth branch.",
+          "remaining_uncertainties": [
+            "The insect sense of the comparison is strongest, but the spreading and body-laying branches keep a grounded field-reading genuinely live.",
+            "The final fire may retroactively organize the whole swarm, only the light-scale subgroup, or merely name a later destination.",
+            "The unherded-livestock and split-root efflux activations depend on analogical transfer across adjacent or mapped branches and should remain explicitly exploratory.",
+            "Disclosure may describe exposed inward states, simple public visibility, or both; the focus alone does not settle the register."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Event-day as dispersed movement. Evidence: ي و م B003, severe event-day; ك و ن B001, occurrence in time; ن و س B001, swaying/dangling oscillation; ف ر ش B005, fluttering moth-like insect; ب ث ث B001, scattering. Structural cue: the first explanatory image after the triple قارعة is kinetic and plural. Mechanism: the strike converts \"people\" into unstable suspended motion and then into broadcast scattering. Abductive move: I infer that the event-day causes the bodily-social form of الناس to lose coordinated direction. Reading change: the ayah reads less as a static simile and more as a physical mechanism of disorientation.\n\n2. Exposure on a laid-out surface. Evidence: ف ر ش B001/B002, spreading, bedding, prepared surface; ق ر ع B010 earlier, open road/courtyard; ب ث ث B001, laying/scattering out. Structural cue: قارعة as exposed place is followed by فرش/مبثوث. Mechanism: the people are not merely flying; they are displayed across the open plane like matter laid out after impact. Abductive move: I supply the spatial arrow from the named event-place to the human distribution on it. Reading change: الناس become evidence spread across a surface, not simply a frightened crowd.\n\n3. Hidden inner distress made visible. Evidence: ب ث ث B002, disclosing what is hidden in the self; د ر ي B001 in 101:3, making known; و ز ن B002 later, accounting of deeds. Structural cue: the sequence moves from unknowability to visible human dispersal and then to balances. Mechanism: scattering also discloses what had been interior or unreckoned. Abductive move: I infer that external dispersion reveals inner/accountable state. Reading change: المبثوث can carry disclosure, so the ayah reads as the surfacing of concealed moral condition.\n\n4. Herd without handler. Evidence: ن و س B002, driving camels; ن ف ش B003 later, night-roaming livestock without shepherd; ف ر ش B004, small/low livestock. Structural cue: human plurality is analogized with light creatures, then mountains with animal/textile wool. Mechanism: society loses guidance and becomes animal-like motion without a driver. Abductive move: I supply the absence of a controlling shepherd/driver from the uncontrolled spread. Reading change: الناس are read socially as a herd whose normal direction has collapsed.",
@@ -15178,14 +16273,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15510,10 +16611,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 104897,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

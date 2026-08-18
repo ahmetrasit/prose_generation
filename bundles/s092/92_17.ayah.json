@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.432890+00:00",
+  "generated_at": "2026-08-18T13:34:11.299242+00:00",
   "surah": 92,
   "ayah": 17,
   "ayahRef": "92:17",
@@ -1376,7 +1376,8 @@
       "morpheme_ids": [
         "m-w-s092-a017-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:17:1"
+      "aligned_qac_word_ref_upstream": "92:17:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1394,7 +1395,8 @@
         "m-w-s092-a017-w001-03",
         "m-w-s092-a017-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "92:17:2"
+      "aligned_qac_word_ref_upstream": "92:17:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1410,7 +1412,8 @@
         "m-w-s092-a017-w002-01",
         "m-w-s092-a017-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "92:17:3"
+      "aligned_qac_word_ref_upstream": "92:17:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3099,7 +3102,1353 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s92/packets/92_17.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "92:17",
+      "window": [
+        "92:1",
+        "92:2",
+        "92:3",
+        "92:4",
+        "92:5",
+        "92:6",
+        "92:7",
+        "92:8",
+        "92:9",
+        "92:10",
+        "92:11",
+        "92:12",
+        "92:13",
+        "92:14",
+        "92:15",
+        "92:16",
+        "92:17",
+        "92:18",
+        "92:19",
+        "92:20",
+        "92:21"
+      ],
+      "ayah_count": 21,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ق و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000808",
+              "furuq_root_norm": "ش ق و",
+              "furuq_source_root_norm": "ش ق و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000809",
+              "furuq_root_norm": "ش ق ي",
+              "furuq_source_root_norm": "ش ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ج ز ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000244",
+              "furuq_root_norm": "ج ز ي",
+              "furuq_source_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 97,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000242",
+              "furuq_root_norm": "ج ز ز",
+              "furuq_source_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "92:17",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_passive_completion_of_self_guarding",
+            "confidence": "strong",
+            "focus_anchor": "The future passive verb at word 1 places a subject aside, while the superlative at word 2 names maximal self-protective caution.",
+            "mechanism": "An inwardly acquired habit of guarding is paired with an outward causative relocation. The subject does not merely avoid danger by personal effort; another agency completes that effort by putting the subject in a removed position.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Removal to a side supplies the passive spatial operation performed on the subject."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself under protective caution supplies the subject's prior disposition."
+              }
+            ],
+            "changed_reading": {
+              "before": "A pious person will simply be spared.",
+              "after": "The most self-guarding person is made to occupy a removed position; granted deliverance completes a practiced placing of the self under protection."
+            }
+          },
+          {
+            "model_id": "b02_safe_flank_and_side_shield",
+            "confidence": "medium",
+            "focus_anchor": "The side-root at word 1 can organize a flank, edge, or precinct and can also image a shield held at the side; word 2 supplies the protective-barrier logic.",
+            "mechanism": "Side, shield, and barrier branches create layered geometry. Safety is not only more distance from an unnamed object but assignment to a screened flank where the boundary itself bears the exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B001",
+                "role": "The bodily flank and spatial edge supply a lateral safe-side geometry."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B011",
+                "role": "A cover or shield stationed at the side turns that geometry into active screening."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "A guard interposed against harm supplies the barrier function of the screened flank."
+              }
+            ],
+            "changed_reading": {
+              "before": "Being kept away means only increasing the distance from danger.",
+              "after": "The protected subject is assigned to a safe flank and screened at the boundary, so lateral placement and interposition coexist with distance."
+            }
+          },
+          {
+            "model_id": "b03_guarded_escort_at_the_edge",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive verb at word 1 also touches a branch of leading something alongside, while word 2 has a branch of wary, pain-avoiding movement.",
+            "mechanism": "The two branches permit controlled proximity: a guarded subject can be conducted along the edge of danger rather than abandoned or exposed to it. Safety then lies in guided adjacency and calibrated movement.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "Leading or keeping a being alongside supplies an escort rather than a bare expulsion."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B003",
+                "role": "A guarded gait around painful ground supplies cautious movement within that escort."
+              }
+            ],
+            "changed_reading": {
+              "before": "Safety requires complete absence from the threatening field.",
+              "after": "Safety may be a conducted passage along the field's edge, with proximity controlled by an escort and a guarded gait."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_alternating_exposure_boundary",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ش و",
+              "ن ه ر",
+              "ج ل و"
+            ],
+            "mechanism": "The opening cover-and-disclosure cycle turns the baseline safe flank into a moving exposure boundary. As a surface is successively covered, opened, and disclosed, the protected subject is held on the side that does not become exposed to the threatening field.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B001",
+                "role": "A spatial side supplies the flank on which exposure can be controlled."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "An interposed guard supplies continuity of protection while visibility changes."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A cover laid over a thing supplies the obscured phase of the boundary."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until passage or flow supplies expansion of the exposed field."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ج ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000256",
+                "branch_id": "B001",
+                "role": "Disclosure supplies the visible phase against which protected placement becomes legible."
+              }
+            ],
+            "structural_cues": [
+              "The opening oath alternates a covering event with a disclosure event.",
+              "The repeated conditional construction makes exposure cyclical rather than a single static backdrop."
+            ],
+            "reader_inference": "The packet supplies covering, opening, and disclosure; I infer that their alternation changes which side is exposed and that the passive focus placement tracks that boundary. A live alternative is that the opening pair supplies only cosmic contrast without a protective mechanism.",
+            "changed_reading": {
+              "before": "The subject is placed once on a permanently safe side.",
+              "after": "The subject is kept on the unexposed side of an alternating cover-and-disclosure boundary, making protection dynamic rather than static."
+            }
+          },
+          {
+            "model_id": "d02_divergent_striving_becomes_route_sorting",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ع ي",
+              "ش ت ت"
+            ],
+            "mechanism": "Purposeful movement is declared dispersed and far apart. The focus-side operation therefore reads as the terminal sorting of trajectories: one course is made to run on a protected flank rather than merely receiving an isolated exemption.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Removal and separation supply the operation that sorts one trajectory away from another."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-protective caution identifies the disposition carried by the protected trajectory."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Purposeful movement toward an objective supplies trajectories rather than static moral labels."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion supplies the branching of the trajectories."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B003",
+                "role": "Distance between two things supplies the widening separation between their endpoints."
+              }
+            ],
+            "structural_cues": [
+              "The plural possessive on striving is followed by a predicate of divergence.",
+              "The focus clause remains future passive, so final sorting is done to the protected subject rather than narrated as self-exile."
+            ],
+            "reader_inference": "The packet supplies goal-directed motion and dispersion; I infer divergent routes whose endpoints are enacted by later facilitation and side-setting. A live alternative is that the context states only diversity of deeds, with no spatial route model.",
+            "changed_reading": {
+              "before": "One individual receives a private rescue unrelated to the movement of others.",
+              "after": "The focus is one endpoint of a route-sorting system: divergent strivings become divergent courses, and the self-guarding course is laterally separated from the destructive one."
+            }
+          },
+          {
+            "model_id": "d03_active_guarding_completed_by_facilitation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "و ق ي",
+              "ص د ق",
+              "ي س ر"
+            ],
+            "mechanism": "Giving opens the hand, active self-guarding places the actor behind protection, fulfilled action makes the affirmed good operative, and facilitation opens a traversable course. The focus passive then completes this active sequence by relocating the same kind of subject beyond the hazard.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Being removed to the side supplies the externally completed outcome of the earlier actions."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-placement under protection supplies the disposition named in superlative form at the focus."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing something over supplies the release of possession that begins the active sequence."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Active self-guarding supplies the earlier practice later condensed into the focus superlative."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Making a promise or action true supplies enacted verification rather than assent alone."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease after difficulty supplies the traversable course that precedes final removal."
+              }
+            ],
+            "structural_cues": [
+              "A sequence of active perfect verbs is followed by a future causative of facilitation.",
+              "The focus repeats future causative force but changes to passive voice, shifting completion away from the human actor."
+            ],
+            "reader_inference": "The packet supplies the ordered actions and later facilitation; I infer a causal process in which practiced guarding becomes a disposition and granted side-setting completes it. A live alternative is a looser reward sequence in which the earlier deeds do not generate the later route.",
+            "changed_reading": {
+              "before": "The superlative is a static rank that qualifies an otherwise unexplained beneficiary.",
+              "after": "The superlative compresses a history of giving, guarding, and verified action, while the passive future marks a completion that the actor cannot perform alone."
+            }
+          },
+          {
+            "model_id": "d04_gentle_guidance_and_steep_counterroute",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ه د ي"
+            ],
+            "mechanism": "The split inventory places gentle path-direction beside a form-distant image of a difficult descent. Together with the focus branches of removal and guarded footing, they activate a topographic reading in which one subject is conducted onto a safe contour while a counterroute drops away.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Lateral removal supplies the transfer from one contour or route to another."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B003",
+                "role": "Guarded footing supplies careful passage over injurious terrain."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies the positive steering force."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B009",
+                "role": "The non-dominant split image of a difficult descent supplies a deliberately form-distant counterroute."
+              }
+            ],
+            "structural_cues": [
+              "A fall toward destruction appears immediately before the assertion of guidance.",
+              "Earlier paired facilitation clauses already establish easier and harder courses."
+            ],
+            "reader_inference": "The packet supplies ordinary gentle guidance and, under the split mapping, a steep descent; I use them as contrasting topographic activators and do not claim that guidance lexically means descent. A live alternative keeps only the dominant guidance branch and loses the counterroute.",
+            "changed_reading": {
+              "before": "The protected subject is displaced without any account of how the safe side is found.",
+              "after": "Protection becomes guided topography: careful footing follows a gently indicated contour while the unprotected counterroute steepens into descent."
+            }
+          },
+          {
+            "model_id": "d05_first_and_later_as_two_stage_protection",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء خ ر",
+              "ء و ل"
+            ],
+            "mechanism": "Beginning, eventual outcome, and delay make the focus future legible as the later phase of a process whose first phase is self-guarding. Protection can begin as present orientation and reach its outcome as externally effected removal.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Future removal supplies the process's later completed phase."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-guarding supplies a first phase already active in the subject."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time supplies temporal distance before completion."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "The beginning of a thing supplies the process's first phase."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an eventual outcome supplies continuity between the first phase and its consummation."
+              }
+            ],
+            "structural_cues": [
+              "The first and the later are paired under a single possession claim.",
+              "The focus verb is explicitly future while its subject is already described by an established disposition."
+            ],
+            "reader_inference": "The packet supplies firstness, laterness, delay, and outcome; I infer that they distribute protection across a first phase of practiced caution and a later phase of removal. A live alternative treats the temporal pair as domains of sovereignty without assigning stages to the focus mechanism.",
+            "changed_reading": {
+              "before": "Protection is a single deferred event with no present phase.",
+              "after": "Protection spans two times: self-guarding begins the trajectory in the first domain, and passive removal consummates it in the later domain."
+            }
+          },
+          {
+            "model_id": "d06_warning_contact_and_agency_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ن و ر",
+              "ل ظ ي",
+              "ص ل ي",
+              "ش ق و",
+              "و ل ي"
+            ],
+            "mechanism": "Warning awakens caution, the formerly unspecified feminine object becomes a blazing fire, and the preceding subject is defined by contact with its heat. The decisive reversal is agential: the denier voluntarily turns away yet reaches the fire, whereas the self-guarding subject is passively turned aside from it.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Effective removal from a harmful object supplies the successful directional reversal."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Protective caution supplies the disposition capable of receiving and acting on warning."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning that frightens and wakes caution supplies the signal preceding protection."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the concrete hazardous object later resumed by the feminine pronoun."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ل ظ ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001357",
+                "branch_id": "B001",
+                "role": "Pure, intensely kindled flame supplies the hazard's active reach."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat supplies the contact state opposed to focus removal."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ش ق و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000809",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped image of wretchedness supplies the contrasting superlative subject."
+              },
+              {
+                "source_ref": "92:16",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Voluntary turning away supplies the failed self-directed motion reversed by passive protective motion."
+              }
+            ],
+            "structural_cues": [
+              "The same feminine object pronoun links fire-contact in 92:15 with side-setting in 92:17.",
+              "The two clauses oppose exception-marked superlative subjects.",
+              "The focus future passive immediately follows a relative clause of denial and voluntary turning away."
+            ],
+            "reader_inference": "The packet supplies warning, flame, heat-contact, wretchedness, and turning away; I infer an irony in which voluntary moral aversion fails while receptive caution is completed by an effective external redirection. A live alternative reads the sequence as a straightforward contrast without emphasizing reversed agency.",
+            "changed_reading": {
+              "before": "An abstractly pious person is spared from an unspecified threat.",
+              "after": "The warned and self-guarding subject is effectively turned aside from the blazing fire, while the subject who turns himself away from warning paradoxically makes contact with it."
+            }
+          },
+          {
+            "model_id": "d07_regenerative_transfer_forms_the_protected_self",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "م و ل",
+              "ز ك و"
+            ],
+            "mechanism": "Wealth moves outward while the giver undergoes inward growth and purification. The focus superlative is therefore not only an antecedent rank; it is formed and renewed through a transfer that appears as loss at the boundary but growth in the subject.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Removal supplies the outward separation that is paired with inward transformation."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-protective formation supplies the subject changed by the transfer."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving supplies the outward transfer rather than mere arrival."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed wealth supplies the material that crosses the subject's boundary."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Increase and growth supply the non-depleting result of the outward transfer."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purification supplies the qualitative remaking of the giver."
+              }
+            ],
+            "structural_cues": [
+              "The post-focus relative clause identifies the protected subject through an ongoing act of giving.",
+              "The reflexive purification verb makes the outward transfer and inward change simultaneous."
+            ],
+            "reader_inference": "The packet supplies giving, wealth, growth, and purification; I infer a feedback mechanism in which release of possession forms the guarding disposition that precedes protection. A live alternative makes giving only evidence of an already complete type rather than a formative act.",
+            "changed_reading": {
+              "before": "The protected subject first possesses maximal caution and only afterward happens to give.",
+              "after": "The subject becomes and remains maximally self-guarding through regenerative transfer: wealth exits, while the giver grows and is purified."
+            }
+          },
+          {
+            "model_id": "d08_release_from_side_bound_repayment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ح د",
+              "ع ن د",
+              "ن ع م",
+              "ج ز ي"
+            ],
+            "mechanism": "The denial of any benefactor present with the giver and awaiting repayment removes the ordinary social shield of patronage. Side-nearness in the focus is reconfigured: the subject is not protected by a creditor or patron at his side but is freed from the reciprocal claim itself.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B002",
+                "role": "Nearness and companionship at one's side supply the social adjacency being reconfigured."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "A protective barrier poses the question of what, or who, actually shields the subject."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Exhaustive negation removes every candidate human patron or creditor."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Presence and nearness supply the image of a claim held with the giver."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Benefit and good condition supply the favor that could create reciprocal obligation."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense supplies the reciprocity explicitly denied."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B003",
+                "role": "Collecting and satisfying a debt sharpens the denied relation into a creditor-debtor mechanism."
+              }
+            ],
+            "structural_cues": [
+              "A universal negative construction excludes every human source of a repayable favor.",
+              "The locative expression places the hypothetical favor in the giver's immediate social vicinity."
+            ],
+            "reader_inference": "The packet supplies universal negation, nearness, favor, recompense, and debt collection; I infer a social topology in which freedom from horizontal claims is itself protective. A live alternative takes the clause only as a statement of pure motive, without making release from reciprocity part of the focus mechanism.",
+            "changed_reading": {
+              "before": "The subject may be safe because a patron, benefactor, or reciprocal exchange stands behind him.",
+              "after": "The subject is side-set without a human patron at his side: protection coincides with release from the creditor-debtor network rather than dependence on it."
+            }
+          },
+          {
+            "model_id": "d09_away_motion_receives_a_positive_vector",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب غ ي",
+              "و ج ه",
+              "ر ب ب",
+              "ع ل و"
+            ],
+            "mechanism": "Seeking, direction, nurturing sovereignty, and elevation give the focus removal a positive vector. The subject is not merely pushed into marginal space away from fire; the safe side is selected by orientation toward a higher face and an completing, nurturing lordship.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B001",
+                "role": "A side or direction supplies the lateral component of the new vector."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Protective self-orientation supplies the subject's readiness to follow that vector."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Active seeking supplies directed desire rather than aimless flight."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "A direction or orientation supplies the vector's positive endpoint."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and bringing to completion supply the agency that can finish the protective movement."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Elevation supplies a vertical component to the otherwise lateral movement."
+              }
+            ],
+            "structural_cues": [
+              "An exception phrase replaces every repayable human motive with one stated object of seeking.",
+              "The compact genitive chain binds face, lordship, and elevation into a single orientation."
+            ],
+            "reader_inference": "The packet supplies seeking, direction, nurturing completion, and elevation; I infer a vector in which movement away from fire is simultaneously movement toward a selected orientation. A live alternative treats the later phrase only as motive and leaves the focus movement purely negative.",
+            "changed_reading": {
+              "before": "Being put aside is negative motion whose only content is distance from fire.",
+              "after": "The displacement is a reorientation: lateral escape from fire is governed by a sought, elevated direction and completed by nurturing sovereignty."
+            }
+          },
+          {
+            "model_id": "d10_guarding_terminates_in_contentment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ض و"
+            ],
+            "mechanism": "The two future clauses form a sequence from defensive relocation to positive contentment. Maximal caution is not an endless anxious condition; once the threatening relation is broken, guarding can yield to acceptance and settled satisfaction.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B003",
+                "role": "Removal from the harmful relation supplies the necessary negative phase."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Protective caution supplies the provisional defensive posture."
+              },
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance in place of displeasure supplies the positive state that follows defense."
+              }
+            ],
+            "structural_cues": [
+              "The focus and closing clauses both carry explicit future marking.",
+              "The post-focus relative clauses maintain the same subject through to the closing satisfaction."
+            ],
+            "reader_inference": "The packet supplies two future promises and a final state of acceptance; I infer a sequence in which protection makes contentment possible and ends perpetual vigilance. A live alternative keeps the promises parallel but causally independent.",
+            "changed_reading": {
+              "before": "The most cautious subject remains defined forever by fear and avoidance.",
+              "after": "Caution is transitional: passive removal breaks the danger relation so that the protected subject can pass from vigilance into settled contentment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_windward_flank_of_an_engulfing_flame",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the wind branch is noun-like and form-distant from the focus verb. It remains anchored in the focus side-root, its barrier companion, and the context's engulfing kindled flame. Downstream prose should present it only as a material hazard analogy, not as a lexical translation.",
+            "focus_anchor": "The focus side-root contains a south-wind image, while the focus protection-root can interpose a barrier.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B006",
+                "role": "A directional wind and what it drives supply plume movement across a field."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "An interposed barrier supplies protection from the moving hazard."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An engulfing cover supplies the spatial spread of the hazard."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the material source carried through the field."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ل ظ ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001357",
+                "branch_id": "B001",
+                "role": "Intensely kindled flame supplies the dangerous plume front."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse names only a moral exemption from fire.",
+              "after": "A material hazard map flickers into view: the protected subject is shifted to a windward flank outside an engulfing flame front."
+            }
+          },
+          {
+            "outlier_id": "o02_perennial_reserve_reverses_scarcity",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because herd milk scarcity and perennial forage are not ordinary senses of the focus verb. It remains valid as a cross-domain activation because both images belong to the focus root and are joined by context branches of milk-yield, wealth, and growth. Downstream prose should call it an ecological-economic analogy and preserve the uncertainty.",
+            "focus_anchor": "The focus side-root contains both a dry-herd condition and a rooted perennial growth that protects livestock, while the focus protection-root supplies preservation from harm.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B008",
+                "role": "Loss of herd milk supplies the scarcity regime from which protection is imagined."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B010",
+                "role": "Rooted perennial forage that remains through scarcity supplies a regenerative reserve."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Preservation behind a guard supplies the reserve's protective function."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B006",
+                "role": "Milk-yield and flock growth supply the productive regime opposed to dryness."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the stock that can be hoarded or released."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase supply regeneration after wealth leaves the giver."
+              }
+            ],
+            "changed_reading": {
+              "before": "Giving wealth appears to reduce the giver's protective reserve.",
+              "after": "Generosity behaves like perennial forage rather than depletion: released stock enters a growth cycle that side-sets the giver from a sterile scarcity regime."
+            }
+          },
+          {
+            "outlier_id": "o03_reserve_runner_kept_out_of_the_consuming_race",
+            "confidence": "exploratory",
+            "containment": "This reading is surprising because it combines distant racing, guarded-gait, gaming-lot, and follower branches. It remains anchored in the focus image of a led or spare animal kept alongside and in the surah's explicit striving and route contrast. Downstream prose should retain it as a competitive-topology analogy, never as the syntax's direct sense.",
+            "focus_anchor": "The focus side-root contains the image of a led animal or spare horse kept alongside, and the focus protection-root contains a pain-avoiding guarded gait.",
+            "activation_trace": [
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "A led animal or spare horse kept alongside supplies the reserve-runner position."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B003",
+                "role": "Guarded movement that avoids injuring the hoof supplies controlled expenditure in the course."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B008",
+                "role": "Contending in purposeful motion supplies the competitive field."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Lots, gaming, and division of a slaughtered animal supply a consuming contest with assigned shares."
+              },
+              {
+                "source_ref": "92:15",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "A runner following the leader supplies a race-order image at the point of fire-contact."
+              }
+            ],
+            "changed_reading": {
+              "before": "The protected figure simply wins the same contest as everyone else.",
+              "after": "The protected figure is withheld as a guarded reserve runner on the side, escaping a contest whose track consumes those committed to it."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus passive became the external completion of an active history of self-guarding rather than a bare reward for a static label.",
+            "Divergent striving, facilitation, and guidance turned simple distance into a route-sorting and safe-flank mechanism.",
+            "The fire sequence resolved the object and exposed an agency reversal: voluntary turning away reaches the fire, while receptive caution is effectively turned aside from it.",
+            "Post-focus giving and purification made protection regenerative, while the denial of repayment recast it as release from a human debt-and-patronage network.",
+            "Seeking a higher face gave the away-motion a positive vector, and final satisfaction allowed vigilance to terminate rather than define the subject forever."
+          ],
+          "what_was_special": "The two focus roots formed a double mechanism of side-setting and self-shielding. Context repeatedly changed its domain without dissolving that anchor: visibility boundary, branching route, fire-contact reversal, economic release, directed orientation, and finally contentment. The strangest live activations arose where wind, forage, milk-yield, and race branches turned the same mechanism into material analogies.",
+          "remaining_uncertainties": [
+            "The safe-flank and side-shield readings are branch-supported but remain less morphologically direct than ordinary avoidance.",
+            "The first-and-later model depends on a reader-supplied staging of one process across the temporal pair.",
+            "The non-dominant steep-descent branch under the guidance cue is deliberately form-distant and should not displace the dominant path-direction branch.",
+            "The causal arrows from giving to formation of the protected self, and from protection to contentment, are abductive rather than explicitly stated.",
+            "The wind, ecological, and race outliers are mechanisms for exploratory prose, not candidate lexical translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Being kept to the side as protection.** Evidence: `ج ن ب` B003 (avoidance/removal to the side), `و ق ي` B002 (self-protective piety). Structural cue: it reverses 92:15’s contact with fire. Mechanism: the most guarded one is made lateral to the blaze, not exposed to it. Abductive move: I infer that prior self-guarding is answered by divine side-placement. Reading change: salvation is spatial: a merciful removal from the line of contact.\n\n2. **Side-shield imagery.** Evidence: `ج ن ب` B011 (shield/cover at the side), `و ق ي` B001 (protective barrier). Structural cue: the fire warning makes protection materially relevant. Mechanism: taqwā becomes a side-shield, and divine action completes it by moving the person away. Abductive move: I infer that moral guarding is embodied as shielding geometry. Reading change: الأتقى is not merely morally better; he is shield-configured.\n\n3. **Nearness preserved by distance.** Evidence: `ج ن ب` B002 (nearness/companionship at side) and B003 (distance/foreignness), activated by 92:20 “face of his Lord.” Structural cue: being distanced from fire prepares proximity to the Lord. Mechanism: one must be made foreign to the blaze to be companioned toward the divine face. Abductive move: I infer a two-sided separation: away from harm, toward presence. Reading change: تجنيب is not exile; it is protective repositioning.",
@@ -9045,14 +10394,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s092/linguistic/morphemes.tsv",
-        "ayah_count": 22,
-        "row_count": 138,
+        "ayah_count": 21,
+        "row_count": 131,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9543,10 +10898,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s92/packets/92_17.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s92/readers/reader_hft_a/92_17.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s092",
+        "latent_activation/focus_trace/runs/s92"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s92",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 173435,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

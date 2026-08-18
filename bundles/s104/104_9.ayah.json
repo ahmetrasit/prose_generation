@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.787415+00:00",
+  "generated_at": "2026-08-18T13:34:31.881724+00:00",
   "surah": 104,
   "ayah": 9,
   "ayahRef": "104:9",
@@ -988,7 +988,8 @@
       "morpheme_ids": [
         "m-w-s104-a009-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:9:1"
+      "aligned_qac_word_ref_upstream": "104:9:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1002,7 +1003,8 @@
       "morpheme_ids": [
         "m-w-s104-a009-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:9:2"
+      "aligned_qac_word_ref_upstream": "104:9:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1016,7 +1018,8 @@
       "morpheme_ids": [
         "m-w-s104-a009-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:9:3"
+      "aligned_qac_word_ref_upstream": "104:9:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1947,7 +1950,1131 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_9.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:9",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:9",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_extended_columnar_enclosure",
+            "confidence": "strong",
+            "focus_anchor": "The locative في places the occupant within عمد, and ممددة qualifies those supports as drawn out or extended.",
+            "mechanism": "Concrete pillars extended lengthwise cease to be isolated uprights and become a spanning array. The locative makes that array inhabitable as a gridded or barred enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The concrete pillar branch supplies the rigid members from which the focus phrase builds an enclosing array."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise drawing-out branch turns the rigid members into continuous spans rather than isolated posts."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase merely locates someone among unspecified columns.",
+              "after": "The phrase locates someone inside a lengthwise columnar grid whose span itself produces enclosure."
+            }
+          },
+          {
+            "model_id": "baseline_self_reinforcing_support_system",
+            "confidence": "medium",
+            "focus_anchor": "عمد can name what props a structure up, while ممددة can activate a connected increment that keeps supplying another element.",
+            "mechanism": "The supports are not only long; they form a maintained system in which one member or added supply reinforces the next. The punishment-space can therefore be read as structurally self-sustaining.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "The propping branch supplies members whose function is to hold a structure up."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "The connected-supply branch makes extension function as continuing reinforcement passed into the support system."
+              }
+            ],
+            "changed_reading": {
+              "before": "The columns are static pieces of architecture.",
+              "after": "The columns are a linked support system continuously reinforced so that the enclosure does not fail."
+            }
+          },
+          {
+            "model_id": "baseline_intentional_prolongation",
+            "confidence": "exploratory",
+            "focus_anchor": "The two focus roots also carry deliberate aiming, sticking fast, and an extended term; the locative can contain a state as well as a place.",
+            "mechanism": "A spatial phrase opens onto an affective-temporal reading: the occupant is deliberately held to a condition whose term is drawn out. This does not erase the columns reading; it coexists as a branch-led pressure beneath it.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B001",
+                "role": "The deliberate-aiming branch supplies purposiveness, making the extension imposed rather than accidental."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B014",
+                "role": "The sticking-and-remaining branch supplies the occupant's inability to detach from the imposed condition."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "The prolonged-term branch converts physical length into punitive duration."
+              }
+            ],
+            "changed_reading": {
+              "before": "ممددة describes only the physical length of columns.",
+              "after": "The phrase also suggests deliberate adhesion to a punishment whose duration is made long."
+            }
+          },
+          {
+            "model_id": "baseline_banked_continuous_pressure",
+            "confidence": "exploratory",
+            "focus_anchor": "A remote branch of عمد blocks a stream, while a branch of مدد depicts water swelling because further water feeds it.",
+            "mechanism": "The two focus roots can form a hydraulic mechanism: an extended barrier arrests a continuously supplied flow, so being في it means being caught in the pressure pocket made by obstruction plus replenishment.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B013",
+                "role": "The stream-blocking branch supplies a barrier that converts flow into accumulated pressure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "The water-fed-by-water branch supplies the continuing inflow that keeps pressure rising behind the barrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "The referents are dry, rigid columns.",
+              "after": "The roots also sketch an extended dam-like system whose force comes from continuously banked flow."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_totalized_pressure_cage",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The opening totalizer surrounds the paired acts of squeezing and pushing. Reapplied to the focus, the extended columnar grid no longer only contains; its members transmit pressure from every side, reversing the ordinary supportive function of pillars.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The pillar branch supplies rigid members that can be refunctioned from supports into the members of a pressure cage."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise extension branch lets the pressure-bearing members span the occupied space."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The encompassing-whole branch supplies total coverage, making the pressure cage operate without an unoccupied side."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "The hand-squeezing branch supplies compressive force and turns containment into active constriction."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "The pushing branch supplies directional force against the person held within the extended members."
+              }
+            ],
+            "structural_cues": [
+              "104:1 places a totalizer before two rhyming agent-pattern nouns, while 104:9 places the victim inside a plural structure.",
+              "The ordinary support function of a column is available for deliberate reversal into pressure-bearing restraint."
+            ],
+            "reader_inference": "The packet supplies encompassing totality, squeezing, pushing, rigid columns, and extension; I infer that the social forces are spatialized through the columns and act inward. A live alternative is that 104:1 characterizes conduct only and the final columns remain passive enclosure.",
+            "changed_reading": {
+              "before": "The extended grid passively surrounds its occupant.",
+              "after": "The extended grid is a totalized pressure cage whose formerly supportive members squeeze and push inward."
+            }
+          },
+          {
+            "model_id": "delta_counted_wealth_fetter",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "Gathering wealth and repeatedly enumerating it creates a serial, self-reinforcing accumulation. The gathering root's fetter branch changes that seriality into restraint: each counted increment can be imagined as another supplied segment of the extended bars, so the accumulator's method returns as his carceral form.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The pillar branch gives the accumulated units a rigid architectural form as bars or repeated members."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "The connected-increase branch makes every added unit reinforce and prolong the array."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B008",
+                "role": "The fetter that joins hands to neck supplies the decisive reversal from collection into bodily restraint."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth-acquisition branch identifies what is being accumulated and made to feed the final structure."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The enumeration branch supplies discrete repeatable units from which a serial array can be imagined."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "The recurring-time branch adds iteration, making counting a process that keeps renewing the restraint."
+              }
+            ],
+            "structural_cues": [
+              "104:2 sequences gathering, wealth, and repeated counting in one compact clause.",
+              "The doubled morphology of support plus extension in 104:9 can receive the earlier clause as a materialized pattern rather than a separate topic."
+            ],
+            "reader_inference": "The packet supplies wealth, enumeration, connected increase, and a gathering-fetter; I supply the reversal that counted units become repeated carceral members. The live alternative is that the wealth sequence explains guilt while the columns bear no formal resemblance to accumulation.",
+            "changed_reading": {
+              "before": "The offender's accumulation and the final architecture are independent parts of the scene.",
+              "after": "The logic of accumulation reappears as an ever-added fetter-grid: the collector is restrained by the serial form of his own counting."
+            }
+          },
+          {
+            "model_id": "delta_prolonged_adhesion_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ل",
+              "ح س ب",
+              "خ ل د"
+            ],
+            "mechanism": "The belief that wealth has made the self endure activates the focus branches of sticking and prolonged term. The desired extension of life is not simply denied; it is inverted into enforced duration inside the final structure.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B014",
+                "role": "The remaining-attached branch makes the victim cling to, or be unable to leave, the extended condition."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "The extended-term branch converts the adjective's spatial length into duration imposed on the occupant."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies the supposed instrument by which the offender expects his existence to be prolonged."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "The supposition branch marks the permanence claim as a mental projection available for reversal."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "The enduring-without-quick-decay branch supplies the desired temporal outcome that punishment turns against him."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "The adhesion branch echoes the focus root's sticking image and makes duration inseparable from immobilization."
+              }
+            ],
+            "structural_cues": [
+              "104:3 explicitly links wealth to an imagined causation of continued existence.",
+              "104:9 ends with an adjective of extension, allowing the earlier temporal claim to return in transformed form."
+            ],
+            "reader_inference": "The packet supplies wealth, mistaken supposition, endurance, adhesion, and prolonged term; I reverse the desired arrow from wealth-to-lasting-self into wealth-delusion-to-lasting-confinement. The adjective may still remain purely spatial, but the temporal echo materially changes the reading.",
+            "changed_reading": {
+              "before": "The focus extension concerns only the length of the columns.",
+              "after": "The offender receives the extension he imagined, but as inescapable duration stuck inside punishment rather than self-secured life."
+            }
+          },
+          {
+            "model_id": "delta_impact_crushing_array",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "Throwing supplies entry velocity and the crusher supplies fragmentation. Those cues turn the extended columns from perimeter architecture into a serial impact field: rigid members distribute crushing through the space into which the body is cast.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The concrete-member branch supplies hard surfaces capable of receiving and redistributing impact."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise branch repeats the hard surfaces through the interior, making crushing serial rather than punctual."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "The casting-away branch supplies the body's forced movement into the mechanism."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The dry-object shattering branch supplies the destructive result of contact with the extended array."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B006",
+                "role": "The destructive mass branch enlarges crushing from one impact into a field that breaks whatever it meets."
+              }
+            ],
+            "structural_cues": [
+              "104:4 uses emphatic passive casting followed by في, and 104:9 repeats the locative to specify the interior condition.",
+              "The crusher-name is repeated in 104:4-5 before its fire and closure are unfolded."
+            ],
+            "reader_inference": "The packet supplies forced casting, shattering, a destructive mass, rigid columns, and extension; I infer that the columns participate in the crushing rather than merely surrounding it. They may instead be bars added after the crushing event, so the mechanical reading remains non-exclusive.",
+            "changed_reading": {
+              "before": "The columns are static boundaries around a separately destructive fire.",
+              "after": "The extended columns themselves form a distributed impact-and-crushing array inside the named crusher."
+            }
+          },
+          {
+            "model_id": "delta_aligned_intentional_machine",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The split mapping of the knowledge cue unexpectedly supplies deliberate aim from one target and alignment plus controlled spindle motion from the other. Together with the focus roots, these images activate an intentionally arranged mechanism whose long members may align or move, not accidental scenery.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B001",
+                "role": "The deliberate-aiming branch gives the final structure purposeful design."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The drawing-out branch supplies the machine's elongated members or tracks."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B002",
+                "role": "The non-dominant target's intentional-aiming branch echoes the focus root and strengthens purposive construction."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B004",
+                "role": "The dominant target's path-and-alignment branch supplies ordered direction for the extended members."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B007",
+                "role": "The spindle-rotation branch supplies a possible controlled motion, turning a fixed array into a machine-like one."
+              }
+            ],
+            "structural_cues": [
+              "The repeated interrogative construction in 104:5 delays specification of the crusher, leaving later details available as disclosure of its operation.",
+              "The packet preserves two mapped targets for the same cue, so the intent and motion images remain co-present rather than collapsed."
+            ],
+            "reader_inference": "The packet supplies intentional aim, alignment, spindle rotation, and elongated supports; I combine them into an engineered-apparatus hypothesis. The materially live alternative is that the cue is purely epistemic and that neither alignment nor rotation transfers to the focus architecture.",
+            "changed_reading": {
+              "before": "The long columns are inert and their arrangement is unspecified.",
+              "after": "The long members can be carried as a deliberately aligned, possibly moving apparatus whose full operation the question withholds."
+            }
+          },
+          {
+            "model_id": "delta_fuel_fed_fire_columns",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "The context identifies burning fire, its ignition, its fuel, and divine ownership. Joined to the focus branches of pillar and connected supply, the extended members can be fire-columns or ignition channels continuously fed with material, not merely bars standing in surrounding flame.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The pillar branch supplies the columnar form and permits the rigid architecture to be recast in the medium of fire."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "The connected-supply branch makes the columns continuously fed rather than merely long."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The blazing-fire branch supplies the medium from which the columnar members may themselves be formed."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The divinity-and-worship branch fixes the fire's ultimate agency and prevents the mechanism from reading as autonomous."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "The ignition branch supplies ongoing kindling as an active process."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B002",
+                "role": "The fuel-material branch supplies what the connected extension keeps feeding into the burning members."
+              }
+            ],
+            "structural_cues": [
+              "104:6 is a compact construct phrase followed by a passive adjective of ignition.",
+              "The focus adjective is also passive in form, allowing kindling and extension to register as imposed, maintained operations."
+            ],
+            "reader_inference": "The packet supplies fire, divine agency, ignition, fuel, pillars, and connected supply; I infer that supply feeds the columnar fire and that the columns may be made of flame. A live alternative is a sealed chamber containing ordinary structural bars while fire burns independently around them.",
+            "changed_reading": {
+              "before": "Extended material bars stand inside a fire.",
+              "after": "The bars may be continuously fuel-fed columns or channels of divinely kindled fire, so architecture and burning become one mechanism."
+            }
+          },
+          {
+            "model_id": "delta_inward_exposure_axes",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The fire's overlooking and exposure of the hearts shifts extension from horizontal span alone to an axis between enclosure and inner core. The columns become possible conduits or trajectories by which an external structure reaches, reveals, and ignites the central interior.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B007",
+                "role": "The central-support branch supplies an axis toward the body's or affair's core rather than only an outer architectural post."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise branch supplies the trajectory extending from enclosing structure toward the interior."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "The overlooking-and-uncovering branch supplies exposure: the mechanism reaches what was inward and hidden."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B007",
+                "role": "The all-filling branch supplies saturation rather than a merely superficial glance."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart-as-internal-kindling branch supplies the inner terminus where the external fire becomes inward combustion."
+              }
+            ],
+            "structural_cues": [
+              "104:7 gives the fire a directional relation to plural hearts.",
+              "The focus sequence of plural supports plus an extension adjective can encode repeated axes linking outer enclosure to inner centers."
+            ],
+            "reader_inference": "The packet supplies central support, extension, exposure, saturation, and the heart figured as inward kindling; I infer a conduit from outer fire to inner core. The alternative is that the fire reaches the hearts directly while the columns serve only to close the exterior.",
+            "changed_reading": {
+              "before": "The extended columns define only the outer boundary of confinement.",
+              "after": "The extended members also map inward trajectories along which fire exposes and kindles the occupant's central interior."
+            }
+          },
+          {
+            "model_id": "delta_bolted_total_closure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ص د"
+            ],
+            "mechanism": "Closing over, enclosure, and a tightly shut door specify what the lengthwise columns do: they span openings as bolts, bars, or a lattice. The person is not simply amid tall supports but behind an extended closure with no release seam.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The pillar branch supplies the substantial bars or members that constitute the closure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise branch makes each member span an opening and makes the barred closure continuous."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "The closing-over branch supplies the action by which the extended members are set against escape."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The containing-enclosure branch supplies a space whose contents are fully included within its boundary."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The non-dominant target's tightly shut door branch sharpens the columns into bolts or bars across an entry."
+              }
+            ],
+            "structural_cues": [
+              "104:8 states closure over them immediately before 104:9 supplies the internal extended members.",
+              "The sequence closure then في favors reading the final phrase as the closure's operative structure."
+            ],
+            "reader_inference": "The packet supplies complete closure, an enclosing pen, a tightly shut door, pillars, and lengthwise extension; I infer that the columns are the closing bars or bolts. They could instead be supports wholly inside an independently sealed chamber.",
+            "changed_reading": {
+              "before": "The columns are unspecified contents of a closed space.",
+              "after": "The extended columns are the spanning bolts or lattice that accomplish and maintain total closure."
+            }
+          },
+          {
+            "model_id": "delta_hoarder_becomes_deposit",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "و ص د"
+            ],
+            "mechanism": "A non-dominant closure branch names a stone repository for wealth. Read cumulatively with gathering and the focus supports, it activates a judicial reversal: the person who gathered and stored wealth is himself gathered as a deposit and sealed behind long stone-like members.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "The support branch supplies the structural frame of the repository that now holds the former hoarder."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise branch supplies extended stone-like members spanning the sealed store."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The gathering branch supplies the initial agency of collecting that is later reversed onto the collector."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The wealth branch supplies the original object of storage and the semantic basis of the reversal."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The non-dominant stone wealth-repository branch supplies the container-image in which the hoarder can become the stored object."
+              }
+            ],
+            "structural_cues": [
+              "The sequence begins with a person gathering wealth and ends with closure over that person.",
+              "The same possessive relation is reversed: what he once held becomes a form that holds him."
+            ],
+            "reader_inference": "The packet supplies gathering, wealth, a stone repository for wealth, supports, and extension; I reverse agent and object so the collector becomes the deposit. The repository branch may remain a lexical byway with no intended control over the final phrase, so this reading must remain exploratory.",
+            "changed_reading": {
+              "before": "The final enclosure punishes a hoarder but does not formally mirror hoarding.",
+              "after": "The hoarder becomes the hoarded deposit, sealed in a stone-like vault whose extended supports replace the wealth he once secured."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_wealth_spider_web",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the remote spider branch of the wealth root and crosses from finance into animal-made architecture. It remains anchored through the focus branches of propping and lengthwise extension, which can form thread-like supports, and through the exact context branch. Downstream prose should present it only as an imagistic counter-reading, not as a lexical translation of عمد ممددة.",
+            "focus_anchor": "The focus combines supports with lengthwise drawing-out, enough to host a branch-triggered image of an extended supporting web.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "The propping branch supplies the load-bearing function of the web's threads."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The lengthwise extension branch supplies drawn-out strands connecting the supports."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The spider branch unexpectedly converts wealth's semantic neighborhood into a web-making agent and trap."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The gathering branch supplies the web's converging collection of strands and the collector's eventual entanglement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The extended supports form a rigid cage unrelated to wealth's material behavior.",
+              "after": "The accumulated wealth casts a web-like counter-image: drawn-out supports become strands in which the collector entangles himself."
+            }
+          },
+          {
+            "outlier_id": "outlier_dammed_whirlpool_crusher",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it replaces familiar dry columns with a hydraulic pressure system and recruits the dominant mapped target of the knowledge cue. It remains anchored in the focus's own stream-blocking and replenished-water branches, then gains a contextual whirlpool and shattering result. Downstream prose should qualify it as a causal material analogy, not claim that the surface noun means waterworks.",
+            "focus_anchor": "The focus roots themselves can pair stream obstruction with flow continuously enlarged by further water.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B013",
+                "role": "The damming branch supplies the obstruction that banks force into a confined region."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "The replenished-flow branch supplies continual inflow and swelling pressure."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "The whirlpool branch supplies rotational turbulence inside the banked flow."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The shattering branch supplies the crushing effect produced by accumulated turbulent pressure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final image is a rigid barred chamber.",
+              "after": "The roots also permit a dammed, continuously fed vortex in which accumulated pressure performs the crushing."
+            }
+          },
+          {
+            "outlier_id": "outlier_extending_wound",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it internalizes architecture as pathology and uses medically distant focus branches. It remains anchored in the pressed swollen wound and pus-producing wound branches, with heart-affliction and bodily attrition supplied by context. Downstream prose should retain it as an embodied horror-image and explicitly avoid treating it as the grammatical default.",
+            "focus_anchor": "Both focus roots have wound branches, allowing the extended structure to be felt as an injury that swells and continues rather than only an exterior cage.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B009",
+                "role": "The pressed-and-swollen wound branch supplies damaged tissue whose intact exterior conceals internal collapse."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B007",
+                "role": "The pus-producing wound branch supplies an injury that continues generating material and extending its harm."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B003",
+                "role": "The heart-affliction branch locates the extending injury at the inner organ reached by the fire."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B005",
+                "role": "The bodily attrition branch supplies slow crushing over time rather than one clean break."
+              }
+            ],
+            "changed_reading": {
+              "before": "Punishment acts on the body from an external columnar apparatus.",
+              "after": "The apparatus is also imaginable as an extending, suppurating injury whose pressure reaches and disorders the heart."
+            }
+          },
+          {
+            "outlier_id": "outlier_fire_flowering_root_lattice",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins three botanical side branches to the focus's architectural roots and makes fire behave like growth. It remains anchored through pillars and lengthwise extension, while context supplies blossom, plant emergence, and densely neighboring roots. Downstream prose should frame it as a deliberately strange ecological morphology of the enclosure, never as a direct gloss.",
+            "focus_anchor": "Pillars extended through a space can support a branch-triggered image of densely rooted shafts or a growing lattice.",
+            "activation_trace": [
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B003",
+                "role": "The pillar branch supplies upright shaft-like forms for the strange living lattice."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The extension branch lets the shafts spread and connect through the occupied space."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B004",
+                "role": "The tree-blossom branch converts fiery light into a flowering image at the ends of the shafts."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B005",
+                "role": "The emerging-growth branch supplies outward sprouting and invasive increase."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B004",
+                "role": "The closely rooted plant branch supplies a dense below-surface network that makes the enclosure hard to separate or escape."
+              }
+            ],
+            "changed_reading": {
+              "before": "The extended columns are manufactured and inert.",
+              "after": "A remote branch constellation makes them a densely rooted lattice that grows through the space and flowers as fire."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening pressure roots revise supportive columns into a totalized cage whose extended members press inward.",
+            "Gathering, wealth, counting, and imagined permanence make the final structure a reversal of accumulation: serial additions become fetters, and desired duration becomes lasting confinement.",
+            "Casting and crushing make the columns possible active impact members rather than passive scenery.",
+            "Fire, ignition, fuel, inward exposure, and closure turn the array into continuously fed fire-columns or conduits that reach the heart and also function as spanning bolts.",
+            "The split and non-dominant mappings preserve live secondary readings of an intentional machine and a wealth-vault in which the hoarder becomes the deposit."
+          ],
+          "what_was_special": "The focus roots support several incompatible but mechanically coherent domains at once: architecture, supplied infrastructure, duration, hydraulics, injury, and deliberate action. Context does not collapse them to one answer; it successively converts support into pressure, accumulation into restraint, extension into reversed immortality, fire into architecture, and closure into both bars and a vault. Remote spider, wound, whirlpool, and botanical branches remain contained exploratory activations because each still returns to the focus construction.",
+          "remaining_uncertainties": [
+            "Whether عمد should control the reading as concrete plural columns or permit intentionality, adhesion, injury, and damming to remain audible beneath that form.",
+            "Whether ممددة primarily marks spatial length, continuing supply, repeated structure, or punitive duration.",
+            "Whether the columns are made of fire, feed fire, bar an independently fiery chamber, or participate directly in crushing.",
+            "Whether split-root and remote-branch convergences disclose latent design or are only analogical resonances that downstream prose should mention sparingly."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Extended architecture of confinement.** Evidence: `ع م د B003` (pillar/column) and `م د د B001` (lengthwise extension). Structural cue: this final phrase follows مؤصدة and specifies the sealed state spatially. Assigned role: عمد are the supports; ممددة stretches them into a sustained structure. Abductive move: closure requires an architecture that holds pressure in place. Reading change: the final ayah is not decorative scenery; it gives the mechanics of enclosure.\n\n2. **Deliberate targeting made structural.** Evidence: `ع م د B001` (intentional aiming), activated by `د ر ي B002` in 104:5 and `ط ل ع B003/B004` in 104:7. Structural cue: question, disclosure, and heart-targeting precede the pillars. Assigned role: عمد supplies intention inside the architecture. Abductive move: the final structure embodies the directionality already supplied by knowledge and rising disclosure. Reading change: the punishment is not merely spatial; it is aimed and purposive.\n\n3. **False support reversed into prison support.** Evidence: `ع م د B002` (propping/support), `ع م د B006` (mainstay relied upon), and `ح س ب B003` (sufficiency), activated by `م و ل B001` in 104:2-3. Structural cue: the man relied on wealth; the ending shows supports that hold him. Assigned role: عماد becomes the replacement for the support he trusted. Abductive move: what one relies on wrongly returns as the structure that immobilizes rather than upholds. Reading change: \"pillars\" are read as reversed reliance: support becomes captivity.\n\n4. **Extended time answering the immortality fantasy.** Evidence: `م د د B004` (extended time/term/respite), activated by `خ ل د B001` in 104:3 and `ع د د B005` (counted time/recurrence) in 104:2. Structural cue: the last word is an extended participle after claims of permanence and counting. Assigned role: ممددة supplies duration as well as length. Abductive move: the text lets the desire for extension survive only as extended punishment. Reading change: the final phrase answers \"أخلده\" by turning temporal extension into dread rather than security.\n\n5. **Somatic pressure as an exploratory undertone.** Evidence: `ع م د B008` (crushing affliction) and `ع م د B009` (pressed wound/swelling), activated by `ف ء د B003` and `ح ط م B001`. Structural cue: the final columns come after heart-striking fire and crushing. Assigned role: عمد adds bodily strain beneath the architecture. Abductive move: spatial confinement and bodily affliction can be read as two images of the same pressure. Reading change: the ending can be felt not only as a building around them but as a sustained pressure through them; this is exploratory because the surface noun strongly favors the column/support branch.",
@@ -8555,14 +9682,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8802,10 +9935,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_9.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_9.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 84483,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

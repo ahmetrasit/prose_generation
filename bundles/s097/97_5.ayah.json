@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:16.509930+00:00",
+  "generated_at": "2026-08-18T13:34:20.500515+00:00",
   "surah": 97,
   "ayah": 5,
   "ayahRef": "97:5",
@@ -1475,7 +1475,8 @@
       "morpheme_ids": [
         "m-w-s097-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:5:1"
+      "aligned_qac_word_ref_upstream": "97:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1489,7 +1490,8 @@
       "morpheme_ids": [
         "m-w-s097-a005-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:5:2"
+      "aligned_qac_word_ref_upstream": "97:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1503,7 +1505,8 @@
       "morpheme_ids": [
         "m-w-s097-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:5:3"
+      "aligned_qac_word_ref_upstream": "97:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1517,7 +1520,8 @@
       "morpheme_ids": [
         "m-w-s097-a005-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "97:5:4"
+      "aligned_qac_word_ref_upstream": "97:5:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1533,7 +1537,8 @@
         "m-w-s097-a005-w005-01",
         "m-w-s097-a005-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "97:5:5"
+      "aligned_qac_word_ref_upstream": "97:5:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3047,7 +3052,879 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s97/packets/97_5.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "97:5",
+      "window": [
+        "97:1",
+        "97:2",
+        "97:3",
+        "97:4",
+        "97:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "97:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_bounded_soundness",
+            "confidence": "strong",
+            "focus_anchor": "The nominal predicate سَلَامٌ is carried by هِيَ to the حَتَّى boundary formed by مَطْلَعِ الْفَجْرِ.",
+            "mechanism": "Soundness governs the whole interval, while the rising-place/time and the breaking of dawn make its far edge an event of opening. The clause therefore presents protected wholeness maintained right up to a transition, not merely a calm mood associated with a clock time.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm and defect supplies the sound condition predicated of the entire interval."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "A luminary's act, time, or place of rising makes the endpoint a threshold-event."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B002",
+                "role": "Dawn breaking from night supplies the ordinary terminal event of the protected interval."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide splitting and outflow sharpen dawn from a time label into an opening process."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause offers a greeting or says generically that there is peace until dawn.",
+              "after": "The clause predicates protected wholeness of the whole interval and makes dawn's splitting emergence, rather than a clock label alone, its boundary."
+            }
+          },
+          {
+            "model_id": "b_handover_corridor",
+            "confidence": "exploratory",
+            "focus_anchor": "The root branches behind سَلَامٌ, مَطْلَعِ, and الْفَجْرِ can align as transfer, access, and opening under the directional force of حَتَّى.",
+            "mechanism": "A consignment is carried through a bounded corridor toward an access-point where an opening releases what has been conveyed. This is form-distant from the ordinary noun sense of سَلَامٌ, but all three functional stages remain attached to focus words.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Handing over, consigning, and letting go supply the transfer that moves through the interval."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "An ascent or access-point supplies the approached terminal gateway."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Splitting with outflow supplies the opening and release at the gateway."
+              }
+            ],
+            "changed_reading": {
+              "before": "Peace is a static state that simply lasts until dawn.",
+              "after": "The interval can also be carried as an orderly handover whose route reaches an access-point and opens out at dawn."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_measured_handover",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ل",
+              "ل ي ل",
+              "ق د ر"
+            ],
+            "mechanism": "Delivery into darkness plus measure and planning gives the focus-only handover a reason for both its protection and its limit. سَلَامٌ becomes the intact execution phase of a measured conveyance, and dawn is its scheduled completion-opening.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Consignment and handover supply the focus-side transfer being executed."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from damage supplies the requirement that the transfer remain intact."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "The act or time of rising supplies the delivery's explicit completion boundary."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "An opening with outflow supplies the terminal release of what was conveyed."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Bringing something down and delivering it supplies the incoming conveyance."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night and its darkness supply the bounded medium through which the conveyance passes."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measure that brings a thing to its limit supplies exact scope and duration."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate planning and apportionment supply design rather than accidental timing."
+              }
+            ],
+            "structural_cues": [
+              "97:1 locates the delivered object inside a named night, while 97:5 carries a nominal state to an explicit حَتَّى boundary.",
+              "The packet sequence moves from descent, night, and measure to soundness, rising, and rupture."
+            ],
+            "reader_inference": "The packet supplies delivery, darkness, measured limit, planning, protected handover, and dawn-opening; I infer a protected transit with a scheduled completion. A live alternative is simple descent during a measured night followed by ordinary temporal peace.",
+            "changed_reading": {
+              "before": "The focus-only handover corridor is possible but has no stated reason for its protected timing.",
+              "after": "The preceding measured delivery makes peace the protected execution phase of a planned transfer that reaches completion when dawn opens."
+            }
+          },
+          {
+            "model_id": "d_epistemic_daybreak",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The split inventory joins explicit knowing with whiteness, purity, and shine; those cues meet the focus branches of disclosure and dawn-breaking. The temporal crossing can therefore also stage a passage from withheld knowledge into sound, luminous apprehension.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Inner and outer soundness supplies an error-free or undamaged mode of apprehension."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Looking into and disclosing a matter supplies the epistemic emergence at the boundary."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B002",
+                "role": "Morning light breaking from night materializes the transition from occlusion to clarity."
+              },
+              {
+                "source_ref": "97:2",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge and awareness directly supply the question's epistemic axis."
+              },
+              {
+                "source_ref": "97:2",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B005",
+                "role": "Pearl-like whiteness, purity, and shine give the split root cue a visible clarity that dawn can enact."
+              }
+            ],
+            "structural_cues": [
+              "The repeated interrogative in 97:2 withholds knowledge before the focus supplies an image of emergence.",
+              "مَطْلَع can name act, time, or place, so the temporal endpoint can simultaneously function as disclosure."
+            ],
+            "reader_inference": "The packet supplies an explicit knowledge branch, a split-root radiance branch, disclosure, soundness, and daybreak; I infer an epistemic transition from concealment to clarity. The live alternative is that the question only magnifies the night's status and dawn remains strictly temporal.",
+            "changed_reading": {
+              "before": "Dawn is only the chronological endpoint of a safe night.",
+              "after": "Dawn also becomes the horizon at which withheld significance appears, making peace a sound passage into disclosed clarity."
+            }
+          },
+          {
+            "model_id": "d_compressed_plenitude",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "خ ي ر",
+              "ء ل ف",
+              "ش ه ر"
+            ],
+            "mechanism": "Qualitative excellence confronts a thousand counted months, while the thousand-root also supplies gathering and composition. Reconciliation integrates that multiplicity into one sound interval; fullness at the brim and overflowing generosity then recast dawn as the release of concentrated good.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation and peaceful accord supply the integration of otherwise separate temporal units."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B007",
+                "role": "Fullness to the brim supplies the intensive saturation reached at the boundary."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B005",
+                "role": "Overflowing generosity supplies the outward release of the interval's concentrated good."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence, rectitude, and selection supply qualitative superiority over mere extension."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B001",
+                "role": "A thousand as an aggregation of hundreds supplies the large calendrical multiplicity."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ء ل ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000045",
+                "branch_id": "B002",
+                "role": "Joining one thing to another supplies the compositional compression of that multiplicity."
+              },
+              {
+                "source_ref": "97:3",
+                "root": "ش ه ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000823",
+                "branch_id": "B001",
+                "role": "The lunar month supplies the repeated calendrical units being gathered."
+              }
+            ],
+            "structural_cues": [
+              "97:3 directly juxtaposes qualitative خير with the quantity ألف شهر.",
+              "One night is compared with many months immediately before one nominal state is extended to dawn."
+            ],
+            "reader_inference": "The packet supplies excellence, numerical aggregation, composition, calendrical units, reconciliation, fullness, and generosity; I infer that comparative value can operate as intensive compression. The live alternative is a straightforward statement of superior reward or duration with no compositional mechanism.",
+            "changed_reading": {
+              "before": "Until dawn measures a short duration during which peace is present.",
+              "after": "The short interval becomes concentrated plenitude: it reconciles many temporal units into one excellent whole, fills to dawn, and breaks outward as good."
+            }
+          },
+          {
+            "model_id": "d_authorized_dispatch",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "م ل ك",
+              "ر و ح",
+              "ء ذ ن",
+              "ر ب ب",
+              "ك ل ل",
+              "ء م ر"
+            ],
+            "mechanism": "Descending agents, authorization, sovereignty, total scope, and commands turn the handover model into an ordered dispatch. Peace is the operation's integrity: distinct agents convey commissions without collision or breach, while dawn marks the end of the authorized operating window.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Handing over and consigning supply the operational transfer performed through the night."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Peaceful dealing and reconciliation supply coordination without conflict among the dispatching agents."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B001",
+                "role": "The act or time of a luminary's rising supplies the operating window's cutoff."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Splitting and outflow supply the final release from the bounded dispatch phase."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Causing something to descend and arrive supplies the dispatch's conveyance."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B009",
+                "role": "The angel branch identifies one class of descending agents in the packet."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Life-bearing spirit supplies the coordinated second subject of the descent."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء ذ ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000022",
+                "branch_id": "B004",
+                "role": "Permission and licensing supply explicit authorization for the operation."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty supply the authorizing command source."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Encompassment and totality supply the dispatch's comprehensive scope."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Command and obligation supply the commissions being executed."
+              }
+            ],
+            "structural_cues": [
+              "The active imperfect descent with coordinated subjects in 97:4 is followed by the nominal result-state سَلَامٌ هِيَ in 97:5.",
+              "The authorization phrase and distributive كل أمر precede the explicit حَتَّى cutoff."
+            ],
+            "reader_inference": "The packet supplies descent, named agents, permission, sovereignty, totality, command, transfer, and reconciliation; I infer a coordinated execution chain whose success-condition is سلام. A live alternative is an unstructured sacred presence in which سلام remains atmosphere rather than operational integrity.",
+            "changed_reading": {
+              "before": "Peace is the atmosphere accompanying descent until dawn.",
+              "after": "Peace is also the integrity of an authorized all-scope dispatch: commissions are conveyed in coordination throughout a bounded night shift."
+            }
+          },
+          {
+            "model_id": "d_restorative_completion",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر و ح",
+              "ر ب ب",
+              "ك ل ل",
+              "ء م ر"
+            ],
+            "mechanism": "Returning a right to its owner, repairing and completing, encompassing the whole, and addressing each affair form a restorative chain. On this branch path, peace is not merely lack of conflict but the settlement of every matter into a sound relation before dawn discloses the completed ordering.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from defect supplies the condition achieved when outstanding matters are repaired."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation supplies the restored relation produced by settlement."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Disclosure of a matter supplies the boundary at which completed ordering becomes visible."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Opening and outflow supply the release that follows settlement."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B006",
+                "role": "Returning a right to its owner supplies the restorative act."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the process that brings matters into sound condition."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Wholeness and encompassment supply the claim that no affair remains outside the settlement."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "Affair and condition supply the individual matters being restored."
+              }
+            ],
+            "structural_cues": [
+              "The distributive كل modifies أمر immediately before the focus declares one encompassing nominal state.",
+              "The focus endpoint follows the all-affairs phrase, allowing dawn to function as disclosure of completion."
+            ],
+            "reader_inference": "The packet supplies return of right, repair and completion, totality, affairs, soundness, and reconciliation; I infer a shared restorative direction toward settled order. A live alternative is the stronger authorized-dispatch model, where these roots describe agency and scope without implying rectification.",
+            "changed_reading": {
+              "before": "Peace means absence of disturbance during the night.",
+              "after": "Peace can name the positive restoration of every affair to sound relation, maintained until dawn reveals and releases the completed order."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_proleptic_safety",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the edge branch in which an injured person is called sound and pairs it with a descending affliction; the ayah itself names no wound. It remains anchored in سَلَامٌ and the explicit until-dawn delay, so downstream prose should present it only as a performative or hopeful naming analogy, not as a claim that the verse denotes injury.",
+            "focus_anchor": "سَلَامٌ can be tested as a name spoken ahead of realized safety, while حَتَّى مَطْلَعِ الْفَجْرِ postpones visible confirmation.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B009",
+                "role": "Calling the snakebitten person sound either hopefully or in surrender supplies proleptic naming under unresolved harm."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Consigning or yielding an affair supplies the posture that can accompany such hopeful naming."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B002",
+                "role": "Appearance upon people supplies the later manifestation by which the naming is tested."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B002",
+                "role": "Dawn breaking from night supplies the delayed moment of visible relief."
+              },
+              {
+                "source_ref": "97:1",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B006",
+                "role": "A severity that descends supplies the contextual pressure under which safety could be named before it is seen."
+              }
+            ],
+            "changed_reading": {
+              "before": "سَلَامٌ reports an already achieved fact of safety.",
+              "after": "Exploratorily, سَلَامٌ can also act as hopeful performative speech that holds a threatened interval under the name of safety until relief appears."
+            }
+          },
+          {
+            "outlier_id": "o_vertical_passage",
+            "confidence": "exploratory",
+            "containment": "The reading is form-distant because it hears the ladder/means branch behind the ordinary noun سَلَامٌ. It remains worth carrying because ladder, ascent/access, and rising dawn form a complete focus-only spatial mechanism; downstream prose should mark it as root-play or vertical analogy, not substitute ladder for peace in translation.",
+            "focus_anchor": "The three focus roots alone can align as a means of ascent, an access-point, and the rising of dawn.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B006",
+                "role": "A ladder or means supplies the traversable route encoded behind the opening noun."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "Ascent and access-point supply the route's direction and upper threshold."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B002",
+                "role": "Dawn rising out of night supplies the destination reached by the vertical passage."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah describes a state extending horizontally through time.",
+              "after": "As contained root-play, the same interval becomes a vertical means of passage ascending toward dawn's access-point."
+            }
+          },
+          {
+            "outlier_id": "o_organic_daybreak",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it treats descent, breeze, nourishment, plant emergence, and outflow as an overnight growth system, and it uses the non-dominant ر ب ب to ر ب و mapping. It remains anchored in direct focus branches for soundness, plant emergence, and splitting outflow; downstream prose should label it a material analogy rather than a lexical or doctrinal identification.",
+            "focus_anchor": "سَلَامٌ supplies a sound condition, مَطْلَع supplies plant emergence, and الْفَجْر supplies an opening outflow at daybreak.",
+            "activation_trace": [
+              {
+                "source_ref": "97:5",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Soundness and freedom from defect supply the healthy condition of the overnight medium."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B005",
+                "role": "The emergence of palm spadix and plants supplies germination at the threshold."
+              },
+              {
+                "source_ref": "97:5",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide splitting and water outflow supply the opening through which growth appears."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B001",
+                "role": "Descent and settling supply an input arriving into the overnight system."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Wind and breeze supply the moving breath of the material analogy."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split target's nourishment and growth branch supplies development toward emergence."
+              },
+              {
+                "source_ref": "97:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B004",
+                "role": "Growth and blessing supply the productive result of the system."
+              }
+            ],
+            "changed_reading": {
+              "before": "Peace is an immaterial atmosphere that lasts until sunrise.",
+              "after": "As a contained ecological analogy, the night is a sound growing medium receiving descent and breath until shoots and waters split outward at dawn."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only state of soundness becomes a measured, protected handover once descent, night, and apportionment are activated.",
+            "The descent of agents by permission and across every command makes peace readable as the integrity of an authorized dispatch.",
+            "The knowledge split-root turns dawn from a temporal endpoint into an enacted disclosure from occlusion to clarity."
+          ],
+          "what_was_special": "The focus roots repeatedly couple intactness with a threshold that rises, discloses, splits, and releases; context then supplies measure, agency, authorization, totality, and even split-root radiance or growth without forcing those readings into one synthesis.",
+          "remaining_uncertainties": [
+            "مَطْلَع can foreground act, time, or place, and the packet does not force one of these profiles.",
+            "The handover, restorative, vertical, performative, and ecological models depend on branch-level analogy rather than the ordinary surface sense of سَلَامٌ.",
+            "The administrative direction in the dispatch model and the compression direction in the plenitude model are reader-supplied arrows, not explicit causal statements in the packet."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Peace as the protected duration of the descent.** Lexical evidence: `س ل م` B001, soundness/safety, and B004, peace opposite war; `ط ل ع` B001, rising-place/time; `ف ج ر` B002, dawn breaking from night. Activated by 97:4's descent of agents by permission and 97:3's contrast with possible `ش ه ر` B003 sword-display. The packet supplies peace, until, rising-place, dawn, and a previous authorized procession; I supply the temporal boundary arrow that the night is kept intact until the opening point. Reading change: \"سَلَامٌ\" reads as a maintained protected state spanning the whole interval, not only a static predicate.\n\n2. **A safe handover at the threshold.** Lexical evidence: `س ل م` B012, handing over and letting go; `ن ز ل` B002/B004 from 97:1/97:4, sending down and placing in order; `ء ذ ن` B004, authorization. The packet supplies descent, permission, and \"حتى مطلع\"; I supply the procedural arrow that what was sent down is safely handed over or released at the rising-point. Reading change: the closing line becomes a transfer scene: the night preserves and then delivers what entered it.\n\n3. **Dawn as rupture and outflow, not only brightness.** Lexical evidence: `ف ج ر` B001, wide splitting and outflow, and B002, dawn breaking from night; activated by `ر ح م` B003 from the basmalah, womb, `ل ي ل` B001, night, and `ق د ر` B001/B006, measured limit/fitting proportion. The packet supplies night, measured qadr, mercy/womb, and dawn; I supply the birth-like arrow that the measured enclosure splits open when its limit is reached. Reading change: \"ٱلْفَجْرِ\" becomes the moment of release from containment, not merely the clock-time ending the night.\n\n4. **Disclosure after concealed knowing.** Lexical evidence: `ط ل ع` B003, overlooking/disclosing a matter, B006, access-point, and B009, visible appearance; activated by 97:2's `د ر ي` B001/B003, knowing and concealed pursuit. The packet supplies an earlier knowledge-question and the closing \"مطلع\"; I supply the epistemic arrow that the answer to \"what made you know?\" is completed by the opening/access point of dawn. Reading change: the final phrase reads as the visible disclosure of a reality previously approached only by question.\n\n5. **Peace as an ascent-means.** Lexical evidence: `س ل م` B006, ladder/means leading upward; `ط ل ع` B006, ascent/access-point; activated by `ن ز ل` B001/B002, descent. The packet supplies descending movement and a rising-point; I supply the reversal arrow that peace itself becomes the means by which the downward event is joined to upward emergence. Reading change: \"سَلَامٌ\" is not only absence of harm; it becomes the connective structure between descent and ascent.",
@@ -13057,14 +13934,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s097/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 52,
+        "ayah_count": 5,
+        "row_count": 45,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13337,10 +14220,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s97/packets/97_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s97/readers/reader_hft_a/97_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s097",
+        "latent_activation/focus_trace/runs/s97"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s97",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 84546,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

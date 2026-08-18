@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.847884+00:00",
+  "generated_at": "2026-08-18T13:34:24.587177+00:00",
   "surah": 99,
   "ayah": 8,
   "ayahRef": "99:8",
@@ -2031,7 +2031,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:1"
+      "aligned_qac_word_ref_upstream": "99:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2045,7 +2046,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:2"
+      "aligned_qac_word_ref_upstream": "99:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2059,7 +2061,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:3"
+      "aligned_qac_word_ref_upstream": "99:8:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2073,7 +2076,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:4"
+      "aligned_qac_word_ref_upstream": "99:8:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2087,7 +2091,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:5"
+      "aligned_qac_word_ref_upstream": "99:8:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2101,7 +2106,8 @@
       "morpheme_ids": [
         "m-w-s099-a008-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:6"
+      "aligned_qac_word_ref_upstream": "99:8:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2117,7 +2123,8 @@
         "m-w-s099-a008-w006-01",
         "m-w-s099-a008-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:8:7"
+      "aligned_qac_word_ref_upstream": "99:8:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3364,7 +3371,1014 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:8",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_exact_micro_accounting",
+            "confidence": "strong",
+            "focus_anchor": "The construction \"يعمل مثقال ذرة شرا يره\" links intentional doing, a calibrated weight, the smallest particle, evil, and seeing.",
+            "mechanism": "An intentional act enters an exact granular measure; even its least harmful unit remains perceptible to the person who did it.",
+            "activation_trace": [
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing identifies the measured item as purposive action rather than an accidental event."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weight and weighing make the act subject to exact calibration."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "Tiny scattered motes set the lower granularity of what still counts."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness supply the negative value carried by the measured act."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight makes the result an encounter rather than an abstract entry."
+              }
+            ],
+            "changed_reading": {
+              "before": "A very small harmful deed might be negligible or disappear into a general total.",
+              "after": "Every intentional evil remains individually measurable and available to direct or inward perception, down to a mote."
+            }
+          },
+          {
+            "model_id": "b_particulate_harm_exposure",
+            "confidence": "medium",
+            "focus_anchor": "The sequence \"ذرة شرا يره\" permits the harmful object to be imagined through particle, spark, emergence, and visibility branches.",
+            "mechanism": "Harm behaves like a minute emitted fragment: it may scatter like powder or a spark, but its smallness does not keep it latent because it is brought into the field of sight.",
+            "activation_trace": [
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing keeps the particulate image attached to a deed."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B002",
+                "role": "Scattering grains or powder supplies the deed's particulate dispersion."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying sparks give the harmful particle an emitted and potentially propagating form."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Showing or bringing out reverses any concealment of the tiny harmful fragment."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something seen supplies the final exposure of what was emitted."
+              }
+            ],
+            "changed_reading": {
+              "before": "Evil is only an abstract moral quantity that is later noticed.",
+              "after": "Evil can be pictured as a minute spark or scattered fragment of action whose scale cannot prevent its eventual exposure."
+            }
+          },
+          {
+            "model_id": "b_residual_exchange_liability",
+            "confidence": "exploratory",
+            "focus_anchor": "The roots in \"يعمل مثقال ذرة شرا يره\" also carry branches of dealing, weighing, exchange, equivalence, and residue.",
+            "mechanism": "A harmful act enters a transaction-like relation, is matched by exact weight, and leaves even its tiniest remainder outstanding until the doer encounters it. This model deliberately uses the packet's non-dominant mappings for ش ر ي and ر و ي.",
+            "activation_trace": [
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Dealing or transaction between people frames action as an accountable exchange."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weighing supplies exact settlement rather than rough estimation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny mote prevents any residual amount from falling below account."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The split-root image of exchange through buying and selling supplies the transactional mechanism."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Equivalence and matching make the harmful side answerable by a commensurate counterpart."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B006",
+                "role": "The split-root image of a remaining residue supplies what stays outstanding after the exchange."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse only predicts visual awareness of a past bad act.",
+              "after": "The tiniest harmful dealing can remain as an unsettled, exactly matched residue that returns to the actor."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_exhumed_micro_burden",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "ء ر ض",
+              "خ ر ج",
+              "ث ق ل"
+            ],
+            "mechanism": "The shaken ground loses its containing stability and expels concealed burdens. Against that sequence, the focus act's standard weight and mote become the smallest hidden load forced outward into visibility.",
+            "activation_trace": [
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "Disturbance and shaking destabilize the container that had kept its contents in place."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground supplies the material substrate in which burdens had been held."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing a thing out of concealment supplies the transition from hidden content to exposed object."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The repeated lower ground now functions as the agent that releases what it contained."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Heaviness casts the expelled contents as burdens rather than neutral debris."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "Standard weighing scales the macro-burden down to an exact personal measure."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny mote makes even the least concealed burden eligible for expulsion."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Showing or bringing out lets the focus harm participate in the context's extraction pattern."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen completes the passage from buried load to exposed evidence."
+              }
+            ],
+            "structural_cues": [
+              "99:1 repeats the shaking root as verb and cognate object around the earth.",
+              "99:2 keeps the earth as subject and moves from shaking to causative expulsion of its burdens.",
+              "99:8 compresses that macro-exposure into a singular mote-sized object followed by seeing."
+            ],
+            "reader_inference": "The packet supplies a shaken substrate, expulsion from concealment, burdens, exact weight, and visibility; I infer that a deed can occupy the role of an expelled burden. A live alternative is that the earth's burdens are bodies or contents and only analogically illuminate the deed.",
+            "changed_reading": {
+              "before": "The doer merely consults or receives an abstract moral total.",
+              "after": "Even a mote of evil is a concealed personal load that the upheaval forces out into a visible, exactly weighed form."
+            }
+          },
+          {
+            "model_id": "d_authorized_earth_testimony",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ء ن س",
+              "ح د ث",
+              "خ ب ر",
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "Human bewilderment is answered by the earth's renewed report of interior knowledge under sovereign hidden communication. The focus seeing therefore becomes reception of authorized disclosure about an intentional evil, not bare optical detection.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech supplies the human question that calls for an intelligible answer."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Recognition by sight, sense, or hearing casts the human as a multimodal recipient of disclosure."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech renewed as report gives the earth an active reporting function."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of a report and of an affair's interior supplies the testimony's hidden content."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty authorize the earth's disclosure."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "Imparting knowledge in concealment supplies the command that enables the earth to reveal what was hidden."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing identifies the disclosed content as attributable action."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness specify the adverse content of the report."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight turns the report into the doer's own apprehension."
+              }
+            ],
+            "structural_cues": [
+              "The human question in 99:3 is followed by the earth as the feminine subject of reporting in 99:4.",
+              "The causal clause in 99:5 attributes that reporting to the Lord's communication to the earth.",
+              "The singular pronoun object in 99:8 makes the harmful deed itself what the doer encounters."
+            ],
+            "reader_inference": "The packet supplies question, report, interior knowledge, sovereign authority, hidden communication, and seeing; I assign the directional arrow from authorized report to evidence about the deed. The report may instead be general narration of events rather than testimony in a formal evidentiary sense.",
+            "changed_reading": {
+              "before": "Seeing the evil is an unmediated private perception.",
+              "after": "Seeing the evil is receiving an authorized disclosure in which the earth's report makes the hidden act personally apprehensible."
+            }
+          },
+          {
+            "model_id": "d_engraved_record_surface",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ح د ث",
+              "خ ب ر",
+              "و ح ي"
+            ],
+            "mechanism": "The writing-and-engraving branch of communication lets the earth function as a recording surface: intentional evil leaves a minute trace in its interior, the report reveals that trace, and seeing becomes a reading of the exposed inscription.",
+            "activation_trace": [
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing forth and revealing supplies the surfacing of a previously stored trace."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of the interior supplies informational content preserved beneath the surface."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B003",
+                "role": "Writing and engraving supply the material recording operation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies what is impressed into the record."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B004",
+                "role": "Gentle spreading emergence gives the minute inscription a way to surface."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B008",
+                "role": "Showing or bringing out makes the harmful trace legible."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen completes the conversion from inscription to readable disclosure."
+              }
+            ],
+            "structural_cues": [
+              "The earth remains the implicit feminine referent of both its reports and the communication directed to it.",
+              "Reporting precedes the later display of deeds, allowing a stored-record sequence without requiring it."
+            ],
+            "reader_inference": "The packet supplies revealing, interior knowledge, writing or engraving, and later visibility; I infer a substrate that records deeds and a later reading of its traces. The materially live alternative is that the writing branch is only an image for communication and that no inscription mechanism is intended.",
+            "changed_reading": {
+              "before": "The evil is remembered or announced without a material carrier.",
+              "after": "The mote of evil can be read as a minute inscription in the earth's record that emerges and is made visible to its author."
+            }
+          },
+          {
+            "model_id": "d_source_sorted_presentation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ر",
+              "ن و س",
+              "ش ت ت",
+              "ر ء ي",
+              "ع م ل"
+            ],
+            "mechanism": "People issue forth in separation to be shown intentional works. The source branch of صدور turns that dispersal into an attribution mechanism: a scattered corpus is sorted back to the human origin from which each act issued, so no mote loses its doer.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue supplies a source key for re-attributing deeds."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The appearing human, contrasted with the wild or hidden, identifies the accountable class of sources."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion and separation create the sorting problem that attribution resolves."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen supplies the compelled presentation of the sorted works."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional works are the objects presented after separation."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The singular intentional act keeps attribution at the level of one doer and one deed."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The tiny scattered mote tests whether source attribution survives maximal granularity."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight personalizes the presentation for the originating doer."
+              }
+            ],
+            "structural_cues": [
+              "99:6 moves from plural people in separated groups to a passive purpose clause in which their works are shown.",
+              "99:8 narrows that plural display to an indefinite singular doer and a singular pronominal object.",
+              "The particle image in 99:8 echoes dispersion while preserving one-to-one attribution."
+            ],
+            "reader_inference": "The packet supplies departure, human sources, separation, compelled display, and intentional works; I infer sorting and re-attribution from scattered material back to its doer. A live alternative is that the separation classifies people only and says nothing about a sorting operation on deeds.",
+            "changed_reading": {
+              "before": "The doer happens to see one isolated harmful result.",
+              "after": "A dispersed field of works is resolved back to its human sources, and even one mote of evil is presented to the exact person from whom it issued."
+            }
+          },
+          {
+            "model_id": "d_paired_symmetric_accounting",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ل",
+              "ث ق ل",
+              "ذ ر ر",
+              "خ ي ر",
+              "ر ء ي"
+            ],
+            "mechanism": "The preceding ayah repeats the focus frame while changing only the moral object from beneficial good to evil. Repeated action, weight, particle, and sight create one symmetric rule of commensuration whose positive and negative sides are separately visible.",
+            "activation_trace": [
+              {
+                "source_ref": "99:7",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing begins the positive member with the same accountable action as the focus."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "The repeated standard weight fixes an unchanged scale across both moral values."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The repeated tiny mote fixes an unchanged lower threshold across the pair."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies the positive value contrasted with focus evil."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Repeated seeing gives both values the same mode of eventual encounter."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Dealing or transaction lets the paired clauses operate as two sides of one account."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Evil and badness supply the focus member's negative value."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "The split-root image of equivalence and matching sharpens the structural commensuration of the pair."
+              }
+            ],
+            "structural_cues": [
+              "99:7 and 99:8 repeat the same conditional syntax, root sequence, scale, and final pronoun.",
+              "The sole lexical polarity change is from خير to شر.",
+              "The two clauses remain separate, so symmetry does not erase the moral distinction."
+            ],
+            "reader_inference": "The packet supplies an almost exact repeated frame with opposite value terms and branches of measuring, transaction, and matching; I infer a single symmetric accounting rule. The alternative is that the repetition is emphatic contrast without any transactional mechanism.",
+            "changed_reading": {
+              "before": "99:8 is an isolated warning that magnifies tiny evil.",
+              "after": "99:8 is the negative half of a paired rule: beneficial and harmful acts are preserved, measured at the same minimum scale, and separately encountered."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_mirror_self_recognition",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins the human image reflected in the eye to the mirror branch of seeing. It remains anchored in the focus verb \"يره\" and the intentional deed, but downstream prose should present it only as a reflexive visual analogy, not as the lexical gloss of the verse.",
+            "focus_anchor": "The focus makes the doer see the singular harmful object, while the preceding display scene supplies a human image in the eye.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The human image in the eye supplies a literal reflection motif for people shown their works."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Being made to see places that reflection motif inside the compelled display."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing ties the reflected image back to the doer's own act."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance and mirror make the final seeing reflexive rather than merely observational."
+              }
+            ],
+            "changed_reading": {
+              "before": "The doer sees a harmful object wholly external to the self.",
+              "after": "The encounter can be imagined as mirror-like self-recognition: the displayed deed returns the doer's own human image to sight."
+            }
+          },
+          {
+            "outlier_id": "o_communal_liability_echo",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a non-dominant ر و ي branch about chiefs carrying communal burdens inside the focus verb of seeing. The weight, burden, dealing, and plural-human context keep it structurally anchored, but it should be rendered only as a social-liability echo and never as a claim that the focus cancels individual responsibility or transfers guilt.",
+            "focus_anchor": "The singular doer, exact weight, harmful act, and seeing remain primary while split-root branches introduce a possible social burden around that encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The appearing human collective supplies the social field within which liabilities can be carried."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion and separation prevent the social field from becoming an undifferentiated collective."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "Dealing between people supplies the relational origin of some harmful liabilities."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B001",
+                "role": "Heaviness supplies the burden borne within that relational field."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B006",
+                "role": "Trailing appendages and burdens picture harm as a liability that remains attached."
+              },
+              {
+                "source_ref": "99:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B015",
+                "role": "The split-root image of chiefs bearing communal burdens introduces a social carrier without displacing the focus doer."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mote of evil is only a private object with no relational afterlife.",
+              "after": "The individually encountered evil may also echo as an attached liability moving through a differentiated human network."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The earth's shaking and expulsion turn abstract reckoning into exposure of even the smallest concealed burden.",
+            "The earth's authorized reporting turns seeing into reception of disclosed evidence about one's intentional act.",
+            "The scattered display in 99:6 sharpens the focus into source-level attribution: no particulate deed loses its doer.",
+            "The exact parallel with 99:7 makes 99:8 one negative member of a symmetric rule for good and evil."
+          ],
+          "what_was_special": "The context repeatedly converts scale and medium: a world-sized upheaval contracts to a mote, buried weight becomes report and sight, and plural scattered works resolve to a singular doer-object encounter. Split mappings additionally expose coherent but form-distant exchange, residue, mirror, and communal-burden models.",
+          "remaining_uncertainties": [
+            "The earth's expelled burdens may be bodies or physical contents rather than deeds, leaving the exhumed-deed model analogical.",
+            "The reporting and communication sequence securely supports disclosure but only exploratorily supports a literal recording or inscription substrate.",
+            "The source-sorting model depends on extending the separation of people to the attribution of deeds.",
+            "The exchange, residue, mirror, and communal-liability readings rely on packet-licensed but non-dominant or branch-distant images and require explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Minimum evil as measured visible output.** Lexical evidence: `ع م ل B001` intentional doing; `ث ق ل B004` standard weight/weighing; `ذ ر ر B001` tiny particle; `ش ر ر B001` evil/badness; `ر ء ي B001/B012` seeing/showing. Structural cue: this ayah mirrors 99:7 almost exactly, replacing `خيرا` with `شرا`. Assigned role: the mirror structure prevents evil from being exempted by smallness; it receives the same measurement and display mechanism as good. Abductive move: I infer parity of accounting from syntactic parallelism. Reading change: the ayah reads as exact moral symmetry at the smallest scale.\n\n2. **Evil as spark from a tiny unit.** Lexical evidence: `ش ر ر B003` flying sparks of fire; `ذ ر ر B001/B002` tiny scattered motes/scattering; activated by `و ح ي B008` authority/fire in 99:5 and the sudden exposure sequence. Structural cue: the small `ذرة` touches `شرا` directly before final seeing. Assigned role: evil is like a spark: small, flying, and liable to be seen despite its minuteness. Abductive move: I infer that tiny evil has energetic consequence because the branch inventory allows `شرر` as sparks while the ayah makes evil particle-sized. Reading change: the ayah warns not only that small evil is counted, but that it can flare from a tiny source.\n\n3. **Drying/spreading exposure of evil.** Lexical evidence: `ش ر ر B002` spreading something in the sun to dry; activated by `ر ء ي B011/B012` marker/showing and `ذ ر ر B004` rising/spreading emergence. Structural cue: the final `يره` makes the evil visible after it has been measured. Assigned role: the evil is laid out like material exposed to sun: no longer damp, hidden, or folded. Abductive move: I supply the exposure-to-light mechanism from the branch image; the packet gives seeing and spread. Reading change: the ayah reads as visible desiccation of concealed wrong, not merely private recognition.\n\n4. **Shredding loose from the self.** Lexical evidence: `ش ر ر B004` shredding/cutting/shaking loose; `ش ر ر B007` throwing one’s whole self into something; activated by `ع م ل B007` self-exertion/taking trouble and `ق و ل B006` drawing a saying to oneself. Structural cue: the person did the work; now he sees it as an object distinct enough to confront. Assigned role: evil attaches to the self by intention, then is shaken loose as visible evidence. Abductive move: I infer a reversal from invested self to separated exhibit because the packet moves from `يعمل` to `يره`. Reading change: the ayah reads as disidentification: what one threw oneself into returns as an external thing one must face.\n\n5. **Burdens with dangling appendages.** Lexical evidence: `ش ر ر B006` trailing appendages and burdens; activated by `ث ق ل B001/B004` heaviness/weight and 99:2’s `أثقالها`. Structural cue: 99:2’s earth-burdens are mirrored at micro-scale by `مثقال ذرة شرا`. Assigned role: evil is a tiny burden that nevertheless trails after the actor. Abductive move: I infer continuity between macro earth-burdens and micro moral weight because both use the ثقل field and culminate in seeing. Reading change: the ayah reads as the return of one’s smallest trailing burden, not only the discovery of a discrete bad deed.",
@@ -23740,14 +24754,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -24001,10 +25021,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 147070,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

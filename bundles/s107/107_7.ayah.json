@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:27.283454+00:00",
+  "generated_at": "2026-08-18T13:34:35.871347+00:00",
   "surah": 107,
   "ayah": 7,
   "ayahRef": "107:7",
@@ -1030,7 +1030,8 @@
       "morpheme_ids": [
         "m-w-s107-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "107:7:1"
+      "aligned_qac_word_ref_upstream": "107:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1046,7 +1047,8 @@
         "m-w-s107-a007-w001-02",
         "m-w-s107-a007-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "107:7:2"
+      "aligned_qac_word_ref_upstream": "107:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1062,7 +1064,8 @@
         "m-w-s107-a007-w002-01",
         "m-w-s107-a007-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "107:7:3"
+      "aligned_qac_word_ref_upstream": "107:7:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2017,7 +2020,1099 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s107/packets/107_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "107:7",
+      "window": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6",
+        "107:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ع ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "107:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_blocked_transfer",
+            "confidence": "strong",
+            "focus_anchor": "Focus word 1, rooted in م ن ع, governs focus word 2, rooted in م ع ن.",
+            "mechanism": "An agent who could let assistance pass instead arrests its transfer at the point of giving.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "A hand held back from giving supplies the action of stopping an outward transfer."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Helping and backing supply the withheld object's function as practical support."
+              }
+            ],
+            "changed_reading": {
+              "before": "They do not give the ma'un.",
+              "after": "They actively stop usable help from crossing from their control into another's use."
+            }
+          },
+          {
+            "model_id": "baseline_gatekept_access",
+            "confidence": "strong",
+            "focus_anchor": "The transitive withholding at focus word 1 is directed at assistance named by focus word 2.",
+            "mechanism": "Withholding can operate spatially and institutionally: the holders interpose themselves between a seeker and available support, making aid inaccessible without necessarily destroying it.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The interposed barrier turns refusal into control of another person's access."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Protected inaccessibility supplies the enclosed reserve that the gatekeeper keeps beyond reach."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance remains the thing enclosed, so the spatial model stays anchored in the focus object."
+              }
+            ],
+            "changed_reading": {
+              "before": "They retain a small benefit.",
+              "after": "They act as gatekeepers, placing accessible help behind a barrier of control."
+            }
+          },
+          {
+            "model_id": "baseline_contested_mutuality",
+            "confidence": "medium",
+            "focus_anchor": "The object at focus word 2 activates mutual assistance while the verb at word 1 can activate contention over a thing.",
+            "mechanism": "A resource whose proper logic is cooperation is recoded as an object of resistance and possession; mutuality becomes a contest.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B006",
+                "role": "Reciprocal resistance over an object supplies the adversarial handling of the resource."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Mutual help supplies the cooperative relation that is being converted into contention."
+              }
+            ],
+            "changed_reading": {
+              "before": "They refuse an isolated request for help.",
+              "after": "They turn a potential relation of mutual aid into a struggle over who controls the useful thing."
+            }
+          },
+          {
+            "model_id": "baseline_protective_reserve",
+            "confidence": "exploratory",
+            "focus_anchor": "Focus word 1 can describe protective inaccessibility and resistance to scarcity, while word 2 remains assistance.",
+            "mechanism": "Read without context, withholding could preserve an aid-stock against depletion: a protective enclosure rather than selfish non-giving.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Protective strength supplies the possibility that inaccessibility guards rather than merely hoards."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B007",
+                "role": "Resilience through a hard year supplies a scarcity-management motive for temporary restraint."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the reserve's proposed communal purpose."
+              }
+            ],
+            "changed_reading": {
+              "before": "Every withholding here is necessarily miserly.",
+              "after": "In focus-only isolation, a minority reading can hear guarded help preserved against a lean period."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_accountable_due",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ك ذ ب",
+              "د ي ن"
+            ],
+            "mechanism": "The opening demand to inspect, followed by denial and the account/debt field, makes the final withholding observable evidence of repudiating an obligation. Assistance shifts from optional generosity to something answerable and relationally due.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Stopped giving provides the concrete act entered into the moral account."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Practical assistance supplies the due whose non-transfer becomes diagnostic."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The attention-directing inquiry frames the final act as something to inspect and recognize."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the gap between a claimed order and the enacted refusal."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense make the withheld act answerable rather than socially negligible."
+              },
+              {
+                "source_ref": "107:1",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial indebtedness sharpens assistance into a due relation rather than a surplus favor."
+              }
+            ],
+            "structural_cues": [
+              "107:1 opens an inspection of a person and 107:7 closes with a concrete plural action, allowing the last act to answer the first question."
+            ],
+            "reader_inference": "The packet supplies inspection, falsehood, accounting, debt, and withheld help; I infer that the last act evidences refusal of a due. A live alternative is that dīn remains general obedience or recompense and the listed acts are parallel symptoms rather than entries in one account.",
+            "changed_reading": {
+              "before": "They decline a discretionary kindness.",
+              "after": "They enact denial by refusing an accountable claim of assistance."
+            }
+          },
+          {
+            "model_id": "delta_severance_and_exclusion",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع",
+              "ي ت م"
+            ],
+            "mechanism": "Severe expulsion meets a person defined by loss of a sustaining guardian. The focus barrier therefore becomes a second severance: replacement support is kept from one already cut off from primary support.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "An interposed barrier supplies the access-denial that continues the earlier exclusion."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Helping and backing supply the replacement support being barred."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Forceful pushing supplies the outward motion of social expulsion."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Separation from a caretaker supplies the prior rupture that makes blocked aid especially consequential."
+              }
+            ],
+            "structural_cues": [
+              "107:2 places a forceful transitive action immediately before the cut-off dependent; 107:7 again uses a transitive deprivation action."
+            ],
+            "reader_inference": "The packet supplies pushing, caregiver-loss, a barrier, and help; I infer a sequence in which expulsion is maintained by denying replacement support. The alternative is a catalog of distinct harms with no temporal or causal staging.",
+            "changed_reading": {
+              "before": "They keep a useful thing to themselves.",
+              "after": "They maintain social expulsion by barring substitute support from someone already severed from a protector."
+            }
+          },
+          {
+            "model_id": "delta_rejected_claim_and_belonging",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ع ع"
+            ],
+            "mechanism": "The non-dominant mapped branch activates claim and affiliation beneath the scene of pushing. Withholding help can then reject not only a requested object but the claimant's standing to ask and belong.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies a boundary that can exclude a claimant from recognized access."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the relation through which standing and belonging would become practical."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B002",
+                "role": "A claim of right or affiliation supplies the socially asserted bond that the final gatekeeping can refuse."
+              }
+            ],
+            "structural_cues": [
+              "The pushed dependent of 107:2 is followed later by a withheld relation of help, permitting exclusion from place to become exclusion from standing."
+            ],
+            "reader_inference": "The packet supplies a split-root claim/affiliation branch at the pushing occurrence and a final aid barrier; I infer that material refusal can enact denial of membership. The alternative is that this non-dominant mapping is only a lexical resonance with no role in the syntax.",
+            "changed_reading": {
+              "before": "They deny the requested aid.",
+              "after": "They deny the requester's recognized claim on the helping relation itself."
+            }
+          },
+          {
+            "model_id": "delta_blocked_support_network",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ض ض",
+              "ط ع م",
+              "س ك ن"
+            ],
+            "mechanism": "Refusal to urge, failure to feed, and provision that would stabilize a life form a social supply chain. The focus action blocks both the direct input and the recruitment of other helpers, preventing support from multiplying.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Holding back from giving supplies the last blocked link in the support chain."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Mutual assistance supplies the network relation that could distribute support among multiple agents."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "Urging toward an act supplies the missing recruitment mechanism by which one helper could activate others."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the concrete transfer that social urging should produce."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "س ك ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000726",
+                "branch_id": "B010",
+                "role": "Sustenance that stabilizes residence supplies the durable outcome that repeated small help could maintain."
+              }
+            ],
+            "structural_cues": [
+              "107:3 coordinates refusal to mobilize others with a named material need, while 107:7 coordinates the final withholding with the preceding traits."
+            ],
+            "reader_inference": "The packet supplies urging, feeding, stabilizing sustenance, withheld giving, and mutual help; I infer a recruitment-to-provision-to-stability chain. The alternative is that encouragement and direct assistance are independent obligations rather than stages of one network.",
+            "changed_reading": {
+              "before": "They personally fail to hand over a minor benefit.",
+              "after": "They suppress an aid network, blocking both direct provision and the social multiplier that could sustain a vulnerable life."
+            }
+          },
+          {
+            "model_id": "delta_withheld_capability",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط ع م"
+            ],
+            "mechanism": "A food-root branch reaches capacity over a thing. In contact with assistance, the focus object can be heard as an enabling means: what is withheld is another person's ability to act, not only something to consume.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies obstruction between a person and the means of action sought."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the enabling relation rather than a merely consumable object."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B011",
+                "role": "Capacity to do a thing supplies the downstream agency that practical support can unlock."
+              }
+            ],
+            "structural_cues": [
+              "The movement from named food in 107:3 to the broader focus object in 107:7 permits a shift from consumed input to enabling means."
+            ],
+            "reader_inference": "The packet supplies a capacity branch inside the food-root inventory and a focus object resolved as help; I infer that provision is valuable because it restores agency. The live alternative is a narrower reading limited to material food and ordinary assistance.",
+            "changed_reading": {
+              "before": "They withhold a consumable or minor favor.",
+              "after": "They withhold the practical means by which another person could regain capacity and act."
+            }
+          },
+          {
+            "model_id": "delta_ritual_without_mercy_output",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "Prayer activates worship, supplication, and mercy, while heedlessness breaks attention. The focus refusal becomes a failed material output: mercy is invoked or displayed but does not travel outward as help.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The arrested hand supplies the point where voiced mercy fails to become material transfer."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Helping supplies the practical form that mercy would take outside the rite."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B002",
+                "role": "Supplication, praise, and mercy supply the ritual content expected to issue in care."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Specified worship supplies the performed form whose practical consequence is being tested."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of heart supplies the break between ritual attention and another person's need."
+              }
+            ],
+            "structural_cues": [
+              "Prayer occupies 107:4-5 and is followed by display in 107:6 and coordinated withholding in 107:7."
+            ],
+            "reader_inference": "The packet supplies mercy-bearing prayer, heedlessness, and blocked help; I infer an expected rite-to-care transmission that fails. The alternative is that ritual negligence and social refusal are juxtaposed defects without a required output relation.",
+            "changed_reading": {
+              "before": "Withholding aid is a social fault beside a ritual fault.",
+              "after": "Withholding aid is the missing material consequence of a rite that invokes mercy but fails to transmit it."
+            }
+          },
+          {
+            "model_id": "delta_stalled_follow_through",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ص ل و",
+              "س ه و"
+            ],
+            "mechanism": "A prayer-root branch pictures the runner following the leader, while heedlessness can be stillness. The sequence activates a process model in which practical aid ought to follow ritual, but the second movement stalls.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies the obstacle that prevents the practical follower from reaching its destination."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the expected second movement after ritual performance."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B006",
+                "role": "The runner following a predecessor supplies the image of ethical consequence trailing ritual action."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B002",
+                "role": "Stillness supplies the stalled transition in which no practical follow-through arrives."
+              }
+            ],
+            "structural_cues": [
+              "The textual order itself runs from prayer through heedlessness and display to withheld help."
+            ],
+            "reader_inference": "The packet supplies a follower-in-a-race image, stillness, and the ordered sequence; I infer that aid should follow prayer as its next runner. The alternative is that the race branch is too form-distant and contributes only an evocative sequence analogy.",
+            "changed_reading": {
+              "before": "They perform prayer and separately refuse help.",
+              "after": "They allow the leading rite to run while stopping its practical follower before aid arrives."
+            }
+          },
+          {
+            "model_id": "delta_unnoticed_ordinary_help",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ه و"
+            ],
+            "mechanism": "Heedlessness and the image of a faint, easily missed object introduce a second agency model beside deliberate refusal. Ordinary help can be withheld by being kept below attention until non-transfer becomes habitual.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Non-giving supplies the observable result even when its maintenance is inattentive rather than freshly chosen."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Practical help supplies the ordinary claim that slips outside the actor's field of concern."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-level heedlessness supplies the mechanism by which another's need goes unattended."
+              },
+              {
+                "source_ref": "107:5",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "A faint celestial object supplies the low-visibility quality of mundane assistance in the moral field."
+              }
+            ],
+            "structural_cues": [
+              "The heedlessness clause precedes the display clause, setting neglect of one object against intensified visibility of another."
+            ],
+            "reader_inference": "The packet supplies heedlessness, faint visibility, and non-giving; I infer that structured inattention can produce withholding without eliminating deliberate gatekeeping. The alternative is that the plural verb in 107:7 remains wholly intentional and the visibility analogy adds no agency distinction.",
+            "changed_reading": {
+              "before": "Every refusal is a conspicuous decision made at the moment of request.",
+              "after": "Some withholding is sustained by trained inattention: ordinary help is made too minor to notice while the result remains real."
+            }
+          },
+          {
+            "model_id": "delta_display_without_circulation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي"
+            ],
+            "mechanism": "The actors cause themselves or their acts to be seen, then prevent help from leaving their control. Visibility circulates while assistance does not; the final object becomes a diagnostic counterweight to public performance.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Holding back the hand supplies the private non-circulation set against public projection."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the socially useful thing that fails to circulate."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Performance for people's sight supplies the outward circulation of reputation."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something visible supplies the active production of an image for observers."
+              }
+            ],
+            "structural_cues": [
+              "107:6 and 107:7 are adjacent plural-agent clauses, with the latter coordinated to the former."
+            ],
+            "reader_inference": "The packet supplies public showing immediately beside withheld help; I infer a shared economy in which image is exported while utility is retained. The alternative is simple coordination of two vices with no exchange between visibility and material circulation.",
+            "changed_reading": {
+              "before": "They show off and, as another trait, withhold aid.",
+              "after": "They allocate outward flow to reputation instead of utility: their image travels to people while their help does not."
+            }
+          },
+          {
+            "model_id": "delta_protective_reading_reversed",
+            "status": "weakened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع ع",
+              "ح ض ض",
+              "ر ء ي"
+            ],
+            "mechanism": "The focus-only possibility of guarding a communal reserve loses plausibility when the surrounding actions push away the vulnerable, refuse to mobilize provision, and cultivate public display. Protection is not erased from the root inventory, but its likely beneficiary reverses from community to holder.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Protective inaccessibility preserves the baseline possibility now being reassigned toward self-protection."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B007",
+                "role": "Scarcity-resilience supplies the rationing rationale that context sharply weakens."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the proposed common good whose communal destination the context undermines."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "د ع ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Forceful expulsion makes care for the vulnerable an unlikely motive for enclosure."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ح ض ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000334",
+                "branch_id": "B001",
+                "role": "The absent mobilization toward provision removes evidence of a genuinely communal reserve policy."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Public performance supplies a self-regarding motive more coherent with the surrounding sequence."
+              }
+            ],
+            "structural_cues": [
+              "The context accumulates outward expulsion, non-mobilization, ritual failure, and display before the final withholding."
+            ],
+            "reader_inference": "The packet supplies both protective/scarcity branches and a sequence hostile to vulnerable access; I infer that the enclosure protects the holder's stock or standing, not a shared reserve. A narrow emergency-rationing possibility remains lexically live but contextually remote.",
+            "changed_reading": {
+              "before": "They may be preserving communal help through protective restraint.",
+              "after": "The context reverses the likely beneficiary: the enclosure protects the holders and their stock or standing from others' claims."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_social_graft_refused",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a botanical graft image is cross-domain, not a direct gloss of the focus object. It remains valid as an analogy anchored in the focus barrier and helping relation, sharpened by prior caregiver-severance; downstream prose should call it a material model of reconnection, not an etymology of ma'un.",
+            "focus_anchor": "The focus verb blocks assistance; the outlier asks what kind of reconnection that assistance might have enabled.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies resistance at the point where a severed life might be reconnected."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the sustaining relation needed for social reconnection."
+              },
+              {
+                "source_ref": "107:2",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Separation from a caretaker supplies the severed condition requiring a new supporting bond."
+              },
+              {
+                "source_ref": "107:3",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B010",
+                "role": "A branch accepting a graft supplies the material analogy for joining a vulnerable person back into sustaining stock."
+              }
+            ],
+            "changed_reading": {
+              "before": "They fail to supply an already separate individual.",
+              "after": "They prevent the practical graft by which a severed person could be joined back into a sustaining social body."
+            }
+          },
+          {
+            "outlier_id": "outlier_water_carrier_without_delivery",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ر و ي mapping activated at a seeing/showing occurrence. It remains anchored through the focus's blocked assistance and the branch's concrete transport image; downstream prose should present it as a last-mile supply analogy licensed by a split mapping, not as the lexical meaning of the source verb.",
+            "focus_anchor": "The focus combines an access-blocking verb with an object resolved as help, allowing context to model help as something carried but not delivered.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies the failed last mile between a carried resource and its recipient."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the relief that should be delivered rather than merely possessed."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B002",
+                "role": "Bringing and carrying water supplies a concrete model of aid in transit."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B008",
+                "role": "Visible fullness supplies the appearance of abundance that can coexist with failed delivery."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their public appearance and their refusal of help are merely adjacent.",
+              "after": "They resemble full carriers whose visible load advertises capacity while relief never completes the trip."
+            }
+          },
+          {
+            "outlier_id": "outlier_ritual_snare",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the trap image from the non-dominant ص ل ي inventory rather than the ordinary worship branch. It remains anchored when public performance and the focus barrier work together: a displayed rite can capture esteem while screening off claims on aid. Downstream prose should qualify this as a social mechanism analogy, never as a replacement gloss for prayer.",
+            "focus_anchor": "The focus barrier blocks help immediately after a clause of public showing, permitting an account of what the displayed performance accomplishes socially.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The barrier supplies the screening of material claims behind a favorable public surface."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance supplies the practical claim that the reputational mechanism diverts or captures."
+              },
+              {
+                "source_ref": "107:4",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "The snare supplies a mechanism that captures social credit through the performed rite."
+              },
+              {
+                "source_ref": "107:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B005",
+                "role": "Performance for observers supplies the bait-like visibility by which esteem is captured."
+              }
+            ],
+            "changed_reading": {
+              "before": "Display is empty ornament beside withholding.",
+              "after": "Display can function as a snare that captures moral credit and helps keep concrete claims on assistance outside the gate."
+            }
+          },
+          {
+            "outlier_id": "outlier_cooperation_becomes_repeated_war",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the repeated-war branch is formally distant from the focus noun's ordinary helping activation. It remains anchored entirely in the two focus roots: contention acts on a term whose mapped inventory also carries seasoned conflict. Downstream prose should preserve it as an adversarial exchange model, not identify ma'un with war.",
+            "focus_anchor": "Both activators occur in the focus ayah: resistance over a thing at word 1 and a repeated-conflict branch under the mapped inventory of word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "107:7",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B006",
+                "role": "Mutual resistance over an object supplies the contested exchange."
+              },
+              {
+                "source_ref": "107:7",
+                "root": "م ع ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B003",
+                "role": "Seasoned, recurring conflict supplies the temporal pattern into which repeated failures of mutual aid can harden."
+              }
+            ],
+            "changed_reading": {
+              "before": "A single small refusal interrupts cooperation once.",
+              "after": "Repeated contest over useful support can harden the helping relation into a seasoned social war."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moves from simple non-giving to active control of access and interruption of a transfer network.",
+            "The opening inspection and account/debt field recode assistance from discretionary kindness as an answerable social due.",
+            "Pushing, caregiver-severance, feeding, and stabilizing provision turn the final act into maintenance of social exclusion rather than isolated stinginess.",
+            "Prayer, heedlessness, and display make withheld help the missing practical output of mercy and create an inversion in which reputation circulates while utility does not.",
+            "The initially live protective-reserve reading is not deleted but is contextually reversed toward protection of the holder's stock or standing."
+          ],
+          "what_was_special": "The same two-word focus sustains intentional non-giving, gatekeeping, contested mutuality, structured inattention, and a weakened protective reading. Split-root branches also open contained but productive models of denied belonging, failed delivery, social grafting, ritual capture, and recurring conflict without forcing those models into one final interpretation.",
+          "remaining_uncertainties": [
+            "The focus noun is mapped from م ع ن to ع و ن, so assistance is strongly available while the exact material extent of the object remains underdetermined by this packet.",
+            "The context may supply causal stages of one exclusion system or a series of parallel diagnostic acts; both organizations remain live.",
+            "Non-dominant mappings to د ع و, ر و ي, and ص ل ي license exploratory resonance but do not establish the source forms' morphology or ordinary lexical sense.",
+            "Heedlessness permits a structured-neglect model, but the active plural withholding verb continues to support deliberate refusal at the same time."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Withholding small benefit completes the denial of dīn.** Evidence: `م ن ع B001` holding back the hand from giving, `م ع ن B005` maʿūn as small available benefit; activated by `د ي ن B003` debt/credit and `د ي ن B002` reckoning. Structure: the surah begins with denial of dīn and ends with refusal of available benefit. Mechanism: the final action proves the opening denial by refusing even slight dues. Abductive move: I infer that small goods are test-cases of the larger account; the packet supplies debt, reckoning, withholding, and maʿūn. Reading change: الماعون is not trivial; its smallness makes the denial sharper.\n\n2. **Blocking the flow.** Evidence: `م ن ع B002` barrier between seeker and sought, `م ع ن B001` flowing visible water, and `م ع ن B005` including water where named; activated by `ط ع م B001/B002` food and feeding, and `س ك ن B010` provisions enabling staying. Structure: food, dwelling-provision, water/benefit form a flow of life-support. Mechanism: the actor interrupts circulation, turning flow into blockage. Abductive move: I supply the hydraulic/social-flow model; the packet supplies water-flow, feeding, provision, and barrier branches. Reading change: يمنعون الماعون becomes damming the small streams by which a community lives.\n\n3. **Refusing household access.** Evidence: `م ع ن B005` household benefit/lent tools, `م ع ن B006` dwelling/lodging-place; activated by `س ك ن B002` dwelling and `س ك ن B003` household inhabitants. Structure: the last noun is domestic; earlier miskīn/orphan scenes show exclusion from settled household care. Mechanism: withholding maʿūn seals the house against those who need its ordinary implements. Abductive move: I infer domestic closure; the packet supplies household, dwelling, and withholding branches. Reading change: the ayah reads as refusal of neighborly infrastructure, not merely refusal of charity.\n\n4. **Possessive protection inverted into selfish fortress.** Evidence: `م ن ع B003` protective strength/fortress, activated by `ي ت م B001` lacking protector and `ر ح م B002` kinship bond. Structure: the vulnerable need protective manʿah; the actor uses manʿ as private defense of goods. Mechanism: protection that should guard weak kin becomes fortification against them. Abductive move: I supply the inversion of protection into hoarding; the packet supplies protection, kinship, orphaning, and withholding. Reading change: يمنعون is ambivalent: the same root that could protect instead excludes.",
@@ -8287,14 +9382,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s107/linguistic/morphemes.tsv",
-        "ayah_count": 8,
-        "row_count": 48,
+        "ayah_count": 7,
+        "row_count": 41,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8528,10 +9629,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s107/packets/107_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s107/readers/reader_hft_a/107_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s107"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s107",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 63947,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

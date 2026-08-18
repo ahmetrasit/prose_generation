@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:33.567913+00:00",
+  "generated_at": "2026-08-18T13:34:12.751173+00:00",
   "surah": 93,
   "ayah": 1,
   "ayahRef": "93:1",
@@ -894,7 +894,8 @@
       "morpheme_ids": [
         "m-w-s093-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "93:1:1"
+      "aligned_qac_word_ref_upstream": "93:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -910,7 +911,8 @@
         "m-w-s093-a001-w001-02",
         "m-w-s093-a001-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "93:1:2"
+      "aligned_qac_word_ref_upstream": "93:1:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1365,7 +1367,1273 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s93/packets/93_1.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "93:1",
+      "window": [
+        "93:1",
+        "93:2",
+        "93:3",
+        "93:4",
+        "93:5",
+        "93:6",
+        "93:7",
+        "93:8",
+        "93:9",
+        "93:10",
+        "93:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "و ج د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001626",
+              "furuq_root_norm": "و ج د",
+              "furuq_source_root_norm": "و ج د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 61,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000227",
+              "furuq_root_norm": "ج د د",
+              "furuq_source_root_norm": "ج د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "93:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_duha_extended_ascent",
+            "confidence": "strong",
+            "focus_anchor": "The noun ضحى names the risen forenoon and its extension into the day, not undifferentiated light.",
+            "mechanism": "The oath fixes attention on an interval that has risen and continues. Duration is part of the image, so the moment can carry maturation and the arrival of what was delayed.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B001",
+                "role": "Risen forenoon daylight extending through the day supplies the model's sustained temporal span."
+              }
+            ],
+            "changed_reading": {
+              "before": "An oath by a bright morning instant.",
+              "after": "An oath by daylight already risen and still unfolding, a span in which delayed things can mature."
+            }
+          },
+          {
+            "model_id": "b_duha_public_exposure",
+            "confidence": "strong",
+            "focus_anchor": "The ضحى root can image open exposure to the sun, protrusion, visibility, and public appearance.",
+            "mechanism": "Light is a field of manifestation: what had no visible standing comes out into an exposed, shared arena. The oath concerns appearance and publicity as much as luminosity.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Sun-exposure and visible prominence turn forenoon into an arena of disclosure and public standing."
+              }
+            ],
+            "changed_reading": {
+              "before": "The forenoon is merely luminous.",
+              "after": "The forenoon is the condition in which things become exposed, prominent, and publicly legible."
+            }
+          },
+          {
+            "model_id": "b_duha_provisioning_window",
+            "confidence": "medium",
+            "focus_anchor": "The ضحى inventory includes the forenoon meal and early-day grazing.",
+            "mechanism": "The time is organized by embodied need: animals go out, food is sought, and a meal is taken. The oath can therefore evoke a recurring window in which life obtains provision.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B003",
+                "role": "Forenoon eating and early grazing supply a material cycle of seeking and receiving nourishment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The named time is a neutral point on the clock.",
+              "after": "The named time is a daily provisioning window structured by hunger, movement, and nourishment."
+            }
+          },
+          {
+            "model_id": "b_duha_clear_legibility",
+            "confidence": "strong",
+            "focus_anchor": "The ضحى branch of clear, unclouded brightness makes clarity itself salient.",
+            "mechanism": "Brightness removes visual ambiguity and gives contours to what is present. The oath can foreground a condition of discernibility, not simply a quantity of light.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B005",
+                "role": "Clear forenoon brightness supplies the mechanism by which obscured forms become distinct and readable."
+              }
+            ],
+            "changed_reading": {
+              "before": "Duha is brightness as visual intensity.",
+              "after": "Duha is brightness as clarification: the world becomes distinguishable enough to read and navigate."
+            }
+          },
+          {
+            "model_id": "b_duha_gentle_delay",
+            "confidence": "exploratory",
+            "focus_anchor": "A form-distant but explicit ضحى branch carries gentleness, slowing, and not hurrying.",
+            "mechanism": "The interval itself models patient handling. Delay need not be neglect; it can be the gentle pacing by which an outcome is allowed to arrive without force.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B006",
+                "role": "Gentle slowing and respite make forenoon a temporal image of non-hasty care."
+              }
+            ],
+            "changed_reading": {
+              "before": "The oath's time arrives automatically and says nothing about waiting.",
+              "after": "The oath can carry a patient tempo: what is delayed may be handled gently rather than abandoned."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_cycle_visibility_and_cover",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي ل",
+              "س ج و"
+            ],
+            "mechanism": "The oath-pair places exposed, extending forenoon beside night in its settling and covering phase. Visibility and concealment become alternating modes in one rhythm; the cessation of exposure is not the cessation of the cycle.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B001",
+                "role": "Extended risen daylight supplies the visible phase that can recur after a settled interval."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Open prominence supplies the exposed pole whose temporary withdrawal needs interpretation."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night as the darkness contrary to day supplies the alternating, non-visible pole."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B001",
+                "role": "Settled stillness under the enclosing night makes concealment a repose rather than a rupture."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B002",
+                "role": "Covering with a cloth sharpens the image of light being veiled without being destroyed."
+              }
+            ],
+            "structural_cues": [
+              "93:1–2 coordinate two oath objects, while إذا marks night in its settling phase rather than naming abstract darkness alone."
+            ],
+            "reader_inference": "The packet supplies extending public daylight and night as darkness, stillness, and covering; I infer a recurrent alternation in which concealment pauses exposure without negating it. A live alternative is a simple rhetorical contrast with no causal cycle.",
+            "changed_reading": {
+              "before": "Duha signifies uninterrupted visibility and disclosure.",
+              "after": "Duha is the returning visible phase of a rhythm that also contains stillness and covering; its force does not require continuous exposure."
+            }
+          },
+          {
+            "model_id": "d_pause_not_relational_exit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و د ع",
+              "ر ب ب",
+              "ق ل ي"
+            ],
+            "mechanism": "The denial of leaving and aversion, framed by enduring nurture, converts the gentle-delay baseline into a relational diagnostic. A quiet interval can be repose, but it is not abandonment, expulsion, or the heart's withdrawal.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B006",
+                "role": "Gentle delay supplies a positive account of temporal pause before later denials exclude harsher accounts."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B001",
+                "role": "Leaving and relinquishing supply the rupture that the verse explicitly negates."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "و د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001635",
+                "branch_id": "B002",
+                "role": "Ease and stillness preserve a non-hostile sense of pause once abandonment is denied."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repair, and completion make the continuing relation developmental rather than merely possessive."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B007",
+                "role": "Remaining, dwelling, and duration supply continuity beneath the apparent interval."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B003",
+                "role": "Aversion that distances the heart supplies the rejected affective explanation for obscurity."
+              }
+            ],
+            "structural_cues": [
+              "The parallel negations ما ... وما bracket the possessive relation ربك and address the addressee directly."
+            ],
+            "reader_inference": "The packet supplies leaving, repose, nurturing endurance, and heart-distancing aversion; I infer that the denied rupture recodes darkness or delay as an interval within continued care. A live alternative is that the oath only reassures externally and does not alter the semantics of ضحى.",
+            "changed_reading": {
+              "before": "Gentle delay remains a lexical possibility with no relational consequence.",
+              "after": "The delayed or veiled light becomes a test case for pause without rejection: obscurity does not entail that care has exited."
+            }
+          },
+          {
+            "model_id": "d_delayed_brightness_as_better_later",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ر",
+              "خ ي ر",
+              "ء و ل"
+            ],
+            "mechanism": "Later, beneficial good, beginning, outcome, and unbroken succession turn extended duha into directed maturation. Its rise is not neutral duration but a trajectory in which an initial state gives way to a more beneficial later disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B001",
+                "role": "Daylight rising and extending supplies a natural process with distinguishable earlier and later phases."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B006",
+                "role": "Gentle postponement makes the superior later phase compatible with present waiting."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time supplies the temporal displacement beyond the present phase."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good assigns positive direction rather than mere lateness to the movement."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence establish the initial phase from which the comparison departs."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an outcome or consequence gives the temporal extension a telos."
+              },
+              {
+                "source_ref": "93:4",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The non-dominant split image of one thing following another supplies continuity between phases without a vacant gap."
+              }
+            ],
+            "structural_cues": [
+              "The comparative خير with من explicitly orders the later and the first, turning temporal contrast into valuation."
+            ],
+            "reader_inference": "The packet supplies laterness, beneficial good, beginning, consequence, and close succession; I infer that the rising course of duha analogizes a better-later trajectory. A live alternative is that the contrast is wholly eschatological and the daylight image remains only an oath witness.",
+            "changed_reading": {
+              "before": "Duha's extension is neutral duration.",
+              "after": "Duha's extension is directional: a first condition can pass continuously into a later condition that carries greater good."
+            }
+          },
+          {
+            "model_id": "d_forenoon_as_gift_maturation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ط و",
+              "ر ب ب",
+              "ر ض و"
+            ],
+            "mechanism": "The meal-and-grazing branch joins hand-to-hand giving, nurturing growth, and eventual satisfaction. Future giving fits the extended interval: provision arrives, is taken in, and matures into enough rather than appearing as an inert object.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B003",
+                "role": "Forenoon feeding and grazing supply the material scene in which a gift becomes sustaining provision."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B001",
+                "role": "The extending daytime interval gives provision time to arrive and have an effect."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Passing something to another supplies the concrete transfer at the start of the provisioning chain."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing and bringing to completion turn transfer into sustained development."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant split image of feeding and growth intensifies the maturation mechanism."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B002",
+                "role": "Abundant or sought satisfaction supplies the experienced completion toward which the gift develops."
+              }
+            ],
+            "structural_cues": [
+              "سوف opens a future interval, and the فاء in فترضى presents satisfaction as the result of giving."
+            ],
+            "reader_inference": "The packet supplies forenoon feeding, transfer, nurture, growth, and satisfaction; I infer a gift-to-growth-to-contentment chain. A live alternative is that satisfaction concerns an unspecified gift with no nourishment or daylight mechanism.",
+            "changed_reading": {
+              "before": "Duha merely marks the daily time when feeding occurs.",
+              "after": "Duha becomes a promise-shaped provisioning interval in which what is given is nurtured until it becomes satisfying."
+            }
+          },
+          {
+            "model_id": "d_visibility_finds_and_shelters",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ي ت م",
+              "ء و ي"
+            ],
+            "mechanism": "Public visibility becomes ethically productive when finding an isolated, unguarded person leads to gathering shelter and compassion. Light is a search field whose proper endpoint is enclosure and belonging, not exposure for its own sake.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Open visibility supplies the condition in which an otherwise isolated person can be noticed."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Encountering and locating something turns visibility into an act of finding."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "A child cut off from a guardian supplies the vulnerable state that visibility discovers."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B002",
+                "role": "Singularity and separation widen orphanhood into a structural image of isolation."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Joining a gathering refuge supplies the spatial reversal from exposed isolation to shelter."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B002",
+                "role": "Tender mercy supplies the affective quality that makes shelter more than containment."
+              }
+            ],
+            "structural_cues": [
+              "The rhetorical question ألم recalls a prior state, and the result فآوى binds finding to an answering act of shelter."
+            ],
+            "reader_inference": "The packet supplies visibility, finding, severed isolation, gathering refuge, and compassion; I infer that illumination enables recognition and that recognition calls for shelter. A live alternative is a biographical rescue sequence with no instrumental link to daylight.",
+            "changed_reading": {
+              "before": "Daylight exposes what was hidden.",
+              "after": "Daylight finds isolated vulnerability so that exposure can terminate in refuge and belonging."
+            }
+          },
+          {
+            "model_id": "d_brightness_as_wayfinding",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ض ل ل",
+              "ه د ي"
+            ],
+            "mechanism": "Clear prominence becomes navigational: a hidden or lost state is found and then gently directed. Daylight does not merely display objects; it yields a path, a leading edge, and an orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B005",
+                "role": "Clear brightness supplies enough distinction for orientation rather than mere visibility."
+              },
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Emergence into visible prominence supplies the transition out of hiddenness."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding what was not securely located initiates the recovery mechanism."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness and disappearance supply an optical-spatial account of being unlocated."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies the condition that finding and direction reverse."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a path supplies non-coercive direction after discovery."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B003",
+                "role": "A guide moving at the front gives the visible field a leading edge and destination."
+              }
+            ],
+            "structural_cues": [
+              "The result فهدى makes guidance follow the recalled unlocated state, preserving a directional sequence."
+            ],
+            "reader_inference": "The packet supplies clarity, hidden loss, finding, and gentle path-indication; I infer that visibility enables orientation. A live alternative is that ضال marks uncertainty resolved by guidance without any optical mechanism.",
+            "changed_reading": {
+              "before": "Clear brightness makes the scene legible.",
+              "after": "Duha is operative wayfinding: it brings the unlocated into view and gives that visibility a direction."
+            }
+          },
+          {
+            "model_id": "d_forenoon_sufficiency_ecology",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ع ي ل",
+              "غ ن ي"
+            ],
+            "mechanism": "The forenoon meal and grazing image joins poverty and poor nourishment to capacity and sufficiency. Duha becomes a recurrent conversion of lack into enough, an ecology of support rather than a display of accumulated wealth.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B003",
+                "role": "Early feeding and grazing supply the daily material operation through which lack can be answered."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B003",
+                "role": "Capacity, means, and wealth supply the resource state discovered or produced in the reversal."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B001",
+                "role": "Poverty and need supply the deficit from which the provisioning sequence begins."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "ع ي ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001068",
+                "branch_id": "B004",
+                "role": "Poor nourishment makes the deficit bodily and connects it directly to the focus's feeding branch."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency and adequacy define the endpoint as enoughness rather than excess."
+              }
+            ],
+            "structural_cues": [
+              "The repeated وجدك ... فأغنى pattern presents an encountered deficit followed by a causally marked reversal."
+            ],
+            "reader_inference": "The packet supplies poverty, poor nourishment, capacity, sufficiency, and the focus's feeding time; I infer a recurrent provision-through-activity mechanism. A live alternative is nonmaterial sufficiency, which weakens the meal connection but preserves the lack-to-enough movement.",
+            "changed_reading": {
+              "before": "Forenoon is merely when feeding happens.",
+              "after": "The oath bears a recurring anti-scarcity pattern: embodied lack is met until there is enough to sustain life."
+            }
+          },
+          {
+            "model_id": "d_public_light_morally_ambivalent",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي ت م",
+              "ق ه ر"
+            ],
+            "mechanism": "Exposure is dangerous under hierarchy. An unguarded, isolated person under an overpowering force from above turns public visibility into an ethical test: prominence can notice and protect, or it can make vulnerability easier to crush.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Exposure and public prominence supply the morally ambivalent field in which power becomes visible and actionable."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ي ت م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001692",
+                "branch_id": "B001",
+                "role": "Severance from a guardian supplies the asymmetrically exposed person lacking protective backing."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B001",
+                "role": "Dominance descending from above and humiliating its object supplies the abusive use of superior standing."
+              }
+            ],
+            "structural_cues": [
+              "فأما shifts from remembered rescue to addressed conduct, and فلا reverses the addressee from former recipient of care into a possible agent of domination."
+            ],
+            "reader_inference": "The packet supplies public exposure, severed guardianship, and subjugation from above; I infer that one who received shelter must not weaponize superior visibility or status. A live alternative is an ethical sequel with no semantic revision of the oath.",
+            "changed_reading": {
+              "before": "Open prominence is inherently beneficial because it makes things visible.",
+              "after": "Prominence is morally ambivalent: full visibility can enable care or vertical crushing, so the daylight oath places publicity under non-domination."
+            }
+          },
+          {
+            "model_id": "d_daylight_as_open_request_channel",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ه ر"
+            ],
+            "mechanism": "The نهر inventory creates an internal reversal among day opening, widening until flow, and harsh rebuke. Alongside overt request and the split image of gentle hidden extraction, duha becomes an open channel through which even indirect need can enter; scolding blocks that flow.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Open public appearance supplies the interpersonal space in which a need can become present to another."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Asking and requesting supply the explicit movement of need toward a listener."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The non-dominant split image of gentle, hidden drawing suggests that some requests emerge indirectly and must be noticed without force."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B002",
+                "role": "Day opening in brightness directly links the response-space back to the focus's daylight."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until something flows supply the channel mechanics of social receptivity."
+              },
+              {
+                "source_ref": "93:10",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B004",
+                "role": "Harsh verbal rebuke supplies the closing force that the prohibition removes from the channel."
+              }
+            ],
+            "structural_cues": [
+              "وأما ... فلا parallels the orphan case, placing the seeker before the negated response; the one surface تنهر resolves to both opening and rebuke branches."
+            ],
+            "reader_inference": "The packet supplies request, gentle hidden drawing, day-opening, widening flow, and harsh rebuke; I infer social access as a channel and scolding as anti-flow. A live alternative is the direct command 'do not scold,' with the day and flow images remaining only branch resonance.",
+            "changed_reading": {
+              "before": "Duha's openness is visual and public.",
+              "after": "Duha's opening becomes interpersonal permeability: make room for requests, including quietly emerging ones, and do not dam them with harsh speech."
+            }
+          },
+          {
+            "model_id": "d_brightness_must_become_testimony",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ع م",
+              "ر ب ب",
+              "ح د ث"
+            ],
+            "mechanism": "Good condition and nurturing completion culminate in renewed speech and disclosure. Public daylight is not self-contained display: what care has brought into manifest form is to be manifested again as narration.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Visible prominence supplies the focus-side movement from hidden condition into public manifestation."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "A good, benefited condition supplies the content that has become manifest and can be recounted."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B003",
+                "role": "Praising something with نعم gives narration an affirmative evaluative register."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing and completion identify care, rather than self-display, as the source of the visible good."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech continually renewed as news turns received benefit into an ongoing verbal event."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing something out and making it appear mirrors the focus's visible disclosure in speech."
+              }
+            ],
+            "structural_cues": [
+              "وأما ... فحدث turns remembered benefit into a positive command, while ربك recurs and the فاء marks narration as an output."
+            ],
+            "reader_inference": "The packet supplies good condition, nurturing completion, renewed speech, and disclosure; I infer that received manifestation should cause verbal manifestation. A live alternative is simply reporting benefits, without importing any daylight mechanics.",
+            "changed_reading": {
+              "before": "Public brightness is an object that is seen.",
+              "after": "Duha is a disclosure cycle: care becomes visible, and visible benefit becomes renewed testimony rather than remaining mute."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_sacrificial_gift_horizon",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the ordinary focus sense is a time of day and the sacrificial image is a derivationally distant branch. It remains valid as a packet-attested ضحى branch directly anchored in 93:1 and is reinforced by giving and sacrificial-guidance branches in context. Render only as a latent offering resonance, never as a replacement translation of والضحى.",
+            "focus_anchor": "The focus root itself includes the Adha sacrificial animal as B004.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B004",
+                "role": "The Adha sacrifice supplies a root-internal horizon of something offered up at a marked time."
+              },
+              {
+                "source_ref": "93:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Concrete giving supplies the transfer that lets sacrifice be modeled as offering rather than loss alone."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B005",
+                "role": "The sacrificial animal conveyed to the sanctuary supplies a context-side image of directed gift and destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The oath marks only a luminous time.",
+              "after": "At the root-image margin, the marked time also opens an offering economy in which a gift is directed toward a sacred end."
+            }
+          },
+          {
+            "outlier_id": "o_thermal_transformation",
+            "confidence": "exploratory",
+            "containment": "This cross-material reading is surprising because frying and meat altered by fire are remote from the direct verbal senses in context. It remains anchored in the focus branch's explicit sun exposure and heat, and the two context branches jointly model exposed matter being transformed. Render as a contained analogy for pressure on the exposed, not as a claim that the verses literally describe cooking.",
+            "focus_anchor": "Focus B002 includes exposure to the sun and its heat as well as public emergence.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Sun exposure and heat supply the thermal field in which prominence can become ordeal."
+              },
+              {
+                "source_ref": "93:3",
+                "root": "ق ل ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001253",
+                "branch_id": "B004",
+                "role": "Food placed on a hot pan until it changes supplies controlled heat as a material transformation."
+              },
+              {
+                "source_ref": "93:9",
+                "root": "ق ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001266",
+                "branch_id": "B002",
+                "role": "Meat seized and altered by fire supplies destructive heat as an analogue for overpowering exposed vulnerability."
+              }
+            ],
+            "changed_reading": {
+              "before": "Exposure in duha simply reveals.",
+              "after": "Exploratorily, exposure also subjects what appears to transforming pressure, making the ban on domination a refusal to turn public light into consuming heat."
+            }
+          },
+          {
+            "outlier_id": "o_lullaby_care_rhythm",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the lullaby image comes through a non-dominant split mapping of هدى and is formally distant from route-guidance. It remains worth carrying because focus B006 already anchors gentleness and slowing, while settling night and compassionate shelter form a coherent care rhythm. Render as a sonic-affective analogy, explicitly qualified as split-branch activation.",
+            "focus_anchor": "Focus B006 gives ضحى a gentle, unhurried tempo.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B006",
+                "role": "Gentle slowing supplies the unhurried tempo to which the care images attach."
+              },
+              {
+                "source_ref": "93:2",
+                "root": "س ج و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000679",
+                "branch_id": "B001",
+                "role": "Settling stillness supplies the quiet phase of an alternation between waking visibility and rest."
+              },
+              {
+                "source_ref": "93:6",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B002",
+                "role": "Tender compassion supplies the relational quality that prevents slowing from becoming neglect."
+              },
+              {
+                "source_ref": "93:7",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B006",
+                "role": "The non-dominant split image of rocking a child to sleep supplies a rhythmic, soothing mode of guidance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Gentle delay is only patient waiting for daylight.",
+              "after": "At the exploratory edge, duha participates in a care rhythm that alternates awakening, settling, sheltering, and soothing rather than forcing immediate motion."
+            }
+          },
+          {
+            "outlier_id": "o_voiced_daylight",
+            "confidence": "medium",
+            "containment": "This is cross-sensory because daylight is visual while song and renewed report are audible. It remains anchored in the focus's public-emergence branch and gains a coherent context sequence from voice to recurrent disclosure. Render as synesthetic public manifestation—brightness becoming voiced testimony—not as a lexical meaning of ضحى.",
+            "focus_anchor": "Focus B002 makes duha an event of coming visibly and publicly forth.",
+            "activation_trace": [
+              {
+                "source_ref": "93:1",
+                "root": "ض ح و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000904",
+                "branch_id": "B002",
+                "role": "Public emergence supplies the shared arena in which visible benefit can acquire a voice."
+              },
+              {
+                "source_ref": "93:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B003",
+                "role": "Song and voice convert sufficiency from a silent state into an audible expression."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech and news give the audible manifestation recurrence rather than a single utterance."
+              },
+              {
+                "source_ref": "93:11",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Making something appear links verbal disclosure back to the focus's visual disclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Duha manifests silently through sight.",
+              "after": "A live cross-sensory reading lets public brightness become voiced: what is made visible is repeatedly articulated as news."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Duha moved from a static bright instant to an extended, better-later process whose periods of covering need not signify abandonment.",
+            "Public exposure became an ethical sequence: visibility can find, shelter, and guide vulnerability, but it can also enable domination.",
+            "The meal-and-grazing branch recast the forenoon as a provisioning ecology that moves embodied lack toward sufficiency.",
+            "The day-opening, flow, request, and speech branches turned brightness into interpersonal access and then into renewed testimony.",
+            "No single synthesis cancels the others: temporal maturation, material provision, social visibility, navigation, and gentle pacing remain coexisting mechanisms."
+          ],
+          "what_was_special": "The strongest surprise came from retaining non-dominant split branches rather than collapsing them: unbroken succession sharpened temporal continuity, feeding and growth sharpened gift maturation, gentle hidden drawing complicated how requests surface, and the lullaby image opened a contained care-rhythm outlier.",
+          "remaining_uncertainties": [
+            "The gentle-delay branch is explicit in the focus inventory but form-distant, so its relational use should remain more tentative than the risen-daylight model.",
+            "The provisioning model may be a strong material analogy rather than the central lexical force of the oath.",
+            "The later-versus-first comparison may be primarily eschatological; reading it through the ascent of daylight is abductive rather than grammatically forced.",
+            "The social mechanisms can be downstream ethical activations of the oath rather than additional lexical senses of ضحى.",
+            "Sacrificial, thermal, lullaby, and voiced-daylight readings should remain visibly qualified outliers rather than being normalized into a final interpretation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Forenoon as delay that is not abandonment.** Evidence: ض ح و B001 (forenoon daylight extending; action delayed to that time), و د ع B001/B002 in 93:3 (leaving; restful ease), ء خ ر B002 in 93:4 (deferring to a later time). Structural cue: the first fixed image is a time after dawn, followed by settled night and then negation of abandonment. Mechanism: the packet supplies delayed daylight and later explicit deferral; I supply the causal inference that waiting until the risen part of day can be care rather than neglect. Abductive move: temporal lateness is reclassified by the surah as ripening. Reading change: \"duha\" reads not just as bright time but as delayed arrival that prepares the denial \"your Lord has not left you.\"\n\n2. **Open exposure before public narration.** Evidence: ض ح و B002 (open exposure to sun, public visibility), س م و B008 in 93:0 (good repute spread), ح د ث B003/B006 in 93:11 (report/conversation; disclosure). Structural cue: the surah begins with visibility and ends with commanded speech. Mechanism: the packet supplies exposed brightness and final narration; I supply the arrow from visibility to communicability. Abductive move: what is placed under open light becomes fit to be told rather than hidden. Reading change: the oath by duha becomes a summons into open acknowledgment, not merely a scenic image.\n\n3. **Provisional morning.** Evidence: ض ح و B003 (forenoon meal and early-day grazing), ع ط و B002 in 93:5 (giving), ع ي ل B001/B002 in 93:8 (poverty; dependents), ن ع م B005 in 93:11 (grazing livestock). Structural cue: morning is later matched by giving, poverty-removal, and blessing. Mechanism: the packet supplies early grazing/meal imagery and a later economy of lack and sufficiency; I supply the coherence that morning light also opens a feeding/provision cycle. Abductive move: the cosmic sign is materially pastoral as well as optical. Reading change: \"duha\" can be read as the start of daily provision for exposed dependents.\n\n4. **Sacrificial redistribution, exploratory.** Evidence: ض ح و B004 (Adha sacrifice), ه د ي B005 in 93:7 (offering sent to sanctuary), ن ع م B005 in 93:11 (livestock), س ء ل B001/B002 in 93:10 (asking/requested need). Structural cue: sacrifice, gift, livestock, and requester form a local ritual-gift field. Mechanism: the packet supplies branches for sacrifice and offering but the fixed word itself is simply \"duha\"; I supply a ritual redistribution arrow from consecrated animal to social need. Abductive move: the sacrificial branch is dormant but becomes thinkable because later commands regulate vulnerable recipients. Reading change: this exploratory reading lets 93:1 gesture toward a ritual economy in which brightness/provision is converted into giving.",
@@ -5072,14 +6340,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s093/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 83,
+        "ayah_count": 11,
+        "row_count": 76,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5320,10 +6594,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s93/packets/93_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s93/readers/reader_hft_a/93_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s093",
+        "latent_activation/focus_trace/runs/s93"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s93",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 97262,
+      "split_root_count": 6,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

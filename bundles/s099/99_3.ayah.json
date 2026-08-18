@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:17.737216+00:00",
+  "generated_at": "2026-08-18T13:34:24.268180+00:00",
   "surah": 99,
   "ayah": 3,
   "ayahRef": "99:3",
@@ -1572,7 +1572,8 @@
       "morpheme_ids": [
         "m-w-s099-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:1"
+      "aligned_qac_word_ref_upstream": "99:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1586,7 +1587,8 @@
       "morpheme_ids": [
         "m-w-s099-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:2"
+      "aligned_qac_word_ref_upstream": "99:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1602,7 +1604,8 @@
         "m-w-s099-a003-w002-01",
         "m-w-s099-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:3"
+      "aligned_qac_word_ref_upstream": "99:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1616,7 +1619,8 @@
       "morpheme_ids": [
         "m-w-s099-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:4"
+      "aligned_qac_word_ref_upstream": "99:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1630,7 +1634,8 @@
       "morpheme_ids": [
         "m-w-s099-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:5"
+      "aligned_qac_word_ref_upstream": "99:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1644,7 +1649,8 @@
       "morpheme_ids": [
         "m-w-s099-a003-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "99:3:6"
+      "aligned_qac_word_ref_upstream": "99:3:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3044,7 +3050,668 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s99/packets/99_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "99:3",
+      "window": [
+        "99:1",
+        "99:2",
+        "99:3",
+        "99:4",
+        "99:5",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ذ ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000511",
+              "furuq_root_norm": "ذ ر ر",
+              "furuq_source_root_norm": "ذ ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": true
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "99:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_articulated_bewilderment",
+            "confidence": "strong",
+            "focus_anchor": "The construction قَالَ ٱلْإِنسَانُ مَا لَهَا makes a perceiving human voice an interrogative about a feminine referent.",
+            "mechanism": "An anomaly enters human awareness, and overt speech externalizes the gap between what is perceived and what can be explained.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "The branch supplies articulated speech, which carries the human's alarm into an audible question."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "The branch supplies sensory detection, making the human a perceiver reacting to something newly forced into awareness."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare report that a human spoke.",
+              "after": "A perceiving human audibly externalizes bewilderment at a referent whose state no longer makes sense."
+            }
+          },
+          {
+            "model_id": "baseline_familiarity_breach",
+            "confidence": "medium",
+            "focus_anchor": "The human named by ٱلْإِنسَانُ asks مَا لَهَا about something normally available on the human-facing side of experience.",
+            "mechanism": "The human root's familiarity and nearness images collide with the diagnostic question: what should be familiar has become estranged enough to demand explanation.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "The branch supplies familiarity that removes estrangement, so the question marks a failure of ordinary comfort."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B004",
+                "role": "The branch supplies the near, human-facing side, framing the questioned referent as part of the human's normal orientation."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "The branch supplies saying with the force of supposition in a question, making مَا لَهَا an attempt to diagnose the rupture."
+              }
+            ],
+            "changed_reading": {
+              "before": "A request for information about an external object.",
+              "after": "The question registers a collapse of ordinary intimacy and orientation: what faced the human as familiar has become uncanny."
+            }
+          },
+          {
+            "model_id": "baseline_state_as_indication",
+            "confidence": "exploratory",
+            "focus_anchor": "The juxtaposition of قَالَ and مَا لَهَا allows the referent's altered state to be treated as something the human is trying to read.",
+            "mechanism": "A thing can 'say' by indication; the human's literal utterance responds to an implicit message already conveyed by the questioned state.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "The branch supplies a thing's indication as a kind of saying, turning the referent's condition into a message to be deciphered."
+              },
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "The branch supplies perceptual awareness, positioning the human as the reader of that nonverbal indication."
+              }
+            ],
+            "changed_reading": {
+              "before": "The feminine referent is mute while the human alone speaks.",
+              "after": "Her altered state already functions as an implicit saying, and the human question attempts to decipher it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_grounded_estrangement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ل ز ل",
+              "ء ر ض"
+            ],
+            "mechanism": "The named earth is violently destabilized before the human asks about her. The familiar support of embodied orientation becomes the source of disorientation.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "The branch supplies familiarity and relief from estrangement, the human condition now overturned by the event."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "The branch supplies repeated disturbance and shaking, the physical mechanism that breaks familiar orientation."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "The branch supplies attachment and weighting toward the earth, framing the shaken object as the usual ground of human stability."
+              }
+            ],
+            "structural_cues": [
+              "99:1 names the earth, and the feminine pronoun in 99:3 points back to her after the repeated verb-plus-verbal-noun quake construction."
+            ],
+            "reader_inference": "The packet supplies earth, violent shaking, and human familiarity; I infer that stable ground underwrites ordinary human orientation. The live alternative is a purely spectacular fear response with no familiarity mechanism.",
+            "changed_reading": {
+              "before": "Something familiar has become generally strange.",
+              "after": "The human asks because the very ground that normally secures familiarity has become the agent of bodily and cognitive disorientation."
+            }
+          },
+          {
+            "model_id": "delta_material_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ر ج",
+              "ث ق ل",
+              "ر ء ي",
+              "ع م ل",
+              "ذ ر ر"
+            ],
+            "mechanism": "The sequence moves from bringing concealed burdens outside to showing intentional acts at particle-scale weight. The question becomes a threshold in an evidentiary disclosure rather than a reaction to motion alone.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "The branch supplies indication as saying, allowing the earth's material output to bear evidentiary meaning for the questioner."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "The branch supplies removal from concealment, making the earth's ejection an act of disclosure."
+              },
+              {
+                "source_ref": "99:2",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B004",
+                "role": "The branch supplies weight and measure, linking what emerges to the later calibrated audit."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The branch supplies causing something to be seen, converting concealed material into displayed evidence."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The branch supplies intentional action, identifying the human material ultimately subjected to display."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The branch supplies minute, dispersed particles, setting the disclosure's lower scale and preventing unnoticed residue."
+              }
+            ],
+            "structural_cues": [
+              "The focus question stands after the earth ejects 'her burdens' and before deeds are shown and assessed down to a particle."
+            ],
+            "reader_inference": "The packet supplies ejection from concealment, weight, displayed acts, and minute particles; I infer one disclosure architecture joining the early material scene to the later audit. A live alternative keeps the earth's burdens and human deeds as parallel disclosures rather than identifying or causally linking them.",
+            "changed_reading": {
+              "before": "What physical event has struck the earth?",
+              "after": "What disclosure has the earth begun? The question becomes retrospectively self-implicating because what emerges and becomes visible concerns human action."
+            }
+          },
+          {
+            "model_id": "delta_earth_speech_handoff",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح د ث",
+              "خ ب ر"
+            ],
+            "mechanism": "The human's question is followed by the earth telling her reports. The object spoken about becomes a reporting subject, reversing the initial distribution of voice and knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "The branch supplies the human's overt utterance, establishing the first speaker in the exchange."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The branch supplies speech renewed as report, transferring active narration to the earth."
+              },
+              {
+                "source_ref": "99:4",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "The branch supplies knowledge of a report and an affair's interior, making the earth's response disclosure from informed depth."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent sequence is human says in 99:3, then she tells her reports in 99:4; the same feminine referent moves from grammatical object of concern to speaking subject."
+            ],
+            "reader_inference": "The packet supplies adjacent human speech and earth-reporting; I infer a question-to-testimony handoff and a reversal of speaker roles. The alternative is two independent utterances rather than a responsive exchange.",
+            "changed_reading": {
+              "before": "The human comments on a mute earth.",
+              "after": "The human opens a speech exchange in which the questioned earth takes the floor as an informed witness."
+            }
+          },
+          {
+            "model_id": "delta_answered_laha",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "و ح ي"
+            ],
+            "mechanism": "The open question مَا لَهَا is answered by the reprise أَوْحَىٰ لَهَا: her altered behavior is not autonomous malfunction but response to a sovereign, hidden communication.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "The branch supplies interrogative supposition, leaving the cause of the earth's behavior open for the subsequent clause."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The branch supplies lordship, ownership, and sovereignty, locating authority behind the earth's action."
+              },
+              {
+                "source_ref": "99:5",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The branch supplies knowledge imparted in hidden fashion, furnishing the causal input that reorganizes the earth's behavior."
+              }
+            ],
+            "structural_cues": [
+              "The exact prepositional form لَهَا recurs in 99:3 and 99:5, first inside the question and then as the recipient phrase of أَوْحَىٰ."
+            ],
+            "reader_inference": "The packet supplies the repeated لَهَا, sovereign lordship, and hidden imparting; I read 99:5 as the causal answer to 99:3. The repetition could instead be looser cohesion, but the intervening report clause supports the answer relation.",
+            "changed_reading": {
+              "before": "The human confronts an unexplained breakdown in the earth.",
+              "after": "The human unknowingly asks for the cause that the sequence names: the earth is carrying out communication received under divine sovereignty."
+            }
+          },
+          {
+            "model_id": "delta_collective_individuation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و س",
+              "ش ت ت",
+              "ر ء ي",
+              "ع م ل",
+              "ذ ر ر"
+            ],
+            "mechanism": "The generic singular human voices one shared question; the later plural humanity disperses and is shown acts at irreducibly small scale. Collective bewilderment resolves into differentiated exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The branch supplies human presence as either one person or a group, allowing the singular figure to condense humanity's common voice."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The same human-presence branch now supplies the explicit plural population that unfolds from the focus singular."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "The branch supplies dispersal, breaking the common crowd into differentiated trajectories."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The branch supplies being made to see, giving each dispersed human an encounter with displayed evidence."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The branch supplies intentional acts, the differentiating content returned to the dispersed people."
+              },
+              {
+                "source_ref": "99:7",
+                "root": "ذ ر ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000511",
+                "branch_id": "B001",
+                "role": "The branch supplies minute particles, making differentiation persist even at the smallest stated scale."
+              }
+            ],
+            "structural_cues": [
+              "The sequence shifts from definite generic singular ٱلْإِنسَانُ to plural ٱلنَّاسُ and then repeats singular مَن for the two individually qualified outcomes."
+            ],
+            "reader_inference": "The packet supplies singular human, plural people, dispersal, shown acts, and particle scale; I infer a movement from one collective cry to individualized disclosure. The live alternative treats the number shifts as ordinary generic variation without a staged social mechanism.",
+            "changed_reading": {
+              "before": "One human voices private bewilderment.",
+              "after": "The singular question condenses humanity's common shock just before the collective is separated into persons confronted with their own smallest acts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_qawl_as_aftershock",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-dominant q-w-l to q-l-l mapping rather than the ordinary speech root. It remains anchored in the focus verb and an explicitly packet-authorized split branch, while the preceding quake supplies a matching motion; downstream prose should present it only as a form-and-branch resonance, not as the lexical meaning of قَالَ.",
+            "focus_anchor": "The focus verb قَالَ is cited through its packet-supplied non-dominant mapped root whose branch image is a shuddering tremor.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B005",
+                "role": "The split branch supplies a shuddering tremor, coloring the focus utterance as speech physically shaken out of the speaker."
+              },
+              {
+                "source_ref": "99:1",
+                "root": "ز ل ز ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000638",
+                "branch_id": "B001",
+                "role": "The branch supplies the actual disturbance and shaking that lets the later vocal resonance function as an aftershock."
+              }
+            ],
+            "changed_reading": {
+              "before": "The quake happens, and afterward the human calmly formulates a question.",
+              "after": "At the level of contained sound-and-branch resonance, the human utterance is itself an aftershock: the shaken world produces shaken speech."
+            }
+          },
+          {
+            "outlier_id": "outlier_pupil_mirror",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the eye's 'little human image' branch of ٱلْإِنسَانُ as an optical metaphor. It remains anchored in the focus noun and is activated by the later showing and viewing of human acts; downstream prose should mark it as a gaze-reversal image, not a lexical replacement for 'human.'",
+            "focus_anchor": "The noun ٱلْإِنسَانُ carries a branch image of the human figure reflected in the pupil.",
+            "activation_trace": [
+              {
+                "source_ref": "99:3",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The branch supplies the small human image in the pupil, turning the focus observer into a possible reflected object of vision."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "The branch supplies view, appearance, and mirror, providing the optical field in which the human can be returned as an image."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "The branch supplies making visible, reversing the focus human from questioning viewer into one to whom evidence is displayed."
+              },
+              {
+                "source_ref": "99:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The branch supplies intentional acts as the content reflected back into the human's field of vision."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human looks outward at an altered earth and asks about it.",
+              "after": "The gaze reverses: the outward-looking human becomes figuratively the image in the field of vision as personal acts are displayed back to the observer."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The shaken earth converts the focus question from generic surprise into a breach of the human's familiar ground.",
+            "The adjacent move from human speech to the earth's reports makes 99:3 the opening of a witness handoff rather than a comment on a mute object.",
+            "The reprise from مَا لَهَا to أَوْحَىٰ لَهَا supplies a causal answer: the earth's altered behavior responds to hidden communication under divine sovereignty.",
+            "The later showing of minute acts makes the question retrospectively self-implicating within a disclosure and accountability sequence."
+          ],
+          "what_was_special": "The focus question became a hinge among material disturbance, communicative reversal, and individualized exposure. The packet's split mapping also preserved a contained resonance in which shaken earth produces shaken speech.",
+          "remaining_uncertainties": [
+            "The earth's burdens may be linked to later displayed deeds within one disclosure architecture, or they may remain parallel disclosures.",
+            "The repeated لَهَا may form a deliberate question-and-answer link, or may provide looser discourse cohesion.",
+            "The q-w-l to q-l-l tremor and pupil-mirror readings are branch-level resonances and should not be promoted to lexical substitutions."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Human speech as bewildered perception, not answer.** Lexical evidence: `ق و ل B001` uttered speech; `ء ن س B002` perceiving something into awareness by seeing/sensing/hearing. Structural cue: the human speaks only after earth-shaking and earth-output, before earth itself reports. Assigned role: the human’s saying is the first conscious registration of the event, but it has question-form rather than knowledge. Abductive move: I infer that the speech arises because perception has been forced by visible disturbance; the packet gives perception and utterance, I supply the cognitive lag. Reading change: `ما لها` reads less as a rhetorical phrase and more as human awareness catching up to a nonhuman disclosure already underway.\n\n2. **The human as visible presence confronted by a speaking lower world.** Lexical evidence: `ء ن س B001` visible human presence over against hidden/wild beings; activated by `ء ر ض B001` lower ground in 99:1-2 and `ح د ث B003` earth’s speech/report in 99:4. Structural cue: the named human stands between earth’s output and earth’s report. Assigned role: the human is the visible conscious party who assumed the ground was mute, now facing an interlocutor from below. Abductive move: I supply that “earth speaks” reverses the normal human/ground hierarchy: the visible human becomes listener/questioner. Reading change: the ayah reads as social reversal: humanity loses exclusive control of speech.\n\n3. **Question as circulating public talk.** Lexical evidence: `ق و ل B007` circulating talk/public report; activated by `ن و س B001` people’s swaying mass and `ش ت ت B001` scattered groups in 99:6. Structural cue: a singular `الإنسان` speaks, but later the mass of `الناس` issues in groups. Assigned role: the singular utterance condenses a collective public panic. Abductive move: I infer that the singular human can represent the aggregate whose talk will become many reports because the packet shifts from singular human to people in dispersion. Reading change: `وقال الإنسان` reads as the eruption of shared human discourse, not a lone individual’s sentence.\n\n4. **Inner saying exposed into speech.** Lexical evidence: `ق و ل B012` unspoken inner saying; `ق و ل B011` saying as supposing; activated by `ر ء ي B002` reflective judgment/opinion in 99:6-8 and `خ ب ر B001` inner knowledge in 99:4. Structural cue: the human’s `ما لها` precedes true news; it is a supposition/question before tested knowledge. Assigned role: speech reveals the interior uncertainty of the human. Abductive move: I supply that question-form discloses an inward judgment gap, because the packet later replaces supposition with seeing. Reading change: the ayah reads as exposure of human interiority before exposure of deeds.",
@@ -12090,14 +12757,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s099/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 63,
+        "ayah_count": 8,
+        "row_count": 56,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12389,10 +13062,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s99/packets/99_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s99/readers/reader_hft_a/99_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s099",
+        "latent_activation/focus_trace/runs/s99"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s99",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 101712,
+      "split_root_count": 5,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

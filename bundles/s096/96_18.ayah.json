@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:15.742907+00:00",
+  "generated_at": "2026-08-18T13:34:19.068949+00:00",
   "surah": 96,
   "ayah": 18,
   "ayahRef": "96:18",
@@ -923,7 +923,8 @@
         "m-w-s096-a018-w001-01",
         "m-w-s096-a018-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "96:18:1"
+      "aligned_qac_word_ref_upstream": "96:18:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -939,7 +940,8 @@
         "m-w-s096-a018-w002-01",
         "m-w-s096-a018-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "96:18:2"
+      "aligned_qac_word_ref_upstream": "96:18:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1425,7 +1427,996 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s96/packets/96_18.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "96:18",
+      "window": [
+        "96:1",
+        "96:2",
+        "96:3",
+        "96:4",
+        "96:5",
+        "96:6",
+        "96:7",
+        "96:8",
+        "96:9",
+        "96:10",
+        "96:11",
+        "96:12",
+        "96:13",
+        "96:14",
+        "96:15",
+        "96:16",
+        "96:17",
+        "96:18",
+        "96:19"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ع و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000478",
+              "furuq_root_norm": "د ع و",
+              "furuq_source_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 77,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000477",
+              "furuq_root_norm": "د ع ع",
+              "furuq_source_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 22,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط غ ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000937",
+              "furuq_root_norm": "ط غ ي",
+              "furuq_source_root_norm": "ط غ ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 13,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000936",
+              "furuq_root_norm": "ط غ و",
+              "furuq_source_root_norm": "ط غ و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ن د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001487",
+              "furuq_root_norm": "ن د ي",
+              "furuq_source_root_norm": "ن د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 33,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001486",
+              "furuq_root_norm": "ن د و",
+              "furuq_source_root_norm": "ن د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001563",
+              "furuq_root_norm": "ن و د",
+              "furuq_source_root_norm": "ن و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ط و ع",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000956",
+              "furuq_root_norm": "ط و ع",
+              "furuq_source_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 96,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000706",
+              "furuq_root_norm": "س ط ع",
+              "furuq_source_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "96:18",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_dispatching_counterforce",
+            "confidence": "strong",
+            "focus_anchor": "The future first-person plural verb at word 1 directly governs the definite collective at word 2.",
+            "mechanism": "A voiced summons draws agents into range, while their root supplies pushing, collision, prevention, and defensive resistance. The two-word clause therefore performs a dispatch: speech mobilizes embodied counterforce.",
+            "activation_trace": [
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling by speech supplies both the mobilizing act and a vector of drawing the called party near."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Pushing, repelling, collision, and prevention supply the summoned collective's operative function."
+              }
+            ],
+            "changed_reading": {
+              "before": "We will summon the zabaniya.",
+              "after": "An authoritative call mobilizes a force whose work is to meet, repel, and stop."
+            }
+          },
+          {
+            "model_id": "baseline_called_down_consequence",
+            "confidence": "medium",
+            "focus_anchor": "The focus verb can carry an adverse downward consequence, and its object names a force of collision and prevention.",
+            "mechanism": "The call is not only a request for attendance. Its adverse branch allows the summons itself to bring an unwelcome consequence upon the target, with the repelling collective as the concrete form that consequence takes.",
+            "activation_trace": [
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B004",
+                "role": "Calling down something unwelcome turns the verb into the onset of an adverse intervention."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Repelling collision gives the called-down consequence an embodied mode of action."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group will be called to appear.",
+              "after": "The uttered summons brings the hostile consequence into operation as a repelling collision."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_sovereign_speech_gathers",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ء",
+              "س م و",
+              "ر ب ب"
+            ],
+            "mechanism": "The opening joins recited speech, naming, gathering, and lordship. Against that frame, the focus call reads as efficacious sovereign speech: it identifies and gathers the force that will act, rather than merely reporting that someone will be contacted.",
+            "activation_trace": [
+              {
+                "source_ref": "96:1",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation establish voiced language as an enacted command at the surah's opening."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the latent collective effect that the later call makes operational."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "The name as designation makes the opening speech explicitly authority-bearing and identifying."
+              },
+              {
+                "source_ref": "96:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and sovereignty supply the authority under which verbal gathering occurs."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The focus call converts authority-bearing speech into the drawing near of executors."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The gathered collective carries the concrete function of repulsion and prevention."
+              }
+            ],
+            "structural_cues": [
+              "96:1 binds an imperative speech act to the name of the Lord, while 96:18 is another compressed finite speech-action clause.",
+              "The focus places the calling verb before the collective it mobilizes."
+            ],
+            "reader_inference": "The packet supplies recitation, gathering, designation, sovereignty, and calling; I connect them by treating authorized speech as causally efficacious. A live alternative is that the opening frames revelation generally without specifying how the later summons works.",
+            "changed_reading": {
+              "before": "The call requests the attendance of an already defined force.",
+              "after": "Sovereign speech itself identifies, gathers, and dispatches the force that enacts its authority."
+            }
+          },
+          {
+            "model_id": "delta_counterflow_to_false_independence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل ق",
+              "ط غ ي",
+              "غ ن ي",
+              "ر ج ع"
+            ],
+            "mechanism": "The context traces a reversal from original attachment through imagined independence and boundary-overflow to return. The zabaniya's repelling force can therefore be read as counter-pressure that arrests the overflow and turns false self-sufficiency back toward its limit.",
+            "activation_trace": [
+              {
+                "source_ref": "96:2",
+                "root": "ع ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001039",
+                "branch_id": "B001",
+                "role": "Attachment and clinging supply the human starting condition of dependence."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Exceeding the limit in disobedience supplies the boundary violation to be checked."
+              },
+              {
+                "source_ref": "96:6",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B002",
+                "role": "Rising, sweeping water gives the transgression a kinetic image of overflow."
+              },
+              {
+                "source_ref": "96:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency supplies the mistaken condition that drives the overflow."
+              },
+              {
+                "source_ref": "96:8",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return and restoration supply the opposite direction toward which the sequence must turn."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The focus call activates and draws in the counter-pressure."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Repulsion, collision, and prevention provide the force that checks overflow and redirects it."
+              }
+            ],
+            "structural_cues": [
+              "The packet orders attachment in 96:2 before self-sufficiency and overflow in 96:6-7, then explicitly states return in 96:8.",
+              "The focus threat occurs after that directional arc has been applied to the concrete blocker."
+            ],
+            "reader_inference": "The packet supplies dependence, imagined independence, overflow, return, and repulsion; I assign the arrow by making the summoned force reverse the overflow. The agents could instead punish transgression without themselves constituting the return mechanism.",
+            "changed_reading": {
+              "before": "The agents arrive as an externally added punishment.",
+              "after": "They are the counterflow to false independence, stopping an overflow and forcing its trajectory back within the authority it denied."
+            }
+          },
+          {
+            "model_id": "delta_jurisdiction_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "ع ب د",
+              "ص ل و",
+              "ء م ر",
+              "و ق ي",
+              "ر ء ي"
+            ],
+            "mechanism": "One actor tries to stop a servant's prayer, while the questioned alternative joins command with protective restraint and the sequence culminates in divine seeing. The focus summons reverses jurisdiction: coercive prohibition is met by a higher command that dispatches preventers against the would-be preventer.",
+            "activation_trace": [
+              {
+                "source_ref": "96:9",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Rebuke and stopping supply the blocker’s attempted exercise of coercive authority."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship identifies the relation and activity subjected to the blocker’s prohibition."
+              },
+              {
+                "source_ref": "96:10",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "The specific act of worship fixes what the attempted stopping interrupts."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Command and obligation supply a rival, norm-setting direction to the blocker’s prohibition."
+              },
+              {
+                "source_ref": "96:12",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection by warding off harm gives that rival command a preventive orientation."
+              },
+              {
+                "source_ref": "96:14",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Divine sight supplies oversight of the contested act before enforcement is announced."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The call turns superior oversight and command into a dispatched response."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The preventers reverse the blocker’s force by applying prevention to him."
+              }
+            ],
+            "structural_cues": [
+              "96:9-12 alternates the blocking act, the worshipper, and a counter-command before 96:14 states that God sees.",
+              "The focus first-person plural summons follows the failed human claim to regulate worship."
+            ],
+            "reader_inference": "The packet supplies prohibition, worship, counter-command, protection, sight, and dispatched prevention; I infer that the focus enforces the rightful command and protects the worship relation. A live alternative is general retribution for denial rather than a precise jurisdictional reversal.",
+            "changed_reading": {
+              "before": "The verse threatens a wrongdoer with superior force.",
+              "after": "It reverses a usurped jurisdiction: the one who tried to prevent worship becomes the object of divinely dispatched prevention."
+            }
+          },
+          {
+            "model_id": "delta_forelock_execution_chain",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ه ي",
+              "س ف ع",
+              "ن ص ي",
+              "ك ذ ب",
+              "خ ط ء"
+            ],
+            "mechanism": "A conditional failure to stop is followed by an announced grasp at a named bodily control point, then by its moral identification, and finally by the summons. The zabaniya consequently become plausible executors of a targeted restraint already specified before they are called.",
+            "activation_trace": [
+              {
+                "source_ref": "96:15",
+                "root": "ن ه ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001560",
+                "branch_id": "B001",
+                "role": "Stopping and restraint define the unmet condition that triggers enforcement."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "Taking by the forelock supplies the announced physical enforcement action."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock as a graspable point fixes the bodily target of that action."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsehood supplies the first explicit qualification of the targeted forelock."
+              },
+              {
+                "source_ref": "96:16",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Sin and guilt supply the second qualification and make the restraint discriminating rather than indiscriminate."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The summons dispatches personnel into the already specified enforcement sequence."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Pushing, collision, and prevention fit the mechanics of seizing and immobilizing the marked target."
+              }
+            ],
+            "structural_cues": [
+              "96:15 states a condition and bodily action, 96:16 repeats and qualifies the body part, and 96:18 names the summoned collective.",
+              "The target remains singular while the enforcing object in the focus is collective."
+            ],
+            "reader_inference": "The packet supplies non-cessation, forelock seizure, moral marking, summons, and repelling force; I infer that the called collective executes the announced seizure. They could instead be a further escalation after an independently performed grasp.",
+            "changed_reading": {
+              "before": "The zabaniya are an undefined punitive group.",
+              "after": "They enter as the personnel of a preannounced, targeted restraint: seize the morally marked control point and stop its owner."
+            }
+          },
+          {
+            "model_id": "delta_mirrored_mobilizations",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع و",
+              "ن د و"
+            ],
+            "mechanism": "The adjacent clauses repeat the same calling root but oppose their objects. The challenger may summon his local council; the answering speaker summons a collective defined by repulsion. The focus is thus a counter-summons that exposes unequal reach and efficacy between two attempted mobilizations.",
+            "activation_trace": [
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling to draw others near supplies the challenger’s attempted mobilization."
+              },
+              {
+                "source_ref": "96:17",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The council or gathered company makes the challenger’s object a social assembly."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The repeated call answers the challenger in the same mobilizing register."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The answering object differs functionally: it is a collective equipped to repel and prevent."
+              }
+            ],
+            "structural_cues": [
+              "96:17 and 96:18 are adjacent clauses with the calling root at word 1 and a collective object at word 2.",
+              "The first clause challenges him to call, while the second answers with a first-person future."
+            ],
+            "reader_inference": "The packet supplies two calls, a gathered council, and repelling agents; I infer that juxtaposition compares the effectiveness and jurisdiction of the two mobilizations. The sequence can also be read as simple challenge and response without a broader assembly contrast.",
+            "changed_reading": {
+              "before": "The verse independently announces a divine reinforcement.",
+              "after": "It is the answering half of a summons duel: a local social council is countered by a collective whose very function is to break resistance."
+            }
+          },
+          {
+            "model_id": "delta_repulsion_clears_approach",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ع",
+              "س ج د",
+              "ق ر ب"
+            ],
+            "mechanism": "The next ayah orders refusal of obedience, bodily lowering, and approach. This makes the focus dispatch a hinge rather than an endpoint: repelling force clears the blocker’s coercive claim so that the worshipper can refuse, prostrate, and draw near.",
+            "activation_trace": [
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling draws the enforcing collective into the contested space."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "Repulsion and prevention supply a clearing action against the blocker."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "Obedience and compliance define the relation the worshipper is commanded to refuse."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B001",
+                "role": "Lowering and humility supply the worshipper’s chosen bodily orientation after coercion is rejected."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies the positive destination served by the focus verse’s repelling movement."
+              }
+            ],
+            "structural_cues": [
+              "96:18 directly precedes the three coordinated directives in 96:19.",
+              "The sequence moves from summoned force to refused compliance, lowered posture, and approach."
+            ],
+            "reader_inference": "The packet supplies dispatch, repulsion, refusal, prostration, and nearness; I infer that removing coercive obstruction enables the final approach. The final directives may instead be independent reassurance rather than effects of the summons.",
+            "changed_reading": {
+              "before": "The punitive arrival is the scene’s endpoint.",
+              "after": "The dispatch is a clearing action in service of worship: resistance is repelled so refusal, prostration, and approach can proceed."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_pincer_at_the_forelock",
+            "confidence": "exploratory",
+            "containment": "The paired scorpion-claw image is zoological and branch-distant, so it cannot identify the zabaniya or establish their anatomy. It remains anchored in the focus noun and gains local traction from the immediately announced forelock grasp; downstream prose should present it only as an exploratory tactile configuration of seizure.",
+            "focus_anchor": "The focus noun at word 2 carries a paired-claw branch, while 96:15 names grasping the forelock.",
+            "activation_trace": [
+              {
+                "source_ref": "96:15",
+                "root": "س ف ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000713",
+                "branch_id": "B001",
+                "role": "Taking by the forelock supplies the local action that a closing pair could perform."
+              },
+              {
+                "source_ref": "96:15",
+                "root": "ن ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001512",
+                "branch_id": "B001",
+                "role": "The forelock supplies a bounded bodily hold point for the exploratory pincer image."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The call brings the force bearing this grasping configuration into range."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B004",
+                "role": "Paired horns or claws supply the surprising image of force closing from two sides."
+              }
+            ],
+            "changed_reading": {
+              "before": "A collective comes to seize the target in an unspecified way.",
+              "after": "Exploratorily, the called force closes like a paired grasp around the already named bodily control point."
+            }
+          },
+          {
+            "outlier_id": "outlier_split_root_driving_cry",
+            "confidence": "exploratory",
+            "containment": "This activation uses the packet’s non-dominant mapping from د ع و to د ع ع, so it is form-distant and must not replace the ordinary calling sense. The exact focus root and adjacent repeated call keep it structurally anchored; downstream prose should qualify it as a kinetic echo in which calling shades into chiding or forceful driving.",
+            "focus_anchor": "The focus verb at word 1 has a packet-supplied split mapping whose branches include forceful driving and a herding cry.",
+            "activation_trace": [
+              {
+                "source_ref": "96:17",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B003",
+                "role": "A chiding herding cry makes the challenger’s summons sound like an attempt to marshal a group."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Rough thrusting or forceful driving gives the answering call a kinetic push rather than voice alone."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B001",
+                "role": "The object’s own repelling force compounds the exploratory sense of driving force into motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "We will verbally call a force.",
+              "after": "As a split-root kinetic echo, we drive the driving force into action with a coercive cry."
+            }
+          },
+          {
+            "outlier_id": "outlier_opposed_distance_sorting",
+            "confidence": "exploratory",
+            "containment": "Distance from dwellings is a peripheral branch of ز ب ن and should not be promoted to the noun’s ordinary sense. It remains anchored by the focus noun and becomes spatially coherent beside the focus call’s drawing-near vector and 96:19’s explicit approach; downstream prose should mark it as an exploratory sorting of trajectories.",
+            "focus_anchor": "Within the focus, calling draws the summoned party near while the object’s peripheral branch carries withdrawal or distance.",
+            "activation_trace": [
+              {
+                "source_ref": "96:18",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling supplies inward movement as the enforcing collective is drawn near."
+              },
+              {
+                "source_ref": "96:18",
+                "root": "ز ب ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000622",
+                "branch_id": "B005",
+                "role": "Withdrawal away from dwellings supplies the unusual outward vector assigned to the obstructing side."
+              },
+              {
+                "source_ref": "96:19",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Approach and nearness supply the worshipper’s explicit inward destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The summons adds agents to the scene.",
+              "after": "Exploratorily, it spatially sorts the scene: enforcement is drawn near, the obstruction is driven outward, and the worshipper approaches."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus became the counterflow that checks imagined independence and boundary-overflow, not merely an added punishment.",
+            "The prohibition of worship became a jurisdictional reversal in which the would-be preventer is subjected to dispatched prevention.",
+            "The adjacent repeated calls became unequal mobilizations, and the final prostration and approach made repulsion a clearing action rather than the endpoint."
+          ],
+          "what_was_special": "The focus is only two words, yet its call-and-counterforce pairing couples tightly to the surah’s directional machinery: attachment, overflow, return, stopping, bodily seizure, rival assemblies, and opposed movements of repulsion and approach.",
+          "remaining_uncertainties": [
+            "The context strongly links the zabaniya to the forelock threat, but it does not force the conclusion that they themselves perform the announced grasp rather than arrive as a later escalation.",
+            "The paired-claw and distance readings are useful spatial activations but remain peripheral branch images, not secure lexical identifications.",
+            "The non-dominant د ع ع mapping preserves a striking driving-cry echo, but its form distance requires explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The divine counter-call summons repelling enforcers. Evidence: `د ع و B001` calling/drawing near; `د ع و B004` calling down an unwelcome thing; `ز ب ن B001` pushing, repelling, collision, prevention. Structural cue: 96:17 `فليدع` is answered by 96:18 `سندع`, matching the verb while changing speaker and object. Mechanism: the human call draws a council; the divine call draws forces of repulsion. Abductive move: the packet supplies the mirrored call and repelling branch; I infer judicial counter-summons. Reading change: the ayah reads as exact escalation: summons against summons, council against enforcers.\n\n2. `الزبانية` also activates the scorpion-claw image. Evidence: `ز ب ن B004` paired horns/claws of the scorpion, alongside `س ف ع B001` seizure and `ن ص ي B001` forelock. Structural cue: after the forelock threat, the called agents have a root inventory including grasping/repelling appendages. Mechanism: the false front that tried to control worship is met by claw-like repulsion/control. Abductive move: the packet supplies scorpion-claw imagery; I infer a vivid secondary embodiment of enforcement. Reading change: the called agents are not abstract “helpers”; they embody repulsive, gripping force.\n\n3. The no-one/distance branches create a social reversal. Evidence: `ز ب ن B005` distance from dwellings, `ز ب ن B007` no one there, contrasted with `ن د و B001` council gathering. Structural cue: the human summons presumes populated backing; the divine response can empty or distance that social space. Mechanism: the council's presence is neutralized by a call that drives away, distances, and leaves no protective company. Abductive move: the packet supplies council presence and z-b-n absence/distance; I infer a social-emptying effect. Reading change: the ayah reads as stripping the opponent's assembly of protective force.",
@@ -9913,14 +10904,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s096/linguistic/morphemes.tsv",
-        "ayah_count": 20,
-        "row_count": 118,
+        "ayah_count": 19,
+        "row_count": 111,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10121,10 +11118,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s96/packets/96_18.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s96/readers/reader_hft_a/96_18.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s096",
+        "latent_activation/focus_trace/runs/s96"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s96",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 172637,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

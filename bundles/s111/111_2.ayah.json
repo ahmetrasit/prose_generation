@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.384390+00:00",
+  "generated_at": "2026-08-18T13:34:40.824799+00:00",
   "surah": 111,
   "ayah": 2,
   "ayahRef": "111:2",
@@ -1830,7 +1830,8 @@
       "morpheme_ids": [
         "m-w-s111-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:1"
+      "aligned_qac_word_ref_upstream": "111:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1844,7 +1845,8 @@
       "morpheme_ids": [
         "m-w-s111-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:2"
+      "aligned_qac_word_ref_upstream": "111:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1860,7 +1862,8 @@
         "m-w-s111-a002-w003-01",
         "m-w-s111-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:3"
+      "aligned_qac_word_ref_upstream": "111:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1876,7 +1879,8 @@
         "m-w-s111-a002-w004-01",
         "m-w-s111-a002-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:4"
+      "aligned_qac_word_ref_upstream": "111:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1890,7 +1894,8 @@
       "morpheme_ids": [
         "m-w-s111-a002-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:5"
+      "aligned_qac_word_ref_upstream": "111:2:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1904,7 +1909,8 @@
       "morpheme_ids": [
         "m-w-s111-a002-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:6"
+      "aligned_qac_word_ref_upstream": "111:2:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1918,7 +1924,8 @@
       "morpheme_ids": [
         "m-w-s111-a002-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "111:2:7"
+      "aligned_qac_word_ref_upstream": "111:2:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2776,7 +2783,899 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s111/packets/111_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "111:2",
+      "window": [
+        "111:1",
+        "111:2",
+        "111:3",
+        "111:4",
+        "111:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ي د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001693",
+              "furuq_root_norm": "ي د ي",
+              "furuq_source_root_norm": "ي د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 107,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000071",
+              "furuq_root_norm": "ء ي د",
+              "furuq_source_root_norm": "أ ي د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "111:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_failed_insulation",
+            "confidence": "strong",
+            "focus_anchor": "The negated sufficiency verb attaches directly to him, while his wealth is the would-be means.",
+            "mechanism": "The self-sufficiency branch makes wealth an attempted reduction of need and exposure. Negation leaves possession intact but blocks it from becoming independence.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Self-sufficiency and reduced need supply the literal state that the negated verb denies wealth can produce."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Acquired and abundant property supplies the possessed resource that fails to become insulation."
+              }
+            ],
+            "changed_reading": {
+              "before": "His wealth did not benefit him.",
+              "after": "His owned abundance failed to make him independent or reduce his exposure; possession did not become insulation."
+            }
+          },
+          {
+            "model_id": "baseline_stock_flow_substitution",
+            "confidence": "strong",
+            "focus_anchor": "His wealth and whatever he acquired are coordinated under one negated claim of availing.",
+            "mechanism": "The verse couples a stock of property with the process and yield of acquisition. The availing branch asks whether either resource can suffice, spare, or stand in for its owner, and the negation rejects the whole stock-flow system as a substitute.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficing, sparing, and standing in for another define the failed substitutive function."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed wealth supplies the accumulated stock side of the resource system."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Seeking and obtaining benefit supplies the active flow and yield side of the resource system."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth and earnings are two loose items that happened not to help.",
+              "after": "Accumulated capital and the entire gain-producing process jointly fail to spare or replace the person who owns them."
+            }
+          },
+          {
+            "model_id": "baseline_outward_gain_network",
+            "confidence": "exploratory",
+            "focus_anchor": "The open object of acquisition can probe more than gains retained by the subject.",
+            "mechanism": "The branch in which acquisition brings gain to someone else opens a form-distant but live reading of an outward benefit network. What fails may include not only private earnings but gains, beneficiaries, or dependencies produced through him.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B002",
+                "role": "Causing another to receive gain supplies the outward transmission model, though its construction is more specific than the focus form."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Availing or standing in for someone makes the transmitted network relevant as a possible source of rescue."
+              }
+            ],
+            "changed_reading": {
+              "before": "What he earned means only his privately retained proceeds.",
+              "after": "What he acquired may also probe gains he caused to reach others and the outward network expected to avail him."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_severed_agency_balance_sheet",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ب ب",
+              "ي د ي"
+            ],
+            "mechanism": "Cutting and loss strike the hands, while hand branches explicitly name ownership and what hands earn. The focus then reads as a post-collapse balance sheet: held capital and agentive output remain legible as categories after the agency behind them has been severed.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed property supplies the stock left on the disabled agency's balance sheet."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Obtained gain supplies the output formerly produced by that agency."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ت ب ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_000172",
+                "branch_id": "B004",
+                "role": "Cutting turns the preceding loss into a disabling break rather than a mere decline in asset value."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B004",
+                "role": "The owning hand links bodily agency to the focus ayah's possessed wealth."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B009",
+                "role": "What the hands earn directly links disabled agency to the focus ayah's acquisition term."
+              }
+            ],
+            "structural_cues": [
+              "111:1 repeats the loss verb around the hand and name construction, then 111:2 inventories wealth and acquisition."
+            ],
+            "reader_inference": "The packet supplies cutting, the owning hand, and what hands earn; I infer that the two focus resources are residues of a disabled agency. A live alternative is that the hands remain only the object of loss and the next ayah gives an independent reason.",
+            "changed_reading": {
+              "before": "A functioning resource system simply proves inadequate.",
+              "after": "Wealth and acquisition are the surviving entries of an agency already cut off, so their failure is structural rather than a shortage of quantity."
+            }
+          },
+          {
+            "model_id": "delta_support_and_shelter_fail",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي د ي"
+            ],
+            "mechanism": "The split mapping activates hand as force alongside supporting strength and a protective enclosure. Wealth's failed sufficiency therefore expands from purchasing failure to collapse of backing, reinforcement, and shelter.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Independence and reduced need define the protected state wealth was expected to create."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B002",
+                "role": "Hand as force supplies the dominant mapping's image of effective backing."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped root contributes supporting strength as a latent function wealth cannot provide."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B002",
+                "role": "The protective enclosure sharpens failed independence into failed shelter."
+              }
+            ],
+            "structural_cues": [
+              "One source occurrence is deliberately preserved with dominant and non-dominant mapped roots, allowing support and enclosure to coexist with the hand."
+            ],
+            "reader_inference": "The packet supplies force, supporting strength, and enclosure from the split mapping; I infer that these functions can specify what wealth failed to do. The non-dominant mapping may instead be only a remote lexical resonance with no syntactic force here.",
+            "changed_reading": {
+              "before": "Wealth failed as material insulation.",
+              "after": "Wealth also failed as backing power and protective shelter: neither force nor enclosure could be converted from possession."
+            }
+          },
+          {
+            "model_id": "delta_paternal_transmission_failure",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ب و"
+            ],
+            "mechanism": "Fatherhood and nurture give social direction to the outward-gain branch. The acquisition term can now probe a legacy or dependent network to which benefit was transmitted, while the negated availing clause denies that this social reproduction can return as rescue.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B002",
+                "role": "Bringing gain to another supplies the focus-anchored direction from acquirer toward beneficiaries."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Standing in for someone supplies the hoped-for return function that the network fails to perform."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Fatherhood and nurture supply an intergenerational or dependent channel for outwardly transmitted gain."
+              }
+            ],
+            "structural_cues": [
+              "The paternal title precedes the possessive wealth and implicit acquiring subject, placing personal resources inside a named social identity."
+            ],
+            "reader_inference": "The packet supplies fatherhood and gain delivered to another; I infer a legacy or dependent network and a failed return of support. A live alternative is that the paternal expression functions only as a fixed identifier and does not activate transmission.",
+            "changed_reading": {
+              "before": "The outward-gain reading concerns an unspecified circle of beneficiaries.",
+              "after": "It can specifically include a nurtured legacy or dependent network whose received gains still cannot stand in for its source."
+            }
+          },
+          {
+            "model_id": "delta_title_materializes_as_exposure",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ه ب"
+            ],
+            "mechanism": "The same root is available first as a name or title and later as an actual tongue of flame, with the failed-resource ayah between them. Wealth and acquisition become an attempted buffer between named identity and materialized consequence, but they cannot interpose.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sparing or standing in for the person supplies the buffer function denied in the focus."
+              },
+              {
+                "source_ref": "111:1",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B006",
+                "role": "The name-or-title branch supplies a socially carried identity before the focus ayah."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "The flaming tongue supplies the material condition into which the title is made to resolve."
+              }
+            ],
+            "structural_cues": [
+              "The repeated root occurs on both sides of 111:2, changing from a personal designation in 111:1 to the quality of fire in 111:3."
+            ],
+            "reader_inference": "The packet supplies the title branch, the flame branch, and their bracketing recurrence; I infer an identity-to-consequence movement with wealth as failed buffer. The alternative is a sharp lexical echo without a causal claim about identity.",
+            "changed_reading": {
+              "before": "Wealth cannot avert an external danger.",
+              "after": "Wealth cannot separate the owner from a danger already folded into his public designation; the title becomes exposure."
+            }
+          },
+          {
+            "model_id": "delta_heat_discloses_non_substitutability",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل ي",
+              "ن و ر"
+            ],
+            "mechanism": "Encounter with heat, fire's capacity to straighten or work material, and the branch of conspicuous clarity turn the failed substitution into an exposure test. The stock-flow system is not merely declared useless; contact with the coming condition makes its inability to stand in for the bearer manifest.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Standing in for or sparing the bearer defines the capacity tested under exposure."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Accumulated benefit supplies the acquired material whose practical efficacy is being tested."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat supplies direct exposure rather than distant possession."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Fire that works or straightens material supplies the image of a condition that tests and alters what meets it."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B011",
+                "role": "Conspicuous clarity supplies the disclosure function: failed efficacy becomes visible."
+              }
+            ],
+            "structural_cues": [
+              "The completed negated availing in 111:2 is followed by a future encounter in 111:3, so prior accumulation cannot preempt what is coming."
+            ],
+            "reader_inference": "The packet supplies heat encounter, fire-working, and conspicuous clarity; I infer a test-and-disclosure arrow from exposure to manifest non-substitutability. The live alternative is simple temporal sequence with no assay-like mechanism.",
+            "changed_reading": {
+              "before": "The verse states a static verdict that resources did not help.",
+              "after": "The coming encounter functions as the condition that exposes why accumulated resources cannot substitute for their bearer."
+            }
+          },
+          {
+            "model_id": "delta_household_surety_reverses",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ر ء",
+              "ح م ل",
+              "ح ط ب"
+            ],
+            "mechanism": "Marriage as sufficiency or protection meets the wife, carrying as surety or burden, and collected fuel. A household relation that could have been mutual protection reverses into a liability circuit in which the partner carries what intensifies exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B006",
+                "role": "Marriage as sufficiency and protection supplies the focus-anchored expectation of household shelter."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B002",
+                "role": "Gain transmitted to another supplies reciprocal economic circulation inside the relationship."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "م ر ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001409",
+                "branch_id": "B001",
+                "role": "The woman or wife supplies the concrete relational counterpart that activates the marriage branch."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B004",
+                "role": "Surety and guarantee supply the expected protective function of carrying for another."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing a burden or liability reverses guarantee into carried exposure."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Collected fuel gives the carried liability a material function: it feeds rather than blocks the danger."
+              }
+            ],
+            "structural_cues": [
+              "The possessive relation in his wealth is echoed by his wife, but the latter is grammatically presented as an active carrier."
+            ],
+            "reader_inference": "The packet supplies marriage-as-protection, wife, surety, burden, and fuel; I infer a reversal from household shelter to reciprocal liability. A live alternative is that the wife is an independently responsible agent rather than a component of his failed resource system.",
+            "changed_reading": {
+              "before": "Only individual money and individual earnings fail.",
+              "after": "Relational capital and household guarantee also fail, and may reverse into a partner-mediated circuit that carries fuel toward the shared exposure."
+            }
+          },
+          {
+            "model_id": "delta_indiscriminate_gain_becomes_fuel",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ط ب"
+            ],
+            "mechanism": "The night collector who mixes bad and good changes acquisition from successful increase into indiscriminate gathering. Once heterogeneous gains are reduced to one stock, the fuel branch gives that stock a destructive use: quantity accumulates while qualitative discrimination disappears.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possession and abundance supply the growing stock produced by accumulation."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Seeking and obtaining gain supplies the repeated gathering process."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B002",
+                "role": "The night collector's mixing of bad and good turns gain-seeking into acquisition without discrimination."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B001",
+                "role": "Collected wood as fuel assigns the mixed stock a use that intensifies the threat."
+              }
+            ],
+            "structural_cues": [
+              "The intensive carrier expression is immediately joined to a gathered material, making collection and transport one repeated process."
+            ],
+            "reader_inference": "The packet supplies gain-seeking, mixed collection, and fuel; I infer that indiscriminate accumulation converts heterogeneous acquisitions into combustible stock. The alternative is that the collector image belongs only to the literal fuel scene and does not classify the focus gains.",
+            "changed_reading": {
+              "before": "More accumulated gain simply fails to reach a sufficient amount.",
+              "after": "The defect may be in accumulation itself: gains gathered without discrimination become a uniform stock whose eventual function is fuel."
+            }
+          },
+          {
+            "model_id": "delta_acquisitions_braided_into_constraint",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ي د",
+              "ح ب ل",
+              "م س د"
+            ],
+            "mechanism": "Acquisition supplies repeated increments; the extended binding rope and twisted fiber supply assembly from strands; the neck supplies bodily placement. The result is a cumulative reversal in which what was successively gained is imagined as the material from which constraint is made.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Repeated seeking and obtaining supply the incremental units available for cumulative assembly."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck supplies the point where an abstract accumulation becomes bodily constraint."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "An extended rope that binds and leads supplies the constraining function of the assembled gains."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "م س د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001422",
+                "branch_id": "B001",
+                "role": "Twisted rope supplies the material operation by which many increments become one durable bond."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from an open acquisition total in 111:2 through carrying in 111:4 to a specified twisted rope at the neck in 111:5."
+            ],
+            "reader_inference": "The packet supplies incremental gain, carrying, binding rope, twist, and neck; I infer that acquisitions are strand-like inputs braided into constraint. The live alternative is that the rope has no material relation to the earlier gains.",
+            "changed_reading": {
+              "before": "What he acquired is inert property that merely fails to rescue him.",
+              "after": "Successive acquisitions can be read as self-assembling liabilities: the increments are braided into the bond that constrains rather than saves."
+            }
+          },
+          {
+            "model_id": "delta_security_bond_reverses",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ي د",
+              "ح ب ل"
+            ],
+            "mechanism": "A rope can be covenant, security, and connection, but also a line that binds and leads. Placed at the neck, the same relation reverses from external support into control, sharpening failed independence into dependence on the very bond expected to secure it.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B001",
+                "role": "Independence and reduced need supply the state that a security bond was expected to support."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck turns the abstract relation into direct control over the person."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B002",
+                "role": "Covenant, security, and connection supply the protective social reading of the bond."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B001",
+                "role": "Binding and leading supply the reversal from support relation to restraint."
+              }
+            ],
+            "structural_cues": [
+              "The rope is not merely nearby; the prepositional placement fixes it at the neck, where connection becomes control."
+            ],
+            "reader_inference": "The packet supplies both security-connection and binding-leading branches for the same rope root; I infer a functional reversal when the bond is placed at the neck. The alternative is a purely physical rope with no covenantal activation.",
+            "changed_reading": {
+              "before": "Failed independence means wealth could not provide enough external support.",
+              "after": "The supporting connection itself can reverse into dependence: a bond expected to secure the person becomes the bond by which the person is led."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_wealth_web_catches_owner",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the spider term under the wealth root is remote and explicitly attribution-dependent. It remains anchored in the focus wealth word and gains coherence from the packet's trap and neck branches. Render it only as a speculative material analogy, never as the lexical translation of the focus noun.",
+            "focus_anchor": "The focus wealth root carries a secondary spider branch, while the later rope can function as a catching device at the neck.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B002",
+                "role": "The reported spider term supplies the web-like material analogy for wealth."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "The catching snare turns a wealth-web from support structure into a device that captures."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ج ي د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000284",
+                "branch_id": "B001",
+                "role": "The neck locates the capture on the owner rather than on an external victim."
+              }
+            ],
+            "changed_reading": {
+              "before": "Wealth is a solid asset that happens to offer no protection.",
+              "after": "Exploratorily, wealth is a web of holdings whose own structure catches the owner."
+            }
+          },
+          {
+            "outlier_id": "outlier_predatory_gain_meets_its_trap",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the hunting-creature image names kawasib rather than directly glossing the focus verb. It remains anchored in the acquisition root and is independently activated by two packet trap branches. Render it as a reversal of acquisition ethics or mechanics, not as a claim that the verse literally calls the subject a predator.",
+            "focus_anchor": "The focus acquisition root contains a predatory-hunter branch, allowing gain to be modeled as capture.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B003",
+                "role": "Predatory or hunting earners supply acquisition as active capture."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B005",
+                "role": "Snares and traps supply the first reversal from hunter to exposed quarry."
+              },
+              {
+                "source_ref": "111:5",
+                "root": "ح ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000291",
+                "branch_id": "B005",
+                "role": "The catching device at the end of the sequence completes the reversal into entrapment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Acquisition is neutral gain that cannot help.",
+              "after": "Exploratorily, predatory acquisition reverses direction: the one organized around capture becomes the one caught."
+            }
+          },
+          {
+            "outlier_id": "outlier_vocal_capital_feeds_flame",
+            "confidence": "exploratory",
+            "containment": "This is surprising because song or vocal modulation is form-distant from the causative sufficiency verb. It remains root-anchored and is activated by the context branch in which carried wood figures gossip or hostile report, followed by flame. Render it as a possible voice-and-reputation economy, explicitly qualified as phonological or branch resonance rather than direct morphology.",
+            "focus_anchor": "The focus sufficiency root carries a vocal branch, while acquired benefit can include reputation produced through speech.",
+            "activation_trace": [
+              {
+                "source_ref": "111:2",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B003",
+                "role": "Song and vocal modulation supply a form-distant voice channel for attempted availing."
+              },
+              {
+                "source_ref": "111:2",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Obtained benefit supplies the reputational or social yield that voice might accumulate."
+              },
+              {
+                "source_ref": "111:4",
+                "root": "ح ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000335",
+                "branch_id": "B003",
+                "role": "Carrying wood as gossip or hostile report turns speech from capital into transported fuel."
+              },
+              {
+                "source_ref": "111:3",
+                "root": "ل ه ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001379",
+                "branch_id": "B001",
+                "role": "Flame supplies the endpoint fed by the speech-as-fuel mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only material wealth and material proceeds fail.",
+              "after": "Exploratorily, vocal or reputational capital also fails and may reverse into speech that feeds the very exposure it was meant to overcome."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The hand and cutting branches recast wealth and acquisition as a post-collapse balance sheet of disabled agency.",
+            "The repeated flame root brackets the focus and turns resources into a failed buffer between public identity and material consequence.",
+            "Marriage, surety, burden, and fuel extend the failure from private assets to a household relation that can reverse into liability.",
+            "Rope, twist, and neck recast successive acquisitions as strands assembled into constraint and security connection as a bond that controls."
+          ],
+          "what_was_special": "The focus supports several coexisting resource models: wealth as insulation, as substitute, as stock joined to acquisition flow, and as an outward benefit network. Context does not merely confirm failure; it changes the mechanics through severance, support collapse, title materialization, household reversal, indiscriminate collection, and self-braiding constraint, while the web, hunting, and voice readings remain live under explicit containment.",
+          "remaining_uncertainties": [
+            "The outward-gain branch is construction-sensitive, so extending the simple focus verb to beneficiaries or legacy remains exploratory.",
+            "The non-dominant hand mapping may reveal latent support and enclosure, but it may also be too remote to bear syntactic weight.",
+            "The heat-test and braided-acquisition models infer directional mechanisms from sequence and material analogy rather than receiving those arrows directly from the packet.",
+            "The spider, hunting, and vocal branches should remain exploratory resonances and must not be promoted into direct lexical glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Wealth fails specifically as substitute protection.** Branch evidence: `غ ن ي` B002, sufficing/availing/replacing; `غ ن ي` B001, wealth and self-sufficiency; `م و ل` B001, acquiring and having property; later `ح ب ل` B002, covenant/protection/connection; `ح م ل` B004, guarantee and indemnity. Structural cue: the denial of availing is followed by a spouse who carries and a rope that may signify protection or bond. Assigned role: wealth is tested as a would-be replacement shield, pledge, or guarantor. Abductive move: I infer that social-legal protection images later in the packet activate what wealth was expected to do. Reading change: the ayah is not simply \"money did not help\"; it says the whole economy of substitution, guarantee, and protective bond collapses.\n\n2. **What he earned becomes feedstock instead of defense.** Branch evidence: `ك س ب` B001, seeking/obtaining livelihood or benefit; `م و ل` B001, property; later `ح ط ب` B001, firewood gathered as fuel; `ل ه ب` B001, kindled flame; `ص ل ي` B004, kindling/fuel/fire-straightening. Structural cue: gain and property precede the firewood carrier and the flame. Assigned role: earnings supply the acquisition-side of a fuel economy. Abductive move: I supply the transformation arrow: accumulations that were meant to benefit are converted by the later imagery into combustible material. Reading change: \"what he earned\" is no longer neutral profit; it can be read as stored fuel for the fire-system.\n\n3. **The hands' deeds are separated from the person and then denied efficacy.** Branch evidence: earlier `ي د ي` B009, hands as one's act; `ي د ي` B004, possession; `ك س ب` B001, self-acquisition; `ك س ب` B002, bringing gain to someone else. Structural cue: 111:1 isolates the hands; 111:2 names his property and acquired output; 111:4 shows another person bearing. Assigned role: `كَسَبَ` gathers both personal earning and what one causes to be gained or carried by another. Abductive move: I infer that the wife-carrier later makes \"what he earned\" socially distributed rather than purely private. Reading change: the ayah reads as judgment on a network of acts and induced acts, not only on private assets.\n\n4. **Settled dwelling is made homeless by non-avail.** Branch evidence: `غ ن ي` B004, dwelling/staying long/former habitations; `م و ل` B001, property; later `ح م ل` B001, transport and outward load; `ح ب ل` B001, leading/binding rope. Structural cue: the wealth statement stands between the perishing person and a moving/carrying scene. Assigned role: the dwelling branch tests whether wealth creates a settled place. Abductive move: I infer a spatial reversal: what seemed to establish him becomes unable to keep him in place. Reading change: the denial of `أَغْنَى` also reads as loss of settled security, not only failure of payment.",
@@ -8881,14 +9780,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s111/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 39,
+        "ayah_count": 5,
+        "row_count": 32,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9144,10 +10049,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s111/packets/111_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s111/readers/reader_hft_a/111_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s111"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s111",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 59376,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

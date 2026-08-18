@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.458293+00:00",
+  "generated_at": "2026-08-18T13:34:16.331224+00:00",
   "surah": 95,
   "ayah": 7,
   "ayahRef": "95:7",
@@ -1880,7 +1880,8 @@
       "morpheme_ids": [
         "m-w-s095-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:1"
+      "aligned_qac_word_ref_upstream": "95:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1894,7 +1895,8 @@
       "morpheme_ids": [
         "m-w-s095-a007-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:2"
+      "aligned_qac_word_ref_upstream": "95:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1910,7 +1912,8 @@
         "m-w-s095-a007-w002-01",
         "m-w-s095-a007-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:3"
+      "aligned_qac_word_ref_upstream": "95:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1924,7 +1927,8 @@
       "morpheme_ids": [
         "m-w-s095-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:4"
+      "aligned_qac_word_ref_upstream": "95:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1938,7 +1942,8 @@
       "morpheme_ids": [
         "m-w-s095-a007-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:5"
+      "aligned_qac_word_ref_upstream": "95:7:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1954,7 +1959,8 @@
         "m-w-s095-a007-w004-02",
         "m-w-s095-a007-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "95:7:6"
+      "aligned_qac_word_ref_upstream": "95:7:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3668,7 +3674,1235 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:7",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_evidentiary_reckoning",
+            "confidence": "strong",
+            "focus_anchor": "The interrogative construction joins the causative-denial verb to temporal afterness and to dīn.",
+            "mechanism": "Declaring a claim false, followed by an explicit temporal threshold and the reckoning branch of dīn, makes the question search for any remaining ground capable of producing denial.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring a person or claim false supplies the denial whose possible cause the interrogative tests."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness supplies a threshold already crossed, making any subsequent denial answerable to what preceded it."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense identify the proposition being treated as false."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare question asks why the addressee denies religion.",
+              "after": "The line is an evidentiary challenge: after a threshold has been reached, what possible ground remains for treating reckoning and recompense as false?"
+            }
+          },
+          {
+            "model_id": "baseline_credibility_impeachment",
+            "confidence": "medium",
+            "focus_anchor": "The object suffix on the denial verb permits attention to the addressee as the one who may be declared false, while dīn can concern crediting someone in judgment.",
+            "mechanism": "The false-attribution branch and the judicial-credit branch reverse the usual direction of agency: the question can ask what could discredit the addressee concerning the account, not only what makes the addressee deny it.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood to a person makes the addressee a possible object of discrediting."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness marks the point beyond which an impeachment of credibility would need new force."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Crediting a person in judgment supplies a forensic setting for testing the addressee's truthfulness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressee is simply the agent who denies.",
+              "after": "The addressee may also be the one whose credibility is challenged: what, after this, could still impeach you in the matter submitted to judgment?"
+            }
+          },
+          {
+            "model_id": "baseline_charge_performance",
+            "confidence": "exploratory",
+            "focus_anchor": "The denial root carries branches of obligation and of a charge proving true or false by whether it is carried through.",
+            "mechanism": "Obligation supplies a commission, performance makes that commission true or false in action, and dīn as obedience supplies its governing relation. Denial thus becomes enacted failure rather than only a false proposition.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B003",
+                "role": "The formula of urging or incumbency supplies a charge laid upon the addressee."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge proving true only when carried through turns truth into performed fidelity."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness locates the performance test beyond a prior commissioning point."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission identify the relation in which the charge must be carried through."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is an inward opinion or spoken claim.",
+              "after": "The question can probe enacted falsification: what makes you fail to carry an incumbent charge through after it has been laid upon you?"
+            }
+          },
+          {
+            "model_id": "baseline_deferred_due",
+            "confidence": "medium",
+            "focus_anchor": "Temporal afterness stands directly beside a dīn branch of debt and credit.",
+            "mechanism": "The packet supplies laterness and a financial due; taking laterness as the maturity of that due is the model's abductive link. The denial verb then becomes repudiation of an obligation once it comes due.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Denying or disproving supplies the act of disputing a claim made upon the addressee."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Laterness supplies the interval between incurring a due and its maturity."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit turn dīn into an outstanding due rather than an abstract label."
+              }
+            ],
+            "changed_reading": {
+              "before": "Dīn denotes religion in general.",
+              "after": "Dīn can be heard as a deferred due: what makes you dispute the claim after the time for settlement has arrived?"
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_organic_yield",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "Edible fruit and extracted oil establish a material yield. Beside the focus branch in which milk disappoints by not lasting, that yield activates an analogy: why should recompense be imagined as the one return that fails after its productive process?",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "A milk yield that disappears or fails expectation supplies the concrete shape of an expected return proving false."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness supplies the delay between a productive process and its yield."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Recompense supplies the moral yield whose expected arrival is being tested."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B001",
+                "role": "The edible fruit supplies a produced good that comes to ripeness and use."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "Oil as extracted olive yield supplies a second transformation whose result is materially realized."
+              }
+            ],
+            "structural_cues": [
+              "The opening pair places an edible fruit beside an oil-bearing product before the focus question."
+            ],
+            "reader_inference": "The packet supplies fruit, oil, and a focus image of a yield failing to last; I supply the arrow from dependable material yield to dependable recompense. The pair may instead function only as oath objects or places, so this remains exploratory.",
+            "changed_reading": {
+              "before": "The question asks abstractly why reckoning is denied.",
+              "after": "The question can challenge a failed-yield expectation: after witnessing processes that bear fruit and oil, why imagine that accountable action alone bears no lasting return?"
+            }
+          },
+          {
+            "model_id": "delta_phase_threshold_reckoning",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ر"
+            ],
+            "mechanism": "The mountain root opens both a limit and successive phases. Those images thicken temporal afterness into a crossed boundary in a staged trajectory, with reckoning as what lies beyond the phase rather than as an unrelated doctrine.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness supplies movement from a prior phase into what follows."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning supplies the accountable destination beyond the threshold."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "A limit at which one stops or crosses gives afterness the geometry of a threshold."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "Successive states supply a phased process through which the addressee moves."
+              }
+            ],
+            "structural_cues": [
+              "A named mountain precedes a sequence about human formation and reversal, allowing its boundary and phase branches to organize that sequence."
+            ],
+            "reader_inference": "The packet supplies boundary, stage, afterness, and reckoning; I infer that the phases lead toward an accountable threshold. A purely locative mountain reading remains live and would weaken this trajectory.",
+            "changed_reading": {
+              "before": "After is only a discourse marker meaning after what was just said.",
+              "after": "After becomes a phase boundary: having crossed a staged course toward accountability, what could still make the destination seem false?"
+            }
+          },
+          {
+            "model_id": "delta_civic_trust_order",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "A bounded polity qualified by security and trust activates dīn as a city of ordered authority and as judicial credit. Denial now resembles a breach of the trust and accountable ordering that make shared security possible.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring false supplies both repudiation of the order and damage to credibility within it."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "A city constituted by ordered authority connects dīn directly to civic organization."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B007",
+                "role": "Crediting someone in judgment supplies the trust procedure within the ordered city."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "A delimited tract of land supplies the bounded civic space in which order operates."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust supply the social condition produced or protected by accountable order."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling credit supplies the opposite relational posture to declaring the order false."
+              }
+            ],
+            "structural_cues": [
+              "The place noun and its trust-bearing adjective form one compact civic unit."
+            ],
+            "reader_inference": "The packet supplies bounded place, security, trust, ordered authority, and judicial credit; I infer that acknowledged accountability helps sustain civic security. The adjective can remain a simple epithet, so the causal civic claim is not forced.",
+            "changed_reading": {
+              "before": "Dīn is a private belief that an individual may deny.",
+              "after": "Dīn can name a trust-bearing public order: what could make you repudiate the accountability by which a secure polity credits persons and maintains order?"
+            }
+          },
+          {
+            "model_id": "delta_embodied_measure_evidence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ء ن س",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "Measured creation, perceptible humanity, goodness, and upright balance assemble an embodied exhibit. The otherwise unspecified afterness now points back to accessible design evidence, making denial of reckoning answerable to the measured capacity already displayed.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring the account false supplies the conclusion placed under evidentiary pressure."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness points to the completed presentation of embodied evidence."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning is the future claim tested against the demonstrated measure."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply deliberate calibration rather than accidental appearance."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by sight, sense, or hearing makes the human exhibit epistemically available."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness opposed to ugliness supplies a qualitative appraisal of the formed human."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness, balance, and evenness supply the configuration in which the measure is realized."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Equal weight and proportion reinforce the image of an assessed, balanced construction."
+              }
+            ],
+            "structural_cues": [
+              "A first-person-plural act of creation is followed by a human object and a superlative measure phrase."
+            ],
+            "reader_inference": "The packet supplies calibrated creation, perceptibility, goodness, balance, and later reckoning; I infer that demonstrated formative capacity is evidence for accountable remeasurement. The description may concern present form alone and need not by itself entail future judgment.",
+            "changed_reading": {
+              "before": "The prior basis indicated by after remains unspecified.",
+              "after": "After points to the addressee's own measured embodiment: what could make reckoning incredible after the responsible power to proportion human life has already been exhibited?"
+            }
+          },
+          {
+            "model_id": "delta_enacted_self_falsification",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ق و م",
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "A complete upright form is followed by return into a lower place or rank. With falsehood in action and a charge failing when not carried through, the focus can ask what makes a human trajectory belie its own bestowed configuration.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsehood in action allows denial to be embodied in a lived trajectory rather than confined to speech."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge that proves false by not being carried through supplies the performance failure."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning evaluates whether the endowed trajectory was carried through truthfully."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete and well-proportioned form supplies the initial endowment that later conduct can affirm or belie."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness supplies the initial directional and normative orientation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Returning something to a place supplies the reversal away from the initial configuration."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "A lower location supplies the opposed endpoint of the reversal."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B002",
+                "role": "Lowness of rank adds a social and evaluative descent to the spatial movement."
+              }
+            ],
+            "structural_cues": [
+              "The creation statement and the return statement form an opposed best-to-lowest sequence.",
+              "The sequential particle before the return marks a consequential turn while leaving its cause unstated."
+            ],
+            "reader_inference": "The packet supplies upright formation, reversal, lowness, false action, and failed performance; I infer that a life can falsify its endowment through its trajectory. A passive decline or imposed reversal remains a live alternative and limits the claim of moral agency.",
+            "changed_reading": {
+              "before": "Denial is merely saying that future judgment is untrue.",
+              "after": "Denial can be self-falsification: what makes a human life contradict its upright measure and fail the charge whose truth is tested at reckoning?"
+            }
+          },
+          {
+            "model_id": "delta_performance_account",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ن",
+              "ع م ل",
+              "ص ل ح",
+              "ء ج ر",
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "Trusted assent is followed by intentional work, fitting repair, wage, negation, and non-depletion. This chain activates dīn simultaneously as debt and recompense, while the denial root's performance branch makes repudiation a failure to honor an already-operative account.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge proving false when not carried through supplies default by failed performance."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply settlement of the performed account."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit supply the outstanding obligation whose settlement can be honored or repudiated."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling credit supplies trusted assent at the opening of the performance chain."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action converts credited assent into performed work."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "Fitness for a thing supplies the criterion by which the work qualifies as account-worthy."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Payment for work supplies the return owed to performed action."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exclusion and negation reverse the depletion condition attached to the reward."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting and diminution supply the termination explicitly excluded from the wage."
+              }
+            ],
+            "structural_cues": [
+              "An exception from the preceding descent contains a belief-action qualification followed by a consequence assigned to its people.",
+              "The reward is immediately modified by a negated depletion term."
+            ],
+            "reader_inference": "The packet supplies credit, intentional work, fitness, wage, negation, cutting, debt, and recompense; I infer a covenantal ledger linking them. Reward may instead be sheer gift rather than earned settlement, so the commercial mechanism does not exhaust the line.",
+            "changed_reading": {
+              "before": "Reckoning is a remote verdict imposed after life.",
+              "after": "Reckoning is the settlement of an account already opened by trust and performed action: what makes one default on a due whose wage structure is already visible?"
+            }
+          },
+          {
+            "model_id": "delta_uncut_return",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ج ر",
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "The focus root can image an expected milk yield that disappears, and afterness can image returns separated by intervals. Reward explicitly protected from cutting reverses that failure pattern, so denial becomes the expectation that accountable return will peter out.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "A milk supply that fails to continue supplies the image of a promised return disappointing expectation."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B007",
+                "role": "Recurrence after intervals supplies the temporal stress under which continuity is tested."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Recompense supplies the return whose durability is at issue."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Wage or recompense identifies the promised return."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Negation excludes the following cutting image from the reward."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "Cutting and gradual diminution specify precisely the failure of duration that is denied."
+              }
+            ],
+            "structural_cues": [
+              "The reward phrase places negation directly before a modifier whose inventory begins with cutting and depletion."
+            ],
+            "reader_inference": "The packet supplies failed duration, interval, reward, negation, and cutting; I infer that the context answers a fear of return failing over time. The milk image is idiomatic and form-distant, so ordinary verbal denial remains the safer grammatical reading.",
+            "changed_reading": {
+              "before": "To deny dīn is to reject that recompense exists.",
+              "after": "To deny dīn can include expecting recompense to behave like a yield that runs dry; the preceding promise activates a return specifically immune to depletion."
+            }
+          },
+          {
+            "model_id": "delta_judicial_closure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ي س",
+              "ء ل ه",
+              "ح ك م"
+            ],
+            "mechanism": "A second negative interrogative names the worshipped authority and repeats the judge root in a superlative construction. It answers the focus question by placing denial inside a hearing whose judge combines adjudication with right knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Declaring false supplies the contested claim brought into the closing judicial question."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Judgment and recompense supply the matter over which the closing authority rules."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "A frozen negative verb supplies the polarity of the rhetorical question that closes alternatives."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one supplies the personal authority to whom the judgment belongs."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judging between people turns dīn's account into an explicit adjudicative scene."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Right-reaching wisdom supplies the competence of the judge who settles the contested account."
+              }
+            ],
+            "structural_cues": [
+              "Two adjacent interrogatives move from asking what produces denial to asking whether the named authority is unsurpassed in judgment.",
+              "The closing superlative repeats the judge root in both head and comparison term."
+            ],
+            "reader_inference": "The packet supplies parallel questions, negation, a named worshipped authority, reckoning, judgment, and right knowledge; I infer that the second question answers the first by locating the competent judge. Dīn may still retain obedience and religion alongside the judicial sense.",
+            "changed_reading": {
+              "before": "The focus question leaves the authority and forum of dīn unstated.",
+              "after": "The focus becomes a courtroom challenge immediately answered by the identity and competence of the judge: what can sustain denial when the account belongs to the unsurpassed adjudicator?"
+            }
+          },
+          {
+            "model_id": "delta_restorative_judgment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل",
+              "ص ل ح",
+              "ء ج ر",
+              "ح ك م"
+            ],
+            "mechanism": "Return into lowness is followed by rectifying action, a recompense branch that mends a crooked break, and judgment that restrains or turns back for correction. Together they activate dīn as restorative accounting, not only punitive verdict.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Denial supplies resistance to the possibility that judgment can rectify rather than merely condemn."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense provide the process re-read as restorative settlement."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Return to a place supplies the reversible movement on which restoration can act."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "Descent to a lower place supplies the damaged condition requiring correction."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Soundness opposed to corruption supplies the target state of restoration."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Mending a crooked fracture turns recompense into an image of repairing what descent has broken."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraint and turning back for correction supply the judge's reparative operation."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from downward return, through an exception defined by fitting action, to a closing judge question."
+            ],
+            "reader_inference": "The packet supplies reversal, lowness, soundness, fracture-mending, corrective restraint, and recompense; I supply the arrow that judgment repairs the broken trajectory. Wage and punitive adjudication remain live alternatives to this restorative model.",
+            "changed_reading": {
+              "before": "Dīn is a terminal sentence imposed on a fallen human.",
+              "after": "Dīn can be the discerning settlement that exposes descent, recognizes rectification, and mends the crooked break: what makes such restorative accountability seem false?"
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_stripped_deceptive_surface",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses the focus root's deceptive-cloth branch with the non-dominant mapped inventory of the return root, where covering is stripped away. It remains anchored in the focus verb's false appearance and in dīn as reckoning, but downstream prose should present it only as an exposure metaphor, not as a claim that the return verb lexically means stripping here.",
+            "focus_anchor": "The focus denial root includes an appearance that deceives like patterned cloth, while dīn supplies the reckoning at which appearance is tested.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A patterned surface that deceives by its condition supplies the possibility that an attractive exterior can belie what it covers."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning supplies the disclosure event at which surface and reality are compared."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete and balanced outward form supplies the potentially impressive surface under examination."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The split root's stripping of what clothes a thing supplies the exposure operation."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B003",
+                "role": "Being stripped of good until hardened supplies the darker possibility revealed beneath the surface."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus concerns a spoken falsehood about judgment.",
+              "after": "The focus can ask what will expose the best-looking human surface as a deceptive covering once the account strips appearance from actual moral substance."
+            }
+          },
+          {
+            "outlier_id": "outlier_interrupted_course",
+            "confidence": "exploratory",
+            "containment": "This reading is strange because it activates the focus root's image of a wild animal running, stopping, and looking back, then joins it to stages, repeated return, and downward direction. It remains anchored in the focus verb and temporal construction, but should be rendered as a kinetic analogy for faltering, never as the verb's primary contextual sense.",
+            "focus_anchor": "The focus denial root has an interrupted-run branch, and temporal afterness can mark the stage at which the course stalls.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Running a stage and then stopping to look behind supplies a vivid shape for faltering after partial progress."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "Afterness marks the completed stage after which the backward glance occurs."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning supplies the destination toward which the interrupted course should continue."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "Successive phases divide the course into stages, making interruption after one stage legible."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B010",
+                "role": "Repetition, back-and-forth movement, and hesitation reinforce the stalled or reversing course."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "Directed movement downward gives the interrupted course a consequential vector."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is a static intellectual position.",
+              "after": "Denial can be pictured as a course that runs one stage, falters, looks back, and turns downward instead of continuing toward its accountable destination."
+            }
+          },
+          {
+            "outlier_id": "outlier_bridled_obligation",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it combines a formula of incumbency with obedience, protective governance, and the judge root's bridle image. It is still anchored in two focus roots and in the final governing root, but downstream prose should keep it as a restraint-and-guidance metaphor and should not collapse dīn into coercion.",
+            "focus_anchor": "The focus denial root can urge an incumbent act, while dīn can name obedience and submission.",
+            "activation_trace": [
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B003",
+                "role": "The urging formula supplies an obligation pressing upon the addressee."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and submission supply the governed response to that obligation."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care, preservation, and governance supply a protective rather than merely coercive function."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle image supplies restraint that directs movement and prevents destructive deviation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question asks only why a proposition is disbelieved.",
+              "after": "The question can ask what makes the well-formed human resist an incumbent, preserving guidance that directs freedom toward accountable order."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Measured, perceptible, upright embodiment gives afterness a concrete evidentiary antecedent and turns denial of reckoning into a challenge against displayed formative capacity.",
+            "The best-to-lowest reversal activates denial as enacted self-falsification: a trajectory can belie its own endowment and fail to carry its charge through.",
+            "Trust, purposeful work, fitness, wage, negation, and non-depletion activate dīn as a live account whose due is performed and settled, not merely a remote doctrine.",
+            "The closing judge question strengthens the forensic reading, while repair and corrective-restraint branches preserve a coexisting restorative rather than solely punitive judgment."
+          ],
+          "what_was_special": "The three focus roots behave as a switchyard rather than a single gloss: the denial root alternates among declaring false, being discredited, failing a charge, and failing expected duration; afterness alternates among sequence, threshold, and interval; dīn alternates among obedience, reckoning, debt, civic authority, and judicial credit. Context activates several coherent crossings without forcing them into one verdict.",
+          "remaining_uncertainties": [
+            "The denial verb can foreground either the addressee as denier or the addressee as one being discredited; the surrounding questions strengthen both directions without fully eliminating either.",
+            "The debt, civic-order, yield, and restorative mechanisms may be analogical activations rather than direct contextual senses of dīn.",
+            "The descent may encode enacted moral failure, passive decline, imposed reversal, or more than one of these, so agency in the self-falsification model remains qualified.",
+            "The stripping, interrupted-course, and bridle readings are deliberately retained as branch-backed outliers and should remain visibly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Denial after staged evidence is an epistemic failure, not lack of data.** Lexical evidence: ك ذ ب B002, declaring someone or something false; ب ع د B002, afterness; د ي ن B002, reckoning/recompense. Structural cue: بعد follows a full sequence of oath signs, creation, fall, exception, and reward. Assigned role: بعد marks the lateness of denial; الدين names the reckoning/recompense now evidenced by the packet's own sequence. Abductive move: I infer that the question asks what active force remains capable of falsifying after evidence has accumulated. Reading change: the ayah reads as a diagnostic question about denial's mechanism, not simply a rebuke.\n\n2. **Dīn as the whole obedience-debt-judgment order.** Lexical evidence: د ي ن B001, obedience/submission; د ي ن B002, reckoning/recompense; د ي ن B003, debt/credit; د ي ن B006, city of ordered authority; ء ج ر B001 in 95:6, recompense. Structural cue: the immediately preceding ayah joins عمل and أجر, while 95:8 names the judge. Assigned role: الدين gathers worshipful submission, debt/account, and ordered authority into one system. Abductive move: I infer that the packet activates multiple dīn branches simultaneously because the local context supplies work, recompense, city, and judge. Reading change: \"the dīn\" reads as an integrated order of obedience and requital, not only \"religion\" in isolation.\n\n3. **After-distance can be depth of judgment or ruinous remoteness.** Lexical evidence: ب ع د B001, remoteness; ب ع د B004, being far off as ruin/curse; ب ع د B008, depth of judgment; ب ع د B009, no benefit/worth. Structural cue: بعد sits between the denial verb and الدين. Assigned role: \"after\" is temporal on the surface, but the branch inventory permits distance from nearness, ruinous exclusion, or far-reaching judgment. Abductive move: I infer that denial after evidence creates not only chronological lateness but moral distance from the secure/merciful frame. Reading change: the ayah can ask what sends you far away from judgment's obviousness after all this.\n\n4. **The denier fails to carry through the charge.** Lexical evidence: ك ذ ب B004, whether a charge proves true by being carried through or fails; ك ذ ب B005, not delaying to act; ق و م B003, resolve/rising to undertake; ع م ل B001, intentional action. Structural cue: belief/work in 95:6 is followed by denial in 95:7. Assigned role: denial is not just a false statement; it is a failed charge or failed enactment when measured against the work that would prove assent. Abductive move: I infer that speech-act and action are tested together: a claim is true only if carried through. Reading change: \"what makes you deny\" can mean what makes your charge/action fail after the evidence.\n\n5. **A hidden wild-animal hesitation image.** Lexical evidence: ك ذ ب B007, wild animal runs then stops to look behind; ط و ر B006, wildness beyond domestic limit; ء ن س B003/B004, familiar human-facing side. Structural cue: the surah moves from human formation to return/denial; this reading is exploratory because the branch is narrow. Assigned role: the denier behaves like a creature that cannot remain in the human-facing, familiar order and keeps stopping/looking back. Abductive move: I infer an affective posture from the lexical image of halted wild flight. Reading change: denial becomes a recoil into wild hesitation after the human was made present and upright.",
@@ -11758,14 +12992,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12121,10 +13361,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 92248,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

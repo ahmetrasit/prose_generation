@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.529209+00:00",
+  "generated_at": "2026-08-18T13:34:14.672610+00:00",
   "surah": 94,
   "ayah": 6,
   "ayahRef": "94:6",
@@ -1281,7 +1281,8 @@
       "morpheme_ids": [
         "m-w-s094-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:6:1"
+      "aligned_qac_word_ref_upstream": "94:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1295,7 +1296,8 @@
       "morpheme_ids": [
         "m-w-s094-a006-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:6:2"
+      "aligned_qac_word_ref_upstream": "94:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1311,7 +1313,8 @@
         "m-w-s094-a006-w003-01",
         "m-w-s094-a006-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "94:6:3"
+      "aligned_qac_word_ref_upstream": "94:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1325,7 +1328,8 @@
       "morpheme_ids": [
         "m-w-s094-a006-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "94:6:4"
+      "aligned_qac_word_ref_upstream": "94:6:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1737,7 +1741,827 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s94/packets/94_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "94:6",
+      "window": [
+        "94:1",
+        "94:2",
+        "94:3",
+        "94:4",
+        "94:5",
+        "94:6",
+        "94:7",
+        "94:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ز ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001643",
+              "furuq_root_norm": "و ز ر",
+              "furuq_source_root_norm": "و ز ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 24,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000654",
+              "furuq_root_norm": "ز و ر",
+              "furuq_source_root_norm": "ز و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "94:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_co_present_opening",
+            "confidence": "strong",
+            "focus_anchor": "The construction مع العسر يسرا places indefinite ease in company with the identified hardship rather than explicitly after it.",
+            "mechanism": "Hardship supplies the encompassing constrained condition while ease supplies an opening or readiness already operating inside that condition; the relation is simultaneous before it is sequential.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity supply the constraining condition within which the relational construction works."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening and ease supply an affordance located with, not only after, the constraint."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease is a later state that replaces hardship.",
+              "after": "Within the identified hardship there is already an as-yet-indefinite opening by which it can be inhabited or traversed."
+            }
+          },
+          {
+            "model_id": "baseline_local_dose_of_ease",
+            "confidence": "medium",
+            "focus_anchor": "The definite hardship and indefinite ease permit an asymmetry of scale, sharpened by the small-amount branch of ي س ر.",
+            "mechanism": "The hard condition may occupy the whole named field while ease appears locally as a slight interval, margin, or dose; co-presence does not require equal size.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity provide the large-scale field experienced as hardship."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B002",
+                "role": "Littleness supplies the possibility that the accompanying ease is small yet operationally real."
+              }
+            ],
+            "changed_reading": {
+              "before": "The promised ease must be a complete counter-state proportionate to the hardship.",
+              "after": "A slight but usable easing can coexist with a hardship that still names the whole situation."
+            }
+          },
+          {
+            "model_id": "baseline_means_inside_straitness",
+            "confidence": "medium",
+            "focus_anchor": "Both nouns can be read materially through constricted means and available means while مع keeps them in one economy.",
+            "mechanism": "Scarcity is not treated as absolute emptiness: a margin of solvency, resource, or capacity can remain present inside financial or material straitness.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B002",
+                "role": "Straitness of means turns hardship into a concrete resource constraint."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Prosperity and means supply the usable resource margin accompanying that constraint."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse offers only a general emotional contrast between distress and comfort.",
+              "after": "Even within constricted means, some means-to-act accompanies the shortage and prevents it from being a closed totality."
+            }
+          },
+          {
+            "model_id": "baseline_readiness_instead_of_force",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus roots themselves contrast premature coercion under ع س ر with readiness and pliant movement under ي س ر.",
+            "mechanism": "Part of hardness may arise from taking, speaking, or moving before preparation; ease is the co-present alternative of waiting for readiness and moving responsively.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B008",
+                "role": "Riding or taking before readiness supplies a mechanism in which mistimed force produces hardness."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Becoming ready and open supplies the alternative timing by which the same affair becomes tractable."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Pliant, responsive movement supplies the practical behavior of ease rather than mere comfort."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hardship is an external obstacle, and ease is its external removal.",
+              "after": "Hardness can be intensified by premature forcing, while a ready and responsive way through it is already available."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_opened_inner_capacity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ح",
+              "ص د ر"
+            ],
+            "mechanism": "Opening at the bodily and agentive source turns abstract ease into expanded working capacity inside the person who still occupies hardship.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening anchors the changed reading in the focus word for ease."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarification supply an expansion operation rather than a later replacement event."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue locates that expansion at the point where agency begins."
+              }
+            ],
+            "structural_cues": [
+              "94:1 places an opening at the addressee's chest before 94:6 predicates ease with hardship."
+            ],
+            "reader_inference": "The packet supplies opening and an origin of action; I infer that opening creates room to act within hardship. A live alternative is that the opening is explanatory or affective without being the mechanism of ease.",
+            "changed_reading": {
+              "before": "Ease is an external circumstance that arrives alongside hardship.",
+              "after": "Ease can be an internally opened capacity for action that accompanies an externally hard circumstance."
+            }
+          },
+          {
+            "model_id": "delta_load_reconfiguration",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ع",
+              "و ز ر",
+              "ن ق ض",
+              "ظ ه ر"
+            ],
+            "mechanism": "The context supplies a mechanical chain of lowering a heavy load from a back that audibly strains; ease becomes altered load placement and recovered compliance while the demanding terrain can remain.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity anchor the still-demanding condition after the load relation changes."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Pliant movement supplies the regained mobility produced by better load distribution."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting something into a lower or settled position supplies the load-transfer operation."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "The heavy burden supplies the force whose placement matters."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B005",
+                "role": "Creaking joints or back under weight supplies the observable failure signal of excessive loading."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B002",
+                "role": "The back supplies the load-bearing surface on which strain and relief can coexist."
+              }
+            ],
+            "structural_cues": [
+              "94:2-3 sequences lowering, burden, creaking, and back as a compact load-bearing scene."
+            ],
+            "reader_inference": "The packet supplies lowering, weight, a back, and its creak; I infer the causal arrow from redistributed force to renewed pliancy. The live alternative is a purely moral metaphor in which no mechanical model is intended.",
+            "changed_reading": {
+              "before": "Ease means that the burden or hard task disappears.",
+              "after": "Ease is a changed load-bearing relation—lowering, support, and mobility—that can operate while the hard task remains."
+            }
+          },
+          {
+            "model_id": "delta_recurrent_reopening",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ح",
+              "ن ق ض"
+            ],
+            "mechanism": "Two distinct opening images make ease dynamic: an initial expansion can be followed by closure or strain and then by reopening, so ease is recoverable rather than a single irreversible switch.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening anchors the recurrent process in the focus word."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B001",
+                "role": "Opening and clarification supply the first expansion in the sequence."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ن ق ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001543",
+                "branch_id": "B004",
+                "role": "Reopening after closure supplies recurrence and reversibility rather than a one-time transition."
+              }
+            ],
+            "structural_cues": [
+              "The opening cue in 94:1 and reopening cue in 94:3 precede the doubled hardship-ease statement."
+            ],
+            "reader_inference": "The packet supplies opening and reopening after closure; I infer a cycle in which access can close and be recovered. The alternative is that the two branches describe unrelated actions and only jointly reinforce a broad opening motif.",
+            "changed_reading": {
+              "before": "Ease is one decisive transition out of hardship.",
+              "after": "Ease is the repeated recoverability of an opening within a condition that can tighten again."
+            }
+          },
+          {
+            "model_id": "delta_socially_distributed_ease",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "Raising and circulating mention activate a social channel of ease: recognition, audibility, and standing can increase the range of action even when private difficulty persists.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Expanded means anchor social standing as a possible form of usable ease."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting news supplies outward propagation rather than merely vertical elevation."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on tongues supplies the network through which recognition circulates."
+              },
+              {
+                "source_ref": "94:4",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Repute and honor supply the social capital created by that circulation."
+              }
+            ],
+            "structural_cues": [
+              "94:4 places raised mention immediately before the repeated hardship-ease pair in 94:5-6."
+            ],
+            "reader_inference": "The packet supplies broadcast, circulating mention, and repute; I infer that these create social means that coexist with private strain. The alternative is that elevated mention is a separate benefit rather than an instance of the ease in 94:6.",
+            "changed_reading": {
+              "before": "Ease is only an inward feeling or a reduction of personal pain.",
+              "after": "Ease may also be socially distributed capacity: a name carried, heard, and supported while personal hardship remains."
+            }
+          },
+          {
+            "model_id": "delta_iterated_openings",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع س ر",
+              "ي س ر"
+            ],
+            "mechanism": "The adjacent re-predication turns co-presence into an iterative pattern: the same named hardship is met by a freshly asserted, indefinite opening rather than exhausted by one occurrence.",
+            "activation_trace": [
+              {
+                "source_ref": "94:5",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The first occurrence supplies the recurring field of difficulty."
+              },
+              {
+                "source_ref": "94:5",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The first ease occurrence supplies one ready opening within that field."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "The repeated hardship keeps the difficult field present rather than narrating its disappearance."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated ease renews the opening and makes recurrence visible."
+              }
+            ],
+            "structural_cues": [
+              "94:5 and 94:6 repeat the same root pair and relational construction in adjacent ayat."
+            ],
+            "reader_inference": "The packet supplies exact adjacent repetition; I infer renewed or multiple access to ease rather than a single spent instance. The materially live alternative is emphatic restatement of one proposition with no multiplicative force.",
+            "changed_reading": {
+              "before": "The verse states one static companionship between one hardship and one ease.",
+              "after": "The hard field can be met by repeatedly renewed openings; ease behaves as a pattern of access, not a one-use event."
+            }
+          },
+          {
+            "model_id": "delta_released_capacity_for_exertion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر غ",
+              "ن ص ب"
+            ],
+            "mechanism": "Vacancy after occupation feeds directly into standing up and exerting oneself, revising ease from terminal rest into released capacity that can be committed to another demanding act.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Readiness and opening anchor ease as newly available capacity."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B001",
+                "role": "Vacancy after occupation supplies the release of capacity."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and conspicuous supplies renewed directed engagement."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Exhausting toil keeps effort inside the semantic field that follows ease."
+              }
+            ],
+            "structural_cues": [
+              "94:7 follows the repeated promise with a conditional transition from becoming free to renewed exertion."
+            ],
+            "reader_inference": "The packet supplies post-occupation vacancy, upright setting, and toil; I infer that the opening of 94:6 enables renewed effort. The alternative is that 94:7 gives an ethical response after ease without redefining ease itself.",
+            "changed_reading": {
+              "before": "Ease is passive rest and the endpoint of exertion.",
+              "after": "Ease is freed capacity: enough openness to stand up, choose a new task, and exert oneself again."
+            }
+          },
+          {
+            "model_id": "delta_oriented_cultivable_growth",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب",
+              "ر غ ب"
+            ],
+            "mechanism": "Nurture, growth, spatial breadth, and directed desire turn ease into a cultivable vector: capacity increases by being oriented toward a sustaining source rather than remaining undirected comfort.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Prosperity and means anchor the changed reading in an increase of usable capacity."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion supply the process by which capacity is cultivated."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped branch of feeding and growth keeps literal increase live within the split inventory."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B001",
+                "role": "Desire directed toward or away supplies the vector that channels available capacity."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "Breadth and spatial extension supply room for that directed growth."
+              }
+            ],
+            "structural_cues": [
+              "94:8 follows renewed exertion by specifying a destination for desire."
+            ],
+            "reader_inference": "The packet supplies nurture, a split-mapped growth image, breadth, and directed desire; I infer a growth vector from orientation toward a sustaining source. The alternative is that these cues prescribe devotion after relief without describing the mechanics of ease.",
+            "changed_reading": {
+              "before": "Ease is an undirected pleasant state granted amid hardship.",
+              "after": "Ease is capacity that can be nurtured, enlarged, and given direction toward its sustaining source."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_free_volume",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links bodily opening, material spreading, vessel-emptying, and spatial breadth into one capacity model. It remains anchored in the focus word's ready-opening branch and the construction of coexistence, but downstream prose should present it only as a material analogy, not as a claim that the ayah denotes a literal vessel.",
+            "focus_anchor": "The yusr branch of ready opening, placed with hardship by مع, can support the image of free volume inside a still-bounded system.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ready opening anchors free capacity in the focus word for ease."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ش ر ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000784",
+                "branch_id": "B002",
+                "role": "Spreading and cutting flesh supply a deliberately material image of making internal room."
+              },
+              {
+                "source_ref": "94:1",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B001",
+                "role": "The bodily chest supplies the bounded container in which expansion is imagined."
+              },
+              {
+                "source_ref": "94:7",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring out and emptying a vessel supplies vacant volume after prior occupation."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر غ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000575",
+                "branch_id": "B002",
+                "role": "A wide cavity or spatial extension supplies the resulting breadth."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease is a separate positive event added to hardship.",
+              "after": "Ease can be imagined as free volume opened inside the same loaded system, permitting breath, movement, and renewed work."
+            }
+          },
+          {
+            "outlier_id": "outlier_lateral_reorientation",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because both focus roots unexpectedly carry left-side images and the context cue uses the non-dominant mapping of و ز ر. It remains anchored in exact supplied branches and yields a coherent orientation mechanism, but it should be rendered as a spatial echo rather than a lexical replacement for hardship and ease.",
+            "focus_anchor": "The paired focus roots both admit lateral images, allowing مع to be tested as adjacency and reorientation rather than only scalar opposition.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B005",
+                "role": "The left side and left-handedness turn hardship's root into one lateral orientation."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B004",
+                "role": "The left side, left hand, and turning left make ease's root converge on the same lateral field."
+              },
+              {
+                "source_ref": "94:2",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B001",
+                "role": "The non-dominant split branch of inclination and turning supplies reorientation as a way of changing the load relation."
+              },
+              {
+                "source_ref": "94:3",
+                "root": "ظ ه ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000970",
+                "branch_id": "B018",
+                "role": "Turning a matter back-to-belly supplies a full change of aspect without changing the underlying matter."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hardship and ease are only opposite quantities on one scale.",
+              "after": "A branch-distant spatial echo lets ease appear as turning or changing aspect within the same terrain, not merely reducing its quantity."
+            }
+          },
+          {
+            "outlier_id": "outlier_apportioned_ease",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the lots-and-shares branch of ي س ر together with a context image that gathers lots. It remains anchored in the focus contrast between straitened and available means and offers a functional distribution mechanism, but downstream prose should qualify it as an allocative analogy, not as a gambling sense asserted for يسرا.",
+            "focus_anchor": "The material-means reading of the focus pair can be crossed with the branch in which ي س ر apportions a scarce whole into shares.",
+            "activation_trace": [
+              {
+                "source_ref": "94:6",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B002",
+                "role": "Straitness of means supplies the scarcity problem that requires allocation."
+              },
+              {
+                "source_ref": "94:6",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Lots and division into shares supply allocation as a way to produce usable portions from one constrained whole."
+              },
+              {
+                "source_ref": "94:8",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B010",
+                "role": "The container that gathers lots supplies coordination of the distributive process."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease must mean that more total resource appears.",
+              "after": "Ease may arise by apportioning a constrained whole into usable shares, so better distribution accompanies scarcity without first abolishing it."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus construction first changed a sequential promise into simultaneous access: an opening is already with the hardship.",
+            "The load-bearing sequence changed ease from disappearance of burden into lowering, support, and recovered mobility.",
+            "Adjacent repetition changed one static ease into a repeatedly renewed pattern of openings.",
+            "The post-focus imperatives changed ease from terminal rest into released capacity for directed exertion and growth."
+          ],
+          "what_was_special": "The branch inventories kept several mechanisms alive at once: inner expansion, material load transfer, social circulation, temporal recurrence, resource margins, readiness, and deliberately contained spatial or allocative analogies. None requires the hardship to vanish before ease becomes real.",
+          "remaining_uncertainties": [
+            "The scale reading depends on activating the small-amount branch of ي س ر rather than treating indefiniteness by itself as quantity.",
+            "The social, growth, and renewed-exertion models may describe neighboring benefits or responses rather than the internal semantics of يسرا.",
+            "The free-volume, lateral, and apportionment outliers are coherent cross-branch mechanisms but remain too branch-distant to state without explicit qualification.",
+            "Exact repetition can signal renewed openings or simply emphatic restatement; both readings remain live."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. The repeated line shifts the pattern from consequence to durable rule. Lexical evidence: the same `ع س ر B001` difficulty and `ي س ر B001` ease/readiness recur. Structural cue: 94:5 begins with `فَإِنَّ`, while 94:6 repeats without the initial `فـ`. Assigned role: the first occurrence follows from the preceding acts; the second reasserts the relation as stable in itself. Abductive move supplied by me: repetition changes rhetorical force from inference to anchoring. Reading change: the ayah reads as a second fastening of the ease-hardship relation.\n\n2. The repetition itself behaves like raised memory. Lexical evidence: `ذ ك ر B003/B009` recalling and reminder; `ر ف ع B005` announcing a report. Structural cue: 94:4 raises `ذكر`, and 94:5-6 immediately repeat the saying. Assigned role: the doubled sentence is the content being kept present. Abductive move supplied by me: the raised mention expresses itself as repeated remembrance. Reading change: 94:6 reads not only as semantic repetition but as enacted remembrance.\n\n3. The paired lines enact coexistence rather than sequence. Lexical evidence: `ع س ر B004` entanglement/making difficult, `ي س ر B005` pliant compliant movement, and the shared left-side branches `ع س ر B005` / `ي س ر B004`. Structural cue: the exact pair `العسر / يسرا` is held together twice by `مع`. Assigned role: hardship is an entangling field; ease is the pliant movement possible within it. Abductive move supplied by me: repeated co-presence makes coexistence more salient than before/after progression. Reading change: the ayah becomes training in movement under constraint.\n\n4. A measured-share reading is activated from later `نصب`. Lexical evidence: `ي س ر B007` lots and apportioned camel shares; later `ن ص ب B005` assigned share/portion and `ن ص ب B006` fixed threshold; `ر ب ب B010` container gathering arrows/lots. Structural cue: the later imperative `فانصب` introduces allotted portion/base vocabulary, and final `ربك` includes a branch for gathered lots. Assigned role: ease may be a distributed share within hardship, not total abundance. Abductive move supplied by me: the repeated indefinite `يسرا` can be heard as apportioned openings assigned within one named hardship. Reading change: 94:6 reads as measured provision, not unlimited relief.",
@@ -7756,14 +8580,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s094/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 55,
+        "ayah_count": 8,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7863,10 +8693,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s94/packets/94_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s94/readers/reader_hft_a/94_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s094",
+        "latent_activation/focus_trace/runs/s94"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s94",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 86265,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

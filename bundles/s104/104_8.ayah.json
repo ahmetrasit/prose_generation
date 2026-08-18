@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:24.778605+00:00",
+  "generated_at": "2026-08-18T13:34:31.851683+00:00",
   "surah": 104,
   "ayah": 8,
   "ayahRef": "104:8",
@@ -979,7 +979,8 @@
         "m-w-s104-a008-w001-01",
         "m-w-s104-a008-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:8:1"
+      "aligned_qac_word_ref_upstream": "104:8:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -995,7 +996,8 @@
         "m-w-s104-a008-w002-01",
         "m-w-s104-a008-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "104:8:2"
+      "aligned_qac_word_ref_upstream": "104:8:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1009,7 +1011,8 @@
       "morpheme_ids": [
         "m-w-s104-a008-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "104:8:3"
+      "aligned_qac_word_ref_upstream": "104:8:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1159,7 +1162,808 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s104/packets/104_8.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "104:8",
+      "window": [
+        "104:1",
+        "104:2",
+        "104:3",
+        "104:4",
+        "104:5",
+        "104:6",
+        "104:7",
+        "104:8",
+        "104:9"
+      ],
+      "ayah_count": 9,
+      "split_root_mappings": [
+        {
+          "qac_root": "و ص د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000036",
+              "furuq_root_norm": "ء ص د",
+              "furuq_source_root_norm": "أ ص د",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 2,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001653",
+              "furuq_root_norm": "و ص د",
+              "furuq_source_root_norm": "و ص د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "104:8",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_hermetic_door",
+            "confidence": "strong",
+            "focus_anchor": "The passive result form مُّؤْصَدَةٌ is predicated with عَلَيْهِم, placing the completed closure over or against the occupants.",
+            "mechanism": "Both mapped roots converge on shutting a door firmly. The construction therefore presents an externally completed seal with a directional asymmetry: something can be closed upon the occupants, while they have no corresponding route outward.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over and shutting in supplies the literal completed seal and makes it a containment imposed upon those inside."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The firmly sealed door sharpens the closure from a loose covering into a secured, exit-denying barrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "Something is simply closed.",
+              "after": "A completed seal is fastened over them from the controlling side of the boundary, making non-exit the ayah's primary spatial force."
+            }
+          },
+          {
+            "model_id": "baseline_total_enclosure",
+            "confidence": "strong",
+            "focus_anchor": "مُّؤْصَدَةٌ can activate not only the shut door but the containing enclosure associated with the same focus root.",
+            "mechanism": "The pen and stone chamber images change the geometry from one blocked aperture to a whole containing environment. عَلَيْهِم then reads as the enclosure closing over its contents, not merely a door somewhere beside them.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The enclosing pen contributes containment on several sides and recasts the sealed object as an environment holding what is within."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The stone pen in a mountain gives the enclosure mass, depth, and a chamber-like relation to its confined contents."
+              }
+            ],
+            "changed_reading": {
+              "before": "A door blocks one opening.",
+              "after": "The entire place functions as a containing pen or chamber whose closure comes down over those held within it."
+            }
+          },
+          {
+            "model_id": "baseline_liminal_capture",
+            "confidence": "medium",
+            "focus_anchor": "The focus root also supplies adjoining forecourt, threshold, and doorway images, while عَلَيْهِم marks the people as the side upon which the boundary closes.",
+            "mechanism": "These branches locate the decisive action at an interface joined to a dwelling or chamber. The ayah can therefore be heard as capture at the last threshold: the boundary that might have mediated passage instead becomes the mechanism that fixes inside and outside.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B004",
+                "role": "The courtyard or threshold-close supplies a liminal zone and makes failed passage, rather than mere walling, central to the closure."
+              },
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B002",
+                "role": "The doorway or forecourt joined to a dwelling turns the boundary into an attached interface that can decisively assign the occupants to the inside."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse describes a static sealed location.",
+              "after": "The verse freezes a threshold at the moment it ceases to permit passage and becomes the captor of those on its inner side."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_pressure_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ه م ز",
+              "ل م ز"
+            ],
+            "mechanism": "The opening social acts carry images of surrounding, pressing, and pushing. When the focus seal later closes عَلَيْهِم, those outward acts acquire a material recoil: agents who compressed and displaced others are themselves placed under an all-around, exit-denying pressure.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over and shutting in supplies the terminal enclosure into which the earlier pressure can be reversed."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B005",
+                "role": "The encircling crown contributes an all-around topology, turning totality into circumferential pressure around the agents."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ه م ز",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001600",
+                "branch_id": "B001",
+                "role": "Hand-pressure and squeezing materialize the aggressor's social action as compression that the later seal can return upon him."
+              },
+              {
+                "source_ref": "104:1",
+                "root": "ل م ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001376",
+                "branch_id": "B002",
+                "role": "Pushing supplies the outward displacement that is reversed when the plural objects are shut in rather than able to push others aside."
+              }
+            ],
+            "structural_cues": [
+              "The opening agent nouns precede the later plural pronoun عَلَيْهِم, allowing the same people to move from sources of pressure to recipients of closure."
+            ],
+            "reader_inference": "The packet supplies encirclement, squeezing, pushing, and a seal; I supply the retaliatory arrow from their outward pressure to pressure returned upon them. A live alternative is that the social acts merely identify the occupants and the closure has no mimetic relation to those acts.",
+            "changed_reading": {
+              "before": "The seal is a generic punishment imposed on the named offenders.",
+              "after": "The seal is a spatial reversal of their own practice: those who pressed and pushed people are now compressed inside an all-around boundary."
+            }
+          },
+          {
+            "model_id": "delta_hoard_becomes_clasp",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "م و ل",
+              "ع د د"
+            ],
+            "mechanism": "Gathering draws dispersed units into one grasp, wealth supplies the accumulated contents, and repeated counting keeps re-closing the collection as a controlled total. The focus enclosure reverses possession: the collector's clasped aggregate becomes the form of a clasp around its collector.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The pen containing what lies inside supplies the focus geometry into which the collector's gathered total is reversed."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B005",
+                "role": "The fist closing its fingers provides a concrete clasp for gathering and lets accumulation prefigure the later fastening."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "The taking and multiplying of wealth supplies the contents whose controlled abundance defines the collector's prior agency."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Counting that returns with time contributes iterative rechecking, making the hoard a repeatedly secured total rather than a single acquisition."
+              }
+            ],
+            "structural_cues": [
+              "The chained verbs جَمَعَ and عَدَّدَهُ give the offender active control over bounded contents; عَلَيْهِم later makes him the bounded content."
+            ],
+            "reader_inference": "The packet supplies a closing fist, accumulated wealth, recurrent counting, and an enclosure; I infer an agency reversal in which the practiced clasp becomes a clasp around the practitioner. The live alternative is a simple moral sequence with no material echo between hoarding and sealing.",
+            "changed_reading": {
+              "before": "The hoarder is later placed in an unrelated closed punishment.",
+              "after": "His own logic of gathering, grasping, and repeatedly securing a total returns as an enclosure that gathers and secures him."
+            }
+          },
+          {
+            "model_id": "delta_counterfeit_permanence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س ب",
+              "م و ل",
+              "خ ل د"
+            ],
+            "mechanism": "The imagined causal chain runs from wealth to enduring life. The completed seal does not simply cancel that wish; it grotesquely changes its terms, replacing free persistence through possession with persistence in a condition from which departure is barred.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The securely fastened door converts permanence into enforced non-departure rather than protected life."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Supposition marks the wealth-to-permanence link as the offender's constructed causal model, available for reversal."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Abundant owned wealth supplies the imagined instrument by which the offender expects to secure duration."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Stable continuance resistant to passing away supplies the desired duration that the seal recodes as confinement."
+              },
+              {
+                "source_ref": "104:3",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B002",
+                "role": "Clinging and remaining attached make the revised permanence spatial: the occupant is fixed to the enclosed state."
+              }
+            ],
+            "structural_cues": [
+              "The clause أَنَّ مَالَهُ أَخْلَدَهُ explicitly gives wealth a supposed causative role, while the passive focus form removes the offender's control over the resulting duration."
+            ],
+            "reader_inference": "The packet supplies supposition, wealth, resistant continuance, clinging, and a secured door; I infer ironic fulfillment, with desired permanence reversed into imposed non-exit. A live alternative is that closure only follows the failed belief and does not answer it in the same semantic currency.",
+            "changed_reading": {
+              "before": "The seal merely disproves the belief that wealth grants immortality.",
+              "after": "The seal counterfeits the desired immortality: he receives lastingness as forced attachment to a state he cannot leave."
+            }
+          },
+          {
+            "model_id": "delta_cast_crush_capture",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ذ",
+              "ح ط م"
+            ],
+            "mechanism": "Casting supplies entry velocity and crushing supplies destructive impact, but neither alone explains why the process cannot be escaped. The focus closure becomes the terminal capture phase: what is thrown into the crusher is held inside the operation after impact.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B003",
+                "role": "The stone pen or mountain chamber supplies a hard containing volume that retains what has been cast into it."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Throwing and casting supply the inbound motion, making closure the endpoint of a directed transfer rather than an initially static room."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking a dry thing into fragments supplies the destructive internal operation whose products the enclosure prevents from dispersing."
+              }
+            ],
+            "structural_cues": [
+              "The movement from فِى in 104:4 to عَلَيْهِم in 104:8 sequences entry into the named process and closure over its occupants."
+            ],
+            "reader_inference": "The packet supplies casting, fragmentation, and a stone enclosure; I supply the temporal arrow casting then impact then retention. A live alternative is that the casting and crushing name punishment while the later seal independently states only that escape is impossible.",
+            "changed_reading": {
+              "before": "They are thrown into a crusher that happens also to be closed.",
+              "after": "The closure completes the crusher's mechanism by capturing what is cast in and retaining it through the destructive process."
+            }
+          },
+          {
+            "model_id": "delta_epistemic_seal",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "د ر ي",
+              "ح ط م"
+            ],
+            "mechanism": "The question of being made to know introduces an epistemic boundary around the crusher, while the split-root vortex image gives its hidden interior a turbulent material analogue. The focus seal can thus mark not only blocked bodies but blocked mastery from outside: revelation names the chamber without making its operation ordinary or surveyable.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over supplies the opaque boundary that separates an exterior knower from the chamber's active interior."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowledge and discernment make access to what the crusher is an explicit problem, allowing the seal to acquire an epistemic edge."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "The disturbed water-vortex supplies a form-distant image of an internally circulating process that cannot be read from a calm exterior."
+              },
+              {
+                "source_ref": "104:5",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Fragmentation supplies the concealed operation inside the boundary and keeps the epistemic model anchored to the named crusher."
+              }
+            ],
+            "structural_cues": [
+              "The doubled interrogative frame وَمَا أَدْرَىٰكَ مَا interrupts the physical sequence to stage a problem of access before the fire is identified and finally sealed."
+            ],
+            "reader_inference": "The packet supplies knowing, a split-root vortex, fragmentation, and closure; I infer that the closed material boundary also figures limited external mastery of the process within. A live alternative is that the question only magnifies the crusher rhetorically and the vortex branch contributes no mechanism.",
+            "changed_reading": {
+              "before": "The sealed chamber is fully described once its name and fire are supplied.",
+              "after": "Its seal also marks an epistemic asymmetry: the exterior can be told what it is while the turbulent interior remains resistant to ordinary inspection or mastery."
+            }
+          },
+          {
+            "model_id": "delta_sealed_furnace",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "ء ل ه",
+              "و ق د"
+            ],
+            "mechanism": "Fire, active ignition, fuel, and fire-site images transform the focus enclosure into a furnace. Because the feminine pronoun can resume the preceding fire, the thing closed over them is not merely a room containing flame; the divinely attributed, kindled fire itself forms the enclosing medium, while the seal retains its intensity.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B001",
+                "role": "Closing over and shutting in supplies the furnace seal that prevents both the occupants and the active heat from freely dispersing."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Blazing fire supplies the enclosing medium rather than merely an object located somewhere inside the enclosure."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The divine referent fixes agency and ownership outside the occupants, reinforcing that neither ignition nor closure is under their control."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "The act of kindling makes the enclosure dynamically burning rather than a cold, completed container."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B003",
+                "role": "The hearth or fire-site supplies the furnace architecture in which ignition and closure operate as one system."
+              }
+            ],
+            "structural_cues": [
+              "The feminine singular إِنَّهَا can resume نَارُ ٱللَّهِ ٱلْمُوقَدَةُ, so grammar permits the fire itself to be what is closed over them."
+            ],
+            "reader_inference": "The packet supplies blazing fire, divine attribution, ignition, a fire-site, and closure; I infer a furnace relation in which sealing retains intensity and makes the fire itself environmental. A live alternative is that the seal only denies bodily escape and adds no thermal or systemic function.",
+            "changed_reading": {
+              "before": "A closed chamber contains a separately burning fire.",
+              "after": "The kindled fire itself closes over them as a sealed furnace-medium, so burning and non-exit become one mechanism."
+            }
+          },
+          {
+            "model_id": "delta_one_way_inward_boundary",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ل ع",
+              "ف ء د"
+            ],
+            "mechanism": "The fire ascends to, overlooks, or exposes the inner hearts before it is said to be sealed over the people. This makes the boundary asymmetrical rather than simply impermeable: the destructive agency reaches and reveals the interior, while the sealed occupants cannot cross outward.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The fastened door supplies outward non-passage, the restrictive half of the one-way boundary."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Overlooking and uncovering an affair supply penetrating inspection, making the fire's reach revelatory as well as spatial."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B006",
+                "role": "An ascending access or approach supplies a route inward and upward that contrasts with the occupants' blocked route out."
+              },
+              {
+                "source_ref": "104:7",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The heart viewed as inner ignition makes the reached interior both the target of inspection and a site continuous with the surrounding fire."
+              }
+            ],
+            "structural_cues": [
+              "The relation عَلَى is repeated across تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ and عَلَيْهِم مُّؤْصَدَةٌ, linking inward reach to closure over the whole persons."
+            ],
+            "reader_inference": "The packet supplies ascent, inspection, inward ignition, and a fastened door; I infer directional permeability, with destructive access inward but no occupant passage outward. A live alternative is a temporal sequence in which penetration occurs before a wholly impermeable closure, without any enduring one-way structure.",
+            "changed_reading": {
+              "before": "A seal blocks all crossing in either direction.",
+              "after": "The seal is selectively one-way: fire and exposure reach the innermost self, but the enclosed self has no reciprocal path outward."
+            }
+          },
+          {
+            "model_id": "delta_braced_duration_lock",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م د",
+              "م د د"
+            ],
+            "mechanism": "Supports, columns, and a dam-like blockage give the seal an engineered fastening, while extension supplies both spatial reach and prolonged duration. The closure is therefore not a single moment of shutting but a braced apparatus extended across the boundary and sustained through time.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B001",
+                "role": "The sealed door supplies the aperture that the following supports can brace and keep shut."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B002",
+                "role": "Propping a thing with a support supplies the fastening action that makes the closure structurally maintained."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "ع م د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001043",
+                "branch_id": "B013",
+                "role": "Damming a flow contributes active blockage, casting the columns as impediments to passage rather than neutral scenery."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Drawing something lengthwise until it connects supplies extended bars or supports spanning the closure."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "A term or time made long adds temporal extension, so the fastening persists rather than merely snapping shut once."
+              }
+            ],
+            "structural_cues": [
+              "The postposed phrase فِى عَمَدٍ مُّمَدَّدَةٍ follows immediately after the completed closure and can specify its architecture or condition."
+            ],
+            "reader_inference": "The packet supplies a sealed door, supports, a dam, lengthwise connection, and prolonged time; I infer that the columns function as extended closure hardware and that spatial extension activates duration. A live alternative is that the columns belong to the punishment scene without mechanically bracing the seal, and that extension is only spatial.",
+            "changed_reading": {
+              "before": "The door is shut by an unspecified single act.",
+              "after": "The closure is an engineered and durational lock: braced against release, extended across its boundary, and kept operative through time."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_close_worn_as_membrane",
+            "confidence": "exploratory",
+            "containment": "The under-garment branch is surprising and form-distant from ordinary door closure, but it remains anchored in the focus root and gains spatial support from عَلَيْهِم. Carry it only as a tactile material analogy: downstream prose should say the seal behaves like a close-worn layer, not translate مُّؤْصَدَةٌ as clothing.",
+            "focus_anchor": "The focus participle and عَلَيْهِم permit the enclosing result to be imagined in immediate contact with those under it rather than at a distant doorway.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B003",
+                "role": "The small under-garment contributes a close-fitting layer and turns enclosure into intimate contact with the body."
+              }
+            ],
+            "changed_reading": {
+              "before": "The seal stands at the perimeter of a room, separated from the occupants.",
+              "after": "Exploratorily, the closure clings over them like a close-worn membrane, collapsing the distance between prisoner and prison."
+            }
+          },
+          {
+            "outlier_id": "outlier_sealed_processing_vessel",
+            "confidence": "exploratory",
+            "containment": "The beverage-in-a-vessel branch of ن ب ذ is a branch-distant activation, not the direct sense of the contextual verb. It remains anchored through the explicit casting, the focus enclosure, and the kindled fire; downstream prose should present a sealed processing-vessel analogy, not claim fermentation as the ayah's lexical meaning.",
+            "focus_anchor": "The pen/chamber sense of the focus root can receive what is cast in and then close over it, supporting a container-process topology.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000036",
+                "branch_id": "B002",
+                "role": "The enclosing pen supplies the bounded vessel that contains what has been placed within."
+              },
+              {
+                "source_ref": "104:4",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B006",
+                "role": "Material cast into a vessel supplies the unusual processing analogy: thrown contents are enclosed so an internal change can proceed."
+              },
+              {
+                "source_ref": "104:6",
+                "root": "و ق د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001672",
+                "branch_id": "B001",
+                "role": "Active kindling replaces passive storage with a heated process occurring inside the sealed volume."
+              }
+            ],
+            "changed_reading": {
+              "before": "The enclosure only stores prisoners after they are thrown in.",
+              "after": "As a contained material analogy, they are cast as contents into a sealed vessel whose closure enables an ongoing transformative process."
+            }
+          },
+          {
+            "outlier_id": "outlier_interlocked_mesh",
+            "confidence": "exploratory",
+            "containment": "The close-rooted vegetation branch is unexpected and should not botanicalize the verse. It is nevertheless a legitimate non-dominant focus mapping, and gathering plus lengthwise connection make its topology coherent; downstream prose should qualify it as an interlocking-mesh analogy for how the seal holds, not as an alternative dictionary gloss.",
+            "focus_anchor": "The non-dominant mapping of the sole focus root supplies elements whose roots crowd together, allowing مُّؤْصَدَةٌ to activate closure by dense interlocking rather than by one planar door.",
+            "activation_trace": [
+              {
+                "source_ref": "104:8",
+                "root": "و ص د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001653",
+                "branch_id": "B004",
+                "role": "Plants with closely packed roots supply the focus-anchored image of many interlocking elements leaving no easy path through."
+              },
+              {
+                "source_ref": "104:2",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed things into one aggregate supplies the assembly of separate elements into a continuous enclosing mesh."
+              },
+              {
+                "source_ref": "104:9",
+                "root": "م د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Lengthwise drawing until connection supplies the spanning links that turn close-packed elements into an extended barrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "The closure is one solid door laid across one opening.",
+              "after": "Exploratorily, the seal is a dense interlocked mesh: many gathered and extended elements close every route through their connected structure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The context changes a static shut door into a sealed furnace: the kindled fire itself can close over them, joining burning and non-exit in one mechanism.",
+            "Gathering, grasping, recurrent counting, and imagined permanence reverse upon the offender, so his techniques for securing wealth become techniques for securing him.",
+            "The paired عَلَى relations make the boundary directionally asymmetric: fire and exposure reach the inner heart while the enclosed person has no reciprocal route outward.",
+            "The following extended supports turn closure into a braced, spatially extended, and potentially durational lock."
+          ],
+          "what_was_special": "The split focus mapping did more than duplicate the ordinary sealed-door sense: it preserved pen, threshold, stone chamber, close-rooted mesh, and close-worn-layer geometries. The split د ر ي mapping likewise allowed knowledge and vortex images to coexist, producing an exploratory epistemic reading without displacing the stronger furnace and engineered-lock models.",
+          "remaining_uncertainties": [
+            "إِنَّهَا most readily resumes the preceding feminine fire or its named crusher, but those antecedent scopes alter whether fire itself is the enclosure or burns inside it.",
+            "The extended columns may be closure hardware, surrounding architecture, instruments within the punishment, or several of these at once.",
+            "The temporal force drawn from permanence and extension is coherent but remains inferential beside the stronger spatial non-exit.",
+            "The garment, processing-vessel, vortex, and interlocked-mesh readings should remain explicit material analogies rather than unqualified lexical renderings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Sealed permanence replacing imagined permanence.** Evidence: `و ص د B001` (door sealed shut), activated by `خ ل د B001/B002` in 104:3 and `م د د B004` in 104:9. Structural cue: the pronoun points back to the fire/Hutamah after the false immortalizing claim. Assigned role: إيصاد supplies closure and irreversibility. Abductive move: the imagined permanence of wealth is answered by a real permanence of confinement. Reading change: the ayah reads as the conversion of false security into sealed exposure.\n\n2. **The wealth-keeper becomes penned property.** Evidence: `و ص د B003` (stone pen for livestock/property in the mountain), activated by `م و ل B001` and `ج م ع B001` in 104:2. Structural cue: the enclosure falls \"upon them\" after wealth/property has dominated the human subject. Assigned role: وصيدة provides a property-pen image. Abductive move: one who organized life around مال is placed inside a structure analogous to where مال is kept. Reading change: the human possessor is reread as possessed/penned.\n\n3. **Anti-house and anti-shelter.** Evidence: `و ص د B002` (forecourt/doorway joined to dwelling) and `ك ل ل B006` (curtain or sewn shelter), activated by `ر ح م B003` in 104:0. Structural cue: enclosure vocabulary at the end answers the opening mercy/womb frame. Assigned role: موصدة supplies dwelling-like closure without hospitality. Abductive move: a shelter can protect or trap depending on the moral relation it encloses. Reading change: the fire is an inverted dwelling: a house with no mercy, door with no exit, covering with no protection.\n\n4. **Close-rooted confinement.** Evidence: `و ص د B004` (plants with roots growing close together), activated by `ج م ع B001` and `م د د B003` only exploratorily. Structural cue: gathered roots/plants faintly echo gathered wealth and extended water/support images. Assigned role: this branch supplies a compact interlacing image. Abductive move: enclosure may be felt not only as a door but as tight growth with no spacing. Reading change: the ayah can carry an added sense of packed closeness, though this remains weaker than the door/pen readings.",
@@ -4366,14 +5170,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s104/linguistic/morphemes.tsv",
-        "ayah_count": 10,
-        "row_count": 55,
+        "ayah_count": 9,
+        "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4504,10 +5314,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s104/packets/104_8.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s104/readers/reader_hft_a/104_8.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s104"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s104",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 71431,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

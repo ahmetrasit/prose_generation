@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.964930+00:00",
+  "generated_at": "2026-08-18T13:33:35.445231+00:00",
   "surah": 88,
   "ayah": 16,
   "ayahRef": "88:16",
@@ -1337,7 +1337,8 @@
       "morpheme_ids": [
         "m-w-s088-a016-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:16:1"
+      "aligned_qac_word_ref_upstream": "88:16:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1351,7 +1352,8 @@
       "morpheme_ids": [
         "m-w-s088-a016-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "88:16:2"
+      "aligned_qac_word_ref_upstream": "88:16:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1365,7 +1367,8 @@
       "morpheme_ids": [
         "m-w-s088-a016-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:16:3"
+      "aligned_qac_word_ref_upstream": "88:16:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1996,7 +1999,859 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_16.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:16",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:16",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_areal_distribution",
+            "confidence": "strong",
+            "focus_anchor": "Word 2 is a passive adjective from ب ث ث modifying the plural carpets.",
+            "mechanism": "The physical branch presents separation and spreading as a completed result. The carpets are not one floor covering but a multiplicity distributed across an area, making the surface broadly available.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical scattering and laying out supply the focus's completed areal-distribution mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "A set of carpets simply lies in the scene.",
+              "after": "Many carpets have been deliberately distributed into an accessible field that extends comfort across the surface."
+            }
+          },
+          {
+            "model_id": "baseline_disclosed_interior",
+            "confidence": "medium",
+            "focus_anchor": "The adjective at word 2 can activate the inward-disclosure branch of ب ث ث while still describing the visible carpets.",
+            "mechanism": "A branch normally used for bringing concealed feeling or news outward lets the material arrangement function as exteriorized interiority. What would remain inward as welcome, ease, or generosity becomes publicly legible in the spread furnishings.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Disclosure of concealed inward content turns the visible spread into a material showing of otherwise hidden welcome."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carpets are decorative objects.",
+              "after": "The carpets make an inward condition of welcome and ease visible throughout the environment."
+            }
+          },
+          {
+            "model_id": "baseline_inspectable_layout",
+            "confidence": "exploratory",
+            "focus_anchor": "Word 2 remains the anchor, through the investigative and exposing branch of ب ث ث.",
+            "mechanism": "The branch is form-distant because it is associated with an extended reduplicated use, but it keeps the core motion of opening a matter out. The laid carpets can therefore be carried as an inspectable layout, a scene whose contents have been exposed rather than merely ornamented.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B003",
+                "role": "Investigating and exposing a matter supplies the exploratory sense of a scene opened out for inspection."
+              }
+            ],
+            "changed_reading": {
+              "before": "The eye encounters a finished decorative surface.",
+              "after": "The eye encounters a layout opened out so that its order and contents can be examined."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_covering_reversed_into_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "غ ش و"
+            ],
+            "mechanism": "The opening joins a report made manifest to an event that envelops. Against that pairing, the focus becomes a reversal within the domain of covering: carpets cover a surface, yet their being spread makes welcome visible rather than suppressing perception.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Outward disclosure anchors the focus as a covering that reveals an inward condition."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Making something appear supplies the opening movement from hidden event to manifest report."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An all-enveloping cover supplies the opposing motion against which the focus's disclosure becomes legible."
+              }
+            ],
+            "structural_cues": [
+              "88:1 binds manifestation and enveloping in one opening question before the two sequences of faces and outcomes."
+            ],
+            "reader_inference": "The packet supplies manifestation, enveloping, and focus-disclosure; I infer that a carpet's ordinary surface-covering function lets 88:16 reverse concealment into hospitable display. Alternatively, the opening cover and the carpets may remain unrelated images.",
+            "changed_reading": {
+              "before": "The carpets are simply one more covered surface.",
+              "after": "The carpets are a counter-covering: they occupy the surface while disclosing, rather than obscuring, the character of the place."
+            }
+          },
+          {
+            "model_id": "delta_repose_distributed_after_striving",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ص ب",
+              "ن ع م",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "Exhaustion in the first face-sequence is answered by softness and satisfied striving in the second. The focus's physical distribution then does more than multiply luxury: it spatially allocates repose as the realized yield of effort.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Areal spreading makes repose available throughout the scene rather than at a single privileged point."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness that depletes a person supplies the negative bodily state against which distributed rest changes value."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease supply the bodily quality that the spread carpets extend across space."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earning supply the prior exertion for which the furnished field can be read as outcome."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction rather than displeasure supplies the affective completion of the effort-to-repose mechanism."
+              }
+            ],
+            "structural_cues": [
+              "88:2-3 and 88:8-9 form contrasting face-and-condition sequences before the furnishings are enumerated."
+            ],
+            "reader_inference": "The packet supplies exhaustion, effort, softness, satisfaction, and physical spreading; I infer an effort-to-repose arrow in which the carpets distribute the bodily answer to striving. Alternatively, the furnishings may signal abundance without encoding a causal reward sequence.",
+            "changed_reading": {
+              "before": "The spread carpets indicate plentiful luxury.",
+              "after": "The spread carpets make restorative ease spatially plentiful, an embodied answer to effort rather than wealth alone."
+            }
+          },
+          {
+            "model_id": "delta_silent_material_broadcast",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و"
+            ],
+            "mechanism": "The scene excludes audible, mixed, futile speech immediately before presenting its material order. The focus's disclosure branch can therefore shift media: the carpets broadcast welcome and composure silently, through visible distribution rather than utterance.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "The branch's news-and-feeling disclosure supplies communication, while the carpets keep that communication material and nonverbal."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception supplies the channel explicitly denied within the scene."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy sound specifies what is absent, allowing ordered surfaces to carry the communicative load."
+              }
+            ],
+            "structural_cues": [
+              "The negated hearing clause at 88:11 directly precedes the uninterrupted inventory of spring and furnishings in 88:12-16."
+            ],
+            "reader_inference": "The packet supplies absent noise and a focus branch of disclosure; I infer that visible arrangement can communicate without sound. Alternatively, 88:11 may establish acoustic calm only, with no transfer of communicative function to the carpets.",
+            "changed_reading": {
+              "before": "The carpets furnish a quiet place.",
+              "after": "Their visible spread is itself a silent announcement of welcome and ordered peace."
+            }
+          },
+          {
+            "model_id": "delta_hidden_delight_exteriorized",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ر ر"
+            ],
+            "mechanism": "The couch-root holds together a place of reclining and concealed joy. When followed by the focus branch for disclosing inner content, the furnishing sequence becomes a conversion of inward delight into an inhabitable exterior.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Disclosure of what is held inward supplies the outward phase of the affect-to-environment conversion."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B010",
+                "role": "Concealed joy and ease supply the inward affect that the later spread renders visible."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settling and reclining keeps the affective reading attached to literal furniture."
+              }
+            ],
+            "structural_cues": [
+              "The couches begin the final four-item furnishing sequence, and the carpets close it."
+            ],
+            "reader_inference": "The packet supplies one root with both concealed ease and reclining-place branches, followed by focus-disclosure; I infer a metonymic passage from inner joy to built environment. Alternatively, only the literal couch branch may be active in 88:13.",
+            "changed_reading": {
+              "before": "The carpets complete an inventory of comfortable furniture.",
+              "after": "The carpets complete the exteriorization of delight: inward ease has spread until it becomes the environment itself."
+            }
+          },
+          {
+            "model_id": "delta_vertical_point_line_field_topology",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف"
+            ],
+            "mechanism": "The adjacent modifiers encode distinct spatial operations: couches are elevated, cups set at positions, cushions aligned, and carpets dispersed. The focus is the areal term in a progression from vertical level through points and lines to a field, so apparent scattering completes rather than breaks the order.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical distribution supplies the final field-like spatial operation."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the vertical coordinate of the furnishing layout."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Setting an object in a determined place supplies positional placement."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on a straight line supplies linear order immediately before areal spread."
+              }
+            ],
+            "structural_cues": [
+              "88:13-16 are four coordinated plural furnishing clauses whose result-state modifiers change the mode of spatial organization item by item."
+            ],
+            "reader_inference": "The packet supplies four neighboring spatial operations; I infer a designed vertical-point-line-field progression. Alternatively, the sequence may be an additive inventory with no geometric program.",
+            "changed_reading": {
+              "before": "Spread contrasts loosely with the cushions' neat rows.",
+              "after": "The carpets' dispersion is the ordered completion of the room's topology, filling the plane left by elevated, positioned, and aligned objects."
+            }
+          },
+          {
+            "model_id": "delta_domestic_surface_to_cosmic_surface",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "ء ر ض",
+              "س ط ح"
+            ],
+            "mechanism": "After the carpeted surface, attention is redirected to how created things are formed, ending with the earth made level and usable. An earth branch that itself evokes a large carpet makes the scale bridge unusually explicit: the domestic spread becomes a miniature rehearsal for reading the terrestrial spread.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Physical spreading supplies the shared surface operation at domestic scale."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B003",
+                "role": "Investigative exposure lets the furnished layout become a prompt to inspect how a surface has been made."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight and insight convert the preceding visible layout into an object of reflective inspection."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Proportioning and measuring supply the workmanship question that links arranged furnishings to created forms."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B005",
+                "role": "The earth-root's large spread-fabric image supplies the direct material bridge from carpet to terrain."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "A level extended surface supplies the large-scale counterpart to the carpeted plane."
+              }
+            ],
+            "structural_cues": [
+              "88:17-20 repeat ك ي ف after each viewed object; ك ي ف lacks a branch inventory here and is used only as the structural cue of repeated inquiry.",
+              "The focus result-state is followed by a created, raised, erected, and surfaced passive sequence, extending attention from arrangement to making."
+            ],
+            "reader_inference": "The packet supplies a spread carpet, repeated inquiry, measured creation, a carpet-like earth branch, and a level surface; I infer a scale analogy and hinge from interior artifact to world. Alternatively, 88:17 may begin an independent sign-list without retrospectively changing 88:16.",
+            "changed_reading": {
+              "before": "The carpets are the last detail of an interior scene.",
+              "after": "The carpets are both interior furnishing and small-scale earth, a hinge that teaches the eye to inspect the world's laid-out surfaces."
+            }
+          },
+          {
+            "model_id": "delta_noncoercive_visual_reminder",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر"
+            ],
+            "mechanism": "The later command is to reactivate remembrance while explicitly denying coercive oversight. The focus's exposure branch permits the carpets to join a noncoercive evidentiary mode: signs are laid out before perception rather than forced into assent.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B003",
+                "role": "Opening a matter for examination anchors the carpets as a visible, inspectable presentation."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that reactivates memory supplies the intended cognitive effect of the displayed signs."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "Coercive supervisory control supplies the mode explicitly negated, distinguishing display from compulsion."
+              }
+            ],
+            "structural_cues": [
+              "88:21 repeats the reminder root as command and agent designation, then 88:22 negates control over the audience."
+            ],
+            "reader_inference": "The packet supplies an inspectable focus branch, reminder, and negated control; I infer that visible ordered surfaces participate in persuasion by display. Alternatively, the reminder may refer only to verbal proclamation, leaving the carpets outside that communicative economy.",
+            "changed_reading": {
+              "before": "The carpets are passive objects seen by an inhabitant.",
+              "after": "The carpets are quietly laid-out evidence: they invite recognition through inspection without functioning as instruments of control."
+            }
+          },
+          {
+            "model_id": "delta_blessing_revealed_against_covering",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "ك ف ر"
+            ],
+            "mechanism": "The favorable face-sequence names ease and benefaction, while the later refusal-root includes covering a blessing. The focus's inward-disclosure branch places the carpets on the opposite side of that semantic action: benefaction is spread into visibility rather than covered over.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Revealing concealed content makes the carpets an enacted manifestation rather than a neutral possession."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Benefaction and good condition identify what the furnished scene makes manifest."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B004",
+                "role": "Covering a blessing supplies the contrary response against which the carpets' visible disclosure gains moral force."
+              }
+            ],
+            "structural_cues": [
+              "The fully displayed favorable scene at 88:8-16 precedes the later turning away and covering at 88:23."
+            ],
+            "reader_inference": "The packet supplies benefaction, focus-disclosure, and the covering of blessing; I infer a reveal-versus-cover polarity in which the carpets enact acknowledged gift. Alternatively, the later refusal need not feed back into the semantics of the earlier furnishings.",
+            "changed_reading": {
+              "before": "The carpets are one of the benefits present in the scene.",
+              "after": "Their spread is the act of making benefit undeniable and visible, the material inverse of covering a blessing."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_account_cushion_loop",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates remote ح س ب branches for examining a matter and for a cushion even though the verse's live referent is accounting. It remains anchored through the focus's investigative-exposure branch and the literal furnishing scene, but downstream prose should present it only as a branch-level echo, not as a replacement for spread carpets.",
+            "focus_anchor": "The carpets remain literal; word 2 contributes the exploratory sense of a matter opened out for examination.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B003",
+                "role": "Investigative exposure allows the furnishing layout to faintly anticipate matters being opened for review."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B006",
+                "role": "Considering and inspecting a matter supplies the remote procedural link from laid-out scene to reckoning."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B008",
+                "role": "The root's cushion branch unexpectedly loops the final accounting word back to the furnishing field."
+              }
+            ],
+            "changed_reading": {
+              "before": "The furnishing list and final accounting belong to wholly separate semantic domains.",
+              "after": "A contained branch echo lets the laid-out furnishings faintly prefigure a matter laid open for final review."
+            }
+          },
+          {
+            "outlier_id": "outlier_dispersion_return_count_cycle",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps spatially spread carpets onto the later human sequence of return and count. It remains valid as a formal distribute-return-count analogy anchored in physical ب ث ث, but downstream prose should mark the cross-domain mapping as exploratory and keep the carpets' static result-state primary.",
+            "focus_anchor": "The physical branch at word 2 supplies a real state of plurality distributed over space.",
+            "activation_trace": [
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersion supplies the outward phase of the proposed distribute-return-count cycle."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to a destination supplies the reversal of outward distribution."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply the terminal gathering of distributed particulars into a reckoned whole."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carpets' dispersion is a timeless static abundance.",
+              "after": "Their distributed plurality can also echo one phase in a larger rhythm: things spread outward, return, and are finally counted."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent raised, placed, aligned, and spread result-states turn 88:16 into the areal completion of a vertical-point-line-field topology.",
+            "The repeated inquiry and the level, carpet-like earth after 88:16 rescale the domestic surface into a hinge toward created surfaces.",
+            "The disclosure branch of ب ث ث combines with concealed delight and the later covering of blessing, making the carpets visible exteriorizations of inward ease and benefaction.",
+            "The contrast between depletion and satisfied striving changes abundant carpets into rest distributed as the embodied yield of effort."
+          ],
+          "what_was_special": "Only one focus word has a branch inventory, yet its three branches sustain coexisting physical, affective, and investigative readings. The neighboring furnishing operations constrain apparent scattering into design, while later surface, reminder, concealment, return, and account cues keep reopening the same spread without forcing a single interpretation.",
+          "remaining_uncertainties": [
+            "The carpet noun has no packet root inventory, so claims based on its covering or furnishing function use the supplied focus text and ordinary object semantics rather than a cited branch.",
+            "The inward-disclosure branch is metaphorical in this material setting, and the investigative branch is explicitly form-distant.",
+            "The effort-to-repose arrow and the domestic-to-earth scale bridge are reader-supplied mechanisms rather than explicit causal syntax.",
+            "The account-cushion loop and dispersion-return-count cycle are remote branch analogies and should remain visibly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Carpets spread as generous dispersion.** Evidence: `ب ث ث` B001 spreading/scattering a thing. Structural cue: after rows of cushions, carpets are spread out. Role: `مبثوثة` extends comfort over the ground surface. Abductive move: the garden’s order includes both rowed arrangement and broad distribution. Reading change: the ayah reads as abundant prepared surface, not clutter.\n\n2. **Hidden grief replaced by disclosed ease.** Evidence: `ب ث ث` B002 disclosing hidden distress/grief; earlier `س ر ر` B001 hidden inward matter and B010 joy. Structural cue: inner states are repeatedly materialized in the garden. Role: what is “spread out” can be the release of what was hidden, but here as ease rather than complaint. Abductive move: the garden externalizes interior relief by spreading it underfoot. Reading change: `مبثوثة` carries affective disclosure, not only spatial spreading.\n\n3. **Ground reversal before the flattened earth.** Evidence: `ب ث ث` B001 spreading; later `س ط ح` B001 flat extended surface and `ء ر ض` B001 lower ground. Structural cue: carpets are spread before the command to look at earth spread flat. Role: garden carpets give a cultivated version of earth’s spreadability. Abductive move: cosmic ground and furnished ground mirror one another at different scales. Reading change: the carpets become a micro-earth prepared for rest.",
@@ -4357,14 +5212,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4725,10 +5586,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_16.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_16.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 207773,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

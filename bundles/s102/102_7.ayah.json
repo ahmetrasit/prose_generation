@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.808632+00:00",
+  "generated_at": "2026-08-18T13:34:29.180998+00:00",
   "surah": 102,
   "ayah": 7,
   "ayahRef": "102:7",
@@ -1362,7 +1362,8 @@
       "morpheme_ids": [
         "m-w-s102-a007-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:7:1"
+      "aligned_qac_word_ref_upstream": "102:7:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1376,7 +1377,8 @@
       "morpheme_ids": [
         "m-w-s102-a007-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:7:2"
+      "aligned_qac_word_ref_upstream": "102:7:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1394,7 +1396,8 @@
         "m-w-s102-a007-w002-03",
         "m-w-s102-a007-w002-04"
       ],
-      "aligned_qac_word_ref_upstream": "102:7:3"
+      "aligned_qac_word_ref_upstream": "102:7:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1408,7 +1411,8 @@
       "morpheme_ids": [
         "m-w-s102-a007-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "102:7:4"
+      "aligned_qac_word_ref_upstream": "102:7:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1424,7 +1428,8 @@
         "m-w-s102-a007-w004-01",
         "m-w-s102-a007-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "102:7:5"
+      "aligned_qac_word_ref_upstream": "102:7:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2094,7 +2099,943 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s102/packets/102_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "102:7",
+      "window": [
+        "102:1",
+        "102:2",
+        "102:3",
+        "102:4",
+        "102:5",
+        "102:6",
+        "102:7",
+        "102:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ء ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000661",
+              "furuq_root_norm": "س ء ل",
+              "furuq_source_root_norm": "س أ ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 118,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000736",
+              "furuq_root_norm": "س ل ل",
+              "furuq_source_root_norm": "س ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "102:7",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_direct_face_to_face",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic seeing verb, عَيْنَ, and ٱلْيَقِينِ.",
+            "mechanism": "Seeing supplies apprehension, the eye narrows it to face-to-face eyewitness presence, and certainty names knowledge from which doubt has been removed. The construction therefore changes generic cognition into embodied encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Sensory or inward seeing supplies the act of direct apprehension."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Face-to-face seeing turns apprehension into eyewitness presence."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge with doubt removed makes the encounter epistemically terminal."
+              }
+            ],
+            "changed_reading": {
+              "before": "You will know or perceive it with certainty.",
+              "after": "You will be brought into direct eyewitness presence of the referent, and that encounter rather than a report will terminate doubt."
+            }
+          },
+          {
+            "model_id": "b2_referent_replaces_representation",
+            "confidence": "medium",
+            "focus_anchor": "عَيْنَ ٱلْيَقِينِ read through the exact-self branch of ع ي ن.",
+            "mechanism": "The exact-thing branch lets عَيْن name identity rather than only the organ of sight. Alongside seeing and settled certainty, the phrase can mark the point at which a representation gives way to the thing itself.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing supplies access to a referent rather than merely holding a proposition about it."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself supplies exact identity and removes mediation by a substitute or sign."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-free settlement makes identity with the encountered actuality decisive."
+              }
+            ],
+            "changed_reading": {
+              "before": "You will see it by means of a certain eye.",
+              "after": "You will see it in its very actuality: certainty has reached the exact referent rather than a representation of it."
+            }
+          },
+          {
+            "model_id": "b3_reciprocal_exposure",
+            "confidence": "exploratory",
+            "focus_anchor": "The combination of emphatic seeing and عَيْنَ permits a field-of-visibility reading.",
+            "mechanism": "Mutual visibility and the watchful eye make seeing less one-directional. The addressees enter a field in which concealment fails and the viewer is also exposed to an overseeing gaze; certainty is a condition of being unable to stand outside the scene.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility and facing supply a two-sided field rather than detached observation."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The watchful eye contributes supervision and makes the seer visibly accountable within the field."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Removal of doubt closes the distance from which detached spectatorship was possible."
+              }
+            ],
+            "changed_reading": {
+              "before": "You will look at an object with full confidence.",
+              "after": "You will enter an exposed encounter in which you face the referent and cannot remain an unseen, detached spectator."
+            }
+          },
+          {
+            "model_id": "b4_certainty_as_quenching_source",
+            "confidence": "exploratory",
+            "focus_anchor": "The split ر ء ي mapping, عَيْنَ, and certainty's removal of doubt.",
+            "mechanism": "The non-dominant mapped branch activates quenching while عَيْن activates a flowing spring. Together they form a coherent but form-distant water circuit: certainty is reached at its source and ends epistemic thirst.",
+            "activation_trace": [
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "Quenching and freedom from thirst let the emphatic verb activate satiation alongside ordinary sight."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing spring supplies a direct source from which quenching can occur."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The disappearance of doubt functions as the ending of epistemic thirst."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty is a high degree of knowledge.",
+              "after": "Exploratorily, certainty is a spring encountered at source and taken in until no doubt-thirst remains."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_attention_reconverges_on_one_actuality",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل ه و",
+              "ك ث ر"
+            ],
+            "mechanism": "Distraction and rivalry by number scatter attention among proliferating substitutes. The focus then reconverges that attention on one exact actuality, so the eye of certainty becomes an anti-proliferation mechanism rather than merely stronger concentration.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ل ه و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001382",
+                "branch_id": "B001",
+                "role": "Being occupied away from one thing by another literally supplies displaced attention and makes direct sight its reversal."
+              },
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Competitive victory by number supplies the multiplying substitutes from which attention must reconverge."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Direct seeing supplies recovered contact after attentional displacement."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself functions as the singular actuality that numerical substitutes cannot replace."
+              }
+            ],
+            "structural_cues": [
+              "The plural addressees move from a noun of competitive increase in 102:1 to the singular object pronoun in the focus.",
+              "The focus's emphatic verb concentrates the clause on an unavoidable act of seeing."
+            ],
+            "reader_inference": "The packet supplies displaced attention, rivalry by number, direct sight, and the exact-thing branch; I infer an inverse arrow from proliferating substitutes to forced reconvergence on one referent. A live alternative is that 102:1 supplies only moral rebuke rather than an attentional mechanism.",
+            "changed_reading": {
+              "before": "The focus promises an especially certain perception.",
+              "after": "The focus forcibly recollects attention scattered by competitive multiplicity and fixes it on the one actuality that counts cannot substitute for."
+            }
+          },
+          {
+            "model_id": "d2_sight_reverses_burial",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز و ر",
+              "ق ب ر"
+            ],
+            "mechanism": "Visitation approaches a threshold, while burial hides and lowers its object. The later making-visible and face-to-face eye reverse that one-way disappearance: certainty becomes an unburial of what had passed below sight.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B003",
+                "role": "Literal visitation supplies approach to a place without making hiddenness or residence the final state."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "Concealing the dead in a grave supplies the physical hiding that later sight reverses."
+              },
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Obscurity and depression make invisibility spatially downward and materially concrete."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making something seen supplies the reversal from covered object to manifest object."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Face-to-face presence completes the movement from burial's absence to encounter."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge marks the disclosure as irreversible rather than a fleeting glimpse."
+              }
+            ],
+            "structural_cues": [
+              "حَتَّىٰ in 102:2 makes the graves a reached threshold within a longer trajectory.",
+              "The later ثُمَّ and emphatic seeing reopen a sequence that burial might appear to close."
+            ],
+            "reader_inference": "The packet supplies visitation, burial, downward concealment, making-visible, and direct encounter; I supply the reversal arrow from interment to disclosure. A live alternative is that visitation only euphemizes death and does not itself imply the return movement.",
+            "changed_reading": {
+              "before": "The focus describes a future act of certain seeing.",
+              "after": "The focus is the reversal of burial: what disappeared below the visible world is made present face to face and cannot be hidden again."
+            }
+          },
+          {
+            "model_id": "d3_marker_yields_to_referent",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ي ق ن"
+            ],
+            "mechanism": "The repeated knowing clauses can work through disclosure and distinguishing marks. When the matched construction changes from knowledge of certainty to eye of certainty, the head shift changes the medium: the sign and the knower's disclosure yield to the exact thing in face-to-face presence.",
+            "activation_trace": [
+              {
+                "source_ref": "102:3",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing and guiding mark supplies mediated knowing at the first promise."
+              },
+              {
+                "source_ref": "102:4",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The repeated mark branch keeps the second promise in a sign-mediated register while intensifying it."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower supplies the cognitive mode named by knowledge of certainty."
+              },
+              {
+                "source_ref": "102:5",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled doubt-free knowledge holds certainty constant before the lexical head changes."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself supplies the referent that replaces a merely guiding mark."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Face-to-face seeing supplies the new medium of presence."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The same settled certainty persists while its vehicle shifts from knowledge to encounter."
+              }
+            ],
+            "structural_cues": [
+              "102:3 and 102:4 repeat the future knowing clause, with ثُمَّ inserted in the second.",
+              "102:5 and 102:7 form a matched pair whose head noun changes from عِلْمَ to عَيْنَ while ٱلْيَقِينِ remains."
+            ],
+            "reader_inference": "The packet supplies mark, disclosure, exact identity, face-to-face presence, and the matched head-noun switch; I infer an epistemic arrow from sign to referent rather than merely a larger quantity of certainty. A live alternative is rhetorical restatement with no ordered hierarchy of media.",
+            "changed_reading": {
+              "before": "Eye of certainty is simply a stronger grade after knowledge of certainty.",
+              "after": "The focus changes the medium of certainty: marks and disclosed knowledge give way to the exact referent standing face to face."
+            }
+          },
+          {
+            "model_id": "d4_reservoir_becomes_spring",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ل م"
+            ],
+            "mechanism": "The focus-only water circuit gains a contextual reservoir: knowledge can image abundant gathered water, the eye a spring, and the split mapped seeing root quenching. The matched certainty phrases then move from stored volume to direct source, making certainty less an accumulation of propositions than access to what ends thirst.",
+            "activation_trace": [
+              {
+                "source_ref": "102:5",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B005",
+                "role": "Abundant gathered water turns knowledge of certainty into a reservoir or accumulated stock."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "Quenching and freedom from thirst provide the endpoint of the water mechanism."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing spring changes gathered knowledge into immediate access at source."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Removal of doubt functions as full satiation rather than endless informational increase."
+              }
+            ],
+            "structural_cues": [
+              "The matched constructions عِلْمَ ٱلْيَقِينِ and عَيْنَ ٱلْيَقِينِ permit the two head nouns to carry contrasting material states.",
+              "The earlier theme of increase makes the contrast between accumulation and source-access especially active."
+            ],
+            "reader_inference": "The packet supplies gathered water, spring, quenching, and doubt-removal; I supply the hydrological arrow from reservoir to source to satiation. A live alternative is that the non-dominant ر و ي mapping and water branches are lexicographic cross-activation without syntactic force here.",
+            "changed_reading": {
+              "before": "The focus adds a more vivid form of certainty to an already accumulated body of knowledge.",
+              "after": "Exploratorily, accumulated knowledge becomes spring-water at source: certainty is taken in until the drive for further epistemic increase is quenched."
+            }
+          },
+          {
+            "model_id": "d5_same_blaze_reseen_in_new_mode",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ج ح م"
+            ],
+            "mechanism": "The preceding clause names the blazing object and uses the same emphatic seeing verb. The focus does not introduce a second object; it re-sees the same one under a changed modality, moving from object recognition to face-to-face, doubt-ending encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "102:6",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The first act of sensory or inward seeing establishes the event that the focus repeats and transforms."
+              },
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Raging fire and extreme heat give the repeated sight a concrete, overwhelming object."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "The repeated seeing branch carries the same event across the clause boundary."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Face-to-face sight requalifies the first viewing as immediate presence."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-removal makes the second seeing an epistemic transformation rather than bare repetition."
+              }
+            ],
+            "structural_cues": [
+              "102:6 and 102:7 are adjacent and repeat the same emphatic plural seeing form.",
+              "The object pronoun in 102:7 retrieves the immediately preceding named object, while ثُمَّ marks a second phase."
+            ],
+            "reader_inference": "The packet supplies verb repetition, the named blaze, the retrieving pronoun, face-to-face sight, and settled certainty; I infer that the second clause deepens the mode of the same seeing. A live alternative is that it is simply emphatic restatement with no staged perceptual transition.",
+            "changed_reading": {
+              "before": "The pronoun refers vaguely to something that will be seen with certainty.",
+              "after": "The same blaze just named is seen again, but the second seeing crosses from recognition of an object into unavoidable eyewitness presence."
+            }
+          },
+          {
+            "model_id": "d6_private_certainty_becomes_testimony",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "The following question about favorable condition turns direct sight into evidence carried by a witness. Once the addressees have seen face to face with doubt removed, certainty is no longer private cognition; it creates answerability concerning the enjoyed good.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and request supply the demand to answer after the visual encounter."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing supply the concrete benefit about which testimony is demanded."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Direct seeing supplies first-hand evidence rather than hearsay."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Eyewitness presence gives the addressees the position of accountable witnesses."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-free settlement removes ignorance as a defense to the ensuing question."
+              }
+            ],
+            "structural_cues": [
+              "102:8 follows with ثُمَّ and another emphatic plural passive verb, preserving the compelled addressee group.",
+              "The preposition عَنِ places the enjoyed good under inquiry immediately after certain sight."
+            ],
+            "reader_inference": "The packet supplies first-hand sight, doubt-removal, subsequent questioning, and blessing; I supply the juridical arrow by which seeing becomes admissible testimony and therefore answerability. A live alternative is that the question concerns lived enjoyment independently of the preceding visual knowledge.",
+            "changed_reading": {
+              "before": "Eye of certainty is an inwardly complete epistemic state.",
+              "after": "Eye of certainty is also a witness-state: first-hand knowledge removes deniability and carries the seer into an account of enjoyed good."
+            }
+          },
+          {
+            "model_id": "d7_question_forces_yes",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س ء ل",
+              "ن ع م"
+            ],
+            "mechanism": "The question branch and the yes-and-verification branch create a compact call-and-response after the focus. Certain sight collapses opinion into compelled assent: when questioned, the addressee can no longer sustain a no.",
+            "activation_trace": [
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning supplies the interrogative demand to which the later branch image can answer."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "The answer yes and verification supply an assent latent within the object of questioning."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B002",
+                "role": "Opinion and reflective judgment supply the deliberative space that the encounter closes."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B013",
+                "role": "The thing itself confronts the addressee with an actuality that resists denial."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled doubt-free knowledge makes assent compelled rather than provisional."
+              }
+            ],
+            "structural_cues": [
+              "The final ayah places emphatic passive questioning and the ن ع م root in the same clause.",
+              "The focus immediately precedes that clause with an emphatic promise of direct seeing."
+            ],
+            "reader_inference": "The packet supplies a question, a yes-and-verification branch, reflective judgment, exact actuality, and certainty; I infer a call-and-response arrow in which sight forces assent. A live alternative is the ordinary blessing sense of النعيم with no audible yes in the verse.",
+            "changed_reading": {
+              "before": "Certain seeing ends doubt silently within the perceiver.",
+              "after": "Exploratorily, certain seeing prepares a forced yes: the questioned perceiver must acknowledge the actuality that has displaced opinion."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_the_blaze_returns_the_gaze",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the clause grammatically presents the addressees as seers and the blaze as object. It remains anchored because the adjacent blaze branch literally supplies a blazing or protruding eye while the focus supplies mutual visibility and the bodily eye. Render it only as an exploratory personifying or material reversal: the object seems to return the gaze, not as a claim about the clause's literal syntax.",
+            "focus_anchor": "The emphatic seeing verb and عَيْنَ in the focus, activated by the immediately preceding blaze.",
+            "activation_trace": [
+              {
+                "source_ref": "102:6",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B003",
+                "role": "The blazing or protruding eye gives the seen fire an eye-like surface capable of a counter-gaze."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B004",
+                "role": "Mutual visibility and facing make reversal from one-way viewing to reciprocal exposure possible."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The bodily seeing eye anchors the image in the focus construction rather than in free personification."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-removal makes reciprocal exposure inescapable rather than imaginary."
+              }
+            ],
+            "changed_reading": {
+              "before": "You look at the blaze with a certain eye.",
+              "after": "In a contained personifying reversal, the blaze becomes an eye-like counter-presence: certainty is the instant in which you see it and find yourself seen."
+            }
+          },
+          {
+            "outlier_id": "o2_certainty_paid_at_sight",
+            "confidence": "exploratory",
+            "containment": "The economic transfer is surprising and should not replace the ordinary eye sense. It remains anchored in the exact present-cash branch of ع ي ن, settled certainty, direct inspectability, and the context's numerical accumulation. Render it as an economic analogy: deferred and accumulated knowledge is settled as spot actuality, not as a lexical translation of the phrase.",
+            "focus_anchor": "عَيْنَ ٱلْيَقِينِ through the present tangible cash branch of ع ي ن.",
+            "activation_trace": [
+              {
+                "source_ref": "102:1",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in number supplies an accumulated stock against which present settlement becomes legible."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B011",
+                "role": "Ready money opposed to debt supplies tangible value present at hand rather than a deferred claim."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Direct seeing makes the settlement inspectable rather than merely promised."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge closes the epistemic account as fully paid."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty remains a promised future state of knowledge.",
+              "after": "Exploratorily, the promise is paid at sight: accumulated and deferred knowledge becomes spot actuality, certainty present in hand rather than owed."
+            }
+          },
+          {
+            "outlier_id": "o3_forensic_extraction_of_the_hidden",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it uses the non-dominant س ل ل mapping under the later questioning root and a scout-eye branch. It remains anchored through the focus's eye and making-visible branches, while burial supplies a genuinely hidden object. Render it as a forensic cross-root activation in which evidence is drawn out before inquiry, not as a proposed derivation of تُسْـَٔلُنَّ.",
+            "focus_anchor": "The focus eye as watcher and the emphatic act of making the referent visible.",
+            "activation_trace": [
+              {
+                "source_ref": "102:2",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B002",
+                "role": "Obscurity and depression provide concealed material from which evidence must be recovered."
+              },
+              {
+                "source_ref": "102:8",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "Gentle or hidden drawing-out supplies the forensic extraction that precedes questioning."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B005",
+                "role": "The scout or sentinel eye supplies an active evidence-seeking gaze rather than passive reception."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B012",
+                "role": "Making seen supplies the exposure of what the sentinel gaze extracts."
+              },
+              {
+                "source_ref": "102:7",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Verification and doubt-removal turn the extracted trace into conclusive evidence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The eye passively receives a fully manifest object.",
+              "after": "Exploratorily, the eye of certainty is forensic: it draws buried evidence into visibility, verifies it, and leaves it ready for the ensuing inquiry."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The عِلْمَ to عَيْنَ head switch changes the medium of certainty from sign and disclosure to the exact referent in face-to-face presence.",
+            "The graves and blaze sequence turns sight into a reversal of concealment and then a re-seeing of the same object in a transformed epistemic mode.",
+            "The following question turns private certainty into accountable witness, while the yes branch keeps a distinct compelled-assent reading live.",
+            "A cross-mapped water constellation recasts certainty as spring and quenching rather than as an ever-growing stock of knowledge."
+          ],
+          "what_was_special": "The focus sustains several mechanisms without forcing a winner: bodily eyewitnessing, encounter with the thing itself, reciprocal exposure, hydrological satiation, evidentiary accountability, and contained economic or forensic analogies. Context does not merely decorate the line; it repeatedly changes what seeing does.",
+          "remaining_uncertainties": [
+            "عَيْنَ ٱلْيَقِينِ remains live between an instrumental eye reading and an exact-self or actuality reading.",
+            "ثُمَّ may stage temporal succession, rhetorical intensification, or both, so the two acts of seeing need not form a strict perceptual ladder.",
+            "The ر و ي and س ل ل activations are licensed split mappings but remain form-distant and should stay explicitly exploratory.",
+            "The returned gaze and spot-settlement readings are coherent material analogies, not claims that the surface grammar directly encodes personification or finance."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Eye-certainty as face-to-face verification.** Branch evidence: ر ء ي B001, seeing by eye/insight; ع ي ن B001, seeing eye; ع ي ن B002, face-to-face seeing; ي ق ن B001, doubt removed. Structural cue: the pronoun \"ها\" carries الجحيم from 102:6 into a repeated seeing intensified by \"عين اليقين.\" Assigned role: عين supplies directness and يقين supplies settled verification. Abductive move: I infer that the second seeing is not a second object but a higher evidentiary mode. Reading change: the ayah reads as eyewitness certification of what had first been warned and then shown.\n\n2. **The thing itself as certainty.** Branch evidence: ع ي ن B013, the thing itself; ي ق ن B001, settled knowledge; ر ء ي B001, seeing. Structural cue: \"ها\" refers back to الجحيم, while عين can mean exact identity. Assigned role: عين B013 makes the seen \"it itself\" the body of certainty. Abductive move: I infer that certainty here is not an added idea but the exact encounter with the referent. Reading change: the phrase reads as \"you will see it as the very certainty itself,\" not merely \"with certain eyesight.\"\n\n3. **Present-accounting reversal of accumulated wealth.** Branch evidence: ع ي ن B011, present cash/tangible wealth; ك ث ر B002/B003, wealth/status rivalry and claims; س ء ل B001, questioning; ن ع م B001/B002, favor and ease. Structural cue: the ayah of eye-certainty stands immediately before questioning about نعيم. Assigned role: عين B011 turns previously boasted or absent claims into present, audit-ready substance. Abductive move: I infer an accounting transition: what was counted competitively must become present before interrogation. Reading change: عين اليقين can carry a fiscal/tangible undertone: reality comes due in hand, not as reputation.\n\n4. **Watcher and watched reverse positions.** Branch evidence: ع ي ن B003, watchful care/supervision; ع ي ن B005, scout/sentinel; ر ء ي B004, mutual visibility/facing; ج ح م B003, staring eye. Structural cue: the ayah repeats seeing after an object with an eye-like blaze branch. Assigned role: عين activates supervision and mutual visibility; جحيم becomes the counter-gaze. Abductive move: I infer that direct sight establishes a field where the viewers themselves are under observation. Reading change: the ayah becomes less about spectators viewing an object and more about being placed inside an observing scene.",
@@ -14878,14 +15819,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s102/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 53,
+        "ayah_count": 8,
+        "row_count": 46,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15028,10 +15975,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s102/packets/102_7.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s102/readers/reader_hft_a/102_7.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s102"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s102",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 89430,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:25.256072+00:00",
+  "generated_at": "2026-08-18T13:34:33.089349+00:00",
   "surah": 105,
   "ayah": 2,
   "ayahRef": "105:2",
@@ -1643,7 +1643,8 @@
         "m-w-s105-a002-w001-01",
         "m-w-s105-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:2:1"
+      "aligned_qac_word_ref_upstream": "105:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1657,7 +1658,8 @@
       "morpheme_ids": [
         "m-w-s105-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:2:2"
+      "aligned_qac_word_ref_upstream": "105:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1673,7 +1675,8 @@
         "m-w-s105-a002-w003-01",
         "m-w-s105-a002-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "105:2:3"
+      "aligned_qac_word_ref_upstream": "105:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1687,7 +1690,8 @@
       "morpheme_ids": [
         "m-w-s105-a002-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:2:4"
+      "aligned_qac_word_ref_upstream": "105:2:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1701,7 +1705,8 @@
       "morpheme_ids": [
         "m-w-s105-a002-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "105:2:5"
+      "aligned_qac_word_ref_upstream": "105:2:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3220,7 +3225,1277 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s105/packets/105_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "105:2",
+      "window": [
+        "105:1",
+        "105:2",
+        "105:3",
+        "105:4",
+        "105:5"
+      ],
+      "ayah_count": 5,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ء ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000531",
+              "furuq_root_norm": "ر ء ي",
+              "furuq_source_root_norm": "ر أ ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 145,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000615",
+              "furuq_root_norm": "ر و ي",
+              "furuq_source_root_norm": "ر و ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ف ع ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001167",
+              "furuq_root_norm": "ف ع ل",
+              "furuq_source_root_norm": "ف ع ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 108,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000007",
+              "furuq_root_norm": "ء ب و",
+              "furuq_source_root_norm": "أ ب و",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ك ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000043",
+              "furuq_root_norm": "ء ك ل",
+              "furuq_source_root_norm": "أ ك ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 79,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001315",
+              "furuq_root_norm": "ك ل ل",
+              "furuq_source_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 30,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "105:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01-purpose-reversal",
+            "confidence": "strong",
+            "focus_anchor": "The scheme is the direct object of a state-changing verb and is placed inside a result state by the construction كَيْدَهُمْ فِي تَضْلِيلٍ.",
+            "mechanism": "A deliberately contrived path toward an aim is itself converted into deviation from that aim. The failure is therefore internal to the scheme's operation: its means continue as means that no longer conduct their owners to their intended end.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion into a resultant state, making the scheme rather than only its owners the patient of change."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies a calculated stratagem with an intended causal route that can be turned against its own aim."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies deviation from guidance and intended course as the state imposed on the stratagem."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their plan was simply foiled.",
+              "after": "Their plan was made to enact its own failure by departing from the very aim for which it had been designed."
+            }
+          },
+          {
+            "model_id": "b02-spent-effort-lost",
+            "confidence": "medium",
+            "focus_anchor": "The possessive in كَيْدَهُمْ makes the operation theirs, while فِي تَضْلِيلٍ can hold that owned operation inside a condition of loss.",
+            "mechanism": "The scheme is not only an idea but strenuous handling and exertion. Making it lost or unlocatable turns invested labor, coordination, and force into expenditure that cannot be recovered by its owners.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies an imposed change of condition from usable operation to lost expenditure."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies strenuous working of a matter, allowing the scheme to include effort and operational investment."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies loss from an owner and failure to locate what was possessed, making the invested operation unrecoverable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The intended result was denied.",
+              "after": "The whole investment of force became lost output: theirs in expenditure, but no longer theirs as a recoverable instrument."
+            }
+          },
+          {
+            "model_id": "b03-operative-disappearance",
+            "confidence": "medium",
+            "focus_anchor": "The preposition فِي permits a container-like reading of the scheme being put within تضليل rather than merely receiving an external verdict.",
+            "mechanism": "The contrivance is made to disappear or become absorbed into an outcome that erases its operative identity. It does not merely miss; it ceases to remain legible as a coherent causal instrument.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies entry into a transformed condition rather than a bare declaration of failure."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies the hidden, organized contrivance whose coherence can be erased."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Supplies disappearance, concealment, and absorption into something else as a distinct result from directional error."
+              }
+            ],
+            "changed_reading": {
+              "before": "The scheme remained identifiable but unsuccessful.",
+              "after": "The scheme was put into an absorptive loss in which its coherence and causal visibility disappeared."
+            }
+          },
+          {
+            "model_id": "b04-battle-capacity-derailed",
+            "confidence": "exploratory",
+            "focus_anchor": "The noun كَيْد can activate an attested battle domain, while the possessed plural pronoun allows the focus to encompass collective campaign capacity.",
+            "mechanism": "The object being transformed can be the expedition's capacity for battle, not only a secret design. Its martial force is made directionless and unable to arrive as effective combat.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the conversion of an active campaign capacity into a disabled condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B004",
+                "role": "Supplies war and battle as a live scope for the possessed operation."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies departure from the intended course, here applied to martial deployment."
+              }
+            ],
+            "changed_reading": {
+              "before": "A private stratagem was mentally confused.",
+              "after": "An entire capacity to wage the campaign was made unable to travel its intended operational course."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01-seen-sovereign-counteraction",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ف ع ل",
+              "ر ب ب"
+            ],
+            "mechanism": "The focus-state is framed as the inspectable product of an enacted and governed counter-action. This revises purpose-reversal from accidental self-misfire into a transformation intentionally effected by an agent who controls how the action reaches completion.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the state-change whose agency and manner the preceding question asks the reader to recognize."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies the adversarial contrivance that becomes the object of counter-action."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies the reversed course as the observable result."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Supplies perceptive seeing, presenting the focus result as a mechanism available to recognition rather than an opaque verdict."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "Supplies an accomplished act, linking the transformed scheme to something actively brought about."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Supplies mastery and governance, making the counter-action one of controlled disposition."
+              }
+            ],
+            "structural_cues": [
+              "The manner interrogative at 105:1 word 3 (root ك ي ف) has no branch inventory and is used only as a structural invitation to inspect how the result occurred.",
+              "The repeated negative interrogative across 105:1 and 105:2 couples the witnessed act to the transformation of the scheme."
+            ],
+            "reader_inference": "The packet supplies seeing, enacted work, governance, and the focus state-change; I infer the arrow from governed action to the scheme's reversed course. A live alternative is that the opening is only retrospective emphasis and adds no distinct causal mechanics.",
+            "changed_reading": {
+              "before": "The plan happened to veer away from its aim.",
+              "after": "The plan's veering is an intentionally governed counter-action whose manner is offered for reflective recognition."
+            }
+          },
+          {
+            "model_id": "d02-campaign-assemblage-decoupled",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ف ي ل"
+            ],
+            "mechanism": "Companionship binds the actors into a persistent group, while the elephant supplies a heavy embodied campaign instrument. The possessed scheme can therefore denote a social-material assemblage; putting it into loss means uncoupling group, battle capacity, instrument, and objective.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion of the coordinated assemblage into a disabled state."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B004",
+                "role": "Supplies campaign and battle capacity rather than limiting the object to a hidden idea."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies loss of a possessed thing, here the coupling that made the campaign usable by its owners."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Supplies sustained association, treating the actors as a coordinated collective rather than isolated plotters."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B004",
+                "role": "Supplies the elephant as the campaign's embodied heavy instrument and materializes the collective operation."
+              }
+            ],
+            "structural_cues": [
+              "The plural possessive on the focus scheme points back to the context's named collective.",
+              "The construct relation in 105:1 binds the companions to the elephant, supporting an assemblage rather than an incidental animal reference."
+            ],
+            "reader_inference": "The packet supplies persistent association, a collective, a battle scope, and an elephant; I infer that these function together as one campaign apparatus whose couplings can be lost. The alternative is that the scheme remains purely intentional and the elephant merely identifies its owners.",
+            "changed_reading": {
+              "before": "An abstract plan lost its way.",
+              "after": "A coupled campaign system—companions, martial operation, and heavy instrument—was made unable to retain a route from coordinated means to objective."
+            }
+          },
+          {
+            "model_id": "d03-distributed-counterflow",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ط ي ر",
+              "ء ب ل"
+            ],
+            "mechanism": "Successive dispatch, light dispersal, and grouped plurality form a distributed counter-process. Against a concentrated, forcefully worked campaign, many mobile units repeatedly arrive, decomposing central coordination until the scheme disappears as one coherent instrument.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion of a centralized operation into a dispersed condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies the concentrated exertion and handling against which the distributed response is contrasted."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Supplies disappearance or absorption of the scheme's coherent operative identity."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Supplies succession in portions, giving the counter-process repeated temporal delivery."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B002",
+                "role": "Supplies light dispersal, giving the response spatial distribution rather than concentrated mass."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Supplies multiple groups, turning dispersion into organized multiplicity."
+              }
+            ],
+            "structural_cues": [
+              "The sequence in 105:3 places dispatch before the indefinite collective and then qualifies it as grouped plurality.",
+              "The target pronoun in 105:3 reverses the campaign's direction: the former movers are now the recipients of movement."
+            ],
+            "reader_inference": "The packet supplies successive portions, dispersal, and groups; I infer that their combination is a distributed counterforce that decomposes centralized coordination. The alternative is a simple plural description with no network-level contrast.",
+            "changed_reading": {
+              "before": "A single adverse act erased the plan.",
+              "after": "A concentrated and strenuous operation was made to lose coherence under a successive, distributed counterflow."
+            }
+          },
+          {
+            "model_id": "d04-low-friction-defeat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ط ي ر"
+            ],
+            "mechanism": "The strenuous labor latent in the scheme is answered by ease, gentleness, and light flight. The asymmetry changes تضليل into wasted exertion: the heavy investment is made nonproductive without the counter-process needing to imitate its strain or mass.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies forceful, effortful handling as the energetic profile of the campaign."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies expenditure that becomes unavailable to its owners rather than productive force."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B003",
+                "role": "Supplies smooth and easy movement as one side of the energetic asymmetry."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B004",
+                "role": "Supplies unhurried gentleness, sharpening the contrast with the scheme's strain."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "Supplies aerial lightness as the material carrier of the low-friction response."
+              }
+            ],
+            "structural_cues": [
+              "An uncomplicated sending construction governs the mobile collective, while the focus compresses the adversaries' effort into a possessed scheme.",
+              "The context moves from a heavy campaign identifier in 105:1 to airborne agents in 105:3."
+            ],
+            "reader_inference": "The packet supplies strain on one side and easy, gentle, light motion on the other; I infer an economy-of-force relation in which low-friction action nullifies costly effort. The alternative is that the ease branches describe motion only and say nothing about causal economy.",
+            "changed_reading": {
+              "before": "A powerful plan was defeated by a still more laborious power.",
+              "after": "The plan's strenuous investment was made futile by a counter-process marked by ease and lightness."
+            }
+          },
+          {
+            "model_id": "d05-successful-countertrajectory",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر م ي",
+              "ح ج ر"
+            ],
+            "mechanism": "The scheme's intended trajectory is contrasted with projectiles that actually travel toward and reach their target. تضليل is sharpened from generic confusion into directional reversal: their projected action misses its end while the counter-trajectory finds them.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the imposed change from directed strategy to failed trajectory."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies an intention-shaped operation whose success depends on reaching an end."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies departure from aim, now measured against an opposing path that does reach its target."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B001",
+                "role": "Supplies actual projection of objects toward the adversaries."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B006",
+                "role": "Supplies movement toward a terminal goal, making successful directionality explicit."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Supplies hard material payload, giving the successful counter-trajectory concrete impact."
+              }
+            ],
+            "structural_cues": [
+              "The object pronoun on the throwing verb makes the plotters the explicit destination of the counter-motion.",
+              "The instrumental construction in 105:4 supplies a carrier and payload for the direction that succeeds."
+            ],
+            "reader_inference": "The packet supplies aim-deviation in the focus and goal-directed throwing in context; I infer a contrast between two trajectories, one frustrated and one completed. The alternative is that the throwing only describes punishment after an independently completed frustration.",
+            "changed_reading": {
+              "before": "Their scheme wandered without a precise directional contrast.",
+              "after": "Their intended trajectory was made to miss while a precisely opposed trajectory reached them."
+            }
+          },
+          {
+            "model_id": "d06-contained-and-fixed",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ح ج ر",
+              "س ج ل"
+            ],
+            "mechanism": "A branch of stone-language supplies barring and enclosure, while a branch of the material descriptor supplies a gathered, fixed record. Together they activate a reading in which the hidden stratagem is put inside an outcome it cannot escape and is converted from covert maneuver into fixed liability.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion of the scheme from mobile contrivance into a bounded condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies covert contrivance whose freedom and concealment can be removed."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Supplies absorption into a condition where the scheme no longer circulates as an independent hidden instrument."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Supplies prevention and enclosure, giving the focus container a blocking function."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B004",
+                "role": "Supplies gathering and fixing in a record, making the formerly hidden operation legible and accountable."
+              }
+            ],
+            "structural_cues": [
+              "The focus preposition presents the result as a containing state.",
+              "The material-source construction in 105:4 allows the two material branches to qualify how that containment is effected."
+            ],
+            "reader_inference": "The packet supplies enclosure, a fixing record, a hidden scheme, and a containing focus construction; I infer that confinement also fixes the scheme as accountable evidence. The live alternative is strictly material impact, with the record branch contributing no legal or evidentiary force.",
+            "changed_reading": {
+              "before": "The concealed maneuver vanished without remainder.",
+              "after": "The maneuver was trapped in its failed outcome and, paradoxically, lost concealment by becoming fixed as the evidence of its owners' liability."
+            }
+          },
+          {
+            "model_id": "d07-cumulative-saturation",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ء ب ل",
+              "ر م ي",
+              "س ج ل"
+            ],
+            "mechanism": "Successive portions and grouped arrivals lead into a branch image of cloud-like discharge and then a full vessel pouring out. This activates cumulative saturation: the operation disappears not in one abstract cancellation but by being overwhelmed, covered, and absorbed under repeated installments.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies a worked operation whose coherence can be progressively overloaded."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Supplies disappearance through absorption, here given a cumulative material mechanism."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Supplies successive portions, establishing repeated rather than instantaneous delivery."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B003",
+                "role": "Supplies grouped multiplicity, scaling succession into waves."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "ر م ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000603",
+                "branch_id": "B004",
+                "role": "Supplies cloud-like discharge in pieces or drops, linking aerial arrival to repeated impact."
+              },
+              {
+                "source_ref": "105:4",
+                "root": "س ج ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000677",
+                "branch_id": "B001",
+                "role": "Supplies a filled vessel pouring out, turning repeated impact into saturation."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from dispatch and grouped plurality in 105:3 to continuous throwing and plural stones in 105:4.",
+              "Imperfect aspect in 105:4 sustains the action after the completed dispatch."
+            ],
+            "reader_inference": "The packet supplies succession, groups, cloud-like discharge, pouring, and absorptive disappearance; I infer a cumulative-overload arrow from repeated delivery to loss of operational coherence. The alternative is a compact scene of discrete projectiles without saturation dynamics.",
+            "changed_reading": {
+              "before": "The scheme was canceled in a single undifferentiated moment.",
+              "after": "The scheme was progressively submerged under grouped, successive discharge until it disappeared as a coherent operation."
+            }
+          },
+          {
+            "model_id": "d08-plan-to-planners-material-endpoint",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ع ص ف",
+              "ء ك ل"
+            ],
+            "mechanism": "The repeated state-changing verb links the abstract transformation of the scheme to the later transformation of its owners. Fragmented crop residue and completed consumption give تضليل a material endpoint: objective, organization, and recoverable substance are all removed together.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the first transformation, applied to the adversaries' scheme."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies organized intention as the abstract object whose fate is later embodied in its owners."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies irrecoverable loss, which the final material comparison makes visible."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Repeats the same state-conversion mechanism with the plotters themselves as patient."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B001",
+                "role": "Supplies fragmented husk and crop debris, materializing loss of collective integrity."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Supplies completed consumption, materializing loss of recoverable substance."
+              }
+            ],
+            "structural_cues": [
+              "The same state-changing root opens both 105:2 and 105:5, first with the scheme and then with its owners as object.",
+              "The final comparison supplies a concrete result complement after the focus's abstract prepositional result."
+            ],
+            "reader_inference": "The packet supplies parallel state changes, fragmentation, and consumption; I infer that the later bodily result concretizes the earlier fate of the scheme. The alternative is that the two transformations are sequential but semantically independent.",
+            "changed_reading": {
+              "before": "The plan was abstractly lost while the later bodily outcome was a separate event.",
+              "after": "The plan's loss is embodied in its makers: both organized intention and organized bodies arrive at fragmentation and non-recoverability."
+            }
+          },
+          {
+            "model_id": "d09-processor-becomes-residue",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ع ل",
+              "ع ص ف",
+              "ء ك ل"
+            ],
+            "mechanism": "The scheme begins as forceful processing of a target, but the repeated transformation makes its operators the processed material. A sweeping force fragments them and consumption-decay removes their integrity, so the causal grammar of the scheme rebounds from agent onto agent.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the hinge by which an active operation can be turned into a condition suffered by its owners."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies forceful processing and exertion, initially locating agency with the campaign."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Supplies disappearance of the operation's identity when its processing relation is reversed."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies the explicit conversion of the former operators into a new material condition."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B004",
+                "role": "Supplies a force that sweeps a people away, reversing which side controls destructive motion."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B006",
+                "role": "Supplies erosion and decay, making the former processors into matter whose integrity is consumed."
+              }
+            ],
+            "structural_cues": [
+              "The possessors of the scheme in 105:2 become the direct object of the repeated transformation in 105:5.",
+              "The passive final adjective marks them by what has been done to the comparison material, completing the agent-patient reversal."
+            ],
+            "reader_inference": "The packet supplies forceful handling, repeated transformation, a people-sweeping force, and consumed decay; I infer a reversal from processors to processed matter. The alternative is simple punishment imagery without a reflexive relation to the mechanics of their scheme.",
+            "changed_reading": {
+              "before": "The response merely blocked what the plotters were doing.",
+              "after": "The plot's own processing logic rebounded: those who worked forcefully upon a target were made into fragmented, processed residue."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01-report-preserved-plan-forgotten",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it depends on the non-dominant split mapping of the context's seeing root to a narration branch and on form-distant focus branches. It remains anchored in the focus's making, scheme, and loss-of-retention possibilities, reinforced by the context's epistemic frame. Downstream prose should present it only as a speculative mnemonic reversal, not as the morphology's primary sense.",
+            "focus_anchor": "The focus can weakly combine making as formulation with تضليل as loss of retention: the operation loses its hold even as its defeat receives a tellable form.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B003",
+                "role": "Supplies saying or naming as an exploratory shade of making, allowing the outcome to be formulated as an account."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies the covert plan whose operative hold can vanish while its defeat remains reportable."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B004",
+                "role": "Supplies forgetting and loss of retention as the scheme's fate."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch supplies transmission of a report, preserving the event beyond the failed plan."
+              }
+            ],
+            "changed_reading": {
+              "before": "Both the scheme and the event simply receded into the past.",
+              "after": "The scheme was made to lose operative memory while the account of its defeat acquired transmissible memory."
+            }
+          },
+          {
+            "outlier_id": "o02-heavy-force-slackened-within",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the weakness image is a peripheral branch beside the context word's direct animal reference. It remains valid as an activation because the named heavy instrument and the focus's forceful scheme are explicit, and slackening changes how their deviation works. Render it as an inner-mechanics echo, never as a replacement meaning for the elephant.",
+            "focus_anchor": "The focus's forcefully worked campaign can be made to lose its course by losing tension and effective force from within.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion of apparent strength into an internally slack condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies the campaign's forceful effort, whose tension can fail."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies loss of effective course as the result of internal slackening."
+              },
+              {
+                "source_ref": "105:1",
+                "root": "ف ي ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001193",
+                "branch_id": "B001",
+                "role": "Supplies slackness and weakness as a latent counter-image inside the campaign's emblem of mass."
+              }
+            ],
+            "changed_reading": {
+              "before": "The massive campaign was stopped only by an external obstacle.",
+              "after": "Its force was made slack from within, so apparent mass no longer translated into directed capacity."
+            }
+          },
+          {
+            "outlier_id": "o03-countergroups-turn-asset-to-burden",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it draws a burden image from the same root inventory that directly supplies grouped plurality in context. It remains anchored in the possessed scheme and the focus branch of losing what belongs to an owner. Downstream prose should qualify it as a secondary liability model, not identify the groups themselves with a burden lexically.",
+            "focus_anchor": "A scheme possessed as an asset can be made into a lost or adverse holding that weighs on the possessors rather than serving them.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion from useful strategic asset to adverse condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies the owners' designed asset whose function can reverse."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies loss of the asset's availability to those who possessed it."
+              },
+              {
+                "source_ref": "105:3",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B004",
+                "role": "Supplies burden and liability, activating the reversal from strategic asset to weight borne by its owners."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their scheme ceased to benefit them.",
+              "after": "Their scheme changed polarity from owned strategic asset to a liability borne by its owners."
+            }
+          },
+          {
+            "outlier_id": "o04-scheme-loses-its-edge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because dullness comes from the non-dominant split mapping attached to the final consumption root, not from the primary morphology of the context form. It remains anchored in the focus's forceful handling and aim-deviation, and the final residue supplies a visible loss of efficacy. Render it only as an exploratory edge-and-exhaustion echo.",
+            "focus_anchor": "The forcefully worked scheme can enter تضليل by becoming blunt or exhausted: it still exerts, but no longer cuts a path to its aim.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies conversion of a sharpened operation into ineffective condition."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B001",
+                "role": "Supplies exertion and forceful handling whose effective edge can be exhausted."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Supplies failure to cut a directed course toward the intended goal."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped branch supplies bluntness and fatigue as a latent description of lost efficacy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The scheme remained forceful but was externally redirected.",
+              "after": "The scheme's own operational edge was dulled, leaving exertion without penetrating direction."
+            }
+          },
+          {
+            "outlier_id": "o05-gain-seeking-campaign-self-consumed",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from crop-residue and consumption branches into campaign economics. It remains anchored in the focus's owned stratagem and loss-from-owner branch, while the final context supplies both gain-seeking movement and consumption of property. Downstream prose should call it a logistical analogy, not a lexical translation.",
+            "focus_anchor": "The owners' maneuver can be read as invested capital whose loss consists in the expedition consuming the very resources meant to secure gain.",
+            "activation_trace": [
+              {
+                "source_ref": "105:2",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Supplies strategic contrivance as the designed means of obtaining an objective."
+              },
+              {
+                "source_ref": "105:2",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Supplies an owned investment going missing or becoming unrecoverable."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ع ص ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001020",
+                "branch_id": "B005",
+                "role": "Supplies gain-seeking through movement and maneuver, exposing an economic motive-pattern behind the campaign."
+              },
+              {
+                "source_ref": "105:5",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B004",
+                "role": "Supplies consumption of property, allowing the failed expedition to function as a resource sink."
+              }
+            ],
+            "changed_reading": {
+              "before": "The campaign failed to acquire its intended benefit.",
+              "after": "Its gain-seeking maneuver became self-consuming expenditure, eating the owners' strategic capital instead of producing return."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moves from generic thwarting to an imposed state-change in which the scheme itself departs from its own aim.",
+            "Loss coexists in three mechanisms: directional reversal, unrecoverable expenditure, and disappearance of operational coherence.",
+            "Successive light groups and precise counter-directed projectiles make the failure distributed and directional rather than abstract.",
+            "The repeated state-change in 105:5 materializes the scheme's fate in its owners as fragmented, consumed residue and reverses processors into processed matter."
+          ],
+          "what_was_special": "The most productive activation was not a single synonym but a chain of reversals: owned asset to loss, concentrated force to distributed counterflow, intended trajectory to successful counter-trajectory, covert operation to fixed liability, and active processors to residue. Non-dominant split roots also yielded contained but live memory, dulling, and logistical readings that a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "The focus preposition may mark an idiomatic result state, a spatially imagined container, or both.",
+            "The later material transformation may concretize the focus directly or may be a distinct sequel whose linkage is supplied by repetition.",
+            "The battle-scale reading of كيد can coexist with secret-stratagem and strenuous-effort readings, but the focus alone does not rank them.",
+            "Non-dominant split-root activations may be useful latent echoes without carrying morphological authority in this occurrence."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Plot turned into a state of misdirection.** Lexical evidence: ج ع ل B002, turning something into a state; ك ي د B002, plotting and stratagem; ض ل ل B001, going astray from guidance and aim; ض ل ل B003, losing or failing to locate something. Structural cue: the construction \"يجعل كيدهم في تضليل\" places the plot inside a field of loss, and 105:5 repeats جعل with the people themselves as object. Assigned role: كيد supplies intentional planning; جعل supplies state conversion; ضلل supplies the new medium in which the plan operates. Abductive move: I infer that the plot is not merely blocked from outside but made to continue inside a wrong space; the packet supplies the containment phrase \"في\" and the branches of turning/loss. Reading change: the ayah reads as misdirection of agency itself, not only failure of a scheme.\n\n2. **Their war-effort reclassified as self-consuming labor.** Lexical evidence: ك ي د B001, forceful handling of a thing; ك ي د B004, war and battle; ك ي د B003, struggle as the soul departs; ع ص ف B005 in 105:5, earning/resourceful striving; ء ك ل B006 in 105:5, being eaten away and decay. Structural cue: the effort named كيد precedes the final passive image \"مأكول\"; the exertion of 105:2 ends as consumed residue in 105:5. Assigned role: كيد B001/B004 makes their plan a strenuous martial undertaking; the final عصف/أكل complex gives that undertaking a material endpoint. Abductive move: I infer that the labor of the plot feeds the process that undoes it; the packet supplies effort/war and eaten debris, while I supply the self-consuming arrow. Reading change: the ayah reads as the beginning of their exhaustion and depletion, not just a statement that a plan went wrong.\n\n3. **Disappearance as the internal logic of \"تضليل\".** Lexical evidence: ض ل ل B002, being hidden or disappearing; ض ل ل B005, stray animal in a wasteland; ص ح ب B001 and ف ي ل B004 from 105:1, a company tied to an animal; ر م ي B001/ح ج ر B003 in 105:4, stones cast against them. Structural cue: the known, named company of 105:1 loses its way before becoming unrecognizable chaff in 105:5. Assigned role: ضلل B002/B005 turns the military company into something lost from its owner/path and then into vanishing material. Abductive move: I infer a progression from strategic deviation to social/material disappearance; the packet supplies \"companions,\" \"elephant,\" \"misdirection,\" and final debris. Reading change: \"تضليل\" includes erasure and stray-ness, not only intellectual error.\n\n4. **A non-symmetric answer to scheming.** Lexical evidence: ك ي د B002, stratagem; ر س ل B001 in 105:3, sending forth/release; ء ب ل B003, successive or scattered groups; ر م ي B001, throwing/casting. Structural cue: their كيد is answered not by another explicit كيد-root term, but by release, grouping, and projectile action. Assigned role: كيد defines their mode as contrivance; إرسال/أبابيل/رمي define the counter-mode as ordered dispatch. Abductive move: I supply that divine action avoids mirroring their strategy and instead changes the operating field. Reading change: the ayah reads as asymmetrical defeat: a scheme is not out-plotted so much as displaced into a system where it cannot aim.",
@@ -11193,14 +12468,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s105/linguistic/morphemes.tsv",
-        "ayah_count": 6,
-        "row_count": 43,
+        "ayah_count": 5,
+        "row_count": 36,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11496,10 +12777,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s105/packets/105_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s105/readers/reader_hft_a/105_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s105"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s105",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 87917,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

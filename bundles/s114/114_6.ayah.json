@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:34.061808+00:00",
+  "generated_at": "2026-08-18T13:34:44.867569+00:00",
   "surah": 114,
   "ayah": 6,
   "ayahRef": "114:6",
@@ -1408,7 +1408,8 @@
       "morpheme_ids": [
         "m-w-s114-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:6:1"
+      "aligned_qac_word_ref_upstream": "114:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1424,7 +1425,8 @@
         "m-w-s114-a006-w002-01",
         "m-w-s114-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "114:6:2"
+      "aligned_qac_word_ref_upstream": "114:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1438,7 +1440,8 @@
       "morpheme_ids": [
         "m-w-s114-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "114:6:3"
+      "aligned_qac_word_ref_upstream": "114:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1454,7 +1457,8 @@
         "m-w-s114-a006-w003-02",
         "m-w-s114-a006-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "114:6:4"
+      "aligned_qac_word_ref_upstream": "114:6:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1764,7 +1768,1039 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s114/packets/114_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "114:6",
+      "window": [
+        "114:1",
+        "114:2",
+        "114:3",
+        "114:4",
+        "114:5",
+        "114:6"
+      ],
+      "ayah_count": 6,
+      "split_root_mappings": [
+        {
+          "qac_root": "ق و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001272",
+              "furuq_root_norm": "ق و ل",
+              "furuq_source_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1408,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001251",
+              "furuq_root_norm": "ق ل ل",
+              "furuq_source_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 163,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ر ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000787",
+              "furuq_root_norm": "ش ر ر",
+              "furuq_source_root_norm": "ش ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 19,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000792",
+              "furuq_root_norm": "ش ر ي",
+              "furuq_source_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 11,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "114:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_hidden_visible_agents",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated nouns at words 2-3 place الجنة and الناس under one source relation introduced by من.",
+            "mechanism": "The first noun activates concealed spirit agents while the second activates visible human presence, so one harmful-source relation crosses the boundary of perceptibility.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Hidden spirit beings supply the concealed agent class named by the first conjunct."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence over against hidden beings supplies the manifest agent class and the contrastive second conjunct."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flat list of jinn and humans.",
+              "after": "A single source relation spans concealed nonhuman and visible human agents; invisibility does not monopolize harmful agency."
+            }
+          },
+          {
+            "model_id": "baseline_perceptibility_axis",
+            "confidence": "medium",
+            "focus_anchor": "The same coordinated roots can be read through their opposed concealment and perception branches.",
+            "mechanism": "ج ن ن supplies what is covered from perception, including what is kept in the breast, while ن و س supplies detection by sight, sensation, or hearing. The pair therefore classifies channels of influence by detectability as well as naming beings.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Covering from perception supplies the concealed channel and permits an inwardly hidden source."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perceiving by seeing, sensing, or hearing supplies the channel that becomes consciously detectable."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two species of whisperer are named.",
+              "after": "The pair also distinguishes concealed pressure from signals that enter awareness, without requiring the two modes to remain separate agents."
+            }
+          },
+          {
+            "model_id": "baseline_inner_familiar_sources",
+            "confidence": "exploratory",
+            "focus_anchor": "The first root reaches hidden heart and inner fear, while the second reaches familiarity, selfhood, and intimate companionship.",
+            "mechanism": "The coordination can stretch from an inward agitation that lacks an external face to influence arriving through one's familiar self or trusted company. The contrast becomes distance from scrutiny rather than simple distance from humanity.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B010",
+                "role": "The hidden heart or inner fear supplies an affective source that can operate without an external speaker."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort that removes estrangement supplies the trusted social route through which influence can pass unnoticed."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B006",
+                "role": "The self or intimate chosen companion keeps the human pole close to the recipient rather than limiting it to strangers."
+              }
+            ],
+            "changed_reading": {
+              "before": "The danger comes from external members of two populations.",
+              "after": "The source range can run from hidden inward agitation to one's own familiar self and intimate human company."
+            }
+          },
+          {
+            "model_id": "baseline_mass_person_scale",
+            "confidence": "exploratory",
+            "focus_anchor": "A ج ن ن branch names a dark mass of people, while the ن و س inventory names present human beings.",
+            "mechanism": "Instead of only dividing nonhuman from human, the pair can distinguish anonymous collective pressure from identifiable interpersonal agency.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "The dark mass or common crowd supplies diffuse, anonymous human pressure at the first pole."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies particular or recognizable people at the second pole."
+              }
+            ],
+            "changed_reading": {
+              "before": "The coordination separates jinn from humankind.",
+              "after": "It can additionally separate ambient crowd force from direct influence by present people."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_private_public_speech",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل"
+            ],
+            "mechanism": "The opening speech root spans voiced utterance and saying retained inside the self. Coupled with the focus concealment-perception axis, this revises the two nouns into private and public states of verbal influence.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the unmanifested side of the speech contrast."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Auditory or sensory detection supplies speech that crosses into another person's awareness."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Producing speech by articulation supplies the overt, voiced phase of influence."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B012",
+                "role": "A saying in the self that has not appeared supplies the covert, inward phase of influence."
+              }
+            ],
+            "structural_cues": [
+              "The surah opens with an imperative to voice speech, while the focus closes with two coordinated source nouns under one preposition."
+            ],
+            "reader_inference": "The packet supplies overt and inward speech branches plus concealment and perception; I map those states onto the two focus poles. The live alternative is that the focus nouns remain agent classes whose members can use either speech state.",
+            "changed_reading": {
+              "before": "Hidden and human whisperers are two fixed populations.",
+              "after": "The pair can mark influence before and after voicing: private unmanifested saying and speech carried into human awareness."
+            }
+          },
+          {
+            "model_id": "delta_refuge_inside_cover",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع و ذ",
+              "ر ب ب"
+            ],
+            "mechanism": "Refuge is imaged as attachment to protective, repairing care, yet the focus root itself includes protective cover and places of concealment. Familiar human comfort adds a social enclosure. Harm can therefore be heard as operating from within cover or trusted proximity, not only attacking from outside it.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective cover supplies an enclosure whose shielding function can also hide an influence."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B017",
+                "role": "A place of concealment makes hidden location, not merely hidden species, part of the first focus pole."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the trusted social enclosure through which a human source may gain proximity."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B001",
+                "role": "Seeking refuge and holding fast supplies the protective movement against the named sources."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ع و ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001059",
+                "branch_id": "B004",
+                "role": "Adhering within another's shelter makes protected proximity the spatial countermeasure."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion define the shelter as active care rather than mere hiding."
+              }
+            ],
+            "structural_cues": [
+              "أعوذ برب الناس establishes refuge and protected relation before the source phrase is disclosed."
+            ],
+            "reader_inference": "The packet supplies refuge, nurture, cover, concealment, and familiarity; I infer that a harmful source may exploit the same spatial or social proximity that ordinarily protects. The simpler alternative is an external threat answered by divine shelter.",
+            "changed_reading": {
+              "before": "One seeks a shelter from two external classes of attacker.",
+              "after": "One seeks repairing refuge from influences that may already be nested in concealment, protective structures, or trusted human closeness."
+            }
+          },
+          {
+            "model_id": "delta_mass_rumor",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ن و س"
+            ],
+            "mechanism": "A saying that becomes widespread among people gives motion to the focus-only crowd/person scale. The first pole becomes ambient, authorless circulation; the second becomes speech attributable to present human carriers.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "The dark mass or common crowd supplies the anonymous collective medium in which a saying circulates."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies identifiable speakers and hearers at the interpersonal scale."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "A saying diffused among people supplies the propagation process that turns a crowd into an influence field."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The first contextual الناس supplies the population across which the saying can become socially ambient."
+              }
+            ],
+            "structural_cues": [
+              "الناس recurs as a collective before returning as the final coordinated source.",
+              "The focus conjunction allows two scales of the same human propagation system to coexist."
+            ],
+            "reader_inference": "The packet supplies a crowd branch, present humans, and socially widespread saying; I infer a scale transition from ambient rumor to particular speaker. The standard hidden-being versus human contrast remains fully live.",
+            "changed_reading": {
+              "before": "The first source is nonhuman and the second human.",
+              "after": "The pair can also expose two human scales of suggestion: authorless crowd pressure and direct speech from recognizable people."
+            }
+          },
+          {
+            "model_id": "delta_protected_people_become_carriers",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب",
+              "ن و س",
+              "م ل ك",
+              "ء ل ه",
+              "ص د ر"
+            ],
+            "mechanism": "Humans are first repeated as recipients of nurture, sovereignty, and worshipful orientation, then as bearers of breasts from which actions issue, and finally as a possible source. This sequence reverses a passive target into an active relay without erasing external agents.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Hidden spirit beings preserve the external concealed-agent pole against which the human role changes."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence makes the previously protected collective reappear as a possible manifest source."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion establish people first as recipients of sustaining care."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humans occupy the recipient position under lordly nurture."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and sovereignty add a governing relation over the same human collective."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The repeated visible humans remain governed recipients in the second relation."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped one add the collective's orientation of allegiance."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The same human collective occupies a third dependent relation before its later source role."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue converts an inwardly affected breast into a possible outward causal source."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Humans immediately before the focus are breast-bearing recipients, making their final reappearance as sources a role reversal."
+              }
+            ],
+            "structural_cues": [
+              "رب الناس, ملك الناس, and إله الناس repeat the same dependent noun through three relations.",
+              "صدور الناس makes that collective the locus of reception immediately before والناس makes humans a source class."
+            ],
+            "reader_inference": "The packet supplies repeated recipient relations and a breast as an origin of action; I infer that received influence can issue through human conduct and make a recipient a relay. The alternative is that the final humans are separate whisperers rather than transformed recipients.",
+            "changed_reading": {
+              "before": "People are protected targets, while jinn and other people are external whisperers.",
+              "after": "The same human field can be recipient and carrier: concealed influence reaches human breasts, issues as action, and returns through visible people."
+            }
+          },
+          {
+            "model_id": "delta_authorized_human_voice",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ل",
+              "ر ب ب",
+              "ن و س",
+              "م ل ك",
+              "ء ل ه"
+            ],
+            "mechanism": "Effective speech, nurture, rule, allegiance, and familiarity form a social authority channel. A human source need not sound furtive: the suggestion may be audible and trusted while its motive or effect remains concealed.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment shifts from acoustic quietness to the hidden motive or operation inside an overt message."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar comfort supplies the trust that lets a visible human voice pass with reduced scrutiny."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B004",
+                "role": "A speaker whose word is effective supplies socially consequential utterance rather than mere sound."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion supply the caring relation whose authority can be imitated by a human persuader."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar human sociability supplies the interpersonal carrier of authoritative suggestion."
+              },
+              {
+                "source_ref": "114:2",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession and power of disposal supply the command or control dimension of the social channel."
+              },
+              {
+                "source_ref": "114:3",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshipped supply the allegiance dimension that can make a message normatively compelling."
+              }
+            ],
+            "structural_cues": [
+              "Three successive relations to الناس precede the description of influence and the final human source.",
+              "The focus does not grammatically limit human influence to low volume or anonymous speakers."
+            ],
+            "reader_inference": "The packet supplies effective speech and relations of care, control, allegiance, and familiarity; I infer that harmful human influence can appropriate those relations. The materially live alternative is that the titles describe only the refuge-giver and do not characterize the source's method.",
+            "changed_reading": {
+              "before": "A human whisperer is simply a visible counterpart to a hidden spirit.",
+              "after": "The human pole can be an audible, familiar, institutionally effective voice whose harmful operation is concealed inside care, command, or allegiance."
+            }
+          },
+          {
+            "model_id": "delta_recurrent_visibility_cycle",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ر",
+              "و س و س",
+              "خ ن س"
+            ],
+            "mechanism": "A spark, hidden sound, retreat into concealment, and stars that hide and return create a temporal cycle. Influence can flare into awareness, withdraw under cover, and recur, so the focus pair becomes two phases or carriers of one intermittent process.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B002",
+                "role": "Night covering supplies the dark interval in which the influence is no longer perceptible."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Perception by sight, sensation, or hearing supplies the moment when the signal enters awareness."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B003",
+                "role": "Flying fire sparks supply the brief flare by which a concealed impulse becomes salient."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B002",
+                "role": "A hidden sound supplies the low-salience signal that can cross the concealment-perception boundary."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B001",
+                "role": "Retreat into hiding or delay supplies the withdrawal phase after a signal appears."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "خ ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000443",
+                "branch_id": "B002",
+                "role": "Stars that hide and return supply recurrence rather than one-way disappearance."
+              }
+            ],
+            "structural_cues": [
+              "الخناس is an intensive descriptor of the whispering source.",
+              "The whisper root recurs as a noun in 114:4 and a verb in 114:5, supporting repeated event structure."
+            ],
+            "reader_inference": "The packet supplies sparks, hidden sound, concealment, perception, and return; I supply the causal sequence flare, withdrawal, recurrence. A live alternative is that these are independent images describing stable agent classes.",
+            "changed_reading": {
+              "before": "The final nouns identify two static origins of a continuous whisper.",
+              "after": "They can also mark an intermittent signal's concealed and perceptible phases as it flares, retreats, and returns through hidden or human carriers."
+            }
+          },
+          {
+            "model_id": "delta_inner_to_human_relay",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ن و س",
+              "و س و س",
+              "ص د ر"
+            ],
+            "mechanism": "Hidden self-talk occupies the breast, the breast is an origin from which actions issue, and saying can then circulate among people. The focus conjunction closes a relay loop from concealed inward pressure to visible human transmission.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B010",
+                "role": "The hidden heart or inner agitation supplies the inwardly incubated first stage."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies the outward carrier produced by the inward stage."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "A saying widespread among people supplies social recirculation after inward influence becomes expression."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humans supply the receiving population whose members can become the next outward carriers."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the internal content deposited or activated in the recipient."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue supplies the directional transition from inner event to human conduct."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause places whispering in human breasts, and the immediately following focus phrase includes humans among the sources.",
+              "The opening command to speak provides an outward verbal counterpart to hidden self-talk."
+            ],
+            "reader_inference": "The packet supplies hidden self-talk, breast as action-origin, socially circulating speech, and humans in recipient and source positions; I infer transmission from inward state to outward action or saying. The alternative is a one-way external whisper with no relay.",
+            "changed_reading": {
+              "before": "External jinn or humans whisper into otherwise passive human recipients.",
+              "after": "An inward whisper can issue as human action or circulating speech, so a recipient becomes a relay and the two source poles form a propagation loop."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_exchange_circuit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant ش ر ي mapping of contextual ش ر ر and supplies reciprocity that the syntax does not state. It remains anchored in the coordinated focus sources, concealment, familiar humanity, hidden self-talk, and breast as action-origin. Render it only as an exchange analogy for uptake and recirculation, never as a lexical gloss of شر or الجنة.",
+            "focus_anchor": "The coordinated hidden and human poles can function as counterpart channels rather than isolated source bins.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the unobserved side of the proposed exchange."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Familiar human sociability supplies the interpersonal side through which uptake and return can occur."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange between selling and buying supplies the cross-domain image of reciprocal transfer."
+              },
+              {
+                "source_ref": "114:4",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Equivalence and counterposition supply paired sides rather than a one-directional source."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies what is inwardly received in the proposed transaction."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin of actions supplies the return movement from received thought into outward conduct."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two classes deliver harmful influence one-way to a human target.",
+              "after": "Concealed suggestion and familiar human uptake may form an exchange circuit in which reception produces an answering action and renewed transmission."
+            }
+          },
+          {
+            "outlier_id": "outlier_incubated_growth",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates fetus and dense-growth branches of ج ن ن together with the non-dominant ر ب و growth mapping of contextual ر ب ب. It remains anchored in the focus root and in the breast as an origin of action. Render it as a lifecycle metaphor for latent influence, not as a claim that الجنة lexically means a fetus or plant here.",
+            "focus_anchor": "The first focus root can image hidden gestation and thick growth before the second names visible human emergence.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "A fetus hidden in the womb supplies the latent, incubating stage of the influence."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Thick vigorous growth supplies amplification while the influence remains difficult to inspect."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible human presence supplies emergence as observable conduct or a new carrier."
+              },
+              {
+                "source_ref": "114:1",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Feeding and growth from the secondary mapped root supplies development from latent beginning toward manifestation."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the inward material that undergoes the proposed development."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The origin from which actions issue supplies emergence from latency into behavior."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two nouns name already formed external sources.",
+              "after": "The pair can carry a lifecycle image: an influence gestates and grows unseen, then emerges in visible human action or in a human carrier."
+            }
+          },
+          {
+            "outlier_id": "outlier_reflected_self",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the tiny human image in the pupil as a model of reflected selfhood. It remains anchored in the focus الناس branch and is activated by hidden self-talk and the breast as action-origin. Render it as an optical-psychological analogy for self-misrecognized influence, not as the direct referent of الناس.",
+            "focus_anchor": "The human pole includes a branch for the small human image perceived in the eye, allowing a source that appears human yet is a reflection.",
+            "activation_trace": [
+              {
+                "source_ref": "114:6",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B010",
+                "role": "Hidden heart and inner agitation supply the concealed process that can be mistaken for an observed other."
+              },
+              {
+                "source_ref": "114:6",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B005",
+                "role": "The little human image in the pupil supplies a reflected human form that may mask self-generated influence."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "و س و س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001651",
+                "branch_id": "B001",
+                "role": "Hidden self-talk supplies the inward voice that can be projected onto a human image."
+              },
+              {
+                "source_ref": "114:5",
+                "root": "ص د ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000849",
+                "branch_id": "B004",
+                "role": "The source from which actions issue anchors the reflected image back in an inward causal origin."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human source is another person outside the recipient.",
+              "after": "At the exploratory edge, the human-seeming source may be a reflected or projected self-image through which hidden inner speech is misrecognized as another's voice."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The species pair becomes a perceptibility and speech-state axis: concealed inner saying versus influence that enters human awareness.",
+            "Repeated الناس changes from protected recipient to possible human relay once the breast is activated as an origin of action.",
+            "Spark, hidden sound, withdrawal, and return turn static source classes into phases of a recurrent signal.",
+            "The crowd and familiarity branches preserve social readings at different scales: ambient rumor, trusted authority, intimate company, and identifiable speakers."
+          ],
+          "what_was_special": "The focus-only inventories already destabilize a simple jinn-versus-human binary. Context then gives the pair motion: speech crosses inner and outer states, recipients become carriers, and influence cycles between concealment and perception. Split-root branches add contained exchange and growth models without displacing the stronger agent reading.",
+          "remaining_uncertainties": [
+            "The non-agentive focus branches may be mechanism-level analogies rather than live lexical senses in this construction.",
+            "The direction from breast to action and then to social recirculation is reader-supplied, although each stage is packet-backed.",
+            "The authority-channel reading depends on adversarial appropriation of care, command, and allegiance; those relations may instead characterize only the refuge-giver.",
+            "The exchange, gestation, and reflected-self outliers rely on branch-distant or non-dominant mappings and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Two modes of source: concealed and swaying-visible.** Evidence: ج ن ن B005, hidden spirit beings; ج ن ن B001, covering and concealment; ن و س B001, swaying or dangling oscillation. Structural cue: the final ayah pairs الجنة with الناس after “in the breasts of الناس.” Assigned role: الجنة supplies concealed agency; الناس supplies visible/social instability. Abductive move: the pair is not only a taxonomy of beings but a mechanism with hidden and manifest channels. Reading change: the finale reads as locating whisper-sources across a concealed/visible continuum.\n\n2. **Concealment can be danger and shield.** Evidence: ج ن ن B008, protective cover; ج ن ن B001, covering/concealment; ع و ذ B001/B002 from 114:1, refuge and protective invocation; خ ن س B001 from 114:4, withdrawal into concealment. Structural cue: the same final root-field that names الجنة also contains protective covering. Assigned role: concealment is ambivalent: the enemy hides, but protection also covers. Abductive move: the refuge sought at the beginning asks for a legitimate cover against illegitimate hiddenness. Reading change: “from the jinnah” is not simply a class label; it activates a reversal where the cure uses protective cover against harmful concealment.\n\n3. **Hidden heart and hidden crowd.** Evidence: ج ن ن B010, hidden heart or inner fear; ج ن ن B013, dark mass/body of people; ص د ر B001/B004 from 114:5, chest and source; ن و س B001, swaying people. Structural cue: 114:5 places the whisper in the breasts of people, then 114:6 names جنة and ناس together. Assigned role: الجنة can mark hidden interiority as well as hidden beings, while الناس marks the moving public mass. Abductive move: what is “from jinnah and people” may include both concealed inner agitation and the crowdly human medium that carries it. Reading change: the final pairing blurs inside/outside: threat may arise from unseen agencies, hidden hearts, and human crowds.\n\n4. **Womb/fetus undertone of vulnerable formation.** Evidence: ج ن ن B007, fetus hidden in the womb; ر ح م B003 from 114:0, womb; ع و ذ B003 from 114:1, newly delivered female staying with young; ر ب ب B009, animal just after birth and freshness. Structural cue: the packet begins with mercy/womb branches and ends with concealed-life branches. Assigned role: the final concealed source also recalls vulnerable beginnings and protected formation. Abductive move: the human chest threatened by whisper is like a formative interior whose contents can be guarded or disturbed. Reading change: the final ayah can be read, exploratorily, as extending protection to the earliest/most hidden stages of human inward formation.",
@@ -9192,14 +10228,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s114/linguistic/morphemes.tsv",
-        "ayah_count": 7,
-        "row_count": 37,
+        "ayah_count": 6,
+        "row_count": 30,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9299,10 +10341,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s114/packets/114_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s114/readers/reader_hft_a/114_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s114"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s114",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 69652,
+      "split_root_count": 3,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

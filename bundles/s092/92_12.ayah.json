@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:31.340880+00:00",
+  "generated_at": "2026-08-18T13:34:11.039045+00:00",
   "surah": 92,
   "ayah": 12,
   "ayahRef": "92:12",
@@ -1468,7 +1468,8 @@
       "morpheme_ids": [
         "m-w-s092-a012-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:12:1"
+      "aligned_qac_word_ref_upstream": "92:12:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1484,7 +1485,8 @@
         "m-w-s092-a012-w002-01",
         "m-w-s092-a012-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "92:12:2"
+      "aligned_qac_word_ref_upstream": "92:12:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1498,7 +1500,8 @@
       "morpheme_ids": [
         "m-w-s092-a012-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "92:12:3"
+      "aligned_qac_word_ref_upstream": "92:12:3",
+      "morpheme_skip_count": 0
     },
     null
   ],
@@ -2699,7 +2702,1325 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s92/packets/92_12.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "92:12",
+      "window": [
+        "92:1",
+        "92:2",
+        "92:3",
+        "92:4",
+        "92:5",
+        "92:6",
+        "92:7",
+        "92:8",
+        "92:9",
+        "92:10",
+        "92:11",
+        "92:12",
+        "92:13",
+        "92:14",
+        "92:15",
+        "92:16",
+        "92:17",
+        "92:18",
+        "92:19",
+        "92:20",
+        "92:21"
+      ],
+      "ayah_count": 21,
+      "split_root_mappings": [
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء و ل",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000067",
+              "furuq_root_norm": "ء و ل",
+              "furuq_source_root_norm": "أ و ل",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 148,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001684",
+              "furuq_root_norm": "و ل ي",
+              "furuq_source_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 16,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ش ق و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000808",
+              "furuq_root_norm": "ش ق و",
+              "furuq_source_root_norm": "ش ق و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000809",
+              "furuq_root_norm": "ش ق ي",
+              "furuq_source_root_norm": "ش ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ج ز ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000244",
+              "furuq_root_norm": "ج ز ي",
+              "furuq_source_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 97,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000242",
+              "furuq_root_norm": "ج ز ز",
+              "furuq_source_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "92:12",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_assumed_orientation",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic construction إِنَّ عَلَيْنَا لَلْهُدَىٰ places the nominal هُدَىٰ under عَلَيْنَا rather than merely announcing that guidance exists.",
+            "mechanism": "The guidance branch supplies gentle indication, clarification, and enabling toward a way or truth; the syntax presents that orienting work as an emphatically assumed responsibility.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication and enabling toward a true way supplies the clause's core orienting action and makes عَلَيْنَا sound responsibility-bearing."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance is simply said to belong to the speaker.",
+              "after": "The speaker emphatically assumes responsibility for making a truth-directed way discernible and traversable."
+            }
+          },
+          {
+            "model_id": "b_course_not_map",
+            "confidence": "strong",
+            "focus_anchor": "The definite nominal لَلْهُدَىٰ can anchor not only an act of telling but the course, bearing, or intended direction carried by ه د ي.",
+            "mechanism": "If هُدَىٰ profiles a course and manner of proceeding, the clause concerns governance of trajectory: what is 'upon us' is the directional shape of the movement, not merely delivery of a map.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "The course, manner, and intended-direction image turns guidance into the practical bearing of a journey and assigns that bearing to the clause's عَلَيْنَا."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance is information that points toward a road.",
+              "after": "Guidance is the directed course and practical bearing of travel, whose orientation the speaker undertakes."
+            }
+          },
+          {
+            "model_id": "b_preceding_lead",
+            "confidence": "medium",
+            "focus_anchor": "The focus noun هُدَىٰ is visibly tied to a branch in which the guide or foremost part goes ahead.",
+            "mechanism": "Guidance can operate from in front: an advance edge enters the route first and thereby gives following motion its line. The clause then promises precedential presence rather than rearward instruction.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B003",
+                "role": "The leading-front image supplies an advance presence whose going-before makes the route followable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The traveler receives directions while remaining the first to enter the route.",
+              "after": "What is undertaken is to go ahead as a leading edge, so the traveler follows an already opened line."
+            }
+          },
+          {
+            "model_id": "b_gracious_dispatch",
+            "confidence": "medium",
+            "focus_anchor": "The same focus root permits هُدَىٰ to resonate with something graciously sent toward a recipient.",
+            "mechanism": "Guidance becomes a directed transfer rather than a possession held at the source. عَلَيْنَا marks source-side commitment to dispatch the gift; it does not make the recipient a creditor.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "The graciously sent gift supplies a source-to-recipient trajectory and recasts guidance as beneficent transmission."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance is a stock of knowledge located with the speaker.",
+              "after": "Guidance is a gracious dispatch whose movement toward the addressee is undertaken at the source."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_timed_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ش و",
+              "ن ه ر",
+              "ج ل و"
+            ],
+            "mechanism": "Covering, daylight's opening, and disclosure make guidance temporally textured. Direction can remain real while visibility is occluded, then become manifest at the fitting phase; guidance is continuity across changing access, not uninterrupted glare.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle clarification anchors the model in guidance while allowing disclosure to be paced rather than maximal at every moment."
+              },
+              {
+                "source_ref": "92:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B001",
+                "role": "A cover rising over and concealing something supplies the phase in which the route persists without full visibility."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B002",
+                "role": "Daylight opening into illumination supplies expanded perceptual access to the route."
+              },
+              {
+                "source_ref": "92:2",
+                "root": "ج ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000256",
+                "branch_id": "B001",
+                "role": "Uncovering and manifestation turn the second phase into active disclosure rather than mere chronological daylight."
+              }
+            ],
+            "structural_cues": [
+              "The paired oath scenes of 92:1-2 repeat إِذَا while reversing cover into disclosure."
+            ],
+            "reader_inference": "The packet supplies alternating concealment and manifestation; I infer that guidance can preserve direction through occlusion and time disclosure, while a live alternative is that the pair only contrasts cosmic scenes.",
+            "changed_reading": {
+              "before": "If guidance is being supplied, the whole way should remain continuously visible.",
+              "after": "Guidance can hold a stable direction through periods of cover and disclose the way in phases."
+            }
+          },
+          {
+            "model_id": "d_calibrated_divergence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "س ع ي",
+              "ش ت ت"
+            ],
+            "mechanism": "Measured creation, purposeful movement, and dispersed outcomes recast guidance as calibration across heterogeneous trajectories. One orienting responsibility need not flatten the created differences among those moving.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction anchor guidance as trajectory-management rather than a uniform verbal message."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning a thing supplies differentiation by design rather than accidental variation."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B001",
+                "role": "Purposeful motion toward an object makes the surrounding diversity a set of directed trajectories."
+              },
+              {
+                "source_ref": "92:4",
+                "root": "ش ت ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000775",
+                "branch_id": "B001",
+                "role": "Dispersion supplies the real divergence that an orienting mechanism must address without erasing."
+              }
+            ],
+            "structural_cues": [
+              "The created male-female pair in 92:3 is followed by the plural addressees' divergent striving in 92:4."
+            ],
+            "reader_inference": "The packet supplies measured creation and purposeful yet scattered movement; I infer that guidance is fitted orientation across difference, while the alternative is a simpler moral contrast with no individualized calibration.",
+            "changed_reading": {
+              "before": "Guidance is one undifferentiated instruction applied identically to everyone.",
+              "after": "Guidance is a common orienting responsibility capable of addressing differently constituted and diverging strivings."
+            }
+          },
+          {
+            "model_id": "d_responsive_easing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ط و",
+              "و ق ي",
+              "ص د ق",
+              "ي س ر"
+            ],
+            "mechanism": "Giving, self-placement within protection, and enacted verification are followed by an opening after difficulty and tractable movement. Guidance therefore includes responsive enabling: a practiced orientation becomes increasingly traversable.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Guidance as indication plus divine enabling anchors the shift from communicated direction to assisted traversal."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B002",
+                "role": "Handing something over supplies an outward practice that begins to embody the chosen direction."
+              },
+              {
+                "source_ref": "92:5",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself within protection supplies deliberate self-positioning, not passive receipt."
+              },
+              {
+                "source_ref": "92:6",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Making a promise or claim true in action supplies verification that stabilizes the orientation."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease after difficulty supplies the path-level response to the enacted disposition."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, compliant motion makes enabling bodily and kinetic: movement increasingly follows the chosen line."
+              }
+            ],
+            "structural_cues": [
+              "The فَأَمَّا sequence of 92:5-7 places three dispositions before the future easing response."
+            ],
+            "reader_inference": "The packet supplies an ordered practice-to-easing sequence; I read it as a feedback arrow within guidance, while the alternative is that easing is a later reward adjacent to, but not constitutive of, guidance.",
+            "changed_reading": {
+              "before": "Guidance ends once a correct direction has been stated.",
+              "after": "Guidance can answer enacted orientation by opening the route and making continued movement along it more tractable."
+            }
+          },
+          {
+            "model_id": "d_channelized_descent",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب خ ل",
+              "غ ن ي",
+              "ك ذ ب",
+              "ي س ر",
+              "ع س ر",
+              "ر د ي"
+            ],
+            "mechanism": "Withholding, claimed sufficiency, and rejection establish an opposed orientation; easing then means reduced resistance along that chosen line, even as the line bends into hardship and finally a fall. Guidance discloses a bifurcating field without coercively preventing every destructive course.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course and intended direction anchor the model in the focus word as trajectory rather than guaranteed arrival."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "ب خ ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000089",
+                "branch_id": "B001",
+                "role": "Withholding supplies the first embodied commitment of the opposed course."
+              },
+              {
+                "source_ref": "92:8",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "The image of self-sufficing adequacy closes the actor against dependence on further orientation."
+              },
+              {
+                "source_ref": "92:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsity to the thing or its bearer makes rejection an active directional judgment."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Tractable motion explains how an adverse course can become easy to continue without becoming good."
+              },
+              {
+                "source_ref": "92:10",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B004",
+                "role": "Crooked resistance and complication supply the destination produced by the apparently easy continuation."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "ر د ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000558",
+                "branch_id": "B003",
+                "role": "Falling into ruin supplies the terminal geometry of the self-reinforcing adverse trajectory."
+              }
+            ],
+            "structural_cues": [
+              "The mirrored frames of 92:5-7 and 92:8-10 use the same easing verb for opposed destinations.",
+              "The fall of 92:11 stands immediately before the focus claim of 92:12."
+            ],
+            "reader_inference": "The packet supplies opposed dispositions, repeated easing, hardship, and fall; I infer path-dependence in which motion becomes easier along a chosen orientation, while the alternative is that the two easings are purely external assignments.",
+            "changed_reading": {
+              "before": "Divine guidance must force every addressed person away from ruin.",
+              "after": "Guidance can truthfully expose the fork and its ends while chosen dispositions become self-reinforcing trajectories, including a frictionless approach to a hard fall."
+            }
+          },
+          {
+            "model_id": "d_temporal_stewardship",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ر",
+              "ء و ل"
+            ],
+            "mechanism": "The immediately following claim spans beginning, later end, return, and even administration. It grounds the responsibility for direction in command of the whole temporal arc: guidance can orient from origin through outcome rather than intervene at one isolated point.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "The intended course anchors guidance as an arc whose beginning and outcome can be jointly governed."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness after a first point supplies the far end of the temporal span."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply the near end from which the guided course opens."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to final outcome folds destination back into the first/latter pair and makes direction teleological."
+              },
+              {
+                "source_ref": "92:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped image of administering an affair adds stewardship to temporal possession."
+              }
+            ],
+            "structural_cues": [
+              "92:12 and 92:13 form adjacent emphatic claims: إِنَّ عَلَيْنَا followed by وَإِنَّ لَنَا."
+            ],
+            "reader_inference": "The packet supplies responsibility for direction beside possession of first and latter, plus a mapped administration image; I infer whole-course stewardship, while the alternative keeps the two claims independent.",
+            "changed_reading": {
+              "before": "Guidance is a punctual message inserted somewhere within a person's life.",
+              "after": "Guidance is stewardship of orientation across the full arc from beginning through return and outcome."
+            }
+          },
+          {
+            "model_id": "d_warning_as_guidance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ن و ر",
+              "ل ظ ي"
+            ],
+            "mechanism": "Warning awakens caution, fire can be perceived from afar as a visible marker, and pure flame fixes the boundary's consequence. The gentle way-showing of the focus can therefore include an alarming advance disclosure; severity of signal need not cancel beneficence of function.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward truth anchors warning as a way-showing function rather than an independent threat theme."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B010",
+                "role": "The split-root threatening image pressure-tests the tonal range of guidance and activates its severe warning register."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning that frightens in order to awaken caution supplies the preventive purpose of the severe signal."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Fire sighted from a distance makes the danger an advance landmark rather than only a later punishment."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ل ظ ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001357",
+                "branch_id": "B001",
+                "role": "Pure, fiercely kindled flame supplies the real boundary condition that gives the warning urgency."
+              }
+            ],
+            "structural_cues": [
+              "The first explicit speech-act after the paired claims of 92:12-13 is the first-person warning in 92:14."
+            ],
+            "reader_inference": "The packet supplies caution-awakening warning, distant visibility, and flame; I infer that advance warning is one mode of discharging guidance, while the alternative treats warning and guidance as neighboring but categorically separate acts.",
+            "changed_reading": {
+              "before": "Guidance must sound soothing, so a frightening warning lies outside it.",
+              "after": "Guidance may remain gentle in aim while using an unmistakably severe advance signal to expose where a course ends."
+            }
+          },
+          {
+            "model_id": "d_orientation_and_siding",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ج ن ب",
+              "و ق ي"
+            ],
+            "mechanism": "Turning the face, turning away, being led laterally, and being protected turn abstract direction into bodily orientation. Rejection is an enacted reversal of facing; rescue is a guided displacement to the safe side of danger.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Intended direction anchors the bodily turn and lateral displacement as concrete operations of guidance."
+              },
+              {
+                "source_ref": "92:16",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning the face toward something supplies the positive bodily geometry of orientation."
+              },
+              {
+                "source_ref": "92:16",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning one's back and withdrawing supplies the same geometry reversed by refusal."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "Leading something to the side supplies active rerouting away from the dangerous line."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Repelling harm through protection gives the lateral rerouting its preservative function."
+              }
+            ],
+            "structural_cues": [
+              "The active turning-away of 92:16 is answered by the passive being-kept-aside of 92:17."
+            ],
+            "reader_inference": "The packet supplies opposed turning and protective side-placement; I infer a shared spatial mechanism of orientation, while the alternative reads the verbs as unrelated rejection and reward.",
+            "changed_reading": {
+              "before": "Guidance is an inward belief or verbal instruction with no spatial operation.",
+              "after": "Guidance can be a bodily reorientation: facing, refusing to face, or being led onto the safe side of a danger."
+            }
+          },
+          {
+            "model_id": "d_nontransactional_gift_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "م و ل",
+              "ز ك و",
+              "ج ز ي",
+              "ب غ ي",
+              "و ج ه"
+            ],
+            "mechanism": "The focus gift-image is activated by wealth being given, growth or purification, denial of a compensable prior favor, and desire directed toward a face. Guidance is a non-transactional transmission that redirects its recipient into further giving rather than closing a debt ledger.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "A gracious gift sent toward someone supplies the incoming transfer whose effects can continue through the recipient."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving rather than merely arriving makes the recipient's answering movement an intentional outgoing transfer."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed and accumulated wealth supplies the material that is released rather than retained."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B001",
+                "role": "Growth and increase make giving generative rather than a simple subtraction from a fixed stock."
+              },
+              {
+                "source_ref": "92:19",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Matching an act with recompense supplies the transactional logic that the surrounding negation suspends."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Seeking makes the gift's downstream movement purposive rather than socially repayable."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and orientation give the seeking a non-human endpoint and turn generosity into reorientation."
+              }
+            ],
+            "structural_cues": [
+              "92:18-20 moves from giving wealth, through the negation of a repayable favor, to an exclusive sought end."
+            ],
+            "reader_inference": "The packet supplies gift, outgoing wealth, growth, suspended recompense, and directed seeking; I infer a circulating but non-exchange economy of guidance, while the alternative limits these verses to the giver's conduct after an independently received guidance.",
+            "changed_reading": {
+              "before": "Because guidance is 'upon us,' it resembles a debt discharged once information is handed over.",
+              "after": "Guidance is an unpriced gift that reorients reception into generative giving without creating a human repayment claim."
+            }
+          },
+          {
+            "model_id": "d_cultivated_satisfaction",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب غ ي",
+              "و ج ه",
+              "ر ب ب",
+              "ع ل و",
+              "ر ض و"
+            ],
+            "mechanism": "Seeking a face, lordly cultivation toward completion, ascent, and eventual satisfaction make guidance developmental and relational. The directed course is not exhausted by compliance; it matures a seeker toward an elevated encounter and acceptance.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course, bearing, and intended direction anchor the model in a sustained trajectory toward an end."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Active seeking supplies the traveler's desire-driven participation in the course."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face as what fronts and receives approach gives guidance a relationally encountered terminus."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivating, repairing, and bringing to completion supplies the developmental work performed along the route."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B001",
+                "role": "Elevation supplies the vertical transformation of the directed and cultivated seeker."
+              },
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual satisfaction supplies a relational completion more reciprocal than bare arrival."
+              }
+            ],
+            "structural_cues": [
+              "The exclusive seeking of 92:20 flows directly into the open-ended future satisfaction of 92:21."
+            ],
+            "reader_inference": "The packet supplies seeking, facing, cultivation, elevation, and satisfaction; I infer a developmental relation culminating in acceptance, while the alternative treats satisfaction as reward after, rather than the telos internal to, guidance.",
+            "changed_reading": {
+              "before": "Guidance is an external rule whose endpoint is correct compliance.",
+              "after": "Guidance is a cultivated, desire-engaging course whose horizon is elevated relational satisfaction."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_supported_walker",
+            "confidence": "medium",
+            "containment": "The bodily scene is surprising because هُدَىٰ is usually abstract, but it is directly anchored in a focus-root branch and coheres with ease of motion and the nearby fall. Render it as an embodied analogy for enabling, not as a claim that the focus noun literally denotes assisted walking here.",
+            "focus_anchor": "A focus-root branch pictures a weak or swaying walker moving by leaning on companions.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Supported, swaying walking turns guidance into accompaniment that bears some of the traveler's weight."
+              },
+              {
+                "source_ref": "92:7",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light and compliant movement supplies the bodily effect of successful support."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "ر د ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000558",
+                "branch_id": "B003",
+                "role": "The fall into ruin supplies the kinetic danger against which supportive guidance matters."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance points while the traveler carries the entire burden of movement.",
+              "after": "Guidance may accompany and partially bear an unstable traveler until movement becomes easier and a fall can be avoided."
+            }
+          },
+          {
+            "outlier_id": "o_custody_of_the_protected",
+            "confidence": "exploratory",
+            "containment": "This is form-distant because it activates a rare nominal branch for a protected person or captive, yet the exact focus root and the later protection and side-leading cues keep it anchored. Render it as a temporary custodial profile of عَلَيْنَا, not as the lexical replacement of 'guidance.'",
+            "focus_anchor": "The focus-root inventory includes a person under inviolability, pledge, protection, or captivity within the semantic field of ه د ي.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B007",
+                "role": "The protected person or captive shifts the object under responsibility from guidance-content to a vulnerable traveler held in custody."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "ج ن ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000262",
+                "branch_id": "B005",
+                "role": "Leading something to the side supplies the custodian's concrete act of removing the vulnerable subject from danger."
+              },
+              {
+                "source_ref": "92:17",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection that repels harm supplies the purpose of the custodial obligation."
+              }
+            ],
+            "changed_reading": {
+              "before": "What lies 'upon us' is only the delivery of correct content.",
+              "after": "For a moment the clause profiles custodial responsibility for the protected traveler whom guidance must lead out of harm's line."
+            }
+          },
+          {
+            "outlier_id": "o_devotional_offering",
+            "confidence": "exploratory",
+            "containment": "The offering sense is morphologically and contextually more distant than ordinary هُدَىٰ, but it belongs to the exact focus-root inventory and is reactivated by wealth transfer and exclusive seeking of the Lord's face. Render it as a devotional trajectory latent in the root, never as a claim that the verse straightforwardly says 'offering.'",
+            "focus_anchor": "The focus root carries a branch for an offering sent toward a sanctuary.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B005",
+                "role": "An offering dispatched toward a sacred center supplies a devotional direction in which transfer itself traces the route."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving supplies the concrete act by which possessed material is sent away from the giver."
+              },
+              {
+                "source_ref": "92:18",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the material capable of becoming a devoted transfer."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B001",
+                "role": "Seeking supplies the intention that directs the transfer beyond ordinary exchange."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face standing for the self supplies the personal divine terminus of the devotional dispatch."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and sovereignty identify the sacred relation toward which the offering-image is oriented."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance and giving are separate: one indicates while the other transfers wealth.",
+              "after": "The root briefly lets guidance resemble a devotional offering whose directed transfer toward the sacred center is itself a way."
+            }
+          },
+          {
+            "outlier_id": "o_escorted_transition",
+            "confidence": "exploratory",
+            "containment": "The bridal branch is socially specific and should not be promoted into a marriage interpretation of 92:12. It remains worth carrying because it is directly attached to the focus root and the context supplies paired sexes, facing, and relational satisfaction; render it only as an escorted-transition analogy.",
+            "focus_anchor": "A focus-root branch depicts a bride being led into a new relational station rather than finding the route alone.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B006",
+                "role": "The bride being led supplies an escorted passage from one social state into a new bond."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B001",
+                "role": "The male member of the created pair supplies the relational polarity that makes the transition image legible."
+              },
+              {
+                "source_ref": "92:3",
+                "root": "ء ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000058",
+                "branch_id": "B001",
+                "role": "The female member of the created pair keeps the branch activation tied to the packet's own paired social imagery."
+              },
+              {
+                "source_ref": "92:20",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B003",
+                "role": "Face-to-face encounter supplies the relational arrival toward which escorted transition can move."
+              },
+              {
+                "source_ref": "92:21",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B003",
+                "role": "Mutual satisfaction supplies a relationally completed state rather than mere arrival at a location."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance is solitary navigation by an informed individual.",
+              "after": "Guidance can be imagined as an escorted transition into a transformed relation, with the guide responsible for the passage."
+            }
+          },
+          {
+            "outlier_id": "o_split_root_collapse",
+            "confidence": "exploratory",
+            "containment": "This is the strangest activation because it depends on the packet's non-dominant ه د د mapping rather than the dominant guidance root. It remains anchored by the exact focus occurrence and converges with the packet's hardship, fall, and warning sequence. Render it explicitly as a split-root pressure reading, not as ordinary lexical semantics.",
+            "focus_anchor": "The packet maps the focus occurrence secondarily to ه د د, whose branches include structural collapse, a hard descent, and threat.",
+            "activation_trace": [
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe breaking and collapse make guidance load-bearing: it must reveal or dismantle the support whose failure would ruin the traveler."
+              },
+              {
+                "source_ref": "92:12",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B009",
+                "role": "A difficult descent gives the guided way a hazardous gradient rather than a neutral surface."
+              },
+              {
+                "source_ref": "92:11",
+                "root": "ر د ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000558",
+                "branch_id": "B003",
+                "role": "Falling into ruin activates the split-root descent and collapse images immediately before the focus claim."
+              },
+              {
+                "source_ref": "92:14",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Caution-awakening warning supplies the preventive response to a route whose structure can fail."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guidance marks a route laid across stable ground.",
+              "after": "The split root briefly recasts guidance as responsibility to expose a treacherous descent and the collapse hidden in its load-bearing structure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Guidance shifted from message-delivery to responsibility for the course, including disclosure, advance presence, and enabling.",
+            "The mirrored easing sequences made guidance compatible with path-dependence: practiced orientations become increasingly traversable even when one ends in hardship.",
+            "The first-and-latter claim expanded guidance into stewardship of an entire temporal arc.",
+            "Giving, suspended recompense, and directed seeking activated guidance as a non-transactional gift that generates further giving.",
+            "Warning, bodily turning, side-leading, and fall made guidance spatial and preventive rather than purely propositional."
+          ],
+          "what_was_special": "The focus root supported several simultaneous geometries—way, leading front, dispatched gift, supported gait, protected traveler, escorted passage, and sacred offering—while its non-dominant ه د د mapping introduced a contained counter-image of threat, difficult descent, and collapse. Context did not collapse these into one sense; it made different mechanisms flare at different points.",
+          "remaining_uncertainties": [
+            "Whether عَلَيْنَا is best heard as self-assumed obligation, guaranteed provision, or sovereign prerogative remains grammatically open.",
+            "It is uncertain whether easing toward hardship belongs inside the mechanism of guidance or names a neighboring consequence after guidance is refused.",
+            "The bodily, custodial, bridal, and offering branches may be productive analogies without carrying direct lexical force in this nominal form.",
+            "The non-dominant ه د د activation is packet-grounded but too mapping-distant to use without explicit containment."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Guidance as divine obligation of indication.** Evidence: `ه د ي` B001 (gentle guidance toward way/truth), activated by the explicit “upon Us.” Structural cue: after the false self-sufficiency fails, the speaker states what belongs to divine responsibility. Mechanism: guidance is a supplied road-sign and enabling, not a commodity bought by wealth. Abductive move: I infer that “upon Us” marks gracious self-binding rather than external compulsion. Reading change: the ayah becomes a mercy-pledge in the midst of judgment.\n\n2. **Guidance as course and direction.** Evidence: `ه د ي` B002 (course/manner/intended direction), activated by 92:7/10 two facilitated routes. Structural cue: two paths have just been made easy. Mechanism: the word هدى gives a directional grammar to both routes and their divergence. Abductive move: I infer that guidance names the true course by which facilitation should be read. Reading change: the ayah clarifies that the split paths are not symmetrical in value.\n\n3. **Guidance as gift/offering.** Evidence: `ه د ي` B004 (gracious gift), B005 (offering sent to sanctuary), activated by giving in 92:5 and 92:18-20. Structural cue: divine guidance stands between human giving and final recompense. Mechanism: the first gift is divine orientation; human giving imitates it downstream. Abductive move: I infer gift-circulation from shared giving roots, not surface identity. Reading change: guidance reads as the original non-transactional gift.",
@@ -9505,6 +10826,11 @@
       "words_total": 4,
       "words_resolved": 3,
       "words_unresolved": 1,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [
         {
           "word_index": 3,
@@ -9515,10 +10841,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s092/linguistic/morphemes.tsv",
-        "ayah_count": 22,
-        "row_count": 138,
+        "ayah_count": 21,
+        "row_count": 131,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9930,10 +11257,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s92/packets/92_12.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s92/readers/reader_hft_a/92_12.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s092",
+        "latent_activation/focus_trace/runs/s92"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s92",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 174860,
+      "split_root_count": 9,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

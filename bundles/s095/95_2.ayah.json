@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:35.351577+00:00",
+  "generated_at": "2026-08-18T13:34:15.934096+00:00",
   "surah": 95,
   "ayah": 2,
   "ayahRef": "95:2",
@@ -986,7 +986,8 @@
       "morpheme_ids": [
         "m-w-s095-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:2:1"
+      "aligned_qac_word_ref_upstream": "95:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1000,7 +1001,8 @@
       "morpheme_ids": [
         "m-w-s095-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "95:2:2"
+      "aligned_qac_word_ref_upstream": "95:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1014,7 +1016,8 @@
       "morpheme_ids": [
         "m-w-s095-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "95:2:3"
+      "aligned_qac_word_ref_upstream": "95:2:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1578,7 +1581,1076 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s95/packets/95_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "95:2",
+      "window": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7",
+        "95:8"
+      ],
+      "ayah_count": 8,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر د د",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000555",
+              "furuq_root_norm": "ر د د",
+              "furuq_source_root_norm": "ر د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 52,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001413",
+              "furuq_root_norm": "م ر د",
+              "furuq_source_root_norm": "م ر د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "95:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_named_mount",
+            "confidence": "strong",
+            "focus_anchor": "The noun طُورِ, specified by سِينِينَ and governed by the opening oath coordination, can denote a particular mountain.",
+            "mechanism": "The phrase first presents a concrete named height: a geographically locatable landmark is selected as the object of attention and oath.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The mountain or named-Mount image supplies the concrete landmark and makes the proper-name reading primary."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare opaque place-name is invoked.",
+              "after": "A specific mountain is made present as a concrete oath-landmark."
+            }
+          },
+          {
+            "model_id": "b_precinct_edge",
+            "confidence": "medium",
+            "focus_anchor": "طُورِ can carry edge, approach-to-precinct, and limit images alongside its mountain reference.",
+            "mechanism": "The named mountain is spatially refigured as an extended frontage whose approach ends at a consequential boundary; attention shifts from the peak's center to the line and surrounding zone one nears.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B001",
+                "role": "The extended perimeter or frontage image turns the Mount into a continuous spatial edge."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B002",
+                "role": "The image of nearing a surrounding precinct gives that edge an approach-path and an inside/outside relation."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The reached or exceeded limit makes the approached edge a threshold rather than neutral scenery."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Mount is visualized mainly as a central mass or summit.",
+              "after": "The Mount is also a perimeter, approach-zone, and limit that organizes passage."
+            }
+          },
+          {
+            "model_id": "b_successive_states",
+            "confidence": "exploratory",
+            "focus_anchor": "The same root at طُورِ has an explicit branch of repeated turns, stages, and states.",
+            "mechanism": "A static landform can carry a latent temporal diagram: one phase gives way to another while the named Mount holds the phases together as a single sign.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The successive-stage image supplies temporal iteration and lets the place-name double as a phase marker."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The concrete mountain image contains the temporal activation so that it remains a reading of this named place."
+              }
+            ],
+            "changed_reading": {
+              "before": "The named mountain is a fixed object.",
+              "after": "The fixed mountain also intimates succession through states or stages."
+            }
+          },
+          {
+            "model_id": "b_wild_empty_margin",
+            "confidence": "exploratory",
+            "focus_anchor": "طُورِ has branches for what lies beyond familiar human company and, more narrowly, for a place with no one present.",
+            "mechanism": "The mountain's distance from domesticated company makes it a marginal zone: a place whose remoteness and possible emptiness expose rather than shelter the visitor.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B006",
+                "role": "The wildness-beyond-domestic-limit image supplies remoteness from ordinary human familiarity."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B007",
+                "role": "The narrow no-one-present image intensifies the remote margin into a potentially empty witness-space."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Mount is presumed to be an inhabited or socially familiar sacred site.",
+              "after": "The Mount can also register as the wild, sparsely inhabited margin beyond domestic company."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_productive_mountain_chain",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ي ن",
+              "ز ي ت"
+            ],
+            "mechanism": "The preceding fruit and oil images turn the named Mount into part of a productive mountain chain: growth at a mountain place proceeds through fruit, expressed oil, anointing, and provision, while the focus root's stage image supplies the transitions.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The mountain image keeps the activated chain geographically attached to the named Mount."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The successive-stage image lets raw growth, extraction, and use form one process rather than a list."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ت ي ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000190",
+                "branch_id": "B002",
+                "role": "The fig-place-in-the-mountains image directly links the preceding fruit to mountainous terrain."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B001",
+                "role": "The oil and pressed-essence image contributes a material transformation from crop to extract."
+              },
+              {
+                "source_ref": "95:1",
+                "root": "ز ي ت",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000656",
+                "branch_id": "B004",
+                "role": "The oil-as-food, provision, or gift image makes the transformed material socially sustaining."
+              }
+            ],
+            "structural_cues": [
+              "95:1 immediately precedes 95:2 in a coordinated oath sequence.",
+              "Two cultivated products are followed by a named mountain rather than by an explicit proposition."
+            ],
+            "reader_inference": "The packet supplies a mountain fig-place, oil extraction and provision, and successive states; I infer that the adjacent oath terms can form a growth-to-use chain centered on mountain terrain; alternatively, they may remain independent oath emblems.",
+            "changed_reading": {
+              "before": "The Mount is a self-contained geographic monument.",
+              "after": "The Mount becomes a productive landscape-node where living material passes through stages into sustenance."
+            }
+          },
+          {
+            "model_id": "d_bounded_sanctuary_network",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "The bounded land and heart-settling security of the following city sharpen the focus Mount's perimeter, precinct, and limit branches. The Mount and city can therefore coexist as distinct nodes in a network of delimited, approached, and protected places.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B002",
+                "role": "The approached precinct image makes the Mount a place with a consequential surrounding zone."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The boundary-limit image gives the mountain precinct a line that may be reached or crossed."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B001",
+                "role": "The limited tract of earth image supplies a second explicitly delimited place."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The settled-heart security image gives the following bounded place a protective social and affective quality."
+              }
+            ],
+            "structural_cues": [
+              "95:2 stands between cultivated products and the demonstratively presented secure city.",
+              "The three opening ayat coordinate concrete nouns as parallel oath objects."
+            ],
+            "reader_inference": "The packet supplies an approached mountain precinct, a boundary, bounded land, and security; I infer that parallel oath placement links them as a sanctuary network; alternatively, the Mount may be sacred without sharing the city's protective function.",
+            "changed_reading": {
+              "before": "The Mount is an isolated peak.",
+              "after": "The Mount is a bounded threshold-place within a larger geography of delimited and protected sites."
+            }
+          },
+          {
+            "model_id": "d_frontier_of_habitation",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ب ل د",
+              "ء م ن"
+            ],
+            "mechanism": "The city's staying, settlement, and security do not only assimilate the Mount to sanctuary; they also polarize it. Against settled protected land, the Mount's wild branch becomes a frontier outside ordinary habitation, preserving a rival reading to the sanctuary model.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B006",
+                "role": "The wildness outside familiar company supplies the mountain side of the settlement/frontier contrast."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ب ل د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000148",
+                "branch_id": "B009",
+                "role": "The residence-and-staying image supplies stable habitation against which the Mount becomes marginal."
+              },
+              {
+                "source_ref": "95:3",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The security image marks the city pole as socially safe, intensifying the Mount's exposed otherness."
+              }
+            ],
+            "structural_cues": [
+              "The secure city follows the named Mount without an explicit statement that their spatial qualities are identical.",
+              "Parallel placement permits contrast as well as equivalence."
+            ],
+            "reader_inference": "The packet supplies wild remoteness, settled residence, and security; I infer a contrastive arrow from city to mountain-frontier; alternatively, the two places may be parallel sanctuaries rather than opposed habitats.",
+            "changed_reading": {
+              "before": "The Mount and secure city simply exemplify the same kind of place.",
+              "after": "The Mount can instead be the exposed frontier that makes settled security perceptible by contrast."
+            }
+          },
+          {
+            "model_id": "d_developmental_calibration",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ء ن س",
+              "ح س ن",
+              "ق و م"
+            ],
+            "mechanism": "Creation as measuring and completing a form, followed by best upright calibration, converts the focus root's succession of states into a developmental mechanism. The Mount remains literal but also becomes a stable diagram for ascent through measured phases toward an upright human form.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The repeated-stage image supplies the temporal architecture for developmental formation."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The limit or extreme image gives staged formation a reached measure rather than endless change."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "The estimating-and-measuring image makes creation a calibrated process."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "The complete and balanced form image supplies the achieved result of calibration."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The human-as-opposed-to-wild image identifies the formed subject and quietly retains the focus frontier contrast."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "The good or beautiful opposed to ugly supplies the positive evaluation of the attained form."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "The straightness, balance, and evenness image gives the developmental endpoint upright organization."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "The equal weight and measured proportion image reinforces calibration rather than mere vertical height."
+              }
+            ],
+            "structural_cues": [
+              "95:4 is the first explicit proposition after the three coordinated oath objects.",
+              "The proposition joins creation, the human, superlative goodness, and taqwim in one clause."
+            ],
+            "reader_inference": "The packet supplies successive stages, limits, measured creation, balanced form, and upright proportion; I infer that the oath-landmark can diagram the process asserted after the oaths; alternatively, it may function only as a literal witness to an unrelated proposition.",
+            "changed_reading": {
+              "before": "The Mount is a static witness to human creation.",
+              "after": "The Mount also figures measured developmental ascent through stages toward balanced uprightness."
+            }
+          },
+          {
+            "model_id": "d_reversible_vertical_trajectory",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر د د",
+              "س ف ل"
+            ],
+            "mechanism": "Return, repetition, and directed lowering convert neutral succession into a reversible vertical trajectory. Read against the preceding best calibration, the mountain's height and extremity become a phase diagram in which attainment can be reversed into descent.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The succession-of-states image supplies multiple phases that can change direction."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The physical mountain supplies a vertical material figure for height and descent."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The extremity image supplies the upper and lower endpoints of the trajectory."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "The returning-to-a-place image gives the movement a backward direction."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B010",
+                "role": "The repetition and oscillation image makes reversal a recurrent possibility rather than a single fall."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B001",
+                "role": "The low place below height supplies the trajectory's destination."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "The directed lowering image supplies the downward arrow from attained form to lower state."
+              }
+            ],
+            "structural_cues": [
+              "ثُمَّ marks a later phase after the best taqwim of 95:4.",
+              "The paired comparative and plural forms of the low root intensify the lower endpoint."
+            ],
+            "reader_inference": "The packet supplies staged states, a mountain, return, repetition, and lowering; I infer a shared vertical trajectory from the oath object to the human sequence; alternatively, mountain height may be rhetorically vivid but not mechanistically mapped onto the return.",
+            "changed_reading": {
+              "before": "The Mount's staged resonance suggests orderly forward development.",
+              "after": "The Mount becomes an axis of reversible states: calibrated elevation can turn back into extreme descent."
+            }
+          },
+          {
+            "model_id": "d_forked_continuity",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "ع م ل",
+              "ص ل ح",
+              "ء ج ر",
+              "غ ي ر",
+              "م ن ن"
+            ],
+            "mechanism": "The exception for trusted conviction and fitting action, followed by recompense explicitly protected from cutting, forks the descending trajectory. The focus root's successive stages now admit two coexisting paths: reversal downward and an extended line whose force is not exhausted.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The successive-stage image supplies the common trajectory before the exception creates a fork."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B001",
+                "role": "The extended-alongside edge image supplies a line capable of continuing across stages."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "The trusted-heart assent image supplies the first condition selecting the non-descending path."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "The intentional deed image turns inward assent into directed practice along that path."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B003",
+                "role": "The fitness-for-a-thing image makes the deeds structurally suited to preserving the attained form."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "The recompense-for-work image supplies the outcome attached to the preserved path."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "The exception and negation image reverses the cutting branch that follows."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "The cutting and dwindling-until-extension-ceases image, under negation, supplies uninterrupted continuation."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B002",
+                "role": "The sustaining-force-or-its-loss image makes continuity a question of retained power as well as duration."
+              }
+            ],
+            "structural_cues": [
+              "إِلَّا explicitly interrupts the general return described in 95:5.",
+              "The phrase غَيْرُ مَمْنُونٍ places negation directly over a cutting-or-exhaustion image."
+            ],
+            "reader_inference": "The packet supplies an exception, intentional fitting action, reward, negated cutting, and sustained force; I infer that these fork the focus root's staged trajectory into descent and continuation; alternatively, uninterruptedness may qualify only reward without reshaping the Mount.",
+            "changed_reading": {
+              "before": "Successive stages culminate uniformly in reversal and descent.",
+              "after": "The Mount's stage-line forks: one course descends, while another preserves force and extension without being cut."
+            }
+          },
+          {
+            "model_id": "d_oath_landmark_as_evidence",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ب ع د",
+              "د ي ن"
+            ],
+            "mechanism": "The later challenge to denial and appeal to reckoning changes the opening function of the named Mount. Its concreteness and the oath construction make it an evidentiary landmark: something invoked to render the creation-return sequence answerable rather than merely scenic.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The particular mountain image supplies a stable public landmark capable of serving as an invoked witness."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The opposition to truth image frames the later question as an evidentiary dispute."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The attributing-falsehood image supplies an agent who rejects the truth-claim supported by the oath."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "The after-versus-before image makes the denial puzzling after the preceding displayed sequence."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "The reckoning and recompense image identifies the claim for which the landmark functions as evidence."
+              }
+            ],
+            "structural_cues": [
+              "The focus phrase begins with oath coordination and belongs to the opening oath series.",
+              "The interrogative of 95:7 looks back across the creation, return, and exception sequence."
+            ],
+            "reader_inference": "The packet supplies a concrete Mount, falsehood, temporal aftermath, and reckoning; I infer that the opening oath object is recruited as evidence in the later challenge; alternatively, it may solemnize the discourse without functioning as a witness in an argument.",
+            "changed_reading": {
+              "before": "The Mount is an honored object named for atmosphere or solemnity.",
+              "after": "The Mount is an invoked evidentiary landmark bearing on denial and final reckoning."
+            }
+          },
+          {
+            "model_id": "d_continuance_diagnostic",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "م ن ن",
+              "ك ذ ب"
+            ],
+            "mechanism": "Two remote falsehood images describe a flow that vanishes and a wild animal that runs then stops. Coming after reward protected from cutting, they activate a diagnostic reading of the focus edge and stages: a true course continues through its phases, whereas an apparent course fails under interruption.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B001",
+                "role": "The extended edge image supplies the line along which persistence or interruption can be observed."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B004",
+                "role": "The stage image supplies successive checkpoints at which a course may continue or fail."
+              },
+              {
+                "source_ref": "95:6",
+                "root": "م ن ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001449",
+                "branch_id": "B001",
+                "role": "The cutting-until-extension-ceases image supplies the interruption explicitly negated for the reward."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "The milk-flow that disappears and does not last supplies a material test of failed continuance."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "The wild animal that runs and then stops supplies a kinetic test of interrupted course."
+              }
+            ],
+            "structural_cues": [
+              "The denial question immediately follows the promise whose final phrase negates cutting.",
+              "The focus root itself offers both spatial extension and temporal stages."
+            ],
+            "reader_inference": "The packet supplies extension, stages, negated cessation, vanished flow, and stopped motion; I infer that persistence becomes a truth-diagnostic for the focus trajectory; alternatively, the remote falsehood images may have no active force in this occurrence.",
+            "changed_reading": {
+              "before": "The Mount's perimeter and stages describe space and sequence only.",
+              "after": "They also form a test-line: continuity through stages distinguishes a sustained course from one exposed as failing."
+            }
+          },
+          {
+            "model_id": "d_judicial_boundary",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ل ه",
+              "ح ك م"
+            ],
+            "mechanism": "The final divine question joins judging, corrective restraint, and perfected firmness. It activates the Mount's boundary as a juridical-material figure: a fixed limit that checks deviation, returns a course toward repair, and stands firm enough to support judgment.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The proper limit that may be reached or exceeded supplies the boundary on which judgment operates."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The mountain image materializes the limit as a firm and publicly apprehensible landmark."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The divine name in oath and address closes the relation between the opening invocation and the final question."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "The restraining and turning-back-for-repair image gives judgment a corrective boundary function."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "The judging-between-people image supplies the explicit juridical domain."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "The perfected firmness and reliability image makes the boundary dependable rather than arbitrary."
+              }
+            ],
+            "structural_cues": [
+              "The final rhetorical question closes a discourse that opened with coordinated oaths.",
+              "The superlative and plural judge forms repeat the judgment root at the point of closure."
+            ],
+            "reader_inference": "The packet supplies a limit, a firm mountain, the divine name in oath usage, corrective restraint, judgment, and perfected firmness; I infer that the focus landmark materializes the final judicial function; alternatively, the opening Mount and closing judgment may remain rhetorically linked without sharing one mechanism.",
+            "changed_reading": {
+              "before": "The Mount is a place sworn by before a later judgment claim.",
+              "after": "The Mount becomes a firm judicial boundary: an image of the limit that detects excess and enables corrective judgment."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_denuded_mount",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant split mapping of ر د د and imports a geological process analogy. It remains anchored in the focus Mount and its extended surface, while stripping, smoothing, and downward motion form a coherent material mechanism. Downstream prose should label it a denudation analogy, not a lexical meaning of طُورِ or the contextual verb.",
+            "focus_anchor": "The concrete mountain and its extended frontage can be imagined as a surface on which stripping and smoothing become visible.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B005",
+                "role": "The mountain image supplies the physical body undergoing the exploratory material process."
+              },
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B001",
+                "role": "The extended frontage image supplies the exposed surface on which denudation operates."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B001",
+                "role": "The non-dominant stripped-of-covering image supplies removal from the mountain surface."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001413",
+                "branch_id": "B002",
+                "role": "The non-dominant smoothed-surface image supplies the material result of stripping."
+              },
+              {
+                "source_ref": "95:5",
+                "root": "س ف ل",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000715",
+                "branch_id": "B004",
+                "role": "The directed-downward image supplies the transport or lowering arrow of denudation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Mount is an intact, static mass.",
+              "after": "Exploratorily, it is an exposed body whose covering can be stripped, surface smoothed, and material carried downward."
+            }
+          },
+          {
+            "outlier_id": "o_bridled_limit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a bridle-bit image is cross-domain and branch-distant from ordinary judging language. It remains valid as a control-system analogy anchored in the focus root's explicit stopping-limit branch and reinforced by corrective restraint. Downstream prose should say the Mount functions like a bridle or control limit, not that it literally denotes one.",
+            "focus_anchor": "The focus root's limit reached or exceeded allows the Mount to act as a control boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B003",
+                "role": "The stopping-or-crossing limit supplies the controlled threshold."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B006",
+                "role": "The bridle-bit image supplies a compact mechanism for checking and steering motion at the threshold."
+              },
+              {
+                "source_ref": "95:8",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "The restraint-for-repair image gives the control action a corrective rather than merely punitive purpose."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Mount marks a passive boundary.",
+              "after": "Exploratorily, the Mount is a bridling limit that checks a trajectory and turns it toward correction."
+            }
+          },
+          {
+            "outlier_id": "o_evidentiary_surface",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a perimeter, a smoothed created surface, and deceptive clothing into an epistemic surface model. It remains anchored in the Mount's visible frontage and in the later denial dispute. Downstream prose should preserve it only as a cautionary visual analogy: an exposed surface may be read as evidence yet may not disclose inner condition.",
+            "focus_anchor": "The focus root's extended frontage permits attention to the visible face of the named mountain rather than only its mass.",
+            "activation_trace": [
+              {
+                "source_ref": "95:2",
+                "root": "ط و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000955",
+                "branch_id": "B001",
+                "role": "The extended frontage image supplies the visible evidentiary surface."
+              },
+              {
+                "source_ref": "95:4",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B008",
+                "role": "The smooth and even surface image sharpens the surface as something deliberately formed and readable."
+              },
+              {
+                "source_ref": "95:7",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The garment that lies by its condition supplies the possibility that visible presentation misreports what lies beneath."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Mount's visible face straightforwardly attests to what it is.",
+              "after": "Exploratorily, its frontage becomes an evidentiary surface whose appearance invites reading but also raises the risk of false presentation."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The named mountain became both a bounded sanctuary-node and, in a coexisting contrastive reading, a wild frontier outside settled security.",
+            "Its successive-state branch was transformed by measured creation, upright calibration, return, and lowering into a reversible developmental trajectory.",
+            "The exception and negated cutting forked that trajectory into descent versus sustained extension rather than one universal terminus.",
+            "The opening oath-landmark became evidence and then a material figure for the corrective boundary of final judgment."
+          ],
+          "what_was_special": "The focus supported concrete geography, temporal development, social frontier, and juridical evidence without collapsing them. Especially live were the paradox of protected precinct versus wild margin, the move from mountain height to reversible human states, and the non-dominant split-root denudation outlier.",
+          "remaining_uncertainties": [
+            "سِينِينَ has no supplied root inventory, so its contribution is retained only as specification of the named Mount rather than expanded branchwise.",
+            "The serial oath objects may be independent emblems; productive-chain and sanctuary-network links are reader-supplied relations.",
+            "Stage, wildness, empty-place, bridle, and deceptive-surface activations are visibly anchored but more distant from the proper-name use than the mountain reading.",
+            "The vertical, developmental, and juridical arrows are abductive mappings from context into the focus, not directions stated by the focus phrase itself."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The Mount as a boundary marker before crossing into human valuation.** Lexical evidence: ط و ر B005, the Mount/mountain; ط و ر B003, boundary limit reached or exceeded. Structural cue: 95:2 stands between the fruit/place pair of 95:1 and the secure town of 95:3, immediately before the created human in 95:4. Assigned role: طور supplies a height/place, while its boundary branch marks a threshold between witnessed signs and the claim about the human. Abductive move: I supply the arrow from spatial mountain to evaluative limit: the packet uses topography to stage the question of whether the human remains within proper bounds. Reading change: the Mount reads less as a static landmark and more as a limit-post in the surah's moral geometry.\n\n2. **Stages and turns hidden inside the mountain word.** Lexical evidence: ط و ر B004, successive turns and states; خ ل ق B001/B003 in 95:4, proportioning and complete form; ر د د B001/B010 in 95:5, return and repetition/wavering. Structural cue: after طور comes a sequence: creation in best taqwim, then return to the lowest, then exception. Assigned role: طور activates \"phase\" as well as \"mountain,\" making the surah's later temporal movement visible in advance. Abductive move: I infer that the same root's stage-branch can be activated by the packet's following state-changes even when the surface is a mountain noun. Reading change: 95:2 becomes an anticipatory marker of phases in human becoming, not only a geographic oath.\n\n3. **Approaching a precinct rather than merely naming a mountain.** Lexical evidence: ط و ر B001, extended perimeter/frontage; ط و ر B002, nearing the surrounding precinct; ب ل د B001/ء م ن B001 in 95:3, bounded secure land. Structural cue: \"طور\" is followed by \"this secure town\"; both are oath-sites with implied surrounding spaces. Assigned role: ط و ر functions as a perimeter one approaches, and البلد as the secured bounded tract inside the next oath unit. Abductive move: I supply the spatial movement from perimeter to protected city because the ayat move from mountain to town. Reading change: the ayah reads as approach to a protected sacred zone, not only as a named elevation.",
@@ -4098,14 +5170,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
-        "ayah_count": 9,
-        "row_count": 67,
+        "ayah_count": 8,
+        "row_count": 60,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4331,10 +5409,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s95/packets/95_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s95/readers/reader_hft_a/95_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s095",
+        "latent_activation/focus_trace/runs/s95"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s95",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 78324,
+      "split_root_count": 1,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

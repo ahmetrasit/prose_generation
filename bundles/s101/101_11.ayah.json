@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:21.721863+00:00",
+  "generated_at": "2026-08-18T13:34:27.837880+00:00",
   "surah": 101,
   "ayah": 11,
   "ayahRef": "101:11",
@@ -721,7 +721,8 @@
       "morpheme_ids": [
         "m-w-s101-a011-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:11:1"
+      "aligned_qac_word_ref_upstream": "101:11:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -735,7 +736,8 @@
       "morpheme_ids": [
         "m-w-s101-a011-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "101:11:2"
+      "aligned_qac_word_ref_upstream": "101:11:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1768,7 +1770,1075 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s101/packets/101_11.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "101:11",
+      "window": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:7",
+        "101:8",
+        "101:9",
+        "101:10",
+        "101:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "د ر ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000469",
+              "furuq_root_norm": "د ر ر",
+              "furuq_source_root_norm": "د ر ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 7,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000473",
+              "furuq_root_norm": "د ر ي",
+              "furuq_source_root_norm": "د ر ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "101:11",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_combustive_intensity",
+            "confidence": "strong",
+            "focus_anchor": "The fire noun at word 1 is directly qualified by the feminine adjective at word 2.",
+            "mechanism": "Active combustion and intensified heating form a compact process: the referent is not merely named as fire but specified by heat at full operation.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning, flickering fire supplies the material carrier and its capacity to leave a mark."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Intense heating, including furnace-like heating, makes the adjective an active intensifier of the fire."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified fire with a routine temperature adjective.",
+              "after": "A fire defined by heat in active intensification, as though combustion and heating are one continuing operation."
+            }
+          },
+          {
+            "model_id": "base_luminous_exposure",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 belongs to a root inventory that carries both fire and illumination, while word 2 supplies forceful heat.",
+            "mechanism": "Light and heat coexist as two effects of one fire: it makes what it reaches perceptible while also materially affecting it.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination supplies outward disclosure, so the fire functions as an exposing light as well as fuel."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Escalating heat prevents the luminous reading from becoming merely visual and gives disclosure material force."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire primarily burns.",
+              "after": "The fire exposes and burns together: visibility itself arrives with thermal consequence."
+            }
+          },
+          {
+            "model_id": "base_exclusionary_zone",
+            "confidence": "medium",
+            "focus_anchor": "The adjective at word 2 can activate both heat and the root's warding or prohibited-preserve image.",
+            "mechanism": "The heat functions spatially as a boundary. Its intensity does not merely describe conditions inside the fire; it actively prevents approach or escape across its edge.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The burning fire supplies the dangerous material zone whose edge can be enforced."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Warding, keeping away, and protected enclosure turn heat into the zone's self-enforcing boundary."
+              }
+            ],
+            "changed_reading": {
+              "before": "Heat is only a property measured inside the fire.",
+              "after": "Heat is also what closes the fire around its occupant and bars any safe crossing of its boundary."
+            }
+          },
+          {
+            "model_id": "base_stinging_surge",
+            "confidence": "exploratory",
+            "focus_anchor": "The adjective at word 2 retains root branches of burning poison and sharply advancing intensity.",
+            "mechanism": "Heat can be modeled as an attacking dose rather than an ambient condition: it stings, enters, and surges through what it reaches.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Flickering combustion supplies the moving medium through which the attack is carried."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B007",
+                "role": "The burning force of a sting or poison makes the heat invasive rather than merely surrounding."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B008",
+                "role": "A spreading rush of sharp intensity gives the invasive heat temporal momentum."
+              }
+            ],
+            "changed_reading": {
+              "before": "A uniformly hot environment.",
+              "after": "A fire whose heat repeatedly arrives as a penetrating sting and accelerating surge."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_striking_heat_event",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ع"
+            ],
+            "mechanism": "The repeatedly announced impact loads the terminal fire with percussion. The fire becomes the event's delivered and continuing blow, with sharp heat extending impact through time.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Active, flickering combustion gives the announced impact a sustained material form."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B008",
+                "role": "Sharp intensity arriving as a surge converts a momentary strike into continuing thermal assault."
+              },
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B001",
+                "role": "One thing striking another supplies the event's initial mechanics and makes the final fire its delivered impact."
+              },
+              {
+                "source_ref": "101:2",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B006",
+                "role": "A blow that checks the hearer gives the heat an admonitory and sensory force."
+              }
+            ],
+            "structural_cues": [
+              "The event-name is repeated in 101:1-3 before any scene is disclosed.",
+              "The focus clause closes the sequence after the renewed question in 101:10."
+            ],
+            "reader_inference": "The packet supplies repeated striking and sharp thermal intensity; I supply the arrow that the final fire embodies the strike rather than merely following it. A live alternative is that impact names the whole day while the fire is only one later destination.",
+            "changed_reading": {
+              "before": "A hot fire located at the end of the account.",
+              "after": "The account's striking event made continuous: impact persists as surging heat."
+            }
+          },
+          {
+            "model_id": "ctx_luminous_answer",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ر ي"
+            ],
+            "mechanism": "The two knowledge questions form an interrogative envelope. Because the final answer is rooted in illumination as well as fire, the answer does not only report an object; it stages an exposure in which the unknown becomes sensorially undeniable.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination lets the final fire function as disclosure and not only as the disclosed object."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Intense heat makes the disclosure experiential: the answer is known by contact as well as sight."
+              },
+              {
+                "source_ref": "101:3",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing supplies the first explicit epistemic gap that the luminous ending will answer."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "The repeated act of making known immediately before the focus turns the fire into the mechanism of final disclosure."
+              }
+            ],
+            "structural_cues": [
+              "The same knowledge formula occurs in 101:3 and 101:10.",
+              "In 101:10 the unknown is pronominal; the focus noun-adjective clause supplies the delayed identification."
+            ],
+            "reader_inference": "The packet supplies repeated knowing, delayed naming, illumination, and heat; I supply the arrow that the luminous heat is itself a mode of knowing. The live alternative is a purely rhetorical question followed by an informational answer.",
+            "changed_reading": {
+              "before": "The final clause gives the missing name of the destination.",
+              "after": "The final clause performs disclosure: what was unknown becomes visible and physically undeniable in one luminous-hot answer."
+            }
+          },
+          {
+            "model_id": "ctx_phase_change_field",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي و م",
+              "ك و ن"
+            ],
+            "mechanism": "The day is presented through repeated becoming. Read against that grammar, the final heat is a field of transition continuous with the transformations of people and mountains, rather than an unrelated object introduced after them.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Combustion supplies an energetic medium capable of sustaining change."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Furnace-like heating makes phase change a plausible functional role for the focus adjective."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A day's overwhelming event and severity provide the bounded interval in which transformation unfolds."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time frame the human image as a becoming rather than a static comparison."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The repeated temporal occurrence extends the same transformation grammar to mountains."
+              }
+            ],
+            "structural_cues": [
+              "The paired verbal clauses in 101:4-5 repeat becoming across human and geological scales.",
+              "The focus closes with a verbless noun-adjective clause, naming the energetic condition after the changes."
+            ],
+            "reader_inference": "The packet supplies a severe day, repeated becoming, combustion, and heating; I supply the arrow that heat is the common transformation field. The live alternative is that the scenes are concurrent signs with no shared causal medium.",
+            "changed_reading": {
+              "before": "A terminal object encountered after cosmic changes.",
+              "after": "The concentrated thermal field continuous with those changes, carrying the day's becoming into its final human consequence."
+            }
+          },
+          {
+            "model_id": "ctx_moth_beacon_attractor",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و س",
+              "ف ر ش",
+              "ب ث ث"
+            ],
+            "mechanism": "Visible, scattered, light-moving humans are set against a fire root that includes distant sighting, approach, and landmarks. The fire can therefore be carried as an attractor: it gives chaotic scattering a fatal point of convergence.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B003",
+                "role": "Sighting or intentionally approaching a fire from afar supplies a possible direction for otherwise dispersed movement."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B005",
+                "role": "A conspicuous beacon or landmark lets the final fire organize the visual field at distance."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Severe heat converts visual attraction into destructive arrival."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Human appearance against the nonhuman supplies the collective whose recognizable form is destabilized."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B005",
+                "role": "The light flying insect supplies erratic mobility that a visible flame can organize."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersion supplies the initial outward scatter that the beacon reading reverses toward convergence."
+              }
+            ],
+            "structural_cues": [
+              "The human collective is compared to flying insects and immediately qualified as dispersed in 101:4.",
+              "The visible fire is withheld until the final ayah."
+            ],
+            "reader_inference": "The packet supplies insect-lightness, dispersion, distant fire-sighting, and a beacon; I supply the directional arrow from scatter toward the final flame. A live alternative is wholly aimless dispersal with no attraction to fire.",
+            "changed_reading": {
+              "before": "A destination waiting after the crowd's disorder.",
+              "after": "A visible thermal attractor that covertly gives the scattered crowd a terminal direction."
+            }
+          },
+          {
+            "model_id": "ctx_furnace_delamination",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ب ل",
+              "ع ه ن",
+              "ن ف ش"
+            ],
+            "mechanism": "The comparison moves from elevated solidity to soft fiber and then to fiber losing cohesion. Furnace-like heat supplies a material mechanism for that sequence, so the final fire reads as an unbinding operator on structures once thought immovable.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Combustion supplies the energetic process that can consume or loosen material structure."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heating metal and furnace material supports heat as a transformer of resistant substance."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "An elevated solid aggregate supplies the initial state of maximum cohesion."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ع ه ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001056",
+                "branch_id": "B003",
+                "role": "Soft dyed wool supplies the transformed material state, replacing geological hardness with pliable fiber."
+              },
+              {
+                "source_ref": "101:5",
+                "root": "ن ف ش",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001534",
+                "branch_id": "B001",
+                "role": "Fluffed cotton or wool supplies the final loss of binding and dispersal of the softened structure."
+              }
+            ],
+            "structural_cues": [
+              "The single simile in 101:5 compresses solid aggregate, soft fiber, and loosened fiber into one transformation.",
+              "The focus heat is named only after both human and mountain cohesion have failed."
+            ],
+            "reader_inference": "The packet supplies hard aggregate, soft wool, fluffing, and furnace-like heat; I supply the causal arrow that heat drives the unbinding. The live alternative is a visual analogy of lightness and color with no thermal cause.",
+            "changed_reading": {
+              "before": "A fire reserved for individual punishment.",
+              "after": "The concentrated form of a world-unbinding process that turns solidity into loose, mobile fiber."
+            }
+          },
+          {
+            "model_id": "ctx_calibrated_assay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ق ل",
+              "و ز ن"
+            ],
+            "mechanism": "The paired outcomes are generated by valuation. Against heating and fire-branding branches, the focus becomes both assay and inscription: value is tested, and the resulting deficit is made materially legible as heat.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Fire used both in burning and marking lets the outcome function as an enduring inscription of judgment."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "The heating of resistant material gives the final state the mechanics of an assay furnace."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "ث ق ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000202",
+                "branch_id": "B005",
+                "role": "Precious weight and worth supply qualitative value, not only physical mass, to what is being tested."
+              },
+              {
+                "source_ref": "101:6",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "A just balance supplies the norm by which the favorable outcome is calibrated."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "The repeated just balance carries the same calibration into the unfavorable branch that terminates in fire."
+              }
+            ],
+            "structural_cues": [
+              "The two outcome clauses are paired by the repeated branching construction in 101:6 and 101:8.",
+              "The same plural scale noun appears in both branches, while the focus appears only at the end of the light branch."
+            ],
+            "reader_inference": "The packet supplies worth, just measurement, paired outcomes, heating, and branding; I supply the arrow that fire enacts and records the assay result. A live alternative is that weighing is complete before an unrelated punitive destination begins.",
+            "changed_reading": {
+              "before": "A generic punishment assigned after weighing.",
+              "after": "A calibrated consequence that tests and visibly inscribes the measured lack of weight."
+            }
+          },
+          {
+            "model_id": "ctx_anti_habitat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ش",
+              "ر ض و"
+            ],
+            "mechanism": "The favorable branch combines sustained life with acceptance; the unfavorable terminus combines burning with exclusion. The focus can therefore be read as an anti-habitat: a self-enforcing condition in which the relational and material supports of livable satisfaction are reversed.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Hostility flaring among people supplies a relational counterpart to the fire's physical burning."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Warding and prohibited enclosure make the hostile heat a space that prevents access to refuge."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ع ي ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001067",
+                "branch_id": "B001",
+                "role": "Life and lived condition supply the positive habitat against which the fire's condition is read."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Acceptance defined against anger supplies the affective polarity reversed by hostile fire."
+              },
+              {
+                "source_ref": "101:7",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000570",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped acceptance branch independently reinforces the contrast between welcomed life and rejected enclosure."
+              }
+            ],
+            "structural_cues": [
+              "The satisfying life clause is the positive arm of the same paired outcome construction that later reaches the focus.",
+              "Both outcomes are expressed as containing conditions rather than momentary acts."
+            ],
+            "reader_inference": "The packet supplies life, acceptance opposed to anger, hostility, and warding; I supply the arrow that the final fire reverses the whole ecology of the favorable life. The live alternative is a simple contrast between two destinations without relational or habitat mechanics.",
+            "changed_reading": {
+              "before": "A painful place contrasted with a pleasant life.",
+              "after": "An anti-life enclosure whose heat enforces exclusion and whose hostility reverses acceptance."
+            }
+          },
+          {
+            "model_id": "ctx_falling_return_basin",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ف ف",
+              "و ز ن",
+              "ء م م",
+              "ه و ي"
+            ],
+            "mechanism": "Deficient weight is followed by a return-source named as an abyss, then that abyss is identified as hot fire. The focus becomes a receiving basin with gravitational mechanics: unstable lightness passes into falling, gathering, and thermal enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B006",
+                "role": "Flight and lack of steadiness resonate with the unballasted motion that precedes the fall."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "A warded enclosure turns the receiving fire into a basin that closes after gathering."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "خ ف ف",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000427",
+                "branch_id": "B001",
+                "role": "Loss of weight supplies the initiating deficit that removes stability."
+              },
+              {
+                "source_ref": "101:8",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B001",
+                "role": "Estimation by weight makes the initiating lightness a measured condition rather than random motion."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "Origin, gathering point, and return make the destination paradoxically function as the subject's receiving source."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into a chasm supplies the downward trajectory by which the measured deficit reaches the fire."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves without a scene break from light scales in 101:8 to the return-source and abyss in 101:9.",
+              "The question in 101:10 points back to the abyss, and the focus clause identifies what that abyss is."
+            ],
+            "reader_inference": "The packet supplies measured lightness, a gathering return-source, downward fall, and an enclosing fire; I supply the physical arrow from unballasted deficit to descent and thermal capture. The live alternative is juridical consequence with no literalized gravity or gathering mechanics.",
+            "changed_reading": {
+              "before": "A hot fire situated somewhere at the bottom of a pit.",
+              "after": "The hot receiving medium of the fall itself: a paradoxical return-basin that gathers instability and then seals it in."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_inverted_well_furnace",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the adjective-root's well-lining branch rather than its direct heat branch. It remains anchored at focus word 2 and gains spatial support from the preceding fall into an abyss; downstream prose should present it only as an architectural overlay on the primary hot-fire reading, not as a replacement gloss.",
+            "focus_anchor": "Word 2 has a branch for stones that line and stabilize a well, adjacent to the focus fire noun.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Combustion keeps literal fire primary inside the proposed architecture."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B011",
+                "role": "Large stones lining a well supply an enclosed vertical architecture for the fire."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B002",
+                "role": "A gathering and return point makes the lined enclosure a terminal receiver."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Descent into a chasm supplies the vertical access into the proposed furnace-well."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fire happens inside an otherwise unspecified abyss.",
+              "after": "The abyss and fire momentarily fuse into an inverted, stone-lined furnace that receives the falling subject."
+            }
+          },
+          {
+            "outlier_id": "outlier_maternal_anti_nursery",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses the nurturing image of mother with the protective branch of the heat root and reverses both through the abyss. It remains anchored because 101:9 names a mother-like relation and 101:11 identifies its referent as the focus fire; downstream prose should mark the anti-nursery mechanics as a deliberate inversion, not claim that protection is the adjective's contextual gloss.",
+            "focus_anchor": "The focus fire and its root's enclosure branch answer the immediately preceding mother-and-abyss construction.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Literal burning reverses the expected safety of a nurturing destination."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B002",
+                "role": "Protection and enclosure are inverted into inescapable containment rather than care."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B001",
+                "role": "Mother as birth-giver and nurturer supplies the expected shelter that the focus violently reverses."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling into an abyss converts return to the mother into descent rather than refuge."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mother expression is an opaque label for a destination.",
+              "after": "The fire is an anti-nursery: a returning enclosure that contains perfectly while reversing nurture into burning."
+            }
+          },
+          {
+            "outlier_id": "outlier_thermal_whirlpool",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports a whirlpool image from the packet's split mapping for the knowledge root and transfers fluid rotation into fire. It remains anchored through the focus branches of flickering combustion and surging intensity plus the explicit abyssal fall; downstream prose should call it a cross-material kinetic analogy, not a lexical equation of fire and water.",
+            "focus_anchor": "The focus combines a moving flame image at word 1 with a surging-intensity branch at word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Flickering movement within active fire supplies a rotating medium rather than a static floor."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B008",
+                "role": "A spreading rush of intensity supplies acceleration into the imagined vortex."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000469",
+                "branch_id": "B008",
+                "role": "A disturbed water-whirlpool supplies the abductive geometry of circular intake."
+              },
+              {
+                "source_ref": "101:9",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Downward fall into a chasm orients the vortex vertically and gives it a receiving center."
+              }
+            ],
+            "changed_reading": {
+              "before": "A still pool of fire at the end of a vertical fall.",
+              "after": "A thermal whirlpool whose flicker, surge, and downward intake make the fall continue inside the fire."
+            }
+          },
+          {
+            "outlier_id": "outlier_dark_disclosure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it holds illumination and blackening together instead of choosing bright or dark fire. Both are directly anchored in the two focus roots, while contextual uncovering and knowing support a disclosure mechanism; downstream prose should render this as paradoxical co-presence—visibility produced at a blackened threshold—not as a claim that the fire lacks light.",
+            "focus_anchor": "Word 1 activates illumination while word 2 has a branch of accumulated blackness in night or cloud.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination supplies the positive act of making the terminal reality visible."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B012",
+                "role": "Blackening and piled darkness supply an obscuring field against which the fire's disclosure becomes stark."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B003",
+                "role": "Uncovering an affair supplies the movement from concealment to exposure."
+              },
+              {
+                "source_ref": "101:10",
+                "root": "د ر ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000473",
+                "branch_id": "B001",
+                "role": "Knowing immediately before the focus makes the light-dark conjunction epistemically functional."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bright flame that simply removes darkness.",
+              "after": "A blackening yet disclosing fire: it makes the truth visible precisely at an atmosphere of maximum obscurity."
+            }
+          },
+          {
+            "outlier_id": "outlier_social_conflagration",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates social enmity and anger inside an apparently physical fire. It remains anchored in branches of both focus roots and is triggered by human collectivity and mutual striking; downstream prose should retain literal combustion as the primary layer and describe the social mechanism only as a coexisting embodiment of hostility.",
+            "focus_anchor": "The fire root at word 1 includes enmity flaring among groups, and the heat root at word 2 includes anger rising in the self.",
+            "activation_trace": [
+              {
+                "source_ref": "101:11",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "Enmity flaring between groups supplies a social fire coextensive with literal combustion."
+              },
+              {
+                "source_ref": "101:11",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B003",
+                "role": "Anger and defensive zeal supply the affective heat that feeds collective hostility."
+              },
+              {
+                "source_ref": "101:1",
+                "root": "ق ر ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001219",
+                "branch_id": "B002",
+                "role": "Mutual striking or combat gives the social heat an interactional mechanism."
+              },
+              {
+                "source_ref": "101:4",
+                "root": "ن و س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The exposed human collective supplies the population across which hostility can flare."
+              }
+            ],
+            "changed_reading": {
+              "before": "A physical fire external to the human disorder.",
+              "after": "Literal fire carrying a second live layer: the final embodiment of anger and mutually striking social enmity."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The final fire becomes a luminous answer: knowing is completed by exposure that is simultaneously visual and thermal.",
+            "Measured lightness, return, and falling turn the fire into a gathering basin with gravitational as well as punitive mechanics.",
+            "The paired scales make the heat read as calibrated assay and material inscription, not generic punishment.",
+            "The people and mountain images let the fire coexist as both a distant attractor and a field that unbinds material cohesion.",
+            "The opening impact persists into the ending as striking heat rather than merely preceding it."
+          ],
+          "what_was_special": "The two-word focus supported unusually different but simultaneous functions: light and injury, beacon and sink, assay and anti-habitat, enclosure and surge. Context did not collapse these into one gloss; it activated directional mechanisms from dispersal to attraction, solidity to fiber, weight deficit to fall, question to disclosure, and social striking to embodied conflagration. Form-distant branches also preserved contained architectural, maternal, vortical, and dark-disclosure overlays.",
+          "remaining_uncertainties": [
+            "The packet establishes sequence but not whether focus heat causes the transformations of 101:4-5 or merely shares their event-field.",
+            "The movement from dispersed flying insects toward the final fire is abductive; the context can still support directionless scattering.",
+            "The assay reading depends on treating the fire as enactment of measured value rather than a destination assigned after measurement.",
+            "The well-lining and maternal-enclosure overlays depend on remote branches of the heat root and should remain subordinate to direct heating.",
+            "The whirlpool model depends on a cross-material transfer from the split-mapped د ر ر inventory and is kinetic analogy rather than lexical identity.",
+            "Illumination and blackening remain a productive polarity; the packet does not force either a bright-dominant or dark-dominant rendering."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. Fire as final illumination and burning. Evidence: ن و ر B002, burning fire; ن و ر B001, light/illumination; ح م ي B001, heat and heating. Structural cue: the last ayah finally answers the repeated ما. Mechanism: the hidden referent is disclosed by the same thing that burns; illumination and punishment coincide. Abductive move: I infer that final knowledge is experiential because the answer is heat-light, not definition. Reading change: نار حامية reads as the event's revelation, not only its penalty.\n\n2. Protected zone that excludes escape. Evidence: ح م ي B002, protection/prevention and a protected preserve; ه و ي B002, abyss; ق ر ع B010, open road/courtyard; خ ف ف B002, rapid departure. Structural cue: the light one is sent to a \"mother\" and then identified as hot fire. Mechanism: Hawiyah is a bounded preserve in reverse: a zone one is kept in, not kept from. Abductive move: I supply the enclosure relation from حمى to the abyss-fire. Reading change: حامية means not merely hot but inescapably guarded.\n\n3. Heated anger and hostile flare. Evidence: ح م ي B003, zeal/pride/anger; ن و ر B007, enmity flaring between people; ق ر ع B002, mutual combat. Structural cue: the surah begins with a striking event and ends with heated fire. Mechanism: conflict-heat is externalized as the final fiery state. Abductive move: I infer affective transmutation: social/moral contention becomes environmental heat. Reading change: the fire reads as the world of heated opposition made objective.\n\n4. Black pit and well-lining. Evidence: ح م ي B006, black foul mud; ح م ي B011, well-lining stones; ح م ي B012, blackening of night/cloud; ه و ي B001/B002, void and abyss. Structural cue: \"Hawiyah\" as pit is immediately glossed by \"hot fire.\" Mechanism: the final place combines depth, blackness, enclosure, and heat. Abductive move: I infer a pit-well image from the adjacency of Hawiyah and حامية branches. Reading change: نار حامية is not only flame upward; it is a dark contained depth that burns.\n\n5. Poisoning heat. Evidence: ح م ي B007, stinging poison and burning force; ف ر ش B005, insects drawn to fire; ب ث ث B001, scattered creatures. Structural cue: moth-like people appear before the final fire. Mechanism: what drew the swarm becomes a lethal burning force, like poison entering the body. Abductive move: I supply attraction-to-destruction from the moth/fire ecology. Reading change: حامية carries invasive harm, not only ambient temperature.",
@@ -8088,14 +9158,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s101/linguistic/morphemes.tsv",
-        "ayah_count": 12,
-        "row_count": 66,
+        "ayah_count": 11,
+        "row_count": 59,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8347,10 +9423,29 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s101/packets/101_11.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s101/readers/reader_hft_a/101_11.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s101"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s101",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 89106,
+      "split_root_count": 2,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

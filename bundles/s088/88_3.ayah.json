@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-29T22:32:22.721577+00:00",
+  "generated_at": "2026-08-18T13:33:34.565018+00:00",
   "surah": 88,
   "ayah": 3,
   "ayahRef": "88:3",
@@ -863,7 +863,8 @@
       "morpheme_ids": [
         "m-w-s088-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:3:1"
+      "aligned_qac_word_ref_upstream": "88:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -877,7 +878,8 @@
       "morpheme_ids": [
         "m-w-s088-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "88:3:2"
+      "aligned_qac_word_ref_upstream": "88:3:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2406,7 +2408,1307 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s88/packets/88_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "88:3",
+      "window": [
+        "88:1",
+        "88:2",
+        "88:3",
+        "88:4",
+        "88:5",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "88:10",
+        "88:11",
+        "88:12",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20",
+        "88:21",
+        "88:22",
+        "88:23",
+        "88:24",
+        "88:25",
+        "88:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": [
+        {
+          "qac_root": "غ ش و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001088",
+              "furuq_root_norm": "غ ش و",
+              "furuq_source_root_norm": "غ ش و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 18,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001089",
+              "furuq_root_norm": "غ ش ي",
+              "furuq_source_root_norm": "غ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ص ل ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000880",
+              "furuq_root_norm": "ص ل ي",
+              "furuq_source_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 6,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000879",
+              "furuq_root_norm": "ص ل و",
+              "furuq_source_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 3,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ق ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000722",
+              "furuq_root_norm": "س ق ي",
+              "furuq_source_root_norm": "س ق ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 14,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000762",
+              "furuq_root_norm": "س و ق",
+              "furuq_source_root_norm": "س و ق",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ء ن ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000063",
+              "furuq_root_norm": "ء ن ي",
+              "furuq_source_root_norm": "أ ن ي",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 5,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000068",
+              "furuq_root_norm": "ء و ن",
+              "furuq_source_root_norm": "أ و ن",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س ع ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000709",
+              "furuq_root_norm": "س ع ي",
+              "furuq_source_root_norm": "س ع ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 26,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000760",
+              "furuq_root_norm": "س و ع",
+              "furuq_source_root_norm": "س و ع",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ض و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000569",
+              "furuq_root_norm": "ر ض و",
+              "furuq_source_root_norm": "ر ض و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 29,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000570",
+              "furuq_root_norm": "ر ض ي",
+              "furuq_source_root_norm": "ر ض ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 28,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "88:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_purpose_to_exhaustion",
+            "confidence": "strong",
+            "focus_anchor": "The adjacent predicates attach intentional activity at word 1 to wearing strain at word 2.",
+            "mechanism": "Purposeful expenditure consumes the worker: the first participle supplies directed action and the second records its bodily and affective cost.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies the purposive energy expenditure that begins the causal sequence."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness, strain, and affliction supply the depletion produced or displayed by that activity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two neighboring labels, roughly active and tired.",
+              "after": "A compressed causal micro-sequence: deliberately working until work appears as exhaustion."
+            }
+          },
+          {
+            "model_id": "baseline_assigned_service_and_share",
+            "confidence": "exploratory",
+            "focus_anchor": "Both roots contain institutional and allocative branches that can make the two participles describe appointed service rather than free activity.",
+            "mechanism": "An agent holds a charge for compensation while a fixed portion or threshold is set for that agent; labor, office, pay, and allotment form one administrative mechanism.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B003",
+                "role": "Holding an official charge turns the first participle into appointed service."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "A worker's wage makes the appointed service compensable and therefore open to settlement."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "An assigned share supplies the portion attached to the worker or the work."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B006",
+                "role": "A fixed base or threshold makes the charge bounded and measurable."
+              }
+            ],
+            "changed_reading": {
+              "before": "A self-directed worker suffering fatigue.",
+              "after": "An appointed agent carrying a measured charge whose wage and allotted outcome remain in question."
+            }
+          },
+          {
+            "model_id": "baseline_embodied_labor_march",
+            "confidence": "medium",
+            "focus_anchor": "The first word can evoke hand-working crews and self-exertion, while the second can evoke both fatigue and a day-long march.",
+            "mechanism": "Manual work and sustained travel converge in a body that must keep moving; exhaustion is not an abstract state but the accumulated trace of hands, legs, and distance.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B006",
+                "role": "Manual labor crews give the first participle an embodied, hand-working social form."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B007",
+                "role": "Taking trouble supplies the worker's continuing self-exertion."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B010",
+                "role": "A full-day march converts exertion into sustained movement across time."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness is the bodily residue left by crew labor and prolonged travel."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic person who works hard.",
+              "after": "A laboring body or crew kept at handwork and on the road until effort is written into its posture."
+            }
+          },
+          {
+            "model_id": "baseline_operative_erection",
+            "confidence": "exploratory",
+            "focus_anchor": "The active morphology permits an operator sequence in which word 1 puts something to work and word 2 sets something upright or prominent.",
+            "mechanism": "Operation precedes installation: a thing is activated, used, or worked, then fixed into a standing, visible configuration.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B002",
+                "role": "Putting something to work supplies an operative rather than merely occupational action."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting something upright and prominent supplies the installation accomplished by the operator."
+              }
+            ],
+            "changed_reading": {
+              "before": "Working and consequently weary.",
+              "after": "Working something into operation and setting it up, with fatigue remaining a competing branch rather than the only value of word 2."
+            }
+          },
+          {
+            "model_id": "baseline_oppositional_work",
+            "confidence": "exploratory",
+            "focus_anchor": "Intentional action at word 1 can combine with the hostility branch of word 2's active form.",
+            "mechanism": "The pair can name agency directed against another: action becomes a sustained hostile stance rather than exertion passively suffered.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies accountable action rather than involuntary motion."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B008",
+                "role": "Setting oneself against another in hostility gives that action an oppositional direction."
+              }
+            ],
+            "changed_reading": {
+              "before": "A worker worn down by effort.",
+              "after": "An actor working and taking an adversarial stand, potentially responsible for rather than merely victim of the resulting condition."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_faces_as_exposed_transcript",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ش و",
+              "و ج ه",
+              "خ ش ع"
+            ],
+            "mechanism": "The covering event overtakes exposed selves, and the lowered face becomes the display surface on which work and weariness can be seen. The focus pair therefore reads as a public bodily transcript, not only an inner biography.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional work supplies the prior or continuing activity displayed on the face."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness supplies the visible condition produced by that activity."
+              },
+              {
+                "source_ref": "88:1",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An encompassing cover supplies the event that surrounds and overwhelms the displayed subject."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face standing for the self makes the bodily surface represent the whole person."
+              },
+              {
+                "source_ref": "88:2",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission give the face a defeated posture into which the focus predicates continue."
+              }
+            ],
+            "structural_cues": [
+              "The feminine singular predicate in 88:2 is followed by two matching indefinite feminine singular predicates in 88:3, favoring continued predication of the faces.",
+              "The order encompassing event, lowered faces, then working and weariness makes the state readable as an aftermath."
+            ],
+            "reader_inference": "The packet supplies an encompassing event, faces-as-selves, lowering, work, and strain; I infer that the grammar carries the faces into 88:3 and that their strain is visually diagnostic. A live alternative is a simple list of states with no causal order between engulfment, work, and fatigue.",
+            "changed_reading": {
+              "before": "Unnamed workers described by their occupation and fatigue.",
+              "after": "Faces, and through them whole selves, visibly bearing the trace of work after being overtaken and lowered."
+            }
+          },
+          {
+            "model_id": "delta_nonrecuperating_labor_circuit",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل ي",
+              "ح م ي",
+              "س ق ي",
+              "ط ع م",
+              "ض ر ع",
+              "س م ن",
+              "غ ن ي",
+              "ج و ع"
+            ],
+            "mechanism": "Exertion occurs inside a closed depletion circuit: heat raises bodily demand, drink and plant-food are administered, but the intake neither builds the body nor suffices against hunger. Work therefore cannot recuperate into strength and keeps terminating in strain.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B007",
+                "role": "Self-exertion supplies the energy expenditure that requires recovery."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness supplies the accumulating deficit when recovery fails."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Encountering fire supplies the punishing environment in which exertion continues."
+              },
+              {
+                "source_ref": "88:4",
+                "root": "ح م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000358",
+                "branch_id": "B001",
+                "role": "Heating intensifies bodily demand and accelerates depletion."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Giving drink supplies intake, but its passive administration does not restore agency or strength."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B004",
+                "role": "Food as livelihood and sound condition supplies the restorative function that the restrictive clause frustrates."
+              },
+              {
+                "source_ref": "88:6",
+                "root": "ض ر ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000908",
+                "branch_id": "B005",
+                "role": "The named plant supplies the sole material input in the restrictive food clause."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "س م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000744",
+                "branch_id": "B001",
+                "role": "Bodily fattening supplies the first explicitly negated sign of nourishment."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency supplies the second restorative function explicitly denied."
+              },
+              {
+                "source_ref": "88:7",
+                "root": "ج و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000278",
+                "branch_id": "B001",
+                "role": "An empty belly supplies the unresolved deficit that closes the failed recovery loop."
+              }
+            ],
+            "structural_cues": [
+              "The focus predicates are immediately followed by fire, passive watering, restrictive food, and two coordinated negations of benefit.",
+              "The sequence distinguishes the presence of intake from the absence of nourishment."
+            ],
+            "reader_inference": "The packet supplies exertion, weariness, heat, administered intake, and explicit non-benefit; I supply the energetic arrow that labor requires recuperation and therefore worsens when nourishment fails. The live alternative is a punitive inventory whose food clauses do not explain the earlier work.",
+            "changed_reading": {
+              "before": "Work happens first and fatigue simply follows.",
+              "after": "Work is trapped in a hostile metabolic system that supplies consumption without restoration, making exhaustion self-renewing."
+            }
+          },
+          {
+            "model_id": "delta_contrastive_work_outcomes",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج ه",
+              "ن ع م",
+              "س ع ي",
+              "ر ض و"
+            ],
+            "mechanism": "A second face panel repeats the human display surface but reverses its condition: good state and satisfaction attach to its own striving. The contrast separates work from outcome, so work itself is not the differentiator; whether striving culminates in depletion or satisfaction is.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional work supplies the activity whose outcome the two face panels differentiate."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness supplies the failed or adverse outcome in the first panel."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B004",
+                "role": "The face as self repeats the same display unit and permits a controlled comparison."
+              },
+              {
+                "source_ref": "88:8",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing reverse the first panel's visible depletion."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "س ع ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000709",
+                "branch_id": "B002",
+                "role": "Work and earning provide a near counterpart to the focus ayah's intentional doing."
+              },
+              {
+                "source_ref": "88:9",
+                "root": "ر ض و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000569",
+                "branch_id": "B001",
+                "role": "Satisfaction supplies the successful relation between the second faces and their striving."
+              }
+            ],
+            "structural_cues": [
+              "The phrase pattern of faces on that day recurs at 88:8, establishing two parallel panels.",
+              "The possessive attachment in 88:9 makes the second faces satisfied with their own striving, not with an unrelated gift."
+            ],
+            "reader_inference": "The packet supplies parallel faces, adverse work-weariness, good condition, striving, and satisfaction; I infer that the panels compare outcomes of activity. A live alternative is that the groups are contrasted without making a general claim about work.",
+            "changed_reading": {
+              "before": "Work itself is the damaging condition.",
+              "after": "The ayah marks work whose result has inverted: one face's activity resolves into exhaustion while the counterpart's striving resolves into satisfaction."
+            }
+          },
+          {
+            "model_id": "delta_hidden_installation_crew",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س ر ر",
+              "ر ف ع",
+              "و ض ع",
+              "ص ف ف",
+              "ب ث ث"
+            ],
+            "mechanism": "The garden inventory is a chain of completed material operations: a resting place is raised, vessels are placed, cushions aligned, and carpets distributed. Read beside the focus roots, those passive results briefly expose the otherwise absent labor of operating, lifting, installing, arranging, and spreading.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B006",
+                "role": "Manual crews supply the hidden producers behind a furnished material environment."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Setting things upright supplies installation as one component of the crew's work."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settled reclining supplies the use-value produced by the installation sequence."
+              },
+              {
+                "source_ref": "88:13",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the first visible completed operation."
+              },
+              {
+                "source_ref": "88:14",
+                "root": "و ض ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001657",
+                "branch_id": "B001",
+                "role": "Putting an object in a fixed place supplies deliberate placement."
+              },
+              {
+                "source_ref": "88:15",
+                "root": "ص ف ف",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000871",
+                "branch_id": "B001",
+                "role": "Alignment on an even line supplies ordered arrangement."
+              },
+              {
+                "source_ref": "88:16",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersing and spreading supplies the final distribution of the furnished field."
+              }
+            ],
+            "structural_cues": [
+              "Four successive feminine passive participles in 88:13-16 echo the compact participial texture of 88:3 while presenting results without agents.",
+              "The operations proceed from elevation to placement, alignment, and distribution."
+            ],
+            "reader_inference": "The packet supplies manual-work and installation branches plus a sequence of passively completed furnishings; I infer an absent production process and let it reactivate the focus pair as its worker/operator. The live alternative is that the furnishings are only a scenic inventory and have no relation to the exhausted faces.",
+            "changed_reading": {
+              "before": "The focus names visible sufferers, while the later furnishings simply exist.",
+              "after": "The focus can also disclose an invisible installation crew whose work is erased from the later passive display of repose and abundance."
+            }
+          },
+          {
+            "model_id": "delta_crafted_world_operator",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "خ ل ق",
+              "ر ف ع",
+              "ج ب ل",
+              "ن ص ب",
+              "س ط ح"
+            ],
+            "mechanism": "The observational sequence decomposes a world into acts of design and configuration: creation is measured, the sky elevated, a solid mass set upright, and the ground spread. The exact return of the focus root at the mountain makes the operative-installation baseline materially visible.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B002",
+                "role": "Putting something to work supplies the operator side of the focus pair."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "Erecting something prominently supplies the operator's installation action."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed visual or intellectual inspection instructs the reader to attend to how operations are accomplished."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies a design operation behind the created form."
+              },
+              {
+                "source_ref": "88:18",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation supplies a completed vertical configuration."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A raised solid mass supplies the material object of installation."
+              },
+              {
+                "source_ref": "88:19",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B001",
+                "role": "The repeated root explicitly realizes setting upright as a cosmic operation."
+              },
+              {
+                "source_ref": "88:20",
+                "root": "س ط ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000703",
+                "branch_id": "B001",
+                "role": "Spreading a level extended surface supplies the horizontal counterpart to raising and erecting."
+              }
+            ],
+            "structural_cues": [
+              "The branchless cue كيف repeats at 88:17-20 and is used only structurally here: it redirects attention from object names to manner of formation.",
+              "The passive series created, raised, set up, and spread presents completed operations whose agent is unstated."
+            ],
+            "reader_inference": "The packet supplies inspection, measuring, elevation, an upright solid mass, exact root repetition, and surface-spreading; I infer that this making-sequence echoes the focus's active operator grammar. The live alternative is that 88:19 only disambiguates ن ص ب toward erection locally, while 88:3 remains exclusively weariness.",
+            "changed_reading": {
+              "before": "The second focus word can only report exhaustion.",
+              "after": "It can also retain the active sense of erecting or installing, making the pair a small human operator sequence mirrored by the configured world."
+            }
+          },
+          {
+            "model_id": "delta_bounded_office_not_control",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ذ ك ر",
+              "س ط ر"
+            ],
+            "mechanism": "The later address defines a narrow commission and explicitly excludes controlling oversight. That role boundary activates the focus's office branch: an agent can be charged with work and an assigned portion without possessing sovereignty over those addressed.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B003",
+                "role": "Official charge supplies the institutional category into which the reminder's bounded task can fall."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "An assigned portion supplies a delimited share of responsibility rather than unlimited power."
+              },
+              {
+                "source_ref": "88:21",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder and that which reminds supply the positively assigned office."
+              },
+              {
+                "source_ref": "88:22",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "The controlling overseer supplies the authority explicitly excluded from that office."
+              }
+            ],
+            "structural_cues": [
+              "The restrictive construction in 88:21 narrows the task to reminder.",
+              "The following negation in 88:22 defines the office by excluding coercive control."
+            ],
+            "reader_inference": "The packet supplies an official-work branch, an allotted-share branch, reminder, and excluded control; I infer a common grammar of delegated office. The live alternative is that the second-person commission has no retrospective bearing on the faces in 88:3.",
+            "changed_reading": {
+              "before": "The focus pair describes undifferentiated hard labor.",
+              "after": "It can also evoke service under appointment: real responsibility with a fixed remit, sharply distinguished from sovereign control."
+            }
+          },
+          {
+            "model_id": "delta_deliberate_opposition",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ل ي",
+              "ك ف ر",
+              "ع ذ ب"
+            ],
+            "mechanism": "Turning away and covering truth are deliberate directional acts followed by punishment. This sequence gives the focus's hostility branch an ethical mechanism: the activity can be work performed in opposition, not merely labor that accidentally exhausts.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional doing supplies accountable action."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B008",
+                "role": "Setting oneself against another supplies the adversarial direction of that action."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies a chosen bodily and relational reversal."
+              },
+              {
+                "source_ref": "88:23",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Covering truth supplies the object and ethical quality of the opposition."
+              },
+              {
+                "source_ref": "88:24",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the consequence that makes the preceding activity accountable."
+              }
+            ],
+            "structural_cues": [
+              "The coordinated active verbs in 88:23 present a sequence of chosen acts before the punishment in 88:24.",
+              "This later agency counterweights the earlier passive watering and suffering."
+            ],
+            "reader_inference": "The packet supplies intentional action, a hostility branch, turning away, truth-covering, and punishment; I infer that the focus active participles can anticipate oppositional agency. The live alternative, and still the stronger immediate syntax, is that 88:3 only describes exhausted faces.",
+            "changed_reading": {
+              "before": "The subject is only a victim of punishing toil.",
+              "after": "A coexisting reading sees the subject as actively working against, so exhaustion and accountability can belong to the same agent."
+            }
+          },
+          {
+            "model_id": "delta_deferred_labor_ledger",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء و ب",
+              "ح س ب"
+            ],
+            "mechanism": "Return followed by counting supplies a deferred settlement point. The focus's wage, transaction, assigned-share, and threshold branches then make labor legible as an unsettled account whose portion is fixed only when the worker returns for reckoning.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "A worker's wage supplies the value awaiting settlement."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B005",
+                "role": "A transaction between people supplies the relational ledger model."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B005",
+                "role": "An assigned share supplies the portion due from the account."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B006",
+                "role": "A fixed threshold supplies the measure against which the account can be resolved."
+              },
+              {
+                "source_ref": "88:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return to the destination supplies the moment at which deferred settlement becomes present."
+              },
+              {
+                "source_ref": "88:26",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B001",
+                "role": "Counting and accounting supply the final reckoning of work, wage, and allotted share."
+              }
+            ],
+            "structural_cues": [
+              "The final two ayat form an ordered pair: first return, then account.",
+              "The plural possessives keep the returning persons and the accounted persons together."
+            ],
+            "reader_inference": "The packet supplies wage, transaction, share, threshold, return, and account; I supply the economic arrow that the return is a settlement of labor. The live alternative is a purely juridical reckoning with no wage or transaction metaphor.",
+            "changed_reading": {
+              "before": "The focus reports a bodily cost exhausted in the present.",
+              "after": "It can also describe labor carried as an unsettled account toward a later return, measure, and allotted result."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_split_root_coercive_caravan",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant mapped root for س ق ي to activate driving and herding beside literal watering. It remains anchored through the focus branches for manual crews, day-long marching, and weariness, but downstream prose should present it only as a split-root material analogy, not as a claim that the surface verb lexically means driving here.",
+            "focus_anchor": "The focus can picture a hand-working group kept moving through a full day's march until exhausted.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B006",
+                "role": "Manual labor crews supply the group subjected to the movement regime."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B010",
+                "role": "A full-day march supplies the caravan-like duration of the labor."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B004",
+                "role": "Weariness supplies the bodily cost of being kept in motion."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B001",
+                "role": "Literal giving of drink supplies the apparent watering station in the movement cycle."
+              },
+              {
+                "source_ref": "88:5",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "The split mapped image of driving and herding supplies coercive propulsion through that station."
+              }
+            ],
+            "changed_reading": {
+              "before": "Exhausted workers are later given a punishing drink.",
+              "after": "A contained caravan reading sees laborers driven from stage to stage, with watering itself functioning as part of the system that keeps them moving."
+            }
+          },
+          {
+            "outlier_id": "outlier_work_bred_camel_body",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it lets the later camel cue reactivate the focus inventory's explicit example of a she-camel naturally disposed for work. The shared disposition and travel mechanism keeps it anchored, but it should be rendered as a zoomorphic comparison of laboring bodies, never as identification of the faces with camels.",
+            "focus_anchor": "Word 1 has a branch for a person or she-camel fitted by disposition for work, and word 2 has a sustained-march branch.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B008",
+                "role": "Natural fitness for work, explicitly including a work-disposed she-camel, supplies the embodied comparison."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B010",
+                "role": "A day-long march supplies the travel function imposed on the work-fitted body."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "ء ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000006",
+                "branch_id": "B001",
+                "role": "Camels and their tending supply the concrete animal body that reactivates the focus branch."
+              },
+              {
+                "source_ref": "88:17",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Innate disposition supplies the bridge from created bodily nature to fitness for labor."
+              }
+            ],
+            "changed_reading": {
+              "before": "A morally legible person happens to perform difficult work.",
+              "after": "The body itself can appear configured for service and sustained travel, exposing the reduction of a person to work-bearing capacity."
+            }
+          },
+          {
+            "outlier_id": "outlier_manual_labor_chant",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare raised-voice song branch of ن ص ب and combines it with a manual crew and the later acoustic contrast. It remains focus-anchored by an exact branch for word 2, but no syntax requires a song sense; downstream prose should label it a fragile acoustic overlay rather than a translation.",
+            "focus_anchor": "The focus inventories permit manual workers at word 1 and a raised-voice riders' song or chant at word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "88:3",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B006",
+                "role": "Manual labor crews supply the collective body capable of coordinating effort by sound."
+              },
+              {
+                "source_ref": "88:3",
+                "root": "ن ص ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001507",
+                "branch_id": "B009",
+                "role": "A raised-voice song or riders' chant supplies an acoustic rhythm for collective exertion."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B007",
+                "role": "Pleasurable hearing and song supply the positive acoustic category against which the focus chant can be tested."
+              },
+              {
+                "source_ref": "88:11",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy sound supplies the acoustic condition excluded from the contrasting garden."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus is a silent visual report of labor and fatigue.",
+              "after": "A fragile acoustic reading hears a manual or traveling crew marked by raised chant, later countered by a space free of mixed, empty noise."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 88:2 predicate continuation turns generic workers into faces that visibly register work and depletion under an encompassing event.",
+            "The heat, administered intake, and explicit failure of nourishment transform simple fatigue into a self-renewing nonrecuperation circuit.",
+            "The parallel face panel at 88:8-9 separates work from outcome: exhausted activity is answered by striving that reaches satisfaction.",
+            "Repeated material and cosmic operations reopen ن ص ب as erection or installation alongside weariness, especially through its exact return at 88:19.",
+            "The final return and accounting activate a deferred labor-ledger reading involving charge, wage, allotted share, and measure."
+          ],
+          "what_was_special": "The focus pair remained unusually multistable. Its ordinary work-to-weariness sequence survived, but active participial form, the exact later recurrence of ن ص ب, repeated passive result-participles, the work-disposed camel branch, and a non-dominant س ق ي mapping generated operative, institutional, economic, coercive, zoomorphic, and acoustic readings without forcing them into one interpretation.",
+          "remaining_uncertainties": [
+            "The immediate syntactic continuation from faces strongly constrains readings that turn the pair into an independent crew or operator.",
+            "The causal link between failed nourishment and continuing work is materially coherent but reader-supplied rather than explicitly stated.",
+            "Office, wage, share, and installation readings use live root branches whose fit to these exact participial forms remains less direct than work and fatigue.",
+            "The split-root caravan, camel-body, and labor-chant outliers require explicit qualification and should not be promoted to lexical translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Work as purposive action turned into exhausting affliction.** Evidence: `ع م ل` B001 intentional doing/work, B007 self-exertion; `ن ص ب` B004 weariness, strain, affliction. Structural cue: these participles stand between lowered faces and entering hot fire. Role: work supplies agency, while nasab converts it into fatigue with no saving result. Abductive move: intentional action can become punishment when its direction and yield are disordered. Reading change: the ayah reads as failed effort embodied as weariness, not just “working hard.”\n\n2. **Officially assigned labor under later accounting.** Evidence: `ع م ل` B003 official charge, B004 wage/pay; `ن ص ب` B005 assigned share; later `ح س ب` B001 accounting and `س ع ي` B002 endeavor. Structural cue: the surah ends with return and account, and the positive group is pleased with its `سعي`. Role: `عاملة` can be the recordable performance of a charge; `ناصبة` can be a fixed allotment or burden. Abductive move: the final account retroactively frames activity as assessed labor. Reading change: the ayah reads as labor entered into an economy of recompense, where the share received is exhaustion.\n\n3. **A standing installation reversed into strain.** Evidence: `ن ص ب` B001 setting upright and prominent; later 88:19 `نصبت` for mountains and `ر ف ع` B001 for raised couches/sky. Structural cue: the same root later describes mountains being set up. Role: here the uprightness becomes bodily strain rather than stable cosmic emplacement. Abductive move: a form that can install mountains can, when applied to persons, install them in fatigue. Reading change: `ناصبة` carries both toil and being fixed under toil.",
@@ -8629,14 +9931,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s088/linguistic/morphemes.tsv",
-        "ayah_count": 27,
-        "row_count": 135,
+        "ayah_count": 26,
+        "row_count": 128,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9140,10 +10448,30 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "readers": {},
-      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s88/packets/88_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s88/readers/reader_hft_a/88_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s088",
+        "latent_activation/focus_trace/runs/s88"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s88",
+      "excluded": false,
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 226535,
+      "split_root_count": 7,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
