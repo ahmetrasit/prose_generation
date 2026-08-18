@@ -396,8 +396,9 @@ agent and conversation. Never place more than one ayah in an agent's context.
 
 ### Step 1 — First-pass Layer-2 files
 
-Spawn one cold **5.6 Luna Max** agent: use the Luna family with `gpt-5.6-sol` at
-`max` reasoning. Do not set a service-tier override. Feed the target ayah's
+Spawn one cold **5.6 Luna Max** agent: in the multi-agent runtime this means
+model override `gpt-5.6-luna` with reasoning effort `max`. Do not set a
+service-tier override. Feed the target ayah's
 single prompt file to the agent as its **entire** prompt: no added system prompt,
 other context, or conversation history. Repo/file reads are limited to explicit
 external-source manifests in the bundle, currently
@@ -676,7 +677,7 @@ For active Layer 2, in order:
 2. `tier_branch_payloads.py` — transform every ayah into `bundles-layer2/sNNN/`
 3. `instantiate.py --surah N --layer ayah --bundles-dir bundles-layer2` — write every unit
 4. verify manifest byte counts against the working tree
-5. spawn one cold 5.6 Luna Max agent (`gpt-5.6-sol`, `max`) per ayah, in
+5. spawn one cold 5.6 Luna Max agent (`gpt-5.6-luna`, `max`) per ayah, in
    parallel, each with one prompt file
 6. wait for each four-file first pass, verify it, record byte counts or hashes,
    and keep that ayah's agent open
@@ -712,7 +713,7 @@ Current Layer-2 ayah default:
 
 ```
 agent_family: luna
-model: gpt-5.6-sol
+model: gpt-5.6-luna
 reasoning_effort: max
 prompt_profile: v2.5.6-sol-high
 first_pass_output_label: tr
@@ -721,10 +722,10 @@ per_ayah_focus_runs: retired
 ```
 
 The default reader-facing prose lane uses **5.6 Luna Max**: the Luna family with
-`gpt-5.6-sol` at `max` reasoning. It requires the same-agent editorial follow-up.
-Do not silently substitute Terra or another agent family. The historical `v2.5.6-sol-high`
-prompt/output label remains the active lane label until a later pilot changes
-this record. Keep only the current default profile prompt in the active
+`gpt-5.6-luna` at `max` reasoning in the multi-agent runtime. It requires the
+same-agent editorial follow-up. Do not silently substitute Sol, Terra, or another
+agent family. The historical `v2.5.6-sol-high` prompt/output label remains the
+active lane label until a later pilot changes this record. Keep only the current default profile prompt in the active
 `_commentary/inputs/s{NNN}/` path. Move comparator profile prompts to
 `_commentary/inputs/archive/s{NNN}/` after use; they are reproducible with
 `scripts/instantiate.py --profile`.
