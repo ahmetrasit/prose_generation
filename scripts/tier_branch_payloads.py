@@ -205,7 +205,7 @@ def validate_source_contract(bundle: dict) -> None:
         "v12_cross_run_publication": dict,
         "channel_subchannels_anchored_here": list,
         "inter_ayah_rows": list,
-        "butuncul_okuma_line": (str, type(None)),
+        "butuncul_okuma_line": (str, dict, type(None)),
     }
     for field_name, expected_type in required_fields.items():
         if field_name not in bundle:
@@ -488,10 +488,7 @@ def collect_text_citations(
                         "reason": "unresolved_arabic_root_branch",
                     }
                     root_key = normalize_root(root)
-                    if (
-                        root_key in maps.root_lexicon_by_qac_root
-                        or root_key in maps.inventory_arabic_roots
-                    ):
+                    if root_key in maps.root_lexicon_by_qac_root:
                         ledger.unresolved.append(item)
                     else:
                         item["reason"] = "arabic_root_outside_resolution_scope"
