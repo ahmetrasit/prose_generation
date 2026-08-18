@@ -1,91 +1,92 @@
-# Pass 3: Make the Secondary Reading Happen
+# Pass 2: Compose the Layer 3 Reading
 
-Write the Layer 3 reader experience from the reviewed channel briefs.
+Write the Layer-3 surah reading from the reviewed channel briefs.
 
-The reader already knows an ordinary translation of the surah and has no Arabic
-or linguistic training. Establish only the surface ground needed for the
-argument, then move through the changed understanding opened by the channels.
-Do not retell the surah in order and do not repeatedly defend its primary
-reading.
+The reader knows a normal translation of the surah and has no Arabic or
+linguistic training. Establish only the ordinary surface ground needed for the
+argument, then make the changed understanding opened by the channels visible
+in plain language.
 
-## Indispensable Hinge
+## Channel Visibility
 
-Every channel must turn on its indispensable secondary semantic hinge.
-Introduce that hinge in plain reader language through the translated word or
-scene already in view. A useful construction is:
+Every admitted channel must land in the prose. Every hinge in every admitted
+channel must also land in the prose. A regular reader should be able to say:
 
-> The word still gives the familiar scene; its wider field also carries ...
+- what ordinary surface scene is still being honored;
+- what wider semantic contribution has entered;
+- how that contribution moves across more than one ayah;
+- what new understanding becomes possible.
 
-Do not use that sentence mechanically. Make the relationship natural in the
-prose.
+Do not hide channels behind general summary. Do not enumerate technical
+evidence. Make the resonance readable as part of the argument.
 
-Then show what the secondary material does across distant ayahs. Name the
-changed agency, causality, value, process, temporality, or consequence. Continue
-writing from that altered model instead of returning to summary.
+## Coexistence
 
-Do not present a secondary contribution as the translation, a hidden
-replacement meaning, or a historical event. Do not hide it either. A reader
-with no Arabic must be able to identify the exact new semantic contribution and
-understand why the recognition was unavailable before it appeared.
+This is not disambiguation. Do not choose one channel as the only correct
+reading. Incompatible channels may live at the same time when the briefs admit
+them. Write the coexistence as layered pressure, alternate but bounded
+recognition, or simultaneous resonance rather than as a winner/loser decision.
 
-A paragraph whose conclusion remains materially unchanged after its secondary
-semantic material is removed is primary exposition. It does not belong in this
-reading.
+Do not collapse channels merely because they touch the same ayah or image. Do
+let them meet in one prose movement when each distinct reader gain remains
+visible and the evidence map can still point to exact spans.
 
-## Weak and Counterpressured Material
+## Hinge Language
 
-Use weak or counterpressured material with the degree of assertion permitted by
-the channel brief. Treat `doNotClaim` entries as silent writing boundaries, not
-material to explain. State a containment correction only when the reader would
-otherwise be likely to mistake a resonance for the local translation, an
-identity, or an event. Allow the surviving operation to participate positively
-and cleanly without turning the prose into an evidence defense.
+Meaning comes before terminology. Arabic words may appear only when a specific
+surface word is indispensable; give its ordinary translated sense first.
 
-## One Developing Argument
+Do not say a word "really means" the secondary contribution. Do not present a
+secondary contribution as the translation, a hidden replacement meaning, or a
+historical event. A useful movement is: the ordinary meaning remains in place,
+while the wider field lets the scene resonate with another ayah. Use that
+movement naturally rather than as a formula.
 
-The briefs are material, not prose units. Carry every distinct reader gain, not
-every supplied semantic image. A supporting contribution need not appear
-separately when it does not further change the reader's understanding. Do not
-preserve brief boundaries or give a brief its own paragraph merely to discharge
-it. When several briefs transform the same agency, value, or process, let their
-hinges meet inside one developing movement. Build the argument from dependencies
-among recognitions, not from brief boundaries or input order.
+Selective word analysis may remain alive inside the prose when it helps the
+reader feel the channel or local resonance. Keep it subtle: bring the word's
+surface role or wider field into the sentence, then return to the reader's
+changed understanding. Do not create a lexical note unless the channel depends
+on it.
 
-Translate the semantic system into experience; do not reproduce its motif
-inventory. Introduce the concrete contribution that lets the reader grasp the
-operation, and let the other supplied signals work through that movement
-without being enumerated.
+## Boundaries
 
-A later recognition should prepare, complicate, or transform what the reader
-now sees in an earlier one. Write the earned reader movement in full.
+Treat each `claimPolicy` as a silent writing boundary. If a prohibited claim
+would be a likely reader mistake, include a short containment correction in
+ordinary language. Otherwise, simply avoid the prohibited claim and let the
+permitted resonance operate.
 
-Once the primary ground has been established, do not re-explain it merely to
-reassure the reader. Continue from the altered model.
+Do not display roots, branch IDs, finding refs, resonance refs, activation
+refs, source labels, packet IDs, schema names, prompt names, confidence labels,
+workflow vocabulary, or agent vocabulary in the prose.
 
-Do not imply that two movements have the same actor unless the supplied
-material establishes that identity. Structural reversals are changes of role,
-direction, or relation.
+## No Quota
 
-## Reader Language
+There is no paragraph quota, channel quota, word target, minimum length, or
+maximum length. If a significant channel or hinge needs room, write it fully.
+If the material is light, do not inflate it.
 
-Meaning comes before linguistic terminology. Arabic words may appear only when
-a specific surface word is indispensable; give its ordinary translated sense
-first.
+Begin inside the argument, not with methodology. End inside the final changed
+understanding, not with a recap or list of findings.
 
-Never display roots, branch identifiers, activation-card identifiers, source
-labels, workflow vocabulary, evidence grades, confidence labels, prompts,
-schemas, or agents.
+## Evidence Map
 
-Do not say a word "really means" its secondary contribution. Do not state a
-`doNotClaim` item as a word's local meaning, an identity, or a historical event.
-The surviving operation recorded in the brief remains available as a secondary
-resonance.
+Return a JSON composition envelope, not a markdown-only reading.
 
-Begin inside the argument, not with methodology. End inside the final altered
-understanding, not with a recap or list of findings. The ending must advance the
-final recognition; gathering earlier channel images into a closing list is
-recap.
+The `prose` field is the publishable reading. The `evidenceMap` must identify
+exact prose spans for:
+
+- primary claims grounded in the typed primary floor;
+- every admitted channel's operation and gain;
+- every admitted hinge.
+
+Each span must occur exactly once in `prose`. This is how the finalizer proves
+that the reader-visible prose did not drop a channel or hinge.
+
+Use `friction` for unresolved publication risks, not for notes that belong in
+the prose.
 
 ## Output
 
-Write exactly `N.surah-reading.md`.
+Write `N.surah-composition.{language}.json` as a JSON object conforming exactly
+to the inlined schema. Use the target language for reader-facing fields. Write
+no other files.

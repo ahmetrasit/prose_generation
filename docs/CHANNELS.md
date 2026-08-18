@@ -5,7 +5,9 @@ assembled substantially from branches the primary reading does not select.
 
 Channels are the main vehicle for the surprise this project exists to deliver,
 and they are also the main disorientation risk. This document defines what a
-channel is, when it may be spoken, and how layers 2, 3, and 2.5 divide the work.
+channel is, when it may be spoken, and how layers 2 and 3 divide the active
+work. The old Layer 2.5 overlay lane is retained only as a historical
+experiment.
 
 Status: specification, 2026-07-28. The maturity model is new and has not yet been
 validated against a completed surah.
@@ -118,14 +120,14 @@ evidence and remain part of layer 2 whether or not a surah channel exists.
 ### Layer 2 (per ayah)
 
 The isolated layer-2 writer produces local surprise readings and does not
-discover or name a surah channel. Channel disclosure is added later by the
-layer-2.5 integration pass, after layer 3 has seen the whole surah.
+discover or name a surah channel. In the active workflow, Layer 3 consumes those
+local surprise rows later and writes a separate surah reading; it does not patch
+channel disclosure back into the Layer-2 prose.
 
-The reviewed network channel artifact establishes the systems and their
-root/branch evidence. The combined Layer 3 + 2.5 pass turns that reviewed source
-into the stable member ledger and derives maturity in reading order.
+The following maturity protocol belongs to the retired Layer 2.5 overlay
+experiment. Keep it as design history, not as active production instruction.
 
-Layer 2.5 may mention a channel only at `emerging` or above, and then under three
+The overlay lane may mention a channel only at `emerging` or above, and then under three
 constraints:
 
 1. **Enter through this ayah's own word.** The channel is reached from a lexical
@@ -163,31 +165,43 @@ only now is the whole configuration sayable:
 Note what the 1:7 passage does *not* do: it does not state a thesis about the
 Fātiḥa, and every element it names is a word the reader has already met.
 
-### 3.1 Combined production
+### 3.1 Active production
 
-Layer 2 remains cold and states local surprise readings. The reviewed network
-artifact supplies the recurring channel systems and branch identities. One
-combined Layer 3 + 2.5 pass then writes the complete surah reading and designs
-the maturity-bounded additions against the unchanged Layer-2 prose.
+Layer 2 remains cold and states local surprise readings. Layer 3 v3 consumes the
+unchanged Layer-2 v2 artifact set, especially the findings index and
+`surprise:<id>` local resonance rows, alongside the typed primary floor and
+available network/V11 evidence.
 
-| | layer 2 | reviewed channels | combined 3 + 2.5 |
-| --- | --- | --- | --- |
-| states local surprise readings | yes | no | preserves them |
-| establishes cross-ayah systems | no | yes | consumes and integrates them |
-| derives reader-order maturity | no | no | yes |
-| writes the completed channel reading | no | no | yes |
-| writes story-building ayah increments | no | no | yes |
+Layer 3 then performs three separate semantic passes:
+
+- blind discovery of possible cross-ayah recognitions;
+- review into channel briefs, with stable hinges, claim policies, and complete
+  accounting for every discovery hypothesis and local resonance;
+- composition into a prose envelope whose evidence map proves that every
+  admitted channel and hinge landed in reader-visible language.
+
+This is not disambiguation. Review decides whether something qualifies as a
+surah-wide channel, but admitted channels are not ranked and incompatible
+channels may coexist.
+
+| | layer 2 | layer 3 v3 |
+| --- | --- | --- |
+| states local surprise readings | yes | consumes them as local resonances |
+| establishes cross-ayah systems | no | yes |
+| uses Layer-2 prose as semantic input | no | no; prose is hashed for lineage |
+| writes the completed channel reading | no | yes |
+| writes ayah overlays | no | no |
 
 ### Layer 3 (per surah)
 
-Receives channels at `complete`. States the whole: the channel's members, the
-system they form, its relation to the surah's argument, and each ayah's
-contribution to it.
+Receives channels at the surah level. States the whole: the operations they
+form, their relation to the primary-grounded surah argument, and how each
+admitted hinge changes the reader's understanding.
 
-The combined pass writes the complete channel reading and the Layer-2.5
-increments together. The shared structured plan checks that every member and
-local effect is met once, in place, through its own ayah. The whole image should
-therefore feel like recognition rather than an ungrounded introduction.
+Layer 3 v3 writes the complete channel reading and a publication evidence map.
+It does not rewrite Layer 2 and does not add Layer-2.5 increments. The evidence
+map checks that every admitted channel and hinge appears in the prose exactly
+enough to be visible to a regular reader.
 
 ---
 
@@ -208,7 +222,8 @@ The inverse error is to let the argument suppress the channel. For S100 the
 channel *is* the finding; a surah reading that reports only the argument has
 withheld the thing worth knowing.
 
-Layer 3 therefore emits both, distinctly. See `_surah_commentary/PROMPT.md`.
+Layer 3 therefore emits both, distinctly. See
+`_channel/layer3/ORCHESTRATION.md`.
 
 ---
 
@@ -257,36 +272,31 @@ adds the missing machine join:
   `qacMorphemeRef + rootId + branchId`.
 
 Maturity is intentionally absent upstream because it is a reader-order property,
-not a discovery or review property. The combined pass derives it while designing
-the additions to Layer 2.
+not a discovery or review property. The retired combined pass tried to derive it
+while designing additions to Layer 2. The active Layer 3 v3 workflow does not
+write those additions; it records channel hinges and reader-visible prose
+landings instead.
 
 ## 6. Recording
 
-Per surah, a channel plan conforming to
-`schemas/surah-channel-plan-v1.schema.json`, holding for each channel:
+Per surah, active Layer 3 v3 records:
 
-- `channelId`, name, and one-sentence statement of the system;
-- `members[]` — `qacMorphemeRef`, `rootId`, `branchId`, and what that member
-  contributes;
-- `maturityByAyah` — the maturity at each ayah in reading order, which is what
-  layer 2.5 consults;
-- focus-ayah and whole-surah effects — what becomes legible that was not;
-- rejected candidate members, with the reason (fails coherence, fails yield);
-- review state.
+- `discovery-hypotheses-v2` for blind candidates;
+- `channel-briefs-v2` for admitted channels, hinges, claim policies, and
+  non-channel dispositions;
+- `surah-composition-v1` for the publishable prose plus span-level evidence map;
+- `surah-reading-evidence-v1` for the finalized publication evidence.
 
-Combined output uses `sourceLane: combined`, `reviewState: reviewed`, and
-`maturityStatus: reviewed`. The review provenance points to the upstream channel
-source; it does not claim a new adjudication pass. Layer 2.5 grounds those
-members against the unchanged Layer-2 prose while it writes disclosure overlays.
+The schemas live under `_channel/layer3/schemas/`. The runbook is
+`_channel/layer3/ORCHESTRATION.md`.
 
 ---
 
 ## 7. Open
 
-- **Maturity remains empirically unvalidated.** The combined pass derives it from
-  ordered exact anchors while designing the ayah additions. The four-step scale
-  and `emerging`-hint rule still need testing against a
-  completed whole-surah reading to learn whether the hints clarify or clutter.
+- **Maturity remains archived.** The four-step scale and `emerging`-hint rule
+  belong to the retired Layer 2.5 overlay experiment. They may be revisited
+  later, but the active Layer 3 v3 workflow does not depend on them.
 - **Motif identity now joins only through its stable portion.** The compiler
   resolves `root:branch/mNN` citations to typed Quran anchors. `mNN` remains
   review-local detail; downstream member identity is recorded at branch

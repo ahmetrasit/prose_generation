@@ -104,6 +104,21 @@ def local_resonance_refs(packet: dict[str, Any]) -> set[str]:
     }
 
 
+def local_resonance_finding_refs(packet: dict[str, Any]) -> dict[str, str]:
+    refs: dict[str, str] = {}
+    for ayah in packet.get("layer2Handoff", {}).get("ayahs", []):
+        if not is_dict(ayah):
+            continue
+        for record in ayah.get("localResonances", []):
+            if (
+                is_dict(record)
+                and isinstance(record.get("resonanceRef"), str)
+                and isinstance(record.get("findingRef"), str)
+            ):
+                refs[record["resonanceRef"]] = record["findingRef"]
+    return refs
+
+
 def activation_refs(packet: dict[str, Any]) -> set[str]:
     return {
         card.get("activationRef")
@@ -690,6 +705,7 @@ def validate_briefs(
         errors.append("briefs.requiredReviewInputRefs: must exactly echo all hypotheses and local resonances")
 
     known_evidence = evidence_refs(packet)
+    resonance_findings = local_resonance_finding_refs(packet)
     channels = briefs.get("channels")
     if not is_list(channels):
         errors.append("briefs.channels: must be an array")
@@ -697,8 +713,6 @@ def validate_briefs(
     channel_ids: list[str] = []
     hinge_ids: list[str] = []
     used_inputs: set[str] = set()
-    channel_evidence: dict[str, set[str]] = {}
-    hinge_evidence: dict[str, set[str]] = {}
     for index, channel in enumerate(channels):
         context = f"briefs.channels[{index}]"
         if not is_dict(channel):
@@ -734,11 +748,10 @@ def validate_briefs(
         if not is_list(inputs) or not inputs:
             errors.append(f"{context}.inputRefs: must be non-empty")
             inputs = []
+        valid_inputs = {ref for ref in inputs if ref in required_inputs}
         for ref in inputs:
             if ref not in required_inputs:
                 errors.append(f"{context}: unknown inputRef {ref!r}")
-            elif isinstance(ref, str):
-                used_inputs.add(ref)
         floor_refs = channel.get("surfaceFloorRefs")
         if not is_list(floor_refs) or not floor_refs:
             errors.append(f"{context}.surfaceFloorRefs: must be non-empty")
@@ -756,7 +769,7 @@ def validate_briefs(
             errors.append(f"{context}.hinges: must be non-empty")
             hinges = []
         reached_ayahs: set[str] = set()
-        channel_refs: set[str] = set()
+        channel_hinge_inputs: set[str] = set()
         for hinge_index, hinge in enumerate(hinges):
             hinge_context = f"{context}.hinges[{hinge_index}]"
             if not is_dict(hinge):
@@ -790,6 +803,10 @@ def validate_briefs(
                 hinge_inputs = []
             elif any(ref not in inputs for ref in hinge_inputs):
                 errors.append(f"{hinge_context}.inputRefs: must be channel inputRefs")
+            else:
+                channel_hinge_inputs.update(
+                    ref for ref in hinge_inputs if isinstance(ref, str) and ref in valid_inputs
+                )
             ayah_values = hinge.get("ayahRefs")
             if not is_list(ayah_values) or not ayah_values:
                 errors.append(f"{hinge_context}.ayahRefs: must be non-empty")
@@ -806,21 +823,24 @@ def validate_briefs(
             for ref in refs:
                 if ref not in known_evidence:
                     errors.append(f"{hinge_context}: unknown evidenceRef {ref!r}")
-                elif isinstance(ref, str):
-                    channel_refs.add(ref)
             resonance_values = [
                 ref for ref in refs if isinstance(ref, str) and ref.startswith("resonance:")
             ]
             for resonance_ref in resonance_values:
-                parts = resonance_ref.split(":")
-                prefix = f"finding:{parts[1]}:{parts[2]}:" if len(parts) >= 4 else ""
-                if not prefix or not any(
-                    isinstance(ref, str) and ref.startswith(prefix) for ref in refs
-                ):
+                expected_finding = resonance_findings.get(resonance_ref)
+                if expected_finding is None or expected_finding not in refs:
                     errors.append(
                         f"{hinge_context}: local resonance {resonance_ref!r} requires "
-                        "an exact supporting finding from the same ayah"
+                        "its exact paired findingRef"
                     )
+            for input_ref in hinge_inputs:
+                if isinstance(input_ref, str) and input_ref.startswith("resonance:"):
+                    expected_finding = resonance_findings.get(input_ref)
+                    if input_ref not in refs or expected_finding not in refs:
+                        errors.append(
+                            f"{hinge_context}: local resonance input {input_ref!r} must "
+                            "appear in evidenceRefs with its exact paired findingRef"
+                        )
             policy = hinge.get("claimPolicy")
             if not is_dict(policy):
                 errors.append(f"{hinge_context}.claimPolicy: must be an object")
@@ -848,10 +868,15 @@ def validate_briefs(
                     errors.append(f"{hinge_context}.claimPolicy: unknown counterpressureRef")
                 if not is_list(policy.get("prohibitedClaims")):
                     errors.append(f"{hinge_context}.claimPolicy.prohibitedClaims: must be an array")
-            hinge_evidence[hinge_id] = set(refs)
         if len(reached_ayahs) < 2:
             errors.append(f"{context}: an accepted channel must span at least two ayahs")
-        channel_evidence[channel_id] = channel_refs
+        missing_hinge_inputs = valid_inputs - channel_hinge_inputs
+        if missing_hinge_inputs:
+            errors.append(
+                f"{context}: every channel inputRef must appear in at least one hinge: "
+                + ", ".join(sorted(missing_hinge_inputs))
+            )
+        used_inputs.update(channel_hinge_inputs)
     errors.extend(duplicate_errors(channel_ids, "channel briefs"))
     errors.extend(duplicate_errors(hinge_ids, "channel hinges"))
 
@@ -1005,6 +1030,7 @@ def validate_composition(
         errors.append("composition.evidenceMap.channelLandings: must be an array")
         channel_landings = []
     landed_channels: list[str] = []
+    landing_spans: list[str] = []
     for index, landing in enumerate(channel_landings):
         context = f"composition.evidenceMap.channelLandings[{index}]"
         if not is_dict(landing):
@@ -1026,6 +1052,17 @@ def validate_composition(
             validate_unique_span(prose, landing.get("operationSpan"), f"{context}.operationSpan")
         )
         errors.extend(validate_unique_span(prose, landing.get("gainSpan"), f"{context}.gainSpan"))
+        operation_span = landing.get("operationSpan")
+        gain_span = landing.get("gainSpan")
+        if (
+            isinstance(operation_span, str)
+            and isinstance(gain_span, str)
+            and operation_span == gain_span
+        ):
+            errors.append(f"{context}: operationSpan and gainSpan must be distinct")
+        for span in (operation_span, gain_span):
+            if isinstance(span, str):
+                landing_spans.append(span)
         allowed = {
             ref
             for hinge in channels[channel_id].get("hinges", [])
@@ -1036,6 +1073,8 @@ def validate_composition(
         refs = landing.get("evidenceRefs")
         if not is_list(refs) or not refs or any(ref not in allowed for ref in refs):
             errors.append(f"{context}.evidenceRefs: must resolve within the channel")
+        elif set(refs) != allowed:
+            errors.append(f"{context}.evidenceRefs: must include every evidenceRef from the channel")
     errors.extend(duplicate_errors(landed_channels, "composition channel landings"))
     if set(landed_channels) != set(channels):
         errors.append("composition: every admitted channel needs exactly one reader-visible landing")
@@ -1056,16 +1095,22 @@ def validate_composition(
             errors.append(f"{context}: unknown hingeId {hinge_id!r}")
             continue
         landed_hinges.append(hinge_id)
-        errors.extend(validate_unique_span(prose, landing.get("span"), f"{context}.span"))
+        span = landing.get("span")
+        errors.extend(validate_unique_span(prose, span, f"{context}.span"))
+        if isinstance(span, str):
+            landing_spans.append(span)
         allowed = set(hinges[hinge_id].get("evidenceRefs", []))
         refs = landing.get("evidenceRefs")
         if not is_list(refs) or not refs or any(ref not in allowed for ref in refs):
             errors.append(f"{context}.evidenceRefs: must resolve within the hinge")
+        elif set(refs) != allowed:
+            errors.append(f"{context}.evidenceRefs: must include every evidenceRef from the hinge")
         policy = hinges[hinge_id].get("claimPolicy", {})
         for prohibited in policy.get("prohibitedClaims", []):
             if isinstance(prohibited, str) and prohibited.strip() and prohibited.casefold() in prose.casefold():
                 errors.append(f"composition.prose: contains prohibited claim from hinge {hinge_id!r}")
     errors.extend(duplicate_errors(landed_hinges, "composition hinge landings"))
+    errors.extend(duplicate_errors(landing_spans, "composition landing spans"))
     if set(landed_hinges) != set(hinges):
         errors.append("composition: every admitted hinge needs exactly one reader-visible landing")
 
@@ -1087,6 +1132,7 @@ def validate_composition(
 def publication_evidence(
     composition: dict[str, Any], packet: dict[str, Any], briefs: dict[str, Any]
 ) -> dict[str, Any]:
+    published_prose = composition["prose"].rstrip() + "\n"
     return {
         "schemaVersion": "layer3-surah-reading-evidence-v1",
         "packetId": packet["packetId"],
@@ -1095,7 +1141,7 @@ def publication_evidence(
         "sourceSetHash": packet["sourceSetHash"],
         "surah": packet["surah"],
         "language": packet["language"],
-        "proseSha256": sha256_text(composition["prose"]),
+        "proseSha256": sha256_text(published_prose),
         **composition["evidenceMap"],
     }
 

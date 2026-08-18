@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-surah-reading-evidence-v1.schema.json",
+  "title": "Layer 3 published reading evidence v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "briefId",
+    "compositionId",
+    "sourceSetHash",
+    "surah",
+    "language",
+    "proseSha256",
+    "primaryClaims",
+    "channelLandings",
+    "hingeLandings"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "layer3-surah-reading-evidence-v1" },
+    "packetId": { "type": "string", "minLength": 1 },
+    "briefId": { "type": "string", "minLength": 1 },
+    "compositionId": { "type": "string", "minLength": 1 },
+    "sourceSetHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,8}(?:-[a-z0-9]{1,8})*$" },
+    "proseSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "primaryClaims": { "type": "array" },
+    "channelLandings": { "type": "array" },
+    "hingeLandings": { "type": "array" }
+  }
+}

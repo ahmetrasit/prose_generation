@@ -1,114 +1,89 @@
-# Pass 1B: Build Latent-Dependent Channels
+# Pass 1B: Review Channels and Resonances
 
-The discovery hypotheses are raw material. Find which combinations become
-surah-wide recognitions that an ordinary translation cannot produce by itself.
+Build the Layer-3 channel briefs from the discovery hypotheses, typed primary
+ground, complete Layer-2 findings index, local resonances, preserved
+boundaries, activation cards, and bounded secondary material.
 
-Do not write reader prose.
+Do not write final reader prose.
 
 ## Admission Rule
 
-Do not choose the safest account of the surah. Do not reward a hypothesis for
-summarizing the surface sequence, matching prior prose, having strong primary
-evidence, or being easy to defend. Surface coherence is ground, not Layer 3.
+A channel is a cross-ayah recognition that depends on secondary semantic
+material. It must change how a regular reader understands the surah in a way
+that cannot be reached from the ordinary translated surface alone.
 
-Begin with the discovery hypotheses and their activation signals. For each
-possible channel, state the ordinary translated reading and identify the exact
-secondary semantic material that changes it. Ask:
+For each possible channel, state the ordinary surface floor and ask:
 
 > If every secondary semantic contribution were hidden, could a thoughtful
 > reader still reach materially the same changed understanding from the
 > translation and sequence alone?
 
-If yes, the proposal is primary exposition and does not become a channel. If
+If yes, the material may still be useful, but it is not a Layer-3 channel. If
 no, identify what the secondary material makes newly thinkable and how distant
-movements perform one operation together.
+movements work together.
 
-Apply both sides of the subtraction:
+Non-derivability is necessary but not sufficient. A channel must also make a
+specific feature, tension, transition, or ending of the surah newly legible. It
+fails when it only adds ornament, a movable metaphor, or a moral topic that
+could be transferred to many other texts without changing the reading.
 
-- removing the secondary material leaves the primary reading intact;
-- removing the secondary material makes the Layer 3 recognition unavailable.
+## Handoff Discipline
 
-Being cross-ayah, elegant, coherent, or well supported does not rescue a
-surface-derived proposal.
+The Layer-2 findings index is live. Use it as typed local evidence, not as
+prose to copy. Local resonances are especially important because they mark
+where an ayah already opens beyond its primary floor.
 
-Non-derivability is necessary but not sufficient. A remote semantic branch can
-always produce an idea absent from a translation. A channel must also make a
-specific feature, tension, transition, or ending of the surah newly
-intelligible. It fails when it only supplies another metaphor, adds vivid
-detail to a surface-derived conclusion, or attaches a generally true moral
-topic that could move to many other texts without changing it.
+Account for every discovery hypothesis and every local resonance. Each input
+may support more than one channel. Multiple inputs may support the same
+channel. When an input does not become part of any channel, give it one
+non-channel disposition.
 
-Do not manufacture indispensability by describing the extra imagery that
-disappears. Ask whether the reader's materially changed understanding
-disappears. If the same claim remains in plainer language, the secondary
-material decorated it and the proposal is not a channel.
+Do not treat `merged` as a disposal category. If a hypothesis or resonance is
+absorbed into a channel, include its input ref in that channel. If it is not
+used, give the actual reason it did not become a channel.
 
-## Secondary Material
+## Coexistence
 
-A channel does not require a secondary branch to replace the local meaning of a
-word. Local meanings remain intact. Ask whether secondary contributions
-distributed across the surah form a coherent operation: a process with changing
-stages, transfer of role, reversal of agency, altered causal model, changed
-value relation, or another transformation of the reader's model.
+This is not disambiguation. Do not decide that one resonance is the correct
+meaning and another is wrong. Do not rank channels. Do not collapse competing
+channels unless they create the same reader movement. Incompatible channels may
+coexist when each produces a distinct changed understanding and respects the
+evidence boundaries.
 
-Treat Layer-2 prose as the surface floor and a source of local limits, not as
-the answer. A finding is not disqualified because Layer 2 noticed one of its
-local parts. It qualifies only when the surah-wide operation depends on
-secondary material and creates a recognition unavailable from the surface
-alone.
+Weak, remote, or counterpressured material may participate when it remains
+bounded. Its uncertainty controls the `claimPolicy`; it does not automatically
+remove the resonance from the field.
 
-This is not disambiguation. Do not decide that a secondary meaning is the
-correct translation. Weak, remote, or counterpressured contributions may
-participate when their distributed operation is coherent. Their uncertainty
-controls how the final claim is worded; it is not a reason to default to the
-surface account.
+## Boundaries
 
-## Rejected Predications
+A preserved rejection or boundary prohibits a local identity claim,
+translation replacement, event claim, or sentence form. It does not erase the
+surviving semantic contribution. Preserve the limit in `claimPolicy`, then ask
+whether the contribution can still operate across the surah without requiring
+the prohibited claim.
 
-A rejected predication prohibits that sentence, local identity claim, or event
-claim. It does not erase the semantic contributions from which the rejected
-sentence was built.
+Do not turn boundaries into final prose or an evidence catalogue. Record only
+what the composer must avoid or qualify.
 
-Preserve the rejection, then ask whether the surviving contribution joins
-other ayahs without requiring the rejected claim. Multiple supplied secondary
-signals may converge into a bounded resonance without becoming an alternate
-translation or a claim about what historically happened.
+## Brief Shape
 
-Record only the specific claims the composer must not make. Do not turn those
-limits into a catalogue, evidence audit, or reason to suppress the surviving
-operation.
+For each admitted channel, provide:
 
-## Building Channels
-
-Merge hypotheses when they are stages of one operation. Keep them distinct when
-they produce different changed understandings. Multiple channels may coexist
-without being collapsed into one thesis.
-
-Different semantic images do not constitute different channels when they
-produce the same reader change. Combine them when they are stages or mechanisms
-of one transformation.
-
-Do not create editorial roles, apparatus bins, rankings, evidence grades,
-confidence scores, prose architecture, or a catalogue of discarded ideas.
-Return every channel that meets the latent-dependence rule.
-
-For each channel, provide only:
-
-- its source hypotheses;
-- the ordinary surface floor;
-- the exact secondary semantic hinges in plain language, with ayah and source
-  references;
+- a reader-facing name;
+- all input refs it uses;
+- the ordinary surface floor and primary-floor refs;
+- stable hinge IDs;
+- each hinge's plain-language contribution, ayah refs, evidence refs, and
+  claim policy;
 - the cross-ayah operation;
-- the reader's understanding before and after;
-- the gain that disappears when the secondary material is removed;
-- any local identity, translation, or event claim the final prose must not make.
+- the reader's before/after shift;
+- the indispensable gain that disappears if the secondary material is removed.
 
-Do not turn a structural correspondence into continuity of actor. When a
-participant is unnamed or changes between movements, describe the transfer of
-role, direction, or relation without claiming that the same participant
-occupies both scenes.
+There is no quota for channels, hinges, paragraphs, words, or length. Do not
+compress significant findings to satisfy a shape target.
 
 ## Output
 
-Write `N.channel-briefs.json` as a JSON object conforming exactly to the inlined
-schema. Write no other files. Use the target language for reader-facing fields.
+Write `N.channel-briefs.{language}.json` as a JSON object conforming exactly to
+the inlined schema. Use the target language for reader-facing fields. Write no
+other files.

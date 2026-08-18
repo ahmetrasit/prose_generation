@@ -1,93 +1,63 @@
-# Pass 1A: Blind Divergent Mining
+# Pass 1A: Blind Cross-Ayah Discovery
 
-Search for text-bound, cross-ayah latent activations and resonances that can
-materially change how a reader understands the surah.
+Search for text-bound, cross-ayah latent activations that can change how a
+regular reader understands the surah.
 
-Do not write commentary, a surah summary, publication prose, a final channel
-system, or an evidence review. This pass opens the field. Later passes decide
-what survives.
-
-## Reader Delta
-
-The eventual reader knows no Arabic or linguistics. A discovery gives that
-reader a recognition articulated as:
-
-- `before`: a plausible ordinary understanding of the participating movements;
-- `hinge`: the exact latent signal or cross-ayah relation that unsettles it;
-- `after`: the changed understanding that becomes possible.
-
-The change may concern direction, agency, causality, value, scale, role,
-temporality, consequence, or the relation between distant movements. These are
-search lenses, not required answer shapes.
-
-The object is a change in the reader's model, not commentary or explanation of
-the ordinary reading.
+Do not write commentary, a surah summary, final prose, evidence review, or a
+channel system. This pass only opens possible cross-ayah recognitions. Later
+passes decide which recognitions become channels.
 
 ## Input Boundary
 
 Use only the inlined discovery input:
 
-- Quran surface anchors;
-- mechanically projected, reviewed activation cards;
-- their ayah and source references;
-- mechanical coverage warnings.
+- the Quran surface anchors;
+- the typed primary floor for ordinary reading orientation;
+- mechanically projected activation cards from reviewed network material;
+- coverage warnings.
 
-The input intentionally excludes full Layer-2 prose, prior final synthesis,
-boundaries, and rejected-predication review. Do not reconstruct those missing
-materials and do not use outside historical or interpretive sources.
+The input intentionally excludes Layer-2 prose, Layer-2 findings, Layer-2
+friction, prior Layer-3 outputs, and outside sources. Do not reconstruct those
+materials from memory or from paths in provenance labels.
 
-Activation cards are search signals, not alternate translations, conclusions,
-or proof. They nominate semantic material without deciding what it does in this
-surah.
+Activation cards are search signals. They are not translations, conclusions,
+proof, rankings, or prose plans.
+
+## Reader Delta
+
+The eventual reader knows a normal translation but has no Arabic or linguistic
+training. A hypothesis matters only when it creates a reader movement:
+
+- `before`: what a thoughtful reader could already understand from the
+  translated surface;
+- `hinge`: the exact cross-ayah signal that unsettles or extends that ordinary
+  understanding;
+- `after`: the changed understanding that becomes possible.
+
+The change may concern agency, direction, causality, value, scale, sequence,
+role, temporality, or the relation between distant movements.
 
 ## Search
 
-First notice the surah's distinct rhetorical movements: changes of scene,
-speaker or addressee, agency, temporal frame, scale, direction, or evaluative
-stance.
+First notice the surah's distinct movements: changes of scene, speaker,
+addressee, agency, time, scale, direction, or evaluative stance.
 
 Then move across those boundaries. Ask what a signal anchored in one movement
-makes newly legible in another. Follow operations and state changes rather than
-shared vocabulary alone. Explore:
+makes newly legible in another. Follow operations and state changes, not shared
+vocabulary alone. Preserve every materially distinct line the supplied signals
+open, including lines that compete with each other.
 
-- reversals and changes of direction;
-- transfers or exchanges of role;
-- causes reappearing as consequences;
-- changes of scale or temporal reach;
-- one semantic operation recurring in different scenes;
-- a later movement retrospectively changing the function of an earlier detail;
-- an early detail becoming preparation rather than decoration;
-- weak or remote branches that become intelligible only in combination;
-- incompatible joins that produce different reader models.
+This is not disambiguation. Do not choose one hypothesis over another. Do not
+rank, merge, certify, reject, or narrow. Weak or remote hypotheses may remain
+alive when they are anchored in supplied material and produce a distinct reader
+movement.
 
-These are invitations to search rather than required answer shapes. Follow
-every materially distinct line the supplied signals open, including competing
-and incompatible lines.
+Do not compress significant findings. There is no quota for hypotheses,
+paragraphs, words, channels, or length. The output should be as large or small
+as the supplied material warrants.
 
-Layer 2 preserves its field by refusing to select prematurely. Do the same
-here. Do not rank, merge, reject, narrow, certify, or choose hypotheses for
-publication. Do not favor easy-to-defend ideas over risky ones. Preserve
-mutually incompatible hypotheses when they produce different reader changes.
+## Output
 
-Speculation is permitted at this stage when it remains attached to supplied
-surface anchors and activation signals. Do not dilute a proposed shift into
-safe description.
-
-## Lightweight Output
-
-For each hypothesis, provide only:
-
-- a stable `hypothesisId`;
-- the proposed cross-movement operation;
-- `before`, `hinge`, and `after`;
-- the participating rhetorical movements and ayah references;
-- the activation-card references that opened the hypothesis.
-
-Do not provide full trajectories, evidence ledgers, ordinary-reading
-falsification, containment decisions, counterpressure, coherence scores,
-rankings, risk assessments, rejection lists, merged systems, names for
-publication, or prose architecture.
-
-Write `N.discovery-hypotheses.json` as a JSON object conforming exactly to the
-inlined schema. Write no other files. Use the target language for reader-facing
-fields and concise English only for fixed keys.
+Write `N.discovery-hypotheses.{language}.json` as a JSON object conforming
+exactly to the inlined schema. Use the target language for reader-facing fields
+and concise English only for fixed keys. Write no other files.

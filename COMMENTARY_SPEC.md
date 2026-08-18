@@ -39,7 +39,7 @@ the ayah says than before — that is a failure, and grounding
 |  | layer 3 — surah | layer 2 — ayah |
 | --- | --- | --- |
 | question | what is this surah's argument, and what runs through it? | what happens in this ayah, on its own? |
-| selection | **must select** — a thesis excludes | **must not select** — carries the full field |
+| selection | **must select what qualifies**; admitted channels coexist without ranking or disambiguation | **must not select**; carries the full local field |
 | time | none; the whole is present at once | **has a before and an after** |
 | pass condition | says something no ayah-by-ayah reading could produce | holds what the surah thesis had to drop |
 
@@ -47,10 +47,12 @@ These are not two sizes of one output. A surah reading that decomposes back into
 its ayahs has failed. An ayah reading that is a slice of the surah thesis has
 failed.
 
-The split is also where no-disambiguation is structurally guaranteed. Building a
-thesis requires excluding readings. With one level, excluded readings would be
-lost. With two, the thesis lives at surah level and the complete field survives
-at ayah level. Neither cancels the other; they answer different questions.
+The split is also where no-disambiguation is structurally guaranteed. Layer 3
+does make an admission decision: not every local resonance becomes a surah-wide
+channel. But once channels are admitted, it does not choose one as the correct
+reading, rank them, or collapse incompatible channels into a single winner. With
+two levels, the primary-grounded surah argument can be stated, admitted channels
+can coexist, and the full local field still survives at ayah level.
 
 ### 2.1 The surah argument rests on the primary reading
 
@@ -73,8 +75,12 @@ elsewhere.
 A **surah-wide system** is different. It says how recurring semantic operations
 make several ayahs explain one another and change the reading of the assembly.
 The isolated Layer-2 writer cannot know that. Layer 3 consumes the unchanged
-Layer-2 outputs alongside available network, V12, and V11 evidence. It writes a
-separate surah reading and does not rewrite or overlay the ayah prose.
+Layer-2 v2 artifacts alongside the typed Layer-1 primary floor and available
+network/V11 evidence. It reads the complete Layer-2 findings index, local
+`surprise:<id>` resonance rows, and preserved boundaries. It hashes Layer-2
+prose and friction for lineage, but does not use their prose as the primary
+floor or as semantic input. It writes a separate surah reading and does not
+rewrite or overlay the ayah prose.
 
 Layer 2 may **not** carry the surah's architecture or name a recurring
 surah-wide system. The distinction is testable: a local surprise is fully
@@ -184,11 +190,16 @@ threshold before knowing what is happening.
 
 Layer 3 emits:
 
-- **system candidates** — recall-first discovery, not reader prose;
-- **system ledger** — reviewed operations, safe claim forms, prohibited rejected
-  predications, and explicit before/after reader shifts;
-- **surah reading** — continuous reader prose, not a summary or ayah catalogue;
-- **paragraph evidence** — separate mapping from the prose to packet evidence;
+- **discovery hypotheses** — blind cross-ayah possibilities opened from the
+  typed primary floor and activation cards, not reader prose;
+- **channel briefs** — reviewed operations, stable hinges, safe claim forms,
+  prohibited rejected predications, and explicit before/after reader shifts;
+- **composition envelope** — the publishable prose plus an evidence map proving
+  that every admitted channel and hinge landed visibly;
+- **surah reading** — continuous reader prose emitted by the deterministic
+  finalizer, not a summary or ayah catalogue;
+- **publication evidence** — separate mapping from prose spans to packet
+  evidence;
 - **friction** — missing evidence and production limitations.
 
 Contracts and schemas are under `_channel/layer3/`.
@@ -216,7 +227,9 @@ in a three-root and a twenty-six-root ayah. Findings may share prose only when
 their mechanism and payoff are the same and every admitted ref still has an
 identifiable landing.
 
-Layer 3 builds a separate hermetic source packet from Quran text, the completed
-Layer-2 prose/evidence, and whatever network-v3, V12, and V11 sources are
-available. Missing optional source families are warnings, not build failures. See
+Layer 3 builds a separate hermetic source packet from Quran text, the typed
+primary floor, the completed four-file Layer-2 v2 artifact set for every
+numbered ayah, and whatever network-v3/V11 sources are available. Missing
+optional source families are warnings, not build failures. Missing Quran text,
+typed primary floor, or complete Layer-2 artifacts aborts. See
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).

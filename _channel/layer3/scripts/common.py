@@ -127,9 +127,12 @@ def portable_path(
 ) -> str:
     resolved = path.resolve()
     roots = [(REPO_ROOT.resolve(), "prose_generation")]
-    if quran_data is not None:
+    if quran_data is not None and quran_data.resolve() == (REPO_ROOT.parent / "quran-data").resolve():
         roots.append((quran_data.resolve(), "quran-data"))
-    if latent_activation is not None:
+    if (
+        latent_activation is not None
+        and latent_activation.resolve() == (REPO_ROOT.parent / "latent_activation").resolve()
+    ):
         roots.append((latent_activation.resolve(), "latent_activation"))
     for root, label in roots:
         try:

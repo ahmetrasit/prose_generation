@@ -314,6 +314,53 @@ def heading_title(line: str) -> str | None:
     return None
 
 
+def is_boundary_line(line: str) -> bool:
+    stripped = line.strip()
+    if not stripped or re.fullmatch(r"\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)*\|?", stripped):
+        return False
+    normalized = folded(stripped)
+    if normalized.startswith(("kapsam", "kapsama", "coverage")):
+        return False
+    if (
+        stripped.startswith("|")
+        and any(
+            header in normalized
+            for header in ("prosedeki ifade", "bundle dayanagi", "izlenebilirlik")
+        )
+    ):
+        return False
+    markers = (
+        "karsi kanit",
+        "karsi delil",
+        "karsi sinir",
+        "korunan ret",
+        "ret:",
+        "ret ",
+        "redded",
+        "reddeder",
+        "reddeder.",
+        "reddedildi",
+        "disarida birak",
+        "alinmadi",
+        "tasınmadi",
+        "tasinmadi",
+        "sinirlandir",
+        "sinir ",
+        "yasak",
+        "counter-evidence",
+        "counter evidence",
+        "counterpressure",
+        "counter-pressure",
+        "counter boundary",
+        "rejected",
+        "reject ",
+        "excluded",
+        "not carried",
+        "not used",
+    )
+    return any(marker in normalized for marker in markers)
+
+
 def is_boundary_heading(title: str) -> bool:
     normalized = folded(title).lstrip("*# ").strip()
     return normalized.startswith(
@@ -341,6 +388,7 @@ def extract_layer2_boundaries(markdown: str) -> list[str]:
     """Retain explicit rejection/counterpressure sections only."""
     sections: list[str] = []
     active: list[str] | None = None
+    fallback_lines: list[str] = []
     for line in markdown.splitlines():
         title = heading_title(line)
         if title is not None:
@@ -356,10 +404,18 @@ def extract_layer2_boundaries(markdown: str) -> list[str]:
                 continue
         if active is not None:
             active.append(line)
+        elif is_boundary_line(line):
+            fallback_lines.append(line)
     if active is not None:
         rendered = "\n".join(active).strip()
         if rendered:
             sections.append(rendered)
+    known = {section.strip() for section in sections}
+    for line in fallback_lines:
+        rendered = line.strip()
+        if rendered and rendered not in known:
+            sections.append(rendered)
+            known.add(rendered)
     return sections
 
 
@@ -908,6 +964,14 @@ def default_run_dir(packet: dict[str, Any]) -> Path:
     )
 
 
+def default_layer2_dir(surah: int) -> Path:
+    direct = REPO_ROOT / "_commentary" / "outputs" / f"s{surah:03d}"
+    labelled_default = REPO_ROOT / "_commentary" / "outputs" / f"s{surah:03d}-default"
+    if direct.is_dir():
+        return direct
+    return labelled_default
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--surah", type=int, required=True)
@@ -924,9 +988,7 @@ def main() -> int:
     latent_activation = (
         args.latent_activation or REPO_ROOT.parent / "latent_activation"
     ).resolve()
-    layer2_dir = args.layer2_dir or (
-        REPO_ROOT / "_commentary" / "outputs" / f"s{args.surah:03d}-default"
-    )
+    layer2_dir = args.layer2_dir or default_layer2_dir(args.surah)
     if not layer2_dir.is_absolute():
         layer2_dir = REPO_ROOT / layer2_dir
     primary_floor = args.primary_floor
@@ -942,7 +1004,9 @@ def main() -> int:
         latent_activation=latent_activation,
         primary_floor_path=primary_floor,
     )
-    output = args.out or default_run_dir(packet) / f"{args.surah}.source-packet.json"
+    output = args.out or (
+        default_run_dir(packet) / f"{args.surah}.source-packet.{packet['language']}.json"
+    )
     if not output.is_absolute():
         output = REPO_ROOT / output
 

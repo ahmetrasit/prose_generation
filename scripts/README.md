@@ -135,11 +135,11 @@ labelled as a staged `stage_00` / `stage_01` transcript.
 ### Reviewed channels
 
 Each surah's reviewed `network/v3` report is parsed into parent channels and
-subchannels. The ordinary surah bundle carries that parsed source; the compact
-channel bundle preserves its synthesis and compiles root/branch citations to
-typed Quran anchors. Maturity is absent upstream because it belongs to reader
-order and is derived by the combined Layer 3 + 2.5 pass. Reviewed channel reports
-are absent for S108, S110, S113, and S114.
+subchannels. The ordinary surah bundle carries that parsed source for Layer 2.
+Layer 3 v3 separately projects reviewed network reports into activation cards
+inside `_channel/layer3/scripts/build_packet.py`; it does not consume the old
+combined Layer 3 + 2.5 channel bundle. Reviewed channel reports are absent for
+S108, S110, S113, and S114.
 
 ### Why unfiltered
 
@@ -289,7 +289,36 @@ trace readers, tiering fails on missing HFT or malformed required evidence, and
 instantiation fails if a tiered bundle has lost HFT readers. Optional source
 absence must appear in coverage; it should not be silently erased.
 
-### Combined Layer 3 + Layer 2.5
+### Layer 3 v3 surah reading
+
+The active surah-commentary workflow lives under `_channel/layer3/`.
+
+```sh
+python3 _channel/layer3/scripts/build_packet.py \
+  --surah 87 \
+  --language tr \
+  --layer2-dir _commentary/outputs/s087
+python3 _channel/layer3/scripts/instantiate.py discover --surah 87 --language tr
+python3 _channel/layer3/scripts/instantiate.py review --surah 87 --language tr
+python3 _channel/layer3/scripts/instantiate.py compose --surah 87 --language tr
+python3 _channel/layer3/scripts/finalize.py \
+  --packet {RUN_DIR}/87.source-packet.tr.json \
+  --hypotheses {RUN_DIR}/outputs/87.discovery-hypotheses.tr.json \
+  --briefs {RUN_DIR}/outputs/87.channel-briefs.tr.json \
+  --composition {RUN_DIR}/outputs/87.surah-composition.tr.json
+```
+
+The v3 packet requires Quran text, a typed Layer-1 primary floor, and a complete
+Layer-2 v2 `prose/evidence/index/friction` artifact set for every numbered
+ayah. It reads the complete Layer-2 findings index and local `surprise:<id>`
+resonance rows; Layer-2 prose and friction are hashed for lineage but withheld
+from semantic passes. Generated v3 files live under
+`_channel/layer3/runs/v3/`.
+
+See `_channel/layer3/ORCHESTRATION.md` for exact run boundaries and fresh-agent
+instructions.
+
+### Retired combined Layer 3 + Layer 2.5
 
 ```sh
 python3 scripts/build_channel_bundle.py --surah 87
@@ -298,7 +327,8 @@ python3 scripts/instantiate_channel.py --surah 87 \
   --layer2-label default.v2.5.6-sol-high --date 2026-07-28
 ```
 
-The bundle begins with the reviewed network channel material, retains its
+This workflow is archived for reproducibility and is not the active production
+path. The bundle begins with the reviewed network channel material, retains its
 synthesis, and deterministically joins every cited root/branch/motif to typed QAC
 anchors. The instantiator then adds only each ayah's unchanged Layer-2 prose.
 It does not reload Layer-2 evidence/index files, raw ayah bundles, per-ayah
@@ -323,6 +353,7 @@ python3 scripts/check_channel_overlays.py _commentary/outputs/s087-default/87.ay
   --plan _commentary/outputs/s087-default/87.surah.channels.reviewed.json
 ```
 
-The older `instantiate.py --layer surah` and
+The older `instantiate.py --layer surah`,
+`instantiate_channel.py`, and
 `instantiate_channel_workflow.py --stage review|integrate|finalize` commands
-remain only for reproducing legacy draft-plan runs.
+remain only for reproducing legacy draft-plan or overlay runs.

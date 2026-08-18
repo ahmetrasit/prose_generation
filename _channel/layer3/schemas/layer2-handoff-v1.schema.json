@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer2-handoff-v1.schema.json",
+  "title": "Layer 2 v2 handoff projected for Layer 3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "sourceSetId", "sourceSetHash", "contractSourceRef", "ayahs"],
+  "properties": {
+    "schemaVersion": { "const": "layer2-handoff-v1" },
+    "sourceSetId": { "type": "string", "minLength": 1 },
+    "sourceSetHash": { "$ref": "#/$defs/sha256" },
+    "contractSourceRef": { "$ref": "#/$defs/sourceRef" },
+    "ayahs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ayahHandoff" }
+    }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "ayahRef": { "type": "string", "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$" },
+    "sourceRef": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$" },
+    "artifactRefs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prose", "evidence", "index", "friction"],
+      "properties": {
+        "prose": { "$ref": "#/$defs/sourceRef" },
+        "evidence": { "$ref": "#/$defs/sourceRef" },
+        "index": { "$ref": "#/$defs/sourceRef" },
+        "friction": { "$ref": "#/$defs/sourceRef" }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["findingRef", "indexKey", "text", "inference", "sourceRefs"],
+      "properties": {
+        "findingRef": { "type": "string", "pattern": "^finding:[1-9][0-9]{0,2}:[1-9][0-9]*:[0-9]{3}$" },
+        "indexKey": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "inference": { "type": "boolean" },
+        "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } }
+      }
+    },
+    "localResonance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["resonanceRef", "findingRef", "text", "primaryRelation", "sourceRefs"],
+      "properties": {
+        "resonanceRef": { "type": "string", "pattern": "^resonance:[1-9][0-9]{0,2}:[1-9][0-9]*:[a-z0-9][a-z0-9-]*$" },
+        "findingRef": { "type": "string", "pattern": "^finding:[1-9][0-9]{0,2}:[1-9][0-9]*:[0-9]{3}$" },
+        "text": { "type": "string", "minLength": 1 },
+        "primaryRelation": { "enum": ["supports-primary", "shifts-primary"] },
+        "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } }
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["boundaryRef", "ayahRefs", "text", "sourceRefs"],
+      "properties": {
+        "boundaryRef": { "type": "string", "pattern": "^boundary:[1-9][0-9]{0,2}:[1-9][0-9]*:[0-9]{2}$" },
+        "ayahRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ayahRef" } },
+        "text": { "type": "string", "minLength": 1 },
+        "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } }
+      }
+    },
+    "ayahHandoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ayahRef", "artifactSetLabel", "artifactRefs", "findings", "localResonances", "boundaries"],
+      "properties": {
+        "ayahRef": { "$ref": "#/$defs/ayahRef" },
+        "artifactSetLabel": { "type": "string", "minLength": 1 },
+        "artifactRefs": { "$ref": "#/$defs/artifactRefs" },
+        "findings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/finding" } },
+        "localResonances": { "type": "array", "items": { "$ref": "#/$defs/localResonance" } },
+        "boundaries": { "type": "array", "items": { "$ref": "#/$defs/boundary" } }
+      }
+    }
+  }
+}

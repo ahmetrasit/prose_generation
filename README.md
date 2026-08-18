@@ -100,15 +100,18 @@ The active cold-agent runbook is
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
 Mechanical scripts build stage-specific hermetic prompts. Fresh agents then
 perform blind discovery, latent-dependence review into channel briefs, and
-composition as one developing argument for a reader with no Arabic or
-linguistic knowledge.
+composition as a validated prose envelope for a reader with no Arabic or
+linguistic knowledge. A deterministic finalizer emits the reader prose,
+publication evidence map, and friction file.
 
 The result is not a summary and does not proceed ayah by ayah. A finding belongs
 here only when secondary semantic material changes the reader's model in a way
 the ordinary translation cannot produce, while making something specific in
-the surah newly intelligible. Reviewed Network V3 and V11 inputs are optional;
-their absence produces warnings and does not stop the run. The runbook defines
-the exact source projections, agent boundaries, commands, and output paths.
+the surah newly intelligible. Admitted channels coexist without ranking or
+disambiguation, and every admitted channel and hinge must land visibly in the
+prose. Reviewed Network V3 and V11 inputs are optional; their absence produces
+warnings and does not stop the run. The runbook defines the exact source
+projections, agent boundaries, commands, and output paths.
 
 The retired root-level `_channel` prompt/plan and the old Layer 2.5 overlay lane
 are retained only for historical reproducibility. They are not inputs to the

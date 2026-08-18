@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Instantiate one hermetic prompt for the Layer 3 workflow."""
+"""Instantiate one hermetic prompt for the Layer 3 v3 workflow."""
 
 from __future__ import annotations
 
@@ -9,24 +9,31 @@ import re
 from pathlib import Path
 from typing import Any
 
-from common import REPO_ROOT, WORKFLOW_ROOT, load_json
+from common import (
+    REPO_ROOT,
+    WORKFLOW_ROOT,
+    immutable_write_text,
+    load_json,
+    normalize_language,
+)
+from validate import validate_briefs, validate_hypotheses, validate_packet
 
 
-STAGES: dict[str, dict[str, str | None]] = {
+STAGES: dict[str, dict[str, str]] = {
     "discover": {
         "prompt": "01-discover.md",
-        "schema": "discovery-hypotheses-v1.schema.json",
-        "output": "{surah}.discovery-hypotheses.json",
+        "schema": "discovery-hypotheses-v2.schema.json",
+        "output": "{surah}.discovery-hypotheses.{language}.json",
     },
     "review": {
         "prompt": "02-review.md",
-        "schema": "channel-briefs-v1.schema.json",
-        "output": "{surah}.channel-briefs.json",
+        "schema": "channel-briefs-v2.schema.json",
+        "output": "{surah}.channel-briefs.{language}.json",
     },
     "compose": {
         "prompt": "03-compose.md",
-        "schema": None,
-        "output": "{surah}.surah-reading.md",
+        "schema": "surah-composition-v1.schema.json",
+        "output": "{surah}.surah-composition.{language}.json",
     },
 }
 
@@ -40,109 +47,83 @@ def block(label: str, text: str) -> str:
     return f"<BEGIN_{token}>\n{text.rstrip()}\n<END_{token}>"
 
 
-def network_activation_cards(markdown: str) -> list[dict[str, Any]]:
-    """Project reviewed subchannels without their prewritten syntheses."""
-    cards: list[dict[str, Any]] = []
-    parent_number: int | None = None
-    current: dict[str, Any] | None = None
+def resolve_path(path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    return REPO_ROOT / path
 
-    def finish() -> None:
-        nonlocal current
-        if current is None:
-            return
-        required = ("ayahAnchors", "activeMotifs")
-        missing = [key for key in required if not current.get(key)]
-        if missing:
-            raise SystemExit(
-                f"error: reviewed activation card {current['cardId']} is "
-                f"missing {', '.join(missing)}"
-            )
-        current["ayahRefs"] = list(
-            dict.fromkeys(
-                re.findall(r"\b[1-9][0-9]{0,2}:[1-9][0-9]*\b", current["ayahAnchors"])
-            )
+
+def run_dir(packet: dict[str, Any]) -> Path:
+    return (
+        WORKFLOW_ROOT
+        / "runs"
+        / "v3"
+        / f"s{packet['surah']:03d}"
+        / packet["language"]
+        / packet["runId"]
+    )
+
+
+def find_default_packet(surah: int, language: str) -> Path:
+    root = WORKFLOW_ROOT / "runs" / "v3" / f"s{surah:03d}" / language
+    pattern = f"{surah}.source-packet.{language}.json"
+    matches = sorted(root.glob(f"*/{pattern}"))
+    if len(matches) == 1:
+        return matches[0]
+    if not matches:
+        historical = (
+            WORKFLOW_ROOT
+            / "packets"
+            / f"s{surah:03d}"
+            / f"{surah}.source-packet.json"
         )
-        current["signalRefs"] = re.findall(r"`([^`]+)`", current["activeMotifs"])
-        cards.append(current)
-        current = None
+        raise SystemExit(
+            f"error: no v3 source packet found under {root}; run build_packet.py "
+            f"or pass --packet. Historical packet path is not v3: {historical}"
+        )
+    rendered = "\n".join(f"  {match}" for match in matches)
+    raise SystemExit(
+        "error: multiple v3 source packets exist; pass --packet explicitly:\n"
+        + rendered
+    )
 
-    for line in markdown.splitlines():
-        parent_match = re.match(r"^###\s+([0-9]+)\.\s+", line)
-        if parent_match:
-            finish()
-            parent_number = int(parent_match.group(1))
-            continue
 
-        standalone_match = re.match(r"^###\s+S([0-9]+)\.\s+", line)
-        if standalone_match:
-            finish()
-            standalone = int(standalone_match.group(1))
-            parent_number = None
-            current = {
-                "cardId": f"network-s{standalone:02d}",
-                "ayahAnchors": None,
-                "activeMotifs": None,
-                "sourceRefs": [f"network-review#standalone-{standalone}"],
-            }
-            continue
-
-        subchannel_match = re.match(r"^####\s+Subchannel\s+([A-Z]+)\.\s+", line)
-        if subchannel_match:
-            finish()
-            if parent_number is None:
-                raise SystemExit("error: reviewed subchannel has no parent")
-            letter = subchannel_match.group(1).lower()
-            current = {
-                "cardId": f"network-p{parent_number:02d}-{letter}",
-                "ayahAnchors": None,
-                "activeMotifs": None,
-                "sourceRefs": [
-                    f"network-review#parent-{parent_number}/subchannel-{letter}"
-                ],
-            }
-            continue
-
-        if current is None:
-            continue
-
-        fields = {
-            "- Active motifs:": "activeMotifs",
-            "- Ayah anchors:": "ayahAnchors",
-        }
-        for prefix, key in fields.items():
-            if line.startswith(prefix):
-                current[key] = line[len(prefix) :].strip()
-                break
-
-    finish()
-    return cards
+def source_excerpt(packet: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "packetId": packet.get("packetId"),
+        "runId": packet.get("runId"),
+        "sourceSetHash": packet.get("sourceSetHash"),
+        "coverage": packet.get("coverage"),
+        "warnings": packet.get("warnings", []),
+    }
 
 
 def discovery_input(packet: dict[str, Any]) -> dict[str, Any]:
-    primary = packet.get("primaryGround", {})
-    surface_anchors = [
-        {
-            "ayahRef": item.get("ayahRef"),
-            "unitType": item.get("unitType"),
-            "arabic": item.get("arabic"),
-        }
-        for item in primary.get("ayahs", [])
-        if isinstance(item, dict)
-    ]
-    cards: list[dict[str, Any]] = []
-    for reviewed in packet.get("evidenceField", {}).get("reviewedChannels", []):
-        if not isinstance(reviewed, dict) or not isinstance(reviewed.get("text"), str):
+    surface_anchors = []
+    for item in packet.get("primaryGround", {}).get("ayahs", []):
+        if not isinstance(item, dict):
             continue
-        cards.extend(network_activation_cards(reviewed["text"]))
+        floor = item.get("floor")
+        surface_anchors.append(
+            {
+                "ayahRef": item.get("ayahRef"),
+                "unitType": item.get("unitType"),
+                "arabic": item.get("arabic"),
+                "floor": floor.get("text") if isinstance(floor, dict) else None,
+                "floorSourceRef": floor.get("sourceRef") if isinstance(floor, dict) else None,
+            }
+        )
     return {
-        "schemaVersion": "layer3-discovery-input-v1",
+        "schemaVersion": "layer3-discovery-input-v2",
         "packetId": packet.get("packetId"),
+        "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
         "language": packet.get("language"),
         "surfaceAnchors": surface_anchors,
-        "activationCards": cards,
+        "activationCards": packet.get("evidenceField", {}).get("activationCards", []),
         "coverage": {
             "quranText": packet.get("coverage", {}).get("quranText"),
+            "primaryFloor": packet.get("coverage", {}).get("primaryFloor"),
             "networkV3": packet.get("coverage", {}).get("networkV3"),
         },
         "warnings": [
@@ -154,18 +135,17 @@ def discovery_input(packet: dict[str, Any]) -> dict[str, Any]:
 
 
 def review_context(packet: dict[str, Any]) -> dict[str, Any]:
-    evidence = packet.get("evidenceField", {})
     return {
-        "schemaVersion": "layer3-review-context-v1",
+        "schemaVersion": "layer3-review-context-v2",
         "packetId": packet.get("packetId"),
+        "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
         "language": packet.get("language"),
+        "lineage": source_excerpt(packet),
         "sourceRegistry": packet.get("sourceRegistry", []),
         "primaryGround": packet.get("primaryGround"),
-        "localBoundaries": evidence.get("localBoundaries", []),
-        "secondaryMaterial": evidence.get("secondaryMaterial", []),
-        "coverage": packet.get("coverage"),
-        "warnings": packet.get("warnings", []),
+        "layer2Handoff": packet.get("layer2Handoff"),
+        "evidenceField": packet.get("evidenceField"),
     }
 
 
@@ -173,10 +153,36 @@ def composition_input(packet: dict[str, Any]) -> dict[str, Any]:
     return {
         "schemaVersion": "layer3-composition-input-v1",
         "packetId": packet.get("packetId"),
+        "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
         "language": packet.get("language"),
+        "lineage": source_excerpt(packet),
         "primaryGround": packet.get("primaryGround"),
     }
+
+
+def stage_output_path(packet: dict[str, Any], stage: str) -> Path:
+    config = STAGES[stage]
+    filename = config["output"].format(
+        surah=packet["surah"],
+        language=packet["language"],
+    )
+    return run_dir(packet) / "outputs" / filename
+
+
+def prompt_output_path(packet: dict[str, Any], stage: str, attempt: int) -> Path:
+    return (
+        run_dir(packet)
+        / "inputs"
+        / f"{packet['surah']}.{stage}.attempt-{attempt:02d}.{packet['language']}.prompt.md"
+    )
+
+
+def assert_valid(errors: list[str], context: str) -> None:
+    if not errors:
+        return
+    rendered = "\n".join(f"  - {error}" for error in errors)
+    raise SystemExit(f"error: invalid {context}:\n{rendered}")
 
 
 def assemble(
@@ -184,7 +190,7 @@ def assemble(
     stage: str,
     surah: int,
     packet_path: Path,
-    candidates_path: Path | None,
+    hypotheses_path: Path | None,
     briefs_path: Path | None,
 ) -> str:
     config = STAGES[stage]
@@ -193,30 +199,29 @@ def assemble(
         raise SystemExit(
             f"error: packet surah is {packet.get('surah')}, expected {surah}"
         )
+    assert_valid(validate_packet(packet, verify_sources=False), "source packet")
+
     prompt_path = WORKFLOW_ROOT / "prompts" / config["prompt"]
-    schema_name = config["schema"]
-    schema_path = WORKFLOW_ROOT / "schemas" / schema_name if schema_name else None
+    schema_path = WORKFLOW_ROOT / "schemas" / config["schema"]
+    expected_output = stage_output_path(packet, stage)
     sections = [
-        "# Hermetic Layer 3 Run",
+        "# Hermetic Layer 3 v3 Run",
         "",
         f"- stage: `{stage}`",
         f"- surah: `{surah}`",
         f"- target language: `{packet.get('language')}`",
-        f"- write: `{config['output'].format(surah=surah)}`",
+        f"- packet: `{packet.get('packetId')}`",
+        f"- write: `{expected_output}`",
         "",
         "Use only the material between the inlined boundary markers below. "
-        "Paths inside the packet are provenance labels, not permission to read files.",
+        "Paths inside JSON are provenance labels, not permission to read files.",
+        "Do not call tools, read files, browse, or edit any path other than the exact output file.",
         "",
         block("task", prompt_path.read_text(encoding="utf-8")),
+        "",
+        block("output schema json", schema_path.read_text(encoding="utf-8")),
     ]
-    if schema_path is not None:
-        sections.extend(
-            [
-                "",
-                block("output schema json", schema_path.read_text(encoding="utf-8")),
-                "",
-            ]
-        )
+
     if stage == "discover":
         sections.extend(
             [
@@ -225,50 +230,41 @@ def assemble(
             ]
         )
     if stage == "review":
-        if candidates_path is None:
-            raise SystemExit("error: review stage requires --hypotheses")
-        discovery = discovery_input(packet)
+        if hypotheses_path is None:
+            hypotheses_path = stage_output_path(packet, "discover")
+        hypotheses = load_json(hypotheses_path)
+        assert_valid(validate_hypotheses(hypotheses, packet), "discovery hypotheses")
         sections.extend(
             [
                 "",
-                block(
-                    "discovery hypotheses json",
-                    json_text(load_json(candidates_path)),
-                ),
-                "",
-                block(
-                    "activation cards json",
-                    json_text(discovery["activationCards"]),
-                ),
+                block("discovery hypotheses json", json_text(hypotheses)),
                 "",
                 block("review context json", json_text(review_context(packet))),
             ]
         )
     if stage == "compose":
+        if hypotheses_path is None:
+            hypotheses_path = stage_output_path(packet, "discover")
         if briefs_path is None:
-            raise SystemExit("error: compose stage requires --briefs")
+            briefs_path = stage_output_path(packet, "review")
+        hypotheses = load_json(hypotheses_path)
+        briefs = load_json(briefs_path)
+        assert_valid(validate_hypotheses(hypotheses, packet), "discovery hypotheses")
+        assert_valid(validate_briefs(briefs, packet, hypotheses), "channel briefs")
         sections.extend(
             [
                 "",
-                block(
-                    "composition input json",
-                    json_text(composition_input(packet)),
-                ),
+                block("composition input json", json_text(composition_input(packet))),
                 "",
-                block("channel briefs json", json_text(load_json(briefs_path))),
+                block("channel briefs json", json_text(briefs)),
             ]
         )
-    if stage == "compose":
-        response = (
-            f"For this run, `N` in the task means `{surah}`. Write exactly "
-            f"`{config['output'].format(surah=surah)}` and no additional files."
-        )
-    else:
-        response = (
-            f"For this run, `N` in the task means `{surah}`. Write "
-            f"`{config['output'].format(surah=surah)}` as a JSON object "
-            "conforming to the inlined schema. Write no additional files."
-        )
+
+    response = (
+        f"For this run, `N` in the task means `{surah}`. Write "
+        f"`{expected_output}` as a JSON object conforming to the inlined schema. "
+        "Write no additional files."
+    )
     sections.extend(["", "# Response", "", response, ""])
     return "\n".join(sections)
 
@@ -277,59 +273,38 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=sorted(STAGES))
     parser.add_argument("--surah", type=int, required=True)
+    parser.add_argument("--language", default="tr")
     parser.add_argument("--packet", type=Path)
     parser.add_argument("--hypotheses", type=Path)
     parser.add_argument("--briefs", type=Path)
     parser.add_argument("--out", type=Path)
+    parser.add_argument("--attempt", type=int, default=1)
     args = parser.parse_args()
 
-    packet = args.packet or (
-        WORKFLOW_ROOT
-        / "packets"
-        / f"s{args.surah:03d}"
-        / f"{args.surah}.source-packet.json"
-    )
-    candidates = args.hypotheses
-    if args.stage == "review" and candidates is None:
-        candidates = (
-            WORKFLOW_ROOT
-            / "outputs"
-            / f"s{args.surah:03d}"
-            / f"{args.surah}.discovery-hypotheses.json"
+    language = normalize_language(args.language)
+    packet = resolve_path(args.packet) if args.packet else find_default_packet(args.surah, language)
+    hypotheses = resolve_path(args.hypotheses) if args.hypotheses else None
+    briefs = resolve_path(args.briefs) if args.briefs else None
+
+    packet_json = load_json(packet)
+    if packet_json.get("language") != language:
+        raise SystemExit(
+            f"error: packet language is {packet_json.get('language')!r}, expected {language!r}"
         )
-    briefs = args.briefs
-    if args.stage == "compose" and briefs is None:
-        briefs = (
-            WORKFLOW_ROOT
-            / "outputs"
-            / f"s{args.surah:03d}"
-            / f"{args.surah}.channel-briefs.json"
-        )
-    output = args.out or (
-        WORKFLOW_ROOT
-        / "inputs"
-        / f"s{args.surah:03d}"
-        / f"{args.surah}.{args.stage}.prompt.md"
+    output = resolve_path(args.out) if args.out else prompt_output_path(
+        packet_json, args.stage, args.attempt
     )
-    if not packet.is_absolute():
-        packet = REPO_ROOT / packet
-    if candidates is not None and not candidates.is_absolute():
-        candidates = REPO_ROOT / candidates
-    if briefs is not None and not briefs.is_absolute():
-        briefs = REPO_ROOT / briefs
-    if not output.is_absolute():
-        output = REPO_ROOT / output
 
     prompt = assemble(
         stage=args.stage,
         surah=args.surah,
         packet_path=packet,
-        candidates_path=candidates,
+        hypotheses_path=hypotheses,
         briefs_path=briefs,
     )
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(prompt, encoding="utf-8")
-    print(f"wrote {output}")
+    wrote = immutable_write_text(output, prompt)
+    verb = "wrote" if wrote else "unchanged"
+    print(f"{verb} {output}")
     return 0
 
 

@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-source-packet-v3.schema.json",
+  "title": "Layer 3 source packet v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "runId",
+    "packetHash",
+    "sourceSetId",
+    "sourceSetHash",
+    "surah",
+    "language",
+    "sourceRegistry",
+    "primaryGround",
+    "layer2Handoff",
+    "evidenceField",
+    "coverage",
+    "warnings"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "layer3-source-packet-v3" },
+    "packetId": { "type": "string", "pattern": "^s[0-9]{3}-[a-z]{2,8}(?:-[a-z0-9]{1,8})*-l3v3-[0-9a-f]{16}$" },
+    "runId": { "type": "string", "pattern": "^s[0-9]{3}-[a-z]{2,8}(?:-[a-z0-9]{1,8})*-l3v3-[0-9a-f]{16}$" },
+    "packetHash": { "$ref": "#/$defs/sha256" },
+    "sourceSetId": { "type": "string", "pattern": "^s[0-9]{3}-[a-z]{2,8}(?:-[a-z0-9]{1,8})*-l2-[0-9a-f]{16}$" },
+    "sourceSetHash": { "$ref": "#/$defs/sha256" },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,8}(?:-[a-z0-9]{1,8})*$" },
+    "sourceRegistry": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+    "primaryGround": { "$ref": "#/$defs/primaryGround" },
+    "layer2Handoff": { "$ref": "layer2-handoff-v1.schema.json" },
+    "evidenceField": { "$ref": "#/$defs/evidenceField" },
+    "coverage": { "$ref": "#/$defs/coverage" },
+    "warnings": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "sourceRef": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$" },
+    "ayahRef": { "type": "string", "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "kind", "role", "path", "format", "sha256", "bytes", "projection"],
+      "properties": {
+        "sourceId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*$" },
+        "kind": {
+          "enum": [
+            "quran-text",
+            "primary-floor",
+            "layer2-contract",
+            "layer2-prose",
+            "layer2-evidence",
+            "layer2-index",
+            "layer2-friction",
+            "network-review",
+            "v11-final-report"
+          ]
+        },
+        "role": {
+          "enum": [
+            "primary-ground",
+            "handoff-contract",
+            "commentary-audit",
+            "claim-boundary",
+            "findings-handoff",
+            "production-audit",
+            "activation-source",
+            "secondary-material"
+          ]
+        },
+        "path": { "type": "string", "minLength": 1 },
+        "format": { "enum": ["json", "markdown", "tsv"] },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "bytes": { "type": "integer", "minimum": 0 },
+        "projection": { "type": "string", "minLength": 1 }
+      }
+    },
+    "primaryGround": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quranSourceRef", "floorSourceRef", "ayahs"],
+      "properties": {
+        "quranSourceRef": { "$ref": "#/$defs/sourceRef" },
+        "floorSourceRef": { "$ref": "#/$defs/sourceRef" },
+        "ayahs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/primaryAyah" } }
+      }
+    },
+    "primaryAyah": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ayahRef", "unitType", "arabic", "floor"],
+      "properties": {
+        "ayahRef": { "$ref": "#/$defs/ayahRef" },
+        "unitType": { "enum": ["basmala", "ayah"] },
+        "arabic": { "type": "string", "minLength": 1 },
+        "floor": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "sourceRef"],
+              "properties": {
+                "text": { "type": "string", "minLength": 1 },
+                "sourceRef": { "$ref": "#/$defs/sourceRef" }
+              }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "activationCard": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["activationRef", "ayahRefs", "sourceRefs"],
+      "properties": {
+        "activationRef": { "type": "string", "pattern": "^activation:[a-z0-9][a-z0-9:-]*$" },
+        "ayahRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ayahRef" } },
+        "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } }
+      }
+    },
+    "secondaryMaterial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["secondaryRef", "heading", "sourceRefs", "text"],
+      "properties": {
+        "secondaryRef": { "type": "string", "pattern": "^secondary:[a-z0-9][a-z0-9:-]*$" },
+        "heading": { "type": "string", "minLength": 1 },
+        "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } },
+        "text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidenceField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["activationCards", "secondaryMaterial"],
+      "properties": {
+        "activationCards": { "type": "array", "items": { "$ref": "#/$defs/activationCard" } },
+        "secondaryMaterial": { "type": "array", "items": { "$ref": "#/$defs/secondaryMaterial" } }
+      }
+    },
+    "coverageGroup": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["status", "required", "sourceIds", "missing", "notes"],
+      "properties": {
+        "status": { "enum": ["complete", "partial", "absent"] },
+        "required": { "type": "boolean" },
+        "sourceIds": { "type": "array", "items": { "type": "string" } },
+        "missing": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quranText", "primaryFloor", "layer2", "networkV3", "v11"],
+      "properties": {
+        "quranText": { "$ref": "#/$defs/coverageGroup" },
+        "primaryFloor": { "$ref": "#/$defs/coverageGroup" },
+        "layer2": { "$ref": "#/$defs/coverageGroup" },
+        "networkV3": { "$ref": "#/$defs/coverageGroup" },
+        "v11": { "$ref": "#/$defs/coverageGroup" }
+      }
+    }
+  }
+}
