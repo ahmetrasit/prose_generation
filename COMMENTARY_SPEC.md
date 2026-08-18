@@ -12,8 +12,9 @@ The active Layer 3 production contract is
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). The
 former combined Layer 3 + 2.5 overlay workflow is retired.
 
-Status: draft, 2026-07-27. Derived from rejected S103 attempts; **not yet
-validated against a passing output.**
+Status: active draft, updated 2026-08-18. Layer 2 v2 and Layer 3 v3 workflow
+contracts are implemented and locally validated; production Layer 3 semantic
+passes have not yet been run.
 
 ---
 
@@ -195,7 +196,8 @@ Layer 3 emits:
 - **channel briefs** — reviewed operations, stable hinges, safe claim forms,
   prohibited rejected predications, and explicit before/after reader shifts;
 - **composition envelope** — the publishable prose plus an evidence map proving
-  that every admitted channel and hinge landed visibly;
+  that every admitted channel and hinge landed visibly, with complete evidence
+  refs and distinct reader-visible spans;
 - **surah reading** — continuous reader prose emitted by the deterministic
   finalizer, not a summary or ayah catalogue;
 - **publication evidence** — separate mapping from prose spans to packet

@@ -315,6 +315,12 @@ resonance rows; Layer-2 prose and friction are hashed for lineage but withheld
 from semantic passes. Generated v3 files live under
 `_channel/layer3/runs/v3/`.
 
+Validation is intentionally strict. A local resonance listed on a channel is not
+counted as used unless it appears in a hinge with its exact paired Layer-2
+`findingRef`. Composition evidence maps must land every admitted channel and
+hinge in distinct reader-visible spans and include the complete evidence refs for
+that channel or hinge.
+
 See `_channel/layer3/ORCHESTRATION.md` for exact run boundaries and fresh-agent
 instructions.
 

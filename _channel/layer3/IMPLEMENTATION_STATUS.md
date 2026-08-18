@@ -1,7 +1,8 @@
 # Layer 3 v3 Implementation Status
 
-Status as of 2026-08-18: **v3 code path implemented and locally tested;
-production semantic passes have not been run.**
+Status as of 2026-08-18: **v3 code path implemented, locally tested, and
+pushed to `origin/main` in commit `5c60f0d1`; production semantic passes have
+not been run.**
 
 ## Completed
 
@@ -9,6 +10,8 @@ production semantic passes have not been run.**
 - Layer 2 v2 prompt/runbook references are aligned around explicit local
   resonances, no disambiguation, selective word analysis, four artifacts, and
   no prose quota.
+- The v3 implementation was committed and pushed to `origin/main` as
+  `5c60f0d1`.
 - Layer 3 v3 now has active schemas:
   - `_channel/layer3/schemas/layer2-handoff-v1.schema.json`;
   - `_channel/layer3/schemas/source-packet-v3.schema.json`;
@@ -39,7 +42,12 @@ production semantic passes have not been run.**
   - `N.surah-reading.evidence.{language}.json`;
   - `N.surah-reading.friction.{language}.md`.
 - `_channel/layer3/scripts/validate.py` validates packets, discovery
-  hypotheses, channel briefs, composition envelopes, and publication evidence.
+  hypotheses, channel briefs, composition envelopes, and publication evidence:
+  - channel-level `inputRefs` are not enough; each used input must appear in a
+    hinge;
+  - local resonances must carry their exact paired Layer-2 `findingRef`;
+  - composition landings must use distinct spans and carry the complete evidence
+    refs for each admitted channel or hinge.
 - Active Layer 3 prompts now require:
   - explicit reader-friendly channels and resonances;
   - no disambiguation among admitted channels;
@@ -54,10 +62,11 @@ production semantic passes have not been run.**
   - `README.md`;
   - `_channel/README.md`;
   - `scripts/README.md`.
-- `tests/test_layer3_channel_workflow.py` was replaced with stdlib `unittest`
-  coverage for strict handoff selection, malformed indexes, discovery
-  blindness, many-to-many review accounting, complete local-resonance
-  dispositions, composition landings, and finalizer evidence hashes.
+- `tests/test_layer3_channel_workflow.py` uses stdlib `unittest` coverage for
+  strict handoff selection, malformed indexes, discovery blindness,
+  many-to-many review accounting, complete local-resonance dispositions,
+  exact resonance/finding pairing, fallback boundary extraction, composition
+  landings, custom source roots, and finalizer evidence hashes.
 
 ## Validation Completed
 
@@ -69,7 +78,8 @@ production semantic passes have not been run.**
   - `_channel/layer3/scripts/validate.py`;
   - `_channel/layer3/scripts/finalize.py`.
 - JSON parsing passes for all `_channel/layer3/schemas/*.schema.json`.
-- Scoped `git diff --check` passes for the Layer 3 migration files.
+- Scoped `git diff --check` passed for the Layer 3 migration files before
+  commit.
 - Real S87 packet build previously succeeded against `_commentary/outputs/s087`
   and wrote `/private/tmp/l3-s087-source-packet.tr.json` with 81 sources and one
   V11 fallback warning.
@@ -85,7 +95,6 @@ production semantic passes have not been run.**
   `_commentary/outputs/s087` disappeared from the current worktree. Do not
   restore or rewrite generated commentary outputs unless the user explicitly
   requests it.
-- No commit has been made for the current v3 completion work in this turn.
 
 ## Current Worktree Warning
 
@@ -94,7 +103,7 @@ deleted/generated `_commentary` outputs and bundle artifacts. They are not part
 of the v3 implementation change set. Preserve them unless the user explicitly
 asks to restore or remove them.
 
-The intended Layer 3/doc/test change set is limited to:
+The committed Layer 3/doc/test change set was limited to:
 
 - `README.md`;
 - `COMMENTARY_SPEC.md`;
@@ -121,5 +130,5 @@ The intended Layer 3/doc/test change set is limited to:
    - no ranking/disambiguation;
    - all local resonances accounted for;
    - claim policies strong enough to protect counterpressured material.
-4. Commit and push the current v3 implementation once unrelated worktree
-   changes are handled or carefully excluded from staging.
+4. After the first semantic run, update this file with the selected surah,
+   packet path, output paths, validator results, and any workflow friction.

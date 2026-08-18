@@ -9,8 +9,9 @@ channel is, when it may be spoken, and how layers 2 and 3 divide the active
 work. The old Layer 2.5 overlay lane is retained only as a historical
 experiment.
 
-Status: specification, 2026-07-28. The maturity model is new and has not yet been
-validated against a completed surah.
+Status: active specification, updated 2026-08-18. The Layer 3 v3 workflow is
+implemented and locally validated; a production semantic surah run has not yet
+been completed.
 
 ---
 
@@ -283,11 +284,13 @@ Per surah, active Layer 3 v3 records:
 
 - `discovery-hypotheses-v2` for blind candidates;
 - `channel-briefs-v2` for admitted channels, hinges, claim policies, and
-  non-channel dispositions;
+  non-channel dispositions, with exact accounting for every discovery hypothesis
+  and local resonance;
 - `surah-composition-v1` for the publishable prose plus span-level evidence map;
 - `surah-reading-evidence-v1` for the finalized publication evidence.
 
-The schemas live under `_channel/layer3/schemas/`. The runbook is
+The schemas live under `_channel/layer3/schemas/`. For active v3 runs use only
+the schema versions listed here; older schema files are archival. The runbook is
 `_channel/layer3/ORCHESTRATION.md`.
 
 ---
