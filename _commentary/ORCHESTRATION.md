@@ -444,8 +444,10 @@ Create the editorial evidence, findings index, and friction files so that they e
 Wait until all four editorial files exist and are non-empty. Confirm that the
 four first-pass files still match their recorded byte counts or hashes. Step 2 is
 complete only when the editorial index is mechanically valid and the editorial
-friction report ends with the required density audit. Then close the ayah agent;
-do not leave it running for a later layer or derived output.
+friction report contains the required density-audit marker. Then close the ayah
+agent; do not leave it running for a later layer or derived output. The
+orchestration agent does not read, scan, or evaluate the authored prose,
+evidence, index, or friction beyond those mechanical completion checks.
 
 Keeping the same agent avoids explicitly re-injecting the large prompt, bundle,
 and first-pass files, and gives the runtime the best opportunity to reuse the
@@ -680,10 +682,10 @@ For active Layer 2, in order:
    and keep that ayah's agent open
 7. send the Stage-3 Step-2 message verbatim to each same agent
 8. verify each four-file editorial set, verify the first-pass hashes are
-   unchanged, and mechanically check the editorial index; close that ayah's
-   agent only after these checks pass
-9. read the editorial friction reports **before** reading the editorial prose
-10. begin any Layer-3 work only under
+   unchanged, mechanically check the editorial index, and confirm the editorial
+   friction file contains the density-audit marker; close that ayah's agent only
+   after these checks pass
+9. begin any Layer-3 work only under
     [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md)
 
 For the default Turkish editorial filename, validate with
@@ -691,9 +693,11 @@ For the default Turkish editorial filename, validate with
 set uses `--profile luna-max.editorial.tr`. Add `--require-surprise` only when the
 run criterion requires an explicit local surprise in every unit.
 
-The ordering of the mechanical check and friction read is deliberate. Prose
-reads as authoritative whether or not it is, so validate the index and inspect
-friction before accepting the reader-facing commentary.
+The orchestration agent's acceptance is mechanical lifecycle acceptance only:
+file presence, non-empty outputs, unchanged first-pass hashes, editorial index
+validity, and density-audit marker presence. It does not perform qualitative
+acceptance, read the prose, or use friction as an independent proof of
+correctness.
 
 Stages 1 and 2 are idempotent. Re-running with the same `--date` overwrites with
 identical bytes.

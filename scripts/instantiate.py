@@ -752,13 +752,23 @@ def build_prompt(
             "wrapper label; the path already supplies it."
         )
     else:
+        assert ayah is not None
+        output_dir = f"_commentary/outputs/s{surah:03d}"
+        prose_path = f"{output_dir}/{surah}_{ayah}.prose.{language}.md"
+        evidence_path = f"{output_dir}/{surah}_{ayah}.evidence.{language}.md"
+        index_path = f"{output_dir}/{surah}_{ayah}.index.{language}.md"
+        friction_path = f"{output_dir}/{surah}_{ayah}.friction.{language}.md"
         lines.append(
-            f"Write in {language}. Produce your response as four parts, in this "
-            "order. If you return one combined response, label the parts clearly. "
-            "If an orchestrator asks you to write the parts into separate files, "
-            "omit wrapper labels from the prose and evidence files; the file path "
-            "already supplies the label."
+            f"Write in {language}. Write exactly four files at the paths below "
+            "and modify nothing else. Do not return one combined response. Omit "
+            "wrapper labels from the prose and evidence files; the file path "
+            "already supplies the artifact name."
         )
+        lines.append("")
+        lines.append(f"- Prose: `{prose_path}`")
+        lines.append(f"- Evidence surface: `{evidence_path}`")
+        lines.append(f"- Findings index: `{index_path}`")
+        lines.append(f"- Friction: `{friction_path}`")
         lines.append("")
         lines.append(
             "1. **The prose** — per the output contract in `COMMENTARY_SPEC.md` §5 "
