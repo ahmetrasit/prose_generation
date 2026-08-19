@@ -91,11 +91,22 @@ _channel/layer3/
       N.surah-reading.postlude.{language}.md
       N.surah-reading.evidence.{language}.json
       N.surah-reading.friction.{language}.md
+  outputs/sNNN/
+    N.surah-reading.prelude.{language}.md
+    N.surah-reading.postlude.{language}.md
+    N.surah-reading.evidence.{language}.json
+    N.surah-reading.friction.{language}.md
 ```
 
-Older `packets/`, `inputs/`, and `outputs/` directories are historical
-artifacts. Older schema files not listed above are archival. Do not overwrite
-historical artifacts or use archival schemas during active v3 runs.
+`runs/v3/.../published/` is the immutable run-local publication copy tied to
+one packet, prompt set, and run ID. `_channel/layer3/outputs/sNNN/` is the
+stable reader-facing publication directory for the latest accepted Layer-3
+reading of that surah. Do not use stable outputs as semantic inputs for a new
+v3 run; they are publication targets only.
+
+Older `packets/` and `inputs/` directories are historical artifacts. Older
+schema files not listed above are archival. Do not overwrite historical
+artifacts or use archival schemas during active v3 runs.
 
 ## Source Contract
 
@@ -223,6 +234,9 @@ first command:
 - `{LAYER2_DIR}`: the directory containing the complete Layer-2 artifacts;
 - `{LAYER2_LABEL}`: the exact editorial artifact label, for example
   `editorial.tr` or `luna-max.editorial.tr`.
+- `{STABLE_OUT_DIR}`: the stable publication directory for the accepted reader
+  surfaces, `_channel/layer3/outputs/sNNN/` where `NNN` is the zero-padded surah
+  number.
 
 The scripts emit additional paths. Copy each emitted path exactly rather than
 reconstructing it:
@@ -376,8 +390,9 @@ inside the already accepted semantic model; it must not reduce channel
 visibility or evidentiary coverage.
 
 After the agent completes, rerun the editorial composition validator above. If
-it prints `ok`, regenerate `published/` from the revised composition before
-closing the composition agent.
+it prints `ok`, regenerate both the run-local `published/` artifacts and the
+stable `_channel/layer3/outputs/sNNN/` artifacts from the revised composition
+before closing the composition agent.
 
 ```text
 Please revise your current Layer 3 editorial composition again, using the existing draft/editorial composition, channel briefs, evidence map, and paths already present in this same conversation and workspace. Do not read repository workflow files, do not request a new bundle, and do not create a fresh semantic model.
@@ -439,6 +454,8 @@ Inspect the validated editorial surfaces and briefs against every Acceptance
 condition below. Mechanical validation is not permission to publish. For a
 production run, obtain the required human semantic approval before finalizing.
 
+Finalize first to the run-local `published/` directory for immutable provenance:
+
 ```sh
 python3 _channel/layer3/scripts/finalize.py \
   --packet {PACKET} \
@@ -446,6 +463,32 @@ python3 _channel/layer3/scripts/finalize.py \
   --briefs {BRIEFS} \
   --composition {COMPOSITION}
 ```
+
+Then publish the same validated composition to the stable reader-facing
+directory:
+
+```sh
+python3 _channel/layer3/scripts/finalize.py \
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES} \
+  --briefs {BRIEFS} \
+  --composition {COMPOSITION} \
+  --out-dir {STABLE_OUT_DIR}
+```
+
+The stable files are the normal paths to show readers and downstream consumers:
+
+```text
+_channel/layer3/outputs/sNNN/N.surah-reading.prelude.{language}.md
+_channel/layer3/outputs/sNNN/N.surah-reading.postlude.{language}.md
+_channel/layer3/outputs/sNNN/N.surah-reading.evidence.{language}.json
+_channel/layer3/outputs/sNNN/N.surah-reading.friction.{language}.md
+```
+
+If stable files already exist for the same surah/language, replace only those
+four publication artifacts after the new editorial composition has validated
+and received semantic approval. Keep the superseded run-local `runs/v3/...`
+artifacts intact.
 
 ## Acceptance
 
