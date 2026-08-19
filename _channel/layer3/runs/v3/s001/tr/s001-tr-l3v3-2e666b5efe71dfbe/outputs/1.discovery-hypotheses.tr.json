@@ -1,0 +1,1061 @@
+{
+  "schemaVersion": "layer3-discovery-hypotheses-v3",
+  "packetId": "s001-tr-l3v3-2e666b5efe71dfbe",
+  "sourceSetHash": "c910453b8bdb4e1d38fc5a9424a31199adfffbe1c16c5bb43401aa3491f402f7",
+  "surah": 1,
+  "language": "tr",
+  "hypotheses": [
+    {
+      "hypothesisId": "worship-service-circuit",
+      "readerName": "Adla başlayan hizmet ve sunu düzeni",
+      "imageSystem": "Bir topluluk, efendinin adıyla işe girer; onun yetkisi altında hizmet eder ve elindeki hayvanı kutsal bir sunuya dönüştürür.",
+      "systemBoundary": "Adın anılması, malik-hizmetkâr ilişkisi, boyun eğme ve sunulabilir malın el değiştirmesi zinciriyle sınırlıdır; yalnızca soyut dindarlık değildir.",
+      "proposedOperation": "Açılıştaki ad ile 1:5'teki hizmet ve yardım talebini, 1:7'deki iyiliğe ulaştırılmış olanların payını taşıyan bir sunu düzeninin durakları olarak birlikte okutmayı önerir; övgüden yakarışa geçişte fail ile alıcı ilişkisini görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ın adıyla başlayan övgü ve kulluk sözünü verir.",
+        "hinge": "Ad, egemenlik, hizmet ve hayvan varlığının sunuya çevrilmesi aynı toplumsal alışverişin durakları gibi yan yana gelir.",
+        "after": "Sure, adı anılan bir efendinin önünde hizmetin, yardım talebinin ve ulaştırılmış nimetin yön değiştirdiği bir sunu düzeni kuruyor gibi okunabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "İş, belirli bir adın anılmasıyla başlar; bu, hizmet düzeninin giriş işaretidir.",
+          "activationCardRefs": ["activation:network-p01-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Gün ve karşılık verme, düzenin mülkiyet ve hüküm veren tarafını kurar.",
+          "activationCardRefs": ["activation:network-p01-a", "activation:network-p01-b"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Konuşan topluluk kendisini hizmet eden ve yardım isteyen taraf olarak yerleştirir.",
+          "activationCardRefs": ["activation:network-p01-a", "activation:network-p01-b", "activation:network-p06-d"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "İyiliğe ulaştırılmış pay ve hayvan varlığı, sunulabilecek nimetin topluluğa geri görünmesini sağlar.",
+          "activationCardRefs": ["activation:network-p06-d"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p01-a", "activation:network-p01-b", "activation:network-p06-d"]
+    },
+    {
+      "hypothesisId": "guarded-dependent-household",
+      "readerName": "Büyüten koruyucu ve bağımlı hane",
+      "imageSystem": "Büyüten bir koruyucunun, kendisine bağlı kişileri ve yakın topluluğu gözetip donattığı bir hane düzeni vardır; bakım, yardım ve korunma aynı ilişkide birleşir.",
+      "systemBoundary": "Sistem, akrabalık, koruyuculuk, bağımlılık ve donatma hareketleriyle sınırlıdır; bütün merhamet ve egemenlik anlamlarını kapsayan soyut bir eşitleme değildir.",
+      "proposedOperation": "Başlangıçtaki rahim ve yakınlık imlerini, 1:2'deki büyütme, 1:5'teki destek ve 1:6'daki gözetim hareketleriyle aynı hane içi bakım akışında izlemeyi önerir; övgüden istemeye ve oradan yola çıkmaya geçişi bir bağımlının hazırlanması olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ı bütün varlıkların yöneticisi ve çok esirgeyen olarak tanıtır.",
+        "hinge": "Koruyucu, bağımlı ve donatılan hane ilişkisi; rahmet, rablik ve yardım kelimelerini elle tutulur bir bakım düzeninde buluşturur.",
+        "after": "Sure, koruyanın yalnızca hükmettiği değil, bağlı olanı büyütüp koruyarak yola hazırladığı bir hane düzeninden konuşuyor gibi görünür."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Rahmet, yakın olanı içine alan ve koruyan bir bağın başlangıç zeminini verir.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p07-a", "activation:network-p07-e"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Rablik, bağımlıların tedricen büyütülmesi ve korunmasıyla işleyen bir yetiştirme ilişkisi olarak belirir.",
+          "activationCardRefs": ["activation:network-p01-b", "activation:network-p02-a", "activation:network-p07-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Topluluk, kendi başına yeterli bir hane değil, destek isteyen bağlı taraf olarak konuşur.",
+          "activationCardRefs": ["activation:network-p01-b", "activation:network-p02-a", "activation:network-p07-e"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Düzgün yola erdirme, korunan kişinin donatılıp gözetilerek ilerletilmesidir.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p07-a", "activation:network-p07-e"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "İyiliğe ulaştırılanlar, bu bakım zincirinin sonucunda koruyucudan pay almış kişiler olarak görünür.",
+          "activationCardRefs": ["activation:network-p02-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p01-b", "activation:network-p02-a", "activation:network-p07-a", "activation:network-p07-e"]
+    },
+    {
+      "hypothesisId": "road-with-landmarks",
+      "readerName": "İşaretli ve çiğnenmiş yol",
+      "imageSystem": "Bir grup, yardım alarak önden giden bir rehberi izler; yol, ortası, sınırı ve daha önce çiğnenmiş bir güzergâhı olan maddi bir geçiş alanıdır.",
+      "systemBoundary": "Sistem, rehber, izleyen topluluk, yol işareti ve iki güzergâh arasındaki seçimle sınırlıdır; yönlendirmeyi soyut bir öğüt haline getirmez.",
+      "proposedOperation": "1:5'teki yardım isteğini, 1:6'da adı istenen yolun kurulması ve 1:7'de iki yol dışının ayrılmasıyla birlikte okutmayı önerir; sureyi bir övgü cümlesinden toplu yürüyüşün rota talebine açar.",
+      "readerShift": {
+        "before": "Çeviri, doğru yola yönelme ve sapmış yollardan uzak durma dileğini zaten açıkça verir.",
+        "hinge": "Yolun işareti, ortası ve bir grubun önündeki rehber; yardım istemeyi bir güzergâhta yürüyebilme sorununa bağlar.",
+        "after": "Sure, topluluğun bir rehberin ardından işaretli ve çiğnenmiş bir yolda ilerleyip iki sapma biçiminden ayrılmasını sahneleyebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Varlıkların bütünü, yolun geçtiği geniş alan ve yol işaretlerinin bulunduğu çevreyi oluşturur.",
+          "activationCardRefs": ["activation:network-p04-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Yürüyen topluluk, yolu kendi başına bulamayan ve öndeki rehberden yardım isteyen gruptur.",
+          "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-b"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "İstenen düzgün yol, işareti ve alışılmış geçişi olan yürünebilir güzergâh olarak belirginleşir.",
+          "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-a", "activation:network-p04-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Aynı yolun iki dışı, birinin üzerinde kalınacak, diğerlerinden ayrılacak rota seçenekleri olarak kapanışı biçimlendirir.",
+          "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-a", "activation:network-p04-b"]
+    },
+    {
+      "hypothesisId": "passage-and-disappearance",
+      "readerName": "İçinden geçirip kaybettiren geçit",
+      "imageSystem": "Bir geçit ya da taşıyıcı ortam, bir şeyi içine alıp ilerletebilir; aynı hareket sonunda bir şeyin başka bir ortamda görünmezleşmesine veya gömülmesine yol açabilir.",
+      "systemBoundary": "Sistem, içine alma, keserek geçirme, başka ortama geçiş ve görünmezleşme ardışıklığıyla sınırlıdır; her türlü kaybolmayı kapsamaz.",
+      "proposedOperation": "Açılıştaki yükselip sürüye giren hareketi, 1:6'daki geçilebilir yol ve 1:7'deki kaybolma ile aynı geçit fiilinin farklı sonuçları olarak denemeyi önerir; başlangıçtaki adlandırmadan son bölümdeki ayrışmaya uzanan gizli bir içinden geçiş kurar.",
+      "readerShift": {
+        "before": "Çeviri, başta adla başlamayı, sonda doğru yolu ve sapmışları ayırmayı söyler.",
+        "hinge": "Yol, yalnızca üzerinde yürünən bir çizgi değil, bir şeyi içine alıp başka tarafa geçiren ya da görünmez kılan bir geçit olarak çalışır.",
+        "after": "Sure, açılıştaki giriş hareketinden düzgün yolun içinden geçmeye ve sapmanın içinde görünmezleşmeye doğru ilerleyen bir geçit sistemi gibi okunabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Yükselip sürüye giren beden imgesi, sistemin ilk içeri giriş hareketini açar.",
+          "activationCardRefs": ["activation:network-p04-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Düzgün yol, içinden geçilebilen, keskin ve yönü belirli bir taşıyıcı geçit olarak görünür.",
+          "activationCardRefs": ["activation:network-p04-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Sapmış olanlar, yolun dışında kalmaktan çok başka bir ortamda kaybolmuş veya gömülmüş olanlar gibi belirir.",
+          "activationCardRefs": ["activation:network-p04-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p04-c"]
+    },
+    {
+      "hypothesisId": "weary-body-on-road",
+      "readerName": "Yorgun bedeni yeniden yürütmek",
+      "imageSystem": "Yolculuk eden beden yorulur, destekle sallanarak yürür ve doğru yönü bulduğunda yeniden hız kazanır; yardım, soyut teselliden önce hareket kapasitesine dokunur.",
+      "systemBoundary": "Sistem, yorgun binek veya yolcunun desteklenmesi, yönlendirilmesi ve yürüyüşünün sürdürülmesiyle sınırlıdır; bütün rehberlik anlamlarını kapsamaz.",
+      "proposedOperation": "1:5'teki yardım istemeyi, 1:6'daki destekli ve düzgün yürüyüşle, 1:7'deki zayıf rehber ve gözün yenilenmesi karşıtlığıyla birlikte okutmayı önerir; yakarışı, yolun üzerinde kalabilen bir bedenin talebi olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, yardım istemeyi ve doğru yola yöneltilmeyi manevi bir dilek olarak sunar.",
+        "hinge": "Yorgun binek, sallanarak yürüyen beden ve gözün tazelenmesi; yardımın yönü kadar yürüyebilme gücünü de içerdiğini gösterir.",
+        "after": "Sure, doğru yol dileğini, yorgun bir bedenin desteklenip yeniden yürütülmesi ve devam edemeyen rehberden ayrılması olarak somutlaştırabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Konuşan topluluk, ilerlemek için yardım isteyen yorgun yolcu veya binek konumundadır.",
+          "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-d", "activation:network-p11-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Yönlendirme, sallanarak da olsa desteklenmiş bir yürüyüşü ve doğru çizgide tutulmayı sağlar.",
+          "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-d", "activation:network-p11-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Gözün yenilenmesi ile zayıf rehber ve bitkin binek karşıtlığı, yürüyüşün sonucunu iki ayrı bedensel duruma böler.",
+          "activationCardRefs": ["activation:network-p11-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p01-c", "activation:network-p04-d", "activation:network-p11-c"]
+    },
+    {
+      "hypothesisId": "stray-herd",
+      "readerName": "Önderini kaybetmeyen sürü",
+      "imageSystem": "Bir sürü, önde giden hayvanın veya sahibinin peşinde toplu kalır; yön kaybı, sürünün içinden bir hayvanın sahipsiz ve başıboş kalmasıyla görünür olur.",
+      "systemBoundary": "Sistem, sürü, önder, sahiplik, yardım ve başıboş hayvan arasındaki mekânsal bağla sınırlıdır; her toplumsal aidiyeti sürüye çevirmez.",
+      "proposedOperation": "1:2'deki toplu varlık alanını, 1:4-1:5'teki önderlik ve destekle, 1:6-1:7'deki yön kaybı ve başıboşlukla birlikte okutmayı önerir; son ayrımı, yanlış düşünceden çok sürüden kopma hareketi olarak görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, doğru yola girenlerle sapmışların ayrımını bildirir.",
+        "hinge": "Önderin peşinde giden sürü ile sahibinden kopmuş hayvan aynı görüntü içinde karşılaştırılır.",
+        "after": "Sure, doğru yolun yalnızca doğru fikir değil, sürüden ve önderden kopmayan somut bir aidiyet çizgisi olduğunu düşündürebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Bütün varlıklar, içinde sürünün toplanacağı geniş canlı alanı ve toplu hareket zemini olur.",
+          "activationCardRefs": ["activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Önder hayvan ve sahiplik, sürünün kimin arkasında ve kimin elinde bulunduğunu belirler.",
+          "activationCardRefs": ["activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Yol istemek, sürünün başını ve geçeceği yönü yeniden bulma ihtiyacıdır.",
+          "activationCardRefs": ["activation:network-p04-e", "activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Başıboş hayvan imgesi, iyiliğe ulaştırılan toplulukla kaybolmuş ve sahibinden ayrılmış olanı karşı karşıya getirir.",
+          "activationCardRefs": ["activation:network-p04-e", "activation:network-p08-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p04-e", "activation:network-p08-a"]
+    },
+    {
+      "hypothesisId": "celestial-time-sign",
+      "readerName": "Göğün işaretleriyle tutulan zaman",
+      "imageSystem": "Gökyüzü, gündüzün sınırını ve güneşin dikildiği anı belirleyen işaretler taşır; yol ve ayrım, bu işaretlerle ölçülen bir zaman alanında gerçekleşir.",
+      "systemBoundary": "Sistem, gök, güneş, gündüz, ay durağı ve ayırt edici işaretler arasındaki ölçme ve görünürlük ilişkisiyle sınırlıdır; genel bir aydınlanma benzetmesi değildir.",
+      "proposedOperation": "Başlangıçtaki gök altında adlandırmayı, 1:4'teki gün, 1:6'daki diklik ve 1:7'deki ayırıcı işaretle aynı göksel ölçüm düzeninde denemeyi önerir; surenin açılışını zamansız bir övgüden işaretlerle düzenlenen bir yürüyüşe çevirir.",
+      "readerShift": {
+        "before": "Çeviri, günü karşılık verme zamanı olarak; yolu da düzgün bir yön olarak verir.",
+        "hinge": "Gök ve gündüz, yalnızca arka plan değil, yolun ne zaman ve hangi işaretle seçileceğini tutan ölçülerdir.",
+        "after": "Sure, adla başlayan topluluğu göksel işaretlerin çevrelediği belirli bir zaman ve rota içinde konumlandırıyor gibi okunabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Adlandırma, göğün altında başlayan ve üstten belirlenen bir sahnenin girişidir.",
+          "activationCardRefs": ["activation:network-p05-a"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Varlıkların bütünü, gök işaretlerinin görüldüğü geniş çevreyi ve ayırt edilebilir düzeni sağlar.",
+          "activationCardRefs": ["activation:network-p05-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Gün, ölçülmüş ve sınırlandırılmış zaman dilimi olarak hesap anını işaretler.",
+          "activationCardRefs": ["activation:network-p05-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Dik duran güneş ve düzgün çizgi, yolun yönünü göksel bir işaretle sabitler.",
+          "activationCardRefs": ["activation:network-p05-a"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Ayırt edici işaret, aynı alanda hangi topluluğun hangi çizgide kaldığını görünür kılar.",
+          "activationCardRefs": ["activation:network-p05-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p05-a"]
+    },
+    {
+      "hypothesisId": "duration-to-residence",
+      "readerName": "Hızdan sakin yerleşmeye uzanan süre",
+      "imageSystem": "Bir hareketin kısa duraksaması, hızlanması ve sonunda sakin bir yerde kalması aynı zaman çizgisi üzerinde ölçülür; yolculuk, ikametle tamamlanır.",
+      "systemBoundary": "Sistem, süre, duraklama, hız, sakinlik ve yerleşme arasındaki geçişle sınırlıdır; zamanı yalnızca son hesap gününe indirgemez.",
+      "proposedOperation": "1:4'teki günü açık bir süre, 1:5'teki kısa durak veya hızlı hareket, 1:6'daki sakin yöneliş ve 1:7'deki devamlı ikamet olarak yan yana koymayı önerir; duayı ani bir sıçrama değil, hızın yerleşmeye dönüşmesi olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, günü karşılık verme zamanı ve yolu varılacak düz çizgi olarak duyurur.",
+        "hinge": "Gün, kısa gecikme, hız ve yerleşme; yolun içinde yaşanan sürenin farklı ritimlerini kurar.",
+        "after": "Sure, doğru yol talebini hızlanan bir hareketin sonunda sakin ve devamlı bir yere varma süreci olarak gösterebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Yerleşilecek çevre, bütün varlıkların içinde bir ikametin mümkün olduğu alanı verir.",
+          "activationCardRefs": ["activation:network-p09-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Gün, hareket ile sonuç arasındaki sürenin açıkça ölçülebilir bölümüdür.",
+          "activationCardRefs": ["activation:network-p05-b"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Kısa duraksama ve hızlı koşu, yardım istenen hareketin ritmini verir.",
+          "activationCardRefs": ["activation:network-p05-b"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Sakin ve vakur taşıyış, hızın dağılmadan düzgün yöne bağlanmasını sağlar.",
+          "activationCardRefs": ["activation:network-p05-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Devamlı ikamet, hareketin bitişini geçici bir durak değil, kalınan yer olarak belirler.",
+          "activationCardRefs": ["activation:network-p05-b", "activation:network-p09-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p05-b", "activation:network-p09-a"]
+    },
+    {
+      "hypothesisId": "appointed-accounting-day",
+      "readerName": "Hesap için ayağa kalkılan gün",
+      "imageSystem": "Belirli ve ağır bir gün gelir; yaratılmış olanlar ayağa kalkar, hüküm sahibi hesaplar ve karşılık verir.",
+      "systemBoundary": "Sistem, günün ağırlığı, ayağa kalkma, hüküm, hesap ve karşılık verme sırasıyla sınırlıdır; bütün yol imgelerini kapsamaz.",
+      "proposedOperation": "1:4'teki günü, 1:6'daki yaratılışın ayağa kalkması ve 1:7'deki karşılığın yerine konmasıyla birlikte okutmayı önerir; açılıştaki isimlendirmeden son ayrım cümlesine kadar süren bir hesap eşiği görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ın karşılık verme gününün sahibi olduğunu ve doğru yolun istendiğini söyler.",
+        "hinge": "Gün, yalnızca gelecekteki tarih değil; bedenlerin kalktığı, değerlerin ölçüldüğü ve kaybın karşılandığı bir işlem alanıdır.",
+        "after": "Sure, doğru yola yönelişi, hesap gününde ayağa kalkıp hangi karşılığın kime verileceğiyle bağlı bir hazırlık olarak kurabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Gün, egemen hükmün borç ve karşılık hesabını açtığı ağır zaman noktasıdır.",
+          "activationCardRefs": ["activation:network-p05-c", "activation:network-p06-b"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Yaratılmışların ayağa kalkması, hesap önünde durmayı ve ölçüye girmeyi bedenselleştirir.",
+          "activationCardRefs": ["activation:network-p05-c", "activation:network-p06-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "İndemnity ve yerine koyma imleri, hükmün yalnızca ayırmadığını, kaybı bir karşılıkla düzenlediğini gösterir.",
+          "activationCardRefs": ["activation:network-p06-b"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p05-c", "activation:network-p06-b"]
+    },
+    {
+      "hypothesisId": "market-ledger",
+      "readerName": "Desteklenen pazar ve hesap defteri",
+      "imageSystem": "Bir pazar düzeninde mülk ve hayvan değerlenir, borç ertelenir, yardım ve destek alışverişi gerçekleşir; sonunda yarar ile başıboş kayıp birbirinden ayrılır.",
+      "systemBoundary": "Sistem, değer biçme, mülk, borç, destek, alışveriş ve malın elde tutulmasıyla sınırlıdır; övgüyü yalnızca bir ticari kazanç saymaz.",
+      "proposedOperation": "Övgüyü 1:2'de bir iyiliğin karşılığını tanıyan söz, 1:4'ü hesap ve mülkiyet, 1:5'i destek talebi, 1:6'yı değer biçen pazar, 1:7'yi ise iyi pay ile başıboş malın ayrımı olarak denemeyi önerir.",
+      "readerShift": {
+        "before": "Çeviri, övgü, sahiplik, yardım ve nimet kelimelerini ayrı manevi ifadeler olarak sunar.",
+        "hinge": "Bu ifadeler, bir malın değer gördüğü, destek aldığı, borca girdiği veya sahibinden koptuğu somut bir alışveriş düzeninde birleşir.",
+        "after": "Sure, övgüden yardım istemeye ve doğru yol dileğine ilerleyen sözün arkasında değerleme, sahiplik ve paylaştırma yapan bir pazar hesabı taşıyor gibi okunabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Övgü ve iyiliğin tanınması, bir alışverişte verilen iyiliğin değerinin kabul edilmesine benzer bir giriş yapar.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p03-b"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Mülk, borç ve ertelenmiş satış, hesabın kimin elinde ve hangi tarihte görüleceğini belirler.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p03-b", "activation:network-p06-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Yardım isteme, pazarın tek taraflı sahiplik değil, destek ve karşılıklı dayanma ilişkisi olduğunu gösterir.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p06-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Düzgünlük ve pazar, ağırlık, fiyat ve değer ölçüsünün kurulacağı bir ölçüm çizgisi sağlar.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p06-a"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Nimet olarak ulaşan hayvan varlığı ile sahibinden kopmuş başıboş mal, hesabın iki farklı sonucunu gösterir.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p03-b", "activation:network-p06-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p02-b", "activation:network-p03-b", "activation:network-p06-a"]
+    },
+    {
+      "hypothesisId": "lot-bag-distribution",
+      "readerName": "Deri torbada toplanan paylar",
+      "imageSystem": "Deri bir kapta toplanan kura okları, payların kap içinde tutulup çekilmesini ve sonrasında mülk, değer ve kayıp hesabına girmesini düşündüren küçük bir dağıtım düzeneği kurar.",
+      "systemBoundary": "Sistem yalnızca kap, içinde toplanan pay işaretleri, çekiliş ve ardından yapılan değerleme ilişkisiyle sınırlıdır; surede açık bir kura anlatısı bulunduğunu iddia etmez.",
+      "proposedOperation": "1:2'deki övgü ve rablik ifadesini, toplanmış okların bir kapta beklediği bir paylaştırma başlangıcı olarak zayıf bir alternatif biçimde denemeyi; 1:4 ve 1:7'yi de hesabın ve el değiştiren malın sonraki durakları olarak okumayı önerir.",
+      "readerShift": {
+        "before": "Çeviri, 1:2'yi bütün varlıkların yöneticisine yöneltilen övgü olarak kapatır.",
+        "hinge": "Deri kap ve toplanmış kura işaretleri, bu övgü cümlesinin içinde payların henüz dağıtılmadan tutulduğu bir kap imgesi açar.",
+        "after": "Sure, hüküm gününe ve ulaştırılmış nimete ilerlerken, kimin payının hangi hesapla ayrılacağına dair kapalı bir toplama ve dağıtma düzenini de taşıyor olabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Deri kap, toplanmış kura oklarını aynı yerde tutan maddi hazne olur.",
+          "activationCardRefs": ["activation:network-s01"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Mülk, değer ve hesabın sahibi olan gün, kaptan çıkacak payların hangi ölçüyle değerlendirileceği aşamasını açar.",
+          "activationCardRefs": ["activation:network-p06-a"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Hayvan varlığı ve başıboş kalan mal, dağıtım sonrasında bir payın sahibine ulaşması veya elden çıkması ihtimallerini somutlaştırır.",
+          "activationCardRefs": ["activation:network-p06-a"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-s01", "activation:network-p06-a"]
+    },
+    {
+      "hypothesisId": "gift-transfer-contract",
+      "readerName": "İyiliğin sözleşmeyle el değiştirmesi",
+      "imageSystem": "Şefkatli bir bağdan çıkan hediye, bir sözleşme ve sahiplik düzeni içinde başka birine teslim edilir; teslim edilen kişi yeni bir ilişkiye ve yola girer.",
+      "systemBoundary": "Sistem, sevgiyle verilen şeyin sahipliğe geçirilmesi, sözleşme ve teslim hareketleriyle sınırlıdır; her nimeti ticari mülkiyet saymaz.",
+      "proposedOperation": "Rahmeti duygusal bir niteleme olarak bırakmayıp 1:4'teki sözleşme ve sahiplik, 1:6'daki teslim ve 1:7'deki verilmiş iyilikle aynı el değiştirme zincirinde denemeyi önerir; yakarışın, teslim alınan hediyenin doğru yolda taşınması olduğunu görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, rahmet, mülk, hidayet ve nimet ifadelerini art arda gelen nitelemeler ve dilek olarak verir.",
+        "hinge": "Hediye, sözleşmeyle tanınan bir ilişkiye girer ve bir kişiye teslim edilerek yolculuğunu sürdürür.",
+        "after": "Sure, iyiliği uzaktan bahşedilen bir sıfat değil, bir ilişki içinde teslim alınan ve düzgün yolda taşınan bir hediye olarak kurabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Şefkatli bağ, verilecek hediyenin ve kurulacak ilişkinin ilk kaynağını oluşturur.",
+          "activationCardRefs": ["activation:network-p06-c", "activation:network-p07-c"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Sözleşme ve sahiplik, hediyenin kime geçtiğini ve ilişkinin nasıl bağlandığını sabitler.",
+          "activationCardRefs": ["activation:network-p06-c", "activation:network-p07-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Teslim edilen kişi veya hediye, doğru yola gönderilerek yeni konumuna taşınır.",
+          "activationCardRefs": ["activation:network-p06-c", "activation:network-p07-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Ulaştırılmış iyilik, el değiştiren hediyenin alıcıya gerçekten varmış sonucudur.",
+          "activationCardRefs": ["activation:network-p06-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p06-c", "activation:network-p07-c"]
+    },
+    {
+      "hypothesisId": "named-protected-association",
+      "readerName": "Adla korunan antlaşma",
+      "imageSystem": "Adla tanımlanan bir kişi veya topluluk, yemin ve antlaşmayla korunan bir ilişkiye alınır; güvenli geçiş ve tazmin, bu korumanın hukuki işaretleridir.",
+      "systemBoundary": "Sistem, adlandırma, korunan birliktelik, yemin, güvenli geçiş, ayrım ve tazmin hareketleriyle sınırlıdır; bütün rehberliği hukuki sözleşmeye indirgemez.",
+      "proposedOperation": "Başlangıçtaki adlandırmayı, 1:2'deki koruyucu birliktelik, 1:4'teki hüküm ve yemin, 1:6'daki güvenli geçiş ve 1:7'deki istisna-tazmin diliyle birlikte okutmayı önerir; yol dileğini korunan bir anlaşma içinde ilerleme olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ın adıyla başlayan hitabı, hüküm gününü ve doğru yolu dileme sözünü verir.",
+        "hinge": "Ad, kişinin kimliğini belirleyen; antlaşma, yolu koruyan; tazmin ise ihlal sonrası ilişkiyi yeniden düzenleyen işaretlere dönüşür.",
+        "after": "Sure, topluluğun doğru yola yönelmesini, adla tanınan ve güvenli geçiş hakkı bulunan bir koruma ilişkisi içinde okuyabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Ad, antlaşmaya girecek kişi veya topluluğun hukuken tanınmasının ilk işaretidir.",
+          "activationCardRefs": ["activation:network-p03-a", "activation:network-p07-d"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Koruyucu birliktelik, tanınan tarafın kimin himayesinde bulunduğunu belirtir.",
+          "activationCardRefs": ["activation:network-p03-b", "activation:network-p07-d"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Yemin, hüküm ve tazmin, korunan ilişkinin ihlal ve karşılık ölçüsünü kurar.",
+          "activationCardRefs": ["activation:network-p03-b", "activation:network-p06-b", "activation:network-p07-d"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Güvenli yol veya güvence altında ilerleme, antlaşmanın mekânda yürüyen sonucudur.",
+          "activationCardRefs": ["activation:network-p07-d"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "İstisna ve tazmin, korunan topluluk ile onun dışında bırakılanların hukuki ayrımını gösterir.",
+          "activationCardRefs": ["activation:network-p03-b", "activation:network-p06-b", "activation:network-p07-d"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p03-a", "activation:network-p03-b", "activation:network-p06-b", "activation:network-p07-d"]
+    },
+    {
+      "hypothesisId": "leader-herd",
+      "readerName": "Önde görünen rehber ve onu izleyen sürü",
+      "imageSystem": "Yüksek ve görünür bir önder, topluluğun önünde durur; kaptan veya önde giden hayvan, kendisine yardım eden ve ardından gelen sürüyü aynı yönde toplar.",
+      "systemBoundary": "Sistem, görünür önder, izleyen grup, sürü ve önderlik sırasıyla sınırlıdır; yolun bütün mecazlarını veya genel yönetimi kapsamaz.",
+      "proposedOperation": "Adın görünür kıldığı figürü, 1:2'deki kaptan ve sürü, 1:4'teki önde giden hayvan, 1:5'teki yardım ve 1:6'daki rehberlik ile aynı toplu hareketin ön sırası olarak denemeyi önerir.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ı rab ve malik olarak tanıtır; ardından topluluk yardım ve yol ister.",
+        "hinge": "Rablik ve rehberlik, uzak sıfatlar olmaktan çıkıp önde görünen ve arkasında grup toplayan bir önder düzeni kazanır.",
+        "after": "Sure, dua eden topluluğu görünür bir önderin veya önde giden hayvanın ardından toplanmış bir sürü olarak sahneleyebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Yükselmiş ve görünür figür, grubun dikkatini toplayan önderlik konumunu açar.",
+          "activationCardRefs": ["activation:network-p03-d"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Kaptan ve toplanmış sürü, önder ile izleyenler arasındaki mekânsal sırayı somutlaştırır.",
+          "activationCardRefs": ["activation:network-p03-d", "activation:network-p04-b", "activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Önde giden hayvan, egemenlik ve takip düzeninin canlı önderidir.",
+          "activationCardRefs": ["activation:network-p04-b", "activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Yardım isteme, sürünün önderle birlikte hareket etmek için ihtiyaç duyduğu desteği belirtir.",
+          "activationCardRefs": ["activation:network-p03-d", "activation:network-p04-b", "activation:network-p08-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Rehber, grubun önünde yönü tutan ve takip edilebilir çizgiyi açan kişidir.",
+          "activationCardRefs": ["activation:network-p03-d", "activation:network-p04-b"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p03-d", "activation:network-p04-b", "activation:network-p08-a"]
+    },
+    {
+      "hypothesisId": "formation-vessel-to-mature",
+      "readerName": "Kapalı oluşumdan ayırt edilen olgun bedene",
+      "imageSystem": "Bir rahim veya tohum yatağı, canlıyı koruyup ortaya çıkarır; bakım gören yavru büyür, olgunlaşır, bedensel gücü ve ayırt edici işaretiyle dışarıdaki topluluğa katılır.",
+      "systemBoundary": "Sistem, kapalı taşıyıcı, doğum, tedrici büyüme, olgun beden ve görünür işaret arasındaki oluşum zinciriyle sınırlıdır; her yetiştirme veya övgüyü buna bağlamaz.",
+      "proposedOperation": "Rahmet ve rabliği bir oluşum kabı, 1:2'yi bakım ve yeni çıkmış canlı, 1:5'i olgunluk, 1:7'yi ortaya çıkmış hayvan olarak birlikte okutmayı önerir; suredeki 'ulaştırılmış nimet'i hazır bir sonuçtan çok dışarı çıkarılmış canlılık olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ın esirgeyiciliğini ve kendilerine iyilik ulaşanları karşılaştırır.",
+        "hinge": "Rahim, tohum yatağı, yeni doğmuş hayvan ve olgun güç; iyiliğin canlıyı kapalı bir yerden çıkarıp ayırt edilir hale getiren sürecini kurar.",
+        "after": "Sure, nimete ulaştırılmayı, korunmuş bir oluşumdan çıkıp gücü ve işareti bulunan bir canlı olarak görünür hale gelmek şeklinde yeniden düşündürebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Rahim ve taşıyıcı kap, canlıyı dışarı çıkmadan önce tutan ve besleyen başlangıç alanıdır.",
+          "activationCardRefs": ["activation:network-p07-a", "activation:network-p07-b", "activation:network-p08-c", "activation:network-p11-d"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Tedrici bakım ve yeni doğmuş koyun, kapalı oluşumdan yeni çıkmış ama hâlâ bakıma bağlı canlıyı gösterir.",
+          "activationCardRefs": ["activation:network-p07-a", "activation:network-p07-b", "activation:network-p08-c"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Orta yaş ve dengeli güç, bakımın sonunda dışarıda ayakta durabilen olgun bedeni verir.",
+          "activationCardRefs": ["activation:network-p11-d"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Yeni doğmuş veya açıkta kalmış hayvan, oluşumdan çıkışın hem nimet hem de korunmasızlık taşıyan son eşiğidir.",
+          "activationCardRefs": ["activation:network-p08-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p07-a", "activation:network-p07-b", "activation:network-p08-c", "activation:network-p11-d"]
+    },
+    {
+      "hypothesisId": "settlement-well",
+      "readerName": "Kuyu çevresinde kurulan yerleşim",
+      "imageSystem": "Bir yerleşim veya kamp, su zengini bir kuyu ve onu çalıştıran dikey ahşap parçalar sayesinde hayatını sürdürür; su, otoriteyi, geçimi ve toplu kalmayı mümkün kılar.",
+      "systemBoundary": "Sistem, yerleşim, kamp, kuyu, dik duran kuyu düzeneği, su ve sulama arasındaki maddi bağıntıyla sınırlıdır; bütün rehberlik imgelerini yerleşim saymaz.",
+      "proposedOperation": "1:2'deki yerleşim alanını, 1:4'teki kamp ve suyu, 1:5'teki yardım, 1:6'daki dik kuyu parçası ve 1:7'deki sulamayla birlikte okutmayı önerir; yol dileğinin arkasında bir topluluğu yerinde tutan su altyapısını görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, bütün yaratılmışların yöneticisini ve doğru yola yönelmeyi soyut bir düzen içinde verir.",
+        "hinge": "Yerleşim, malik, yardım ve düzgün diklik; kampın kuyudan su çekerek ayakta kalmasıyla aynı mekânda birleşir.",
+        "after": "Sure, topluluğun doğru yolda kalmasını, suyu ve dik düzeni bulunan bir yerleşimin sürdürülmesine benzeyen somut bir hayat şartı olarak açabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Yerleşim ve su zengini kuyu, bütün varlıkların içinde topluluğun barınacağı ve besleneceği alanı kurar.",
+          "activationCardRefs": ["activation:network-p09-a", "activation:network-p09-b", "activation:network-p10-b"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Kampın komutası ve suyun mülkiyeti, kaynağın kimin düzeninde işletileceğini belirler.",
+          "activationCardRefs": ["activation:network-p09-a", "activation:network-p09-b", "activation:network-p10-b"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Yardım isteme, kuyuyu ve yerleşimi tek başına sürdüremeyen topluluğun ortak altyapı ihtiyacıdır.",
+          "activationCardRefs": ["activation:network-p09-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Dik kuyu kerestesi ve dik duran parça, suyun çekilmesini mümkün kılan taşıyıcı düzeni temsil eder.",
+          "activationCardRefs": ["activation:network-p09-b", "activation:network-p10-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Sulama ve hayatın sürdürülmesi, kuyunun topluluktan ve topraktan beklenen son işidir.",
+          "activationCardRefs": ["activation:network-p09-b"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p09-a", "activation:network-p09-b", "activation:network-p10-b"]
+    },
+    {
+      "hypothesisId": "rain-cultivation",
+      "readerName": "Yağmurdan sulanan yeşil düzen",
+      "imageSystem": "Üstteki gök bulut ve yağmur bırakır; rüzgâr bunu taşır, su bitkiyi ve eski palmeyi yaşatır, sulama da toprağı ve insanları besleyen düzene dönüşür.",
+      "systemBoundary": "Sistem, gök, bulut, yağmur, rüzgâr, yeşil bitki, palmiye ve sulamanın birbirine bağlanan akışıyla sınırlıdır; her iyiliği yağmur saymaz.",
+      "proposedOperation": "Başlangıçtaki göğü 1:2'deki bol su, 1:5'teki rüzgâr ve yardım, 1:7'deki bitki ve sulamayla birlikte okutmayı önerir; nimet ve rahmeti bir defalık bağış değil, yukarıdan aşağıya işleyen üretim döngüsü olarak görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, rahmet, rablik, yardım ve nimet ifadelerini birbirinden ayrı sıfat ve dilekler olarak sunar.",
+        "hinge": "Bulut, yağmur, rüzgâr, yeşil bitki ve sulama; iyiliğin bir kaynaktan geçip canlıları sürdüren maddi akış olduğunu gösterir.",
+        "after": "Sure, rahmeti gökten toprağa ve insana inen, bitkiyi ve yerleşimi canlı tutan bir su-provizyon sistemi içinde hissettirebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Üstteki gök ve bulut, akışın kaynağını ve yağmurun başlayacağı yüksek alanı kurar.",
+          "activationCardRefs": ["activation:network-p09-c"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Bol ve taze su, yağmurun birikerek yaşama yetecek kaynağa dönüşmesini sağlar.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p09-b", "activation:network-p09-c"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Rüzgârın taşınması ve pratik yardım, suyun kaynaktan tarlaya ulaşması için gereken ara hareketi verir.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p09-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Yeşil bitki, eski palmiye ve sulama; yukarıdan gelen kaynağın toprağı ve insanları yaşatan son halkasıdır.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p09-b", "activation:network-p09-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p02-a", "activation:network-p09-b", "activation:network-p09-c"]
+    },
+    {
+      "hypothesisId": "joint-and-coating-repair",
+      "readerName": "Eklemle tutulan ve kaplanarak onarılan düzen",
+      "imageSystem": "Bir yapı, sağlam düğüm ve dik parçalarla bir arada durur; yağlı veya katranlı bir kaplama, taşıyıcıyı ve yol donanımını onararak yolculuğu sürdürür.",
+      "systemBoundary": "Sistem, eklem, ana dayanak, dik parça, kaplama, yumuşatma ve seyahat donanımının onarımıyla sınırlıdır; genel dayanıklılık temasına dağılmaz.",
+      "proposedOperation": "1:2'deki büyütme ve destek, 1:4'teki ana dayanak, 1:5'teki sağlamlık, 1:6'daki dik parça ve 1:7'deki yol donanımı onarımını tek bir bakım sırasına bağlamayı önerir; doğru yolu, zaten kusursuz bir hat değil, eklemleri ve kaplaması sürekli tutulan bir düzen olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, rablik, malik, kulluk ve düzgünlük ifadelerini düzen ve bağlılık olarak duyurur.",
+        "hinge": "Düzen, düğüm ve dayanakla kurulur; yıpranan araç ise koyu bir kaplama ve yumuşatma ile yeniden kullanılabilir hale gelir.",
+        "after": "Sure, düzgün yolu izlemeyi, taşıyıcı eklemleri korunan ve yol donanımı onarılan bir yapının devamlılığı olarak düşündürebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Rablik ve destek, yapının düğüm ve ana taşıyıcılarla bir arada tutulduğu ilk bakım katmanıdır.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p02-b", "activation:network-p10-a"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Malik ve ana dayanak, yapının yükünü taşıyan parçanın kimin düzeninde korunduğunu gösterir.",
+          "activationCardRefs": ["activation:network-p02-b", "activation:network-p10-a", "activation:network-p10-c"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Hizmet ve sağlamlık, kaplanmış teknenin veya yol aracının çalışır halde tutulmasını çağrıştırır.",
+          "activationCardRefs": ["activation:network-p10-a", "activation:network-p10-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Dik parça, yapının veya aletin düzgün çizgisini ve yük taşıyan yönünü sabitler.",
+          "activationCardRefs": ["activation:network-p10-a"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Seyahat donanımının onarımı ve yumuşatılmış malzeme, yolun sürmesi için son bakım hareketidir.",
+          "activationCardRefs": ["activation:network-p02-a", "activation:network-p10-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p02-a", "activation:network-p02-b", "activation:network-p10-a", "activation:network-p10-c"]
+    },
+    {
+      "hypothesisId": "upright-body-under-impact",
+      "readerName": "Dik bedenin ağrı ve şişlikle sınanması",
+      "imageSystem": "Beden, ayağa kalkma, oran, güç ve bütünlükle dik durur; organın içine yerleşen ağrı ve şişlik bu dikliği bozup bedeni sınar.",
+      "systemBoundary": "Sistem, bedenin dikliği, gücü, organı, ağrısı ve şişliği arasındaki fiziksel ilişkiyle sınırlıdır; ahlaki öfkeyi doğrudan bedensel hastalık saymaz.",
+      "proposedOperation": "1:4'teki ayağa kalkmayı, 1:5'teki sağlamlığı, 1:6'daki düzgünlüğü ve 1:7'deki öfke-şişlik imini bir bedenin kurulması ve bozulması olarak birlikte denemeyi önerir; son karşıtlığı soyut bir hükümden bedensel bir hasar görüntüsüne yaklaştırır.",
+      "readerShift": {
+        "before": "Çeviri, hüküm, kulluk, yardım ve üzerlerine öfke kabaranlar arasındaki anlam ayrımını verir.",
+        "hinge": "Dik beden, iç organ ağrısı ve şişlik; doğru duruş ile hasar görmüş durum arasında hissedilir bir karşıtlık kurar.",
+        "after": "Sure, doğru çizgide durma isteğini, güç ve bütünlüğü korunmuş bir beden ile ağrı ve şişlikle bozulmuş bedenin ayrımı olarak da duyurabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Varlık alanı, bedenin içinde ve çevresinde ölçü ve oranla kurulacağı geniş sahneyi verir.",
+          "activationCardRefs": ["activation:network-p11-b"]
+        },
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Ayağa kalkma ve beden oranı, hüküm önünde dik durabilen yapıyı kurar.",
+          "activationCardRefs": ["activation:network-p11-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Sağlamlık ve güç, hizmet eden bedenin taşıma ve dayanma kapasitesidir.",
+          "activationCardRefs": ["activation:network-p11-a"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Organ içine yerleşen ağrı, düzgün çizgide duran bedenin içten zorlanmasını gösterir.",
+          "activationCardRefs": ["activation:network-p11-a", "activation:network-p11-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Şişlik ve kalınlaşmış beden, dik ve dengeli yapının hasar görmüş karşıt biçimidir.",
+          "activationCardRefs": ["activation:network-p11-a", "activation:network-p11-b"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p11-a", "activation:network-p11-b"]
+    },
+    {
+      "hypothesisId": "conflict-rout",
+      "readerName": "Çatışmadan dağılan topluluk",
+      "imageSystem": "Rekabet eden taraflar karşılaşır; savaş ve direnç bir tarafın yenilip dağılmasına, şirketlerin ayrışan yollara sürülmesine ve avcıların peşinden gitmesine yol açar.",
+      "systemBoundary": "Sistem, rakip, karşılaşma, savaş, yenilgi, takip ve dağılma sırasıyla sınırlıdır; her farklılığı çatışma saymaz.",
+      "proposedOperation": "Açılıştaki takip ve rekabeti, 1:2'deki övülen şampiyon, 1:5'teki tekrar eden savaş, 1:6'daki direnç ve 1:7'deki dağılma ile aynı çatışma hareketi olarak denemeyi önerir; son bölümdeki yol ayrımını, savaş sonrasındaki topluluk kaybıyla keskinleştirir.",
+      "readerShift": {
+        "before": "Çeviri, övgüden kulluğa, yoldan da sapmış topluluklardan ayrılmaya geçer.",
+        "hinge": "Övgü ve karşılaşma, bir topluluğun direnip sonra bozguna uğrayarak yollara dağılmasıyla maddi bir akış kazanır.",
+        "after": "Sure, doğru yolda kalmayı, rekabetin ve çatışmanın topluluğu dağıtmasından sonra yeniden bir rota bulma meselesi olarak da okutabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Avcıların çıkışı ve rekabet, karşılaşmanın başlatıldığı takip sahnesini açar.",
+          "activationCardRefs": ["activation:network-p08-b", "activation:network-p12-a", "activation:network-p12-c"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Övülen şampiyon, çatışmada öne çıkan ve topluluğun başarı ölçüsünü taşıyan figürdür.",
+          "activationCardRefs": ["activation:network-p12-a"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Tekrarlanan savaş ve yardım talebi, çatışmanın tek başına sürdürülemeyen ağırlığını gösterir.",
+          "activationCardRefs": ["activation:network-p08-b", "activation:network-p12-a", "activation:network-p12-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Karşılıklı direnç, düzgün yolun karşısında duran kuvveti ve dağılmaya yol açan gerilimi verir.",
+          "activationCardRefs": ["activation:network-p08-b", "activation:network-p12-a", "activation:network-p12-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Bozgun, takip ve dağılma; kaybedenin sahibinden ve önceki yolundan kopmasıyla kapanır.",
+          "activationCardRefs": ["activation:network-p08-b", "activation:network-p12-a", "activation:network-p12-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p08-b", "activation:network-p12-a", "activation:network-p12-c"]
+    },
+    {
+      "hypothesisId": "retaliation-indemnity",
+      "readerName": "Kanın karşılığında intikam mı tazmin mi",
+      "imageSystem": "Bir kayıp veya kan, öfke ve intikam isteği doğurur; hüküm düzeni bunun yerine tazmin, yerine koyma veya karşılık verme yolunu seçebilir.",
+      "systemBoundary": "Sistem, kayıp, öfke, kan, intikam, tazmin ve yerine koyma arasındaki hukuki-duygusal değiş tokuşla sınırlıdır; her cezayı bu şemaya çekmez.",
+      "proposedOperation": "1:4'teki hesap ve karşılığı, 1:5'teki hizmet konumunu ve 1:7'deki kanın karşılıksız kalması ile indemnity karşıtlığını birlikte okutmayı önerir; surenin sonundaki 'değil'leri, iki farklı karşılık rejimi arasında seçim yapan bir kapı gibi görünür kılar.",
+      "readerShift": {
+        "before": "Çeviri, yalnız Allah'a kulluk etmeyi ve öfkeye uğrayanlardan uzak durmayı bildirir.",
+        "hinge": "Öfke, kayıp ve kan; hüküm gününde intikamla tazmin arasında bir karşılık seçiminin maddi gerilimini kurar.",
+        "after": "Sure, doğru yola yönelişi, kayba öfkeyle karşılık vermek yerine hangi tazmin ve yerine koyma düzenine girileceğini seçmek olarak da açabilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:4",
+          "concreteContribution": "Hüküm ve karşılık, kaybın nasıl hesaplanacağına ve hangi bedelin verileceğine karar veren makamdır.",
+          "activationCardRefs": ["activation:network-p06-b"]
+        },
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Kulluk ve hizmet, öfkenin kendi başına cevap vermesi yerine bir hüküm düzenine bağlanmış tarafı gösterir.",
+          "activationCardRefs": ["activation:network-p12-b"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Kanı karşılıksız bırakma, intikam ve indemnity seçenekleri aynı kaybın farklı karşılık yollarını açar.",
+          "activationCardRefs": ["activation:network-p06-b", "activation:network-p12-b"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p06-b", "activation:network-p12-b"]
+    },
+    {
+      "hypothesisId": "hard-shield-passage",
+      "readerName": "Siper derisi ve kesen geçit",
+      "imageSystem": "Sert bir deri veya katmanlı kaya bedeni korur; keskin kılıç ise aynı sertlik içinde yol açıp geçer, böylece koruyan yüzey ile yarıcı araç karşı karşıya gelir.",
+      "systemBoundary": "Sistem, sert katman, kalkan, kaya, kılıç ve keserek açılan geçit arasındaki fiziksel karşıtlıkla sınırlıdır; bütün direnç ve öfke anlamlarını içermez.",
+      "proposedOperation": "1:5'teki beden sağlamlığını, 1:6 ve 1:7'deki yol-kılıç, katmanlı kaya ve kalkan derisi imleriyle birlikte okutmayı önerir; düzgün yolu yumuşak bir çizgi değil, sert yüzeyleri aşan ve koruyan bir geçit olarak açar.",
+      "readerShift": {
+        "before": "Çeviri, ibadet, düzgün yol ve öfkeye uğrayanlar arasındaki manevi karşıtlığı verir.",
+        "hinge": "Yol, kılıcın kestiği sert bir katman; beden ise aynı sertlikten yapılmış bir siper gibi görünür.",
+        "after": "Sure, doğru yolda ilerlemeyi, sert koruyucu yüzeylerle kesici geçit arasındaki maddi mücadeleyi aşan bir hareket olarak düşündürebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:5",
+          "concreteContribution": "Sağlam beden, siper gibi sert yüzeyin arkasında duran ve darbeye dayanabilen taşıyıcıdır.",
+          "activationCardRefs": ["activation:network-p12-d"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Kesen kılıç ve geçit, sert tabakayı yararak düzgün bir hat açan hareketi temsil eder.",
+          "activationCardRefs": ["activation:network-p04-c", "activation:network-p12-d"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Katmanlı kaya ve sert deri, yolun sonunda karşılaşılan korunma veya engel yüzeyini koyulaştırır.",
+          "activationCardRefs": ["activation:network-p04-c", "activation:network-p12-d"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p04-c", "activation:network-p12-d"]
+    },
+    {
+      "hypothesisId": "name-recognition-voice",
+      "readerName": "Adın tanınmaya ve söze dönüşmesi",
+      "imageSystem": "Bir ad, taşıyıcısını görünür ve tanınır kılar; övgü, bilgi ve kamusal söz bu adı topluluk içinde yükseltir, kişinin niteliğini başkalarının sesinde dolaşıma sokar.",
+      "systemBoundary": "Sistem, adlandırma, tanıma, övgü, kamusal ün ve sözlü dolaşımla sınırlıdır; övgüyü bütün bir ibadet veya mülkiyet düzenine genişletmez.",
+      "proposedOperation": "1:1'deki adı, 1:2'deki övgü ve tanıma, 1:6'daki ses ve övgü hareketi, 1:7'deki onayla birlikte okutmayı önerir; sureyi sessiz bir sıfat dizisinden adı başkalarının sesinde tanınan bir figürün kamusal görünürlüğüne açar.",
+      "readerShift": {
+        "before": "Çeviri, Allah'ın adıyla başlayıp Allah'a övgü sunar ve ardından yol ister.",
+        "hinge": "Ad, yalnızca hitap formülü değil; bilgiyle tanınan, övgüyle yükselen ve kamusal sözde dolaşan bir işarettir.",
+        "after": "Sure, başlangıçtaki adı, övgü ve yön talebini aynı tanınma alanında toplayarak adın topluluğu yönlendiren bir görünürlük taşıdığını düşündürebilir."
+      },
+      "memberSignals": [
+        {
+          "ayahRef": "1:1",
+          "concreteContribution": "Ad verme, görünür ve tanınabilir bir taşıyıcıyı sözün ilk yerine çıkarır.",
+          "activationCardRefs": ["activation:network-p03-a", "activation:network-p03-c"]
+        },
+        {
+          "ayahRef": "1:2",
+          "concreteContribution": "Övgü ve bilgi, adı taşıyan kişinin niteliklerinin toplulukça tanınmasını ve hatırlanmasını sağlar.",
+          "activationCardRefs": ["activation:network-p02-c", "activation:network-p03-c"]
+        },
+        {
+          "ayahRef": "1:6",
+          "concreteContribution": "Ses, övgü ve yön talebi; tanınan adın şiirsel veya kamusal dolaşım içinde bir yön vericiye dönüşmesini gösterir.",
+          "activationCardRefs": ["activation:network-p03-c"]
+        },
+        {
+          "ayahRef": "1:7",
+          "concreteContribution": "Sözlü onay, övgüyle tanınan kişinin veya topluluğun hangi nitelikle seçildiğini belirginleştirir.",
+          "activationCardRefs": ["activation:network-p02-c"]
+        }
+      ],
+      "activationCardRefs": ["activation:network-p02-c", "activation:network-p03-a", "activation:network-p03-c"]
+    }
+  ],
+  "activationCardCoverage": [
+    {
+      "activationRef": "activation:network-p01-a",
+      "hypothesisIds": ["worship-service-circuit"],
+      "searchNote": "Hizmet, boyun eğme ve adı anılan mabut ailesi, sunu düzeni hipotezinde birlikte sınandı."
+    },
+    {
+      "activationRef": "activation:network-p01-b",
+      "hypothesisIds": ["worship-service-circuit", "guarded-dependent-household"],
+      "searchNote": "Egemenlik ve bağlı hizmet, hem sunu zincirinde hem de koruyucu-bağımlı hane düzeninde farklı mekanizmalarla kullanıldı."
+    },
+    {
+      "activationRef": "activation:network-p01-c",
+      "hypothesisIds": ["road-with-landmarks", "weary-body-on-road"],
+      "searchNote": "Yardım, yönlendirme ve yol sinyalleri önce rota sisteminde, sonra yorgun bedenin yürütülmesinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p02-a",
+      "hypothesisIds": ["guarded-dependent-household", "rain-cultivation", "joint-and-coating-repair"],
+      "searchNote": "Büyütme, pratik yardım, bakım ve onarım ailesi hane, yağmurla besleme ve araç tamiri sistemlerine ayrıldı."
+    },
+    {
+      "activationRef": "activation:network-p02-b",
+      "hypothesisIds": ["market-ledger", "joint-and-coating-repair"],
+      "searchNote": "Destek, ana dayanak, yarar ve övgü sinyalleri pazar hesabı ile yapısal onarım olarak iki ayrı maddi düzende sınandı."
+    },
+    {
+      "activationRef": "activation:network-p02-c",
+      "hypothesisIds": ["name-recognition-voice"],
+      "searchNote": "Övgü, tanıma ve bilgi ailesi adın kamusal görünürlüğü ve dolaşan sesi hipotezinde kullanıldı."
+    },
+    {
+      "activationRef": "activation:network-p03-a",
+      "hypothesisIds": ["named-protected-association", "name-recognition-voice"],
+      "searchNote": "Adlandırma, bir yanda hukuki kimlik ve korumaya, diğer yanda kamusal tanınma ve sese bağlanarak ayrı ayrı sınandı."
+    },
+    {
+      "activationRef": "activation:network-p03-b",
+      "hypothesisIds": ["market-ledger", "named-protected-association"],
+      "searchNote": "Onay, yemin, istisna ve ayrım sinyalleri hem hesap defterinde hem de korunan antlaşmada somut karşılık buldu."
+    },
+    {
+      "activationRef": "activation:network-p03-c",
+      "hypothesisIds": ["name-recognition-voice"],
+      "searchNote": "İtibar, sosyal görünürlük ve övgünün dolaşımı için ad ve kamusal ses ailesi test edildi."
+    },
+    {
+      "activationRef": "activation:network-p03-d",
+      "hypothesisIds": ["leader-herd"],
+      "searchNote": "Görünür figür, kaptan ve rehber sinyalleri önde duran önder ile onu izleyen sürü sistemi içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p04-a",
+      "hypothesisIds": ["road-with-landmarks"],
+      "searchNote": "Yol, güzergâh, orta ve işaret ailesi işaretli ve çiğnenmiş yol hipotezinde birleştirildi."
+    },
+    {
+      "activationRef": "activation:network-p04-b",
+      "hypothesisIds": ["road-with-landmarks", "leader-herd"],
+      "searchNote": "Öndeki rehber ve takip eden grup, rota sistemi ile önder-sürü sistemi olarak iki farklı ölçekte sınandı."
+    },
+    {
+      "activationRef": "activation:network-p04-c",
+      "hypothesisIds": ["passage-and-disappearance", "hard-shield-passage"],
+      "searchNote": "Geçitten içine alma ve kaybetme ailesi, ayrıca kılıç-kaya-kalkanın sert geçit karşıtlığı olarak ayrı tutuldu."
+    },
+    {
+      "activationRef": "activation:network-p04-d",
+      "hypothesisIds": ["weary-body-on-road"],
+      "searchNote": "Bitkin binek, destekli yürüyüş ve hız sinyalleri yorgun bedenin yeniden yürütülmesi ailesinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p04-e",
+      "hypothesisIds": ["stray-herd"],
+      "searchNote": "Yol sapması, kayıp mülk ve başıboş hayvan ailesi önderini kaybetmeyen sürü sistemi içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p05-a",
+      "hypothesisIds": ["celestial-time-sign"],
+      "searchNote": "Gök, gündüz, güneş ve ayırt edici işaretler göksel zaman ve rota ölçüsü olarak birlikte denendi."
+    },
+    {
+      "activationRef": "activation:network-p05-b",
+      "hypothesisIds": ["duration-to-residence"],
+      "searchNote": "Süre, duraklama, hız, sakinlik ve ikamet sinyalleri hareketten yerleşmeye uzanan zaman çizgisinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p05-c",
+      "hypothesisIds": ["appointed-accounting-day"],
+      "searchNote": "Ağır gün, ayağa kalkma, hüküm ve karşılık ailesi hesap için ayağa kalkılan gün sisteminde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p06-a",
+      "hypothesisIds": ["market-ledger", "lot-bag-distribution"],
+      "searchNote": "Borç, değer, mülk, hayvan ve başıboş mal sinyalleri pazar hesabında; kapta toplanan payların sonraki değerlemesinde kullanıldı."
+    },
+    {
+      "activationRef": "activation:network-p06-b",
+      "hypothesisIds": ["appointed-accounting-day", "named-protected-association", "retaliation-indemnity"],
+      "searchNote": "Tazmin ve yerine koyma ailesi hesap günü, korunan antlaşma ve intikam-tazmin seçimi olarak üç ayrı somut mekanizmada sınandı."
+    },
+    {
+      "activationRef": "activation:network-p06-c",
+      "hypothesisIds": ["gift-transfer-contract"],
+      "searchNote": "Hediye, yarar ve sahipliğe geçiş sinyalleri sözleşmeyle el değiştiren iyilik sistemi içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p06-d",
+      "hypothesisIds": ["worship-service-circuit"],
+      "searchNote": "Kutsal sunu, hayvan varlığı ve kulluk sinyalleri adla başlayan hizmet ve sunu zincirine bağlandı."
+    },
+    {
+      "activationRef": "activation:network-p07-a",
+      "hypothesisIds": ["guarded-dependent-household", "formation-vessel-to-mature"],
+      "searchNote": "Yakınlık ve bakım sinyalleri koruyucu hane ile kapalı oluşumdan olgun bedene uzanan iki farklı sistemde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p07-b",
+      "hypothesisIds": ["formation-vessel-to-mature"],
+      "searchNote": "Rahim, tohum yatağı, doğum ve doğum sonrası ağrı ailesi oluşum kabı ve olgunlaşma hipotezinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p07-c",
+      "hypothesisIds": ["gift-transfer-contract"],
+      "searchNote": "Evlilik sözleşmesi, teslim edilen gelin ve sevgi hediyesi ailesi el değiştiren ilişki sistemi içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p07-d",
+      "hypothesisIds": ["named-protected-association"],
+      "searchNote": "Antlaşma, güvenli geçiş, yemin, tazmin ve hukuki adlandırma ailesi korunan birliktelik hipotezinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p07-e",
+      "hypothesisIds": ["guarded-dependent-household"],
+      "searchNote": "Aileyi koruyan kıskançlık, öfke, beden gücü ve topluluk sinyalleri koruyucu hane sınırında tutuldu."
+    },
+    {
+      "activationRef": "activation:network-p08-a",
+      "hypothesisIds": ["stray-herd", "leader-herd"],
+      "searchNote": "Sürü, önder hayvan, hayvan varlığı ve başıboşluk sinyalleri hem aidiyet-kopma hem de önder-takip ilişkisi olarak sınandı."
+    },
+    {
+      "activationRef": "activation:network-p08-b",
+      "hypothesisIds": ["conflict-rout"],
+      "searchNote": "Avcıların çıkışı, bozgun, dağılma ve ayrışan yollar ailesi çatışmadan dağılan topluluk hipotezinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p08-c",
+      "hypothesisIds": ["formation-vessel-to-mature"],
+      "searchNote": "Rahim, farklı hayvanlar, yeni doğmuş ve açıkta kalmış canlı sinyalleri oluşumdan dışarı çıkış zincirinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p09-a",
+      "hypothesisIds": ["duration-to-residence", "settlement-well"],
+      "searchNote": "Şehir, ikamet, yerleşme ve otorite ailesi hem zamanın ikamete varışında hem de kuyu çevresindeki yerleşimde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p09-b",
+      "hypothesisIds": ["settlement-well", "rain-cultivation"],
+      "searchNote": "Bol su, kuyu, kamp geçimi ve sulama sinyalleri yerleşim altyapısı ile yağmurdan beslenen tarım sistemi olarak ayrıldı."
+    },
+    {
+      "activationRef": "activation:network-p09-c",
+      "hypothesisIds": ["rain-cultivation"],
+      "searchNote": "Gök, bulut, yağmur, rüzgâr, yeşil bitki ve sulama ailesi tek bir provisioning akışı içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p10-a",
+      "hypothesisIds": ["joint-and-coating-repair"],
+      "searchNote": "Eklem, ana dayanak, dik parça ve maddi bütünlük ailesi onarılan taşıyıcı düzeninde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p10-b",
+      "hypothesisIds": ["settlement-well"],
+      "searchNote": "Kuyu kerestesi, dik mekanik parça ve kampı güvenceleyen su ailesi kuyu çevresinde kurulan yerleşimde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p10-c",
+      "hypothesisIds": ["joint-and-coating-repair"],
+      "searchNote": "Yağlı kalıntı, kaplama, yumuşatma ve yol donanımı onarımı bakım ve tamir sistemi içinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p11-a",
+      "hypothesisIds": ["upright-body-under-impact"],
+      "searchNote": "Ayağa kalkma, oran, güç ve bedensel bütünlük ailesi dik bedenin sınanması hipotezinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p11-b",
+      "hypothesisIds": ["upright-body-under-impact"],
+      "searchNote": "Dudak yarığı, göz şişliği ve organa yerleşen ağrı ailesi bedensel dikliğin hasar görmesi olarak sınandı."
+    },
+    {
+      "activationRef": "activation:network-p11-c",
+      "hypothesisIds": ["weary-body-on-road"],
+      "searchNote": "Görmeyen göz, hastalıklı bacak, bitkin rehber ve tazelenen göz ailesi yorgun bedenin yol üzerinde yeniden yürütülmesinde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p11-d",
+      "hypothesisIds": ["formation-vessel-to-mature"],
+      "searchNote": "Beden işareti, orta yaş ve dengeli olgunluk ailesi oluşumdan ayırt edilen olgun bedene geçişte sınandı."
+    },
+    {
+      "activationRef": "activation:network-p12-a",
+      "hypothesisIds": ["conflict-rout"],
+      "searchNote": "Rekabet, savaş, karşılıklı direnç ve övülen şampiyon ailesi çatışmadan bozgun ve dağılmaya uzanan sistemde sınandı."
+    },
+    {
+      "activationRef": "activation:network-p12-b",
+      "hypothesisIds": ["retaliation-indemnity"],
+      "searchNote": "Öfke, intikam, yas, kan ve indemnity ailesi kayba verilecek karşılığın seçimi olarak sınandı."
+    },
+    {
+      "activationRef": "activation:network-p12-c",
+      "hypothesisIds": ["conflict-rout"],
+      "searchNote": "Bozgun, dağılan gruplar, ayrışan yollar ve takip ailesi çatışma sonrası topluluk kaybı olarak sınandı."
+    },
+    {
+      "activationRef": "activation:network-p12-d",
+      "hypothesisIds": ["hard-shield-passage"],
+      "searchNote": "Sert deri, kalkan, kaya ve kesici kılıç ailesi koruyan yüzey ile yol açan geçit karşıtlığında sınandı."
+    },
+    {
+      "activationRef": "activation:network-s01",
+      "hypothesisIds": ["lot-bag-distribution"],
+      "searchNote": "Deri kap ve toplanmış kura okları, zayıf fakat metne bağlı bir toplama ve paylaştırma sistemi olarak sınandı."
+    }
+  ]
+}

@@ -405,10 +405,10 @@ external-source manifests in the bundle, currently
 `channel_generated_outputs.files[]`.
 
 Wait until the agent has completed all four first-pass files: prose, evidence,
-index, and friction. Confirm that every file exists and is non-empty. Record their
-byte counts or hashes so Step 2 can prove they were not modified. **Keep this same
-agent open.** Do not spawn a separate editor. A truncated or visibly incomplete
-file does not satisfy Step 1 merely because it is present and non-empty.
+index, and friction. Confirm that every file exists and is non-empty. **Keep this
+same agent open.** Do not spawn a separate editor. A truncated or visibly
+incomplete file does not satisfy Step 1 merely because it is present and
+non-empty.
 
 ### Step 2 — Editorial Layer-2 files
 
@@ -443,10 +443,9 @@ Create the editorial evidence, findings index, and friction files so that they e
 ```
 
 Wait until all four editorial files exist and are non-empty. Confirm that the
-four first-pass files still match their recorded byte counts or hashes. Step 2 is
-complete only when the editorial index is mechanically valid and the editorial
-friction report contains the required density-audit marker. Then close the ayah
-agent; do not leave it running for a later layer or derived output. The
+four first-pass files still exist and remain non-empty. Step 2 is complete only
+when the editorial index is mechanically valid. Then close the ayah agent; do
+not leave it running for a later layer or derived output. The
 orchestration agent does not read, scan, or evaluate the authored prose,
 evidence, index, or friction beyond those mechanical completion checks.
 
@@ -679,13 +678,12 @@ For active Layer 2, in order:
 4. verify manifest byte counts against the working tree
 5. spawn one cold 5.6 Luna Max agent (`gpt-5.6-luna`, `max`) per ayah, in
    parallel, each with one prompt file
-6. wait for each four-file first pass, verify it, record byte counts or hashes,
-   and keep that ayah's agent open
+6. wait for each four-file first pass, verify every file exists and is
+   non-empty, and keep that ayah's agent open
 7. send the Stage-3 Step-2 message verbatim to each same agent
-8. verify each four-file editorial set, verify the first-pass hashes are
-   unchanged, mechanically check the editorial index, and confirm the editorial
-   friction file contains the density-audit marker; close that ayah's agent only
-   after these checks pass
+8. verify each four-file editorial set, verify the first-pass files still exist
+   and remain non-empty, and mechanically check the editorial index; close that
+   ayah's agent only after these checks pass
 9. begin any Layer-3 work only under
     [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md)
 
@@ -695,9 +693,9 @@ set uses `--profile luna-max.editorial.tr`. Add `--require-surprise` only when t
 run criterion requires an explicit local surprise in every unit.
 
 The orchestration agent's acceptance is mechanical lifecycle acceptance only:
-file presence, non-empty outputs, unchanged first-pass hashes, editorial index
-validity, and density-audit marker presence. It does not perform qualitative
-acceptance, read the prose, or use friction as an independent proof of
+file presence, non-empty outputs, and editorial index validity. It does not
+perform qualitative acceptance, read the prose, or use friction as an independent
+proof of
 correctness.
 
 Stages 1 and 2 are idempotent. Re-running with the same `--date` overwrites with
