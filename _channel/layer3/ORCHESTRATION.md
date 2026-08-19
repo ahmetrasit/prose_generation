@@ -366,6 +366,43 @@ python3 _channel/layer3/scripts/validate.py composition \
 
 Close the composition agent only after this prints `ok`.
 
+### Editorial Integration Follow-Up
+
+If the validated editorial surfaces preserve coverage but still read as a
+channel catalogue, send the message below verbatim to the same composition
+agent. Do not re-send the packet, briefs, draft, generated prompts, validator
+output, or orchestrator critique. This follow-up is a prose-integration pass
+inside the already accepted semantic model; it must not reduce channel
+visibility or evidentiary coverage.
+
+After the agent completes, rerun the editorial composition validator above. If
+it prints `ok`, regenerate `published/` from the revised composition before
+closing the composition agent.
+
+```text
+Please revise your current Layer 3 editorial composition again, using the existing draft/editorial composition, channel briefs, evidence map, and paths already present in this same conversation and workspace. Do not read repository workflow files, do not request a new bundle, and do not create a fresh semantic model.
+
+This is an editorial-integration pass, not a compression pass.
+
+Revise without reducing interpretive yield or changing admission/evidentiary judgments. Preserve the primary footing and every admitted channel, concrete member, hinge, claim boundary, and distinct reader payoff. Keep every channel/member/hinge visibly recoverable in the postlude, and keep every prelude promise visibly recoverable in the prelude. Do not rank, disambiguate, merge away, or drop any admitted image or payoff. Merge prose only when it performs the same image work and gives the reader the same payoff.
+
+Do not shorten merely for length. There is no word, paragraph, section, heading, or channel quota. Give every significant image enough room. The goal is not less coverage; the goal is reader-facing continuity while preserving full coverage.
+
+Rewrite the prelude as fluent, contemporary Turkish for a regular reader. It must remain anticipatory: one compact surface foothold, one concrete unresolved promise per admitted channel, no proofs, no exhaustive member sequences, and no completed postlude payoff. Let the promises form one anticipatory movement rather than a catalogue.
+
+Rewrite the postlude as fluent, contemporary Turkish for a regular reader. It must remain complete: every admitted channel, member image, and hinge must land visibly. Remove analyst shorthand, workflow language, stiff technical calques, defensive repetition, and evidence-catalogue rhythm. Avoid restarting every paragraph as an independent finding or repeatedly announcing another image. Create cinematic continuity without adding drama or interpretation: each section should inherit a concrete image, question, tension, relation, or motion from the preceding section and carry it somewhere new.
+
+Keep distinct findings recoverable even when they belong to one larger movement. Preserve the separateness of materially distinct systems such as water, passage, sight, repair, gift, belonging, account, protection, conflict, naming, and bodily uprightness; do not collapse them into a generic thesis. But let them operate inside a developing whole-surah reading rather than as separate exhibits.
+
+Use reader-facing subtitles only where the reading genuinely changes movement. Subtitles should create an expectation about what becomes visible next; they must not name evidence categories, channels, findings, workflow stages, schema parts, or source types.
+
+Let the ending return naturally to the surah's primary force and show what has become newly visible, rather than listing all findings again. Restore a governing reader movement where it is earned by the existing material: naming/praise, dependence/help, guidance, path, received favor, and differentiated end states.
+
+Update every evidence span after revision. Every evidence span must occur exactly once in its designated surface. The evidence map must continue to cover exactly the required primary groundings, prelude promises, postlude channels, postlude members, and postlude hinges.
+
+Overwrite only the current canonical editorial composition JSON path you previously wrote for this run. Write no other files.
+```
+
 ### Failed Attempts
 
 Never advance with an invalid output and never overwrite it in place. If a
