@@ -93,6 +93,18 @@ what the composer must avoid or qualify.
 Use typed review-context identifiers for channel accounting and evidence. Do
 not copy provenance `sourceRefs` into member or hinge `evidenceRefs`.
 
+`inputRefs` are only review-accounting refs. The only permitted forms in
+`requiredReviewInputRefs`, `channel.inputRefs`, `memberLandings[].inputRefs`, and
+`hinges[].inputRefs` are:
+
+- `hypothesis:*` for discovery hypotheses;
+- local `resonance:*` refs from the packet.
+
+Never put `finding:*`, `activation:*`, `boundary:*`, `secondary:*`, provenance
+`sourceRefs`, or primary-floor refs in any `inputRefs` array. Those belong in
+`evidenceRefs`, `claimPolicy.counterpressureRefs`, or `surfaceFloorRefs` as
+appropriate.
+
 The permitted evidence-reference forms are:
 
 - `finding:*` for Layer-2 findings;
@@ -111,6 +123,20 @@ For every discovery hypothesis used by a member or hinge, carry through the
 relevant `activation:*` refs from that hypothesis. A member should include the
 activation refs for its ayah contribution; a hinge should include the activation
 refs for the connected member contributions it relies on.
+
+Valid shape example:
+
+```json
+{
+  "inputRefs": ["hypothesis:shared-path", "resonance:1:6:sustaining-course"],
+  "evidenceRefs": [
+    "activation:network-p04-a",
+    "finding:1:6:037",
+    "resonance:1:6:sustaining-course",
+    "boundary:1:6:01"
+  ]
+}
+```
 
 Set `briefId` to `{packetId}-briefs-v3`, using the packet id from the inlined
 review context.
