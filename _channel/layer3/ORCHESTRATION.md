@@ -165,6 +165,10 @@ surface-derivable. Every admitted channel records:
 - its whole-surah operation and indispensable secondary gain;
 - a prelude promise and a postlude payoff.
 
+When a member or hinge uses a discovery hypothesis, it carries the relevant
+`activation:*` refs from that hypothesis into its evidence refs. When it uses a
+local resonance, it carries both the resonance and its exact paired finding ref.
+
 Compatible and incompatible admitted channels coexist without ranking or
 disambiguation. Inputs merge only when both concrete mechanism and reader payoff
 are the same.
@@ -328,6 +332,7 @@ python3 _channel/layer3/scripts/validate.py composition \
   {DRAFT} \
   --packet {PACKET} \
   --briefs {BRIEFS} \
+  --hypotheses {HYPOTHESES} \
   --phase draft
 ```
 
@@ -355,6 +360,7 @@ python3 _channel/layer3/scripts/validate.py composition \
   {COMPOSITION} \
   --packet {PACKET} \
   --briefs {BRIEFS} \
+  --hypotheses {HYPOTHESES} \
   --phase editorial
 ```
 

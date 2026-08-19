@@ -127,6 +127,33 @@ def activation_refs(packet: dict[str, Any]) -> set[str]:
     }
 
 
+def hypothesis_activation_refs(
+    hypotheses: dict[str, Any],
+) -> tuple[dict[str, set[str]], dict[str, dict[str, set[str]]]]:
+    by_hypothesis: dict[str, set[str]] = {}
+    by_hypothesis_member: dict[str, dict[str, set[str]]] = {}
+    for record in hypotheses.get("hypotheses", []):
+        if not is_dict(record) or not isinstance(record.get("hypothesisId"), str):
+            continue
+        input_ref = f"hypothesis:{record['hypothesisId']}"
+        by_hypothesis[input_ref] = {
+            ref
+            for ref in record.get("activationCardRefs", [])
+            if isinstance(ref, str)
+        }
+        member_cards: dict[str, set[str]] = {}
+        for member in record.get("memberSignals", []):
+            if not is_dict(member) or not isinstance(member.get("ayahRef"), str):
+                continue
+            member_cards.setdefault(member["ayahRef"], set()).update(
+                ref
+                for ref in member.get("activationCardRefs", [])
+                if isinstance(ref, str)
+            )
+        by_hypothesis_member[input_ref] = member_cards
+    return by_hypothesis, by_hypothesis_member
+
+
 def evidence_refs(packet: dict[str, Any]) -> set[str]:
     refs: set[str] = set()
     for ayah in packet.get("layer2Handoff", {}).get("ayahs", []):
@@ -813,6 +840,7 @@ def validate_briefs(
 
     known_evidence = evidence_refs(packet)
     resonance_findings = local_resonance_finding_refs(packet)
+    hypothesis_cards, hypothesis_member_cards = hypothesis_activation_refs(hypotheses)
     channels = briefs.get("channels")
     if not is_list(channels):
         errors.append("briefs.channels: must be an array")
@@ -981,6 +1009,19 @@ def validate_briefs(
                             f"{member_context}: local resonance input {input_ref!r} "
                             "must appear in evidenceRefs with its exact paired findingRef"
                         )
+                if isinstance(input_ref, str) and input_ref.startswith("hypothesis:"):
+                    ayah_ref = member.get("ayahRef")
+                    required_cards = hypothesis_member_cards.get(input_ref, {}).get(
+                        ayah_ref,
+                        hypothesis_cards.get(input_ref, set()),
+                    )
+                    missing_cards = sorted(required_cards - set(refs))
+                    if missing_cards:
+                        errors.append(
+                            f"{member_context}: hypothesis input {input_ref!r} must "
+                            "carry its member activationCardRefs in evidenceRefs: "
+                            + ", ".join(missing_cards)
+                        )
             if member.get("primaryRelation") not in {
                 "supports-primary",
                 "shifts-primary",
@@ -1131,6 +1172,22 @@ def validate_briefs(
                         errors.append(
                             f"{hinge_context}: local resonance input {input_ref!r} must "
                             "appear in evidenceRefs with its exact paired findingRef"
+                        )
+                if isinstance(input_ref, str) and input_ref.startswith("hypothesis:"):
+                    member_cards = hypothesis_member_cards.get(input_ref, {})
+                    required_cards: set[str] = set()
+                    for member_id in hinge_member_ids:
+                        if member_id in local_members:
+                            ayah_ref = local_members[member_id].get("ayahRef")
+                            required_cards.update(member_cards.get(ayah_ref, set()))
+                    if not required_cards:
+                        required_cards = hypothesis_cards.get(input_ref, set())
+                    missing_cards = sorted(required_cards - set(refs))
+                    if missing_cards:
+                        errors.append(
+                            f"{hinge_context}: hypothesis input {input_ref!r} must "
+                            "carry its connected-member activationCardRefs in "
+                            "evidenceRefs: " + ", ".join(missing_cards)
                         )
             policy = hinge.get("claimPolicy")
             if not is_dict(policy):
@@ -1831,6 +1888,7 @@ def main() -> int:
     composition_parser.add_argument("artifact", type=Path)
     composition_parser.add_argument("--packet", required=True, type=Path)
     composition_parser.add_argument("--briefs", required=True, type=Path)
+    composition_parser.add_argument("--hypotheses", type=Path)
     composition_parser.add_argument(
         "--phase", choices=("draft", "editorial"), help="require this composition phase"
     )
@@ -1847,14 +1905,16 @@ def main() -> int:
                 load_json(args.artifact), packet, load_json(args.hypotheses)
             )
         )
-    return report(
+    briefs = load_json(args.briefs)
+    errors = []
+    if args.hypotheses is not None:
+        errors.extend(validate_briefs(briefs, packet, load_json(args.hypotheses)))
+    errors.extend(
         validate_composition(
-            load_json(args.artifact),
-            packet,
-            load_json(args.briefs),
-            required_phase=args.phase,
+            load_json(args.artifact), packet, briefs, required_phase=args.phase
         )
     )
+    return report(errors)
 
 
 if __name__ == "__main__":

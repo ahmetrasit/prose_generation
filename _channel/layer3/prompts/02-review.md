@@ -107,6 +107,11 @@ For every local resonance used by a member or hinge, include both its exact
 `resonanceRef` and paired `findingRef` in `evidenceRefs`. Provenance labels such
 as `layer2-index-1-1#line-27` are not substitutes.
 
+For every discovery hypothesis used by a member or hinge, carry through the
+relevant `activation:*` refs from that hypothesis. A member should include the
+activation refs for its ayah contribution; a hinge should include the activation
+refs for the connected member contributions it relies on.
+
 Set `briefId` to `{packetId}-briefs-v3`, using the packet id from the inlined
 review context.
 

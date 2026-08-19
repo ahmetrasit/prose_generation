@@ -282,12 +282,14 @@ landings instead.
 
 Per surah, active Layer 3 v3 records:
 
-- `discovery-hypotheses-v2` for blind candidates;
-- `channel-briefs-v2` for admitted channels, hinges, claim policies, and
-  non-channel dispositions, with exact accounting for every discovery hypothesis
-  and local resonance;
-- `surah-composition-v1` for the publishable prose plus span-level evidence map;
-- `surah-reading-evidence-v1` for the finalized publication evidence.
+- `discovery-hypotheses-v3` for blind concrete image-system candidates and exact
+  activation-card coverage;
+- `channel-briefs-v3` for admitted channels, member landings, hinges, claim
+  policies, and non-channel dispositions, with exact accounting for every
+  discovery hypothesis and local resonance;
+- `surah-composition-v2` for draft/editorial prelude and postlude surfaces plus
+  span-level evidence maps;
+- `surah-reading-evidence-v2` for the finalized publication evidence.
 
 The schemas live under `_channel/layer3/schemas/`. For active v3 runs use only
 the schema versions listed here; older schema files are archival. The runbook is

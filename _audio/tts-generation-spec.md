@@ -10,12 +10,17 @@ The supported source trees are:
 
 ```text
 ../quran-data/data/commentary/surah/detailed/tr/sNNN/<surah>.surah-reading.tr.md
+../quran-data/data/commentary/surah/detailed/tr/sNNN/<surah>.surah-reading.prelude.tr.md
+../quran-data/data/commentary/surah/detailed/tr/sNNN/<surah>.surah-reading.postlude.tr.md
 ../quran-data/data/commentary/ayah/detailed/tr/sNNN/<surah>_<ayah>.prose.tr.md
 ```
 
-Surah preparation accepts either one `*.surah-reading.tr.md` file or its
-`sNNN` directory. Ayah preparation accepts one `*_*.prose.tr.md` file or an
-`sNNN` directory. An Ayah directory is sorted numerically by surah and ayah.
+Surah preparation accepts either one legacy `*.surah-reading.tr.md` file, one
+specific prelude/postlude file, or an `sNNN` directory containing either the
+legacy single file or the exact prelude/postlude pair. When the pair is present,
+prelude is spoken before postlude. Ayah preparation accepts one
+`*_*.prose.tr.md` file or an `sNNN` directory. An Ayah directory is sorted
+numerically by surah and ayah.
 Evidence, friction, index, summary, and other Markdown files are not included
 in Ayah speech preparation.
 

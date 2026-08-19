@@ -293,36 +293,22 @@ absence must appear in coverage; it should not be silently erased.
 
 The active surah-commentary workflow lives under `_channel/layer3/`.
 
-```sh
-python3 _channel/layer3/scripts/build_packet.py \
-  --surah 87 \
-  --language tr \
-  --layer2-dir _commentary/outputs/s087
-python3 _channel/layer3/scripts/instantiate.py discover --surah 87 --language tr
-python3 _channel/layer3/scripts/instantiate.py review --surah 87 --language tr
-python3 _channel/layer3/scripts/instantiate.py compose --surah 87 --language tr
-python3 _channel/layer3/scripts/finalize.py \
-  --packet {RUN_DIR}/87.source-packet.tr.json \
-  --hypotheses {RUN_DIR}/outputs/87.discovery-hypotheses.tr.json \
-  --briefs {RUN_DIR}/outputs/87.channel-briefs.tr.json \
-  --composition {RUN_DIR}/outputs/87.surah-composition.tr.json
-```
+Do not reconstruct the commands from this README. Use
+`_channel/layer3/ORCHESTRATION.md`, which is the active runbook and includes the
+required fresh-agent boundaries.
 
 The v3 packet requires Quran text, a typed Layer-1 primary floor, and a complete
-Layer-2 v2 `prose/evidence/index/friction` artifact set for every numbered
-ayah. It reads the complete Layer-2 findings index and local `surprise:<id>`
-resonance rows; Layer-2 prose and friction are hashed for lineage but withheld
-from semantic passes. Generated v3 files live under
-`_channel/layer3/runs/v3/`.
+reader-facing editorial Layer-2 v2 `prose/evidence/index/friction` artifact set
+for every numbered ayah. Discovery, review, compose-draft, and edit are separate
+semantic stages; edit must be sent to the same agent conversation that produced
+the composition draft. Generated v3 files live under `_channel/layer3/runs/v3/`.
 
-Validation is intentionally strict. A local resonance listed on a channel is not
-counted as used unless it appears in a hinge with its exact paired Layer-2
-`findingRef`. Composition evidence maps must land every admitted channel and
-hinge in distinct reader-visible spans and include the complete evidence refs for
-that channel or hinge.
-
-See `_channel/layer3/ORCHESTRATION.md` for exact run boundaries and fresh-agent
-instructions.
+Validation is intentionally strict. Discovery accounts for every activation card.
+Review must account for every discovery hypothesis and local resonance; local
+resonances require their exact paired Layer-2 `findingRef`, and admitted
+hypotheses carry their relevant activation refs into member or hinge evidence.
+Composition publishes separate prelude and postlude surfaces with shared
+evidence and friction artifacts.
 
 ### Retired combined Layer 3 + Layer 2.5
 

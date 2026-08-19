@@ -200,6 +200,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                             "evidenceRefs": [
                                 "finding:42:1:001",
                                 "resonance:42:1:local-a",
+                                "activation:network-p01-a",
                             ],
                             "primaryRelation": "supports-primary",
                         },
@@ -232,6 +233,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                                 "resonance:42:1:local-a",
                                 "finding:42:2:001",
                                 "resonance:42:2:local-b",
+                                "activation:network-p01-a",
                             ],
                             "claimPolicy": {
                                 "scope": "bounded",
@@ -307,6 +309,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                         "evidenceRefs": [
                             "finding:42:1:001",
                             "resonance:42:1:local-a",
+                            "activation:network-p01-a",
                         ],
                     }
                 ],
@@ -320,6 +323,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                             "resonance:42:1:local-a",
                             "finding:42:2:001",
                             "resonance:42:2:local-b",
+                            "activation:network-p01-a",
                         ],
                     }
                 ],
@@ -330,6 +334,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                         "evidenceRefs": [
                             "finding:42:1:001",
                             "resonance:42:1:local-a",
+                            "activation:network-p01-a",
                         ],
                     },
                     {
@@ -350,6 +355,7 @@ class Layer3WorkflowTests(unittest.TestCase):
                             "resonance:42:1:local-a",
                             "finding:42:2:001",
                             "resonance:42:2:local-b",
+                            "activation:network-p01-a",
                         ],
                     }
                 ],
@@ -465,6 +471,27 @@ class Layer3WorkflowTests(unittest.TestCase):
         ]
         errors = layer3_validate.validate_briefs(listed_only, packet, hypotheses)
         self.assertTrue(any("every channel inputRef" in error for error in errors))
+
+    def test_briefs_require_hypothesis_activation_refs(self) -> None:
+        packet = self.packet()
+        hypotheses = self.hypotheses(packet)
+        briefs = self.briefs(packet)
+
+        for container in (
+            briefs["channels"][0]["memberLandings"][0],
+            briefs["channels"][0]["hinges"][0],
+        ):
+            container["evidenceRefs"] = [
+                ref
+                for ref in container["evidenceRefs"]
+                if ref != "activation:network-p01-a"
+            ]
+
+        errors = layer3_validate.validate_briefs(briefs, packet, hypotheses)
+
+        self.assertTrue(
+            any("activationCardRefs in evidenceRefs" in error for error in errors)
+        )
 
     def test_briefs_require_exact_resonance_finding_pairs(self) -> None:
         write(

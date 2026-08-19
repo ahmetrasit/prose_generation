@@ -32,7 +32,9 @@ QURAN_TEXT_PATH = QURAN_DATA_ROOT / "data" / "text" / "quran-uthmani.tsv"
 SURAH_DETAILED_PREFIX = ("data", "commentary", "surah", "detailed", "tr")
 AYAH_DETAILED_PREFIX = ("data", "commentary", "ayah", "detailed", "tr")
 
-SURAH_FILE_RE = re.compile(r"^(?P<surah>\d{1,3})\.surah-reading\.tr\.md$")
+SURAH_FILE_RE = re.compile(
+    r"^(?P<surah>\d{1,3})\.surah-reading(?:\.(?P<surface>prelude|postlude))?\.tr\.md$"
+)
 AYAH_FILE_RE = re.compile(
     r"^(?P<surah>\d{1,3})_(?P<ayah>\d+)\.prose\.tr\.md$"
 )
@@ -835,7 +837,8 @@ def validate_source_file(path, kind):
     if kind == "surah":
         if not SURAH_FILE_RE.match(path.name):
             raise ValueError(
-                f"Surah detailed source must match <surah>.surah-reading.tr.md: {path}"
+                "Surah detailed source must match <surah>.surah-reading.tr.md "
+                f"or <surah>.surah-reading.<prelude|postlude>.tr.md: {path}"
             )
     elif not AYAH_FILE_RE.match(path.name):
         raise ValueError(
@@ -860,6 +863,15 @@ def validate_source_identity(source, files, kind):
             )
 
 
+def surah_file_sort_key(path):
+    match = SURAH_FILE_RE.match(path.name)
+    surface_order = {None: 0, "prelude": 1, "postlude": 2}
+    return (
+        int(match.group("surah")),
+        surface_order[match.group("surface")],
+    )
+
+
 def collect_source_files(source, kind):
     source = source.expanduser().resolve()
     if not source.exists():
@@ -880,11 +892,18 @@ def collect_source_files(source, kind):
 
     if kind == "surah":
         files = sorted(
-            path for path in source.iterdir() if path.is_file() and SURAH_FILE_RE.match(path.name)
+            (
+                path
+                for path in source.iterdir()
+                if path.is_file() and SURAH_FILE_RE.match(path.name)
+            ),
+            key=surah_file_sort_key,
         )
-        if len(files) != 1:
+        surfaces = [SURAH_FILE_RE.match(path.name).group("surface") for path in files]
+        if surfaces != [None] and surfaces != ["prelude", "postlude"]:
             raise ValueError(
-                f"Expected exactly one surah-reading source in {source}, found {len(files)}"
+                "Expected either one surah-reading source or one prelude/postlude "
+                f"pair in {source}, found {len(files)}"
             )
     else:
         files = sorted(
@@ -905,12 +924,17 @@ def collect_source_files(source, kind):
 
 def build_sections(source_files, kind, quran_text=None, collection=None):
     if kind == "surah":
-        sections = parse_markdown_publication(source_files[0])
-        for section in sections:
-            section["kind"] = "surah_detailed"
-            section["grades"] = []
+        sections = []
+        for source_file in source_files:
+            for section in parse_markdown_publication(source_file):
+                section["kind"] = "surah_detailed"
+                section["grades"] = []
+                sections.append(section)
         if not sections:
-            raise ValueError(f"Surah source has no readable sections: {source_files[0]}")
+            raise ValueError(
+                "Surah source has no readable sections: "
+                + ", ".join(str(path) for path in source_files)
+            )
         return sections
 
     if quran_text is None:
