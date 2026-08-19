@@ -29,10 +29,16 @@ LAYER2_ROLES = {
     "index": "findings-handoff",
     "friction": "production-audit",
 }
-INDEX_ROW = re.compile(r"^\s*-\s+`([^`]+)`\s+(?:—|–|-)\s+(.+?)\s*$")
-TRAILING_FLAG = re.compile(r"\s+\[([a-z-]+)\]\s*$")
-RESONANCE_KEY = re.compile(r"^surprise:([a-z0-9][a-z0-9-]*)$")
+INDEX_ROW_SEPARATOR = re.compile(r"\s+(?:—|–|-)\s+")
+BRACKET_FLAG = re.compile(r"`?\[([a-z-]+)\]`?")
+RESONANCE_KEY = re.compile(r"^surprise:([a-z0-9][a-z0-9_-]*)$")
 ALLOWED_INDEX_FLAGS = {"inference", "supports-primary", "shifts-primary"}
+KNOWN_INDEX_FLAGS = ALLOWED_INDEX_FLAGS | {
+    "bundle-traceable",
+    "candidate",
+    "candidate-admitted",
+    "must_integrate",
+}
 V11_SECTION_IDS = {
     "most surprising discoveries": "surprising-discoveries",
     "acik sorular": "boundaries",
@@ -211,6 +217,57 @@ def select_layer2_artifact_set(
     )
 
 
+def clean_index_text(value: str) -> str:
+    value = BRACKET_FLAG.sub(
+        lambda match: "" if match.group(1) in KNOWN_INDEX_FLAGS else match.group(0),
+        value,
+    )
+    return re.sub(r"\s+", " ", value).strip(" -:;")
+
+
+def resonance_ref_suffix(value: str) -> str:
+    return value.replace("_", "-")
+
+
+def parse_index_row(raw_line: str) -> tuple[str, str, list[str]] | None:
+    line = raw_line.strip()
+    if not line or line.startswith("#"):
+        return None
+    if line.startswith("- "):
+        line = line[2:].strip()
+    separator = INDEX_ROW_SEPARATOR.search(line)
+    if separator is None:
+        return None
+    left = line[: separator.start()].strip()
+    body = line[separator.end() :].strip()
+    flags = [
+        flag
+        for flag in BRACKET_FLAG.findall(f"{left} {body}")
+        if flag in KNOWN_INDEX_FLAGS
+    ]
+
+    candidates = [
+        value
+        for value in re.findall(r"`([^`]+)`", left)
+        if not (value.startswith("[") and value.endswith("]"))
+    ]
+    resonance_candidates = [
+        value for value in candidates if RESONANCE_KEY.fullmatch(value)
+    ]
+    if resonance_candidates:
+        index_key = resonance_candidates[-1]
+    elif candidates:
+        index_key = candidates[0]
+    else:
+        index_key = re.split(r"\s+", left, maxsplit=1)[0]
+
+    index_key = index_key.strip("`")
+    body = clean_index_text(body)
+    if not index_key or not body:
+        return None
+    return index_key, body, flags
+
+
 def parse_index(
     path: Path,
     *,
@@ -224,29 +281,10 @@ def parse_index(
     for line_number, raw_line in enumerate(
         path.read_text(encoding="utf-8").splitlines(), start=1
     ):
-        if not raw_line.strip():
+        parsed = parse_index_row(raw_line)
+        if parsed is None:
             continue
-        match = INDEX_ROW.fullmatch(raw_line)
-        if match is None:
-            raise SystemExit(
-                f"error: malformed findings-index row at {path}:{line_number}: "
-                f"{raw_line!r}"
-            )
-        index_key, body = match.groups()
-        flags: list[str] = []
-        while True:
-            flag_match = TRAILING_FLAG.search(body)
-            if flag_match is None:
-                break
-            flags.append(flag_match.group(1))
-            body = body[: flag_match.start()].rstrip()
-        flags.reverse()
-        unknown = sorted(set(flags) - ALLOWED_INDEX_FLAGS)
-        if unknown:
-            raise SystemExit(
-                f"error: unsupported findings-index flag(s) at {path}:{line_number}: "
-                + ", ".join(unknown)
-            )
+        index_key, body, flags = parsed
         if not body:
             raise SystemExit(f"error: empty findings-index text at {path}:{line_number}")
         relation_flags = {
@@ -278,7 +316,10 @@ def parse_index(
             raise SystemExit(
                 f"error: surprise row at {path}:{line_number} must carry [inference]"
             )
-        resonance_ref = f"resonance:{surah}:{ayah}:{resonance_match.group(1)}"
+        resonance_ref = (
+            f"resonance:{surah}:{ayah}:"
+            f"{resonance_ref_suffix(resonance_match.group(1))}"
+        )
         if resonance_ref in resonance_refs:
             raise SystemExit(
                 f"error: duplicate local resonance {resonance_ref!r} in {path}"
