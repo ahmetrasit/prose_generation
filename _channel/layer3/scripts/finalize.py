@@ -75,22 +75,32 @@ def write_publication(
     briefs: dict[str, Any],
     out_dir: Path,
 ) -> list[Path]:
-    published_prose = composition["prose"].rstrip() + "\n"
+    if composition.get("phase") != "editorial":
+        raise SystemExit("error: only an editorial Layer-3 composition may be published")
+    published_prelude = composition["prelude"].rstrip() + "\n"
+    published_postlude = composition["postlude"].rstrip() + "\n"
     evidence = publication_evidence(composition, packet, briefs)
     assert_valid(
-        validate_publication_evidence(evidence, published_prose, composition),
+        validate_publication_evidence(
+            evidence,
+            published_prelude,
+            published_postlude,
+            composition,
+        ),
         "publication evidence",
     )
     surah = composition["surah"]
     language = composition["language"]
-    prose_path = out_dir / f"{surah}.surah-reading.{language}.md"
+    prelude_path = out_dir / f"{surah}.surah-reading.prelude.{language}.md"
+    postlude_path = out_dir / f"{surah}.surah-reading.postlude.{language}.md"
     evidence_path = out_dir / f"{surah}.surah-reading.evidence.{language}.json"
     friction_path = out_dir / f"{surah}.surah-reading.friction.{language}.md"
 
-    immutable_write_text(prose_path, published_prose)
+    immutable_write_text(prelude_path, published_prelude)
+    immutable_write_text(postlude_path, published_postlude)
     immutable_write_json(evidence_path, evidence, compact=False)
     immutable_write_text(friction_path, friction_markdown(composition))
-    return [prose_path, evidence_path, friction_path]
+    return [prelude_path, postlude_path, evidence_path, friction_path]
 
 
 def main() -> int:
@@ -113,7 +123,15 @@ def main() -> int:
     assert_valid(validate_packet(packet, verify_sources=True), "source packet")
     assert_valid(validate_hypotheses(hypotheses, packet), "discovery hypotheses")
     assert_valid(validate_briefs(briefs, packet, hypotheses), "channel briefs")
-    assert_valid(validate_composition(composition, packet, briefs), "composition")
+    assert_valid(
+        validate_composition(
+            composition,
+            packet,
+            briefs,
+            required_phase="editorial",
+        ),
+        "editorial composition",
+    )
 
     out_dir = resolve_path(args.out_dir) if args.out_dir else default_run_dir(packet) / "published"
     paths = write_publication(

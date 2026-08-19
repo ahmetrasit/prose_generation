@@ -1,31 +1,48 @@
 # Layer 3 Surah Reading
 
 This is the active runbook for producing a surah-wide reading from the typed
-primary floor, completed Layer-2 v2 ayah commentary artifacts, and available
-channel/network evidence.
+primary floor, completed reader-facing Layer-2 editorial artifacts, and
+available channel/network evidence.
 
-The final text is not a summary, an ayah-by-ayah retelling, or a catalogue of
-semantic fields. It reveals channels and resonances that an ordinary
-translation cannot supply, in language a regular reader can follow, while the
-primary reading remains intact.
+Layer 3 builds one whole-surah semantic model and renders it at two reader
+moments:
+
+- a **prelude** prepares the reader to notice admitted secondary images in the
+  ayah readings without resolving them;
+- a **postlude** reinforces those local encounters and completes their
+  cross-ayah, whole-surah payoff.
+
+Neither surface is a summary, an ayah-by-ayah retelling, or a catalogue of
+semantic fields. The primary reading remains intact, while coherent secondary
+images and systems unavailable from an ordinary translation become visible.
 
 Files directly under `_channel/` belong to retired workflows. They are not
 instructions or inputs for this workflow.
 
-## Cold-Agent Contract
+## Agent Contract
 
 A cold orchestration agent can run this workflow using this document and the
 files under `_channel/layer3/`.
 
-- The Python scripts perform mechanical source projection, validation, prompt
+- Python scripts perform mechanical source projection, validation, prompt
   assembly, and final publication.
-- Fresh semantic agents perform discovery, review, and composition.
-- Each semantic agent reads only its generated prompt.
-- Do not use `codex exec` for semantic passes. Spawn a fresh agent for each
-  pass.
-- Do not let an agent inspect source repositories or other workflow files after
-  its prompt has been generated.
-- Save each agent response only at the output path named by its prompt.
+- A fresh semantic agent performs discovery.
+- A second fresh semantic agent performs review.
+- A third fresh semantic agent performs composition and remains open for the
+  editorial follow-up. Do not spawn a separate editor.
+- "Spawn" means the orchestration environment's native facility for creating
+  an isolated semantic-agent conversation and, for composition, sending a
+  second turn to that same conversation. Confirm that this facility is
+  available before building the packet. If it is unavailable, stop and report
+  the missing capability; do not substitute `codex exec`, the orchestration
+  agent itself, or a single shared conversation for all passes.
+- Each semantic agent reads only its generated prompt. The composition agent
+  may read both its generated compose prompt and, in the same conversation, its
+  generated edit prompt.
+- Do not use `codex exec` for semantic passes.
+- Do not let an agent inspect source repositories or workflow files after its
+  prompt has been generated.
+- Save each response only at the output path named by its prompt.
 - Do not use output from an earlier run as fallback when a pass fails.
 
 The scripts do not discover, merge, rank, or write channels. Cross-ayah
@@ -40,13 +57,14 @@ _channel/layer3/
     01-discover.md
     02-review.md
     03-compose.md
+    04-edit.md
   schemas/
     layer2-handoff-v1.schema.json
     source-packet-v3.schema.json
-    discovery-hypotheses-v2.schema.json
-    channel-briefs-v2.schema.json
-    surah-composition-v1.schema.json
-    surah-reading-evidence-v1.schema.json
+    discovery-hypotheses-v3.schema.json
+    channel-briefs-v3.schema.json
+    surah-composition-v2.schema.json
+    surah-reading-evidence-v2.schema.json
   scripts/
     common.py
     build_packet.py
@@ -59,19 +77,25 @@ _channel/layer3/
       N.discover.attempt-01.{language}.prompt.md
       N.review.attempt-01.{language}.prompt.md
       N.compose.attempt-01.{language}.prompt.md
+      N.edit.attempt-01.{language}.prompt.md
     outputs/
       N.discovery-hypotheses.{language}.json
       N.channel-briefs.{language}.json
+      N.surah-composition.draft.{language}.json
       N.surah-composition.{language}.json
+    failed/
+      attempt-specific invalid semantic outputs, preserved only after a
+      validator rejects them
     published/
-      N.surah-reading.{language}.md
+      N.surah-reading.prelude.{language}.md
+      N.surah-reading.postlude.{language}.md
       N.surah-reading.evidence.{language}.json
       N.surah-reading.friction.{language}.md
 ```
 
 Older `packets/`, `inputs/`, and `outputs/` directories are historical
-artifacts. Older schema files that are not listed above are archival only. Do
-not overwrite historical artifacts or use archival schemas during v3 runs.
+artifacts. Older schema files not listed above are archival. Do not overwrite
+historical artifacts or use archival schemas during active v3 runs.
 
 ## Source Contract
 
@@ -79,7 +103,7 @@ Required inputs:
 
 - Quran text from `../quran-data/data/text/quran-uthmani.tsv`;
 - a typed Layer-1 primary floor such as `_translation/v1/output/tr/s087.json`;
-- for every numbered ayah, one complete Layer-2 v2 artifact set:
+- for every numbered ayah, one complete **editorial** Layer-2 v2 artifact set:
   `prose`, `evidence`, `index`, and `friction`;
 - `_ayah_commentary/v2/PROMPT.md`, recorded as the handoff contract.
 
@@ -90,137 +114,294 @@ Optional inputs:
 - V11 `09-final-report.md`, searched in `../quran-data` first and then
   `../latent_activation/v11/run/sNNN/`.
 
-Layer 2 contributes a typed handoff from its non-prose artifacts:
+The packet builder rejects a non-editorial Layer-2 label. It parses the complete
+editorial findings index into `findings`, projects typed `surprise:<id>` rows as
+`localResonances`, and retains explicit evidence boundaries. Layer-2 prose is
+hashed in the packet but withheld from discovery and review. After review has
+admitted channels, `instantiate.py` verifies the hashes again and projects
+reader-facing prose only for ayahs named by admitted channel members into the
+compose and edit prompts. Friction content remains withheld.
 
-- the complete findings index is parsed into `findings`;
-- `surprise:<id>` rows become `localResonances` with `supports-primary` or
-  `shifts-primary`;
-- explicit rejection/counterpressure sections from evidence become
-  `boundaries`;
-- prose and friction are hashed for lineage, but their content is withheld
-  from semantic passes.
+A local resonance always carries exactly one primary-relation tag. Its
+`inference` value follows the Layer-2 row: `[inference]` marks a writer
+synthesis, while its absence is a valid grounded resonance and must not cause
+Layer 3 ingestion to fail. Relation tags on non-`surprise:*` findings are
+preserved as finding metadata but do not promote those rows to local
+resonances.
 
-Missing Quran text, primary floor, or any Layer-2 artifact aborts. Missing
-Network V3 or V11 material emits a warning and the run continues.
+Missing Quran text, primary floor, any Layer-2 artifact, or the editorial label
+aborts. Missing Network V3 or V11 material emits a warning and the run continues.
 
-## Hermetic Views
-
-`build_packet.py` creates the canonical v3 source packet. `instantiate.py`
-projects a different hermetic view for each semantic pass.
+## Semantic Passes
 
 ### Discover
 
-The discovery prompt contains:
+The discovery prompt contains Quran surface anchors, typed primary-floor lines,
+Network V3 activation cards, and relevant coverage warnings. It excludes all
+Layer-2 material, V11 prose, and prior synthesis.
 
-- Quran surface anchors and typed primary-floor lines;
-- mechanically projected Network V3 activation cards;
-- relevant coverage state and warnings.
-
-It intentionally excludes Layer-2 prose, Layer-2 findings, Layer-2 boundaries,
-V11 prose, and prior synthesis. The discovery agent opens possible cross-ayah
-recognitions without selecting, auditing, or composing.
+The agent opens concrete image-system hypotheses. Every hypothesis names its
+system boundary and the distinct contribution of at least two ayahs. Every
+activation card is accounted once in `activationCardCoverage`, including cards
+that opened no coherent hypothesis. Discovery does not rank, merge, admit, or
+reject.
 
 Output: `N.discovery-hypotheses.{language}.json`.
 
 ### Review
 
-The review prompt contains:
+The review prompt contains discovery hypotheses, typed primary ground, the
+complete Layer-2 findings/local-resonance/boundary handoff, activation cards,
+bounded V11 material, and lineage state. It still excludes Layer-2 prose.
 
-- the discovery hypotheses;
-- typed primary ground;
-- the complete Layer-2 findings handoff, local resonances, and boundaries;
-- Network V3 activation cards and bounded V11 secondary material;
-- source lineage, coverage state, and warnings.
+The agent first builds concrete channels at their natural granularity, then
+accounts for unused hypotheses and local resonances. Admission tests the
+secondary image and its operation, not whether a broad moral conclusion is
+surface-derivable. Every admitted channel records:
 
-The review agent builds latent-dependent channel briefs. Every discovery
-hypothesis and every local resonance must either support at least one channel or
-receive one non-channel disposition. Inputs can be many-to-many: one resonance
-may support several channels, and several resonances may support one channel.
-No channel is ranked above another, and incompatible channels may coexist.
+- its concrete image system and system boundary;
+- distinct member landings in at least two ayahs;
+- cross-member hinges that preserve each member's contribution;
+- its whole-surah operation and indispensable secondary gain;
+- a prelude promise and a postlude payoff.
+
+Compatible and incompatible admitted channels coexist without ranking or
+disambiguation. Inputs merge only when both concrete mechanism and reader payoff
+are the same.
 
 Output: `N.channel-briefs.{language}.json`.
 
-### Compose
+### Compose Draft
 
-The composition prompt contains:
+The compose prompt contains typed primary ground, reviewed channel briefs, and
+verified reader-facing Layer-2 prose for admitted member ayahs. The selected
+prose supports recognition and continuity; it cannot introduce an unreviewed
+channel.
 
-- typed primary ground;
-- the reviewed channel briefs.
+The agent writes both reader surfaces in one draft envelope:
 
-The composition agent writes one JSON envelope. Its `prose` field is the
-publishable reading; its evidence map proves that every admitted channel and
-every admitted hinge landed in ordinary reader language. There is no paragraph,
-word, channel, or length quota.
+- the prelude has one compact primary footing and one unresolved promise per
+  channel;
+- the postlude lands every channel, concrete member, and hinge, and returns to
+  the primary surah with changed understanding.
+
+The evidence map records one primary grounding per surface, every prelude
+promise, and every postlude channel/member/hinge landing. It does not require a
+primary claim per ayah.
+
+Output: `N.surah-composition.draft.{language}.json`.
+
+### Editorial Revision
+
+Send the generated edit prompt to the **same composition agent**. It revises
+both surfaces for contemporary reader language, movement, transitions, and
+deduplication without reducing any admitted image, member, hinge, or payoff.
+The prelude must remain anticipatory; the postlude must remain complete. The
+agent updates every evidence span after revision.
 
 Output: `N.surah-composition.{language}.json`.
 
 ### Finalize
 
-`finalize.py` validates the composition envelope against the packet, hypotheses,
-and briefs, then emits the three publication artifacts:
-
-- `N.surah-reading.{language}.md`;
-- `N.surah-reading.evidence.{language}.json`;
-- `N.surah-reading.friction.{language}.md`.
+`finalize.py` accepts only an editorial composition whose `revisionOf` points to
+the expected draft ID. It emits the two reader surfaces, shared evidence map,
+and friction report.
 
 ## Run A Surah
 
-Replace `{N}`, `{LANG}`, `{LAYER2_DIR}`, and `{LAYER2_LABEL}` with the selected
-surah, language, and accepted Layer-2 output set.
+Run every command from the repository root. Resolve these values before the
+first command:
 
-Build the source packet:
+- `{N}`: the unpadded surah number, for example `1`;
+- `{LANG}`: the normalized language tag, for example `tr`;
+- `{PRIMARY_FLOOR}`: the exact typed Layer-1 file selected for this run, for
+  example `_translation/v1/output/tr/s001.v3-gloss-test.json`;
+- `{LAYER2_DIR}`: the directory containing the complete Layer-2 artifacts;
+- `{LAYER2_LABEL}`: the exact editorial artifact label, for example
+  `editorial.tr` or `luna-max.editorial.tr`.
+
+The scripts emit additional paths. Copy each emitted path exactly rather than
+reconstructing it:
+
+- `{PACKET}`: the path printed by `build_packet.py`;
+- `{RUN_DIR}`: the parent directory of `{PACKET}`;
+- `{DISCOVER_PROMPT}`, `{REVIEW_PROMPT}`, `{COMPOSE_PROMPT}`, and
+  `{EDIT_PROMPT}`: paths printed by the corresponding `instantiate.py` command;
+- `{HYPOTHESES}`, `{BRIEFS}`, `{DRAFT}`, and `{COMPOSITION}`: exact output paths
+  named inside those generated prompts.
+
+Do not choose a file by searching `runs/v3/`; multiple runs and attempts may be
+present.
+
+### Build And Validate The Packet
 
 ```sh
 python3 _channel/layer3/scripts/build_packet.py \
   --surah {N} \
   --language {LANG} \
+  --primary-floor {PRIMARY_FLOOR} \
   --layer2-dir {LAYER2_DIR} \
   --layer2-label {LAYER2_LABEL}
 ```
 
-If every ayah has a unique complete Layer-2 artifact set, `--layer2-label` may
-be omitted. The script writes under `_channel/layer3/runs/v3/.../{runId}/`.
-
-Generate and run discovery:
+Record the emitted packet path as `{PACKET}` and its parent as `{RUN_DIR}`. Then
+run the explicit source gate:
 
 ```sh
-python3 _channel/layer3/scripts/instantiate.py discover --surah {N} --language {LANG}
+python3 _channel/layer3/scripts/validate.py packet \
+  {PACKET} --verify-sources
 ```
 
-Spawn a fresh agent with this task:
+Do not begin a semantic pass unless this prints `ok`.
+
+### Discover
+
+```sh
+python3 _channel/layer3/scripts/instantiate.py discover \
+  --surah {N} --language {LANG} \
+  --packet {PACKET} \
+  --attempt 1
+```
+
+Record the emitted path as `{DISCOVER_PROMPT}`. Open the first fresh isolated
+semantic-agent conversation and send exactly this task, with the placeholder
+replaced by that exact path:
 
 ```text
-Read only the generated discover prompt under _channel/layer3/runs/v3/.
-Follow that prompt and write only the exact output file it names.
-Do not inspect other files or use outside sources.
+Read only this generated prompt: {DISCOVER_PROMPT}
+Follow it exactly and write only the output file it names.
+Do not inspect any other file or use outside sources.
 ```
 
-Generate and run review:
+Record the output path named by the prompt as `{HYPOTHESES}`. After the agent
+writes it, run:
 
 ```sh
-python3 _channel/layer3/scripts/instantiate.py review --surah {N} --language {LANG}
+python3 _channel/layer3/scripts/validate.py hypotheses \
+  {HYPOTHESES} --packet {PACKET}
 ```
 
-Spawn a fresh agent with the same boundary: read only the generated review
-prompt and write only the exact output file it names.
+Close the discovery agent only after this prints `ok`.
 
-Generate and run composition:
+### Review
 
 ```sh
-python3 _channel/layer3/scripts/instantiate.py compose --surah {N} --language {LANG}
+python3 _channel/layer3/scripts/instantiate.py review \
+  --surah {N} --language {LANG} \
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES} \
+  --attempt 1
 ```
 
-Spawn a fresh agent with the same boundary: read only the generated compose
-prompt and write only the exact composition JSON file it names.
+Record the emitted path as `{REVIEW_PROMPT}`. Open the second fresh isolated
+semantic-agent conversation and send the same three-line task above with
+`{REVIEW_PROMPT}` as the exact path. Record the output named by that prompt as
+`{BRIEFS}`, then run:
 
-Finalize after composition:
+```sh
+python3 _channel/layer3/scripts/validate.py briefs \
+  {BRIEFS} \
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES}
+```
+
+Close the review agent only after this prints `ok`.
+
+### Compose Draft
+
+```sh
+python3 _channel/layer3/scripts/instantiate.py compose \
+  --surah {N} --language {LANG} \
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES} \
+  --briefs {BRIEFS} \
+  --attempt 1
+```
+
+Record the emitted path as `{COMPOSE_PROMPT}`. Open the third fresh isolated
+semantic-agent conversation and send the same three-line task with
+`{COMPOSE_PROMPT}` as the exact path. Record the named output as `{DRAFT}` and
+keep this agent conversation open. Then run:
+
+```sh
+python3 _channel/layer3/scripts/validate.py composition \
+  {DRAFT} \
+  --packet {PACKET} \
+  --briefs {BRIEFS} \
+  --phase draft
+```
+
+Do not generate the edit prompt unless this prints `ok`.
+
+### Edit In The Same Conversation
+
+```sh
+python3 _channel/layer3/scripts/instantiate.py edit \
+  --surah {N} --language {LANG} \
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES} \
+  --briefs {BRIEFS} \
+  --draft {DRAFT} \
+  --attempt 1
+```
+
+Record the emitted path as `{EDIT_PROMPT}`. In the still-open composition-agent
+conversation, send only the three-line task above with `{EDIT_PROMPT}` as the
+exact path. Do not add critique, validator output, or another request. Record
+the named output as `{COMPOSITION}`, then run:
+
+```sh
+python3 _channel/layer3/scripts/validate.py composition \
+  {COMPOSITION} \
+  --packet {PACKET} \
+  --briefs {BRIEFS} \
+  --phase editorial
+```
+
+Close the composition agent only after this prints `ok`.
+
+### Failed Attempts
+
+Never advance with an invalid output and never overwrite it in place. If a
+semantic validator fails:
+
+1. Preserve the rejected artifact under `{RUN_DIR}/failed/` with the form
+   `{N}.{STAGE}.attempt-{AA}.invalid.{LANG}.json`, where `{STAGE}` is
+   `discover`, `review`, `compose`, or `edit` and `{AA}` is the two-digit
+   attempt number.
+2. Re-run the same `instantiate.py` command with the next `--attempt` number and
+   record the newly emitted prompt path exactly.
+3. Discovery and review retries use new fresh semantic agents. A compose-draft
+   retry uses a new fresh composition agent, which must remain open for edit.
+   An edit retry stays in the same composition-agent conversation.
+4. Run the same validator again. Continue only after it prints `ok`.
+
+The mechanical archive operation is:
+
+```sh
+mkdir -p {RUN_DIR}/failed
+mv {FAILED_OUTPUT} \
+  {RUN_DIR}/failed/{N}.{STAGE}.attempt-{AA}.invalid.{LANG}.json
+```
+
+If the composition-agent conversation is lost before editorial validation,
+stop and report the failure. Do not use a different agent to edit its draft. If
+a structurally valid output fails the Acceptance review below, treat it as a
+failed attempt at the earliest stage where the semantic loss entered; do not
+ask a later stage to invent missing channels.
+
+### Semantic Gate And Finalize
+
+Inspect the validated editorial surfaces and briefs against every Acceptance
+condition below. Mechanical validation is not permission to publish. For a
+production run, obtain the required human semantic approval before finalizing.
 
 ```sh
 python3 _channel/layer3/scripts/finalize.py \
-  --packet {RUN_DIR}/{N}.source-packet.{LANG}.json \
-  --hypotheses {RUN_DIR}/outputs/{N}.discovery-hypotheses.{LANG}.json \
-  --briefs {RUN_DIR}/outputs/{N}.channel-briefs.{LANG}.json \
-  --composition {RUN_DIR}/outputs/{N}.surah-composition.{LANG}.json
+  --packet {PACKET} \
+  --hypotheses {HYPOTHESES} \
+  --briefs {BRIEFS} \
+  --composition {COMPOSITION}
 ```
 
 ## Acceptance
@@ -229,14 +410,23 @@ A completed reading must satisfy all of these conditions:
 
 - It changes the reader's model rather than explaining the primary reading in
   greater detail.
-- Its changed understanding is unavailable when the secondary semantic
-  contribution is removed.
-- The same contribution makes something specific in this surah newly
-  intelligible rather than supplying a portable metaphor or general moral.
-- Weak, remote, and counterpressured material remains usable without becoming
+- Every channel is a concrete secondary image or working system, not an
+  abstract topic with latent references attached.
+- Every activation card was searched and accounted during discovery.
+- Each admitted channel has distinct members in at least two ayahs and produces
+  a whole-surah gain no ayah-by-ayah reading can supply.
+- Inputs with different mechanisms or reader payoffs have not been hidden under
+  one broad hinge.
+- Weak, remote, and counterpressured material remains bounded without becoming
   an alternate translation.
-- Rejected local predications do not return as claims, while their surviving
-  semantic residue may participate in a bounded cross-ayah operation.
-- Every admitted channel and hinge is visible in ordinary prose.
-- The primary reading remains recoverable.
-- The final prose is coherent and engaging rather than a channel catalogue.
+- The prelude promises every admitted channel without resolving all members or
+  hinges.
+- The postlude visibly lands every channel, member, and hinge while remaining
+  coherent prose rather than a catalogue.
+- Neither surface retells the surah one ayah at a time.
+- The primary reading remains recoverable in both surfaces.
+- The editorial output contains no duplicate paragraphs or stray draft tails.
+
+Mechanical validation proves lineage, coverage, evidence pairing, required
+landings, and publication hashes. It does not prove literary or interpretive
+quality. A production run still requires human semantic review before release.

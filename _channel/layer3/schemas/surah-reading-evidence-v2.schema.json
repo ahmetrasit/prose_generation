@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-surah-reading-evidence-v2.schema.json",
+  "title": "Layer 3 published prelude and postlude evidence v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "briefId",
+    "compositionId",
+    "sourceSetHash",
+    "surah",
+    "language",
+    "preludeSha256",
+    "postludeSha256",
+    "primaryGroundings",
+    "preludeChannelPromises",
+    "postludeChannelLandings",
+    "postludeMemberLandings",
+    "postludeHingeLandings"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "layer3-surah-reading-evidence-v2" },
+    "packetId": { "type": "string", "minLength": 1 },
+    "briefId": { "type": "string", "minLength": 1 },
+    "compositionId": { "type": "string", "minLength": 1 },
+    "sourceSetHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,8}(?:-[a-z0-9]{1,8})*$" },
+    "preludeSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "postludeSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "primaryGroundings": { "type": "array" },
+    "preludeChannelPromises": { "type": "array" },
+    "postludeChannelLandings": { "type": "array" },
+    "postludeMemberLandings": { "type": "array" },
+    "postludeHingeLandings": { "type": "array" }
+  }
+}

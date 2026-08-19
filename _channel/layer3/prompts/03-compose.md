@@ -1,92 +1,104 @@
-# Pass 2: Compose the Layer 3 Reading
+# Pass 2A: Compose Prelude And Postlude Drafts
 
-Write the Layer-3 surah reading from the reviewed channel briefs.
+Write the complete Layer-3 draft from the reviewed channel briefs. Produce two
+reader surfaces from one accepted semantic model: a pre-surah orientation and a
+post-surah synthesis.
 
-The reader knows a normal translation of the surah and has no Arabic or
-linguistic training. Establish only the ordinary surface ground needed for the
-argument, then make the changed understanding opened by the channels visible
-in plain language.
+Set `phase` to `draft`, `revisionOf` to `null`, and `compositionId` to
+`{packetId}-composition-draft-v2`.
 
-## Channel Visibility
+## Argument And Channels
 
-Every admitted channel must land in the prose. Every hinge in every admitted
-channel must also land in the prose. A regular reader should be able to say:
+The primary argument and the secondary channels are different axes. Establish
+only the compact surface footing needed for orientation. Do not let the primary
+argument suppress the images, and do not make a secondary channel replace the
+primary reading.
 
-- what ordinary surface scene is still being honored;
-- what wider semantic contribution has entered;
-- how that contribution moves across more than one ayah;
-- what new understanding becomes possible.
+Do not retell the surah in ayah order. Do not write one paragraph or primary
+claim per ayah. If the prose can be decomposed into a sequence of ayah summaries,
+it has failed at Layer 3.
 
-Do not hide channels behind general summary. Do not enumerate technical
-evidence. Make the resonance readable as part of the argument.
+## Prelude: Promise Without Resolution
 
-## Coexistence
+The prelude prepares the reader to notice what the ayah-level readings will make
+visible.
 
-This is not disambiguation. Do not choose one channel as the only correct
-reading. Incompatible channels may live at the same time when the briefs admit
-them. Write the coexistence as layered pressure, alternate but bounded
-recognition, or simultaneous resonance rather than as a winner/loser decision.
+- Give one compact primary-grounded foothold for the whole surface.
+- Let every admitted channel appear once as a concrete image, tension, question,
+  or motion to watch for.
+- Preserve controlled incompleteness. Do not prove the channel, enumerate all
+  member ayahs, discharge every hinge, or state the full postlude payoff.
+- Do not present a catalogue. Let the promises form one anticipatory movement.
 
-Do not collapse channels merely because they touch the same ayah or image. Do
-let them meet in one prose movement when each distinct reader gain remains
-visible and the evidence map can still point to exact spans.
+The prelude is not a shortened postlude. It should make the reader attentive
+without replacing the experience of the ayah commentaries.
 
-## Hinge Language
+## Postlude: Completed Recognition
 
-Meaning comes before terminology. Arabic words may appear only when a specific
-surface word is indispensable; give its ordinary translated sense first.
+The postlude reinforces and assembles what the reader has encountered locally.
 
-Do not say a word "really means" the secondary contribution. Do not present a
-secondary contribution as the translation, a hidden replacement meaning, or a
-historical event. A useful movement is: the ordinary meaning remains in place,
-while the wider field lets the scene resonate with another ayah. Use that
-movement naturally rather than as a formula.
+- Every admitted channel, member landing, and hinge must become visible in
+  ordinary reader language.
+- Preserve each materially distinct image and payoff. Do not collapse water,
+  passage, sight, repair, gift, belonging, or another admitted mechanism into a
+  generic thesis merely because they meet in the same surah movement.
+- Trace how the image changes distant ayahs and why the opening, transition, or
+  ending now works differently.
+- Return naturally to the surah's primary force at the end, showing what has
+  become newly visible rather than listing findings.
 
-Selective word analysis may remain alive inside the prose when it helps the
-reader feel the channel or local resonance. Keep it subtle: bring the word's
-surface role or wider field into the sentence, then return to the reader's
-changed understanding. Do not create a lexical note unless the channel depends
-on it.
+## Selected Layer-2 Reader Prose
 
-## Boundaries
+The composition input includes reader-facing Layer-2 prose only for ayahs that
+participate in admitted channels. Use it to recall concrete language and create
+recognizable reinforcement. It is not permission to import every local reading,
+form new channels, or follow the ayahs chronologically. Only material admitted
+by the channel briefs may enter Layer 3.
 
-Treat each `claimPolicy` as a silent writing boundary. If a prohibited claim
-would be a likely reader mistake, include a short containment correction in
-ordinary language. Otherwise, simply avoid the prohibited claim and let the
-permitted resonance operate.
+## Prose Movement
 
-Do not display roots, branch IDs, finding refs, resonance refs, activation
-refs, source labels, packet IDs, schema names, prompt names, confidence labels,
-workflow vocabulary, or agent vocabulary in the prose.
+Write fluent contemporary prose for a regular reader. Meaning comes before
+terminology. Use short reader-facing subtitles only at genuine changes of
+movement. Each section should inherit a concrete image, relation, question, or
+motion from the preceding section and carry it somewhere new.
 
-## No Quota
+Do not preserve brief boundaries as prose units. Do not give each channel or
+hinge an isolated paragraph merely to satisfy accounting. Distinct gains must
+remain recoverable inside one developing composition.
 
-There is no paragraph quota, channel quota, word target, minimum length, or
-maximum length. If a significant channel or hinge needs room, write it fully.
-If the material is light, do not inflate it.
+Arabic words may appear only when a specific surface word is indispensable;
+give its ordinary translated sense first. Never present a secondary
+contribution as the word's real translation, a hidden replacement meaning, or a
+historical event.
 
-Begin inside the argument, not with methodology. End inside the final changed
-understanding, not with a recap or list of findings.
+Treat every `claimPolicy` as a silent writing boundary. Include a brief
+containment correction only when a prohibited claim would otherwise be a likely
+reader mistake.
+
+Do not display roots, branch IDs, finding refs, resonance refs, activation refs,
+source labels, packet IDs, schema names, confidence labels, workflow vocabulary,
+or agent vocabulary in either reader surface.
+
+There is no paragraph, word, channel, or length quota. Give every significant
+image enough room. Do not inflate light material.
 
 ## Evidence Map
 
-Return a JSON composition envelope, not a markdown-only reading.
+Return one JSON envelope conforming to the inlined schema.
 
-The `prose` field is the publishable reading. The `evidenceMap` must identify
-exact prose spans for:
+- `primaryGroundings`: exactly one compact grounding span from each surface;
+- `preludeChannelPromises`: exactly one anticipatory span for every channel;
+- `postludeChannelLandings`: the operation and gain of every channel;
+- `postludeMemberLandings`: one exact span for every concrete member;
+- `postludeHingeLandings`: one exact span for every hinge.
 
-- primary claims grounded in the typed primary floor;
-- every admitted channel's operation and gain;
-- every admitted hinge.
+Each recorded span must occur exactly once in its designated surface. Evidence
+mapping is not a reason to repeat or isolate prose.
 
-Each span must occur exactly once in `prose`. This is how the finalizer proves
-that the reader-visible prose did not drop a channel or hinge.
-
-Use `friction` for unresolved publication risks, not for notes that belong in
-the prose.
+Use `friction` only for unresolved publication risks.
 
 ## Output
 
-Write `N.surah-composition.{language}.json` as a JSON object conforming exactly
-to the inlined schema. Use the target language for reader-facing fields. Write
-no other files.
+Write `N.surah-composition.draft.{language}.json` as a JSON object conforming
+exactly to the inlined schema. Use the target language for reader-facing fields.
+Write no other files.

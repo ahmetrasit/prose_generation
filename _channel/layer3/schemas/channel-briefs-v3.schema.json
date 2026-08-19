@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-channel-briefs-v3.schema.json",
+  "title": "Layer 3 concrete channel briefs v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "briefId",
+    "packetId",
+    "sourceSetHash",
+    "surah",
+    "language",
+    "primaryArgument",
+    "requiredReviewInputRefs",
+    "channels",
+    "nonChannelDispositions"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "layer3-channel-briefs-v3" },
+    "briefId": { "type": "string", "minLength": 1 },
+    "packetId": { "type": "string", "minLength": 1 },
+    "sourceSetHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,8}(?:-[a-z0-9]{1,8})*$" },
+    "primaryArgument": { "$ref": "#/$defs/primaryArgument" },
+    "requiredReviewInputRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "channels": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/channel" }
+    },
+    "nonChannelDispositions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/disposition" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "ayahRef": { "type": "string", "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$" },
+    "sourceRef": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$" },
+    "primaryArgument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["thesis", "development", "surfaceFloorRefs"],
+      "properties": {
+        "thesis": { "type": "string", "minLength": 1 },
+        "development": { "type": "string", "minLength": 1 },
+        "surfaceFloorRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/sourceRef" }
+        }
+      }
+    },
+    "readerShift": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["before", "after"],
+      "properties": {
+        "before": { "type": "string", "minLength": 1 },
+        "after": { "type": "string", "minLength": 1 }
+      }
+    },
+    "claimPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "permittedForm", "counterpressureRefs", "prohibitedClaims"],
+      "properties": {
+        "scope": { "enum": ["direct", "bounded"] },
+        "permittedForm": { "type": "string", "minLength": 1 },
+        "counterpressureRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "prohibitedClaims": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "memberLanding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "memberId",
+        "ayahRef",
+        "concreteContribution",
+        "inputRefs",
+        "evidenceRefs",
+        "primaryRelation"
+      ],
+      "properties": {
+        "memberId": { "$ref": "#/$defs/id" },
+        "ayahRef": { "$ref": "#/$defs/ayahRef" },
+        "concreteContribution": { "type": "string", "minLength": 1 },
+        "inputRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "primaryRelation": { "enum": ["supports-primary", "shifts-primary"] }
+      }
+    },
+    "hinge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hingeId",
+        "imageMovement",
+        "contribution",
+        "inputRefs",
+        "memberIds",
+        "ayahRefs",
+        "evidenceRefs",
+        "claimPolicy"
+      ],
+      "properties": {
+        "hingeId": { "$ref": "#/$defs/id" },
+        "imageMovement": { "type": "string", "minLength": 1 },
+        "contribution": { "type": "string", "minLength": 1 },
+        "inputRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "memberIds": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "ayahRefs": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/ayahRef" }
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "claimPolicy": { "$ref": "#/$defs/claimPolicy" }
+      }
+    },
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "channelId",
+        "readerName",
+        "imageSystem",
+        "systemBoundary",
+        "inputRefs",
+        "surfaceFloorRefs",
+        "surfaceFloor",
+        "memberLandings",
+        "hinges",
+        "crossAyahOperation",
+        "readerShift",
+        "indispensableGain",
+        "preludePromise",
+        "postludePayoff"
+      ],
+      "properties": {
+        "channelId": { "$ref": "#/$defs/id" },
+        "readerName": { "type": "string", "minLength": 1 },
+        "imageSystem": { "type": "string", "minLength": 1 },
+        "systemBoundary": { "type": "string", "minLength": 1 },
+        "inputRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "surfaceFloorRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/sourceRef" }
+        },
+        "surfaceFloor": { "type": "string", "minLength": 1 },
+        "memberLandings": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/memberLanding" }
+        },
+        "hinges": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/hinge" }
+        },
+        "crossAyahOperation": { "type": "string", "minLength": 1 },
+        "readerShift": { "$ref": "#/$defs/readerShift" },
+        "indispensableGain": { "type": "string", "minLength": 1 },
+        "preludePromise": { "type": "string", "minLength": 1 },
+        "postludePayoff": { "type": "string", "minLength": 1 }
+      }
+    },
+    "disposition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["inputRef", "reason", "explanation"],
+      "properties": {
+        "inputRef": { "type": "string", "minLength": 1 },
+        "reason": {
+          "enum": [
+            "local-only",
+            "surface-image",
+            "same-image-and-payoff",
+            "fails-secondary-dependence",
+            "fails-whole-surah-yield",
+            "unsupported"
+          ]
+        },
+        "explanation": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -15,24 +15,36 @@ from common import (
     immutable_write_text,
     load_json,
     normalize_language,
+    resolve_portable_path,
+    sha256_file,
 )
-from validate import validate_briefs, validate_hypotheses, validate_packet
+from validate import (
+    validate_briefs,
+    validate_composition,
+    validate_hypotheses,
+    validate_packet,
+)
 
 
 STAGES: dict[str, dict[str, str]] = {
     "discover": {
         "prompt": "01-discover.md",
-        "schema": "discovery-hypotheses-v2.schema.json",
+        "schema": "discovery-hypotheses-v3.schema.json",
         "output": "{surah}.discovery-hypotheses.{language}.json",
     },
     "review": {
         "prompt": "02-review.md",
-        "schema": "channel-briefs-v2.schema.json",
+        "schema": "channel-briefs-v3.schema.json",
         "output": "{surah}.channel-briefs.{language}.json",
     },
     "compose": {
         "prompt": "03-compose.md",
-        "schema": "surah-composition-v1.schema.json",
+        "schema": "surah-composition-v2.schema.json",
+        "output": "{surah}.surah-composition.draft.{language}.json",
+    },
+    "edit": {
+        "prompt": "04-edit.md",
+        "schema": "surah-composition-v2.schema.json",
         "output": "{surah}.surah-composition.{language}.json",
     },
 }
@@ -114,7 +126,7 @@ def discovery_input(packet: dict[str, Any]) -> dict[str, Any]:
             }
         )
     return {
-        "schemaVersion": "layer3-discovery-input-v2",
+        "schemaVersion": "layer3-discovery-input-v3",
         "packetId": packet.get("packetId"),
         "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
@@ -136,7 +148,7 @@ def discovery_input(packet: dict[str, Any]) -> dict[str, Any]:
 
 def review_context(packet: dict[str, Any]) -> dict[str, Any]:
     return {
-        "schemaVersion": "layer3-review-context-v2",
+        "schemaVersion": "layer3-review-context-v3",
         "packetId": packet.get("packetId"),
         "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
@@ -149,15 +161,67 @@ def review_context(packet: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def composition_input(packet: dict[str, Any]) -> dict[str, Any]:
+def selected_layer2_reader_prose(
+    packet: dict[str, Any], briefs: dict[str, Any]
+) -> list[dict[str, str]]:
+    selected_ayahs = {
+        member.get("ayahRef")
+        for channel in briefs.get("channels", [])
+        if isinstance(channel, dict)
+        for member in channel.get("memberLandings", [])
+        if isinstance(member, dict) and isinstance(member.get("ayahRef"), str)
+    }
+    registry = {
+        source.get("sourceId"): source
+        for source in packet.get("sourceRegistry", [])
+        if isinstance(source, dict) and isinstance(source.get("sourceId"), str)
+    }
+    excerpts: list[dict[str, str]] = []
+    for ayah in packet.get("layer2Handoff", {}).get("ayahs", []):
+        if not isinstance(ayah, dict) or ayah.get("ayahRef") not in selected_ayahs:
+            continue
+        source_id = ayah.get("artifactRefs", {}).get("prose")
+        source = registry.get(source_id)
+        if not isinstance(source, dict) or not isinstance(source.get("path"), str):
+            raise SystemExit(
+                f"error: no registered Layer-2 prose source for {ayah.get('ayahRef')}"
+            )
+        path = resolve_portable_path(source["path"])
+        if not path.is_file():
+            raise SystemExit(f"error: selected Layer-2 prose is missing: {path}")
+        if sha256_file(path) != source.get("sha256"):
+            raise SystemExit(f"error: selected Layer-2 prose changed after packet build: {path}")
+        prose = path.read_text(encoding="utf-8").strip()
+        if not prose:
+            raise SystemExit(f"error: selected Layer-2 prose is empty: {path}")
+        excerpts.append(
+            {
+                "ayahRef": ayah["ayahRef"],
+                "sourceRef": source_id,
+                "text": prose,
+            }
+        )
+    missing = selected_ayahs - {item["ayahRef"] for item in excerpts}
+    if missing:
+        raise SystemExit(
+            "error: no Layer-2 reader prose could be projected for admitted "
+            "member ayahs: " + ", ".join(sorted(missing))
+        )
+    return excerpts
+
+
+def composition_input(
+    packet: dict[str, Any], briefs: dict[str, Any]
+) -> dict[str, Any]:
     return {
-        "schemaVersion": "layer3-composition-input-v1",
+        "schemaVersion": "layer3-composition-input-v2",
         "packetId": packet.get("packetId"),
         "sourceSetHash": packet.get("sourceSetHash"),
         "surah": packet.get("surah"),
         "language": packet.get("language"),
         "lineage": source_excerpt(packet),
         "primaryGround": packet.get("primaryGround"),
+        "selectedLayer2ReaderProse": selected_layer2_reader_prose(packet, briefs),
     }
 
 
@@ -192,6 +256,7 @@ def assemble(
     packet_path: Path,
     hypotheses_path: Path | None,
     briefs_path: Path | None,
+    draft_path: Path | None = None,
 ) -> str:
     config = STAGES[stage]
     packet = load_json(packet_path)
@@ -254,9 +319,35 @@ def assemble(
         sections.extend(
             [
                 "",
-                block("composition input json", json_text(composition_input(packet))),
+                block("composition input json", json_text(composition_input(packet, briefs))),
                 "",
                 block("channel briefs json", json_text(briefs)),
+            ]
+        )
+    if stage == "edit":
+        if hypotheses_path is None:
+            hypotheses_path = stage_output_path(packet, "discover")
+        if briefs_path is None:
+            briefs_path = stage_output_path(packet, "review")
+        if draft_path is None:
+            draft_path = stage_output_path(packet, "compose")
+        hypotheses = load_json(hypotheses_path)
+        briefs = load_json(briefs_path)
+        draft = load_json(draft_path)
+        assert_valid(validate_hypotheses(hypotheses, packet), "discovery hypotheses")
+        assert_valid(validate_briefs(briefs, packet, hypotheses), "channel briefs")
+        assert_valid(
+            validate_composition(draft, packet, briefs, required_phase="draft"),
+            "draft composition",
+        )
+        sections.extend(
+            [
+                "",
+                block("composition input json", json_text(composition_input(packet, briefs))),
+                "",
+                block("channel briefs json", json_text(briefs)),
+                "",
+                block("draft composition json", json_text(draft)),
             ]
         )
 
@@ -277,6 +368,7 @@ def main() -> int:
     parser.add_argument("--packet", type=Path)
     parser.add_argument("--hypotheses", type=Path)
     parser.add_argument("--briefs", type=Path)
+    parser.add_argument("--draft", type=Path)
     parser.add_argument("--out", type=Path)
     parser.add_argument("--attempt", type=int, default=1)
     args = parser.parse_args()
@@ -285,6 +377,7 @@ def main() -> int:
     packet = resolve_path(args.packet) if args.packet else find_default_packet(args.surah, language)
     hypotheses = resolve_path(args.hypotheses) if args.hypotheses else None
     briefs = resolve_path(args.briefs) if args.briefs else None
+    draft = resolve_path(args.draft) if args.draft else None
 
     packet_json = load_json(packet)
     if packet_json.get("language") != language:
@@ -301,6 +394,7 @@ def main() -> int:
         packet_path=packet,
         hypotheses_path=hypotheses,
         briefs_path=briefs,
+        draft_path=draft,
     )
     wrote = immutable_write_text(output, prompt)
     verb = "wrote" if wrote else "unchanged"

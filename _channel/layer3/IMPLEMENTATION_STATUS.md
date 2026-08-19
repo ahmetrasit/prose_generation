@@ -1,134 +1,94 @@
-# Layer 3 v3 Implementation Status
+# Layer 3 Channel Workflow Status
 
-Status as of 2026-08-18: **v3 code path implemented, locally tested, and
-pushed to `origin/main` in commit `5c60f0d1`; production semantic passes have
-not been run.**
+Status as of 2026-08-19: **the Layer 3 workflow has been revised after the S1
+v3 regression diagnosis. The implementation and structural tests are complete;
+a fresh semantic S1 run has not yet been performed.**
 
-## Completed
+## Revised Contract
 
-- Layer 2 uses `_ayah_commentary/v2/PROMPT.md` through `scripts/instantiate.py`.
-- Layer 2 v2 prompt/runbook references are aligned around explicit local
-  resonances, no disambiguation, selective word analysis, four artifacts, and
-  no prose quota.
-- The v3 implementation was committed and pushed to `origin/main` as
-  `5c60f0d1`.
-- Layer 3 v3 now has active schemas:
-  - `_channel/layer3/schemas/layer2-handoff-v1.schema.json`;
-  - `_channel/layer3/schemas/source-packet-v3.schema.json`;
-  - `_channel/layer3/schemas/discovery-hypotheses-v2.schema.json`;
-  - `_channel/layer3/schemas/channel-briefs-v2.schema.json`;
-  - `_channel/layer3/schemas/surah-composition-v1.schema.json`;
-  - `_channel/layer3/schemas/surah-reading-evidence-v1.schema.json`.
-- `_channel/layer3/scripts/build_packet.py` builds `layer3-source-packet-v3`:
-  - requires Quran text, a typed Layer-1 primary floor, and complete Layer-2
-    `prose/evidence/index/friction` artifacts for every numbered ayah;
-  - parses every Layer-2 findings-index row;
-  - projects `surprise:<id>` rows as local resonances;
-  - carries Layer-2 evidence boundaries;
-  - hashes Layer-2 prose and friction for lineage while withholding their
-    content from semantic passes;
-  - projects Network V3 activation cards and bounded V11 material when present;
-  - writes language-aware packet filenames under immutable v3 run directories.
-- `_channel/layer3/scripts/instantiate.py` is rewritten for v3:
-  - validates packet/hypotheses/brief contracts before prompt generation;
-  - writes immutable per-attempt prompts under
-    `_channel/layer3/runs/v3/sNNN/{language}/{runId}/inputs/`;
-  - defaults stage outputs under the same run directory;
-  - discovery is blind to Layer 2;
-  - review receives typed primary ground plus complete Layer-2 handoff;
-  - compose expects a JSON composition envelope.
-- `_channel/layer3/scripts/finalize.py` publishes validated composition output:
-  - `N.surah-reading.{language}.md`;
-  - `N.surah-reading.evidence.{language}.json`;
-  - `N.surah-reading.friction.{language}.md`.
-- `_channel/layer3/scripts/validate.py` validates packets, discovery
-  hypotheses, channel briefs, composition envelopes, and publication evidence:
-  - channel-level `inputRefs` are not enough; each used input must appear in a
-    hinge;
-  - local resonances must carry their exact paired Layer-2 `findingRef`;
-  - composition landings must use distinct spans and carry the complete evidence
-    refs for each admitted channel or hinge.
-- Active Layer 3 prompts now require:
-  - explicit reader-friendly channels and resonances;
-  - no disambiguation among admitted channels;
-  - incompatible channels to coexist when admitted;
-  - complete accounting for every discovery hypothesis and local resonance;
-  - no word, paragraph, channel, or length quota;
-  - visible prose landings for every admitted channel and hinge.
-- Runbooks/spec references updated:
-  - `_channel/layer3/ORCHESTRATION.md`;
-  - `COMMENTARY_SPEC.md`;
-  - `docs/CHANNELS.md`;
-  - `README.md`;
-  - `_channel/README.md`;
-  - `scripts/README.md`.
-- `tests/test_layer3_channel_workflow.py` uses stdlib `unittest` coverage for
-  strict handoff selection, malformed indexes, discovery blindness,
-  many-to-many review accounting, complete local-resonance dispositions,
-  exact resonance/finding pairing, fallback boundary extraction, composition
-  landings, custom source roots, and finalizer evidence hashes.
+- Layer 3 has one channel model and two reader surfaces:
+  - a pre-surah prelude that plants concrete image expectations without
+    explaining their payoff;
+  - a post-surah postlude that reconnects the image system, its distributed
+    members, and its surprising whole-surah yield.
+- Discovery is channel-first and blind to Layer 2. A hypothesis must name a
+  concrete image system, its boundary, at least two distributed signals, its
+  proposed operation, and its expected reader shift.
+- Discovery must account exactly for every Network activation card. It cannot
+  satisfy the contract with an abstract theme that would survive deletion of
+  the named images.
+- Review tests secondary dependence and whole-surah yield. It preserves each
+  admitted ayah's distinct contribution as a member landing and records the
+  hinges that make those members operate together.
+- Review may merge candidates only when they share both the same image system
+  and the same reader payoff. Broad moral similarity is not a merge rule.
+- Layer 2 prose is withheld from discovery and review. After review admits a
+  channel, only the selected ayahs' editorial Layer 2 prose is projected into
+  composition.
+- Composition is a two-pass operation by the same agent:
+  - `compose` produces an expansive draft;
+  - `edit` removes repetition while preserving every channel, member, hinge,
+    and distinct prelude/postlude function.
+- Finalization accepts only an editorial composition and publishes separate
+  prelude and postlude Markdown files plus their evidence and friction files.
+
+## Active Artifacts
+
+- `_channel/layer3/schemas/discovery-hypotheses-v3.schema.json`
+- `_channel/layer3/schemas/channel-briefs-v3.schema.json`
+- `_channel/layer3/schemas/surah-composition-v2.schema.json`
+- `_channel/layer3/schemas/surah-reading-evidence-v2.schema.json`
+- `_channel/layer3/prompts/01-discover.md`
+- `_channel/layer3/prompts/02-review.md`
+- `_channel/layer3/prompts/03-compose.md`
+- `_channel/layer3/prompts/04-edit.md`
+
+Older discovery, brief, composition, and publication schemas remain only for
+archived run readability. They are not used by the active instantiator.
+
+## Enforced Invariants
+
+- Every selected Layer 2 artifact set is explicitly labeled `editorial`.
+- Every discovery activation card is accounted for exactly once in the
+  coverage ledger, with all hypothesis links declared.
+- Every admitted channel has at least two member ayahs and every member is
+  connected through a hinge.
+- Every admitted local resonance retains its exact Layer 2 finding pair.
+- Every prelude channel promise and every postlude channel, member, and hinge
+  landing has a distinct prose span and evidence coverage.
+- Prelude and postlude prose cannot be identical, contain workflow apparatus,
+  or collapse to duplicated paragraphs.
+- Finalization rejects draft-phase compositions.
 
 ## Validation Completed
 
-- `python3 -B -m unittest tests/test_layer3_channel_workflow.py` passes.
-- AST parsing passes for:
-  - `_channel/layer3/scripts/common.py`;
-  - `_channel/layer3/scripts/build_packet.py`;
-  - `_channel/layer3/scripts/instantiate.py`;
-  - `_channel/layer3/scripts/validate.py`;
-  - `_channel/layer3/scripts/finalize.py`.
-- JSON parsing passes for all `_channel/layer3/schemas/*.schema.json`.
-- Scoped `git diff --check` passed for the Layer 3 migration files before
-  commit.
-- Real S87 packet build previously succeeded against `_commentary/outputs/s087`
-  and wrote `/private/tmp/l3-s087-source-packet.tr.json` with 81 sources and one
-  V11 fallback warning.
-- Current v3 instantiation successfully generated
-  `/private/tmp/l3-s087-discover-current.prompt.md` from that S87 packet.
+- `python3 -B -m unittest tests.test_layer3_channel_workflow` passes 13 tests.
+- All Layer 3 JSON schemas parse successfully.
+- Scoped `git diff --check` passes for Layer 3 and its workflow tests.
+- Prompt instantiation tests verify discovery blindness, selected editorial
+  prose projection at compose time, same-agent edit input, and dual-surface
+  publication hashes.
+- A real S1 packet smoke build succeeded against the updated
+  `editorial.tr` Layer 2 set with 33 registered sources. Grounded and inferred
+  local resonances both survive the handoff; only the known partial V11 warning
+  remains.
+- A real S1 discovery prompt instantiated successfully from that packet and
+  includes the concrete-image, image-deletion, and exact activation-card
+  coverage requirements.
+- The cold-agent runbook now requires an explicit primary-floor path, captures
+  every emitted packet/prompt/output path, passes prior-stage artifacts
+  explicitly, validates each semantic stage, and archives failed attempts
+  before retrying.
+- The composition validator CLI accepts `--phase draft` and
+  `--phase editorial`, so orchestration can enforce the compose/edit boundary
+  before advancing.
 
-## Not Completed
+## Not Yet Completed
 
-- No semantic Layer 3 discovery/review/compose agent pass has been run.
-- No real S87 review or compose smoke has been run because that requires
-  semantic outputs.
-- A fresh real S87 packet rebuild could not be repeated after
-  `_commentary/outputs/s087` disappeared from the current worktree. Do not
-  restore or rewrite generated commentary outputs unless the user explicitly
-  requests it.
-
-## Current Worktree Warning
-
-There are many unrelated dirty files outside this Layer 3 migration, including
-deleted/generated `_commentary` outputs and bundle artifacts. They are not part
-of the v3 implementation change set. Preserve them unless the user explicitly
-asks to restore or remove them.
-
-The committed Layer 3/doc/test change set was limited to:
-
-- `README.md`;
-- `COMMENTARY_SPEC.md`;
-- `docs/CHANNELS.md`;
-- `scripts/README.md`;
-- `_channel/README.md`;
-- `_channel/layer3/ORCHESTRATION.md`;
-- `_channel/layer3/prompts/`;
-- `_channel/layer3/schemas/`;
-- `_channel/layer3/scripts/`;
-- `tests/test_layer3_channel_workflow.py`.
-
-## Remaining Work
-
-1. Run actual semantic Layer 3 passes on a chosen surah:
-   - discovery agent;
-   - review agent;
-   - compose agent;
-   - finalizer.
-2. Re-run a full real S87 packet build after the Layer-2 S87 output directory is
-   available again.
-3. Review the first real channel briefs manually for prose usefulness:
-   - all admitted channels visible;
-   - no ranking/disambiguation;
-   - all local resonances accounted for;
-   - claim policies strong enough to protect counterpressured material.
-4. After the first semantic run, update this file with the selected surah,
-   packet path, output paths, validator results, and any workflow friction.
+- No new semantic S1 discovery, review, compose, or edit pass has been run with
+  the revised prompts.
+- The current archived S1 v3 output remains diagnostic evidence of the old
+  workflow; it has not been overwritten.
+- The first revised S1 run still requires manual semantic review for image
+  specificity, genuine multi-ayah interaction, anticipatory restraint in the
+  prelude, and complete reinforcing payoff in the postlude.

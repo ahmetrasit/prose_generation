@@ -39,6 +39,7 @@
         "indexKey": { "type": "string", "minLength": 1 },
         "text": { "type": "string", "minLength": 1 },
         "inference": { "type": "boolean" },
+        "primaryRelation": { "enum": ["supports-primary", "shifts-primary"] },
         "sourceRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/sourceRef" } }
       }
     },
@@ -71,7 +72,11 @@
       "required": ["ayahRef", "artifactSetLabel", "artifactRefs", "findings", "localResonances", "boundaries"],
       "properties": {
         "ayahRef": { "$ref": "#/$defs/ayahRef" },
-        "artifactSetLabel": { "type": "string", "minLength": 1 },
+        "artifactSetLabel": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "(^|\\.)editorial(\\.|$)"
+        },
         "artifactRefs": { "$ref": "#/$defs/artifactRefs" },
         "findings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/finding" } },
         "localResonances": { "type": "array", "items": { "$ref": "#/$defs/localResonance" } },

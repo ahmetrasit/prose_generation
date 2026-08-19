@@ -388,6 +388,14 @@ def validate_packet(
         ayah_ref = ayah.get("ayahRef")
         if isinstance(ayah_ref, str):
             handoff_refs.append(ayah_ref)
+        artifact_label = ayah.get("artifactSetLabel")
+        if not isinstance(artifact_label, str) or not artifact_label.strip():
+            errors.append(f"{context}.artifactSetLabel: must be non-empty")
+        elif "editorial" not in artifact_label.split("."):
+            errors.append(
+                f"{context}.artifactSetLabel: Layer 3 requires an editorial "
+                "Layer-2 artifact set"
+            )
         artifacts = ayah.get("artifactRefs")
         expected_artifacts = {"prose", "evidence", "index", "friction"}
         if not is_dict(artifacts):
@@ -407,12 +415,17 @@ def validate_packet(
             if not is_dict(finding):
                 errors.append(f"{finding_context}: must be an object")
                 continue
+            finding_keys = {
+                "findingRef",
+                "indexKey",
+                "text",
+                "inference",
+                "sourceRefs",
+            }
+            errors.extend(required(finding, finding_keys, finding_context))
             errors.extend(
-                exact_keys(
-                    finding,
-                    {"findingRef", "indexKey", "text", "inference", "sourceRefs"},
-                    finding_context,
-                )
+                f"{finding_context}: unsupported key {key!r}"
+                for key in sorted(finding.keys() - finding_keys - {"primaryRelation"})
             )
             finding_ref = finding.get("findingRef")
             if isinstance(finding_ref, str):
@@ -420,6 +433,14 @@ def validate_packet(
                 finding_refs.add(finding_ref)
             if not str(finding.get("text", "")).strip():
                 errors.append(f"{finding_context}: text must be non-empty")
+            relation = finding.get("primaryRelation")
+            if relation is not None and relation not in {
+                "supports-primary",
+                "shifts-primary",
+            }:
+                errors.append(
+                    f"{finding_context}.primaryRelation: unsupported value {relation!r}"
+                )
             refs = finding.get("sourceRefs")
             if not is_list(refs) or not refs or any(
                 not known_source_ref(ref, known_sources) for ref in refs
@@ -545,11 +566,12 @@ def validate_hypotheses(
                 "surah",
                 "language",
                 "hypotheses",
+                "activationCardCoverage",
             },
             "hypotheses",
         )
     )
-    if hypotheses.get("schemaVersion") != "layer3-discovery-hypotheses-v2":
+    if hypotheses.get("schemaVersion") != "layer3-discovery-hypotheses-v3":
         errors.append("hypotheses: unsupported schemaVersion")
     for key in ("packetId", "sourceSetHash", "surah", "language"):
         if hypotheses.get(key) != packet.get(key):
@@ -561,6 +583,7 @@ def validate_hypotheses(
     known_ayahs = packet_ayah_refs(packet, numbered_only=True)
     known_cards = activation_refs(packet)
     hypothesis_ids: list[str] = []
+    hypothesis_cards: dict[str, set[str]] = {}
     for index, record in enumerate(records):
         context = f"hypotheses.hypotheses[{index}]"
         if not is_dict(record):
@@ -571,9 +594,12 @@ def validate_hypotheses(
                 record,
                 {
                     "hypothesisId",
+                    "readerName",
+                    "imageSystem",
+                    "systemBoundary",
                     "proposedOperation",
                     "readerShift",
-                    "rhetoricalReach",
+                    "memberSignals",
                     "activationCardRefs",
                 },
                 context,
@@ -584,6 +610,9 @@ def validate_hypotheses(
             errors.append(f"{context}: invalid hypothesisId")
         else:
             hypothesis_ids.append(hypothesis_id)
+        for key in ("readerName", "imageSystem", "systemBoundary", "proposedOperation"):
+            if not str(record.get(key, "")).strip():
+                errors.append(f"{context}.{key}: must be non-empty")
         shift = record.get("readerShift")
         if not is_dict(shift):
             errors.append(f"{context}.readerShift: must be an object")
@@ -593,38 +622,116 @@ def validate_hypotheses(
             )
             if any(not str(shift.get(key, "")).strip() for key in ("before", "hinge", "after")):
                 errors.append(f"{context}.readerShift: all fields must be non-empty")
-        reach = record.get("rhetoricalReach")
+        members = record.get("memberSignals")
         reached_ayahs: set[str] = set()
-        if not is_list(reach) or not reach:
-            errors.append(f"{context}.rhetoricalReach: must be a non-empty array")
+        member_cards: set[str] = set()
+        if not is_list(members) or len(members) < 2:
+            errors.append(f"{context}.memberSignals: must contain at least two members")
         else:
-            for movement_index, movement in enumerate(reach):
-                movement_context = f"{context}.rhetoricalReach[{movement_index}]"
-                if not is_dict(movement):
-                    errors.append(f"{movement_context}: must be an object")
+            for member_index, member in enumerate(members):
+                member_context = f"{context}.memberSignals[{member_index}]"
+                if not is_dict(member):
+                    errors.append(f"{member_context}: must be an object")
                     continue
                 errors.extend(
-                    exact_keys(movement, {"movement", "ayahRefs"}, movement_context)
+                    exact_keys(
+                        member,
+                        {"ayahRef", "concreteContribution", "activationCardRefs"},
+                        member_context,
+                    )
                 )
-                refs = movement.get("ayahRefs")
+                ayah_ref = member.get("ayahRef")
+                if ayah_ref not in known_ayahs:
+                    errors.append(f"{member_context}: unknown ayahRef {ayah_ref!r}")
+                elif isinstance(ayah_ref, str):
+                    reached_ayahs.add(ayah_ref)
+                if not str(member.get("concreteContribution", "")).strip():
+                    errors.append(f"{member_context}.concreteContribution: must be non-empty")
+                refs = member.get("activationCardRefs")
                 if not is_list(refs) or not refs:
-                    errors.append(f"{movement_context}.ayahRefs: must be non-empty")
-                    continue
-                for ref in refs:
-                    if ref not in known_ayahs:
-                        errors.append(f"{movement_context}: unknown ayahRef {ref!r}")
-                    elif isinstance(ref, str):
-                        reached_ayahs.add(ref)
+                    errors.append(f"{member_context}.activationCardRefs: must be non-empty")
+                else:
+                    errors.extend(
+                        duplicate_errors(
+                            [str(ref) for ref in refs],
+                            f"{member_context}.activationCardRefs",
+                        )
+                    )
+                    for ref in refs:
+                        if ref not in known_cards:
+                            errors.append(f"{member_context}: unknown activationCardRef {ref!r}")
+                        elif isinstance(ref, str):
+                            member_cards.add(ref)
         if len(reached_ayahs) < 2:
             errors.append(f"{context}: a Layer-3 hypothesis must cross at least two ayahs")
         cards = record.get("activationCardRefs")
-        if not is_list(cards):
-            errors.append(f"{context}.activationCardRefs: must be an array")
+        if not is_list(cards) or not cards:
+            errors.append(f"{context}.activationCardRefs: must be a non-empty array")
+            cards = []
         else:
+            errors.extend(
+                duplicate_errors(
+                    [str(ref) for ref in cards], f"{context}.activationCardRefs"
+                )
+            )
             for ref in cards:
                 if ref not in known_cards:
                     errors.append(f"{context}: unknown activationCardRef {ref!r}")
+        if set(cards) != member_cards:
+            errors.append(
+                f"{context}.activationCardRefs: must exactly equal the cards used "
+                "by memberSignals"
+            )
+        if isinstance(hypothesis_id, str) and ID.fullmatch(hypothesis_id):
+            hypothesis_cards[hypothesis_id] = set(cards)
     errors.extend(duplicate_errors(hypothesis_ids, "discovery hypotheses"))
+
+    coverage = hypotheses.get("activationCardCoverage")
+    if not is_list(coverage):
+        errors.append("hypotheses.activationCardCoverage: must be an array")
+        coverage = []
+    covered_cards: list[str] = []
+    known_hypothesis_ids = set(hypothesis_ids)
+    for index, item in enumerate(coverage):
+        context = f"hypotheses.activationCardCoverage[{index}]"
+        if not is_dict(item):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(
+            exact_keys(item, {"activationRef", "hypothesisIds", "searchNote"}, context)
+        )
+        activation_ref = item.get("activationRef")
+        if activation_ref not in known_cards:
+            errors.append(f"{context}: unknown activationRef {activation_ref!r}")
+        elif isinstance(activation_ref, str):
+            covered_cards.append(activation_ref)
+        linked = item.get("hypothesisIds")
+        if not is_list(linked):
+            errors.append(f"{context}.hypothesisIds: must be an array")
+            linked = []
+        errors.extend(
+            duplicate_errors([str(value) for value in linked], f"{context}.hypothesisIds")
+        )
+        if any(value not in known_hypothesis_ids for value in linked):
+            errors.append(f"{context}.hypothesisIds: contains an unknown hypothesis")
+        expected_links = {
+            hypothesis_id
+            for hypothesis_id, refs in hypothesis_cards.items()
+            if activation_ref in refs
+        }
+        if set(linked) != expected_links:
+            errors.append(
+                f"{context}.hypothesisIds: must exactly name hypotheses that use "
+                "this activation card"
+            )
+        if not str(item.get("searchNote", "")).strip():
+            errors.append(f"{context}.searchNote: must be non-empty")
+    errors.extend(duplicate_errors(covered_cards, "activation-card coverage"))
+    if set(covered_cards) != known_cards:
+        errors.append(
+            "hypotheses.activationCardCoverage: must account exactly once for "
+            "every supplied activation card"
+        )
     return errors
 
 
@@ -664,12 +771,12 @@ def validate_briefs(
             "briefs",
         )
     )
-    if briefs.get("schemaVersion") != "layer3-channel-briefs-v2":
+    if briefs.get("schemaVersion") != "layer3-channel-briefs-v3":
         errors.append("briefs: unsupported schemaVersion")
     for key in ("packetId", "sourceSetHash", "surah", "language"):
         if briefs.get(key) != packet.get(key):
             errors.append(f"briefs: {key} does not match packet")
-    expected_brief_id = f"{packet.get('runId')}-briefs-v2"
+    expected_brief_id = f"{packet.get('runId')}-briefs-v3"
     if briefs.get("briefId") != expected_brief_id:
         errors.append("briefs: briefId does not match packet run lineage")
 
@@ -711,6 +818,7 @@ def validate_briefs(
         errors.append("briefs.channels: must be an array")
         channels = []
     channel_ids: list[str] = []
+    member_ids: list[str] = []
     hinge_ids: list[str] = []
     used_inputs: set[str] = set()
     for index, channel in enumerate(channels):
@@ -724,13 +832,18 @@ def validate_briefs(
                 {
                     "channelId",
                     "readerName",
+                    "imageSystem",
+                    "systemBoundary",
                     "inputRefs",
                     "surfaceFloorRefs",
                     "surfaceFloor",
+                    "memberLandings",
                     "hinges",
                     "crossAyahOperation",
                     "readerShift",
                     "indispensableGain",
+                    "preludePromise",
+                    "postludePayoff",
                 },
                 context,
             )
@@ -741,13 +854,25 @@ def validate_briefs(
             channel_id = f"invalid-{index}"
         else:
             channel_ids.append(channel_id)
-        for key in ("readerName", "surfaceFloor", "crossAyahOperation", "indispensableGain"):
+        for key in (
+            "readerName",
+            "imageSystem",
+            "systemBoundary",
+            "surfaceFloor",
+            "crossAyahOperation",
+            "indispensableGain",
+            "preludePromise",
+            "postludePayoff",
+        ):
             if not str(channel.get(key, "")).strip():
                 errors.append(f"{context}.{key}: must be non-empty")
         inputs = channel.get("inputRefs")
         if not is_list(inputs) or not inputs:
             errors.append(f"{context}.inputRefs: must be non-empty")
             inputs = []
+        errors.extend(
+            duplicate_errors([str(ref) for ref in inputs], f"{context}.inputRefs")
+        )
         valid_inputs = {ref for ref in inputs if ref in required_inputs}
         for ref in inputs:
             if ref not in required_inputs:
@@ -764,12 +889,113 @@ def validate_briefs(
             errors.extend(exact_keys(shift, {"before", "after"}, f"{context}.readerShift"))
             if any(not str(shift.get(key, "")).strip() for key in ("before", "after")):
                 errors.append(f"{context}.readerShift: fields must be non-empty")
+
+        members = channel.get("memberLandings")
+        if not is_list(members) or len(members) < 2:
+            errors.append(f"{context}.memberLandings: must contain at least two members")
+            members = []
+        local_members: dict[str, dict[str, Any]] = {}
+        member_ayahs: set[str] = set()
+        channel_member_inputs: set[str] = set()
+        for member_index, member in enumerate(members):
+            member_context = f"{context}.memberLandings[{member_index}]"
+            if not is_dict(member):
+                errors.append(f"{member_context}: must be an object")
+                continue
+            errors.extend(
+                exact_keys(
+                    member,
+                    {
+                        "memberId",
+                        "ayahRef",
+                        "concreteContribution",
+                        "inputRefs",
+                        "evidenceRefs",
+                        "primaryRelation",
+                    },
+                    member_context,
+                )
+            )
+            member_id = member.get("memberId")
+            if not isinstance(member_id, str) or not ID.fullmatch(member_id):
+                errors.append(f"{member_context}: invalid memberId")
+                member_id = f"invalid-member-{index}-{member_index}"
+            else:
+                member_ids.append(member_id)
+                if member_id in local_members:
+                    errors.append(f"{member_context}: duplicate memberId {member_id!r}")
+                local_members[member_id] = member
+            ayah_ref = member.get("ayahRef")
+            if ayah_ref not in packet_ayah_refs(packet, numbered_only=True):
+                errors.append(f"{member_context}: unknown ayahRef {ayah_ref!r}")
+            elif isinstance(ayah_ref, str):
+                member_ayahs.add(ayah_ref)
+            if not str(member.get("concreteContribution", "")).strip():
+                errors.append(f"{member_context}.concreteContribution: must be non-empty")
+            member_inputs = member.get("inputRefs")
+            if not is_list(member_inputs) or not member_inputs:
+                errors.append(f"{member_context}.inputRefs: must be non-empty")
+                member_inputs = []
+            else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in member_inputs], f"{member_context}.inputRefs"
+                    )
+                )
+                if any(ref not in inputs for ref in member_inputs):
+                    errors.append(f"{member_context}.inputRefs: must be channel inputRefs")
+                channel_member_inputs.update(
+                    ref
+                    for ref in member_inputs
+                    if isinstance(ref, str) and ref in valid_inputs
+                )
+            refs = member.get("evidenceRefs")
+            if not is_list(refs) or not refs:
+                errors.append(f"{member_context}.evidenceRefs: must be non-empty")
+                refs = []
+            else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in refs], f"{member_context}.evidenceRefs"
+                    )
+                )
+            for ref in refs:
+                if ref not in known_evidence:
+                    errors.append(f"{member_context}: unknown evidenceRef {ref!r}")
+            for resonance_ref in (
+                ref
+                for ref in refs
+                if isinstance(ref, str) and ref.startswith("resonance:")
+            ):
+                expected_finding = resonance_findings.get(resonance_ref)
+                if expected_finding is None or expected_finding not in refs:
+                    errors.append(
+                        f"{member_context}: local resonance {resonance_ref!r} requires "
+                        "its exact paired findingRef"
+                    )
+            for input_ref in member_inputs:
+                if isinstance(input_ref, str) and input_ref.startswith("resonance:"):
+                    expected_finding = resonance_findings.get(input_ref)
+                    if input_ref not in refs or expected_finding not in refs:
+                        errors.append(
+                            f"{member_context}: local resonance input {input_ref!r} "
+                            "must appear in evidenceRefs with its exact paired findingRef"
+                        )
+            if member.get("primaryRelation") not in {
+                "supports-primary",
+                "shifts-primary",
+            }:
+                errors.append(f"{member_context}.primaryRelation: invalid relation")
+        if len(member_ayahs) < 2:
+            errors.append(f"{context}: an accepted channel must span at least two member ayahs")
+
         hinges = channel.get("hinges")
         if not is_list(hinges) or not hinges:
             errors.append(f"{context}.hinges: must be non-empty")
             hinges = []
         reached_ayahs: set[str] = set()
         channel_hinge_inputs: set[str] = set()
+        hinged_members: set[str] = set()
         for hinge_index, hinge in enumerate(hinges):
             hinge_context = f"{context}.hinges[{hinge_index}]"
             if not is_dict(hinge):
@@ -780,8 +1006,10 @@ def validate_briefs(
                     hinge,
                     {
                         "hingeId",
+                        "imageMovement",
                         "contribution",
                         "inputRefs",
+                        "memberIds",
                         "ayahRefs",
                         "evidenceRefs",
                         "claimPolicy",
@@ -795,34 +1023,97 @@ def validate_briefs(
                 hinge_id = f"invalid-hinge-{index}-{hinge_index}"
             else:
                 hinge_ids.append(hinge_id)
-            if not str(hinge.get("contribution", "")).strip():
-                errors.append(f"{hinge_context}.contribution: must be non-empty")
+            for key in ("imageMovement", "contribution"):
+                if not str(hinge.get(key, "")).strip():
+                    errors.append(f"{hinge_context}.{key}: must be non-empty")
             hinge_inputs = hinge.get("inputRefs")
             if not is_list(hinge_inputs) or not hinge_inputs:
                 errors.append(f"{hinge_context}.inputRefs: must be non-empty")
                 hinge_inputs = []
-            elif any(ref not in inputs for ref in hinge_inputs):
-                errors.append(f"{hinge_context}.inputRefs: must be channel inputRefs")
             else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in hinge_inputs], f"{hinge_context}.inputRefs"
+                    )
+                )
+                if any(ref not in inputs for ref in hinge_inputs):
+                    errors.append(f"{hinge_context}.inputRefs: must be channel inputRefs")
                 channel_hinge_inputs.update(
                     ref for ref in hinge_inputs if isinstance(ref, str) and ref in valid_inputs
                 )
-            ayah_values = hinge.get("ayahRefs")
-            if not is_list(ayah_values) or not ayah_values:
-                errors.append(f"{hinge_context}.ayahRefs: must be non-empty")
+
+            hinge_member_ids = hinge.get("memberIds")
+            if not is_list(hinge_member_ids) or len(hinge_member_ids) < 2:
+                errors.append(f"{hinge_context}.memberIds: must connect at least two members")
+                hinge_member_ids = []
             else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in hinge_member_ids],
+                        f"{hinge_context}.memberIds",
+                    )
+                )
+                unknown_members = [
+                    ref for ref in hinge_member_ids if ref not in local_members
+                ]
+                if unknown_members:
+                    errors.append(
+                        f"{hinge_context}.memberIds: unknown channel members "
+                        + ", ".join(map(str, unknown_members))
+                    )
+                hinged_members.update(
+                    ref for ref in hinge_member_ids if ref in local_members
+                )
+            ayah_values = hinge.get("ayahRefs")
+            if not is_list(ayah_values) or len(ayah_values) < 2:
+                errors.append(f"{hinge_context}.ayahRefs: must cross at least two ayahs")
+                ayah_values = []
+            else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in ayah_values], f"{hinge_context}.ayahRefs"
+                    )
+                )
                 for ref in ayah_values:
                     if ref not in packet_ayah_refs(packet, numbered_only=True):
                         errors.append(f"{hinge_context}: unknown ayahRef {ref!r}")
                     elif isinstance(ref, str):
                         reached_ayahs.add(ref)
+            expected_ayahs = {
+                local_members[member_id].get("ayahRef")
+                for member_id in hinge_member_ids
+                if member_id in local_members
+            }
+            if set(ayah_values) != expected_ayahs:
+                errors.append(
+                    f"{hinge_context}.ayahRefs: must exactly match the connected "
+                    "member ayahs"
+                )
             refs = hinge.get("evidenceRefs")
             if not is_list(refs) or not refs:
                 errors.append(f"{hinge_context}.evidenceRefs: must be non-empty")
                 refs = []
+            else:
+                errors.extend(
+                    duplicate_errors(
+                        [str(ref) for ref in refs], f"{hinge_context}.evidenceRefs"
+                    )
+                )
             for ref in refs:
                 if ref not in known_evidence:
                     errors.append(f"{hinge_context}: unknown evidenceRef {ref!r}")
+            required_member_evidence = {
+                ref
+                for member_id in hinge_member_ids
+                if member_id in local_members
+                for ref in local_members[member_id].get("evidenceRefs", [])
+                if isinstance(ref, str)
+            }
+            if not required_member_evidence.issubset(set(refs)):
+                errors.append(
+                    f"{hinge_context}.evidenceRefs: must include the evidence for "
+                    "every connected member"
+                )
             resonance_values = [
                 ref for ref in refs if isinstance(ref, str) and ref.startswith("resonance:")
             ]
@@ -869,15 +1160,23 @@ def validate_briefs(
                 if not is_list(policy.get("prohibitedClaims")):
                     errors.append(f"{hinge_context}.claimPolicy.prohibitedClaims: must be an array")
         if len(reached_ayahs) < 2:
-            errors.append(f"{context}: an accepted channel must span at least two ayahs")
-        missing_hinge_inputs = valid_inputs - channel_hinge_inputs
-        if missing_hinge_inputs:
+            errors.append(f"{context}: channel hinges must span at least two ayahs")
+        missing_members = set(local_members) - hinged_members
+        if missing_members:
             errors.append(
-                f"{context}: every channel inputRef must appear in at least one hinge: "
-                + ", ".join(sorted(missing_hinge_inputs))
+                f"{context}: every memberLanding must participate in a hinge: "
+                + ", ".join(sorted(missing_members))
             )
-        used_inputs.update(channel_hinge_inputs)
+        represented_inputs = channel_member_inputs | channel_hinge_inputs
+        missing_channel_inputs = valid_inputs - represented_inputs
+        if missing_channel_inputs:
+            errors.append(
+                f"{context}: every channel inputRef must appear in at least one "
+                "member or hinge: " + ", ".join(sorted(missing_channel_inputs))
+            )
+        used_inputs.update(represented_inputs)
     errors.extend(duplicate_errors(channel_ids, "channel briefs"))
+    errors.extend(duplicate_errors(member_ids, "channel members"))
     errors.extend(duplicate_errors(hinge_ids, "channel hinges"))
 
     dispositions = briefs.get("nonChannelDispositions")
@@ -885,12 +1184,13 @@ def validate_briefs(
         errors.append("briefs.nonChannelDispositions: must be an array")
         dispositions = []
     disposition_inputs: list[str] = []
+    disposition_explanations: list[str] = []
     allowed_reasons = {
         "local-only",
-        "primary-derived",
-        "duplicate",
-        "fails-latent-dependence",
-        "fails-reader-payoff",
+        "surface-image",
+        "same-image-and-payoff",
+        "fails-secondary-dependence",
+        "fails-whole-surah-yield",
         "unsupported",
     }
     for index, disposition in enumerate(dispositions):
@@ -908,9 +1208,18 @@ def validate_briefs(
             disposition_inputs.append(input_ref)
         if disposition.get("reason") not in allowed_reasons:
             errors.append(f"{context}: invalid non-channel reason")
-        if not str(disposition.get("explanation", "")).strip():
+        explanation = str(disposition.get("explanation", "")).strip()
+        if not explanation:
             errors.append(f"{context}.explanation: must be non-empty")
+        else:
+            disposition_explanations.append(explanation)
     errors.extend(duplicate_errors(disposition_inputs, "non-channel dispositions"))
+    errors.extend(
+        duplicate_errors(
+            disposition_explanations,
+            "non-channel disposition explanations",
+        )
+    )
     disposed = set(disposition_inputs)
     overlap = used_inputs & disposed
     if overlap:
@@ -936,7 +1245,7 @@ def validate_unique_span(prose: str, span: Any, context: str) -> list[str]:
     return []
 
 
-def validate_composition(
+def validate_composition_v1(
     composition: dict[str, Any],
     packet: dict[str, Any],
     briefs: dict[str, Any],
@@ -1129,35 +1438,368 @@ def validate_composition(
     return errors
 
 
+def duplicate_paragraph_errors(prose: str, context: str) -> list[str]:
+    seen: set[str] = set()
+    errors: list[str] = []
+    for paragraph in re.split(r"\n\s*\n", prose):
+        normalized = re.sub(r"\s+", " ", paragraph).strip()
+        if len(normalized) < 40 or normalized.startswith("#"):
+            continue
+        if normalized in seen:
+            errors.append(f"{context}: duplicate paragraph detected")
+        seen.add(normalized)
+    return errors
+
+
+def channel_evidence(channel: dict[str, Any]) -> set[str]:
+    return {
+        ref
+        for group in ("memberLandings", "hinges")
+        for item in channel.get(group, [])
+        if is_dict(item)
+        for ref in item.get("evidenceRefs", [])
+        if isinstance(ref, str)
+    }
+
+
+def validate_composition(
+    composition: dict[str, Any],
+    packet: dict[str, Any],
+    briefs: dict[str, Any],
+    *,
+    required_phase: str | None = None,
+) -> list[str]:
+    errors: list[str] = []
+    errors.extend(
+        exact_keys(
+            composition,
+            {
+                "schemaVersion",
+                "compositionId",
+                "phase",
+                "revisionOf",
+                "packetId",
+                "briefId",
+                "sourceSetHash",
+                "surah",
+                "language",
+                "prelude",
+                "postlude",
+                "evidenceMap",
+                "friction",
+            },
+            "composition",
+        )
+    )
+    if composition.get("schemaVersion") != "layer3-surah-composition-v2":
+        errors.append("composition: unsupported schemaVersion")
+    for key in ("packetId", "sourceSetHash", "surah", "language"):
+        if composition.get(key) != packet.get(key):
+            errors.append(f"composition: {key} does not match packet")
+    if composition.get("briefId") != briefs.get("briefId"):
+        errors.append("composition: briefId does not match channel briefs")
+
+    phase = composition.get("phase")
+    if phase not in {"draft", "editorial"}:
+        errors.append("composition.phase: must be 'draft' or 'editorial'")
+    if required_phase is not None and phase != required_phase:
+        errors.append(f"composition.phase: expected {required_phase!r}")
+    draft_id = f"{packet.get('runId')}-composition-draft-v2"
+    editorial_id = f"{packet.get('runId')}-composition-v2"
+    if phase == "draft":
+        if composition.get("compositionId") != draft_id:
+            errors.append("composition: draft compositionId does not match packet lineage")
+        if composition.get("revisionOf") is not None:
+            errors.append("composition: draft revisionOf must be null")
+    elif phase == "editorial":
+        if composition.get("compositionId") != editorial_id:
+            errors.append("composition: editorial compositionId does not match packet lineage")
+        if composition.get("revisionOf") != draft_id:
+            errors.append("composition: editorial revisionOf must name the draft composition")
+
+    surfaces: dict[str, str] = {}
+    for surface in ("prelude", "postlude"):
+        prose = composition.get(surface)
+        if not isinstance(prose, str) or not prose.strip():
+            errors.append(f"composition.{surface}: must be non-empty")
+            prose = ""
+        surfaces[surface] = prose
+        for pattern in FORBIDDEN_PROSE:
+            match = pattern.search(prose)
+            if match:
+                errors.append(
+                    f"composition.{surface}: apparatus term {match.group(0)!r} is forbidden"
+                )
+        errors.extend(duplicate_paragraph_errors(prose, f"composition.{surface}"))
+    if surfaces["prelude"].strip() == surfaces["postlude"].strip():
+        errors.append("composition: prelude and postlude must be distinct reader surfaces")
+    mapped_spans: dict[str, list[str]] = {"prelude": [], "postlude": []}
+
+    channels = {
+        item.get("channelId"): item
+        for item in briefs.get("channels", [])
+        if is_dict(item) and isinstance(item.get("channelId"), str)
+    }
+    members = {
+        member.get("memberId"): member
+        for channel in briefs.get("channels", [])
+        if is_dict(channel)
+        for member in channel.get("memberLandings", [])
+        if is_dict(member) and isinstance(member.get("memberId"), str)
+    }
+    hinges = {
+        hinge.get("hingeId"): hinge
+        for channel in briefs.get("channels", [])
+        if is_dict(channel)
+        for hinge in channel.get("hinges", [])
+        if is_dict(hinge) and isinstance(hinge.get("hingeId"), str)
+    }
+
+    evidence_map = composition.get("evidenceMap")
+    evidence_keys = {
+        "primaryGroundings",
+        "preludeChannelPromises",
+        "postludeChannelLandings",
+        "postludeMemberLandings",
+        "postludeHingeLandings",
+    }
+    if not is_dict(evidence_map):
+        errors.append("composition.evidenceMap: must be an object")
+        evidence_map = {}
+    else:
+        errors.extend(exact_keys(evidence_map, evidence_keys, "composition.evidenceMap"))
+
+    known_primary = primary_refs(packet)
+    groundings = evidence_map.get("primaryGroundings")
+    if not is_list(groundings) or len(groundings) != 2:
+        errors.append("composition.evidenceMap.primaryGroundings: must contain exactly two records")
+        groundings = []
+    grounded_surfaces: list[str] = []
+    for index, grounding in enumerate(groundings):
+        context = f"composition.evidenceMap.primaryGroundings[{index}]"
+        if not is_dict(grounding):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(exact_keys(grounding, {"surface", "span", "sourceRefs"}, context))
+        surface = grounding.get("surface")
+        if surface not in surfaces:
+            errors.append(f"{context}.surface: invalid surface")
+            continue
+        grounded_surfaces.append(surface)
+        errors.extend(
+            validate_unique_span(surfaces[surface], grounding.get("span"), f"{context}.span")
+        )
+        if isinstance(grounding.get("span"), str):
+            mapped_spans[surface].append(grounding["span"])
+        refs = grounding.get("sourceRefs")
+        if not is_list(refs) or not refs or any(ref not in known_primary for ref in refs):
+            errors.append(f"{context}.sourceRefs: must resolve to the typed primary floor")
+    errors.extend(duplicate_errors(grounded_surfaces, "composition primary grounding surfaces"))
+    if set(grounded_surfaces) != {"prelude", "postlude"}:
+        errors.append("composition: prelude and postlude each need one primary grounding")
+
+    promises = evidence_map.get("preludeChannelPromises")
+    if not is_list(promises):
+        errors.append("composition.evidenceMap.preludeChannelPromises: must be an array")
+        promises = []
+    promised_channels: list[str] = []
+    for index, promise in enumerate(promises):
+        context = f"composition.evidenceMap.preludeChannelPromises[{index}]"
+        if not is_dict(promise):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(exact_keys(promise, {"channelId", "span", "evidenceRefs"}, context))
+        channel_id = promise.get("channelId")
+        if channel_id not in channels:
+            errors.append(f"{context}: unknown channelId {channel_id!r}")
+            continue
+        promised_channels.append(channel_id)
+        errors.extend(
+            validate_unique_span(surfaces["prelude"], promise.get("span"), f"{context}.span")
+        )
+        if isinstance(promise.get("span"), str):
+            mapped_spans["prelude"].append(promise["span"])
+        allowed = channel_evidence(channels[channel_id])
+        refs = promise.get("evidenceRefs")
+        if not is_list(refs) or not refs or any(ref not in allowed for ref in refs):
+            errors.append(f"{context}.evidenceRefs: must resolve within the channel")
+    errors.extend(duplicate_errors(promised_channels, "composition prelude promises"))
+    if set(promised_channels) != set(channels):
+        errors.append("composition: every admitted channel needs exactly one prelude promise")
+
+    channel_landings = evidence_map.get("postludeChannelLandings")
+    if not is_list(channel_landings):
+        errors.append("composition.evidenceMap.postludeChannelLandings: must be an array")
+        channel_landings = []
+    landed_channels: list[str] = []
+    for index, landing in enumerate(channel_landings):
+        context = f"composition.evidenceMap.postludeChannelLandings[{index}]"
+        if not is_dict(landing):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(
+            exact_keys(
+                landing,
+                {"channelId", "operationSpan", "gainSpan", "evidenceRefs"},
+                context,
+            )
+        )
+        channel_id = landing.get("channelId")
+        if channel_id not in channels:
+            errors.append(f"{context}: unknown channelId {channel_id!r}")
+            continue
+        landed_channels.append(channel_id)
+        operation_span = landing.get("operationSpan")
+        gain_span = landing.get("gainSpan")
+        errors.extend(
+            validate_unique_span(
+                surfaces["postlude"], operation_span, f"{context}.operationSpan"
+            )
+        )
+        errors.extend(
+            validate_unique_span(surfaces["postlude"], gain_span, f"{context}.gainSpan")
+        )
+        for span in (operation_span, gain_span):
+            if isinstance(span, str):
+                mapped_spans["postlude"].append(span)
+        if isinstance(operation_span, str) and operation_span == gain_span:
+            errors.append(f"{context}: operationSpan and gainSpan must be distinct")
+        allowed = channel_evidence(channels[channel_id])
+        refs = landing.get("evidenceRefs")
+        if not is_list(refs) or set(refs) != allowed:
+            errors.append(f"{context}.evidenceRefs: must include every channel evidenceRef")
+    errors.extend(duplicate_errors(landed_channels, "composition postlude channel landings"))
+    if set(landed_channels) != set(channels):
+        errors.append("composition: every admitted channel needs one postlude landing")
+
+    member_landings = evidence_map.get("postludeMemberLandings")
+    if not is_list(member_landings):
+        errors.append("composition.evidenceMap.postludeMemberLandings: must be an array")
+        member_landings = []
+    landed_members: list[str] = []
+    for index, landing in enumerate(member_landings):
+        context = f"composition.evidenceMap.postludeMemberLandings[{index}]"
+        if not is_dict(landing):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(exact_keys(landing, {"memberId", "span", "evidenceRefs"}, context))
+        member_id = landing.get("memberId")
+        if member_id not in members:
+            errors.append(f"{context}: unknown memberId {member_id!r}")
+            continue
+        landed_members.append(member_id)
+        errors.extend(
+            validate_unique_span(surfaces["postlude"], landing.get("span"), f"{context}.span")
+        )
+        if isinstance(landing.get("span"), str):
+            mapped_spans["postlude"].append(landing["span"])
+        refs = landing.get("evidenceRefs")
+        allowed = set(members[member_id].get("evidenceRefs", []))
+        if not is_list(refs) or set(refs) != allowed:
+            errors.append(f"{context}.evidenceRefs: must include every member evidenceRef")
+    errors.extend(duplicate_errors(landed_members, "composition postlude member landings"))
+    if set(landed_members) != set(members):
+        errors.append("composition: every admitted member needs one postlude landing")
+
+    hinge_landings = evidence_map.get("postludeHingeLandings")
+    if not is_list(hinge_landings):
+        errors.append("composition.evidenceMap.postludeHingeLandings: must be an array")
+        hinge_landings = []
+    landed_hinges: list[str] = []
+    for index, landing in enumerate(hinge_landings):
+        context = f"composition.evidenceMap.postludeHingeLandings[{index}]"
+        if not is_dict(landing):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(exact_keys(landing, {"hingeId", "span", "evidenceRefs"}, context))
+        hinge_id = landing.get("hingeId")
+        if hinge_id not in hinges:
+            errors.append(f"{context}: unknown hingeId {hinge_id!r}")
+            continue
+        landed_hinges.append(hinge_id)
+        errors.extend(
+            validate_unique_span(surfaces["postlude"], landing.get("span"), f"{context}.span")
+        )
+        if isinstance(landing.get("span"), str):
+            mapped_spans["postlude"].append(landing["span"])
+        refs = landing.get("evidenceRefs")
+        allowed = set(hinges[hinge_id].get("evidenceRefs", []))
+        if not is_list(refs) or set(refs) != allowed:
+            errors.append(f"{context}.evidenceRefs: must include every hinge evidenceRef")
+        policy = hinges[hinge_id].get("claimPolicy", {})
+        for prohibited in policy.get("prohibitedClaims", []):
+            if not isinstance(prohibited, str) or not prohibited.strip():
+                continue
+            for surface, prose in surfaces.items():
+                if prohibited.casefold() in prose.casefold():
+                    errors.append(
+                        f"composition.{surface}: contains prohibited claim from "
+                        f"hinge {hinge_id!r}"
+                    )
+    errors.extend(duplicate_errors(landed_hinges, "composition postlude hinge landings"))
+    if set(landed_hinges) != set(hinges):
+        errors.append("composition: every admitted hinge needs one postlude landing")
+
+    for surface, spans in mapped_spans.items():
+        errors.extend(duplicate_errors(spans, f"composition {surface} evidence spans"))
+
+    friction = composition.get("friction")
+    if not is_list(friction):
+        errors.append("composition.friction: must be an array")
+    else:
+        for index, item in enumerate(friction):
+            context = f"composition.friction[{index}]"
+            if not is_dict(item):
+                errors.append(f"{context}: must be an object")
+                continue
+            errors.extend(exact_keys(item, {"code", "detail"}, context))
+            if not str(item.get("code", "")).strip() or not str(item.get("detail", "")).strip():
+                errors.append(f"{context}: code and detail must be non-empty")
+    return errors
+
+
 def publication_evidence(
     composition: dict[str, Any], packet: dict[str, Any], briefs: dict[str, Any]
 ) -> dict[str, Any]:
-    published_prose = composition["prose"].rstrip() + "\n"
+    published_prelude = composition["prelude"].rstrip() + "\n"
+    published_postlude = composition["postlude"].rstrip() + "\n"
     return {
-        "schemaVersion": "layer3-surah-reading-evidence-v1",
+        "schemaVersion": "layer3-surah-reading-evidence-v2",
         "packetId": packet["packetId"],
         "briefId": briefs["briefId"],
         "compositionId": composition["compositionId"],
         "sourceSetHash": packet["sourceSetHash"],
         "surah": packet["surah"],
         "language": packet["language"],
-        "proseSha256": sha256_text(published_prose),
+        "preludeSha256": sha256_text(published_prelude),
+        "postludeSha256": sha256_text(published_postlude),
         **composition["evidenceMap"],
     }
 
 
 def validate_publication_evidence(
-    evidence: dict[str, Any], prose: str, composition: dict[str, Any]
+    evidence: dict[str, Any],
+    prelude: str,
+    postlude: str,
+    composition: dict[str, Any],
 ) -> list[str]:
     errors: list[str] = []
-    if evidence.get("schemaVersion") != "layer3-surah-reading-evidence-v1":
+    if evidence.get("schemaVersion") != "layer3-surah-reading-evidence-v2":
         errors.append("publication evidence: unsupported schemaVersion")
-    if evidence.get("proseSha256") != sha256_text(prose):
-        errors.append("publication evidence: proseSha256 does not match prose")
+    if evidence.get("preludeSha256") != sha256_text(prelude):
+        errors.append("publication evidence: preludeSha256 does not match prelude")
+    if evidence.get("postludeSha256") != sha256_text(postlude):
+        errors.append("publication evidence: postludeSha256 does not match postlude")
     for key in ("packetId", "briefId", "compositionId", "sourceSetHash", "surah", "language"):
         if evidence.get(key) != composition.get(key):
             errors.append(f"publication evidence: {key} lineage mismatch")
-    for key in ("primaryClaims", "channelLandings", "hingeLandings"):
+    for key in (
+        "primaryGroundings",
+        "preludeChannelPromises",
+        "postludeChannelLandings",
+        "postludeMemberLandings",
+        "postludeHingeLandings",
+    ):
         if evidence.get(key) != composition.get("evidenceMap", {}).get(key):
             errors.append(f"publication evidence: {key} differs from composition")
     return errors
@@ -1189,6 +1831,9 @@ def main() -> int:
     composition_parser.add_argument("artifact", type=Path)
     composition_parser.add_argument("--packet", required=True, type=Path)
     composition_parser.add_argument("--briefs", required=True, type=Path)
+    composition_parser.add_argument(
+        "--phase", choices=("draft", "editorial"), help="require this composition phase"
+    )
     args = parser.parse_args()
 
     if args.command == "packet":
@@ -1204,7 +1849,10 @@ def main() -> int:
         )
     return report(
         validate_composition(
-            load_json(args.artifact), packet, load_json(args.briefs)
+            load_json(args.artifact),
+            packet,
+            load_json(args.briefs),
+            required_phase=args.phase,
         )
     )
 

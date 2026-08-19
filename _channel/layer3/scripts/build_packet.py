@@ -217,6 +217,10 @@ def select_layer2_artifact_set(
     )
 
 
+def is_editorial_layer2_label(label: str) -> bool:
+    return "editorial" in label.split(".")
+
+
 def clean_index_text(value: str) -> str:
     value = BRACKET_FLAG.sub(
         lambda match: "" if match.group(1) in KNOWN_INDEX_FLAGS else match.group(0),
@@ -290,6 +294,11 @@ def parse_index(
         relation_flags = {
             flag for flag in flags if flag in {"supports-primary", "shifts-primary"}
         }
+        if len(relation_flags) > 1:
+            raise SystemExit(
+                f"error: findings-index row at {path}:{line_number} carries "
+                "conflicting primary-relation flags"
+            )
         finding_ref = f"finding:{surah}:{ayah}:{len(findings) + 1:03d}"
         record = {
             "findingRef": finding_ref,
@@ -298,23 +307,16 @@ def parse_index(
             "inference": "inference" in flags,
             "sourceRefs": [f"{source_id}#line-{line_number}"],
         }
+        if relation_flags:
+            record["primaryRelation"] = next(iter(relation_flags))
         findings.append(record)
         resonance_match = RESONANCE_KEY.fullmatch(index_key)
         if resonance_match is None:
-            if relation_flags:
-                raise SystemExit(
-                    f"error: primary-relation flag on non-surprise row at "
-                    f"{path}:{line_number}"
-                )
             continue
         if len(relation_flags) != 1:
             raise SystemExit(
                 f"error: surprise row at {path}:{line_number} must carry exactly "
                 "one of [supports-primary] or [shifts-primary]"
-            )
-        if "inference" not in flags:
-            raise SystemExit(
-                f"error: surprise row at {path}:{line_number} must carry [inference]"
             )
         resonance_ref = (
             f"resonance:{surah}:{ayah}:"
@@ -716,6 +718,13 @@ def build_packet(
         selected_label, artifacts = select_layer2_artifact_set(
             layer2_dir, surah, ayah, layer2_label
         )
+        if not is_editorial_layer2_label(selected_label):
+            raise SystemExit(
+                f"error: Layer 3 requires the reader-facing editorial Layer-2 "
+                f"artifact set for {row['ayahRef']}; selected label "
+                f"{selected_label!r}. Pass --layer2-label with an editorial "
+                "label such as 'editorial.tr'."
+            )
         artifact_refs: dict[str, str] = {}
         for kind in LAYER2_KINDS:
             source_id = f"layer2-{kind}-{surah}-{ayah}"
@@ -732,7 +741,12 @@ def build_packet(
                         if kind == "index"
                         else "Explicit boundary sections only."
                         if kind == "evidence"
-                        else "Hashed for lineage; content withheld from semantic passes."
+                        else (
+                            "Hashed for lineage; content projected only after channel "
+                            "admission during composition."
+                            if kind == "prose"
+                            else "Hashed for lineage; content withheld from semantic passes."
+                        )
                     ),
                     quran_data=quran_data,
                     latent_activation=latent_activation,
@@ -965,7 +979,9 @@ def build_packet(
                     "The complete findings index is projected into typed records.",
                     f"{local_resonance_count} local resonance rows retained.",
                     f"{boundary_count} explicit boundary sections retained.",
-                    "Prose and friction content are withheld from semantic passes.",
+                    "Editorial prose is withheld from discovery and review, then "
+                    "projected for admitted member ayahs during composition.",
+                    "Friction content is withheld from semantic passes.",
                 ],
             ),
             "networkV3": coverage_group(

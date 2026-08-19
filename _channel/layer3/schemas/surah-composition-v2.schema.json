@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-surah-composition-v2.schema.json",
+  "title": "Layer 3 prelude and postlude composition envelope v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "compositionId",
+    "phase",
+    "revisionOf",
+    "packetId",
+    "briefId",
+    "sourceSetHash",
+    "surah",
+    "language",
+    "prelude",
+    "postlude",
+    "evidenceMap",
+    "friction"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "layer3-surah-composition-v2" },
+    "compositionId": { "type": "string", "minLength": 1 },
+    "phase": { "enum": ["draft", "editorial"] },
+    "revisionOf": {
+      "anyOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "packetId": { "type": "string", "minLength": 1 },
+    "briefId": { "type": "string", "minLength": 1 },
+    "sourceSetHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "language": { "type": "string", "pattern": "^[a-z]{2,8}(?:-[a-z0-9]{1,8})*$" },
+    "prelude": { "type": "string", "minLength": 1 },
+    "postlude": { "type": "string", "minLength": 1 },
+    "evidenceMap": { "$ref": "#/$defs/evidenceMap" },
+    "friction": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/frictionItem" }
+    }
+  },
+  "$defs": {
+    "sourceRef": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$" },
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "primaryGrounding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["surface", "span", "sourceRefs"],
+      "properties": {
+        "surface": { "enum": ["prelude", "postlude"] },
+        "span": { "type": "string", "minLength": 1 },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/sourceRef" }
+        }
+      }
+    },
+    "preludePromise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["channelId", "span", "evidenceRefs"],
+      "properties": {
+        "channelId": { "$ref": "#/$defs/id" },
+        "span": { "type": "string", "minLength": 1 },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "channelLanding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["channelId", "operationSpan", "gainSpan", "evidenceRefs"],
+      "properties": {
+        "channelId": { "$ref": "#/$defs/id" },
+        "operationSpan": { "type": "string", "minLength": 1 },
+        "gainSpan": { "type": "string", "minLength": 1 },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "memberLanding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["memberId", "span", "evidenceRefs"],
+      "properties": {
+        "memberId": { "$ref": "#/$defs/id" },
+        "span": { "type": "string", "minLength": 1 },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "hingeLanding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hingeId", "span", "evidenceRefs"],
+      "properties": {
+        "hingeId": { "$ref": "#/$defs/id" },
+        "span": { "type": "string", "minLength": 1 },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "evidenceMap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primaryGroundings",
+        "preludeChannelPromises",
+        "postludeChannelLandings",
+        "postludeMemberLandings",
+        "postludeHingeLandings"
+      ],
+      "properties": {
+        "primaryGroundings": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "$ref": "#/$defs/primaryGrounding" }
+        },
+        "preludeChannelPromises": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/preludePromise" }
+        },
+        "postludeChannelLandings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/channelLanding" }
+        },
+        "postludeMemberLandings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/memberLanding" }
+        },
+        "postludeHingeLandings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/hingeLanding" }
+        }
+      }
+    },
+    "frictionItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "detail"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "detail": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

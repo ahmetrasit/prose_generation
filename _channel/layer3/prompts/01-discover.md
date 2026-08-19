@@ -1,60 +1,91 @@
-# Pass 1A: Blind Cross-Ayah Discovery
+# Pass 1A: Blind Cross-Ayah Image-System Discovery
 
-Search for text-bound, cross-ayah latent activations that can change how a
-regular reader understands the surah.
+Search for text-bound secondary images or working systems that recur across the
+surah and can change how a regular reader sees the assembled text.
 
-Do not write commentary, a surah summary, final prose, evidence review, or a
-channel system. This pass only opens possible cross-ayah recognitions. Later
-passes decide which recognitions become channels.
+Do not write commentary, a surah summary, a primary-grounded thesis, evidence
+review, or final channel briefs. This pass opens materially distinct
+possibilities. Later review decides what qualifies.
 
 ## Input Boundary
 
 Use only the inlined discovery input:
 
-- the Quran surface anchors;
-- the typed primary floor for ordinary reading orientation;
-- mechanically projected activation cards from reviewed network material;
+- Quran surface anchors and typed primary-floor lines;
+- mechanically projected activation cards from reviewed Network material;
 - coverage warnings.
 
 The input intentionally excludes Layer-2 prose, Layer-2 findings, Layer-2
-friction, prior Layer-3 outputs, and outside sources. Do not reconstruct those
-materials from memory or from paths in provenance labels.
+boundaries, V11 prose, prior Layer-3 synthesis, and outside sources. Do not
+reconstruct those materials from memory or provenance paths.
 
-Activation cards are search signals. They are not translations, conclusions,
-proof, rankings, or prose plans.
+Activation cards are search signals, not translations, conclusions, rankings,
+or ready-made prose plans.
+
+## What To Discover
+
+A useful hypothesis is a concrete image or system, not an abstract topic or
+moral conclusion. Rain, collected water, a well, irrigation, growth, and
+settlement may form a provisioning system. "Care," "mercy," or "guidance" by
+themselves do not describe an image system.
+
+For each possible system, establish:
+
+- the concrete scene, material process, spatial relation, bodily action, social
+  arrangement, or exchange that holds it together;
+- at least two ayahs in which different members of that system become active;
+- what each ayah contributes to the same system;
+- the boundary that keeps the system coherent rather than merely thematic;
+- what transition, opening, ending, agency relation, or distant movement in
+  this surah becomes newly legible.
+
+Use the image-deletion test: if all concrete image language can be removed and
+the hypothesis still says materially the same thing, it is too abstract.
+
+## Divergent Search
+
+Move card by card before converging. Test materially different families such as
+movement and passage, water and provisioning, cultivation and repair, gift and
+return, embodiment and support, marking and visibility, belonging and
+dispersal, accounting and exchange, shelter and formation, or conflict and
+resistance whenever the supplied cards license them. This list directs search;
+it does not license an unsupported family.
+
+One activation card may support several hypotheses. Related cards need not be
+forced into one hypothesis. Preserve competing and countervailing systems when
+their concrete mechanisms or reader payoffs differ.
+
+Do not favor the broadest, safest, or easiest-to-defend account. Weak or remote
+possibilities may remain hypotheses when they are anchored, bounded, and create
+a distinct reader movement. Do not rank, merge, certify, reject, or narrow in
+this pass.
 
 ## Reader Delta
 
 The eventual reader knows a normal translation but has no Arabic or linguistic
-training. A hypothesis matters only when it creates a reader movement:
+training. Record:
 
-- `before`: what a thoughtful reader could already understand from the
-  translated surface;
-- `hinge`: the exact cross-ayah signal that unsettles or extends that ordinary
-  understanding;
-- `after`: the changed understanding that becomes possible.
+- `before`: what the translated surface already allows;
+- `hinge`: the precise secondary image relation that unsettles or extends it;
+- `after`: the changed surah-level recognition.
 
-The change may concern agency, direction, causality, value, scale, sequence,
-role, temporality, or the relation between distant movements.
+The `after` field must preserve the concrete system. Do not translate it into a
+generic claim such as "the surah is about care."
 
-## Search
+## Coverage
 
-First notice the surah's distinct movements: changes of scene, speaker,
-addressee, agency, time, scale, direction, or evaluative stance.
+After opening hypotheses, account once for every supplied activation card in
+`activationCardCoverage`.
 
-Then move across those boundaries. Ask what a signal anchored in one movement
-makes newly legible in another. Follow operations and state changes, not shared
-vocabulary alone. Preserve every materially distinct line the supplied signals
-open, including lines that compete with each other.
+- List every hypothesis that used the card.
+- If none used it, state which concrete family was tested and why no coherent
+  cross-ayah hypothesis formed.
+- Coverage is a search audit, not a rejection ledger. A card with no hypothesis
+  is not thereby declared false or valueless.
 
-This is not disambiguation. Do not choose one hypothesis over another. Do not
-rank, merge, certify, reject, or narrow. Weak or remote hypotheses may remain
-alive when they are anchored in supplied material and produce a distinct reader
-movement.
-
-Do not compress significant findings. There is no quota for hypotheses,
-paragraphs, words, channels, or length. The output should be as large or small
-as the supplied material warrants.
+Do not compress significant hypotheses. There is no quota for hypotheses,
+members, words, or length. The output should be as large or small as the
+supplied material warrants.
 
 ## Output
 
