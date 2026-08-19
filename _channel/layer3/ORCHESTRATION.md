@@ -200,6 +200,13 @@ The agent writes both reader surfaces in one draft envelope:
 - the postlude lands every channel, concrete member, and hinge, and returns to
   the primary surah with changed understanding.
 
+Reader surfaces must not ask the reader to trust unattached images. Every
+non-obvious image or working system needs a light first-use attachment to at
+least one representative ayah number and surface word or phrase. These anchors
+are reader orientation, not evidence apparatus: use forms like `1:6'daki yol
+isteği` or, when the Arabic word itself matters,
+`1:6'daki yol, {ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol}`.
+
 The evidence map records one primary grounding per surface, every prelude
 promise, and every postlude channel/member/hinge landing. It does not require a
 primary claim per ayah.
@@ -403,9 +410,9 @@ Revise without reducing interpretive yield or changing admission/evidentiary jud
 
 Do not shorten merely for length. There is no word, paragraph, section, heading, or channel quota. Give every significant image enough room. The goal is not less coverage; the goal is reader-facing continuity while preserving full coverage.
 
-Rewrite the prelude as fluent, contemporary Turkish for a regular reader. It must remain anticipatory: one compact surface foothold, one concrete unresolved promise per admitted channel, no proofs, no exhaustive member sequences, and no completed postlude payoff. Let the promises form one anticipatory movement rather than a catalogue.
+Rewrite the prelude as fluent, contemporary Turkish for a regular reader. It must remain anticipatory: one compact surface foothold, one concrete unresolved promise per admitted channel, no proofs, no exhaustive member sequences, and no completed postlude payoff. Let the promises form one anticipatory movement rather than a catalogue. Do not let images float unattached: when an image or system first appears, attach it lightly to at least one representative ayah number and surface word or phrase, such as `1:6'daki yol isteği`; when the Arabic word itself matters, use a compact span such as `{ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol}` after the ordinary Turkish sense.
 
-Rewrite the postlude as fluent, contemporary Turkish for a regular reader. It must remain complete: every admitted channel, member image, and hinge must land visibly. Remove analyst shorthand, workflow language, stiff technical calques, defensive repetition, and evidence-catalogue rhythm. Avoid restarting every paragraph as an independent finding or repeatedly announcing another image. Create cinematic continuity without adding drama or interpretation: each section should inherit a concrete image, question, tension, relation, or motion from the preceding section and carry it somewhere new.
+Rewrite the postlude as fluent, contemporary Turkish for a regular reader. It must remain complete: every admitted channel, member image, and hinge must land visibly. Remove analyst shorthand, workflow language, stiff technical calques, defensive repetition, and evidence-catalogue rhythm. Avoid restarting every paragraph as an independent finding or repeatedly announcing another image. Create cinematic continuity without adding drama or interpretation: each section should inherit a concrete image, question, tension, relation, or motion from the preceding section and carry it somewhere new. Keep every non-obvious image anchored on first use to a representative ayah number and surface word or phrase, so the reader can tell where the image enters the surah without consulting the hidden evidence map.
 
 Keep distinct findings recoverable even when they belong to one larger movement. Preserve the separateness of materially distinct systems such as water, passage, sight, repair, gift, belonging, account, protection, conflict, naming, and bodily uprightness; do not collapse them into a generic thesis. But let them operate inside a developing whole-surah reading rather than as separate exhibits.
 
@@ -509,6 +516,10 @@ A completed reading must satisfy all of these conditions:
   hinges.
 - The postlude visibly lands every channel, member, and hinge while remaining
   coherent prose rather than a catalogue.
+- Every non-obvious image or working system has a light reader-facing attachment
+  to at least one representative ayah number and surface word or phrase on first
+  use. The prose does not require the reader to remember Layer-2 commentary or
+  trust unattached imagery.
 - Neither surface retells the surah one ayah at a time.
 - The primary reading remains recoverable in both surfaces.
 - The editorial output contains no duplicate paragraphs or stray draft tails.

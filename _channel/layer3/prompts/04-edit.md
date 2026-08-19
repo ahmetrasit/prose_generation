@@ -46,6 +46,15 @@ each section should inherit an image, question, tension, relation, or motion and
 carry it somewhere new. Keep distinct findings recoverable without repeatedly
 announcing another image.
 
+Keep each non-obvious image attached to the text for a regular reader. On first
+use in either surface, give at least one light ayah/word anchor such as
+"1:6'daki yol isteği" or "1:7'deki iyiliğe ulaştırılanlar". If the image depends
+on a specific Arabic word rather than a whole surface phrase, include a compact
+structured span after the ordinary Turkish sense:
+`1:6'daki yol, {ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol}`. These anchors must feel
+like orientation inside the prose, not footnotes, evidence labels, or a return
+to ayah-by-ayah retelling.
+
 Remove duplicated headings, paragraphs, closing recaps, and stray draft tails.
 Do not compress merely to shorten the text. There is no length or section quota.
 

@@ -66,10 +66,20 @@ Do not preserve brief boundaries as prose units. Do not give each channel or
 hinge an isolated paragraph merely to satisfy accounting. Distinct gains must
 remain recoverable inside one developing composition.
 
-Arabic words may appear only when a specific surface word is indispensable;
-give its ordinary translated sense first. Never present a secondary
-contribution as the word's real translation, a hidden replacement meaning, or a
-historical event.
+Keep the reader oriented to where images come from. When a non-obvious image or
+system first becomes active in either surface, attach it lightly to at least one
+representative ayah number and surface word or phrase, for example "1:6'daki yol
+isteği" or "1:7'deki iyiliğe ulaştırılanlar". If the image depends on a specific
+Arabic word rather than a whole surface phrase, include a compact structured
+span after the ordinary Turkish sense:
+`1:6'daki yol, {ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol}`. Do not assume the reader
+has memorized the Layer-2 ayah commentaries. Use these anchors as reader-facing
+orientation, not as footnotes or apparatus.
+
+Arabic words may appear when they provide that necessary attachment point; give
+the ordinary translated sense first. Never present a secondary contribution as
+the word's real translation, a hidden replacement meaning, or a historical
+event.
 
 Treat every `claimPolicy` as a silent writing boundary. Include a brief
 containment correction only when a prohibited claim would otherwise be a likely
@@ -77,7 +87,8 @@ reader mistake.
 
 Do not display roots, branch IDs, finding refs, resonance refs, activation refs,
 source labels, packet IDs, schema names, confidence labels, workflow vocabulary,
-or agent vocabulary in either reader surface.
+or agent vocabulary in either reader surface. Ayah numbers and surface-word
+anchors are allowed and expected; they are not evidence apparatus.
 
 There is no paragraph, word, channel, or length quota. Give every significant
 image enough room. Do not inflate light material.
