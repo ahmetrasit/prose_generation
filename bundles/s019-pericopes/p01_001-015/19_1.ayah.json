@@ -1,0 +1,2250 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-08-23T20:09:14.504607+00:00",
+  "surah": 19,
+  "ayah": 1,
+  "ayahRef": "19:1",
+  "text": {
+    "arabic_uthmani": "كٓهيعٓصٓ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "19:1:1:1",
+      "qac_word_ref": "19:1:1",
+      "surah": 19,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "k^hyE^S^",
+      "surface_ar": "كٓهيعٓصٓ",
+      "stem_ar": "كٓهيعٓصٓ",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "INL",
+      "pos": "INL",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:INL",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 65043,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "19:1",
+    "bundle_id": "word-analysis-input-v1:agent:19:1",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "19:1:1",
+        "surface_display": "{{ar:كٓهيعٓصٓ}} ({{tr:kāf hāʾ yāʾ ʿayn ṣād}})",
+        "root_display": "no lexical root",
+        "gloss_range": "five recited letter-names fused into one rootless muqattaʿāt opener; its force comes through predicate-like placement, recitation, sound, distributional uniqueness, and a forward bridge into the dhikr frame rather than through an ordinary lexical gloss",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ذِكْرُ رَحْمَتِ رَبِّكَ",
+            "tr": "dhikru raḥmati rabbika",
+            "display": "{{ar:ذِكْرُ رَحْمَتِ رَبِّكَ}} ({{tr:dhikru raḥmati rabbika}})",
+            "gloss_range": "the following mercy-mention frame that picks up the opener's pressure in 19:2",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "صٓ",
+            "tr": "ṣād",
+            "display": "{{ar:صٓ}} ({{tr:ṣād}})",
+            "gloss_range": "standalone surah opener whose letter also closes the 19:1 sequence",
+            "relation": "contrast"
+          },
+          {
+            "id": "s3",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "كهيعص ذِكْرُ",
+            "tr": "kāf hāʾ yāʾ ʿayn ṣād dhikru",
+            "display": "{{ar:كهيعص ذِكْرُ}} ({{tr:kāf hāʾ yāʾ ʿayn ṣād dhikru}})",
+            "gloss_range": "extended reading that supplies the dhikr noun after the letter sequence",
+            "relation": "grammar"
+          },
+          {
+            "id": "s4",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ذِكْرُ",
+            "tr": "dhikru",
+            "display": "{{ar:ذِكْرُ}} ({{tr:dhikru}})",
+            "gloss_range": "dhikr noun that completes or picks up the opener in variant and next-ayah evidence",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s5",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ص",
+            "tr": "ṣād",
+            "display": "{{ar:ص}} ({{tr:ṣād}})",
+            "gloss_range": "final letter of the five-letter sequence, also relevant to assimilation and opener-echo rows",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s6",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ع",
+            "tr": "ʿayn",
+            "display": "{{ar:ع}} ({{tr:ʿayn}})",
+            "gloss_range": "central letter whose apparatus includes eye, spring, source, and essence pressure",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s7",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ك",
+            "tr": "kāf",
+            "display": "{{ar:ك}} ({{tr:kāf}})",
+            "gloss_range": "opening letter whose apparatus includes speech-initial pressure",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s8",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "كافُ",
+            "tr": "kāfu",
+            "display": "{{ar:كافُ}} ({{tr:kāfu}})",
+            "gloss_range": "expanded letter-name form that makes the opening letter explicit",
+            "relation": "grammar"
+          },
+          {
+            "id": "s9",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "كَلَام",
+            "tr": "kalām",
+            "display": "{{ar:كَلَام}} ({{tr:kalām}})",
+            "gloss_range": "speech or word field invoked by the kāf-initial apparatus",
+            "relation": "contrast"
+          },
+          {
+            "id": "s10",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ه",
+            "tr": "hāʾ",
+            "display": "{{ar:ه}} ({{tr:hāʾ}})",
+            "gloss_range": "letter whose vowel color is affected in imāla and short-vowel variants",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s11",
+            "word_refs": [
+              "19:1:1"
+            ],
+            "ar": "ي",
+            "tr": "yāʾ",
+            "display": "{{ar:ي}} ({{tr:yāʾ}})",
+            "gloss_range": "letter whose evidence keeps consonant and vowel-carrier roles live",
+            "relation": "nearby_term"
+          }
+        ],
+        "prose": "{{ar:كٓهيعٓصٓ}} ({{tr:kāf hāʾ yāʾ ʿayn ṣād}}) is a whole ayah made from five recited letter-names, fused into one written token and carrying no ordinary lexical root. The QAC-compatible evidence lets the opener fill a predicate-like slot, so the bare sound-string is not merely a loose title; grammar quietly supplies a recoverable demonstrative frame while the audible field remains only the letters. The extended {{ar:كهيعص ذِكْرُ}} ({{tr:kāf hāʾ yāʾ ʿayn ṣād dhikru}}) reading and the next ayah's {{ar:ذِكْرُ رَحْمَتِ رَبِّكَ}} ({{tr:dhikru raḥmati rabbika}}) (19:2) expose the same pressure from another angle: the opener can stand as a complete recited sign, yet it leans forward into named remembrance before the Zakariyyā narrative begins. Its semantic force stays polyvalent. The reader is asked to hear alphabetic letter-names and an undecoded cipher at once; dhikr-framing, attention, oath-like or mnemonic possibilities, and controlled opacity remain live because no governor, root, or argument frame selects one normal dictionary sense. More speculative initial readings also remain as narrowed apparatus: speech-pressure from {{ar:ك}} ({{tr:kāf}}) as an initial of {{ar:كَلَام}} ({{tr:kalām}}), eye/spring/source/essence pressure around {{ar:ع}} ({{tr:ʿayn}}), divine-attribute initials such as generous, guiding, certainty-or-hand, knowing, and truthful, and prophetic-name initials that foreground the surrounding surah's John and Jesus narrative field can hover around the sequence, but they do not replace the local letter-recitation surface. Form and recitation do much of the work. The script marks selected letters for extended performance, makes five names into one orthographic word, and contrasts continuous delivery with a waqf form that individuates the same five recitation atoms into a measured cadence chain. Vowel-color variants, especially imāla tilting {{ar:ه}} ({{tr:hāʾ}}) and {{ar:ي}} ({{tr:yāʾ}}), the expanded {{ar:كافُ}} ({{tr:kāfu}}) form, and special notation around {{ar:ع}} ({{tr:ʿayn}}) show that the opener attracted recitational handling without becoming a derived word; {{ar:ي}} ({{tr:yāʾ}}) also remains a consonant and vowel-carrier pressure point. In the extended dhikr reading, final {{ar:ص}} ({{tr:ṣād}}) can even press into {{ar:ذِكْرُ}} ({{tr:dhikru}}), making the boundary itself audible. Sound is therefore not decoration: the sequence moves through velar, laryngeal, palatal, pharyngeal, and emphatic zones, so the reciter physically traverses a wide Arabic articulatory range before any narrative clause appears. Distribution sharpens the effect. This is the only five-letter muqattaʿāt sequence and the exact string is corpus-unique, while its final {{ar:ص}} ({{tr:ṣād}}) also has an independent opener identity in Surah 38 (38:1). The convergent payoff is that Surah 19 begins with a compact, rootless, qirāʾāt-sensitive, acoustically broad, and forward-leaning sign whose controlled opacity becomes the threshold into mercy-mention.",
+        "topics": [
+          {
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed",
+            "headline": "predicate-like letters lean toward dhikr completion",
+            "representative_source_ids": [
+              "QG-948af06b",
+              "QG-a753071d",
+              "QG-a6d5477c",
+              "QB-942a82bd"
+            ],
+            "reader_payoff": "The reader notices that the bare letters can stand as a compressed nominal assertion while the dhikr reading and 19:2 reveal the same pressure toward explicit remembrance.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar_pred",
+              "qac:source_particle",
+              "critical:qiraat_dhikru_variant",
+              "critical:next_ayah_bridge"
+            ],
+            "reason": "The aligned QAC row marks the token as PRED while also treating it as particle-like disconnected letters; the dhikr completion is therefore retained as variant and forward-bridge pressure, not as the canonical surface replacing the bare opener."
+          },
+          {
+            "topic_id": "19:1:1:polyvalent-letter-cipher",
+            "status": "used",
+            "headline": "letter-names and cipher stay simultaneously live",
+            "representative_source_ids": [
+              "QS-02257027",
+              "QS-35a2e254",
+              "QS-ced44e57"
+            ],
+            "reader_payoff": "The reader holds the opener as pronounced alphabet and unresolved sign at the same time, rather than collapsing it into one hidden paraphrase.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:particle_other",
+              "qac:no_root",
+              "contextual:no_profiles"
+            ],
+            "reason": "With no local governor, argument frame, or lexical root, the CRITICAL rows about alphabetic recitation, cipher status, attention, and dhikr-framing remain coherent without one function controlling the parse."
+          },
+          {
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed",
+            "headline": "initial readings hover without decoding the opener",
+            "representative_source_ids": [
+              "QS-ee81d951",
+              "MS-c40d90f7",
+              "MS-0db83956",
+              "QE-3fc5f556"
+            ],
+            "reader_payoff": "The reader sees why attribute-initial, prophetic-initial, and letter-field readings can add pressure while the local word still remains five recited letters.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:semantic_apparatus",
+              "qac:root_empty",
+              "v4:no_local_root_rows"
+            ],
+            "reason": "The supplied initial and acrostic proposals are preserved as interpretive apparatus, but the guardrail evidence gives no selected lexical decoding that would replace the local letter-name surface."
+          },
+          {
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used",
+            "headline": "five letter-names become one ayah-word",
+            "representative_source_ids": [
+              "QF-0c49b6f7",
+              "QF-971f2c7f",
+              "QF-1e002ea8",
+              "QF-9f4320d8"
+            ],
+            "reader_payoff": "The reader sees language-material itself made into the whole ayah: five named letters are written as one rootless predicate-bearing token.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:root_empty",
+              "qac:single_orthographic_unit",
+              "qac:grammar_pred"
+            ],
+            "reason": "The aligned word has no root or form tag and is one orthographic unit, supporting the CRITICAL claims about fusion, marked recitation, and the shift away from derivational analysis."
+          },
+          {
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed",
+            "headline": "variant vocalization colors the same sequence",
+            "representative_source_ids": [
+              "QF-0f1e245a",
+              "QF-f08b6356",
+              "QP-0de9b691",
+              "QS-38eb47af"
+            ],
+            "reader_payoff": "The reader hears that the same letter sequence can receive different vowel color and letter-name handling while preserving its identity.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:qiraat_vowel_rows",
+              "qac:surface"
+            ],
+            "reason": "The vowel and letter-name rows are meaningful qirāʾāt/form evidence, but they color or expand the recited token rather than replacing the canonical fused sequence."
+          },
+          {
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed",
+            "headline": "continuous unit can be heard as five pause-units",
+            "representative_source_ids": [
+              "QF-d9df4622",
+              "QF-e2d93c09",
+              "MF-1aa46154"
+            ],
+            "reader_payoff": "The reader notices that continuity is itself a formal choice, because waqf evidence can re-expose the fused opener as five discrete recitation atoms.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:waqf_variant",
+              "qac:single_orthographic_unit"
+            ],
+            "reason": "The canonical local item is one continuous orthographic unit, so the pause-individuated form survives as contrastive recitational evidence rather than the controlling local delivery."
+          },
+          {
+            "topic_id": "19:1:1:dhikr-boundary-assimilation",
+            "status": "narrowed",
+            "headline": "final sound can fuse into dhikr",
+            "representative_source_ids": [
+              "QF-18045b39",
+              "QP-a7332540",
+              "QP-ba5a6cc5"
+            ],
+            "reader_payoff": "The reader hears how the extended dhikr reading can turn adjacency into a sound event when final {{ar:ص}} ({{tr:ṣād}}) presses into {{ar:ذِكْرُ}} ({{tr:dhikru}}).",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:dhikru_variant",
+              "critical:assimilation_rows"
+            ],
+            "reason": "Assimilation belongs to the extended reading with {{ar:ذِكْرُ}} ({{tr:dhikru}}), so it is retained as boundary pressure and not imposed on the canonical bare ayah."
+          },
+          {
+            "topic_id": "19:1:1:articulatory-journey",
+            "status": "used",
+            "headline": "the opener traverses the vocal tract",
+            "representative_source_ids": [
+              "MS-87b10c11",
+              "MT-ebd9fef9",
+              "QP-24ebad2d",
+              "QP-b5dd7508"
+            ],
+            "reader_payoff": "The reader notices that the ayah is experienced physically as a passage through contrasting articulation zones before it becomes a narratable proposition.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface_letter_sequence",
+              "critical:phonetic_rows"
+            ],
+            "reason": "The five named letters supply velar, laryngeal, palatal, pharyngeal, and emphatic-dental textures; the phonetic rows describe that local sequence rather than importing outside lexical meaning."
+          },
+          {
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used",
+            "headline": "the only five-letter muqattaʿāt token",
+            "representative_source_ids": [
+              "MS-6cc1ee91",
+              "QI-b14461a6",
+              "QH-6606372c",
+              "MH-577c52ba"
+            ],
+            "reader_payoff": "The reader notices that the opener's length and exact form are not routine; this one-word ayah carries a corpus-unique five-letter sequence.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:longest_muqattaat_note",
+              "critical:hapax_rows"
+            ],
+            "reason": "The QAC row explicitly notes the five-letter sequence as the longest muqattaʿāt, and the CRITICAL hapax rows supply the exact-token uniqueness claim."
+          },
+          {
+            "topic_id": "19:1:1:surah-opening-threshold",
+            "status": "used",
+            "headline": "letter-recitation becomes the surah threshold",
+            "representative_source_ids": [
+              "QT-4b7b5278",
+              "QT-6967afad",
+              "QT-ebca6ebf"
+            ],
+            "reader_payoff": "The reader enters Surah 19 through recited phonemic material rather than narrative, command, praise, or an ordinary lexical sentence.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:ayah_position",
+              "qac:grammar_other_pred"
+            ],
+            "reason": "The whole ayah is a single rootless letter-name unit, so the CRITICAL rows about opening genre and clause-like phonological architecture are locally supported."
+          },
+          {
+            "topic_id": "19:1:1:sad-opener-echo",
+            "status": "used",
+            "headline": "final ṣād has opener identity elsewhere",
+            "representative_source_ids": [
+              "QI-3af288a5",
+              "MI-96636c4b"
+            ],
+            "reader_payoff": "The reader notices that the final {{ar:ص}} ({{tr:ṣād}}) is not only a closing element here; it also appears as an independent surah-opening sign in 38:1.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:inter_ayah_rows",
+              "qac:surface_letter_sequence"
+            ],
+            "reason": "The inter-ayah row gives the concrete 38:1 comparison, and the local surface ends with {{ar:ص}} ({{tr:ṣād}}), so the echo is valid without making Surah 38 control the local parse."
+          },
+          {
+            "topic_id": "19:1:1:mercy-mention-bridge",
+            "status": "used",
+            "headline": "the cipher opens into mercy-mention",
+            "representative_source_ids": [
+              "MT-bdc53264",
+              "QB-509c100a"
+            ],
+            "reader_payoff": "The reader follows the movement from unexplained recited sign in 19:1 into {{ar:ذِكْرُ رَحْمَتِ رَبِّكَ}} ({{tr:dhikru raḥmati rabbika}}) in 19:2, before the narrative begins.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:next_ayah_bridge",
+              "qac:ayah_boundary"
+            ],
+            "reason": "The CRITICAL rows explicitly connect the 19:1 opener with the dhikr and mercy phrase in 19:2, so the bridge survives as a structural payoff rather than a new invented topic."
+          },
+          {
+            "topic_id": "19:1:1:convergent-signhood",
+            "status": "used",
+            "headline": "rarity, sound, variants, and position converge",
+            "representative_source_ids": [
+              "QY-b7aef224"
+            ],
+            "reader_payoff": "The reader sees that no single mechanism carries the opener alone; uniqueness, articulation, qirāʾāt pressure, and threshold position stack on one surface.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:root_empty",
+              "qac:single_word_ayah",
+              "critical:synthesis_rows"
+            ],
+            "reason": "The synthesis row summarizes features already retained under local guardrails: corpus uniqueness, broad sound path, qirāʾāt-sensitive form, and surah-opening placement."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-44b78ad6",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QG-948af06b",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QG-a6d5477c",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QG-a753071d",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QG-c5cd41c8",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MG-a59d806c",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MG-ee3d1887",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-02257027",
+            "topic_id": "19:1:1:polyvalent-letter-cipher",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-35a2e254",
+            "topic_id": "19:1:1:polyvalent-letter-cipher",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-38eb47af",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-6a93f5f4",
+            "topic_id": "19:1:1:polyvalent-letter-cipher",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-8896bd55",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-ced44e57",
+            "topic_id": "19:1:1:polyvalent-letter-cipher",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-e2010ce4",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-ee81d951",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-0db83956",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-6cc1ee91",
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-87b10c11",
+            "topic_id": "19:1:1:articulatory-journey",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-c40d90f7",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-08381f31",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-0c49b6f7",
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-0f1e245a",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-18045b39",
+            "topic_id": "19:1:1:dhikr-boundary-assimilation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-1e002ea8",
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-445d6ff5",
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-9615d774",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-971f2c7f",
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-9f4320d8",
+            "topic_id": "19:1:1:rootless-orthographic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-d9df4622",
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-e2d93c09",
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-f08b6356",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MF-1aa46154",
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-3af288a5",
+            "topic_id": "19:1:1:sad-opener-echo",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-b14461a6",
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-96636c4b",
+            "topic_id": "19:1:1:sad-opener-echo",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-149dfd8b",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QT-4b7b5278",
+            "topic_id": "19:1:1:surah-opening-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-6967afad",
+            "topic_id": "19:1:1:surah-opening-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-ebca6ebf",
+            "topic_id": "19:1:1:surah-opening-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-bdc53264",
+            "topic_id": "19:1:1:mercy-mention-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-ebd9fef9",
+            "topic_id": "19:1:1:articulatory-journey",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-3fc5f556",
+            "topic_id": "19:1:1:initial-and-acrostic-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QE-543d8991",
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-0de9b691",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-24ebad2d",
+            "topic_id": "19:1:1:articulatory-journey",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-b5dd7508",
+            "topic_id": "19:1:1:articulatory-journey",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-a7332540",
+            "topic_id": "19:1:1:dhikr-boundary-assimilation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-ba5a6cc5",
+            "topic_id": "19:1:1:dhikr-boundary-assimilation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-f8a58874",
+            "topic_id": "19:1:1:continuity-and-waqf-atomization",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QH-049a0280",
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used"
+          },
+          {
+            "row_id": "QH-6606372c",
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used"
+          },
+          {
+            "row_id": "MH-577c52ba",
+            "topic_id": "19:1:1:distributional-uniqueness",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-509c100a",
+            "topic_id": "19:1:1:mercy-mention-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-942a82bd",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QY-13c32d3e",
+            "topic_id": "19:1:1:vowel-and-letter-name-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QY-937b92b0",
+            "topic_id": "19:1:1:predicate-dhikr-completion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QY-b7aef224",
+            "topic_id": "19:1:1:convergent-signhood",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": [
+          "All CRITICAL rows are retained as used or narrowed because the guardrail evidence gives no contradiction; speculative initial/acrostic and variant-specific claims are narrowed so they do not replace the canonical rootless opener."
+        ]
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    null
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/full_context_packet.json",
+      "branch_inventories": []
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_1.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:1",
+      "window": [
+        "19:1",
+        "19:2",
+        "19:3",
+        "19:4",
+        "19:5",
+        "19:6",
+        "19:7",
+        "19:8",
+        "19:9",
+        "19:10",
+        "19:11",
+        "19:12",
+        "19:13",
+        "19:14",
+        "19:15"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:1",
+        "trace_kind": "reconstructed",
+        "rootless_focus": true,
+        "baseline_models": [
+          {
+            "model_id": "baseline_rootless_threshold",
+            "confidence": "strong",
+            "focus_anchor": "The ayah consists only of كٓهيعٓصٓ, five isolated letter forms with no rooted morphemes in the packet.",
+            "mechanism": "Rootlessness blocks lexical and root-derived semantics, while the segmented form interrupts ordinary sentence processing and foregrounds the units from which discourse is made.",
+            "activation_trace": [],
+            "changed_reading": {
+              "before": "An unreadable or semantically empty opener.",
+              "after": "A deliberate formal threshold that suspends lexical reading and presents articulated units before discourse, without yet decoding them."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_mnemonic_utterance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ك ر"
+            ],
+            "mechanism": "The immediate move into remembrance/mention recasts the rootless sequence as an arresting oral-memory cue: its value can lie in prompting and voicing recollection rather than carrying lexical content.",
+            "activation_trace": [
+              {
+                "source_ref": "19:2",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after absence supplies the mnemonic recovery function assigned to the opener."
+              },
+              {
+                "source_ref": "19:2",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention moving on the tongue supplies the opener's oral and recited channel."
+              }
+            ],
+            "structural_cues": [
+              "19:2 follows the rootless opener immediately and begins with a nominal framing of the ensuing account as remembrance or mention."
+            ],
+            "reader_inference": "The packet supplies adjacency plus mnemonic and vocal branch images; I infer that the opener primes recollection through utterance. A live alternative is that it is only a formal boundary unrelated to the following act of remembrance.",
+            "changed_reading": {
+              "before": "A formal interruption before discourse.",
+              "after": "A compact vocal mnemonic that arrests attention and primes the remembrance narrated next."
+            }
+          },
+          {
+            "model_id": "delta_concealed_call",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن د و",
+              "خ ف ي",
+              "د ع و"
+            ],
+            "mechanism": "A sequence that can be sounded but not lexically parsed becomes an acoustic veil: articulation is exposed while propositional content remains hidden, matching the nearby pattern of an audible yet private call.",
+            "activation_trace": [
+              {
+                "source_ref": "19:3",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "Raised calling supplies the audible address against which the opener's sounded form can be heard."
+              },
+              {
+                "source_ref": "19:3",
+                "root": "خ ف ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000428",
+                "branch_id": "B001",
+                "role": "Concealment supplies the withheld semantic side of the articulated sequence."
+              },
+              {
+                "source_ref": "19:4",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling through speech links the private prayer sequence to the opener's vocal form."
+              }
+            ],
+            "structural_cues": [
+              "19:3 repeats the call as verb and verbal noun, then qualifies it as hidden; 19:4 continues the first-person address to the Lord."
+            ],
+            "reader_inference": "The packet supplies calling, concealment, and prayer; I infer a formal analogy between hidden address and sound without lexical disclosure. The alternative is that hiddenness characterizes only Zechariah's prayer and does not retrospectively shape 19:1.",
+            "changed_reading": {
+              "before": "A mnemonic vocal cue with unresolved semantics.",
+              "after": "A compressed mode of address whose sound is available while its propositional content stays veiled."
+            }
+          },
+          {
+            "model_id": "delta_names_before_naming",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م و"
+            ],
+            "mechanism": "Because the opener is encountered as a chain of letter-names rather than as one lexical word, the later concentration on a child's unprecedented name activates it as a prelude of naming and marking: identifiable units precede a uniquely identified person.",
+            "activation_trace": [
+              {
+                "source_ref": "19:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "Naming as designation makes letter-names, rather than word meaning, the operative formal unit."
+              },
+              {
+                "source_ref": "19:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A visible identifying mark supplies the graphic counterpart to the spoken letter-names."
+              }
+            ],
+            "structural_cues": [
+              "19:7 realizes the same root at both the child's name and the denial of any prior namesake; 19:1 is composed of conventionally nameable letters but supplies no lexical designation."
+            ],
+            "reader_inference": "The packet supplies repeated naming, uniqueness, and a mapped branch of visible marking; I infer that the formal unit of 19:1 is the name/mark of each letter. The alternative is that the naming language has no retrospective relation to the opener.",
+            "changed_reading": {
+              "before": "Opaque units whose only evident force is interruption or sound.",
+              "after": "A sequence of names and marks whose identifiability exceeds its propositional decodability, preparing the account of unprecedented naming."
+            }
+          },
+          {
+            "model_id": "delta_sign_beyond_sentence_speech",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ك ل م",
+              "و ح ي",
+              "ك ت ب"
+            ],
+            "mechanism": "The requested sign is paired with suspended interpersonal speech, followed by communication through gesture-like revelation and then the book. This progression recasts the letter-only opener as a liminal sign-channel between voice and inscription: communicative, but not an ordinary sentence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:10",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies communicative force without requiring sentential wording."
+              },
+              {
+                "source_ref": "19:10",
+                "root": "ك ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001316",
+                "branch_id": "B001",
+                "role": "Intelligible speech connecting speakers is the channel explicitly suspended, defining the opener's contrastive mode."
+              },
+              {
+                "source_ref": "19:11",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B002",
+                "role": "Gesture supplies a replacement channel by which meaning passes without ordinary speech."
+              },
+              {
+                "source_ref": "19:11",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B003",
+                "role": "Inscription supplies the visible-sign analogue for the opener's glyph sequence."
+              },
+              {
+                "source_ref": "19:12",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and written text anchor the non-sentential opener to the later book-channel."
+              }
+            ],
+            "structural_cues": [
+              "19:10 negates speaking to people as the sign, 19:11 nevertheless transmits an instruction to the group, and 19:12 immediately foregrounds the book.",
+              "The focus ayah contains visible and pronounceable letter units but no rooted word or proposition."
+            ],
+            "reader_inference": "The packet supplies sign, speech suspension, nonverbal transmission, and ordered writing; I infer that 19:1 formally enacts meaningful signaling outside normal sentence speech. It may instead remain an opaque opener with no narrative enactment.",
+            "changed_reading": {
+              "before": "A rootless sequence that interrupts normal discourse.",
+              "after": "A threshold sign poised between vocalization and inscription, communicating by marked units while withholding ordinary sentence speech."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_textual_germination",
+            "confidence": "exploratory",
+            "containment": "Projecting birth, creation, and reanimation onto textual composition is cross-domain and does not decode the letters. It remains anchored in the opener's isolated pre-word units and in the packet's explicit branch for ordering letters; render it only as a formal analogy by which dormant-looking units become discourse.",
+            "focus_anchor": "The opener presents isolated letters before any word, allowing joining and activation to map to its compositional form without assigning it a fabricated root.",
+            "activation_trace": [
+              {
+                "source_ref": "19:5",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B004",
+                "role": "Interrupted offspring supplies the sterile-seeming starting condition of the analogy."
+              },
+              {
+                "source_ref": "19:9",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence supplies emergence beyond the prior condition."
+              },
+              {
+                "source_ref": "19:9",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Knowable thinghood supplies the boundary crossed when bare units become an intelligible textual object."
+              },
+              {
+                "source_ref": "19:12",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "Joining unit to unit supplies the compositional arrow from isolated letters toward discourse."
+              },
+              {
+                "source_ref": "19:12",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordering letters makes the emergence specifically textual rather than merely biological."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring what is still from repose supplies the reactivation endpoint of the analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static preface of disconnected signs.",
+              "after": "A dormant textual seed whose isolated units are joined and activated into discourse, analogically echoing impossible generation and renewed life."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The sign-speech-gesture-book sequence makes the opener legible as communication outside ordinary sentence speech.",
+            "The repeated naming language makes letter-names and visible marks a distinct formal reading of the sequence.",
+            "Immediate remembrance and the hidden call preserve oral-mnemonic and veiled-address readings alongside the graphic one."
+          ],
+          "what_was_special": "Because 19:1 is rootless, the productive evidence was formal rather than lexical: segmentation, pronounceability, visible marking, and adjacency could be activated without inventing a root or choosing a single decoding.",
+          "remaining_uncertainties": [
+            "No packet evidence determines a lexical expansion or referent for the five letters.",
+            "The mnemonic, concealed-call, naming, and sign-channel models may describe complementary functions or independent contextual projections.",
+            "The textual-germination model is deliberately contained as analogy because its causal direction is reader-supplied."
+          ]
+        }
+      }
+    }
+  },
+  "v12_reader_walks": {},
+  "v12_reader_walks_wide": {},
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/19_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 19,
+    "ayah_ref": "19:1",
+    "canonical_ayah_ref": "19:1",
+    "baseline": {
+      "source_ref": "19:1",
+      "text": "Kâf Hâ Yâ Ayn Sâd.",
+      "target_tokens": [
+        [
+          "Kâf",
+          [
+            "19:1:1"
+          ]
+        ],
+        [
+          "Hâ",
+          [
+            "19:1:1"
+          ]
+        ],
+        [
+          "Yâ",
+          [
+            "19:1:1"
+          ]
+        ],
+        [
+          "Ayn",
+          [
+            "19:1:1"
+          ]
+        ],
+        [
+          "Sâd",
+          [
+            "19:1:1"
+          ]
+        ]
+      ]
+    },
+    "findings": []
+  },
+  "butuncul_okuma_line": null,
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "20:1",
+      "note": "Another isolated-letter surah opening; the closest formal parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "42:2",
+      "note": "A five-letter isolated opening, with Ayn shared but a different sequence."
+    },
+    {
+      "label": "weak",
+      "ref": "40:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "41:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "42:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "43:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "44:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "medium",
+      "ref": "7:1",
+      "note": "An isolated-letter opening sharing the final Sad."
+    },
+    {
+      "label": "weak",
+      "ref": "26:1",
+      "note": "Ta-Sin-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "44:27",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "80:16",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "83:31",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "12:49",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "52:18",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "72:23",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "3:49",
+      "note": "No direct connection to the isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "22:5",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "medium",
+      "ref": "36:1",
+      "note": "A non-identical isolated-letter surah opening."
+    },
+    {
+      "label": "weak",
+      "ref": "45:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "46:1",
+      "note": "Ha-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "28:1",
+      "note": "Ta-Sin-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "29:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "2:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "30:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "31:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "32:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "3:1",
+      "note": "Alif-Lam-Mim is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "20:28",
+      "note": "No direct connection to the isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "90:13",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "37:155",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "56:37",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "89:2",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "92:21",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "81:21",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "101:11",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "101:1",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "83:20",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "83:9",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "69:1",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:1",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "78:1",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "37:130",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "74:21",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "55:64",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "20:30",
+      "note": "No direct connection to the isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "56:3",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "80:14",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "85:22",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "96:10",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "80:28",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "37:109",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "74:51",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "85:18",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "69:23",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "96:4",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "83:1",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "74:15",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "69:2",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "77:22",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "52:3",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "4:14",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "51:10",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "56:34",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "85:21",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "74:29",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "55:48",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "5:67",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:2",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "78:32",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "88:16",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "56:22",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "11:43",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "80:31",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "33:17",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "33:36",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "70:16",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "66:6",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "53:57",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "77:2",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:3",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:10",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "60:12",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "88:3",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "5:110",
+      "note": "No direct connection to the isolated-letter opening."
+    },
+    {
+      "label": "no value",
+      "ref": "100:11",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:5",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:4",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:7",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:8",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "100:6",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "77:4",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "17:64",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "24:52",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "26:7",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "46:26",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "2:187",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "33:53",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "5:41",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "4:91",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "no value",
+      "ref": "73:20",
+      "note": "No clear formal or supplied-route connection to 19:1."
+    },
+    {
+      "label": "strong",
+      "ref": "19:2",
+      "note": "Immediate continuation that begins the Zechariah narrative after the opening letters."
+    },
+    {
+      "label": "weak",
+      "ref": "10:1",
+      "note": "Alif-Lam-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "11:1",
+      "note": "Alif-Lam-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "12:1",
+      "note": "Alif-Lam-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "13:1",
+      "note": "Alif-Lam-Mim-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "14:1",
+      "note": "Alif-Lam-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "15:1",
+      "note": "Alif-Lam-Ra is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "27:1",
+      "note": "Ta-Sin is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "medium",
+      "ref": "38:1",
+      "note": "The isolated Sad opening shares one letter with 19:1."
+    },
+    {
+      "label": "weak",
+      "ref": "50:1",
+      "note": "Qaf is a non-identical isolated-letter opening."
+    },
+    {
+      "label": "weak",
+      "ref": "68:1",
+      "note": "Nun is a non-identical isolated-letter opening."
+    }
+  ],
+  "channel_subchannels_anchored_here": [],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s019",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 28505508,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 732911,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/summary.json",
+        "role": "summary.json",
+        "bytes": 16492,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 13638114,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 298706,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 2384491,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 29731,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 808361,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 9289,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 29529,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 79066007,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 13204256,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s019/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 11784,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 19,
+    "pericope": 1,
+    "ayah_from": 1,
+    "ayah_to": 15,
+    "label": "Zechariah and John",
+    "synthesized": false,
+    "source": "cli-span"
+  },
+  "root_lexicon": {},
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 1
+    },
+    "word_morpheme_spans": {
+      "present": false,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
+      "words_total": 1,
+      "words_resolved": 0,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {},
+      "unresolved": [
+        {
+          "word_index": 0,
+          "surface_ar": "كٓهيعٓصٓ",
+          "reason": "no morpheme rows for this ayah"
+        }
+      ],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
+        "ayah_count": 97,
+        "row_count": 1551,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": true,
+      "detail": null,
+      "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 1
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 48,
+      "subchannel_count": 52,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s019/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 0
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s019",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [],
+          "branch_counts": {},
+          "missing_branch_inventories": [
+            {
+              "root": "ك ي ف",
+              "refs": [
+                "19:29"
+              ],
+              "reason": "no accepted, non-contaminated branch inventory in resource"
+            },
+            {
+              "root": "ء د د",
+              "refs": [
+                "19:89"
+              ],
+              "reason": "no accepted, non-contaminated branch inventory in resource"
+            }
+          ],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 237,
+        "roots_retained": 0,
+        "roots_dropped": 237,
+        "retained": [],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ذ ك ر",
+          "ر ب ب",
+          "ع ب د",
+          "ن د و",
+          "خ ف ي",
+          "ق و ل",
+          "و ه ن",
+          "ع ظ م",
+          "ش ع ل",
+          "ر ء س",
+          "ش ي ب",
+          "ك و ن",
+          "د ع و",
+          "ش ق و",
+          "خ و ف",
+          "و ل ي",
+          "و ر ي",
+          "م ر ء",
+          "ع ق ر",
+          "و ه ب",
+          "ل د ن",
+          "و ر ث",
+          "ء و ل",
+          "ج ع ل",
+          "ر ض و",
+          "ب ش ر",
+          "غ ل م",
+          "ق ب ل",
+          "ء ن ي",
+          "ب ل غ",
+          "ك ب ر",
+          "ع ت و",
+          "ه و ن",
+          "خ ل ق",
+          "ش ي ء",
+          "ء ي ي",
+          "ك ل م",
+          "ن و س",
+          "ث ل ث",
+          "ل ي ل",
+          "س و ي",
+          "خ ر ج",
+          "ق و م",
+          "ح ر ب",
+          "و ح ي",
+          "س ب ح",
+          "ب ك ر",
+          "ع ش و",
+          "ء خ ذ",
+          "ك ت ب",
+          "ق و ي",
+          "ء ت ي",
+          "ح ك م",
+          "ص ب و",
+          "ح ن ن",
+          "ز ك و",
+          "و ق ي",
+          "ب ر ر",
+          "و ل د",
+          "ج ب ر",
+          "ع ص ي",
+          "س ل م",
+          "ي و م",
+          "م و ت",
+          "ب ع ث",
+          "ح ي ي",
+          "ن ب ذ",
+          "ء ه ل",
+          "ش ر ق",
+          "د و ن",
+          "ح ج ب",
+          "ر س ل",
+          "ر و ح",
+          "م ث ل",
+          "ع و ذ",
+          "م س س",
+          "ب غ ي",
+          "ء م ر",
+          "ق ض ي",
+          "ح م ل",
+          "ق ص و",
+          "ج ي ء",
+          "م خ ض",
+          "ج ذ ع",
+          "ن خ ل",
+          "ن س ي",
+          "ت ح ت",
+          "ح ز ن",
+          "س ر ي",
+          "ه ز ز",
+          "س ق ط",
+          "ر ط ب",
+          "ج ن ي",
+          "ء ك ل",
+          "ش ر ب",
+          "ق ر ر",
+          "ع ي ن",
+          "ر ء ي",
+          "ء ح د",
+          "ن ذ ر",
+          "ص و م",
+          "ء ن س",
+          "ف ر ي",
+          "ء خ و",
+          "ء ب و",
+          "س و ء",
+          "ء م م",
+          "ش و ر",
+          "م ه د",
+          "ن ب ء",
+          "ب ر ك",
+          "و ص ي",
+          "ص ل و",
+          "د و م",
+          "ب ن ي",
+          "ح ق ق",
+          "م ر ي",
+          "ص ر ط",
+          "خ ل ف",
+          "ح ز ب",
+          "ب ي ن",
+          "ك ف ر",
+          "ش ه د",
+          "س م ع",
+          "ب ص ر",
+          "ظ ل م",
+          "ض ل ل",
+          "ح س ر",
+          "غ ف ل",
+          "ء م ن",
+          "ء ر ض",
+          "ر ج ع",
+          "ص د ق",
+          "غ ن ي",
+          "ع ل م",
+          "ت ب ع",
+          "ه د ي",
+          "ش ط ن",
+          "ع ذ ب",
+          "ر غ ب",
+          "ن ه ي",
+          "ر ج م",
+          "ه ج ر",
+          "م ل و",
+          "غ ف ر",
+          "ح ف و",
+          "ع ز ل",
+          "ع س ي",
+          "ك ل ل",
+          "ل س ن",
+          "ع ل و",
+          "خ ل ص",
+          "ج ن ب",
+          "ط و ر",
+          "ي م ن",
+          "ق ر ب",
+          "ن ج و",
+          "و ع د",
+          "ع ن د",
+          "ر ف ع",
+          "ن ع م",
+          "ذ ر ر",
+          "ج ب ي",
+          "ت ل و",
+          "خ ر ر",
+          "س ج د",
+          "ب ك ي",
+          "ب ع د",
+          "ض ي ع",
+          "ش ه و",
+          "ل ق ي",
+          "غ و ي",
+          "ت و ب",
+          "ع م ل",
+          "ص ل ح",
+          "د خ ل",
+          "ج ن ن",
+          "غ ي ب",
+          "ل غ و",
+          "ر ز ق",
+          "ن ز ل",
+          "ي د ي",
+          "ص ب ر",
+          "ح ش ر",
+          "ح ض ر",
+          "ح و ل",
+          "ج ث و",
+          "ن ز ع",
+          "ش ي ع",
+          "ش د د",
+          "ص ل ي",
+          "و ر د",
+          "ح ت م",
+          "و ذ ر",
+          "ف ر ق",
+          "خ ي ر",
+          "ح س ن",
+          "ه ل ك",
+          "ق ر ن",
+          "ء ث ث",
+          "م د د",
+          "س و ع",
+          "ش ر ر",
+          "ض ع ف",
+          "ج ن د",
+          "ز ي د",
+          "ب ق ي",
+          "ث و ب",
+          "ر د د",
+          "م و ل",
+          "ط ل ع",
+          "ع ه د",
+          "ف ر د",
+          "ع ز ز",
+          "ض د د",
+          "ء ز ز",
+          "ع ج ل",
+          "ع د د",
+          "و ف د",
+          "س و ق",
+          "ج ر م",
+          "م ل ك",
+          "ش ف ع",
+          "ك و د",
+          "ف ط ر",
+          "ش ق ق",
+          "ج ب ل",
+          "ه د د",
+          "ح ص ي",
+          "و د د",
+          "ي س ر",
+          "ل د د",
+          "ح س س",
+          "ر ك ز"
+        ],
+        "ayah_roots_from_qac": [],
+        "channel_citations_found": 0,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED, NOT ABSENT. This ayah has QAC morpheme rows but no lexical roots, so the surah-scope branch inventory has no ayah root to retain. The empty scoped inventory is deliberate for rootless units such as muqatta'at, not a missing source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 1,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "run_dirs_checked": [
+        "latent_activation/focus_trace/runs/s019",
+        "latent_activation/focus_trace/runs/s19"
+      ],
+      "selected_run_dir": "latent_activation/focus_trace/runs/s19",
+      "excluded": false,
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 113872,
+      "split_root_count": 0,
+      "reader_count": 1
+    },
+    "v12_reader_walks": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "zero_headings_parsed": true,
+          "note": "reader_s019_a_ayah_walk.md found but zero ayah headings recognised (unrecognised format)"
+        }
+      },
+      "lookup_refs": [
+        "19:1"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "zero_headings_parsed": true,
+          "note": "reader_s019_a_ayah_walk.md found but zero ayah headings recognised (unrecognised format)"
+        }
+      },
+      "lookup_refs": [
+        "19:1"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/19_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "19:1",
+      "finding_count": 0,
+      "grade_counts": {},
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": false,
+      "source_file": null,
+      "note": "no whole-surah reading file exists for this surah"
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 111,
+      "label_counts": {
+        "strong": 2,
+        "medium": 4,
+        "weak": 24,
+        "no value": 81
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": false,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": false,
+      "roots_in_ayah": [],
+      "per_root": {},
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 0,
+        "dictionary_branches_kept": 0,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}
