@@ -1608,7 +1608,7 @@ def channel_blocks_for_ayah(review: dict, ayah_ref: str) -> list:
 # Source: inter-ayah rows (headerless 3-col TSV)
 # ---------------------------------------------------------------------------
 
-VALID_LABELS = {"strong", "medium", "weak", "no value"}
+VALID_LABELS = {"strong", "medium", "weak", "no value", "contrast"}
 
 
 def load_inter_ayah_rows(surah: int, ayah: int) -> tuple:
@@ -1632,6 +1632,8 @@ def load_inter_ayah_rows(surah: int, ayah: int) -> tuple:
                     f"{path}:{lineno}: expected 3 tab-separated fields, got {len(parts)}"
                 )
             label, ref, note = parts
+            if label not in VALID_LABELS and ref in VALID_LABELS and re.match(r"^\d+:\d+(?:-\d+)?$", label):
+                label, ref = ref, label
             if label not in VALID_LABELS:
                 raise RuntimeError(f"{path}:{lineno}: unrecognised label {label!r}")
             rows.append({"label": label, "ref": ref, "note": note})
