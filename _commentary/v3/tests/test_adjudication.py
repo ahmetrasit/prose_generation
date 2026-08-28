@@ -110,6 +110,34 @@ def fixture_docket(*, legacy_hft: bool = False) -> dict:
     return docket
 
 
+def fixture_docket_with_publications(*, count: int = 1) -> dict:
+    bundle = fixture_bundle_for_docket()
+    bundle["v12_cross_run_publication"] = {
+        "ayah_ref": "29:38",
+        "findings": [
+            {
+                "text": (
+                    f"Worked-road publication finding {index} with distinct "
+                    "interpretive content."
+                ),
+                "grade": "strong",
+                "anchors": [["29:38:1", "root_001046", ["B011"]]],
+            }
+            for index in range(count)
+        ],
+    }
+    _prepared, docket = build_prepared_artifacts(
+        bundle,
+        source_path=Path("fixture-with-publication.json"),
+        options=PrepareOptions(
+            hft_policy="quarantine",
+            max_optional_candidates=max(40, count + 8),
+            max_docket_bytes=5_000_000,
+        ),
+    )
+    return docket
+
+
 def response_for_docket(
     docket: dict,
     *,
@@ -122,7 +150,9 @@ def response_for_docket(
     }
     decisions = []
     for candidate in docket["candidates"]:
-        selected = candidate["obligation"] == "must_integrate"
+        if not candidate["selection_eligible"]:
+            continue
+        selected = True
         evidence_supports = [
             support_id
             for support_id in candidate["support_ids"]
@@ -130,8 +160,26 @@ def response_for_docket(
             and support_registry[support_id]["trust"] == "trusted"
             and support_registry[support_id]["citable"]
         ]
-        selected_supports = evidence_supports or [candidate["support_ids"][0]]
-        claim_label = f"{candidate['title']} {candidate['candidate_id'][-8:]}"
+        selected_supports = [
+            next(
+                (
+                    support_id
+                    for support_id in evidence_supports
+                    if not support_registry[support_id]["branch_refs"]
+                ),
+                evidence_supports[0],
+            )
+        ]
+        support = support_registry[selected_supports[0]]
+        quote = support["text"][: min(len(support["text"]), 120)].strip()
+        selected_branches = sorted(
+            {
+                branch_ref
+                for support_id in selected_supports
+                for branch_ref in support_registry[support_id]["branch_refs"]
+            }
+        )
+        claim_label = f"{candidate['title']} sira {len(decisions) + 1}"
         decisions.append(
             {
                 "candidate_id": candidate["candidate_id"],
@@ -147,7 +195,7 @@ def response_for_docket(
                 "containment": "Sozluk anlami yerine gecmez." if selected else None,
                 "selection_basis": (
                     {
-                        "kind": "mandatory",
+                        "kind": "mandatory" if candidate["mandatory"] else "distinct",
                         "deletion_loss": (
                             f"{claim_label} silinirse ona ozgu yerel yorum sonucu "
                             "metinden tamamen kaybolur."
@@ -157,8 +205,13 @@ def response_for_docket(
                     if selected
                     else None
                 ),
+                "support_quote": {
+                    "support_id": selected_supports[0],
+                    "quote": quote,
+                },
+                "exclusion_basis": None,
                 "support_ids": selected_supports,
-                "branch_refs": [] if selected else list(candidate["branch_refs"]),
+                "branch_refs": selected_branches,
             }
         )
     new_candidates = []
@@ -252,6 +305,10 @@ def response_for_docket(
                     ),
                     "subsumes_candidate_ids": [],
                 },
+                "support_quote": {
+                    "support_id": local_supports["root_000672"]["support_id"],
+                    "quote": local_supports["root_000672"]["text"][:120].strip(),
+                },
                 "confidence": "exploratory",
                 "anchor_refs": ["29:38", "29:41"],
                 "support_ids": [
@@ -325,6 +382,7 @@ def response_for_docket(
                 if support_registry[support_id]["role"] == "candidate_evidence"
                 and support_registry[support_id]["trust"] == "trusted"
                 and support_registry[support_id]["citable"]
+                and branch_ref in support_registry[support_id]["branch_refs"]
             )
             contact_mode = "source_explicit"
             contact_claim = (
@@ -442,6 +500,7 @@ def response_for_docket(
         },
         "decisions": decisions,
         "new_candidates": new_candidates,
+        "discovery_complete": True,
         "branch_review": branch_review,
     }
 
@@ -470,7 +529,7 @@ def select_optional_decision(
             or f"{suffix} silinirse ona ozgu yorum sonucu metinden tamamen kaybolur.",
             "subsumes_candidate_ids": subsumes_candidate_ids or [],
         },
-        branch_refs=[],
+        exclusion_basis=None,
     )
     return decision
 
@@ -480,12 +539,93 @@ class AdjudicationTests(unittest.TestCase):
         for options in (
             AdjudicationOptions(max_prompt_bytes=True),
             AdjudicationOptions(max_prompt_bytes=1.5),
-            AdjudicationOptions(max_new_candidates=True),
-            AdjudicationOptions(max_new_candidates=1.5),
         ):
             with self.subTest(options=options):
                 with self.assertRaisesRegex(ValidationError, "integer"):
                     options.validate()
+
+    def test_selection_ceiling_uses_selected_count_without_pruning_eligible_review(self) -> None:
+        options = AdjudicationOptions(max_prompt_bytes=5_000_000)
+        at_ceiling = fixture_docket_with_publications(count=510)
+        _prompt, manifest = render_adjudication_prompt(at_ceiling, options=options)
+        self.assertEqual(manifest["budget"]["eligible_candidate_count"], 512)
+        mandatory_count = sum(
+            candidate["mandatory"]
+            for candidate in at_ceiling["candidates"]
+            if candidate["selection_eligible"]
+        )
+        self.assertEqual(
+            manifest["budget"]["maximum_new_candidate_capacity"],
+            512 - mandatory_count,
+        )
+
+        over_ceiling = fixture_docket_with_publications(count=511)
+        _prompt, over_manifest = render_adjudication_prompt(
+            over_ceiling, options=options
+        )
+        self.assertEqual(over_manifest["budget"]["eligible_candidate_count"], 513)
+        with self.assertRaisesRegex(ValidationError, "Selected candidate count"):
+            validate_adjudication_response(
+                response_for_docket(over_ceiling, options=options),
+                over_ceiling,
+                options=options,
+            )
+
+    def test_optional_rejection_releases_new_candidate_capacity_at_boundary(self) -> None:
+        options = AdjudicationOptions(max_prompt_bytes=5_000_000)
+        docket = fixture_docket_with_publications(count=510)
+        response = response_for_docket(docket, include_new=True, options=options)
+        candidates = {item["candidate_id"]: item for item in docket["candidates"]}
+        rejected = next(
+            decision
+            for decision in response["decisions"]
+            if not candidates[decision["candidate_id"]]["mandatory"]
+        )
+        rejected_id = rejected["candidate_id"]
+        quote = rejected["support_quote"]["quote"]
+        rejected.update(
+            status="rejected",
+            priority=None,
+            rationale=(
+                f"{quote} Bu alinti, ileri surulen ayri okuyucu sonucunu tek "
+                "basina kurmadigi icin aday desteklenmemistir."
+            ),
+            synthesis_claim=None,
+            reader_payoff=None,
+            containment=None,
+            selection_basis=None,
+            exclusion_basis={
+                "reason_code": "unsupported",
+                "duplicate_of_candidate_ids": [],
+            },
+            branch_refs=[],
+        )
+        for review in response["branch_review"]:
+            if rejected_id not in review["activation_refs"]:
+                continue
+            removed_supports = {
+                contact["support_id"]
+                for contact in review["contact_evidence"]
+                if contact["activation_ref"] == rejected_id
+            }
+            review["activation_refs"] = [
+                item for item in review["activation_refs"] if item != rejected_id
+            ]
+            review["contact_evidence"] = [
+                item
+                for item in review["contact_evidence"]
+                if item["activation_ref"] != rejected_id
+            ]
+            review["support_ids"] = [
+                item for item in review["support_ids"] if item not in removed_supports
+            ]
+        artifact = validate_adjudication_response(response, docket, options=options)
+        self.assertEqual(artifact["limits"]["new_candidate_capacity"], 1)
+        self.assertEqual(
+            artifact["coverage"]["selected_existing_count"]
+            + artifact["coverage"]["selected_new_count"],
+            512,
+        )
 
     @unittest.skipUnless(
         (V3_ROOT / "inputs/adjudication/s029/29_38.docket.json").exists(),
@@ -500,9 +640,39 @@ class AdjudicationTests(unittest.TestCase):
         self.assertEqual(manifest["budget"]["candidate_count"], 69)
         self.assertIn("root_000672/B010", prompt)
         self.assertIn("root_001046/B011", prompt)
-        self.assertIn("apply a deletion test", prompt)
+        self.assertIn("Exhaustive admission gate", prompt)
+        self.assertIn("preserve each candidate's exact deletion loss", prompt)
         self.assertIn("active_motifs", prompt)
-        self.assertIn("not a record of everything that is plausible", prompt)
+        self.assertNotIn("not a record of everything that is plausible", prompt)
+        self.assertEqual(manifest["budget"]["eligible_candidate_count"], 54)
+
+    @unittest.skipUnless(
+        all(
+            (V3_ROOT / f"inputs/adjudication/s029/29_{ayah}.docket.json").exists()
+            for ayah in (38, 39, 40, 41)
+        ),
+        "generated real S29 v3 dockets not present",
+    )
+    def test_real_s29_eligible_counts_are_exact_for_all_focus_ayahs(self) -> None:
+        for ayah, expected in ((38, 54), (39, 58), (40, 125), (41, 80)):
+            with self.subTest(ayah=ayah):
+                docket = json.loads(
+                    (
+                        V3_ROOT
+                        / f"inputs/adjudication/s029/29_{ayah}.docket.json"
+                    ).read_text()
+                )
+                manifest = json.loads(
+                    (
+                        V3_ROOT
+                        / f"inputs/adjudication/s029/29_{ayah}.prompt.json"
+                    ).read_text()
+                )
+                self.assertEqual(
+                    docket["coverage"]["selection_eligible_candidate_count"],
+                    expected,
+                )
+                self.assertEqual(manifest["budget"]["eligible_candidate_count"], expected)
 
     @unittest.skipUnless(
         (V3_ROOT / "inputs/adjudication/s029/29_39.docket.json").exists(),
@@ -830,72 +1000,24 @@ class AdjudicationTests(unittest.TestCase):
         first = validate_adjudication_response(response, docket)
         second = validate_adjudication_response(copy.deepcopy(response), docket)
         self.assertEqual(first, second)
-        self.assertEqual(first["coverage"]["decision_count"], len(docket["candidates"]))
+        self.assertEqual(
+            first["coverage"]["decision_count"],
+            sum(candidate["selection_eligible"] for candidate in docket["candidates"]),
+        )
+        self.assertEqual(
+            first["coverage"]["ineligible_candidate_count"],
+            sum(not candidate["selection_eligible"] for candidate in docket["candidates"]),
+        )
         self.assertEqual(first["coverage"]["selected_new_count"], 1)
         self.assertRegex(first["new_candidates"][0]["candidate_id"], r"^new_[0-9a-f]{20}$")
         validate_adjudication_artifact(first, docket)
 
-        base_proposal = response["new_candidates"][0]
-        distinct_claims = [
-            "Yol engeli gorme fiilinin bilincli taniklik gerilimini belirginlestirir.",
-            "Ag imgesi hareket alaninin kirilgan barinak yapisini one cikarir.",
-            "Calisma kokunun rota yan dali eylemin sonucunu mekana tasir.",
-            "Komsu ev benzetmesi yol seciminin dayanak sorununu gorunur kilar.",
-            "Goren ozne ile kapanan gecit arasinda ironik bir erisim farki dogar.",
-            "Toplumsal engelleme sahnesi bireysel basiret iddiasini sinar.",
-            "Yolun islenmisligi sapmanin kendiliginden olmadigini ima eder.",
-            "Barinak zayifligi gorunen guven ile gercek dayaniklilik arasini acar.",
-            "Ard arda gelen imgeler eylem rota ve algiyi tek hesapta bulusturur.",
-        ]
-        response["new_candidates"] = [
-            {
-                **copy.deepcopy(base_proposal),
-                "proposal_key": f"proposal_{index}",
-                "title": f"Proposal {index}",
-                "claim": distinct_claims[index],
-                "selection_basis": {
-                    **copy.deepcopy(base_proposal["selection_basis"]),
-                    "deletion_loss": (
-                        f"Bu {index} numarali onerme silinirse "
-                        f"{distinct_claims[index].casefold()} sonucu yorumdan kaybolur."
-                    ),
-                },
-            }
-            for index in range(9)
-        ]
-        with self.assertRaisesRegex(ValidationError, "exceeds limit"):
-            validate_adjudication_response(response, docket)
-        expanded_options = AdjudicationOptions(max_new_candidates=9)
-        _prompt, expanded_manifest = render_adjudication_prompt(
-            docket, options=expanded_options
-        )
-        response["identity"]["prompt_sha256"] = expanded_manifest["identity"][
-            "prompt_sha256"
-        ]
-        expanded_refs = [f"new:proposal_{index}" for index in range(9)]
-        for item in response["branch_review"]:
-            if item["status"] == "activated":
-                original_contact = item["contact_evidence"][0]
-                item["activation_refs"] = expanded_refs
-                item["contact_evidence"] = [
-                    {
-                        **original_contact,
-                        "activation_ref": activation_ref,
-                    }
-                    for activation_ref in expanded_refs
-                ]
-        with self.assertRaisesRegex(ValidationError, "generic evidence support"):
-            validate_adjudication_response(
-                response,
-                docket,
-                options=expanded_options,
-            )
         response_schema = json.loads(
             (V3_ROOT / "schemas/adjudication-response.schema.json").read_text(
                 encoding="utf-8"
             )
         )
-        self.assertEqual(response_schema["properties"]["new_candidates"]["maxItems"], 20)
+        self.assertEqual(response_schema["properties"]["new_candidates"]["maxItems"], 512)
 
         mutated = copy.deepcopy(first)
         must_decision = next(
@@ -905,8 +1027,7 @@ class AdjudicationTests(unittest.TestCase):
                 candidate
                 for candidate in docket["candidates"]
                 if candidate["candidate_id"] == item["candidate_id"]
-            )["obligation"]
-            == "must_integrate"
+            )["mandatory"]
         )
         must_decision.update(
             status="rejected",
@@ -915,35 +1036,57 @@ class AdjudicationTests(unittest.TestCase):
             reader_payoff=None,
             containment=None,
             selection_basis=None,
+            support_quote=None,
+            exclusion_basis={
+                "reason_code": "unsupported",
+                "duplicate_of_candidate_ids": [],
+            },
+            branch_refs=[],
         )
         payload = copy.deepcopy(mutated)
         payload["identity"].pop("adjudication_payload_sha256")
         mutated["identity"]["adjudication_payload_sha256"] = canonical_sha256(payload)
-        with self.assertRaisesRegex(ValidationError, "must_integrate"):
+        with self.assertRaisesRegex(ValidationError, "Mandatory candidate"):
             validate_adjudication_artifact(mutated, docket)
 
         mutated = copy.deepcopy(first)
-        mutated["selection"]["rejected_candidate_ids"] = []
+        mutated["selection"]["selected_existing_candidate_ids"] = []
         payload = copy.deepcopy(mutated)
         payload["identity"].pop("adjudication_payload_sha256")
         mutated["identity"]["adjudication_payload_sha256"] = canonical_sha256(payload)
-        with self.assertRaisesRegex(ValidationError, "rejected index"):
+        with self.assertRaisesRegex(ValidationError, "selected-existing index"):
             validate_adjudication_artifact(mutated, docket)
 
-    def test_validated_adjudication_limit_is_caller_bound(self) -> None:
+    def test_incomplete_discovery_and_exact_new_duplicates_fail_loudly(self) -> None:
         docket = fixture_docket()
-        options = AdjudicationOptions(max_new_candidates=9)
+        response = response_for_docket(docket, include_new=True)
+        response["discovery_complete"] = False
+        with self.assertRaisesRegex(BudgetError, "incomplete discovery"):
+            validate_adjudication_response(response, docket)
+
+        response = response_for_docket(docket, include_new=True)
+        selected = response["decisions"][0]
+        proposal = response["new_candidates"][0]
+        proposal["claim"] = selected["synthesis_claim"]
+        proposal["reader_payoff"] = selected["reader_payoff"]
+        proposal["containment"] = selected["containment"]
+        proposal["selection_basis"]["deletion_loss"] = selected[
+            "selection_basis"
+        ]["deletion_loss"]
+        with self.assertRaisesRegex(ValidationError, "exactly duplicates"):
+            validate_adjudication_response(response, docket)
+
+    def test_validated_adjudication_capacity_is_selected_decision_bound(self) -> None:
+        docket = fixture_docket()
         response = response_for_docket(docket)
-        _prompt, manifest = render_adjudication_prompt(docket, options=options)
-        response["identity"]["prompt_sha256"] = manifest["identity"][
-            "prompt_sha256"
-        ]
-        artifact = validate_adjudication_response(
-            response, docket, options=options
-        )
-        with self.assertRaisesRegex(ValidationError, "caller-bound policy"):
-            validate_adjudication_artifact(artifact, docket)
-        validate_adjudication_artifact(artifact, docket, options=options)
+        artifact = validate_adjudication_response(response, docket)
+        mutated = copy.deepcopy(artifact)
+        mutated["limits"]["new_candidate_capacity"] -= 1
+        payload = copy.deepcopy(mutated)
+        payload["identity"].pop("adjudication_payload_sha256")
+        mutated["identity"]["adjudication_payload_sha256"] = canonical_sha256(payload)
+        with self.assertRaisesRegex(ValidationError, "selected decisions"):
+            validate_adjudication_artifact(mutated, docket)
 
     def test_response_binds_exact_prompt_and_partitions_focus_branches(self) -> None:
         docket = fixture_docket()
@@ -1023,18 +1166,17 @@ class AdjudicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "evidence-role support"):
             validate_adjudication_response(response, docket)
 
-    def test_selected_occurrence_carrier_cannot_enter_synthesis(self) -> None:
+    def test_ineligible_occurrence_carrier_cannot_enter_model_decisions(self) -> None:
         docket = fixture_docket()
         response = response_for_docket(docket)
         carrier = next(
             item for item in docket["candidates"] if item["source_type"] == "qac_morpheme"
         )
-        select_optional_decision(
-            response,
-            carrier["candidate_id"],
-            suffix="occurrence_only",
-        )
-        with self.assertRaisesRegex(ValidationError, "candidate_evidence"):
+        self.assertFalse(carrier["selection_eligible"])
+        forged = copy.deepcopy(response["decisions"][0])
+        forged["candidate_id"] = carrier["candidate_id"]
+        response["decisions"].append(forged)
+        with self.assertRaisesRegex(ValidationError, "unknown candidate"):
             validate_adjudication_response(response, docket)
 
     def test_prose_bound_selected_fields_reject_apparatus_ids(self) -> None:
@@ -1173,12 +1315,17 @@ class AdjudicationTests(unittest.TestCase):
             and supports[support_id]["role"] == "candidate_evidence"
         )
         response = response_for_docket(docket)
-        decision = select_optional_decision(
-            response,
-            candidate["candidate_id"],
-            suffix="branch_bearing_channel",
+        decision = next(
+            item
+            for item in response["decisions"]
+            if item["candidate_id"] == candidate["candidate_id"]
         )
         decision["support_ids"] = [branch_support]
+        decision["support_quote"] = {
+            "support_id": branch_support,
+            "quote": supports[branch_support]["text"][:120].strip(),
+        }
+        decision["branch_refs"] = []
         self.assertEqual(decision["branch_refs"], [])
         with self.assertRaisesRegex(
             ValidationError, "branch-bearing support without activating"
@@ -1224,41 +1371,33 @@ class AdjudicationTests(unittest.TestCase):
         ):
             validate_adjudication_response(response, docket)
 
-    def test_new_candidate_support_and_branch_floods_are_rejected(self) -> None:
+    def test_new_candidate_has_no_arbitrary_support_or_branch_quota(self) -> None:
         docket = fixture_docket()
         response = response_for_docket(docket, include_new=True)
-        response["new_candidates"][0]["support_ids"] = [
-            item["support_id"] for item in docket["support_registry"]
-        ]
-        with self.assertRaisesRegex(ValidationError, "supports; limit"):
-            validate_adjudication_response(response, docket)
-
-        bundle = fixture_bundle_for_docket()
-        sbl_branches = bundle["root_lexicon"]["root_000672"]["dictionary_entry"][
-            "branches"
-        ]
-        for branch_id in ("B011", "B012", "B013", "B014", "B015"):
-            sbl_branches.append(
-                {
-                    **copy.deepcopy(sbl_branches[0]),
-                    "branch_ref": f"root_000672/{branch_id}",
-                    "concept_gloss": {"text": f"bounded branch {branch_id}"},
-                }
-            )
-        _prepared, expanded = build_prepared_artifacts(
-            bundle,
-            source_path=Path("fixture.json"),
-            options=PrepareOptions(hft_policy="quarantine"),
+        proposal = response["new_candidates"][0]
+        extra_support = next(
+            item
+            for item in docket["support_registry"]
+            if item["support_id"] not in proposal["support_ids"]
+            and item["role"] == "candidate_evidence"
+            and item["trust"] == "trusted"
+            and item["citable"]
+            and not item["branch_refs"]
         )
-        response = response_for_docket(expanded, include_new=True)
-        response["new_candidates"][0]["branch_refs"] = [
-            branch["branch_ref"]
-            for root in expanded["branch_registry"]
-            if root["root_id"] == "root_000672"
-            for branch in root["branches"]
-        ][:7]
-        with self.assertRaisesRegex(ValidationError, "branches; limit"):
-            validate_adjudication_response(response, expanded)
+        proposal["support_ids"].append(extra_support["support_id"])
+        self.assertGreater(len(proposal["support_ids"]), 5)
+        validate_adjudication_response(response, docket)
+
+        response_schema = json.loads(
+            (V3_ROOT / "schemas/adjudication-response.schema.json").read_text()
+        )
+        self.assertNotIn(
+            "maxItems", response_schema["$defs"]["proposal"]["properties"]["branch_refs"]
+        )
+        self.assertNotIn(
+            "maxItems",
+            response_schema["$defs"]["branchReview"]["properties"]["support_ids"],
+        )
 
     def test_new_candidate_rejects_legacy_support_leakage(self) -> None:
         docket = fixture_docket(legacy_hft=True)
@@ -1280,17 +1419,17 @@ class AdjudicationTests(unittest.TestCase):
             for item in docket["candidates"]
             if item["source_type"] == "channel" and item["branch_refs"]
         )
-        decision = select_optional_decision(
-            response,
-            candidate["candidate_id"],
-            suffix="generic_channel",
+        decision = next(
+            item
+            for item in response["decisions"]
+            if item["candidate_id"] == candidate["candidate_id"]
         )
         branch_ref = candidate["branch_refs"][0]
-        decision["branch_refs"] = [branch_ref]
         supports = {
             item["support_id"]: item for item in docket["support_registry"]
         }
         contact_support = decision["support_ids"][0]
+        decision["branch_refs"] = [branch_ref]
         target = next(
             item for item in response["branch_review"] if item["branch_ref"] == branch_ref
         )
@@ -1371,6 +1510,11 @@ class AdjudicationTests(unittest.TestCase):
             unrelated_support["support_id"] if item == old_support_id else item
             for item in proposal["support_ids"]
         )
+        if proposal["support_quote"]["support_id"] == old_support_id:
+            proposal["support_quote"] = {
+                "support_id": unrelated_support["support_id"],
+                "quote": unrelated_support["text"][:120].strip(),
+            }
         target["support_ids"] = sorted(
             unrelated_support["support_id"] if item == old_support_id else item
             for item in target["support_ids"]
@@ -1503,6 +1647,11 @@ class AdjudicationTests(unittest.TestCase):
             second_support["support_id"] if item == old_support_id else item
             for item in proposal["support_ids"]
         )
+        if proposal["support_quote"]["support_id"] == old_support_id:
+            proposal["support_quote"] = {
+                "support_id": second_support["support_id"],
+                "quote": second_support["text"][:120].strip(),
+            }
         target["support_ids"] = sorted(
             second_support["support_id"] if item == old_support_id else item
             for item in target["support_ids"]
@@ -1585,14 +1734,12 @@ class AdjudicationTests(unittest.TestCase):
             validate_adjudication_response(response, docket)
 
     def test_optional_selection_requires_interpretive_deletion_basis(self) -> None:
-        docket = fixture_docket()
+        docket = fixture_docket_with_publications()
         response = response_for_docket(docket)
         candidate = next(
             item
             for item in docket["candidates"]
-            if item["obligation"] != "must_integrate"
-            and item["source_type"] == "word_analysis"
-            and not item["branch_refs"]
+            if item["source_type"] == "cross_run_publication"
         )
         select_optional_decision(
             response,
@@ -1606,7 +1753,7 @@ class AdjudicationTests(unittest.TestCase):
             validate_adjudication_response(response, docket)
 
     def test_optional_rationale_cannot_be_provenance_only(self) -> None:
-        docket = fixture_docket()
+        docket = fixture_docket_with_publications()
         response = response_for_docket(docket)
         candidates = {
             item["candidate_id"]: item for item in docket["candidates"]
@@ -1614,89 +1761,284 @@ class AdjudicationTests(unittest.TestCase):
         decision = next(
             item
             for item in response["decisions"]
-            if candidates[item["candidate_id"]]["obligation"] != "must_integrate"
+            if candidates[item["candidate_id"]]["source_type"]
+            == "cross_run_publication"
         )
         decision["rationale"] = "Bu aday yalnız güvenilir ve uyumlu destek taşır."
         with self.assertRaisesRegex(ValidationError, "provenance eligibility"):
             validate_adjudication_response(response, docket)
 
-    def test_distinct_optional_cannot_restate_mandatory_claim(self) -> None:
-        docket = fixture_docket()
+    def test_optional_exclusion_requires_substantive_rationale_and_exact_quote(self) -> None:
+        docket = fixture_docket_with_publications(count=2)
         response = response_for_docket(docket)
-        mandatory_claim = next(
+        publication = next(
+            decision
+            for decision in response["decisions"]
+            if next(
+                candidate
+                for candidate in docket["candidates"]
+                if candidate["candidate_id"] == decision["candidate_id"]
+            )["source_type"]
+            == "cross_run_publication"
+        )
+        publication_id = publication["candidate_id"]
+        publication.update(
+            status="rejected",
+            priority=None,
+            rationale=(
+                f"{publication['support_quote']['quote']} Bu alintilanan yayin "
+                "kaniti adayda ileri surulen yerel sonucu kurmuyor; yalniz "
+                "onceki bulgunun kaydini tekrar ediyor."
+            ),
+            synthesis_claim=None,
+            reader_payoff=None,
+            containment=None,
+            selection_basis=None,
+            exclusion_basis={
+                "reason_code": "unsupported",
+                "duplicate_of_candidate_ids": [],
+            },
+            branch_refs=[],
+        )
+        for review in response["branch_review"]:
+            if publication_id not in review["activation_refs"]:
+                continue
+            removed_supports = {
+                contact["support_id"]
+                for contact in review["contact_evidence"]
+                if contact["activation_ref"] == publication_id
+            }
+            review["activation_refs"] = [
+                item for item in review["activation_refs"] if item != publication_id
+            ]
+            review["contact_evidence"] = [
+                item
+                for item in review["contact_evidence"]
+                if item["activation_ref"] != publication_id
+            ]
+            review["support_ids"] = [
+                item for item in review["support_ids"] if item not in removed_supports
+            ]
+        validate_adjudication_response(response, docket)
+
+        short = copy.deepcopy(response)
+        next(
+            item for item in short["decisions"] if item["candidate_id"] == publication_id
+        )["rationale"] = "Kanitsiz."
+        with self.assertRaisesRegex(ValidationError, "48-1200"):
+            validate_adjudication_response(short, docket)
+
+        unquoted = copy.deepcopy(response)
+        next(
+            item
+            for item in unquoted["decisions"]
+            if item["candidate_id"] == publication_id
+        )["support_quote"] = None
+        with self.assertRaisesRegex(ValidationError, "support_quote must be an object"):
+            validate_adjudication_response(unquoted, docket)
+
+        generic = copy.deepcopy(response)
+        generic_decision = next(
+            item
+            for item in generic["decisions"]
+            if item["candidate_id"] == publication_id
+        )
+        generic_decision["rationale"] = (
+            "Bu aday icin tasinan gecerli alinti, ileri surulen yorum sonucunu "
+            "kurmaya yeterli olmadigi icin karar olumsuzdur."
+        )
+        with self.assertRaisesRegex(ValidationError, "exact support quote"):
+            validate_adjudication_response(generic, docket)
+
+    def test_exhaustive_admission_does_not_drop_similar_selected_claims(self) -> None:
+        docket = fixture_docket_with_publications(count=2)
+        response = response_for_docket(docket)
+        candidate_by_id = {
+            candidate["candidate_id"]: candidate for candidate in docket["candidates"]
+        }
+        publications = [
+            decision
+            for decision in response["decisions"]
+            if candidate_by_id[decision["candidate_id"]]["source_type"]
+            == "cross_run_publication"
+        ]
+        repeated_claim = "Ayni sinirli yorum sonucu korunur."
+        repeated_loss = "Bu katkı silinirse ayni yorum sonucu metinden kaybolur."
+        for decision in publications:
+            decision["synthesis_claim"] = repeated_claim
+            decision["selection_basis"]["deletion_loss"] = repeated_loss
+        artifact = validate_adjudication_response(response, docket)
+        self.assertEqual(artifact["coverage"]["selected_existing_count"], 4)
+
+    def test_semantic_duplicate_requires_selected_target_and_branch_union(self) -> None:
+        docket = fixture_docket_with_publications(count=2)
+        response = response_for_docket(docket)
+        publication_ids = [
+            candidate["candidate_id"]
+            for candidate in docket["candidates"]
+            if candidate["source_type"] == "cross_run_publication"
+        ]
+        target_id, duplicate_id = publication_ids
+        target_claim = next(
             item["synthesis_claim"]
             for item in response["decisions"]
-            if item["status"] == "selected"
+            if item["candidate_id"] == target_id
         )
-        candidate = next(
-            item
-            for item in docket["candidates"]
-            if item["obligation"] != "must_integrate"
-            and item["source_type"] == "word_analysis"
-            and not item["branch_refs"]
+        duplicate = next(
+            item for item in response["decisions"] if item["candidate_id"] == duplicate_id
         )
-        select_optional_decision(
-            response,
-            candidate["candidate_id"],
-            suffix="mandatory_repeat",
-            claim=mandatory_claim.upper().replace(" ", "  "),
+        duplicate.update(
+            status="rejected",
+            priority=None,
+            synthesis_claim=None,
+            reader_payoff=None,
+            containment=None,
+            selection_basis=None,
+            rationale=(
+                f"{duplicate['support_quote']['quote']} Adayin kaniti ayni "
+                "okuyucu sonucunu tekrarlar; secili hedef bunu "
+                f"su kesin iddiayla korur: {target_claim}"
+            ),
+            exclusion_basis={
+                "reason_code": "semantic_duplicate",
+                "duplicate_of_candidate_ids": [target_id],
+            },
+            branch_refs=[],
         )
-        with self.assertRaisesRegex(ValidationError, "duplicate synthesis claims"):
-            validate_adjudication_response(response, docket)
+        for review in response["branch_review"]:
+            if duplicate_id not in review["activation_refs"]:
+                continue
+            removed_supports = {
+                contact["support_id"]
+                for contact in review["contact_evidence"]
+                if contact["activation_ref"] == duplicate_id
+            }
+            review["activation_refs"] = [
+                item for item in review["activation_refs"] if item != duplicate_id
+            ]
+            review["contact_evidence"] = [
+                item
+                for item in review["contact_evidence"]
+                if item["activation_ref"] != duplicate_id
+            ]
+            review["support_ids"] = [
+                item for item in review["support_ids"] if item not in removed_supports
+            ]
 
-    def test_optional_selection_rejects_duplicate_claims_and_deletion_losses(self) -> None:
-        docket = fixture_docket()
-        optional = [
+        invalid = copy.deepcopy(response)
+        next(
             item
-            for item in docket["candidates"]
-            if item["obligation"] != "must_integrate"
-            and item["source_type"] == "word_analysis"
-            and not item["branch_refs"]
+            for item in invalid["decisions"]
+            if item["candidate_id"] == duplicate_id
+        )["exclusion_basis"]["duplicate_of_candidate_ids"] = []
+        with self.assertRaisesRegex(ValidationError, "needs selected duplicate targets"):
+            validate_adjudication_response(invalid, docket)
+
+        artifact = validate_adjudication_response(response, docket)
+        self.assertIn(duplicate_id, artifact["selection"]["rejected_candidate_ids"])
+
+    def test_semantic_duplicate_cannot_drop_one_target_branch_lineage(self) -> None:
+        bundle = fixture_bundle_for_docket()
+        bundle["v12_cross_run_publication"] = {
+            "ayah_ref": "29:38",
+            "findings": [
+                {
+                    "text": "Road-work target for branch eleven.",
+                    "anchors": [["29:38:1", "root_001046", ["B011"]]],
+                },
+                {
+                    "text": "Road-work target for branch one.",
+                    "anchors": [["29:38:1", "root_001046", ["B001"]]],
+                },
+                {
+                    "text": "Exact union duplicate for both road-work branches.",
+                    "anchors": [
+                        ["29:38:1", "root_001046", ["B001", "B011"]]
+                    ],
+                },
+            ],
+        }
+        _prepared, docket = build_prepared_artifacts(
+            bundle,
+            source_path=Path("fixture-duplicate-union.json"),
+            options=PrepareOptions(hft_policy="quarantine"),
+        )
+        response = response_for_docket(docket)
+        publication_candidates = {
+            candidate["source_local_id"]: candidate["candidate_id"]
+            for candidate in docket["candidates"]
+            if candidate["source_type"] == "cross_run_publication"
+        }
+        target_ids = [
+            publication_candidates["finding-1"],
+            publication_candidates["finding-2"],
         ]
-        response = response_for_docket(docket)
-        for index, candidate in enumerate(optional[:2]):
-            select_optional_decision(
-                response,
-                candidate["candidate_id"],
-                suffix=f"aday_{index}",
-                claim="Ayni sinirli yorum sonucu.",
-            )
-        with self.assertRaisesRegex(ValidationError, "duplicate synthesis claims"):
-            validate_adjudication_response(response, docket)
-
-        response = response_for_docket(docket)
-        repeated_loss = (
-            "Bu iki adaydan biri silinirse ayni yorum sonucu metinden kaybolur."
+        duplicate_id = publication_candidates["finding-3"]
+        decision_by_id = {
+            decision["candidate_id"]: decision for decision in response["decisions"]
+        }
+        duplicate = decision_by_id[duplicate_id]
+        duplicate.update(
+            status="rejected",
+            priority=None,
+            rationale=(
+                f"{duplicate['support_quote']['quote']} Iki secili hedef ayni "
+                "katkilarin iki dalini eksiksiz korur: "
+                f"{decision_by_id[target_ids[0]]['synthesis_claim']} "
+                f"{decision_by_id[target_ids[1]]['synthesis_claim']}"
+            ),
+            synthesis_claim=None,
+            reader_payoff=None,
+            containment=None,
+            selection_basis=None,
+            exclusion_basis={
+                "reason_code": "semantic_duplicate",
+                "duplicate_of_candidate_ids": target_ids,
+            },
+            branch_refs=[],
         )
-        for index, candidate in enumerate(optional[:2]):
-            select_optional_decision(
-                response,
-                candidate["candidate_id"],
-                suffix=f"aday_{index}",
-                claim=(
-                    "Ilk aday eylemin yerel sonucunu belirginlestirir."
-                    if index == 0
-                    else "Ikinci aday komsu rota imgesinin yapisini acar."
-                ),
-                deletion_loss=repeated_loss,
-            )
-        with self.assertRaisesRegex(ValidationError, "duplicate deletion losses"):
-            validate_adjudication_response(response, docket)
+        for review in response["branch_review"]:
+            if duplicate_id not in review["activation_refs"]:
+                continue
+            removed_supports = {
+                contact["support_id"]
+                for contact in review["contact_evidence"]
+                if contact["activation_ref"] == duplicate_id
+            }
+            review["activation_refs"] = [
+                item for item in review["activation_refs"] if item != duplicate_id
+            ]
+            review["contact_evidence"] = [
+                item
+                for item in review["contact_evidence"]
+                if item["activation_ref"] != duplicate_id
+            ]
+            review["support_ids"] = [
+                item for item in review["support_ids"] if item not in removed_supports
+            ]
+        validate_adjudication_response(response, docket)
+
+        missing_branch_target = copy.deepcopy(response)
+        next(
+            item
+            for item in missing_branch_target["decisions"]
+            if item["candidate_id"] == duplicate_id
+        )["exclusion_basis"]["duplicate_of_candidate_ids"] = [target_ids[0]]
+        with self.assertRaisesRegex(ValidationError, "loses branch lineage"):
+            validate_adjudication_response(missing_branch_target, docket)
 
     def test_selected_candidate_cannot_subsume_another_selection(self) -> None:
-        docket = fixture_docket()
+        docket = fixture_docket_with_publications()
         response = response_for_docket(docket)
         mandatory_id = next(
             item["candidate_id"]
             for item in docket["candidates"]
-            if item["obligation"] == "must_integrate"
+            if item["mandatory"]
         )
         candidate = next(
             item
             for item in docket["candidates"]
-            if item["obligation"] != "must_integrate"
-            and item["source_type"] == "word_analysis"
-            and not item["branch_refs"]
+            if item["source_type"] == "cross_run_publication"
         )
         select_optional_decision(
             response,
@@ -1704,44 +2046,32 @@ class AdjudicationTests(unittest.TestCase):
             suffix="subsumption",
             subsumes_candidate_ids=[mandatory_id],
         )
-        with self.assertRaisesRegex(ValidationError, "subsumes selected candidates"):
+        with self.assertRaisesRegex(ValidationError, "may not subsume"):
             validate_adjudication_response(response, docket)
 
-    def test_selected_candidate_handoff_has_a_hard_limit(self) -> None:
+    def test_more_than_64_mandatory_candidates_are_preserved(self) -> None:
         bundle = fixture_bundle_for_docket()
         topics = bundle["word_analysis"]["words"][0]["topics"]
-        for index in range(62):
+        for index in range(66):
             topics.append(
                 {
-                    "topic_id": f"29:38:1:optional-{index}",
-                    "headline": f"Optional reading {index}",
+                    "topic_id": f"29:38:1:mandatory-{index}",
+                    "headline": f"Mandatory reading {index}",
                     "status": "used",
                     "reader_payoff": f"Distinct payoff {index}.",
                     "reason": f"Distinct local reason {index}.",
-                    "commentary_obligation": "ledger_only",
+                    "commentary_obligation": "must_integrate",
                     "representative_source_ids": [f"Q{index}"],
                 }
             )
         _prepared, docket = build_prepared_artifacts(
             bundle,
             source_path=Path("fixture.json"),
-            options=PrepareOptions(
-                hft_policy="quarantine", max_optional_candidates=80
-            ),
+            options=PrepareOptions(hft_policy="quarantine"),
         )
         response = response_for_docket(docket)
-        for index, candidate in enumerate(docket["candidates"]):
-            if (
-                candidate["obligation"] != "must_integrate"
-                and candidate["source_type"] == "word_analysis"
-            ):
-                select_optional_decision(
-                    response,
-                    candidate["candidate_id"],
-                    suffix=f"secim_{index}",
-                )
-        with self.assertRaisesRegex(ValidationError, "hard synthesis handoff limit"):
-            validate_adjudication_response(response, docket)
+        artifact = validate_adjudication_response(response, docket)
+        self.assertGreater(artifact["coverage"]["selected_existing_count"], 64)
 
     def test_nominated_branches_are_reviewed_and_contact_grounded(self) -> None:
         bundle = fixture_bundle_for_docket()
@@ -1983,11 +2313,11 @@ class AdjudicationTests(unittest.TestCase):
             "candidate_evidence_rejected",
         )
 
-    def test_response_must_cover_every_candidate_exactly_once(self) -> None:
+    def test_response_must_cover_every_eligible_candidate_exactly_once(self) -> None:
         docket = fixture_docket()
         response = response_for_docket(docket)
         response["decisions"].pop()
-        with self.assertRaisesRegex(ValidationError, "omitted"):
+        with self.assertRaisesRegex(ValidationError, "selection eligibility"):
             validate_adjudication_response(response, docket)
 
         response = response_for_docket(docket)
@@ -1995,7 +2325,12 @@ class AdjudicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "duplicate"):
             validate_adjudication_response(response, docket)
 
-    def test_must_integrate_cannot_be_rejected(self) -> None:
+        response = response_for_docket(docket)
+        response["decisions"].reverse()
+        with self.assertRaisesRegex(ValidationError, "exact selection-eligible docket order"):
+            validate_adjudication_response(response, docket)
+
+    def test_mandatory_candidate_cannot_be_rejected(self) -> None:
         docket = fixture_docket()
         response = response_for_docket(docket)
         selected = next(item for item in response["decisions"] if item["status"] == "selected")
@@ -2006,8 +2341,14 @@ class AdjudicationTests(unittest.TestCase):
             reader_payoff=None,
             containment=None,
             selection_basis=None,
+            support_quote=None,
+            exclusion_basis={
+                "reason_code": "unsupported",
+                "duplicate_of_candidate_ids": [],
+            },
+            branch_refs=[],
         )
-        with self.assertRaisesRegex(ValidationError, "must_integrate"):
+        with self.assertRaisesRegex(ValidationError, "Mandatory candidate"):
             validate_adjudication_response(response, docket)
 
     def test_unknown_support_and_candidate_branch_injection_fail(self) -> None:
@@ -2036,7 +2377,7 @@ class AdjudicationTests(unittest.TestCase):
             reader_payoff="Okur dal mekanizmasini gorur.",
             containment="Dal yerel anlami degistirmez.",
             selection_basis={
-                "kind": "distinct",
+                "kind": "mandatory",
                 "deletion_loss": (
                     "Bu aday silinirse dal mekanizmasinin ayri yorum katkisi "
                     "metinden kaybolur."
@@ -2132,29 +2473,20 @@ class AdjudicationTests(unittest.TestCase):
         docket = fixture_docket(legacy_hft=True)
         response = response_for_docket(docket)
         hft_candidate = next(item for item in docket["candidates"] if item["source_type"] == "hft")
-        decision = next(
-            item for item in response["decisions"] if item["candidate_id"] == hft_candidate["candidate_id"]
+        self.assertFalse(hft_candidate["mandatory"])
+        self.assertEqual(hft_candidate["obligation"], "optional_review")
+        self.assertFalse(hft_candidate["selection_eligible"])
+        self.assertNotIn(
+            hft_candidate["candidate_id"],
+            {item["candidate_id"] for item in response["decisions"]},
         )
-        decision.update(
-            status="selected",
-            priority="supporting",
-            synthesis_claim="Sinirli HFT iddiasi.",
-            reader_payoff="Okur yerel gerilimi gorur.",
-            containment="Tek basina kanit sayilmaz.",
-            selection_basis={
-                "kind": "distinct",
-                "deletion_loss": (
-                    "Bu aday silinirse HFT iliskisinin sinirli yorum sonucu "
-                    "metinden kaybolur."
-                ),
-                "subsumes_candidate_ids": [],
-            },
-            branch_refs=[],
-        )
-        with self.assertRaisesRegex(ValidationError, "audit-only"):
+        forged = copy.deepcopy(response["decisions"][0])
+        forged["candidate_id"] = hft_candidate["candidate_id"]
+        response["decisions"].append(forged)
+        with self.assertRaisesRegex(ValidationError, "unknown candidate"):
             validate_adjudication_response(response, docket)
 
-    def test_mandatory_claims_are_also_deduplicated(self) -> None:
+    def test_similar_mandatory_claims_are_preserved(self) -> None:
         bundle = fixture_bundle_for_docket()
         second = copy.deepcopy(bundle["word_analysis"]["words"][1]["topics"][0])
         second.update(
@@ -2174,8 +2506,11 @@ class AdjudicationTests(unittest.TestCase):
         selected[1]["selection_basis"]["deletion_loss"] = selected[0][
             "selection_basis"
         ]["deletion_loss"]
-        with self.assertRaisesRegex(ValidationError, "duplicate synthesis claims"):
-            validate_adjudication_response(response, docket)
+        artifact = validate_adjudication_response(response, docket)
+        self.assertEqual(
+            artifact["coverage"]["selected_existing_count"],
+            sum(candidate["selection_eligible"] for candidate in docket["candidates"]),
+        )
 
     def test_new_candidate_scope_and_grounding_are_enforced(self) -> None:
         docket = fixture_docket()

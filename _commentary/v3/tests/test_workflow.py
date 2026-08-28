@@ -5,7 +5,7 @@ import io
 import json
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest.mock import Mock, patch
 
@@ -17,7 +17,7 @@ import sys
 sys.path.insert(0, str(V3_ROOT))
 
 import workflow  # noqa: E402
-from v3lib.common import PathConfinementError  # noqa: E402
+from v3lib.common import PathConfinementError, ValidationError  # noqa: E402
 
 
 class AdvanceWorkflowTests(unittest.TestCase):
@@ -82,27 +82,48 @@ class AdvanceWorkflowTests(unittest.TestCase):
             {"source_bundle": str(source_path)},
         )
 
-    def test_downstream_commands_expose_caller_bound_adjudication_limit(self) -> None:
+    def test_adjudication_discovery_capacity_has_no_cli_pruning_switch(self) -> None:
         parser = workflow._build_parser()
         for command in ("render-synthesis", "validate-synthesis", "verify"):
-            args = parser.parse_args(
-                [command, "--ayah", "29:38", "--max-new-candidates", "9"]
-            )
+            args = parser.parse_args([command, "--ayah", "29:38"])
             self.assertEqual(
-                workflow._adjudication_options(args).max_new_candidates, 9
+                workflow._adjudication_options(args), workflow.AdjudicationOptions()
             )
         advance = parser.parse_args(
             [
                 "advance",
                 "--bundle",
                 "fixture.json",
-                "--max-new-candidates",
-                "7",
             ]
         )
         self.assertEqual(
-            workflow._adjudication_options(advance).max_new_candidates, 7
+            workflow._adjudication_options(advance), workflow.AdjudicationOptions()
         )
+
+    def test_synthesis_density_caps_have_no_cli_switch(self) -> None:
+        parser = workflow._build_parser()
+        subparsers = next(
+            action
+            for action in parser._actions
+            if isinstance(action, argparse._SubParsersAction)
+        )
+        forbidden = {
+            "--max-paragraphs",
+            "--max-findings",
+            "--max-friction-notes",
+        }
+        for command in (
+            "advance",
+            "render-synthesis",
+            "validate-synthesis",
+            "verify",
+        ):
+            option_strings = {
+                option
+                for action in subparsers.choices[command]._actions
+                for option in action.option_strings
+            }
+            self.assertFalse(forbidden & option_strings)
 
     def test_advance_stops_at_adjudication_handoff(self) -> None:
         with tempfile.TemporaryDirectory(dir=workflow.OUTPUTS_ROOT) as temp_dir:
@@ -351,6 +372,12 @@ class AdvanceWorkflowTests(unittest.TestCase):
             regular = temporary / "response.json"
             regular.write_text("{}", encoding="utf-8")
             self.assertTrue(workflow._raw_response_is_present(str(regular)))
+            self.assertEqual(
+                workflow._raw_response_state(
+                    str(regular), expected_identity={}, max_bytes=1
+                ),
+                "invalid",
+            )
             linked = temporary / "linked.json"
             linked.symlink_to(regular)
             with self.assertRaises(PathConfinementError):
@@ -382,7 +409,7 @@ class AdvanceWorkflowTests(unittest.TestCase):
                 "invalid",
             )
 
-    def test_advance_accepts_complete_synthesis_limit_configuration(self) -> None:
+    def test_advance_accepts_lossless_synthesis_capacity_configuration(self) -> None:
         args = workflow._build_parser().parse_args(
             [
                 "advance",
@@ -392,16 +419,16 @@ class AdvanceWorkflowTests(unittest.TestCase):
                 "301000",
                 "--max-prompt-bytes",
                 "376000",
+                "--max-response-bytes",
+                "501000",
+                "--max-annotation-chars",
+                "12000",
                 "--min-prose-chars",
                 "400",
                 "--max-prose-chars",
                 "23000",
-                "--max-paragraphs",
-                "15",
-                "--max-findings",
-                "47",
-                "--max-friction-notes",
-                "11",
+                "--max-rendered-output-bytes",
+                "902000",
             ]
         )
         self.assertEqual(
@@ -409,15 +436,15 @@ class AdvanceWorkflowTests(unittest.TestCase):
             workflow.SynthesisOptions(
                 max_packet_bytes=301_000,
                 max_prompt_bytes=376_000,
+                max_response_bytes=501_000,
+                max_annotation_chars=12_000,
                 min_prose_chars=400,
                 max_prose_chars=23_000,
-                max_paragraphs=15,
-                max_findings=47,
-                max_friction_notes=11,
+                max_rendered_output_bytes=902_000,
             ),
         )
 
-    def test_verify_accepts_complete_synthesis_limit_configuration(self) -> None:
+    def test_verify_accepts_lossless_synthesis_capacity_configuration(self) -> None:
         args = workflow._build_parser().parse_args(
             [
                 "verify",
@@ -427,16 +454,16 @@ class AdvanceWorkflowTests(unittest.TestCase):
                 "301000",
                 "--max-prompt-bytes",
                 "376000",
+                "--max-response-bytes",
+                "501000",
+                "--max-annotation-chars",
+                "12000",
                 "--min-prose-chars",
                 "400",
                 "--max-prose-chars",
                 "23000",
-                "--max-paragraphs",
-                "15",
-                "--max-findings",
-                "47",
-                "--max-friction-notes",
-                "11",
+                "--max-rendered-output-bytes",
+                "902000",
             ]
         )
         self.assertEqual(
@@ -444,13 +471,26 @@ class AdvanceWorkflowTests(unittest.TestCase):
             workflow.SynthesisOptions(
                 max_packet_bytes=301_000,
                 max_prompt_bytes=376_000,
+                max_response_bytes=501_000,
+                max_annotation_chars=12_000,
                 min_prose_chars=400,
                 max_prose_chars=23_000,
-                max_paragraphs=15,
-                max_findings=47,
-                max_friction_notes=11,
+                max_rendered_output_bytes=902_000,
             ),
         )
+
+    def test_cli_reports_persisted_artifact_validation_errors_as_exit_2(self) -> None:
+        error = "Validated findings[0] fields disagree with contract"
+        stderr = io.StringIO()
+        with (
+            patch.object(workflow, "_run_verify", side_effect=ValidationError(error)),
+            redirect_stderr(stderr),
+        ):
+            result = workflow.main(["verify", "--ayah", "29:38"])
+        payload = json.loads(stderr.getvalue())
+        self.assertEqual(result, 2)
+        self.assertEqual(payload["error_type"], "ValidationError")
+        self.assertEqual(payload["message"], error)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "commentary-v3-candidate-docket-v1",
+  "$id": "commentary-v3-candidate-docket-v2",
   "title": "Commentary v3 adjudication docket",
   "type": "object",
   "required": [
@@ -19,7 +19,7 @@
     "limits"
   ],
   "properties": {
-    "schema_version": {"const": "commentary-v3-candidate-docket-v1"},
+    "schema_version": {"const": "commentary-v3-candidate-docket-v2"},
     "identity": {
       "type": "object",
       "required": ["ayah_ref", "source_canonical_sha256", "docket_payload_sha256"],
@@ -286,6 +286,7 @@
       "required": [
         "discovered_seed_count", "accounted_seed_count", "docket_candidate_count",
         "mandatory_candidate_count", "optional_candidate_count",
+        "selection_eligible_candidate_count", "selection_ineligible_candidate_count",
         "by_disposition", "by_source_type"
       ],
       "properties": {
@@ -294,6 +295,8 @@
         "docket_candidate_count": {"type": "integer", "minimum": 0},
         "mandatory_candidate_count": {"type": "integer", "minimum": 0},
         "optional_candidate_count": {"type": "integer", "minimum": 0},
+        "selection_eligible_candidate_count": {"type": "integer", "minimum": 0},
+        "selection_ineligible_candidate_count": {"type": "integer", "minimum": 0},
         "by_disposition": {
           "type": "object",
           "propertyNames": {
@@ -378,7 +381,8 @@
         "source_pointer", "title", "mandatory", "obligation", "scope", "trust",
         "branch_refs", "root_ids", "unresolved_branch_citations", "anchor_refs",
         "support_ids", "focus_branch_refs", "nominated_branch_refs",
-        "unresolved_branch_refs", "adjudicable"
+        "unresolved_branch_refs", "adjudicable", "selection_eligible",
+        "selection_ineligibility_reasons"
       ],
       "properties": {
         "candidate_id": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"},
@@ -404,7 +408,18 @@
         "focus_branch_refs": {"$ref": "#/$defs/branchRefArray"},
         "nominated_branch_refs": {"$ref": "#/$defs/branchRefArray"},
         "unresolved_branch_refs": {"$ref": "#/$defs/branchRefArray"},
-        "adjudicable": {"type": "boolean"}
+        "adjudicable": {"type": "boolean"},
+        "selection_eligible": {"type": "boolean"},
+        "selection_ineligibility_reasons": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "legacy_unbound", "ledger_only", "no_candidate_evidence",
+              "not_adjudicable", "occurrence_only"
+            ]
+          },
+          "uniqueItems": true
+        }
       },
       "additionalProperties": false
     },

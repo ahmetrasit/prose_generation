@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 from v3lib.adjudication import (
+    ADJUDICATION_RESPONSE_SAFETY_CEILING,
     AdjudicationOptions,
     render_adjudication_for_ayah,
     validate_adjudication_for_ayah,
@@ -19,7 +20,7 @@ from v3lib.common import (
     ValidationError,
     WorkflowError,
     confined_existing_file,
-    load_json_object,
+    load_json_object_bounded,
 )
 from v3lib.prepare import PrepareOptions, prepare_bundle_file
 from v3lib.synthesis import (
@@ -45,13 +46,15 @@ def _add_handoff_prepare_options(parser: argparse.ArgumentParser) -> None:
 
 
 def _add_synthesis_options(parser: argparse.ArgumentParser) -> None:
-    parser.add_argument("--max-packet-bytes", type=int, default=300_000)
-    parser.add_argument("--max-prompt-bytes", type=int, default=375_000)
+    parser.add_argument("--max-packet-bytes", type=int, default=4_000_000)
+    parser.add_argument("--max-prompt-bytes", type=int, default=5_000_000)
+    parser.add_argument("--max-response-bytes", type=int, default=32_000_000)
+    parser.add_argument("--max-annotation-chars", type=int, default=1_000_000)
     parser.add_argument("--min-prose-chars", type=int, default=500)
-    parser.add_argument("--max-prose-chars", type=int, default=24_000)
-    parser.add_argument("--max-paragraphs", type=int, default=16)
-    parser.add_argument("--max-findings", type=int, default=48)
-    parser.add_argument("--max-friction-notes", type=int, default=12)
+    parser.add_argument("--max-prose-chars", type=int, default=1_000_000)
+    parser.add_argument(
+        "--max-rendered-output-bytes", type=int, default=64_000_000
+    )
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -92,7 +95,6 @@ def _build_parser() -> argparse.ArgumentParser:
     advance.add_argument("--max-branch-bytes-per-root", type=int, default=32_000)
     advance.add_argument("--max-pericope-ayahs", type=int, default=512)
     advance.add_argument("--max-docket-bytes", type=int, default=500_000)
-    advance.add_argument("--max-new-candidates", type=int, default=8)
     advance.add_argument(
         "--max-adjudication-prompt-bytes", type=int, default=750_000
     )
@@ -148,7 +150,6 @@ def _build_parser() -> argparse.ArgumentParser:
     render_adjudication.add_argument("--ayah", required=True)
     _add_handoff_prepare_options(render_adjudication)
     render_adjudication.add_argument("--max-prompt-bytes", type=int, default=750_000)
-    render_adjudication.add_argument("--max-new-candidates", type=int, default=8)
     render_adjudication.add_argument("--dry-run", action="store_true")
     render_adjudication.add_argument("--force", action="store_true")
 
@@ -158,7 +159,6 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     validate_adjudication.add_argument("--ayah", required=True)
     _add_handoff_prepare_options(validate_adjudication)
-    validate_adjudication.add_argument("--max-new-candidates", type=int, default=8)
     validate_adjudication.add_argument("--dry-run", action="store_true")
     validate_adjudication.add_argument("--force", action="store_true")
 
@@ -168,7 +168,6 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     render_synthesis.add_argument("--ayah", required=True)
     _add_handoff_prepare_options(render_synthesis)
-    render_synthesis.add_argument("--max-new-candidates", type=int, default=8)
     _add_synthesis_options(render_synthesis)
     render_synthesis.add_argument("--dry-run", action="store_true")
     render_synthesis.add_argument("--force", action="store_true")
@@ -179,7 +178,6 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     validate_synthesis.add_argument("--ayah", required=True)
     _add_handoff_prepare_options(validate_synthesis)
-    validate_synthesis.add_argument("--max-new-candidates", type=int, default=8)
     _add_synthesis_options(validate_synthesis)
     validate_synthesis.add_argument("--dry-run", action="store_true")
     validate_synthesis.add_argument("--force", action="store_true")
@@ -189,7 +187,6 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     verify.add_argument("--ayah", required=True)
     _add_handoff_prepare_options(verify)
-    verify.add_argument("--max-new-candidates", type=int, default=8)
     _add_synthesis_options(verify)
     return parser
 
@@ -216,12 +213,7 @@ def _adjudication_options(args: argparse.Namespace) -> AdjudicationOptions:
         max_prompt_bytes = args.max_prompt_bytes
     else:
         max_prompt_bytes = defaults.max_prompt_bytes
-    return AdjudicationOptions(
-        max_prompt_bytes=max_prompt_bytes,
-        max_new_candidates=getattr(
-            args, "max_new_candidates", defaults.max_new_candidates
-        ),
-    )
+    return AdjudicationOptions(max_prompt_bytes=max_prompt_bytes)
 
 
 def _run_prepare(args: argparse.Namespace) -> int:
@@ -257,7 +249,10 @@ def _raw_response_is_present(path_value: str) -> bool:
 
 
 def _raw_response_state(
-    path_value: str, *, expected_identity: dict[str, str]
+    path_value: str,
+    *,
+    expected_identity: dict[str, str],
+    max_bytes: int = ADJUDICATION_RESPONSE_SAFETY_CEILING,
 ) -> str:
     path = Path(path_value)
     try:
@@ -270,7 +265,9 @@ def _raw_response_state(
         return "missing"
     response_path = confined_existing_file(OUTPUTS_ROOT, relative)
     try:
-        response, _raw = load_json_object(response_path)
+        response, _raw = load_json_object_bounded(
+            response_path, max_bytes=max_bytes
+        )
     except ValidationError:
         return "invalid"
     identity = response.get("identity")
@@ -375,6 +372,7 @@ def _run_advance(args: argparse.Namespace) -> int:
     synthesis_response_state = _raw_response_state(
         synthesis_paths["expected_response"],
         expected_identity=synthesis_manifest["identity"],
+        max_bytes=synthesis_options.max_response_bytes,
     )
     if synthesis_response_state != "current":
         print(
@@ -499,11 +497,11 @@ def _synthesis_options(args: argparse.Namespace) -> SynthesisOptions:
             for field in (
                 "max_packet_bytes",
                 "max_prompt_bytes",
+                "max_response_bytes",
+                "max_annotation_chars",
                 "min_prose_chars",
                 "max_prose_chars",
-                "max_paragraphs",
-                "max_findings",
-                "max_friction_notes",
+                "max_rendered_output_bytes",
             )
         }
     )

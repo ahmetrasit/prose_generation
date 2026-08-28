@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import copy
-import difflib
 import re
 import unicodedata
 from dataclasses import dataclass
@@ -21,6 +20,7 @@ from .common import (
     contains_apparatus_id,
     confined_existing_file,
     load_json_object,
+    load_json_object_bounded,
     preflight_confined_writes,
     pretty_json_bytes,
     sha256_bytes,
@@ -40,9 +40,9 @@ from .prepare import (
 )
 
 
-RESPONSE_SCHEMA = "commentary-v3-adjudication-response-v1"
-VALIDATED_SCHEMA = "commentary-v3-adjudication-validated-v1"
-PROMPT_MANIFEST_SCHEMA = "commentary-v3-adjudication-prompt-manifest-v1"
+RESPONSE_SCHEMA = "commentary-v3-adjudication-response-v2"
+VALIDATED_SCHEMA = "commentary-v3-adjudication-validated-v2"
+PROMPT_MANIFEST_SCHEMA = "commentary-v3-adjudication-prompt-manifest-v2"
 REF_RE = re.compile(r"^([1-9][0-9]*):([1-9][0-9]*)$")
 PROPOSAL_KEY_RE = re.compile(r"^[a-z][a-z0-9_-]{2,63}$")
 NEW_ACTIVATION_REF_RE = re.compile(r"^new:([a-z][a-z0-9_-]{2,63})$")
@@ -51,15 +51,16 @@ ACTIVATION_REF_RE = re.compile(
 )
 BRANCH_REVIEW_REASON_MIN_CHARS = 24
 BRANCH_REVIEW_REASON_MAX_CHARS = 400
-BRANCH_REVIEW_SUPPORT_MAX = 6
 CONTACT_QUOTE_MIN_CHARS = 12
 CONTACT_QUOTE_MAX_CHARS = 320
 CONTACT_CLAIM_MIN_CHARS = 24
 CONTACT_CLAIM_MAX_CHARS = 500
 SELECTION_BASIS_MIN_CHARS = 24
 SELECTION_BASIS_MAX_CHARS = 400
-MAX_SELECTED_CANDIDATES = 64
-MAX_BRANCH_REFS_PER_NEW_CANDIDATE = 6
+EXCLUSION_RATIONALE_MIN_CHARS = 48
+EXCLUSION_RATIONALE_MAX_CHARS = 1_200
+SELECTION_SAFETY_CEILING = 512
+ADJUDICATION_RESPONSE_SAFETY_CEILING = 32_000_000
 CONTACT_MODE_SOURCE_EXPLICIT = "source_explicit"
 CONTACT_MODE_BOUNDED_INFERENCE = "bounded_inference"
 ACTIVATED_REASON_CODE = "supported_activation"
@@ -70,6 +71,12 @@ UNACTIVATED_REASON_CODES = {
     "lexical_overreach",
 }
 UNACTIVATION_BASIS_KINDS = {"grounding_only", "candidate_evidence_rejected"}
+EXCLUSION_REASON_CODES = {
+    "unsupported",
+    "unsafe",
+    "out_of_scope",
+    "semantic_duplicate",
+}
 ELIGIBILITY_TERMS = {
     "trusted", "citable", "compatible", "admissible", "eligible", "provenance",
     "guvenilir", "alintilanabilir", "uyumlu", "uygun", "gecerli",
@@ -86,7 +93,6 @@ ELIGIBILITY_BOILERPLATE = ELIGIBILITY_TERMS | {
 @dataclass(frozen=True)
 class AdjudicationOptions:
     max_prompt_bytes: int = 750_000
-    max_new_candidates: int = 8
 
     def validate(self) -> None:
         if (
@@ -95,14 +101,6 @@ class AdjudicationOptions:
             or self.max_prompt_bytes <= 0
         ):
             raise ValidationError("max_prompt_bytes must be a positive integer")
-        if (
-            not isinstance(self.max_new_candidates, int)
-            or isinstance(self.max_new_candidates, bool)
-            or not 0 <= self.max_new_candidates <= 20
-        ):
-            raise ValidationError(
-                "max_new_candidates must be an integer between 0 and 20"
-            )
 
 
 def _require_dict(value: Any, label: str) -> dict[str, Any]:
@@ -171,27 +169,27 @@ def _is_eligibility_only(value: str) -> bool:
     )
 
 
-def _text_fingerprint(value: str) -> str:
-    return " ".join(_comparison_words(value))
+def _new_candidate_capacity(selected_existing_count: int) -> int:
+    if (
+        not isinstance(selected_existing_count, int)
+        or isinstance(selected_existing_count, bool)
+        or selected_existing_count < 0
+    ):
+        raise ValidationError("selected_existing_count must be a nonnegative integer")
+    capacity = SELECTION_SAFETY_CEILING - selected_existing_count
+    if capacity < 0:
+        raise BudgetError(
+            f"Adjudication selected {selected_existing_count} existing candidates; fail-loud safety "
+            f"ceiling is {SELECTION_SAFETY_CEILING}. Nothing was pruned."
+        )
+    return capacity
 
 
-def _too_similar(left: str, right: str) -> bool:
-    left_fingerprint = _text_fingerprint(left)
-    right_fingerprint = _text_fingerprint(right)
-    if left_fingerprint == right_fingerprint:
-        return True
-    if min(len(left_fingerprint), len(right_fingerprint)) < 24:
-        return False
-    if difflib.SequenceMatcher(
-        None, left_fingerprint, right_fingerprint, autojunk=False
-    ).ratio() >= 0.92:
-        return True
-    left_words = set(left_fingerprint.split())
-    right_words = set(right_fingerprint.split())
-    return (
-        min(len(left_words), len(right_words)) >= 5
-        and left_words == right_words
-    )
+def _reader_contribution_key(
+    *, claim: str, reader_payoff: str, containment: str, deletion_loss: str
+) -> tuple[str, str, str, str]:
+    """Identify only byte-equivalent reader contributions, never near matches."""
+    return claim, reader_payoff, containment, deletion_loss
 
 
 def _selection_basis(
@@ -223,11 +221,47 @@ def _selection_basis(
     )
     if set(subsumes) - known_candidate_ids or own_candidate_id in subsumes:
         raise ValidationError(f"{label} subsumes unknown or self candidate IDs")
+    if subsumes:
+        raise ValidationError(
+            f"{label} may not subsume candidates in the exhaustive admission contract"
+        )
     return {
         "kind": expected_kind,
         "deletion_loss": deletion_loss,
         "subsumes_candidate_ids": sorted(subsumes),
     }
+
+
+def _support_quote(
+    value: Any,
+    *,
+    label: str,
+    allowed_support_ids: set[str],
+    support_registry: dict[str, dict[str, Any]],
+) -> dict[str, str]:
+    quote_record = _require_dict(value, label)
+    _require_exact_keys(quote_record, {"support_id", "quote"}, label)
+    support_id = quote_record.get("support_id")
+    if not isinstance(support_id, str) or support_id not in allowed_support_ids:
+        raise ValidationError(f"{label} cites support outside the selected evidence")
+    support = support_registry[support_id]
+    if (
+        support["trust"] != "trusted"
+        or support["citable"] is not True
+        or support["role"] != SUPPORT_ROLE_EVIDENCE
+    ):
+        raise ValidationError(f"{label} must cite trusted candidate evidence")
+    quote = _require_text(quote_record.get("quote"), f"{label} quote")
+    if not CONTACT_QUOTE_MIN_CHARS <= len(quote) <= CONTACT_QUOTE_MAX_CHARS:
+        raise ValidationError(
+            f"{label} quote must contain {CONTACT_QUOTE_MIN_CHARS}-"
+            f"{CONTACT_QUOTE_MAX_CHARS} characters"
+        )
+    if quote not in support["text"]:
+        raise ValidationError(f"{label} quote is not an exact support excerpt")
+    if sum(character.isalpha() for character in quote) < 8:
+        raise ValidationError(f"{label} quote lacks explanatory text")
+    return {"support_id": support_id, "quote": quote}
 
 
 def _parse_ayah_ref(value: Any, label: str) -> tuple[int, int]:
@@ -337,15 +371,14 @@ def _render_adjudication_prompt_unbound(
             raise ValidationError(f"Cannot read adjudication prompt template: {exc}") from exc
 
     identity = _require_dict(docket.get("identity"), "docket identity")
-    minimum_selected = sum(
-        candidate.get("obligation") == "must_integrate"
-        for candidate in docket["candidates"]
-    )
-    if minimum_selected > MAX_SELECTED_CANDIDATES:
-        raise BudgetError(
-            f"Docket requires {minimum_selected} must_integrate selections; hard "
-            f"handoff limit is {MAX_SELECTED_CANDIDATES}"
-        )
+    eligible_candidates = [
+        candidate for candidate in docket["candidates"] if candidate["selection_eligible"]
+    ]
+    mandatory_selected = sum(candidate["mandatory"] for candidate in eligible_candidates)
+    maximum_new_candidate_capacity = _new_candidate_capacity(mandatory_selected)
+    registered_branch_count = sum(
+        len(root["branches"]) for root in docket["branch_registry"]
+    ) + len(docket["nominated_branch_registry"])
     neighbor_ref = next(
         (
             ref
@@ -358,10 +391,12 @@ def _render_adjudication_prompt_unbound(
         "@@AYAH_REF@@": identity["ayah_ref"],
         "@@SOURCE_SHA256@@": identity["source_canonical_sha256"],
         "@@DOCKET_SHA256@@": identity["docket_payload_sha256"],
-        "@@MAX_NEW_CANDIDATES@@": str(options.max_new_candidates),
-        "@@MAX_SELECTED_CANDIDATES@@": str(MAX_SELECTED_CANDIDATES),
-        "@@MAX_NEW_SUPPORTS@@": str(docket["limits"]["max_support_per_candidate"]),
-        "@@MAX_NEW_BRANCHES@@": str(MAX_BRANCH_REFS_PER_NEW_CANDIDATE),
+        "@@MAXIMUM_NEW_CANDIDATE_CAPACITY@@": str(maximum_new_candidate_capacity),
+        "@@ELIGIBLE_CANDIDATE_COUNT@@": str(len(eligible_candidates)),
+        "@@MANDATORY_SELECTED_COUNT@@": str(mandatory_selected),
+        "@@SELECTION_SAFETY_CEILING@@": str(SELECTION_SAFETY_CEILING),
+        "@@SUPPORT_REGISTRY_COUNT@@": str(len(docket["support_registry"])),
+        "@@REGISTERED_BRANCH_COUNT@@": str(registered_branch_count),
         "@@PERICOPE_NEIGHBOR_REF@@": neighbor_ref,
         "@@DOCKET_JSON@@": canonical_json_bytes(docket).decode("utf-8"),
     }
@@ -391,19 +426,24 @@ def _render_adjudication_prompt_unbound(
             "prompt_bytes": len(prompt_bytes),
             "estimated_tokens_chars_div_4": (len(prompt) + 3) // 4,
             "candidate_count": len(docket["candidates"]),
-            "max_new_candidates": options.max_new_candidates,
-            "max_selected_candidates": MAX_SELECTED_CANDIDATES,
-            "max_supports_per_new_candidate": docket["limits"][
-                "max_support_per_candidate"
-            ],
-            "max_branches_per_new_candidate": MAX_BRANCH_REFS_PER_NEW_CANDIDATE,
+            "eligible_candidate_count": len(eligible_candidates),
+            "mandatory_selected_count": mandatory_selected,
+            "maximum_new_candidate_capacity": maximum_new_candidate_capacity,
+            "selection_safety_ceiling": SELECTION_SAFETY_CEILING,
+            "new_candidate_capacity_formula": (
+                f"{SELECTION_SAFETY_CEILING} - selected_existing_count"
+            ),
+            "support_registry_count": len(docket["support_registry"]),
+            "registered_branch_count": registered_branch_count,
         },
         "contract": {
             "response_schema_version": RESPONSE_SCHEMA,
-            "every_docket_candidate_exactly_once": True,
+            "every_selection_eligible_candidate_exactly_once": True,
+            "selection_ineligible_candidates_have_no_model_decision": True,
+            "every_discovered_candidate_or_loud_overflow": True,
             "every_focus_branch_exactly_once": True,
             "every_nominated_branch_exactly_once": True,
-            "selected_candidate_hard_limit": MAX_SELECTED_CANDIDATES,
+            "selection_safety_ceiling": SELECTION_SAFETY_CEILING,
             "expected_response": str(
                 Path("outputs") / _artifact_relatives(identity["ayah_ref"])["response"]
             ),
@@ -531,14 +571,21 @@ def _validate_decisions(
         "reader_payoff",
         "containment",
         "selection_basis",
+        "support_quote",
+        "exclusion_basis",
         "support_ids",
         "branch_refs",
     }
-    candidates = {item["candidate_id"]: item for item in docket["candidates"]}
+    candidates = {
+        item["candidate_id"]: item
+        for item in docket["candidates"]
+        if item["selection_eligible"]
+    }
     support_registry = {item["support_id"]: item for item in docket["support_registry"]}
     focus_branches, nominated_branches = _registered_branches(docket)
     registered_branches = focus_branches | nominated_branches
     decisions_by_id: dict[str, dict[str, Any]] = {}
+    received_order: list[str] = []
     for index, raw in enumerate(_require_list(raw_decisions, "decisions")):
         decision = _require_dict(raw, f"decisions[{index}]")
         _require_exact_keys(decision, decision_fields, f"decisions[{index}]")
@@ -547,6 +594,7 @@ def _validate_decisions(
             raise ValidationError(f"Decision references unknown candidate: {candidate_id!r}")
         if candidate_id in decisions_by_id:
             raise ValidationError(f"Candidate has duplicate decisions: {candidate_id}")
+        received_order.append(candidate_id)
         candidate = candidates[candidate_id]
         status = decision.get("status")
         if not isinstance(status, str) or status not in (
@@ -555,6 +603,8 @@ def _validate_decisions(
             "deferred",
         ):
             raise ValidationError(f"Decision {candidate_id} has invalid status")
+        if candidate["mandatory"] and status != "selected":
+            raise ValidationError(f"Mandatory candidate was not selected: {candidate_id}")
         rationale = _require_text(decision.get("rationale"), f"decision {candidate_id} rationale")
         if (
             candidate.get("obligation") != "must_integrate"
@@ -596,12 +646,16 @@ def _validate_decisions(
             "reader_payoff": decision.get("reader_payoff"),
             "containment": decision.get("containment"),
             "selection_basis": decision.get("selection_basis"),
+            "support_quote": decision.get("support_quote"),
+            "exclusion_basis": decision.get("exclusion_basis"),
             "support_ids": sorted(support_ids),
             "branch_refs": sorted(branch_refs),
         }
         if status == "selected":
-            if not candidate["adjudicable"]:
-                raise ValidationError(f"Non-adjudicable candidate selected: {candidate_id}")
+            if decision.get("exclusion_basis") is not None:
+                raise ValidationError(
+                    f"Selected decision {candidate_id} exclusion_basis must be null"
+                )
             priority = decision.get("priority")
             if not isinstance(priority, str) or priority not in (
                 "core",
@@ -613,9 +667,7 @@ def _validate_decisions(
                     decision.get(field), f"selected decision {candidate_id} {field}"
                 )
             basis_kind = (
-                "mandatory"
-                if candidate.get("obligation") == "must_integrate"
-                else "distinct"
+                "mandatory" if candidate["mandatory"] else "distinct"
             )
             normalized["selection_basis"] = _selection_basis(
                 decision.get("selection_basis"),
@@ -624,11 +676,6 @@ def _validate_decisions(
                 known_candidate_ids=set(candidates),
                 own_candidate_id=candidate_id,
             )
-            if candidate["trust"] == "legacy_unbound":
-                raise ValidationError(
-                    f"Legacy-unbound candidate {candidate_id} is audit-only and "
-                    "cannot enter synthesis"
-                )
             if extra_support_ids:
                 raise ValidationError(
                     f"Trusted selection {candidate_id} cites support outside its "
@@ -645,6 +692,12 @@ def _validate_decisions(
                     f"Selected decision {candidate_id} may expose only trusted, "
                     "citable candidate_evidence support to synthesis"
                 )
+            normalized["support_quote"] = _support_quote(
+                decision.get("support_quote"),
+                label=f"selected decision {candidate_id} support_quote",
+                allowed_support_ids=set(support_ids),
+                support_registry=support_registry,
+            )
             unactivated_support_branches = sorted(
                 {
                     branch_ref
@@ -675,17 +728,99 @@ def _validate_decisions(
                 raise ValidationError(
                     f"Non-selected decision {candidate_id} selection_basis must be null"
                 )
-        if candidate.get("obligation") == "must_integrate" and status != "selected":
-            raise ValidationError(f"must_integrate candidate was not selected: {candidate_id}")
+            if branch_refs:
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} branch_refs must be empty"
+                )
+            if not (
+                EXCLUSION_RATIONALE_MIN_CHARS
+                <= len(rationale)
+                <= EXCLUSION_RATIONALE_MAX_CHARS
+            ):
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} rationale must contain "
+                    f"{EXCLUSION_RATIONALE_MIN_CHARS}-"
+                    f"{EXCLUSION_RATIONALE_MAX_CHARS} characters"
+                )
+            excluded_supports = [support_registry[support_id] for support_id in support_ids]
+            if any(
+                support["trust"] != "trusted"
+                or not support["citable"]
+                or support["role"] != SUPPORT_ROLE_EVIDENCE
+                for support in excluded_supports
+            ):
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} may cite only trusted, "
+                    "citable candidate_evidence support"
+                )
+            normalized["support_quote"] = _support_quote(
+                decision.get("support_quote"),
+                label=f"non-selected decision {candidate_id} support_quote",
+                allowed_support_ids=set(support_ids),
+                support_registry=support_registry,
+            )
+            if normalized["support_quote"]["quote"] not in rationale:
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} rationale must contain "
+                    "its exact support quote"
+                )
+            raw_exclusion = _require_dict(
+                decision.get("exclusion_basis"),
+                f"non-selected decision {candidate_id} exclusion_basis",
+            )
+            _require_exact_keys(
+                raw_exclusion,
+                {"reason_code", "duplicate_of_candidate_ids"},
+                f"non-selected decision {candidate_id} exclusion_basis",
+            )
+            reason_code = raw_exclusion.get("reason_code")
+            if not isinstance(reason_code, str) or reason_code not in EXCLUSION_REASON_CODES:
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} has invalid exclusion reason"
+                )
+            duplicate_of = _require_string_list(
+                raw_exclusion.get("duplicate_of_candidate_ids"),
+                f"non-selected decision {candidate_id} duplicate_of_candidate_ids",
+            )
+            if candidate_id in duplicate_of or set(duplicate_of) - set(candidates):
+                raise ValidationError(
+                    f"Non-selected decision {candidate_id} has invalid duplicate targets"
+                )
+            if reason_code == "semantic_duplicate":
+                if not duplicate_of:
+                    raise ValidationError(
+                        f"Semantic duplicate {candidate_id} needs selected duplicate targets"
+                    )
+            elif duplicate_of:
+                raise ValidationError(
+                    f"Non-duplicate decision {candidate_id} cannot cite duplicate targets"
+                )
+            normalized["exclusion_basis"] = {
+                "reason_code": reason_code,
+                "duplicate_of_candidate_ids": sorted(duplicate_of),
+            }
         decisions_by_id[candidate_id] = normalized
 
     missing = set(candidates) - set(decisions_by_id)
-    if missing:
+    extra = set(decisions_by_id) - set(candidates)
+    if missing or extra:
         raise ValidationError(
-            f"Adjudication omitted {len(missing)} docket candidates: {sorted(missing)}"
+            "Adjudication decision coverage disagrees with selection eligibility: "
+            f"missing={sorted(missing)}, extra={sorted(extra)}"
+        )
+    expected_order = [
+        item["candidate_id"]
+        for item in docket["candidates"]
+        if item["selection_eligible"]
+    ]
+    if received_order != expected_order:
+        raise ValidationError(
+            "Adjudication decisions must follow exact selection-eligible docket order"
         )
     normalized_decisions = [
-        decisions_by_id[item["candidate_id"]] for item in docket["candidates"]
+        decisions_by_id[item["candidate_id"]]
+        for item in docket["candidates"]
+        if item["selection_eligible"]
     ]
     selected_ids = {
         item["candidate_id"]
@@ -695,37 +830,40 @@ def _validate_decisions(
     all_selected = [
         item for item in normalized_decisions if item["status"] == "selected"
     ]
-    if len(all_selected) > MAX_SELECTED_CANDIDATES:
+    if len(all_selected) > SELECTION_SAFETY_CEILING:
         raise ValidationError(
-            "Selected candidate count exceeds the hard synthesis handoff limit "
-            f"{MAX_SELECTED_CANDIDATES}"
+            "Selected candidate count exceeds the fail-loud safety ceiling "
+            f"{SELECTION_SAFETY_CEILING}"
         )
-    for index, item in enumerate(all_selected):
-        basis = item["selection_basis"]
-        invalid_subsumed = set(basis["subsumes_candidate_ids"]) & selected_ids
-        if invalid_subsumed:
+    for item in normalized_decisions:
+        exclusion = item["exclusion_basis"]
+        if exclusion is None or exclusion["reason_code"] != "semantic_duplicate":
+            continue
+        targets = exclusion["duplicate_of_candidate_ids"]
+        if not set(targets) <= selected_ids:
             raise ValidationError(
-                f"Selected decision {item['candidate_id']} subsumes selected candidates: "
-                f"{sorted(invalid_subsumed)}"
+                f"Semantic duplicate {item['candidate_id']} must link only selected targets"
             )
-        for other in all_selected[index + 1 :]:
-            if _too_similar(item["synthesis_claim"], other["synthesis_claim"]):
-                raise ValidationError(
-                    "Selected decisions have duplicate synthesis claims "
-                    "or near-duplicates: "
-                    f"{item['candidate_id']}, "
-                    f"{other['candidate_id']}"
-                )
-            if _too_similar(
-                basis["deletion_loss"],
-                other["selection_basis"]["deletion_loss"],
-            ):
-                raise ValidationError(
-                    "Selected decisions have duplicate deletion losses "
-                    "or near-duplicates: "
-                    f"{item['candidate_id']}, "
-                    f"{other['candidate_id']}"
-                )
+        missing_target_claims = [
+            target_id
+            for target_id in targets
+            if decisions_by_id[target_id]["synthesis_claim"] not in item["rationale"]
+        ]
+        if missing_target_claims:
+            raise ValidationError(
+                f"Semantic duplicate {item['candidate_id']} rationale must quote the "
+                f"exact selected target claims: {missing_target_claims}"
+            )
+        duplicate_candidate = candidates[item["candidate_id"]]
+        covered_branches = {
+            branch_ref
+            for target_id in targets
+            for branch_ref in decisions_by_id[target_id]["branch_refs"]
+        }
+        if not set(duplicate_candidate["branch_refs"]) <= covered_branches:
+            raise ValidationError(
+                f"Semantic duplicate {item['candidate_id']} loses branch lineage"
+            )
     return normalized_decisions
 
 
@@ -734,7 +872,7 @@ def _validate_new_candidates(
     docket: dict[str, Any],
     decisions: list[dict[str, Any]],
     *,
-    max_new_candidates: int,
+    new_candidate_capacity: int,
 ) -> list[dict[str, Any]]:
     proposal_fields = {
         "proposal_key",
@@ -746,15 +884,17 @@ def _validate_new_candidates(
         "reader_payoff",
         "containment",
         "selection_basis",
+        "support_quote",
         "confidence",
         "anchor_refs",
         "support_ids",
         "branch_refs",
     }
     proposals = _require_list(raw_candidates, "new_candidates")
-    if len(proposals) > max_new_candidates:
+    if len(proposals) > new_candidate_capacity:
         raise ValidationError(
-            f"New candidate count {len(proposals)} exceeds limit {max_new_candidates}"
+            f"New candidate count {len(proposals)} exceeds fail-loud remaining "
+            f"capacity {new_candidate_capacity}"
         )
     identity = docket["identity"]
     focus_ref = identity["ayah_ref"]
@@ -773,17 +913,17 @@ def _validate_new_candidates(
     }
     seen_keys: set[str] = set()
     seen_ids: set[str] = set()
+    contribution_owners = {
+        _reader_contribution_key(
+            claim=decision["synthesis_claim"],
+            reader_payoff=decision["reader_payoff"],
+            containment=decision["containment"],
+            deletion_loss=decision["selection_basis"]["deletion_loss"],
+        ): decision["candidate_id"]
+        for decision in decisions
+        if decision["status"] == "selected"
+    }
     decision_status = {item["candidate_id"]: item["status"] for item in decisions}
-    seen_claims = [
-        (item["candidate_id"], item["synthesis_claim"])
-        for item in decisions
-        if item["status"] == "selected"
-    ]
-    seen_deletion_losses = [
-        (item["candidate_id"], item["selection_basis"]["deletion_loss"])
-        for item in decisions
-        if item["status"] == "selected"
-    ]
     normalized: list[dict[str, Any]] = []
     for index, raw in enumerate(proposals):
         proposal = _require_dict(raw, f"new_candidates[{index}]")
@@ -835,35 +975,6 @@ def _validate_new_candidates(
             expected_kind="distinct",
             known_candidate_ids=set(decision_status),
         )
-        selected_subsumed = [
-            candidate_id
-            for candidate_id in selection_basis["subsumes_candidate_ids"]
-            if decision_status[candidate_id] == "selected"
-        ]
-        if selected_subsumed:
-            raise ValidationError(
-                f"New candidate {key} subsumes selected candidates: "
-                f"{selected_subsumed}"
-            )
-        if any(
-            _too_similar(text_fields["claim"], claim)
-            for _candidate_id, claim in seen_claims
-        ):
-            raise ValidationError(
-                f"New candidate {key} duplicates or near-duplicates a selected claim"
-            )
-        seen_claims.append((f"new:{key}", text_fields["claim"]))
-        if any(
-            _too_similar(selection_basis["deletion_loss"], deletion_loss)
-            for _candidate_id, deletion_loss in seen_deletion_losses
-        ):
-            raise ValidationError(
-                f"New candidate {key} duplicates or near-duplicates a selected "
-                "deletion loss"
-            )
-        seen_deletion_losses.append(
-            (f"new:{key}", selection_basis["deletion_loss"])
-        )
         anchor_refs = _require_string_list(
             proposal.get("anchor_refs"), f"new candidate {key} anchor_refs"
         )
@@ -889,12 +1000,6 @@ def _validate_new_candidates(
         )
         if set(support_ids) - set(support_registry):
             raise ValidationError(f"New candidate {key} cites unknown supports")
-        max_supports = docket["limits"]["max_support_per_candidate"]
-        if len(support_ids) > max_supports:
-            raise ValidationError(
-                f"New candidate {key} cites {len(support_ids)} supports; limit is "
-                f"{max_supports}"
-            )
         support_items = [support_registry[support_id] for support_id in support_ids]
         cited_owners = {
             candidate["candidate_id"]: candidate
@@ -920,6 +1025,12 @@ def _validate_new_candidates(
             raise ValidationError(
                 f"New candidate {key} lacks candidate_evidence support"
             )
+        support_quote = _support_quote(
+            proposal.get("support_quote"),
+            label=f"new candidate {key} support_quote",
+            allowed_support_ids=set(support_ids),
+            support_registry=support_registry,
+        )
         if not any(
             item["scope"] == "micro"
             and item["role"] == SUPPORT_ROLE_OCCURRENCE
@@ -956,11 +1067,6 @@ def _validate_new_candidates(
             raise ValidationError(
                 f"New candidate {key} exposes branch-bearing support without "
                 f"activating its branches: {unactivated_support_branches}"
-            )
-        if len(branch_refs) > MAX_BRANCH_REFS_PER_NEW_CANDIDATE:
-            raise ValidationError(
-                f"New candidate {key} cites {len(branch_refs)} branches; limit is "
-                f"{MAX_BRANCH_REFS_PER_NEW_CANDIDATE}"
             )
         if not set(branch_refs) & focus_branches:
             raise ValidationError(f"New candidate {key} lacks a focus-root branch")
@@ -1007,12 +1113,24 @@ def _validate_new_candidates(
                 f"New candidate {key} anchors lack cited candidate support: "
                 f"{sorted(unsupported_anchors)}"
             )
+        contribution_key = _reader_contribution_key(
+            claim=text_fields["claim"],
+            reader_payoff=text_fields["reader_payoff"],
+            containment=text_fields["containment"],
+            deletion_loss=selection_basis["deletion_loss"],
+        )
+        if contribution_key in contribution_owners:
+            raise ValidationError(
+                f"New candidate {key} exactly duplicates the reader contribution of "
+                f"{contribution_owners[contribution_key]}"
+            )
         semantic_payload = {
             "docket_payload_sha256": identity["docket_payload_sha256"],
             "lane": lane,
             "scope": proposal["scope"],
             **text_fields,
             "selection_basis": selection_basis,
+            "support_quote": support_quote,
             "confidence": confidence,
             "anchor_refs": sorted(anchor_refs),
             "support_ids": sorted(support_ids),
@@ -1022,6 +1140,7 @@ def _validate_new_candidates(
         if candidate_id in seen_ids:
             raise ValidationError(f"Semantically duplicate new candidate: {key}")
         seen_ids.add(candidate_id)
+        contribution_owners[contribution_key] = f"new:{key}"
         normalized.append(
             {
                 "candidate_id": candidate_id,
@@ -1031,6 +1150,7 @@ def _validate_new_candidates(
                 "scope": proposal["scope"],
                 **text_fields,
                 "selection_basis": selection_basis,
+                "support_quote": support_quote,
                 "confidence": confidence,
                 "anchor_refs": sorted(anchor_refs),
                 "support_ids": sorted(support_ids),
@@ -1233,10 +1353,9 @@ def _validate_branch_review(
         support_ids = _require_string_list(
             item.get("support_ids"), f"branch review {branch_ref} support_ids"
         )
-        if not 1 <= len(support_ids) <= BRANCH_REVIEW_SUPPORT_MAX:
+        if not support_ids:
             raise ValidationError(
-                f"Branch review {branch_ref} must cite 1-"
-                f"{BRANCH_REVIEW_SUPPORT_MAX} supports"
+                f"Branch review {branch_ref} must cite at least one support"
             )
         if set(support_ids) - set(support_registry):
             raise ValidationError(
@@ -1311,15 +1430,15 @@ def _validate_branch_review(
                 basis.get("support_ids"),
                 f"branch review {branch_ref} unactivation support_ids",
             )
-            if not 1 <= len(basis_candidate_ids) <= BRANCH_REVIEW_SUPPORT_MAX:
+            if not basis_candidate_ids:
                 raise ValidationError(
-                    f"Branch review {branch_ref} unactivation basis must cite 1-"
-                    f"{BRANCH_REVIEW_SUPPORT_MAX} docket candidates"
+                    f"Branch review {branch_ref} unactivation basis must cite at "
+                    "least one docket candidate"
                 )
-            if not 1 <= len(basis_support_ids) <= BRANCH_REVIEW_SUPPORT_MAX:
+            if not basis_support_ids:
                 raise ValidationError(
-                    f"Branch review {branch_ref} unactivation basis must cite 1-"
-                    f"{BRANCH_REVIEW_SUPPORT_MAX} supports"
+                    f"Branch review {branch_ref} unactivation basis must cite at "
+                    "least one support"
                 )
             if set(basis_candidate_ids) - set(docket_candidates):
                 raise ValidationError(
@@ -1660,6 +1779,81 @@ def _adjudication_payload_hash(artifact: dict[str, Any]) -> str:
     return canonical_sha256(payload)
 
 
+def _adjudication_coverage(
+    docket: dict[str, Any],
+    decisions: list[dict[str, Any]],
+    new_candidates: list[dict[str, Any]],
+    branch_review: list[dict[str, Any]],
+) -> dict[str, Any]:
+    decision_map = {item["candidate_id"]: item for item in decisions}
+    focus_review = [item for item in branch_review if item["registry"] == "focus"]
+    nominated_review = [
+        item for item in branch_review if item["registry"] == "nominated"
+    ]
+
+    def grouped(field: str, values: list[str]) -> dict[str, dict[str, int]]:
+        result: dict[str, dict[str, int]] = {}
+        for value in values:
+            candidates = [item for item in docket["candidates"] if item[field] == value]
+            new_in_group = [item for item in new_candidates if item.get(field) == value]
+            result[value] = {
+                "candidate_count": len(candidates),
+                "eligible_count": sum(item["selection_eligible"] for item in candidates),
+                "ineligible_count": sum(
+                    not item["selection_eligible"] for item in candidates
+                ),
+                "selected_existing_count": sum(
+                    decision_map[item["candidate_id"]]["status"] == "selected"
+                    for item in candidates
+                    if item["selection_eligible"]
+                ),
+                "selected_new_count": len(new_in_group),
+                "rejected_count": sum(
+                    decision_map[item["candidate_id"]]["status"] == "rejected"
+                    for item in candidates
+                    if item["selection_eligible"]
+                ),
+                "deferred_count": sum(
+                    decision_map[item["candidate_id"]]["status"] == "deferred"
+                    for item in candidates
+                    if item["selection_eligible"]
+                ),
+            }
+        return result
+
+    eligible = [item for item in docket["candidates"] if item["selection_eligible"]]
+    selected_existing = [item for item in decisions if item["status"] == "selected"]
+    source_types = sorted({item["source_type"] for item in docket["candidates"]})
+    return {
+        "docket_candidate_count": len(docket["candidates"]),
+        "eligible_candidate_count": len(eligible),
+        "ineligible_candidate_count": len(docket["candidates"]) - len(eligible),
+        "decision_count": len(decisions),
+        "selected_existing_count": len(selected_existing),
+        "selected_new_count": len(new_candidates),
+        "rejected_count": sum(item["status"] == "rejected" for item in decisions),
+        "deferred_count": sum(item["status"] == "deferred" for item in decisions),
+        "by_lane": grouped("lane", ["micro", "macro", "global"]),
+        "by_source_type": grouped("source_type", source_types),
+        "focus_branch_count": len(focus_review),
+        "reviewed_focus_branch_count": len(focus_review),
+        "activated_focus_branch_count": sum(
+            item["status"] == "activated" for item in focus_review
+        ),
+        "unactivated_focus_branch_count": sum(
+            item["status"] == "unactivated" for item in focus_review
+        ),
+        "nominated_branch_count": len(nominated_review),
+        "reviewed_nominated_branch_count": len(nominated_review),
+        "activated_nominated_branch_count": sum(
+            item["status"] == "activated" for item in nominated_review
+        ),
+        "unactivated_nominated_branch_count": sum(
+            item["status"] == "unactivated" for item in nominated_review
+        ),
+    }
+
+
 def _validate_adjudication_response_unbound(
     response: dict[str, Any],
     docket: dict[str, Any],
@@ -1682,27 +1876,34 @@ def _validate_adjudication_response_unbound(
             "identity",
             "decisions",
             "new_candidates",
+            "discovery_complete",
             "branch_review",
         },
         "adjudication response",
     )
     if response.get("schema_version") != RESPONSE_SCHEMA:
         raise ValidationError("Unexpected adjudication response schema_version")
+    if response.get("discovery_complete") is not True:
+        raise BudgetError(
+            "Adjudication reported incomplete discovery; increase the fail-loud "
+            "safety ceiling before rerunning"
+        )
     _validate_identity(response, docket, prompt_sha256=prompt_sha256)
     decisions = _validate_decisions(response.get("decisions"), docket)
+    selected_existing = [
+        item["candidate_id"] for item in decisions if item["status"] == "selected"
+    ]
+    new_candidate_capacity = _new_candidate_capacity(len(selected_existing))
     new_candidates = _validate_new_candidates(
         response.get("new_candidates"),
         docket,
         decisions,
-        max_new_candidates=options.max_new_candidates,
+        new_candidate_capacity=new_candidate_capacity,
     )
-    selected_existing = [
-        item["candidate_id"] for item in decisions if item["status"] == "selected"
-    ]
-    if len(selected_existing) + len(new_candidates) > MAX_SELECTED_CANDIDATES:
+    if len(selected_existing) + len(new_candidates) > SELECTION_SAFETY_CEILING:
         raise ValidationError(
-            "Selected candidate count exceeds the hard synthesis handoff limit "
-            f"{MAX_SELECTED_CANDIDATES}"
+            "Selected candidate count exceeds the fail-loud safety ceiling "
+            f"{SELECTION_SAFETY_CEILING}"
         )
     branch_review = _validate_branch_review(
         response.get("branch_review"), docket, decisions, new_candidates
@@ -1722,6 +1923,7 @@ def _validate_adjudication_response_unbound(
         },
         "decisions": decisions,
         "new_candidates": new_candidates,
+        "discovery_complete": True,
         "branch_review": branch_review,
         "selection": {
             "selected_existing_candidate_ids": selected_existing,
@@ -1732,34 +1934,18 @@ def _validate_adjudication_response_unbound(
             "deferred_candidate_ids": [
                 item["candidate_id"] for item in decisions if item["status"] == "deferred"
             ],
+            "ineligible_candidate_ids": [
+                item["candidate_id"]
+                for item in docket["candidates"]
+                if not item["selection_eligible"]
+            ],
         },
-        "coverage": {
-            "docket_candidate_count": len(docket["candidates"]),
-            "decision_count": len(decisions),
-            "selected_existing_count": len(selected_existing),
-            "selected_new_count": len(new_candidates),
-            "rejected_count": sum(item["status"] == "rejected" for item in decisions),
-            "deferred_count": sum(item["status"] == "deferred" for item in decisions),
-            "focus_branch_count": len(focus_review),
-            "reviewed_focus_branch_count": len(focus_review),
-            "activated_focus_branch_count": sum(
-                item["status"] == "activated" for item in focus_review
-            ),
-            "unactivated_focus_branch_count": sum(
-                item["status"] == "unactivated" for item in focus_review
-            ),
-            "nominated_branch_count": len(nominated_review),
-            "reviewed_nominated_branch_count": len(nominated_review),
-            "activated_nominated_branch_count": sum(
-                item["status"] == "activated" for item in nominated_review
-            ),
-            "unactivated_nominated_branch_count": sum(
-                item["status"] == "unactivated" for item in nominated_review
-            ),
-        },
+        "coverage": _adjudication_coverage(
+            docket, decisions, new_candidates, branch_review
+        ),
         "limits": {
-            "max_new_candidates": options.max_new_candidates,
-            "max_selected_candidates": MAX_SELECTED_CANDIDATES,
+            "new_candidate_capacity": new_candidate_capacity,
+            "selection_safety_ceiling": SELECTION_SAFETY_CEILING,
         },
     }
     artifact["identity"]["adjudication_payload_sha256"] = _adjudication_payload_hash(
@@ -1800,6 +1986,7 @@ def _validate_adjudication_artifact_unbound(
             "identity",
             "decisions",
             "new_candidates",
+            "discovery_complete",
             "branch_review",
             "selection",
             "coverage",
@@ -1807,6 +1994,8 @@ def _validate_adjudication_artifact_unbound(
         },
         "validated adjudication",
     )
+    if artifact.get("discovery_complete") is not True:
+        raise ValidationError("Validated adjudication discovery must be complete")
     identity = _require_dict(artifact.get("identity"), "adjudication identity")
     _require_exact_keys(
         identity,
@@ -1837,7 +2026,9 @@ def _validate_adjudication_artifact_unbound(
         raise ValidationError("Validated adjudication payload hash mismatch")
     decisions = _require_list(artifact.get("decisions"), "adjudication decisions")
     if [item.get("candidate_id") for item in decisions] != [
-        item["candidate_id"] for item in docket["candidates"]
+        item["candidate_id"]
+        for item in docket["candidates"]
+        if item["selection_eligible"]
     ]:
         raise ValidationError("Validated adjudication decision order/coverage drifted")
     revalidated_decisions = _validate_decisions(decisions, docket)
@@ -1847,21 +2038,24 @@ def _validate_adjudication_artifact_unbound(
         artifact.get("new_candidates"), "adjudication new_candidates"
     )
     limits = _require_dict(artifact.get("limits"), "adjudication limits")
-    if set(limits) != {"max_new_candidates", "max_selected_candidates"}:
+    if set(limits) != {"new_candidate_capacity", "selection_safety_ceiling"}:
         raise ValidationError("Validated adjudication limits fields are invalid")
-    max_new_candidates = limits.get("max_new_candidates")
+    new_candidate_capacity = limits.get("new_candidate_capacity")
     if (
-        not isinstance(max_new_candidates, int)
-        or isinstance(max_new_candidates, bool)
-        or not 0 <= max_new_candidates <= 20
+        not isinstance(new_candidate_capacity, int)
+        or isinstance(new_candidate_capacity, bool)
+        or not 0 <= new_candidate_capacity <= SELECTION_SAFETY_CEILING
     ):
-        raise ValidationError("Validated max_new_candidates is invalid")
-    if max_new_candidates != trusted_options.max_new_candidates:
+        raise ValidationError("Validated new_candidate_capacity is invalid")
+    selected_existing_count = sum(
+        item.get("status") == "selected" for item in decisions
+    )
+    if new_candidate_capacity != _new_candidate_capacity(selected_existing_count):
         raise ValidationError(
-            "Validated max_new_candidates does not match caller-bound policy"
+            "Validated new_candidate_capacity does not match selected decisions"
         )
-    if limits.get("max_selected_candidates") != MAX_SELECTED_CANDIDATES:
-        raise ValidationError("Validated max_selected_candidates is invalid")
+    if limits.get("selection_safety_ceiling") != SELECTION_SAFETY_CEILING:
+        raise ValidationError("Validated selection_safety_ceiling is invalid")
     raw_new_candidates: list[dict[str, Any]] = []
     normalized_fields = {
         "proposal_key",
@@ -1873,6 +2067,7 @@ def _validate_adjudication_artifact_unbound(
         "reader_payoff",
         "containment",
         "selection_basis",
+        "support_quote",
         "confidence",
         "anchor_refs",
         "support_ids",
@@ -1891,7 +2086,7 @@ def _validate_adjudication_artifact_unbound(
         raw_new_candidates,
         docket,
         decisions,
-        max_new_candidates=max_new_candidates,
+        new_candidate_capacity=new_candidate_capacity,
     )
     if revalidated_new != new_candidates:
         raise ValidationError("Validated new candidates are not normalized")
@@ -1920,6 +2115,7 @@ def _validate_adjudication_artifact_unbound(
             "selected_new_candidate_ids",
             "rejected_candidate_ids",
             "deferred_candidate_ids",
+            "ineligible_candidate_ids",
         },
         "adjudication selection",
     )
@@ -1932,8 +2128,8 @@ def _validate_adjudication_artifact_unbound(
     expected_deferred = [
         item["candidate_id"] for item in decisions if item.get("status") == "deferred"
     ]
-    if len(expected_selected) + len(new_candidates) > MAX_SELECTED_CANDIDATES:
-        raise ValidationError("Validated selection exceeds hard synthesis handoff limit")
+    if len(expected_selected) + len(new_candidates) > SELECTION_SAFETY_CEILING:
+        raise ValidationError("Validated selection exceeds fail-loud safety ceiling")
     if selection.get("selected_existing_candidate_ids") != expected_selected:
         raise ValidationError("Validated selected-existing index is inconsistent")
     if selection.get("selected_new_candidate_ids") != [
@@ -1944,35 +2140,17 @@ def _validate_adjudication_artifact_unbound(
         raise ValidationError("Validated rejected index is inconsistent")
     if selection.get("deferred_candidate_ids") != expected_deferred:
         raise ValidationError("Validated deferred index is inconsistent")
-    coverage = _require_dict(artifact.get("coverage"), "adjudication coverage")
-    focus_review = [item for item in branch_review if item["registry"] == "focus"]
-    nominated_review = [
-        item for item in branch_review if item["registry"] == "nominated"
+    expected_ineligible = [
+        item["candidate_id"]
+        for item in docket["candidates"]
+        if not item["selection_eligible"]
     ]
-    expected_coverage = {
-        "docket_candidate_count": len(docket["candidates"]),
-        "decision_count": len(decisions),
-        "selected_existing_count": len(expected_selected),
-        "selected_new_count": len(new_candidates),
-        "rejected_count": sum(item.get("status") == "rejected" for item in decisions),
-        "deferred_count": sum(item.get("status") == "deferred" for item in decisions),
-        "focus_branch_count": len(focus_review),
-        "reviewed_focus_branch_count": len(focus_review),
-        "activated_focus_branch_count": sum(
-            item["status"] == "activated" for item in focus_review
-        ),
-        "unactivated_focus_branch_count": sum(
-            item["status"] == "unactivated" for item in focus_review
-        ),
-        "nominated_branch_count": len(nominated_review),
-        "reviewed_nominated_branch_count": len(nominated_review),
-        "activated_nominated_branch_count": sum(
-            item["status"] == "activated" for item in nominated_review
-        ),
-        "unactivated_nominated_branch_count": sum(
-            item["status"] == "unactivated" for item in nominated_review
-        ),
-    }
+    if selection.get("ineligible_candidate_ids") != expected_ineligible:
+        raise ValidationError("Validated ineligible index is inconsistent")
+    coverage = _require_dict(artifact.get("coverage"), "adjudication coverage")
+    expected_coverage = _adjudication_coverage(
+        docket, decisions, new_candidates, branch_review
+    )
     if coverage != expected_coverage:
         raise ValidationError("Validated adjudication coverage is inconsistent")
 
@@ -1990,7 +2168,9 @@ def validate_adjudication_for_ayah(
     )
     relatives = _artifact_relatives(ayah_ref)
     response_path = confined_existing_file(OUTPUTS_ROOT, relatives["response"])
-    response, _raw = load_json_object(response_path)
+    response, _raw = load_json_object_bounded(
+        response_path, max_bytes=ADJUDICATION_RESPONSE_SAFETY_CEILING
+    )
     effective_options = options or AdjudicationOptions()
     prompt, prompt_manifest = render_adjudication_prompt(
         docket,

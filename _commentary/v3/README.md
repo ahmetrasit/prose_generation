@@ -7,7 +7,7 @@ intermediate artifact, response, and final output remains under this directory.
 
 ## Evidence lanes
 
-- **micro**: source-bound QAC morphology, word-analysis topics, and a compact record of
+- **micro**: source-bound QAC morphology, word-analysis topics, and a complete record of
   every branch for every root mapped to the focus ayah;
 - **macro**: pericope-anchored channel nominations and HFT only when its window
   exactly equals the declared pericope and each reader echoes the packet
@@ -58,15 +58,20 @@ The lower-level `prepare`, `render-adjudication`, `validate-adjudication`,
 for debugging or custom budget limits. Every lower-level handoff command must
 repeat the exact preparation policy and limits; omitted options mean strict
 defaults. For example, a docket prepared with `--hft-policy quarantine` must use
-that flag again at rendering, validation, synthesis, and verification. The seven
+that flag again at rendering, validation, synthesis, and verification. All
 synthesis limits are bound into the packet, prompt manifest, and validated
 artifact; `advance` accepts the same limit flags, and `verify` requires those
 same flags so packet-declared limits are checked against trusted caller policy.
 Library callers must likewise pass an explicit `SynthesisOptions`; omitted
-policy is rejected rather than recovered from an artifact.
-The adjudication `--max-new-candidates` limit is likewise caller-bound and must
-be repeated by `render-synthesis`, `validate-synthesis`, and `verify`; a
-validated artifact cannot promote its own downstream policy.
+policy is rejected rather than recovered from an artifact. Response bytes,
+model-authored annotation lengths, and aggregate rendered-output bytes have
+high caller-bound safety ceilings. Overflow fails before publication; the
+workflow never truncates text or reduces candidate coverage to fit them.
+Adjudication has no
+caller-controlled discovery quota: after existing decisions are made, its
+new-candidate capacity is exactly `512 - selected_existing_count`. Rejecting a
+properly evidenced optional candidate therefore releases capacity; no slot is
+reserved merely because a candidate was eligible for review.
 
 ## Prepare trust boundary
 
@@ -142,8 +147,8 @@ Existing artifacts are idempotent only when their bytes match. A different
 source, policy, or implementation result at the same ayah path fails with an
 artifact conflict unless `--force` is supplied deliberately.
 
-The docket keeps complete focus-root branches in `branch_registry` and compact
-evidence for non-focus branches explicitly cited by valid nominations in
+The docket keeps complete focus-root branches in `branch_registry` and
+source-bound evidence for non-focus branches explicitly cited by valid nominations in
 `nominated_branch_registry`. Arabic-root citations in legacy reader walks are
 resolved against those registries; unresolved branch evidence makes a mandatory
 candidate fail preparation. Present-but-empty source slots are recorded in the
@@ -230,39 +235,52 @@ evidence but cannot use that evidence to ground root-branch contact, while a
 present malformed or `null` table fails preparation. Evidence co-owned with an exact branch-specific nomination from
 its source record is also eligible for bounded review. A nominated external
 contact must use explicitly branch-bound evidence or evidence owned by the same
-candidate as its exact branch-specific nomination. New proposals also obey the docket
-support limit and a six-branch hard limit, and may cite only trusted, citable
-occurrence, nomination, and evidence roles.
+candidate as its exact branch-specific nomination. New proposals may cite every
+needed item in the closed support and branch registries; there is no smaller
+support or branch quota. Only trusted, citable occurrence, nomination, and
+evidence roles are admissible.
 
-The synthesis model receives only selected candidates and their own supports
-and branches. Every selection also carries its structured deletion loss, every
-candidate's exact adjudicated claim must land verbatim in prose, and the union
-of its finding citations must retain every selected branch. The complete branch
+The synthesis model receives every selected candidate with its complete support
+and branch sets. It must emit exactly one finding per selection in packet order;
+findings cannot be merged, sampled, or capped by caller-supplied density limits.
+Every candidate's exact adjudicated claim must land in a unique, non-overlapping
+prose substring. Its reader payoff and containment must be rendered naturally,
+while their exact adjudicated forms remain in deterministic evidence alongside
+the complete mechanism, deletion loss, direct support quote, support set, and
+branch set. The complete branch
 review ledger remains outside the synthesis model packet and is joined back to
 the docket only by deterministic friction rendering. Branch descriptors,
 boundaries, reasons, exact contact excerpts, source identities, support roles,
 and support texts are rendered there in full, so a silent miss cannot
 masquerade as an inspected rejection and the audit remains independently
 expandable.
-Each validated finding receives deterministic candidate-contribution records
-that bind its exact landed claim to the adjudicator's deletion loss; these are
-included in the semantic hash and rendered in evidence output. Candidate branch
+Every rejected or deferred decision is also rendered as its complete normalized
+record with its candidate and cited support records. Every selection-ineligible
+candidate and each of its support records is rendered in docket order; the
+deterministic friction output does not summarize these ledgers away.
+Each validated finding receives one deterministic candidate-contribution record;
+these records are included in the semantic hash and rendered in evidence output.
+The prose lower bound grows from all exact required landings, while the fixed
+512 finding, paragraph, and friction ceilings are fail-loud infrastructure guards,
+not pruning targets. Candidate branch
 refs are nominations, not automatic activations. Generic existing candidates
 retain none; an explicit publication may retain its anchored subset, while an
 inferred relation must use a bounded new candidate. `legacy_unbound` material
 is audit-only and cannot enter synthesis.
 
-Optional-candidate adjudication is deliberately selective. Provenance trust and
-citable support establish eligibility, not publication value. The model applies
-a deletion test and retains an optional candidate only when it contributes an
-interpretive consequence not already carried by a stronger selection; all
-rejected and deferred material remains recoverable in deterministic friction.
-Selected optional and newly recovered candidates must provide a structured
-`selection_basis` with a concrete deletion loss and explicit subsumption links.
-The validator rejects provenance-only rationales and bases, normalized or
-near-duplicate claims and losses across mandatory and optional selections, and
-any attempt to subsume another selected candidate. The handoff has a
-fixed ceiling of 64 total selections; this is a failure limit, not a target.
+Adjudication is exhaustive across every trusted, citable, selection-eligible
+candidate. Grammar, lexical range, sound, ambiguity, neighboring activation,
+and bounded exploratory resonance remain admissible even when their conclusions
+overlap. Exclusion is closed to unsupported, unsafe, out-of-scope, or exact
+semantic-duplicate cases and requires a substantive rationale plus an exact
+candidate-owned evidence quote; duplicates must identify selected targets and
+preserve their full branch union. Similarity never triggers rejection.
+Every nonselected rationale must contain that exact candidate-owned quote, so a
+generic rejection cannot pass merely by carrying a valid citation.
+Every selected or newly recovered contribution retains a concrete deletion loss
+and cannot subsume another selected record. The model must attest that discovery
+is complete; overflow fails loudly. The fixed ceiling is 512 total selections,
+not a pruning target.
 
 The JSON schemas document the wire format. The standard-library Python
 validators are authoritative at runtime and additionally verify semantic hashes,

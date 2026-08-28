@@ -1,21 +1,23 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "commentary-v3-adjudication-response-v1",
+  "$id": "commentary-v3-adjudication-response-v2",
   "title": "Commentary v3 raw adjudication response",
   "type": "object",
   "required": [
-    "schema_version", "identity", "decisions", "new_candidates", "branch_review"
+    "schema_version", "identity", "decisions", "new_candidates",
+    "discovery_complete", "branch_review"
   ],
   "properties": {
-    "schema_version": {"const": "commentary-v3-adjudication-response-v1"},
+    "schema_version": {"const": "commentary-v3-adjudication-response-v2"},
     "identity": {"$ref": "#/$defs/identity"},
+    "discovery_complete": {"type": "boolean"},
     "decisions": {
       "type": "array",
       "items": {"$ref": "#/$defs/decision"}
     },
     "new_candidates": {
       "type": "array",
-      "maxItems": 20,
+      "maxItems": 512,
       "items": {"$ref": "#/$defs/proposal"}
     },
     "branch_review": {
@@ -47,7 +49,8 @@
       "type": "object",
       "required": [
         "candidate_id", "status", "priority", "rationale", "synthesis_claim",
-        "reader_payoff", "containment", "selection_basis", "support_ids", "branch_refs"
+        "reader_payoff", "containment", "selection_basis", "support_quote",
+        "exclusion_basis", "support_ids", "branch_refs"
       ],
       "properties": {
         "candidate_id": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"},
@@ -60,6 +63,10 @@
         "selection_basis": {
           "anyOf": [{"type": "null"}, {"$ref": "#/$defs/selectionBasis"}]
         },
+        "support_quote": {"$ref": "#/$defs/supportQuote"},
+        "exclusion_basis": {
+          "anyOf": [{"type": "null"}, {"$ref": "#/$defs/exclusionBasis"}]
+        },
         "support_ids": {
           "type": "array", "minItems": 1,
           "items": {"$ref": "#/$defs/supportId"}
@@ -69,6 +76,19 @@
           "items": {"$ref": "#/$defs/branchRef"}
         }
       },
+      "anyOf": [
+        {
+          "properties": {
+            "status": {"const": "selected"}
+          }
+        },
+        {
+          "properties": {
+            "status": {"enum": ["rejected", "deferred"]},
+            "rationale": {"type": "string", "minLength": 48, "maxLength": 1200}
+          }
+        }
+      ],
       "additionalProperties": false
     },
     "proposal": {
@@ -76,7 +96,7 @@
       "required": [
         "proposal_key", "title", "lane", "scope", "claim", "mechanism",
         "reader_payoff", "containment", "confidence", "anchor_refs",
-        "selection_basis", "support_ids", "branch_refs"
+        "selection_basis", "support_quote", "support_ids", "branch_refs"
       ],
       "properties": {
         "proposal_key": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
@@ -88,6 +108,7 @@
         "reader_payoff": {"type": "string", "minLength": 1},
         "containment": {"type": "string", "minLength": 1},
         "selection_basis": {"$ref": "#/$defs/selectionBasis"},
+        "support_quote": {"$ref": "#/$defs/supportQuote"},
         "confidence": {"enum": ["strong", "moderate", "exploratory"]},
         "anchor_refs": {
           "type": "array", "minItems": 1,
@@ -98,7 +119,7 @@
           "items": {"$ref": "#/$defs/supportId"}
         },
         "branch_refs": {
-          "type": "array", "minItems": 1, "maxItems": 6,
+          "type": "array", "minItems": 1,
           "items": {"$ref": "#/$defs/branchRef"}
         }
       },
@@ -129,7 +150,7 @@
         },
         "reason": {"type": "string", "minLength": 24, "maxLength": 400},
         "support_ids": {
-          "type": "array", "minItems": 1, "maxItems": 6,
+          "type": "array", "minItems": 1,
           "items": {"$ref": "#/$defs/supportId"}
         },
         "unactivation_basis": {
@@ -179,6 +200,31 @@
         "kind": {"enum": ["mandatory", "distinct"]},
         "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400},
         "subsumes_candidate_ids": {
+          "type": "array", "maxItems": 0,
+          "items": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "supportQuote": {
+      "type": "object",
+      "required": ["support_id", "quote"],
+      "properties": {
+        "support_id": {"$ref": "#/$defs/supportId"},
+        "quote": {"type": "string", "minLength": 12, "maxLength": 320}
+      },
+      "additionalProperties": false
+    },
+    "exclusionBasis": {
+      "type": "object",
+      "required": ["reason_code", "duplicate_of_candidate_ids"],
+      "properties": {
+        "reason_code": {
+          "enum": [
+            "unsupported", "unsafe", "out_of_scope", "semantic_duplicate"
+          ]
+        },
+        "duplicate_of_candidate_ids": {
           "type": "array",
           "items": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"}
         }
@@ -191,11 +237,11 @@
       "properties": {
         "kind": {"enum": ["grounding_only", "candidate_evidence_rejected"]},
         "candidate_ids": {
-          "type": "array", "minItems": 1, "maxItems": 6,
+          "type": "array", "minItems": 1,
           "items": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"}
         },
         "support_ids": {
-          "type": "array", "minItems": 1, "maxItems": 6,
+          "type": "array", "minItems": 1,
           "items": {"$ref": "#/$defs/supportId"}
         }
       },

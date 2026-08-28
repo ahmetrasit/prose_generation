@@ -1,14 +1,48 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "commentary-v3-synthesis-validated-v1",
-  "title": "Commentary v3 validated synthesis",
+  "$id": "commentary-v3-synthesis-validated-v2",
+  "title": "Commentary v3 validated lossless synthesis",
   "type": "object",
   "required": [
-    "schema_version", "identity", "paragraphs", "findings", "friction_notes",
-    "coverage", "limits", "outputs"
+    "schema_version", "identity", "paragraphs", "findings",
+    "friction_complete", "friction_notes", "coverage", "limits", "outputs"
   ],
   "properties": {
-    "schema_version": {"const": "commentary-v3-synthesis-validated-v1"},
+    "schema_version": {"const": "commentary-v3-synthesis-validated-v2"},
+    "identity": {"$ref": "#/$defs/identity"},
+    "paragraphs": {
+      "type": "array", "minItems": 1, "maxItems": 512,
+      "items": {"$ref": "#/$defs/paragraph"}
+    },
+    "findings": {
+      "type": "array", "minItems": 1, "maxItems": 512,
+      "items": {"$ref": "#/$defs/finding"}
+    },
+    "friction_complete": {"const": true},
+    "friction_notes": {
+      "type": "array", "maxItems": 512,
+      "items": {"$ref": "#/$defs/friction"}
+    },
+    "coverage": {"$ref": "#/$defs/coverage"},
+    "limits": {"$ref": "#/$defs/limits"},
+    "outputs": {
+      "type": "object",
+      "required": ["prose", "evidence", "index", "friction"],
+      "properties": {
+        "prose": {"$ref": "#/$defs/output"},
+        "evidence": {"$ref": "#/$defs/output"},
+        "index": {"$ref": "#/$defs/output"},
+        "friction": {"$ref": "#/$defs/output"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "candidateId": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"},
+    "supportId": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"},
+    "branchRef": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"},
     "identity": {
       "type": "object",
       "required": [
@@ -28,43 +62,42 @@
       },
       "additionalProperties": false
     },
-    "paragraphs": {"type": "array"},
-    "findings": {
-      "type": "array",
-      "items": {"$ref": "#/$defs/finding"}
-    },
-    "friction_notes": {"type": "array"},
-    "coverage": {"type": "object"},
-    "limits": {
+    "supportQuote": {
       "type": "object",
-      "required": [
-        "max_packet_bytes", "max_prompt_bytes", "min_prose_chars",
-        "max_prose_chars", "max_paragraphs", "max_findings",
-        "max_friction_notes"
-      ],
+      "required": ["support_id", "quote"],
       "properties": {
-        "max_packet_bytes": {"type": "integer", "minimum": 1},
-        "max_prompt_bytes": {"type": "integer", "minimum": 1},
-        "min_prose_chars": {"type": "integer", "minimum": 0},
-        "max_prose_chars": {"type": "integer", "minimum": 0},
-        "max_paragraphs": {"type": "integer", "minimum": 1, "maximum": 16},
-        "max_findings": {"type": "integer", "minimum": 1, "maximum": 48},
-        "max_friction_notes": {"type": "integer", "minimum": 0, "maximum": 12}
+        "support_id": {"$ref": "#/$defs/supportId"},
+        "quote": {"type": "string", "minLength": 12, "maxLength": 320}
       },
       "additionalProperties": false
     },
-    "outputs": {"type": "object"}
-  },
-  "additionalProperties": false,
-  "$defs": {
-    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "candidateContribution": {
       "type": "object",
-      "required": ["candidate_id", "claim_landing", "deletion_loss"],
+      "required": [
+        "candidate_id", "claim_landing", "reader_payoff_landing",
+        "containment_landing", "mechanism", "deletion_loss", "support_quote"
+      ],
       "properties": {
-        "candidate_id": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"},
+        "candidate_id": {"$ref": "#/$defs/candidateId"},
         "claim_landing": {"type": "string", "minLength": 1},
-        "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400}
+        "reader_payoff_landing": {"type": "string", "minLength": 1},
+        "containment_landing": {"type": "string", "minLength": 1},
+        "mechanism": {"type": "string", "minLength": 1},
+        "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400},
+        "support_quote": {"$ref": "#/$defs/supportQuote"}
+      },
+      "additionalProperties": false
+    },
+    "paragraph": {
+      "type": "object",
+      "required": ["paragraph_id", "text", "finding_ids"],
+      "properties": {
+        "paragraph_id": {"type": "string", "pattern": "^p[0-9]{3}$"},
+        "text": {"type": "string", "minLength": 1},
+        "finding_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^find_[0-9a-f]{20}$"}
+        }
       },
       "additionalProperties": false
     },
@@ -73,35 +106,124 @@
       "required": [
         "finding_id", "finding_key", "title", "summary", "effect",
         "epistemic_status", "candidate_ids", "support_ids", "branch_refs",
-        "paragraph_id", "landing_quote", "containment_quote",
-        "candidate_contributions"
+        "paragraph_id", "landing_quote", "candidate_contributions"
       ],
       "properties": {
         "finding_id": {"type": "string", "pattern": "^find_[0-9a-f]{20}$"},
-        "finding_key": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+        "finding_key": {"type": "string", "pattern": "^f[0-9]{3}$"},
         "title": {"type": "string", "minLength": 1},
         "summary": {"type": "string", "minLength": 1},
         "effect": {"enum": ["baseline", "supports_primary", "shifts_primary"]},
         "epistemic_status": {"enum": ["bundle_traceable", "inference", "exploratory"]},
         "candidate_ids": {
-          "type": "array", "minItems": 1, "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"}
+          "type": "array", "minItems": 1, "maxItems": 1, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/candidateId"}
         },
         "support_ids": {
           "type": "array", "minItems": 1, "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"}
+          "items": {"$ref": "#/$defs/supportId"}
         },
         "branch_refs": {
           "type": "array", "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"}
+          "items": {"$ref": "#/$defs/branchRef"}
         },
-        "paragraph_id": {"type": "string", "pattern": "^p[0-9]{2}$"},
+        "paragraph_id": {"type": "string", "pattern": "^p[0-9]{3}$"},
         "landing_quote": {"type": "string", "minLength": 1},
-        "containment_quote": {"type": ["string", "null"]},
         "candidate_contributions": {
-          "type": "array", "minItems": 1,
+          "type": "array", "minItems": 1, "maxItems": 1,
           "items": {"$ref": "#/$defs/candidateContribution"}
         }
+      },
+      "additionalProperties": false
+    },
+    "friction": {
+      "type": "object",
+      "required": ["kind", "summary", "candidate_ids", "support_ids"],
+      "properties": {
+        "kind": {"enum": ["live_alternative", "scope_limit", "evidence_gap", "production"]},
+        "summary": {"type": "string", "minLength": 1},
+        "candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/candidateId"}
+        },
+        "support_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/supportId"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "coverageGroup": {
+      "type": "object",
+      "required": [
+        "selected_candidate_count", "finding_count", "cited_support_count",
+        "cited_branch_count"
+      ],
+      "properties": {
+        "selected_candidate_count": {"type": "integer", "minimum": 0},
+        "finding_count": {"type": "integer", "minimum": 0},
+        "cited_support_count": {"type": "integer", "minimum": 0},
+        "cited_branch_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "selected_candidate_count", "covered_candidate_count",
+        "exact_one_to_one_finding_count", "paragraph_count", "finding_count",
+        "cited_support_count", "cited_branch_count", "friction_note_count",
+        "by_lane", "by_source_type"
+      ],
+      "properties": {
+        "selected_candidate_count": {"type": "integer", "minimum": 1, "maximum": 512},
+        "covered_candidate_count": {"type": "integer", "minimum": 1, "maximum": 512},
+        "exact_one_to_one_finding_count": {"type": "integer", "minimum": 1, "maximum": 512},
+        "paragraph_count": {"type": "integer", "minimum": 1, "maximum": 512},
+        "finding_count": {"type": "integer", "minimum": 1, "maximum": 512},
+        "cited_support_count": {"type": "integer", "minimum": 1},
+        "cited_branch_count": {"type": "integer", "minimum": 0},
+        "friction_note_count": {"type": "integer", "minimum": 0, "maximum": 512},
+        "by_lane": {
+          "type": "object",
+          "required": ["micro", "macro", "global"],
+          "properties": {
+            "micro": {"$ref": "#/$defs/coverageGroup"},
+            "macro": {"$ref": "#/$defs/coverageGroup"},
+            "global": {"$ref": "#/$defs/coverageGroup"}
+          },
+          "additionalProperties": false
+        },
+        "by_source_type": {
+          "type": "object", "additionalProperties": {"$ref": "#/$defs/coverageGroup"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "type": "object",
+      "required": [
+        "max_packet_bytes", "max_prompt_bytes", "max_response_bytes",
+        "max_annotation_chars", "min_prose_chars", "max_prose_chars",
+        "max_rendered_output_bytes"
+      ],
+      "properties": {
+        "max_packet_bytes": {"type": "integer", "minimum": 1},
+        "max_prompt_bytes": {"type": "integer", "minimum": 1},
+        "max_response_bytes": {"type": "integer", "minimum": 1},
+        "max_annotation_chars": {"type": "integer", "minimum": 1},
+        "min_prose_chars": {"type": "integer", "minimum": 0},
+        "max_prose_chars": {"type": "integer", "minimum": 0},
+        "max_rendered_output_bytes": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "required": ["bytes", "sha256"],
+      "properties": {
+        "bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"$ref": "#/$defs/sha256"}
       },
       "additionalProperties": false
     }

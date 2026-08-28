@@ -20,7 +20,8 @@ APPARATUS_ID_RE = re.compile(
     r"(?:cand|sup|find)_[0-9a-f]{12,}"
     r"|new(?:_[0-9a-f]{12,}|:[a-z][a-z0-9_-]{2,63})"
     r"|root_[0-9]+(?:/B[0-9]+)?"
-    r"|B[0-9]+",
+    r"|B[0-9]+"
+    r"|[0-9]+:[0-9]+:[0-9]+(?::[0-9]+)?",
     re.IGNORECASE,
 )
 HTML_MARKUP_RE = re.compile(r"<.*?>", re.DOTALL)
@@ -152,6 +153,18 @@ def _object_without_duplicate_keys(pairs: list[tuple[str, Any]]) -> dict[str, An
     return value
 
 
+def _validate_json_depth(value: Any, *, max_depth: int = 512) -> None:
+    stack: list[tuple[Any, int]] = [(value, 0)]
+    while stack:
+        current, depth = stack.pop()
+        if depth > max_depth:
+            raise ValueError(f"JSON nesting exceeds hard limit {max_depth}")
+        if isinstance(current, list):
+            stack.extend((item, depth + 1) for item in current)
+        elif isinstance(current, dict):
+            stack.extend((item, depth + 1) for item in current.values())
+
+
 def canonical_json_bytes(value: Any) -> bytes:
     """Return the canonical bytes used for all semantic identity hashes."""
     try:
@@ -163,7 +176,7 @@ def canonical_json_bytes(value: Any) -> bytes:
             separators=(",", ":"),
             allow_nan=False,
         ).encode("utf-8")
-    except (TypeError, ValueError) as exc:
+    except (TypeError, ValueError, UnicodeError, RecursionError) as exc:
         raise ValidationError(f"Value is not canonical JSON: {exc}") from exc
 
 
@@ -178,7 +191,7 @@ def pretty_json_bytes(value: Any) -> bytes:
             indent=2,
             allow_nan=False,
         )
-    except (TypeError, ValueError) as exc:
+    except (TypeError, ValueError, UnicodeError, RecursionError) as exc:
         raise ValidationError(f"Value is not canonical JSON: {exc}") from exc
     return (rendered + "\n").encode("utf-8")
 
@@ -200,7 +213,8 @@ def parse_json_object_bytes(raw: bytes, *, label: str) -> dict[str, Any]:
             parse_constant=_reject_nonfinite_json,
             object_pairs_hook=_object_without_duplicate_keys,
         )
-    except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
+        _validate_json_depth(value)
+    except (UnicodeError, json.JSONDecodeError, ValueError, RecursionError) as exc:
         raise ValidationError(f"Invalid JSON source {label}: {exc}") from exc
     if not isinstance(value, dict):
         raise ValidationError(f"JSON source must be an object: {label}")
@@ -212,6 +226,32 @@ def load_json_object(path: Path) -> tuple[dict[str, Any], bytes]:
         raw = path.read_bytes()
     except OSError as exc:
         raise ValidationError(f"Cannot read JSON source {path}: {exc}") from exc
+    return parse_json_object_bytes(raw, label=str(path)), raw
+
+
+def load_json_object_bounded(
+    path: Path, *, max_bytes: int
+) -> tuple[dict[str, Any], bytes]:
+    if not isinstance(max_bytes, int) or isinstance(max_bytes, bool) or max_bytes <= 0:
+        raise ValidationError("JSON source byte limit must be a positive integer")
+    try:
+        with path.open("rb") as source:
+            chunks: list[bytes] = []
+            remaining = max_bytes + 1
+            while remaining:
+                chunk = source.read(min(64 * 1024, remaining))
+                if not chunk:
+                    break
+                chunks.append(chunk)
+                remaining -= len(chunk)
+            raw = b"".join(chunks)
+    except OSError as exc:
+        raise ValidationError(f"Cannot read JSON source {path}: {exc}") from exc
+    if len(raw) > max_bytes:
+        raise BudgetError(
+            f"JSON source {path} exceeds the {max_bytes}-byte limit. "
+            "Nothing was truncated."
+        )
     return parse_json_object_bytes(raw, label=str(path)), raw
 
 

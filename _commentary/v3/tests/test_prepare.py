@@ -958,6 +958,20 @@ class PrepareTests(unittest.TestCase):
                 ),
             )
 
+    def test_nomination_only_mandatory_channel_blocks_preparation(self) -> None:
+        bundle = fixture_bundle()
+        channel = bundle["channel_subchannels_anchored_here"][0]
+        channel["scene_or_process"] = None
+        channel["synthesis"] = None
+        with self.assertRaisesRegex(
+            ValidationError, "not selection eligible.*no_candidate_evidence"
+        ):
+            build_prepared_artifacts(
+                bundle,
+                source_path=Path("fixture.json"),
+                options=PrepareOptions(hft_policy="quarantine"),
+            )
+
     def test_malformed_nonnull_focus_dictionary_still_fails(self) -> None:
         bundle = fixture_bundle()
         bundle["root_lexicon"]["root_000121"]["dictionary_entry"] = "invalid"

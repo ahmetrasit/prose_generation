@@ -9,7 +9,9 @@ from pathlib import Path
 from typing import Any
 
 from .adjudication import (
+    ADJUDICATION_RESPONSE_SAFETY_CEILING,
     AdjudicationOptions,
+    SELECTION_SAFETY_CEILING,
     _validate_adjudication_artifact_unbound,
     load_docket_for_ayah,
     render_adjudication_prompt,
@@ -26,6 +28,7 @@ from .common import (
     contains_apparatus_id,
     confined_existing_file,
     load_json_object,
+    load_json_object_bounded,
     preflight_confined_writes,
     pretty_json_bytes,
     sha256_bytes,
@@ -35,51 +38,73 @@ from .common import (
 from .prepare import PrepareOptions, validate_docket, validate_prepared
 
 
-PACKET_SCHEMA = "commentary-v3-synthesis-packet-v1"
-RESPONSE_SCHEMA = "commentary-v3-synthesis-response-v1"
-VALIDATED_SCHEMA = "commentary-v3-synthesis-validated-v1"
-PROMPT_MANIFEST_SCHEMA = "commentary-v3-synthesis-prompt-manifest-v1"
+PACKET_SCHEMA = "commentary-v3-synthesis-packet-v2"
+RESPONSE_SCHEMA = "commentary-v3-synthesis-response-v2"
+VALIDATED_SCHEMA = "commentary-v3-synthesis-validated-v2"
+PROMPT_MANIFEST_SCHEMA = "commentary-v3-synthesis-prompt-manifest-v2"
 KEY_RE = re.compile(r"^[a-z][a-z0-9_-]{2,63}$")
-MAX_PARAGRAPHS = 16
-MAX_FINDINGS = 48
-MAX_FRICTION_NOTES = 12
+MAX_PARAGRAPHS = SELECTION_SAFETY_CEILING
+MAX_FINDINGS = SELECTION_SAFETY_CEILING
+MAX_FRICTION_NOTES = SELECTION_SAFETY_CEILING
+ANNOTATION_SAFETY_CEILING = 1_000_000
 SYNTHESIS_LIMIT_FIELDS = (
     "max_packet_bytes",
     "max_prompt_bytes",
+    "max_response_bytes",
+    "max_annotation_chars",
     "min_prose_chars",
     "max_prose_chars",
-    "max_paragraphs",
-    "max_findings",
-    "max_friction_notes",
+    "max_rendered_output_bytes",
 )
+VALIDATED_PARAGRAPH_FIELDS = {"paragraph_id", "text", "finding_ids"}
+VALIDATED_FINDING_FIELDS = {
+    "finding_id",
+    "finding_key",
+    "title",
+    "summary",
+    "effect",
+    "epistemic_status",
+    "candidate_ids",
+    "support_ids",
+    "branch_refs",
+    "paragraph_id",
+    "landing_quote",
+    "candidate_contributions",
+}
+
+
 @dataclass(frozen=True)
 class SynthesisOptions:
-    max_packet_bytes: int = 300_000
-    max_prompt_bytes: int = 375_000
+    max_packet_bytes: int = 4_000_000
+    max_prompt_bytes: int = 5_000_000
+    max_response_bytes: int = 32_000_000
+    max_annotation_chars: int = 1_000_000
     min_prose_chars: int = 500
-    max_prose_chars: int = 24_000
-    max_paragraphs: int = 16
-    max_findings: int = 48
-    max_friction_notes: int = 12
+    max_prose_chars: int = 1_000_000
+    max_rendered_output_bytes: int = 64_000_000
 
     def validate(self) -> None:
         for name in SYNTHESIS_LIMIT_FIELDS:
             value = getattr(self, name)
             if not isinstance(value, int) or isinstance(value, bool) or value < 0:
                 raise ValidationError(f"{name} must be a nonnegative integer")
-        if self.max_packet_bytes == 0 or self.max_prompt_bytes == 0:
-            raise ValidationError("Packet and prompt byte limits must be positive")
+        if any(
+            getattr(self, field) == 0
+            for field in (
+                "max_packet_bytes",
+                "max_prompt_bytes",
+                "max_response_bytes",
+                "max_annotation_chars",
+                "max_rendered_output_bytes",
+            )
+        ):
+            raise ValidationError("Synthesis safety maxima must be positive")
         if self.min_prose_chars > self.max_prose_chars:
             raise ValidationError("min_prose_chars exceeds max_prose_chars")
-        if self.max_paragraphs == 0 or self.max_findings == 0:
-            raise ValidationError("Paragraph and finding limits must be positive")
-        for name, ceiling in (
-            ("max_paragraphs", MAX_PARAGRAPHS),
-            ("max_findings", MAX_FINDINGS),
-            ("max_friction_notes", MAX_FRICTION_NOTES),
-        ):
-            if getattr(self, name) > ceiling:
-                raise ValidationError(f"{name} exceeds hard limit {ceiling}")
+        if self.max_annotation_chars > ANNOTATION_SAFETY_CEILING:
+            raise ValidationError(
+                "max_annotation_chars exceeds the fail-loud infrastructure ceiling"
+            )
 
 
 def _require_dict(value: Any, label: str) -> dict[str, Any]:
@@ -121,9 +146,72 @@ def _string_list(value: Any, label: str, *, nonempty: bool = False) -> list[str]
     return items
 
 
+def _annotation_text(value: Any, label: str, *, options: SynthesisOptions) -> str:
+    if isinstance(value, str) and len(value) > options.max_annotation_chars:
+        raise BudgetError(
+            f"{label} has {len(value)} raw characters; configured annotation maximum "
+            f"is {options.max_annotation_chars}. Nothing was truncated."
+        )
+    rendered = _text(value, label)
+    if len(rendered) > options.max_annotation_chars:
+        raise BudgetError(
+            f"{label} has {len(rendered)} characters; configured annotation maximum "
+            f"is {options.max_annotation_chars}. Nothing was truncated."
+        )
+    return rendered
+
+
+def _enforce_response_budget(
+    response: dict[str, Any],
+    options: SynthesisOptions,
+    *,
+    raw_bytes: bytes | None = None,
+) -> None:
+    canonical_bytes = len(canonical_json_bytes(response))
+    if canonical_bytes > options.max_response_bytes:
+        raise BudgetError(
+            f"Synthesis response is {canonical_bytes} canonical bytes; configured "
+            f"maximum is {options.max_response_bytes}. Nothing was truncated."
+        )
+    if raw_bytes is not None and len(raw_bytes) > options.max_response_bytes:
+        raise BudgetError(
+            f"Synthesis response source is {len(raw_bytes)} bytes; configured maximum "
+            f"is {options.max_response_bytes}. Nothing was truncated."
+        )
+
+
+def _enforce_rendered_output_budget(
+    outputs: dict[str, bytes], options: SynthesisOptions
+) -> None:
+    total_bytes = sum(len(payload) for payload in outputs.values())
+    if total_bytes > options.max_rendered_output_bytes:
+        raise BudgetError(
+            f"Rendered synthesis outputs total {total_bytes} bytes; configured maximum "
+            f"is {options.max_rendered_output_bytes}. Nothing was truncated."
+        )
+
+
+def _overlapping_occurrence_starts(
+    text: str, substring: str, *, stop_after: int = 2
+) -> list[int]:
+    starts: list[int] = []
+    search_from = 0
+    while len(starts) < stop_after:
+        start = text.find(substring, search_from)
+        if start < 0:
+            break
+        starts.append(start)
+        search_from = start + 1
+    return starts
+
+
 def _synthesis_limits(options: SynthesisOptions) -> dict[str, int]:
     options.validate()
     return {name: getattr(options, name) for name in SYNTHESIS_LIMIT_FIELDS}
+
+
+def _minimum_distinct_landing_chars(selections: list[dict[str, Any]]) -> int:
+    return sum(len(selection["claim"]) for selection in selections)
 
 
 def _require_synthesis_options(
@@ -221,7 +309,9 @@ def load_adjudication_for_ayah(
     response_path = confined_existing_file(
         OUTPUTS_ROOT, relatives["adjudication_response"]
     )
-    response, _response_raw = load_json_object(response_path)
+    response, _response_raw = load_json_object_bounded(
+        response_path, max_bytes=ADJUDICATION_RESPONSE_SAFETY_CEILING
+    )
     rebuilt = validate_adjudication_response(
         response,
         docket,
@@ -295,6 +385,11 @@ def _build_synthesis_packet_unbound(
     )
     if not selected_ids:
         raise ValidationError("Synthesis requires at least one selected candidate")
+    if len(selected_ids) > MAX_FINDINGS:
+        raise BudgetError(
+            f"Synthesis has {len(selected_ids)} selected candidates; fail-loud "
+            f"finding ceiling is {MAX_FINDINGS}. Nothing was compressed."
+        )
     selections: list[dict[str, Any]] = []
     cited_support_ids: set[str] = set()
     cited_branch_refs: set[str] = set()
@@ -321,6 +416,7 @@ def _build_synthesis_packet_unbound(
                 "reader_payoff": decision["reader_payoff"],
                 "containment": decision["containment"],
                 "selection_basis": decision["selection_basis"],
+                "support_quote": decision["support_quote"],
                 "anchor_refs": candidate["anchor_refs"],
                 "root_ids": candidate["root_ids"],
                 "support_ids": support_ids,
@@ -347,6 +443,7 @@ def _build_synthesis_packet_unbound(
                 "reader_payoff": candidate["reader_payoff"],
                 "containment": candidate["containment"],
                 "selection_basis": candidate["selection_basis"],
+                "support_quote": candidate["support_quote"],
                 "anchor_refs": candidate["anchor_refs"],
                 "root_ids": sorted({ref.split("/", 1)[0] for ref in branch_refs}),
                 "support_ids": support_ids,
@@ -378,11 +475,32 @@ def _build_synthesis_packet_unbound(
         "contract": {
             "every_selected_candidate_requires_a_prose_landing": True,
             "every_selected_candidate_requires_an_exact_claim_landing": True,
+            "reader_payoff_and_containment_are_preserved_in_apparatus": True,
+            "every_selected_candidate_requires_exactly_one_finding": True,
+            "findings_must_follow_selection_order": True,
+            "finding_supports_and_branches_must_be_complete": True,
+            "candidate_landings_must_not_overlap": True,
             "every_selected_candidate_requires_complete_branch_lineage": True,
             "unknown_candidates_may_not_be_introduced": True,
             "apparatus_is_rendered_deterministically": True,
+            "required_finding_count": len(selections),
+            "minimum_distinct_landing_chars": _minimum_distinct_landing_chars(
+                selections
+            ),
+            "paragraph_safety_ceiling": MAX_PARAGRAPHS,
+            "friction_safety_ceiling": MAX_FRICTION_NOTES,
         },
     }
+    minimum_prose_chars = max(
+        options.min_prose_chars,
+        packet["contract"]["minimum_distinct_landing_chars"],
+    )
+    if minimum_prose_chars > options.max_prose_chars:
+        raise BudgetError(
+            f"Exact synthesis landings require at least {minimum_prose_chars} prose "
+            f"characters; configured maximum is {options.max_prose_chars}. Nothing "
+            "was compressed."
+        )
     packet["identity"]["synthesis_packet_sha256"] = _packet_payload_hash(packet)
     packet_bytes = canonical_json_bytes(packet)
     if len(packet_bytes) > options.max_packet_bytes:
@@ -487,6 +605,7 @@ def _validate_synthesis_packet_unbound(
         "reader_payoff",
         "containment",
         "selection_basis",
+        "support_quote",
         "anchor_refs",
         "root_ids",
         "support_ids",
@@ -517,6 +636,8 @@ def _validate_synthesis_packet_unbound(
         referenced_branches.update(item_branches)
     if referenced_supports != support_ids or referenced_branches != branch_refs:
         raise ValidationError("Synthesis packet contains unreferenced support/branch records")
+
+
 def _render_synthesis_prompt_unbound(
     packet: dict[str, Any],
     *,
@@ -530,17 +651,21 @@ def _render_synthesis_prompt_unbound(
         except OSError as exc:
             raise ValidationError(f"Cannot read synthesis prompt template: {exc}") from exc
     identity = packet["identity"]
+    effective_min_prose_chars = max(
+        options.min_prose_chars,
+        packet["contract"]["minimum_distinct_landing_chars"],
+    )
     replacements = {
         "@@AYAH_REF@@": identity["ayah_ref"],
         "@@SOURCE_SHA256@@": identity["source_canonical_sha256"],
         "@@DOCKET_SHA256@@": identity["docket_payload_sha256"],
         "@@ADJUDICATION_SHA256@@": identity["adjudication_payload_sha256"],
         "@@PACKET_SHA256@@": identity["synthesis_packet_sha256"],
-        "@@MIN_PROSE_CHARS@@": str(options.min_prose_chars),
+        "@@MIN_PROSE_CHARS@@": str(effective_min_prose_chars),
         "@@MAX_PROSE_CHARS@@": str(options.max_prose_chars),
-        "@@MAX_PARAGRAPHS@@": str(options.max_paragraphs),
-        "@@MAX_FINDINGS@@": str(options.max_findings),
-        "@@MAX_FRICTION_NOTES@@": str(options.max_friction_notes),
+        "@@PARAGRAPH_SAFETY_CEILING@@": str(MAX_PARAGRAPHS),
+        "@@REQUIRED_FINDING_COUNT@@": str(len(packet["selections"])),
+        "@@FRICTION_SAFETY_CEILING@@": str(MAX_FRICTION_NOTES),
         "@@PACKET_JSON@@": canonical_json_bytes(packet).decode("utf-8"),
     }
     prompt = template
@@ -568,6 +693,11 @@ def _render_synthesis_prompt_unbound(
             "prompt_bytes": len(prompt_bytes),
             "estimated_tokens_chars_div_4": (len(prompt) + 3) // 4,
             "selected_candidate_count": len(packet["selections"]),
+            "required_finding_count": len(packet["selections"]),
+            "minimum_distinct_landing_chars": packet["contract"][
+                "minimum_distinct_landing_chars"
+            ],
+            "effective_min_prose_chars": effective_min_prose_chars,
         },
         "limits": _synthesis_limits(options),
         "contract": {
@@ -699,12 +829,14 @@ def _normalize_synthesis_content(
     *,
     options: SynthesisOptions,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    selected = {item["candidate_id"]: item for item in packet["selections"]}
+    selections = packet["selections"]
+    selected = {item["candidate_id"]: item for item in selections}
+    selected_order = [item["candidate_id"] for item in selections]
     packet_supports = {item["support_id"] for item in packet["support_registry"]}
     packet_branches = {item["branch_ref"] for item in packet["branch_registry"]}
     raw_paragraphs = _require_list(response.get("paragraphs"), "synthesis paragraphs")
-    if not 1 <= len(raw_paragraphs) <= options.max_paragraphs:
-        raise ValidationError("Synthesis paragraph count is outside configured bounds")
+    if not 1 <= len(raw_paragraphs) <= MAX_PARAGRAPHS:
+        raise ValidationError("Synthesis paragraph count exceeds fail-loud safety bounds")
     paragraph_fields = {"paragraph_key", "text", "finding_keys"}
     paragraphs_by_key: dict[str, dict[str, Any]] = {}
     raw_paragraph_texts: dict[str, str] = {}
@@ -713,7 +845,7 @@ def _normalize_synthesis_content(
     for index, raw in enumerate(raw_paragraphs):
         paragraph = _require_dict(raw, f"paragraphs[{index}]")
         _exact_keys(paragraph, paragraph_fields, f"paragraphs[{index}]")
-        expected_key = f"p{index + 1:02d}"
+        expected_key = f"p{index + 1:03d}"
         if paragraph.get("paragraph_key") != expected_key:
             raise ValidationError(f"Paragraph keys must be sequential; expected {expected_key}")
         raw_prose = paragraph.get("text")
@@ -733,11 +865,18 @@ def _normalize_synthesis_content(
             "finding_keys": finding_keys,
         }
         raw_paragraph_texts[expected_key] = raw_prose
-    if not options.min_prose_chars <= prose_chars <= options.max_prose_chars:
+    minimum_prose_chars = max(
+        options.min_prose_chars,
+        packet["contract"]["minimum_distinct_landing_chars"],
+    )
+    if not minimum_prose_chars <= prose_chars <= options.max_prose_chars:
         raise ValidationError(
             f"Synthesis prose has {prose_chars} chars; required range is "
-            f"{options.min_prose_chars}-{options.max_prose_chars}"
+            f"{minimum_prose_chars}-{options.max_prose_chars}"
         )
+    published_prose = "\n\n".join(
+        paragraph["text"] for paragraph in paragraphs_by_key.values()
+    )
     if len(declared_finding_keys) != len(set(declared_finding_keys)):
         raise ValidationError("A finding may land in only one paragraph")
 
@@ -747,35 +886,56 @@ def _normalize_synthesis_content(
         "summary",
         "effect",
         "epistemic_status",
-        "candidate_ids",
+        "candidate_id",
         "support_ids",
         "branch_refs",
         "paragraph_key",
         "landing_quote",
-        "containment_quote",
     }
     raw_findings = _require_list(response.get("findings"), "synthesis findings")
-    if not 1 <= len(raw_findings) <= options.max_findings:
-        raise ValidationError("Synthesis finding count is outside configured bounds")
+    if len(raw_findings) != len(selections):
+        raise ValidationError(
+            "Synthesis must emit exactly one finding per selected candidate"
+        )
+    if len(raw_findings) > MAX_FINDINGS:
+        raise BudgetError("Synthesis finding count exceeds fail-loud safety ceiling")
     findings: list[dict[str, Any]] = []
     seen_keys: set[str] = set()
     seen_ids: set[str] = set()
-    covered_candidates: set[str] = set()
-    claim_grounded_candidates: set[str] = set()
+    landing_ranges: dict[str, list[tuple[int, int, str]]] = {
+        key: [] for key in paragraphs_by_key
+    }
     for index, raw in enumerate(raw_findings):
         finding = _require_dict(raw, f"findings[{index}]")
         _exact_keys(finding, finding_fields, f"findings[{index}]")
         key = finding.get("finding_key")
-        if not isinstance(key, str) or not KEY_RE.fullmatch(key) or key in seen_keys:
-            raise ValidationError(f"Finding {index} has invalid or duplicate finding_key")
+        expected_key = f"f{index + 1:03d}"
+        if key != expected_key or not KEY_RE.fullmatch(expected_key):
+            raise ValidationError(
+                f"Findings must follow exact selection order; expected {expected_key}"
+            )
+        if key in seen_keys:
+            raise ValidationError(f"Finding {index} has a duplicate finding_key")
         seen_keys.add(key)
+        expected_candidate_id = selected_order[index]
+        candidate_id = finding.get("candidate_id")
+        if candidate_id != expected_candidate_id:
+            raise ValidationError(
+                f"Finding {key} must carry only selected candidate "
+                f"{expected_candidate_id} in exact selection order"
+            )
+        selection = selected[candidate_id]
         paragraph_key = finding.get("paragraph_key")
         if not isinstance(paragraph_key, str) or paragraph_key not in paragraphs_by_key:
             raise ValidationError(f"Finding {key} references unknown paragraph")
         if key not in paragraphs_by_key[paragraph_key]["finding_keys"]:
             raise ValidationError(f"Finding {key} is not declared by its paragraph")
-        title = _text(finding.get("title"), f"finding {key} title")
-        summary = _text(finding.get("summary"), f"finding {key} summary")
+        title = _annotation_text(
+            finding.get("title"), f"finding {key} title", options=options
+        )
+        summary = _annotation_text(
+            finding.get("summary"), f"finding {key} summary", options=options
+        )
         effect = finding.get("effect")
         if not isinstance(effect, str) or effect not in (
             "baseline",
@@ -790,80 +950,82 @@ def _normalize_synthesis_content(
             "exploratory",
         ):
             raise ValidationError(f"Finding {key} epistemic_status is invalid")
-        candidate_ids = _string_list(
-            finding.get("candidate_ids"), f"finding {key} candidate_ids", nonempty=True
-        )
-        if not set(candidate_ids) <= set(selected):
-            raise ValidationError(f"Finding {key} cites an unselected candidate")
         support_ids = _string_list(
             finding.get("support_ids"), f"finding {key} support_ids", nonempty=True
         )
+        if support_ids != selection["support_ids"]:
+            raise ValidationError(
+                f"Finding {key} must retain the candidate's complete support set"
+            )
         if not set(support_ids) <= packet_supports:
             raise ValidationError(f"Finding {key} cites support outside synthesis packet")
-        for candidate_id in candidate_ids:
-            if not set(support_ids) & set(selected[candidate_id]["support_ids"]):
-                raise ValidationError(
-                    f"Finding {key} lacks cited support for candidate {candidate_id}"
-                )
         branch_refs = _string_list(
             finding.get("branch_refs"), f"finding {key} branch_refs"
         )
-        allowed_branches = {
-            ref for candidate_id in candidate_ids for ref in selected[candidate_id]["branch_refs"]
-        }
-        if not set(branch_refs) <= allowed_branches or not set(branch_refs) <= packet_branches:
-            raise ValidationError(f"Finding {key} cites unrelated branch evidence")
-        nonlexical = [
-            selected[candidate_id]
-            for candidate_id in candidate_ids
-            if selected[candidate_id]["origin"] != "docket"
-            or selected[candidate_id]["source_type"] != "word_analysis"
-        ]
-        if nonlexical and epistemic_status == "bundle_traceable":
+        if branch_refs != selection["branch_refs"]:
+            raise ValidationError(
+                f"Finding {key} must retain the candidate's complete branch set"
+            )
+        if not set(branch_refs) <= packet_branches:
+            raise ValidationError(f"Finding {key} cites unregistered branch evidence")
+        direct = (
+            selection["origin"] == "docket"
+            and selection["source_type"] == "word_analysis"
+        )
+        if not direct and epistemic_status == "bundle_traceable":
             raise ValidationError(f"Finding {key} understates inferential evidence")
-        if any(item.get("confidence") == "exploratory" for item in nonlexical):
+        if selection.get("confidence") == "exploratory":
             if epistemic_status != "exploratory":
                 raise ValidationError(f"Finding {key} must remain exploratory")
         if epistemic_status == "exploratory" and effect == "baseline":
             raise ValidationError(f"Exploratory finding {key} cannot be baseline")
-        paragraph_text = paragraphs_by_key[paragraph_key]["text"]
         raw_landing_quote = finding.get("landing_quote")
         landing_quote = _text(raw_landing_quote, f"finding {key} landing_quote")
-        if raw_landing_quote not in raw_paragraph_texts[paragraph_key]:
+        raw_paragraph = raw_paragraph_texts[paragraph_key]
+        if raw_landing_quote not in raw_paragraph:
             raise ValidationError(f"Finding {key} landing_quote is absent from prose")
-        missing_landing_claims = [
-            candidate_id
-            for candidate_id in candidate_ids
-            if selected[candidate_id]["claim"] not in raw_landing_quote
-        ]
-        if missing_landing_claims:
-            raise ValidationError(
-                f"Finding {key} landing_quote lacks exact candidate claims: "
-                f"{missing_landing_claims}"
-            )
-        claim_grounded_candidates.update(candidate_ids)
-        raw_containment_quote = finding.get("containment_quote")
-        containment_quote = _text(
-            raw_containment_quote,
-            f"finding {key} containment_quote",
-            nullable=True,
+        raw_occurrences = _overlapping_occurrence_starts(
+            raw_paragraph, raw_landing_quote
         )
-        if epistemic_status != "bundle_traceable" and containment_quote is None:
-            raise ValidationError(f"Inferential finding {key} lacks prose containment")
-        if (
-            raw_containment_quote is not None
-            and raw_containment_quote not in raw_paragraph_texts[paragraph_key]
-        ):
-            raise ValidationError(f"Finding {key} containment_quote is absent from prose")
+        if len(raw_occurrences) != 1:
+            raise ValidationError(
+                f"Finding {key} landing_quote must occur exactly once in prose"
+            )
+        published_occurrences = _overlapping_occurrence_starts(
+            published_prose, landing_quote
+        )
+        if len(published_occurrences) != 1:
+            raise ValidationError(
+                f"Finding {key} normalized landing_quote must occur exactly once "
+                "in the complete published prose"
+            )
+        if selection["claim"] not in raw_landing_quote:
+            raise ValidationError(
+                f"Finding {key} landing_quote lacks the exact candidate claim"
+            )
+        published_paragraph = paragraphs_by_key[paragraph_key]["text"]
+        paragraph_occurrences = _overlapping_occurrence_starts(
+            published_paragraph, landing_quote
+        )
+        if len(paragraph_occurrences) != 1:
+            raise ValidationError(
+                f"Finding {key} normalized landing_quote does not resolve uniquely "
+                "inside its published paragraph"
+            )
+        start = paragraph_occurrences[0]
+        landing_ranges[paragraph_key].append(
+            (start, start + len(landing_quote), key)
+        )
         candidate_contributions = [
             {
                 "candidate_id": candidate_id,
-                "claim_landing": selected[candidate_id]["claim"],
-                "deletion_loss": selected[candidate_id]["selection_basis"][
-                    "deletion_loss"
-                ],
+                "claim_landing": selection["claim"],
+                "reader_payoff_landing": selection["reader_payoff"],
+                "containment_landing": selection["containment"],
+                "mechanism": selection["mechanism"],
+                "deletion_loss": selection["selection_basis"]["deletion_loss"],
+                "support_quote": selection["support_quote"],
             }
-            for candidate_id in sorted(candidate_ids)
         ]
         semantic = {
             "packet_sha256": packet["identity"]["synthesis_packet_sha256"],
@@ -871,19 +1033,17 @@ def _normalize_synthesis_content(
             "summary": summary,
             "effect": effect,
             "epistemic_status": epistemic_status,
-            "candidate_ids": sorted(candidate_ids),
-            "support_ids": sorted(support_ids),
-            "branch_refs": sorted(branch_refs),
+            "candidate_ids": [candidate_id],
+            "support_ids": support_ids,
+            "branch_refs": branch_refs,
             "paragraph_id": paragraph_key,
             "landing_quote": landing_quote,
-            "containment_quote": containment_quote,
             "candidate_contributions": candidate_contributions,
         }
         finding_id = f"find_{canonical_sha256(semantic)[:20]}"
         if finding_id in seen_ids:
             raise ValidationError(f"Semantically duplicate finding: {key}")
         seen_ids.add(finding_id)
-        covered_candidates.update(candidate_ids)
         findings.append(
             {
                 "finding_id": finding_id,
@@ -891,38 +1051,23 @@ def _normalize_synthesis_content(
                 **{field: semantic[field] for field in (
                     "title", "summary", "effect", "epistemic_status", "candidate_ids",
                     "support_ids", "branch_refs", "paragraph_id", "landing_quote",
-                    "containment_quote", "candidate_contributions",
+                    "candidate_contributions",
                 )},
             }
         )
-    if set(declared_finding_keys) != seen_keys:
-        raise ValidationError("Paragraph finding declarations do not match findings")
-    if covered_candidates != set(selected):
-        missing = sorted(set(selected) - covered_candidates)
-        raise ValidationError(f"Selected candidates lack prose findings: {missing}")
-    missing_claim_landings = sorted(set(selected) - claim_grounded_candidates)
-    if missing_claim_landings:
+    expected_finding_keys = [f"f{index + 1:03d}" for index in range(len(selections))]
+    if declared_finding_keys != expected_finding_keys:
         raise ValidationError(
-            "Selected candidates lack exact claim prose landings: "
-            f"{missing_claim_landings}"
+            "Paragraph finding declarations must preserve exact selection order"
         )
-    missing_branch_lineage: dict[str, list[str]] = {}
-    for candidate_id, selection in selected.items():
-        required = set(selection["branch_refs"])
-        cited = {
-            branch_ref
-            for finding in findings
-            if candidate_id in finding["candidate_ids"]
-            for branch_ref in finding["branch_refs"]
-            if branch_ref in required
-        }
-        if cited != required:
-            missing_branch_lineage[candidate_id] = sorted(required - cited)
-    if missing_branch_lineage:
-        raise ValidationError(
-            "Branch-bearing selections lack complete finding branch lineage: "
-            f"{missing_branch_lineage}"
-        )
+    for paragraph_key, ranges in landing_ranges.items():
+        ordered = sorted(ranges)
+        for previous, current in zip(ordered, ordered[1:]):
+            if previous[1] > current[0]:
+                raise ValidationError(
+                    f"Candidate prose landings overlap in {paragraph_key}: "
+                    f"{previous[2]}, {current[2]}"
+                )
     finding_id_by_key = {item["finding_key"]: item["finding_id"] for item in findings}
     paragraphs = [
         {
@@ -935,8 +1080,8 @@ def _normalize_synthesis_content(
 
     friction_fields = {"kind", "summary", "candidate_ids", "support_ids"}
     raw_notes = _require_list(response.get("friction_notes"), "friction_notes")
-    if len(raw_notes) > options.max_friction_notes:
-        raise ValidationError("Synthesis friction note count exceeds configured limit")
+    if len(raw_notes) > MAX_FRICTION_NOTES:
+        raise BudgetError("Synthesis friction notes exceed fail-loud safety ceiling")
     notes: list[dict[str, Any]] = []
     for index, raw in enumerate(raw_notes):
         note = _require_dict(raw, f"friction_notes[{index}]")
@@ -960,12 +1105,78 @@ def _normalize_synthesis_content(
         notes.append(
             {
                 "kind": kind,
-                "summary": _text(note.get("summary"), f"friction note {index} summary"),
+                "summary": _annotation_text(
+                    note.get("summary"),
+                    f"friction note {index} summary",
+                    options=options,
+                ),
                 "candidate_ids": sorted(candidate_ids),
                 "support_ids": sorted(support_ids),
             }
         )
     return paragraphs, findings, notes
+
+
+def _synthesis_coverage(
+    packet: dict[str, Any],
+    paragraphs: list[dict[str, Any]],
+    findings: list[dict[str, Any]],
+    notes: list[dict[str, Any]],
+) -> dict[str, Any]:
+    def grouped(field: str) -> dict[str, dict[str, int]]:
+        values = (
+            ["micro", "macro", "global"]
+            if field == "lane"
+            else sorted({selection[field] for selection in packet["selections"]})
+        )
+        result: dict[str, dict[str, int]] = {}
+        for value in values:
+            candidate_ids = {
+                selection["candidate_id"]
+                for selection in packet["selections"]
+                if selection[field] == value
+            }
+            grouped_findings = [
+                finding
+                for finding in findings
+                if finding["candidate_ids"][0] in candidate_ids
+            ]
+            result[value] = {
+                "selected_candidate_count": len(candidate_ids),
+                "finding_count": len(grouped_findings),
+                "cited_support_count": len(
+                    {
+                        support_id
+                        for finding in grouped_findings
+                        for support_id in finding["support_ids"]
+                    }
+                ),
+                "cited_branch_count": len(
+                    {
+                        branch_ref
+                        for finding in grouped_findings
+                        for branch_ref in finding["branch_refs"]
+                    }
+                ),
+            }
+        return result
+
+    return {
+        "selected_candidate_count": len(packet["selections"]),
+        "covered_candidate_count": len(findings),
+        "exact_one_to_one_finding_count": len(findings),
+        "paragraph_count": len(paragraphs),
+        "finding_count": len(findings),
+        "cited_support_count": len(
+            {support_id for item in findings for support_id in item["support_ids"]}
+        ),
+        "cited_branch_count": len(
+            {branch_ref for item in findings for branch_ref in item["branch_refs"]}
+        ),
+        "friction_note_count": len(notes),
+        "by_lane": grouped("lane"),
+        "by_source_type": grouped("source_type"),
+    }
 
 
 def _synthesis_payload_hash(artifact: dict[str, Any]) -> str:
@@ -998,6 +1209,7 @@ def _validate_synthesis_response_unbound(
         options=options,
         adjudication_options=adjudication_options,
     )
+    _enforce_response_budget(response, options)
     _prompt, prompt_manifest = _render_synthesis_prompt_unbound(
         packet, options=options
     )
@@ -1007,11 +1219,23 @@ def _validate_synthesis_response_unbound(
     }
     _exact_keys(
         response,
-        {"schema_version", "identity", "paragraphs", "findings", "friction_notes"},
+        {
+            "schema_version",
+            "identity",
+            "paragraphs",
+            "findings",
+            "friction_complete",
+            "friction_notes",
+        },
         "synthesis response",
     )
     if response.get("schema_version") != RESPONSE_SCHEMA:
         raise ValidationError("Unexpected synthesis response schema_version")
+    if response.get("friction_complete") is not True:
+        raise BudgetError(
+            "Synthesis reported incomplete friction discovery; increase the "
+            "fail-loud safety ceiling before rerunning"
+        )
     identity = _require_dict(response.get("identity"), "synthesis response identity")
     _exact_keys(
         identity, set(expected_response_identity), "synthesis response identity"
@@ -1021,12 +1245,6 @@ def _validate_synthesis_response_unbound(
     paragraphs, findings, notes = _normalize_synthesis_content(
         response, packet, options=options
     )
-    selected_supports = {
-        support_id for finding in findings for support_id in finding["support_ids"]
-    }
-    selected_branches = {
-        branch_ref for finding in findings for branch_ref in finding["branch_refs"]
-    }
     artifact = {
         "schema_version": VALIDATED_SCHEMA,
         "identity": {
@@ -1035,21 +1253,13 @@ def _validate_synthesis_response_unbound(
         },
         "paragraphs": paragraphs,
         "findings": findings,
+        "friction_complete": True,
         "friction_notes": notes,
-        "coverage": {
-            "selected_candidate_count": len(packet["selections"]),
-            "covered_candidate_count": len(
-                {candidate_id for finding in findings for candidate_id in finding["candidate_ids"]}
-            ),
-            "paragraph_count": len(paragraphs),
-            "finding_count": len(findings),
-            "cited_support_count": len(selected_supports),
-            "cited_branch_count": len(selected_branches),
-            "friction_note_count": len(notes),
-        },
+        "coverage": _synthesis_coverage(packet, paragraphs, findings, notes),
         "limits": _synthesis_limits(options),
     }
     outputs = _render_markdown_outputs_unbound(artifact, packet, docket, adjudication)
+    _enforce_rendered_output_budget(outputs, options)
     artifact["outputs"] = _output_hashes(outputs)
     artifact["identity"]["synthesis_payload_sha256"] = _synthesis_payload_hash(artifact)
     _validate_synthesis_artifact_unbound(
@@ -1143,19 +1353,18 @@ def _render_markdown_outputs_unbound(
                 "- Destekler: " + ", ".join(f"`{item}`" for item in finding["support_ids"]),
                 "- Dallar: "
                 + (", ".join(f"`{item}`" for item in finding["branch_refs"]) or "yok"),
-                "- Sınır: "
-                + (
-                    f"“{_md_inline(finding['containment_quote'])}”"
-                    if finding["containment_quote"]
-                    else "yerel paket okumasının kendi sınırı"
-                ),
             ]
         )
         for contribution in finding["candidate_contributions"]:
             evidence_lines.append(
-                f"- Katki `{contribution['candidate_id']}`: "
-                f"iddia “{_md_inline(contribution['claim_landing'])}”; silme kaybi "
-                f"“{_md_inline(contribution['deletion_loss'])}”"
+                f"- Katkı `{contribution['candidate_id']}`: iddia "
+                f"“{_md_inline(contribution['claim_landing'])}”; okur getirisi "
+                f"“{_md_inline(contribution['reader_payoff_landing'])}”; sınır "
+                f"“{_md_inline(contribution['containment_landing'])}”; mekanizma "
+                f"“{_md_inline(contribution['mechanism'])}”; silme kaybı "
+                f"“{_md_inline(contribution['deletion_loss'])}”; doğrudan dayanak "
+                f"`{contribution['support_quote']['support_id']}` "
+                f"“{_md_inline(contribution['support_quote']['quote'])}”"
             )
     cited_support_ids = sorted(
         {support_id for item in artifact["findings"] for support_id in item["support_ids"]}
@@ -1281,18 +1490,46 @@ def _render_markdown_outputs_unbound(
         friction_lines.append("- Dışarıda bırakılan docket adayı yoktur.")
     for decision in excluded_decisions:
         candidate = docket_candidates[decision["candidate_id"]]
-        support_ids = ", ".join(
-            f"`{item}`" for item in candidate["support_ids"]
-        ) or "yok"
-        branch_refs = ", ".join(
-            f"`{item}`" for item in candidate["branch_refs"]
-        ) or "yok"
-        friction_lines.append(
-            f"- `{decision['status']}` `{decision['candidate_id']}` "
-            f"({_md_inline(candidate['source_type'])}/{_md_inline(candidate['source_local_id'])}): "
-            f"{_md_inline(decision['rationale'])} Destekler: {support_ids}; "
-            f"dallar: {branch_refs}."
+        friction_lines.extend(
+            [
+                f"### `{decision['status']}` `{decision['candidate_id']}`",
+                f"- Kaynak: `{_md_inline(candidate['source_type'])}` / "
+                f"`{_md_inline(candidate['source_local_id'])}`.",
+                f"- Gerekçe: {_md_inline(decision['rationale'])}",
+                "- Tam normalize karar kaydı:",
+                f"    {canonical_json_bytes(decision).decode('utf-8')}",
+                "- Tam docket aday kaydı:",
+                f"    {canonical_json_bytes(candidate).decode('utf-8')}",
+                "- Kararın tam destek kayıtları:",
+            ]
         )
+        for support_id in decision["support_ids"]:
+            friction_lines.append(
+                f"    {canonical_json_bytes(docket_support_map[support_id]).decode('utf-8')}"
+            )
+
+    ineligible_ids = set(adjudication["selection"]["ineligible_candidate_ids"])
+    ineligible_candidates = [
+        candidate
+        for candidate in docket["candidates"]
+        if candidate["candidate_id"] in ineligible_ids
+    ]
+    friction_lines.extend(["", "## Seçime uygun olmayan docket adayları"])
+    if not ineligible_candidates:
+        friction_lines.append("- Seçime uygun olmayan docket adayı yoktur.")
+    for candidate in ineligible_candidates:
+        friction_lines.extend(
+            [
+                f"### `{candidate['candidate_id']}`",
+                "- Tam docket aday kaydı:",
+                f"    {canonical_json_bytes(candidate).decode('utf-8')}",
+                "- Adayın tam destek kayıtları:",
+            ]
+        )
+        for support_id in candidate["support_ids"]:
+            friction_lines.append(
+                f"    {canonical_json_bytes(docket_support_map[support_id]).decode('utf-8')}"
+            )
     friction_lines.extend(
         [
             "",
@@ -1326,6 +1563,90 @@ def _render_markdown_outputs_unbound(
     }
 
 
+def _raw_response_from_validated_artifact(
+    artifact: dict[str, Any],
+) -> dict[str, Any]:
+    findings = _require_list(artifact.get("findings"), "validated findings")
+    key_by_id: dict[str, str] = {}
+    raw_findings: list[dict[str, Any]] = []
+    for index, raw in enumerate(findings):
+        finding = _require_dict(raw, f"validated findings[{index}]")
+        _exact_keys(
+            finding,
+            VALIDATED_FINDING_FIELDS,
+            f"validated findings[{index}]",
+        )
+        finding_id = _text(
+            finding.get("finding_id"), f"validated findings[{index}] finding_id"
+        )
+        finding_key = _text(
+            finding.get("finding_key"), f"validated findings[{index}] finding_key"
+        )
+        if finding_id in key_by_id:
+            raise ValidationError("Validated synthesis contains duplicate finding IDs")
+        key_by_id[finding_id] = finding_key
+        candidate_ids = _string_list(
+            finding.get("candidate_ids"),
+            f"validated findings[{index}] candidate_ids",
+            nonempty=True,
+        )
+        if len(candidate_ids) != 1:
+            raise ValidationError(
+                f"Validated findings[{index}] must carry exactly one candidate ID"
+            )
+        raw_findings.append(
+            {
+                "finding_key": finding_key,
+                "title": finding.get("title"),
+                "summary": finding.get("summary"),
+                "effect": finding.get("effect"),
+                "epistemic_status": finding.get("epistemic_status"),
+                "candidate_id": candidate_ids[0],
+                "support_ids": finding.get("support_ids"),
+                "branch_refs": finding.get("branch_refs"),
+                "paragraph_key": finding.get("paragraph_id"),
+                "landing_quote": finding.get("landing_quote"),
+            }
+        )
+
+    paragraphs = _require_list(artifact.get("paragraphs"), "validated paragraphs")
+    raw_paragraphs: list[dict[str, Any]] = []
+    for index, raw in enumerate(paragraphs):
+        paragraph = _require_dict(raw, f"validated paragraphs[{index}]")
+        _exact_keys(
+            paragraph,
+            VALIDATED_PARAGRAPH_FIELDS,
+            f"validated paragraphs[{index}]",
+        )
+        finding_ids = _string_list(
+            paragraph.get("finding_ids"),
+            f"validated paragraphs[{index}] finding_ids",
+            nonempty=True,
+        )
+        unknown_ids = [
+            finding_id for finding_id in finding_ids if finding_id not in key_by_id
+        ]
+        if unknown_ids:
+            raise ValidationError(
+                f"Validated paragraphs[{index}] references unknown finding IDs: "
+                f"{unknown_ids}"
+            )
+        raw_paragraphs.append(
+            {
+                "paragraph_key": paragraph.get("paragraph_id"),
+                "text": paragraph.get("text"),
+                "finding_keys": [key_by_id[finding_id] for finding_id in finding_ids],
+            }
+        )
+
+    return {
+        "paragraphs": raw_paragraphs,
+        "findings": raw_findings,
+        "friction_complete": artifact.get("friction_complete"),
+        "friction_notes": artifact.get("friction_notes"),
+    }
+
+
 def _validate_synthesis_artifact_unbound(
     artifact: dict[str, Any],
     packet: dict[str, Any],
@@ -1343,8 +1664,25 @@ def _validate_synthesis_artifact_unbound(
         options=options,
         adjudication_options=adjudication_options,
     )
+    _exact_keys(
+        artifact,
+        {
+            "schema_version",
+            "identity",
+            "paragraphs",
+            "findings",
+            "friction_complete",
+            "friction_notes",
+            "coverage",
+            "limits",
+            "outputs",
+        },
+        "validated synthesis",
+    )
     if artifact.get("schema_version") != VALIDATED_SCHEMA:
         raise ValidationError("Unexpected validated synthesis schema_version")
+    if artifact.get("friction_complete") is not True:
+        raise ValidationError("Validated synthesis friction discovery is incomplete")
     identity = _require_dict(artifact.get("identity"), "synthesis identity")
     expected_identity_fields = set(packet["identity"]) | {
         "prompt_sha256",
@@ -1374,39 +1712,8 @@ def _validate_synthesis_artifact_unbound(
     )
     if identity["prompt_sha256"] != prompt_manifest["identity"]["prompt_sha256"]:
         raise ValidationError("Validated synthesis does not bind current prompt")
+    raw_response = _raw_response_from_validated_artifact(artifact)
     findings = _require_list(artifact.get("findings"), "validated findings")
-    key_by_id = {
-        item["finding_id"]: item["finding_key"]
-        for item in findings
-        if isinstance(item, dict)
-    }
-    raw_response = {
-        "paragraphs": [
-            {
-                "paragraph_key": item["paragraph_id"],
-                "text": item["text"],
-                "finding_keys": [key_by_id[finding_id] for finding_id in item["finding_ids"]],
-            }
-            for item in _require_list(artifact.get("paragraphs"), "validated paragraphs")
-        ],
-        "findings": [
-            {
-                "finding_key": item["finding_key"],
-                "title": item["title"],
-                "summary": item["summary"],
-                "effect": item["effect"],
-                "epistemic_status": item["epistemic_status"],
-                "candidate_ids": item["candidate_ids"],
-                "support_ids": item["support_ids"],
-                "branch_refs": item["branch_refs"],
-                "paragraph_key": item["paragraph_id"],
-                "landing_quote": item["landing_quote"],
-                "containment_quote": item["containment_quote"],
-            }
-            for item in findings
-        ],
-        "friction_notes": artifact.get("friction_notes"),
-    }
     paragraphs, normalized_findings, notes = _normalize_synthesis_content(
         raw_response, packet, options=options
     )
@@ -1416,26 +1723,13 @@ def _validate_synthesis_artifact_unbound(
         raise ValidationError("Validated synthesis findings are not normalized")
     if notes != artifact.get("friction_notes"):
         raise ValidationError("Validated synthesis friction notes are not normalized")
-    expected_coverage = {
-        "selected_candidate_count": len(packet["selections"]),
-        "covered_candidate_count": len(
-            {candidate_id for item in findings for candidate_id in item["candidate_ids"]}
-        ),
-        "paragraph_count": len(paragraphs),
-        "finding_count": len(findings),
-        "cited_support_count": len(
-            {support_id for item in findings for support_id in item["support_ids"]}
-        ),
-        "cited_branch_count": len(
-            {branch_ref for item in findings for branch_ref in item["branch_refs"]}
-        ),
-        "friction_note_count": len(notes),
-    }
+    expected_coverage = _synthesis_coverage(packet, paragraphs, findings, notes)
     if artifact.get("coverage") != expected_coverage:
         raise ValidationError("Validated synthesis coverage is inconsistent")
     rendered = _render_markdown_outputs_unbound(
         artifact, packet, docket, adjudication
     )
+    _enforce_rendered_output_budget(rendered, options)
     if artifact.get("outputs") != _output_hashes(rendered):
         raise ValidationError("Validated synthesis output hashes are inconsistent")
 
@@ -1470,6 +1764,38 @@ def validate_synthesis_artifact(
         options=trusted_options,
         adjudication_options=adjudication_options,
     )
+    ayah_ref = packet["identity"]["ayah_ref"]
+    prompt, prompt_manifest = _render_synthesis_prompt_unbound(
+        packet, options=trusted_options
+    )
+    relatives = _artifact_relatives(ayah_ref)
+    validate_exact_prompt_files(
+        INPUTS_ROOT,
+        relatives["prompt"],
+        relatives["prompt_manifest"],
+        expected_prompt=prompt,
+        expected_manifest=prompt_manifest,
+        label="Synthesis",
+    )
+    response_path = confined_existing_file(
+        OUTPUTS_ROOT, relatives["response"]
+    )
+    response, response_raw = load_json_object_bounded(
+        response_path, max_bytes=trusted_options.max_response_bytes
+    )
+    _enforce_response_budget(response, trusted_options, raw_bytes=response_raw)
+    rebuilt_artifact, _rebuilt_outputs = _validate_synthesis_response_unbound(
+        response,
+        packet,
+        persisted_docket,
+        persisted_adjudication,
+        options=trusted_options,
+        adjudication_options=adjudication_options,
+    )
+    if rebuilt_artifact != artifact:
+        raise ValidationError(
+            "Validated synthesis artifact does not match the persisted raw response derivation"
+        )
 
 
 def validate_synthesis_for_ayah(
@@ -1503,7 +1829,10 @@ def validate_synthesis_for_ayah(
         adjudication_options=adjudication_options,
     )
     response_path = confined_existing_file(OUTPUTS_ROOT, relatives["response"])
-    response, _response_raw = load_json_object(response_path)
+    response, response_raw = load_json_object_bounded(
+        response_path, max_bytes=effective_options.max_response_bytes
+    )
+    _enforce_response_budget(response, effective_options, raw_bytes=response_raw)
     prompt, prompt_manifest = render_synthesis_prompt(
         packet,
         options=effective_options,
@@ -1614,8 +1943,10 @@ def verify_final_outputs_for_ayah(
         prepare_options=prepare_options,
     )
     response_path = confined_existing_file(OUTPUTS_ROOT, relatives["response"])
-    response, _response_raw = load_json_object(response_path)
     verification_options = _packet_options(packet, trusted_options)
+    response, _response_raw = load_json_object_bounded(
+        response_path, max_bytes=verification_options.max_response_bytes
+    )
     prompt, prompt_manifest = render_synthesis_prompt(
         packet,
         options=verification_options,

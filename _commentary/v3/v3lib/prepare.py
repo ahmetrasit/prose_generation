@@ -27,7 +27,7 @@ from .common import (
 )
 
 
-DOCKET_SCHEMA = "commentary-v3-candidate-docket-v1"
+DOCKET_SCHEMA = "commentary-v3-candidate-docket-v2"
 PREPARED_SCHEMA = "commentary-v3-prepared-v1"
 PERICOPE_HFT_PROTOCOL = "focus-trace-pericope-lean-v1"
 SURAH_HFT_PROTOCOL = "focus-trace-surah-lean-v1"
@@ -111,6 +111,13 @@ LEDGER_DISPOSITIONS = {
     "parse_failed",
     "out_of_scope",
 }
+SELECTION_INELIGIBILITY_REASONS = {
+    "legacy_unbound",
+    "ledger_only",
+    "no_candidate_evidence",
+    "not_adjudicable",
+    "occurrence_only",
+}
 
 
 def support_role_for(source_type: str, json_pointer: str) -> str:
@@ -151,6 +158,36 @@ def support_role_for(source_type: str, json_pointer: str) -> str:
     raise ValidationError(
         f"Unsupported support provenance: {source_type} {json_pointer}"
     )
+
+
+def _selection_eligibility(
+    candidate: dict[str, Any], support_map: dict[str, dict[str, Any]]
+) -> tuple[bool, list[str]]:
+    """Classify whether a source candidate may consume an adjudication decision."""
+    reasons: set[str] = set()
+    if not candidate["adjudicable"]:
+        reasons.add("not_adjudicable")
+    if candidate["trust"] != "trusted":
+        reasons.add("legacy_unbound")
+    if candidate["obligation"] == "ledger_only":
+        reasons.add("ledger_only")
+    if (
+        candidate["source_type"] == "qac_morpheme"
+        or candidate["kind"] == "focus_root_occurrence"
+    ):
+        reasons.add("occurrence_only")
+    if not any(
+        support_id in support_map
+        and support_map[support_id]["trust"] == "trusted"
+        and support_map[support_id]["citable"] is True
+        and support_map[support_id]["role"] == SUPPORT_ROLE_EVIDENCE
+        and set(support_map[support_id]["branch_refs"])
+        <= set(candidate["branch_refs"])
+        for support_id in candidate["support_ids"]
+    ):
+        reasons.add("no_candidate_evidence")
+    normalized = sorted(reasons)
+    return not normalized, normalized
 
 
 @dataclass(frozen=True)
@@ -2004,6 +2041,7 @@ def _hft_candidates(
                 trust=trust,
             ),
         ]
+        mandatory = trust == "trusted"
         candidate = _candidate(
             ayah_ref=ayah_ref,
             lane=lane,
@@ -2012,8 +2050,8 @@ def _hft_candidates(
             source_pointer=record["pointer"],
             kind=record["kind"],
             title=local_id,
-            mandatory=True,
-            obligation="review",
+            mandatory=mandatory,
+            obligation="review" if mandatory else "optional_review",
             scope=evidence_scope,
             branch_refs=record["branch_refs"],
             anchor_refs=record["anchor_refs"],
@@ -2026,7 +2064,7 @@ def _hft_candidates(
                 source_type="hft",
                 source_local_id=local_id,
                 source_pointer=record["pointer"],
-                disposition="docket_mandatory",
+                disposition="docket_mandatory" if mandatory else "docket_optional",
                 candidate_id=candidate["candidate_id"],
             )
         )
@@ -2598,6 +2636,12 @@ def _accounting(
         ),
         "optional_candidate_count": sum(
             1 for candidate in candidates if not candidate["mandatory"]
+        ),
+        "selection_eligible_candidate_count": sum(
+            1 for candidate in candidates if candidate["selection_eligible"]
+        ),
+        "selection_ineligible_candidate_count": sum(
+            1 for candidate in candidates if not candidate["selection_eligible"]
         ),
     }
 
@@ -3278,6 +3322,8 @@ def validate_docket(docket: dict[str, Any]) -> None:
             "unresolved_branch_refs",
             "unresolved_branch_citations",
             "adjudicable",
+            "selection_eligible",
+            "selection_ineligibility_reasons",
         }
         _require_exact_keys(candidate, required, f"candidate {candidate_id}")
         if not re.fullmatch(r"cand_[0-9a-f]{20}", candidate_id):
@@ -3580,9 +3626,25 @@ def validate_docket(docket: dict[str, Any]) -> None:
         ]
         if candidate["adjudicable"] is not expected_adjudicable:
             raise ValidationError(f"Candidate {candidate_id} readiness is wrong")
+        expected_eligible, expected_ineligibility_reasons = _selection_eligibility(
+            candidate, support_by_id
+        )
+        if (
+            candidate["selection_eligible"] is not expected_eligible
+            or candidate["selection_ineligibility_reasons"]
+            != expected_ineligibility_reasons
+        ):
+            raise ValidationError(
+                f"Candidate {candidate_id} selection eligibility is wrong"
+            )
         if candidate["mandatory"] and not candidate["adjudicable"]:
             raise ValidationError(
-                f"Mandatory candidate {candidate_id} is not adjudicable"
+                f"Mandatory candidate {candidate_id} has unresolved branch evidence"
+            )
+        if candidate["mandatory"] and not candidate["selection_eligible"]:
+            raise ValidationError(
+                f"Mandatory candidate {candidate_id} is not selection eligible: "
+                f"{candidate['selection_ineligibility_reasons']}"
             )
         if candidate.get("source_type") == "hft" and docket.get(
             "scope", {}
@@ -3641,6 +3703,8 @@ def validate_docket(docket: dict[str, Any]) -> None:
             "docket_candidate_count",
             "mandatory_candidate_count",
             "optional_candidate_count",
+            "selection_eligible_candidate_count",
+            "selection_ineligible_candidate_count",
         },
         "docket coverage",
     )
@@ -3650,6 +3714,8 @@ def validate_docket(docket: dict[str, Any]) -> None:
         "docket_candidate_count",
         "mandatory_candidate_count",
         "optional_candidate_count",
+        "selection_eligible_candidate_count",
+        "selection_ineligible_candidate_count",
     ):
         value = coverage[field]
         if not isinstance(value, int) or isinstance(value, bool) or value < 0:
@@ -3660,6 +3726,12 @@ def validate_docket(docket: dict[str, Any]) -> None:
         "docket_candidate_count": len(candidates),
         "mandatory_candidate_count": actual_mandatory,
         "optional_candidate_count": actual_optional,
+        "selection_eligible_candidate_count": sum(
+            1 for item in candidates if item["selection_eligible"]
+        ),
+        "selection_ineligible_candidate_count": sum(
+            1 for item in candidates if not item["selection_eligible"]
+        ),
     }
     for field, expected in expected_counts.items():
         if coverage.get(field) != expected:
@@ -4307,10 +4379,19 @@ def build_prepared_artifacts(
         candidate["adjudicable"] = not candidate["unresolved_branch_refs"] and not (
             candidate["unresolved_branch_citations"]
         )
+        (
+            candidate["selection_eligible"],
+            candidate["selection_ineligibility_reasons"],
+        ) = _selection_eligibility(candidate, support_map)
         if candidate["mandatory"] and not candidate["adjudicable"]:
             raise ValidationError(
                 f"Mandatory candidate {candidate['candidate_id']} has unresolved "
                 "branch evidence"
+            )
+        if candidate["mandatory"] and not candidate["selection_eligible"]:
+            raise ValidationError(
+                f"Mandatory candidate {candidate['candidate_id']} is not selection "
+                f"eligible: {candidate['selection_ineligibility_reasons']}"
             )
 
     branch_review_grounding_gaps = _branch_review_grounding_gaps(
@@ -4350,7 +4431,9 @@ def build_prepared_artifacts(
         and item["disposition"] == "parse_failed"
     ]
     mandatory_ready = not blocking_parse_failures and all(
-        candidate["support_ids"] and candidate["adjudicable"]
+        candidate["support_ids"]
+        and candidate["adjudicable"]
+        and candidate["selection_eligible"]
         for candidate in candidates
         if candidate["mandatory"]
     )

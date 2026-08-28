@@ -1,26 +1,31 @@
 {
   "budget": {
     "candidate_count": 69,
-    "estimated_tokens_chars_div_4": 47056,
-    "max_branches_per_new_candidate": 6,
-    "max_new_candidates": 8,
-    "max_selected_candidates": 64,
-    "max_supports_per_new_candidate": 5,
-    "prompt_bytes": 193201
+    "eligible_candidate_count": 54,
+    "estimated_tokens_chars_div_4": 49046,
+    "mandatory_selected_count": 53,
+    "maximum_new_candidate_capacity": 459,
+    "new_candidate_capacity_formula": "512 - selected_existing_count",
+    "prompt_bytes": 201158,
+    "registered_branch_count": 114,
+    "selection_safety_ceiling": 512,
+    "support_registry_count": 108
   },
   "contract": {
-    "every_docket_candidate_exactly_once": true,
+    "every_discovered_candidate_or_loud_overflow": true,
     "every_focus_branch_exactly_once": true,
     "every_nominated_branch_exactly_once": true,
+    "every_selection_eligible_candidate_exactly_once": true,
     "expected_response": "outputs/adjudication/s029/29_38.response.json",
-    "response_schema_version": "commentary-v3-adjudication-response-v1",
-    "selected_candidate_hard_limit": 64
+    "response_schema_version": "commentary-v3-adjudication-response-v2",
+    "selection_ineligible_candidates_have_no_model_decision": true,
+    "selection_safety_ceiling": 512
   },
   "identity": {
     "ayah_ref": "29:38",
-    "docket_payload_sha256": "48f5d6bbeb8fc88f244c4af776765460ffc1579e8f814bd9f45abc3baa35d015",
-    "prompt_sha256": "0dd84526a3bd64498ce4653090cd0a8e3e30b95130866638878cfab5059e8fa0",
+    "docket_payload_sha256": "20779208c81dc4e088b8fb3e976f916cfb0064e5358fce56409955cfafc43b8d",
+    "prompt_sha256": "c4885622b4bb20d9c48df4a6cc98d3bed0728a486d8af144693a45af7f1ec375",
     "source_canonical_sha256": "4b9aa0566f325f3618a613b12bd0f690245a19c7f75a43b8aeb305cda2cf8839"
   },
-  "schema_version": "commentary-v3-adjudication-prompt-manifest-v1"
+  "schema_version": "commentary-v3-adjudication-prompt-manifest-v2"
 }
