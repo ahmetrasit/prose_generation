@@ -1,0 +1,30 @@
+{
+  "budget": {
+    "estimated_tokens_chars_div_4": 24756,
+    "packet_bytes": 97084,
+    "prompt_bytes": 102715,
+    "selected_candidate_count": 45
+  },
+  "contract": {
+    "expected_response": "outputs/synthesis/s029/29_41.response.json",
+    "response_schema_version": "commentary-v3-synthesis-response-v1"
+  },
+  "identity": {
+    "adjudication_payload_sha256": "31cc8e1a5b038c2f8bf5688e97fb01316a9ca57a7fb88186c8fd3557e9ce3785",
+    "ayah_ref": "29:41",
+    "docket_payload_sha256": "3d1183efc17752e1155b607171f75a38d1e57ea7846204ad4e677f42a27c2936",
+    "prompt_sha256": "55de8f438a805f463a7d0e180685077b629eaf34c5a4350c51a7a024fd657688",
+    "source_canonical_sha256": "72a2d64f386bfe78796f4a8e1160f737a804d1314231f5619ea95e5efcd7f8d5",
+    "synthesis_packet_sha256": "80667c9ab5f7799851e0b2773006768955863abceb30eebc48a6c2256e389ff3"
+  },
+  "limits": {
+    "max_findings": 48,
+    "max_friction_notes": 12,
+    "max_packet_bytes": 300000,
+    "max_paragraphs": 16,
+    "max_prompt_bytes": 375000,
+    "max_prose_chars": 24000,
+    "min_prose_chars": 500
+  },
+  "schema_version": "commentary-v3-synthesis-prompt-manifest-v1"
+}

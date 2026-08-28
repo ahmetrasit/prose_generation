@@ -1,0 +1,3834 @@
+{
+  "schema_version": "commentary-v3-adjudication-response-v1",
+  "identity": {
+    "ayah_ref": "29:41",
+    "source_canonical_sha256": "72a2d64f386bfe78796f4a8e1160f737a804d1314231f5619ea95e5efcd7f8d5",
+    "docket_payload_sha256": "3d1183efc17752e1155b607171f75a38d1e57ea7846204ad4e677f42a27c2936",
+    "prompt_sha256": "7be2297179979b48f0371537a4843b1d61c9a8051daddcb5fa484b33c18fe38b"
+  },
+  "decisions": [
+    {
+      "candidate_id": "cand_4a7f6fdf5d22f0c4d76d",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Belirsiz yaratık adı türetimi yalnız sınır koyar; seçilmiş örümcek-fail çerçevesine ayrı bir okur sonucu eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_7c6b8c2f1b40b66337dc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0c834b08636d66343b24",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Dişil fiilin önceki belirli örümcek adına dönüşü, hayvanı yalnız ad olarak değil evin kurucu faili olarak kurar.",
+      "synthesis_claim": "Belirli örümcek adı, dişil tekil fiille evi kuran fail olarak sahneye alınır.",
+      "reader_payoff": "Okur, hükme konu olan evin önce onu kuran fail üzerinden görünür kılındığını izler.",
+      "containment": "Bu, örümcek adından saydam bir kök anlamı çıkarmaz; yalnız belirli ad ile dişil fiilin yerel bağını korur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümceğin belirli bir kurucu fail olarak okunması silinir; sahne yalnızca adı geçen bir hayvanla kalır.",
+        "subsumes_candidate_ids": [
+          "cand_4a7f6fdf5d22f0c4d76d"
+        ]
+      },
+      "support_ids": [
+        "sup_f1b884849f6b288433bc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_d8f3cdcb26028e9f0c1d",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Nadir örümcek adının iki uçta tekrarı seçilmiş inclusio hükmünde zaten taşınır; ayrı bir tekrar sonucu eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_17a22d1651bc25b9afee"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7e2defebd45932e5bf19",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Aday, örümcek seçimini ağ malzemesine değil ev kurma ve koruma yapısına bağlar.",
+      "synthesis_claim": "Örümcek imgesi, malzemenin adından çok barınak kurma ve koruma yapısının zayıflığını görünür kılar.",
+      "reader_payoff": "Okur, zayıflık hükmünün teknik malzeme iddiasına değil sığınak yapısına yöneldiğini görür.",
+      "containment": "Ağın fiziksel dayanımı hakkında ayette bulunmayan teknik bir hüküm kurulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümcek imgesinin malzeme adından barınak işlevine çevrilen sınırlı odak kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_73c9cd08eb3e0e005c4a"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_47b2b8e6d6876ce44665",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Aynı kök ve kalıp, insan tarafındaki edinimi araç tarafındaki ev edinimiyle doğrudan aynalar.",
+      "synthesis_claim": "Aynı VIII. kalıp insan grubunun koruyucu edinmesini örümceğin ev edinmesiyle biçimsel olarak karşılaştırır.",
+      "reader_payoff": "Okur, insan davranışının örümcek sahnesine dışarıdan eklenmediğini, fiil kalıbında tekrarlandığını fark eder.",
+      "containment": "Bu paralellik yalnız iki fiilin ayet içindeki kök ve kalıp tekrarına bağlıdır; bundan ek bir ahlaki anlam çıkarılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "İnsan ve örümcek eylemlerinin aynı kalıpla aynalanması görünmez; karşılaştırmanın fiil düzeyindeki köprüsü kopar.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_bf3625da418b50c103db"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a010d8c0280f170cadfd",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Form VIII ve nesne ilişkisi, örümceğin ev edinmesini kendi korunmasına yönelen tamamlanmış bir seçim olarak gösterir.",
+      "synthesis_claim": "İttakhadha fiili, örümceğin evi kendi korunması için edinmesini amaçlı bir seçim gibi kurar.",
+      "reader_payoff": "Okur, ev yapımını rastlantısal bir oluş değil korunma arayışına dönük edinme eylemi olarak okur.",
+      "containment": "Bu, kökün bütün ele geçirme dallarını açmaz; VIII. biçim ve ev nesnesinin yerel birlikteliğiyle sınırlıdır.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümceğin ev edinmesinin kendine yönelen seçilmiş bir korunma hamlesi oluşu metinden çekilir.",
+        "subsumes_candidate_ids": [
+          "cand_de38951d488b3838c024"
+        ]
+      },
+      "support_ids": [
+        "sup_1d47a46683bd3dd92f46"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0b34558d4c708bffceb2",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Dişil tekil çekim, önceki örümcek adını yinelenmeden özne olarak sürdürür ve ev nesnesini ona bağlar.",
+      "synthesis_claim": "Dişil tekil çekim, tekrarlanmayan örümceği ev nesnesine hükmeden etkin özne yapar.",
+      "reader_payoff": "Okur, hayvanın sahnede edilgen bir benzetme unsuru değil ev kuran gramatik özne olduğunu görür.",
+      "containment": "Bu yalnızca dişil tekil fiilin önceki ada dönüşüdür; örümceğe bağımsız niyet veya biyolojik açıklama eklemez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Özne tekrarı olmadan örümceğin ev nesnesiyle kurduğu etkin dilbilgisel ilişki kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_c846be47507b240b799e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_9a2fc903633b96443d28",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Üç بيت kullanımı, belirsiz tekil evden belirli örümcek evine uzanan ara çoğul üzerinden bir yakınlaştırma düzeni kurar.",
+      "synthesis_claim": "بيت dizisi tekil belirsiz evden bütün evlere, oradan örümceğin belirli evine yakınlaştırır.",
+      "reader_payoff": "Okur, hükmün tek bir görüntüye değil ölçeği açılıp yeniden daralan ev dizisine uygulandığını takip eder.",
+      "containment": "Dizi yalnız ayetteki üç ev kullanımının sayı-belirlilik düzenidir; başka ev türleri veya dış sözlük dalları eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Ev hükmünün tekilden bütüne ve yeniden belirli örümcek evine ilerleyen ölçek hareketi kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_373c5a2ee708c95a46ef"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_3f2f19463a2b0d3dee92",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "İlk ev sözcüğü fiilin doğrudan nesnesi olarak belirsiz ve sıradan bırakılır; sonraki hüküm henüz gelmemiştir.",
+      "synthesis_claim": "İlk بيت, hüküm gelmeden önce sıradan ve belirsiz bir sığınak nesnesi olarak kalır.",
+      "reader_payoff": "Okur, hükmün daha başta verilmediğini ve koruyucu nesnenin sonraki cümlede yeniden değerlendirildiğini görür.",
+      "containment": "Belirsizlik burada yalnız mansup tekil biçime aittir; evin başka bir sözlük dalına çevrilmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "İlk evin hüküm öncesi belirsiz ve sıradan nesne olarak başlatılması, sonraki daraltmanın karşıtlığıyla birlikte kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_ec31c7ea006e002008a4"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0ada09f08051c0fe1a40",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Önceki yıkılmış barınakla bağ, seçilmiş ev-sığınak desteğinde zaten açıkça bulunur; yeni bir odak üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_239348ac65e86aef30d4"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_5175c2d9913cf91f7b2f",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Geniş ev kökü aralığı, seçilmiş sığınak ve en-zayıf hükmünün yerel sonucunu aşan ayrı bir okur getirisi taşımaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_239348ac65e86aef30d4"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_47f6fd9380d75ee0fd55",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Yerel بيت, salt bina adını değil koruyucu sığınak işlevini taşır ve hüküm bu işlevi başarısız kılar.",
+      "synthesis_claim": "Ev sözcüğünün yerel işlevi, etiketlenmiş bina değil koruma işlevi çöken sığınaktır.",
+      "reader_payoff": "Okur, örümcek evinin zayıflığını korunma vaadinin boşa çıkması olarak kavrar.",
+      "containment": "Bu, bütün ev anlamlarını veya maddi ağın teknik özelliklerini ayete taşımaz; sığınak işleviyle sınırlıdır.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Hükmün bina etiketine değil çöken sığınak işlevine yöneldiği ayırt edici sonuç ortadan kalkar.",
+        "subsumes_candidate_ids": [
+          "cand_5175c2d9913cf91f7b2f"
+        ]
+      },
+      "support_ids": [
+        "sup_285add8c09e9caddd5bf"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_4d2d9052ae40ed0206a4",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Grafik ve ses bakımından anlık geçiş, seçilmiş hükme geçiş kararının yanında bağımsız bir yorum sonucu oluşturmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_f11d2dc1d6d0664f83b3"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_137b18662f0af109ae23",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "وَ, örümcek eylemini kesmeden إِنَّ ile başlayan yeni değerlendirmeye bağlayan geçiş işlevi görür.",
+      "synthesis_claim": "واو, örümcek eyleminden kopmadan yeni bir değerlendirme cümlesine geçiş yaptırır.",
+      "reader_payoff": "Okur, zayıflık hükmünü sahneden kopuk bir ek bilgi değil aynı benzetmenin yargı aşaması olarak duyar.",
+      "containment": "Bağlaçtan ek bir nedensellik veya zaman ilişkisi çıkarılmaz; yalnız bağlama ve yeni iddia işlevi korunur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümcek eyleminden hükme geçişteki bağlı ama yeni cümle etkisi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_4d2d9052ae40ed0206a4"
+        ]
+      },
+      "support_ids": [
+        "sup_6f2d8e102729e86d558f"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7bf2ea55954256776cc2",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "إِنَّ, zayıflık derecelendirmesini ve gecikmiş yüklemi yöneten kesin hüküm çerçevesini kurar.",
+      "synthesis_claim": "إِنَّ, zayıflık derecelendirmesini bekleyen kesin hüküm çerçevesini kurar.",
+      "reader_payoff": "Okur, örümcek görüntüsünün ardından gelen zayıflık ifadesini ihtimal değil sabit bir değerlendirme olarak okur.",
+      "containment": "Kesinlik yalnız cümle yönetimine aittir; ayette bulunmayan ek bir fail veya sebep kurulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Zayıflık ifadesinin bağımsız bir betim değil kesin hüküm çerçevesine bağlı oluşu silinir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_9314f94e4188985a3662"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_6b3578f8291ef44f8b50",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "İki vurgu unsuru, hükmü bilmezlik teşhisinden önce dilbilgisel olarak üst üste pekiştirir.",
+      "synthesis_claim": "إِنَّ ile لَ birlikte, son bilmezlik teşhisinden önce yargıyı iki kat yoğunlaştırır.",
+      "reader_payoff": "Okur, son koşuldaki bilgisizliğin hükmün belirsizliğinden değil onu kaçıranların durumundan kaynaklandığını fark eder.",
+      "containment": "Vurgu, bilgi sahipleri veya dışarıdaki bir yemin anlamına genişletilmez; cümle içi pekiştirmedir.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Kesin hüküm ile bilmezlik arasındaki bilinçli gerilim ve iki kat vurgu hissi metinden çekilir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_72b93e7a32d60863a793"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a67c06e2cb8b71cb47bd",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "أَوْهَنَ, fiziksel kırılganlığı koruyucu dayanım hakkında değerlendirmeye taşıyan elatif hüküm olarak işler.",
+      "synthesis_claim": "أَوْهَنَ, fiziksel narinliği güvene ilişkin değerlendirmeyi taşıyan en zayıf dereceye dönüştürür.",
+      "reader_payoff": "Okur, evin zayıflığını soyut küçümseme değil taşıması beklenen koruma bakımından başarısızlık olarak görür.",
+      "containment": "Beden, ahlak veya başka zayıflık kullanımları ayete sözlük çevirisi olarak eklenmez; yapısal yankı korunur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Fiziksel kırılganlığın koruyucu güven hakkında değerlendirme taşıması ve hükme dönüşmesi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_fa695e876f218060074b"
+        ]
+      },
+      "support_ids": [
+        "sup_a6b539e0ce419f69d4ba",
+        "sup_5cb91b2a18f279b733ec"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_f257b26e6dada7570315",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Elatif ve belirli çoğul birlikteliği, örümcek evini bütün evler sınıfında alt sıraya yerleştirir.",
+      "synthesis_claim": "Elatif yapı, örümcek evini evler sınıfının gevşek bir üyesi değil en zayıf noktası sayar.",
+      "reader_payoff": "Okur, ayetin yalnız zayıf demediğini, karşılaştırma ölçeğinde en zayıf dereceyi bildirdiğini kavrar.",
+      "containment": "Bu dereceleme yalnız evler sınıfına aittir; başka varlıklar veya genel bir ontolojik sıralama kurulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümcek evinin evler sınıfında en alta yerleştirilmesi, sıradan bir zayıflık betimlemesine indirgenir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_be1f3d5aad01831bd53f"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_fa695e876f218060074b",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Sonraki ayetteki kudret karşıtlığı, seçilmiş fiziksel zayıflık hükmünün desteğinde zaten yer alır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_5cb91b2a18f279b733ec"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_3dd52e3932889b9bd810",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Çoğul ev biçimi, iki tekil kullanım arasında yer alarak karşılaştırmanın görüş alanını açan orta halkadır.",
+      "synthesis_claim": "Çoğul ev biçimi, iki tekil kullanım arasına yerleşerek bakışı tek sığınaktan evler toplamına açar.",
+      "reader_payoff": "Okur, elatif hükmün hangi geniş sınıf içinde verildiğini ve son tekil eve nasıl döndüğünü görür.",
+      "containment": "Bu, yalnız ayet içindeki biçimsel sıralamadır; çoğulun her olası toplumsal anlamı devreye sokulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Tekil başlangıç ile tekil hüküm arasında bütün evler sınıfına açılan ara bakış kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_8e445f66a1be286df9ca"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_4da91b13843352e73d27",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Belirli çoğul, elatif tamlamanın karşılaştırma kümesini açık ve kapsamlı bir evler sınıfı olarak tamamlar.",
+      "synthesis_claim": "Belirli çoğul, karşılaştırma ölçüsünü bütün evler sınıfına yayar.",
+      "reader_payoff": "Okur, en zayıf hükmünün tek bir komşu örnekle değil evler kategorisiyle ölçüldüğünü anlar.",
+      "containment": "Kapsam, bu cümledeki belirli evler sınıfıyla sınırlıdır; dışarıdaki yapı türleri sayılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Karşılaştırma kümesinin tekil bir örnekten bütün belirli evler sınıfına genişlemesi ortadan kalkar.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_7b6634a610d9d635314f"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_68aceb5f1715868dd73e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Varyant sesletim anlam değiştirmediği için evler sınıfına ilişkin seçilmiş sonucu genişletmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_27975cbc74ad21e9b9db"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_b16efd57d8259e5761d9",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "لَ, إِنَّ cümlesinin yüklemindeki hüküm noktasına doğrudan vurgu yerleştirir.",
+      "synthesis_claim": "لَ, hükmün iniş noktası olan örümcek evini yüklem olarak özellikle mühürler.",
+      "reader_payoff": "Okur, yargının genel bir zayıflık alanında asılı kalmadığını, belirli evde sonlandığını duyar.",
+      "containment": "Bu parçacık amaç, yön veya yemin anlamına çevrilmez; yüklem vurgusu olarak tutulur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Vurgunun doğrudan yükleme bağlanarak hükmü örümcek evine indirmesi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_94445171b88d70bd05bc",
+          "cand_4914b454926c9e04393a"
+        ]
+      },
+      "support_ids": [
+        "sup_abe3aa6df17694701885"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_94445171b88d70bd05bc",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "لَın ada bitişmesi seçilmiş yüklem vurgusunun ayrıntısıdır; ayrı bir sentez sonucu eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_d49d206c266460698b11"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_4914b454926c9e04393a",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "لَın amaç veya yön olmaması seçilmiş yüklem vurgusunda korunur; bağımsız bir okur sonucu taşımaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_d49d206c266460698b11"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a9400e06b41d3dc91e98",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Son tekil بيت, önceki belirsiz ve çoğul ev biçimlerini örümceğe ait belirli hüküm evinde toplar.",
+      "synthesis_claim": "Son tekil بيت, belirsiz başlangıcı örümceğe ait belirli hüküm evine geri bağlar.",
+      "reader_payoff": "Okur, ölçek açıldıktan sonra hükmün yeniden belirli bir sığınağa, yani örümceğin evine indiğini görür.",
+      "containment": "Belirlilik tamlama ve cümle görevinden doğar; eve yeni bir özel sözlük dalı yüklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Ev dizisinin belirli örümcek evinde kapanarak hükmü tek bir sığınağa indirmesi kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_8bfe03cd138ec8e0c27f"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_f7aa52f9e85393731afa",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Hüküm, بيت sözcüğünün sığınak işlevini korurken tam o işlevin koruyamama sonucunu öne çıkarır.",
+      "synthesis_claim": "Hüküm, evin koruyucu işlevini tersine çevirerek sığınağı başarısız dayanak diye değerlendirir.",
+      "reader_payoff": "Okur, koruma vaadinin kendi nesnesinin en zayıf noktaya dönüşmesiyle benzetmenin keskinliğini görür.",
+      "containment": "Bu tersine çevirme yalnız yerel sığınak işlevine aittir; ev kökünün bütün dallarına yayılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Sığınak olarak beklenen evin aynı anda başarısız dayanak diye yeniden değerlendirilmesi silinir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_60b057e1e1f0908d5ec3"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7cf2f6befeb2adfe59c4",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Nominatif tamlama, yüklemin hedefini genel ev kategorisinden örümceğin sahip olduğu belirli eve daraltır.",
+      "synthesis_claim": "İsim tamlaması, en zayıf diye belirlenen şeyin herhangi bir ev değil örümceğin kendi evi olduğunu sabitler.",
+      "reader_payoff": "Okur, hükmü bütün evlere eşit dağıtmak yerine tamlamanın gösterdiği özel sığınağa bağlar.",
+      "containment": "Sahiplik burada yalnız tamlama ilişkisidir; örümceğe ayet dışı mülkiyet veya niyet eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Hükmün genel ev adına değil örümceğin tamlamayla belirlenen kendi evine yönelmesi kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_4f994ba25b66fd9a5995"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_29d3eb245bf9733d6f1d",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Örümcek adının iki uçtaki dönüşü, kurma eylemini o eylemin değerlendirilmiş sonucuna bağlayan kapanış oluşturur.",
+      "synthesis_claim": "Örümcek adı iki uçta görünerek kurucu eylemi onun sonucuna bağlayan bir kapanış çerçevesi oluşturur.",
+      "reader_payoff": "Okur, sahnedeki örümceği yalnız evin yapıcısı olarak değil sonucu hükme bağlanan fail olarak izler.",
+      "containment": "Bu kapanış tekrarın ayet içi işlevine aittir; örümcek adına saydam bir etimoloji eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümcek adının eylem ile hüküm arasında çerçeve kurarak failin sonucuna dönmesi görünmez olur.",
+        "subsumes_candidate_ids": [
+          "cand_d8f3cdcb26028e9f0c1d",
+          "cand_08154557eecb209d0507"
+        ]
+      },
+      "support_ids": [
+        "sup_a77178d4c5cbdaeb9a16"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_c0ebfc26804a10f76aef",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "İkinci örümcek adı, بيتُ tamlamasında genitive tamamlayıcı olarak önceki kurucu özneye sahiplik rolü verir.",
+      "synthesis_claim": "İkinci örümcek kullanımı, faili yalnız kuran değil değerlendirilen evin sahibi konumuna taşır.",
+      "reader_payoff": "Okur, hükmün örümceğin kurduğu ve ona bağlanan sığınağı birlikte değerlendirdiğini görür.",
+      "containment": "Sahiplik gramatik tamlama rolüdür; bundan bağımsız ekonomik veya hukuki mülkiyet çıkarılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümceğin kurucu konumdan değerlendirilen evin tamlama içindeki sahibine dönüşmesi kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_c478df21d8dc05e3839d"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_08154557eecb209d0507",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Nadir yaratık sözcüğünün kapanışta bulunması seçilmiş örümcek çerçevesiyle zaten açıklanır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_b29b519aac75c38c55e7"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_c9458811fae56cf2a77d",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Önceki yıkım anlatısından serin parable tonuna geçiş, seçilmiş başlangıç parable çerçevesinde zaten taşınır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_3d4e0d3272abd6a667e0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_05836f94516a70505107",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Aynı مَثَل kökünün özne ve karşılaştırma pivotunda tekrarı, ayeti iki parabolik panel olarak kurar.",
+      "synthesis_claim": "İki مَثَل, insan tarafı ile örümcek tarafını aynı ayetin içine yerleştirilmiş iki panel olarak kurar.",
+      "reader_payoff": "Okur, ikinci sahneyi bağımsız bir hayvan hikâyesi değil ilk insan örüntüsünün karşılaştırmalı cevabı olarak okur.",
+      "containment": "Paneller arasındaki ilişki yalnız benzerliktir; ayet dışı ortak nitelikler eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "İnsan ve örümcek taraflarının aynı ayet içindeki iki benzetme paneli olarak örgütlenmesi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_2471171dc74f145885e0"
+        ]
+      },
+      "support_ids": [
+        "sup_8ce1222592a170e9b7d8"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_62640ad4ba7c21ad1053",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Nominatif construct, aktör ve eylem gelmeden önce bütün cümleyi yorumlanacak bir parable çerçevesi olarak açar.",
+      "synthesis_claim": "Başlangıçta özne konumundaki benzetme, aktör anlatılmadan önce ayeti yorumlanacak bir karşılaştırma olarak açar.",
+      "reader_payoff": "Okur, ayetin önce olay anlatmadığını, ardından gelen insan eylemini bir model içinde değerlendireceğini kavrar.",
+      "containment": "Bu çerçeve yalnız yerel benzetme işlevine dayanır; dışarıdan açıklayıcı tür veya anlatıcı eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Ayetin aktörlerden önce değerlendirme çerçevesi kurarak okunması ve sonraki sahneyi modellemesi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_c9458811fae56cf2a77d",
+          "cand_9c7b7bebbd59ca832edf"
+        ]
+      },
+      "support_ids": [
+        "sup_cc8e9d174be8231ee86e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_9c7b7bebbd59ca832edf",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Soyut olanı görünür kılma sonucu seçilmiş parable çerçevesi ve iki panel yapısıyla zaten korunur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_c011479b50bb5dddbffc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_068b0e1a505f027b2c71",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "لَوْ, kapanışı gerçekleşmiş bilgiyle değil, gerçekleşmemiş ve koşula bağlanmış bir bilme durumuyla kurar.",
+      "synthesis_claim": "لَوْ, bilgi sonucunu gerçekleşmiş bir durum değil, mevcut olmayan bir bilme şartı olarak kapatır.",
+      "reader_payoff": "Okur, benzetmenin işaret ettiği hakikat görünür olmasına rağmen muhatapların onu kavrayamadığını koşul biçiminde duyar.",
+      "containment": "Koşuldan yeni bir tarihsel olay veya bilgi türü çıkarılmaz; yalnız gerçekleşmemiş bilgi şartı korunur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Kapanışın mevcut bir bilgi değil gerçekleşmemiş bir bilme şartı kurduğu epistemik gerilim yok olur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_4619f1e9c1543c340bab"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_4303423f0ec7f3f86e20",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Elided answer, karşı-olgusal koşulu başlangıçtaki koruyucu edinime geri bağlayan örtük sonucu sıkıştırır.",
+      "synthesis_claim": "Örtük koşul cevabı, bilselerdi böyle koruyucular edinmeyeceklerini sezdirir.",
+      "reader_payoff": "Okur, bilselerdi böyle koruyucular edinmeyecekleri sonucunu son cümledeki bilmezlikten çıkarır; bu, önceki seçimin neden yanlış olduğunu da açıklar.",
+      "containment": "Bu yalnız cümle içindeki eksiltili cevapla desteklenen bir sonuçtur; koşula dışarıdan yeni bir öğreti eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Bilgi olsaydı koruyucu edinimin sürmeyeceği yönündeki ayet içi örtük sonuç kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_72e3c4078ebbf1f7cbda"
+        ]
+      },
+      "support_ids": [
+        "sup_803e5936cd4d9557f2f7"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_72e3c4078ebbf1f7cbda",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Dilekçe renkli karşı-olgusal ton, seçilmiş koşul ve örtük cevap sonuçlarını değiştiren ayrı bir okuma sağlamaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_4f093ab0d73f09b06d09"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_2ab977e7c2aed6979de0",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Çoğul dönüş eki, parable aracından başlangıçta fiille tanımlanan insan grubuna yeniden gönderme yapar.",
+      "synthesis_claim": "Çoğul dönüş eki, kapanıştaki bilmezliği başlangıçta tanımlanan aynı insan grubuna geri yükler.",
+      "reader_payoff": "Okur, son bilmezlik teşhisinin örümceğe değil koruyucuları edinen insan topluluğuna ait olduğunu ayırt eder.",
+      "containment": "Bu yalnız zamir ve sayı sürekliliğidir; yeni bir topluluk veya fail kurulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Kapanışın hedefinin başlangıçtaki koruyucu ediniciler olduğuna dair özne sürekliliği silinir.",
+        "subsumes_candidate_ids": [
+          "cand_a2057519916926bf23a6"
+        ]
+      },
+      "support_ids": [
+        "sup_8e90f9eca9de9ec09e55"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_2767dc46a82335368cea",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Aynı suredeki kāna karşıtlığı, seçilmiş sürdürülen bilme durumu içinde zaten sınırlı yankı olarak bulunur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_779968ed99f2c908e8a8"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_661ab353332930eea4b9",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "كَانُوا ile muzari bilme fiili, koşul içinde geçmişe ait tek an değil sürdürülemeyen bir durum kurar.",
+      "synthesis_claim": "كَانُوا ile muzari fiil, bilgiyi tek anlık veri değil yokluğu sürdürülen bir durum olarak çerçeveler.",
+      "reader_payoff": "Okur, sorunun bir ayrıntıyı kaçırmak değil benzetmeyi okuyacak süreklilikte bir kavrayışa sahip olmamak olduğunu görür.",
+      "containment": "Bu durum yalnız karşı-olgusal yardımcı fiil ve muzari birleşimidir; kökün başka oluş dalları çevrilmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Bilmezliğin tek eksik bilgiden ziyade sürdürülemeyen bir kavrayış durumu oluşu kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_2767dc46a82335368cea"
+        ]
+      },
+      "support_ids": [
+        "sup_5e8d92666b1f9bd1781c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_94ad82e4c6b62a471856",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "يَعْلَمُونَ, aynı grubun parableyi okuyacak sürekli kavrayıştan yoksunluğunu koşulun sonuna yerleştirir.",
+      "synthesis_claim": "يَعْلَمُونَ, seçimin ardındaki benzetme işaretini fark etmeyi sağlayacak sürekli kavrayışın yokluğunu adlandırır.",
+      "reader_payoff": "Okur, ayetin gösterdiği ev karşılaştırmasının muhataplarca görülmediğini son fiilde teşhis eder.",
+      "containment": "Bilme burada benzetmeyi kavrama kapasitesiyle sınırlıdır; başka bir bilgi türü yüklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Seçilmiş koruyucuların yanlışlığını görebilecek sürekli bilme kapasitesinin yokluğu ayetten çekilir.",
+        "subsumes_candidate_ids": [
+          "cand_451ea7bc1923b3d864f2"
+        ]
+      },
+      "support_ids": [
+        "sup_a06cb85caf7f397c7c21",
+        "sup_ba5db5150a3211ef3ce0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_451ea7bc1923b3d864f2",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İlahi yeterlilik vurgusu seçilmiş son bilgi fiilinin açıklamasında zaten yer alır; ayrı bir epistemik sonuç eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_88c67860f964f5016ee8"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_cfd9fdc945f19502585c",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Yerel Form I, bilme eylemini öğretimden ayırır; sign pressure yalnız yapısal gerçeği ayırt etme yankısı sağlar.",
+      "synthesis_claim": "Bilme, benzetmede gösterilen yapısal zayıflığı okuyup kavrayabilme kapasitesidir.",
+      "reader_payoff": "Okur, bilmenin burada örümcek evinin zayıf bir dayanak olduğunu fark etmeye bağlı olduğunu görür.",
+      "containment": "İşaretin ayırt ettirici etkisi yalnız bu yapısal zayıflığı kavramayı destekler; yorum başka bir bilgi türüne açılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Bilmezliğin yapısal zayıflığı okuyamama kapasitesi olarak sınırlandırılması kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_57edd5e38cbd81808bfd"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_c0a5151f532462a4ec7b",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Son bilgi fiili, açıkça sergilenen parable ile onu kavramayan grup arasındaki ayet içi ironiyi mühürler.",
+      "synthesis_claim": "Son bilgi fiili, benzetmenin görünür kıldığı hakikat ile onu kavrayamayan muhatap arasındaki ironiyi mühürler.",
+      "reader_payoff": "Okur, hüküm göz önüne serildiği hâlde onu kavrayamayanların son sözde açığa çıkmasıyla oluşan ironiyi hisseder.",
+      "containment": "İroni, yalnız benzetme, hüküm ve koşullu bilme dizisinin ayet içi sonucudur; dışarıdan alay veya niyet eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Görünür hüküm ile onu kavrayamayan grup arasındaki kapanış ironisi ve teşhis etkisi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_524bf174f381859d794b"
+        ]
+      },
+      "support_ids": [
+        "sup_b0ef719235401e03693c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a2057519916926bf23a6",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Başlangıç grubunun kapanışta dönmesi seçilmiş çoğul dönüşü ve eylemle tanımı içinde zaten taşınır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_06cddf67b894a624acc0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_18aa5fea228a514ed340",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "İlgi cümlesi, topluluğun kimliğini ayrı bir isimle değil Tanrı dışından koruyucu edinme eylemiyle tanımlar.",
+      "synthesis_claim": "İlgi cümlesi, topluluğu ayrı bir etiketle değil koruyucu edinme eylemiyle tanımlar.",
+      "reader_payoff": "Okur, eleştirinin belirsiz bir topluluğa değil belirli bir tercihi yapanlara yöneldiğini görür.",
+      "containment": "Tanım yalnız ilgi cümlesindeki eylemle sınırlıdır; başka grup kimlikleri eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Eleştirilen grubun koruyucu edinme eylemiyle tanımlandığı hedefleme kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_6fdb52c0a683945d0027"
+        ]
+      },
+      "support_ids": [
+        "sup_1a76ce2536a25cf02051"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_6fdb52c0a683945d0027",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İlgi biçiminin ayrılmazlığı mekanik bir dilbilgisi notudur; seçilmiş grup tanımını değiştirmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_06cddf67b894a624acc0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_e0df0d7aedf66cb6f624",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Tamamlanmış Form VIII, koruyucu seçimini edilgen bir durum değil grubun kendisi için gerçekleştirdiği kararlı edinim olarak gösterir.",
+      "synthesis_claim": "Tamamlanmış VIII. fiil, koruyucu seçimini başa gelen bir hâl değil kendine mal edilen karar yapar.",
+      "reader_payoff": "Okur, sahte dayanmanın sorumluluk içeren bir seçim olarak benzetmenin insan tarafında kurulduğunu kavrar.",
+      "containment": "Kökün ele geçirme veya başka kalıpları ayete çevrilmez; tamamlanmış VIII. biçim ve nesne çerçevesi korunur.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Koruyucu edinimin tamamlanmış ve kendine yönelmiş bir karar olarak okunması metinden çekilir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_4c0ad3a3b767fc6ef39f"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_de38951d488b3838c024",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Kavrama baskısı yalnız sözlük yankısıdır; seçilmiş tamamlanmış edinim ve fiil aynası bunu aşan sonucu taşır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_98543d782360bec00f65"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_8477f845e0c4552fb8ba",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "İnsan ve örümcek fiillerinin aynı kök ve Form VIII ile tekrarı, iki korunma hamlesini benzetmenin iki tarafında aynalar.",
+      "synthesis_claim": "İnsanların ve örümceğin aynı alma kalıbı, korunma arayışlarını benzetmenin iki tarafında aynalar.",
+      "reader_payoff": "Okur, örümcek evini insan koruyucularını açıklayan karşılaştırmalı bir araç olarak okur.",
+      "containment": "Aynalama yalnız kök ve kalıp tekrarına bağlıdır; başka özellikler ayete eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "İnsan koruyucu edinimi ile örümcek ev ediniminin aynı fiil kalıbında aynalanması kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_4865d62cda136596657e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_772d5dba534f4c46a441",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Çoğul öznenin fiil sonundaki eki mekanik bir ayrıntıdır; seçilmiş grup ve aynalama sonuçlarına ek yapmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_186990c723dd637f31cc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_cb270779f4d42a5093b8",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Alma kökünün başka bağlamlardaki sure yankısı seçilmiş tamamlanmış edinim desteğinde zaten bulunur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_3276a35535fbb09e9820"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_be1b52134189f353451e",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "مِنْ, koruyucuların adı gelmeden önce edinme eylemini Tanrı ekseninden dışlama olarak çerçeveler.",
+      "synthesis_claim": "مِنْ, koruyucular adlandırılmadan önce eylemi Tanrı ekseninden uzaklaştıran dışlama çerçevesini başlatır.",
+      "reader_payoff": "Okur, yanlışlığın yalnız alternatif seçmek değil seçimi ilahi kıstastan dışarı yerleştirmek olduğunu sıralamada fark eder.",
+      "containment": "Bu, edat ile sonraki izafet ilişkisidir; hareket, sebep veya bağımsız mekân anlamı eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Koruyucular adlandırılmadan önce eylemin dışlama ve uzaklaştırma çerçevesine alınması kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_0e20f182c1294995cbe7"
+        ]
+      },
+      "support_ids": [
+        "sup_0d5ff5b857eed651f37b"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0e20f182c1294995cbe7",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Dışlama söz öbeğinin nesneden önce gelmesi, seçilmiş dışlama çerçevesinin aynı gramatik sonucudur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_36a09fa868fd0124bed0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_4aa698859fcef3a34d9e",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "دُونِ اللهِ, sahte koruyucuları yalnız başka seçenekler değil Tanrı kıstasının altında ve dışında konumlandırır.",
+      "synthesis_claim": "دُونِ اللهِ, seçenekleri Tanrı’nın yanına koymakla kalmayıp onun altındaki bir düzeye yerleştirir.",
+      "reader_payoff": "Okur, ayetteki karşılaştırmanın yönünü nötr başkalıktan dikey bir bağımlılık eleştirisine doğru okur.",
+      "containment": "Dikey hiyerarşi vurgusu yerel izafet ilişkisinden doğar; dūn sözcüğünün bütün mekânsal anlamları ayete taşınmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Sahte koruyucuların Tanrı’ya göre alt konumda değerlendirilmesi, nötr alternatif okumaya indirgenir.",
+        "subsumes_candidate_ids": [
+          "cand_cc0727bea0283850cf08",
+          "cand_dc9fd02b5ddeda58f1c1"
+        ]
+      },
+      "support_ids": [
+        "sup_240c019456c0ab0ed5b5"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_cc0727bea0283850cf08",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Anti-bağımlılık formülü seçilmiş Tanrı altı hiyerarşi iddiasını tekrarlar; ayrı bir okuma sonucu yoktur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_46f7f7c9bc6246ad833c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_39cf0dc3c491cf44b6c9",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Yönetilen ve yöneten tamlama zinciri, hiyerarşiyi yalnız sözle değil cümle bağlantılarıyla da kurar.",
+      "synthesis_claim": "İzafet zinciri, مِنْ edatının yönettiği دُونِ ile onun yönettiği اللهِ adını ardışık bir hiyerarşi içinde bağlar.",
+      "reader_payoff": "Okur, hiyerarşik ilişkinin soyut bir açıklama değil, مِنْ–دُونِ اللهِ bağlanışında kurulduğunu görür.",
+      "containment": "Bu yalnız izafet ve yönetim düzenidir; tamlamadan yeni bir ilahiyat veya mekân haritası çıkarılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Tanrı ile sahte koruyucular arasındaki dikey ilişkinin yönetilen-yöneten zincirinde görünmesi silinir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_26af5de3ab2b90af86ed"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_dc9fd02b5ddeda58f1c1",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Tartışmalı alçaklık ve teslim baskısı yerel anlamı değiştirmeyen sözlük basıncıdır; ayrı temas taşımaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_240d5a1df2e7cab5d10b"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_fd66cf78ab6e07d34ff3",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Özel isim, dışlama zincirinin soyut bir ilke değil belirli ve tekil ilahi kıstasa bağlandığını tamamlar.",
+      "synthesis_claim": "Özel Tanrı adı, koruyucu iddialarının ölçüldüğü soyut ilke değil belirli ilahi kıstas olur.",
+      "reader_payoff": "Okur, yanlış korumayı ölçen eksenin belirsiz bir üstünlük değil doğrudan اللهِ adı olduğunu kavrar.",
+      "containment": "Özel adın yerel tamlayan işlevi korunur; kök çevresindeki ibadet veya şaşkınlık alanları çeviri yerine geçmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Koruyucu iddialarının belirli ilahi adla ölçülmesi ve dışlama zincirinin orada tamamlanması kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_652c2e77ad224f5b7dab",
+          "cand_361945e38b2404486d0e"
+        ]
+      },
+      "support_ids": [
+        "sup_017058916d19f167fe63"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_652c2e77ad224f5b7dab",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İlahi otorite ile koruyucular alanı seçilmiş özel kıstas ve koruyucu iddiası kararlarında zaten korunur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_389bcbd684482cbdcb41"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_361945e38b2404486d0e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Özel adın kök çevresindeki ibadet ve şaşkınlık baskısı, yerel özel ad görevine ayrı bir sonuç eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_389bcbd684482cbdcb41"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_f79b7c08476c5749c022",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Koruyucular-dışında-Tanrı formülünün sure yankısı seçilmiş hiyerarşi ve nesne kararlarını tekrarlar.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_8542dbca14de69cf9503"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_f43b28f303c4b34ee81b",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "أَوْلِيَاءَ, yakınlık ve koruma iddiasını دُونِ yapısının alt-dış konumuyla aynı anda açığa çıkarır.",
+      "synthesis_claim": "أَوْلِيَاءَ, yakınlık ve koruma iddiasını dışlama yapısı içinde etkisizleşen bir otorite olarak açığa çıkarır.",
+      "reader_payoff": "Okur, kendilerine koruyucu denilen nesnelerin adının taşıdığı yakınlık iddiasıyla ayetin hiyerarşisinin çatıştığını görür.",
+      "containment": "Kökün dönüş veya başka isim dalları aktarılmaz; yerel çoğul koruyucu adı ve dışlama yapısı sınırdır.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Koruyucu adının yakınlık iddiası ile ayetteki alt konum arasındaki çatışma ortadan kalkar.",
+        "subsumes_candidate_ids": [
+          "cand_f79b7c08476c5749c022",
+          "cand_7f1c5c68a4168d2aa392"
+        ]
+      },
+      "support_ids": [
+        "sup_862ba9c7075df084194d",
+        "sup_f093705446792432b26a"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7f1c5c68a4168d2aa392",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İsmin dönüş fiili olmaması bir sınır notudur; seçilmiş koruyucu nesnesinin ayet içi sonucunu genişletmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_c03a5bd57665d8fe908c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_cc520186858eb10a24ef",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Accusative çoğul, koruyucuları önceden meşru makamlar olarak değil insan fiilinin doğrudan nesneleri olarak gösterir.",
+      "synthesis_claim": "Mansup çoğul nesne, koruyucuların hazır meşruiyetler değil insanın fiille seçtiği nesneler olduğunu gösterir.",
+      "reader_payoff": "Okur, koruyucu statüsünün ayette kendiliğinden verilmediğini, edinme eylemiyle nesneleştirildiğini fark eder.",
+      "containment": "Bu, yalnız nesne ve fiil ilişkisine dayanır; koruyucuların gerçekliği veya yokluğu hakkında ek ontoloji kurulmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Koruyucuların insan eylemiyle nesne konumuna alınan seçilmiş dayanaklar oluşu kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_3e2a6f9c9af917b334e5"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_e52577a4904b04a939bf",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Kırık çoğulun parçalı görünümü, seçilmiş koruyucuların tek bir güvenli sığınak gibi birleşmediğini ayet içi ev zayıflığıyla yankılar.",
+      "synthesis_claim": "أَوْلِيَاءَ kırık çoğulunun parçalı görünümü, tek güvenli sığınak yerine dağınık koruyucu seçenekleri evin kırılganlığıyla yankılar.",
+      "reader_payoff": "Okur, çoğul koruyucuların sayısının güvenceyi kendiliğinden artırmadığını, ev benzetmesinde parçalı bir dayanak görüntüsü oluştuğunu hisseder.",
+      "containment": "Bu yalnız çoğul biçiminin ayet içi yankısıdır; kırık çoğuldan yeni bir kök dalı veya gerçek parçalanma çevirisi çıkarılmaz.",
+      "selection_basis": {
+        "kind": "distinct",
+        "deletion_loss": "Koruyucu çoğulunun dağınık seçenekler olarak evin kırılganlığına biçimsel yankı vermesi silinir.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_4c653bb2f8412bbe238c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7b5d2c09f60c49288f43",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "كَ, ikinci parable kalıbını birincinin cevabı yaparken benzetme ile özdeşlik arasındaki sınırı korur.",
+      "synthesis_claim": "كَ, ikinci benzetme kalıbını ilkine bağlar; benzerliği aktarırken insan ile örümceği özdeşleştirmez.",
+      "reader_payoff": "Okur, örümcek evinde insan eyleminin yapısal sonucunu görürken iki tarafın aynı varlık sayılmadığını korur.",
+      "containment": "Edat yalnız karşılaştırma ilişkisini taşır; iki taraf arasında ayet dışı ortak özellikler listelenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Benzetmenin hem yapısal aktarım hem de insan-örümcek ayrımı kuran menteşe işlevi kaybolur.",
+        "subsumes_candidate_ids": [
+          "cand_052d68126d4c2bf4413c",
+          "cand_f47fe62389904f189131"
+        ]
+      },
+      "support_ids": [
+        "sup_e399532ce2bf93a26eb9",
+        "sup_869864366c3473d5ba0d"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_052d68126d4c2bf4413c",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "كَın parable adına bitişmesi seçilmiş karşılaştırma menteşesinin mekanik ayrıntısıdır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_869864366c3473d5ba0d"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_f47fe62389904f189131",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Benzetme ile özdeşlik ayrımı seçilmiş كَ karşılaştırma hükmünde zaten açıkça korunur.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_83e5c430c4858b993e3c"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_2471171dc74f145885e0",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İkinci parable çerçevesinin eşlenik görüntüsü seçilmiş iki مَثَل ve araç tarafı kararlarıyla taşınır.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_172967a99dca2d8a4cee"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_ae5763bf1945910f4a77",
+      "status": "selected",
+      "priority": "supporting",
+      "rationale": "Genitive مَثَلِ, karşılaştırma edatının yönettiği araç tarafını insan tarafındaki parableye biçimsel cevap olarak kurar.",
+      "synthesis_claim": "مَثَلِ, karşılaştırma edatının yönettiği araç tarafı olarak insan örüntüsüne biçimsel cevap verir.",
+      "reader_payoff": "Okur, örümcek sahnesinin cümle içinde bağımsız değil ilk benzetmeyi tamamlayan araç tarafı olduğunu görür.",
+      "containment": "Bu görev yalnız hâl ile edat arasındaki ilişkiye aittir; bu biçimden yeni bir anlam dalı çıkarılmaz.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Örümcek tarafının edatça yönetilen biçimsel cevap olarak cümleye bağlanması kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_75607c7e4716929882f0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_8645f3e4fc111108d021",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Construct ilişkisi, araç tarafını hayvan adından ibaret bırakmayıp kurma, ev ve hükümden oluşan örüntüye bağlar.",
+      "synthesis_claim": "Örümcek tamlaması, araç tarafını yalnız hayvan adına değil kurma, ev ve hükümden oluşan bütün örüntüye bağlar.",
+      "reader_payoff": "Okur, benzetmeyi yalnız örümceğin küçük oluşuna indirgemeden onun yaptığı ev ve aldığı hüküm üzerinden okur.",
+      "containment": "Bu bütünlük ayet içi izafet ilişkisi ve devamındaki eylem-hüküm dizisidir; hayvanın başka özellikleri eklenmez.",
+      "selection_basis": {
+        "kind": "mandatory",
+        "deletion_loss": "Araç tarafının hayvan görüntüsünden öte kurma, ev ve hüküm dizisinin tamamı olarak okunması kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_63ebeedbaf63a6045826"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_98c9876ed6abece15035",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Fitted dwelling kanalı, seçilmiş örümcek-ev yük testini aşan ayrı bir sonuç vermeden genel yapısal ayrıntıları tekrarlar.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_1e33a8fb1afbc34609c7"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_aae936bdfd966fdc7815",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Hane ve misafirlik kanalı, örümcek evinin yerel sığınak hükmünü değiştirecek ikinci bir temas kurmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_03dcdae51c4289bff17e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a223e0cc82ae7e30da46",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Dövülmüş model ve akıl kanalı, parable ve bilme kararlarının ötesinde ayet içi ayrı bir yapı kurmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_4cb8cb90f4e336eab844"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_bd065fe4e09339a407b7",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Çoklu zayıf destek kanalı, seçilmiş yük testiyle aynı taşıyıcı sonucu daha geniş ama ayrı bir dayanak olmadan tekrarlar.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_314913f67abca66e9b0d"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_17ad24c56d30787ad46c",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_e166c52f15e53da9eae8",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_2b95bc3a8c5d95919837",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7b1f06a354f08cdc3646",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_81e8561a63701219052a",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_76ee58558396614fcc5e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a86410ba874326dc6746",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0726dc305d3a10c086b1",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_4b04fe4c55a4e2d58909"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a4a878b9cdeaaee18b20",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_a6b43b65a67c0677f7a9",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "QAC kök taşıyıcısı yalnız denetim kaydıdır; bağımsız bir okur sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_9510b7488bf668760350"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_b0fa4697da688a69e487",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_7c6b8c2f1b40b66337dc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_35d3ecedfd514d0f6f21",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_06274cfd9b969e5b5c5b"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_05d17c92467a8ae51dfd",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_23f09fc39ff3a6227dd0"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_aad1f7b90715785b084c",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_65bc2b91a26b092e87a9"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_7b5297c9648e5833dd0d",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_c011479b50bb5dddbffc"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_eb35b2d6c51d765f8a30",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_4f093ab0d73f09b06d09"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_524bf174f381859d794b",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_82b563346f089aaddf30"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_2f3da8694edd9c122c7e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_98543d782360bec00f65"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_e1da30cf2ca4b63ff97a",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_467cf5e05463a0c6fae6"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_779cbdfec8715b860c0e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "İşitsel veya teknik iz, seçilmiş anlamın ötesinde ayrı bir yorum sonucu üretmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_172967a99dca2d8a4cee"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_9dd23ca68f7d09f2f63e",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Yapılandırılmış yayın bulgusu, örümcek evini seçilmiş koruyucu ağın beklenen yükü taşıyıp taşımadığına bağlayan ayrı bir yük testi kurar.",
+      "synthesis_claim": "Örümcek evi, seçilmiş koruyucu ağın beklenen yükü taşıyıp taşımadığını sınayan yük taşıma ölçüsüne dönüşür.",
+      "reader_payoff": "Okur, benzetmeyi küçük-büyük karşıtlığı değil, koruma iddiasının taşıyıcılık sınavı olarak okur.",
+      "containment": "Bu yük testi yalnız örümcek evi, koruyucu ağın beklenen desteği ve zayıflık hükmü arasındaki bağla sınırlıdır; teknik mühendislik sonucu veya bütün ilişkilere yayılım kurulmaz.",
+      "selection_basis": {
+        "kind": "distinct",
+        "deletion_loss": "Koruyucu ağın beklenen yükü taşıyıp taşımadığının örümcek evi üzerinden ayrı bir ölçüye dönüşmesi kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_e3b848cba63284c608c5"
+      ],
+      "branch_refs": [
+        "root_000166/B001",
+        "root_001054/B001",
+        "root_001684/B004",
+        "root_001687/B001"
+      ]
+    },
+    {
+      "candidate_id": "cand_217ebc1362a45184b729",
+      "status": "selected",
+      "priority": "core",
+      "rationale": "Yapılandırılmış yayın bulgusu, tekrarlanan kendine edinme ile دُونَın yakınlık alanını etkili koruyuculuk eşiğine bağlar.",
+      "synthesis_claim": "Tekrarlanan kendine edinme ile دُونَın yakınlık ilişkisi, seçilmiş yakınlığın etkili koruyuculuk eşiğini aşamadığını gösterir.",
+      "reader_payoff": "Okur, yanlış koruyuculuğu uzaklık sorunu değil kendine seçilen yakınlığın etkili dayanağa dönüşememesi olarak kavrar.",
+      "containment": "Bu sonuç yalnız tekrarlanan edinme ile مِنْ دُونَ ifadesinin yakınlık ilişkisine ve bunun örümcek evi benzetmesiyle kurduğu bağa dayanır; bu anlam başka kullanımlara yayılmaz.",
+      "selection_basis": {
+        "kind": "distinct",
+        "deletion_loss": "Kendine edinilen korumanın yakınlık eşiğini geçemeyip etkili koruyuculuğa dönüşmemesi yönündeki küresel bağ kaybolur.",
+        "subsumes_candidate_ids": []
+      },
+      "support_ids": [
+        "sup_8c1493e61f020686c928"
+      ],
+      "branch_refs": [
+        "root_000018/B010",
+        "root_000502/B001"
+      ]
+    },
+    {
+      "candidate_id": "cand_6436a1a02eebb02afb2d",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Kuşun ağırlıkla yükselememesi çağrışımı, sağlanan metinde örümcek yapısına yeterince bağlanmadığı için reddedilir.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_61a6a30b816dab0e965e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_0e22ea02cb38e4684b90",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Bu legacy yürüyüşü denetimli sentez kanıtı değildir; yapısal zayıflık iddiasına yeni bir temas taşımaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_0e6e97fe6070a0df0d8a"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_02ac9e4a144782a4135e",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Bu legacy yürüyüşü denetimli sentez kanıtı değildir; kuş ağırlığı dalı için kullanılabilir bir temas kurmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_55aa729f458969572a14"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_9c0651d817edf80fb633",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Legacy geriye dönük ev karşıtlığı, ayet içi kanıt sınırını aşar ve seçilmiş yerel sonucu değiştirmez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_d22ab060e26c73b06699"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_27adf0af5ccebf02b1fc",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Bu legacy geniş yürüyüşü denetimli sentez kanıtı değildir; mevcut seçilmiş yapısal sonucu bağımsızlaştırmaz.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_9c47bc72e57bd5516e7e"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_62f2b40c82ff0578b094",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Bu legacy edinme-yakınlık okuması denetimli sentez kanıtı değildir; seçilmiş yapılandırılmış bulguyu yinelemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_fb1f28beb4d15bd4840a"
+      ],
+      "branch_refs": []
+    },
+    {
+      "candidate_id": "cand_5b9f54720c6fa01c9ab7",
+      "status": "rejected",
+      "priority": null,
+      "rationale": "Legacy olumlu habitat karşıtlığı sağlanan ayet içi sınırı aşar; seçilmiş örümcek-ev hükmüne ayrı sonuç eklemez.",
+      "synthesis_claim": null,
+      "reader_payoff": null,
+      "containment": null,
+      "selection_basis": null,
+      "support_ids": [
+        "sup_ae797a23e6f2e88ac195"
+      ],
+      "branch_refs": []
+    }
+  ],
+  "new_candidates": [],
+  "branch_review": [
+    {
+      "branch_ref": "root_000018/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B001 “ele geçirip edinme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B002 “suçundan sorumlu tutma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B003 “yakalayıp tutsak etme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B004 “büyüsel yolla etkileyip engelleme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B005 “sahiplenilip işletilen arazi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B006 “su tutan çukur veya havuz”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B007 “bedende bir durumun baş gösterip etkisini göstermesi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B008",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B008 “ay konaklarının yıldızları”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B009",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B009 “bir topluluğun yolunu ve özelliklerini benimseme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B010",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_217ebc1362a45184b729"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_000018/B010 “kendisi için edinip kazanma”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2",
+        "sup_8c1493e61f020686c928"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_217ebc1362a45184b729",
+          "support_id": "sup_8c1493e61f020686c928",
+          "quote": "İnsanların ve örümceğin kendilerine bir koruma edinmesi, yakınlık kurmanın etkili koruyuculuk eşiğine ulaşmaya yetmediğini gösterir.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_000018/B010 kendisi için edinip kazanma: seçili bulgu, kendine edinilen korumayı etkili koruyuculuk eşiğiyle sınırlar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_000018/B011",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B011 “güreşte kavrayıp kilitleme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000018/B012",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000018/B012 “kancalı aracın tutamağı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_5fd57bb071ff1f2dd8b2"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_76ee58558396614fcc5e"
+        ],
+        "support_ids": [
+          "sup_5fd57bb071ff1f2dd8b2"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000047/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000047/B001 “tapınma ve tapınılan varlık”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_4b04fe4c55a4e2d58909"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_0726dc305d3a10c086b1"
+        ],
+        "support_ids": [
+          "sup_4b04fe4c55a4e2d58909"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000047/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000047/B002 “Yaratıcıya özgü ad ile seslenme ve ant biçimleri”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_4b04fe4c55a4e2d58909"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_0726dc305d3a10c086b1"
+        ],
+        "support_ids": [
+          "sup_4b04fe4c55a4e2d58909"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B001",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_9dd23ca68f7d09f2f63e"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_000166/B001 “barınak mesken”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99",
+        "sup_e3b848cba63284c608c5"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_9dd23ca68f7d09f2f63e",
+          "support_id": "sup_e3b848cba63284c608c5",
+          "quote": "Örümcek evi benzetmesi, seçilen koruyucu ağını beklenen yükü taşıyıp taşıyamadığı noktada sınar; yapı tam destek beklenen yerde zayıftır.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_000166/B001 barınak mesken: seçili bulgu, örümcek evinin beklenen yükü taşıma sınavını açıkça kurar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_000166/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B002 “hane halkı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B003 “şiir dizesi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B004 “geceleyin yapmak”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B005 “bir gecelik azık”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B006 “gece beklemiş şey”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B007 “mezar evi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B008",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B008 “soylu hane”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B009",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B009 “bitişik komşu”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000166/B010",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000166/B010 “evlenip zifafa girmek”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_694bb867f3d73102ea99"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_17ad24c56d30787ad46c"
+        ],
+        "support_ids": [
+          "sup_694bb867f3d73102ea99"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000502/B001",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_217ebc1362a45184b729"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_000502/B001 “yakın, aşağı ya da hedefin gerisinde olma”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce",
+        "sup_8c1493e61f020686c928"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_217ebc1362a45184b729",
+          "support_id": "sup_8c1493e61f020686c928",
+          "quote": "İnsanların ve örümceğin kendilerine bir koruma edinmesi, yakınlık kurmanın etkili koruyuculuk eşiğine ulaşmaya yetmediğini gösterir.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_000502/B001 yakın, aşağı ya da hedefin gerisinde olma: seçili bulgu, yakınlığı etkili koruyuculuk eşiğiyle sınırlar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_000502/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000502/B002 “değersiz, önemsiz veya aşağı olma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a86410ba874326dc6746"
+        ],
+        "support_ids": [
+          "sup_85a7cb0f037bd883a8ce"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000502/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000502/B003 “başkası ya da daha aşağıda olan”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a86410ba874326dc6746"
+        ],
+        "support_ids": [
+          "sup_85a7cb0f037bd883a8ce"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000502/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000502/B004 “buyur, bunu al”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a86410ba874326dc6746"
+        ],
+        "support_ids": [
+          "sup_85a7cb0f037bd883a8ce"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000502/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000502/B005 “kayıt defteri ve kayıtları düzenleme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a86410ba874326dc6746"
+        ],
+        "support_ids": [
+          "sup_85a7cb0f037bd883a8ce"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000502/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000502/B006 “zayıflamak (aktarımı tartışmalı)”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_85a7cb0f037bd883a8ce"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a86410ba874326dc6746"
+        ],
+        "support_ids": [
+          "sup_85a7cb0f037bd883a8ce"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B001 “bilme ve gerçeğini kavrama”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B002 “ayırt edici ve yol gösterici işaret”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B003 “evren ve bütün yaratılmışlar”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B004 “üst dudak yarığı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B005 “deniz ya da suyu bol kuyu”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B006 “doğan veya atmaca türü yırtıcı kuş”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001040/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001040/B007 “erkek sırtlan”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1ea9a55a820af9f56ec5"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_7b1f06a354f08cdc3646"
+        ],
+        "support_ids": [
+          "sup_1ea9a55a820af9f56ec5"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001054/B001",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_9dd23ca68f7d09f2f63e"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_001054/B001 “örümcek”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_9510b7488bf668760350",
+        "sup_e3b848cba63284c608c5"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_9dd23ca68f7d09f2f63e",
+          "support_id": "sup_e3b848cba63284c608c5",
+          "quote": "Örümcek evi benzetmesi, seçilen koruyucu ağını beklenen yükü taşıyıp taşıyamadığı noktada sınar; yapı tam destek beklenen yerde zayıftır.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_001054/B001 örümcek: seçili bulgu, örümcek imgesini örümcek-ev yük sınavının taşıyıcısı yapar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_001332/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B001 “gerçekleşme, bulunma ve olma bildirimi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001332/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B002 “bulunma yeri ve konum değeri”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001332/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B003 “birini güvenceyle üstlenme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001332/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B004 “boyun eğme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001332/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B005 “gençliğini anan yaşlı kişi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001332/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001332/B006 “kötü durumda gece geçirme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_8e0551861ae2b8df924a"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_2b95bc3a8c5d95919837"
+        ],
+        "support_ids": [
+          "sup_8e0551861ae2b8df924a"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B001 “benzerlik ve denklik”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B002 “ibret verici ağır cezalandırma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B003 “benzer duruma aktarılan örnek söz”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B004 “nitelik veya hakkında verilen bilgi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B005 “ayağa kalkıp dik durma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B006 “yerinden ayrılma; yere sinip silinme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B007 “döşek veya yere serilen yaygı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B008",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B008 “başkasına benzetilerek yapılmış görüntü”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B009",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B009 “iyilik ve erdem bakımından üstün”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B010",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B010 “buyruk veya örneğe uygun davranma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B011",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B011 “ders çıkarılan olay veya gösterge”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001397/B012",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001397/B012 “hastalıktan sonra toparlanıp iyileşme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_1acd4bf015d40d470953"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_81e8561a63701219052a"
+        ],
+        "support_ids": [
+          "sup_1acd4bf015d40d470953"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B001",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B001 “aralıksız yakınlık”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B002 “kesintisiz ardışıklık”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B003 “bir işi üstlenip yönetme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B004",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_9dd23ca68f7d09f2f63e"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_001684/B004 “yakın durup destek olma”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1",
+        "sup_e3b848cba63284c608c5"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_9dd23ca68f7d09f2f63e",
+          "support_id": "sup_e3b848cba63284c608c5",
+          "quote": "Örümcek evi benzetmesi, seçilen koruyucu ağını beklenen yükü taşıyıp taşıyamadığı noktada sınar; yapı tam destek beklenen yerde zayıftır.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_001684/B004 yakın durup destek olma: seçili bulgu, destekleyici yakınlığı evin yük sınavına bağlar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_001684/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B005 “özel yakınlık ve bağlılık bağı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B006 “yüzünü veya dikkatini yöneltme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B007 “dönüp yüz çevirme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B008",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B008 “daha uygun ve hak sahibi olma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B009",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B009 “yaklaşan kötü sonuç tehdidi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B010",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B010 “önceki yağmuru izleyen yağmur”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B011",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B011 “deve sırtı alt örtüsü”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B012",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B012 “ele geçirip hedefe ulaşma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B013",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B013 “birine iyi ya da kötü şey yöneltme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B014",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B014 “aldığı fiyatla devretme”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B015",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B015 “küçük sürü hayvanlarını ayırma”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001684/B016",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001684/B016 “taze hurmanın kurumaya dönmesi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_ec4dd586479909b0c3b1"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a4a878b9cdeaaee18b20"
+        ],
+        "support_ids": [
+          "sup_ec4dd586479909b0c3b1"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B001",
+      "registry": "focus",
+      "status": "activated",
+      "activation_refs": [
+        "cand_9dd23ca68f7d09f2f63e"
+      ],
+      "reason_code": "supported_activation",
+      "reason": "root_001687/B001 “gücün veya kararlılığın azalması ya da azaltılması”: seçili yapılandırılmış bulgu bu dalı örümcek-ev karşılaştırmasının açık temasına bağlar.",
+      "support_ids": [
+        "sup_52f522d5b39037231594",
+        "sup_e3b848cba63284c608c5"
+      ],
+      "unactivation_basis": null,
+      "contact_evidence": [
+        {
+          "activation_ref": "cand_9dd23ca68f7d09f2f63e",
+          "support_id": "sup_e3b848cba63284c608c5",
+          "quote": "Örümcek evi benzetmesi, seçilen koruyucu ağını beklenen yükü taşıyıp taşıyamadığı noktada sınar; yapı tam destek beklenen yerde zayıftır.",
+          "contact_mode": "source_explicit",
+          "contact_claim": "root_001687/B001 gücün veya kararlılığın azalması ya da azaltılması: seçili bulgu, yapısal zayıflığı destek başarısızlığı olarak kurar."
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_001687/B002",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B002 “gecenin ortası dolaylarında geçen saat”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B003",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B003 “alt kaburga, omuz damarı ya da devenin köprücük kemiği”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B004",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B004 “boyun yanı, üst kol veya omuz başındaki özel ağrı”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B005",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B005 “az hareketli, ağır ve ağırdan alan kadın”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B006",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B006 “yoğun deve topluluğu”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B007",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B007 “ücretli işçinin yanında durup onu çalışmaya teşvik eden kişi”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B008",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B008 “mazeret için uydurulan boş söz”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001687/B009",
+      "registry": "focus",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001687/B009 “leş yiyip ağırlaşarak havalanamama”: QAC taşıyıcısı kökü kaydeder; sağlanan delil bu özgül dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_52f522d5b39037231594"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_e166c52f15e53da9eae8"
+        ],
+        "support_ids": [
+          "sup_52f522d5b39037231594"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000025/B010",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000025/B010 “the wood-eating termite”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_f405f6ac7b9e8aab0742"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_bd065fe4e09339a407b7"
+        ],
+        "support_ids": [
+          "sup_f405f6ac7b9e8aab0742"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000064/B001",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000064/B001 “people bound by closeness and belonging”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000064/B003",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000064/B003 “being fit or worthy for something”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000064/B004",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000064/B004 “familiar habitation and domestication”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000121/B006",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000121/B006 “thick joined edge”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_cbb1ceed181db308cefa"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_98c9876ed6abece15035"
+        ],
+        "support_ids": [
+          "sup_cbb1ceed181db308cefa"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000347/B011",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000347/B011 “fitted socket or exact middle”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_cbb1ceed181db308cefa"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_98c9876ed6abece15035"
+        ],
+        "support_ids": [
+          "sup_cbb1ceed181db308cefa"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000726/B002",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000726/B002 “dwelling and settlement”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_cbb1ceed181db308cefa"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_98c9876ed6abece15035"
+        ],
+        "support_ids": [
+          "sup_cbb1ceed181db308cefa"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000726/B003",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000726/B003 “household inhabitants”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000726/B004",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000726/B004 “object of rest and comfort”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000906/B003",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000906/B003 “setting forth an example”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_00977b0a3eca912cdc6b"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a223e0cc82ae7e30da46"
+        ],
+        "support_ids": [
+          "sup_00977b0a3eca912cdc6b"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000906/B007",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000906/B007 “kind or mold”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_00977b0a3eca912cdc6b"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a223e0cc82ae7e30da46"
+        ],
+        "support_ids": [
+          "sup_00977b0a3eca912cdc6b"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_000906/B014",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_000906/B014 “place, tool, or craft of striking”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_00977b0a3eca912cdc6b"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a223e0cc82ae7e30da46"
+        ],
+        "support_ids": [
+          "sup_00977b0a3eca912cdc6b"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001036/B001",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001036/B001 “understanding as restraint from ignorance”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_00977b0a3eca912cdc6b"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a223e0cc82ae7e30da46"
+        ],
+        "support_ids": [
+          "sup_00977b0a3eca912cdc6b"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001036/B002",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001036/B002 “tethering with a hobble”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_00977b0a3eca912cdc6b"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_a223e0cc82ae7e30da46"
+        ],
+        "support_ids": [
+          "sup_00977b0a3eca912cdc6b"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001222/B001",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001222/B001 “people gathered in a settlement”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001222/B003",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001222/B003 “honoring a guest with gathered food”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_c8cbdff8c406db31f55e"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_aae936bdfd966fdc7815"
+        ],
+        "support_ids": [
+          "sup_c8cbdff8c406db31f55e"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001222/B008",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001222/B008 “wooden frame holding a tent pole head”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_cbb1ceed181db308cefa"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_98c9876ed6abece15035"
+        ],
+        "support_ids": [
+          "sup_cbb1ceed181db308cefa"
+        ]
+      },
+      "contact_evidence": []
+    },
+    {
+      "branch_ref": "root_001273/B012",
+      "registry": "nominated",
+      "status": "unactivated",
+      "activation_refs": [],
+      "reason_code": "no_supported_contact",
+      "reason": "root_001273/B012 “upright apparatus or standing part”: aday gösterim bu imgeyi kaydeder; sağlanan delil bu aday gösterilen dalı ayetin örümcek-ev karşılaştırmasına bağlayan ikinci bir yapı sunmaz.",
+      "support_ids": [
+        "sup_cbb1ceed181db308cefa"
+      ],
+      "unactivation_basis": {
+        "kind": "grounding_only",
+        "candidate_ids": [
+          "cand_98c9876ed6abece15035"
+        ],
+        "support_ids": [
+          "sup_cbb1ceed181db308cefa"
+        ]
+      },
+      "contact_evidence": []
+    }
+  ]
+}

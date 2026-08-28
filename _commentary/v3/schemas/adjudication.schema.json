@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v3-adjudication-validated-v1",
+  "title": "Commentary v3 validated adjudication",
+  "type": "object",
+  "required": [
+    "schema_version", "identity", "decisions", "new_candidates", "branch_review",
+    "selection", "coverage", "limits"
+  ],
+  "properties": {
+    "schema_version": {"const": "commentary-v3-adjudication-validated-v1"},
+    "identity": {
+      "type": "object",
+      "required": [
+        "ayah_ref", "source_canonical_sha256", "docket_payload_sha256", "prompt_sha256",
+        "response_canonical_sha256", "adjudication_payload_sha256"
+      ],
+      "properties": {
+        "ayah_ref": {"type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"},
+        "source_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "docket_payload_sha256": {"$ref": "#/$defs/sha256"},
+        "prompt_sha256": {"$ref": "#/$defs/sha256"},
+        "response_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "adjudication_payload_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "decisions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/decision"}
+    },
+    "new_candidates": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {"$ref": "#/$defs/newCandidate"}
+    },
+    "branch_review": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "branch_ref", "registry", "status", "candidate_ids", "reason_code", "reason",
+          "support_ids", "unactivation_basis", "contact_evidence"
+        ],
+        "properties": {
+          "branch_ref": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"},
+          "registry": {"enum": ["focus", "nominated"]},
+          "status": {"enum": ["activated", "unactivated"]},
+          "candidate_ids": {
+            "type": "array", "uniqueItems": true,
+            "items": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"}
+          },
+          "reason_code": {
+            "enum": [
+              "supported_activation", "no_supported_contact", "insufficient_evidence",
+              "scope_blocked", "lexical_overreach"
+            ]
+          },
+          "reason": {"type": "string", "minLength": 24, "maxLength": 400},
+          "support_ids": {
+            "type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true,
+            "items": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"}
+          },
+          "unactivation_basis": {
+            "oneOf": [{"type": "null"}, {"$ref": "#/$defs/unactivationBasis"}]
+          },
+          "contact_evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "candidate_id", "support_id", "quote", "contact_mode",
+                "contact_claim"
+              ],
+              "properties": {
+                "candidate_id": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"},
+                "support_id": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"},
+                "quote": {"type": "string", "minLength": 12, "maxLength": 320},
+                "contact_mode": {"enum": ["source_explicit", "bounded_inference"]},
+                "contact_claim": {"type": "string", "minLength": 24, "maxLength": 500}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "oneOf": [
+          {
+            "properties": {
+              "unactivation_basis": {"type": "null"},
+              "reason_code": {"const": "supported_activation"}
+            }
+          },
+          {
+            "properties": {
+              "unactivation_basis": {
+                "type": "object",
+                "properties": {"kind": {"const": "grounding_only"}},
+                "required": ["kind"]
+              },
+              "reason_code": {"const": "no_supported_contact"}
+            }
+          },
+          {
+            "properties": {
+              "unactivation_basis": {
+                "type": "object",
+                "properties": {"kind": {"const": "candidate_evidence_rejected"}},
+                "required": ["kind"]
+              },
+              "reason_code": {
+                "enum": ["insufficient_evidence", "scope_blocked", "lexical_overreach"]
+              }
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "selected_existing_candidate_ids", "selected_new_candidate_ids",
+        "rejected_candidate_ids", "deferred_candidate_ids"
+      ],
+      "properties": {
+        "selected_existing_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/docketCandidateId"}
+        },
+        "selected_new_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/newCandidateId"}
+        },
+        "rejected_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/docketCandidateId"}
+        },
+        "deferred_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/docketCandidateId"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "docket_candidate_count", "decision_count", "selected_existing_count",
+        "selected_new_count", "rejected_count", "deferred_count",
+        "focus_branch_count", "reviewed_focus_branch_count",
+        "activated_focus_branch_count", "unactivated_focus_branch_count",
+        "nominated_branch_count", "reviewed_nominated_branch_count",
+        "activated_nominated_branch_count", "unactivated_nominated_branch_count"
+      ],
+      "properties": {
+        "docket_candidate_count": {"type": "integer", "minimum": 0},
+        "decision_count": {"type": "integer", "minimum": 0},
+        "selected_existing_count": {"type": "integer", "minimum": 0},
+        "selected_new_count": {"type": "integer", "minimum": 0},
+        "rejected_count": {"type": "integer", "minimum": 0},
+        "deferred_count": {"type": "integer", "minimum": 0},
+        "focus_branch_count": {"type": "integer", "minimum": 0},
+        "reviewed_focus_branch_count": {"type": "integer", "minimum": 0},
+        "activated_focus_branch_count": {"type": "integer", "minimum": 0},
+        "unactivated_focus_branch_count": {"type": "integer", "minimum": 0},
+        "nominated_branch_count": {"type": "integer", "minimum": 0},
+        "reviewed_nominated_branch_count": {"type": "integer", "minimum": 0},
+        "activated_nominated_branch_count": {"type": "integer", "minimum": 0},
+        "unactivated_nominated_branch_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "type": "object",
+      "required": ["max_new_candidates", "max_selected_candidates"],
+      "properties": {
+        "max_new_candidates": {"type": "integer", "minimum": 0, "maximum": 20},
+        "max_selected_candidates": {"const": 64}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "docketCandidateId": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"},
+    "newCandidateId": {"type": "string", "pattern": "^new_[0-9a-f]{20}$"},
+    "supportId": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"},
+    "branchRef": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"},
+    "selectionBasis": {
+      "type": "object",
+      "required": ["kind", "deletion_loss", "subsumes_candidate_ids"],
+      "properties": {
+        "kind": {"enum": ["mandatory", "distinct"]},
+        "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400},
+        "subsumes_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/docketCandidateId"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "unactivationBasis": {
+      "type": "object",
+      "required": ["kind", "candidate_ids", "support_ids"],
+      "properties": {
+        "kind": {"enum": ["grounding_only", "candidate_evidence_rejected"]},
+        "candidate_ids": {
+          "type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/docketCandidateId"}
+        },
+        "support_ids": {
+          "type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/supportId"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "candidate_id", "status", "priority", "rationale", "synthesis_claim",
+        "reader_payoff", "containment", "selection_basis", "support_ids",
+        "branch_refs"
+      ],
+      "properties": {
+        "candidate_id": {"$ref": "#/$defs/docketCandidateId"},
+        "status": {"enum": ["selected", "rejected", "deferred"]},
+        "priority": {
+          "type": ["string", "null"],
+          "enum": ["core", "supporting", null]
+        },
+        "rationale": {"type": "string", "minLength": 1},
+        "synthesis_claim": {"type": ["string", "null"]},
+        "reader_payoff": {"type": ["string", "null"]},
+        "containment": {"type": ["string", "null"]},
+        "selection_basis": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/selectionBasis"}]
+        },
+        "support_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/supportId"}
+        },
+        "branch_refs": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/branchRef"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "newCandidate": {
+      "type": "object",
+      "required": [
+        "candidate_id", "proposal_key", "status", "title", "lane", "scope",
+        "claim", "mechanism", "reader_payoff", "containment",
+        "selection_basis", "confidence", "anchor_refs", "support_ids",
+        "branch_refs"
+      ],
+      "properties": {
+        "candidate_id": {"$ref": "#/$defs/newCandidateId"},
+        "proposal_key": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+        "status": {"const": "selected"},
+        "title": {"type": "string", "minLength": 1},
+        "lane": {"enum": ["micro", "macro", "global"]},
+        "scope": {"enum": ["focus_ayah", "pericope", "surah", "cross_surah"]},
+        "claim": {"type": "string", "minLength": 1},
+        "mechanism": {"type": "string", "minLength": 1},
+        "reader_payoff": {"type": "string", "minLength": 1},
+        "containment": {"type": "string", "minLength": 1},
+        "selection_basis": {"$ref": "#/$defs/selectionBasis"},
+        "confidence": {"enum": ["strong", "moderate", "exploratory"]},
+        "anchor_refs": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"}
+        },
+        "support_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/supportId"}
+        },
+        "branch_refs": {
+          "type": "array", "minItems": 1, "maxItems": 6, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/branchRef"}
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v3-synthesis-validated-v1",
+  "title": "Commentary v3 validated synthesis",
+  "type": "object",
+  "required": [
+    "schema_version", "identity", "paragraphs", "findings", "friction_notes",
+    "coverage", "limits", "outputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "commentary-v3-synthesis-validated-v1"},
+    "identity": {
+      "type": "object",
+      "required": [
+        "ayah_ref", "source_canonical_sha256", "docket_payload_sha256",
+        "adjudication_payload_sha256", "synthesis_packet_sha256", "prompt_sha256",
+        "response_canonical_sha256", "synthesis_payload_sha256"
+      ],
+      "properties": {
+        "ayah_ref": {"type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"},
+        "source_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "docket_payload_sha256": {"$ref": "#/$defs/sha256"},
+        "adjudication_payload_sha256": {"$ref": "#/$defs/sha256"},
+        "synthesis_packet_sha256": {"$ref": "#/$defs/sha256"},
+        "prompt_sha256": {"$ref": "#/$defs/sha256"},
+        "response_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "synthesis_payload_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "paragraphs": {"type": "array"},
+    "findings": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/finding"}
+    },
+    "friction_notes": {"type": "array"},
+    "coverage": {"type": "object"},
+    "limits": {
+      "type": "object",
+      "required": [
+        "max_packet_bytes", "max_prompt_bytes", "min_prose_chars",
+        "max_prose_chars", "max_paragraphs", "max_findings",
+        "max_friction_notes"
+      ],
+      "properties": {
+        "max_packet_bytes": {"type": "integer", "minimum": 1},
+        "max_prompt_bytes": {"type": "integer", "minimum": 1},
+        "min_prose_chars": {"type": "integer", "minimum": 0},
+        "max_prose_chars": {"type": "integer", "minimum": 0},
+        "max_paragraphs": {"type": "integer", "minimum": 1, "maximum": 16},
+        "max_findings": {"type": "integer", "minimum": 1, "maximum": 48},
+        "max_friction_notes": {"type": "integer", "minimum": 0, "maximum": 12}
+      },
+      "additionalProperties": false
+    },
+    "outputs": {"type": "object"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "candidateContribution": {
+      "type": "object",
+      "required": ["candidate_id", "claim_landing", "deletion_loss"],
+      "properties": {
+        "candidate_id": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"},
+        "claim_landing": {"type": "string", "minLength": 1},
+        "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400}
+      },
+      "additionalProperties": false
+    },
+    "finding": {
+      "type": "object",
+      "required": [
+        "finding_id", "finding_key", "title", "summary", "effect",
+        "epistemic_status", "candidate_ids", "support_ids", "branch_refs",
+        "paragraph_id", "landing_quote", "containment_quote",
+        "candidate_contributions"
+      ],
+      "properties": {
+        "finding_id": {"type": "string", "pattern": "^find_[0-9a-f]{20}$"},
+        "finding_key": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+        "title": {"type": "string", "minLength": 1},
+        "summary": {"type": "string", "minLength": 1},
+        "effect": {"enum": ["baseline", "supports_primary", "shifts_primary"]},
+        "epistemic_status": {"enum": ["bundle_traceable", "inference", "exploratory"]},
+        "candidate_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"}
+        },
+        "support_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"}
+        },
+        "branch_refs": {
+          "type": "array", "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"}
+        },
+        "paragraph_id": {"type": "string", "pattern": "^p[0-9]{2}$"},
+        "landing_quote": {"type": "string", "minLength": 1},
+        "containment_quote": {"type": ["string", "null"]},
+        "candidate_contributions": {
+          "type": "array", "minItems": 1,
+          "items": {"$ref": "#/$defs/candidateContribution"}
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

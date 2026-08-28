@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v3-synthesis-packet-v1",
+  "title": "Commentary v3 selected-evidence synthesis packet",
+  "type": "object",
+  "required": [
+    "schema_version", "identity", "scope", "focus", "selections",
+    "support_registry", "branch_registry", "limits", "contract"
+  ],
+  "properties": {
+    "schema_version": {"const": "commentary-v3-synthesis-packet-v1"},
+    "identity": {"$ref": "#/$defs/identity"},
+    "scope": {"type": "object"},
+    "focus": {"type": "object"},
+    "selections": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/selection"}},
+    "support_registry": {"type": "array", "items": {"$ref": "#/$defs/support"}},
+    "branch_registry": {"type": "array", "items": {"$ref": "#/$defs/branch"}},
+    "limits": {"$ref": "#/$defs/limits"},
+    "contract": {
+      "type": "object",
+      "required": [
+        "every_selected_candidate_requires_a_prose_landing",
+        "every_selected_candidate_requires_an_exact_claim_landing",
+        "every_selected_candidate_requires_complete_branch_lineage",
+        "unknown_candidates_may_not_be_introduced",
+        "apparatus_is_rendered_deterministically"
+      ],
+      "properties": {
+        "every_selected_candidate_requires_a_prose_landing": {"const": true},
+        "every_selected_candidate_requires_an_exact_claim_landing": {"const": true},
+        "every_selected_candidate_requires_complete_branch_lineage": {"const": true},
+        "unknown_candidates_may_not_be_introduced": {"const": true},
+        "apparatus_is_rendered_deterministically": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "candidateId": {"type": "string", "pattern": "^(cand|new)_[0-9a-f]{20}$"},
+    "supportId": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"},
+    "branchRef": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"},
+    "selectionBasis": {
+      "type": "object",
+      "required": ["kind", "deletion_loss", "subsumes_candidate_ids"],
+      "properties": {
+        "kind": {"enum": ["mandatory", "distinct"]},
+        "deletion_loss": {"type": "string", "minLength": 24, "maxLength": 400},
+        "subsumes_candidate_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "candidate_id", "origin", "priority", "lane", "scope", "kind",
+        "source_type", "source_local_id", "title", "trust", "confidence",
+        "claim", "mechanism", "reader_payoff", "containment",
+        "selection_basis", "anchor_refs", "root_ids", "support_ids",
+        "branch_refs"
+      ],
+      "properties": {
+        "candidate_id": {"$ref": "#/$defs/candidateId"},
+        "origin": {"enum": ["docket", "adjudicator_new"]},
+        "priority": {"enum": ["core", "supporting"]},
+        "lane": {"enum": ["micro", "macro", "global"]},
+        "scope": {"type": "string", "minLength": 1},
+        "kind": {"type": "string", "minLength": 1},
+        "source_type": {"type": "string", "minLength": 1},
+        "source_local_id": {"type": "string", "minLength": 1},
+        "title": {"type": "string"},
+        "trust": {"type": "string", "minLength": 1},
+        "confidence": {
+          "type": ["string", "null"],
+          "enum": ["strong", "moderate", "exploratory", null]
+        },
+        "claim": {"type": "string", "minLength": 1},
+        "mechanism": {"type": "string", "minLength": 1},
+        "reader_payoff": {"type": "string", "minLength": 1},
+        "containment": {"type": "string", "minLength": 1},
+        "selection_basis": {"$ref": "#/$defs/selectionBasis"},
+        "anchor_refs": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "root_ids": {
+          "type": "array", "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^root_[0-9]+$"}
+        },
+        "support_ids": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"$ref": "#/$defs/supportId"}
+        },
+        "branch_refs": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/branchRef"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "support": {
+      "type": "object",
+      "required": [
+        "support_id", "source_type", "source_local_id", "scope",
+        "json_pointer", "role", "citable", "trust", "branch_refs", "text"
+      ],
+      "properties": {
+        "support_id": {"$ref": "#/$defs/supportId"},
+        "source_type": {"type": "string", "minLength": 1},
+        "source_local_id": {"type": "string", "minLength": 1},
+        "scope": {"enum": ["micro", "macro", "global"]},
+        "json_pointer": {"type": "string", "pattern": "^/"},
+        "role": {
+          "enum": [
+            "focus_occurrence", "candidate_evidence", "branch_nomination",
+            "context_only"
+          ]
+        },
+        "citable": {"type": "boolean"},
+        "trust": {"enum": ["trusted", "legacy_unbound"]},
+        "branch_refs": {
+          "type": "array", "uniqueItems": true,
+          "items": {"$ref": "#/$defs/branchRef"}
+        },
+        "text": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "branch": {
+      "type": "object",
+      "required": [
+        "branch_ref", "registry", "root_id", "root_ar", "status",
+        "branch_kind", "gloss", "boundary"
+      ],
+      "properties": {
+        "branch_ref": {"$ref": "#/$defs/branchRef"},
+        "registry": {"enum": ["focus", "nominated"]},
+        "root_id": {"type": "string", "pattern": "^root_[0-9]+$"},
+        "root_ar": {"type": ["string", "null"]},
+        "status": {"type": ["string", "null"]},
+        "branch_kind": {"type": ["string", "null"]},
+        "gloss": {"type": ["string", "null"]},
+        "boundary": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "type": "object",
+      "required": [
+        "max_packet_bytes", "max_prompt_bytes", "min_prose_chars",
+        "max_prose_chars", "max_paragraphs", "max_findings",
+        "max_friction_notes"
+      ],
+      "properties": {
+        "max_packet_bytes": {"type": "integer", "minimum": 1},
+        "max_prompt_bytes": {"type": "integer", "minimum": 1},
+        "min_prose_chars": {"type": "integer", "minimum": 0},
+        "max_prose_chars": {"type": "integer", "minimum": 0},
+        "max_paragraphs": {"type": "integer", "minimum": 1, "maximum": 16},
+        "max_findings": {"type": "integer", "minimum": 1, "maximum": 48},
+        "max_friction_notes": {"type": "integer", "minimum": 0, "maximum": 12}
+      },
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "ayah_ref", "source_canonical_sha256", "docket_payload_sha256",
+        "adjudication_payload_sha256", "synthesis_packet_sha256"
+      ],
+      "properties": {
+        "ayah_ref": {"type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"},
+        "source_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "docket_payload_sha256": {"$ref": "#/$defs/sha256"},
+        "adjudication_payload_sha256": {"$ref": "#/$defs/sha256"},
+        "synthesis_packet_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

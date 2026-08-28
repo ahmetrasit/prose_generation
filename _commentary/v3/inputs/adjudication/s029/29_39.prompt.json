@@ -1,0 +1,26 @@
+{
+  "budget": {
+    "candidate_count": 69,
+    "estimated_tokens_chars_div_4": 36391,
+    "max_branches_per_new_candidate": 6,
+    "max_new_candidates": 8,
+    "max_selected_candidates": 64,
+    "max_supports_per_new_candidate": 5,
+    "prompt_bytes": 147376
+  },
+  "contract": {
+    "every_docket_candidate_exactly_once": true,
+    "every_focus_branch_exactly_once": true,
+    "every_nominated_branch_exactly_once": true,
+    "expected_response": "outputs/adjudication/s029/29_39.response.json",
+    "response_schema_version": "commentary-v3-adjudication-response-v1",
+    "selected_candidate_hard_limit": 64
+  },
+  "identity": {
+    "ayah_ref": "29:39",
+    "docket_payload_sha256": "3d4fdb74437a781fac39830ea3b095a3984e14da411168b06be442a8e869ca4d",
+    "prompt_sha256": "3e1e61628596340bfd29f2b4ac39fc16cd474458cc959b3f9671ad702fe5f061",
+    "source_canonical_sha256": "93d5d7ee46f385a1739a125b3391f7c9c6e5a561fb1560afa75d616761aaf61c"
+  },
+  "schema_version": "commentary-v3-adjudication-prompt-manifest-v1"
+}

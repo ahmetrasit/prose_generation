@@ -1,0 +1,429 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v3-candidate-docket-v1",
+  "title": "Commentary v3 adjudication docket",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "identity",
+    "scope",
+    "focus",
+    "focus_root_mappings",
+    "branch_registry",
+    "nominated_branch_registry",
+    "candidates",
+    "support_registry",
+    "coverage",
+    "adjudication_gate",
+    "adjudication_rules",
+    "limits"
+  ],
+  "properties": {
+    "schema_version": {"const": "commentary-v3-candidate-docket-v1"},
+    "identity": {
+      "type": "object",
+      "required": ["ayah_ref", "source_canonical_sha256", "docket_payload_sha256"],
+      "properties": {
+        "ayah_ref": {"$ref": "#/$defs/ayahRef"},
+        "source_canonical_sha256": {"$ref": "#/$defs/sha256"},
+        "docket_payload_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "scope": {"$ref": "#/$defs/scope"},
+    "focus": {
+      "type": "object",
+      "required": ["arabic_uthmani", "qac_morphemes", "word_analysis_refs", "word_analysis_qac_refs"],
+      "properties": {
+        "arabic_uthmani": {"type": "string", "minLength": 1},
+        "qac_morphemes": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/qacMorpheme"},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "word_analysis_refs": {
+          "type": "array",
+          "items": {
+            "type": ["string", "null"],
+            "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+          }
+        },
+        "word_analysis_qac_refs": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+            },
+            "uniqueItems": true
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "focus_root_mappings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"$ref": "#/$defs/rootId"},
+        "uniqueItems": true
+      }
+    },
+    "branch_registry": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/focusRoot"},
+      "uniqueItems": true
+    },
+    "nominated_branch_registry": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/nominatedBranch"},
+      "uniqueItems": true
+    },
+    "candidates": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/candidate"},
+      "uniqueItems": true
+    },
+    "support_registry": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/support"},
+      "uniqueItems": true
+    },
+    "coverage": {"$ref": "#/$defs/coverage"},
+    "adjudication_gate": {
+      "type": "object",
+      "required": [
+        "ready", "mode", "branch_coverage_complete",
+        "incomplete_branch_coverage_authorized", "degraded_reasons",
+        "blockers", "blocker_counts", "warnings"
+      ],
+      "properties": {
+        "ready": {"type": "boolean"},
+        "mode": {
+          "enum": [
+            "blocked", "strict_clean", "legacy_hft_allowed",
+            "without_hft", "quarantine_without_hft"
+          ]
+        },
+        "branch_coverage_complete": {"type": "boolean"},
+        "incomplete_branch_coverage_authorized": {"type": "boolean"},
+        "degraded_reasons": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "legacy_unbound_hft", "missing_hft", "quarantined_hft",
+              "incomplete_focus_root_branch_coverage"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "blockers": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "blocker_counts": {
+          "type": "object",
+          "additionalProperties": {"type": "integer", "minimum": 1}
+        },
+        "warnings": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": false
+    },
+    "adjudication_rules": {
+      "type": "object",
+      "required": [
+        "mandatory_candidates_require_exactly_one_disposition",
+        "available_focus_branches_require_exactly_one_review",
+        "new_candidates_must_use_registered_branches_and_existing_supports",
+        "quarantined_material_visible"
+      ],
+      "properties": {
+        "mandatory_candidates_require_exactly_one_disposition": {"const": true},
+        "available_focus_branches_require_exactly_one_review": {"const": true},
+        "new_candidates_must_use_registered_branches_and_existing_supports": {"const": true},
+        "quarantined_material_visible": {"const": false}
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "type": "object",
+      "required": [
+        "max_optional_candidates", "max_support_chars",
+        "max_support_per_candidate", "max_branch_bytes_per_root",
+        "max_pericope_ayahs", "max_docket_bytes"
+      ],
+      "properties": {
+        "max_optional_candidates": {"type": "integer", "minimum": 1},
+        "max_support_chars": {"type": "integer", "minimum": 1},
+        "max_support_per_candidate": {"type": "integer", "minimum": 1},
+        "max_branch_bytes_per_root": {"type": "integer", "minimum": 1},
+        "max_pericope_ayahs": {"type": "integer", "minimum": 1, "maximum": 512},
+        "max_docket_bytes": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "ayahRef": {"type": "string", "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "rootId": {"type": "string", "pattern": "^root_[0-9]+$"},
+    "branchRef": {"type": "string", "pattern": "^root_[0-9]+/B[0-9]+$"},
+    "branchRefArray": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/branchRef"},
+      "uniqueItems": true
+    },
+    "candidateSourceType": {
+      "enum": [
+        "word_analysis", "qac_morpheme", "channel", "hft",
+        "v12_reader_walks", "v12_reader_walks_wide",
+        "cross_run_publication", "legacy_reader_response"
+      ]
+    },
+    "qacMorpheme": {
+      "type": "object",
+      "required": [
+        "qac_ref", "qac_word_ref", "surface_ar", "lemma_ar", "root_ar",
+        "pos", "morpheme_role", "morph_features"
+      ],
+      "properties": {
+        "qac_ref": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+        },
+        "qac_word_ref": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+        },
+        "surface_ar": {"type": "string"},
+        "lemma_ar": {"type": "string"},
+        "root_ar": {"type": "string"},
+        "pos": {"type": "string"},
+        "morpheme_role": {"type": "string"},
+        "morph_features": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "pericope": {
+      "type": "object",
+      "required": ["id", "number", "ayah_from", "ayah_to", "label", "refs"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "number": {"type": "integer", "minimum": 1},
+        "ayah_from": {"type": "integer", "minimum": 1},
+        "ayah_to": {"type": "integer", "minimum": 1},
+        "label": {"type": ["string", "null"]},
+        "refs": {
+          "type": "array", "items": {"$ref": "#/$defs/ayahRef"},
+          "minItems": 1, "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "branchGap": {
+      "type": "object",
+      "required": ["root_id", "root_ar", "qac_roots_ar", "reason"],
+      "properties": {
+        "root_id": {"$ref": "#/$defs/rootId"},
+        "root_ar": {"type": ["string", "null"]},
+        "qac_roots_ar": {
+          "type": "array", "items": {"type": "string", "minLength": 1},
+          "minItems": 1, "uniqueItems": true
+        },
+        "reason": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "branchCoverage": {
+      "type": "object",
+      "required": [
+        "complete", "focus_root_count", "mapped_root_record_count",
+        "registered_branch_count", "missing_dictionary_roots"
+      ],
+      "properties": {
+        "complete": {"type": "boolean"},
+        "focus_root_count": {"type": "integer", "minimum": 0},
+        "mapped_root_record_count": {"type": "integer", "minimum": 0},
+        "registered_branch_count": {"type": "integer", "minimum": 0},
+        "missing_dictionary_roots": {
+          "type": "array", "items": {"$ref": "#/$defs/branchGap"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "scope": {
+      "type": "object",
+      "required": ["pericope", "lane_contract", "hft", "branch_coverage"],
+      "properties": {
+        "pericope": {"$ref": "#/$defs/pericope"},
+        "lane_contract": {
+          "type": "object",
+          "required": ["micro", "macro", "global"],
+          "properties": {
+            "micro": {"type": "string", "minLength": 1},
+            "macro": {"type": "string", "minLength": 1},
+            "global": {"type": "string", "minLength": 1}
+          },
+          "additionalProperties": false
+        },
+        "hft": {
+          "type": "object",
+          "required": ["status", "adjudicable", "packet"],
+          "properties": {
+            "status": {"type": "string", "minLength": 1},
+            "adjudicable": {"type": "boolean"},
+            "packet": {"type": ["object", "null"]}
+          },
+          "additionalProperties": false
+        },
+        "branch_coverage": {"$ref": "#/$defs/branchCoverage"}
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "discovered_seed_count", "accounted_seed_count", "docket_candidate_count",
+        "mandatory_candidate_count", "optional_candidate_count",
+        "by_disposition", "by_source_type"
+      ],
+      "properties": {
+        "discovered_seed_count": {"type": "integer", "minimum": 0},
+        "accounted_seed_count": {"type": "integer", "minimum": 0},
+        "docket_candidate_count": {"type": "integer", "minimum": 0},
+        "mandatory_candidate_count": {"type": "integer", "minimum": 0},
+        "optional_candidate_count": {"type": "integer", "minimum": 0},
+        "by_disposition": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "docket_mandatory", "docket_optional", "quarantined",
+              "duplicate", "parse_failed", "out_of_scope"
+            ]
+          },
+          "additionalProperties": {"type": "integer", "minimum": 1}
+        },
+        "by_source_type": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "word_analysis", "qac_morpheme", "channel", "hft",
+              "v12_reader_walks", "v12_reader_walks_wide",
+              "cross_run_publication", "legacy_reader_response"
+            ]
+          },
+          "additionalProperties": {"type": "integer", "minimum": 1}
+        }
+      },
+      "additionalProperties": false
+    },
+    "focusBranch": {
+      "type": "object",
+      "required": ["branch_ref", "status", "branch_kind", "gloss", "boundary", "source_pointer"],
+      "properties": {
+        "branch_ref": {"$ref": "#/$defs/branchRef"},
+        "status": {"type": ["string", "null"]},
+        "branch_kind": {"type": ["string", "null"]},
+        "gloss": {"type": "string", "minLength": 1},
+        "boundary": {"type": ["string", "null"]},
+        "source_pointer": {"type": "string", "pattern": "^/"}
+      },
+      "additionalProperties": false
+    },
+    "focusRoot": {
+      "type": "object",
+      "required": ["root_id", "root_ar", "qac_roots_ar", "mapping_role", "branches"],
+      "properties": {
+        "root_id": {"$ref": "#/$defs/rootId"},
+        "root_ar": {"type": ["string", "null"]},
+        "qac_roots_ar": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "mapping_role": {"type": ["string", "null"]},
+        "branches": {"type": "array", "items": {"$ref": "#/$defs/focusBranch"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    },
+    "nominatedBranch": {
+      "type": "object",
+      "required": ["branch_ref", "root_ar", "image_ar", "image_en", "scope_ar", "scope_en", "source_file", "source_pointer"],
+      "properties": {
+        "branch_ref": {"$ref": "#/$defs/branchRef"},
+        "root_ar": {"type": "string"},
+        "image_ar": {"type": ["string", "null"]},
+        "image_en": {"type": ["string", "null"]},
+        "scope_ar": {"type": ["string", "null"]},
+        "scope_en": {"type": ["string", "null"]},
+        "source_file": {"type": ["string", "null"]},
+        "source_pointer": {"type": "string", "pattern": "^/"}
+      },
+      "anyOf": [
+        {"properties": {"image_ar": {"type": "string", "minLength": 1}}},
+        {"properties": {"image_en": {"type": "string", "minLength": 1}}}
+      ],
+      "additionalProperties": false
+    },
+    "unresolvedCitation": {
+      "type": "object",
+      "required": ["citation", "reason"],
+      "properties": {
+        "citation": {"type": "string"},
+        "reason": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "candidate": {
+      "type": "object",
+      "required": [
+        "candidate_id", "lane", "kind", "source_type", "source_local_id",
+        "source_pointer", "title", "mandatory", "obligation", "scope", "trust",
+        "branch_refs", "root_ids", "unresolved_branch_citations", "anchor_refs",
+        "support_ids", "focus_branch_refs", "nominated_branch_refs",
+        "unresolved_branch_refs", "adjudicable"
+      ],
+      "properties": {
+        "candidate_id": {"type": "string", "pattern": "^cand_[0-9a-f]{20}$"},
+        "lane": {"enum": ["micro", "macro", "global"]},
+        "kind": {"type": "string", "minLength": 1},
+        "source_type": {"$ref": "#/$defs/candidateSourceType"},
+        "source_local_id": {"type": "string", "minLength": 1},
+        "source_pointer": {"type": "string", "pattern": "^/"},
+        "title": {"type": "string"},
+        "mandatory": {"type": "boolean"},
+        "obligation": {
+          "enum": [
+            "must_integrate", "candidate", "ledger_only", "review", "optional_review"
+          ]
+        },
+        "scope": {"type": "string"},
+        "trust": {"enum": ["trusted", "legacy_unbound"]},
+        "branch_refs": {"$ref": "#/$defs/branchRefArray"},
+        "root_ids": {"type": "array", "items": {"$ref": "#/$defs/rootId"}, "uniqueItems": true},
+        "unresolved_branch_citations": {"type": "array", "items": {"$ref": "#/$defs/unresolvedCitation"}, "uniqueItems": true},
+        "anchor_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "support_ids": {"type": "array", "items": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"}, "minItems": 1, "uniqueItems": true},
+        "focus_branch_refs": {"$ref": "#/$defs/branchRefArray"},
+        "nominated_branch_refs": {"$ref": "#/$defs/branchRefArray"},
+        "unresolved_branch_refs": {"$ref": "#/$defs/branchRefArray"},
+        "adjudicable": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "support": {
+      "type": "object",
+      "required": ["support_id", "source_type", "source_local_id", "scope", "json_pointer", "role", "citable", "trust", "branch_refs", "text"],
+      "properties": {
+        "support_id": {"type": "string", "pattern": "^sup_[0-9a-f]{20}$"},
+        "source_type": {"$ref": "#/$defs/candidateSourceType"},
+        "source_local_id": {"type": "string", "minLength": 1},
+        "scope": {"enum": ["micro", "macro", "global"]},
+        "json_pointer": {"type": "string", "pattern": "^/"},
+        "role": {"enum": ["focus_occurrence", "candidate_evidence", "branch_nomination", "context_only"]},
+        "citable": {"type": "boolean"},
+        "trust": {"enum": ["trusted", "legacy_unbound"]},
+        "branch_refs": {"$ref": "#/$defs/branchRefArray"},
+        "text": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  }
+}
