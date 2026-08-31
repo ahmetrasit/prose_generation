@@ -28,6 +28,11 @@ DEFAULT_QURAN_TEXT = (
     REPO_ROOT.parent / "quran-data" / "data" / "text" / "quran-uthmani.tsv"
 )
 LANES = ("micro", "macro", "global")
+HFT_RECORD_FIELDS = (
+    ("baseline_models", "baseline_model", "model_id"),
+    ("context_deltas", "context_delta", "model_id"),
+    ("surprising_valid_outliers", "surprising_outlier", "outlier_id"),
+)
 INTER_AYAH_LABELS = {
     "strong",
     "medium",
@@ -726,20 +731,632 @@ def _flatten_branches(
     return flattened
 
 
+def _hft_authoring_projection(
+    docket: dict[str, Any], source_bundle: dict[str, Any]
+) -> dict[str, Any]:
+    """Project every parseable HFT insight without inheriting legacy gates.
+
+    The prepared docket may legitimately keep strict provenance and publication
+    checks. Those checks are qualifications at the experimental authoring
+    boundary: they must not make readable linguistic material disappear before
+    a scope agent can assess it.
+    """
+
+    focus_ref = str(docket["identity"]["ayah_ref"])
+    pericope_refs = {
+        ref
+        for ref in docket["scope"]["pericope"].get("refs", [])
+        if isinstance(ref, str)
+    }
+    raw_hft = source_bundle.get("v12_focus_trace_hermetic")
+    source_present = raw_hft is not None
+    unstructured_hft = (
+        raw_hft
+        if raw_hft is not None and not isinstance(raw_hft, dict)
+        else None
+    )
+    hft = raw_hft if isinstance(raw_hft, dict) else {}
+    docket_assessment = docket.get("scope", {}).get("hft")
+    diagnostics: list[dict[str, Any]] = []
+    records: list[dict[str, Any]] = []
+    reader_metadata: list[dict[str, Any]] = []
+
+    policy = {
+        "parseable_hft_is_always_visible_to_authoring": True,
+        "provenance_affects_qualification_not_visibility": True,
+        "scope_mismatch_affects_lane_assignment_not_visibility": True,
+        "unresolved_branch_citations_do_not_suppress_records": True,
+        "every_assigned_record_requires_explicit_review": True,
+    }
+    if not source_present:
+        diagnostics.append(
+            {
+                "source_pointer": "/v12_focus_trace_hermetic",
+                "warning": "HFT payload is absent",
+            }
+        )
+    elif unstructured_hft is not None:
+        diagnostics.append(
+            {
+                "source_pointer": "/v12_focus_trace_hermetic",
+                "warning": (
+                    "HFT payload is not an object; its raw value is preserved as "
+                    "a global unstructured review record"
+                ),
+            }
+        )
+
+    packet_summary = hft.get("packet_summary")
+    packet_window = (
+        packet_summary.get("window")
+        if isinstance(packet_summary, dict)
+        and isinstance(packet_summary.get("window"), list)
+        else []
+    )
+    valid_packet_window = {
+        ref
+        for ref in packet_window
+        if isinstance(ref, str)
+        and re.fullmatch(r"[1-9][0-9]*:[1-9][0-9]*", ref)
+    }
+    if valid_packet_window == pericope_refs:
+        packet_scope_relation = "exact_declared_pericope"
+    elif pericope_refs and pericope_refs < valid_packet_window:
+        packet_scope_relation = "broader_than_declared_pericope"
+    elif valid_packet_window and valid_packet_window < pericope_refs:
+        packet_scope_relation = "narrower_than_declared_pericope"
+    else:
+        packet_scope_relation = "different_or_unresolved"
+
+    raw_readers = hft.get("readers")
+    unstructured_readers = (
+        raw_readers
+        if raw_readers is not None and not isinstance(raw_readers, dict)
+        else None
+    )
+    readers = raw_readers if isinstance(raw_readers, dict) else {}
+    if unstructured_readers is not None:
+        diagnostics.append(
+            {
+                "source_pointer": "/v12_focus_trace_hermetic/readers",
+                "warning": (
+                    "HFT readers value is not an object; its raw value is "
+                    "preserved as a global unstructured review record"
+                ),
+            }
+        )
+
+    def add_record(
+        *,
+        reader_id: str,
+        kind: str,
+        item_id: str,
+        source_pointer: str,
+        raw_item: Any,
+        reader_identity_status: str,
+        anchor_refs: list[str],
+        branch_refs: list[str],
+        item_warnings: list[str],
+        anchor_scope_complete: bool = True,
+    ) -> None:
+        unique_anchors = sorted(set(anchor_refs))
+        unique_branches = sorted(set(branch_refs))
+        if not anchor_scope_complete:
+            owning_lane = "global"
+            lane_basis = (
+                "one or more HFT anchors could not be resolved, so the record "
+                "is conservatively visible in the widest lane"
+            )
+            evidence_scope = "wider_or_unresolved_record"
+        elif unique_anchors and set(unique_anchors) == {focus_ref}:
+            owning_lane = "micro"
+            lane_basis = "all explicit HFT anchors are the focus ayah"
+            evidence_scope = "focus_ayah"
+        elif unique_anchors and set(unique_anchors) <= pericope_refs:
+            owning_lane = "macro"
+            lane_basis = "all explicit HFT anchors lie in the declared pericope"
+            evidence_scope = "declared_pericope"
+        else:
+            owning_lane = "global"
+            lane_basis = (
+                "one or more explicit HFT anchors lie beyond the declared pericope"
+                if unique_anchors
+                else "unanchored reader synthesis is assigned to the widest lane"
+            )
+            evidence_scope = "wider_record"
+
+        hft_ref = "hft_" + _sha256_json(
+            {
+                "reader_id": reader_id,
+                "kind": kind,
+                "item_id": item_id,
+                "source_pointer": source_pointer,
+            }
+        )[:20]
+        support_id = "sup_" + _sha256_json(
+            {
+                "hft_ref": hft_ref,
+                "raw_payload": raw_item,
+            }
+        )[:20]
+        candidate_id = "cand_" + _sha256_json(
+            {
+                "ayah_ref": focus_ref,
+                "lane": owning_lane,
+                "hft_ref": hft_ref,
+            }
+        )[:20]
+        records.append(
+            {
+                "hft_ref": hft_ref,
+                "reader_id": reader_id,
+                "kind": kind,
+                "item_id": item_id,
+                "source_local_id": f"{reader_id}:{item_id}",
+                "source_pointer": source_pointer,
+                "anchor_refs": unique_anchors,
+                "branch_refs": unique_branches,
+                "owning_lane": owning_lane,
+                "lane_basis": lane_basis,
+                "evidence_scope": evidence_scope,
+                "candidate_id": candidate_id,
+                "support_id": support_id,
+                "raw_item": raw_item,
+                "qualification": {
+                    "reader_identity_status": reader_identity_status,
+                    "packet_scope_relation": packet_scope_relation,
+                    "anchor_scope_complete": anchor_scope_complete,
+                    "record_warnings": list(dict.fromkeys(item_warnings)),
+                    "authoring_effect": (
+                        "Source qualifications affect epistemic status and "
+                        "containment, never visibility or presumptive outcome."
+                    ),
+                },
+            }
+        )
+
+    if unstructured_hft is not None:
+        add_record(
+            reader_id="unstructured_hft",
+            kind="unstructured_hft_payload",
+            item_id="unstructured_hft_payload",
+            source_pointer="/v12_focus_trace_hermetic",
+            raw_item=unstructured_hft,
+            reader_identity_status="unresolved",
+            anchor_refs=[],
+            branch_refs=[],
+            item_warnings=["top-level HFT payload is not an object"],
+            anchor_scope_complete=False,
+        )
+    if unstructured_readers is not None:
+        add_record(
+            reader_id="unstructured_readers",
+            kind="unstructured_hft_readers",
+            item_id="unstructured_hft_readers",
+            source_pointer="/v12_focus_trace_hermetic/readers",
+            raw_item=unstructured_readers,
+            reader_identity_status="unresolved",
+            anchor_refs=[],
+            branch_refs=[],
+            item_warnings=["HFT readers value is not an object"],
+            anchor_scope_complete=False,
+        )
+
+    def pointer_token(value: Any) -> str:
+        return str(value).replace("~", "~0").replace("/", "~1")
+
+    for extension_key, extension_value in hft.items():
+        if extension_key in {"packet_summary", "readers"}:
+            continue
+        extension_pointer = (
+            "/v12_focus_trace_hermetic/" + pointer_token(extension_key)
+        )
+        diagnostics.append(
+            {
+                "source_pointer": extension_pointer,
+                "warning": (
+                    "Unrecognized HFT envelope field is preserved as a global "
+                    "review record"
+                ),
+            }
+        )
+        add_record(
+            reader_id="hft_envelope",
+            kind="hft_envelope_extension",
+            item_id=f"envelope_extension:{extension_key}",
+            source_pointer=extension_pointer,
+            raw_item=extension_value,
+            reader_identity_status="unresolved",
+            anchor_refs=[],
+            branch_refs=[],
+            item_warnings=["unrecognized HFT envelope field"],
+            anchor_scope_complete=False,
+        )
+
+    def summary_leaves(
+        value: Any, source_pointer: str, path: tuple[str, ...] = ()
+    ) -> list[tuple[tuple[str, ...], str, Any]]:
+        leaves: list[tuple[tuple[str, ...], str, Any]] = []
+        if isinstance(value, dict) and value:
+            for key, child in value.items():
+                leaves.extend(
+                    summary_leaves(
+                        child,
+                        f"{source_pointer}/{pointer_token(key)}",
+                        (*path, str(key)),
+                    )
+                )
+        elif isinstance(value, list) and value:
+            for index, child in enumerate(value):
+                leaves.extend(
+                    summary_leaves(
+                        child,
+                        f"{source_pointer}/{index}",
+                        (*path, str(index)),
+                    )
+                )
+        else:
+            leaves.append((path, source_pointer, value))
+        return leaves
+
+    for reader_id in sorted(readers):
+        raw_reader = readers[reader_id]
+        reader_pointer = (
+            "/v12_focus_trace_hermetic/readers/" + pointer_token(reader_id)
+        )
+        if not isinstance(reader_id, str) or not isinstance(raw_reader, dict):
+            diagnostics.append(
+                {
+                    "source_pointer": reader_pointer,
+                    "warning": (
+                        "HFT reader response has invalid structure; its raw value "
+                        "is preserved as a global unstructured review record"
+                    ),
+                }
+            )
+            add_record(
+                reader_id=str(reader_id),
+                kind="unstructured_hft_reader",
+                item_id="unstructured_reader",
+                source_pointer=reader_pointer,
+                raw_item=raw_reader,
+                reader_identity_status="unresolved",
+                anchor_refs=[],
+                branch_refs=[],
+                item_warnings=["HFT reader response is not an object"],
+                anchor_scope_complete=False,
+            )
+            continue
+        packet_identity = raw_reader.get("packet_identity")
+        reader_identity_status = (
+            "identity_supplied_unverified"
+            if isinstance(packet_identity, dict)
+            else "legacy_unbound"
+        )
+        reader_metadata.append(
+            {
+                "reader_id": reader_id,
+                "focus_ref": raw_reader.get("focus_ref"),
+                "protocol": raw_reader.get("protocol"),
+                "trace_kind": raw_reader.get("trace_kind"),
+                "packet_identity": packet_identity,
+                "identity_status": reader_identity_status,
+                "source_pointer": reader_pointer,
+            }
+        )
+
+        if "summary" in raw_reader:
+            for summary_path, summary_pointer, summary_item in summary_leaves(
+                raw_reader.get("summary"), f"{reader_pointer}/summary"
+            ):
+                path_label = "/".join(summary_path) or "value"
+                add_record(
+                    reader_id=reader_id,
+                    kind="reader_summary_claim",
+                    item_id=f"reader_summary:{path_label}",
+                    source_pointer=summary_pointer,
+                    raw_item=summary_item,
+                    reader_identity_status=reader_identity_status,
+                    anchor_refs=[],
+                    branch_refs=[],
+                    item_warnings=[
+                        "Unanchored reader synthesis must be assessed as one "
+                        "inventory item, not accepted as a surah thesis."
+                    ],
+                )
+
+        recognized_reader_fields = {
+            "reader_id",
+            "focus_ref",
+            "protocol",
+            "trace_kind",
+            "packet_identity",
+            "summary",
+            *(field for field, _kind, _id_field in HFT_RECORD_FIELDS),
+        }
+        for extension_key, extension_value in raw_reader.items():
+            if extension_key in recognized_reader_fields:
+                continue
+            extension_pointer = (
+                f"{reader_pointer}/{pointer_token(extension_key)}"
+            )
+            diagnostics.append(
+                {
+                    "source_pointer": extension_pointer,
+                    "warning": (
+                        "Unrecognized HFT reader field is preserved as a global "
+                        "review record"
+                    ),
+                }
+            )
+            add_record(
+                reader_id=reader_id,
+                kind="hft_reader_extension",
+                item_id=f"reader_extension:{extension_key}",
+                source_pointer=extension_pointer,
+                raw_item=extension_value,
+                reader_identity_status=reader_identity_status,
+                anchor_refs=[],
+                branch_refs=[],
+                item_warnings=["unrecognized HFT reader field"],
+                anchor_scope_complete=False,
+            )
+
+        for field, kind, id_field in HFT_RECORD_FIELDS:
+            raw_items = raw_reader.get(field)
+            field_pointer = f"{reader_pointer}/{field}"
+            if not isinstance(raw_items, list):
+                diagnostics.append(
+                    {
+                        "source_pointer": field_pointer,
+                        "warning": f"{field} is not an array",
+                    }
+                )
+                if raw_items is not None:
+                    add_record(
+                        reader_id=reader_id,
+                        kind=f"{kind}_unstructured_field",
+                        item_id=f"{field}_unstructured",
+                        source_pointer=field_pointer,
+                        raw_item=raw_items,
+                        reader_identity_status=reader_identity_status,
+                        anchor_refs=[],
+                        branch_refs=[],
+                        item_warnings=[
+                            f"{field} is not an array; raw JSON remains visible"
+                        ],
+                        anchor_scope_complete=False,
+                    )
+                continue
+            for index, raw_item in enumerate(raw_items):
+                source_pointer = f"{field_pointer}/{index}"
+                item_warnings: list[str] = []
+                if isinstance(raw_item, dict):
+                    raw_item_id = raw_item.get(id_field)
+                    item_id = (
+                        raw_item_id.strip()
+                        if isinstance(raw_item_id, str) and raw_item_id.strip()
+                        else f"{field}_{index}"
+                    )
+                    if item_id == f"{field}_{index}":
+                        item_warnings.append(
+                            f"record has no nonempty {id_field}; fallback identity used"
+                        )
+                    activation_trace = raw_item.get("activation_trace")
+                else:
+                    item_id = f"{field}_{index}"
+                    activation_trace = None
+                    item_warnings.append(
+                        "record is not an object; raw JSON remains visible"
+                    )
+
+                anchor_refs: list[str] = []
+                branch_refs: list[str] = []
+                anchor_scope_complete = True
+                if not isinstance(activation_trace, list):
+                    anchor_scope_complete = False
+                    item_warnings.append(
+                        "activation_trace is absent or is not an array"
+                    )
+                else:
+                    for trace_index, trace in enumerate(activation_trace):
+                        if not isinstance(trace, dict):
+                            anchor_scope_complete = False
+                            item_warnings.append(
+                                f"activation_trace[{trace_index}] is not an object"
+                            )
+                            continue
+                        source_ref = trace.get("source_ref")
+                        if isinstance(source_ref, str) and re.fullmatch(
+                            r"[1-9][0-9]*:[1-9][0-9]*", source_ref
+                        ):
+                            anchor_refs.append(source_ref)
+                        else:
+                            anchor_scope_complete = False
+                            item_warnings.append(
+                                f"activation_trace[{trace_index}] has no canonical "
+                                "source_ref"
+                            )
+                        root_id = trace.get("mapped_root_id")
+                        branch_id = trace.get("branch_id")
+                        if (
+                            isinstance(root_id, str)
+                            and root_id
+                            and isinstance(branch_id, str)
+                            and branch_id
+                        ):
+                            branch_refs.append(f"{root_id}/{branch_id}")
+                        elif root_id is not None or branch_id is not None:
+                            item_warnings.append(
+                                f"activation_trace[{trace_index}] has an incomplete "
+                                "branch citation"
+                            )
+                add_record(
+                    reader_id=reader_id,
+                    kind=kind,
+                    item_id=item_id,
+                    source_pointer=source_pointer,
+                    raw_item=raw_item,
+                    reader_identity_status=reader_identity_status,
+                    anchor_refs=anchor_refs,
+                    branch_refs=branch_refs,
+                    item_warnings=item_warnings,
+                    anchor_scope_complete=anchor_scope_complete,
+                )
+
+    refs = [record["hft_ref"] for record in records]
+    candidate_ids = [record["candidate_id"] for record in records]
+    support_ids = [record["support_id"] for record in records]
+    if len(refs) != len(set(refs)):
+        raise SystemExit("HFT authoring projection produced duplicate record refs")
+    if len(candidate_ids) != len(set(candidate_ids)):
+        raise SystemExit("HFT authoring projection produced duplicate candidate IDs")
+    if len(support_ids) != len(set(support_ids)):
+        raise SystemExit("HFT authoring projection produced duplicate support IDs")
+
+    manifest_fields = (
+        "hft_ref",
+        "reader_id",
+        "kind",
+        "item_id",
+        "source_local_id",
+        "source_pointer",
+        "anchor_refs",
+        "branch_refs",
+        "owning_lane",
+        "lane_basis",
+        "candidate_id",
+        "support_id",
+        "qualification",
+    )
+    return {
+        "policy": policy,
+        "source_present": source_present,
+        "packet_summary": packet_summary,
+        "docket_assessment": docket_assessment,
+        "reader_metadata": reader_metadata,
+        "provenance": {
+            "packet_scope_relation": packet_scope_relation,
+            "legacy_docket_assessment": docket_assessment,
+            "reader_identity": reader_metadata,
+            "authoring_effect": (
+                "This is one neutral source qualification. It controls "
+                "epistemic status and containment, never evidence visibility "
+                "or presumptive acceptance/rejection."
+            ),
+        },
+        "records": records,
+        "record_manifest": [
+            {field: record[field] for field in manifest_fields}
+            for record in records
+        ],
+        "lane_counts": {
+            lane: sum(record["owning_lane"] == lane for record in records)
+            for lane in LANES
+        },
+        "structured_insight_count": sum(
+            record["kind"]
+            in {"baseline_model", "context_delta", "surprising_outlier"}
+            for record in records
+        ),
+        "reader_synthesis_count": sum(
+            record["kind"] == "reader_summary_claim" for record in records
+        ),
+        "unstructured_record_count": sum(
+            "unstructured" in record["kind"]
+            or record["kind"].endswith("_extension")
+            for record in records
+        ),
+        "diagnostics": diagnostics,
+    }
+
+
 def _lane_packet(
     docket: dict[str, Any],
     lane: str,
     source_bundle: dict[str, Any],
+    hft_projection: dict[str, Any],
     reciprocal_evidence: dict[str, list[dict[str, Any]]],
     reciprocal_source_coverage: dict[str, Any],
     quran_text_evidence: dict[str, dict[str, Any]],
     quran_text_coverage: dict[str, Any],
 ) -> dict[str, Any]:
+    assigned_hft = [
+        record
+        for record in hft_projection.get("records", [])
+        if record.get("owning_lane") == lane
+    ]
+    hft_candidates = [
+        {
+            "candidate_id": record["candidate_id"],
+            "ayah_ref": docket["identity"]["ayah_ref"],
+            "lane": lane,
+            "source_type": "hft",
+            "source_local_id": record["source_local_id"],
+            "source_pointer": record["source_pointer"],
+            "kind": record["kind"],
+            "title": record["item_id"],
+            "scope": record["evidence_scope"],
+            "anchor_refs": record["anchor_refs"],
+            "branch_refs": record["branch_refs"],
+            "support_ids": [record["support_id"]],
+            "trust": record["qualification"]["reader_identity_status"],
+            "hft_ref": record["hft_ref"],
+            "lane_assignment_basis": record["lane_basis"],
+            "provenance_qualification": record["qualification"],
+            "authoring_origin": "lossless_raw_hft_projection",
+            "obligation": "review",
+        }
+        for record in assigned_hft
+    ]
+    hft_supports: list[dict[str, Any]] = []
+    for record in assigned_hft:
+        anchor_evidence: list[dict[str, Any]] = []
+        missing_anchor_refs: list[str] = []
+        for anchor_ref in record["anchor_refs"]:
+            evidence = quran_text_evidence.get(anchor_ref)
+            if isinstance(evidence, dict):
+                anchor_evidence.append(evidence)
+            else:
+                missing_anchor_refs.append(anchor_ref)
+        hft_supports.append(
+            {
+                "support_id": record["support_id"],
+                "source_type": "hft",
+                "source_local_id": record["source_local_id"],
+                "scope": lane,
+                "json_pointer": record["source_pointer"],
+                "role": "hft_nomination_evidence",
+                "branch_refs": record["branch_refs"],
+                "payload": record["raw_item"],
+                "anchor_evidence": anchor_evidence,
+                "anchor_evidence_coverage": {
+                    "cited_anchor_count": len(record["anchor_refs"]),
+                    "supplied_anchor_count": len(anchor_evidence),
+                    "missing_anchor_refs": missing_anchor_refs,
+                    "exact_arabic_is_surface_evidence_only": True,
+                    "target_morphology_supplied": False,
+                    "boundary": (
+                        "Exact Arabic verifies surface contact only. HFT-stated "
+                        "segmentation, word indices, roots, branches, and roles "
+                        "remain attributed nominations unless independently "
+                        "supplied elsewhere in this packet."
+                    ),
+                },
+                "trust": record["qualification"]["reader_identity_status"],
+                "qualification": record["qualification"],
+            }
+        )
+    replace_legacy_hft_candidates = bool(hft_projection.get("records"))
     raw_candidates = [
         candidate
         for candidate in docket.get("candidates", [])
         if candidate.get("lane") == lane
-    ]
+        and not (
+            replace_legacy_hft_candidates
+            and candidate.get("source_type") == "hft"
+        )
+    ] + hft_candidates
     transport_fields = {
         "mandatory",
         "selection_eligible",
@@ -758,6 +1375,9 @@ def _lane_packet(
         }
         for candidate in raw_candidates
     ]
+    candidate_refs = [candidate.get("candidate_id") for candidate in candidates]
+    if len(candidate_refs) != len(set(candidate_refs)):
+        raise SystemExit(f"{lane} packet contains duplicate candidate IDs")
     support_ids = {
         support_id
         for candidate in candidates
@@ -767,7 +1387,10 @@ def _lane_packet(
         support
         for support in docket.get("support_registry", [])
         if support.get("support_id") in support_ids
-    ]
+    ] + hft_supports
+    support_refs = [support.get("support_id") for support in supports]
+    if len(support_refs) != len(set(support_refs)):
+        raise SystemExit(f"{lane} packet contains duplicate support IDs")
     if {item.get("support_id") for item in supports} != support_ids:
         missing = sorted(support_ids - {item.get("support_id") for item in supports})
         raise SystemExit(f"{lane} packet is missing candidate supports: {missing}")
@@ -810,6 +1433,38 @@ def _lane_packet(
     } | (relevant_branch_refs & set(known_branches))
     branches = [known_branches[branch_ref] for branch_ref in sorted(included_refs)]
     unresolved_branch_refs = sorted(relevant_branch_refs - set(known_branches))
+    hft_branch_citations: dict[str, list[dict[str, Any]]] = {}
+    for record in assigned_hft:
+        raw_item = record.get("raw_item")
+        traces = raw_item.get("activation_trace") if isinstance(raw_item, dict) else []
+        if not isinstance(traces, list):
+            continue
+        for trace in traces:
+            if not isinstance(trace, dict):
+                continue
+            root_id = trace.get("mapped_root_id")
+            branch_id = trace.get("branch_id")
+            if not (
+                isinstance(root_id, str)
+                and root_id
+                and isinstance(branch_id, str)
+                and branch_id
+            ):
+                continue
+            branch_ref = f"{root_id}/{branch_id}"
+            hft_branch_citations.setdefault(branch_ref, []).append(
+                {
+                    "hft_ref": record["hft_ref"],
+                    "source_ref": trace.get("source_ref"),
+                    "root": trace.get("root"),
+                    "source_word_indices": trace.get("source_word_indices"),
+                    "role": trace.get("role"),
+                    "qualification": (
+                        "This is the HFT reader's exact attributed branch role, "
+                        "not an independently supplied lexicon entry."
+                    ),
+                }
+            )
     branches.extend(
         {
             "branch_ref": branch_ref,
@@ -820,8 +1475,9 @@ def _lane_packet(
             "branch_kind": None,
             "gloss": None,
             "boundary": (
-                "No registered branch descriptor is supplied. Treat this citation "
-                "as unresolved evidence, never as an activated lexical branch."
+                "No separate registered branch descriptor is supplied. The exact "
+                "HFT citation and attributed role remain reviewable, but they do "
+                "not become independently verified lexicon evidence."
             ),
             "source_pointer": None,
             "semantic_detail": {},
@@ -830,8 +1486,31 @@ def _lane_packet(
                 "No registered root occurrence is supplied; this unresolved "
                 "citation cannot establish a branch carrier."
             ),
-            "candidate_links": [],
-            "support_links": [],
+            "candidate_links": [
+                {
+                    "candidate_id": candidate.get("candidate_id"),
+                    "lane": candidate.get("lane"),
+                }
+                for candidate in candidates
+                if branch_ref
+                in {
+                    cited_ref
+                    for field in (
+                        "branch_refs",
+                        "focus_branch_refs",
+                        "nominated_branch_refs",
+                        "unresolved_branch_refs",
+                    )
+                    for cited_ref in candidate.get(field, [])
+                }
+            ],
+            "support_links": sorted(
+                support.get("support_id")
+                for support in supports
+                if branch_ref in support.get("branch_refs", [])
+                and isinstance(support.get("support_id"), str)
+            ),
+            "hft_citations": hft_branch_citations.get(branch_ref, []),
         }
         for branch_ref in unresolved_branch_refs
     )
@@ -983,6 +1662,23 @@ def _lane_packet(
     primary_floor = (
         publication.get("baseline") if isinstance(publication, dict) else None
     )
+    hft_anchor_refs = sorted(
+        {
+            anchor_ref
+            for record in assigned_hft
+            for anchor_ref in record.get("anchor_refs", [])
+        }
+    )
+    supplied_hft_anchor_refs = sorted(
+        {
+            evidence["ayah_ref"]
+            for support in hft_supports
+            for evidence in support.get("anchor_evidence", [])
+        }
+    )
+    missing_hft_anchor_refs = sorted(
+        set(hft_anchor_refs) - set(supplied_hft_anchor_refs)
+    )
     packet: dict[str, Any] = {
         "schema_version": "commentary-v3-lane-evidence-packet-v1",
         "identity": {
@@ -999,18 +1695,68 @@ def _lane_packet(
         "scope": {
             "pericope": docket["scope"]["pericope"],
             "lane_contract": docket["scope"]["lane_contract"].get(lane),
-            "hft": docket["scope"].get("hft"),
-            "readiness": docket["adjudication_gate"],
+            "hft": {
+                "authoring_status": "visible_with_provenance_qualification",
+                "assigned_record_count": len(assigned_hft),
+                "authoring_policy": hft_projection.get("policy"),
+            },
+            "readiness": {
+                "docket_ready": docket["adjudication_gate"].get("ready"),
+                "docket_mode": docket["adjudication_gate"].get("mode"),
+                "authoring_effect": (
+                    "Docket readiness is reported for source provenance. HFT "
+                    "visibility is governed by the authoring policy above."
+                ),
+            },
         },
         "candidate_inventory": candidates,
         "support_registry": supports,
         "branch_registry": branches,
         "connection_registry": connection_registry,
+        "hft_evidence": {
+            "policy": hft_projection.get("policy"),
+            "source_present": hft_projection.get("source_present"),
+            "packet_summary": hft_projection.get("packet_summary"),
+            "provenance": hft_projection.get("provenance"),
+            "lane_counts": hft_projection.get("lane_counts", {}),
+            "structured_insight_count": hft_projection.get(
+                "structured_insight_count", 0
+            ),
+            "reader_synthesis_count": hft_projection.get(
+                "reader_synthesis_count", 0
+            ),
+            "unstructured_record_count": hft_projection.get(
+                "unstructured_record_count", 0
+            ),
+            "assigned_record_count": len(assigned_hft),
+            "assigned_records": [
+                {
+                    key: value
+                    for key, value in record.items()
+                    if key != "raw_item"
+                }
+                for record in assigned_hft
+            ],
+            "diagnostics": hft_projection.get("diagnostics", []),
+            "anchor_evidence_coverage": {
+                "cited_unique_anchor_count": len(hft_anchor_refs),
+                "supplied_unique_anchor_count": len(supplied_hft_anchor_refs),
+                "missing_anchor_refs": missing_hft_anchor_refs,
+            },
+            "payload_location": (
+                "Each assigned record's exact raw payload and exact available "
+                "anchor Arabic are in support_registry under its support_id."
+            ),
+        },
         "source_coverage": {
             "docket": docket["coverage"],
             "lane_candidate_count": len(candidates),
             "lane_support_count": len(supports),
             "lane_branch_count": len(branches),
+            "assigned_hft_record_count": len(assigned_hft),
+            "total_hft_record_count": len(hft_projection.get("records", [])),
+            "hft_anchor_evidence_count": len(supplied_hft_anchor_refs),
+            "missing_hft_anchor_refs": missing_hft_anchor_refs,
             "connection_count": len(connection_registry),
             "authored_connection_count": sum(
                 item["origin"] == "authored_focus_row"
@@ -1040,7 +1786,11 @@ def _lane_packet(
             "quran_text_source": quran_text_coverage,
             "unresolved_branch_refs": unresolved_branch_refs,
             "source_types": sorted(
-                {candidate.get("source_type") for candidate in candidates}
+                {
+                    candidate.get("source_type")
+                    for candidate in candidates
+                    if candidate.get("source_type")
+                }
             ),
         },
         "contract": {
@@ -1050,6 +1800,10 @@ def _lane_packet(
             "new_grounded_findings_are_allowed": True,
             "noncanonical_findings_are_allowed": True,
             "uncertainty_changes_label_not_visibility": True,
+            "hft_provenance_changes_qualification_not_visibility": True,
+            "every_assigned_hft_record_is_exactly_one_candidate": True,
+            "accepted_hft_candidates_must_retain_their_support_and_boundary": True,
+            "unresolved_hft_branch_citations_do_not_erase_the_record": True,
             "branch_ids_do_not_count_as_semantic_coverage": True,
             "distinctive_branch_facets_must_be_explained": True,
             "prior_connection_labels_are_not_decisions": True,
@@ -1113,6 +1867,7 @@ def _render_scopes(args: argparse.Namespace) -> None:
     quran_text_evidence, quran_text_coverage = _quran_text_evidence(
         args.quran_text
     )
+    hft_projection = _hft_authoring_projection(docket, source_bundle)
     reciprocal_evidence_sha256 = _sha256_json(reciprocal_evidence)
     stage_dir = run_dir / "scope"
     workspace_dir = run_dir / "workspace"
@@ -1123,6 +1878,7 @@ def _render_scopes(args: argparse.Namespace) -> None:
             docket,
             lane,
             source_bundle,
+            hft_projection,
             reciprocal_evidence,
             reciprocal_source_coverage,
             quran_text_evidence,
@@ -1184,6 +1940,9 @@ def _render_scopes(args: argparse.Namespace) -> None:
             "workspace": str(workspace_dir),
             "candidate_count": len(packet["candidate_inventory"]),
             "connection_count": len(packet["connection_registry"]),
+            "assigned_hft_record_count": packet["hft_evidence"][
+                "assigned_record_count"
+            ],
         }
     print(_pretty_json(result), end="")
 
@@ -1352,6 +2111,64 @@ def _render_scope_prose(args: argparse.Namespace) -> None:
         for connection_ref in finding.get("connection_refs", [])
         if isinstance(connection_ref, str)
     }
+    candidate_ids = {
+        candidate_id
+        for finding in locked
+        for candidate_id in finding.get("candidate_ids", [])
+        if isinstance(candidate_id, str)
+    }
+
+    def unique_cross_lane_records(
+        registry_name: str, ref_field: str, wanted_refs: set[str]
+    ) -> list[dict[str, Any]]:
+        by_ref: dict[str, dict[str, Any]] = {}
+        source_lanes: dict[str, list[str]] = {}
+        for source_lane in LANES:
+            for item in packets[source_lane].get(registry_name, []):
+                item_ref = item.get(ref_field)
+                if item_ref not in wanted_refs:
+                    continue
+                if item_ref in by_ref and _canonical_json(by_ref[item_ref]) != (
+                    _canonical_json(item)
+                ):
+                    raise SystemExit(
+                        f"Conflicting cross-lane {registry_name} record: {item_ref}"
+                    )
+                by_ref[item_ref] = item
+                source_lanes.setdefault(item_ref, []).append(source_lane)
+        missing = sorted(wanted_refs - set(by_ref))
+        if missing:
+            raise SystemExit(
+                f"Locked findings cite missing {registry_name} records: {missing}"
+            )
+        return [
+            {
+                **by_ref[item_ref],
+                "available_in_lanes": sorted(set(source_lanes[item_ref])),
+            }
+            for item_ref in sorted(by_ref)
+        ]
+
+    cited_support_records = unique_cross_lane_records(
+        "support_registry", "support_id", support_ids
+    )
+    cited_connection_records = unique_cross_lane_records(
+        "connection_registry", "connection_ref", connection_refs
+    )
+    cited_branch_records = [
+        {"source_lane": source_lane, **item}
+        for source_lane in LANES
+        for item in packets[source_lane].get("branch_registry", [])
+        if item.get("branch_ref") in branch_refs
+    ]
+    missing_branch_refs = sorted(
+        branch_refs
+        - {item.get("branch_ref") for item in cited_branch_records}
+    )
+    if missing_branch_refs:
+        raise SystemExit(
+            f"Locked findings cite missing branch records: {missing_branch_refs}"
+        )
     review_context_fields = (
         "surface_coverage",
         "branch_screen",
@@ -1368,27 +2185,26 @@ def _render_scope_prose(args: argparse.Namespace) -> None:
         "focus_surface_evidence": packet.get("focus_surface_evidence"),
         "review_context": {
             field: review.get(field, []) for field in review_context_fields
+        }
+        | {
+            "candidate_decisions": [
+                {"source_lane": source_lane, **decision}
+                for source_lane in LANES
+                for decision in reviews[source_lane].get(
+                    "candidate_decisions", []
+                )
+                if decision.get("candidate_id") in candidate_ids
+            ]
         },
-        "cited_support_records": [
-            item
-            for item in packet.get("support_registry", [])
-            if item.get("support_id") in support_ids
-        ],
-        "cited_branch_records": [
-            item
-            for item in packet.get("branch_registry", [])
-            if item.get("branch_ref") in branch_refs
-        ],
-        "cited_connection_records": [
-            item
-            for item in packet.get("connection_registry", [])
-            if item.get("connection_ref") in connection_refs
-        ],
+        "cited_support_records": cited_support_records,
+        "cited_branch_records": cited_branch_records,
+        "cited_connection_records": cited_connection_records,
         "instruction": (
             "This context preserves exact surface values, decision coverage, "
-            "friction, and the evidence cited by the locked findings. It is for "
-            "faithful prose preparation only; do not reopen decisions or add "
-            "findings."
+            "friction, and cited evidence across all origin lanes. HFT support "
+            "payloads retain their source containment and exact anchor Arabic. "
+            "It is for faithful prose preparation only; do not reopen decisions "
+            "or add findings."
         ),
     }
     template = _read_prompt(f"scope-{args.lane}-prose-followup.md")

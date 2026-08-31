@@ -53,6 +53,18 @@ quota. Review every candidate. You may recover a new finding when the supplied
 evidence contains a materially distinct local mechanism or reader payoff that
 the docket missed.
 
+The packet's `hft_evidence.assigned_records` are focus-only HFT nominations,
+and each is a mandatory-review candidate with no presumptive outcome. Its exact
+raw payload and available anchor Arabic are supplied by its sole `support_id`.
+Review every one. Source binding, packet scope, confidence, or a missing
+independent branch-registry entry may limit certainty, but may never decide the
+outcome. Exact Arabic verifies surface contact only; HFT-stated segmentation,
+word indices, roots, branches, and roles remain attributed nominations unless
+independently supplied in the packet. If you accept, narrow, refer, or represent
+an HFT item as an exact duplicate, carry its support ID and preserve its source
+containment, live alternatives, analogy limits, and any “not a lexical gloss”
+boundary. A duplicate target must preserve the evidence union.
+
 Conduct one linear screen of every supplied focus branch. This is not a request
 to pair every branch with every other branch. For each branch, ask whether its
 distinctive definition or facet meets both its actual focus-ayah carrier and an
@@ -105,8 +117,9 @@ Return one JSON object with:
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
 - `ayah_ref: "@@AYAH_REF@@"` and `lane: "micro"`;
-- `coverage_complete`, true only after every supplied candidate, every surface
-  word, and every supplied focus branch has been reviewed;
+- `coverage_complete`, true only after every supplied candidate, every assigned
+  HFT record, every surface word, and every supplied focus branch has been
+  reviewed;
 - `surface_coverage[]`, one row per supplied
   `focus_surface_evidence.word_rows` item, keyed by its exact
   `analysis_record_ref`, with `treatment` (`develop`, `integrate`, or
@@ -149,6 +162,8 @@ Return one JSON object with:
   decisions a reconciler should inspect.
 
 Every supplied candidate and branch must receive an explicit disposition.
+Every assigned HFT record is already one supplied candidate and therefore must
+receive exactly one candidate decision; qualified metadata cannot erase it.
 Every accepted or narrowed candidate must appear in `accepted_findings`.
 An accepted finding cites only the support and branches its final claim actually
 uses. When narrowing drops an original branch, record it in the owning candidate

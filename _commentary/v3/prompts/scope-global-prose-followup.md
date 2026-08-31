@@ -30,6 +30,13 @@ structures are only analogous, say so naturally while still letting the analogy
 do its full interpretive work. Exploratory or noncanonical status requires
 containment, not omission.
 
+For every cited HFT support, preserve the raw payload's containment, live
+alternative, analogy or cross-root limit, and any warning that the image is not
+a lexical gloss. The attached anchor Arabic verifies surface contact; it does
+not independently verify HFT-attributed morphology, roots, branches, word
+indices, or roles. Render these boundaries naturally in Turkish, but do not
+drop them during prose preparation.
+
 Return one JSON object with `schema_version:
 "commentary-v3-scope-prose-draft-v1"`; `identity` containing
 `ayah_ref: "@@AYAH_REF@@"`, `lane: "global"`,

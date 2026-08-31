@@ -17,49 +17,58 @@ repairing cross-scope identity, and consolidating exact semantic duplicates.
 2. Confirm that every supplied candidate appears exactly once in its lane's
    decision ledger and that every accepted or narrowed candidate appears in that
    lane's accepted findings.
-3. Audit semantic coverage rather than mere JSON presence. Micro must contain
+3. Audit every projected HFT candidate through the ordinary candidate ledger;
+   do not require a second HFT-specific mini-schema. Accepted or narrowed HFT
+   candidates must point to findings that retain their sole HFT `support_id`.
+   An exact-duplicate rejection must name a target finding that retains that
+   support and the evidence union. A referral must carry the support ID in its
+   payload. In every case preserve source containment, live alternatives,
+   analogy/cross-root limits, and any “not a lexical gloss” boundary; these may
+   be tightened but not erased. Source qualification alone never establishes
+   rejection.
+4. Audit semantic coverage rather than mere JSON presence. Micro must contain
    exactly one `surface_coverage` row per supplied
    `focus_surface_evidence.word_rows` item, matched by `analysis_record_ref`, and
    one `branch_screen` row per supplied focus branch, with every supplied facet
    ID accounted for.
    Macro and global must cover every supplied candidate and connection. Global
-   `support_coverage` must identify every supplied wider support by its exact
-   `support_id`.
-4. Confirm that every cited support and branch belongs to the supplied evidence.
+   `support_coverage` must identify every supplied non-HFT wider support by its
+   exact `support_id`; HFT supports are accounted for through their candidates.
+5. Confirm that every cited support and branch belongs to the supplied evidence.
    In the macro and global lanes, also confirm that every cited connection
    belongs to the supplied packet and that every supplied connection has exactly
    one disposition in `connection_coverage`. An accepted, narrowed, or
    represented connection must point to the finding or findings that preserve
    it.
-5. Inspect every rejection. Flag it as disputed when its reason is
+6. Inspect every rejection. Flag it as disputed when its reason is
    canonical absence, novelty, similarity, conflict, difficulty of explanation,
    source count, confidence label, vividness, prose length, or a trust label by
    itself. Do not dispute a documented exact duplicate when all four identity
    conditions below actually match and the target preserves the evidence union.
-6. Audit every narrowed candidate's `excluded_branch_refs` and
+7. Audit every narrowed candidate's `excluded_branch_refs` and
    `branch_exclusion_reasons`. Each excluded ref must have belonged to that
    candidate, each exclusion must have a specific reason, and excluded branches
    must not survive in that candidate's finding as false coverage. Empty arrays
    are required when nothing was dropped.
-7. Audit every `scope_referral` disposition against `scope_referrals`. Each must
+8. Audit every `scope_referral` disposition against `scope_referrals`. Each must
    have exactly one stable payload with a receiving lane and complete carrier,
    mechanism, payoff, containment, and evidence refs. Resolve a referral only
    when the receiving lane independently accepted the same grounded finding or
    explicitly incorporated that referral. Otherwise request the receiving lane's
    review; do not promote or discard the referral yourself.
-8. Compare accepted findings across lanes. Consolidate only exact semantic
+9. Compare accepted findings across lanes. Consolidate only exact semantic
    duplicates: the same local anchor, mechanism, direction, and reader payoff.
    Preserve the union of evidence, all member finding refs, and every member's
    lane-specific before/after movement and trigger. Related findings
    with different mechanisms, directions, contextual horizons, or payoffs
    remain separate.
-9. Preserve countervailing findings without verdict or rank.
-10. Assign each locked finding to its owning lane's prose follow-up. Add a second
+10. Preserve countervailing findings without verdict or rank.
+11. Assign each locked finding to its owning lane's prose follow-up. Add a second
    lane only when the originating ledger explicitly requests a scope referral
    and that second lane must prepare a distinct part of the finding. An
    ayah-local anchor by itself is not a referral: macro and global findings are
    expected to return through local language.
-11. A grounded finding explicitly referred to another lane must be assigned for
+12. A grounded finding explicitly referred to another lane must be assigned for
    follow-up; it may not disappear between ledgers.
 
 If a coverage flag is false, semantic coverage is incomplete, candidate,

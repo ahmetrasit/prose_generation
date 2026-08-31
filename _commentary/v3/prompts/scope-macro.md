@@ -50,6 +50,19 @@ quota. Review every candidate and the supplied contextual evidence. You may
 recover a missed finding when that evidence supports a materially distinct,
 pericope-bounded change.
 
+The packet's `hft_evidence.assigned_records` are HFT nominations whose explicit
+ayah anchors all lie inside the declared pericope, and each is a
+mandatory-review candidate with no presumptive outcome. Its exact raw payload
+and exact available anchor Arabic are supplied by its sole `support_id`. Review
+every one. Source binding, broader packet scope, confidence, or a missing
+independent branch registry may limit certainty, but may never decide the
+outcome. Exact Arabic verifies surface contact only; HFT-stated segmentation,
+word indices, roots, branches, and roles remain attributed nominations unless
+independently supplied. If you accept, narrow, refer, or represent an HFT item
+as an exact duplicate, carry its support ID and preserve its source containment,
+live alternatives, analogy limits, and any “not a lexical gloss” boundary. A
+duplicate target must preserve the evidence union.
+
 Review every supplied `connection_registry` row. These are same-surah targets
 inside the declared pericope, including any derived reciprocal seed. Their prior
 attention labels are not verdicts. Exact target Arabic is supplied in
@@ -107,9 +120,9 @@ Return one JSON object with:
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
 - `ayah_ref: "@@AYAH_REF@@"` and `lane: "macro"`;
-- `coverage_complete`, true only after every supplied candidate and every
-  supplied contextual evidence group and connection has been independently
-  scanned;
+- `coverage_complete`, true only after every supplied candidate, every assigned
+  HFT record, and every supplied contextual evidence group and connection has
+  been independently scanned;
 - `connection_coverage[]`, one row per supplied connection, with
   `connection_ref`, `target_ref`, `result` (`accepted`, `narrowed`,
   `represented`, or `rejected`), related `finding_refs`, and a specific reason
@@ -152,6 +165,8 @@ Return one JSON object with:
 Every supplied candidate must receive exactly one decision. Every accepted or
 narrowed candidate must appear in `accepted_findings`. Referred and rejected
 material remains visible in the decision ledger. Do not rank accepted findings.
+Every assigned HFT record is already one supplied candidate; qualified metadata
+cannot erase it.
 An accepted finding cites only the support and branches its final claim actually
 uses. When narrowing drops an original branch, record it in the owning candidate
 decision's `excluded_branch_refs` and `branch_exclusion_reasons`; do not preserve

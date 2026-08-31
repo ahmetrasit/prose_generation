@@ -26,6 +26,13 @@ happening—and then state the changed reading. Exploratory status requires a
 natural boundary, not silence or vague wording. Do not compress away a small but
 distinct surprise because a larger finding is easier to explain.
 
+For every cited HFT support, preserve the raw payload's containment, live
+alternative, analogy or cross-root limit, and any warning that the image is not
+a lexical gloss. The attached anchor Arabic verifies surface contact; it does
+not independently verify HFT-attributed morphology, roots, branches, word
+indices, or roles. Render these boundaries naturally in Turkish, but do not
+drop them during prose preparation.
+
 Return one JSON object with `schema_version:
 "commentary-v3-scope-prose-draft-v1"`; `identity` containing
 `ayah_ref: "@@AYAH_REF@@"`, `lane: "micro"`,

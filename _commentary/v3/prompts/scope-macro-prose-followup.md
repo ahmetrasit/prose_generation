@@ -28,6 +28,13 @@ or noncanonical findings remain reader-visible with proportionate boundaries;
 their status is not permission to bury them in friction. Do not compress away a
 distinct mechanism merely because another finding reaches a related conclusion.
 
+For every cited HFT support, preserve the raw payload's containment, live
+alternative, analogy or cross-root limit, and any warning that the image is not
+a lexical gloss. The attached anchor Arabic verifies surface contact; it does
+not independently verify HFT-attributed morphology, roots, branches, word
+indices, or roles. Render these boundaries naturally in Turkish, but do not
+drop them during prose preparation.
+
 Return one JSON object with `schema_version:
 "commentary-v3-scope-prose-draft-v1"`; `identity` containing
 `ayah_ref: "@@AYAH_REF@@"`, `lane: "macro"`,

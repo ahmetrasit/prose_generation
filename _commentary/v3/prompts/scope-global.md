@@ -33,7 +33,7 @@ into the focus word's literal sense.
 ## Global responsibility
 
 Review every supplied regular and wide reader walk, retrospective surprise,
-cross-run publication finding, trusted global HFT record, and per-ayah wider
+cross-run publication finding, assigned global HFT record, and per-ayah wider
 connection row. The connection registry includes cross-surah targets and any
 same-surah target beyond the declared pericope. Distinguish what the ayah can
 yield alone from what later or wider context activates, sharpens, weakens, or
@@ -68,6 +68,21 @@ quota. Review every candidate and the underlying wider evidence. You may recover
 a missed finding when that evidence supports a materially distinct change in
 the ayah's reading.
 
+The packet's `hft_evidence.assigned_records` contain HFT nominations with a
+wider-than-pericope anchor and individually split HFT reader-synthesis items;
+each is a mandatory-review candidate with no presumptive outcome. Its exact raw
+payload and exact available anchor Arabic are supplied by its sole `support_id`.
+Review every one. Source binding, packet scope, confidence, or a missing
+independent branch registry may limit certainty, but may never decide the
+outcome. Exact Arabic verifies surface contact only; HFT-stated segmentation,
+word indices, roots, branches, and roles remain attributed nominations unless
+independently supplied. Treat unanchored synthesis as an inventory item to
+trace, decompose, represent, refer, or reject—not as an acceptable surah thesis.
+If you accept, narrow, refer, or represent an HFT item as an exact duplicate,
+carry its support ID and preserve its source containment, live alternatives,
+analogy limits, and any “not a lexical gloss” boundary. A duplicate target must
+preserve the evidence union.
+
 Do not search only for confirmation of supplied candidates. Independently scan
 every wider-reading record for uncandidate discoveries and record every
 meaningful contact opportunity. For every cited branch, explain the distinctive
@@ -89,10 +104,10 @@ Treat that supplied image as the facet; identify it by its source field (or use
 
 Every accepted finding must re-enter through a word, relation, or act already
 present in the focus ayah. Reader agreement is not authority; an outlier is not
-valuable merely because it is surprising. A `legacy_unbound` label is a trust
-qualification, not by itself a reason to erase an otherwise exact, grounded,
-scope-valid reading; preserve the qualification in `epistemic_status` and
-containment.
+valuable merely because it is surprising. Provenance qualifications govern
+`epistemic_status` and containment, not visibility. They do not override a
+grounded return path, and they are not independent evidence that a reading is
+false.
 
 Reject only when you can name the failed edge: no ayah-local return path, no
 wider trigger stated in the supplied record, no claimed relation, no changed
@@ -120,9 +135,10 @@ Return one JSON object with:
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
 - `ayah_ref: "@@AYAH_REF@@"` and `lane: "global"`;
-- `coverage_complete`, true only after every supplied candidate and every
-  supplied wider-reading record is reviewed;
-- `support_coverage[]`, one row per supplied wider-reading support record, with
+- `coverage_complete`, true only after every supplied candidate, every assigned
+  HFT record, and every supplied wider-reading record is reviewed;
+- `support_coverage[]`, one row per supplied non-HFT wider-reading support
+  record, with
   its exact `support_id`, `result` (`accepted`, `narrowed`, `represented`, or
   `rejected`), related `finding_refs`, and concise `reason`;
 - `connection_coverage[]`, one row per supplied connection, with
@@ -167,6 +183,8 @@ Return one JSON object with:
 Every supplied candidate must receive exactly one decision. Every accepted or
 narrowed candidate must appear in `accepted_findings`. Referred and rejected
 material remains visible in the decision ledger. Do not rank accepted findings.
+Every assigned HFT record is already one supplied candidate; qualified metadata
+cannot erase it.
 An accepted finding cites only the support, branches, and connections its final
 claim actually uses. When narrowing drops an original branch, record it in the
 owning candidate decision's `excluded_branch_refs` and
