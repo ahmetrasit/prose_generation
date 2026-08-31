@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "commentary-v3-synthesis-packet-v2",
+  "$id": "commentary-v3-synthesis-packet-v3",
   "title": "Commentary v3 selected-evidence synthesis packet",
   "type": "object",
   "required": [
@@ -8,7 +8,7 @@
     "support_registry", "branch_registry", "limits", "contract"
   ],
   "properties": {
-    "schema_version": {"const": "commentary-v3-synthesis-packet-v2"},
+    "schema_version": {"const": "commentary-v3-synthesis-packet-v3"},
     "identity": {"$ref": "#/$defs/identity"},
     "scope": {"type": "object"},
     "focus": {"type": "object"},
@@ -23,31 +23,31 @@
       "type": "object",
       "required": [
         "every_selected_candidate_requires_a_prose_landing",
-        "every_selected_candidate_requires_an_exact_claim_landing",
+        "prose_landings_identify_passages_not_verbatim_claims",
         "reader_payoff_and_containment_are_preserved_in_apparatus",
         "every_selected_candidate_requires_exactly_one_finding",
-        "findings_must_follow_selection_order",
+        "finding_records_follow_selection_order",
+        "prose_may_reorder_findings_for_composition",
         "finding_supports_and_branches_must_be_complete",
-        "candidate_landings_must_not_overlap",
+        "compatible_findings_may_share_a_prose_landing",
         "every_selected_candidate_requires_complete_branch_lineage",
         "unknown_candidates_may_not_be_introduced",
         "apparatus_is_rendered_deterministically", "required_finding_count",
-        "minimum_distinct_landing_chars", "paragraph_safety_ceiling",
-        "friction_safety_ceiling"
+        "paragraph_safety_ceiling", "friction_safety_ceiling"
       ],
       "properties": {
         "every_selected_candidate_requires_a_prose_landing": {"const": true},
-        "every_selected_candidate_requires_an_exact_claim_landing": {"const": true},
+        "prose_landings_identify_passages_not_verbatim_claims": {"const": true},
         "reader_payoff_and_containment_are_preserved_in_apparatus": {"const": true},
         "every_selected_candidate_requires_exactly_one_finding": {"const": true},
-        "findings_must_follow_selection_order": {"const": true},
+        "finding_records_follow_selection_order": {"const": true},
+        "prose_may_reorder_findings_for_composition": {"const": true},
         "finding_supports_and_branches_must_be_complete": {"const": true},
-        "candidate_landings_must_not_overlap": {"const": true},
+        "compatible_findings_may_share_a_prose_landing": {"const": true},
         "every_selected_candidate_requires_complete_branch_lineage": {"const": true},
         "unknown_candidates_may_not_be_introduced": {"const": true},
         "apparatus_is_rendered_deterministically": {"const": true},
         "required_finding_count": {"type": "integer", "minimum": 1, "maximum": 512},
-        "minimum_distinct_landing_chars": {"type": "integer", "minimum": 1},
         "paragraph_safety_ceiling": {"const": 512},
         "friction_safety_ceiling": {"const": 512}
       },

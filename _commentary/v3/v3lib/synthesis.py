@@ -38,10 +38,10 @@ from .common import (
 from .prepare import PrepareOptions, validate_docket, validate_prepared
 
 
-PACKET_SCHEMA = "commentary-v3-synthesis-packet-v2"
-RESPONSE_SCHEMA = "commentary-v3-synthesis-response-v2"
-VALIDATED_SCHEMA = "commentary-v3-synthesis-validated-v2"
-PROMPT_MANIFEST_SCHEMA = "commentary-v3-synthesis-prompt-manifest-v2"
+PACKET_SCHEMA = "commentary-v3-synthesis-packet-v3"
+RESPONSE_SCHEMA = "commentary-v3-synthesis-response-v3"
+VALIDATED_SCHEMA = "commentary-v3-synthesis-validated-v3"
+PROMPT_MANIFEST_SCHEMA = "commentary-v3-synthesis-prompt-manifest-v3"
 KEY_RE = re.compile(r"^[a-z][a-z0-9_-]{2,63}$")
 MAX_PARAGRAPHS = SELECTION_SAFETY_CEILING
 MAX_FINDINGS = SELECTION_SAFETY_CEILING
@@ -79,7 +79,10 @@ class SynthesisOptions:
     max_prompt_bytes: int = 5_000_000
     max_response_bytes: int = 32_000_000
     max_annotation_chars: int = 1_000_000
-    min_prose_chars: int = 500
+    # Canonical commentary has no editorial length floor. Callers may opt into
+    # one for a specific experiment, while the default validates only that the
+    # authored paragraphs are nonempty and remain below the safety ceiling.
+    min_prose_chars: int = 0
     max_prose_chars: int = 1_000_000
     max_rendered_output_bytes: int = 64_000_000
 
@@ -208,10 +211,6 @@ def _overlapping_occurrence_starts(
 def _synthesis_limits(options: SynthesisOptions) -> dict[str, int]:
     options.validate()
     return {name: getattr(options, name) for name in SYNTHESIS_LIMIT_FIELDS}
-
-
-def _minimum_distinct_landing_chars(selections: list[dict[str, Any]]) -> int:
-    return sum(len(selection["claim"]) for selection in selections)
 
 
 def _require_synthesis_options(
@@ -474,33 +473,21 @@ def _build_synthesis_packet_unbound(
         "limits": _synthesis_limits(options),
         "contract": {
             "every_selected_candidate_requires_a_prose_landing": True,
-            "every_selected_candidate_requires_an_exact_claim_landing": True,
+            "prose_landings_identify_passages_not_verbatim_claims": True,
             "reader_payoff_and_containment_are_preserved_in_apparatus": True,
             "every_selected_candidate_requires_exactly_one_finding": True,
-            "findings_must_follow_selection_order": True,
+            "finding_records_follow_selection_order": True,
+            "prose_may_reorder_findings_for_composition": True,
             "finding_supports_and_branches_must_be_complete": True,
-            "candidate_landings_must_not_overlap": True,
+            "compatible_findings_may_share_a_prose_landing": True,
             "every_selected_candidate_requires_complete_branch_lineage": True,
             "unknown_candidates_may_not_be_introduced": True,
             "apparatus_is_rendered_deterministically": True,
             "required_finding_count": len(selections),
-            "minimum_distinct_landing_chars": _minimum_distinct_landing_chars(
-                selections
-            ),
             "paragraph_safety_ceiling": MAX_PARAGRAPHS,
             "friction_safety_ceiling": MAX_FRICTION_NOTES,
         },
     }
-    minimum_prose_chars = max(
-        options.min_prose_chars,
-        packet["contract"]["minimum_distinct_landing_chars"],
-    )
-    if minimum_prose_chars > options.max_prose_chars:
-        raise BudgetError(
-            f"Exact synthesis landings require at least {minimum_prose_chars} prose "
-            f"characters; configured maximum is {options.max_prose_chars}. Nothing "
-            "was compressed."
-        )
     packet["identity"]["synthesis_packet_sha256"] = _packet_payload_hash(packet)
     packet_bytes = canonical_json_bytes(packet)
     if len(packet_bytes) > options.max_packet_bytes:
@@ -650,19 +637,22 @@ def _render_synthesis_prompt_unbound(
             template = (V3_ROOT / "prompts" / "synthesis.md").read_text(encoding="utf-8")
         except OSError as exc:
             raise ValidationError(f"Cannot read synthesis prompt template: {exc}") from exc
+    try:
+        canonical_prose_contract = (
+            V3_ROOT / "prompts" / "canonical-prose.md"
+        ).read_text(encoding="utf-8").strip()
+    except OSError as exc:
+        raise ValidationError(
+            f"Cannot read canonical prose contract: {exc}"
+        ) from exc
     identity = packet["identity"]
-    effective_min_prose_chars = max(
-        options.min_prose_chars,
-        packet["contract"]["minimum_distinct_landing_chars"],
-    )
     replacements = {
         "@@AYAH_REF@@": identity["ayah_ref"],
         "@@SOURCE_SHA256@@": identity["source_canonical_sha256"],
         "@@DOCKET_SHA256@@": identity["docket_payload_sha256"],
         "@@ADJUDICATION_SHA256@@": identity["adjudication_payload_sha256"],
         "@@PACKET_SHA256@@": identity["synthesis_packet_sha256"],
-        "@@MIN_PROSE_CHARS@@": str(effective_min_prose_chars),
-        "@@MAX_PROSE_CHARS@@": str(options.max_prose_chars),
+        "@@CANONICAL_PROSE_CONTRACT@@": canonical_prose_contract,
         "@@PARAGRAPH_SAFETY_CEILING@@": str(MAX_PARAGRAPHS),
         "@@REQUIRED_FINDING_COUNT@@": str(len(packet["selections"])),
         "@@FRICTION_SAFETY_CEILING@@": str(MAX_FRICTION_NOTES),
@@ -694,10 +684,6 @@ def _render_synthesis_prompt_unbound(
             "estimated_tokens_chars_div_4": (len(prompt) + 3) // 4,
             "selected_candidate_count": len(packet["selections"]),
             "required_finding_count": len(packet["selections"]),
-            "minimum_distinct_landing_chars": packet["contract"][
-                "minimum_distinct_landing_chars"
-            ],
-            "effective_min_prose_chars": effective_min_prose_chars,
         },
         "limits": _synthesis_limits(options),
         "contract": {
@@ -855,7 +841,6 @@ def _normalize_synthesis_content(
         finding_keys = _string_list(
             paragraph.get("finding_keys"),
             f"paragraph {expected_key} finding_keys",
-            nonempty=True,
         )
         prose_chars += len(prose)
         declared_finding_keys.extend(finding_keys)
@@ -865,18 +850,11 @@ def _normalize_synthesis_content(
             "finding_keys": finding_keys,
         }
         raw_paragraph_texts[expected_key] = raw_prose
-    minimum_prose_chars = max(
-        options.min_prose_chars,
-        packet["contract"]["minimum_distinct_landing_chars"],
-    )
-    if not minimum_prose_chars <= prose_chars <= options.max_prose_chars:
+    if not options.min_prose_chars <= prose_chars <= options.max_prose_chars:
         raise ValidationError(
             f"Synthesis prose has {prose_chars} chars; required range is "
-            f"{minimum_prose_chars}-{options.max_prose_chars}"
+            f"{options.min_prose_chars}-{options.max_prose_chars}"
         )
-    published_prose = "\n\n".join(
-        paragraph["text"] for paragraph in paragraphs_by_key.values()
-    )
     if len(declared_finding_keys) != len(set(declared_finding_keys)):
         raise ValidationError("A finding may land in only one paragraph")
 
@@ -902,9 +880,6 @@ def _normalize_synthesis_content(
     findings: list[dict[str, Any]] = []
     seen_keys: set[str] = set()
     seen_ids: set[str] = set()
-    landing_ranges: dict[str, list[tuple[int, int, str]]] = {
-        key: [] for key in paragraphs_by_key
-    }
     for index, raw in enumerate(raw_findings):
         finding = _require_dict(raw, f"findings[{index}]")
         _exact_keys(finding, finding_fields, f"findings[{index}]")
@@ -984,38 +959,6 @@ def _normalize_synthesis_content(
         raw_paragraph = raw_paragraph_texts[paragraph_key]
         if raw_landing_quote not in raw_paragraph:
             raise ValidationError(f"Finding {key} landing_quote is absent from prose")
-        raw_occurrences = _overlapping_occurrence_starts(
-            raw_paragraph, raw_landing_quote
-        )
-        if len(raw_occurrences) != 1:
-            raise ValidationError(
-                f"Finding {key} landing_quote must occur exactly once in prose"
-            )
-        published_occurrences = _overlapping_occurrence_starts(
-            published_prose, landing_quote
-        )
-        if len(published_occurrences) != 1:
-            raise ValidationError(
-                f"Finding {key} normalized landing_quote must occur exactly once "
-                "in the complete published prose"
-            )
-        if selection["claim"] not in raw_landing_quote:
-            raise ValidationError(
-                f"Finding {key} landing_quote lacks the exact candidate claim"
-            )
-        published_paragraph = paragraphs_by_key[paragraph_key]["text"]
-        paragraph_occurrences = _overlapping_occurrence_starts(
-            published_paragraph, landing_quote
-        )
-        if len(paragraph_occurrences) != 1:
-            raise ValidationError(
-                f"Finding {key} normalized landing_quote does not resolve uniquely "
-                "inside its published paragraph"
-            )
-        start = paragraph_occurrences[0]
-        landing_ranges[paragraph_key].append(
-            (start, start + len(landing_quote), key)
-        )
         candidate_contributions = [
             {
                 "candidate_id": candidate_id,
@@ -1056,18 +999,10 @@ def _normalize_synthesis_content(
             }
         )
     expected_finding_keys = [f"f{index + 1:03d}" for index in range(len(selections))]
-    if declared_finding_keys != expected_finding_keys:
+    if set(declared_finding_keys) != set(expected_finding_keys):
         raise ValidationError(
-            "Paragraph finding declarations must preserve exact selection order"
+            "Paragraph finding declarations must cover every finding exactly once"
         )
-    for paragraph_key, ranges in landing_ranges.items():
-        ordered = sorted(ranges)
-        for previous, current in zip(ordered, ordered[1:]):
-            if previous[1] > current[0]:
-                raise ValidationError(
-                    f"Candidate prose landings overlap in {paragraph_key}: "
-                    f"{previous[2]}, {current[2]}"
-                )
     finding_id_by_key = {item["finding_key"]: item["finding_id"] for item in findings}
     paragraphs = [
         {
@@ -1621,7 +1556,6 @@ def _raw_response_from_validated_artifact(
         finding_ids = _string_list(
             paragraph.get("finding_ids"),
             f"validated paragraphs[{index}] finding_ids",
-            nonempty=True,
         )
         unknown_ids = [
             finding_id for finding_id in finding_ids if finding_id not in key_by_id

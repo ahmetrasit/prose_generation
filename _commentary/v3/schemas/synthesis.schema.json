@@ -1,14 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "commentary-v3-synthesis-validated-v2",
-  "title": "Commentary v3 validated lossless synthesis",
+  "$id": "commentary-v3-synthesis-validated-v3",
+  "title": "Commentary v3 validated canonical synthesis",
   "type": "object",
   "required": [
     "schema_version", "identity", "paragraphs", "findings",
     "friction_complete", "friction_notes", "coverage", "limits", "outputs"
   ],
   "properties": {
-    "schema_version": {"const": "commentary-v3-synthesis-validated-v2"},
+    "schema_version": {"const": "commentary-v3-synthesis-validated-v3"},
     "identity": {"$ref": "#/$defs/identity"},
     "paragraphs": {
       "type": "array", "minItems": 1, "maxItems": 512,
@@ -95,7 +95,7 @@
         "paragraph_id": {"type": "string", "pattern": "^p[0-9]{3}$"},
         "text": {"type": "string", "minLength": 1},
         "finding_ids": {
-          "type": "array", "minItems": 1, "uniqueItems": true,
+          "type": "array", "uniqueItems": true,
           "items": {"type": "string", "pattern": "^find_[0-9a-f]{20}$"}
         }
       },

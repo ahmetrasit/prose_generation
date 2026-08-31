@@ -693,28 +693,30 @@ class SynthesisTests(unittest.TestCase):
             fields & {"max_paragraphs", "max_findings", "max_friction_notes"}
         )
 
-    def test_packet_derives_lossless_count_and_prose_capacity(self) -> None:
+    def test_packet_tracks_coverage_without_deriving_prose_length(self) -> None:
         docket, adjudication, packet = packet_fixture()
-        exact_field_chars = sum(
-            len(selection["claim"]) for selection in packet["selections"]
-        )
         self.assertEqual(
             packet["contract"]["required_finding_count"],
             len(packet["selections"]),
         )
-        self.assertEqual(
-            packet["contract"]["minimum_distinct_landing_chars"],
-            exact_field_chars,
+        self.assertTrue(
+            packet["contract"][
+                "prose_landings_identify_passages_not_verbatim_claims"
+            ]
         )
+        self.assertTrue(
+            packet["contract"]["prose_may_reorder_findings_for_composition"]
+        )
+        self.assertNotIn("minimum_distinct_landing_chars", packet["contract"])
         _prompt, manifest = render_synthesis_prompt(packet)
         self.assertEqual(
             manifest["budget"]["required_finding_count"],
             len(packet["selections"]),
         )
+        self.assertNotIn("minimum_distinct_landing_chars", manifest["budget"])
 
-        too_small = SynthesisOptions(min_prose_chars=0, max_prose_chars=1)
-        with self.assertRaisesRegex(BudgetError, "Nothing was compressed"):
-            build_synthesis_packet(docket, adjudication, options=too_small)
+        no_editorial_floor = SynthesisOptions(min_prose_chars=0, max_prose_chars=1)
+        build_synthesis_packet(docket, adjudication, options=no_editorial_floor)
 
     def test_every_selected_candidate_requires_a_landing(self) -> None:
         docket, adjudication, packet = packet_fixture()
@@ -734,7 +736,7 @@ class SynthesisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "exact selection order"):
             validate_synthesis_response(response, packet, docket, adjudication)
 
-    def test_claim_landing_and_complete_branch_lineage_are_mandatory(self) -> None:
+    def test_natural_landing_and_complete_branch_lineage(self) -> None:
         docket, adjudication, packet = packet_fixture()
         response = response_for_packet(packet)
         selection = packet["selections"][0]
@@ -743,8 +745,7 @@ class SynthesisTests(unittest.TestCase):
             selection["claim"], generic
         )
         response["findings"][0]["landing_quote"] = generic
-        with self.assertRaisesRegex(ValidationError, "exact candidate claim"):
-            validate_synthesis_response(response, packet, docket, adjudication)
+        validate_synthesis_response(response, packet, docket, adjudication)
 
         response = response_for_packet(packet)
         branch_index = next(
@@ -825,7 +826,7 @@ class SynthesisTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValidationError, "apparatus identifiers"):
                     validate_synthesis_response(response, packet, docket, adjudication)
 
-    def test_candidate_landing_ranges_cannot_overlap(self) -> None:
+    def test_compatible_candidate_landings_may_overlap(self) -> None:
         docket, adjudication, packet = packet_fixture()
         response = response_for_packet(packet)
         landings = [item["landing_quote"] for item in response["findings"]]
@@ -849,16 +850,14 @@ class SynthesisTests(unittest.TestCase):
         response["findings"][0]["landing_quote"] = (
             f"{landings[0]} Ara cumle. {landings[1]}"
         )
-        with self.assertRaisesRegex(ValidationError, "landings overlap"):
-            validate_synthesis_response(response, packet, docket, adjudication)
+        validate_synthesis_response(response, packet, docket, adjudication)
 
-    def test_candidate_landing_is_unique_across_normalized_published_prose(self) -> None:
+    def test_candidate_landing_need_not_be_unique_across_published_prose(self) -> None:
         docket, adjudication, packet = packet_fixture()
         response = response_for_packet(packet)
         landing = response["findings"][0]["landing_quote"]
         response["paragraphs"][1]["text"] += f" {landing}"
-        with self.assertRaisesRegex(ValidationError, "complete published prose"):
-            validate_synthesis_response(response, packet, docket, adjudication)
+        validate_synthesis_response(response, packet, docket, adjudication)
 
         response = response_for_packet(packet)
         selection = packet["selections"][0]
@@ -869,10 +868,9 @@ class SynthesisTests(unittest.TestCase):
         ].replace(normalized_landing, whitespace_variant)
         response["findings"][0]["landing_quote"] = whitespace_variant
         response["paragraphs"][1]["text"] += f" {normalized_landing}"
-        with self.assertRaisesRegex(ValidationError, "complete published prose"):
-            validate_synthesis_response(response, packet, docket, adjudication)
+        validate_synthesis_response(response, packet, docket, adjudication)
 
-    def test_overlapping_occurrences_do_not_count_as_a_unique_landing(self) -> None:
+    def test_overlapping_occurrences_are_valid_passage_pointers(self) -> None:
         docket = fixture_docket()
         adjudication_response = response_for_docket(docket, include_new=False)
         first = adjudication_response["decisions"][0]
@@ -886,8 +884,7 @@ class SynthesisTests(unittest.TestCase):
         response["paragraphs"][0]["text"] = response["paragraphs"][0][
             "text"
         ].replace(original, "abababa", 1)
-        with self.assertRaisesRegex(ValidationError, "exactly once in prose"):
-            validate_synthesis_response(response, packet, docket, adjudication)
+        validate_synthesis_response(response, packet, docket, adjudication)
 
     def test_friction_must_be_declared_complete(self) -> None:
         docket, adjudication, packet = packet_fixture()
