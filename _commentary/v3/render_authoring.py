@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import re
@@ -130,6 +131,28 @@ RECONCILIATION_SEMANTIC_FIELDS = (
     "reader_payoff",
     "containment",
     "epistemic_status",
+)
+ATX_HEADING_RE = re.compile(r"^(#{1,6})[ \t]+(.+?)[ \t]*#*[ \t]*$")
+SURPRISE_INDEX_ROW_RE = re.compile(
+    r"^[ \t]*-[ \t]+(surprise:[a-z0-9][a-z0-9_.:-]*)(?:[ \t]|$)"
+)
+READER_CORE_REASONS = (
+    "plain_reading",
+    "surprise_carrier",
+    "surprise_payoff",
+    "continuity",
+    "closure",
+)
+READER_DETAIL_KINDS = (
+    "language_and_structure",
+    "nearby_context",
+    "wider_connections",
+    "exploratory_reading",
+)
+READER_LABEL_FORBIDDEN_RE = re.compile(
+    r"\b(?:micro|macro|global|scope|workflow|candidate|finding|branch|support|"
+    r"hft|qac)\b|locked:|surprise:|root_[0-9]+/b[0-9]+",
+    re.IGNORECASE,
 )
 
 
@@ -1193,6 +1216,21 @@ def _invitation_paths(
     }
 
 
+def _reader_map_paths(
+    layout: AuthoringLayout, request_sha256: str
+) -> dict[str, Path]:
+    input_dir = layout.inputs / "reader-map" / request_sha256
+    output_dir = layout.outputs / "reader-map" / request_sha256
+    return {
+        "inventory": input_dir / "paragraph-inventory.json",
+        "prompt": input_dir / "prompt.md",
+        "manifest": input_dir / "manifest.json",
+        "response": output_dir / "reader-map.response.json",
+        "view": output_dir / f"{layout.stem}.reader-view.json",
+        "preview": output_dir / f"{layout.stem}.guided.preview.tr.md",
+    }
+
+
 def _session_receipt_path(
     layout: AuthoringLayout, conversation: str, generation: str
 ) -> Path:
@@ -1202,6 +1240,7 @@ def _session_receipt_path(
         "scope-global",
         "scope-reconciler",
         "canonical-writer",
+        "reader-map-writer",
         "invitation-writer",
     }:
         raise SystemExit(f"Unknown authoring conversation: {conversation}")
@@ -8783,6 +8822,7 @@ def _load_session_receipt(
         "scope-global": "scope-global-review",
         "scope-reconciler": "scope-reconcile",
         "canonical-writer": "canonical-merge",
+        "reader-map-writer": "reader-map",
         "invitation-writer": "invitation-summary",
     }[conversation]
     if (
@@ -9526,6 +9566,7 @@ def record_authoring_session(args: argparse.Namespace) -> dict[str, Any]:
         "scope-global": "scope-global-review",
         "scope-reconciler": "scope-reconcile",
         "canonical-writer": "canonical-merge",
+        "reader-map-writer": "reader-map",
         "invitation-writer": "invitation-summary",
     }[args.conversation]
     generation = manifest.get("authoring_request_sha256")
@@ -9948,6 +9989,584 @@ def _render_editorial(
     }
 
 
+def _editorial_surprise_rows(index_text: str) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for line in index_text.splitlines():
+        match = SURPRISE_INDEX_ROW_RE.match(line)
+        if match is None:
+            continue
+        surprise_ref = match.group(1)
+        if surprise_ref in seen:
+            raise SystemExit(
+                f"Editorial index repeats surprise ref: {surprise_ref}"
+            )
+        seen.add(surprise_ref)
+        rows.append({"surprise_ref": surprise_ref, "index_row": line.strip()})
+    return rows
+
+
+def _editorial_paragraph_inventory(
+    *,
+    ayah_ref: str,
+    editorial_prose: str,
+    editorial_index: str,
+    editorial_prose_sha256: str,
+    editorial_index_sha256: str,
+) -> dict[str, Any]:
+    """Assign stable movement and paragraph keys without rewriting Markdown."""
+
+    document_heading: dict[str, Any] | None = None
+    movements: list[dict[str, Any]] = []
+    paragraphs: list[dict[str, Any]] = []
+    current_movement: dict[str, Any] | None = None
+    paragraph_lines: list[str] = []
+
+    def start_movement(heading_match: re.Match[str] | None) -> dict[str, Any]:
+        movement_key = f"m{len(movements) + 1:03d}"
+        heading = (
+            None
+            if heading_match is None
+            else {
+                "level": len(heading_match.group(1)),
+                "text": heading_match.group(2).strip(),
+                "markdown": heading_match.group(0).strip(),
+            }
+        )
+        movement = {
+            "movement_key": movement_key,
+            "heading": heading,
+            "paragraph_keys": [],
+        }
+        movements.append(movement)
+        return movement
+
+    def flush_paragraph() -> None:
+        nonlocal current_movement, paragraph_lines
+        if not paragraph_lines:
+            return
+        paragraph_text = "\n".join(paragraph_lines)
+        if not paragraph_text.strip():
+            paragraph_lines = []
+            return
+        if current_movement is None:
+            current_movement = start_movement(None)
+        paragraph_key = f"p{len(paragraphs) + 1:03d}"
+        current_movement["paragraph_keys"].append(paragraph_key)
+        paragraphs.append(
+            {
+                "paragraph_key": paragraph_key,
+                "movement_key": current_movement["movement_key"],
+                "ordinal": len(paragraphs) + 1,
+                "text": paragraph_text,
+            }
+        )
+        paragraph_lines = []
+
+    for line in editorial_prose.splitlines():
+        if line.lstrip().startswith(("```", "~~~")):
+            raise SystemExit(
+                "Editorial prose contains a fenced block that cannot be mapped "
+                "as reader paragraphs"
+            )
+        heading_match = ATX_HEADING_RE.match(line.strip())
+        if heading_match is not None:
+            flush_paragraph()
+            is_document_heading = (
+                document_heading is None
+                and not movements
+                and not paragraphs
+                and len(heading_match.group(1)) == 1
+            )
+            if is_document_heading:
+                document_heading = {
+                    "level": 1,
+                    "text": heading_match.group(2).strip(),
+                    "markdown": heading_match.group(0).strip(),
+                }
+                continue
+            if (
+                current_movement is not None
+                and not current_movement["paragraph_keys"]
+            ):
+                raise SystemExit(
+                    "Editorial prose has a movement heading without prose"
+                )
+            current_movement = start_movement(heading_match)
+            continue
+        if not line.strip():
+            flush_paragraph()
+            continue
+        paragraph_lines.append(line)
+    flush_paragraph()
+    if current_movement is not None and not current_movement["paragraph_keys"]:
+        raise SystemExit("Editorial prose ends with an empty movement")
+    if not paragraphs:
+        raise SystemExit("Editorial prose has no mappable paragraphs")
+
+    return {
+        "schema_version": "commentary-v3-editorial-paragraph-inventory-v1",
+        "identity": {
+            "ayah_ref": ayah_ref,
+            "editorial_prose_sha256": editorial_prose_sha256,
+            "editorial_index_sha256": editorial_index_sha256,
+        },
+        "document_heading": document_heading,
+        "movements": movements,
+        "paragraphs": paragraphs,
+        "surprise_rows": _editorial_surprise_rows(editorial_index),
+    }
+
+
+def _render_reader_map(
+    args: argparse.Namespace,
+    editorial_result: dict[str, Any],
+    editorial_receipt: dict[str, Any],
+) -> dict[str, Any]:
+    """Render a fresh presentation-mapping handoff from editorial artifacts."""
+
+    layout = _authoring_layout(args.ayah)
+    editorial_outputs = {
+        key: Path(value) for key, value in editorial_result["outputs"].items()
+    }
+    prose_path = _required_confined_file(
+        layout.outputs,
+        editorial_outputs["prose"],
+        label="editorial prose reader-map source",
+    )
+    index_path = _required_confined_file(
+        layout.outputs,
+        editorial_outputs["index"],
+        label="editorial index reader-map source",
+    )
+    try:
+        prose_payload = prose_path.read_bytes()
+        index_payload = index_path.read_bytes()
+        editorial_prose = prose_payload.decode("utf-8")
+        editorial_index = index_payload.decode("utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise SystemExit(f"Cannot read reader-map source artifacts: {exc}") from exc
+
+    prose_sha256 = _sha256_bytes(prose_payload)
+    index_sha256 = _sha256_bytes(index_payload)
+    inventory = _editorial_paragraph_inventory(
+        ayah_ref=args.ayah,
+        editorial_prose=editorial_prose,
+        editorial_index=editorial_index,
+        editorial_prose_sha256=prose_sha256,
+        editorial_index_sha256=index_sha256,
+    )
+    inventory_sha256 = _sha256_json(inventory)
+    template = _read_prompt("reader-map.md")
+    template_sha256 = _sha256_bytes(template.encode("utf-8"))
+    editorial_receipt_path = Path(editorial_result["receipt"])
+    editorial_receipt_payload = _required_confined_file(
+        layout.outputs,
+        editorial_receipt_path,
+        label="editorial receipt reader-map source",
+    ).read_bytes()
+    request_inputs = {
+        "ayah_ref": args.ayah,
+        "template_sha256": template_sha256,
+        "editorial_request_sha256": editorial_result["request_sha256"],
+        "editorial_receipt_sha256": _sha256_bytes(editorial_receipt_payload),
+        "editorial_outputs_sha256": _sha256_json(editorial_receipt["outputs"]),
+        "editorial_prose_sha256": prose_sha256,
+        "editorial_index_sha256": index_sha256,
+        "paragraph_inventory_sha256": inventory_sha256,
+    }
+    request_sha256 = _request_sha256("reader-map", request_inputs)
+    paths = _reader_map_paths(layout, request_sha256)
+    prompt = _render(
+        template,
+        {
+            "@@AYAH_REF@@": args.ayah,
+            "@@EDITORIAL_PROSE_SHA256@@": prose_sha256,
+            "@@EDITORIAL_INDEX_SHA256@@": index_sha256,
+            "@@PARAGRAPH_INVENTORY_SHA256@@": inventory_sha256,
+            "@@PARAGRAPH_INVENTORY_JSON@@": _canonical_json(inventory),
+            "@@EDITORIAL_INDEX@@": editorial_index,
+        },
+        label="reader map",
+    )
+    manifest = _prompt_manifest(
+        stage="reader-map",
+        ayah_ref=args.ayah,
+        prompt=prompt,
+        expected_response=paths["response"],
+        authoring_request_sha256=request_sha256,
+        inputs=request_inputs,
+    )
+    _write(V3_ROOT, paths["inventory"], _canonical_json(inventory) + "\n")
+    _write(V3_ROOT, paths["prompt"], prompt)
+    _write(V3_ROOT, paths["manifest"], _pretty_json(manifest))
+    return {
+        "ayah_ref": args.ayah,
+        "request_sha256": request_sha256,
+        "inventory": str(paths["inventory"]),
+        "prompt": str(paths["prompt"]),
+        "manifest": str(paths["manifest"]),
+        "expected_response": str(paths["response"]),
+        "view": str(paths["view"]),
+        "preview": str(paths["preview"]),
+    }
+
+
+def _reader_exact_fields(
+    value: Any, expected: set[str], *, label: str
+) -> dict[str, Any]:
+    if not isinstance(value, dict) or set(value) != expected:
+        actual = sorted(value) if isinstance(value, dict) else type(value).__name__
+        raise SystemExit(
+            f"{label} fields disagree with contract; expected={sorted(expected)}, "
+            f"actual={actual}"
+        )
+    return value
+
+
+def _validated_reader_map_response(
+    layout: AuthoringLayout,
+    reader_map_result: dict[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    inventory_path = _required_confined_file(
+        layout.inputs,
+        Path(reader_map_result["inventory"]),
+        label="reader-map paragraph inventory",
+    )
+    manifest_path = _required_confined_file(
+        layout.inputs,
+        Path(reader_map_result["manifest"]),
+        label="reader-map prompt manifest",
+    )
+    response_path = _required_confined_file(
+        layout.outputs,
+        Path(reader_map_result["expected_response"]),
+        label="reader-map response",
+    )
+    inventory = _load_object(inventory_path)
+    manifest = _load_object(manifest_path)
+    response = _load_object(response_path)
+    if (
+        manifest.get("stage") != "reader-map"
+        or manifest.get("ayah_ref") != layout.ayah_ref
+        or manifest.get("authoring_request_sha256")
+        != reader_map_result["request_sha256"]
+        or manifest.get("expected_response") != _manifest_path(response_path)
+    ):
+        raise SystemExit("Reader-map response is not bound to its exact manifest")
+    prompt_path = _required_confined_file(
+        layout.inputs,
+        manifest_path.with_name("prompt.md"),
+        label="reader-map prompt",
+    )
+    prompt_payload = prompt_path.read_bytes()
+    if (
+        manifest.get("prompt_sha256") != _sha256_bytes(prompt_payload)
+        or manifest.get("prompt_bytes") != len(prompt_payload)
+    ):
+        raise SystemExit("Reader-map prompt does not match its manifest")
+    request_inputs = manifest.get("inputs")
+    if not isinstance(request_inputs, dict):
+        raise SystemExit("Reader-map manifest lacks bound inputs")
+    if _sha256_json(inventory) != request_inputs.get(
+        "paragraph_inventory_sha256"
+    ):
+        raise SystemExit("Reader-map paragraph inventory hash is stale")
+
+    _reader_exact_fields(
+        response,
+        {"schema_version", "identity", "blocks"},
+        label="reader-map response",
+    )
+    if response.get("schema_version") != "commentary-v3-reader-map-response-v1":
+        raise SystemExit("Reader-map response schema version is stale or invalid")
+    identity = _reader_exact_fields(
+        response.get("identity"),
+        {
+            "ayah_ref",
+            "editorial_prose_sha256",
+            "editorial_index_sha256",
+            "paragraph_inventory_sha256",
+            "prompt_sha256",
+        },
+        label="reader-map identity",
+    )
+    expected_identity = {
+        "ayah_ref": layout.ayah_ref,
+        "editorial_prose_sha256": request_inputs.get(
+            "editorial_prose_sha256"
+        ),
+        "editorial_index_sha256": request_inputs.get(
+            "editorial_index_sha256"
+        ),
+        "paragraph_inventory_sha256": request_inputs.get(
+            "paragraph_inventory_sha256"
+        ),
+        "prompt_sha256": manifest["prompt_sha256"],
+    }
+    if identity != expected_identity:
+        raise SystemExit("Reader-map response identity is stale or inconsistent")
+
+    paragraphs = inventory.get("paragraphs")
+    movements = inventory.get("movements")
+    surprise_rows = inventory.get("surprise_rows")
+    if (
+        not isinstance(paragraphs, list)
+        or not paragraphs
+        or any(not isinstance(item, dict) for item in paragraphs)
+        or not isinstance(movements, list)
+        or not movements
+        or any(not isinstance(item, dict) for item in movements)
+        or not isinstance(surprise_rows, list)
+        or any(not isinstance(item, dict) for item in surprise_rows)
+    ):
+        raise SystemExit("Reader-map paragraph inventory is malformed")
+    paragraph_keys = [item.get("paragraph_key") for item in paragraphs]
+    if any(not isinstance(key, str) for key in paragraph_keys) or len(
+        set(paragraph_keys)
+    ) != len(paragraph_keys):
+        raise SystemExit("Reader-map paragraph inventory has invalid keys")
+    paragraph_movements = {
+        item["paragraph_key"]: item.get("movement_key") for item in paragraphs
+    }
+    movement_keys = [item.get("movement_key") for item in movements]
+    if any(not isinstance(key, str) for key in movement_keys) or len(
+        set(movement_keys)
+    ) != len(movement_keys):
+        raise SystemExit("Reader-map paragraph inventory has invalid movements")
+    surprise_refs = [item.get("surprise_ref") for item in surprise_rows]
+    if any(not isinstance(ref, str) for ref in surprise_refs) or len(
+        set(surprise_refs)
+    ) != len(surprise_refs):
+        raise SystemExit("Reader-map paragraph inventory has invalid surprises")
+
+    blocks = response.get("blocks")
+    if not isinstance(blocks, list) or not blocks:
+        raise SystemExit("Reader-map response has no blocks")
+    flattened_paragraphs: list[str] = []
+    mapped_surprises: set[str] = set()
+    first_block_by_movement: dict[str, str] = {}
+    roles: list[str] = []
+    for index, raw_block in enumerate(blocks, 1):
+        block = _reader_exact_fields(
+            raw_block,
+            {
+                "block_key",
+                "movement_key",
+                "paragraph_keys",
+                "role",
+                "core_reasons",
+                "detail_kinds",
+                "label_tr",
+                "surprise_refs",
+            },
+            label=f"reader-map block {index}",
+        )
+        expected_block_key = f"b{index:03d}"
+        if block.get("block_key") != expected_block_key:
+            raise SystemExit(
+                f"Reader-map block order is not canonical at {expected_block_key}"
+            )
+        movement_key = block.get("movement_key")
+        if movement_key not in movement_keys:
+            raise SystemExit(f"Reader-map block cites unknown movement: {movement_key}")
+        block_paragraphs = block.get("paragraph_keys")
+        if (
+            not isinstance(block_paragraphs, list)
+            or not block_paragraphs
+            or any(not isinstance(key, str) for key in block_paragraphs)
+            or len(set(block_paragraphs)) != len(block_paragraphs)
+        ):
+            raise SystemExit(f"Reader-map {expected_block_key} has invalid paragraphs")
+        if any(
+            paragraph_movements.get(key) != movement_key
+            for key in block_paragraphs
+        ):
+            raise SystemExit(
+                f"Reader-map {expected_block_key} crosses movements or cites "
+                "unknown paragraphs"
+            )
+        flattened_paragraphs.extend(block_paragraphs)
+        role = block.get("role")
+        core_reasons = block.get("core_reasons")
+        detail_kinds = block.get("detail_kinds")
+        block_surprises = block.get("surprise_refs")
+        label_tr = block.get("label_tr")
+        if (
+            role not in {"core", "detail"}
+            or not isinstance(core_reasons, list)
+            or len(set(core_reasons)) != len(core_reasons)
+            or any(reason not in READER_CORE_REASONS for reason in core_reasons)
+            or not isinstance(detail_kinds, list)
+            or len(set(detail_kinds)) != len(detail_kinds)
+            or any(kind not in READER_DETAIL_KINDS for kind in detail_kinds)
+            or not isinstance(block_surprises, list)
+            or len(set(block_surprises)) != len(block_surprises)
+            or any(ref not in surprise_refs for ref in block_surprises)
+        ):
+            raise SystemExit(f"Reader-map {expected_block_key} has invalid roles")
+        roles.append(role)
+        first_block_by_movement.setdefault(movement_key, role)
+        if role == "core":
+            if not core_reasons or detail_kinds or label_tr is not None:
+                raise SystemExit(
+                    f"Reader-map core block {expected_block_key} has detail fields"
+                )
+            if block_surprises and not (
+                {"surprise_carrier", "surprise_payoff"} & set(core_reasons)
+            ):
+                raise SystemExit(
+                    f"Reader-map {expected_block_key} maps a surprise without a "
+                    "surprise core reason"
+                )
+            mapped_surprises.update(block_surprises)
+        else:
+            if core_reasons or not detail_kinds or block_surprises:
+                raise SystemExit(
+                    f"Reader-map detail block {expected_block_key} has core fields"
+                )
+            if (
+                not isinstance(label_tr, str)
+                or label_tr != label_tr.strip()
+                or not label_tr
+                or "\n" in label_tr
+                or len(label_tr) > 160
+                or READER_LABEL_FORBIDDEN_RE.search(label_tr)
+            ):
+                raise SystemExit(
+                    f"Reader-map detail block {expected_block_key} has an invalid label"
+                )
+    if flattened_paragraphs != paragraph_keys:
+        raise SystemExit(
+            "Reader-map blocks do not preserve exact paragraph coverage and order"
+        )
+    if any(first_block_by_movement.get(key) != "core" for key in movement_keys):
+        raise SystemExit("Every reader-map movement must begin with a core block")
+    if roles[0] != "core" or roles[-1] != "core":
+        raise SystemExit("Reader-map opening and closing blocks must be core")
+    all_core_reasons = {
+        reason
+        for block in blocks
+        if block["role"] == "core"
+        for reason in block["core_reasons"]
+    }
+    if "plain_reading" not in all_core_reasons or "closure" not in all_core_reasons:
+        raise SystemExit("Reader-map core must preserve plain reading and closure")
+    if mapped_surprises != set(surprise_refs):
+        raise SystemExit(
+            "Reader-map core surprise coverage is not exact; "
+            f"missing={sorted(set(surprise_refs) - mapped_surprises)}"
+        )
+    return response, inventory
+
+
+def _reader_view_artifact(
+    response: dict[str, Any], inventory: dict[str, Any]
+) -> dict[str, Any]:
+    paragraph_by_key = {
+        item["paragraph_key"]: item for item in inventory["paragraphs"]
+    }
+    blocks_by_movement: dict[str, list[dict[str, Any]]] = {
+        item["movement_key"]: [] for item in inventory["movements"]
+    }
+    for block in response["blocks"]:
+        blocks_by_movement[block["movement_key"]].append(
+            {
+                **block,
+                "paragraphs": [
+                    {
+                        "paragraph_key": paragraph_key,
+                        "text": paragraph_by_key[paragraph_key]["text"],
+                    }
+                    for paragraph_key in block["paragraph_keys"]
+                ],
+            }
+        )
+    core_blocks = [block for block in response["blocks"] if block["role"] == "core"]
+    detail_blocks = [
+        block for block in response["blocks"] if block["role"] == "detail"
+    ]
+    surprise_refs = [
+        item["surprise_ref"] for item in inventory["surprise_rows"]
+    ]
+    return {
+        "schema_version": "commentary-v3-reader-view-v1",
+        "identity": {
+            **response["identity"],
+            "reader_map_response_sha256": _sha256_json(response),
+        },
+        "document_heading": inventory["document_heading"],
+        "movements": [
+            {
+                "movement_key": movement["movement_key"],
+                "heading": movement["heading"],
+                "blocks": blocks_by_movement[movement["movement_key"]],
+            }
+            for movement in inventory["movements"]
+        ],
+        "coverage": {
+            "movement_count": len(inventory["movements"]),
+            "paragraph_count": len(inventory["paragraphs"]),
+            "block_count": len(response["blocks"]),
+            "core_block_count": len(core_blocks),
+            "detail_block_count": len(detail_blocks),
+            "core_paragraph_count": sum(
+                len(block["paragraph_keys"]) for block in core_blocks
+            ),
+            "detail_paragraph_count": sum(
+                len(block["paragraph_keys"]) for block in detail_blocks
+            ),
+            "available_detail_kinds": [
+                kind
+                for kind in READER_DETAIL_KINDS
+                if any(kind in block["detail_kinds"] for block in detail_blocks)
+            ],
+            "surprise_refs": surprise_refs,
+            "all_surprises_land_in_core": True,
+        },
+    }
+
+
+def _reader_view_preview(view: dict[str, Any]) -> str:
+    rendered: list[str] = []
+    document_heading = view.get("document_heading")
+    if isinstance(document_heading, dict):
+        rendered.append(document_heading["markdown"])
+    for movement in view["movements"]:
+        heading = movement.get("heading")
+        if isinstance(heading, dict):
+            rendered.append(heading["markdown"])
+        for block in movement["blocks"]:
+            paragraphs = [item["text"] for item in block["paragraphs"]]
+            if block["role"] == "core":
+                rendered.extend(paragraphs)
+                continue
+            label = html.escape(block["label_tr"], quote=False)
+            rendered.append(
+                "<details>\n"
+                f"<summary>{label}</summary>\n\n"
+                + "\n\n".join(paragraphs)
+                + "\n\n</details>"
+            )
+    return "\n\n".join(rendered) + "\n"
+
+
+def _materialize_reader_view(
+    layout: AuthoringLayout, reader_map_result: dict[str, Any]
+) -> dict[str, Path]:
+    response, inventory = _validated_reader_map_response(
+        layout, reader_map_result
+    )
+    view = _reader_view_artifact(response, inventory)
+    view_path = Path(reader_map_result["view"])
+    preview_path = Path(reader_map_result["preview"])
+    _assert_output_path(layout, view_path, label="reader view")
+    _assert_output_path(layout, preview_path, label="guided preview")
+    _write(V3_ROOT, view_path, _pretty_json(view))
+    _write(V3_ROOT, preview_path, _reader_view_preview(view))
+    return {"structured": view_path, "guided_preview": preview_path}
+
+
 def _render_invitation(
     args: argparse.Namespace,
     editorial_result: dict[str, Any],
@@ -10120,6 +10739,8 @@ def _authoring_completion(
     lineage_paths: list[Path],
     first_pass_outputs: dict[str, Path],
     editorial_outputs: dict[str, Path],
+    reader_view_outputs: dict[str, Path],
+    reader_map_session_path: Path,
     invitation_output: Path,
     invitation_session_path: Path,
     merge_receipt_path: Path,
@@ -10155,6 +10776,7 @@ def _authoring_completion(
     for phase, outputs in (
         ("first_pass", first_pass_outputs),
         ("editorial", editorial_outputs),
+        ("reader_view", reader_view_outputs),
         ("invitation", {"summary": invitation_output}),
     ):
         for key, path in outputs.items():
@@ -10169,7 +10791,7 @@ def _authoring_completion(
             }
 
     completion = {
-        "schema_version": "commentary-v3-authoring-completion-v3",
+        "schema_version": "commentary-v3-authoring-completion-v4",
         "ayah_ref": ayah_ref,
         "transport": {
             "prompt_delivery": "absolute_path_only",
@@ -10179,6 +10801,12 @@ def _authoring_completion(
         "phase_receipts": {
             "canonical_merge": _manifest_path(merge_receipt_path),
             "canonical_editorial": _manifest_path(editorial_receipt_path),
+        },
+        "reader_map": {
+            "fresh_session_receipt": _manifest_path(reader_map_session_path),
+            "semantic_authority": "presentation_mapping_only",
+            "may_change_editorial_prose": False,
+            "may_change_findings": False,
         },
         "invitation_summary": {
             "fresh_session_receipt": _manifest_path(invitation_session_path),
@@ -10201,7 +10829,7 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
     layout = _authoring_layout(args.ayah)
     scope_result = _render_scopes(args)
     common = {
-        "schema_version": "commentary-v3-authoring-workflow-status-v3",
+        "schema_version": "commentary-v3-authoring-workflow-status-v4",
         "ayah_ref": args.ayah,
         "canonical_paths": {
             "inputs": str(layout.inputs),
@@ -11026,6 +11654,47 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
             ],
         }
 
+    reader_map_result = _render_reader_map(
+        args, editorial_result, editorial_receipt
+    )
+    reader_map_inventory = Path(reader_map_result["inventory"])
+    reader_map_prompt = Path(reader_map_result["prompt"])
+    reader_map_manifest = Path(reader_map_result["manifest"])
+    reader_map_response = Path(reader_map_result["expected_response"])
+    lineage_paths.extend(
+        [reader_map_inventory, reader_map_prompt, reader_map_manifest]
+    )
+    if _optional_confined_file(
+        layout.outputs, reader_map_response, label="reader-map response"
+    ) is None:
+        return {
+            **common,
+            "status": "waiting_for_agent",
+            "stage": "reader_map",
+            "handoffs": [
+                _generated_prompt_handoff(
+                    layout,
+                    role="reader_presentation_mapper",
+                    conversation="reader-map-writer",
+                    conversation_generation=reader_map_result[
+                        "request_sha256"
+                    ],
+                    prompt_path=reader_map_prompt,
+                    manifest_path=reader_map_manifest,
+                    expected_response=reader_map_response,
+                )
+            ],
+        }
+    reader_map_session, reader_map_session_path = _load_session_receipt(
+        layout, "reader-map-writer", reader_map_result["request_sha256"]
+    )
+    if reader_map_session is None:
+        raise SystemExit(
+            "Reader-map response exists without its persisted fresh-agent session"
+        )
+    reader_view_outputs = _materialize_reader_view(layout, reader_map_result)
+    lineage_paths.extend([reader_map_response, reader_map_session_path])
+
     invitation_result = _render_invitation(
         args, editorial_result, editorial_receipt
     )
@@ -11105,6 +11774,8 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
         lineage_paths,
         first_pass_outputs,
         editorial_outputs,
+        reader_view_outputs,
+        reader_map_session_path,
         invitation_output,
         invitation_session_path,
         merge_receipt_path,
@@ -11222,6 +11893,7 @@ def _build_parser() -> argparse.ArgumentParser:
             "scope-global",
             "scope-reconciler",
             "canonical-writer",
+            "reader-map-writer",
             "invitation-writer",
         ),
     )

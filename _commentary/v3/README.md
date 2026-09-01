@@ -59,7 +59,10 @@ accepting its output. Scope prose and repair follow-ups resume their
 corresponding scope sessions, while the verbatim canonical editorial follow-up
 resumes the canonical merge writer. A final invitation summary starts a fresh
 read-only conversation that receives only the editorial prose and findings
-index. Ephemeral sessions are forbidden.
+index. Before it, a separate fresh reader-map conversation receives a
+deterministic paragraph inventory and the same index, classifies existing prose
+into core and expandable detail blocks, and has no authority to rewrite either
+the prose or the findings. Ephemeral sessions are forbidden.
 
 Structured responses prefer read-only workers and the executor's native atomic
 final-response capture. The approved native multi-agent adapter is an explicit
@@ -101,9 +104,12 @@ The stage order is:
    conversation, producing four editorial counterparts;
 7. explicit merge and editorial turn receipts binding the persistent writer
    session, request, prompt, ordered phase, and exact output hashes;
-8. one fresh invitation writer receiving only editorial prose and index and
+8. one fresh reader-map worker classifying the unchanged editorial paragraphs
+   into a coherent core path and typed expandable detail blocks, followed by
+   deterministic structured and collapsible reader-view rendering;
+9. one fresh invitation writer receiving only editorial prose and index and
    producing a short reader-facing invitation with no finding-coverage duty;
-9. a deterministic completion manifest binding every artifact in the active
+10. a deterministic completion manifest binding every artifact in the active
    lineage and every final file by path, byte count, and SHA-256. Superseded
    content-addressed generations remain immutable and stageable but are not
    asserted as active lineage.
@@ -164,9 +170,11 @@ surface accounting, accepted-to-locked finding conservation, reconciliation-
 repair semantic preservation, path confinement, symlinks, persistent-session
 continuity, canonical-writer Git-visible workspace guards, ordered turn
 receipts, exact locked-ref coverage in both canonical indexes and evidence
-files, explicit-apparatus exclusion in the invitation, and exact output hashes.
-The invitation is a reader derivative, not a new semantic authority: it neither
-adds a locked-finding coverage requirement nor changes editorial artifacts.
+files, exact paragraph coverage and order in the reader map, core landing for
+every indexed holistic surprise, explicit-apparatus exclusion in the
+invitation, and exact output hashes. The reader map and invitation are reader
+derivatives, not new semantic authorities: neither changes editorial artifacts
+or findings, and the invitation adds no locked-finding coverage requirement.
 These are loss-prevention checks, not prose gates. The workflow deliberately
 does not impose prose length, paragraph, finding-density, thesis, or stylistic
 schema requirements. Missing, stale, malformed, escaped, partial, or

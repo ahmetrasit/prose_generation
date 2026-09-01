@@ -142,6 +142,7 @@ def _build_parser() -> argparse.ArgumentParser:
             "scope-global",
             "scope-reconciler",
             "canonical-writer",
+            "reader-map-writer",
             "invitation-writer",
         ),
     )

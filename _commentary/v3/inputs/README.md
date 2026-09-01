@@ -9,10 +9,11 @@ The v3 CLI writes typed, deterministic model inputs here:
 - `authoring/sNNN/S_A/`: content-addressed hermetic micro, macro, global,
   reconciliation, repair, prose-follow-up, genuine prose-rewrite, merge, and
   verbatim editorial prompts for one ayah, plus canonical-writer pre-turn
-  workspace guards. Embedded JSON is canonical and minified; no evidence is
-  sampled or semantically compressed. Native multi-agent orchestration may pass
-  the paired expected response/output path beside the prompt path, but must not
-  inline or summarize prompt contents.
+  workspace guards and content-addressed reader-map paragraph inventories,
+  prompts, and manifests. Embedded JSON is canonical and minified; no evidence
+  is sampled or semantically compressed. Native multi-agent orchestration may
+  pass the paired expected response/output path beside the prompt path, but
+  must not inline or summarize prompt contents.
 
 Quarantined evidence is retained only in `prepared/` and is never copied into a
 model docket.

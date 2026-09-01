@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v3-reader-view-v1",
+  "title": "Commentary v3 reader view",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "identity",
+    "document_heading",
+    "movements",
+    "coverage"
+  ],
+  "properties": {
+    "schema_version": {"const": "commentary-v3-reader-view-v1"},
+    "identity": {"$ref": "#/$defs/identity"},
+    "document_heading": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/heading"}
+      ]
+    },
+    "movements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/movement"}
+    },
+    "coverage": {"$ref": "#/$defs/coverage"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "identity": {
+      "type": "object",
+      "required": [
+        "ayah_ref",
+        "editorial_prose_sha256",
+        "editorial_index_sha256",
+        "paragraph_inventory_sha256",
+        "prompt_sha256",
+        "reader_map_response_sha256"
+      ],
+      "properties": {
+        "ayah_ref": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+        },
+        "editorial_prose_sha256": {"$ref": "#/$defs/sha256"},
+        "editorial_index_sha256": {"$ref": "#/$defs/sha256"},
+        "paragraph_inventory_sha256": {"$ref": "#/$defs/sha256"},
+        "prompt_sha256": {"$ref": "#/$defs/sha256"},
+        "reader_map_response_sha256": {"$ref": "#/$defs/sha256"}
+      },
+      "additionalProperties": false
+    },
+    "heading": {
+      "type": "object",
+      "required": ["level", "text", "markdown"],
+      "properties": {
+        "level": {"type": "integer", "minimum": 1, "maximum": 6},
+        "text": {"type": "string", "minLength": 1},
+        "markdown": {"type": "string", "pattern": "^#{1,6}[ \\t]+"}
+      },
+      "additionalProperties": false
+    },
+    "paragraph": {
+      "type": "object",
+      "required": ["paragraph_key", "text"],
+      "properties": {
+        "paragraph_key": {"type": "string", "pattern": "^p[0-9]{3,}$"},
+        "text": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "block": {
+      "type": "object",
+      "required": [
+        "block_key",
+        "movement_key",
+        "paragraph_keys",
+        "role",
+        "core_reasons",
+        "detail_kinds",
+        "label_tr",
+        "surprise_refs",
+        "paragraphs"
+      ],
+      "properties": {
+        "block_key": {"type": "string", "pattern": "^b[0-9]{3,}$"},
+        "movement_key": {"type": "string", "pattern": "^m[0-9]{3,}$"},
+        "paragraph_keys": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^p[0-9]{3,}$"}
+        },
+        "role": {"enum": ["core", "detail"]},
+        "core_reasons": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "plain_reading",
+              "surprise_carrier",
+              "surprise_payoff",
+              "continuity",
+              "closure"
+            ]
+          }
+        },
+        "detail_kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "language_and_structure",
+              "nearby_context",
+              "wider_connections",
+              "exploratory_reading"
+            ]
+          }
+        },
+        "label_tr": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "string", "minLength": 1, "maxLength": 160}
+          ]
+        },
+        "surprise_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^surprise:[a-z0-9][a-z0-9_.:-]*$"
+          }
+        },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/paragraph"}
+        }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"role": {"const": "core"}}},
+          "then": {
+            "properties": {
+              "core_reasons": {"minItems": 1},
+              "detail_kinds": {"maxItems": 0},
+              "label_tr": {"type": "null"}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"role": {"const": "detail"}}},
+          "then": {
+            "properties": {
+              "core_reasons": {"maxItems": 0},
+              "detail_kinds": {"minItems": 1},
+              "label_tr": {"type": "string", "minLength": 1},
+              "surprise_refs": {"maxItems": 0}
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "movement": {
+      "type": "object",
+      "required": ["movement_key", "heading", "blocks"],
+      "properties": {
+        "movement_key": {"type": "string", "pattern": "^m[0-9]{3,}$"},
+        "heading": {
+          "oneOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/heading"}
+          ]
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/block"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "movement_count",
+        "paragraph_count",
+        "block_count",
+        "core_block_count",
+        "detail_block_count",
+        "core_paragraph_count",
+        "detail_paragraph_count",
+        "available_detail_kinds",
+        "surprise_refs",
+        "all_surprises_land_in_core"
+      ],
+      "properties": {
+        "movement_count": {"type": "integer", "minimum": 1},
+        "paragraph_count": {"type": "integer", "minimum": 1},
+        "block_count": {"type": "integer", "minimum": 1},
+        "core_block_count": {"type": "integer", "minimum": 1},
+        "detail_block_count": {"type": "integer", "minimum": 0},
+        "core_paragraph_count": {"type": "integer", "minimum": 1},
+        "detail_paragraph_count": {"type": "integer", "minimum": 0},
+        "available_detail_kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "language_and_structure",
+              "nearby_context",
+              "wider_connections",
+              "exploratory_reading"
+            ]
+          }
+        },
+        "surprise_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^surprise:[a-z0-9][a-z0-9_.:-]*$"
+          }
+        },
+        "all_surprises_land_in_core": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  }
+}

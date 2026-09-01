@@ -6,12 +6,13 @@ The v3 workflow accepts model responses only in typed paths beneath this tree:
 - `synthesis/sNNN/`: raw synthesis responses and validated synthesis manifests;
 - `sNNN/`: deterministically rendered prose, evidence, index, and friction files.
 - `authoring/sNNN/S_A/`: content-addressed scope responses, repairs, prose
-  drafts and genuine rewrites, canonical/editorial outputs, persistent-session
-  receipts, ordered turn receipts, and active-lineage completion manifests for
-  the prose-first workflow. Under native multi-agent orchestration, workers
-  write their own response and prose-output files at these exact paths; the
-  orchestrator records sessions and receipts but does not copy or edit worker
-  artifacts.
+  drafts and genuine rewrites, canonical/editorial outputs, reader-map
+  responses, deterministic structured reader views and collapsible previews,
+  invitation summaries, persistent-session receipts, ordered turn receipts,
+  and active-lineage completion manifests for the prose-first workflow. Under
+  native multi-agent orchestration, workers write their own response and
+  prose-output files at these exact paths; the orchestrator records sessions
+  and receipts but does not copy or edit worker artifacts.
 
 Validators bind every response to the exact prompt manifest as well as source,
 docket, adjudication, and packet hashes before a later stage may consume it.
