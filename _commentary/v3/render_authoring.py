@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 from pathlib import Path
 from typing import Any
@@ -22,12 +23,19 @@ V3_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = V3_ROOT.parents[1]
 PROMPTS_ROOT = V3_ROOT / "prompts"
 DEFAULT_INTER_AYAH_DIR = (
-    REPO_ROOT.parent / "quran-data" / "data" / "analysis" / "inter-ayah"
+    REPO_ROOT.parent
+    / "quran-data"
+    / "data"
+    / "analysis"
+    / "inter-ayah"
+    / "reciprocal"
 )
+DEFAULT_INTER_AYAH_PARENT_DIR = DEFAULT_INTER_AYAH_DIR.parent
 DEFAULT_QURAN_TEXT = (
     REPO_ROOT.parent / "quran-data" / "data" / "text" / "quran-uthmani.tsv"
 )
 LANES = ("micro", "macro", "global")
+MAX_QURAN_AYAH_COUNT_PER_SURAH = 286
 HFT_RECORD_FIELDS = (
     ("baseline_models", "baseline_model", "model_id"),
     ("context_deltas", "context_delta", "model_id"),
@@ -44,6 +52,33 @@ INTER_AYAH_LABELS = {
 MEANINGFUL_INTER_AYAH_LABELS = INTER_AYAH_LABELS - {"no value", "reject"}
 INTER_AYAH_FILE_RE = re.compile(
     r"focus_([1-9][0-9]*)_([1-9][0-9]*)_cutoff_100\.tsv"
+)
+INTER_AYAH_SINGLE_REF_RE = re.compile(r"[1-9][0-9]*:[1-9][0-9]*")
+INTER_AYAH_RANGE_REF_RE = re.compile(
+    r"([1-9][0-9]*):([1-9][0-9]*)-([1-9][0-9]*)"
+)
+INTER_AYAH_RECORD_TYPES = {
+    "directional_review",
+    "reciprocal_nomination",
+    "reciprocal_counterevidence",
+    "self_reiteration",
+}
+INTER_AYAH_COLUMNS = (
+    "record_type",
+    "focus_ref",
+    "target_ref",
+    "focus_direction_label",
+    "source_direction_label",
+    "source_focus_ref",
+    "source_target_ref",
+    "source_target_component_ref",
+    "relation_scope",
+    "source_column_order",
+    "source_row_role",
+    "source_note",
+    "source_file",
+    "source_line",
+    "source_row_sha256",
 )
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 ALLOWED_RUN_ROOTS = (
@@ -155,89 +190,659 @@ def _quran_text_evidence(
     }
 
 
-def _reciprocal_connection_evidence(
-    focus_ref: str, source_dir: Path
-) -> tuple[dict[str, list[dict[str, Any]]], dict[str, Any]]:
+def _source_target_components(source_target_ref: str) -> tuple[str, ...]:
+    if INTER_AYAH_SINGLE_REF_RE.fullmatch(source_target_ref):
+        return (source_target_ref,)
+    match = INTER_AYAH_RANGE_REF_RE.fullmatch(source_target_ref)
+    if match is None:
+        return ()
+    source_surah, first, last = map(int, match.groups())
+    if (
+        first > last
+        or last - first + 1 > MAX_QURAN_AYAH_COUNT_PER_SURAH
+    ):
+        return ()
+    return tuple(f"{source_surah}:{ayah}" for ayah in range(first, last + 1))
+
+
+def _inter_ayah_projection(
+    focus_ref: str,
+    source_dir: Path,
+    directional_source_dir: Path,
+) -> tuple[
+    list[dict[str, Any]],
+    dict[str, list[dict[str, Any]]],
+    dict[str, Any],
+]:
     try:
         source_dir = source_dir.resolve(strict=True)
     except OSError as exc:
         raise SystemExit(
-            f"Cannot resolve reciprocal inter-ayah source directory {source_dir}: {exc}"
+            f"Cannot resolve inter-ayah projection directory {source_dir}: {exc}"
         ) from exc
     if not source_dir.is_dir():
-        raise SystemExit(f"Reciprocal inter-ayah source is not a directory: {source_dir}")
+        raise SystemExit(f"Inter-ayah projection is not a directory: {source_dir}")
+    directional_source_dir = Path(os.path.abspath(directional_source_dir))
+    directional_source_available = directional_source_dir.is_dir()
+    pointer_warnings = (
+        []
+        if directional_source_available
+        else [
+            "The manifest-bound projection is complete, but its configured "
+            "directional parent is unavailable for source-pointer "
+            f"dereferencing: {directional_source_dir}"
+        ]
+    )
 
-    focus_surah = focus_ref.split(":", 1)[0]
-    by_origin: dict[str, list[dict[str, Any]]] = {}
-    scanned_documents = 0
-    matched_rows = 0
-    for path in sorted(source_dir.glob("focus_*_cutoff_100.tsv")):
-        match = INTER_AYAH_FILE_RE.fullmatch(path.name)
-        if match is None:
-            continue
-        scanned_documents += 1
-        origin_ref = f"{int(match.group(1))}:{int(match.group(2))}"
-        if origin_ref == focus_ref:
-            continue
-        try:
-            lines = path.read_text(encoding="utf-8").splitlines()
-        except OSError as exc:
-            raise SystemExit(f"Cannot read reciprocal source {path}: {exc}") from exc
-        for line_number, line in enumerate(lines, 1):
-            if not line:
-                continue
-            parts = line.split("\t", 2)
-            if len(parts) != 3:
-                continue
-            label, target_ref, note = parts
-            label = label.strip()
-            target_ref = target_ref.strip()
-            if label not in INTER_AYAH_LABELS and target_ref in INTER_AYAH_LABELS:
-                label, target_ref = target_ref, label
-            if target_ref != focus_ref:
-                continue
-            if label not in INTER_AYAH_LABELS:
-                raise SystemExit(
-                    f"Reciprocal row has an invalid label at {path}:{line_number}"
-                )
-            if label not in MEANINGFUL_INTER_AYAH_LABELS:
-                continue
-            stable_path = _stable_source_path(path)
-            row_payload = {
-                "origin_ref": origin_ref,
-                "origin_label": label,
-                "origin_note": note,
-                "origin_pointer": f"{stable_path}#L{line_number}",
-            }
-            row_payload["origin_row_sha256"] = _sha256_json(row_payload)
-            by_origin.setdefault(origin_ref, []).append(row_payload)
-            matched_rows += 1
+    surah, ayah, _folder, _stem = _ayah_parts(focus_ref)
+    path = source_dir / f"focus_{surah}_{ayah}_cutoff_100.tsv"
+    try:
+        payload = path.read_bytes()
+        lines = payload.decode("utf-8").splitlines()
+    except (OSError, UnicodeDecodeError) as exc:
+        raise SystemExit(f"Cannot read inter-ayah projection {path}: {exc}") from exc
+    if not lines or tuple(lines[0].split("\t")) != INTER_AYAH_COLUMNS:
+        raise SystemExit(f"Unexpected inter-ayah projection header at {path}:1")
 
-    if scanned_documents == 0:
+    manifest_path = source_dir / "MANIFEST.json"
+    if not manifest_path.is_file():
+        raise SystemExit(f"Inter-ayah projection manifest is missing: {manifest_path}")
+    manifest = _load_object(manifest_path)
+    manifest_sha256 = _sha256_bytes(manifest_path.read_bytes())
+    manifest_columns = manifest.get("columns")
+    documents = manifest.get("documents")
+    document_record = (
+        documents.get(path.name) if isinstance(documents, dict) else None
+    )
+    if (
+        manifest.get("schema_version")
+        != "inter-ayah-reciprocal-manifest-v2"
+        or manifest.get("corpus_id") != "inter-ayah-row-reciprocal-v2"
+        or manifest.get("record_schema")
+        != "inter-ayah-row-reciprocal-tsv-v2"
+        or not isinstance(manifest_columns, list)
+        or tuple(manifest_columns) != INTER_AYAH_COLUMNS
+        or not isinstance(document_record, dict)
+    ):
         raise SystemExit(
-            f"No reciprocal inter-ayah source documents found in {source_dir}"
+            f"Inter-ayah projection manifest does not describe {path.name}"
         )
-    for origin_ref in by_origin:
-        by_origin[origin_ref].sort(
-            key=lambda item: (
-                item["origin_label"],
-                item["origin_note"],
-                item["origin_pointer"],
+    document_sha256 = _sha256_bytes(payload)
+    if (
+        document_record.get("sha256") != document_sha256
+        or document_record.get("record_count") != len(lines) - 1
+    ):
+        raise SystemExit(
+            f"Inter-ayah projection document does not match its manifest: {path}"
+        )
+
+    stable_projection_path = _stable_source_path(path)
+    directional_rows: list[dict[str, Any]] = []
+    reciprocal_by_target: dict[str, list[dict[str, Any]]] = {}
+    self_reiterations: list[dict[str, Any]] = []
+    for line_number, line in enumerate(lines[1:], 2):
+        fields = line.split("\t")
+        if len(fields) != len(INTER_AYAH_COLUMNS):
+            raise SystemExit(
+                f"Expected {len(INTER_AYAH_COLUMNS)} inter-ayah fields at "
+                f"{path}:{line_number}; found {len(fields)}"
+            )
+        raw = dict(zip(INTER_AYAH_COLUMNS, fields))
+        record_type = raw["record_type"]
+        target_ref = raw["target_ref"]
+        source_label = raw["source_direction_label"]
+        component_ref = raw["source_target_component_ref"]
+        source_file = raw["source_file"]
+        source_line = raw["source_line"]
+        source_file_match = INTER_AYAH_FILE_RE.fullmatch(source_file)
+        if (
+            record_type not in INTER_AYAH_RECORD_TYPES
+            or raw["focus_ref"] != focus_ref
+            or INTER_AYAH_SINGLE_REF_RE.fullmatch(target_ref) is None
+            or source_label not in INTER_AYAH_LABELS
+            or INTER_AYAH_SINGLE_REF_RE.fullmatch(component_ref) is None
+            or source_file_match is None
+            or not source_line.isdigit()
+            or int(source_line) < 1
+            or re.fullmatch(r"[0-9a-f]{64}", raw["source_row_sha256"]) is None
+            or raw["source_column_order"]
+            not in {"label_target_note", "target_label_note"}
+        ):
+            raise SystemExit(f"Malformed inter-ayah projection at {path}:{line_number}")
+        source_focus_ref = (
+            f"{int(source_file_match.group(1))}:"
+            f"{int(source_file_match.group(2))}"
+        )
+        expected_source_row_role = (
+            "ranked_review"
+            if int(source_line) <= 100
+            else "missing_ayah_suggestion"
+        )
+        if raw["source_row_role"] != expected_source_row_role:
+            raise SystemExit(
+                f"Broken inter-ayah source row role at {path}:{line_number}"
+            )
+        source_target_components = _source_target_components(
+            raw["source_target_ref"]
+        )
+        source_target_is_range = (
+            INTER_AYAH_RANGE_REF_RE.fullmatch(raw["source_target_ref"])
+            is not None
+        )
+        if (
+            raw["source_focus_ref"] != source_focus_ref
+            or component_ref not in source_target_components
+        ):
+            raise SystemExit(
+                f"Broken inter-ayah source provenance at {path}:{line_number}"
+            )
+        expected_scope = (
+            "same_surah"
+            if source_focus_ref.split(":", 1)[0]
+            == component_ref.split(":", 1)[0]
+            else "cross_surah"
+        )
+        if raw["relation_scope"] != expected_scope:
+            raise SystemExit(f"Broken inter-ayah scope at {path}:{line_number}")
+
+        expected_type = (
+            "self_reiteration"
+            if source_focus_ref == component_ref
+            else (
+                "reciprocal_nomination"
+                if source_label in MEANINGFUL_INTER_AYAH_LABELS
+                else "reciprocal_counterevidence"
             )
         )
-    return dict(sorted(by_origin.items())), {
-        "source_id": "quran-data/inter-ayah-cutoff-100",
+        if record_type == "directional_review":
+            if (
+                source_focus_ref != focus_ref
+                or target_ref != component_ref
+                or raw["focus_direction_label"] != source_label
+            ):
+                raise SystemExit(
+                    f"Broken directional projection at {path}:{line_number}"
+                )
+        elif (
+            record_type != expected_type
+            or component_ref != focus_ref
+            or target_ref != source_focus_ref
+            or raw["focus_direction_label"]
+        ):
+            raise SystemExit(
+                f"Broken reciprocal projection at {path}:{line_number}"
+            )
+
+        source_pointer = (
+            f"{_stable_source_path(directional_source_dir / source_file)}"
+            f"#L{source_line}"
+        )
+        projection_record_sha256 = _sha256_json(raw)
+        common = {
+            "record_type": record_type,
+            "source_direction_label": source_label,
+            "source_focus_ref": source_focus_ref,
+            "source_target_ref": raw["source_target_ref"],
+            "source_target_component_ref": component_ref,
+            "source_target_is_range": source_target_is_range,
+            "source_target_components": list(source_target_components),
+            "source_target_range_boundary": (
+                "The source note was authored for the complete target range. "
+                "This record exposes one component for discovery; assign only "
+                "features actually present in that component to it, and keep "
+                "sequence-level material at range scope."
+                if source_target_is_range
+                else None
+            ),
+            "source_note": raw["source_note"],
+            "source_column_order": raw["source_column_order"],
+            "source_row_role": raw["source_row_role"],
+            "source_file": source_file,
+            "source_line": int(source_line),
+            "source_pointer": source_pointer,
+            "projection_pointer": f"{stable_projection_path}#L{line_number}",
+            "source_row_sha256": raw["source_row_sha256"],
+            "projection_record_sha256": projection_record_sha256,
+            "relation_scope": raw["relation_scope"],
+        }
+        if record_type == "directional_review":
+            directional_rows.append(
+                {
+                    "ref": target_ref,
+                    "label": raw["focus_direction_label"],
+                    "note": raw["source_note"],
+                    **common,
+                }
+            )
+        elif record_type == "self_reiteration":
+            self_reiterations.append(
+                {
+                    "receiving_direction_label": None,
+                    **common,
+                }
+            )
+        else:
+            reciprocal_by_target.setdefault(target_ref, []).append(
+                {
+                    "receiving_direction_label": None,
+                    **common,
+                }
+            )
+
+    focus_surah = focus_ref.split(":", 1)[0]
+    reciprocal_rows = [
+        row for rows in reciprocal_by_target.values() for row in rows
+    ]
+    if (
+        document_record.get("directional_review_record_count")
+        != len(directional_rows)
+        or document_record.get("mirrored_record_count")
+        != len(reciprocal_rows) + len(self_reiterations)
+    ):
+        raise SystemExit(
+            f"Inter-ayah projection record types do not match its manifest: {path}"
+        )
+    ordered_reciprocal = dict(
+        sorted(
+            reciprocal_by_target.items(),
+            key=lambda item: _ayah_parts(item[0])[:2],
+        )
+    )
+    return directional_rows, ordered_reciprocal, {
+        "source_id": "quran-data/inter-ayah-row-reciprocal-v2",
         "source_directory": _stable_source_path(source_dir),
-        "scanned_document_count": scanned_documents,
-        "meaningful_incoming_origin_count": len(by_origin),
-        "meaningful_incoming_row_count": matched_rows,
-        "meaningful_incoming_cross_surah_origin_count": sum(
-            origin_ref.split(":", 1)[0] != focus_surah for origin_ref in by_origin
+        "directional_source_directory": _stable_source_path(
+            directional_source_dir
         ),
-        "meaningful_incoming_same_surah_origin_count": sum(
-            origin_ref.split(":", 1)[0] == focus_surah for origin_ref in by_origin
+        "source_document": stable_projection_path,
+        "source_document_sha256": document_sha256,
+        "manifest_available": True,
+        "manifest_sha256": manifest_sha256,
+        "manifest_document_record": document_record,
+        "operational_fallback_used": False,
+        "integrity_warnings": pointer_warnings,
+        "directional_source_available_for_pointer_dereference": (
+            directional_source_available
+        ),
+        "parent_directional_source_is_not_concatenated": True,
+        "directional_review_row_count": len(directional_rows),
+        "reciprocal_nomination_row_count": sum(
+            row["record_type"] == "reciprocal_nomination"
+            for row in reciprocal_rows
+        ),
+        "reciprocal_counterevidence_row_count": sum(
+            row["record_type"] == "reciprocal_counterevidence"
+            for row in reciprocal_rows
+        ),
+        "self_reiteration_row_count": len(self_reiterations),
+        "self_reiterations_are_not_reciprocal_evidence": True,
+        "incoming_origin_count": len(reciprocal_by_target),
+        "incoming_cross_surah_origin_count": sum(
+            target_ref.split(":", 1)[0] != focus_surah
+            for target_ref in reciprocal_by_target
+        ),
+        "incoming_same_surah_origin_count": sum(
+            target_ref.split(":", 1)[0] == focus_surah
+            for target_ref in reciprocal_by_target
         ),
     }
+
+
+def _fallback_projection_common(
+    source: dict[str, Any],
+    *,
+    record_type: str,
+    projected_focus_ref: str,
+    projected_target_ref: str,
+    focus_direction_label: str,
+) -> dict[str, Any]:
+    record = {
+        "record_type": record_type,
+        "focus_ref": projected_focus_ref,
+        "target_ref": projected_target_ref,
+        "focus_direction_label": focus_direction_label,
+        "source_direction_label": source["label"],
+        "source_focus_ref": source["origin_ref"],
+        "source_target_ref": source["source_target_ref"],
+        "source_target_component_ref": source["component_ref"],
+        "relation_scope": source["relation_scope"],
+        "source_column_order": source["source_column_order"],
+        "source_row_role": source["source_row_role"],
+        "source_note": source["note"],
+        "source_file": source["source_file"],
+        "source_line": str(source["source_line"]),
+        "source_row_sha256": source["source_row_sha256"],
+    }
+    return {
+        "record_type": record_type,
+        "source_direction_label": source["label"],
+        "source_focus_ref": source["origin_ref"],
+        "source_target_ref": source["source_target_ref"],
+        "source_target_component_ref": source["component_ref"],
+        "source_target_is_range": source["source_target_is_range"],
+        "source_target_components": list(source["component_refs"]),
+        "source_target_range_boundary": (
+            "The source note was authored for the complete target range. This "
+            "record exposes one component for discovery; assign only features "
+            "actually present in that component to it, and keep sequence-level "
+            "material at range scope."
+            if source["source_target_is_range"]
+            else None
+        ),
+        "source_note": source["note"],
+        "source_column_order": source["source_column_order"],
+        "source_row_role": source["source_row_role"],
+        "source_file": source["source_file"],
+        "source_line": source["source_line"],
+        "source_pointer": source["source_pointer"],
+        "projection_pointer": (
+            f"reconstructed:{source['stable_path']}:L{source['source_line']}:"
+            f"{record_type}:{source['component_ref']}"
+        ),
+        "source_row_sha256": source["source_row_sha256"],
+        "projection_record_sha256": _sha256_json(record),
+        "relation_scope": source["relation_scope"],
+    }
+
+
+def _inter_ayah_parent_fallback(
+    focus_ref: str,
+    parent_dir: Path,
+    numbered_refs: set[str],
+    projection_failure: str,
+) -> tuple[
+    list[dict[str, Any]],
+    dict[str, list[dict[str, Any]]],
+    dict[str, Any],
+]:
+    configured_parent_dir = parent_dir
+    parent_dir_is_symlink = configured_parent_dir.is_symlink()
+    try:
+        parent_dir = parent_dir.resolve(strict=True)
+    except OSError as exc:
+        raise SystemExit(
+            f"Cannot resolve directional inter-ayah fallback {parent_dir}: {exc}"
+        ) from exc
+    if not parent_dir.is_dir():
+        raise SystemExit(
+            f"Directional inter-ayah fallback is not a directory: {parent_dir}"
+        )
+    if focus_ref not in numbered_refs:
+        raise SystemExit(f"Fallback focus is not a numbered ayah: {focus_ref}")
+
+    paths = sorted(parent_dir.glob("focus_*_cutoff_100.tsv"))
+    non_file_names = [path.name for path in paths if not path.is_file()]
+    if non_file_names:
+        raise SystemExit(
+            "Directional fallback entries must be readable files: "
+            + ", ".join(non_file_names[:20])
+        )
+    symlink_names = [path.name for path in paths if path.is_symlink()]
+    invalid_names = [
+        path.name
+        for path in paths
+        if INTER_AYAH_FILE_RE.fullmatch(path.name) is None
+    ]
+    if invalid_names:
+        raise SystemExit(
+            "Malformed directional inter-ayah filenames: "
+            + ", ".join(invalid_names[:20])
+        )
+    expected_names = {
+        f"focus_{_ayah_parts(ref)[0]}_{_ayah_parts(ref)[1]}_cutoff_100.tsv"
+        for ref in numbered_refs
+    }
+    actual_names = {path.name for path in paths}
+    if actual_names != expected_names:
+        raise SystemExit(
+            "Directional inter-ayah fallback is incomplete; "
+            f"missing={sorted(expected_names - actual_names)[:20]}, "
+            f"extra={sorted(actual_names - expected_names)[:20]}"
+        )
+
+    directional_rows: list[dict[str, Any]] = []
+    reciprocal_by_target: dict[str, list[dict[str, Any]]] = {}
+    source_digest = hashlib.sha256()
+    source_row_count = 0
+    source_component_count = 0
+    ranked_review_count = 0
+    suggestion_count = 0
+    nomination_count = 0
+    counterevidence_count = 0
+    self_reiteration_count = 0
+    focus_source_sha256: str | None = None
+    focus_source_path: str | None = None
+
+    for path in paths:
+        match = INTER_AYAH_FILE_RE.fullmatch(path.name)
+        if match is None:
+            raise SystemExit(f"Malformed directional inter-ayah file: {path}")
+        origin_ref = f"{int(match.group(1))}:{int(match.group(2))}"
+        try:
+            payload = path.read_bytes()
+            lines = payload.decode("utf-8").splitlines()
+        except (OSError, UnicodeDecodeError) as exc:
+            raise SystemExit(
+                f"Cannot read directional inter-ayah fallback {path}: {exc}"
+            ) from exc
+        name_bytes = path.name.encode("utf-8")
+        source_digest.update(len(name_bytes).to_bytes(4, "big"))
+        source_digest.update(name_bytes)
+        source_digest.update(len(payload).to_bytes(8, "big"))
+        source_digest.update(payload)
+        stable_path = _stable_source_path(path)
+        if origin_ref == focus_ref:
+            focus_source_sha256 = _sha256_bytes(payload)
+            focus_source_path = stable_path
+
+        for source_line, line in enumerate(lines, 1):
+            fields = line.split("\t")
+            if len(fields) != 3:
+                raise SystemExit(
+                    f"Expected three fallback TSV fields at {path}:{source_line}; "
+                    f"found {len(fields)}"
+                )
+            first_raw, second_raw, note = fields
+            first, second = first_raw.strip(), second_raw.strip()
+            if first in INTER_AYAH_LABELS:
+                label, source_target_ref = first, second
+                source_column_order = "label_target_note"
+            elif second in INTER_AYAH_LABELS:
+                source_target_ref, label = first, second
+                source_column_order = "target_label_note"
+            else:
+                raise SystemExit(
+                    f"Cannot identify fallback label at {path}:{source_line}"
+                )
+            component_refs = _source_target_components(source_target_ref)
+            if not component_refs or any(
+                ref not in numbered_refs for ref in component_refs
+            ):
+                raise SystemExit(
+                    f"Invalid fallback target at {path}:{source_line}: "
+                    f"{source_target_ref}"
+                )
+            source_target_is_range = (
+                INTER_AYAH_RANGE_REF_RE.fullmatch(source_target_ref) is not None
+            )
+            source_row_role = (
+                "ranked_review"
+                if source_line <= 100
+                else "missing_ayah_suggestion"
+            )
+            source_row_count += 1
+            ranked_review_count += int(source_row_role == "ranked_review")
+            suggestion_count += int(
+                source_row_role == "missing_ayah_suggestion"
+            )
+            source_row_sha256 = _sha256_bytes(line.encode("utf-8"))
+            source_pointer = f"{stable_path}#L{source_line}"
+
+            for component_ref in component_refs:
+                source_component_count += 1
+                relation_scope = (
+                    "same_surah"
+                    if origin_ref.split(":", 1)[0]
+                    == component_ref.split(":", 1)[0]
+                    else "cross_surah"
+                )
+                if origin_ref != focus_ref and component_ref != focus_ref:
+                    continue
+                source = {
+                    "label": label,
+                    "origin_ref": origin_ref,
+                    "source_target_ref": source_target_ref,
+                    "component_ref": component_ref,
+                    "component_refs": component_refs,
+                    "source_target_is_range": source_target_is_range,
+                    "relation_scope": relation_scope,
+                    "source_column_order": source_column_order,
+                    "source_row_role": source_row_role,
+                    "note": note,
+                    "source_file": path.name,
+                    "source_line": source_line,
+                    "source_row_sha256": source_row_sha256,
+                    "source_pointer": source_pointer,
+                    "stable_path": stable_path,
+                }
+
+                if origin_ref == focus_ref:
+                    common = _fallback_projection_common(
+                        source,
+                        record_type="directional_review",
+                        projected_focus_ref=origin_ref,
+                        projected_target_ref=component_ref,
+                        focus_direction_label=label,
+                    )
+                    directional_rows.append(
+                        {
+                            "ref": component_ref,
+                            "label": label,
+                            "note": note,
+                            **common,
+                        }
+                    )
+                if component_ref != focus_ref:
+                    continue
+                if origin_ref == component_ref:
+                    self_reiteration_count += 1
+                    continue
+                record_type = (
+                    "reciprocal_nomination"
+                    if label in MEANINGFUL_INTER_AYAH_LABELS
+                    else "reciprocal_counterevidence"
+                )
+                nomination_count += int(
+                    record_type == "reciprocal_nomination"
+                )
+                counterevidence_count += int(
+                    record_type == "reciprocal_counterevidence"
+                )
+                common = _fallback_projection_common(
+                    source,
+                    record_type=record_type,
+                    projected_focus_ref=component_ref,
+                    projected_target_ref=origin_ref,
+                    focus_direction_label="",
+                )
+                reciprocal_by_target.setdefault(origin_ref, []).append(
+                    {
+                        "receiving_direction_label": None,
+                        **common,
+                    }
+                )
+
+    if focus_source_sha256 is None or focus_source_path is None:
+        raise SystemExit(
+            f"Directional fallback did not encounter focus document {focus_ref}"
+        )
+    ordered_reciprocal = dict(
+        sorted(
+            reciprocal_by_target.items(),
+            key=lambda item: _ayah_parts(item[0])[:2],
+        )
+    )
+    focus_surah = focus_ref.split(":", 1)[0]
+    projection_warning = (
+        "Typed reciprocal projection failed integrity validation and was not "
+        f"used: {projection_failure}. Reconstructed a complete replacement "
+        "view from the parent directional corpus."
+    )
+    integrity_warnings = [projection_warning]
+    if parent_dir_is_symlink or symlink_names:
+        integrity_warnings.append(
+            "The read-only fallback followed symlinked source material; "
+            f"parent_symlink={parent_dir_is_symlink}, "
+            f"symlinked_document_count={len(symlink_names)}. Exact consumed "
+            "bytes are bound by source_corpus_sha256."
+        )
+    return directional_rows, ordered_reciprocal, {
+        "source_id": "quran-data/inter-ayah-parent-lossless-fallback-v2",
+        "source_directory": _stable_source_path(parent_dir),
+        "directional_source_directory": _stable_source_path(parent_dir),
+        "directional_source_available_for_pointer_dereference": True,
+        "source_document": focus_source_path,
+        "source_document_sha256": focus_source_sha256,
+        "source_corpus_sha256": source_digest.hexdigest(),
+        "manifest_available": False,
+        "manifest_sha256": None,
+        "manifest_document_record": None,
+        "operational_fallback_used": True,
+        "integrity_warnings": integrity_warnings,
+        "reconstruction_complete": True,
+        "scanned_document_count": len(paths),
+        "scanned_source_row_count": source_row_count,
+        "scanned_source_target_component_count": source_component_count,
+        "ranked_review_source_row_count": ranked_review_count,
+        "missing_ayah_suggestion_source_row_count": suggestion_count,
+        "parent_directional_source_is_not_concatenated": True,
+        "directional_review_row_count": len(directional_rows),
+        "reciprocal_nomination_row_count": nomination_count,
+        "reciprocal_counterevidence_row_count": counterevidence_count,
+        "self_reiteration_row_count": self_reiteration_count,
+        "self_reiterations_are_not_reciprocal_evidence": True,
+        "incoming_origin_count": len(reciprocal_by_target),
+        "incoming_cross_surah_origin_count": sum(
+            target_ref.split(":", 1)[0] != focus_surah
+            for target_ref in reciprocal_by_target
+        ),
+        "incoming_same_surah_origin_count": sum(
+            target_ref.split(":", 1)[0] == focus_surah
+            for target_ref in reciprocal_by_target
+        ),
+    }
+
+
+def _inter_ayah_evidence_with_fallback(
+    focus_ref: str,
+    projection_dir: Path,
+    parent_dir: Path,
+    numbered_refs: set[str],
+) -> tuple[
+    list[dict[str, Any]],
+    dict[str, list[dict[str, Any]]],
+    dict[str, Any],
+]:
+    try:
+        return _inter_ayah_projection(
+            focus_ref,
+            projection_dir,
+            parent_dir,
+        )
+    except SystemExit as projection_error:
+        try:
+            return _inter_ayah_parent_fallback(
+                focus_ref,
+                parent_dir,
+                numbered_refs,
+                str(projection_error),
+            )
+        except SystemExit as fallback_error:
+            raise SystemExit(
+                "All inter-ayah evidence routes failed. "
+                f"Typed projection failure: {projection_error}. "
+                f"Lossless parent reconstruction failure: {fallback_error}"
+            ) from fallback_error
 
 
 def _read_prompt(name: str) -> str:
@@ -1276,8 +1881,9 @@ def _lane_packet(
     lane: str,
     source_bundle: dict[str, Any],
     hft_projection: dict[str, Any],
+    inter_ayah_rows: list[dict[str, Any]],
     reciprocal_evidence: dict[str, list[dict[str, Any]]],
-    reciprocal_source_coverage: dict[str, Any],
+    inter_ayah_source_coverage: dict[str, Any],
     quran_text_evidence: dict[str, dict[str, Any]],
     quran_text_coverage: dict[str, Any],
 ) -> dict[str, Any]:
@@ -1519,9 +2125,6 @@ def _lane_packet(
         raise SystemExit(f"{lane} packet failed to preserve every referenced branch")
 
     connection_registry: list[dict[str, Any]] = []
-    connection_rows = source_bundle.get("inter_ayah_rows", [])
-    if not isinstance(connection_rows, list):
-        raise SystemExit("Source inter_ayah_rows must be a list")
     focus_ref = str(docket["identity"]["ayah_ref"])
     focus_surah = focus_ref.split(":", 1)[0]
     pericope_refs = set(docket["scope"]["pericope"].get("refs", []))
@@ -1532,17 +2135,38 @@ def _lane_packet(
             raise SystemExit(f"Quran text source lacks connection target {target_ref}")
         return evidence
 
-    for index, row in enumerate(connection_rows):
+    def with_range_evidence(row: dict[str, Any]) -> dict[str, Any]:
+        component_refs = row.get("source_target_components", [])
+        if not isinstance(component_refs, list) or not all(
+            isinstance(ref, str) for ref in component_refs
+        ):
+            raise SystemExit("Projected inter-ayah row has malformed range components")
+        return {
+            **row,
+            "source_target_range_evidence": (
+                [target_evidence(ref) for ref in component_refs]
+                if row.get("source_target_is_range")
+                else []
+            ),
+        }
+
+    reciprocal_evidence_with_ranges = {
+        target_ref: [with_range_evidence(row) for row in rows]
+        for target_ref, rows in reciprocal_evidence.items()
+    }
+
+    for index, row in enumerate(inter_ayah_rows):
         if not isinstance(row, dict):
-            raise SystemExit(f"Malformed inter-ayah row at index {index}")
+            raise SystemExit(f"Malformed projected inter-ayah row at index {index}")
         target_ref = row.get("ref")
         if not isinstance(target_ref, str) or not re.fullmatch(
             r"[1-9][0-9]*:[1-9][0-9]*", target_ref
         ):
-            raise SystemExit(f"Malformed inter-ayah target at index {index}")
+            raise SystemExit(f"Malformed projected inter-ayah target at index {index}")
         if target_ref == focus_ref:
-            raise SystemExit(f"Self-referential inter-ayah row at index {index}")
-        if target_ref in pericope_refs:
+            owning_lane = "macro"
+            relation_scope = "self_reference_source_row"
+        elif target_ref in pericope_refs:
             owning_lane = "macro"
             relation_scope = "declared_pericope"
         else:
@@ -1554,16 +2178,41 @@ def _lane_packet(
             )
         if lane != owning_lane:
             continue
-        source_pointer = f"/inter_ayah_rows/{index}"
+        source_pointer = row.get("source_pointer")
+        projection_pointer = row.get("projection_pointer")
+        if not isinstance(source_pointer, str) or not isinstance(
+            projection_pointer, str
+        ):
+            raise SystemExit(
+                f"Projected inter-ayah row lacks provenance at index {index}"
+            )
         connection_ref = "conn_" + _sha256_json(
             {
                 "focus_ref": focus_ref,
                 "target_ref": target_ref,
-                "note": row.get("note"),
-                "source_pointer": source_pointer,
+                "projection_record_sha256": row.get(
+                    "projection_record_sha256"
+                ),
             }
         )[:20]
-        reverse_rows = reciprocal_evidence.get(target_ref, [])
+        reverse_rows = reciprocal_evidence_with_ranges.get(target_ref, [])
+        has_reciprocal_nomination = any(
+            item.get("record_type") == "reciprocal_nomination"
+            for item in reverse_rows
+        )
+        has_reciprocal_counterevidence = any(
+            item.get("record_type") == "reciprocal_counterevidence"
+            for item in reverse_rows
+        )
+        has_reciprocal_suggestion = any(
+            item.get("source_row_role") == "missing_ayah_suggestion"
+            for item in reverse_rows
+        )
+        is_self_reference = target_ref == focus_ref
+        is_range_target = bool(row.get("source_target_is_range"))
+        range_evidence = with_range_evidence(row)[
+            "source_target_range_evidence"
+        ]
         connection = {
             "connection_ref": connection_ref,
             "target_ref": target_ref,
@@ -1572,21 +2221,62 @@ def _lane_packet(
             "prior_label": row.get("label"),
             "note": row.get("note"),
             "source_pointer": source_pointer,
+            "projection_pointer": projection_pointer,
+            "source_row_sha256": row.get("source_row_sha256"),
+            "source_file": row.get("source_file"),
+            "source_line": row.get("source_line"),
+            "source_column_order": row.get("source_column_order"),
+            "source_row_role": row.get("source_row_role"),
+            "source_target_ref": row.get("source_target_ref"),
+            "source_target_component_ref": row.get(
+                "source_target_component_ref"
+            ),
+            "source_target_is_range": is_range_target,
+            "source_target_components": row.get("source_target_components"),
+            "source_target_range_evidence": range_evidence,
+            "source_target_range_boundary": row.get(
+                "source_target_range_boundary"
+            ),
             "target_evidence": target_evidence(target_ref),
             "reciprocal_evidence": reverse_rows,
             "qualification": {
                 "prior_label_is_not_a_decision": True,
-                "reciprocal_evidence_is_nomination_only": bool(reverse_rows),
-                "reciprocal_origin_label_is_not_a_reverse_decision": bool(
-                    reverse_rows
+                "has_reciprocal_nomination": has_reciprocal_nomination,
+                "has_reciprocal_counterevidence": (
+                    has_reciprocal_counterevidence
                 ),
+                "has_reciprocal_missing_ayah_suggestion": (
+                    has_reciprocal_suggestion
+                ),
+                "source_row_role_is_provenance_not_a_decision": True,
+                "reciprocal_source_direction_labels_are_not_focus_decisions": (
+                    bool(reverse_rows)
+                ),
+                "self_reference_is_source_emphasis_not_reciprocity": (
+                    is_self_reference
+                ),
+                "source_note_is_range_level": is_range_target,
                 "target_ayah_text_supplied": True,
                 "target_morphology_supplied": False,
                 "boundary": (
-                    "Use this row to discover and assess the stated relation. "
-                    "The exact target Arabic is supplied, but target morphology "
-                    "and lexical analysis are not. Do not invent those missing "
-                    "details or treat opposite-direction labels as verdicts."
+                    "This preserved source row points to the focus ayah itself. "
+                    "Treat it as source emphasis or coverage, not an independent "
+                    "contextual relation or reciprocal corroboration."
+                    if is_self_reference
+                    else (
+                        "The source note was authored for the complete target "
+                        "range, whose exact component Arabic is supplied. This "
+                        "connection exposes one component for discovery. Assign "
+                        "only features actually present in that component to it; "
+                        "keep sequence-level claims at range scope."
+                        if is_range_target
+                        else
+                        "Use this row to discover and assess the stated relation. "
+                        "The exact target Arabic is supplied, but target morphology "
+                        "and lexical analysis are not. Do not invent those missing "
+                        "details. Opposite-direction nominations and counterevidence "
+                        "remain visible, but neither is a focus-direction verdict."
+                    )
                 ),
             },
         }
@@ -1597,60 +2287,103 @@ def _lane_packet(
             item["target_ref"]
             for item in connection_registry
         }
-        for origin_ref, evidence_rows in reciprocal_evidence.items():
+        for origin_ref, evidence_rows in reciprocal_evidence_with_ranges.items():
             origin_surah = origin_ref.split(":", 1)[0]
-            if origin_ref in pericope_refs:
+            if origin_ref == focus_ref:
                 owning_lane = "macro"
-                relation_scope = "declared_pericope_reciprocal_seed"
+                relation_scope = "self_reference_reciprocal_evidence"
+            elif origin_ref in pericope_refs:
+                owning_lane = "macro"
+                relation_scope = "declared_pericope_reciprocal_evidence"
             else:
                 owning_lane = "global"
                 relation_scope = (
-                    "inter_surah_reciprocal_seed"
+                    "inter_surah_reciprocal_evidence"
                     if origin_surah != focus_surah
-                    else "same_surah_beyond_pericope_reciprocal_seed"
+                    else "same_surah_beyond_pericope_reciprocal_evidence"
                 )
             if lane != owning_lane or origin_ref in authored_targets:
                 continue
             evidence_hashes = [
-                item["origin_row_sha256"] for item in evidence_rows
+                item["projection_record_sha256"] for item in evidence_rows
             ]
+            has_nomination = any(
+                item.get("record_type") == "reciprocal_nomination"
+                for item in evidence_rows
+            )
+            has_counterevidence = any(
+                item.get("record_type") == "reciprocal_counterevidence"
+                for item in evidence_rows
+            )
+            has_ranked_review = any(
+                item.get("source_row_role") == "ranked_review"
+                for item in evidence_rows
+            )
+            has_missing_ayah_suggestion = any(
+                item.get("source_row_role") == "missing_ayah_suggestion"
+                for item in evidence_rows
+            )
+            derived_origin = (
+                "derived_reciprocal_seed"
+                if has_nomination
+                else "derived_reciprocal_counterevidence"
+            )
             connection_ref = "conn_" + _sha256_json(
                 {
                     "focus_ref": focus_ref,
                     "target_ref": origin_ref,
-                    "origin": "derived_reciprocal_seed",
-                    "origin_row_sha256": evidence_hashes,
+                    "origin": derived_origin,
+                    "projection_record_sha256": evidence_hashes,
                 }
             )[:20]
+            boundary = (
+                "At least one source-direction review meaningfully linked this "
+                "target back to the focus ayah. Treat its note and label only "
+                "as a discovery nomination. Reassess the relation from the "
+                "focus ayah using the supplied exact target Arabic; do not "
+                "invent missing target morphology or inherit the source label."
+                if has_nomination
+                else
+                "The target's source-direction review recorded only `no value` "
+                "or `reject` links back to the focus ayah. Keep that negative "
+                "evidence visible as possible asymmetry or a failed edge, but "
+                "do not let it veto a focus-direction reading without fresh "
+                "assessment from the supplied exact target Arabic."
+            )
             connection_registry.append(
                 {
                     "connection_ref": connection_ref,
                     "target_ref": origin_ref,
                     "relation_scope": relation_scope,
-                    "origin": "derived_reciprocal_seed",
+                    "origin": derived_origin,
                     "prior_label": None,
                     "note": None,
                     "source_pointer": None,
                     "source_pointers": [
-                        item["origin_pointer"] for item in evidence_rows
+                        item["source_pointer"] for item in evidence_rows
+                    ],
+                    "projection_pointers": [
+                        item["projection_pointer"] for item in evidence_rows
                     ],
                     "target_evidence": target_evidence(origin_ref),
                     "reciprocal_evidence": evidence_rows,
                     "qualification": {
-                        "derived_reciprocal_seed": True,
-                        "origin_label_is_not_a_reverse_direction_decision": True,
+                        "derived_reciprocal_seed": has_nomination,
+                        "derived_reciprocal_counterevidence": (
+                            not has_nomination and has_counterevidence
+                        ),
+                        "has_reciprocal_nomination": has_nomination,
+                        "has_reciprocal_counterevidence": has_counterevidence,
+                        "has_ranked_review_source_row": has_ranked_review,
+                        "has_missing_ayah_suggestion_source_row": (
+                            has_missing_ayah_suggestion
+                        ),
+                        "source_row_roles_are_provenance_not_decisions": True,
+                        "source_direction_labels_are_not_focus_decisions": True,
                         "receiving_direction_requires_fresh_assessment": True,
                         "target_ayah_text_supplied": True,
                         "target_morphology_supplied": False,
-                        "boundary": (
-                            "The target ayah's document meaningfully linked back "
-                            "to the focus ayah, but the focus document omitted the "
-                            "reverse row. Treat the origin note only as a discovery "
-                            "seed. Reassess the relation from the focus ayah using "
-                            "the supplied exact target Arabic, do not invent missing "
-                            "target morphology, and do not inherit its label as a "
-                            "verdict."
-                        ),
+                        "boundary": boundary,
                     },
                 }
             )
@@ -1766,6 +2499,10 @@ def _lane_packet(
                 item["origin"] == "derived_reciprocal_seed"
                 for item in connection_registry
             ),
+            "derived_reciprocal_counterevidence_count": sum(
+                item["origin"] == "derived_reciprocal_counterevidence"
+                for item in connection_registry
+            ),
             "authored_connections_with_reciprocal_evidence": sum(
                 item["origin"] == "authored_focus_row"
                 and bool(item["reciprocal_evidence"])
@@ -1780,9 +2517,7 @@ def _lane_packet(
                     {item["relation_scope"] for item in connection_registry}
                 )
             },
-            "reciprocal_source": (
-                reciprocal_source_coverage if lane in {"macro", "global"} else None
-            ),
+            "inter_ayah_source": inter_ayah_source_coverage,
             "quran_text_source": quran_text_coverage,
             "unresolved_branch_refs": unresolved_branch_refs,
             "source_types": sorted(
@@ -1807,7 +2542,8 @@ def _lane_packet(
             "branch_ids_do_not_count_as_semantic_coverage": True,
             "distinctive_branch_facets_must_be_explained": True,
             "prior_connection_labels_are_not_decisions": True,
-            "reciprocal_seed_origin_labels_are_not_reverse_decisions": True,
+            "reciprocal_source_labels_are_not_focus_direction_decisions": True,
+            "reciprocal_counterevidence_is_visible_but_not_a_veto": True,
             "connections_require_explicit_review": lane in {"macro", "global"},
             "conflict_is_not_a_rejection_reason": True,
             "prose_length_is_not_a_decision_criterion": True,
@@ -1861,26 +2597,56 @@ def _render_scopes(args: argparse.Namespace) -> None:
         != docket.get("identity", {}).get("source_canonical_sha256")
     ):
         raise SystemExit("Source bundle canonical hash does not match docket")
-    reciprocal_evidence, reciprocal_source_coverage = (
-        _reciprocal_connection_evidence(args.ayah, args.inter_ayah_dir)
-    )
     quran_text_evidence, quran_text_coverage = _quran_text_evidence(
         args.quran_text
     )
+    numbered_refs = {
+        ref
+        for ref in quran_text_evidence
+        if ref.split(":", 1)[1] != "0"
+    }
+    (
+        inter_ayah_rows,
+        reciprocal_evidence,
+        inter_ayah_source_coverage,
+    ) = _inter_ayah_evidence_with_fallback(
+        args.ayah,
+        args.inter_ayah_dir,
+        args.inter_ayah_parent_dir,
+        numbered_refs,
+    )
     hft_projection = _hft_authoring_projection(docket, source_bundle)
-    reciprocal_evidence_sha256 = _sha256_json(reciprocal_evidence)
+    inter_ayah_projection_sha256 = _sha256_json(
+        {
+            "directional_rows": inter_ayah_rows,
+            "reciprocal_evidence": reciprocal_evidence,
+        }
+    )
     stage_dir = run_dir / "scope"
     workspace_dir = run_dir / "workspace"
     _ensure_directory(run_dir, workspace_dir)
-    result: dict[str, Any] = {"ayah_ref": args.ayah, "stages": {}}
+    result: dict[str, Any] = {
+        "ayah_ref": args.ayah,
+        "inter_ayah_evidence": {
+            "source_id": inter_ayah_source_coverage["source_id"],
+            "operational_fallback_used": inter_ayah_source_coverage[
+                "operational_fallback_used"
+            ],
+            "integrity_warnings": inter_ayah_source_coverage[
+                "integrity_warnings"
+            ],
+        },
+        "stages": {},
+    }
     for lane in LANES:
         packet = _lane_packet(
             docket,
             lane,
             source_bundle,
             hft_projection,
+            inter_ayah_rows,
             reciprocal_evidence,
-            reciprocal_source_coverage,
+            inter_ayah_source_coverage,
             quran_text_evidence,
             quran_text_coverage,
         )
@@ -1920,10 +2686,15 @@ def _render_scopes(args: argparse.Namespace) -> None:
                 "docket_sha256": _sha256_bytes(docket_path.read_bytes()),
                 "source_bundle": str(source_path.resolve()),
                 "source_bundle_sha256": _sha256_bytes(source_path.read_bytes()),
-                "reciprocal_source_directory": str(
+                "inter_ayah_projection_directory": str(
                     args.inter_ayah_dir.resolve()
                 ),
-                "reciprocal_evidence_sha256": reciprocal_evidence_sha256,
+                "inter_ayah_parent_fallback_directory": str(
+                    args.inter_ayah_parent_dir.resolve()
+                ),
+                "inter_ayah_projection_sha256": (
+                    inter_ayah_projection_sha256
+                ),
                 "quran_text_source": str(args.quran_text.resolve()),
                 "quran_text_source_sha256": quran_text_coverage["source_sha256"],
                 "lane_packet_sha256": packet["identity"]["lane_packet_sha256"],
@@ -2514,8 +3285,17 @@ def _build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=DEFAULT_INTER_AYAH_DIR,
         help=(
-            "Directory containing the complete per-ayah inter-ayah TSV source "
-            "used to derive reciprocal discovery seeds"
+            "Directory containing the typed reciprocal-expanded per-ayah "
+            "inter-ayah TSV projection"
+        ),
+    )
+    scopes.add_argument(
+        "--inter-ayah-parent-dir",
+        type=Path,
+        default=DEFAULT_INTER_AYAH_PARENT_DIR,
+        help=(
+            "Complete directional parent corpus used for automatic lossless "
+            "reconstruction if projection integrity validation fails"
         ),
     )
     scopes.add_argument(

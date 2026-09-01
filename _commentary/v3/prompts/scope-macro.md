@@ -64,12 +64,43 @@ live alternatives, analogy limits, and any “not a lexical gloss” boundary. A
 duplicate target must preserve the evidence union.
 
 Review every supplied `connection_registry` row. These are same-surah targets
-inside the declared pericope, including any derived reciprocal seed. Their prior
-attention labels are not verdicts. Exact target Arabic is supplied in
-`target_evidence`, but target morphology and lexical analysis are not; do not
-invent those missing details. `reciprocal_evidence` reports what the target's
-mapping said in the opposite direction. It is nomination evidence, not a reverse
-verdict, and its label cannot replace fresh assessment from the focus ayah.
+inside the declared pericope, including derived reciprocal nominations and
+counterevidence. Their prior attention labels are not verdicts. Exact target
+Arabic is supplied in `target_evidence`, but target morphology and lexical
+analysis are not; do not invent those missing details. `reciprocal_evidence`
+reports what a source-direction review said while looking back toward the focus
+ayah. `reciprocal_nomination` invites fresh focus-side discovery;
+`reciprocal_counterevidence` preserves a source-side `no value` or `reject`
+assessment so asymmetry and failed edges remain visible. Neither record type nor
+its `source_direction_label` is a focus-direction verdict, and negative evidence
+must not pre-empt a real relation found by fresh assessment.
+The source note is a lead, not the limit of admissible discovery: a different
+bounded relation may be recovered when it is freshly grounded in the supplied
+Arabic and returns through a named focus-ayah carrier. Do not invent lexical or
+morphological details that are not supplied.
+A connection may carry both reciprocal types and multiple distinct source
+notes. Inspect every nested row, keep disagreements visible, and never collapse
+the two directions into one judgment.
+
+Every authored connection and every nested reciprocal row carries
+`source_row_role`; a derived connection exposes its roles through its nested
+`reciprocal_evidence` rows.
+`ranked_review` identifies the first 100 reviewed candidates;
+`missing_ayah_suggestion` identifies the source agent's later high-recall
+follow-up additions. Both invite fresh analysis. A suggestion is not
+pre-accepted, and neither role nor its label may veto a grounded discovery.
+
+An occasional `self_reference_source_row` preserves an original mapping row
+that names the focus ayah itself. Keep its stated emphasis visible, but do not
+treat the generated self-reiteration as a second direction, independent
+corroboration, or a contextual discovery.
+
+When `source_target_is_range` is true, the source note was authored for the
+complete range, not independently for every expanded ayah. The packet supplies
+exact Arabic for all components in `source_target_range_evidence`. Test what the
+named component itself contributes; keep sequence-level images and claims at
+range scope, and never project another component's wording or morphology onto
+this one.
 
 Do not search only for confirmation of the supplied candidates. Make an
 independent pass through the contextual evidence for uncandidate images and

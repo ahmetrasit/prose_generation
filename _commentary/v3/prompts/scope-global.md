@@ -49,19 +49,43 @@ The connection rows carry prior attention labels such as `strong`, `medium`,
 `weak`, or `no value`. Those labels are not verdicts and must not govern your
 decision. Reassess every row. Exact target Arabic is supplied in
 `target_evidence`, but target morphology and lexical analysis are not; do not
-invent those missing details or a lexical identity beyond what the Arabic and
-the stated relation establish.
+invent those missing details or a lexical identity. The source note is a lead,
+not the limit of admissible discovery: a different bounded relation may be
+recovered when it is freshly grounded in the supplied Arabic and returns
+through a named focus-ayah carrier.
 
-Some connection rows have `origin: "derived_reciprocal_seed"`. They exist
-because the target ayah's own mapping meaningfully linked back to this focus
-ayah while this focus mapping omitted the reverse edge. Its `origin_note` and
-`origin_label` are nomination evidence from the opposite direction—not a
-verdict and not proof that the relation works identically in reverse. Reassess
-the return path from this focus ayah using the exact supplied target Arabic.
-Preserve a real reverse discovery with an appropriate boundary; reject it only
-when a specific edge fails. Authored rows may also carry
-`reciprocal_evidence`, including same-surah evidence beyond the pericope, which
-exposes the other direction without replacing either authored judgment.
+Some connection rows have `origin: "derived_reciprocal_seed"`. At least one
+target-side source row meaningfully linked back toward the focus ayah, so its
+`source_note` and `source_direction_label` are discovery evidence from that
+direction—not a focus-side verdict and not proof that the relation works
+identically in reverse. Reassess the return path from this focus ayah using the
+exact supplied target Arabic. Preserve a real reverse discovery with an
+appropriate boundary; reject it only when a specific edge fails.
+
+Rows with `origin: "derived_reciprocal_counterevidence"` expose target-side
+`no value` or `reject` rows even when the focus mapping has no authored edge.
+They are preserved source-side negative evidence: inspect whether they reveal
+a true asymmetry, a failed return path, or a relation the source-side review
+missed.
+They are not a veto and do not excuse a fresh focus-side pass. Any connection,
+including a derived seed whose `origin` is determined by the presence of a
+nomination, may carry both kinds of `reciprocal_evidence`. Inspect every nested
+row, including same-surah evidence beyond the pericope. Keep disagreements
+visible; never collapse the two directions into one judgment.
+
+Every authored connection and every nested reciprocal row carries
+`source_row_role`; a derived connection exposes its roles through its nested
+`reciprocal_evidence` rows.
+`ranked_review` identifies the first 100 reviewed candidates;
+`missing_ayah_suggestion` identifies the source agent's later high-recall
+follow-up additions. Both invite fresh analysis. A suggestion is not
+pre-accepted, and neither role nor its label may veto a grounded discovery.
+
+When an authored row or reciprocal item has `source_target_is_range: true`, its
+note was authored for the complete range. Exact Arabic for every component is
+supplied in `source_target_range_evidence`. Test the exposed component on its
+own wording, keep sequence-level material at range scope, and never attribute
+another component's feature or morphology to it.
 
 The supplied candidates are a review docket, not an accepted list and not a
 quota. Review every candidate and the underlying wider evidence. You may recover
@@ -110,11 +134,13 @@ grounded return path, and they are not independent evidence that a reading is
 false.
 
 Reject only when you can name the failed edge: no ayah-local return path, no
-wider trigger stated in the supplied record, no claimed relation, no changed
+wider trigger stated in the supplied record or freshly identifiable in the
+exact supplied Arabic, no stated or freshly grounded relation, no changed
 reading or payoff, an uncontained thesis, or an exact duplicate. Missing target
-morphology is not by itself a rejection reason when the finding stays
-within the exact supplied Arabic and relation stated by the note. Different or
-countervailing wider discoveries remain eligible.
+morphology is not by itself a rejection reason when the finding stays within
+the exact supplied Arabic and a relation grounded by either the supplied note
+or fresh focus-side assessment; do not invent lexical or morphological details.
+Different or countervailing wider discoveries remain eligible.
 For a duplicate, name the accepted target, explicitly show that local anchor,
 mechanism, direction, and reader payoff are all the same, and preserve the
 union of its evidence. Merely saying that it is already represented is
