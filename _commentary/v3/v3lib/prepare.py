@@ -335,13 +335,22 @@ def _activation_branch_refs(value: Any) -> list[str]:
 
 
 class BranchResolver:
-    """Resolve root-id and legacy Arabic-root branch citations deterministically."""
+    """Resolve canonical and legacy Arabic-root branch citations deterministically.
+
+    Arabic branch citations name a Furuq root, so exact native inventory branch
+    mappings take precedence over QAC split-root mappings. The latter remain a
+    compatibility fallback when no native Furuq root with that spelling is
+    available.
+    """
 
     def __init__(
         self,
         *,
         root_ids_by_arabic: dict[str, list[str]],
         available_branch_refs: set[str],
+        native_branch_refs_by_arabic: (
+            dict[str, dict[str, list[str]]] | None
+        ) = None,
         grounding_root_ids_by_arabic: dict[str, list[str]] | None = None,
     ) -> None:
         def canonicalize(
@@ -357,7 +366,32 @@ class BranchResolver:
                 for root, root_ids in sorted(canonical_mappings.items())
             }
 
+        def canonicalize_native_branches(
+            mappings: dict[str, dict[str, list[str]]],
+        ) -> dict[str, dict[str, list[str]]]:
+            canonical_mappings: dict[str, dict[str, set[str]]] = {}
+            for root, branches in mappings.items():
+                canonical_root = _canonical_arabic_root(root)
+                canonical_branches = canonical_mappings.setdefault(
+                    canonical_root, {}
+                )
+                for branch_id, branch_refs in branches.items():
+                    canonical_branches.setdefault(branch_id, set()).update(
+                        _normalize_branch_ref(branch_ref)
+                        for branch_ref in branch_refs
+                    )
+            return {
+                root: {
+                    branch_id: sorted(branch_refs)
+                    for branch_id, branch_refs in sorted(branches.items())
+                }
+                for root, branches in sorted(canonical_mappings.items())
+            }
+
         self.root_ids_by_arabic = canonicalize(root_ids_by_arabic)
+        self.native_branch_refs_by_arabic = canonicalize_native_branches(
+            native_branch_refs_by_arabic or {}
+        )
         grounding_mappings = (
             root_ids_by_arabic
             if grounding_root_ids_by_arabic is None
@@ -396,11 +430,23 @@ class BranchResolver:
             if immediate and _match_is_token_bounded(tail, immediate, group=1):
                 branch_ids.add(immediate.group(1))
             for branch_id in branch_ids:
-                candidates = [
-                    f"{root_id}/{branch_id}"
-                    for root_id in self.root_ids_by_arabic.get(canonical_root, [])
-                    if f"{root_id}/{branch_id}" in self.available_branch_refs
-                ]
+                if canonical_root in self.native_branch_refs_by_arabic:
+                    candidates = [
+                        branch_ref
+                        for branch_ref in self.native_branch_refs_by_arabic[
+                            canonical_root
+                        ].get(branch_id, [])
+                        if branch_ref in self.available_branch_refs
+                    ]
+                else:
+                    candidates = [
+                        f"{root_id}/{branch_id}"
+                        for root_id in self.root_ids_by_arabic.get(
+                            canonical_root, []
+                        )
+                        if f"{root_id}/{branch_id}"
+                        in self.available_branch_refs
+                    ]
                 citation = f"{root_ar}/{branch_id}"
                 if len(candidates) == 1:
                     resolved.add(candidates[0])
@@ -1164,7 +1210,10 @@ def _branch_registry(
 
 def _nominatable_branch_inventory(
     bundle: dict[str, Any],
-) -> tuple[dict[str, dict[str, Any]], dict[str, list[str]]]:
+) -> tuple[
+    dict[str, dict[str, Any]],
+    dict[str, dict[str, list[str]]],
+]:
     """Index compact pericope branch evidence that nominations may cite."""
     container = _optional_dict(bundle, "branch_inventories", "branch_inventories")
     packet = _optional_dict(
@@ -1180,7 +1229,7 @@ def _nominatable_branch_inventory(
     )
     source_file = packet.get("source_file")
     registry: dict[str, dict[str, Any]] = {}
-    roots_by_arabic: dict[str, set[str]] = {}
+    branch_refs_by_arabic: dict[str, dict[str, set[str]]] = {}
     for root_index, raw_root in enumerate(records):
         root = _require_dict(raw_root, f"branch inventory root {root_index}")
         root_ar = root.get("root")
@@ -1212,7 +1261,9 @@ def _nominatable_branch_inventory(
                 if not isinstance(root_id, str):
                     raise ValidationError("branch inventory variant lacks root_id")
                 branch_ref = _normalize_branch_ref(f"{root_id}/{branch_id}")
-                roots_by_arabic.setdefault(root_ar, set()).add(root_id)
+                branch_refs_by_arabic.setdefault(root_ar, {}).setdefault(
+                    branch_id, set()
+                ).add(branch_ref)
                 compact = {
                     "branch_ref": branch_ref,
                     "root_ar": root_ar,
@@ -1242,7 +1293,11 @@ def _nominatable_branch_inventory(
                     )
                 registry[branch_ref] = compact
     return registry, {
-        root: sorted(root_ids) for root, root_ids in sorted(roots_by_arabic.items())
+        root: {
+            branch_id: sorted(branch_refs)
+            for branch_id, branch_refs in sorted(branches.items())
+        }
+        for root, branches in sorted(branch_refs_by_arabic.items())
     }
 
 
@@ -4247,9 +4302,10 @@ def build_prepared_artifacts(
         bundle,
         max_bytes_per_root=options.max_branch_bytes_per_root,
     )
-    inventory_registry, inventory_root_mappings = _nominatable_branch_inventory(
-        bundle
-    )
+    (
+        inventory_registry,
+        inventory_branch_mappings,
+    ) = _nominatable_branch_inventory(bundle)
     allowed_hft_branch_refs = known_branch_refs | set(inventory_registry)
     if hft_audit["adjudicable"]:
         seed_records = _hft_seed_records(
@@ -4283,15 +4339,9 @@ def build_prepared_artifacts(
             "HFT scope/identity audit failed: " + "; ".join(hft_audit["reasons"]),
             report=hft_audit,
         )
-    resolver_root_mappings = {
-        root: sorted(
-            set(root_mappings.get(root, []))
-            | set(inventory_root_mappings.get(root, []))
-        )
-        for root in sorted(set(root_mappings) | set(inventory_root_mappings))
-    }
     resolver = BranchResolver(
-        root_ids_by_arabic=resolver_root_mappings,
+        root_ids_by_arabic=root_mappings,
+        native_branch_refs_by_arabic=inventory_branch_mappings,
         available_branch_refs=known_branch_refs | set(inventory_registry),
         grounding_root_ids_by_arabic=root_mappings,
     )

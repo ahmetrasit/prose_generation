@@ -591,6 +591,53 @@ class PrepareTests(unittest.TestCase):
             ["root_000282/B001"],
         )
 
+    def test_native_furuq_root_precedes_qac_split_targets(self) -> None:
+        split_targets = ["root_000743", "root_000745", "root_001650"]
+        resolver = BranchResolver(
+            root_ids_by_arabic={"س م و": split_targets},
+            native_branch_refs_by_arabic={
+                "س م م": {"B004": ["root_000743/B004"]},
+                "س م و": {"B004": ["root_000745/B004"]},
+                "و س م": {"B004": ["root_001650/B004"]},
+            },
+            available_branch_refs={
+                f"{root_id}/B004" for root_id in split_targets
+            },
+        )
+
+        self.assertEqual(
+            resolver.resolve_text("the overhead sky `س م و:B004/m01`"),
+            (["root_000745/B004"], []),
+        )
+        self.assertEqual(
+            resolver.root_ids_in_text("س م و"),
+            split_targets,
+        )
+
+        ambiguous = BranchResolver(
+            root_ids_by_arabic={"س م و": split_targets},
+            native_branch_refs_by_arabic={
+                "س م و": {
+                    "B004": ["root_000745/B004", "root_009999/B004"]
+                },
+            },
+            available_branch_refs={"root_000745/B004", "root_009999/B004"},
+        )
+        resolved, unresolved = ambiguous.resolve_text("س م و:B004")
+        self.assertEqual(resolved, [])
+        self.assertEqual(
+            unresolved,
+            [
+                {
+                    "citation": "س م و/B004",
+                    "reason": (
+                        "ambiguous root mapping: "
+                        "root_000745/B004, root_009999/B004"
+                    ),
+                }
+            ],
+        )
+
     def test_unknown_explicit_branch_is_diagnostic_not_support_metadata(self) -> None:
         bundle = fixture_bundle()
         topic = bundle["word_analysis"]["words"][1]["topics"][0]
@@ -2117,6 +2164,62 @@ class PrepareTests(unittest.TestCase):
             [item["branch_ref"] for item in docket["nominated_branch_registry"]],
             ["root_009999/B007"],
         )
+
+    def test_channel_nomination_uses_native_inventory_before_qac_split_map(
+        self,
+    ) -> None:
+        bundle = fixture_bundle()
+        bundle["root_lexicon"]["root_000672"]["dictionary_entry"][
+            "branches"
+        ].append(branch("root_000672", "B002", "QAC bridge collision"))
+        for root_id, gloss in (
+            ("root_009998", "unrelated split target one"),
+            ("root_009999", "unrelated split target two"),
+        ):
+            bundle["root_lexicon"][root_id] = root_record(
+                root_id,
+                "س ب ل",
+                [branch(root_id, "B002", gloss)],
+            )
+        bundle["branch_inventories"] = {
+            "full_context_packet": {
+                "source_file": "fixture-branches.json",
+                "branch_inventories": [
+                    {
+                        "root": "س ب ل",
+                        "branches": [
+                            {
+                                "branch_id": "B001",
+                                "image_en": "route",
+                                "scope_en": "a traversable way",
+                                "variants": [{"root_id": "root_000672"}],
+                            },
+                            {
+                                "branch_id": "B002",
+                                "image_en": "branch-specific route",
+                                "scope_en": "the nominated route variant",
+                                "variants": [{"root_id": "root_009999"}],
+                            },
+                        ],
+                    }
+                ],
+            }
+        }
+        channel = bundle["channel_subchannels_anchored_here"][0]
+        channel["active_motifs"] = "a route `س ب ل:B002/m01`"
+
+        prepared, docket = build_prepared_artifacts(
+            bundle,
+            source_path=Path("fixture.json"),
+            options=PrepareOptions(hft_policy="quarantine"),
+        )
+
+        self.assertTrue(prepared["readiness"]["ready"])
+        candidate = next(
+            item for item in docket["candidates"] if item["source_type"] == "channel"
+        )
+        self.assertEqual(candidate["branch_refs"], ["root_009999/B002"])
+        self.assertEqual(candidate["unresolved_branch_citations"], [])
 
     def test_nominated_branch_requires_descriptor_and_candidate_owner(self) -> None:
         bundle = fixture_bundle()
