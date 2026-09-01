@@ -1,13 +1,13 @@
 {
   "artifacts": {
     "docket": "inputs/adjudication/s029/29_41.docket.json",
-    "docket_payload_sha256": "1cad9591d9230e011704e8ec8e28be94ec0201559f344674fb54f09e089597a2",
+    "docket_payload_sha256": "6e07efe423b04f646235633bc11a27b308c21a1ae2bcdb5c15454f7200688936",
     "prepared": "inputs/prepared/s029/29_41.prepared.json",
     "source_bundle": "inputs/source/s029/29_41.bundle.json"
   },
   "budget": {
     "branch_count": 81,
-    "docket_bytes": 222620,
+    "docket_bytes": 222619,
     "estimated_tokens_chars_div_4": 55655,
     "nominated_branch_count": 18,
     "support_count": 144
@@ -1451,9 +1451,9 @@
     "ayah_ref": "29:41",
     "source": {
       "ayah_ref": "29:41",
-      "canonical_sha256": "72a2d64f386bfe78796f4a8e1160f737a804d1314231f5619ea95e5efcd7f8d5",
+      "canonical_sha256": "0ae61fabad1a4e67d51d42afeb695497b3a99addbf82b0825209ea5bbd7fad21",
       "path": "inputs/source/s029/29_41.bundle.json",
-      "raw_sha256": "30cd86ad1a85926f634536ea9a69feadcd75e365f57a8f6513842855a693c904",
+      "raw_sha256": "8ddcc340ab1aeab5d951a587f3f145fb470eb9cd955913624d1b89b2060fcdcc",
       "schema_version": "input-bundle-v3"
     }
   },
@@ -1465,7 +1465,7 @@
     "degraded_reasons": [
       "quarantined_hft"
     ],
-    "incomplete_branch_coverage_authorized": false,
+    "incomplete_branch_coverage_authorized": true,
     "mode": "quarantine_without_hft",
     "ready": true,
     "warnings": [
@@ -1474,7 +1474,7 @@
   },
   "schema_version": "commentary-v3-prepared-v1",
   "scope_audit": {
-    "allow_incomplete_branch_coverage": false,
+    "allow_incomplete_branch_coverage": true,
     "allow_legacy_hft_response": false,
     "hft": {
       "adjudicable": false,

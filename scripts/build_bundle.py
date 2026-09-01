@@ -2135,7 +2135,7 @@ _MAX_SKIP_FOR_MORPHEME_MATCH = 3
 # source's orthography and absent from the other's (e.g. word_analysis
 # ضَبْحًۭا vs morphemes.tsv ضَبْحًا; morphemes.tsv هِۦ vs word_analysis هِ).
 _ANNOTATION_CODEPOINTS = set(range(0x06D6, 0x06EE)) | {0x0670, 0x06E5, 0x06E6, 0x0640}
-_ALEF_FOLD = str.maketrans({"ٱ": "ا", "أ": "ا", "إ": "ا", "آ": "ا"})
+_ALEF_FOLD = str.maketrans({"ٱ": "ا", "أ": "ا", "إ": "ا", "آ": "ا", "ى": "ي"})
 
 
 def normalize_arabic_surface(text: str) -> str:
@@ -2166,16 +2166,34 @@ def _find_word_span_from_position(
         span_start = position + skip
         if span_start >= len(morpheme_rows):
             return False, position, position, 0
+        if skip and _qac_word_ref_from_qac_ref(
+            morpheme_rows[span_start - 1].get("qac_ref", "")
+        ) == _qac_word_ref_from_qac_ref(
+            morpheme_rows[span_start].get("qac_ref", "")
+        ):
+            continue
         accumulated = ""
         for j in range(span_start + 1, len(morpheme_rows) + 1):
             accumulated = "".join(
                 normalize_arabic_surface(row["surface_ar"]) for row in morpheme_rows[span_start:j]
             )
             if accumulated == target:
+                while (
+                    j < len(morpheme_rows)
+                    and not normalize_arabic_surface(morpheme_rows[j]["surface_ar"])
+                    and _qac_word_ref_from_qac_ref(morpheme_rows[j - 1].get("qac_ref", ""))
+                    == _qac_word_ref_from_qac_ref(morpheme_rows[j].get("qac_ref", ""))
+                ):
+                    j += 1
                 return True, span_start, j, skip
             if not target.startswith(accumulated):
                 break
     return False, position, position, 0
+
+
+def _qac_word_ref_from_qac_ref(qac_ref: str) -> str:
+    parts = qac_ref.split(":")
+    return ":".join(parts[:3]) if len(parts) >= 3 else ""
 
 
 def load_morphemes_tsv(surah: int) -> tuple:

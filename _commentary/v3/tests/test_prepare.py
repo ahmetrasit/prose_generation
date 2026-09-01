@@ -924,6 +924,46 @@ class PrepareTests(unittest.TestCase):
                 options=PrepareOptions(hft_policy="quarantine"),
             )
 
+    def test_unmapped_focus_root_is_explicit_degraded_coverage(self) -> None:
+        bundle = fixture_bundle()
+        del bundle["root_lexicon"]["root_000121"]
+        prepared, docket = build_prepared_artifacts(
+            bundle,
+            source_path=Path("fixture.json"),
+            options=PrepareOptions(hft_policy="quarantine"),
+        )
+        coverage = docket["scope"]["branch_coverage"]
+        self.assertFalse(coverage["complete"])
+        self.assertEqual(
+            coverage["missing_dictionary_roots"][0],
+            {
+                "root_id": None,
+                "root_ar": "ب ص ر",
+                "qac_roots_ar": ["ب ص ر"],
+                "reason": "no root_lexicon mapping for this QAC focus root",
+            },
+        )
+        self.assertFalse(prepared["readiness"]["ready"])
+        self.assertIn(
+            "branch_coverage/incomplete",
+            prepared["readiness"]["blocker_counts"],
+        )
+
+        authorized, authorized_docket = build_prepared_artifacts(
+            bundle,
+            source_path=Path("fixture.json"),
+            options=PrepareOptions(
+                hft_policy="quarantine",
+                allow_incomplete_branch_coverage=True,
+            ),
+        )
+        self.assertTrue(authorized["readiness"]["ready"])
+        self.assertTrue(
+            authorized_docket["adjudication_gate"][
+                "incomplete_branch_coverage_authorized"
+            ]
+        )
+
     def test_mandatory_candidate_cannot_cite_branch_from_null_dictionary(self) -> None:
         bundle = fixture_bundle()
         bundle["root_lexicon"]["root_000121"]["dictionary_entry"] = None

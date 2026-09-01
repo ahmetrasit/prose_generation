@@ -1,0 +1,1404 @@
+{
+  "artifacts": {
+    "docket": "inputs/adjudication/s029/29_5.docket.json",
+    "docket_payload_sha256": "ea229f367d2d2d52b587ebba69ceaa27564430cb87bfb37989ea1c1aded9e873",
+    "prepared": "inputs/prepared/s029/29_5.prepared.json",
+    "source_bundle": "inputs/source/s029/29_5.bundle.json"
+  },
+  "budget": {
+    "branch_count": 77,
+    "docket_bytes": 160778,
+    "estimated_tokens_chars_div_4": 40195,
+    "nominated_branch_count": 6,
+    "support_count": 98
+  },
+  "candidate_ledger": [
+    {
+      "candidate_id": "cand_93f28578e8584bbfbfb4",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "C:Injury Amplified as Public Circulation",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel"
+    },
+    {
+      "candidate_id": "cand_6e96ad4b1d3f246cce8d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "B:Race, Finish, and Unavoidable Reception",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel"
+    },
+    {
+      "candidate_id": "cand_bf66d4f289bd8cb70cfe",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication"
+    },
+    {
+      "candidate_id": "cand_040b141bf9c1ba391049",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_bounded_convergence",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_present_apprehension",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_bounded_gestation",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/2",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000852/B004', 'root_001128/B001', 'root_001272/B001']",
+      "source_local_id": "reader_hft_a:delta_assayed_hope",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000018/B002', 'root_000985/B002']",
+      "source_local_id": "reader_hft_a:delta_non_out runnable_arrival",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000552/B001', 'root_001690/B001']",
+      "source_local_id": "reader_hft_a:delta_meeting_mercy_polarity",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000019/B001', 'root_001154/B001', 'root_001700/B002']",
+      "source_local_id": "reader_hft_a:delta_ethical_last_day_orientation",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000135/B001', 'root_000987/B001']",
+      "source_local_id": "reader_hft_a:delta_fixed_yet_sudden_threshold",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/4",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000019/B001', 'root_000383/B003', 'root_000493/B002', 'root_001358/B001', 'root_001382/B001', 'root_001454/B001']",
+      "source_local_id": "reader_hft_a:delta_death_return_true_life",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/5",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000357/B001', 'root_000560/B001', 'root_000840/B001', 'root_001681/B002']",
+      "source_local_id": "reader_hft_a:delta_providential_hearing",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/6",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000323/B002', 'root_000672/B001', 'root_001583/B001']",
+      "source_local_id": "reader_hft_a:delta_guided_approach_and_presence",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/7",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000383/B002', 'root_000957/B002', 'root_001458/B003']",
+      "source_local_id": "reader_hft_a:outlier_reservoir_and_incoming_water",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000186/B001', 'root_000516/B003', 'root_001560/B001', 'root_001633/B004']",
+      "source_local_id": "reader_hft_a:outlier_present_reception_rehearses_meeting",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": "cand_0834f6fd4e3a2574b454",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:2:1",
+      "source_pointer": "/qac_morphemes/1",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_974ba7315a00a4018583",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:9:2",
+      "source_pointer": "/qac_morphemes/10",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_f80ca4f453b092db476b",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:11:2",
+      "source_pointer": "/qac_morphemes/14",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_ec40c6c5e41ba329b82e",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:12:2",
+      "source_pointer": "/qac_morphemes/16",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_c9aaba4732145d1c5f13",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:3:1",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_82dbe08cc96144e38430",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:4:1",
+      "source_pointer": "/qac_morphemes/3",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_68882165b0a0f92ef27d",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:5:1",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_ef168247846770b9f62c",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:7:1",
+      "source_pointer": "/qac_morphemes/7",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_b2d73d1c9cec11bd8ca5",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_5e22b178b31aced0da0b",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_6fedb426bf193dbbb11c",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_f59652ba4c723e281d78",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_90ab76d1004dbac9b756",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_0a3d78b3a7c1b555dd5d",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_ca3a7b0b9b8471d9dbb7",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:1:open-conditional-scope",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f741305a1daecafd120d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:1:condition-answer-binding",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1837dddca35d2d3ed4da",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:1:discourse-boundary-and-reprise",
+      "source_pointer": "/word_analysis/words/0/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_76a4758f8a124fff053f",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:2:durative-auxiliary-frame",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d32ac93efcb95ae3fd21",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:2:being-root-grammaticalized",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1bf13b36cde1613f364a",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:2:expectation-meeting-field",
+      "source_pointer": "/word_analysis/words/1/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_158295e6096e51c44616",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:2:protasis-cadence",
+      "source_pointer": "/word_analysis/words/1/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f9526323b0219217743e",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:11:active-participle-arrival",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_25b2dbe77324ca7f5af6",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:11:form-branch-limit",
+      "source_pointer": "/word_analysis/words/10/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_6582dfba38037e3ac1fb",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:11:qualitative-indefinite-predicate",
+      "source_pointer": "/word_analysis/words/10/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_343057d68b4416e2d808",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:11:structural-landing-and-shift",
+      "source_pointer": "/word_analysis/words/10/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_9175f10c67e402f7ec5c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:11:escape-reversal",
+      "source_pointer": "/word_analysis/words/10/topics/4",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e5f127407b6e3d4ca10e",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:12:resumption-or-circumstance",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_cc169edc62d9f4cb3cbf",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:12:clitic-coda-binding",
+      "source_pointer": "/word_analysis/words/11/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_6f14d20de47f1c085c8b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:12:temporal-to-epistemic-pivot",
+      "source_pointer": "/word_analysis/words/11/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_7ce0c9fda0877662e322",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:13:nominal-subject-double-predicate",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d8c10469ad43fbed6a82",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:13:blocks-term-modifier-reading",
+      "source_pointer": "/word_analysis/words/12/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_6c015ba12b44d4176529",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:13:divine-referent-compression",
+      "source_pointer": "/word_analysis/words/12/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_b6b64d61e1edacf40c3b",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:5:13:external-self-designation-filler",
+      "source_pointer": "/word_analysis/words/12/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_fbd703bfe6ce2d146bd1",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:13:boundary-role-shift",
+      "source_pointer": "/word_analysis/words/12/topics/4",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_01a617d5fe98aedee947",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:14:definite-intensive-title",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ca79eabe7120e1001c17",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:14:external-perception-before-knowledge",
+      "source_pointer": "/word_analysis/words/13/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_7227ca02d60735ccd59c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:14:paired-attribute-seal-and-echo",
+      "source_pointer": "/word_analysis/words/13/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d7ca725b3bafd8ea6d98",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:14:paired-sound-cadence",
+      "source_pointer": "/word_analysis/words/13/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e4f04dd747362f9e533b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:15:definite-intensive-final-title",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_31e72c8e5e6206a2143d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:15:comprehensive-knowledge-domain",
+      "source_pointer": "/word_analysis/words/14/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_82a9d0aaf3e5fde68fa2",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:15:perception-to-cognition-order",
+      "source_pointer": "/word_analysis/words/14/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_c59c8893406a9b32f174",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:15:final-cadence-and-seal",
+      "source_pointer": "/word_analysis/words/14/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_4b11d61896477c9aa4b7",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:3:ongoing-expectation-predicate",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_cb04881b1500afdd926d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:3:hope-fear-valence",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_48af03a91849de412e6f",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:3:meeting-collocation-and-answer",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_b7ea2092b3ada9abfd81",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:3:surah-and-boundary-movement",
+      "source_pointer": "/word_analysis/words/2/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_0c1965d0937c6b368ce8",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:event-object-and-idafa",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_31e328e2921bbd25012c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:encounter-root-image",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ddf6f5fa01382ffe0e04",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:bounded-masdar-form",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_019b5db0b4db1ddbfa2b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:formula-and-surah-contrast",
+      "source_pointer": "/word_analysis/words/3/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_4c9192de8e708b72798c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:recitational-catch",
+      "source_pointer": "/word_analysis/words/3/topics/4",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_268f1f586b526eb42f21",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:4:paired-idafa-architecture",
+      "source_pointer": "/word_analysis/words/3/topics/5",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_6da231572fd2e5e030b6",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:5:meeting-construct-definiteness",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f7652ea3e61c405eada9",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:5:proper-name-derivational-pressure",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e535ac6ef289adaa8bda",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:5:condition-answer-divine-link",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1f0e08f3cf4c7399c19d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:5:meeting-term-role-distribution",
+      "source_pointer": "/word_analysis/words/4/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1aff3d76a775e950d79b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:6:formal-apodosis-marker",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_a03fcd88cb60796ac430",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:6:consequence-and-clitic-transition",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_402e41182cd7122d9377",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:6:emphatic-counterforce",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d67963ce63aa336d4d86",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:7:inna-governance",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_0ade713e02cc11cb708c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:7:stacked-emphasis",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_3d5d707d03a570c80d20",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:7:scope-to-attribute-coda",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_96d0ebeda46f9457c6b0",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:8:construct-definite-ism-inna",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_c2555d77f3f3a9733284",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:8:scheduled-divine-endpoint",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_35c6cfc1f4b70fcbe56e",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:8:term-allah-arrival-field",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1d03da7227885dbfcf57",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:8:surah-escape-and-term-motif",
+      "source_pointer": "/word_analysis/words/7/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_36ebe853c2cae932168d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:9:second-genitive-definiteness",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1b4801e5830d08cd73fd",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:9:parallel-divine-reprise",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_8cb318694675370e7a8c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:10:predicate-emphasis-position",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ce824d1f959f1cc57486",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:10:internal-confirmation-stack",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e723f89c48c1fd2fa218",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:5:10:late-structural-peak-and-sound",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis"
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 88,
+    "by_disposition": {
+      "docket_mandatory": 58,
+      "docket_optional": 17,
+      "parse_failed": 10,
+      "quarantined": 3
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 2,
+      "hft": 13,
+      "qac_morpheme": 8,
+      "v12_reader_walks": 3,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 57
+    },
+    "discovered_seed_count": 88,
+    "docket_candidate_count": 75,
+    "mandatory_candidate_count": 58,
+    "optional_candidate_count": 17,
+    "selection_eligible_candidate_count": 60,
+    "selection_ineligible_candidate_count": 15
+  },
+  "diagnostics": {
+    "blocking_seed_failures": [],
+    "branch_review_grounding_gaps": [],
+    "focus_root_dictionary_gaps": [],
+    "quarantined_hft": {
+      "audit": {
+        "adjudicable": false,
+        "evidence_lane": "macro",
+        "evidence_scope": "pericope",
+        "legacy_response_allowed": false,
+        "packet": {
+          "ayah_count": 69,
+          "focus_ref": "29:5",
+          "protocol": "focus-trace-pericope-lean-v1",
+          "source_file": "latent_activation/focus_trace/runs/s29/packets/29_5.packet.json",
+          "window": [
+            "29:1",
+            "29:2",
+            "29:3",
+            "29:4",
+            "29:5",
+            "29:6",
+            "29:7",
+            "29:8",
+            "29:9",
+            "29:10",
+            "29:11",
+            "29:12",
+            "29:13",
+            "29:14",
+            "29:15",
+            "29:16",
+            "29:17",
+            "29:18",
+            "29:19",
+            "29:20",
+            "29:21",
+            "29:22",
+            "29:23",
+            "29:24",
+            "29:25",
+            "29:26",
+            "29:27",
+            "29:28",
+            "29:29",
+            "29:30",
+            "29:31",
+            "29:32",
+            "29:33",
+            "29:34",
+            "29:35",
+            "29:36",
+            "29:37",
+            "29:38",
+            "29:39",
+            "29:40",
+            "29:41",
+            "29:42",
+            "29:43",
+            "29:44",
+            "29:45",
+            "29:46",
+            "29:47",
+            "29:48",
+            "29:49",
+            "29:50",
+            "29:51",
+            "29:52",
+            "29:53",
+            "29:54",
+            "29:55",
+            "29:56",
+            "29:57",
+            "29:58",
+            "29:59",
+            "29:60",
+            "29:61",
+            "29:62",
+            "29:63",
+            "29:64",
+            "29:65",
+            "29:66",
+            "29:67",
+            "29:68",
+            "29:69"
+          ],
+          "window_scope": null,
+          "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+        },
+        "readers": [
+          {
+            "focus_ref": "29:5",
+            "identity_status": "legacy_unbound",
+            "note": "Response matches focus/protocol but carries no packet hash echo.",
+            "packet_identity": null,
+            "protocol": "focus-trace-hermetic-response-v4",
+            "reader_id": "reader_hft_a",
+            "reasons": []
+          }
+        ],
+        "reasons": [
+          "packet window does not exactly match declared pericope (69 refs vs 13)",
+          "reader reader_hft_a: response is not bound to packet identity"
+        ],
+        "status": "invalid"
+      },
+      "malformed_payload": null,
+      "seeds": [
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000009/B001",
+            "root_000016/B001",
+            "root_000548/B001",
+            "root_001372/B004"
+          ],
+          "changed_reading": {
+            "after": "The person and an already advancing appointed limit are converging on a face-to-face event.",
+            "before": "A person wishes for a future meeting whose timing is unknown."
+          },
+          "focus_anchor": "يَرْجُوا۟ لِقَآءَ ٱللَّهِ ... أَجَلَ ٱللَّهِ لَءَاتٍ",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_bounded_convergence",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000009/B001",
+            "root_000016/B001",
+            "root_000548/B004",
+            "root_000548/B005"
+          ],
+          "changed_reading": {
+            "after": "Exploratorily, the delay is a bounded maturation whose endpoint is already nearing emergence.",
+            "before": "Delay weakens hope because nothing visible is happening."
+          },
+          "focus_anchor": "يَرْجُوا۟ ... أَجَلَ ... لَءَاتٍ",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_bounded_gestation",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/2"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000741/B001",
+            "root_001040/B001"
+          ],
+          "changed_reading": {
+            "after": "The future appointment is guaranteed by one who already receives and knows the hoper in the present.",
+            "before": "The verse only guarantees a future appointment."
+          },
+          "focus_anchor": "وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_present_apprehension",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:2",
+            "29:3",
+            "29:5",
+            "29:6"
+          ],
+          "branch_refs": [
+            "root_000268/B001",
+            "root_000548/B001",
+            "root_000852/B004",
+            "root_001040/B001",
+            "root_001128/B001",
+            "root_001272/B001"
+          ],
+          "changed_reading": {
+            "after": "Hope is a presently assayed commitment whose truth becomes legible in strenuous action.",
+            "before": "Hope is primarily an inward expectation of a future encounter."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000852/B004', 'root_001128/B001', 'root_001272/B001']",
+          "source_local_id": "reader_hft_a:delta_assayed_hope",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5",
+            "29:57",
+            "29:64"
+          ],
+          "branch_refs": [
+            "root_000016/B001",
+            "root_000019/B001",
+            "root_000383/B003",
+            "root_000493/B002",
+            "root_000544/B001",
+            "root_001358/B001",
+            "root_001372/B004",
+            "root_001382/B001",
+            "root_001454/B001"
+          ],
+          "changed_reading": {
+            "after": "The term can mark entry into a sequence of death, return, and encounter whose destination is described as fuller life.",
+            "before": "The coming term and meeting are a single undifferentiated event."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000019/B001', 'root_000383/B003', 'root_000493/B002', 'root_001358/B001', 'root_001382/B001', 'root_001454/B001']",
+          "source_local_id": "reader_hft_a:delta_death_return_true_life",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/5"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:36",
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000019/B001",
+            "root_000548/B001",
+            "root_001154/B001",
+            "root_001372/B004",
+            "root_001700/B002"
+          ],
+          "changed_reading": {
+            "after": "Hope for the meeting is a Last-Day orientation that contests corruptive conduct on earth now.",
+            "before": "Hope concerns the hoper's private future meeting."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000019/B001', 'root_001154/B001', 'root_001700/B002']",
+          "source_local_id": "reader_hft_a:delta_ethical_last_day_orientation",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5",
+            "29:53"
+          ],
+          "branch_refs": [
+            "root_000009/B001",
+            "root_000016/B001",
+            "root_000135/B001",
+            "root_000987/B001"
+          ],
+          "changed_reading": {
+            "after": "The term is objectively fixed and certain while remaining subjectively abrupt; hope must not depend on reading a countdown.",
+            "before": "Certainty of the term should make its approach recognizable."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000135/B001', 'root_000987/B001']",
+          "source_local_id": "reader_hft_a:delta_fixed_yet_sudden_threshold",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/4"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5",
+            "29:69"
+          ],
+          "branch_refs": [
+            "root_000268/B001",
+            "root_000323/B002",
+            "root_000548/B001",
+            "root_000672/B001",
+            "root_001372/B004",
+            "root_001583/B001"
+          ],
+          "changed_reading": {
+            "after": "The future encounter already organizes a guided journey in which divine accompaniment is operative before arrival.",
+            "before": "God is encountered only when the fixed future term arrives."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000323/B002', 'root_000672/B001', 'root_001583/B001']",
+          "source_local_id": "reader_hft_a:delta_guided_approach_and_presence",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/7"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:23",
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000548/B001",
+            "root_000552/B001",
+            "root_001372/B004",
+            "root_001690/B001"
+          ],
+          "changed_reading": {
+            "after": "Hoping for the meeting is a mercy-preserving stance, defined against the despair generated by denying that same encounter.",
+            "before": "Hoping for the meeting means expecting that it will occur."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000552/B001', 'root_001690/B001']",
+          "source_local_id": "reader_hft_a:delta_meeting_mercy_polarity",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:22",
+            "29:39",
+            "29:4",
+            "29:40",
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000009/B001",
+            "root_000016/B001",
+            "root_000018/B002",
+            "root_000671/B004",
+            "root_000985/B002"
+          ],
+          "changed_reading": {
+            "after": "The appointed term advances as an inescapable claim; no change of place or attempted lead creates temporal refuge.",
+            "before": "The appointed term will occur at its date."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000018/B002', 'root_000985/B002']",
+          "source_local_id": "reader_hft_a:delta_non_out runnable_arrival",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:5",
+            "29:59",
+            "29:60"
+          ],
+          "branch_refs": [
+            "root_000357/B001",
+            "root_000560/B001",
+            "root_000741/B001",
+            "root_000840/B001",
+            "root_001040/B001",
+            "root_001681/B002"
+          ],
+          "changed_reading": {
+            "after": "The same predicates also make hope materially livable: the approaching encounter is overseen by one attentive to need and provision.",
+            "before": "Hearing and knowing mainly guarantee surveillance and eventual judgment."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000357/B001', 'root_000560/B001', 'root_000840/B001', 'root_001681/B002']",
+          "source_local_id": "reader_hft_a:delta_providential_hearing",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/6"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:45",
+            "29:5"
+          ],
+          "branch_refs": [
+            "root_000186/B001",
+            "root_000516/B003",
+            "root_000741/B003",
+            "root_001372/B011",
+            "root_001560/B001",
+            "root_001633/B004"
+          ],
+          "changed_reading": {
+            "after": "Exploratorily, receiving and enacting divine address rehearses the relation of meeting in the present without exhausting its future sense.",
+            "before": "Meeting is only a future face-to-face event."
+          },
+          "focus_anchor": "لِقَآءَ ٱللَّهِ ... ٱلسَّمِيعُ",
+          "kind": "surprising_outlier",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000186/B001', 'root_000516/B003', 'root_001560/B001', 'root_001633/B004']",
+          "source_local_id": "reader_hft_a:outlier_present_reception_rehearses_meeting",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:14",
+            "29:5",
+            "29:63"
+          ],
+          "branch_refs": [
+            "root_000009/B005",
+            "root_000016/B007",
+            "root_000383/B002",
+            "root_000957/B002",
+            "root_001458/B003"
+          ],
+          "changed_reading": {
+            "after": "As a contained material analogy, the term is stored potential released as an incoming current whose realized effect can destroy or revive.",
+            "before": "The term advances only like a point on a clock."
+          },
+          "focus_anchor": "أَجَلَ ٱللَّهِ لَءَاتٍ",
+          "kind": "surprising_outlier",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000383/B002', 'root_000957/B002', 'root_001458/B003']",
+          "source_local_id": "reader_hft_a:outlier_reservoir_and_incoming_water",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0"
+        }
+      ],
+      "structural_error": null,
+      "visible_to_adjudication": false
+    }
+  },
+  "identity": {
+    "ayah_ref": "29:5",
+    "source": {
+      "ayah_ref": "29:5",
+      "canonical_sha256": "4c663f4888a1c01560decb3058225e024bcbe65737be3a3b35a4ce254c96bc5d",
+      "path": "inputs/source/s029/29_5.bundle.json",
+      "raw_sha256": "aacbedff47c606d2a26c7f77b8af894b8518a1e21fc62feae67d5b390784fb9a",
+      "schema_version": "input-bundle-v3"
+    }
+  },
+  "mandatory_candidates_ready": true,
+  "readiness": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "schema_version": "commentary-v3-prepared-v1",
+  "scope_audit": {
+    "allow_incomplete_branch_coverage": true,
+    "allow_legacy_hft_response": false,
+    "hft": {
+      "adjudicable": false,
+      "evidence_lane": "macro",
+      "evidence_scope": "pericope",
+      "legacy_response_allowed": false,
+      "packet": {
+        "ayah_count": 69,
+        "focus_ref": "29:5",
+        "protocol": "focus-trace-pericope-lean-v1",
+        "source_file": "latent_activation/focus_trace/runs/s29/packets/29_5.packet.json",
+        "window": [
+          "29:1",
+          "29:2",
+          "29:3",
+          "29:4",
+          "29:5",
+          "29:6",
+          "29:7",
+          "29:8",
+          "29:9",
+          "29:10",
+          "29:11",
+          "29:12",
+          "29:13",
+          "29:14",
+          "29:15",
+          "29:16",
+          "29:17",
+          "29:18",
+          "29:19",
+          "29:20",
+          "29:21",
+          "29:22",
+          "29:23",
+          "29:24",
+          "29:25",
+          "29:26",
+          "29:27",
+          "29:28",
+          "29:29",
+          "29:30",
+          "29:31",
+          "29:32",
+          "29:33",
+          "29:34",
+          "29:35",
+          "29:36",
+          "29:37",
+          "29:38",
+          "29:39",
+          "29:40",
+          "29:41",
+          "29:42",
+          "29:43",
+          "29:44",
+          "29:45",
+          "29:46",
+          "29:47",
+          "29:48",
+          "29:49",
+          "29:50",
+          "29:51",
+          "29:52",
+          "29:53",
+          "29:54",
+          "29:55",
+          "29:56",
+          "29:57",
+          "29:58",
+          "29:59",
+          "29:60",
+          "29:61",
+          "29:62",
+          "29:63",
+          "29:64",
+          "29:65",
+          "29:66",
+          "29:67",
+          "29:68",
+          "29:69"
+        ],
+        "window_scope": null,
+        "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+      },
+      "readers": [
+        {
+          "focus_ref": "29:5",
+          "identity_status": "legacy_unbound",
+          "note": "Response matches focus/protocol but carries no packet hash echo.",
+          "packet_identity": null,
+          "protocol": "focus-trace-hermetic-response-v4",
+          "reader_id": "reader_hft_a",
+          "reasons": []
+        }
+      ],
+      "reasons": [
+        "packet window does not exactly match declared pericope (69 refs vs 13)",
+        "reader reader_hft_a: response is not bound to packet identity"
+      ],
+      "status": "invalid"
+    },
+    "hft_policy": "quarantine",
+    "pericope": {
+      "ayah_from": 1,
+      "ayah_to": 13,
+      "id": "s029-p01-001-013",
+      "label": "Trials of faith and accountability",
+      "number": 1,
+      "refs": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13"
+      ]
+    }
+  },
+  "source_inventory": {
+    "butuncul_okuma_line": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Whole-reading prose is excluded to avoid importing a prior synthesis as evidence.",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "channel_generated_outputs": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Generated channel prose is excluded; reviewed anchored channel nominations are used.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "channel_subchannels_anchored_here": {
+      "dispositions": {
+        "docket_mandatory": 2
+      },
+      "policy": "candidate_source",
+      "seed_count": 2,
+      "state": "present_nonempty"
+    },
+    "inter_ayah_rows": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Raw inter-ayah rows are not model-visible in v1; adjudicable relations must arrive through bounded word, channel, HFT, walk, or publication seeds.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "qac_morphemes": {
+      "dispositions": {
+        "docket_optional": 8
+      },
+      "policy": "candidate_source",
+      "seed_count": 8,
+      "state": "present_nonempty"
+    },
+    "v12_cross_run_publication": {
+      "dispositions": {
+        "docket_optional": 2
+      },
+      "policy": "candidate_source",
+      "seed_count": 2,
+      "state": "present_nonempty"
+    },
+    "v12_focus_trace_hermetic": {
+      "dispositions": {
+        "parse_failed": 10,
+        "quarantined": 3
+      },
+      "policy": "candidate_source",
+      "seed_count": 13,
+      "state": "present_nonempty"
+    },
+    "v12_reader_responses": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "v12_reader_walks": {
+      "dispositions": {
+        "docket_optional": 3
+      },
+      "policy": "candidate_source",
+      "seed_count": 3,
+      "state": "present_nonempty"
+    },
+    "v12_reader_walks_wide": {
+      "dispositions": {
+        "docket_optional": 3
+      },
+      "policy": "candidate_source",
+      "seed_count": 3,
+      "state": "present_nonempty"
+    },
+    "word_analysis": {
+      "dispositions": {
+        "docket_mandatory": 56,
+        "docket_optional": 1
+      },
+      "policy": "candidate_source",
+      "seed_count": 57,
+      "state": "present_nonempty"
+    }
+  }
+}

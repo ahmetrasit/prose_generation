@@ -1,0 +1,2379 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Tanrı'ya özgü mutlak kullanım ile bir şeyin sahibi ya da yöneticisi olmayı bildiren tamlamalı kullanım ayrı tutulmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000532/B001",
+          "gloss": "sahip olup yönetme",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam yalnız bakım göstermeyi değil, gözetilen şeyi zaman içinde düzeltip tamamlamayı gerektirir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000532/B002",
+          "gloss": "adım adım yetiştirip tamamlama",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal sıradan bilgi sahipliğini değil, Tanrı bilgisi, dinî uzmanlık ve öğretici yetiştirme görevini birlikte taşır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B003",
+          "gloss": "Tanrı bilgisiyle yetiştiren bilgin",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "İnsan topluluğu anlamı, yalnız herhangi bir çoğulluğu değil büyük sayı veya fiilî birleşme niteliğini taşır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B004",
+          "gloss": "büyük insan topluluğu",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Üvey çocuk, üvey ebeveyn ve bakıcı anlamları karşılıklı bakım ilişkisine bağlıdır; genel yetiştirme anlamıyla karıştırılmamalıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B005",
+          "gloss": "bakımla kurulan üvey aile bağı",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Maddenin kendisi ile o madde kullanılarak işlenmiş nesne ayrıdır; sahiplik ve yönetim anlamları bu dala girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B006",
+          "gloss": "koyu öz veya yağ tortusu",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Temel sınır bir yerde kalma ve sürmedir; hareketin kendisi veya bulutun türü bu dalın çekirdeği değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000532/B007",
+          "gloss": "bir yerde kalıp sürme",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal bulutun yapısını ve konumunu anlatır; renk ile yağmur veya bitki yetiştirme sonucu zorunlu tanım öğesi değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B008",
+          "gloss": "katmanlı asılı bulut kümesi",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Yeni doğurmuş koyun, tazelik ve gençliğin başlangıcı aynı düzeyde bağımsız çekirdekler değil; ilk durum genel yenilik sınırının özel gerçekleşmesidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000532/B009",
+          "gloss": "başlangıçtaki tazelik",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/8",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal tek bir ok veya kura çubuğunu değil, bunları bir arada tutan kap ya da topluluğu anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B010",
+          "gloss": "kura oklarını toplayan kap",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Ana anlam karşılıklı bağlılık doğuran söz ve güvencedir; vergi payı ancak bu bağlayıcılığa dayanan özel kullanımdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B011",
+          "gloss": "bağlayıcı söz ve güvence",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/10",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal genel olarak bütün yeşil bitkileri değil, adı bu biçimde verilen bir veya birkaç belirli bitki türünü kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B012",
+          "gloss": "belirli bir yeşil bitki türü",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/11",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Miktar çokluğu çekirdektir; tatlılık isteğe bağlı bir nitelik, havuz veya su yatağı ise bu dalın anlamı değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B013",
+          "gloss": "bol ve toplanmış su",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/12",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Sürü hâlinde bulunma zorunludur; tek hayvan anlamı yoktur ve deve kapsamı çekirdeğe değil genişlemiş kullanıma aittir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B014",
+          "gloss": "yaban sığırı sürüsü",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/13",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal bir varlığı adlandırmaz; azlık veya ara sıra gerçekleşme bildiren dil bilgisel işlev ve onun biçim değişkeleridir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B015",
+          "gloss": "azlık bildiren ilgeç",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/14",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Üç anlam bağlama göre birbirinin alternatifi olarak okunmalıdır; kaynak aralarında ortak bir kavramsal veya kökensel bağ açıklamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B016",
+          "gloss": "gereksinim, sıkı düğüm veya iyilik",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/15",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal geminin veya bütün gemicilik işinin değil, gemicileri yöneten baş kişinin adıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000532/B017",
+          "gloss": "gemicilerin başı",
+          "source_pointer": "/root_lexicon/root_000532/dictionary_entry/branches/16",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
+      "root_ar": "ر ب ب",
+      "root_id": "root_000532"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal genel artma ve yükselmeyi kapsar; belirli bir yer biçimini, alışveriş hükmünü veya solunum rahatsızlığını kendi başına tanımlamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000537/B001",
+          "gloss": "artmak veya yükselmek",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal arazi üzerindeki yükseltiyle sınırlıdır; her türlü artışa, mali fazlalığa veya soluk sıkışmasına genişletilmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000537/B002",
+          "gloss": "yükselmiş arazi",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, belirli işlem biçimlerinde anaparaya eklenen fazlalıkla sınırlıdır; doğal büyüme, sıradan kazanç veya her fiyat farkı bu anlamı taşımaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000537/B003",
+          "gloss": "belirli işlem biçimleriyle sınırlı anapara fazlalığı",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal yüksek, hızlı veya tıkanmış soluk durumuyla sınırlıdır; tek başına genel yorgunluğu ya da süreğen bir hastalık tanısını zorunlu kılmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000537/B004",
+          "gloss": "soluğu yükselip sıkışmak",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, besleme ve yetişme yoluyla gelişmeyi kapsar; yalnızca boyca artma, eğitme veya genel bakım verme anlamına indirgenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000537/B005",
+          "gloss": "besleyip büyütmek ve yetişmek",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kasık ve uyluk kökü anatomisiyle sınırlıdır; bütün uyluğu, baldır kasını veya aynı sesli akrabalık ifadesini kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000537/B006",
+          "gloss": "uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam belirli gelme ifadesine ve baba tarafından yakın hane halkına bağlıdır; bağımsız bir aile, kabile veya bütün akrabalar adı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000537/B007",
+          "gloss": "baba tarafından yakın hane halkının arasına gelmek",
+          "source_pointer": "/root_lexicon/root_000537/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
+      "root_ar": "ر ب ب",
+      "root_id": "root_000537"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal içsel özdenetim ve dayanıklılıkla sınırlıdır; dışarıdan zorla tutma ya da özel kalıp anlamları kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B001",
+          "gloss": "kendini tutarak dayanma",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal zorlayıcı alıkoymayı, öldürülmek üzere tutmayı ve yönetici önünde ant içmeye zorlamayı kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B002",
+          "gloss": "zorla alıkoyma",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Güvence verip yük üstlenme çekirdektir; topluluğun işlerine eşlik eden kişi bununla eşitlenmeyen ilişkili bir kullanımdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B003",
+          "gloss": "yükümlülüğe güvence veren kişi",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bir nesnenin üst veya yan sınır bölümüdür; kalın taş ve çakıllı yer anlamları buna dahil değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B004",
+          "gloss": "üst ya da yan sınır",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sert taş ve taşlı zemin alanındadır; mekânsal üst bölüm ile mecazlaşmış ağır sıkıntı anlamlarını kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B005",
+          "gloss": "sert taş ve taşlı arazi",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal belirli adlandırmalara bağlı ağır ve çıkışsız durumu kapsar; somut taşlık yer ile yalnızca soğuk şiddeti kapsam dışıdır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000840/B006",
+          "gloss": "çıkışsız ağır durum",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca kışın şiddetli soğuğunu belirtir; genel sıkıntı, dayanma ve taş adları bu sınıra girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B007",
+          "gloss": "kışın ayazı",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal ağacın acı özsuyu ile bundan yapılan ilacı kapsar; ekşi meyve ve ruhsal dayanma anlamlarını kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B008",
+          "gloss": "acı ağaç özü",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal belirli ağacın çok ekşi meyvesidir; acı özsu, taş ve tıkaç anlamları bu sınırın dışındadır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B009",
+          "gloss": "demirhindi meyvesi",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal beyaz ve katmanlı buluta özgüdür; genel yığılma, yağmur adı ve başka nesne adları kapsam dışındadır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B010",
+          "gloss": "katmanlı beyaz bulut",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "İnce sofra yaygısı, yiyecek yığını ve ölçüsüz toplu alım ayrı yüzlerdir; tek bir birleşik nesne sayılmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B011",
+          "gloss": "sofra yaygısı ya da yiyecek yığını",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/10",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dal önceki öldürmeye karşılık verilen ölüm cezasıdır; öldürme öncesi alıkoyma veya genel cezalandırma değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B012",
+          "gloss": "öldürmeye karşılık ölüm cezası",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca belirli şaşma anlatımındaki pervasızlığı kapsar; övülen dayanma ve fiziksel alıkoyma anlamları dışarıdadır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000840/B013",
+          "gloss": "ateşe götüren işlerde pervasızlık",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bekleme anlamı kendini tutarak bir hükmü gözleme bağlamına bağlıdır; her türlü beklemeyi kapsayan çıplak bir anlam değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B014",
+          "gloss": "kendini tutarak bekleme",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/13",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal orucun kendini tutma türü sayılmasına ve oruç ayını adlandıran kalıba bağlıdır; genel özdenetimin tamamını kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000840/B015",
+          "gloss": "kendini tutma türü olarak oruç",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/14",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal belirli bir topluluğa bağlı boyun özel adıdır; kökün öteki kavramsal anlamlarını taşımaz.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000840/B016",
+          "gloss": "bir Arap boyunun adı",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/15",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal dağın kendisini ve dağlara özgü orta kesimi kapsar; genel orta, üst bölüm ve tekil taş anlamlarını kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B017",
+          "gloss": "dağ ya da dağların orta kesimi",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/16",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kabın ağzını kapatan parça ve onunla tıkama işlemidir; bitki, taş ve genel örtme anlamlarına genişlemez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000840/B018",
+          "gloss": "şişe tıkacı ve tıkama",
+          "source_pointer": "/root_lexicon/root_000840/dictionary_entry/branches/17",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ص ب ر"
+      ],
+      "root_ar": "ص ب ر",
+      "root_id": "root_000840"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal başkasına güvenme durumunu değil, işi açıkça ona devredip onu kendi adına yetkili kılma işlemini merkez alır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001681/B001",
+          "gloss": "bir işi başkasına devredip onu kendi adına yetkilendirme",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal birini yetkili temsilci kılmayı değil, kişinin kendi işinde başka bir varlığa dayanıp güvenmesini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001681/B002",
+          "gloss": "kendi yetersizliğini kabul edip başkasına dayanarak güvenme",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal geçici olarak yardım alan kişiyi değil, güçsüzlüğü ve başkasına bağımlılığı kendi işini yürütmesini engelleyen kişiyi anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001681/B003",
+          "gloss": "güçsüzlüğü yüzünden işini başkasına bırakıp aksatan kişi",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Karşılıklılık zorunludur; işin aksaması olası bir bağlam sonucu olabilir, fakat bu dalın kaynakça doğrulanmış kurucu anlamı değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001681/B004",
+          "gloss": "tarafların işte karşılıklı olarak birbirine dayanması",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/3",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dal genel yavaşlığı değil, hayvanın geride kalma, kötü yürüme veya hareketini başka hayvanın hareketine bağlama biçimlerini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001681/B005",
+          "gloss": "hayvanın geride kalarak veya eşine dayanarak kötü yürümesi",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, kendisine bırakılan işi yeterlilik, koruma ve güvenceyle yürüten görevliye aittir; tekil deve sahibi kullanımı bu çekirdeği genişletmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001681/B006",
+          "gloss": "kendisine bırakılan işi üstlenip koruyan yeterli görevli",
+          "source_pointer": "/root_lexicon/root_001681/dictionary_entry/branches/5",
+          "status": "reframed"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "و ك ل"
+      ],
+      "root_ar": "و ك ل",
+      "root_id": "root_001681"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a55ab40d14dd3cdd732a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:1:backward-relative-link",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_84b8281043ba83a58f19",
+        "sup_e18afd335ca176547549"
+      ],
+      "title": "dependent relative routes the reader backward",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0d20b30b41ebed5d4db8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:1:two-predicate-qualification",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_84b8281043ba83a58f19",
+        "sup_96aac29f6cadb8d5288e"
+      ],
+      "title": "one qualifier holds two defining predicates",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c66a821a8f789a1dae23",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:2:completed-objectless-endurance",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_45e12582905cca99990b",
+        "sup_884ea784eec1651e6870"
+      ],
+      "title": "perfect objectless endurance defines the subjects",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dd327e4bc5dc9148358e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:2:form-and-sequence-choice",
+      "source_pointer": "/word_analysis/words/1/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0f289660169839108b71",
+        "sup_884ea784eec1651e6870"
+      ],
+      "title": "simple finite verb precedes ongoing reliance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9bdb8d01cd4d4dee5a2f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:2:patience-trust-echo",
+      "source_pointer": "/word_analysis/words/1/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0a8305645535787181a8",
+        "sup_884ea784eec1651e6870"
+      ],
+      "title": "patience joins a recognized trust profile",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_acbd52077775978edb07",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:2:restrained-load-bearing-texture",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_24628e7e37a1b58eb366",
+        "sup_884ea784eec1651e6870"
+      ],
+      "title": "root imagery gives patience held pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0e1b1ee8a59b367555d2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:3:bound-hinge-into-reliance",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_105f24ba1cc1a18878ee",
+        "sup_1a30b1688b0be2ca7990"
+      ],
+      "title": "bound conjunction launches the fronted reliance phrase",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cd0f6212dccf161cd53c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:3:single-group-coordination",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0f00e99d0302e544620c",
+        "sup_1a30b1688b0be2ca7990"
+      ],
+      "title": "coordination keeps both predicates on one group",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f723cd6daf54c0e759b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:4:elongated-entry-and-formula",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_699d997b72559cdbacba",
+        "sup_73b87da315432d2a1b32"
+      ],
+      "title": "the long preposition opens a familiar formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_807b5f19ecf9c96164f3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:4:fronted-support-focus",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0448614ea11b666a4890",
+        "sup_73b87da315432d2a1b32"
+      ],
+      "title": "fronted support phrase focuses reliance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b0f308fdd2d4bd461388",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:4:weight-bearing-reliance-frame",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_73b87da315432d2a1b32",
+        "sup_91ff6e1433d415ffc2c0"
+      ],
+      "title": "preposition marks support for trust",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e6a586255831d67a6e7c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:5:definite-possessive-support",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_87ac3a9c48a715dae0d5",
+        "sup_a5726c8f784be2256065"
+      ],
+      "title": "possessive construct makes the support personal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6c82548c623ede6c5828",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:5:lordship-reliance-echoes",
+      "source_pointer": "/word_analysis/words/4/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_175e125954c4d75acd4f",
+        "sup_87ac3a9c48a715dae0d5"
+      ],
+      "title": "same-surah and cross-surah reliance links",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e00ae95b79e296503fd1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:5:nurturing-authoritative-lordship",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_87ac3a9c48a715dae0d5",
+        "sup_d98ca63dd33749b52508"
+      ],
+      "title": "nurture and authority underwrite reliance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_38d99fe780a9dbe4d6c8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:5:preverbal-support-position",
+      "source_pointer": "/word_analysis/words/4/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_87ac3a9c48a715dae0d5",
+        "sup_c680def3bb76464d2c50"
+      ],
+      "title": "support noun sits at the hinge of reliance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8b4f3d93c85f2697f8bb",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:5:singular-lord-many-subjects",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_87ac3a9c48a715dae0d5",
+        "sup_cd50ef3707dd5ea96260"
+      ],
+      "title": "one Lord supports the plural group",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_60d04f667dd93490c896",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:6:formula-and-boundary-answer",
+      "source_pointer": "/word_analysis/words/5/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1cacaf62e5b96ac0a4d5",
+        "sup_4da7a80fa51efdbc9266"
+      ],
+      "title": "reliance answers promise and joins a formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_70a08d8172e7032762cc",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:6:generalized-fronted-support",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4da7a80fa51efdbc9266",
+        "sup_970b9e2854b9aee9ad69"
+      ],
+      "title": "objectless trust rests on a fronted support",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bee5d4550f6d205638a2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:6:ongoing-final-reliance",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4da7a80fa51efdbc9266",
+        "sup_ccfa0b6cb70f8b076787"
+      ],
+      "title": "final imperfect leaves reliance ongoing",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1293da4d73245fdf2bbe",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:6:reflexive-self-entrustment",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4da7a80fa51efdbc9266",
+        "sup_b00fd8f587eb5b9cc9d5"
+      ],
+      "title": "Form V makes trust self-entrusting",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_02100c2604b5b437ab0f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:59:6:same-group-two-beat-completion",
+      "source_pointer": "/word_analysis/words/5/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4da7a80fa51efdbc9266",
+        "sup_96ba94d5327399a51b28"
+      ],
+      "title": "plural ending completes the shared profile",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59",
+        "29:60"
+      ],
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "candidate_id": "cand_0cb7a4088e20e06bfa43",
+      "focus_branch_refs": [
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_32f94b78d28385b9ef6a",
+        "sup_6c0954252048c8f1236b",
+        "sup_76dc4d0d13e936363251",
+        "sup_c492c31418b085404e48",
+        "sup_f25562d6a2ff9f579341"
+      ],
+      "title": "Load, Guarantor, and Entrusted Care",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59",
+        "29:61",
+        "29:69"
+      ],
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000268/B004",
+        "root_000672/B001",
+        "root_000840/B005",
+        "root_000840/B017",
+        "root_001583/B008",
+        "root_001583/B010"
+      ],
+      "candidate_id": "cand_1d578266d01c8ee32f6c",
+      "focus_branch_refs": [
+        "root_000840/B005",
+        "root_000840/B017"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000025/B001",
+        "root_000268/B004",
+        "root_000672/B001",
+        "root_001583/B008",
+        "root_001583/B010"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_204bcdb34bdfc83f193a",
+        "sup_2581dcc15a9ccb5bac20",
+        "sup_3ccb5c57ad3042b92479",
+        "sup_6fc8babb60715b082032",
+        "sup_7b7c6f894d1cf92a5da7"
+      ],
+      "title": "Hard Ground, Mountain Center, and Supported Gait",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_684fb09df623e862a749",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000840"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:59:2:1",
+      "source_pointer": "/qac_morphemes/1",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_015d70a049c65e74b112"
+      ],
+      "title": "QAC root occurrence: ص ب ر",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_105741537bea85b61024",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000532",
+        "root_000537"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:59:4:1",
+      "source_pointer": "/qac_morphemes/5",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_5f4473a5ad8be5dd7be4"
+      ],
+      "title": "QAC root occurrence: ر ب ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_466afb0b4356ac9ff6fe",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001681"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:59:5:1",
+      "source_pointer": "/qac_morphemes/7",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_a01d603edae8c41c81e4"
+      ],
+      "title": "QAC root occurrence: و ك ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59:2",
+        "29:59:4",
+        "29:59:5"
+      ],
+      "branch_refs": [
+        "root_000532/B002",
+        "root_000840/B001",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B002"
+      ],
+      "candidate_id": "cand_6cc8fc808110300e628e",
+      "focus_branch_refs": [
+        "root_000532/B002",
+        "root_000840/B001",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B002"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_e5d302011f716c5bc74f"
+      ],
+      "title": "Sabır paniğe kapılmış tepkiyi dizginlerken güven, kişinin yapabileceğini yaptıktan sonra güvence ve sonucu besleyip tamamlayan Rabb'e bilinçli olarak devreder.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59"
+      ],
+      "branch_refs": [
+        "root_000840/B001"
+      ],
+      "candidate_id": "cand_0abeeded1d86f647dd6b",
+      "focus_branch_refs": [
+        "root_000840/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_3a437abd4c77d39055cb"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1cc4aad8509ff10a1de8",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_0822184cfde42728fe71"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:59"
+      ],
+      "branch_refs": [
+        "root_000840/B001",
+        "root_001681/B002"
+      ],
+      "candidate_id": "cand_b5d358cecdff6da1cfb4",
+      "focus_branch_refs": [
+        "root_000840/B001",
+        "root_001681/B002"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_7ca02d44debef5163efc"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "ر ب ب/B002",
+          "reason": "ambiguous root mapping: root_000532/B002, root_000537/B002"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_01377e21a786d1f3942d",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_fdaa1bc616f99a6ae5b8"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8cf5d7f91b59207fd524",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_01c8eebd9043ceade643"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 42,
+    "by_disposition": {
+      "docket_mandatory": 23,
+      "docket_optional": 9,
+      "parse_failed": 8,
+      "quarantined": 2
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 1,
+      "hft": 10,
+      "qac_morpheme": 3,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 21
+    },
+    "discovered_seed_count": 42,
+    "docket_candidate_count": 32,
+    "mandatory_candidate_count": 23,
+    "optional_candidate_count": 9,
+    "selection_eligible_candidate_count": 24,
+    "selection_ineligible_candidate_count": 8
+  },
+  "focus": {
+    "arabic_uthmani": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "ٱلَّذِى",
+        "morph_features": "STEM|POS:REL|LEM:{l~a*iY|MP",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:59:1:1",
+        "qac_word_ref": "29:59:1",
+        "root_ar": "",
+        "surface_ar": "ٱلَّذِينَ"
+      },
+      {
+        "lemma_ar": "صَبَرَ",
+        "morph_features": "STEM|POS:V|PERF|LEM:Sabara|ROOT:Sbr|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:59:2:1",
+        "qac_word_ref": "29:59:2",
+        "root_ar": "ص ب ر",
+        "surface_ar": "صَبَرُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:59:2:2",
+        "qac_word_ref": "29:59:2",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:59:3:1",
+        "qac_word_ref": "29:59:3",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "عَلَىٰ",
+        "morph_features": "STEM|POS:P|LEM:EalaY`",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:59:3:2",
+        "qac_word_ref": "29:59:3",
+        "root_ar": "",
+        "surface_ar": "عَلَىٰ"
+      },
+      {
+        "lemma_ar": "رَبّ",
+        "morph_features": "STEM|POS:N|LEM:rab~|ROOT:rbb|M|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:59:4:1",
+        "qac_word_ref": "29:59:4",
+        "root_ar": "ر ب ب",
+        "surface_ar": "رَبِّ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:59:4:2",
+        "qac_word_ref": "29:59:4",
+        "root_ar": "",
+        "surface_ar": "هِمْ"
+      },
+      {
+        "lemma_ar": "تَوَكَّلْ",
+        "morph_features": "STEM|POS:V|IMPF|(V)|LEM:tawak~alo|ROOT:wkl|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:59:5:1",
+        "qac_word_ref": "29:59:5",
+        "root_ar": "و ك ل",
+        "surface_ar": "يَتَوَكَّلُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:59:5:2",
+        "qac_word_ref": "29:59:5",
+        "root_ar": "",
+        "surface_ar": "ونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:59:1:1"
+      ],
+      [
+        "29:59:2:1",
+        "29:59:2:2"
+      ],
+      [
+        "29:59:3:1"
+      ],
+      [
+        "29:59:3:2"
+      ],
+      [
+        "29:59:4:1",
+        "29:59:4:2"
+      ],
+      [
+        "29:59:5:1",
+        "29:59:5:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:59:1",
+      "29:59:2",
+      "29:59:3",
+      "29:59:4",
+      "29:59:5",
+      "29:59:6"
+    ]
+  },
+  "focus_root_mappings": {
+    "ر ب ب": [
+      "root_000532",
+      "root_000537"
+    ],
+    "ص ب ر": [
+      "root_000840"
+    ],
+    "و ك ل": [
+      "root_001681"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:59",
+    "docket_payload_sha256": "40a360e1dfd2105d93f86e180d042ef7cd81a9321ea1e75c58607fb2137ce220",
+    "source_canonical_sha256": "4b635c4bebfbf04a5e30b38058e58ccbc4631ec45e7074edf224e0796480424c"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000025/B001",
+      "image_ar": "السفل المقابل للسماء",
+      "image_en": "the lower ground opposite the sky",
+      "root_ar": "ء ر ض",
+      "scope_ar": "الأرض التي نحن عليها؛ كل ما سفل وقابل السماء؛ أسفل الشيء وقوائم الدابة وما يلي الأرض منها",
+      "scope_en": "the earth/ground itself, and by extension the lower part of a thing, including an animal's lower legs or hoof-ground side",
+      "source_file": "v4/outputs/pass2_branches/root_000025.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/4/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000268/B004",
+      "image_ar": "أرض صلبة بارزة",
+      "image_en": "hard exposed ground",
+      "root_ar": "ج ه د",
+      "scope_ar": "يدخل فيه الجهاد بمعنى الأرض الصلبة أو المستوية الظاهرة أو الفضاء والجرداء الجدبة التي لا شيء فيها.",
+      "scope_en": "This branch covers jihad as hard, level, exposed, open, or barren ground.",
+      "source_file": "v4/outputs/pass2_branches/root_000268.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/0/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000357/B001",
+      "image_ar": "إقلال المحمول الظاهر",
+      "image_en": "bearing an outward load",
+      "root_ar": "ح م ل",
+      "scope_ar": "حمل الشيء على الظهر أو الرأس أو الدابة؛ حمل الأثقال والرسالة؛ حمل السيل ما يجرفه؛ حمل الناس في مركب",
+      "scope_en": "physical carrying, loading, transport, and an outward borne load",
+      "source_file": "v4/outputs/pass2_branches/root_000357.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000357/B004",
+      "image_ar": "الحمالة والكفالة",
+      "image_en": "guarantee and indemnity",
+      "root_ar": "ح م ل",
+      "scope_ar": "تحمل الديات والغرامات؛ الكفالة والضمان؛ حمل الحق مع صاحبه",
+      "scope_en": "legal or financial guarantee, indemnity, suretyship",
+      "source_file": "v4/outputs/pass2_branches/root_000357.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_000357/B007",
+      "image_ar": "التحامل والمشقة",
+      "image_en": "burdened exertion and leaning",
+      "root_ar": "ح م ل",
+      "scope_ar": "التكلف تحت مشقة؛ تحميل النفس في السير؛ الاعتماد والمحمل؛ الميل على غيره",
+      "scope_en": "strained exertion, self-burdening, reliance, or leaning",
+      "source_file": "v4/outputs/pass2_branches/root_000357.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_000457/B001",
+      "image_ar": "الدبيب على الأرض",
+      "image_en": "creeping or light movement on the ground",
+      "root_ar": "د ب ب",
+      "scope_ar": "دب يدب دبيبا والحركة الخفيفة أو البطيئة على الأرض ومشي الشيخ والصبي والناقة الدبوب",
+      "scope_en": "creeping, light, or slow movement on the ground, including an elder walking slowly, a child being made to creep, and an overfat she-camel barely moving",
+      "source_file": "v4/outputs/pass2_branches/root_000457.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000457/B012",
+      "image_ar": "مدب الجري",
+      "image_en": "place where flow or creeping runs",
+      "root_ar": "د ب ب",
+      "scope_ar": "مدب السيل والنمل موضع جريهما",
+      "scope_en": "place or course where a torrent or ants run",
+      "source_file": "v4/outputs/pass2_branches/root_000457.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_000672/B001",
+      "image_ar": "طريق ممتد يسلك",
+      "image_en": "extended traversed way",
+      "root_ar": "س ب ل",
+      "scope_ar": "يدخل فيه السبيل بمعنى الطريق والطرق، وما يتوصل به إلى شيء من سبب ووصلة وحيلة ومحجة.",
+      "scope_en": "Includes a road or route, and by extension a means, connection, stratagem, or clear course by which something is reached.",
+      "source_file": "v4/outputs/pass2_branches/root_000672.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001583/B008",
+      "image_ar": "مشي التهادي مع الاعتماد والتمايل",
+      "image_en": "swaying or supported walking",
+      "root_ar": "ه د ي",
+      "scope_ar": "يدخل فيه يهادي بين اثنين إذا مشى معتمدا عليهما من ضعف وتمايل وتهادت المرأة إذا تمايلت في مشيتها ومشي النساء والإبل الثقال",
+      "scope_en": "It includes walking between two people while leaning on them because of weakness and swaying, a woman swaying in her walk, and the comparable gait of women or heavy camels",
+      "source_file": "v4/outputs/pass2_branches/root_001583.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/8/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001583/B010",
+      "image_ar": "هدي السكون وحسن الهيئة",
+      "image_en": "calm stillness and composed bearing",
+      "root_ar": "ه د ي",
+      "scope_ar": "يدخل فيه الهدي بمعنى السكون وترك إسراع المنهزم مع حسن الهدي أو الهيئة",
+      "scope_en": "It includes hady as calm stillness or not rushing like a routed person, with good composed bearing",
+      "source_file": "v4/outputs/pass2_branches/root_001583.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/8/branches/1/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 3,
+      "mapped_root_record_count": 4,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 48
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 57,
+      "ayah_to": 69,
+      "id": "s029-p05-057-069",
+      "label": "Migration, provision, and striving",
+      "number": 5,
+      "refs": [
+        "29:57",
+        "29:58",
+        "29:59",
+        "29:60",
+        "29:61",
+        "29:62",
+        "29:63",
+        "29:64",
+        "29:65",
+        "29:66",
+        "29:67",
+        "29:68",
+        "29:69"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/1",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:59:2:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_015d70a049c65e74b112",
+      "text": "{\"lemma_ar\":\"صَبَرَ\",\"morph_features\":\"STEM|POS:V|PERF|LEM:Sabara|ROOT:Sbr|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:59:2:1\",\"qac_word_ref\":\"29:59:2\",\"root_ar\":\"ص ب ر\",\"surface_ar\":\"صَبَرُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_01c8eebd9043ceade643",
+      "text": "- **Later confirmation (`29:60`, `29:69`):** Creatures that do not carry their provision validate reliance, while the closing promise to guide strivers prevents reliance from collapsing into inactivity. Patience and trust sit between motion and guidance: effort is retained, total outcome-control is handed over.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:4:fronted-support-focus",
+      "source_type": "word_analysis",
+      "support_id": "sup_0448614ea11b666a4890",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fronted support phrase focuses reliance\",\"reader_payoff\":\"The reader processes the support of reliance before the act of relying, creating focus and restriction-pressure without needing to overstate the syntax as absolute exclusivity.\",\"reason\":\"The phrase is fronted before the verb; QAC and translation support identify emphasis, while the strongest exclusivity language is kept qualified.\",\"representative_source_ids\":[\"MG-1628dff5\",\"QI-3bbe69f0\",\"QT-198ff832\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_0822184cfde42728fe71",
+      "text": "29:60 gives reliance a concrete provisioning analogue: creatures move without carrying their sustenance. Trust is thus not abstraction but refusal to make stored provision the condition of faithful movement.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:2:patience-trust-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_0a8305645535787181a8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"patience joins a recognized trust profile\",\"reader_payoff\":\"The reader hears this patience as part of a recurring patience-and-reliance profile and as the answer to the surah's earlier testing theme.\",\"reason\":\"The rows give concrete links to the same formula at 16:42 and the same-surah testing frame at 29:3.\",\"representative_source_ids\":[\"QI-71f79c87\",\"QE-b14a7207\",\"QE-d0b447df\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:3:single-group-coordination",
+      "source_type": "word_analysis",
+      "support_id": "sup_0f00e99d0302e544620c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"coordination keeps both predicates on one group\",\"reader_payoff\":\"The reader notices that patience and reliance describe the same antecedent group, not two groups or a restarted sentence.\",\"reason\":\"The conjunction is classified as coordinating and the attachment evidence joins the two predicates inside one relative clause.\",\"representative_source_ids\":[\"QG-1f4138ac\",\"QG-287e5303\",\"MG-7d89610f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:2:form-and-sequence-choice",
+      "source_type": "word_analysis",
+      "support_id": "sup_0f289660169839108b71",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"simple finite verb precedes ongoing reliance\",\"reader_payoff\":\"The reader sees that the ayah first names achieved endurance, then moves through coordination toward continuing reliance.\",\"reason\":\"The first predicate is complete before the conjunction, and the next predicate is imperfect, creating a local aspect contrast.\",\"representative_source_ids\":[\"QF-808e420c\",\"QT-baae769f\",\"MT-a29c56a5\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:3:bound-hinge-into-reliance",
+      "source_type": "word_analysis",
+      "support_id": "sup_105f24ba1cc1a18878ee",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bound conjunction launches the fronted reliance phrase\",\"reader_payoff\":\"The reader feels the second predicate as a connected handoff from endurance into reliance, while grammar remains coordination rather than a separate circumstantial clause.\",\"reason\":\"The written bound conjunction and following prepositional phrase support fused continuation; the possible circumstantial shade is limited by the local coordination evidence.\",\"representative_source_ids\":[\"QF-03cae1b2\",\"QT-f76a1679\",\"QP-2a2f35e8\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:lordship-reliance-echoes",
+      "source_type": "word_analysis",
+      "support_id": "sup_175e125954c4d75acd4f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same-surah and cross-surah reliance links\",\"reader_payoff\":\"The reader hears this possessive Lord-phrase as part of a larger pattern: personal Lord-relation becomes the shared object of reliance.\",\"reason\":\"The rows supply same-surah links at 29:10, 29:26, 29:30, and 29:50, plus reliance-formula parallels at 11:56 and 14:12.\",\"representative_source_ids\":[\"QI-db3af2d8\",\"QE-2403092f\",\"QE-c6cb604c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_1a30b1688b0be2ca7990",
+      "text": "{\"gloss_range\":\"coordinating conjunction binding the reliance predicate to the completed patience predicate within one relative clause\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) is the hinge that keeps the second predicate inside the same relative clause. It binds the reliance phrase to completed patience without restarting the sentence, so the same group is defined by both traits. Because it is attached directly to the following fronted preposition, the second beat begins as a fused continuation, and the light conjunction moves audibly into the next word's guttural onset; its order after the perfect verb lets equality of coordination carry developmental pressure from proven endurance into ongoing dependence.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6:formula-and-boundary-answer",
+      "source_type": "word_analysis",
+      "support_id": "sup_1cacaf62e5b96ac0a4d5",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reliance answers promise and joins a formula\",\"reader_payoff\":\"The reader connects the final reliance to the prior settlement promise and to the recurring Quranic profile of patience joined with Lord-directed trust.\",\"reason\":\"The rows give formula parallels at 16:42, 11:56, and 14:12 and boundary links with the settlement promise in 29:58.\",\"representative_source_ids\":[\"QI-8f99942a\",\"QE-dfe9cf14\",\"QB-787f1ebf\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_type": "channel",
+      "support_id": "sup_204bcdb34bdfc83f193a",
+      "text": "ج ه د 29:69; ص ب ر 29:59; س ب ل 29:69; ه د ي 29:69; ء ر ض 29:61,63.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:2:restrained-load-bearing-texture",
+      "source_type": "word_analysis",
+      "support_id": "sup_24628e7e37a1b58eb366",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"root imagery gives patience held pressure\",\"reader_payoff\":\"The reader feels patience as maintained self-restraint under pressure, while the local verb still means ethical endurance.\",\"reason\":\"The lexical family supports bitterness, restraint, and holding imagery, but local Form I verbal context selects endurance rather than a concrete plant or object.\",\"representative_source_ids\":[\"QS-83f057e9\",\"QS-be3d9f6f\",\"MS-47bc5f9e\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_type": "channel",
+      "support_id": "sup_2581dcc15a9ccb5bac20",
+      "text": "A weakened traveler crosses bare hard terrain, uses a stable central landmark, and advances with bodily support rather than uncontrolled haste.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_32f94b78d28385b9ef6a",
+      "text": "ح م ل 29:60; د ب ب 29:60; ص ب ر 29:59; و ك ل 29:59.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000840/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_3a437abd4c77d39055cb",
+      "text": "1. **Restraint paired with transferred reliance.** ص ب ر B001 is self-restraint from panic, while B003 includes standing surety with someone. The relative clause identifies the workers by patience and then places reliance upon their Lord. I infer that they restrain reactive flight while refusing the fantasy of self-guarantee; patience reads as held conduct sustained by an external guarantor, not passive immobility.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000268/B004",
+        "root_000672/B001",
+        "root_000840/B005",
+        "root_000840/B017",
+        "root_001583/B008",
+        "root_001583/B010"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_type": "channel",
+      "support_id": "sup_3ccb5c57ad3042b92479",
+      "text": "bare hard ground `quranic:root_000268:B004/m01`; stony terrain `quranic:root_000840:B005/m01`; mountain and its stable middle `quranic:root_000840:B017/m01`; route and means of access `quranic:root_000672:B001/m01`; assisted swaying gait `quranic:root_001583:B008/m01`; calm and well-formed movement `quranic:root_001583:B010/m01`; lower terrestrial surface `quranic:root_000025:B001/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:2:completed-objectless-endurance",
+      "source_type": "word_analysis",
+      "support_id": "sup_45e12582905cca99990b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"perfect objectless endurance defines the subjects\",\"reader_payoff\":\"The reader notices that patience is presented as an accomplished quality of the people, not as endurance over one named trial.\",\"reason\":\"The verb is perfect Form I, masculine plural, and intransitive here, with no explicit object.\",\"representative_source_ids\":[\"QG-4c557143\",\"QG-8968a439\",\"QG-bbddb2ba\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_4da7a80fa51efdbc9266",
+      "text": "{\"gloss_range\":\"ongoing Form V self-entrusting reliance, governed by a fronted support phrase and left open without a named entrusted affair\",\"prose\":\"{{ar:يَتَوَكَّلُونَ}} ({{tr:yatawakkalūna}}) closes the ayah with imperfect, ongoing reliance, so the final sound does not leave the reader at completed endurance but at continuing dependence. The Form V shape makes the subjects active in placing themselves into trust, while the omitted entrusted affair generalizes the reliance beyond a single stated matter. Its fronted support phrase directs that reliance onto their Lord before the verb arrives; this creates strong focus and support-directed restriction, though the absolute exclusivity claim is safer as qualified emphasis. The plural ending keeps the same relative group as the actors, and the verb completes the two-beat profile of patience plus trust, a formula visible at 16:42 and in reliance scenes such as 11:56 and 14:12; after the settlement promise of 29:58, this final verb names the human posture toward the promised support.\",\"root_display\":\"{{ar:و ك ل}} ({{tr:w-k-l}})\",\"root_gloss_range\":\"root range includes entrusting, appointing an agent, relying, delegating affairs, and trustee language; local Form V with the support preposition selects active self-entrustment and reliance\",\"surface_display\":\"{{ar:يَتَوَكَّلُونَ}} ({{tr:yatawakkalūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/5",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:59:4:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_5f4473a5ad8be5dd7be4",
+      "text": "{\"lemma_ar\":\"رَبّ\",\"morph_features\":\"STEM|POS:N|LEM:rab~|ROOT:rbb|M|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:59:4:1\",\"qac_word_ref\":\"29:59:4\",\"root_ar\":\"ر ب ب\",\"surface_ar\":\"رَبِّ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:4:elongated-entry-and-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_699d997b72559cdbacba",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"the long preposition opens a familiar formula\",\"reader_payoff\":\"The reader hears the reliance phrase begin with an elongated preposition and recognizes the support-plus-trust formula seen elsewhere.\",\"reason\":\"The spelling and cadence rows are locally compatible, and the formula row supplies concrete parallels at 11:56 and 14:12.\",\"representative_source_ids\":[\"QF-4621e3b0\",\"MT-b8765da5\",\"QP-cc18e981\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_6c0954252048c8f1236b",
+      "text": "The creature's inability to carry provision is not inactivity but a mismatch between mobility and storage. Trust names a transfer of care to a competent agent, while patience resembles surety that remains with the dependent party through the interval.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_type": "channel",
+      "support_id": "sup_6fc8babb60715b082032",
+      "text": "The latent travel scene refuses a frictionless idea of guidance. Hard ground and stony ascent remain real; guidance supplies a stable middle, an assisted gait, and a calm manner of proceeding through them.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_73b87da315432d2a1b32",
+      "text": "{\"gloss_range\":\"fronted preposition governing the Lord-phrase as the support/object of reliance, with weight-bearing dependence rather than physical location\",\"prose\":\"{{ar:عَلَىٰ}} ({{tr:ʿalā}}) opens the reliance phrase before the verb appears, placing the support of trust in the reader's path first. In this construction the preposition governs {{ar:رَبِّهِمْ}} ({{tr:rabbihim}}) as the object of reliance for {{ar:يَتَوَكَّلُونَ}} ({{tr:yatawakkalūna}}), so its broad values are narrowed to dependence and weight-bearing support, not simple location or a duty imposed on the Lord. The fronting gives strong focus and restriction-pressure to the support phrase; that pressure is real, though the guardrail evidence licenses emphasis more securely than an absolute exclusivity claim. Its long final vowel slows the entry into the support noun, and the same reliance pattern is visible in 11:56 and 14:12.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:عَلَىٰ}} ({{tr:ʿalā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_76dc4d0d13e936363251",
+      "text": "carrying a visible load `quranic:root_000357:B001/m01`; guaranteeing an obligation `quranic:root_000357:B004/m01`; exhausting effort under a load `quranic:root_000357:B007/m01`; creature moving lightly or slowly on earth `quranic:root_000457:B001/m01`; path along which small creatures or water move `quranic:root_000457:B012/m01`; surety and continuing accompaniment `quranic:root_000840:B003/m01`; entrusting an affair to another `quranic:root_001681:B001/m01`; agent who suffices, guards, and manages `quranic:root_001681:B006/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Hard Ground, Mountain Center, and Supported Gait",
+      "source_type": "channel",
+      "support_id": "sup_7b7c6f894d1cf92a5da7",
+      "text": "Sustained exertion makes a route legible and traversable, while guidance supplies direction and support proportionate to the traveler's difficulty.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000840/B001",
+        "root_001681/B002"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_7ca02d44debef5163efc",
+      "text": "1. **Self-restraint and reliance divide the work of endurance.** Lexical evidence: `صَبَرُوا`, root `ص ب ر`, `B001` (self-restraint from panic); `رَبِّهِم`, root `ر ب ب`, `B002` (nurture and completion); and `يَتَوَكَّلُون`, root `و ك ل`, `B002` (reliance and trust). Structural cue: the relative clause identifies the workers promised chambers in `29:58`; `29:60` then gives creatures that do not carry their provision, and `29:64` exposes distracting near-life. Assigned role: patience restrains panic-driven departure from the way; reliance hands outcome and provision to the nurturing Lord. Abductive move: I infer a division of agency: subjects govern their response, while entrusting what they cannot secure. Reading change: endurance is neither passivity nor self-sufficiency but disciplined action joined to delegated outcome.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_84b8281043ba83a58f19",
+      "text": "{\"gloss_range\":\"definite masculine plural relative pronoun that continues and restrictively qualifies the known group from 29:58\",\"prose\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}}) opens the ayah as a dependent relative phrase, so the reader must look back to the rewarded group in 29:58 rather than treat 29:59 as a fresh, isolated sentence. The pronoun then filters that prior group through two predicates: completed patience and ongoing reliance. Its nominative form leaves the appositional-versus-adjectival attachment open, but both options keep the same prior antecedent in view and make the ayah a boundary-binding character profile.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_87ac3a9c48a715dae0d5",
+      "text": "{\"gloss_range\":\"their Lord as a definite possessive support within the fronted reliance phrase; singular Lord related to the plural group\",\"prose\":\"{{ar:رَبِّهِمْ}} ({{tr:rabbihim}}) is not a generic title floating in the clause: the possessive construct makes the Lord-relation definite, personal to the group, and genitively governed by the fronted preposition. Its singular head with a plural suffix concentrates many subjects onto one shared support. The root range adds sustaining governance, nurture, ownership, and authority, so the one trusted is both caring and able to dispose of the affair; the local trust construction selects that support role rather than every branch of the family. The word also carries the people of 29:58 forward through its suffix, echoes the individual Lord-relation of 29:26 in a collective form, and belongs to the recurring reliance formula seen in 11:56 and 14:12. In its pre-verbal hinge position, the doubled bāʾ gives the support noun a compressed acoustic pressure rather than only a syntactic role.\",\"root_display\":\"{{ar:ر ب ب}} ({{tr:r-b-b}})\",\"root_gloss_range\":\"root range includes lordship, ownership, mastery, sustaining, nurturing, governance, and rearing to completion; local noun selects the Lord as the reliable sustaining authority\",\"surface_display\":\"{{ar:رَبِّهِمْ}} ({{tr:rabbihim}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_884ea784eec1651e6870",
+      "text": "{\"gloss_range\":\"completed, subject-held endurance without an explicit object; active restraint under pressure rather than passive waiting\",\"prose\":\"{{ar:صَبَرُوا۟}} ({{tr:ṣabarū}}) gives the first defining predicate as a completed, objectless act: the people are marked by endurance already proven, without naming a single hardship as its limit. The root imagery of restraint, holding together, and bitter preservation gives that patience a load-bearing texture, while local Form I keeps the sense simple and subject-owned rather than causative, reciprocal, or forced by a derived stem. As a finite perfect verb rather than an active-participle label, this completed endurance stands before the coordinated reliance, and the same patience-and-trust pattern is echoed at 16:42 while the same surah's testing frame at 29:3 lets patience read as the visible proof of sincerity.\",\"root_display\":\"{{ar:ص ب ر}} ({{tr:ṣ-b-r}})\",\"root_gloss_range\":\"root range includes enduring, restraining, holding firm, and concrete bitterness or binding images; the local perfect Form I selects ethical endurance while preserving felt restraint\",\"surface_display\":\"{{ar:صَبَرُوا۟}} ({{tr:ṣabarū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:4:weight-bearing-reliance-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_91ff6e1433d415ffc2c0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"preposition marks support for trust\",\"reader_payoff\":\"The reader sees reliance as weight placed upon a support, while obligation, location, and motion senses are not selected locally.\",\"reason\":\"The preposition governs the Lord-phrase and is attached to the reliance verb, narrowing the preposition's broad range to the reliance complement frame.\",\"representative_source_ids\":[\"QG-cbb29bc2\",\"QS-12f43bd0\",\"QS-cc3031db\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:1:two-predicate-qualification",
+      "source_type": "word_analysis",
+      "support_id": "sup_96aac29f6cadb8d5288e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one qualifier holds two defining predicates\",\"reader_payoff\":\"The reader sees that patience and reliance together specify the prior reward recipients, while the exact apposition-or-attribute label need not be forced.\",\"reason\":\"The relative clause contains both predicates under one pronoun; rows about badal and naʿt are preserved as compatible parses without selecting one as mandatory.\",\"representative_source_ids\":[\"QS-18642c16\",\"QT-1f6935d7\",\"MT-f1c20c1d\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6:same-group-two-beat-completion",
+      "source_type": "word_analysis",
+      "support_id": "sup_96ba94d5327399a51b28",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural ending completes the shared profile\",\"reader_payoff\":\"The reader sees the same plural group carrying both predicates, with sound and grammar pairing patience and reliance while keeping their aspects distinct.\",\"reason\":\"The masculine plural ending agrees with the relative group and matches the earlier plural predicate while the imperfect aspect differs.\",\"representative_source_ids\":[\"QG-a59817c3\",\"QT-a198c8d7\",\"QP-5a0fc1e7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6:generalized-fronted-support",
+      "source_type": "word_analysis",
+      "support_id": "sup_970b9e2854b9aee9ad69",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"objectless trust rests on a fronted support\",\"reader_payoff\":\"The reader notices that no specific affair is named; reliance is generalized and focused toward the preposed Lord-phrase.\",\"reason\":\"The verb has no direct object and is governed with a fronted prepositional complement; exclusivity language is qualified to focus and restriction-pressure.\",\"representative_source_ids\":[\"QG-10bac6bf\",\"QG-9d7a6149\",\"MG-ae1629c9\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/7",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_a01d603edae8c41c81e4",
+      "text": "{\"lemma_ar\":\"تَوَكَّلْ\",\"morph_features\":\"STEM|POS:V|IMPF|(V)|LEM:tawak~alo|ROOT:wkl|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:59:5:1\",\"qac_word_ref\":\"29:59:5\",\"root_ar\":\"و ك ل\",\"surface_ar\":\"يَتَوَكَّلُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:definite-possessive-support",
+      "source_type": "word_analysis",
+      "support_id": "sup_a5726c8f784be2256065",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"possessive construct makes the support personal\",\"reader_payoff\":\"The reader notices that reliance is placed on their own Lord, with title and relationship compressed into one definite construct.\",\"reason\":\"The noun is genitive under the preposition and bears a possessive suffix that resolves back to the described group.\",\"representative_source_ids\":[\"QG-3fd86e12\",\"QG-d375afd5\",\"QF-6eaebafa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6:reflexive-self-entrustment",
+      "source_type": "word_analysis",
+      "support_id": "sup_b00fd8f587eb5b9cc9d5",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form V makes trust self-entrusting\",\"reader_payoff\":\"The reader sees reliance as an active self-entrusting posture, not vague confidence or merely appointing someone else.\",\"reason\":\"QAC identifies the verb as Form V/reflexive, and the lexical family supports entrusting and delegation.\",\"representative_source_ids\":[\"QS-d0179aec\",\"QF-06425d1e\",\"QF-2c306df2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_c492c31418b085404e48",
+      "text": "Sustenance depends on apportioned expansion and reliable custody, not on a creature's ability to carry and secure its own future.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:preverbal-support-position",
+      "source_type": "word_analysis",
+      "support_id": "sup_c680def3bb76464d2c50",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"support noun sits at the hinge of reliance\",\"reader_payoff\":\"The reader meets the sustaining support before the reliance verb, with the central noun carrying both structural and acoustic weight.\",\"reason\":\"The noun stands inside the fronted prepositional phrase between the preposition and the delayed reliance verb.\",\"representative_source_ids\":[\"QT-9319e43c\",\"QT-c0b1ee68\",\"QP-5d5ee780\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:6:ongoing-final-reliance",
+      "source_type": "word_analysis",
+      "support_id": "sup_ccfa0b6cb70f8b076787",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"final imperfect leaves reliance ongoing\",\"reader_payoff\":\"The reader notices that the ayah lands on continuing reliance, not on a completed one-time act.\",\"reason\":\"The local verb is imperfect and final, contrasting with the earlier perfect patience predicate.\",\"representative_source_ids\":[\"QG-3806cda9\",\"MG-73669cdf\",\"QT-09aa360a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:singular-lord-many-subjects",
+      "source_type": "word_analysis",
+      "support_id": "sup_cd50ef3707dd5ea96260",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one Lord supports the plural group\",\"reader_payoff\":\"The reader sees a plural group gathered into one shared Lord-relation rather than scattered among separate supports.\",\"reason\":\"The singular noun and plural possessive suffix are both visible in the local form, and the suffix carries the prior group forward.\",\"representative_source_ids\":[\"QG-ca7388b3\",\"QF-84748e7b\",\"QB-7508dcd0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:5:nurturing-authoritative-lordship",
+      "source_type": "word_analysis",
+      "support_id": "sup_d98ca63dd33749b52508",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"nurture and authority underwrite reliance\",\"reader_payoff\":\"The reader recognizes the support of trust as sustaining and authoritative, while the local noun remains the Lord in a reliance clause rather than an unrestricted lexical survey.\",\"reason\":\"The root family supports nurture, rearing, governance, ownership, and mastery; local syntax selects the Lord as the semantic support of reliance.\",\"representative_source_ids\":[\"QS-53ada448\",\"QS-8ce96a31\",\"MS-45e846af\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:59:1:backward-relative-link",
+      "source_type": "word_analysis",
+      "support_id": "sup_e18afd335ca176547549",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"dependent relative routes the reader backward\",\"reader_payoff\":\"The reader notices that the ayah begins by continuing the promise of 29:58, not by introducing a new group.\",\"reason\":\"The QAC grammar and clause evidence identify an ayah-initial relative phrase whose antecedent lies outside the ayah.\",\"representative_source_ids\":[\"QG-493b72d5\",\"QG-5538d855\",\"QT-92ef8da4\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000532/B002",
+        "root_000840/B001",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B002"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_e5d302011f716c5bc74f",
+      "text": "{\"anchors\":[[\"29:59:2\",\"root_000840\",[\"B001\",\"B003\"]],[\"29:59:4\",\"root_000532\",[\"B002\"]],[\"29:59:5\",\"root_001681\",[\"B001\",\"B002\"]]],\"grade\":\"strong\",\"text\":\"Sabır paniğe kapılmış tepkiyi dizginlerken güven, kişinin yapabileceğini yaptıktan sonra güvence ve sonucu besleyip tamamlayan Rabb'e bilinçli olarak devreder.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_f25562d6a2ff9f579341",
+      "text": "A moving creature lacks the means to bear its store, so responsibility passes to a guarantor or entrusted agent who preserves and supplies it.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_fdaa1bc616f99a6ae5b8",
+      "text": "2. **Reliance is active handing over, not incapacity.** Lexical evidence: the same root `و ك ل` also has `B001` (handing a matter over to another), while `B003` separately names an incapable dependent person. Structural cue: these people have already believed, worked, migrated, and restrained themselves before relying. Assigned role: `B001/B002` mark deliberate entrustment after action; the context excludes `B003` helplessness as the governing image. Abductive move: this distinction is inferred from the workers' demonstrated agency and the next ayah's provision example. Reading change: trust becomes a chosen transfer of control after responsible effort.",
+      "trust": "legacy_unbound"
+    }
+  ]
+}

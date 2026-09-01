@@ -1,0 +1,4707 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal inanma ya da dua cevabi degil; korkudan emin olma, guven verme ve guvenilir sayilma alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B001",
+          "gloss": "guven ve guvenilirlik",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik hali degil; bir soz, haber, vaat veya hakikati dogru kabul etme alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B002",
+          "gloss": "dogru sayip kabul etme",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik ya da tasdik degil; duada kabul talebini bildiren sabit sozdur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B003",
+          "gloss": "duada kabul istegi sozu",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/2",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
+      "root_ar": "ء م ن",
+      "root_id": "root_000054"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, kesme eylemini kapsar; kesim zamanı, kesim ürünü, hurmanın kuruması ve yer adı bu sınırın dışındadır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000242/B001",
+          "gloss": "saç, yün veya bitkiyi kırkıp kesme",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Burada odak kesme eylemi değil, kesim için uygun vaktin veya hazır oluş aşamasının gelmesidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000242/B002",
+          "gloss": "kesim ya da hasat vaktinin gelmesi",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kırkma eylemi ile kırkım zamanı dışarıdadır; burada yeni alınmış yün ve kesimden kalan parça söz konusudur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000242/B003",
+          "gloss": "yeni kırkılmış yün veya kesimden kalan parça",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Asılı boyalı yün süsü ana kullanımdır; süs boncuğu ayrı bir kaynak çeşitlemesi olarak tutulur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000242/B004",
+          "gloss": "asılan boyalı yün süsü veya süs boncuğu",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam hurma öznesi ve ondaki kuruluk durumuyla sınırlıdır; kesme, hasat veya genel meyve olgunlaşması değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000242/B005",
+          "gloss": "hurmanın kuruması veya hurmadaki kuruluk",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca yer adı ve ona bağlanan rivayetle sınırlıdır; diğer dalların kesme, yün, süs veya kuruma anlamlarına katılmaz.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000242/B006",
+          "gloss": "rivayette bir çıkış yeri olarak anılan yer adı",
+          "source_pointer": "/root_lexicon/root_000242/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "ج ز ي"
+      ],
+      "root_ar": "ج ز ي",
+      "root_id": "root_000242"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal yalnızca olumlu bir ödülü ya da yalnızca olumsuz bir yaptırımı anlatmaz; karşılığın iki yönünü de kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000244/B001",
+          "gloss": "iyiliğe ya da kötülüğe denk karşılık verme",
+          "source_pointer": "/root_lexicon/root_000244/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal yapılan işe ödül ya da yaptırım vermeyi değil, başka birinin veya şeyin yerine geçerek yükümlülüğü karşılamayı anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000244/B002",
+          "gloss": "yerini tutup yükümlülüğü karşılama",
+          "source_pointer": "/root_lexicon/root_000244/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal borcu başkası adına ödemeyi değil, borçludan ödemesini istemeyi ve alacağı elde etmeyi anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000244/B003",
+          "gloss": "alacağı talep etme",
+          "source_pointer": "/root_lexicon/root_000244/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel vergi ya da herhangi bir pay değildir; belirli bir tarihsel koruma statüsüne bağlı mali yükümlülüktür.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000244/B004",
+          "gloss": "koruma statüsüne bağlı tarihsel vergi",
+          "source_pointer": "/root_lexicon/root_000244/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sıradan karşılık vermeyi değil, karşılıklı karşılık verme içinde yarışıp sonunda üstün gelmeyi anlatır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000244/B005",
+          "gloss": "karşılık vermede üstün gelme",
+          "source_pointer": "/root_lexicon/root_000244/dictionary_entry/branches/4",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ج ز ي"
+      ],
+      "root_ar": "ج ز ي",
+      "root_id": "root_000244"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal bir nitelik ve durum bildirir; başkasına iyilik etme eylemini, kişiye ulaşan iyi sonucu veya kalıplaşmış özel adlandırmaları kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000323/B001",
+          "gloss": "akla, eğilime veya duyulara göre güzel ve beğenilir olma",
+          "source_pointer": "/root_lexicon/root_000323/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal güzel bir niteliğin kendisini değil, güzelleştiren, iyi yapan veya bir başkasına yarar sağlayan eylemi anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000323/B002",
+          "gloss": "bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme",
+          "source_pointer": "/root_lexicon/root_000323/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bir şeyi güzel kılan niteliği ya da iyilik etme eylemini değil, kişiye ulaşan iyi şeyi, karşılığı veya sonucu bildirir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000323/B003",
+          "gloss": "kişiye ulaşan sevindirici iyilik, karşılık veya iyi sonuç",
+          "source_pointer": "/root_lexicon/root_000323/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu kümedeki sözler geçtikleri yerde güzellik niteliğini zorunlu olarak bildirmez; belirli yer, beden bölümü, gök cismi ve eylem gönderimlerini korur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000323/B004",
+          "gloss": "yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı",
+          "source_pointer": "/root_lexicon/root_000323/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca iki kalıplaşmış ifadeye bağlıdır; genel çaba, genel amaç veya her türlü son nokta anlamına genişletilmemelidir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000323/B005",
+          "gloss": "bir işteki en yüksek çabası ve erişebileceği son sınır",
+          "source_pointer": "/root_lexicon/root_000323/dictionary_entry/branches/4",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ح س ن"
+      ],
+      "root_ar": "ح س ن",
+      "root_id": "root_000323"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal, birini üzme eylemini, bedensel hastalığı, örtülmesi gereken özel bölgeyi ve kalıplaşmış yergi sözünü kendi başına kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000755/B001",
+          "gloss": "çirkinlik ve kötülük",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Salt çirkinlik değerlendirmesi bu dala girmez; bir kişide sıkıntı doğması, kötü bir şeyin ona ulaşması veya ona kötü davranılması gerekir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000755/B002",
+          "gloss": "birini üzme veya ona kötülük etme",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Genel hastalık çekirdeği ile belirli deri hastalığını anlatan kalıp ayrıdır; ahlaki kötülük veya birini üzme anlamı buraya taşınmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000755/B003",
+          "gloss": "bedensel kusur veya hastalık",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal özel bölge çekirdeğiyle korunabilir, fakat utanç verici iş veya durum kullanımı bu çekirdeğin tanımı gibi değil, ayrı bir kaynak varyantı gibi belirtilmelidir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000755/B004",
+          "gloss": "örtülmesi gereken cinsel bölge",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnız kötü bir işin varlığını değil, o işi yapan kişiye yöneltilen ayıplama ve kınama eylemini gerektirir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000755/B005",
+          "gloss": "yaptığını ayıplayıp kötüleme",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal birini üzme veya ona zarar verme fiili değildir; yalnız bir işi, örneği ya da durumu kötüleyen kalıplaşmış değerlendirme işlevidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000755/B006",
+          "gloss": "ne kötü!",
+          "source_pointer": "/root_lexicon/root_000755/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "س و ء"
+      ],
+      "root_ar": "س و ء",
+      "root_id": "root_000755"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Kişiler, işler ve şeylerdeki iyi durum ile bu durumu sağlama bu dala girer; kişiler arası uzlaşma, uygunluk ve özel adlar ayrı dallardadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000876/B001",
+          "gloss": "iyi ve düzgün olma; düzeltme",
+          "source_pointer": "/root_lexicon/root_000876/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca insanlar arasındaki soğukluk, çatışma veya uzaklığın barışmayla giderilmesini kapsar; genel düzgünlük ve nesne onarımı kapsam dışıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000876/B002",
+          "gloss": "barışma ve uzlaşma",
+          "source_pointer": "/root_lexicon/root_000876/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalnızca verilen kişi yönelimli yapıda bir şeyin o kişiye uymasıdır; yalın bir iyi olma veya genel düzeltme anlamı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000876/B003",
+          "gloss": "sana uygun olma",
+          "source_pointer": "/root_lexicon/root_000876/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal yalnızca kök türevlerinin kişi adı olarak kullanılmasını kapsar; aynı biçimlerin iyi ve düzgün kimseyi nitelemesi ayrı anlamdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000876/B004",
+          "gloss": "kişi adı olan kök türevleri",
+          "source_pointer": "/root_lexicon/root_000876/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca iki biçimin belirli bir kent ve nehir için özel ad olmasını kapsar; kişi adları ile sıradan sözlük anlamları ayrı dallardadır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000876/B005",
+          "gloss": "bir kent ve bir nehir için özel adlar",
+          "source_pointer": "/root_lexicon/root_000876/dictionary_entry/branches/4",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ص ل ح"
+      ],
+      "root_ar": "ص ل ح",
+      "root_id": "root_000876"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Kapsam, bilinçli yapılan iş ve eylemle sınırlıdır; ücret, resmi görev, karşılıklı alışveriş ve nesne ya da beden parçası adları ayrı kollardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001046/B001",
+          "gloss": "bilerek yapılan iş veya eylem",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tanım işe koşma ve kullanma yapılarıyla sınırlıdır; resmi görev üstlenme ve ücret alma bu kola taşınmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001046/B002",
+          "gloss": "işe koşmak veya kullanmak",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam iş üzerinde görev ve yetkiyle sınırlıdır; genel eylem, işe koşma ve ücret anlamları ayrı tutulur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001046/B003",
+          "gloss": "işe görevli kılma veya görev üstlenme",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam iş karşılığı verilen ücret ya da paydır; işçi topluluğu ve iş eylemi ayrı kollardır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001046/B004",
+          "gloss": "iş ücreti",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam kişiler arasındaki karşılıklı işlemle sınırlıdır; genel iş, ücret ve resmi görev anlamları dışarıda kalır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001046/B005",
+          "gloss": "karşılıklı işlem",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam elle çalışan işçi topluluğudur; iş karşılığı ücret ve yaya yolcular anlamları ayrı kollardır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001046/B006",
+          "gloss": "el işçileri",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam kalıplı söyleyişlerde zahmet çekmedir; yalın iş yapmak veya kendisi için çalışmak anlamına genişletilmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001046/B007",
+          "gloss": "zahmete girmek",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam işe yatkınlık ve iş için yaratılıştan elverişliliktir; genel yapan kişi veya işçi topluluğu anlamı eklenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001046/B008",
+          "gloss": "işe yatkın ve dayanıklı",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam mızrağın ucuna yakın gövde bölümüdür; mızrağın kendisi, sivri ucu ve kullanılması ayrı tutulur.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001046/B009",
+          "gloss": "mızrak ucunun alt bölümü",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam kalıplı beden parçası adlarıdır; hayvanın ayakları ve uzağı gören göz örnekleri yalın bir genel organ anlamına genişletilmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001046/B010",
+          "gloss": "iş gören beden parçası",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/9",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Kapsam kalıplı yol niteliğidir; genel yol anlamı ve yolculuk yapan kişiler ayrı tutulur.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001046/B011",
+          "gloss": "işlek yol",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kapsam yaya yolcuları adlandıran kalıplı topluluk ifadesidir; el işçileri ve işlek yol anlamları dışarıda kalır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001046/B012",
+          "gloss": "yaya yolcular",
+          "source_pointer": "/root_lexicon/root_001046/dictionary_entry/branches/11",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع م ل"
+      ],
+      "root_ar": "ع م ل",
+      "root_id": "root_001046"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek fiziksel örtmedir; dinî inkâr, nimeti yadsıma ve günahı giderme bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001307/B001",
+          "gloss": "örtmek, kapatmak",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel karanlık ya da genel su kütlesi değildir; kaynakta örtücü etkisiyle adlandırılan belirli varlıklarla sınırlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B002",
+          "gloss": "örten karanlık veya enginlik",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal dinî gerçeği ve inancı reddetmeyle sınırlıdır; nimeti yadsıma veya yalnızca genel bir gerçeği inkâr etme bunun tamamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001307/B003",
+          "gloss": "dinî gerçeği reddetme",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Nesne özellikle nimettir ve belirleyici sonuç şükrün terkidir; genel dinî ret bu dala kendiliğinden girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001307/B004",
+          "gloss": "nimeti yadsıma",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal bir inancı yadsımak değil, belirli bir şeyle bağı reddedip ondan uzaklaşmaktır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001307/B005",
+          "gloss": "bağını reddedip uzaklaşmak",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Eylem kişinin kendi reddi değil, başka bir kişinin durumu hakkında adlandırma veya hüküm vermedir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B006",
+          "gloss": "inançsız saymak",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Genel zorlama değildir; itaat eden kişinin zorlanarak itaatsizliğe geçirilmesi şarttır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B007",
+          "gloss": "itaatsizliğe zorlamak",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal ekimin bütünü değil, tohumu toprağa koyup üstünü örtme işlemi üzerinden çiftçiyi adlandırır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B008",
+          "gloss": "tohumu örten çiftçi",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek yalnızca bağışlama değildir; günah veya bozulmuş yemin karşısında yükü gideren bir işlem ya da karşılık bulunur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001307/B009",
+          "gloss": "günah yükünü giderme",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal güzel kokulu maddeyi değil, üzüm veya hurma çiçeği ile meyveyi gelişme aşamasında örten bitkisel kılıfları kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B010",
+          "gloss": "çiçek veya meyve kılıfı",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/9",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Üç gönderim birbirinin örneği değildir; dal yalnızca kaynakta aynı ad altında toplanan bu ayrı sözlük anlamlarını korur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B011",
+          "gloss": "koku maddesi, su kaynağı veya bitki",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/10",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Uzak arazi çekirdeği ile köy, halk ve mezar kullanımları ayrı facetlerdir; dağ geçidi bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001307/B012",
+          "gloss": "uzak arazi; köy, uzak yer halkı veya mezar",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/11",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dağ geçidi ve iri dağ coğrafi facetlerdir; alçak duvar ayrı bir sözlük varyantıdır, köy veya uzak arazi değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B013",
+          "gloss": "dağ geçidi; iri dağ veya alçak duvar",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/12",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dal genel içsel alçakgönüllülük değil, baş veya el ve gövdeyle yapılan belirli bir boyun eğme gösterisidir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B014",
+          "gloss": "eğilerek boyun eğme gösterisi",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/13",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal hükümdarlık tacı ve taç giydirme töreniyle sınırlıdır; genel baş örtüsü veya boyun eğme hareketi değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001307/B015",
+          "gloss": "hükümdara taç giydirme veya taç",
+          "source_pointer": "/root_lexicon/root_001307/dictionary_entry/branches/14",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ك ف ر"
+      ],
+      "root_ar": "ك ف ر",
+      "root_id": "root_001307"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, gerçekleşme ve bulunma çekirdeğiyle sınırlıdır; yer, konum, üstlenme ve boyun eğme ayrı dallardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B001",
+          "gloss": "gerçekleşme, bulunma ve olma bildirimi",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yer, bulunulan nokta ve konum değeriyle sınırlıdır; genel olma ya da üstlenme anlamına açılmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B002",
+          "gloss": "bulunma yeri ve konum değeri",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal bir kişi adına sorumluluk üstlenmeyle sınırlıdır; genel olma, yer veya güven duyma anlamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B003",
+          "gloss": "birini güvenceyle üstlenme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal boyun eğme ve direnç göstermeme anlamındadır; güvence, yer veya kötü durum anlamı değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001332/B004",
+          "gloss": "boyun eğme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yaşlanan kişinin gençlik anılarını dile getirmesine dayalı nitelemeyle sınırlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001332/B005",
+          "gloss": "gençliğini anan yaşlı kişi",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnız kötü durum içinde gece geçirme deyişiyle sınırlıdır; genel hal veya bela adı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001332/B006",
+          "gloss": "kötü durumda gece geçirme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
+      "root_ar": "ك و ن",
+      "root_id": "root_001332"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f3b720a2e778059d2a35",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:10:audible-break",
+      "source_pointer": "/word_analysis/words/9/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c4b658bfbe17ef65c423",
+        "sup_cde08c7fbe215535680e"
+      ],
+      "title": "glottal break at the harms",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_579aba0685ee5ca754a3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:10:harm-root-and-plural",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7f2ed3d99d52e1c3f047",
+        "sup_cde08c7fbe215535680e"
+      ],
+      "title": "plural harmful outputs",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0725446eb832c27783bd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:10:moral-poles",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7973e38bca971567a841",
+        "sup_cde08c7fbe215535680e"
+      ],
+      "title": "harm opposed to repair and excellence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1463ddb132719b175540",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:10:object-with-accountability",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_71b9740a72147b5cbad3",
+        "sup_cde08c7fbe215535680e"
+      ],
+      "title": "owned harms become the object of covering",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_46c9e0dad622ab0019b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:10:surah-removal-contrast",
+      "source_pointer": "/word_analysis/words/9/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_67a63dcc9436ef377740",
+        "sup_cde08c7fbe215535680e"
+      ],
+      "title": "bad deeds shift from commission to removal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_73b1c0adec9702a59ee3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:11:additive-second-promise",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_58abfc5372aaee6c66e0",
+        "sup_5b304c76cd58b9a19c3b"
+      ],
+      "title": "reward added to expiation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bb41f42e143a13e346b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:12:oath-parallelism",
+      "source_pointer": "/word_analysis/words/11/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1ed0e3b8cdce915754fe",
+        "sup_cef1557871283dbcd1ae"
+      ],
+      "title": "two matched emphatic gates",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_75ecd7da40faa5481daa",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:12:renewed-reward-oath",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_510f94d95463972fe916",
+        "sup_cef1557871283dbcd1ae"
+      ],
+      "title": "reward receives its own oath",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c6100541f3b516198441",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:13:formula-specialized-by-best",
+      "source_pointer": "/word_analysis/words/12/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_51d1654c4028c1df273a",
+        "sup_c4307ad101dcab1a0084"
+      ],
+      "title": "reward specialized by peak practice",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c223a903fad3be5bc93d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:13:positive-calibrated-return",
+      "source_pointer": "/word_analysis/words/12/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c4307ad101dcab1a0084",
+        "sup_cb406f87d750271c318d"
+      ],
+      "title": "bidirectional root selected for reward",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b2104d07c196299fe08a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:13:same-recipients-and-content",
+      "source_pointer": "/word_analysis/words/12/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1e01db0a60d75f941c81",
+        "sup_c4307ad101dcab1a0084"
+      ],
+      "title": "same group receives specified reward",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5ef5cfb1db89df71109e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:13:second-limb-counterpart",
+      "source_pointer": "/word_analysis/words/12/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_774c92369826e629ddbd",
+        "sup_c4307ad101dcab1a0084"
+      ],
+      "title": "positive counterpart to expiation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ebfab56b31f7b768984e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:13:sworn-recompense-form",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a981f5630894553833ee",
+        "sup_c4307ad101dcab1a0084"
+      ],
+      "title": "certain recompense in one dense verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8ebe5a4edb9d4c64f09d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:14:accusative-reward-measure",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_39486c4f55daca5163a7",
+        "sup_3d3634357a7d52849658"
+      ],
+      "title": "excellence as reward content or metric",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9b3b45f5e3dda56f536d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:14:elative-peak-filter",
+      "source_pointer": "/word_analysis/words/13/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3d3634357a7d52849658",
+        "sup_3dcaee5e25103c458eed"
+      ],
+      "title": "the best selected from practice",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8add2366de16b8f6201d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:14:formulaic-closing-pledge",
+      "source_pointer": "/word_analysis/words/13/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3d3634357a7d52849658",
+        "sup_9f60d6e1be1e7b3f6fe8"
+      ],
+      "title": "formula links peak reward to habitual action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f84f44719228fbaf062e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:14:moral-accounting-poles",
+      "source_pointer": "/word_analysis/words/13/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2e7b38d846ec855034e1",
+        "sup_3d3634357a7d52849658"
+      ],
+      "title": "badness removed, best rewarded",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_90fc38d92a8d410ce00c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:14:root-field-limited-to-measure",
+      "source_pointer": "/word_analysis/words/13/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3d3634357a7d52849658",
+        "sup_6f005a695f1f3896a9fc"
+      ],
+      "title": "goodness field as metric, not new action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dce43449d66f7316987a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:15:definite-partitive-filter",
+      "source_pointer": "/word_analysis/words/14/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_54edfaaced7cf41f3038",
+        "sup_bb3c1ff998b48333eb6d"
+      ],
+      "title": "known field for best-selection",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_368f84376313f795cf53",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:15:singular-action-domain",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_bb3c1ff998b48333eb6d",
+        "sup_d8cface8e5bbe2928b34"
+      ],
+      "title": "deeds gathered into one domain",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f5398cbdd3ec6a89c189",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:16:being-state-pressure",
+      "source_pointer": "/word_analysis/words/15/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_251ba193083243556200",
+        "sup_2b3637a8a90e81bc3a20"
+      ],
+      "title": "being-root as lived practice",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_41cfcf256581187d28f0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:16:closure-preparation",
+      "source_pointer": "/word_analysis/words/15/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2b3637a8a90e81bc3a20",
+        "sup_493ca3ea0b66dd3789d0"
+      ],
+      "title": "auxiliary delays closure to final action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f22509721ee7dff009b3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:16:habitual-auxiliary",
+      "source_pointer": "/word_analysis/words/15/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2098643c1857ea5ef191",
+        "sup_2b3637a8a90e81bc3a20"
+      ],
+      "title": "past habitual frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9ada4481590446be9d90",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:16:plural-subject-carried",
+      "source_pointer": "/word_analysis/words/15/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2b3637a8a90e81bc3a20",
+        "sup_93fce8b6bd67e5040e15"
+      ],
+      "title": "same group remains active",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_feadc93df8a99ac8956a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:collective-final-subject",
+      "source_pointer": "/word_analysis/words/16/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a94ff1c1a2bf87897ba9",
+        "sup_d00ce87914b3b89c928f"
+      ],
+      "title": "same collective agents at the close",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_fe39e5e43149627e1151",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:final-action-frame",
+      "source_pointer": "/word_analysis/words/16/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_41387ed27b17ebecaf71",
+        "sup_a94ff1c1a2bf87897ba9"
+      ],
+      "title": "ayah closes on human action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_95732437b104fd91b0f2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:final-sound-landing",
+      "source_pointer": "/word_analysis/words/16/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a94ff1c1a2bf87897ba9",
+        "sup_f89a13d76463c17995e2"
+      ],
+      "title": "sustained final nasal landing",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_654b776338fbe0680f2e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:habitual-not-command",
+      "source_pointer": "/word_analysis/words/16/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6972d89af41dcd1b4a2a",
+        "sup_a94ff1c1a2bf87897ba9"
+      ],
+      "title": "habitual practice under the auxiliary",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b74ce688c155320cb662",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:perfect-to-imperfect-return",
+      "source_pointer": "/word_analysis/words/16/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_28c4754758d488fc8558",
+        "sup_a94ff1c1a2bf87897ba9"
+      ],
+      "title": "action root returns from qualification to measure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2118397f00267129a937",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:17:reward-action-network",
+      "source_pointer": "/word_analysis/words/16/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a94ff1c1a2bf87897ba9",
+        "sup_bc502b1a70512573a293"
+      ],
+      "title": "action tied to excellence and recompense",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a5cca465b6331c7a9a77",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:1:resumptive-continuation",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7d525c314cc69d01408e",
+        "sup_8bc53221109b0470af02"
+      ],
+      "title": "resumptive opening of the promise",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ae42447c326188fadd70",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:2:boundary-group-shift",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_dd817b8e283163009380",
+        "sup_ea16f9d83e46d7c6e66b"
+      ],
+      "title": "from singular striver to plural recipients",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1d101153bef89a4acc1a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:2:qualified-relative-subject",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_ea16f9d83e46d7c6e66b",
+        "sup_fde8028b30e6fd6754b2"
+      ],
+      "title": "qualified class before the promise",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_70677bb3f1cce4ebcda0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:3:action-frame-echo",
+      "source_pointer": "/word_analysis/words/2/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_f0072ce66423a9327b3f",
+        "sup_fc7fa0733c116f559c11"
+      ],
+      "title": "action frame begins here",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4a32ef2eb8b6dd893fd4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:3:collective-verbalized-subject",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6a32c21a43b5dad5673f",
+        "sup_f0072ce66423a9327b3f"
+      ],
+      "title": "plural subject inside the verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_25d2e8865b9996348269",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:3:faith-action-formula",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_49cb9057d7c3e76931cb",
+        "sup_f0072ce66423a9327b3f"
+      ],
+      "title": "faith paired with restorative action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0f5890d5353c90e24914",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:3:objectless-trust-commitment",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_84b8f2064e960fc57cf0",
+        "sup_f0072ce66423a9327b3f"
+      ],
+      "title": "objectless Form IV trust",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_147c48e09dec6d5d8deb",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:4:faith-action-coordination",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b47d3a3461636aaacc70",
+        "sup_c262af6bf6ee54ed53c8"
+      ],
+      "title": "two-part qualification",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3fd2a284536b35c7c179",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:5:action-inclusio",
+      "source_pointer": "/word_analysis/words/4/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_570a3357200716d5220e",
+        "sup_60738f2930d2754d7177"
+      ],
+      "title": "action root opens and closes the ayah",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c800244a1181f472c75e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:5:collective-responsibility",
+      "source_pointer": "/word_analysis/words/4/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_263426cc5f840ad7d97f",
+        "sup_570a3357200716d5220e"
+      ],
+      "title": "plural actors repeat the qualification",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7ac055f9f63528cf9d04",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:5:direct-objected-action",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_570a3357200716d5220e",
+        "sup_b7f3072fa8f2115f472f"
+      ],
+      "title": "completed action with a definite object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_79ef255df2bce8e81d46",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:5:formula-and-surah-thread",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_570a3357200716d5220e",
+        "sup_de2ae3bcad7adae90ef2"
+      ],
+      "title": "recognized faith-action-repair formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_014e462f1e1a12369543",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:5:work-root-production",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_570a3357200716d5220e",
+        "sup_dd569768a4671969f3eb"
+      ],
+      "title": "production without derived instrumental force",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_64ef8333efbb89cbea3a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:6:definite-plural-category",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_12472f117c1c307cf9e0",
+        "sup_8e69693cace6986819e8"
+      ],
+      "title": "known plural deed-category",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f37c33d4acc9f1c8c746",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:6:moral-antithesis-and-thread",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_12472f117c1c307cf9e0",
+        "sup_accaf686f0765275f5fa"
+      ],
+      "title": "repair opposed to harm",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cf6c8f593dd53d48f41c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:6:object-of-repairing-deeds",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_07ecabe8e8842c046c63",
+        "sup_12472f117c1c307cf9e0"
+      ],
+      "title": "restorative deeds as object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_809e36c0ab1e3a18d42a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:6:sound-bound-definiteness",
+      "source_pointer": "/word_analysis/words/5/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_12472f117c1c307cf9e0",
+        "sup_35cd20779122016d12a7"
+      ],
+      "title": "definiteness heard with the root",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f89653ff2956751bc49b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:7:first-oath-scope",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_71383238ba9489a4f0b9",
+        "sup_958c289c8ab8e71c7eae"
+      ],
+      "title": "first sworn promise gate",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e7ae4f96a7ea4c4c4315",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:7:paired-oath-cadence",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_38d1e4023b9ac3475012",
+        "sup_958c289c8ab8e71c7eae"
+      ],
+      "title": "paired opening beat",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ca8132f896f86c38e671",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:7:qualification-to-promise-pivot",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2080ba1a2e003a3f5534",
+        "sup_958c289c8ab8e71c7eae"
+      ],
+      "title": "turn into divine response",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_592ada568368af020f98",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:covering-root-tension",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d218f9d3b889f51f425",
+        "sup_94ad0c929e44ec2a1462"
+      ],
+      "title": "covering root morally inverted",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6a1bbd1e6dfc84cc632d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:direct-divine-agency",
+      "source_pointer": "/word_analysis/words/7/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5c88261a4016baec3e5e",
+        "sup_6d218f9d3b889f51f425"
+      ],
+      "title": "first-person pledged action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3972254b24ade668c530",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:intensive-sound",
+      "source_pointer": "/word_analysis/words/7/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_158f2ef2d7c6742aa882",
+        "sup_6d218f9d3b889f51f425"
+      ],
+      "title": "dense sound matches intensity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_37cf213d47326d4428cc",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:object-away-frame",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d218f9d3b889f51f425",
+        "sup_d1198cca3931d7eabf2f"
+      ],
+      "title": "misdeeds covered away from them",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bfa3c4314f43ba21407a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:paired-removal-before-reward",
+      "source_pointer": "/word_analysis/words/7/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d218f9d3b889f51f425",
+        "sup_7374bbab0b7c267fc119"
+      ],
+      "title": "negative removal before positive reward",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f1312f4ca7e2e1e3f996",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:8:sworn-intensive-expiation",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_36f14d05a0d635398902",
+        "sup_6d218f9d3b889f51f425"
+      ],
+      "title": "certain Form II covering",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f5c4c44fe4f036a55a9a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:9:pronoun-beneficiaries",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_480dd0ed81e167a4f792",
+        "sup_6f92b821607ef9424b3d"
+      ],
+      "title": "pronoun returns to the qualified group",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f46f315885c77bcd0fd9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:7:9:separation-benefit",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_480dd0ed81e167a4f792",
+        "sup_d2322f61853d0dede059"
+      ],
+      "title": "away-from as mercy",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:2",
+        "29:3",
+        "29:7"
+      ],
+      "branch_refs": [
+        "root_000852/B002",
+        "root_000852/B004",
+        "root_001040/B002",
+        "root_001128/B001",
+        "root_001128/B002",
+        "root_001307/B001"
+      ],
+      "candidate_id": "cand_9e60427452c90901edbd",
+      "focus_branch_refs": [
+        "root_001307/B001"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000852/B002",
+        "root_000852/B004",
+        "root_001040/B002",
+        "root_001128/B001",
+        "root_001128/B002"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_87b14680cff46947f390",
+        "sup_9c9b1886235126caea6a",
+        "sup_cb39ed8f2a4a779712cf",
+        "sup_dccf973fa434c0c250a0",
+        "sup_e7895e8b83426e21a298"
+      ],
+      "title": "Fire-Assay and the Mark of Sound Material",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:13",
+        "29:2",
+        "29:4",
+        "29:7"
+      ],
+      "branch_refs": [
+        "root_000244/B001",
+        "root_000244/B002",
+        "root_000244/B003",
+        "root_000318/B001",
+        "root_000348/B002",
+        "root_000661/B001",
+        "root_001046/B001"
+      ],
+      "candidate_id": "cand_a1e7a25a0843d0a26f8d",
+      "focus_branch_refs": [
+        "root_000244/B001",
+        "root_000244/B002",
+        "root_000244/B003",
+        "root_001046/B001"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000318/B001",
+        "root_000348/B002",
+        "root_000661/B001"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_57410565e943ffcb745f",
+        "sup_66d0b4b9b087b070c36a",
+        "sup_d8606f16c1fd54b7c3b5",
+        "sup_e99404f04e364d0b4975",
+        "sup_eae42ae301e4c9419c38"
+      ],
+      "title": "Account, Claim, and Final Discharge",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0a5020e9f55439ee04ed",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001332"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:11:1",
+      "source_pointer": "/qac_morphemes/23",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_012caa4cdee6c5ceb587"
+      ],
+      "title": "QAC root occurrence: ك و ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_105490129153983cad71",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000054"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:2:1",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_980ce5842e3d44a56d75"
+      ],
+      "title": "QAC root occurrence: ء م ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f3aed7e74402e10139b9",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001046"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:3:2",
+      "source_pointer": "/qac_morphemes/5",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_2d04472d0c13b950393e"
+      ],
+      "title": "QAC root occurrence: ع م ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0814f4663f7927ffc317",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000876"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:4:2",
+      "source_pointer": "/qac_morphemes/8",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_6205275ca132831e5c8f"
+      ],
+      "title": "QAC root occurrence: ص ل ح",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dd090bd617ed63aaba47",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001307"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:5:2",
+      "source_pointer": "/qac_morphemes/10",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_ba8a7d3708f7c19972ba"
+      ],
+      "title": "QAC root occurrence: ك ف ر",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b3b2a8953e08ae5c8718",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000755"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:7:1",
+      "source_pointer": "/qac_morphemes/14",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_44b9da15cd8081ce712e"
+      ],
+      "title": "QAC root occurrence: س و ء",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_faa9b9d472a3aa86b152",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000242",
+        "root_000244"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:8:3",
+      "source_pointer": "/qac_morphemes/18",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_7aebff155523f28b38b5"
+      ],
+      "title": "QAC root occurrence: ج ز ي",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eb9063aac8e1f14ca75c",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000323"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:7:9:1",
+      "source_pointer": "/qac_morphemes/21",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_4286b3ad34c0a0bceea7"
+      ],
+      "title": "QAC root occurrence: ح س ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:5",
+        "29:7:7"
+      ],
+      "branch_refs": [
+        "root_000755/B001",
+        "root_001307/B001",
+        "root_001307/B009"
+      ],
+      "candidate_id": "cand_165aab65a9b5202af76c",
+      "focus_branch_refs": [
+        "root_000755/B001",
+        "root_001307/B001",
+        "root_001307/B009"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_0146b3faccbcdc73e0bc"
+      ],
+      "title": "Kötülüklerin örtülmesi burada gerçeği gizlemek değil, geçmiş kötülüğün kişiyi tanımlamaya devam etmesini engelleyen giderici bir silmedir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7:12",
+        "29:7:3",
+        "29:7:8",
+        "29:7:9"
+      ],
+      "branch_refs": [
+        "root_000244/B001",
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "candidate_id": "cand_fe5b3fac733d536e2e01",
+      "focus_branch_refs": [
+        "root_000244/B001",
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_ad239876c14f3c2e0661"
+      ],
+      "title": "Ödül, başkasına devredilebilen bir bağlılık sözüne değil, kişinin kendi yaptığı işin en iyi gerçekleşmiş niteliğine göre karşılık verir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7"
+      ],
+      "branch_refs": [
+        "root_001307/B001"
+      ],
+      "candidate_id": "cand_669376ca28f471f4c13f",
+      "focus_branch_refs": [
+        "root_001307/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_f359f7696abd61ec980f"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d4ba716c36410e13daf4",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_c0f9f1308280b28d0865"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7"
+      ],
+      "branch_refs": [
+        "root_000876/B001",
+        "root_001307/B009"
+      ],
+      "candidate_id": "cand_83352c70d29cf8506b23",
+      "focus_branch_refs": [
+        "root_000876/B001",
+        "root_001307/B009"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_0808abf63a821c8d845a"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:7"
+      ],
+      "branch_refs": [
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "candidate_id": "cand_2df96c5e3fb89fb733bd",
+      "focus_branch_refs": [
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_59d81d63a25854ad56ce"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "ج ز ي/B001",
+          "reason": "ambiguous root mapping: root_000242/B001, root_000244/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_af7d44b387fa51b0911f",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_316d2d8d79cb2581f2c3"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 85,
+    "by_disposition": {
+      "docket_mandatory": 60,
+      "docket_optional": 15,
+      "parse_failed": 8,
+      "quarantined": 2
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 2,
+      "hft": 10,
+      "qac_morpheme": 8,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 58
+    },
+    "discovered_seed_count": 85,
+    "docket_candidate_count": 75,
+    "mandatory_candidate_count": 60,
+    "optional_candidate_count": 15,
+    "selection_eligible_candidate_count": 62,
+    "selection_ineligible_candidate_count": 13
+  },
+  "focus": {
+    "arabic_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:7:1:1",
+        "qac_word_ref": "29:7:1",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "ٱلَّذِى",
+        "morph_features": "STEM|POS:REL|LEM:{l~a*iY|MP",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:7:1:2",
+        "qac_word_ref": "29:7:1",
+        "root_ar": "",
+        "surface_ar": "ٱلَّذِينَ"
+      },
+      {
+        "lemma_ar": "ءَامَنَ",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:2:1",
+        "qac_word_ref": "29:7:2",
+        "root_ar": "ء م ن",
+        "surface_ar": "ءَامَنُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:2:2",
+        "qac_word_ref": "29:7:2",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:7:3:1",
+        "qac_word_ref": "29:7:3",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "عَمِلَ",
+        "morph_features": "STEM|POS:V|PERF|LEM:Eamila|ROOT:Eml|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:3:2",
+        "qac_word_ref": "29:7:3",
+        "root_ar": "ع م ل",
+        "surface_ar": "عَمِلُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:3:3",
+        "qac_word_ref": "29:7:3",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:7:4:1",
+        "qac_word_ref": "29:7:4",
+        "root_ar": "",
+        "surface_ar": "ٱل"
+      },
+      {
+        "lemma_ar": "صَّٰلِحَٰت",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:S~a`liHa`t|ROOT:SlH|FP|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:7:4:2",
+        "qac_word_ref": "29:7:4",
+        "root_ar": "ص ل ح",
+        "surface_ar": "صَّٰلِحَٰتِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:EMPH+",
+        "morpheme_role": "PREFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:7:5:1",
+        "qac_word_ref": "29:7:5",
+        "root_ar": "",
+        "surface_ar": "لَ"
+      },
+      {
+        "lemma_ar": "كَفَّرَ",
+        "morph_features": "STEM|POS:V|IMPF|(II)|LEM:kaf~ara|ROOT:kfr|1P",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:5:2",
+        "qac_word_ref": "29:7:5",
+        "root_ar": "ك ف ر",
+        "surface_ar": "نُكَفِّرَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|+n:EMPH",
+        "morpheme_role": "SUFFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:7:5:3",
+        "qac_word_ref": "29:7:5",
+        "root_ar": "",
+        "surface_ar": "نَّ"
+      },
+      {
+        "lemma_ar": "عَن",
+        "morph_features": "STEM|POS:P|LEM:Ean",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:7:6:1",
+        "qac_word_ref": "29:7:6",
+        "root_ar": "",
+        "surface_ar": "عَنْ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:6:2",
+        "qac_word_ref": "29:7:6",
+        "root_ar": "",
+        "surface_ar": "هُمْ"
+      },
+      {
+        "lemma_ar": "سَيِّـَٔات",
+        "morph_features": "STEM|POS:N|LEM:say~i_#aAt|ROOT:swA|FP|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:7:7:1",
+        "qac_word_ref": "29:7:7",
+        "root_ar": "س و ء",
+        "surface_ar": "سَيِّـَٔاتِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:7:2",
+        "qac_word_ref": "29:7:7",
+        "root_ar": "",
+        "surface_ar": "هِمْ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:7:8:1",
+        "qac_word_ref": "29:7:8",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:EMPH+",
+        "morpheme_role": "PREFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:7:8:2",
+        "qac_word_ref": "29:7:8",
+        "root_ar": "",
+        "surface_ar": "لَ"
+      },
+      {
+        "lemma_ar": "جَزَىٰ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:jazaY`|ROOT:jzy|1P",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:8:3",
+        "qac_word_ref": "29:7:8",
+        "root_ar": "ج ز ي",
+        "surface_ar": "نَجْزِيَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|+n:EMPH",
+        "morpheme_role": "SUFFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:7:8:4",
+        "qac_word_ref": "29:7:8",
+        "root_ar": "",
+        "surface_ar": "نَّ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:8:5",
+        "qac_word_ref": "29:7:8",
+        "root_ar": "",
+        "surface_ar": "هُمْ"
+      },
+      {
+        "lemma_ar": "أَحْسَن",
+        "morph_features": "STEM|POS:N|LEM:>aHosan|ROOT:Hsn|MS|ACC",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:7:9:1",
+        "qac_word_ref": "29:7:9",
+        "root_ar": "ح س ن",
+        "surface_ar": "أَحْسَنَ"
+      },
+      {
+        "lemma_ar": "ٱلَّذِى",
+        "morph_features": "STEM|POS:REL|LEM:{l~a*iY|MS",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:7:10:1",
+        "qac_word_ref": "29:7:10",
+        "root_ar": "",
+        "surface_ar": "ٱلَّذِى"
+      },
+      {
+        "lemma_ar": "كَانَ",
+        "morph_features": "STEM|POS:V|PERF|LEM:kaAna|ROOT:kwn|SP:kaAn|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:11:1",
+        "qac_word_ref": "29:7:11",
+        "root_ar": "ك و ن",
+        "surface_ar": "كَانُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:11:2",
+        "qac_word_ref": "29:7:11",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "عَمِلَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eamila|ROOT:Eml|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:7:12:1",
+        "qac_word_ref": "29:7:12",
+        "root_ar": "ع م ل",
+        "surface_ar": "يَعْمَلُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:7:12:2",
+        "qac_word_ref": "29:7:12",
+        "root_ar": "",
+        "surface_ar": "ونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:7:1:1"
+      ],
+      [
+        "29:7:1:2"
+      ],
+      [
+        "29:7:2:1",
+        "29:7:2:2"
+      ],
+      [
+        "29:7:3:1"
+      ],
+      [
+        "29:7:3:2",
+        "29:7:3:3"
+      ],
+      [
+        "29:7:4:1",
+        "29:7:4:2"
+      ],
+      [
+        "29:7:5:1"
+      ],
+      [
+        "29:7:5:2",
+        "29:7:5:3"
+      ],
+      [
+        "29:7:6:1",
+        "29:7:6:2"
+      ],
+      [
+        "29:7:7:1",
+        "29:7:7:2"
+      ],
+      [
+        "29:7:8:1"
+      ],
+      [
+        "29:7:8:2"
+      ],
+      [
+        "29:7:8:3",
+        "29:7:8:4",
+        "29:7:8:5"
+      ],
+      [
+        "29:7:9:1"
+      ],
+      [
+        "29:7:10:1"
+      ],
+      [
+        "29:7:11:1",
+        "29:7:11:2"
+      ],
+      [
+        "29:7:12:1",
+        "29:7:12:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:7:1",
+      "29:7:2",
+      "29:7:3",
+      "29:7:4",
+      "29:7:5",
+      "29:7:6",
+      "29:7:7",
+      "29:7:8",
+      "29:7:9",
+      "29:7:10",
+      "29:7:11",
+      "29:7:12",
+      "29:7:13",
+      "29:7:14",
+      "29:7:15",
+      "29:7:16",
+      "29:7:17"
+    ]
+  },
+  "focus_root_mappings": {
+    "ء م ن": [
+      "root_000054"
+    ],
+    "ج ز ي": [
+      "root_000242",
+      "root_000244"
+    ],
+    "ح س ن": [
+      "root_000323"
+    ],
+    "س و ء": [
+      "root_000755"
+    ],
+    "ص ل ح": [
+      "root_000876"
+    ],
+    "ع م ل": [
+      "root_001046"
+    ],
+    "ك ف ر": [
+      "root_001307"
+    ],
+    "ك و ن": [
+      "root_001332"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:7",
+    "docket_payload_sha256": "f3d80d1ebf8d51f8057a046bd6b5913c817b5ee1c5986eb7475bca081e288bd8",
+    "source_canonical_sha256": "4140e511eaf81b90c90211ec9556a15d5cf7be400d3477f9c06438966984db38"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000318/B001",
+      "image_ar": "العد والحساب",
+      "image_en": "counting and reckoning",
+      "root_ar": "ح س ب",
+      "scope_ar": "يدخل فيه عد الأشياء والحساب والمحاسبة والتقدير والمقدار وحساب الشمس والقمر",
+      "scope_en": "Counting things, accounting, reckoning, measure, proportion, and ordered calculation such as the courses of the sun and moon.",
+      "source_file": "v4/outputs/pass2_branches/root_000318.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/0/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000348/B002",
+      "image_ar": "الحكم والقضاء بين الناس",
+      "image_en": "judgment and adjudication among people",
+      "root_ar": "ح ك م",
+      "scope_ar": "القضاء بالعدل؛ الحكم بين الناس؛ الحكومة والتحاكم والمحاكمة؛ تقدير الأرش في الجراحات",
+      "scope_en": "just adjudication, judging among people, litigation, and legal assessment",
+      "source_file": "v4/outputs/pass2_branches/root_000348.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000661/B001",
+      "image_ar": "السؤال والطلب",
+      "image_en": "asking and requesting",
+      "root_ar": "س ء ل",
+      "scope_ar": "يدخل فيه السؤال والطلب، والسؤال عن الشيء أو بفلان أو عن فلان، والأمر سل واسأل، والسائل والسؤلة وكثرة السؤال.",
+      "scope_en": "Asking or requesting, including asking about or for something, the imperative forms, and the asker or frequent asker.",
+      "source_file": "v4/outputs/pass2_branches/root_000661.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/13/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000852/B002",
+      "image_ar": "صلابة الشيء واستواؤه",
+      "image_en": "solidity and straightness",
+      "root_ar": "ص د ق",
+      "scope_ar": "يدخل فيه الشيء الصلب أو المستوي، ورمح صدق، وما يدل على قوة محسوسة في الشيء",
+      "scope_en": "Includes a hard or straight thing, a true/firm spear, and concrete strength in a thing",
+      "source_file": "v4/outputs/pass2_branches/root_000852.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/4/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000852/B004",
+      "image_ar": "تحقيق الوعد والفعل",
+      "image_en": "confirmation and fulfillment",
+      "root_ar": "ص د ق",
+      "scope_ar": "يدخل فيه التصديق، وتحقيق الظن أو الرؤيا أو الوعد، والوفاء بالفعل أو القتال، وصدق العهد بالفعل",
+      "scope_en": "Includes confirmation, realization of a thought, vision, or promise, and fulfilling action, combat, or covenant",
+      "source_file": "v4/outputs/pass2_branches/root_000852.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/4/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001040/B002",
+      "image_ar": "أثر يميز الشيء ويهدي إليه",
+      "image_en": "a distinguishing mark that points to something",
+      "root_ar": "ع ل م",
+      "scope_ar": "يدخل فيه العلامة والعلم والراية والجبل والمعلم ومعالم الطريق والحدود وعلم الثوب ورقمه وتعليم الفارس والثوب والقدح والعمامة والحناء إذا جعلت علامة",
+      "scope_en": "Includes a sign, banner, mountain landmark, road or boundary marker, garment mark or embroidery, marked warrior, marked cloth or cup or turban, and henna as a visible mark.",
+      "source_file": "v4/outputs/pass2_branches/root_001040.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001128/B001",
+      "image_ar": "امتحان المعدن والإنسان",
+      "image_en": "assaying by trial",
+      "root_ar": "ف ت ن",
+      "scope_ar": "يدخل في هذا الابتلاء والامتحان والاختبار وتمييز الجيد من الرديء، ومنه فتن الذهب والفضة بالنار وامتحان الإنسان",
+      "scope_en": "Testing, trial, examination, and proving quality or truth, including assaying gold and silver by fire",
+      "source_file": "v4/outputs/pass2_branches/root_001128.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001128/B002",
+      "image_ar": "إحراق النار وسوادها",
+      "image_en": "burning by fire",
+      "root_ar": "ف ت ن",
+      "scope_ar": "يدخل في هذا الإحراق بالنار، وإدخال الشيء أو الإنسان النار، والعذاب بالنار، وما صار أسود أو متغيرا بالنار كالحرة الفتين",
+      "scope_en": "Actual burning, being put into fire, fiery torment, and blackened or fire-altered objects such as lava ground",
+      "source_file": "v4/outputs/pass2_branches/root_001128.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/1/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 8,
+      "mapped_root_record_count": 9,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 63
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 1,
+      "ayah_to": 13,
+      "id": "s029-p01-001-013",
+      "label": "Trials of faith and accountability",
+      "number": 1,
+      "refs": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/23",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:11:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_012caa4cdee6c5ceb587",
+      "text": "{\"lemma_ar\":\"كَانَ\",\"morph_features\":\"STEM|POS:V|PERF|LEM:kaAna|ROOT:kwn|SP:kaAn|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:7:11:1\",\"qac_word_ref\":\"29:7:11\",\"root_ar\":\"ك و ن\",\"surface_ar\":\"كَانُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000755/B001",
+        "root_001307/B001",
+        "root_001307/B009"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_0146b3faccbcdc73e0bc",
+      "text": "{\"anchors\":[[\"29:7:5\",\"root_001307\",[\"B001\",\"B009\"]],[\"29:7:7\",\"root_000755\",[\"B001\"]]],\"grade\":\"strong\",\"text\":\"Kötülüklerin örtülmesi burada gerçeği gizlemek değil, geçmiş kötülüğün kişiyi tanımlamaya devam etmesini engelleyen giderici bir silmedir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:6:object-of-repairing-deeds",
+      "source_type": "word_analysis",
+      "support_id": "sup_07ecabe8e8842c046c63",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"restorative deeds as object\",\"reader_payoff\":\"The reader notices that the human action produces restorative deeds rather than a vague moral state.\",\"reason\":\"The noun is the direct object of the action verb and its root field supports repair, soundness, and fitness.\",\"representative_source_ids\":[\"QG-08850cbc\",\"QS-418386e4\",\"QF-ac20a425\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000876/B001",
+        "root_001307/B009"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_0808abf63a821c8d845a",
+      "text": "1. **Covering becomes remedial effacement rather than denial.** Lexical evidence: `لَنُكَفِّرَنَّ`, root `ك ف ر`, `B009` (covering or effacing sin), and `سَيِّئَاتِهِم`, root `س و ء`, `B001` (badness). Structural cue: the ayah surrounds effacement with trusting assent, intentional work, and soundness (`ص ل ح B001`), while `29:8-11` expose pressures and hidden division. Assigned role: `ك ف ر B009` removes the damaging residue from agents whose work moves toward soundness. Abductive move: the packet states the removal but not its material mechanism; I infer only a repair sequence: enacted soundness is followed by the covering-away of prior badness. Reading change: the same covering-root later used for rejecting truth here names restorative cancellation.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_12472f117c1c307cf9e0",
+      "text": "{\"gloss_range\":\"definite plural active-participle noun for recognized restorative or sound deeds as the object of human doing\",\"prose\":\"{{ar:ٱلصَّٰلِحَٰتِ}} ({{tr:al-ṣāliḥāti}}) is the produced object of the believers' doing. Its definite plural form treats these as a known class of multiple restorative deeds, and the active-participle shape keeps their sound or repairing quality alive. That makes the later removal of {{ar:سَيِّـَٔاتِهِمْ}} ({{tr:sayyiʾātihim}}) an ordered contrast between repair and harm.\",\"root_display\":\"{{ar:ص ل ح}} ({{tr:ṣ-l-ḥ}})\",\"root_gloss_range\":\"repair, soundness, fitness, reconciliation, and reform; locally the root names deeds characterized by operative restorative quality\",\"surface_display\":\"{{ar:ٱلصَّٰلِحَٰتِ}} ({{tr:al-ṣāliḥāti}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:intensive-sound",
+      "source_type": "word_analysis",
+      "support_id": "sup_158f2ef2d7c6742aa882",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"dense sound matches intensity\",\"reader_payoff\":\"The reader hears the intensive form and energetic ending thicken the promise of covering.\",\"reason\":\"The gemination and heavy energetic ending are part of the local surface.\",\"representative_source_ids\":[\"QP-359c25b0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13:same-recipients-and-content",
+      "source_type": "word_analysis",
+      "support_id": "sup_1e01db0a60d75f941c81",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same group receives specified reward\",\"reader_payoff\":\"The reader notices that the group freed from misdeeds is the same group receiving the reward content.\",\"reason\":\"The object suffix resumes the opening group, and the following accusative phrase supplies reward content or specification.\",\"representative_source_ids\":[\"QG-709f42f5\",\"QG-f881488b\",\"QB-2c11f637\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:12:oath-parallelism",
+      "source_type": "word_analysis",
+      "support_id": "sup_1ed0e3b8cdce915754fe",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"two matched emphatic gates\",\"reader_payoff\":\"The reader notices symmetrical certainty across removal and reward, with different divine actions inside the same oath architecture.\",\"reason\":\"The same emphatic pattern begins both energetic promise verbs, producing audible and structural parallelism.\",\"representative_source_ids\":[\"QI-6fa0fcb4\",\"QT-91ccd392\",\"QT-bc5d3930\",\"QP-8c70da5b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:7:qualification-to-promise-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_2080ba1a2e003a3f5534",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"turn into divine response\",\"reader_payoff\":\"The reader notices the ayah's architecture: human profile first, then two pledged divine outcomes.\",\"reason\":\"The particle begins the promise predicate after the relative subject's qualifications are complete.\",\"representative_source_ids\":[\"QT-3618597d\",\"QT-79963eca\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:16:habitual-auxiliary",
+      "source_type": "word_analysis",
+      "support_id": "sup_2098643c1857ea5ef191",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"past habitual frame\",\"reader_payoff\":\"The reader notices that reward is tied to sustained practice, not one punctual act.\",\"reason\":\"The perfect auxiliary governs the following imperfect predicate, creating habitual or continuous past aspect.\",\"representative_source_ids\":[\"QG-a10fb525\",\"MG-1e44edb4\",\"QF-a8fabec0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:16:being-state-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_251ba193083243556200",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"being-root as lived practice\",\"reader_payoff\":\"The reader notices the doing as a lived state, while local grammar keeps the word an auxiliary rather than an act of forming something.\",\"reason\":\"The root's being field coheres with habitual practice, but the local auxiliary construction excludes causative formation.\",\"representative_source_ids\":[\"QS-6fff31fa\",\"MS-a615423f\",\"QF-1afb6789\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:collective-responsibility",
+      "source_type": "word_analysis",
+      "support_id": "sup_263426cc5f840ad7d97f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural actors repeat the qualification\",\"reader_payoff\":\"The reader notices the same collective subject made responsible for both trust and action.\",\"reason\":\"The 3mp ending repeats the collective subject marker from the previous verb.\",\"representative_source_ids\":[\"QF-7bec2d68\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:perfect-to-imperfect-return",
+      "source_type": "word_analysis",
+      "support_id": "sup_28c4754758d488fc8558",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"action root returns from qualification to measure\",\"reader_payoff\":\"The reader notices the shift from completed qualifying deeds to ongoing practice as the reward baseline.\",\"reason\":\"The same root appears earlier in perfect form and returns here as an imperfect under the auxiliary.\",\"representative_source_ids\":[\"QS-12516e98\",\"QF-48a2f602\",\"ME-03eb7004\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:16",
+      "source_type": "word_analysis",
+      "support_id": "sup_2b3637a8a90e81bc3a20",
+      "text": "{\"gloss_range\":\"perfect auxiliary with plural subject agreement, setting a past habitual frame for the following imperfect action\",\"prose\":\"{{ar:كَانُوا۟}} ({{tr:kānū}}) sets the closing action in a past habitual frame. The plural suffix keeps the original group present without renaming them, and with {{ar:يَعْمَلُونَ}} ({{tr:yaʿmalūna}}) it makes the reward standard sustained practice rather than an isolated deed. The being-root lends lived-state pressure, while the local auxiliary use blocks a causative forming sense.\",\"root_display\":\"{{ar:ك و ن}} ({{tr:k-w-n}})\",\"root_gloss_range\":\"being, existence, becoming, occurrence, and formation; locally the auxiliary keeps being-state pressure while not selecting a causative forming or creating sense\",\"surface_display\":\"{{ar:كَانُوا۟}} ({{tr:kānū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/5",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:3:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_2d04472d0c13b950393e",
+      "text": "{\"lemma_ar\":\"عَمِلَ\",\"morph_features\":\"STEM|POS:V|PERF|LEM:Eamila|ROOT:Eml|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:7:3:2\",\"qac_word_ref\":\"29:7:3\",\"root_ar\":\"ع م ل\",\"surface_ar\":\"عَمِلُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14:moral-accounting-poles",
+      "source_type": "word_analysis",
+      "support_id": "sup_2e7b38d846ec855034e1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"badness removed, best rewarded\",\"reader_payoff\":\"The reader notices the ayah's ordered accounting from qualification to removal of badness to reward by the best.\",\"reason\":\"The elative best is positioned after the harmful plural, creating the positive evaluative pole of the promise.\",\"representative_source_ids\":[\"QS-7b64826e\",\"QS-a2f03951\",\"QT-c6e92cd8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_316d2d8d79cb2581f2c3",
+      "text": "- **Later activation (`29:40`, `29:55`, `29:66`):** Individual seizure by fault and tasting one's work confirm non-transferable matching, while `29:66` uses the same `ك ف ر` root for covering a favor. The contrast sharpens `B009`: remedial effacement removes bad residue, whereas culpable covering hides the beneficent source.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:6:sound-bound-definiteness",
+      "source_type": "word_analysis",
+      "support_id": "sup_35cd20779122016d12a7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definiteness heard with the root\",\"reader_payoff\":\"The reader notices that the known deed-category is also audibly bound to the emphatic sound of the word in recitation.\",\"reason\":\"The article is attached to a sun-letter onset, making definiteness part of the recited surface.\",\"representative_source_ids\":[\"QP-824ed2b7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:sworn-intensive-expiation",
+      "source_type": "word_analysis",
+      "support_id": "sup_36f14d05a0d635398902",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"certain Form II covering\",\"reader_payoff\":\"The reader notices expiation as a sworn, intensive divine act rather than a loose wish for forgiveness.\",\"reason\":\"The form is an imperfect Form II with heavy energetic nūn under oath force.\",\"representative_source_ids\":[\"QG-bd5a6c69\",\"MG-b7fe8504\",\"QF-f5175cf0\",\"MF-9b8536ef\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:7:paired-oath-cadence",
+      "source_type": "word_analysis",
+      "support_id": "sup_38d1e4023b9ac3475012",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"paired opening beat\",\"reader_payoff\":\"The reader hears the first promise limb prepared for a matching second limb.\",\"reason\":\"The same emphatic particle appears at words 7 and 12 before the two energetic promise verbs.\",\"representative_source_ids\":[\"QP-38a48ac9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14:accusative-reward-measure",
+      "source_type": "word_analysis",
+      "support_id": "sup_39486c4f55daca5163a7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"excellence as reward content or metric\",\"reader_payoff\":\"The reader notices that excellence grammatically participates in what is given or in the respect by which reward is measured.\",\"reason\":\"The word is accusative after the recompense verb and functions as second object or specification.\",\"representative_source_ids\":[\"QG-453465fe\",\"QG-46e54626\",\"MG-13ab766f\",\"QF-37a5849a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14",
+      "source_type": "word_analysis",
+      "support_id": "sup_3d3634357a7d52849658",
+      "text": "{\"gloss_range\":\"accusative elative meaning the best or most excellent measure/content of recompense, selected from the following actual practice domain\",\"prose\":\"{{ar:أَحْسَنَ}} ({{tr:aḥsana}}) makes the reward peak-calibrated. Whether read as a second object or specification, its accusative elative form makes excellence the measure of recompense, and the following relative clause selects that best from what they actually used to do. It stands opposite the named harms: the bad is covered away, while the best becomes the reward standard. The same closing pledge wording also appears as a formula of peak-calibrated reward (16:97; 39:35).\",\"root_display\":\"{{ar:ح س ن}} ({{tr:ḥ-s-n}})\",\"root_gloss_range\":\"goodness, beauty, excellence, beneficence, and doing well; locally the elative form turns this field into a peak reward metric rather than a new verbal action\",\"surface_display\":\"{{ar:أَحْسَنَ}} ({{tr:aḥsana}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14:elative-peak-filter",
+      "source_type": "word_analysis",
+      "support_id": "sup_3dcaee5e25103c458eed",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"the best selected from practice\",\"reader_payoff\":\"The reader notices that the standard is the finest quality of their practice, not an average or undifferentiated total.\",\"reason\":\"The elative form creates a peak-quality scale that the following relative clause grounds in their action field.\",\"representative_source_ids\":[\"QS-2ed536ed\",\"QS-5e100281\",\"MS-78514de1\",\"QF-959e3389\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:final-action-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_41387ed27b17ebecaf71",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"ayah closes on human action\",\"reader_payoff\":\"The reader notices the divine promises enclosed by the human action frame that begins and ends the ayah.\",\"reason\":\"The final word returns to the action root after the two divine promise limbs.\",\"representative_source_ids\":[\"QT-67a71932\",\"MT-e2534787\",\"QE-57b30aba\",\"QY-9bc8e079\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/21",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:9:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_4286b3ad34c0a0bceea7",
+      "text": "{\"lemma_ar\":\"أَحْسَن\",\"morph_features\":\"STEM|POS:N|LEM:>aHosan|ROOT:Hsn|MS|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:7:9:1\",\"qac_word_ref\":\"29:7:9\",\"root_ar\":\"ح س ن\",\"surface_ar\":\"أَحْسَنَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/14",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:7:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_44b9da15cd8081ce712e",
+      "text": "{\"lemma_ar\":\"سَيِّـَٔات\",\"morph_features\":\"STEM|POS:N|LEM:say~i_#aAt|ROOT:swA|FP|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:7:7:1\",\"qac_word_ref\":\"29:7:7\",\"root_ar\":\"س و ء\",\"surface_ar\":\"سَيِّـَٔاتِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_480dd0ed81e167a4f792",
+      "text": "{\"gloss_range\":\"preposition of separation with 3mp pronoun, marking misdeeds as removed away from and for the benefit of the same qualified group\",\"prose\":\"{{ar:عَنْهُمْ}} ({{tr:ʿanhum}}) gives expiation its direction. The misdeeds are not only treated; they are covered away from the same qualified group, and the pronoun keeps those beneficiaries tied to the opening relative subject. Its nasal suffix also answers the possessive suffix in {{ar:سَيِّـَٔاتِهِمْ}} ({{tr:sayyiʾātihim}}), audibly binding the beneficiaries to the harms being removed. The preposition's separation force becomes mercy here.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:عَنْهُمْ}} ({{tr:ʿanhum}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:16:closure-preparation",
+      "source_type": "word_analysis",
+      "support_id": "sup_493ca3ea0b66dd3789d0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"auxiliary delays closure to final action\",\"reader_payoff\":\"The reader notices the ayah preparing the final action verb as the standard by which reward is measured.\",\"reason\":\"The auxiliary co-occurs with the action and excellence frame and postpones the completed idea until the final predicate.\",\"representative_source_ids\":[\"QI-a3df6bff\",\"QT-a22d5ed5\",\"QE-bac9ed6e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:3:faith-action-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_49cb9057d7c3e76931cb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"faith paired with restorative action\",\"reader_payoff\":\"The reader notices that the promise attaches to the full faith-and-deed formula, not to belief isolated from action.\",\"reason\":\"The verb is coordinated with the following action verb, and the recurrent formula links trust with restorative deeds in this surah and beyond.\",\"representative_source_ids\":[\"QG-af0584d2\",\"QI-5dfb0be5\",\"MI-f7d9e84a\",\"QE-f3a820b2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:12:renewed-reward-oath",
+      "source_type": "word_analysis",
+      "support_id": "sup_510f94d95463972fe916",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reward receives its own oath\",\"reader_payoff\":\"The reader notices that reward is separately sworn, not merely appended to expiation.\",\"reason\":\"The second emphatic particle is prefixed directly to the recompense verb.\",\"representative_source_ids\":[\"QG-4452ab46\",\"QS-7d253ed3\",\"QF-782cc9df\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13:formula-specialized-by-best",
+      "source_type": "word_analysis",
+      "support_id": "sup_51d1654c4028c1df273a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reward specialized by peak practice\",\"reader_payoff\":\"The reader notices that recompense is measured by the best quality inside sustained practice.\",\"reason\":\"The local sequence joins recompense, the elative best, and the habitual action clause into one reward standard.\",\"representative_source_ids\":[\"QI-4eb48572\",\"QI-6d156a59\",\"MT-4907e467\",\"QY-80f1f3b9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:15:definite-partitive-filter",
+      "source_type": "word_analysis",
+      "support_id": "sup_54edfaaced7cf41f3038",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"known field for best-selection\",\"reader_payoff\":\"The reader notices that the best is selected from an identifiable field of what they used to do.\",\"reason\":\"The definite relative specifies the scope of the preceding elative and opens the closing action clause.\",\"representative_source_ids\":[\"QG-a867ceba\",\"QG-de9cf219\",\"QT-a2a1ece3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_570a3357200716d5220e",
+      "text": "{\"gloss_range\":\"completed direct doing or producing of a definite restorative deed-category, forming the opening action side of the promise frame\",\"prose\":\"{{ar:عَمِلُوا۟}} ({{tr:ʿamilū}}) turns the qualification into enacted production: the believers did {{ar:ٱلصَّٰلِحَٰتِ}} ({{tr:al-ṣāliḥāti}}), not merely held a vague intention. Its perfect Form I gives completed direct doing, and the same phrase belongs to the surah's promise thread (29:9; 29:58). The same action root later returns in {{ar:يَعْمَلُونَ}} ({{tr:yaʿmalūna}}), so human action opens the condition and closes the reward measure.\",\"root_display\":\"{{ar:ع م ل}} ({{tr:ʿ-m-l}})\",\"root_gloss_range\":\"work, doing, production, performance, and practical output; the local Form I selects direct enactment rather than a derived causative or instrumental sense\",\"surface_display\":\"{{ar:عَمِلُوا۟}} ({{tr:ʿamilū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000244/B001",
+        "root_000244/B002",
+        "root_000244/B003",
+        "root_000318/B001",
+        "root_000348/B002",
+        "root_000661/B001",
+        "root_001046/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_type": "channel",
+      "support_id": "sup_57410565e943ffcb745f",
+      "text": "counting and accounting `quranic:root_000318:B001/m01`; reciprocal recompense for an act `quranic:root_000244:B001/m01`; one thing attempting to stand in for another `quranic:root_000244:B002/m01`; collection and discharge of debt `quranic:root_000244:B003/m01`; asking and claiming `quranic:root_000661:B001/m01`; judicial decision between parties `quranic:root_000348:B002/m01`; intentional work `quranic:root_001046:B001/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:11:additive-second-promise",
+      "source_type": "word_analysis",
+      "support_id": "sup_58abfc5372aaee6c66e0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reward added to expiation\",\"reader_payoff\":\"The reader notices that divine mercy is not only removal of harm but also added positive recompense.\",\"reason\":\"The conjunction joins the second oath clause to the first, creating a coordinated removal-plus-reward sequence.\",\"representative_source_ids\":[\"QG-c330a1e2\",\"QS-a2935952\",\"QF-b0c1cdad\",\"QT-537c5d28\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_59d81d63a25854ad56ce",
+      "text": "2. **Recompense is calibrated to the best enacted quality, not transferable slogans.** Lexical evidence: `لَنَجْزِيَنَّهُمْ`, root `ج ز ي`, `B001` (recompense matching an act); `أَحْسَنَ`, root `ح س ن`, `B002` (beneficent or skillful good action); and repeated `عَمِلُوا / يَعْمَلُونَ`, root `ع م ل`, `B001` (intentional doing). Structural cue: `29:12` will offer a false transfer of liabilities, whereas this ayah repeats the actors' own work around the recompense. Assigned role: intentional work is the matching unit; `أحسن` supplies the quality by which it is valued. Abductive move: I infer from the repeated agency and nearby failed guarantee that recompense tracks enacted ownership rather than claimed affiliation. Reading change: reward becomes a non-transferable matching response to the agent's best operative work.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_5b304c76cd58b9a19c3b",
+      "text": "{\"gloss_range\":\"coordinating connective that adds a second sworn divine act, escalating from removal of harms to positive reward\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) does not replace the first promise; it adds a second limb to it. The ayah moves from covering harms to rewarding the best, so the conjunction carries escalation inside a parallel two-part pledge.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:direct-divine-agency",
+      "source_type": "word_analysis",
+      "support_id": "sup_5c88261a4016baec3e5e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first-person pledged action\",\"reader_payoff\":\"The reader notices the move from theological principle into direct divine commitment and grace.\",\"reason\":\"The first-person plural prefix makes the promise direct speech after the preceding discourse frame.\",\"representative_source_ids\":[\"QF-acb94f21\",\"QB-4b40b095\",\"QB-d03da7a1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:action-inclusio",
+      "source_type": "word_analysis",
+      "support_id": "sup_60738f2930d2754d7177",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"action root opens and closes the ayah\",\"reader_payoff\":\"The reader notices that completed qualifying deeds at the opening are answered by habitual practice at the close.\",\"reason\":\"The same action root appears at word 5 in the perfect and at word 17 in the imperfect, framing the central divine promises.\",\"representative_source_ids\":[\"QT-30c88730\",\"MT-c2df1007\",\"QE-96c0e429\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/8",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:4:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_6205275ca132831e5c8f",
+      "text": "{\"lemma_ar\":\"صَّٰلِحَٰت\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|LEM:S~a`liHa`t|ROOT:SlH|FP|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:7:4:2\",\"qac_word_ref\":\"29:7:4\",\"root_ar\":\"ص ل ح\",\"surface_ar\":\"صَّٰلِحَٰتِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_type": "channel",
+      "support_id": "sup_66d0b4b9b087b070c36a",
+      "text": "ح س ب 29:2,4; ج ز ي 29:7; س ء ل 29:13; ح ك م 29:4; ع م ل 29:4,7-9.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10:surah-removal-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_67a63dcc9436ef377740",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bad deeds shift from commission to removal\",\"reader_payoff\":\"The reader notices that the same-surah badness field can appear as committed harm elsewhere (29:4; 29:33) but here becomes material for removal.\",\"reason\":\"The local occurrence is the object of expiation, contrasting with other same-surah judgment contexts (29:4; 29:33).\",\"representative_source_ids\":[\"MI-e143f423\",\"QE-2b48189c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:habitual-not-command",
+      "source_type": "word_analysis",
+      "support_id": "sup_6972d89af41dcd1b4a2a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"habitual practice under the auxiliary\",\"reader_payoff\":\"The reader notices the closing verb as evaluated sustained practice, not an imperative or one-time act.\",\"reason\":\"The indicative imperfect is the predicate under the auxiliary, giving continuous or habitual past force.\",\"representative_source_ids\":[\"QG-5b58fe4b\",\"QG-8b613366\",\"MG-ce19eb36\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:3:collective-verbalized-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_6a32c21a43b5dad5673f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural subject inside the verb\",\"reader_payoff\":\"The reader notices the believing group as active and positive before their later wrongs are named.\",\"reason\":\"The 3mp perfect form carries the collective subject and begins the class profile with trust before the expiation object appears.\",\"representative_source_ids\":[\"QF-7257949a\",\"QS-b4c2af12\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_6d218f9d3b889f51f425",
+      "text": "{\"gloss_range\":\"sworn Form II divine expiation: intensive covering or removing of misdeeds away from the believers, with direct first-person plural agency\",\"prose\":\"{{ar:نُكَفِّرَنَّ}} ({{tr:nukaffiranna}}) is the first sworn divine response. Form II and the heavy energetic ending make the covering thorough and certain, while {{ar:عَنْهُمْ سَيِّـَٔاتِهِمْ}} ({{tr:ʿanhum sayyiʾātihim}}) shows the mechanism: harmful acts are covered away from the very people who owned them. The root's disbelief branch remains a moral contrast, but the local verb selects merciful expiation, not accusation.\",\"root_display\":\"{{ar:ك ف ر}} ({{tr:k-f-r}})\",\"root_gloss_range\":\"covering, concealment, ingratitude, and disbelief; locally the Form II promise selects expiatory covering rather than charging with disbelief\",\"surface_display\":\"{{ar:نُكَفِّرَنَّ}} ({{tr:nukaffiranna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14:root-field-limited-to-measure",
+      "source_type": "word_analysis",
+      "support_id": "sup_6f005a695f1f3896a9fc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"goodness field as metric, not new action\",\"reader_payoff\":\"The reader notices the goodness and excellence field sharpening the reward standard while local form keeps it from becoming a separate verbal act.\",\"reason\":\"The root field supports excellence and goodness, but the local surface is an elative adjective in the recompense construction.\",\"representative_source_ids\":[\"QS-642d13ec\",\"QF-c0dbf196\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:9:pronoun-beneficiaries",
+      "source_type": "word_analysis",
+      "support_id": "sup_6f92b821607ef9424b3d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"pronoun returns to the qualified group\",\"reader_payoff\":\"The reader notices that the people from whom wrongs are removed are exactly the class defined at the beginning.\",\"reason\":\"The 3mp suffix resolves to the initial relative group and is bound to the separation preposition.\",\"representative_source_ids\":[\"QG-9f683277\",\"QF-23fdbd49\",\"QP-f6dc0640\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:7:first-oath-scope",
+      "source_type": "word_analysis",
+      "support_id": "sup_71383238ba9489a4f0b9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first sworn promise gate\",\"reader_payoff\":\"The reader notices that the covering clause is sworn and performative, not merely informative.\",\"reason\":\"The particle is prefixed to an energetic imperfect verb and scopes over the first promise clause.\",\"representative_source_ids\":[\"QG-a83ac53c\",\"QS-a9857bf7\",\"QF-71ec0958\",\"QI-cf942da9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10:object-with-accountability",
+      "source_type": "word_analysis",
+      "support_id": "sup_71b9740a72147b5cbad3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"owned harms become the object of covering\",\"reader_payoff\":\"The reader notices that responsibility is not erased even as the wrongs are made objects of divine removal.\",\"reason\":\"The noun is the direct object of the expiation verb and bears a 3mp possessive suffix.\",\"representative_source_ids\":[\"QG-aa1bba0c\",\"QG-b3192183\",\"QS-a83d6538\",\"MT-80da0707\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:paired-removal-before-reward",
+      "source_type": "word_analysis",
+      "support_id": "sup_7374bbab0b7c267fc119",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negative removal before positive reward\",\"reader_payoff\":\"The reader notices the ordered mercy: harms are dealt with before reward is added.\",\"reason\":\"The expiation verb is coordinated with the later recompense verb in parallel oath architecture.\",\"representative_source_ids\":[\"QI-cb3e419b\",\"QT-e5d9485e\",\"MT-cd18c15d\",\"QE-064d3ff2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13:second-limb-counterpart",
+      "source_type": "word_analysis",
+      "support_id": "sup_774c92369826e629ddbd",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"positive counterpart to expiation\",\"reader_payoff\":\"The reader notices the second limb as direct pledged generosity after the first limb removes harm.\",\"reason\":\"The recompense clause is coordinated with the expiation clause and continues the shift into direct divine speech.\",\"representative_source_ids\":[\"QT-0ff7b176\",\"QB-d69d0c09\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10:moral-poles",
+      "source_type": "word_analysis",
+      "support_id": "sup_7973e38bca971567a841",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"harm opposed to repair and excellence\",\"reader_payoff\":\"The reader notices the ordered contrast: repairs qualify, harms are covered, and the best becomes the reward measure.\",\"reason\":\"The word stands between the restorative deed category and the later elative best, forming the negative pole in the accounting frame.\",\"representative_source_ids\":[\"QS-f76a5f50\",\"MS-14ada22e\",\"MS-c6a8dfdc\",\"QI-590586f2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/18",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:3",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_7aebff155523f28b38b5",
+      "text": "{\"lemma_ar\":\"جَزَىٰ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:jazaY`|ROOT:jzy|1P\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:7:8:3\",\"qac_word_ref\":\"29:7:8\",\"root_ar\":\"ج ز ي\",\"surface_ar\":\"نَجْزِيَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_7d525c314cc69d01408e",
+      "text": "{\"gloss_range\":\"opening connective with resumptive and continuative force, launching a fresh promise while linking it to the prior frame\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) opens the ayah as a continuation that is also a fresh start. It reattaches the closed principle before it to a new pledged outcome, so the promise for the believing and acting group is not heard as an isolated maxim.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10:harm-root-and-plural",
+      "source_type": "word_analysis",
+      "support_id": "sup_7f2ed3d99d52e1c3f047",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural harmful outputs\",\"reader_payoff\":\"The reader notices the object as accumulated harmful output, not an abstract defect only.\",\"reason\":\"The root field carries badness and harm, while the feminine plural gathers multiple harmful outputs.\",\"representative_source_ids\":[\"QS-c7d3d964\",\"QF-50505c7e\",\"QF-912a5619\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:3:objectless-trust-commitment",
+      "source_type": "word_analysis",
+      "support_id": "sup_84b8f2064e960fc57cf0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"objectless Form IV trust\",\"reader_payoff\":\"The reader notices faith as a settled trust-commitment that identifies the class without needing a stated object here.\",\"reason\":\"Local grammar gives no explicit complement, so security-root pressure survives as trust-stability while transitive securing is not the selected local frame.\",\"representative_source_ids\":[\"QG-5d8de067\",\"QS-571ecea3\",\"QF-f79333d2\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_type": "channel",
+      "support_id": "sup_87b14680cff46947f390",
+      "text": "Pressure makes an inward quality externally legible by testing material, speech, and conduct.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:1:resumptive-continuation",
+      "source_type": "word_analysis",
+      "support_id": "sup_8bc53221109b0470af02",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"resumptive opening of the promise\",\"reader_payoff\":\"The reader notices that the ayah both continues the prior discussion and opens a new divine promise.\",\"reason\":\"The initial conjunction precedes the relative subject and attaches the promise clause to the preceding discourse while beginning the ayah's own pledge.\",\"representative_source_ids\":[\"QG-fd3cb004\",\"QS-7dc9c6ab\",\"QB-46cba2a7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:6:definite-plural-category",
+      "source_type": "word_analysis",
+      "support_id": "sup_8e69693cace6986819e8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"known plural deed-category\",\"reader_payoff\":\"The reader notices that the ayah presupposes a recognizable class of many qualifying deeds.\",\"reason\":\"The definite feminine plural form substantivizes multiple deeds as an identifiable object class.\",\"representative_source_ids\":[\"QG-805eac5c\",\"MG-89cfdbc9\",\"QF-0d13466e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:16:plural-subject-carried",
+      "source_type": "word_analysis",
+      "support_id": "sup_93fce8b6bd67e5040e15",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same group remains active\",\"reader_payoff\":\"The reader notices the believing-doing group still present in the closing clause through verb agreement.\",\"reason\":\"The 3mp suffix carries the subject without an explicit repeated noun.\",\"representative_source_ids\":[\"QG-4e1e5eee\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:covering-root-tension",
+      "source_type": "word_analysis",
+      "support_id": "sup_94ad0c929e44ec2a1462",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"covering root morally inverted\",\"reader_payoff\":\"The reader notices that the covering root becomes mercy here, even though the same root can name human concealment of truth elsewhere.\",\"reason\":\"The covering image supports expiation, while the local Form II and object frame block a reading of declaring unbelief.\",\"representative_source_ids\":[\"QS-46b4409d\",\"QS-743b5140\",\"QS-7c30b8f5\",\"MS-e3da71e8\",\"QF-7405e3b0\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_958c289c8ab8e71c7eae",
+      "text": "{\"gloss_range\":\"emphatic oath particle prefixed to the first energetic promise verb, marking the turn from qualification to sworn divine action\",\"prose\":\"{{ar:لَ}} ({{tr:la}}) is the hinge from human qualification into pledged divine action. Prefixed to the energetic verb, it makes the first promise grammatically sworn and begins the two-beat oath cadence that will be repeated in the reward clause.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَ}} ({{tr:la}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/2",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:2:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_980ce5842e3d44a56d75",
+      "text": "{\"lemma_ar\":\"ءَامَنَ\",\"morph_features\":\"STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:7:2:1\",\"qac_word_ref\":\"29:7:2\",\"root_ar\":\"ء م ن\",\"surface_ar\":\"ءَامَنُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_type": "channel",
+      "support_id": "sup_9c9b1886235126caea6a",
+      "text": "Metal or another material enters heat, changes visibly, and is judged by whether its solidity and promised performance survive.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:14:formulaic-closing-pledge",
+      "source_type": "word_analysis",
+      "support_id": "sup_9f60d6e1be1e7b3f6fe8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"formula links peak reward to habitual action\",\"reader_payoff\":\"The reader notices the closing phrase as a recurring pledge formula that ties reward to habitual action (16:97; 39:35).\",\"reason\":\"The word launches the relative specification phrase that recurs as a reward formula (16:97; 39:35).\",\"representative_source_ids\":[\"QI-9ecbfca0\",\"MI-15fe426a\",\"QT-1b46f39a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17",
+      "source_type": "word_analysis",
+      "support_id": "sup_a94ff1c1a2bf87897ba9",
+      "text": "{\"gloss_range\":\"indicative imperfect action verb under the auxiliary, closing the ayah on sustained human practice as the domain from which the best is rewarded\",\"prose\":\"{{ar:يَعْمَلُونَ}} ({{tr:yaʿmalūna}}) closes the ayah on human practice. Under the auxiliary it is habitual, not a new command, and it contrasts with the earlier perfect {{ar:عَمِلُوا۟}} ({{tr:ʿamilū}}): completed deeds qualify the group, while sustained doing supplies the field from which {{ar:أَحْسَنَ}} ({{tr:aḥsana}}) is selected. The central sworn divine acts are thus framed by human action at both ends, and the closing verb belongs to the surah's wider action-verdict network (29:4; 29:55).\",\"root_display\":\"{{ar:ع م ل}} ({{tr:ʿ-m-l}})\",\"root_gloss_range\":\"work, doing, production, performance, and practical output; locally the imperfect under the auxiliary expresses habitual practice rather than command\",\"surface_display\":\"{{ar:يَعْمَلُونَ}} ({{tr:yaʿmalūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13:sworn-recompense-form",
+      "source_type": "word_analysis",
+      "support_id": "sup_a981f5630894553833ee",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"certain recompense in one dense verb\",\"reader_payoff\":\"The reader notices recompense as grammatically certain and compressed with divine agency and recipient reference.\",\"reason\":\"The verb is imperfect Form I with heavy energetic nūn and a 3mp object suffix.\",\"representative_source_ids\":[\"QG-0de47504\",\"MG-69bb2b9a\",\"QF-04250aa3\",\"QP-97ce2db1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:6:moral-antithesis-and-thread",
+      "source_type": "word_analysis",
+      "support_id": "sup_accaf686f0765275f5fa",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"repair opposed to harm\",\"reader_payoff\":\"The reader notices the ayah's moral accounting: restorative deeds qualify, while harmful deeds are later covered away.\",\"reason\":\"The restorative object stands in local contrast with the later harmful plural, and the same root participates in the surah's promise network.\",\"representative_source_ids\":[\"QS-e88c577a\",\"QI-97e23110\",\"QE-89ff98e8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000244/B001",
+        "root_000323/B002",
+        "root_001046/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/1",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-2",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_ad239876c14f3c2e0661",
+      "text": "{\"anchors\":[[\"29:7:3\",\"root_001046\",[\"B001\"]],[\"29:7:8\",\"root_000244\",[\"B001\"]],[\"29:7:9\",\"root_000323\",[\"B002\"]],[\"29:7:12\",\"root_001046\",[\"B001\"]]],\"grade\":\"weak\",\"text\":\"Ödül, başkasına devredilebilen bir bağlılık sözüne değil, kişinin kendi yaptığı işin en iyi gerçekleşmiş niteliğine göre karşılık verir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_b47d3a3461636aaacc70",
+      "text": "{\"gloss_range\":\"coordinating connective joining faith and action as paired qualifications without collapsing either into the other\",\"prose\":\"This {{ar:وَ}} ({{tr:wa}}) keeps faith and action side by side. It does not make the second verb a mere explanation of the first; it lets the subject be defined by two coordinated qualifications before the promise begins.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:direct-objected-action",
+      "source_type": "word_analysis",
+      "support_id": "sup_b7f3072fa8f2115f472f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"completed action with a definite object\",\"reader_payoff\":\"The reader notices that the condition is concrete performed work directed to a known deed-category.\",\"reason\":\"The verb is perfect Form I and governs the following definite object.\",\"representative_source_ids\":[\"QG-f710e8ce\",\"MG-0c35c38d\",\"QF-e96c876a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/10",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_ba8a7d3708f7c19972ba",
+      "text": "{\"lemma_ar\":\"كَفَّرَ\",\"morph_features\":\"STEM|POS:V|IMPF|(II)|LEM:kaf~ara|ROOT:kfr|1P\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:7:5:2\",\"qac_word_ref\":\"29:7:5\",\"root_ar\":\"ك ف ر\",\"surface_ar\":\"نُكَفِّرَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:15",
+      "source_type": "word_analysis",
+      "support_id": "sup_bb3c1ff998b48333eb6d",
+      "text": "{\"gloss_range\":\"definite masculine singular relative pronoun that turns the following practice into one identifiable domain from which the best is selected\",\"prose\":\"{{ar:ٱلَّذِى}} ({{tr:alladhī}}) narrows the elative into a selected domain. Its singular form does not point back to the plural actors; it gathers what they did into one identifiable field so that the best can be chosen from actual practice.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:ٱلَّذِى}} ({{tr:alladhī}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:reward-action-network",
+      "source_type": "word_analysis",
+      "support_id": "sup_bc502b1a70512573a293",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"action tied to excellence and recompense\",\"reader_payoff\":\"The reader notices local human action as the field through which recompense and excellence are measured.\",\"reason\":\"The closing action verb is embedded in the local phrase that links recompense with the best of sustained practice.\",\"representative_source_ids\":[\"QI-af0708ef\",\"QE-31f22dcd\",\"QB-0bd653af\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_c0f9f1308280b28d0865",
+      "text": "Later ك ف ر scenes split the root sharply: mutual disavowal in 29:25 and covering a visible favor in 29:67 contrast with divine effacement here. Covering can imprison truth or release a person from past evil.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:4:faith-action-coordination",
+      "source_type": "word_analysis",
+      "support_id": "sup_c262af6bf6ee54ed53c8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"two-part qualification\",\"reader_payoff\":\"The reader notices that belief and restorative action remain distinct but joined conditions.\",\"reason\":\"The conjunction coordinates the two perfect verbs in the relative clause, preserving a paired threshold.\",\"representative_source_ids\":[\"QG-aa61e365\",\"QS-3fe98d17\",\"QT-2c49fc70\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13",
+      "source_type": "word_analysis",
+      "support_id": "sup_c4307ad101dcab1a0084",
+      "text": "{\"gloss_range\":\"sworn Form I divine recompense directed to the same plural recipients, with reward content specified by the following best-of-practice phrase\",\"prose\":\"{{ar:نَجْزِيَنَّهُمْ}} ({{tr:najziyannahum}}) is the second sworn divine verb, carrying certainty, divine agency, and the recipients in one form. The suffix keeps the same group in view, while the following phrase {{ar:أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ}} ({{tr:aḥsana alladhī kānū yaʿmalūna}}) makes the recompense positive and peak-calibrated. The root can cover reward or punishment, but this construction selects generous return, not reciprocal retaliation.\",\"root_display\":\"{{ar:ج ز ي}} ({{tr:j-z-y}})\",\"root_gloss_range\":\"recompense, return, requital, reward or penalty, and due payment; locally the following best measure selects positive recompense, not punishment or reciprocal retaliation\",\"surface_display\":\"{{ar:نَجْزِيَنَّهُمْ}} ({{tr:najziyannahum}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10:audible-break",
+      "source_type": "word_analysis",
+      "support_id": "sup_c4b658bfbe17ef65c423",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"glottal break at the harms\",\"reader_payoff\":\"The reader hears a catch at the named harms before the ayah moves on to reward.\",\"reason\":\"The hamza is part of the local surface of the plural noun.\",\"representative_source_ids\":[\"QP-e077303e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000852/B002",
+        "root_000852/B004",
+        "root_001040/B002",
+        "root_001128/B001",
+        "root_001128/B002",
+        "root_001307/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_type": "channel",
+      "support_id": "sup_cb39ed8f2a4a779712cf",
+      "text": "assaying metal and persons `quranic:root_001128:B001/m01`; burning and blackening by fire `quranic:root_001128:B002/m01`; material solidity and straightness `quranic:root_000852:B002/m01`; realization of promise in action `quranic:root_000852:B004/m01`; a distinguishing mark `quranic:root_001040:B002/m01`; a covering laid over what is beneath `quranic:root_001307:B001/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:13:positive-calibrated-return",
+      "source_type": "word_analysis",
+      "support_id": "sup_cb406f87d750271c318d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bidirectional root selected for reward\",\"reader_payoff\":\"The reader notices recompense as structured return, while the best-measure phrase fixes it as positive reward.\",\"reason\":\"The root's broader recompense range is narrowed by the following elative reward content, and the local Form I does not activate reciprocal-retaliatory Form III coloring.\",\"representative_source_ids\":[\"QS-47b7ccef\",\"QS-4afbf7f8\",\"MS-7d9cd95f\",\"QF-4090eba7\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_cde08c7fbe215535680e",
+      "text": "{\"gloss_range\":\"their plural harmful bad deeds, grammatically possessed by them yet made the object/patient of divine covering\",\"prose\":\"{{ar:سَيِّـَٔاتِهِمْ}} ({{tr:sayyiʾātihim}}) names exactly what the covering promise acts on. The plural and possessive suffix keep the harms attached to their agents, while the verb makes those owned wrongs the patient of divine treatment. Against the earlier restorative deeds and the later best measure, the word supplies the harmful pole of the ayah's moral accounting. Within the surah, the same badness field shifts from committed harms (29:4; 29:33) to material for removal here, and the hamza gives the named harms an audible catch.\",\"root_display\":\"{{ar:س و أ}} ({{tr:s-w-ʾ}})\",\"root_gloss_range\":\"badness, harm, ugliness, injury, distress, and morally damaging action; locally the plural noun names harmful outputs to be covered away\",\"surface_display\":\"{{ar:سَيِّـَٔاتِهِمْ}} ({{tr:sayyiʾātihim}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:12",
+      "source_type": "word_analysis",
+      "support_id": "sup_cef1557871283dbcd1ae",
+      "text": "{\"gloss_range\":\"second emphatic oath particle, separately pledging the recompense clause and mirroring the first promise limb\",\"prose\":\"The second {{ar:لَ}} ({{tr:la}}) renews the oath force for reward instead of letting recompense ride silently under the first pledge. Its repetition gives both divine acts the same emphatic gate while keeping their contents distinct.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَ}} ({{tr:la}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:collective-final-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_d00ce87914b3b89c928f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same collective agents at the close\",\"reader_payoff\":\"The reader notices the same plural group audible at the final word.\",\"reason\":\"The plural ending carries the collective subject in the closing verb.\",\"representative_source_ids\":[\"QF-0d50304a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:8:object-away-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_d1198cca3931d7eabf2f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"misdeeds covered away from them\",\"reader_payoff\":\"The reader notices both what is covered and the direction of removal away from the recipients.\",\"reason\":\"The verb governs the misdeeds as object and the prepositional phrase as the separation or beneficiary frame.\",\"representative_source_ids\":[\"QG-44d5ed08\",\"QS-78d6c53e\",\"QY-d382f69a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:9:separation-benefit",
+      "source_type": "word_analysis",
+      "support_id": "sup_d2322f61853d0dede059",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"away-from as mercy\",\"reader_payoff\":\"The reader notices expiation as directional distancing of wrongs away from the believers.\",\"reason\":\"The preposition is governed by the expiation verb and contributes separation and benefactive force.\",\"representative_source_ids\":[\"QG-47e21192\",\"QS-ac0d0d3f\",\"QB-fa7cdc2b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_type": "channel",
+      "support_id": "sup_d8606f16c1fd54b7c3b5",
+      "text": "The local language forms a settlement scene: deeds are counted, claims are heard, substitution is tested, and judgment answers intentional work. Recompense is thus the discharge of a properly attributed account, not a transferable slogan.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:15:singular-action-domain",
+      "source_type": "word_analysis",
+      "support_id": "sup_d8cface8e5bbe2928b34",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"deeds gathered into one domain\",\"reader_payoff\":\"The reader notices that the relative pronoun abstracts many deeds into a single action-domain, not into the actors themselves.\",\"reason\":\"The masculine singular relative pronoun follows the elative and introduces the deed-content clause.\",\"representative_source_ids\":[\"QG-17f87493\",\"QS-094e9e6c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_type": "channel",
+      "support_id": "sup_dccf973fa434c0c250a0",
+      "text": "ف ت ن 29:2-3,10; ص د ق 29:3; ع ل م 29:3,5-6,8,10-11; ك ف ر 29:7,12.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:work-root-production",
+      "source_type": "word_analysis",
+      "support_id": "sup_dd569768a4671969f3eb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"production without derived instrumental force\",\"reader_payoff\":\"The reader notices human contribution as purposeful output while the local form keeps the sense at direct doing.\",\"reason\":\"The root's production field fits the local deed object, but derived causative or putting-into-operation senses are not selected by the Form I surface.\",\"representative_source_ids\":[\"QS-04a33c5f\",\"QF-fcf5925c\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:2:boundary-group-shift",
+      "source_type": "word_analysis",
+      "support_id": "sup_dd817b8e283163009380",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"from singular striver to plural recipients\",\"reader_payoff\":\"The reader notices the discourse move from an earlier individual self-benefit frame into a plural group receiving divine action.\",\"reason\":\"The plural relative subject becomes the antecedent for later plural pronouns in the expiation and recompense clauses.\",\"representative_source_ids\":[\"QB-cf1a40cf\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:5:formula-and-surah-thread",
+      "source_type": "word_analysis",
+      "support_id": "sup_de2ae3bcad7adae90ef2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recognized faith-action-repair formula\",\"reader_payoff\":\"The reader notices the local wording as part of a recognized formula and same-surah promise thread (29:9; 29:58).\",\"reason\":\"The action verb is paired with trust and the restorative object locally, and the same phrase recurs in related promise contexts.\",\"representative_source_ids\":[\"MS-0206d7b3\",\"QI-47c8cb07\",\"QE-1fd762a4\",\"ME-29abbfb7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Fire-Assay and the Mark of Sound Material",
+      "source_type": "channel",
+      "support_id": "sup_e7895e8b83426e21a298",
+      "text": "Trial is not only adversity but an assay that separates sound from unsound material. Truth is both a hard, straight substance and a promise realized under stress, while knowledge reads the resulting mark through any attempted covering.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_type": "channel",
+      "support_id": "sup_e99404f04e364d0b4975",
+      "text": "An obligation remains attached to its actor as a load, guarantee, account, and claim until it is weighed and settled.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_ea16f9d83e46d7c6e66b",
+      "text": "{\"gloss_range\":\"definite masculine plural relative pronoun that builds the promised group through the following faith-action qualifications\",\"prose\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}}) makes the recipients an identified class before any promise is stated. Its predicate waits until the emphatic divine verb, so the subject is first filled out by believing and doing, not by tribe, name, or bare identity.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Account, Claim, and Final Discharge",
+      "source_type": "channel",
+      "support_id": "sup_eae42ae301e4c9419c38",
+      "text": "Conduct enters an account, a claimant asks for settlement, weight is assessed, and recompense answers the act.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_f0072ce66423a9327b3f",
+      "text": "{\"gloss_range\":\"completed Form IV trust-commitment that marks the class without an explicit local complement and is paired with enacted restorative deeds\",\"prose\":\"{{ar:ءَامَنُوا۟}} ({{tr:āmanū}}) names the class through completed trust-commitment before the promise arrives. Because no local object is stated, the word functions as an absolute qualification, and its force is immediately joined to {{ar:عَمِلُوا۟ ٱلصَّٰلِحَٰتِ}} ({{tr:ʿamilū al-ṣāliḥāti}}), making trust and restorative production a single recognized threshold. The security root remains felt, but the local Form IV does not make the word primarily a transitive act of securing others.\",\"root_display\":\"{{ar:أ م ن}} ({{tr:ʾ-m-n}})\",\"root_gloss_range\":\"security, trust, safety, faith, and entrusted reliability; the local Form IV selects entered trust-commitment rather than a transitive act of securing others\",\"surface_display\":\"{{ar:ءَامَنُوا۟}} ({{tr:āmanū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001307/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_f359f7696abd61ec980f",
+      "text": "1. **Protective covering that becomes effacement.** ك ف ر B001 is covering and concealment, while B009 is specifically “covering or effacing sin.” Faith and repaired action precede the promise to remove evils and reward by the best pattern of action. I infer that divine covering prevents prior evil from continuing to define the actor; the ayah reads as both concealment from consequence and active erasure of the harmful record.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:17:final-sound-landing",
+      "source_type": "word_analysis",
+      "support_id": "sup_f89a13d76463c17995e2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"sustained final nasal landing\",\"reader_payoff\":\"The reader hears the ayah land on the action root with an extended final cadence.\",\"reason\":\"The final surface ends with the long vowel and nasal consonant of the imperfect plural form.\",\"representative_source_ids\":[\"QP-a034c98d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:3:action-frame-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_fc7fa0733c116f559c11",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"action frame begins here\",\"reader_payoff\":\"The reader notices the action-root frame that will return at the ayah's close.\",\"reason\":\"The local sequence begins the human action frame that later returns in the final imperfect action verb.\",\"representative_source_ids\":[\"ME-011bad55\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:7:2:qualified-relative-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_fde8028b30e6fd6754b2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"qualified class before the promise\",\"reader_payoff\":\"The reader notices that the promise answers a class defined by actions, not a bare label.\",\"reason\":\"The relative pronoun begins the subject, and the predicate is supplied later by the promise clause after the qualifying verbs.\",\"representative_source_ids\":[\"QG-2cb212d1\",\"QG-a17adcb3\",\"QT-d17b77a1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    }
+  ]
+}

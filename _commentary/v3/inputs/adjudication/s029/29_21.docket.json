@@ -1,0 +1,2530 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": false,
+    "degraded_reasons": [
+      "quarantined_hft",
+      "incomplete_focus_root_branch_coverage"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication",
+      "Focus-root branch dictionaries are unavailable for root_000831 (ش ي ء); branch surprise coverage is incomplete"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dalın çekirdeği yalnızca bir duygu değil, acımanın yönelttiği esirgeme ve iyiliktir; karşılıklı ve kalıplaşmış kullanımlar bu çekirdeğin bağımsız anlamları değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000552/B001",
+          "gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "source_pointer": "/root_lexicon/root_000552/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bedensel organı değil ortak soydan doğan yakın ilişkiyi anlatır; bağı sürdürme ya da koparma eylemleri ancak ilgili kalıplarda bu çekirdeğe eklenir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000552/B002",
+          "gloss": "yakın soy bağı",
+          "source_pointer": "/root_lexicon/root_000552/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal sağlıklı bedensel organın kendisidir; içindeki yavruyu, soy bağını veya organın ağrı ve hastalık durumlarını adlandırmaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000552/B003",
+          "gloss": "döl yatağı",
+          "source_pointer": "/root_lexicon/root_000552/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sağlıklı organı veya genel beden ağrısını değil, döl yatağına özgü ağrı, hastalık, şişme ve doğum sonrası yavru zarını atamama durumlarını kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000552/B004",
+          "gloss": "döl yatağı hastalığı ve doğum sonrası bozukluk",
+          "source_pointer": "/root_lexicon/root_000552/dictionary_entry/branches/3",
+          "status": "reframed"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ر ح م"
+      ],
+      "root_ar": "ر ح م",
+      "root_id": "root_000552"
+    },
+    {
+      "branches": [],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
+      "root_ar": "ش ي ء",
+      "root_id": "root_000831"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek tat ve tüketim hoşluğudur; cezalandırma, yeme içmeden kesilme ve sudaki yabancı madde bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B001",
+          "gloss": "tatlı ve kolay tüketilen yiyecek ya da içecek",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal başkasını engellemekten değil, kişinin veya hayvanın fiilen yemeyip içmemesinden söz eder.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B002",
+          "gloss": "yemeden içmeden durma",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, tüketmeme halini değil bir hedefe yönelişin kesilmesini veya kestirilmesini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B003",
+          "gloss": "vazgeçme veya alıkoyma",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Genel çıplaklıktan daha dardır: belirleyici koşul, varlıkla gökyüzü arasındaki üst örtünün yokluğudur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B004",
+          "gloss": "gökyüzüne karşı örtüsüz",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek ağır acı çektirme veya cezadır; her güçlük kendiliğinden bu dala girmez ve bildirilen dayak kökeni tanımın şartı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B005",
+          "gloss": "ağır acı çektirme ve cezalandırma",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, bir şeyin ince ucu veya ona bağlı sarkan parçadır; su kirliliği, ceza ve hayvanın ayakları bu kapsama girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B006",
+          "gloss": "ince uç veya sarkan bağlı parça",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dalın öğeleri genel kök anlamı gibi genişletilmemeli, birbirinin yerine geçebilen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtta verilen biçim veya bağlam sınırı içinde tutulmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000994/B007",
+          "gloss": "yalıtık adlandırmalar",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal tat, su veya içim hoşluğu değil, kişinin iyi ve cömert karakterini bildirir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000994/B008",
+          "gloss": "iyi ve cömert huylu",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu kayıt genel kök anlamı gibi genişletilmemeli, içindeki öğeler birbirinin yerine geçen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtın verdiği adlandırma sınırı içinde kullanılmalıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000994/B009",
+          "gloss": "biçime bağlı adlandırmalar",
+          "source_pointer": "/root_lexicon/root_000994/dictionary_entry/branches/8",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
+      "root_ar": "ع ذ ب",
+      "root_id": "root_000994"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal nesneyi çevirme, kuyu, bilezik, yıldız adı ve yüreğe isabet ettirme fiilinden ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B001",
+          "gloss": "yürek ve iç merkez",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yürek organı, nesneyi çevirmek, kuyu ve takı anlamlarını kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001248/B002",
+          "gloss": "öz ve katışıksız seçkin kısım",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal dış yaprakları, genel ağaç gövdesini ve nesne çevirme fiilini kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B003",
+          "gloss": "hurma ağacının yumuşak iç sürgünü",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yürek organı, öz anlamı, kuyu ve akıbet anlamından ayrıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001248/B004",
+          "gloss": "çevirmek ve yönünü değiştirmek",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal el ile nesne çevirmeyi ve yürek organını kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001248/B005",
+          "gloss": "dönüş ve akıbet",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal nesne çevirmeyi, işleri düşünmeyi ve beden parçası adlarını kapsamaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001248/B006",
+          "gloss": "pişmanlıkla avuç çevirmek",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kurt adı, çevirme fiili, yürek organı ve takı anlamından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B007",
+          "gloss": "kaplanmamış kuyu",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yürek organı, beyaz yılan, yıldız adı ve biçim kabı anlamından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B008",
+          "gloss": "tek parça bilezik veya halka süs",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bilezik, yürek organı ve yıldız adı değildir; takı yalnızca benzetme kaynağıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B009",
+          "gloss": "takıya benzetilen beyaz yılan",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sadece yıldız veya ay konağı adıdır; organ, takı ve yılan dallarından ayrıdır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001248/B010",
+          "gloss": "Akrep'in Yüreği yıldızı",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yürek organı, yüreğe isabet ettirme fiili ve genel hastalık alanından daha sınırlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001248/B011",
+          "gloss": "yürekle ilişkili hastalık ve hastalık yokluğu kalıbı",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/10",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal genel çevirme, yürek organı ve ağız hareketleri anlamından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B012",
+          "gloss": "dudak dönüklüğü",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kuyu, yürek, takı ve hastalık anlamlarından ayrıdır; yerel kurt adı olarak sınırlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B013",
+          "gloss": "Yemen kullanımında kurt adı",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yürek, çevirme fiili ve kızaran ham hurma anlamından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001248/B014",
+          "gloss": "biçim verme kabı",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/13",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal biçim verme kabı, hurma ağacının iç sürgünü ve genel meyve adı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001248/B015",
+          "gloss": "kızarmış ham hurma",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/14",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yürek organı, yürek hastalığı ve genel vurma anlamından daha sınırlıdır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001248/B016",
+          "gloss": "yüreğinden vurmak",
+          "source_pointer": "/root_lexicon/root_001248/dictionary_entry/branches/15",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ق ل ب"
+      ],
+      "root_ar": "ق ل ب",
+      "root_id": "root_001248"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_923b2ceeec50e8e95404",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:10:closure-and-surah-return-thread",
+      "source_pointer": "/word_analysis/words/9/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1f13d62f0532339343b3",
+        "sup_c6538b59e5f7cb971bd2"
+      ],
+      "title": "closure and surah return thread",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dc809b0e05cde1e01973",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:10:phonetic-reversal-closure",
+      "source_pointer": "/word_analysis/words/9/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_39e2cc45295b7fb83f79",
+        "sup_c6538b59e5f7cb971bd2"
+      ],
+      "title": "phonetic reversal closure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_95c464ec28a27f65c337",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:10:qlb-overturning-return",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c6538b59e5f7cb971bd2",
+        "sup_c6989eddd5bc3300bdb4"
+      ],
+      "title": "overturning return",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_00d820a8eea269ac6cac",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:10:rare-passive-agency-contrast",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b8d28a3400ff41b910cc",
+        "sup_c6538b59e5f7cb971bd2"
+      ],
+      "title": "rare passive agency contrast",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bc9536ead1048619f100",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:10:second-person-passive-patienthood",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_806129731d4ef19a4f02",
+        "sup_c6538b59e5f7cb971bd2"
+      ],
+      "title": "second-person passive patienthood",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d3729bf438bc57b998fb",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:1:implicit-divine-agency-chain",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_60f60b8569813ef2309c",
+        "sup_c6555a05fd11857d1cff"
+      ],
+      "title": "implicit divine agency chain",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3f32afc1f66ba69bbf89",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:1:punishment-mercy-pair",
+      "source_pointer": "/word_analysis/words/0/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_98a1fb07a60bdf70fc53",
+        "sup_c6555a05fd11857d1cff"
+      ],
+      "title": "punishment-mercy pair",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a920f2f6dd79c1d8f39b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:1:punitive-form-and-root-pressure",
+      "source_pointer": "/word_analysis/words/0/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_45da0ce887cf9412e29d",
+        "sup_c6555a05fd11857d1cff"
+      ],
+      "title": "punitive form and root pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_db089d186ce2035ac8da",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:1:relative-will-object-frame",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6c4e26fef9592d99a59d",
+        "sup_c6555a05fd11857d1cff"
+      ],
+      "title": "relative-will object frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_68c5f51f7d7821c469c6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:2:open-relative-object-slot",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_81a6541da21a4b556fff",
+        "sup_ba053c1312455777fbd6"
+      ],
+      "title": "open relative object slot",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_660b357e03d60512afe5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:3:elided-will-determination",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_57fb158b0128997e618c",
+        "sup_e3252f06111ce34b1022"
+      ],
+      "title": "elided will determination",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_06e4bdf41ffe085bd475",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:3:same-agent-compact-clause",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_00687e596cb0e7e5cdda",
+        "sup_e3252f06111ce34b1022"
+      ],
+      "title": "same-agent compact clause",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_50f4b256fdb3040728a4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:3:thinghood-boundary-handoff",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_bfe7af6a193e7bd8beab",
+        "sup_e3252f06111ce34b1022"
+      ],
+      "title": "thinghood boundary handoff",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_461a43dfe81dfa8e2bde",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:3:will-refrain-and-formula",
+      "source_pointer": "/word_analysis/words/2/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_e3252f06111ce34b1022",
+        "sup_e69ec1211bcc0b93bc00"
+      ],
+      "title": "will refrain and formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b6c8604d21e8319d1188",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:4:equal-predicate-coordination",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_139eb2d52fdd291043db",
+        "sup_388257cddae726b42da2"
+      ],
+      "title": "equal predicate coordination",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_99d8933d3b632be2636d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:4:first-waw-symmetry-hinge",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_388257cddae726b42da2",
+        "sup_9bc311e8b3dcef6ceb8e"
+      ],
+      "title": "first waw symmetry hinge",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_515bd0e57ba48d875c5f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:5:active-mercy-and-enclosing-care",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_33bbf8dbe511c07a0b83",
+        "sup_4903ae454717ab161651"
+      ],
+      "title": "active mercy and enclosing care",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1335acb1c0df3cd999e7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:5:matched-mercy-pole",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4903ae454717ab161651",
+        "sup_8de36117c87dc4d6cfab"
+      ],
+      "title": "matched mercy pole",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a89351248e618b4bf9e4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:5:same-agent-same-object-frame",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_36f9b485799ba7b3d2fb",
+        "sup_4903ae454717ab161651"
+      ],
+      "title": "same agent same object frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_45b027618b49e4304f87",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:6:mirrored-mercy-recipient-slot",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_32227cb71e7f6ab35c02",
+        "sup_42537b006c058b81161a"
+      ],
+      "title": "mirrored mercy recipient slot",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_28ffe938175bb2cbf9e9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:6:nonexclusive-open-sets",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_42537b006c058b81161a",
+        "sup_e8aca3454e4195547df8"
+      ],
+      "title": "nonexclusive open sets",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_39f68dedcce653e1d395",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:7:formula-closure-before-pivot",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8bb2ade79407925d735a",
+        "sup_91a808ace33e8aec132f"
+      ],
+      "title": "formula closure before pivot",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d29b8b44a3c4f11e2a8a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:7:one-will-governs-both-outcomes",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8bb2ade79407925d735a",
+        "sup_cc214914157b1ae381fc"
+      ],
+      "title": "one will governs both outcomes",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_03592201ff056f03b495",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:7:parallel-elision-and-aspect",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_00a01e99f637ef88da47",
+        "sup_8bb2ade79407925d735a"
+      ],
+      "title": "parallel elision and aspect",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b5641df4c8ed591a5b34",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:8:noncausal-endpoint-first-link",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_17f64f00bab544cd38cd",
+        "sup_9461afac12dc2d0e7054"
+      ],
+      "title": "noncausal endpoint-first link",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_867e993e18aba9198e92",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:8:return-clause-pivot",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_17f64f00bab544cd38cd",
+        "sup_5a3c6299fcf7a16b4e90"
+      ],
+      "title": "return clause pivot",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e1d76b6fbf9a8ceef3f4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:9:bound-direction-and-soft-transition",
+      "source_pointer": "/word_analysis/words/8/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_71d505ebc8af02268b96",
+        "sup_b0972b777c715fa3b536"
+      ],
+      "title": "bound direction and soft transition",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_632c14c8fd4cad1a73dd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:9:fronted-directional-endpoint",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_71d505ebc8af02268b96",
+        "sup_ec3defbe91f92f8deec0"
+      ],
+      "title": "fronted directional endpoint",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9cc61ba2cc833990f7f7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:21:9:same-referent-endpoint",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3cb89cf5f9abf0cb9f4c",
+        "sup_71d505ebc8af02268b96"
+      ],
+      "title": "same referent endpoint",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:17",
+        "29:19",
+        "29:20",
+        "29:21"
+      ],
+      "branch_refs": [
+        "root_000090/B002",
+        "root_000544/B001",
+        "root_001058/B001",
+        "root_001058/B002",
+        "root_001248/B004",
+        "root_001248/B005",
+        "root_001502/B008"
+      ],
+      "candidate_id": "cand_e13ab6b3da82e7baa960",
+      "focus_branch_refs": [
+        "root_001248/B004",
+        "root_001248/B005"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000090/B002",
+        "root_000544/B001",
+        "root_001058/B001",
+        "root_001058/B002",
+        "root_001502/B008"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_16a1b7a2fcc69cdd746a",
+        "sup_3dd1004056306d4222c5",
+        "sup_9dbfd3dc9911b8d1e73a",
+        "sup_ad9af8aba321abd39ad9",
+        "sup_c6a15acbfb5c01841efe"
+      ],
+      "title": "Reversal, Return, and Renewed Emergence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ec8b876e88b3e82d8a3d",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000994"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:21:1:1",
+      "source_pointer": "/qac_morphemes/0",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_fd77e7c2254ffe4e6236"
+      ],
+      "title": "QAC root occurrence: ع ذ ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dc4483576c51c7764cd6",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000831"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:21:3:1",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_37af0c81135f7fed47f3"
+      ],
+      "title": "QAC root occurrence: ش ي ء",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_fc1952c688ef710b9a8d",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000552"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:21:4:2",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_e0f56683b104b0bbb4e3"
+      ],
+      "title": "QAC root occurrence: ر ح م",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3a62a7aedaf8cc9a80f8",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001248"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:21:8:1",
+      "source_pointer": "/qac_morphemes/10",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_3cad51988d20cc913130"
+      ],
+      "title": "QAC root occurrence: ق ل ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21:1",
+        "29:21:4",
+        "29:21:8"
+      ],
+      "branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004",
+        "root_001248/B005"
+      ],
+      "candidate_id": "cand_cc3d47511a87ae8597f4",
+      "focus_branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004",
+        "root_001248/B005"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_7b73522f65a1cbb7a2d5"
+      ],
+      "title": "Dönüş, kişinin kendi yönünde ilerlemeyi sürdürmesi değil, merhamet ve azabın sahibi tarafından yönünün bütünüyle çevrilip son varışa teslim edilmesidir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21"
+      ],
+      "branch_refs": [
+        "root_001248/B004"
+      ],
+      "candidate_id": "cand_8efba183bc899a53ceca",
+      "focus_branch_refs": [
+        "root_001248/B004"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_5d03061d01f6d29d0a76"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_62b067106f76b237b2b4",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_4a9e5a31f05c1a276eec"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21"
+      ],
+      "branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004"
+      ],
+      "candidate_id": "cand_199f3ae7e2cc16d1a39c",
+      "focus_branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_411a6f63a4b29e2c9f86"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6646e4d3a1ab945e4177",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_ede76c58d268a9f1f5ed"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:21"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_860d9ae7afdc89988ec1",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_43a0d6b37ab47a167e0f"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 55,
+    "by_disposition": {
+      "docket_mandatory": 30,
+      "docket_optional": 10,
+      "parse_failed": 12,
+      "quarantined": 3
+    },
+    "by_source_type": {
+      "channel": 1,
+      "cross_run_publication": 1,
+      "hft": 15,
+      "qac_morpheme": 4,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 29
+    },
+    "discovered_seed_count": 55,
+    "docket_candidate_count": 40,
+    "mandatory_candidate_count": 30,
+    "optional_candidate_count": 10,
+    "selection_eligible_candidate_count": 31,
+    "selection_ineligible_candidate_count": 9
+  },
+  "focus": {
+    "arabic_uthmani": "يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "عَذَّبَ",
+        "morph_features": "STEM|POS:V|IMPF|(II)|LEM:Ea*~aba|ROOT:E*b|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:21:1:1",
+        "qac_word_ref": "29:21:1",
+        "root_ar": "ع ذ ب",
+        "surface_ar": "يُعَذِّبُ"
+      },
+      {
+        "lemma_ar": "مَن",
+        "morph_features": "STEM|POS:REL|LEM:man",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:21:2:1",
+        "qac_word_ref": "29:21:2",
+        "root_ar": "",
+        "surface_ar": "مَن"
+      },
+      {
+        "lemma_ar": "شَآءَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:$aA^'a|ROOT:$yA|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:21:3:1",
+        "qac_word_ref": "29:21:3",
+        "root_ar": "ش ي ء",
+        "surface_ar": "يَشَآءُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:21:4:1",
+        "qac_word_ref": "29:21:4",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "رَّحِمَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:r~aHima|ROOT:rHm|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:21:4:2",
+        "qac_word_ref": "29:21:4",
+        "root_ar": "ر ح م",
+        "surface_ar": "يَرْحَمُ"
+      },
+      {
+        "lemma_ar": "مَن",
+        "morph_features": "STEM|POS:REL|LEM:man",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:21:5:1",
+        "qac_word_ref": "29:21:5",
+        "root_ar": "",
+        "surface_ar": "مَن"
+      },
+      {
+        "lemma_ar": "شَآءَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:$aA^'a|ROOT:$yA|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:21:6:1",
+        "qac_word_ref": "29:21:6",
+        "root_ar": "ش ي ء",
+        "surface_ar": "يَشَآءُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:21:7:1",
+        "qac_word_ref": "29:21:7",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "إِلَىٰ",
+        "morph_features": "STEM|POS:P|LEM:<ilaY`",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:21:7:2",
+        "qac_word_ref": "29:21:7",
+        "root_ar": "",
+        "surface_ar": "إِلَيْ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:21:7:3",
+        "qac_word_ref": "29:21:7",
+        "root_ar": "",
+        "surface_ar": "هِ"
+      },
+      {
+        "lemma_ar": "تُقْلَبُ",
+        "morph_features": "STEM|POS:V|IMPF|PASS|LEM:tuqolabu|ROOT:qlb|2MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:21:8:1",
+        "qac_word_ref": "29:21:8",
+        "root_ar": "ق ل ب",
+        "surface_ar": "تُقْلَبُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:2MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:21:8:2",
+        "qac_word_ref": "29:21:8",
+        "root_ar": "",
+        "surface_ar": "ونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:21:1:1"
+      ],
+      [
+        "29:21:2:1"
+      ],
+      [
+        "29:21:3:1"
+      ],
+      [
+        "29:21:4:1"
+      ],
+      [
+        "29:21:4:2"
+      ],
+      [
+        "29:21:5:1"
+      ],
+      [
+        "29:21:6:1"
+      ],
+      [
+        "29:21:7:1"
+      ],
+      [
+        "29:21:7:2",
+        "29:21:7:3"
+      ],
+      [
+        "29:21:8:1",
+        "29:21:8:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:21:1",
+      "29:21:2",
+      "29:21:3",
+      "29:21:4",
+      "29:21:5",
+      "29:21:6",
+      "29:21:7",
+      "29:21:8",
+      "29:21:9",
+      "29:21:10"
+    ]
+  },
+  "focus_root_mappings": {
+    "ر ح م": [
+      "root_000552"
+    ],
+    "ش ي ء": [
+      "root_000831"
+    ],
+    "ع ذ ب": [
+      "root_000994"
+    ],
+    "ق ل ب": [
+      "root_001248"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:21",
+    "docket_payload_sha256": "fda90a22ff3d03e8e002319f892cb65d5538d0c10f1cb2f9d5d55b27a74cf5bb",
+    "source_canonical_sha256": "11e2851c2e11d123b97768cd2b97943e7c15c677c8f011865a5711926d991837"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000090/B002",
+      "image_ar": "البدء مع العود والإعادة",
+      "image_en": "beginning paired with return",
+      "root_ar": "ب د ء",
+      "scope_ar": "إقران الابتداء بالعود أو الإعادة في الفعل أو الخلق أو الكلام",
+      "scope_en": "pairing beginning with return or repetition in action, creation, or speech",
+      "source_file": "v4/outputs/pass2_branches/root_000090.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/4/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000544/B001",
+      "image_ar": "العود والرد إلى ما كان",
+      "image_en": "Return or sending back",
+      "root_ar": "ر ج ع",
+      "scope_ar": "يدخل فيه رجوع الشيء بنفسه ورد غيره وإعادته إلى جهة أو حال ابتدأ منها.",
+      "scope_en": "This covers intransitive return and causing something else to return to a prior place, owner, or state.",
+      "source_file": "v4/outputs/pass2_branches/root_000544.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/1/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001058/B001",
+      "image_ar": "رجوع بعد انصراف وتثنية بعد بدء",
+      "image_en": "returning after departure and doing again",
+      "root_ar": "ع و د",
+      "scope_ar": "يدخل فيه عاد ورجع، والعودة، والعود بعد البدء، والمعاودة، والإعادة، واستعادة الشيء، وتعاود القوم، وعودة الحمى والمسألة، وصيغة عواد وعد، والعوادة من الطعام المعاد.",
+      "scope_en": "This covers returning, coming back, doing again after beginning, repetition, asking for a second performance, mutual return, recurrence of fever or questioning, the command form عواد, and returned food.",
+      "source_file": "v4/outputs/pass2_branches/root_001058.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001058/B002",
+      "image_ar": "مصير ومرجع ومعاد",
+      "image_en": "destination and place or time of return",
+      "root_ar": "ع و د",
+      "scope_ar": "يدخل فيه المعاد بمعنى المصير والمرجع، والزمان أو المكان الذي يعود إليه، ومعاد الحاج، ومعاد مكة أو الآخرة والجنة في نقل المصادر.",
+      "scope_en": "This covers معاد as destination, return-place, return-time, the pilgrim's return, and reported return destinations such as Mecca, the afterlife, or paradise.",
+      "source_file": "v4/outputs/pass2_branches/root_001058.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001502/B008",
+      "image_ar": "الإقبال والنهوض والمجيء",
+      "image_en": "setting out, coming, or turning toward",
+      "root_ar": "ن ش ء",
+      "scope_ar": "يدخل فيه أنشأ بمعنى أقبل، ومن أين أنشأت بمعنى من أين جئت، وتنشأ إلى حاجته إذا نهض ومشى إليها، وما ورد في إقبال السفن وإدبارها.",
+      "scope_en": "Includes coming from somewhere, turning toward, setting out for a need, and the ship reading tied to coming and going.",
+      "source_file": "v4/outputs/pass2_branches/root_001502.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/6/branches/0/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": false,
+      "focus_root_count": 4,
+      "mapped_root_record_count": 4,
+      "missing_dictionary_roots": [
+        {
+          "qac_roots_ar": [
+            "ش ي ء"
+          ],
+          "reason": "dictionary_entry is explicitly null in the source bundle",
+          "root_ar": "ش ي ء",
+          "root_id": "root_000831"
+        }
+      ],
+      "registered_branch_count": 29
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 14,
+      "ayah_to": 27,
+      "id": "s029-p02-014-027",
+      "label": "Noah and Abraham",
+      "number": 2,
+      "refs": [
+        "29:14",
+        "29:15",
+        "29:16",
+        "29:17",
+        "29:18",
+        "29:19",
+        "29:20",
+        "29:21",
+        "29:22",
+        "29:23",
+        "29:24",
+        "29:25",
+        "29:26",
+        "29:27"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:3:same-agent-compact-clause",
+      "source_type": "word_analysis",
+      "support_id": "sup_00687e596cb0e7e5cdda",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same-agent compact clause\",\"reader_payoff\":\"The reader sees that the punisher and the willer are not two agents; the compact morphology keeps one referent governing both actions.\",\"reason\":\"Both verbs carry 3ms subject morphology without introducing a new overt subject.\",\"representative_source_ids\":[\"QG-59e01b81\",\"QG-7e570c70\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:7:parallel-elision-and-aspect",
+      "source_type": "word_analysis",
+      "support_id": "sup_00a01e99f637ef88da47",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"parallel elision and aspect\",\"reader_payoff\":\"The reader notices that the wording withholds the content of willing in both halves and keeps both clauses open and repeatable.\",\"reason\":\"The repeated imperfect form preserves the same aspectual profile, and no explicit object such as reason, measure, or timing is supplied.\",\"representative_source_ids\":[\"QG-c5be9a89\",\"MG-27249a04\",\"QF-fef89cb4\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:4:equal-predicate-coordination",
+      "source_type": "word_analysis",
+      "support_id": "sup_139eb2d52fdd291043db",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"equal predicate coordination\",\"reader_payoff\":\"The reader sees punishment and mercy joined as parallel divine acts, not as an adversative contrast or temporal sequence.\",\"reason\":\"Attachment evidence marks {{ar:يَرْحَمُ}} ({{tr:yarḥamu}}) as coordinated with {{ar:يُعَذِّبُ}} ({{tr:yuʿadhdhibu}}), supporting the CRITICAL coordination claim.\",\"representative_source_ids\":[\"QG-03317761\",\"MG-bd035485\",\"QT-7770f804\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_type": "channel",
+      "support_id": "sup_16a1b7a2fcc69cdd746a",
+      "text": "Re-creation is not a second unrelated manufacture but a controlled reversal of an existing trajectory. The object is turned, reaches its return-point, and rises into a renewed emergence.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_17f64f00bab544cd38cd",
+      "text": "{\"gloss_range\":\"connector opening the final return clause; can coordinate with the prior pair while functioning as a discourse pivot\",\"prose\":\"The second {{ar:وَ}} ({{tr:wa}}) is not doing the same job as the first. It keeps the return clause grammatically tied to the punishment-mercy pair, but it also resumes with a new predication: {{ar:إِلَيْهِ تُقْلَبُونَ}} ({{tr:ilayhi tuqlabūna}}). Because the clause begins with {{ar:وَ}} ({{tr:wa}}) rather than a causal marker, the return is presented as a grounding pivot, not a narrowly sequenced result. The connector attaches directly to the fronted destination phrase, so the final beat lands first on Him before the passive reversal appears; its short lead-in also delays the heavier reversal verb until the close.\",\"root_display\":\"— (no root)\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10:closure-and-surah-return-thread",
+      "source_type": "word_analysis",
+      "support_id": "sup_1f13d62f0532339343b3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closure and surah return thread\",\"reader_payoff\":\"The reader hears the final word resolve the punishment-mercy pair by turning the addressed audience toward the same endpoint.\",\"reason\":\"The verb is the final word of the ayah, follows the fronted endpoint, and is contrasted by CRITICAL rows with the plainer return vocabulary at 29:57.\",\"representative_source_ids\":[\"QT-7c1f7581\",\"QE-3ff20f1b\",\"QY-7c649c3c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:6:mirrored-mercy-recipient-slot",
+      "source_type": "word_analysis",
+      "support_id": "sup_32227cb71e7f6ab35c02",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"mirrored mercy recipient slot\",\"reader_payoff\":\"The reader notices that mercy receives the same open whoever-slot as punishment, preserving grammatical parity.\",\"reason\":\"Attachment evidence makes the second {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) the object expression of {{ar:يَرْحَمُ}} ({{tr:yarḥamu}}), matching the first clause.\",\"representative_source_ids\":[\"QG-c8905eda\",\"QT-16b882ca\",\"QE-fc4f744b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:5:active-mercy-and-enclosing-care",
+      "source_type": "word_analysis",
+      "support_id": "sup_33bbf8dbe511c07a0b83",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"active mercy and enclosing care\",\"reader_payoff\":\"The reader feels mercy as active protective care while the womb branch remains a resonance explaining enclosure, not a replacement sense.\",\"reason\":\"V4 distinguishes mercy, kinship, and womb branches; the local finite verb selects showing mercy, while the womb-field rows survive as narrowed imagery of enclosing care.\",\"representative_source_ids\":[\"QS-8d6af8c9\",\"QS-b57eb007\",\"QF-53deb0f8\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:5:same-agent-same-object-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_36f9b485799ba7b3d2fb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same agent same object frame\",\"reader_payoff\":\"The reader notices that mercy is governed by the same hidden agent and the same open will-clause as punishment.\",\"reason\":\"Attachment evidence makes {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) the object expression of the mercy verb, and the verb carries 3ms subject morphology.\",\"representative_source_ids\":[\"QG-82fe784c\",\"QG-eac6332a\",\"QI-71670c59\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/2",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:21:3:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_37af0c81135f7fed47f3",
+      "text": "{\"lemma_ar\":\"شَآءَ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:$aA^'a|ROOT:$yA|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:21:3:1\",\"qac_word_ref\":\"29:21:3\",\"root_ar\":\"ش ي ء\",\"surface_ar\":\"يَشَآءُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_388257cddae726b42da2",
+      "text": "{\"gloss_range\":\"coordinating conjunction joining the mercy predicate to the punishment predicate as an equal parallel beat\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) does not make mercy a later correction to punishment; it coordinates the two predicates as matched acts in one frame. The short connector resets the cadence after the first {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) and binds {{ar:يَرْحَمُ}} ({{tr:yarḥamu}}) to the same pattern. Its payoff also depends on contrast with the second {{ar:وَ}} ({{tr:wa}}): word 4 builds symmetry, while word 8 will pivot from the balanced pair into return.\",\"root_display\":\"— (no root)\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10:phonetic-reversal-closure",
+      "source_type": "word_analysis",
+      "support_id": "sup_39e2cc45295b7fb83f79",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"phonetic reversal closure\",\"reader_payoff\":\"The reader hears the cadence move from the repeated will ending to a heavier addressed closure with the reversal root.\",\"reason\":\"The phonetic rows are not independent semantics, but they coherently support the final-word cadence and root-texture payoff.\",\"representative_source_ids\":[\"QP-42db9355\",\"QP-e7970404\",\"MP-b2f472e8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/10",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:21:8:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_3cad51988d20cc913130",
+      "text": "{\"lemma_ar\":\"تُقْلَبُ\",\"morph_features\":\"STEM|POS:V|IMPF|PASS|LEM:tuqolabu|ROOT:qlb|2MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:21:8:1\",\"qac_word_ref\":\"29:21:8\",\"root_ar\":\"ق ل ب\",\"surface_ar\":\"تُقْلَبُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:9:same-referent-endpoint",
+      "source_type": "word_analysis",
+      "support_id": "sup_3cb89cf5f9abf0cb9f4c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same referent endpoint\",\"reader_payoff\":\"The reader sees that the one who governs punishment and mercy is also the destination toward whom the addressees are turned.\",\"reason\":\"The pronoun suffix is resolved by attachment evidence to the divine agent encoded in the preceding verbs.\",\"representative_source_ids\":[\"QG-570b35b1\",\"MS-dd791ec6\",\"QY-536186aa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_type": "channel",
+      "support_id": "sup_3dd1004056306d4222c5",
+      "text": "Making proceeds through prior measure and first construction, then proves its power by turning the made thing back into renewed existence.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_411a6f63a4b29e2c9f86",
+      "text": "1. **Two allocated conditions terminate in a forced reversal.** Lexical evidence: `يُعَذِّبُ`, root `ع ذ ب`, `B005` (torment and punishment); `يَرْحَمُ`, root `ر ح م`, `B001` (mercy and tenderness); and `تُقْلَبُون`, root `ق ل ب`, `B004` (turning and reversing) with `B005` (return and destination). Structural cue: punishment and mercy are grammatically balanced, then both subjects are gathered into the one passive reversal; `29:22-25` show failed escape, despair, rescue, and alliances reversing into disavowal. Assigned role: punishment and mercy are distinct assigned conditions; reversal removes the subjects from their present orientation. Abductive move: the packet does not specify the intermediate causal route, so I infer only that divine allocation controls the direction of the final turn. Reading change: `تقلبون` reads as being decisively reoriented and returned, not voluntary turning.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_42537b006c058b81161a",
+      "text": "{\"gloss_range\":\"repeated headless relative whoever, filling the mercy-recipient slot under the same will frame\",\"prose\":\"The second {{ar:مَنْ}} ({{tr:man}}) mirrors the first open object slot. Mercy is not grammatically given a narrower doorway than punishment: the same relative form leaves its recipients unnamed until {{ar:يَشَاءُ}} ({{tr:yashāʾu}}) completes the clause. Because the two whoever-slots are formally identical, the wording itself does not force the two sets to be mutually exclusive.\",\"root_display\":\"— (no root)\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مَنْ}} ({{tr:man}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_43a0d6b37ab47a167e0f",
+      "text": "- **Later activation (`29:55`, `29:58`):** Punishment covering from above and below is later countered by prepared upper chambers with rivers beneath. These opposed vertical habitats give `تُقْلَبُون` a fuller force: reversal reallocates the same spatial axes into radically different experienced conditions.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:1:punitive-form-and-root-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_45da0ce887cf9412e29d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"punitive form and root pressure\",\"reader_payoff\":\"The reader hears punishment as an imposed pressured act while keeping the fresh-sweet branch as background contrast, not as the local meaning.\",\"reason\":\"V4 separates a punishment branch from the fresh-sweet branch; the local finite verb selects punishment, so sweetness and corrective-pressure rows survive only as narrowed lexical resonance.\",\"representative_source_ids\":[\"QS-f6126a22\",\"QF-92af34c4\",\"QS-4434fdc5\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_4903ae454717ab161651",
+      "text": "{\"gloss_range\":\"he shows mercy, compassion, clemency, and restorative care; locally an active verb with the same open will-governed object frame as punishment\",\"prose\":\"{{ar:يَرْحَمُ}} ({{tr:yarḥamu}}) repeats the same agent chain and the same open object construction as the punishment verb: mercy also takes {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}). Its positive payoff is not just softness; the verb makes mercy an enacted divine disposition, selected under will and placed at the same syntactic rank as punishment. The {{ar:ر ح م}} ({{tr:r-ḥ-m}}) family allows enclosing-care resonance through the womb branch, but local grammar keeps the selected sense at showing mercy rather than kinship or biology. The same-surah contrast with despair of mercy at 29:23 makes this verbal act part of a local mercy thread.\",\"root_display\":\"{{ar:ر ح م}} ({{tr:r-ḥ-m}})\",\"root_gloss_range\":\"mercy and tenderness are locally active; womb and kinship branches provide narrowed enclosing-care resonance, not the local referential sense\",\"surface_display\":\"{{ar:يَرْحَمُ}} ({{tr:yarḥamu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_4a9e5a31f05c1a276eec",
+      "text": "29:57's “then to us you are returned” makes the passive turning universal and locates death inside it. The reversal is not exceptional punishment but the destination-structure governing every self.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:3:elided-will-determination",
+      "source_type": "word_analysis",
+      "support_id": "sup_57fb158b0128997e618c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"elided will determination\",\"reader_payoff\":\"The reader notices that divine willing determines the open object while its content remains unstated and therefore not reduced to one named rationale.\",\"reason\":\"Attachment evidence treats {{ar:مَنْ}} ({{tr:man}}) as the object of the will verb, while the CRITICAL rows correctly observe that no separate content of willing is named.\",\"representative_source_ids\":[\"QG-5004333b\",\"QS-685bb33b\",\"QF-eec2690c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:8:return-clause-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_5a3c6299fcf7a16b4e90",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"return clause pivot\",\"reader_payoff\":\"The reader hears the ayah turn from balanced divine acts into direct human consequence at this connector.\",\"reason\":\"Attachment evidence links the final clause by coordination, while CRITICAL rows coherently preserve the additional resumptive or pivot function.\",\"representative_source_ids\":[\"QG-28987dc6\",\"QS-a2992b69\",\"MT-8dacb4dc\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001248/B004"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_5d03061d01f6d29d0a76",
+      "text": "1. **Return as a full reversal of orientation.** ق ل ب B004 is turning and reversing; B005 is return and destination. Punishment and mercy stand before the passive “you are turned,” making the destination the authority that disposes both outcomes. I infer that creatures do not merely continue forward into judgment but undergo a reversal from self-directed motion to received disposition; return reads as being turned over to the one whose will governs the result.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:1:implicit-divine-agency-chain",
+      "source_type": "word_analysis",
+      "support_id": "sup_60f60b8569813ef2309c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"implicit divine agency chain\",\"reader_payoff\":\"The reader notices that the ayah begins with divine action carried by verb morphology and closes by returning to the same referent as endpoint.\",\"reason\":\"The local verb has 3ms active morphology with no overt subject, and the pronoun in {{ar:إِلَيْهِ}} ({{tr:ilayhi}}) is linked by attachment evidence to the same divine referent.\",\"representative_source_ids\":[\"QG-2441d6b2\",\"QG-543d18f3\",\"QY-d60b5408\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:1:relative-will-object-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_6c4e26fef9592d99a59d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"relative-will object frame\",\"reader_payoff\":\"The reader sees that the punished object is an open whoever-slot governed by will, not a named social category.\",\"reason\":\"Attachment evidence makes {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) the object expression of the opening verb, preserving the CRITICAL claim that the object is clause-shaped.\",\"representative_source_ids\":[\"QG-316c1268\",\"QI-f975f5aa\",\"QB-1b213798\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_71d505ebc8af02268b96",
+      "text": "{\"gloss_range\":\"fronted directional prepositional phrase, to Him, supplying the endpoint of the passive reversal\",\"prose\":\"{{ar:إِلَيْهِ}} ({{tr:ilayhi}}) brings the destination before the verb. The preposition marks motion toward a terminus, and the suffix points back to the same divine referent who punishes and shows mercy. Because the governed direction is fronted before {{ar:تُقْلَبُونَ}} ({{tr:tuqlabūna}}), the reader meets the endpoint before the overturning process; the return is directed to Him, not merely described as movement or possession. The bound preposition-plus-suffix also fuses direction with pronominal reference in a softer transition before the heavier reversal verb.\",\"root_display\":\"— (no root)\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِلَيْهِ}} ({{tr:ilayhi}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000552/B001",
+        "root_000994/B005",
+        "root_001248/B004",
+        "root_001248/B005"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_7b73522f65a1cbb7a2d5",
+      "text": "{\"anchors\":[[\"29:21:1\",\"root_000994\",[\"B005\"]],[\"29:21:4\",\"root_000552\",[\"B001\"]],[\"29:21:8\",\"root_001248\",[\"B004\",\"B005\"]]],\"grade\":\"strong\",\"text\":\"Dönüş, kişinin kendi yönünde ilerlemeyi sürdürmesi değil, merhamet ve azabın sahibi tarafından yönünün bütünüyle çevrilip son varışa teslim edilmesidir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10:second-person-passive-patienthood",
+      "source_type": "word_analysis",
+      "support_id": "sup_806129731d4ef19a4f02",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second-person passive patienthood\",\"reader_payoff\":\"The reader feels the doctrine turn into direct address: you are grammatically present, but as the patient of the return.\",\"reason\":\"QAC and attachment evidence mark the verb as 2mp passive with a suppressed agent and no active object.\",\"representative_source_ids\":[\"QG-197a8b3c\",\"QG-a40601f3\",\"QG-ce9413a3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:2:open-relative-object-slot",
+      "source_type": "word_analysis",
+      "support_id": "sup_81a6541da21a4b556fff",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"open relative object slot\",\"reader_payoff\":\"The reader notices that the wording refuses to name a fixed punished class and instead leaves the object open under will.\",\"reason\":\"The relative pronoun is licensed as the object expression inside {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}), and the second occurrence at word 6 repeats the same construction.\",\"representative_source_ids\":[\"QG-e6297bdf\",\"QS-996c3777\",\"QP-c4adbfb1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_8bb2ade79407925d735a",
+      "text": "{\"gloss_range\":\"he wills or determines; second identical imperfect will verb closing the mercy half\",\"prose\":\"The second {{ar:يَشَاءُ}} ({{tr:yashāʾu}}) repeats the first in person, aspect, voice, and object omission. That exactness matters: mercy is selected by the same will lexeme as punishment, not released from the will frame as an automatic overflow. The repetition closes the paired {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) formula and, with its final hamza, gives the mercy half a sharp boundary before the ayah pivots into direct address.\",\"root_display\":\"{{ar:ش ي أ}} ({{tr:sh-y-ʾ}})\",\"root_gloss_range\":\"will, choice, determination, and thinghood-family resonance from the 29:20 boundary; no V4 guardrail root rows were available for this root\",\"surface_display\":\"{{ar:يَشَاءُ}} ({{tr:yashāʾu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:5:matched-mercy-pole",
+      "source_type": "word_analysis",
+      "support_id": "sup_8de36117c87dc4d6cfab",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"matched mercy pole\",\"reader_payoff\":\"The reader sees mercy as the equal second pole of the opening binary, not as an exception appended to punishment.\",\"reason\":\"The coordinated predicate is structurally parallel to punishment, and the same mercy root returns in the local surah thread at 29:23.\",\"representative_source_ids\":[\"QS-c1e4a7dc\",\"QT-b1f6cbf4\",\"QE-c9047139\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:7:formula-closure-before-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_91a808ace33e8aec132f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"formula closure before pivot\",\"reader_payoff\":\"The reader hears the mercy half close cleanly before the discourse turns from third-person acts to second-person return.\",\"reason\":\"The exact verbal reprise completes the second {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) unit; the 29:20 boundary claim remains a coherent same-root handoff but is not expanded by V4.\",\"representative_source_ids\":[\"QE-52bf0241\",\"QP-87c2b03d\",\"QE-3b3c450b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:8:noncausal-endpoint-first-link",
+      "source_type": "word_analysis",
+      "support_id": "sup_9461afac12dc2d0e7054",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"noncausal endpoint-first link\",\"reader_payoff\":\"The reader notices that the final clause is opened as an endpoint-first grounding statement rather than as a simple causal aftereffect.\",\"reason\":\"The connector precedes the fronted {{ar:إِلَيْهِ}} ({{tr:ilayhi}}) phrase, and no causal particle is present.\",\"representative_source_ids\":[\"QG-2dbbb388\",\"QF-ad1a5ca2\",\"QP-3437164a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:1:punishment-mercy-pair",
+      "source_type": "word_analysis",
+      "support_id": "sup_98a1fb07a60bdf70fc53",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"punishment-mercy pair\",\"reader_payoff\":\"The reader recognizes the opening verb as one pole of a balanced divine prerogative pair rather than an isolated threat.\",\"reason\":\"The grammar coordinates the punishment and mercy predicates, and the CRITICAL formula rows cite the same pairing pattern in 2:284, 3:129, 5:40, and 48:14.\",\"representative_source_ids\":[\"QS-bebba888\",\"QT-88643f11\",\"MI-4db23086\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:4:first-waw-symmetry-hinge",
+      "source_type": "word_analysis",
+      "support_id": "sup_9bc311e8b3dcef6ceb8e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first waw symmetry hinge\",\"reader_payoff\":\"The reader hears this connector as the hinge that creates the matched second beat before the later connector changes the discourse function.\",\"reason\":\"Word 4 links equal verbal units, whereas word 8 introduces the return clause after the balanced pair.\",\"representative_source_ids\":[\"QT-43d122fe\",\"MT-6d2c95bd\",\"QP-f63d771d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_type": "channel",
+      "support_id": "sup_9dbfd3dc9911b8d1e73a",
+      "text": "A completed form is turned, sent back toward its point of return, and made to emerge again.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_type": "channel",
+      "support_id": "sup_ad9af8aba321abd39ad9",
+      "text": "ب د ء 29:19-20; ع و د 29:19; ق ل ب 29:21; ر ج ع 29:17; ن ش ء 29:20.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:9:bound-direction-and-soft-transition",
+      "source_type": "word_analysis",
+      "support_id": "sup_b0972b777c715fa3b536",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bound direction and soft transition\",\"reader_payoff\":\"The reader hears direction and referent arrive as one compact bound form before the heavier reversal verb.\",\"reason\":\"{{ar:إِلَيْهِ}} ({{tr:ilayhi}}) combines preposition and suffix in one surface word, and the phonetic row adds a local cadence payoff without changing the syntax.\",\"representative_source_ids\":[\"QF-43ad7f65\",\"QP-e889054e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10:rare-passive-agency-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_b8d28a3400ff41b910cc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"rare passive agency contrast\",\"reader_payoff\":\"The reader sees the final form as a marked passive reversal, especially against active self-turning language such as 3:144.\",\"reason\":\"Contextual profiles show the local passive form as low-occurrence, and the CRITICAL contrast with 3:144 preserves the active-versus-passive agency payoff.\",\"representative_source_ids\":[\"MF-5fe10a1f\",\"QI-f86d13a8\",\"MI-2a4d01cf\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_ba053c1312455777fbd6",
+      "text": "{\"gloss_range\":\"headless relative whoever, filling the object slot of punishment and awaiting determination by the following will verb\",\"prose\":\"{{ar:مَنْ}} ({{tr:man}}) supplies the punished object without naming a group. It opens a whoever-slot whose membership is settled only when {{ar:يَشَاءُ}} ({{tr:yashāʾu}}) arrives, and it also creates the exact recipient template repeated in the mercy half. Even its short nasal cadence helps bind the pronoun to the following will verb as one governed unit.\",\"root_display\":\"— (no root)\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مَنْ}} ({{tr:man}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:3:thinghood-boundary-handoff",
+      "source_type": "word_analysis",
+      "support_id": "sup_bfe7af6a193e7bd8beab",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"thinghood boundary handoff\",\"reader_payoff\":\"The reader notices a movement from power over every thing in 29:20 to the verb of willing that apportions outcomes in 29:21.\",\"reason\":\"The root is missing from V4, so the claim is not independently expanded; the boundary row remains coherent because 29:20 supplies the concrete same-root contrast.\",\"representative_source_ids\":[\"QS-e08ed2e9\",\"MS-c16ccad8\",\"QE-db89fdeb\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_c6538b59e5f7cb971bd2",
+      "text": "{\"gloss_range\":\"you are passively turned, overturned, or returned toward Him; locally a second-person plural passive with a fronted directional complement\",\"prose\":\"{{ar:تُقْلَبُونَ}} ({{tr:tuqlabūna}}) closes the ayah by changing the grammar from what He does to what happens to you. The 2mp marking puts the audience inside the word, but passive voice makes that subject a patient: the addressees are turned, not self-returning agents. The {{ar:ق ل ب}} ({{tr:q-l-b}}) root makes return feel like reversal or overturning rather than plain going back, while the heart, fluctuation, and outcome fields are narrowed to resonance because the local passive verb selects turning toward the fronted endpoint. Its rarity as a passive return form, its contrast with active self-turning at 3:144, and its same-surah contrast with plainer return at 29:57 all sharpen the closing payoff: the balanced will clauses end in imposed directed return. After the repeated open hamza cadence of {{ar:يَشَاءُ}} ({{tr:yashāʾu}}), the stop-heavy q-l-b texture gives the last word an abrupt overturning close.\",\"root_display\":\"{{ar:ق ل ب}} ({{tr:q-l-b}})\",\"root_gloss_range\":\"root range includes heart and inward faculty, pure core, turning and reversing, return and destination, regret, and other concrete branches; local sense selects passive turning or return, while heart and fluctuation branches survive only as narrowed resonance\",\"surface_display\":\"{{ar:تُقْلَبُونَ}} ({{tr:tuqlabūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_c6555a05fd11857d1cff",
+      "text": "{\"gloss_range\":\"he punishes or subjects to chastising pressure; locally governed by an open relative-will object clause\",\"prose\":\"{{ar:يُعَذِّبُ}} ({{tr:yuʿadhdhibu}}) opens with the act before any divine name is repeated: the 3ms verb carries the agent internally and sends that same referent forward through the ayah. Its object is not a named class but {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}), so punishment is framed as adjudication through will. The doubled punitive surface makes the act feel imposed and pressured, while the broader {{ar:ع ذ ب}} ({{tr:ʿ-dh-b}}) field is narrowed here to punishment; the corrective-pressure row and the faint fresh-water counter-image sharpen the lexical reversal without becoming the local sense. The word also establishes the first half of the punishment-mercy pair, later echoed in this surah when the same root becomes explicit torment language at 29:23.\",\"root_display\":\"{{ar:ع ذ ب}} ({{tr:ʿ-dh-b}})\",\"root_gloss_range\":\"root range includes torment and punishment, corrective pressure, withholding, and a separate fresh-sweet branch; the local verb selects punitive action while some root-family pressure survives only as resonance\",\"surface_display\":\"{{ar:يُعَذِّبُ}} ({{tr:yuʿadhdhibu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:10:qlb-overturning-return",
+      "source_type": "word_analysis",
+      "support_id": "sup_c6989eddd5bc3300bdb4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"overturning return\",\"reader_payoff\":\"The reader notices that the return is worded as being turned over or redirected, not as neutral movement back.\",\"reason\":\"V4 supports turning and return branches for {{ar:ق ل ب}} ({{tr:q-l-b}}); heart, fluctuation, and outcome fields are retained as narrowed resonance because the local passive verb and {{ar:إِلَيْهِ}} ({{tr:ilayhi}}) select directed return.\",\"representative_source_ids\":[\"QS-dc10192a\",\"QS-5659d0df\",\"MS-c7464be0\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000090/B002",
+        "root_000544/B001",
+        "root_001058/B001",
+        "root_001058/B002",
+        "root_001248/B004",
+        "root_001248/B005",
+        "root_001502/B008"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Reversal, Return, and Renewed Emergence",
+      "source_type": "channel",
+      "support_id": "sup_c6a15acbfb5c01841efe",
+      "text": "beginning paired with repetition `quranic:root_000090:B002/m01`; return after departure `quranic:root_001058:B001/m01`; destination of return `quranic:root_001058:B002/m01`; turning a thing from one face to another `quranic:root_001248:B004/m01`; final destination or outcome `quranic:root_001248:B005/m01`; return to an earlier state `quranic:root_000544:B001/m01`; rising and coming forward `quranic:root_001502:B008/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:7:one-will-governs-both-outcomes",
+      "source_type": "word_analysis",
+      "support_id": "sup_cc214914157b1ae381fc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one will governs both outcomes\",\"reader_payoff\":\"The reader hears one continuous divine will governing both opposed outcomes in identical grammatical form.\",\"reason\":\"The second will verb has the same 3ms imperfect active form as the first and is attached to the second open relative object clause.\",\"representative_source_ids\":[\"QG-4a6c7268\",\"QS-571ed7e8\",\"ME-fd1ac7a0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/4",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:21:4:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_e0f56683b104b0bbb4e3",
+      "text": "{\"lemma_ar\":\"رَّحِمَ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:r~aHima|ROOT:rHm|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:21:4:2\",\"qac_word_ref\":\"29:21:4\",\"root_ar\":\"ر ح م\",\"surface_ar\":\"يَرْحَمُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_e3252f06111ce34b1022",
+      "text": "{\"gloss_range\":\"he wills, determines, or chooses; locally an imperfect will verb governing the open relative object\",\"prose\":\"{{ar:يَشَاءُ}} ({{tr:yashāʾu}}) completes the first open relative clause by making divine will the determining frame. The verb's object content remains unstated, so the phrase does not specify reason, timing, or measure; it leaves the prerogative wider than the immediate punishment act. Its 3ms subject is the same referent as {{ar:يُعَذِّبُ}} ({{tr:yuʿadhdhibu}}), and its imperfect form keeps the selection open and repeatable. Because the same form will recur after mercy, this first occurrence also starts the will-refrain that locks both outcomes into identical frames. Because 29:20 has just spoken of every thing, the {{ar:ش ي أ}} ({{tr:sh-y-ʾ}}) family also carries a narrowed boundary payoff: universal thing-scope becomes concrete willing in 29:21.\",\"root_display\":\"{{ar:ش ي أ}} ({{tr:sh-y-ʾ}})\",\"root_gloss_range\":\"will, choice, determination, and the thinghood family signaled by the neighboring ayah; no V4 guardrail root rows were available for this root\",\"surface_display\":\"{{ar:يَشَاءُ}} ({{tr:yashāʾu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:3:will-refrain-and-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_e69ec1211bcc0b93bc00",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"will refrain and formula\",\"reader_payoff\":\"The reader hears the will verb as the refrain that will govern both punishment and mercy in identical form.\",\"reason\":\"The first will verb closes the first {{ar:مَنْ يَشَاءُ}} ({{tr:man yashāʾu}}) unit before the conjunction and is exactly repeated at word 7.\",\"representative_source_ids\":[\"QI-78193287\",\"MT-62c0e57c\",\"QE-b68ead1e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:6:nonexclusive-open-sets",
+      "source_type": "word_analysis",
+      "support_id": "sup_e8aca3454e4195547df8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"nonexclusive open sets\",\"reader_payoff\":\"The reader avoids importing a rigid separation between punished and mercy-receiving people where the repeated grammar itself leaves the relation open.\",\"reason\":\"The repeated relative form permits openness but does not itself prove overlap in any particular case, so the claim is preserved with a scope limit.\",\"representative_source_ids\":[\"QS-7b1ff1e7\",\"MS-eff01b6a\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:21:9:fronted-directional-endpoint",
+      "source_type": "word_analysis",
+      "support_id": "sup_ec3defbe91f92f8deec0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fronted directional endpoint\",\"reader_payoff\":\"The reader notices that the endpoint arrives before the reversal verb, so destination governs the final beat from its first word.\",\"reason\":\"Attachment evidence makes {{ar:إِلَيْهِ}} ({{tr:ilayhi}}) the destination complement of {{ar:تُقْلَبُونَ}} ({{tr:tuqlabūna}}), and its position before the verb supports the fronting payoff.\",\"representative_source_ids\":[\"QG-32c67a24\",\"MG-9ed732c1\",\"QT-2e826fc1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_ede76c58d268a9f1f5ed",
+      "text": "2. **Repeated willing is the symmetrical hinge of the contrast.** Lexical evidence: both `يَشَاء` occurrences use root `ش ي ء`, packet branch `B001`, whose accepted variants include both a knowable thing and willing. Structural cue: exactly the same relative construction follows punishment and mercy. Assigned role: the willing variant supplies the common agency governing unlike outcomes; the repetition prevents either outcome from being detached from that agency. Abductive move: I use the packet's variant scope specifically, without importing the “thing” image into the verb. Reading change: the ayah's polarity is sharpened as deliberate allocation rather than two independent forces.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/0",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:21:1:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_fd77e7c2254ffe4e6236",
+      "text": "{\"lemma_ar\":\"عَذَّبَ\",\"morph_features\":\"STEM|POS:V|IMPF|(II)|LEM:Ea*~aba|ROOT:E*b|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:21:1:1\",\"qac_word_ref\":\"29:21:1\",\"root_ar\":\"ع ذ ب\",\"surface_ar\":\"يُعَذِّبُ\"}",
+      "trust": "trusted"
+    }
+  ]
+}

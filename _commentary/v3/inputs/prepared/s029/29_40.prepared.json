@@ -1,13 +1,13 @@
 {
   "artifacts": {
     "docket": "inputs/adjudication/s029/29_40.docket.json",
-    "docket_payload_sha256": "1dfcb1e2b340c6bbc131f5510d33ed2e552a73636956a49e2e4857c06a40890f",
+    "docket_payload_sha256": "c57320697505d5d0850e40e743b5f7e438da7736b0ce6c3fb0e22cae2b92af34",
     "prepared": "inputs/prepared/s029/29_40.prepared.json",
     "source_bundle": "inputs/source/s029/29_40.bundle.json"
   },
   "budget": {
     "branch_count": 119,
-    "docket_bytes": 297462,
+    "docket_bytes": 297461,
     "estimated_tokens_chars_div_4": 74366,
     "nominated_branch_count": 9,
     "support_count": 196
@@ -1747,9 +1747,9 @@
     "ayah_ref": "29:40",
     "source": {
       "ayah_ref": "29:40",
-      "canonical_sha256": "37e9c1fcd6ad03e09ee4662173383e73edd2e8bd5443d6d082d503ce28a137a5",
+      "canonical_sha256": "63a49c4a64f5c871448c23da4de81c567b49bd45a22c8789c46cbef02f94f355",
       "path": "inputs/source/s029/29_40.bundle.json",
-      "raw_sha256": "e2f1da00f7cadfea5fa9d552bf436fdcad6bb84b7fc602b0edafd928dbc6749b",
+      "raw_sha256": "30c076f0235ea4ab3be3363ba51ca53973763476180359a8784dbadecf35bd2a",
       "schema_version": "input-bundle-v3"
     }
   },
@@ -1761,7 +1761,7 @@
     "degraded_reasons": [
       "quarantined_hft"
     ],
-    "incomplete_branch_coverage_authorized": false,
+    "incomplete_branch_coverage_authorized": true,
     "mode": "quarantine_without_hft",
     "ready": true,
     "warnings": [
@@ -1770,7 +1770,7 @@
   },
   "schema_version": "commentary-v3-prepared-v1",
   "scope_audit": {
-    "allow_incomplete_branch_coverage": false,
+    "allow_incomplete_branch_coverage": true,
     "allow_legacy_hft_response": false,
     "hft": {
       "adjudicable": false,

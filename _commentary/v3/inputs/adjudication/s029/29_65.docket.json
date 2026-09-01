@@ -1,0 +1,4451 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dal, tapınma eylemi ile bundan türeyen tapınılan veya tapınılır kılınan varlık anlamlarını kapsar; şaşkınlık, yoğun üzüntü ve salt özel ad kullanımları bu sınırın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B001",
+          "gloss": "tapınma ve tapınılan varlık",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, özel ad ile bu ada bağlı seslenme, dilek, şaşma ve ant biçimleriyle sınırlıdır; herhangi bir tapınılan varlığı gösteren genel ad anlamına genişletilmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B002",
+          "gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/1",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء ل ه"
+      ],
+      "root_ar": "ء ل ه",
+      "root_id": "root_000047"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Genel doğruluk çekirdeği ile yemin, ziyaret ve satışa bağlı özel kullanımlar ayrı tutulmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000104/B001",
+          "gloss": "sözü ve işi doğrulukla yerine getirme",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal geniş kapsamlı ahlaki iyiliği anlatır; akrabalığa, yemine ya da tek bir ibadet biçimine özgü değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000104/B002",
+          "gloss": "inanç ve davranışta geniş kapsamlı iyilik",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam belirli bir anne baba veya yakınlık ilişkisine bağlıdır; genel ve ilişkisiz iyilik bu dala girmez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000104/B003",
+          "gloss": "ana babaya ve yakınlara sevgiyle iyilik etme",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Ses ve gürültülü konuşma çekirdektir; tartışmalı atasözü yalnız yapıya bağlı bir kaynak çeşitlemesi olarak tutulur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000104/B004",
+          "gloss": "gürültülü seslenme ve gevezelik",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Çekirdek denize karşıt kara alanıdır; çöl ve karadan yolculuk bunun bağımlı uzantılarıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000104/B005",
+          "gloss": "denizin karşıtı olan kara",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek tahıl türü olarak buğdaydır; tane, yemek ve ürün bolluğu biçimleri buna bağlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000104/B006",
+          "gloss": "buğday",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal ağaç ya da kişi adı değil, misvak ağacının ve benzer ağaçların meyvesidir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000104/B007",
+          "gloss": "misvak ağacının meyvesi ve benzer çöl ağaçlarının olgun meyvesi",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Üstün gelme ve yenme çekirdektir; yarış atı betimi yalnız kendine özgü yapı içinde geçerlidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000104/B008",
+          "gloss": "üstün gelmek ve yenmek",
+          "source_pointer": "/root_lexicon/root_000104/dictionary_entry/branches/7",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ب ر ر"
+      ],
+      "root_ar": "ب ر ر",
+      "root_id": "root_000104"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, önceki bir karışanın giderilmesini gerektirir; kurtulma, ulaşma, dinsel yöneliş ve özel yiyecek adları bu çıplak anlamın parçası değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B001",
+          "gloss": "arındırıp durultma",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Önceden bir bağa, tuzağa ya da engelleyici duruma takılmış olma önemlidir; sıradan hareket, genel arınma ve bir hedefe ulaşma bu dalı oluşturmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B002",
+          "gloss": "takıldığı bağdan kurtulma",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu anlam yalnızca verilen yönelme yapısına bağlıdır; yalın köke genel ulaşma anlamı yüklenemez ve tuzaktan kurtulma ile karıştırılamaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000430/B003",
+          "gloss": "hedefe ulaşıp varma",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dalın çekirdeği başkalarının ortaklığını dışlayan özgülemedir; maddi arınma, dinsel yöneliş ve içten dostluk kendi dallarında kalır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B004",
+          "gloss": "özgüleme ve başkalarından ayrılma",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, inanç ve kulluk niyetinin yalnız Tanrı'ya yönelmesiyle sınırlıdır; dünyevi özgüleme, seçilmiş kişi olma ve genel maddi arınma bu anlam değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B005",
+          "gloss": "inancı yalnız Tanrı'ya yöneltme",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, seçilip yalnız bir tarafa ayrılan kişileri anlatan özel biçimle sınırlıdır; dinsel içtenlik, maddi arınma ve genel özgüleme tek başına yeterli değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000430/B006",
+          "gloss": "Tanrı'nın kişileri seçip kendine ayırması",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kişiler arasındaki içten sevgi ve özel yakınlıkla sınırlıdır; nesne özgüleme, dinsel yöneliş ve maddi duruluk bu anlamın parçası değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B007",
+          "gloss": "içten dostluk ve özel yakınlık",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, tarihsel yiyecek hazırlama adlarından oluşan bir kümedir; genel arıtma anlamına veya bütün yağ ve süt ürünlerine genişletilemez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000430/B008",
+          "gloss": "geleneksel yağ ayırma, kalıntı ve hurma şurubu adları",
+          "source_pointer": "/root_lexicon/root_000430/dictionary_entry/branches/7",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "خ ل ص"
+      ],
+      "root_ar": "خ ل ص",
+      "root_id": "root_000430"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek fiziksel itmedir; sertlik ve azarlama bazı kullanımları daraltır, doldurma veya seslenme anlamları bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000477/B001",
+          "gloss": "itme",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Ayırıcı özellik yalnızca doluluk değil, kabı hareket ettirerek kapasitesini kullanma veya içeriği sıkıştırma sürecidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000477/B002",
+          "gloss": "sallayarak doldurma",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal sıradan yüksek ses değil, çobanın özellikle keçi veya küçükbaş sürüyü çağırmak ya da yönlendirmek için kullandığı sestir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000477/B003",
+          "gloss": "hayvanı seslenerek yönlendirme",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam tökezleyen muhataba söylenen kalıpla sınırlıdır; genel ayağa kalkma, yardım etme veya teselli etme anlamına genişletilmez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000477/B004",
+          "gloss": "tökezleyeni ayağa kalkmaya çağırma",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Yavaşlık ve kıvrımlı ilerleyiş birlikte kurucudur; sıradan koşu, ağır yürüyüş veya yorgunluktan sendeleme bu dala girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000477/B005",
+          "gloss": "kıvrılarak yavaş koşma",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kısa boylu erkek kişiyi adlandırır; biçimin kökeni ve bağımsızlığı belirsiz olduğu için genel kısalık anlamına genişletilmez.",
+          "branch_kind": "unresolved",
+          "branch_ref": "root_000477/B006",
+          "gloss": "kısa boylu adam",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal hurmaların seyrekliği veya iki hurma arasındaki açıklıkla sınırlıdır; küçük hurma, toplu hurmalık ya da genel ağaçlık anlamına gelmez.",
+          "branch_kind": "unresolved",
+          "branch_ref": "root_000477/B007",
+          "gloss": "iki hurma arasındaki açıklık veya seyrek hurmalar",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal herhangi bir sulak alanı veya genel yemi değil, yazın su barındıran ve sığırların yediği belirli bir bitkiyi anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000477/B008",
+          "gloss": "yazın su barındıran, sığırların yediği bitki",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek küçük yaştaki çocuklar veya bağımlılardır; yetişkin aile üyeleri, hizmetliler ve genel hane halkı kendiliğinden kapsanmaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000477/B009",
+          "gloss": "küçük çocuklar ve bakmakla yükümlü olunan küçükler",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek yabani bitki tohumudur; siyah karınca benzerlik yoluyla, toplayıcı adam ise özel yapı içinde adlandırılır ve ikisi genel tohum anlamını değiştirmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000477/B010",
+          "gloss": "yabani bitki tohumu",
+          "source_pointer": "/root_lexicon/root_000477/dictionary_entry/branches/9",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "د ع و"
+      ],
+      "root_ar": "د ع و",
+      "root_id": "root_000477"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Temel seslenme anlamı, yalnızca belirli yapılarda görülen yemeğe çağırma ve bir yere yönelme kullanımlarından ayrı tutulur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000478/B001",
+          "gloss": "seslenerek kendine yöneltme",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Hak ileri sürme, soy bağı kurma ve savaşta aidiyet bildirme ayrımları korunur; bunlar sıradan seslenme anlamına indirgenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000478/B002",
+          "gloss": "hak veya aidiyet ileri sürme",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalnızca memede bırakılan sütün sonraki sütü çekmesi düşüncesine bağlıdır; genel süt kalıntısına yayılmaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000478/B003",
+          "gloss": "sütün devamını çekmek için memede bırakılan pay",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam, belirli yapıda Tanrı'nın istenmeyen bir şeyi kişinin başına getirmesidir; kötülük dileme eylemi değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000478/B004",
+          "gloss": "Tanrı'nın birine istemediği bir sıkıntıyı vermesi",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/3",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Birbiri ardından gerçekleşme her iki kullanımda da kurucudur; tek bir çökme veya tek seferde yıkma dalın tamamını karşılamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000478/B005",
+          "gloss": "birbiri ardından çökme veya yıkma",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tanım, insanın yönelmesini değil, dönemin olayların akışını başka yöne çeviren değişimlerini merkeze alır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000478/B006",
+          "gloss": "dönemin olaylara yön veren değişimleri",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal sıradan anlaşılmaz sözü değil, gizlenmiş bir cevabı buldurmak üzere yöneltilen bilmece ve sınama eylemini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000478/B007",
+          "gloss": "gizli cevabı buldurmaya yönelik bilmeceleşme",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam belirli olumsuz ev ifadesine bağlıdır ve genel olarak boşluk, sessizlik veya eşyasızlık bildirmez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000478/B008",
+          "gloss": "evde hiç kimsenin bulunmaması",
+          "source_pointer": "/root_lexicon/root_000478/dictionary_entry/branches/7",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "د ع و"
+      ],
+      "root_ar": "د ع و",
+      "root_id": "root_000478"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Genel olarak buyruğa uyma çekirdektir; kulluk ve inanç düzeni bu çekirdeğin özel alanlarıdır, hesap, borç ve zorla egemenlik bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000504/B001",
+          "gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal, bir eylem veya kişi hakkında hesap ve karşılık sonucuna varmayı anlatır; inanç düzeni, mali borç ve zorla boyun eğdirme bunun dışında kalır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000504/B002",
+          "gloss": "yargılayıp hesap görerek karşılığını verme",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, malın şimdi verilip yükümlülüğün ileride yerine getirildiği mali ilişkiyle sınırlıdır; hesap günü, inanç bağlılığı ve genel alışveriş bununla özdeş değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000504/B003",
+          "gloss": "borç alıp verme ve vadeli ödeme ilişkisi",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Zorlama, alçaltma ve sahiplik bu dalı gönüllü uyma dalından ayırır; mali borçlu olma ya da hesap verme tek başına bu anlama girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000504/B004",
+          "gloss": "zorla alçaltıp egemenliği altına alma",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tekrarlanarak yerleşen davranış veya alışılmış durum çekirdektir; inanç sistemi, mali borç ve zorlayıcı egemenlik bu dala ait değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000504/B005",
+          "gloss": "alışılmış davranış ve öteden beri bilinen hal",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kent temel anlamdır; yönetime uyma yalnızca kaynaklarda verilen adlandırma açıklamasıdır. Köleleştirilmiş kadın adı ve genel bağlılık anlamı bu dala aktarılmaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000504/B006",
+          "gloss": "kent",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/5",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Anlam yalnızca verilen kişi, yargı ve yemin yapılarında geçerlidir; genel inanma, yönetim yetkisi devretme, borçlandırma veya hüküm verme anlamına genişletilmez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000504/B007",
+          "gloss": "kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme",
+          "source_pointer": "/root_lexicon/root_000504/dictionary_entry/branches/6",
+          "status": "reframed"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "د ي ن"
+      ],
+      "root_ar": "د ي ن",
+      "root_id": "root_000504"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, gerçek bir binme ilişkisiyle sınırlıdır; nesnelerin üst üste gelmesi, parçaların takılması ve aynı kökten gelen beden adları bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B001",
+          "gloss": "bineğe ya da tekneye binme ve üzerinde veya içinde bulunma",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Üstte bulunma veya üst üste yığılma yeterlidir; insanın bir binekle yol alması ya da bir parçanın başka bir parçaya takılıp sabitlenmesi bu dala dahil değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B002",
+          "gloss": "üstüne çıkma veya üst üste yığılma",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, işe girişme veya bir yükün kişiyi kuşatması çevresindedir; fiziksel binme anlamı değildir ve gönüllü sorumluluk ile zorlayıcı borç yükü özdeş sayılmamalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B003",
+          "gloss": "işe girişme, yükleme veya yük altında kalma",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Yerine geçirme ve sabitleme kurucudur; yalnızca üstte durma veya yığılma yeterli değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B004",
+          "gloss": "parçayı yerine geçirip sabitleme",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca diz eklemi ve doğrudan dizle kurulan nitelik veya vurma ilişkileriyle sınırlıdır; bacağın tamamını ya da başka eklemleri kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B005",
+          "gloss": "diz eklemi ve dizle kurulan vurma ilişkisi",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek, kasık ve üreme organı çevresindeki beden bölgesidir; kadınlara özgülük bazı tanıklıklarda vardır, bazılarında her iki cinsiyeti kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000589/B006",
+          "gloss": "kasık ve üreme organı çevresindeki beden bölgesi",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bitkisel adlandırmalarla sınırlıdır; hurmadaki bağlı ve köksüz sürgün çekirdektir, başağın öncü parçaları ile kesilmiş ot dibi ayrı bağlı kullanımlardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000589/B007",
+          "gloss": "gövdeye bağlı köksüz sürgün ve bağlı bitki parçaları",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca kişiyi saygın soy ve toplumsal köken bakımından niteleyen kuruluşta geçerlidir; kökün yalın biçimine genel bir köken anlamı yüklenmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000589/B008",
+          "gloss": "saygın soy ve toplumsal köken",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Yüksek kanal arası sırt çekirdektir; sıra dikim ve ekili parsel kullanımları tarımsal alan içindeki ayrı uzantılardır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000589/B009",
+          "gloss": "kanallar arası toprak sırtı ve tarımsal uzantıları",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/8",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, koyunda sırt bölgesini etkileyen hastalık adıyla sınırlıdır; başka hayvan, beden bölgesi veya hastalık türü kanıtsız biçimde eklenmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000589/B010",
+          "gloss": "koyunlarda sırtı etkileyen hastalık",
+          "source_pointer": "/root_lexicon/root_000589/dictionary_entry/branches/9",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ر ك ب"
+      ],
+      "root_ar": "ر ك ب",
+      "root_id": "root_000589"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Anlam, insanlar arasındaki ortaklıkla sınırlıdır; dinsel ortak koşma, sandal kayışı, yol yapısı ve av kapanı bu dala girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000791/B001",
+          "gloss": "ortaklık ve ortak olma",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, Tanrı'ya ortak tanıma anlamındadır; insanlar arasındaki ortaklık ve aynı kökün nesne adları bu dinsel anlama dahil değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B002",
+          "gloss": "Tanrı'ya ortak koşma",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kullanım eşlik ve evlilik yoluyla hısımlığa bağlıdır; sırf yakınlık, komşuluk veya mal ortaklığı bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B003",
+          "gloss": "eş veya evlilik yoluyla hısım",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal sandal kayışı ve sandala bu kayışı takmakla sınırlıdır; her türlü sandal onarımı veya genel deri kayışı anlamına gelmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B004",
+          "gloss": "sandal kayışı ve sandala kayış takma",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, yolun ana yatağı, izleri ve küçük kolları gibi yapısal bölümlerle sınırlıdır; her tür yol veya otlakta bulunan her patika bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B005",
+          "gloss": "yolun ana yatağı, izleri ve küçük kolları",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/4",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Çekirdek, avın yakalandığı bağ veya ağ biçimli kapan; genişleme ise bunun tuzak anlamındaki benzetmesidir. Belirli bir av türü zorunlu değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B006",
+          "gloss": "avın dolandığı kapan ve tuzak benzetmesi",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam yalnız belirtilen tokatlama ve geliş sırası kullanımlarında art ardalığı bildirir; yalın ve genel bir süreklilik sözü olarak genişletilmez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000791/B007",
+          "gloss": "özel yapılarda hızlı ve art arda oluş",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, kişi için kaygılı iç konuşma ve görüş için tek olmama niteliklerini ayırır; insanlarca birlikte benimsenen ortak görüş anlamını taşımaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000791/B008",
+          "gloss": "kaygılı iç konuşma veya bölünmüş görüş",
+          "source_pointer": "/root_lexicon/root_000791/dictionary_entry/branches/7",
+          "status": "reframed"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ش ر ك"
+      ],
+      "root_ar": "ش ر ك",
+      "root_id": "root_000791"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal, belirli bir nesneyi değil, dairesel biçim ile dönme hareketinin genel anlam çekirdeğini kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001177/B001",
+          "gloss": "dairesel olma ve dönme",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal göksel dairesel düzen ve gök cisimlerinin yolu ile sınırlıdır; genel dönme ya da deniz dalgası anlamına genişletilmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001177/B002",
+          "gloss": "göksel yörünge düzeni",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal gemi ve gemiler topluluğu ile sınırlıdır; göksel çember veya yalnızca dönme anlamına çekilmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001177/B003",
+          "gloss": "gemi; gemiler topluluğu",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Her yükselti bu dala girmez; çevresine göre yükselme ile yuvarlak ya da toplanmış tepe biçimi birlikte bulunmalıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001177/B004",
+          "gloss": "yuvarlak tepeli küçük yükselti",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, iğin yuvarlak ağırlık parçasını, ona biçimce benzetilen meme ve kalça kullanımlarını ve kaynakta ayrıca tanıklanan dil kökündeki sert bölümü kapsar; her yuvarlak nesneye veya her organ adına genişlemez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001177/B005",
+          "gloss": "iğ ağırlığı ve ona benzeyen yuvarlak biçim",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal her türlü sütten kesmeyi değil, yavrunun diline belirli bir engel yerleştirilerek emmenin önlenmesini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001177/B006",
+          "gloss": "yavrunun diline engel yerleştirerek emmesini önleme",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek ileri geri çalkalanan deniz dalgasıdır; dönüp durma anlatımı yalnızca buna bağlı benzetmeli kullanım olarak tutulur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001177/B007",
+          "gloss": "ileri geri çalkalanan deniz dalgası",
+          "source_pointer": "/root_lexicon/root_001177/dictionary_entry/branches/6",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ف ل ك"
+      ],
+      "root_ar": "ف ل ك",
+      "root_id": "root_001177"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, kurtulusun ayrilma ve uzaklasma ile gerceklesmesine baglidir; yalniz hiz veya yalniz koruma degildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001476/B001",
+          "gloss": "ayrilarak kurtulma",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, hareketin hizina ve one gecmeye baglidir; tehlikeden kurtulma sonucu bu dalin cekirdegi degildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001476/B002",
+          "gloss": "hizla gitme",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, maddi bir yuzeyden veya kaynaktan ayirma islemine baglidir; kurtulus ya da gizli konusma anlamina genellenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001476/B003",
+          "gloss": "soyup ayirma",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, arazi bicimine ve suyun basamadigi yukseklik ya da acikliga baglidir; genel kurtulus anlamina indirgenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001476/B004",
+          "gloss": "sel basmaz yuksek yer",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, gizli veya ozel konusma iliskisine baglidir; kurtulus, hiz veya bedensel cikinti anlamlari buraya girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001476/B005",
+          "gloss": "gizli konusma",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bedenden cikan sey ve bunun temizlenmesiyle sinirlidir; gizli konusma, kurtulus veya yuksek yer anlami degildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001476/B006",
+          "gloss": "bedensel cikinti ve temizlenme",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bulut icin kullanilan ad ve onun evre farklariyla sinirlidir; arazi, bedensel cikinti veya sir anlami degildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001476/B007",
+          "gloss": "bulut adi",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, bir kisinin agiz kokusunu deneme anlamiyla sinirlidir; tartismali oldugu ve gizli konusma ile karisabilecegi belirtilmelidir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001476/B008",
+          "gloss": "agiz kokusunu sinama",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, bedenin gerinmesiyle sinirlidir ve kokun obur anlam alanlarina genisletilmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001476/B009",
+          "gloss": "gerinme",
+          "source_pointer": "/root_lexicon/root_001476/dictionary_entry/branches/8",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ن ج و"
+      ],
+      "root_ar": "ن ج و",
+      "root_id": "root_001476"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7daf7de740bb42e3f901",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:10:collocation-and-reversal",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2246426a92e574254a7e",
+        "sup_954324c9878b7483b96b"
+      ],
+      "title": "purified devotion contrasts later partner-making",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1bb8b4c014570870edc4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:10:devotion-domain",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_954324c9878b7483b96b",
+        "sup_bcb9dc98c60ba1d57514"
+      ],
+      "title": "definite devotion-domain under exclusivity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_658d2e839c75c51e7d18",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:10:obligation-polysemy",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_954324c9878b7483b96b",
+        "sup_fd59afe0cb88a1d9cc8a"
+      ],
+      "title": "judgment debt and submission pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0e8bc99266c4de7b0638",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:11:mirrored-hinge",
+      "source_pointer": "/word_analysis/words/10/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_d7d27c33144675471859",
+        "sup_ddef22dc0505f745d89c"
+      ],
+      "title": "second connector mirrors the opening",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_66d5e896451ec1831bd8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:11:rescue-result-pivot",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5c112b6fe266e6c4b979",
+        "sup_d7d27c33144675471859"
+      ],
+      "title": "second connector pivots into rescue result",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cece6a471f9260946e24",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:12:completed-rescue-moment",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d570fa3eba7fef71cc6",
+        "sup_b2956e710bfe81560d79"
+      ],
+      "title": "completed rescue before the surprise",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_54970ea8cdf619cd1725",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:12:temporal-contrast",
+      "source_pointer": "/word_analysis/words/11/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d570fa3eba7fef71cc6",
+        "sup_95dff0525c23c03c6b78"
+      ],
+      "title": "middle pivot between two idha functions",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eaa10e306d5228aad682",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:13:divine-rescue-object",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2f82654b2b5005ac2175",
+        "sup_d9823dc2dbc366f86e44"
+      ],
+      "title": "God rescues the same group",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4c1a95e226b4d197e3c3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:13:extraction-pressure",
+      "source_pointer": "/word_analysis/words/12/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2f82654b2b5005ac2175",
+        "sup_e8662aa70d176b0e8e2b"
+      ],
+      "title": "rescue and private-withdrawal imagery",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_484170e0c658069d19d1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:13:form-two-rescue",
+      "source_pointer": "/word_analysis/words/12/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1e6a32ede0414fbefbc4",
+        "sup_2f82654b2b5005ac2175"
+      ],
+      "title": "Form II completed deliverance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a7758c7b06e757f38cad",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:13:rescue-type-scene",
+      "source_pointer": "/word_analysis/words/12/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2f82654b2b5005ac2175",
+        "sup_46378bc42e5300cfdc4e"
+      ],
+      "title": "rescue joins the ship-to-land formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0d1b51c7c80805b2c8af",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:14:endpoint-valency",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_43ee1a22d4d9ee0ce9dc",
+        "sup_df85a8591f90efe8e6ce"
+      ],
+      "title": "preposition completes rescue toward land",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5196c1091c84f2a3dfc5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:14:spatial-arc",
+      "source_pointer": "/word_analysis/words/13/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_43ee1a22d4d9ee0ce9dc",
+        "sup_a1d889e52b9a58f03121"
+      ],
+      "title": "endpoint answers containment",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dcd134dc502660ec3d2b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:15:land-destination",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_183172d9f2f7596a6945",
+        "sup_eb024d71da2188317a3e"
+      ],
+      "title": "definite land as safety endpoint",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3bde14aa6df49a108cb9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:15:landfall-reversal-field",
+      "source_pointer": "/word_analysis/words/14/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_183172d9f2f7596a6945",
+        "sup_86df9327c0ed202b2609"
+      ],
+      "title": "landfall becomes the site of reversal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d703499d5b35ede3729a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:15:righteousness-irony",
+      "source_pointer": "/word_analysis/words/14/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_091da6b1e9744a649171",
+        "sup_183172d9f2f7596a6945"
+      ],
+      "title": "dry land carries righteousness irony",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_966bb0ca9c26edc81c44",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:16:bookend-shift",
+      "source_pointer": "/word_analysis/words/15/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7c391c47fb8eed08d62c",
+        "sup_921f4f0020e7fdc7c944"
+      ],
+      "title": "same form shifts from expectation to shock",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_26bfc5090d583a24461b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:16:boundary-proof",
+      "source_pointer": "/word_analysis/words/15/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7c391c47fb8eed08d62c",
+        "sup_9667798b4d94f7d1c6a9"
+      ],
+      "title": "surprise proves the prior ignorance verdict",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2a14bb70f15a47099acd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:16:surprise-particle",
+      "source_pointer": "/word_analysis/words/15/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_73f5401e853b85339417",
+        "sup_7c391c47fb8eed08d62c"
+      ],
+      "title": "second idha is abrupt presentation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8e8e65ae52607c08397c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:17:fronted-pronoun",
+      "source_pointer": "/word_analysis/words/16/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_14051ddfff1448acee2e",
+        "sup_4aa4b70ec02e565dfba1"
+      ],
+      "title": "independent pronoun foregrounds the subject",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_99af50aebcec18a5433a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:17:same-referent",
+      "source_pointer": "/word_analysis/words/16/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4aa4b70ec02e565dfba1",
+        "sup_717388e3ec1ce68c8ba4"
+      ],
+      "title": "same group carries the contradiction",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:18"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_89b103d659aef997584c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:18:ongoing-objectless-predicate",
+      "source_pointer": "/word_analysis/words/17/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_16c412200a848bf34c40",
+        "sup_c7a14ac8868887a3198e"
+      ],
+      "title": "ongoing association left objectless",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:18"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a288900bf962840e0c34",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:18:partnership-reversal",
+      "source_pointer": "/word_analysis/words/17/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_16c412200a848bf34c40",
+        "sup_c33ad7401e7ddcafe834"
+      ],
+      "title": "Form IV partner-making reverses exclusivity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:18"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1d6cf0f2df019e267e0b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:18:rescue-reversion-formula",
+      "source_pointer": "/word_analysis/words/17/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_16c412200a848bf34c40",
+        "sup_34f24dc1132c18b1c3f9"
+      ],
+      "title": "closing verb joins rescue-reversion formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:18"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_542f73b79b8e5e667d73",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:18:surah-and-next-ayah-pressure",
+      "source_pointer": "/word_analysis/words/17/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_144dfac3f68f4d304fa1",
+        "sup_16c412200a848bf34c40"
+      ],
+      "title": "voluntary reversion points backward and forward",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_26f4c3112f9a65dafcfa",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:1:boundary-proof",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1ad0ac3b7555632c31a3",
+        "sup_a5007e11f9735148e939"
+      ],
+      "title": "opening connector turns the scene into proof",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_77411fb00390bf6fbe69",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:1:fused-temporal-frame",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1ad0ac3b7555632c31a3",
+        "sup_d3fcf202a5ae90809aef"
+      ],
+      "title": "connector fuses with the first temporal frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_077b02034c47ee53da7e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:1:paired-fa-frames",
+      "source_pointer": "/word_analysis/words/0/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1ad0ac3b7555632c31a3",
+        "sup_57687e1a612bf169239c"
+      ],
+      "title": "opening and rescue pivots mirror each other",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4f0e72288f8c4ab73c58",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:2:pivot-bookend",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_21f046ae7009595dd44c",
+        "sup_3533c6ef656d73eb99ce"
+      ],
+      "title": "first temporal pivot anticipates the closing shock",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7610db9b7178c98084e0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:2:recurring-condition",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_08011f705275aaddd3dd",
+        "sup_3533c6ef656d73eb99ce"
+      ],
+      "title": "recurring crisis condition",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_57e4c86b19ea393c4519",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:3:actor-chain-perfective",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_99cf5c71a7ce7c7e453f",
+        "sup_ddf56ee53ad62f765e58"
+      ],
+      "title": "completed plural trigger starts the actor chain",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_46ee4e5288fb66c74383",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:3:contained-boarding",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_37c39e2cf24a4767a5d4",
+        "sup_ddf56ee53ad62f765e58"
+      ],
+      "title": "boarding completed by vessel containment",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ff896ad89bde405ebaef",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:3:conveyance-dependence",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b58ab443bf3b799027aa",
+        "sup_ddf56ee53ad62f765e58"
+      ],
+      "title": "riding and composition pressure becomes dependence imagery",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b8b549999b98113f7064",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:4:containment",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3889249608f8b6143199",
+        "sup_5f937ee109b412412b61"
+      ],
+      "title": "preposition makes the ship an enclosure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c397915042fcae7fb554",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:4:spatial-arc",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3889249608f8b6143199",
+        "sup_4904811f171d604f7359"
+      ],
+      "title": "containment begins the movement line",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_25043549fba3219111e4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:5:generic-vessel-container",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_00f5c8a2475fc489d50d",
+        "sup_7510f97b3f2574d50ac8"
+      ],
+      "title": "definite invariable vessel as crisis class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2201e3a7358f82bb7f5a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:5:orbit-pressure",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_00f5c8a2475fc489d50d",
+        "sup_affe54734d9ad4392c59"
+      ],
+      "title": "ship sense selected while turning imagery remains",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dc1d4fd9e836e5f3332e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:5:rescue-type-scene",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_00f5c8a2475fc489d50d",
+        "sup_821329abb74ccad6c320"
+      ],
+      "title": "ship wording joins the rescue formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_28af6ceb3fd8e0601308",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:6:claim-register",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b3bd2947cc8f564ef2c",
+        "sup_4dac9b734544befb7a5c"
+      ],
+      "title": "claim-register colors the invocation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c32ddc9cb52a11792411",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:6:completed-plural-call",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b3bd2947cc8f564ef2c",
+        "sup_37124b229eb4821e4f7d"
+      ],
+      "title": "perfect plural call contrasts the final ongoing verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8b3d8c009a03e1f20191",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:6:direct-invocation",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b3bd2947cc8f564ef2c",
+        "sup_2785d6af662f327007bc"
+      ],
+      "title": "calling God directly in crisis",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_10c44b2042d1690a7f16",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:7:devotion-pivot",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5279ce4a66a285b803a1",
+        "sup_7b04a79c6dc3227f57ac"
+      ],
+      "title": "divine name anchors the devotion phrase",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9f283e538dfd346b304e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:7:proper-direct-object",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5279ce4a66a285b803a1",
+        "sup_649849c6dbb0cc655af8"
+      ],
+      "title": "proper divine name as invocation object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8d10726fd54784b6c0da",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:7:worship-refuge-pressure",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4fe13686d86fa9286c96",
+        "sup_5279ce4a66a285b803a1"
+      ],
+      "title": "etymological worship and refuge pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e881a809544933edc061",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:8:circumstantial-state",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_20df8a9655542ec7a29c",
+        "sup_7e3c3732f60b7bb43a48"
+      ],
+      "title": "active participle as the callers' state",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_458f2e73b37e57898f97",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:8:exclusive-purification",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7e3c3732f60b7bb43a48",
+        "sup_8a6d20ff3ff82c917669"
+      ],
+      "title": "Form IV actively makes devotion exclusive",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3c9f785be7dd138c7192",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:8:formula-and-reversal",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_116ec07a3b85006792ca",
+        "sup_7e3c3732f60b7bb43a48"
+      ],
+      "title": "exclusive devotion is later reversed by partnership",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_863bb16611df1b3c6ee1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:65:9:exclusive-recipient",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2d9b9dec6f9294b35c8a",
+        "sup_bc110516b7a83db5681c"
+      ],
+      "title": "pronoun directs devotion to God",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000430/B002",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B001",
+        "root_000589/B002",
+        "root_001177/B003",
+        "root_001177/B007"
+      ],
+      "candidate_id": "cand_4d18e22327450c897550",
+      "focus_branch_refs": [
+        "root_000430/B001",
+        "root_000430/B002",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B001",
+        "root_000589/B002",
+        "root_001177/B003",
+        "root_001177/B007"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_283655e61d13da5b3f35",
+        "sup_6152d3c7ff65621a2918",
+        "sup_633c807b3b51a333970b",
+        "sup_93afecdcda946b3ed56c",
+        "sup_d7dd1a35397b9e05f349"
+      ],
+      "title": "Unstable Vessel and the Purified Call",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65",
+        "29:66"
+      ],
+      "branch_refs": [
+        "root_000104/B005",
+        "root_000791/B001",
+        "root_000791/B002",
+        "root_000791/B008",
+        "root_001307/B004",
+        "root_001307/B005",
+        "root_001476/B001",
+        "root_001476/B004"
+      ],
+      "candidate_id": "cand_5dc2d6f9aad5fd66c1d7",
+      "focus_branch_refs": [
+        "root_000104/B005",
+        "root_000791/B001",
+        "root_000791/B002",
+        "root_000791/B008",
+        "root_001476/B001",
+        "root_001476/B004"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_001307/B004",
+        "root_001307/B005"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_1330780741731581af46",
+        "sup_52b417d61e429baabbe1",
+        "sup_7862dd6e5aa53b9d08d6",
+        "sup_a96ee7bee753f20112c9",
+        "sup_da2a6edc2e4560aebb95"
+      ],
+      "title": "Dry-Ground Rescue and Renewed Division",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d57fdde6350364ad67cc",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001476"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:11:1",
+      "source_pointer": "/qac_morphemes/17",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_1762b609802de15401df"
+      ],
+      "title": "QAC root occurrence: ن ج و",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ad1027b69eca663a7f66",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000104"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:13:2",
+      "source_pointer": "/qac_morphemes/21",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_db5eff31a53ac44d3d3e"
+      ],
+      "title": "QAC root occurrence: ب ر ر",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_657bbb272493c2ace51a",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000791"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:16:1",
+      "source_pointer": "/qac_morphemes/24",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_a60158cecf1705a44fad"
+      ],
+      "title": "QAC root occurrence: ش ر ك",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b7b9ad8a0d558623d549",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000589"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:2:1",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_26e854de1c5464750004"
+      ],
+      "title": "QAC root occurrence: ر ك ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_283910159e73f1bd85da",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001177"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:4:2",
+      "source_pointer": "/qac_morphemes/6",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_79b4ae4c80f50a9ce856"
+      ],
+      "title": "QAC root occurrence: ف ل ك",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_72f3127f12ace376d9ef",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000477",
+        "root_000478"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:5:1",
+      "source_pointer": "/qac_morphemes/7",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_87a2ea35b6ad0df3d6ff"
+      ],
+      "title": "QAC root occurrence: د ع و",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4abf4b41d457cc4d602c",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000047"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:6:1",
+      "source_pointer": "/qac_morphemes/9",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_330cebd47a694bfbba3c"
+      ],
+      "title": "QAC root occurrence: ء ل ه",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9c3ba63f485e5d6082b8",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000430"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:7:1",
+      "source_pointer": "/qac_morphemes/10",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_293ebd306689c7e6bdfa"
+      ],
+      "title": "QAC root occurrence: خ ل ص",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d92aeffd13d772b111c8",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000504"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:65:9:2",
+      "source_pointer": "/qac_morphemes/14",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_dcf9014ad07520ca245d"
+      ],
+      "title": "QAC root occurrence: د ي ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:16",
+        "29:65:2",
+        "29:65:4",
+        "29:65:5",
+        "29:65:7",
+        "29:65:9"
+      ],
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B002",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "candidate_id": "cand_00de348e7898314d8a15",
+      "focus_branch_refs": [
+        "root_000430/B001",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B002",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_ae79fcafdd2b101391ee"
+      ],
+      "title": "Gemideki ağır tehlike rakip bağlılık katmanlarını ayırıp teslimiyeti yalnız Allah'a yöneltir; güvenliğe çıkış ise koşullara bağlı bu arılığı yeniden ortaklıkla örter.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65:11",
+        "29:65:13"
+      ],
+      "branch_refs": [
+        "root_000104/B001",
+        "root_000104/B005",
+        "root_001476/B001"
+      ],
+      "candidate_id": "cand_70a2ac3c06d6d64f8f07",
+      "focus_branch_refs": [
+        "root_000104/B001",
+        "root_000104/B005",
+        "root_001476/B001"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_f9a33161991861b2e10c"
+      ],
+      "title": "Kuru kara, gemide söylenen arı bağlılığın davranışta tutup tutmadığını sınayan bir doğruluk zemini olarak okunabilir; ancak bu anlam doğrudan “kara” kullanımından fazla uzaklaşır.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [
+        "root_000589/B001",
+        "root_000589/B003"
+      ],
+      "candidate_id": "cand_a2b1a0df6b55bf12e2e4",
+      "focus_branch_refs": [
+        "root_000589/B001",
+        "root_000589/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_2bcd5f0c95196769ed70"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d26a8ec013b2d62db7ab",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_58c31842d05f2d1ed281"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000504/B001",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "candidate_id": "cand_33bde0a659ea717646b9",
+      "focus_branch_refs": [
+        "root_000430/B001",
+        "root_000504/B001",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_a3644d6e1a569ffe0829"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "د ع و/B001",
+          "reason": "ambiguous root mapping: root_000477/B001, root_000478/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [
+        "root_001476/B001"
+      ],
+      "candidate_id": "cand_f723a948bea2ebe0af22",
+      "focus_branch_refs": [
+        "root_001476/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_9c829d5a6bfe4c025958"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:65"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3d7473a52dd1e6571e07",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_105c24d945c65f94ed29"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "ء م ن/B001",
+          "reason": "no registered branch match"
+        }
+      ],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 79,
+    "by_disposition": {
+      "docket_mandatory": 50,
+      "docket_optional": 16,
+      "parse_failed": 8,
+      "quarantined": 5
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 2,
+      "hft": 13,
+      "qac_morpheme": 9,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 48
+    },
+    "discovered_seed_count": 79,
+    "docket_candidate_count": 66,
+    "mandatory_candidate_count": 50,
+    "optional_candidate_count": 16,
+    "selection_eligible_candidate_count": 52,
+    "selection_ineligible_candidate_count": 14
+  },
+  "focus": {
+    "arabic_uthmani": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|f:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:65:1:1",
+        "qac_word_ref": "29:65:1",
+        "root_ar": "",
+        "surface_ar": "فَ"
+      },
+      {
+        "lemma_ar": "إِذَا",
+        "morph_features": "STEM|POS:T|LEM:<i*aA",
+        "morpheme_role": "STEM",
+        "pos": "T",
+        "qac_ref": "29:65:1:2",
+        "qac_word_ref": "29:65:1",
+        "root_ar": "",
+        "surface_ar": "إِذَا"
+      },
+      {
+        "lemma_ar": "رَكِبَ",
+        "morph_features": "STEM|POS:V|PERF|LEM:rakiba|ROOT:rkb|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:65:2:1",
+        "qac_word_ref": "29:65:2",
+        "root_ar": "ر ك ب",
+        "surface_ar": "رَكِبُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:65:2:2",
+        "qac_word_ref": "29:65:2",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "فِى",
+        "morph_features": "STEM|POS:P|LEM:fiY",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:65:3:1",
+        "qac_word_ref": "29:65:3",
+        "root_ar": "",
+        "surface_ar": "فِى"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:65:4:1",
+        "qac_word_ref": "29:65:4",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "فُلْك",
+        "morph_features": "STEM|POS:N|LEM:fulok|ROOT:flk|M|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:65:4:2",
+        "qac_word_ref": "29:65:4",
+        "root_ar": "ف ل ك",
+        "surface_ar": "فُلْكِ"
+      },
+      {
+        "lemma_ar": "دَعَا",
+        "morph_features": "STEM|POS:V|PERF|LEM:daEaA|ROOT:dEw|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:65:5:1",
+        "qac_word_ref": "29:65:5",
+        "root_ar": "د ع و",
+        "surface_ar": "دَعَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:65:5:2",
+        "qac_word_ref": "29:65:5",
+        "root_ar": "",
+        "surface_ar": "وُا۟"
+      },
+      {
+        "lemma_ar": "ٱللَّه",
+        "morph_features": "STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|ACC",
+        "morpheme_role": "STEM",
+        "pos": "PN",
+        "qac_ref": "29:65:6:1",
+        "qac_word_ref": "29:65:6",
+        "root_ar": "ء ل ه",
+        "surface_ar": "ٱللَّهَ"
+      },
+      {
+        "lemma_ar": "مُخْلِص",
+        "morph_features": "STEM|POS:N|ACT|PCPL|(IV)|LEM:muxoliS|ROOT:xlS|MP|ACC",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:65:7:1",
+        "qac_word_ref": "29:65:7",
+        "root_ar": "خ ل ص",
+        "surface_ar": "مُخْلِصِينَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:P+",
+        "morpheme_role": "PREFIX",
+        "pos": "P",
+        "qac_ref": "29:65:8:1",
+        "qac_word_ref": "29:65:8",
+        "root_ar": "",
+        "surface_ar": "لَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "STEM|POS:PRON|3MS",
+        "morpheme_role": "STEM",
+        "pos": "PRON",
+        "qac_ref": "29:65:8:2",
+        "qac_word_ref": "29:65:8",
+        "root_ar": "",
+        "surface_ar": "هُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:65:9:1",
+        "qac_word_ref": "29:65:9",
+        "root_ar": "",
+        "surface_ar": "ٱل"
+      },
+      {
+        "lemma_ar": "دِين",
+        "morph_features": "STEM|POS:N|LEM:diyn|ROOT:dyn|M|ACC",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:65:9:2",
+        "qac_word_ref": "29:65:9",
+        "root_ar": "د ي ن",
+        "surface_ar": "دِّينَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|f:REM+",
+        "morpheme_role": "PREFIX",
+        "pos": "REM",
+        "qac_ref": "29:65:10:1",
+        "qac_word_ref": "29:65:10",
+        "root_ar": "",
+        "surface_ar": "فَ"
+      },
+      {
+        "lemma_ar": "لَمَّا",
+        "morph_features": "STEM|POS:T|LEM:lam~aA",
+        "morpheme_role": "STEM",
+        "pos": "T",
+        "qac_ref": "29:65:10:2",
+        "qac_word_ref": "29:65:10",
+        "root_ar": "",
+        "surface_ar": "لَمَّا"
+      },
+      {
+        "lemma_ar": "نَجَّىٰ",
+        "morph_features": "STEM|POS:V|PERF|(II)|LEM:naj~aY`|ROOT:njw|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:65:11:1",
+        "qac_word_ref": "29:65:11",
+        "root_ar": "ن ج و",
+        "surface_ar": "نَجَّىٰ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:65:11:2",
+        "qac_word_ref": "29:65:11",
+        "root_ar": "",
+        "surface_ar": "هُمْ"
+      },
+      {
+        "lemma_ar": "إِلَىٰ",
+        "morph_features": "STEM|POS:P|LEM:<ilaY`",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:65:12:1",
+        "qac_word_ref": "29:65:12",
+        "root_ar": "",
+        "surface_ar": "إِلَى"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:65:13:1",
+        "qac_word_ref": "29:65:13",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "بَرّ",
+        "morph_features": "STEM|POS:N|LEM:bar~|ROOT:brr|M|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:65:13:2",
+        "qac_word_ref": "29:65:13",
+        "root_ar": "ب ر ر",
+        "surface_ar": "بَرِّ"
+      },
+      {
+        "lemma_ar": "إِذَا2",
+        "morph_features": "STEM|POS:SUR|LEM:<i*aA2",
+        "morpheme_role": "STEM",
+        "pos": "SUR",
+        "qac_ref": "29:65:14:1",
+        "qac_word_ref": "29:65:14",
+        "root_ar": "",
+        "surface_ar": "إِذَا"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "STEM|POS:PRON|3MP",
+        "morpheme_role": "STEM",
+        "pos": "PRON",
+        "qac_ref": "29:65:15:1",
+        "qac_word_ref": "29:65:15",
+        "root_ar": "",
+        "surface_ar": "هُمْ"
+      },
+      {
+        "lemma_ar": "أَشْرَكَ",
+        "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:>a$oraka|ROOT:$rk|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:65:16:1",
+        "qac_word_ref": "29:65:16",
+        "root_ar": "ش ر ك",
+        "surface_ar": "يُشْرِكُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:65:16:2",
+        "qac_word_ref": "29:65:16",
+        "root_ar": "",
+        "surface_ar": "ونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:65:1:1"
+      ],
+      [
+        "29:65:1:2"
+      ],
+      [
+        "29:65:2:1",
+        "29:65:2:2"
+      ],
+      [
+        "29:65:3:1"
+      ],
+      [
+        "29:65:4:1",
+        "29:65:4:2"
+      ],
+      [
+        "29:65:5:1",
+        "29:65:5:2"
+      ],
+      [
+        "29:65:6:1"
+      ],
+      [
+        "29:65:7:1"
+      ],
+      [
+        "29:65:8:1",
+        "29:65:8:2"
+      ],
+      [
+        "29:65:9:1",
+        "29:65:9:2"
+      ],
+      [
+        "29:65:10:1"
+      ],
+      [
+        "29:65:10:2"
+      ],
+      [
+        "29:65:11:1",
+        "29:65:11:2"
+      ],
+      [
+        "29:65:12:1"
+      ],
+      [
+        "29:65:13:1",
+        "29:65:13:2"
+      ],
+      [
+        "29:65:14:1"
+      ],
+      [
+        "29:65:15:1"
+      ],
+      [
+        "29:65:16:1",
+        "29:65:16:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:65:1",
+      "29:65:2",
+      "29:65:3",
+      "29:65:4",
+      "29:65:5",
+      "29:65:6",
+      "29:65:7",
+      "29:65:8",
+      "29:65:9",
+      "29:65:10",
+      "29:65:11",
+      "29:65:12",
+      "29:65:13",
+      "29:65:14",
+      "29:65:15",
+      "29:65:16",
+      "29:65:17",
+      "29:65:18"
+    ]
+  },
+  "focus_root_mappings": {
+    "ء ل ه": [
+      "root_000047"
+    ],
+    "ب ر ر": [
+      "root_000104"
+    ],
+    "خ ل ص": [
+      "root_000430"
+    ],
+    "د ع و": [
+      "root_000477",
+      "root_000478"
+    ],
+    "د ي ن": [
+      "root_000504"
+    ],
+    "ر ك ب": [
+      "root_000589"
+    ],
+    "ش ر ك": [
+      "root_000791"
+    ],
+    "ف ل ك": [
+      "root_001177"
+    ],
+    "ن ج و": [
+      "root_001476"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:65",
+    "docket_payload_sha256": "35dc5afbc7438dd7b62dca803c0a88f80344611224ae5cb81da8ac4fed6ddacc",
+    "source_canonical_sha256": "a4b71b8e0115935cac7625cf2eda1c08d0fb63c0d32751e94230c09cd595fd1e"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_001307/B004",
+      "image_ar": "ستر النعمة",
+      "image_en": "covering over a favor",
+      "root_ar": "ك ف ر",
+      "scope_ar": "يدخل فيه كفر النعمة وكفرانها وجحودها وترك شكرها والكفور في كفران النعمة",
+      "scope_en": "Denial or failure to acknowledge a favor; ingratitude as the opposite of thanks.",
+      "source_file": "v4/outputs/pass2_branches/root_001307.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/1/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001307/B005",
+      "image_ar": "تبرؤ وتنصل",
+      "image_en": "disavowal",
+      "root_ar": "ك ف ر",
+      "scope_ar": "يدخل فيه الكفر بمعنى البراءة والتنصل من الشيء أو بعضهم من بعض",
+      "scope_en": "Disavowal, repudiation, or declaring oneself free of another party or association.",
+      "source_file": "v4/outputs/pass2_branches/root_001307.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/1/branches/1/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 9,
+      "mapped_root_record_count": 10,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 77
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 57,
+      "ayah_to": 69,
+      "id": "s029-p05-057-069",
+      "label": "Migration, provision, and striving",
+      "number": 5,
+      "refs": [
+        "29:57",
+        "29:58",
+        "29:59",
+        "29:60",
+        "29:61",
+        "29:62",
+        "29:63",
+        "29:64",
+        "29:65",
+        "29:66",
+        "29:67",
+        "29:68",
+        "29:69"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_00f5c8a2475fc489d50d",
+      "text": "{\"gloss_range\":\"definite invariable vessel noun, generic for the ship-domain, locally governed as the container of danger while root orbit imagery remains secondary pressure\",\"prose\":\"{{ar:ٱلْفُلْكِ}} ({{tr:al-fulki}}) is the genitive vessel complement and, because the form can be singular or plural, it reads as a recognized ship-domain rather than one counted boat. The root's orbit and whorl imagery can make the vessel feel unstable and turning, but the local boarding phrase selects the maritime vessel sense. The word also joins the familiar ship-danger, invocation, and rescue pattern seen in 10:22 and 31:32.\",\"root_display\":\"{{ar:ف ل ك}} ({{tr:f-l-k}})\",\"root_gloss_range\":\"ship/vessel and related turning or orbit imagery; here the concrete vessel sense is selected while circular instability remains image-pressure\",\"surface_display\":\"{{ar:ٱلْفُلْكِ}} ({{tr:al-fulki}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:2:recurring-condition",
+      "source_type": "word_analysis",
+      "support_id": "sup_08011f705275aaddd3dd",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recurring crisis condition\",\"reader_payoff\":\"The reader notices that the boarding is cast as a repeatable human pattern rather than a single travel report.\",\"reason\":\"The conditional-temporal particle with the perfect plural verb sets a vivid recurring condition whose answer is the invocation.\",\"representative_source_ids\":[\"QG-59212834\",\"MG-232a0815\",\"QS-47c764aa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:15:righteousness-irony",
+      "source_type": "word_analysis",
+      "support_id": "sup_091da6b1e9744a649171",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"dry land carries righteousness irony\",\"reader_payoff\":\"The reader notices the irony that they reach firm land but not faithful firmness, while the endpoint preposition keeps dry land as the selected sense.\",\"reason\":\"The directional construction selects dry land; the root's righteousness field remains moral pressure and wordplay.\",\"representative_source_ids\":[\"QS-63a442be\",\"QE-2143698f\",\"ME-852fb5c5\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_105c24d945c65f94ed29",
+      "text": "- **Later confirmation (`29:67`):** Protected sanctuary repeats the same safety-triggered contradiction at communal scale: people inhabit `ء م ن B001` yet attach `ء م ن B002` to voidness. The ship-land reversal is therefore not an isolated episode but a stable pattern of pressure-regulated allegiance.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:8:formula-and-reversal",
+      "source_type": "word_analysis",
+      "support_id": "sup_116ec07a3b85006792ca",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"exclusive devotion is later reversed by partnership\",\"reader_payoff\":\"The reader notices that the familiar exclusive-devotion formula becomes the setup for the final reversal into partner-making.\",\"reason\":\"The phrase is formulaic in rescue contexts such as 10:22 and is semantically answered by the final association verb.\",\"representative_source_ids\":[\"QI-704c356c\",\"MI-ec635c02\",\"QT-7b485027\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_type": "channel",
+      "support_id": "sup_1330780741731581af46",
+      "text": "Loss of control at sea purifies dependence to one addressee, but restored footing permits divided allegiance to reappear.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:17:fronted-pronoun",
+      "source_type": "word_analysis",
+      "support_id": "sup_14051ddfff1448acee2e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"independent pronoun foregrounds the subject\",\"reader_payoff\":\"The reader notices that the rescued group is isolated before the predicate instead of being left only inside the verb ending.\",\"reason\":\"The independent pronoun forms the subject before the imperfect predicate in the surprise clause.\",\"representative_source_ids\":[\"QG-adb300b9\",\"QF-29aceb29\",\"QT-7ee29dfe\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/17/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:18:surah-and-next-ayah-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_144dfac3f68f4d304fa1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"voluntary reversion points backward and forward\",\"reader_payoff\":\"The reader notices the final association sharpening culpability within the surah and pressing forward into the next ayah's consequence verbs.\",\"reason\":\"The same root appears under pressure in 29:8, while the final verb is answered by consequence language in 29:66.\",\"representative_source_ids\":[\"QI-c91fc3bb\",\"QE-b15bb983\",\"QB-c5b85ea1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/17",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:18",
+      "source_type": "word_analysis",
+      "support_id": "sup_16c412200a848bf34c40",
+      "text": "{\"gloss_range\":\"ongoing Form IV theological association, left objectless and set as the diagnostic reversal of earlier exclusive devotion\",\"prose\":\"{{ar:يُشْرِكُونَ}} ({{tr:yushrikūna}}) closes the ayah as an ongoing, objectless predicate: there they are, associating. In the theological frame it means active partner-making, reversing the earlier exclusive-devotion phrase by dividing what had just been made for God alone. The closing shape belongs to a rescue-reversion pattern seen in 10:22 and 31:32, and within this surah it contrasts voluntary reversion after rescue with pressured association in 29:8 before 29:66 spells out the consequences.\",\"root_display\":\"{{ar:ش ر ك}} ({{tr:sh-r-k}})\",\"root_gloss_range\":\"sharing, partnership, association, and making partners; here Form IV in a theological frame names ongoing partner-making without an expressed object\",\"surface_display\":\"{{ar:يُشْرِكُونَ}} ({{tr:yushrikūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/17",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:11:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_1762b609802de15401df",
+      "text": "{\"lemma_ar\":\"نَجَّىٰ\",\"morph_features\":\"STEM|POS:V|PERF|(II)|LEM:naj~aY`|ROOT:njw|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:65:11:1\",\"qac_word_ref\":\"29:65:11\",\"root_ar\":\"ن ج و\",\"surface_ar\":\"نَجَّىٰ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:15",
+      "source_type": "word_analysis",
+      "support_id": "sup_183172d9f2f7596a6945",
+      "text": "{\"gloss_range\":\"definite dry land as the rescue endpoint and safety pole, with righteousness-wordplay kept as irony rather than replacing the spatial destination\",\"prose\":\"{{ar:ٱلْبَرِّ}} ({{tr:al-barri}}) is the definite land endpoint after the directional preposition, the expected safety pole after the vessel. The root's righteousness field adds irony: they reach firm land but not faithful firmness, and the following surprise clause turns landfall into the site of betrayal.\",\"root_display\":\"{{ar:ب ر ر}} ({{tr:b-r-r}})\",\"root_gloss_range\":\"dry land, firmness, truthfulness, and righteousness; here the directional preposition selects dry land while righteousness pressure produces moral irony\",\"surface_display\":\"{{ar:ٱلْبَرِّ}} ({{tr:al-barri}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_1ad0ac3b7555632c31a3",
+      "text": "{\"gloss_range\":\"sequential/explanatory connector opening the scene as proof and launching the first temporal frame\",\"prose\":\"{{ar:فَ}} ({{tr:fa}}) opens the ayah as an argumentative hinge. It turns the ship scene into concrete proof after 29:64 and fuses the boundary with the first temporal frame, while the later rescue hinge mirrors it.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:فَ}} ({{tr:fa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_1b3bd2947cc8f564ef2c",
+      "text": "{\"gloss_range\":\"completed plural invocation directed to the divine name, with claim-register pressure only coloring the crisis speech-act\",\"prose\":\"{{ar:دَعَوُا۟}} ({{tr:daʿawū}}) takes the divine name as direct object, so the crisis produces direct invocation rather than a general belief report. Its perfect Form I shape makes the call a completed crisis act, while claim-register pressure remains secondary to the selected invocation sense.\",\"root_display\":\"{{ar:د ع ع}} ({{tr:d-ʿ-ʿ}})\",\"root_gloss_range\":\"calling, invoking, summoning, and claiming; here direct-object grammar selects invocation of the divine name, not invitation or assertion as the main sense\",\"surface_display\":\"{{ar:دَعَوُا۟}} ({{tr:daʿawū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:13:form-two-rescue",
+      "source_type": "word_analysis",
+      "support_id": "sup_1e6a32ede0414fbefbc4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form II completed deliverance\",\"reader_payoff\":\"The reader notices rescue as an effected deliverance, not self-escape by the passengers.\",\"reason\":\"Form II and the object suffix select completed transitive rescue.\",\"representative_source_ids\":[\"QG-bfb01127\",\"QF-f3e074d2\",\"MF-b2c72bde\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:8:circumstantial-state",
+      "source_type": "word_analysis",
+      "support_id": "sup_20df8a9655542ec7a29c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"active participle as the callers' state\",\"reader_payoff\":\"The reader notices that exclusivity describes how they are calling in the crisis, not a separate later claim.\",\"reason\":\"The accusative active participle functions as circumstantial state tied to the plural callers.\",\"representative_source_ids\":[\"QG-4d683698\",\"MG-81dd2222\",\"QF-5d3703a9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:2:pivot-bookend",
+      "source_type": "word_analysis",
+      "support_id": "sup_21f046ae7009595dd44c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first temporal pivot anticipates the closing shock\",\"reader_payoff\":\"The reader notices that the same surface particle returns later with a different function, turning expected crisis response into abrupt exposure.\",\"reason\":\"The first use is conditional-temporal, while the second use at word 16 is the surprise particle.\",\"representative_source_ids\":[\"QT-3c638c58\",\"MT-dbeb2dea\",\"QE-512b23b0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:10:collocation-and-reversal",
+      "source_type": "word_analysis",
+      "support_id": "sup_2246426a92e574254a7e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"purified devotion contrasts later partner-making\",\"reader_payoff\":\"The reader notices the phrase as a known purification formula whose durability is tested by the final association.\",\"reason\":\"The devotion noun strongly collocates with exclusivity and is the domain violated by the final partner-making.\",\"representative_source_ids\":[\"QI-246a3a59\",\"QE-cd03b2b1\",\"ME-3e50c5ca\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/2",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:2:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_26e854de1c5464750004",
+      "text": "{\"lemma_ar\":\"رَكِبَ\",\"morph_features\":\"STEM|POS:V|PERF|LEM:rakiba|ROOT:rkb|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:65:2:1\",\"qac_word_ref\":\"29:65:2\",\"root_ar\":\"ر ك ب\",\"surface_ar\":\"رَكِبُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:6:direct-invocation",
+      "source_type": "word_analysis",
+      "support_id": "sup_2785d6af662f327007bc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"calling God directly in crisis\",\"reader_payoff\":\"The reader notices that crisis turns immediately into direct invocation, not a general statement of belief.\",\"reason\":\"The verb takes the divine name as its explicit direct object.\",\"representative_source_ids\":[\"QG-31abcd27\",\"QS-8c3eaaaa\",\"QI-23ba9016\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_type": "channel",
+      "support_id": "sup_283655e61d13da5b3f35",
+      "text": "ر ك ب 29:65; ف ل ك 29:65; د ع و 29:65; د ي ن 29:65; خ ل ص 29:65.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/10",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:7:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_293ebd306689c7e6bdfa",
+      "text": "{\"lemma_ar\":\"مُخْلِص\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|(IV)|LEM:muxoliS|ROOT:xlS|MP|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:65:7:1\",\"qac_word_ref\":\"29:65:7\",\"root_ar\":\"خ ل ص\",\"surface_ar\":\"مُخْلِصِينَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000589/B001",
+        "root_000589/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_2bcd5f0c95196769ed70",
+      "text": "1. **Mounted vulnerability strips away layered allegiance.** ر ك ب B001 is mounting and riding, B002 is overlap and superposition, and B003 is undertaking or being burdened by a matter. Riding within the ship places people inside layered support over danger; there they call with exclusive devotion, but rescue to land restores association. I infer that acute burden collapses competing layers of claimed support; the voyage reads as an assay that reveals a latent singular orientation which safety re-covers.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:9:exclusive-recipient",
+      "source_type": "word_analysis",
+      "support_id": "sup_2d9b9dec6f9294b35c8a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"pronoun directs devotion to God\",\"reader_payoff\":\"The reader notices that the devotion is not merely sincere in quality; it is directed exclusively to the divine recipient.\",\"reason\":\"The preposition-plus-pronoun is governed by the participle and resumes the divine name.\",\"representative_source_ids\":[\"QG-6260df82\",\"QG-974b6be7\",\"QS-6c9e8a64\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:13",
+      "source_type": "word_analysis",
+      "support_id": "sup_2f82654b2b5005ac2175",
+      "text": "{\"gloss_range\":\"completed Form II rescue with an attached object pronoun; the rescue/extraction branch is local, while secrecy/private-withdrawal pressure remains secondary\",\"prose\":\"{{ar:نَجَّىٰهُمْ}} ({{tr:najjāhum}}) shifts agency from their call to divine rescue and keeps the same people as the attached object. Form II presents effected deliverance, not their self-escape, while the rescue/extraction range supports the movement toward land without turning secrecy imagery into the local sense. The rescue also joins the ship-danger pattern seen in 10:22-23, so the deliverance is immediately judged by the reversal that follows.\",\"root_display\":\"{{ar:ن ج و}} ({{tr:n-j-w}})\",\"root_gloss_range\":\"rescue, deliverance, escape, and related extraction or private-withdrawing imagery; here Form II selects completed divine rescue of them\",\"surface_display\":\"{{ar:نَجَّىٰهُمْ}} ({{tr:najjāhum}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/9",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:6:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_330cebd47a694bfbba3c",
+      "text": "{\"lemma_ar\":\"ٱللَّه\",\"morph_features\":\"STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"PN\",\"qac_ref\":\"29:65:6:1\",\"qac_word_ref\":\"29:65:6\",\"root_ar\":\"ء ل ه\",\"surface_ar\":\"ٱللَّهَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/17/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:18:rescue-reversion-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_34f24dc1132c18b1c3f9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closing verb joins rescue-reversion formula\",\"reader_payoff\":\"The reader notices the closure as a recognizable post-deliverance reversion pattern, not a generic final verb.\",\"reason\":\"The closing shape recurs in rescue scenes such as 10:22 and 31:32.\",\"representative_source_ids\":[\"QI-5e3a18dd\",\"MI-bcd75afe\",\"QE-89b3562f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_3533c6ef656d73eb99ce",
+      "text": "{\"gloss_range\":\"conditional-temporal particle setting a recurring crisis frame whose response is the later invocation\",\"prose\":\"{{ar:إِذَا}} ({{tr:idhā}}) makes the boarding a recurring crisis condition whose answer is the invocation. Its later return as a surprise particle lets the same surface form move from expected danger-response to abrupt exposure.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِذَا}} ({{tr:idhā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:6:completed-plural-call",
+      "source_type": "word_analysis",
+      "support_id": "sup_37124b229eb4821e4f7d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"perfect plural call contrasts the final ongoing verb\",\"reader_payoff\":\"The reader notices the call as a completed crisis act, in contrast with the final ongoing association.\",\"reason\":\"The perfect Form I plural keeps the action simple and completed, while the same actor chain continues through the ayah.\",\"representative_source_ids\":[\"QG-d31605d1\",\"MT-facb8ae0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:3:contained-boarding",
+      "source_type": "word_analysis",
+      "support_id": "sup_37c39e2cf24a4767a5d4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"boarding completed by vessel containment\",\"reader_payoff\":\"The reader notices that the verb is not generic travel; the governed vessel phrase makes bodily entry into danger trigger the invocation.\",\"reason\":\"The verb is completed by the governed phrase {{ar:فِى ٱلْفُلْكِ}} ({{tr:fī al-fulki}}), selecting maritime boarding.\",\"representative_source_ids\":[\"QG-37bc8050\",\"QS-aa9edecf\",\"QT-7ad27ebd\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_3889249608f8b6143199",
+      "text": "{\"gloss_range\":\"spatial containment preposition governing the vessel and making the boarding an enclosed danger-space\",\"prose\":\"{{ar:فِى}} ({{tr:fī}}) places the passengers inside the vessel-space. The preposition narrows the boarding scene to containment in danger, and it begins the spatial line later answered by the endpoint preposition.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:فِى}} ({{tr:fī}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:14",
+      "source_type": "word_analysis",
+      "support_id": "sup_43ee1a22d4d9ee0ce9dc",
+      "text": "{\"gloss_range\":\"directional endpoint preposition completing the rescue movement toward land\",\"prose\":\"{{ar:إِلَى}} ({{tr:ilā}}) gives the rescue a terminal direction. It completes the verb's movement toward land and answers the earlier containment preposition, turning the ayah's space from enclosure to endpoint.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِلَى}} ({{tr:ilā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:13:rescue-type-scene",
+      "source_type": "word_analysis",
+      "support_id": "sup_46378bc42e5300cfdc4e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"rescue joins the ship-to-land formula\",\"reader_payoff\":\"The reader notices the rescue as part of a recognizable ship-danger type-scene that will be judged by the immediate reversal.\",\"reason\":\"The root pairs with ship and land fields and recurs in rescue passages such as 10:22-23.\",\"representative_source_ids\":[\"MI-dd4e7100\",\"QE-5f74dd53\",\"QY-4c3519ab\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:4:spatial-arc",
+      "source_type": "word_analysis",
+      "support_id": "sup_4904811f171d604f7359",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"containment begins the movement line\",\"reader_payoff\":\"The reader notices the prepositional movement from being in the vessel to being brought toward land.\",\"reason\":\"The earlier containment preposition is answered later by the endpoint preposition.\",\"representative_source_ids\":[\"QT-d6037993\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:17",
+      "source_type": "word_analysis",
+      "support_id": "sup_4aa4b70ec02e565dfba1",
+      "text": "{\"gloss_range\":\"independent plural pronoun foregrounding the same rescued group before the final predicate\",\"prose\":\"{{ar:هُمْ}} ({{tr:hum}}) foregrounds the subject before the final predicate. Arabic could have relied on the verb ending, but the independent pronoun makes the rescued callers themselves stand in front of the reversal.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:هُمْ}} ({{tr:hum}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:6:claim-register",
+      "source_type": "word_analysis",
+      "support_id": "sup_4dac9b734544befb7a5c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"claim-register colors the invocation\",\"reader_payoff\":\"The reader notices a speech-act with possible claim pressure, while the local object keeps invocation as the selected sense.\",\"reason\":\"The root can move through calling and claiming, but the direct divine object selects invocation here.\",\"representative_source_ids\":[\"QS-ae5236b8\",\"MS-4c31434e\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:7:worship-refuge-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_4fe13686d86fa9286c96",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"etymological worship and refuge pressure\",\"reader_payoff\":\"The reader notices worship and refuge pressure around the name, while the local surface remains the proper name.\",\"reason\":\"V4 lacks this root, so the etymological row is kept cautiously as pressure, not as replacement of the proper-name reading.\",\"representative_source_ids\":[\"QS-e08d6b9e\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_5279ce4a66a285b803a1",
+      "text": "{\"gloss_range\":\"proper divine name as the accusative object of invocation and the antecedent for exclusive devotion\",\"prose\":\"{{ar:ٱللَّهَ}} ({{tr:Allāha}}) is the accusative proper name directly invoked. It fixes the referent as the one called upon and then anchors the pronoun in the exclusive-devotion phrase, while worship and refuge pressure stays subordinate to the proper-name reading.\",\"root_display\":\"{{ar:أ ل ه}} ({{tr:ʾ-l-h}})\",\"root_gloss_range\":\"divinity, worship, refuge, and the proper divine name; here the proper name is the direct object and singular referent of invocation\",\"surface_display\":\"{{ar:ٱللَّهَ}} ({{tr:Allāha}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_type": "channel",
+      "support_id": "sup_52b417d61e429baabbe1",
+      "text": "ن ج و 29:65; ب ر ر 29:65; ش ر ك 29:65; ك ف ر 29:66-68.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:1:paired-fa-frames",
+      "source_type": "word_analysis",
+      "support_id": "sup_57687e1a612bf169239c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"opening and rescue pivots mirror each other\",\"reader_payoff\":\"The reader notices a two-part temporal architecture: crisis entry first, rescue reversal later.\",\"reason\":\"The ayah has two connector-led temporal hinges, one at the crisis entry and one at the rescue result.\",\"representative_source_ids\":[\"MT-c7d923c2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_58c31842d05f2d1ed281",
+      "text": "29:67 provides a land-based analogue to shipboard rescue: secure space amid surrounding seizure. The repeated failure is therefore not confined to sea; granted safety repeatedly gets detached from its giver.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:11:rescue-result-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_5c112b6fe266e6c4b979",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second connector pivots into rescue result\",\"reader_payoff\":\"The reader notices the narrative hinge where completed rescue immediately opens into the sudden result.\",\"reason\":\"The second connector attaches to the past-temporal rescue clause and scopes toward the surprise response.\",\"representative_source_ids\":[\"QG-e254ca90\",\"QG-fd57f0cc\",\"MG-1ce98908\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:4:containment",
+      "source_type": "word_analysis",
+      "support_id": "sup_5f937ee109b412412b61",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"preposition makes the ship an enclosure\",\"reader_payoff\":\"The reader notices the passengers as enclosed within the vessel-space, not merely positioned on a travel object.\",\"reason\":\"The preposition governs the vessel as the locative complement of the boarding verb.\",\"representative_source_ids\":[\"QG-062d80db\",\"MG-6e8f7925\",\"MS-6b751d5c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000430/B002",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B001",
+        "root_000589/B002",
+        "root_001177/B003",
+        "root_001177/B007"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_type": "channel",
+      "support_id": "sup_6152d3c7ff65621a2918",
+      "text": "mounting a vessel or conveyance `quranic:root_000589:B001/m01`; layers riding one above another `quranic:root_000589:B002/m01`; vessel moving on water `quranic:root_001177:B003/m01`; wave moving back and forth `quranic:root_001177:B007/m01`; vocal summons that inclines an addressee `quranic:root_000478:B001/m01`; obedience and religious submission `quranic:root_000504:B001/m01`; purification after mixture `quranic:root_000430:B001/m01`; escape from entanglement `quranic:root_000430:B002/m01`; exclusive devotion without partnership `quranic:root_000430:B004/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_type": "channel",
+      "support_id": "sup_633c807b3b51a333970b",
+      "text": "Passengers mount a vessel, waves destabilize its course, entanglement strips away alternatives, and a single unalloyed call is directed outward.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:7:proper-direct-object",
+      "source_type": "word_analysis",
+      "support_id": "sup_649849c6dbb0cc655af8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"proper divine name as invocation object\",\"reader_payoff\":\"The reader notices that the call is directed to the proper divine name, not to a generic deity category.\",\"reason\":\"The proper name is accusative as the direct object of the call.\",\"representative_source_ids\":[\"QG-8a4f55c2\",\"QG-aa39b9fa\",\"QS-70d4a521\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:12",
+      "source_type": "word_analysis",
+      "support_id": "sup_6d570fa3eba7fef71cc6",
+      "text": "{\"gloss_range\":\"past-temporal particle marking the exact completed rescue moment before the sudden reversal\",\"prose\":\"{{ar:لَمَّا}} ({{tr:lammā}}) marks the rescue as completed before the response appears. It sits between the opening recurring condition and the closing surprise particle, making the timing itself carry the argument: danger, rescue, then reversal.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَمَّا}} ({{tr:lammā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:17:same-referent",
+      "source_type": "word_analysis",
+      "support_id": "sup_717388e3ec1ce68c8ba4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same group carries the contradiction\",\"reader_payoff\":\"The reader notices that the people who boarded, called, and were rescued are the same people now associating partners.\",\"reason\":\"The pronoun resumes the ship passengers and locks the final predicate onto the same referent.\",\"representative_source_ids\":[\"QS-6a82d1f7\",\"MT-e81cc4b1\",\"QB-335c9308\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:16:surprise-particle",
+      "source_type": "word_analysis",
+      "support_id": "sup_73f5401e853b85339417",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second idha is abrupt presentation\",\"reader_payoff\":\"The reader notices that the closing clause is a jarring reveal, not another calm time-condition.\",\"reason\":\"QAC and attachment evidence identify this use as the surprise particle followed by a nominal clause.\",\"representative_source_ids\":[\"QG-e461f330\",\"MG-feb46c2d\",\"QS-255f7eaf\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:5:generic-vessel-container",
+      "source_type": "word_analysis",
+      "support_id": "sup_7510f97b3f2574d50ac8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definite invariable vessel as crisis class\",\"reader_payoff\":\"The reader notices the vessel as a recognized crisis-space and not just one counted boat.\",\"reason\":\"The noun is genitive after the containment preposition and formally stable across singular/plural use.\",\"representative_source_ids\":[\"QG-0b9efb58\",\"MG-410ca1d8\",\"QF-dc1252e2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_type": "channel",
+      "support_id": "sup_7862dd6e5aa53b9d08d6",
+      "text": "Rescue is a movement from unstable water to raised, dry footing. Precisely when the environment becomes divisible and controllable again, the previously purified relation is divided into shares and the saving benefit is repudiated.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/6",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:4:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_79b4ae4c80f50a9ce856",
+      "text": "{\"lemma_ar\":\"فُلْك\",\"morph_features\":\"STEM|POS:N|LEM:fulok|ROOT:flk|M|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:65:4:2\",\"qac_word_ref\":\"29:65:4\",\"root_ar\":\"ف ل ك\",\"surface_ar\":\"فُلْكِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:7:devotion-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_7b04a79c6dc3227f57ac",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"divine name anchors the devotion phrase\",\"reader_payoff\":\"The reader notices the divine name pivoting from direct invocation into the later pronoun of exclusive devotion.\",\"reason\":\"The pronoun in word 9 resumes this direct object as the recipient of devotion.\",\"representative_source_ids\":[\"QG-208b5e78\",\"QT-7879e01b\",\"MT-8622e55e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:16",
+      "source_type": "word_analysis",
+      "support_id": "sup_7c391c47fb8eed08d62c",
+      "text": "{\"gloss_range\":\"surprise particle, not the opening conditional particle, introducing the abrupt final presentation\",\"prose\":\"The second {{ar:إِذَا}} ({{tr:idhā}}) is the surprise particle, not the opening condition repeated with the same function. It introduces {{ar:هُمْ يُشْرِكُونَ}} ({{tr:hum yushrikūna}}) as an abrupt reveal, making the post-rescue association appear as proof after 29:64.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِذَا}} ({{tr:idhā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_7e3c3732f60b7bb43a48",
+      "text": "{\"gloss_range\":\"active plural participle describing their state while calling: actively making devotion exclusive, with purification imagery and later partnership reversal both locally relevant\",\"prose\":\"{{ar:مُخْلِصِينَ}} ({{tr:mukhliṣīna}}) describes the callers' state while they invoke: they are actively making devotion exclusive. The participle governs the recipient and devotion-domain phrase, and its purification force sets up the later reversal into partner-making; this rescue formula is visible in passages such as 10:22.\",\"root_display\":\"{{ar:خ ل ص}} ({{tr:kh-l-ṣ}})\",\"root_gloss_range\":\"purity, exclusivity, separation from mixture, and making something sincerely devoted; here Form IV active participle marks active exclusive devotion as a circumstantial state\",\"surface_display\":\"{{ar:مُخْلِصِينَ}} ({{tr:mukhliṣīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:5:rescue-type-scene",
+      "source_type": "word_analysis",
+      "support_id": "sup_821329abb74ccad6c320",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"ship wording joins the rescue formula\",\"reader_payoff\":\"The reader notices that the ship is the familiar setting where danger, invocation, and rescue converge before the ayah exposes reversal.\",\"reason\":\"The word participates in a recurrent ship-danger and rescue field, including cross-surah parallels such as 10:22 and 31:32.\",\"representative_source_ids\":[\"QI-847fbdbe\",\"QE-de03b1d7\",\"QY-1c4cf328\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:15:landfall-reversal-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_86df9327c0ed202b2609",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"landfall becomes the site of reversal\",\"reader_payoff\":\"The reader notices that the formulaic move from sea danger to land safety becomes the exact setting for betrayal.\",\"reason\":\"Landfall clusters with rescue and invocation fields, and the following surprise clause turns the endpoint into a reversal site.\",\"representative_source_ids\":[\"QI-b0f7ca81\",\"QI-d7d3fec2\",\"QE-09b7baf1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/7",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:5:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_87a2ea35b6ad0df3d6ff",
+      "text": "{\"lemma_ar\":\"دَعَا\",\"morph_features\":\"STEM|POS:V|PERF|LEM:daEaA|ROOT:dEw|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:65:5:1\",\"qac_word_ref\":\"29:65:5\",\"root_ar\":\"د ع و\",\"surface_ar\":\"دَعَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:8:exclusive-purification",
+      "source_type": "word_analysis",
+      "support_id": "sup_8a6d20ff3ff82c917669",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form IV actively makes devotion exclusive\",\"reader_payoff\":\"The reader notices active de-mixing: the devotion is being made exclusively for God in the very moment of danger.\",\"reason\":\"The participle governs the recipient phrase and the devotion-domain, and the root imagery supports active purification.\",\"representative_source_ids\":[\"QS-384d164c\",\"QF-22326989\",\"QY-54c9adc4\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:16:bookend-shift",
+      "source_type": "word_analysis",
+      "support_id": "sup_921f4f0020e7fdc7c944",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same form shifts from expectation to shock\",\"reader_payoff\":\"The reader notices the repeated surface form bookending the ayah while changing function from recurring condition to sudden exposure.\",\"reason\":\"The opening use is conditional-temporal, while this closing use introduces the surprise result.\",\"representative_source_ids\":[\"QF-88ea90ef\",\"MT-a0b352fe\",\"QY-ff04c487\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_type": "channel",
+      "support_id": "sup_93afecdcda946b3ed56c",
+      "text": "Loss of control at sea purifies dependence to one addressee, but restored footing permits divided allegiance to reappear.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_954324c9878b7483b96b",
+      "text": "{\"gloss_range\":\"definite abstract object/domain of exclusivity: the whole obligation and devotion system, not a narrow private feeling\",\"prose\":\"{{ar:ٱلدِّينَ}} ({{tr:al-dīna}}) names the definite devotion-obligation domain governed by the exclusivity participle. Its judgment, debt, and submission range gives the phrase accountability weight, while the local construction keeps it as the domain being purified for God and later violated by partner-making.\",\"root_display\":\"{{ar:د ي ن}} ({{tr:d-y-n}})\",\"root_gloss_range\":\"religion, obligation, judgment, submission, and debt-like accountability; here the definite abstract noun names the whole devotion-domain purified for God\",\"surface_display\":\"{{ar:ٱلدِّينَ}} ({{tr:al-dīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:12:temporal-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_95dff0525c23c03c6b78",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"middle pivot between two idha functions\",\"reader_payoff\":\"The reader notices a timing system: recurring crisis, completed rescue, then sudden reversion.\",\"reason\":\"The particle mediates between the opening conditional use and the closing surprise use.\",\"representative_source_ids\":[\"MG-ae2fb6aa\",\"QT-dfa0e80b\",\"MT-c47f8665\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:16:boundary-proof",
+      "source_type": "word_analysis",
+      "support_id": "sup_9667798b4d94f7d1c6a9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"surprise proves the prior ignorance verdict\",\"reader_payoff\":\"The reader notices the sudden reversion as the behavioral proof of the previous ayah's charge.\",\"reason\":\"The surprise clause makes the post-rescue association appear as concrete proof after 29:64.\",\"representative_source_ids\":[\"QB-92d915e9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:3:actor-chain-perfective",
+      "source_type": "word_analysis",
+      "support_id": "sup_99cf5c71a7ce7c7e453f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"completed plural trigger starts the actor chain\",\"reader_payoff\":\"The reader notices that the same plural group is established from the first action and carried through call, rescue, and reversal.\",\"reason\":\"The perfect plural form supplies the first implicit subject and starts the shared actor chain.\",\"representative_source_ids\":[\"QG-38054bd8\",\"QG-63ed6d21\",\"QF-97cc7776\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001476/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_9c829d5a6bfe4c025958",
+      "text": "2. **The dry land tests whether the shipboard word will hold true.** Lexical evidence: `نَجَّاهُم`, root `ن ج و`, `B001` (deliverance by separation), and `ٱلْبَرّ`, root `ب ر ر`, surface-supported `B005` (land and open dry country) with dormant `B001` (truth that makes word or deed hold). Structural cue: rescue transfers them from ship to dry land; association immediately contradicts their prior exclusive submission. Assigned role: land is the new test environment; the truth/holding branch measures continuity between crisis-word and safe-land deed. Abductive move: this is a latent activation: `البر` denotes dry land directly, while the truth branch is awakened by the broken word-deed relation. Reading change: arrival on land becomes an assay of whether declared purity has structural hold.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:14:spatial-arc",
+      "source_type": "word_analysis",
+      "support_id": "sup_a1d889e52b9a58f03121",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"endpoint answers containment\",\"reader_payoff\":\"The reader notices the ayah's movement-line from enclosure in the vessel to arrival at land.\",\"reason\":\"The endpoint preposition answers the earlier containment phrase.\",\"representative_source_ids\":[\"QT-87cff980\",\"MT-38e32e50\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000504/B001",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_a3644d6e1a569ffe0829",
+      "text": "1. **Marine danger strips competing affiliations, while rescue restores the conditions for divided allegiance.** Lexical evidence: `رَكِبُوا`, root `ر ك ب`, `B003` (undertaking and being burdened by a matter); `ٱلْفُلْك`, root `ف ل ك`, `B003` (ship moving on water); `دَعَوُا`, root `د ع و`, `B001` (calling to draw near); `مُخْلِصِين`, root `خ ل ص`, `B001` (purification into unmixed clarity) with `B004` (exclusive separation from sharing); `ٱلدِّين`, root `د ي ن`, `B001` (obedience and submission); and `يُشْرِكُون`, root `ش ر ك`, `B001` (sharing and partnership). Structural cue: shipboard burden yields exclusive submission; deliverance to land triggers an immediate `إِذَا` reversal into partnership. Assigned role: danger removes imagined alternatives; rescue changes the pressure field; partnership re-enters when safety permits. Abductive move: the packet supplies temporal reversal, and I infer that circumstance rather than settled conviction regulates their purity. Reading change: sincerity is shown as situational de-mixing that fails to survive changed conditions.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:1:boundary-proof",
+      "source_type": "word_analysis",
+      "support_id": "sup_a5007e11f9735148e939",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"opening connector turns the scene into proof\",\"reader_payoff\":\"The reader notices that the ship scene is not detached narration but evidence after the previous ayah's verdict.\",\"reason\":\"The opening connector resumes the argument and launches the concrete scenario as explanatory proof.\",\"representative_source_ids\":[\"QG-af8e2c7e\",\"QT-03bf0763\",\"QB-d14baa21\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/24",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:16:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_a60158cecf1705a44fad",
+      "text": "{\"lemma_ar\":\"أَشْرَكَ\",\"morph_features\":\"STEM|POS:V|IMPF|(IV)|LEM:>a$oraka|ROOT:$rk|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:65:16:1\",\"qac_word_ref\":\"29:65:16\",\"root_ar\":\"ش ر ك\",\"surface_ar\":\"يُشْرِكُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000104/B005",
+        "root_000791/B001",
+        "root_000791/B002",
+        "root_000791/B008",
+        "root_001307/B004",
+        "root_001307/B005",
+        "root_001476/B001",
+        "root_001476/B004"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_type": "channel",
+      "support_id": "sup_a96ee7bee753f20112c9",
+      "text": "escape by separation `quranic:root_001476:B001/m01`; raised ground beyond inundation `quranic:root_001476:B004/m01`; dry land opposed to sea `quranic:root_000104:B005/m01`; shared ownership or partnership `quranic:root_000791:B001/m01`; assigning a partner in worship `quranic:root_000791:B002/m01`; divided inward opinion `quranic:root_000791:B008/m01`; denial of a received benefit `quranic:root_001307:B004/m01`; disavowal after attachment `quranic:root_001307:B005/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000430/B001",
+        "root_000430/B004",
+        "root_000478/B001",
+        "root_000504/B001",
+        "root_000589/B002",
+        "root_000589/B003",
+        "root_000791/B001",
+        "root_001177/B003"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_ae79fcafdd2b101391ee",
+      "text": "{\"anchors\":[[\"29:65:2\",\"root_000589\",[\"B002\",\"B003\"]],[\"29:65:4\",\"root_001177\",[\"B003\"]],[\"29:65:5\",\"root_000478\",[\"B001\"]],[\"29:65:7\",\"root_000430\",[\"B001\",\"B004\"]],[\"29:65:9\",\"root_000504\",[\"B001\"]],[\"29:65:16\",\"root_000791\",[\"B001\"]]],\"grade\":\"strong\",\"text\":\"Gemideki ağır tehlike rakip bağlılık katmanlarını ayırıp teslimiyeti yalnız Allah'a yöneltir; güvenliğe çıkış ise koşullara bağlı bu arılığı yeniden ortaklıkla örter.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:5:orbit-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_affe54734d9ad4392c59",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"ship sense selected while turning imagery remains\",\"reader_payoff\":\"The reader notices the vessel as unstable and movement-bound, while the local collocation keeps ship as the selected sense rather than orbit.\",\"reason\":\"The collocation with boarding in the vessel selects the maritime noun; orbit and whorl evidence remains image-pressure only.\",\"representative_source_ids\":[\"QS-2a6204b5\",\"QS-54cd9211\",\"MS-752dd579\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:12:completed-rescue-moment",
+      "source_type": "word_analysis",
+      "support_id": "sup_b2956e710bfe81560d79",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"completed rescue before the surprise\",\"reader_payoff\":\"The reader notices that the reversal comes only once rescue has been completed, making safety the trigger for exposure.\",\"reason\":\"The past-temporal particle requires the rescue event as the completed condition before the surprise clause.\",\"representative_source_ids\":[\"QG-919c9881\",\"QS-64bcfcb2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:3:conveyance-dependence",
+      "source_type": "word_analysis",
+      "support_id": "sup_b58ab443bf3b799027aa",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"riding and composition pressure becomes dependence imagery\",\"reader_payoff\":\"The reader notices human dependence on a carrier, while local grammar keeps the selected sense to boarding rather than activating every composition branch.\",\"reason\":\"The root family can suggest conveyance and composition, but the local governed phrase selects boarding into a vessel.\",\"representative_source_ids\":[\"QS-23da348f\",\"MS-2d071ccf\",\"QY-5c983bb5\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_bc110516b7a83db5681c",
+      "text": "{\"gloss_range\":\"preposition plus pronoun assigning the recipient and exclusive direction of the purified devotion back to the divine name\",\"prose\":\"{{ar:لَهُ}} ({{tr:lahu}}) compresses direction and recipient into one word. The pronoun points back to the divine name, so the devotion-domain is not merely sincere in quality but assigned exclusively to Him.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَهُ}} ({{tr:lahu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:10:devotion-domain",
+      "source_type": "word_analysis",
+      "support_id": "sup_bcb9dc98c60ba1d57514",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definite devotion-domain under exclusivity\",\"reader_payoff\":\"The reader notices that the object of purification is the whole devotion-obligation domain, not a vague inward feeling.\",\"reason\":\"The definite abstract noun is accusative as the object or specification governed by the participle.\",\"representative_source_ids\":[\"QG-b113de7d\",\"QG-c6e8067f\",\"QF-6c2d9655\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/17/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:18:partnership-reversal",
+      "source_type": "word_analysis",
+      "support_id": "sup_c33ad7401e7ddcafe834",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form IV partner-making reverses exclusivity\",\"reader_payoff\":\"The reader notices that the final verb actively parcels out what the earlier exclusivity phrase had made single for God.\",\"reason\":\"The theological frame selects association rather than ordinary sharing, and Form IV makes partner-making the active reversal of exclusive devotion.\",\"representative_source_ids\":[\"QS-95b59800\",\"QF-d53be567\",\"QY-7886126d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/17/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:18:ongoing-objectless-predicate",
+      "source_type": "word_analysis",
+      "support_id": "sup_c7a14ac8868887a3198e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"ongoing association left objectless\",\"reader_payoff\":\"The reader notices the final action as an ongoing predicate whose object is left open, making the reversion broad rather than naming one partner.\",\"reason\":\"The imperfect indicative predicate follows the fronted pronoun, and translation support marks the object as absent/absolute.\",\"representative_source_ids\":[\"QG-5608bd4c\",\"QG-d2d1486d\",\"MG-57d2a495\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:1:fused-temporal-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_d3fcf202a5ae90809aef",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"connector fuses with the first temporal frame\",\"reader_payoff\":\"The reader notices the boundary connector and the first time-condition arriving as one scenario-launching unit.\",\"reason\":\"Local clause evidence makes the first temporal frame govern the invocation response.\",\"representative_source_ids\":[\"MG-625df9f3\",\"QF-a0fafe04\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_d7d27c33144675471859",
+      "text": "{\"gloss_range\":\"sequential pivot joining completed rescue to the sudden result and mirroring the opening connector\",\"prose\":\"The second {{ar:فَ}} ({{tr:fa}}) pivots from crisis invocation into the rescue-result half of the ayah. It mirrors the opening connector but now carries the narrative toward the completed rescue and the sudden exposure.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:فَ}} ({{tr:fa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Unstable Vessel and the Purified Call",
+      "source_type": "channel",
+      "support_id": "sup_d7dd1a35397b9e05f349",
+      "text": "Sea danger removes the illusion of stable mounting: vessel, wave, and passenger are all layers riding unstable layers. إخلاص is a filtering operation in which mixed allegiances fall away until one addressee remains.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:13:divine-rescue-object",
+      "source_type": "word_analysis",
+      "support_id": "sup_d9823dc2dbc366f86e44",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"God rescues the same group\",\"reader_payoff\":\"The reader notices that the rescuing agency shifts from their call to divine action while the same people are carried as the object.\",\"reason\":\"The verb has an implicit 3ms subject supplied by context and an attached plural object pronoun.\",\"representative_source_ids\":[\"QG-3504cd14\",\"QG-549ea578\",\"MG-b47e8457\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Dry-Ground Rescue and Renewed Division",
+      "source_type": "channel",
+      "support_id": "sup_da2a6edc2e4560aebb95",
+      "text": "Extraction reaches safe dry land; once the snare is gone, allegiance is repartitioned and the received benefit is disowned.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/21",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:13:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_db5eff31a53ac44d3d3e",
+      "text": "{\"lemma_ar\":\"بَرّ\",\"morph_features\":\"STEM|POS:N|LEM:bar~|ROOT:brr|M|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:65:13:2\",\"qac_word_ref\":\"29:65:13\",\"root_ar\":\"ب ر ر\",\"surface_ar\":\"بَرِّ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/14",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:65:9:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_dcf9014ad07520ca245d",
+      "text": "{\"lemma_ar\":\"دِين\",\"morph_features\":\"STEM|POS:N|LEM:diyn|ROOT:dyn|M|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:65:9:2\",\"qac_word_ref\":\"29:65:9\",\"root_ar\":\"د ي ن\",\"surface_ar\":\"دِّينَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:11:mirrored-hinge",
+      "source_type": "word_analysis",
+      "support_id": "sup_ddef22dc0505f745d89c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second connector mirrors the opening\",\"reader_payoff\":\"The reader notices the ayah balanced by two connector-led temporal halves, crisis then rescue.\",\"reason\":\"The second connector reprises the first connector's temporal-hinge function while moving the scene to rescue and reversal.\",\"representative_source_ids\":[\"QT-4e0db05b\",\"MT-b42b4f51\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_ddf56ee53ad62f765e58",
+      "text": "{\"gloss_range\":\"completed plural boarding into a vessel-contained danger scene, with broader riding/composition pressure kept as supporting image rather than a separate local sense\",\"prose\":\"{{ar:رَكِبُوا۟}} ({{tr:rakibū}}) is completed by {{ar:فِى ٱلْفُلْكِ}} ({{tr:fī al-fulki}}), so the action is boarding into an enclosed vessel-space, not generic travel. The perfect plural form starts the same actor chain carried through call, rescue, and reversal, and the riding/composition root pressure makes their dependence on a carrier visible without replacing the local boarding sense.\",\"root_display\":\"{{ar:ر ك ب}} ({{tr:r-k-b}})\",\"root_gloss_range\":\"mounting, riding, boarding, and composed conveyance; here the governed vessel phrase selects maritime boarding and dependence on a carrier\",\"surface_display\":\"{{ar:رَكِبُوا۟}} ({{tr:rakibū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:14:endpoint-valency",
+      "source_type": "word_analysis",
+      "support_id": "sup_df85a8591f90efe8e6ce",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"preposition completes rescue toward land\",\"reader_payoff\":\"The reader notices that rescue is given a terminal direction, ending at land rather than remaining an abstract escape.\",\"reason\":\"The preposition governs the land noun as the goal complement of the rescue verb.\",\"representative_source_ids\":[\"QG-0de8856b\",\"QG-1b04bc97\",\"MG-37bd5943\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:13:extraction-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_e8662aa70d176b0e8e2b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"rescue and private-withdrawal imagery\",\"reader_payoff\":\"The reader notices extraction from danger, while secrecy or private-counsel branches remain secondary image-pressure rather than the local sense.\",\"reason\":\"The local rescue frame selects deliverance; related withdrawal/secrecy imagery only reinforces extraction.\",\"representative_source_ids\":[\"QS-df8e64ce\",\"MS-d05d0a97\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:15:land-destination",
+      "source_type": "word_analysis",
+      "support_id": "sup_eb024d71da2188317a3e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definite land as safety endpoint\",\"reader_payoff\":\"The reader notices land as the recognized safety pole that should stabilize the rescued group.\",\"reason\":\"The definite concrete noun is genitive after the endpoint preposition and functions as destination.\",\"representative_source_ids\":[\"QG-0b3b6eb5\",\"QG-2a3096e8\",\"QF-6b39b159\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000104/B001",
+        "root_000104/B005",
+        "root_001476/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/1",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-2",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_f9a33161991861b2e10c",
+      "text": "{\"anchors\":[[\"29:65:11\",\"root_001476\",[\"B001\"]],[\"29:65:13\",\"root_000104\",[\"B001\",\"B005\"]]],\"grade\":\"reject\",\"text\":\"Kuru kara, gemide söylenen arı bağlılığın davranışta tutup tutmadığını sınayan bir doğruluk zemini olarak okunabilir; ancak bu anlam doğrudan “kara” kullanımından fazla uzaklaşır.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:65:10:obligation-polysemy",
+      "source_type": "word_analysis",
+      "support_id": "sup_fd59afe0cb88a1d9cc8a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"judgment debt and submission pressure\",\"reader_payoff\":\"The reader notices that the word carries obligation and accountability pressure, while local grammar keeps it as the devotion-domain purified for God.\",\"reason\":\"The root range includes obligation, judgment, and debt-like accountability; the local construction selects the definite domain of devotion.\",\"representative_source_ids\":[\"QS-40af3fd9\",\"MS-0e26a290\",\"QY-1713a2df\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    }
+  ]
+}

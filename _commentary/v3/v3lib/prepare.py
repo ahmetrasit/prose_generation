@@ -1151,10 +1151,14 @@ def _branch_registry(
             )
         roots.append(root_record)
 
-    missing = [root for root, root_ids in mappings.items() if not root_ids]
-    if missing:
-        raise ValidationError(
-            "No root_lexicon mapping for focus roots: " + ", ".join(missing)
+    for missing_root in [root for root, root_ids in mappings.items() if not root_ids]:
+        dictionary_gaps.append(
+            {
+                "root_id": None,
+                "root_ar": missing_root,
+                "qac_roots_ar": [missing_root],
+                "reason": "no root_lexicon mapping for this QAC focus root",
+            }
         )
     return roots, known_refs, mappings, dictionary_gaps
 
@@ -3118,9 +3122,25 @@ def validate_docket(docket: dict[str, Any]) -> None:
             ].startswith("/"):
                 raise ValidationError(f"{branch_ref} source pointer is invalid")
             focus_refs.add(branch_ref)
+    raw_scope = _require_dict(docket.get("scope"), "docket scope")
+    raw_branch_coverage = _require_dict(
+        raw_scope.get("branch_coverage"), "scope.branch_coverage"
+    )
+    unmapped_gap_roots = {
+        qac_root
+        for raw_gap in _require_list(
+            raw_branch_coverage.get("missing_dictionary_roots"),
+            "scope.branch_coverage.missing_dictionary_roots",
+        )
+        if isinstance(raw_gap, dict) and raw_gap.get("root_id") is None
+        for qac_root in raw_gap.get("qac_roots_ar", [])
+        if isinstance(qac_root, str)
+    }
     mapped_root_ids: set[str] = set()
     for root_ar, raw_ids in root_mappings.items():
         root_ids = _require_list(raw_ids, f"focus_root_mappings.{root_ar}")
+        if not root_ids and root_ar in unmapped_gap_roots:
+            continue
         if (
             not root_ids
             or any(
@@ -3141,7 +3161,7 @@ def validate_docket(docket: dict[str, Any]) -> None:
             mapped_root_ids.add(root_id)
     if mapped_root_ids != set(root_records):
         raise ValidationError("Branch registry contains unmapped focus-root records")
-    scope = _require_dict(docket.get("scope"), "docket scope")
+    scope = raw_scope
     _require_exact_keys(
         scope,
         {"pericope", "lane_contract", "hft", "branch_coverage"},
@@ -3204,6 +3224,19 @@ def validate_docket(docket: dict[str, Any]) -> None:
         if set(gap) != {"root_id", "root_ar", "qac_roots_ar", "reason"}:
             raise ValidationError("Missing-dictionary root fields drifted")
         root_id = gap.get("root_id")
+        if root_id is None:
+            qac_roots = _require_list(
+                gap.get("qac_roots_ar"), "unmapped missing-dictionary qac_roots_ar"
+            )
+            if (
+                any(not isinstance(item, str) or not item for item in qac_roots)
+                or qac_roots != [gap.get("root_ar")]
+                or any(root_mappings.get(item) for item in qac_roots)
+            ):
+                raise ValidationError("Unmapped missing-dictionary root drifted")
+            if not isinstance(gap.get("reason"), str) or not gap["reason"]:
+                raise ValidationError("Missing-dictionary root lacks a reason")
+            continue
         if root_id not in root_records or root_id in gap_ids:
             raise ValidationError("Missing-dictionary root IDs are invalid")
         if root_records[root_id]["branches"]:
@@ -3491,7 +3524,14 @@ def validate_docket(docket: dict[str, Any]) -> None:
                 == _canonical_arabic_root(morpheme.get("root_ar") or "")
                 for root_id in root_ids
             }
-            if set(candidate["root_ids"]) != mapped_ids or not mapped_ids:
+            morpheme_root_ar = morpheme.get("root_ar") or ""
+            if (
+                not mapped_ids
+                and morpheme_root_ar in unmapped_gap_roots
+                and candidate["root_ids"] == []
+            ):
+                pass
+            elif set(candidate["root_ids"]) != mapped_ids or not mapped_ids:
                 raise ValidationError(
                     f"Candidate {candidate_id} QAC root ownership is invalid"
                 )
@@ -4503,7 +4543,11 @@ def build_prepared_artifacts(
     if focus_root_dictionary_gaps:
         degraded_reasons.append("incomplete_focus_root_branch_coverage")
         labels = ", ".join(
-            f"{item['root_id']} ({item['root_ar']})"
+            (
+                f"{item['root_id']} ({item['root_ar']})"
+                if item.get("root_id") is not None
+                else f"unmapped QAC root {item['root_ar']}"
+            )
             for item in focus_root_dictionary_gaps
         )
         warnings.append(

@@ -1,0 +1,3466 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dal, insan türünü ve onun tekil ya da toplu üyelerini kapsar; yakınlık duygusunu, duyusal algıyı ve insana dönük yanı kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000059/B001",
+          "gloss": "insan türü ve bu türden bir kişi",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal duyusal olarak fark etmeyi ve belirtilen bağlamlardaki işitme, sezme ve bakıp araştırma kullanımlarını kapsar; yakınlık ve rahatlık duygusunu kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000059/B002",
+          "gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal duygusal yakınlık, rahatlık ve bunları sağlayan varlıkları kapsar; insan türünün adı, duyusal fark etme ve insana bakan yan anlamları dışarıda kalır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000059/B003",
+          "gloss": "yabancılık duymadan yakınlık ve rahatlık hissetme",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bir nesnenin insana veya kullanıcıya bakan yanını belirtir; salt sol, salt sağ, genel ön taraf ya da insanın kendisi anlamına gelmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000059/B004",
+          "gloss": "insana dönük yan",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal göz bebeğinde görülen küçük görüntüyü, ayrıca ayrı bir aktarım olarak parmak ucunu kapsar; gözün kendisini veya genel insan türünü belirtmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000059/B005",
+          "gloss": "göz bebeğinde görülen küçük yansıma",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnız belirtilen söz kuruluşlarında kişinin kendisini veya seçkin yakınını gösterir; genel insan, gerçek evlatlık ve her türlü arkadaşlık anlamına genişletilemez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000059/B006",
+          "gloss": "belirli sözlerde kişinin kendisi veya seçilmiş yakını",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal eve girmeden önce izin ve kabul arama durumuyla sınırlıdır; genel görme, genel yakınlık, eve yerleşme veya barınma anlamına gelmez.",
+          "branch_kind": "unresolved",
+          "branch_ref": "root_000059/B007",
+          "gloss": "girişten önce izin ve kabul arama",
+          "source_pointer": "/root_lexicon/root_000059/dictionary_entry/branches/6",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ن و س"
+      ],
+      "root_ar": "ن و س",
+      "root_id": "root_000059"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal yolculuk, örnek verme, vazgeçme veya sözcüğün öteki türemiş kullanımlarını kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B001",
+          "gloss": "bir şeyi başka bir şeyin üzerine vurmak",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalın vurma eylemine değil, yalnızca yeryüzünde yol almayı bildiren belirli söz öbeğine aittir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B002",
+          "gloss": "bir amaçla yeryüzünde yolculuk etmek",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal doğrudan fiziksel vurmayı, genel benzerliği veya nesnelerin türünü bildirmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B003",
+          "gloss": "örnek vererek açıklamak",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kişinin kendi isteğiyle geri durması çekirdektir; başkasının elini bağlayarak onu engellemek bu dala girmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B004",
+          "gloss": "bir işten geri durup yüz çevirmek",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Burada kişi kendi isteğiyle vazgeçmez; başka biri onun davranışını durdurur veya sınırlar.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B005",
+          "gloss": "birinin giriştiği işi engellemek",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu kayıt genel kök anlamı gibi genişletilmemeli, içindeki öğeler birbirinin yerine geçen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtın verdiği adlandırma sınırı içinde kullanılmalıdır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B006",
+          "gloss": "biçime bağlı adlandırmalar",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal açıklama amacıyla sunulan örneği ya da iki tekil varlık arasındaki benzerliği bildirmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B007",
+          "gloss": "tür ya da biçim kalıbı",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel bir nesne türünü veya açıklamak için sunulan örneği değil, denk ya da benzer karşılığı bildirir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B008",
+          "gloss": "benzer ve denk karşılık",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal kişiye ya da toprağa yüklenen mali ödemeyi ve genel tür anlamını kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B009",
+          "gloss": "yerleşik yaradılış ve huy",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal kişilik veya yaradılış anlamındaki eş biçimli addan ayrıdır; kendiliğinden elde edilen kazancı da bildirmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B010",
+          "gloss": "kişiye ya da toprağa yüklenen mali ödeme",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal develerin çiftleşme ve çiftleştirilme olayıyla sınırlıdır; fiziksel vurma veya ticari ortaklık anlamı taşımaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000906/B011",
+          "gloss": "erkek devenin dişiyle çiftleşmesi",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Düzensiz hareket yalın çekirdektir; ağrılı damar atması ve devenin ürkmesi yalnızca kendi söz yapılarında geçerlidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000906/B012",
+          "gloss": "düzensiz ve yinelenen hareket",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/11",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Her yağış veya her kuruma bu dala girmez; kırağı, buz, sıcak rüzgar etkisi ve hafif yağmur tanıklanan sınırlar içinde tutulur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B013",
+          "gloss": "hava olayının toprağa veya bitkiye etkisi",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/12",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalın vurma eylemi değildir; yalnızca vurmayla işlevsel veya türetimsel bağı olan araç, bölüm, yer ve iş adlarını kapsar.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000906/B014",
+          "gloss": "vurma aracı, bölgesi, yeri veya işi",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/13",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Her bal veya süt bu dala girmez; balda koyuluk ya da katılık, sütte karışma veya koyulaşma koşulu aranır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B015",
+          "gloss": "yoğun bal veya karışıp koyulaşmış süt",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/14",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal yalnızca yolculuk veya genel ticaret değildir; para sahibi ile işi yürüten kişi arasındaki kazanç paylaşımı zorunludur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B016",
+          "gloss": "para-emek ortaklığı",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/15",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal vurma veya savaş eyleminin kendisini değil, başkasını o eyleme yönelten kışkırtmayı bildirir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000906/B017",
+          "gloss": "çatışmaya kışkırtmak",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/16",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dalın öğeleri genel kök anlamı gibi genişletilmemeli, birbirinin yerine geçebilen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtta verilen biçim veya bağlam sınırı içinde tutulmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000906/B018",
+          "gloss": "özel adlandırma kümesi",
+          "source_pointer": "/root_lexicon/root_000906/dictionary_entry/branches/17",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ض ر ب"
+      ],
+      "root_ar": "ض ر ب",
+      "root_id": "root_000906"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, kan karşılığı ödemeyi, hayvan bağını ve bedeni tutan ilacı değil, kavrayış ile davranış denetimini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B001",
+          "gloss": "bilgiyi edinip kavrama, ayırt etme ve davranışı denetleme yetisi",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, zihinsel kavrayışı veya kan karşılığını değil, uzvu ya da saçı bağlayıp yerinde tutma işlemini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B002",
+          "gloss": "devenin ön ayağını büküp bağlayarak tutma",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel kavrayış eksikliğini değil, dilin tutulması yüzünden konuşmanın gerçekleşememesini anlatır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001036/B003",
+          "gloss": "dilin tutulup konuşamaz hâle gelmesi",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yıllık hayvan vergisinden ve deve bağından ayrıdır; yaralama veya öldürme sorumluluğuna bağlı ödeme düzenidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B004",
+          "gloss": "öldürme veya yaralama karşılığı ödeme ve bu yükü paylaşma düzeni",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel bir ipi veya yaralama karşılığı ödemeyi değil, yıllık hayvan vergisini ve onun tahsilini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B005",
+          "gloss": "yıllık hayvan vergisi ve bunun tahsili",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, zihinsel denetimi değil, bağırsak boşalmasının yiyecek veya ilaçla durdurulmasını anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B006",
+          "gloss": "ishali yiyecek veya ilaçla durdurma",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, bağ ipini değil, zarar veya yakalanmadan korunmayı sağlayan sığınağı ve oraya çekilmeyi anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B007",
+          "gloss": "korunaklı sığınak ve oraya çekilerek korunma",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dalın genel çekirdeği seçkin ve değerli olma niteliğidir; korunmuşluk yalnız desteklenen örneklerde ek bir sınırdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B008",
+          "gloss": "bir topluluğun veya türün en seçkin ve değerli örneği",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, bağ ipini değil, bacak yapısındaki eğriliği veya hayvan bacaklarını etkileyen hastalık ve topallığı anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001036/B009",
+          "gloss": "diz çarpışmasına yol açan bacak eğriliği veya hayvanlarda bacak hastalığı",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, iple bağlama veya bacak hastalığı değil, bacakları bir şeyi tutacak ya da rakibi kilitleyecek biçimde konumlandırmadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B010",
+          "gloss": "bir şeyi bükülmüş bacaklar arasında sıkıştırıp tutma",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel bir sığınak veya bağ değil, çizginin eğrilip dolanması ile kumun kıvrılarak yığılması görünümüdür.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001036/B011",
+          "gloss": "eğrilip kıvrılan bölüm veya iç içe yığılmış kum tepesi",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel olarak öğle vaktini değil, gün ortasında gölgenin kısalıp dik ve sabit görünmesi durumunu anlatır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_001036/B012",
+          "gloss": "gün ortasında gölgenin kısalıp sabit görünmesi",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, zihinsel yeti veya bağ değil, kırmızı renkli ya da desenli belirli bir giysi ve kumaş türüdür.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001036/B013",
+          "gloss": "kırmızı veya desenli dokuma giysi türü",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel büyüyü değil, kişiyi bağladığı düşünülen büyü etkisini ve bu etkiye uygulanan çözmeyi anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001036/B014",
+          "gloss": "büyünün bağlayıcı etkisi ve bunu çözme uygulaması",
+          "source_pointer": "/root_lexicon/root_001036/dictionary_entry/branches/13",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ق ل"
+      ],
+      "root_ar": "ع ق ل",
+      "root_id": "root_001036"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek, bir şeyi bilme ve gerçeğiyle kavramadır; bildirme, öğretme, öğrenme ve bilgi yarışında yenme ayrı biçimlere bağlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B001",
+          "gloss": "bilme ve gerçeğini kavrama",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bütün işaret türlerini sınırsızca kapsamaz; kaynakta anılan ayırt etme ve yol gösterme işlevli izlerle bunlara bağlı kullanımlarla sınırlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B002",
+          "gloss": "ayırt edici ve yol gösterici işaret",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yaratılmış varlıkların bütünü veya sınıflarıyla sınırlıdır; bilme durumu ve bağımsız bir fiziksel işaret anlamına gelmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B003",
+          "gloss": "evren ve bütün yaratılmışlar",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Belirti özellikle üst dudakta bulunur; genel çatlaklar, alt dudak ve ağız çevresindeki başka eğrilikler kapsam dışıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B004",
+          "gloss": "üst dudak yarığı",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Deniz ile suyu bol kuyu tek bir ara nesnede birleştirilmez; bunlar aynı biçimin kaynaklarda verilen iki ayrı sözlük karşılığıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B005",
+          "gloss": "deniz ya da suyu bol kuyu",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/4",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Çekirdek yırtıcı kuş adıdır; çevik ve zeki erkek nitelemesi yalnızca bu addan türeyen biçime bağlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B006",
+          "gloss": "doğan veya atmaca türü yırtıcı kuş",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca erkek sırtlanı adlandırır; başka erkek hayvan adları ve benzer sesli su veya kuş adları kapsam dışıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B007",
+          "gloss": "erkek sırtlan",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
+      "root_ar": "ع ل م",
+      "root_id": "root_001040"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal, kalıplaşmış özlü sözü, cezalandırmayı, betimlemeyi veya yapılmış görüntüyü değil, iki şey arasındaki genel benzerlik ve denklik ilişkisini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B001",
+          "gloss": "benzerlik ve denklik",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu anlam sıradan benzerlikten ayrılır; cezalandırılan kişinin uğradığı işlem başkalarını caydıran görünür bir sonuç doğurur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B002",
+          "gloss": "ibret verici ağır cezalandırma",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal iki şeyin yalnızca benzemesini değil, bir durumu başka bir durum üzerinden anlatmak için söylenen ve dolaşım kazanan sözü kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B003",
+          "gloss": "benzer duruma aktarılan örnek söz",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Burada söz konusu olan, bir şeyi anlatan nitelik ya da onun hakkındaki bilgidir; benzerlik kuran örnek söz veya görsel biçim değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001397/B004",
+          "gloss": "nitelik veya hakkında verilen bilgi",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal, ayakta ve dik durumda bulunmayı anlatır; yerden ayrılıp gitme, yere sinme veya yalnızca bir yerde hazır bulunma anlamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B005",
+          "gloss": "ayağa kalkıp dik durma",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, birbirine eşit olmayan iki eski kullanımı yan yana taşır: yerinden ayrılıp gitmek ile yere sinmek veya silinip belirsizleşmek.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B006",
+          "gloss": "yerinden ayrılma; yere sinip silinme",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal, yere serilen veya üzerine yatılan eşyayı anlatır; bir şeyin görüntüsü ya da uyulacak örneği değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001397/B007",
+          "gloss": "döşek veya yere serilen yaygı",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca benzerlik ilişkisini değil, benzerliğin görünür veya yapılmış bir biçime dönüşmesini ya da bir şeyin belirli bir biçime girip görünmesini anlatır; döşek ve özlü söz anlamları dışarıdadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B008",
+          "gloss": "başkasına benzetilerek yapılmış görüntü",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal nicelikçe eşitliği değil, iyilik, erdem veya seçkinlik bakımından daha üstün olmayı ve grubun en iyilerini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001397/B009",
+          "gloss": "iyilik ve erdem bakımından üstün",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal yalnızca itaat etmeyi değil, önceden verilmiş bir buyruk, davranış örneği veya yol uyarınca aynı biçimde hareket etmeyi gerektirir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001397/B010",
+          "gloss": "buyruk veya örneğe uygun davranma",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal söylenmiş özlü örneği değil, gözlenen veya bilinen haliyle başka bir gerçeğe işaret eden ve ders alınmasını sağlayan olguyu anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001397/B011",
+          "gloss": "ders çıkarılan olay veya gösterge",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal yalnızca hastalık bağlamındaki yapılar için geçerlidir ve tam sağlığa kavuşmayı zorunlu kılmaz; hastanın toparlanmaya başlaması veya daha iyi durumda olması yeterlidir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001397/B012",
+          "gloss": "hastalıktan sonra toparlanıp iyileşme",
+          "source_pointer": "/root_lexicon/root_001397/dictionary_entry/branches/11",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "م ث ل"
+      ],
+      "root_ar": "م ث ل",
+      "root_id": "root_001397"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c698b3879b33265dafdf",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:10:connected-subset-boundary",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8482ce30c7665099e2e4",
+        "sup_d8490cff95bbf40c6a26"
+      ],
+      "title": "knowers carved from the audience",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e7c2b17c5415cd83551b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:10:exception-cadence",
+      "source_pointer": "/word_analysis/words/9/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8d6ba6ed05a900e83afe",
+        "sup_d8490cff95bbf40c6a26"
+      ],
+      "title": "sound opens toward final plural closure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bff7fe027111eaa453f8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:10:exceptive-not-conditional",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b57e9c0608d387a4fae",
+        "sup_d8490cff95bbf40c6a26"
+      ],
+      "title": "exceptive force over conditional wording",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f7a06bd1115cc2e50647",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:10:restriction-completion",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a9079f26ef37b437a5c1",
+        "sup_d8490cff95bbf40c6a26"
+      ],
+      "title": "exception completes exclusive comprehension",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dd5a75cde7d250d30cb4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:11:audience-subset-and-reason",
+      "source_pointer": "/word_analysis/words/10/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_18ebd2a22b9ee0119c40",
+        "sup_5982abcc3a78dedf20f2"
+      ],
+      "title": "knowers as the successful subset",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_23e8346d010e80195f80",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:11:definite-active-participle-class",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_18ebd2a22b9ee0119c40",
+        "sup_b8fc07b5947987e8bb40"
+      ],
+      "title": "recognized class characterized by knowing",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ee4943a34439da2d8f26",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:11:final-knowledge-closure",
+      "source_pointer": "/word_analysis/words/10/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_18ebd2a22b9ee0119c40",
+        "sup_8bece1208a642bc06e80"
+      ],
+      "title": "closure lands on the knowing class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5371b18771f366c26243",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:11:nearby-divine-to-human-knowledge",
+      "source_pointer": "/word_analysis/words/10/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_18ebd2a22b9ee0119c40",
+        "sup_a0ec1ab7b351aa70d16d"
+      ],
+      "title": "knowledge root moves into human reception",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_65463a8d7118ae7bea83",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:11:structured-knowledge-field",
+      "source_pointer": "/word_analysis/words/10/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_18ebd2a22b9ee0119c40",
+        "sup_ee9763e82b74a630d43b"
+      ],
+      "title": "knowledge field narrowed to human knowers",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_87fc60a397cb29a29cfa",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:1:fused-soft-opening",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_44df81de61dc5f9c5873",
+        "sup_a9b7886477b913993eb3"
+      ],
+      "title": "connector fused to the pointer",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5f418460b7478ab5c48f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:1:resumptive-metacommentary",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2761dae66a66e4019362",
+        "sup_44df81de61dc5f9c5873"
+      ],
+      "title": "resumptive bridge into parable theory",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c1a8b5c483f11427683e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:2:concord-and-topic-fronting",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_91278aea9c0cd72320cc",
+        "sup_b91888914b9e84f1f02c"
+      ],
+      "title": "feminine pointer locked to the parable noun",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ddbcbd62a73228a69e93",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:2:distal-retrospective-deixis",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b91888914b9e84f1f02c",
+        "sup_e0af9d94d1ad401abf87"
+      ],
+      "title": "distal pointer to known parables",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8185a71e3913341b4868",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:2:linked-deixis-surface",
+      "source_pointer": "/word_analysis/words/1/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b91888914b9e84f1f02c",
+        "sup_bc3da4dc42c4bc21f2ec"
+      ],
+      "title": "surface fusion of link and deixis",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_feae8b5edf5b00583c52",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:3:likeness-state-warning-field",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5412d1396a3db7c364c2",
+        "sup_66394604ebd930591469"
+      ],
+      "title": "likeness field narrowed to local parables",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2125be33f6e7aeb60116",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:3:nominal-topic-class",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0e3d22d679b3bd871ce1",
+        "sup_66394604ebd930591469"
+      ],
+      "title": "definite plural in the subject frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e19539594596a3ab425e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:3:parable-setting-formula",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_66394604ebd930591469",
+        "sup_7640b8ab1e52891c01bd"
+      ],
+      "title": "recognized parable-setting association",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8bc266146faf5f1bba83",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:3:reasoning-endpoint-pair",
+      "source_pointer": "/word_analysis/words/2/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_66394604ebd930591469",
+        "sup_98ed046cfa6a13e9d859"
+      ],
+      "title": "parables paired with knowers and reasoning",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0b6de710954367a24401",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:3:spider-parable-generalized",
+      "source_pointer": "/word_analysis/words/2/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_66394604ebd930591469",
+        "sup_a290ee7a865c7182ac94"
+      ],
+      "title": "29:41 example becomes a class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_723e3ed200e8e783e5f4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:4:delivery-reasoning-mirror",
+      "source_pointer": "/word_analysis/words/3/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_bea437f45b72baacb492",
+        "sup_cdd768c9bfe536d73b23"
+      ],
+      "title": "shared object between divine delivery and human reasoning",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f6420c24680054deccb2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:4:divine-imperfect-agency",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03dd21df951763bc4240",
+        "sup_bea437f45b72baacb492"
+      ],
+      "title": "compact divine habitual action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_559ceb799f93fd975fe2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:4:formulaic-metacommentary",
+      "source_pointer": "/word_analysis/words/3/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_57719b4e6070771c9362",
+        "sup_bea437f45b72baacb492"
+      ],
+      "title": "formula names what 29:41 enacted",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1f30ae69686d1ce169fc",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:4:object-recipient-frame",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_bea437f45b72baacb492",
+        "sup_e14bd2c1164dedc3ae4c"
+      ],
+      "title": "parables as object, people as recipient",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_26a11e709da0a8cf925c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:4:set-forth-impact-narrowing",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_37b5aabda56e59042a77",
+        "sup_bea437f45b72baacb492"
+      ],
+      "title": "set-forth idiom with impact and imprint pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_262e73f62af23cd4dad9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:5:benefactive-purpose-recipient",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_560e60fc73b545184270",
+        "sup_b05d2152f3a8f78d596d"
+      ],
+      "title": "purpose and benefit toward people",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7a2fa895edd3d4842628",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:5:fused-delivery-path",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_560e60fc73b545184270",
+        "sup_7fbccf65ca17d9ee7904"
+      ],
+      "title": "compact path into the audience noun",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cec32c5266f99930122d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:6:human-audience-recurrence",
+      "source_pointer": "/word_analysis/words/5/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_441223437f51b790947c",
+        "sup_cdc276a99eb50257f1aa"
+      ],
+      "title": "public parable address as a recurring profile",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4d44313f8ef492dd9c94",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:6:perception-familiarity-irony",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2a834142bd399c329df3",
+        "sup_441223437f51b790947c"
+      ],
+      "title": "human perception and familiarity under a comprehension limit",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_aeec332961adb2f0b9fb",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:6:recipient-not-comprehending-subject",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_441223437f51b790947c",
+        "sup_473cb2826c6933175983"
+      ],
+      "title": "recipient grammar, not subject grammar",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_47fffa94cc0543ea862b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:6:sound-compression-after-preposition",
+      "source_pointer": "/word_analysis/words/5/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_441223437f51b790947c",
+        "sup_8498462151319c949183"
+      ],
+      "title": "compact recipient phrase sound",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c511a63d47b99de72361",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:6:universal-audience-filter",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1a3495fb1688ab9b6952",
+        "sup_441223437f51b790947c"
+      ],
+      "title": "humanity as denominator, knowers as subset",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_046d9918a17039775c0e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:7:adversative-circumstantial-pivot",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_55b3a240207f8c2c7870",
+        "sup_642dadd30efe879a2298"
+      ],
+      "title": "pivot from delivery to restriction",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6fb8465731a16a6101b1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:7:fused-negation-entry",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_55b3a240207f8c2c7870",
+        "sup_b36f200518de60413391"
+      ],
+      "title": "contrast fused with negation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2d5c9ee49c26151ee90d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:8:negation-exception-restriction",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_11c474a6032431ea737b",
+        "sup_e5af33cd1aadd4df68a9"
+      ],
+      "title": "negative half of exclusive comprehension",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cba4ce59f1166d0763a5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:8:negative-not-relative",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_e11b5c6bf52b4115c7b6",
+        "sup_e5af33cd1aadd4df68a9"
+      ],
+      "title": "negative particle, not relative wording",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_049f00be82a2ff11a86f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:8:sharp-turn-pacing",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b66e75f8279881af37df",
+        "sup_e5af33cd1aadd4df68a9"
+      ],
+      "title": "clipped denial before narrow allowance",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_753871471648f5eb9050",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:9:binding-comprehension-field",
+      "source_pointer": "/word_analysis/words/8/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_e2671a2eddd3323490d0",
+        "sup_ee65348e18015694ccc9"
+      ],
+      "title": "binding imagery in mental comprehension",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8181f647c59470fd65d2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:9:parable-reasoning-specialization",
+      "source_pointer": "/word_analysis/words/8/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1a071ca2de600fc41a47",
+        "sup_e2671a2eddd3323490d0"
+      ],
+      "title": "reasoning narrowed onto parables",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_196cedfdf2c681daa617",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:9:shared-object-mirror",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_d1ee563703a63a1bf728",
+        "sup_e2671a2eddd3323490d0"
+      ],
+      "title": "same parables under divine and human acts",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_885c40516d641aee2ec4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:43:9:verbal-declarative-process",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_35e36897cd8573719f2e",
+        "sup_e2671a2eddd3323490d0"
+      ],
+      "title": "reasoning as an enacted process",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:34",
+        "29:40",
+        "29:43"
+      ],
+      "branch_refs": [
+        "root_000325/B001",
+        "root_000325/B002",
+        "root_000325/B003",
+        "root_000745/B004",
+        "root_000906/B013",
+        "root_001492/B002",
+        "root_001492/B006"
+      ],
+      "candidate_id": "cand_7726cb60679890e072b5",
+      "focus_branch_refs": [
+        "root_000906/B013"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000325/B001",
+        "root_000325/B002",
+        "root_000325/B003",
+        "root_000745/B004",
+        "root_001492/B002",
+        "root_001492/B006"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_4909d5ffbe439cc72cf1",
+        "sup_8ee1ac1034d73713b47b",
+        "sup_90cdef2d951b71b0d70c",
+        "sup_bd5c1d8ef495a1eb5a04",
+        "sup_f8e1eef4030c5b5d00de"
+      ],
+      "title": "Stone-Bearing Wind and Descending Impact",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:35",
+        "29:41",
+        "29:43"
+      ],
+      "branch_refs": [
+        "root_000906/B003",
+        "root_000906/B007",
+        "root_000906/B014",
+        "root_001036/B001",
+        "root_001036/B002",
+        "root_001397/B003",
+        "root_001397/B008",
+        "root_001397/B011"
+      ],
+      "candidate_id": "cand_089c03d64e8b11e4c8bc",
+      "focus_branch_refs": [
+        "root_000906/B003",
+        "root_000906/B007",
+        "root_000906/B014",
+        "root_001036/B001",
+        "root_001036/B002",
+        "root_001397/B003",
+        "root_001397/B008",
+        "root_001397/B011"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_222c297a0c6810ef3714",
+        "sup_297740abf618e70c55aa",
+        "sup_812506a2232b0254c2fd",
+        "sup_b34391442b8156bfbef2",
+        "sup_ea32c5ea77a215cea15a"
+      ],
+      "title": "Struck Model and Rational Restraint",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_25053a14e904897b76f8",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001397"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:43:2:2",
+      "source_pointer": "/qac_morphemes/3",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_192c7226d9ad47a6c1f2"
+      ],
+      "title": "QAC root occurrence: م ث ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5d6fad1162e2b3605e5d",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000906"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:43:3:1",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_984a7274c5c72ef8cc1b"
+      ],
+      "title": "QAC root occurrence: ض ر ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_748f01817d31576bdba3",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000059"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:43:4:3",
+      "source_pointer": "/qac_morphemes/8",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_42b4450b6f949131800f"
+      ],
+      "title": "QAC root occurrence: ن و س",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_23130c643cfd7f0f813b",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001036"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:43:6:1",
+      "source_pointer": "/qac_morphemes/11",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_cb2f6a9c9f1b09c23f89"
+      ],
+      "title": "QAC root occurrence: ع ق ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e30eab47f12168a67bcc",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001040"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:43:8:2",
+      "source_pointer": "/qac_morphemes/15",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_8100796bf88042e9650a"
+      ],
+      "title": "QAC root occurrence: ع ل م",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43:2",
+        "29:43:3",
+        "29:43:6"
+      ],
+      "branch_refs": [
+        "root_000906/B001",
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001397/B003"
+      ],
+      "candidate_id": "cand_b9e73be6f1c09541fb1c",
+      "focus_branch_refs": [
+        "root_000906/B001",
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001397/B003"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_f8c20a983075f8d37824"
+      ],
+      "title": "Örnek yalnız bir benzerlik sunmaz; zihne çarpıp ilişkileri yeniden düzenlediğinde kişiyi yanlıştan alıkoyan kavrayışa dönüşür.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43"
+      ],
+      "branch_refs": [
+        "root_000906/B003"
+      ],
+      "candidate_id": "cand_5198915a35b0a4b1126f",
+      "focus_branch_refs": [
+        "root_000906/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_85e062256780aca0bd75"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_fa1f31b29e6dfac9c366",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_cb33213fca33da61e303"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43"
+      ],
+      "branch_refs": [
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001040/B001",
+        "root_001397/B003"
+      ],
+      "candidate_id": "cand_bd45e793b75b49b9c03d",
+      "focus_branch_refs": [
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001040/B001",
+        "root_001397/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_4f9e875ac613866d1ad6"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:43"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f4a6127440f8b017e107",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_c60551d1ebb087a1d883"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "ن و س/B001",
+          "reason": "ambiguous root mapping: root_000059/B001, root_004965/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:43"
+      ],
+      "branch_refs": [
+        "root_001036/B001"
+      ],
+      "candidate_id": "cand_8343b65fe51a3734cd91",
+      "focus_branch_refs": [
+        "root_001036/B001"
+      ],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_39dd51f4df2f08bbbac2"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 65,
+    "by_disposition": {
+      "docket_mandatory": 42,
+      "docket_optional": 11,
+      "parse_failed": 9,
+      "quarantined": 3
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 2,
+      "hft": 11,
+      "qac_morpheme": 5,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 40
+    },
+    "discovered_seed_count": 65,
+    "docket_candidate_count": 53,
+    "mandatory_candidate_count": 42,
+    "optional_candidate_count": 11,
+    "selection_eligible_candidate_count": 43,
+    "selection_ineligible_candidate_count": 10
+  },
+  "focus": {
+    "arabic_uthmani": "وَتِلْكَ ٱلْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَٰلِمُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:43:1:1",
+        "qac_word_ref": "29:43:1",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "ذَٰلِك",
+        "morph_features": "STEM|POS:DEM|LEM:*a`lik|FS",
+        "morpheme_role": "STEM",
+        "pos": "DEM",
+        "qac_ref": "29:43:1:2",
+        "qac_word_ref": "29:43:1",
+        "root_ar": "",
+        "surface_ar": "تِلْكَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:43:2:1",
+        "qac_word_ref": "29:43:2",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "مَثَل",
+        "morph_features": "STEM|POS:N|LEM:maval|ROOT:mvl|MP|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:43:2:2",
+        "qac_word_ref": "29:43:2",
+        "root_ar": "م ث ل",
+        "surface_ar": "أَمْثَٰلُ"
+      },
+      {
+        "lemma_ar": "ضَرَبَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Daraba|ROOT:Drb|1P",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:43:3:1",
+        "qac_word_ref": "29:43:3",
+        "root_ar": "ض ر ب",
+        "surface_ar": "نَضْرِبُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3FS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:43:3:2",
+        "qac_word_ref": "29:43:3",
+        "root_ar": "",
+        "surface_ar": "هَا"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:P+",
+        "morpheme_role": "PREFIX",
+        "pos": "P",
+        "qac_ref": "29:43:4:1",
+        "qac_word_ref": "29:43:4",
+        "root_ar": "",
+        "surface_ar": "لِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:43:4:2",
+        "qac_word_ref": "29:43:4",
+        "root_ar": "",
+        "surface_ar": "ل"
+      },
+      {
+        "lemma_ar": "نَّاس",
+        "morph_features": "STEM|POS:N|LEM:n~aAs|ROOT:nws|MP|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:43:4:3",
+        "qac_word_ref": "29:43:4",
+        "root_ar": "ن و س",
+        "surface_ar": "نَّاسِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:43:5:1",
+        "qac_word_ref": "29:43:5",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "مَا",
+        "morph_features": "STEM|POS:NEG|LEM:maA",
+        "morpheme_role": "STEM",
+        "pos": "NEG",
+        "qac_ref": "29:43:5:2",
+        "qac_word_ref": "29:43:5",
+        "root_ar": "",
+        "surface_ar": "مَا"
+      },
+      {
+        "lemma_ar": "عَقَلُ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Eaqalu|ROOT:Eql|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:43:6:1",
+        "qac_word_ref": "29:43:6",
+        "root_ar": "ع ق ل",
+        "surface_ar": "يَعْقِلُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3FS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:43:6:2",
+        "qac_word_ref": "29:43:6",
+        "root_ar": "",
+        "surface_ar": "هَآ"
+      },
+      {
+        "lemma_ar": "إِلَّا",
+        "morph_features": "STEM|POS:RES|LEM:<il~aA",
+        "morpheme_role": "STEM",
+        "pos": "RES",
+        "qac_ref": "29:43:7:1",
+        "qac_word_ref": "29:43:7",
+        "root_ar": "",
+        "surface_ar": "إِلَّا"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:43:8:1",
+        "qac_word_ref": "29:43:8",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "عَٰلِم",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ea`lim|ROOT:Elm|MP|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:43:8:2",
+        "qac_word_ref": "29:43:8",
+        "root_ar": "ع ل م",
+        "surface_ar": "عَٰلِمُونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:43:1:1"
+      ],
+      [
+        "29:43:1:2"
+      ],
+      [
+        "29:43:2:1",
+        "29:43:2:2"
+      ],
+      [
+        "29:43:3:1",
+        "29:43:3:2"
+      ],
+      [
+        "29:43:4:1"
+      ],
+      [],
+      [
+        "29:43:5:1"
+      ],
+      [
+        "29:43:5:2"
+      ],
+      [
+        "29:43:6:1",
+        "29:43:6:2"
+      ],
+      [
+        "29:43:7:1"
+      ],
+      [
+        "29:43:8:1",
+        "29:43:8:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:43:1",
+      "29:43:2",
+      "29:43:3",
+      "29:43:4",
+      "29:43:5",
+      "29:43:6",
+      "29:43:7",
+      "29:43:8",
+      "29:43:9",
+      "29:43:10",
+      "29:43:11"
+    ]
+  },
+  "focus_root_mappings": {
+    "ض ر ب": [
+      "root_000906"
+    ],
+    "ع ق ل": [
+      "root_001036"
+    ],
+    "ع ل م": [
+      "root_001040"
+    ],
+    "م ث ل": [
+      "root_001397"
+    ],
+    "ن و س": [
+      "root_000059"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:43",
+    "docket_payload_sha256": "b759784eef20cb6fade56f77c44c1444f3ed194e51ed92712b285c715f62ed47",
+    "source_canonical_sha256": "c57fd69fa8b3dc20742eca9833c271dc937828603ba7151759ca53ee0c29f25b"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000325/B001",
+      "image_ar": "الحَصْباء والحصى",
+      "image_en": "gravel and pebbles",
+      "root_ar": "ح ص ب",
+      "scope_ar": "الحَصْباء والحصى، وصغارهما وكباره، والأرض ذات الحصباء، وفرش الموضع بها",
+      "scope_en": "the gravel or pebble material itself, including pebbled ground and strewing a place with it",
+      "source_file": "v4/outputs/pass2_branches/root_000325.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000325/B002",
+      "image_ar": "الرمي بالحصباء",
+      "image_en": "throwing with pebbles",
+      "root_ar": "ح ص ب",
+      "scope_ar": "رمي الإنسان أو الموضع بالحصباء، وتقاذف القوم بها، وإثارة الفرس أو العداء الحصباء في العدو",
+      "scope_en": "throwing, pelting, or kicking up pebbles",
+      "source_file": "v4/outputs/pass2_branches/root_000325.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_000325/B003",
+      "image_ar": "الريح الحاصب",
+      "image_en": "the dust-raising pebble wind",
+      "root_ar": "ح ص ب",
+      "scope_ar": "الريح الشديدة التي تحمل التراب أو تثير الحصباء، وما يتناثر من دقاق البرد والثلج",
+      "scope_en": "a violent wind that carries dust or raises pebbles, and by extension scattering bits of hail or snow",
+      "source_file": "v4/outputs/pass2_branches/root_000325.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_000745/B004",
+      "image_ar": "السماء وما علا فأظل",
+      "image_en": "overhead sky and cover",
+      "root_ar": "س م و",
+      "scope_ar": "يدخل فيه السماء لما علا وأظل، والسقف، والسحاب، والمطر، والنبات المنسوب إلى المطر، وظهر الفرس أو أعلى الشيء.",
+      "scope_en": "The sky or any upper covering/surface, with source-attested extensions to cloud, rain, vegetation from rain, and an animal's upper back.",
+      "source_file": "v4/outputs/pass2_branches/root_000745.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/0/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B002",
+      "image_ar": "إنزال الشيء وإيصاله",
+      "image_en": "bringing down or sending down",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه إنزال غيره، وإنزال الله النعم والنقم والكتاب والماء واللباس ونحو ذلك، وتنزل الملائكة والأمر، مع تمييز الإنزال العام والتنزيل المتكرر في الوحي.",
+      "scope_en": "Includes causing something to descend, divine sending down of favors, punishments, scripture, water, clothing and similar things, and descent of angels or command, with the distinction between general sending down and repeated revelation.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B006",
+      "image_ar": "الشدة النازلة",
+      "image_en": "descending calamity",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه النازلة والنوازل، أي الشدة التي تنزل بالقوم أو بالناس من شدائد الدهر.",
+      "scope_en": "Includes a calamity or severe event that descends upon people.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/1/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 5,
+      "mapped_root_record_count": 5,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 58
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 28,
+      "ayah_to": 44,
+      "id": "s029-p03-028-044",
+      "label": "Lot and the destroyed peoples",
+      "number": 3,
+      "refs": [
+        "29:28",
+        "29:29",
+        "29:30",
+        "29:31",
+        "29:32",
+        "29:33",
+        "29:34",
+        "29:35",
+        "29:36",
+        "29:37",
+        "29:38",
+        "29:39",
+        "29:40",
+        "29:41",
+        "29:42",
+        "29:43",
+        "29:44"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:divine-imperfect-agency",
+      "source_type": "word_analysis",
+      "support_id": "sup_03dd21df951763bc4240",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"compact divine habitual action\",\"reader_payoff\":\"The reader hears parable-setting as direct divine action that is ongoing or habitual, not merely a past report.\",\"reason\":\"The verb is first-person plural imperfect with an implicit divine subject, and the boundary rows note the shift into direct divine voice.\",\"representative_source_ids\":[\"QG-0a18caea\",\"QG-3874ff4f\",\"MG-faa4fcb1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:nominal-topic-class",
+      "source_type": "word_analysis",
+      "support_id": "sup_0e3d22d679b3bd871ce1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definite plural in the subject frame\",\"reader_payoff\":\"The reader sees the ayah making a statement about the class of parables before narrating what is done with them.\",\"reason\":\"The noun is nominative as apposition or clarification of the demonstrative, and its definite plural form supports a class-level topic.\",\"representative_source_ids\":[\"QG-0c89e029\",\"QF-47c64c7f\",\"QT-c9b0643d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:8:negation-exception-restriction",
+      "source_type": "word_analysis",
+      "support_id": "sup_11c474a6032431ea737b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negative half of exclusive comprehension\",\"reader_payoff\":\"The reader sees comprehension denied to the broad audience and granted only through the coming exception.\",\"reason\":\"The particle scopes over the reasoning verb and is completed by the exception particle, yielding restriction by negation and exception.\",\"representative_source_ids\":[\"QG-dd316447\",\"MG-ab7ea650\",\"QI-db8bc23f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_18ebd2a22b9ee0119c40",
+      "text": "{\"gloss_range\":\"definite active-participle masculine plural naming the knowing class admitted by exception\",\"prose\":\"{{ar:ٱلْعَٰلِمُونَ}} ({{tr:al-ʿālimūna}}) is the ayah's final landing. Grammatically it is the nominative excepted class that performs {{ar:يَعْقِلُهَآ}} ({{tr:yaʿqiluhā}}), and its delayed position lets the act of comprehension appear before the qualified agents are named. As a definite active-participle plural, it identifies a recognized human class characterized by knowledge, not an intensive divine knowledge pattern and not merely a vague label. The {{ar:ع ل م}} ({{tr:ʿ-l-m}}) field brings knowing, teaching, learning, and known reality into the background, while the restriction makes knowledge the positive qualification for binding parables. The noun also answers {{ar:ٱلنَّاسِ}} ({{tr:al-nāsi}}): the public audience is wide, but the successful subset closes the ayah. Nearby 29:42 speaks of divine knowing, and 29:43 transfers the root into the human class capable of receiving the parables with reason.\",\"root_display\":\"{{ar:ع ل م}} ({{tr:ʿ-l-m}})\",\"root_gloss_range\":\"knowing, teaching, learning, known reality, and marked knowledge; local form selects a human class characterized by sustained knowledge\",\"surface_display\":\"{{ar:ٱلْعَٰلِمُونَ}} ({{tr:al-ʿālimūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/3",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:43:2:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_192c7226d9ad47a6c1f2",
+      "text": "{\"lemma_ar\":\"مَثَل\",\"morph_features\":\"STEM|POS:N|LEM:maval|ROOT:mvl|MP|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:43:2:2\",\"qac_word_ref\":\"29:43:2\",\"root_ar\":\"م ث ل\",\"surface_ar\":\"أَمْثَٰلُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:9:parable-reasoning-specialization",
+      "source_type": "word_analysis",
+      "support_id": "sup_1a071ca2de600fc41a47",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reasoning narrowed onto parables\",\"reader_payoff\":\"The reader sees a specific cognitive task: not generic reasoning, but reasoning applied to analogical structures.\",\"reason\":\"The co-occurrence and same-surah rows connect this verb to parables, to the reasoning thread in 29:35, and to the wisdom boundary in 29:42.\",\"representative_source_ids\":[\"QI-211dcc0d\",\"MI-8260d82c\",\"QY-5940f1f3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:universal-audience-filter",
+      "source_type": "word_analysis",
+      "support_id": "sup_1a3495fb1688ab9b6952",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"humanity as denominator, knowers as subset\",\"reader_payoff\":\"The reader feels the ayah widen delivery to all people and then narrow effective comprehension to the knowing subset.\",\"reason\":\"The definite collective and the later exception construction create the public-audience versus restricted-comprehension distribution.\",\"representative_source_ids\":[\"QG-7ea2bdc4\",\"QT-88780e3d\",\"QY-5305e303\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:10:exceptive-not-conditional",
+      "source_type": "word_analysis",
+      "support_id": "sup_1b57e9c0608d387a4fae",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"exceptive force over conditional wording\",\"reader_payoff\":\"The reader avoids reading the word as a future condition and keeps it as the present exception to negation.\",\"reason\":\"The preceding negation fixes the local force as exception rather than conditional unless.\",\"representative_source_ids\":[\"QS-ea6df764\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000906/B003",
+        "root_000906/B007",
+        "root_000906/B014",
+        "root_001036/B001",
+        "root_001036/B002",
+        "root_001397/B003",
+        "root_001397/B008",
+        "root_001397/B011"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_type": "channel",
+      "support_id": "sup_222c297a0c6810ef3714",
+      "text": "proverbial formulation `quranic:root_001397:B003/m01`; represented model or image `quranic:root_001397:B008/m01`; example serving as an instructive sign `quranic:root_001397:B011/m01`; rendering an example explicit `quranic:root_000906:B003/m01`; type or mold for repeated form `quranic:root_000906:B007/m01`; striking tool `quranic:root_000906:B014/m02`; craft of striking `quranic:root_000906:B014/m03`; reason that restrains ignorance `quranic:root_001036:B001/m01`; tethering a moving animal `quranic:root_001036:B002/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:1:resumptive-metacommentary",
+      "source_type": "word_analysis",
+      "support_id": "sup_2761dae66a66e4019362",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"resumptive bridge into parable theory\",\"reader_payoff\":\"The reader hears 29:43 as a connected metacommentary on the parable material rather than as a detached maxim.\",\"reason\":\"The opening connector is licensed as coordination or resumption, and the boundary rows tie it to the shift from 29:42 into explanation of parable-making.\",\"representative_source_ids\":[\"QG-27cf403e\",\"QS-ba3ad5b7\",\"QB-d19e30fb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_type": "channel",
+      "support_id": "sup_297740abf618e70c55aa",
+      "text": "م ث ل 29:41,43; ض ر ب 29:43; ع ق ل 29:35,43.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:perception-familiarity-irony",
+      "source_type": "word_analysis",
+      "support_id": "sup_2a834142bd399c329df3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"human perception and familiarity under a comprehension limit\",\"reader_payoff\":\"The reader notices the irony that the perceiving, social human audience receives the parables but does not automatically grasp them.\",\"reason\":\"The root-family evidence supports perception, sociability, and familiarity, while the local noun remains the human collective and the contested forgetfulness link stays background.\",\"representative_source_ids\":[\"QS-2aa5ffe9\",\"QS-a238cd6e\",\"MS-58b4eff6\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:9:verbal-declarative-process",
+      "source_type": "word_analysis",
+      "support_id": "sup_35e36897cd8573719f2e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reasoning as an enacted process\",\"reader_payoff\":\"The reader hears reason as a performed act on the parables, not as a named faculty or a command.\",\"reason\":\"The form is an imperfect verb, remains indicative under negation, and follows standard pre-subject agreement before the plural subject.\",\"representative_source_ids\":[\"QG-be13204d\",\"QG-c911edd5\",\"QF-fcf0fd2f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:set-forth-impact-narrowing",
+      "source_type": "word_analysis",
+      "support_id": "sup_37b5aabda56e59042a77",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"set-forth idiom with impact and imprint pressure\",\"reader_payoff\":\"The reader keeps the force of striking, stamping, fixing, and multiplying while taking setting forth parables as the selected local sense.\",\"reason\":\"The root is polysemous, but the local object and parable formula select the set-forth branch; other branches survive as controlled image pressure or contrast, not as replacement senses.\",\"representative_source_ids\":[\"QS-0c09f814\",\"QS-8408c3db\",\"MF-67c1fbb3\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001036/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_39dd51f4df2f08bbbac2",
+      "text": "- **Later confirmation (`29:63`):** The respondents correctly name the rain-giver but fail `ع ق ل B001`. This confirms that understanding parables is behavioral restraint, not answer-production: one may decode the causal analogy and still refuse to let it tether worship or gratitude.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/8",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:3",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_42b4450b6f949131800f",
+      "text": "{\"lemma_ar\":\"نَّاس\",\"morph_features\":\"STEM|POS:N|LEM:n~aAs|ROOT:nws|MP|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:43:4:3\",\"qac_word_ref\":\"29:43:4\",\"root_ar\":\"ن و س\",\"surface_ar\":\"نَّاسِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_441223437f51b790947c",
+      "text": "{\"gloss_range\":\"definite human collective governed by the recipient preposition\",\"prose\":\"{{ar:ٱلنَّاسِ}} ({{tr:al-nāsi}}) is the governed recipient of {{ar:لِ}} ({{tr:li}}), not the subject of comprehension. The definite collective makes humanity the public audience for the parables, then the later {{ar:إِلَّا ٱلْعَٰلِمُونَ}} ({{tr:illā al-ʿālimūna}}) carves out the knowing subset from within that audience. The {{ar:أ ن س}} ({{tr:ʾ-n-s}}) field adds a pointed irony: the social, perceiving, familiarity-seeking human collective receives the analogies, yet only qualified knowers bind their meaning.\",\"root_display\":\"{{ar:أ ن س}} ({{tr:ʾ-n-s}})\",\"root_gloss_range\":\"humanity, sociability, familiarity, and perception, with a contested forgetfulness association as background rather than the local root assignment\",\"surface_display\":\"{{ar:ٱلنَّاسِ}} ({{tr:al-nāsi}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_44df81de61dc5f9c5873",
+      "text": "{\"gloss_range\":\"opening connector with resumptive and circumstantial force at the ayah boundary\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) keeps 29:43 joined to 29:42 while reopening the discourse as reflection on parables. Its force is not only additive: it can resume the prior unit and also let the restriction stand as accompanying background. Because it is fused to {{ar:تِلْكَ}} ({{tr:tilka}}), the ayah begins by linking and pointing at once, with a light opening sound before the heavier demonstrative.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:recipient-not-comprehending-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_473cb2826c6933175983",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recipient grammar, not subject grammar\",\"reader_payoff\":\"The reader distinguishes the people addressed by the parables from the class that actually understands them.\",\"reason\":\"The noun is genitive under the preposition as recipient, while the comprehending subject appears later through exception.\",\"representative_source_ids\":[\"QG-7bf2979f\",\"QG-a05deb12\",\"QT-b482651e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_type": "channel",
+      "support_id": "sup_4909d5ffbe439cc72cf1",
+      "text": "The stone-bearing punishment has an aerial transport mechanism: wind entrains particles, the sky becomes a delivery field, and impacts descend onto exposed ground. It is therefore distinct from both immersion and substrate collapse.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001040/B001",
+        "root_001397/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_4f9e875ac613866d1ad6",
+      "text": "1. **A parable makes an impact that should become cognitive restraint.** Lexical evidence: `ٱلْأَمْثَال`, root `م ث ل`, `B003` (parable); `نَضْرِبُهَا`, root `ض ر ب`, `B003` (setting forth an example) with dormant `B001` (making an impact); `يَعْقِلُهَا`, root `ع ق ل`, `B001` (understanding as restraint from ignorance); and `ٱلْعَالِمُون`, root `ع ل م`, `B001` (knowing as clear). Structural cue: the spider mechanism precedes this methodological statement; `29:44` then presents creation as sign, and `29:45` presents prayer as restraint. Assigned role: the example strikes cognition; knowledge clarifies its relations; understanding binds that insight against error. Abductive move: I infer from the branch sequence that successful understanding changes conduct rather than stopping at decoded resemblance. Reading change: parables function as behavioral-cognitive controls built from visible mechanisms.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:likeness-state-warning-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_5412d1396a3db7c364c2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"likeness field narrowed to local parables\",\"reader_payoff\":\"The reader feels a parable as a standing likeness and state-description with admonitory force, while not replacing the local sense with every derivative branch.\",\"reason\":\"The root evidence supports likeness, representation, state-description, embodied appearance, and warning-example registers; the local noun and verb select parable/analogy as the operative sense.\",\"representative_source_ids\":[\"QS-426fb478\",\"QS-e5aa35ce\",\"MS-bb2da2c5\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_55b3a240207f8c2c7870",
+      "text": "{\"gloss_range\":\"second connector pivoting from public delivery to restricted comprehension\",\"prose\":\"The second {{ar:وَ}} ({{tr:wa}}) is the hinge between the two beats. After the parables are set forth for people, this connector introduces {{ar:مَا}} ({{tr:mā}}) and turns the statement toward negation and exception. Its force can be adversative and circumstantial at once: the parables are publicly given, while, or yet, only the knowing understand. The fused {{ar:وَمَا}} ({{tr:wa-mā}}) makes contrast and negation arrive together, and the repeated opening sound frames the ayah in two movements.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_560e60fc73b545184270",
+      "text": "{\"gloss_range\":\"preposition marking recipient, benefit, purpose, and direction toward people\",\"prose\":\"{{ar:لِ}} ({{tr:li}}) turns the parable-setting toward people. It does more than mark adjacency: in {{ar:لِلنَّاسِ}} ({{tr:li-l-nāsi}}), it governs the human audience as recipient and beneficiary, so public availability is stated before comprehension is restricted. Its placement after the object suffix completes the delivery path from parables to humanity, and its fusion with the following noun makes that recipient relation compact in sound and script.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لِ}} ({{tr:li}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:formulaic-metacommentary",
+      "source_type": "word_analysis",
+      "support_id": "sup_57719b4e6070771c9362",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"formula names what 29:41 enacted\",\"reader_payoff\":\"The reader sees the verb as self-referential metacommentary on the just-given spider parable in 29:41.\",\"reason\":\"The verb realizes the parable-setting formula with the plural object, and the echo rows connect it to the specific parable event in 29:41.\",\"representative_source_ids\":[\"QI-bd437426\",\"QE-e5b96af6\",\"MT-6c8243b7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11:audience-subset-and-reason",
+      "source_type": "word_analysis",
+      "support_id": "sup_5982abcc3a78dedf20f2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowers as the successful subset\",\"reader_payoff\":\"The reader sees the final class as the subset within humanity whose knowledge enables the binding act of reason.\",\"reason\":\"The restriction structure, audience noun, reasoning verb, and final position converge to make the knowers the admitted comprehending class.\",\"representative_source_ids\":[\"QT-073cfbf7\",\"MT-40d31685\",\"QY-deb3373c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:7:adversative-circumstantial-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_642dadd30efe879a2298",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"pivot from delivery to restriction\",\"reader_payoff\":\"The reader does not let the universal-delivery clause stand alone; the connector forces it into the comprehension restriction.\",\"reason\":\"The second connector links the complete first beat to a restrictive second beat and can carry both adversative and circumstantial force.\",\"representative_source_ids\":[\"QG-eda2972e\",\"QS-6df8d828\",\"QT-79a709ad\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_66394604ebd930591469",
+      "text": "{\"gloss_range\":\"definite plural parables, likenesses, and structured analogical examples in the local parable-setting frame\",\"prose\":\"{{ar:ٱلْأَمْثَٰلُ}} ({{tr:al-amthālu}}) clarifies {{ar:تِلْكَ}} ({{tr:tilka}}) inside the subject frame, so the parables stand as the theme rather than as a new accusative object. The definite plural gathers the spider example of 29:41 into a known class of analogical forms. Its {{ar:م ث ل}} ({{tr:m-th-l}}) field keeps likeness, represented state, and warning-example pressure active, while the local pairing with {{ar:نَضْرِبُهَا}} ({{tr:naḍribuhā}}) selects the familiar parable-setting idiom. The same object is then taken up by {{ar:يَعْقِلُهَآ}} ({{tr:yaʿqiluhā}}), so these parables are not merely displayed; they become the precise object of disciplined comprehension.\",\"root_display\":\"{{ar:م ث ل}} ({{tr:m-th-l}})\",\"root_gloss_range\":\"likeness, comparison, parable, representation, state-description, and exemplary warning; local grammar selects the parable/analogy class\",\"surface_display\":\"{{ar:ٱلْأَمْثَٰلُ}} ({{tr:al-amthālu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:parable-setting-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_7640b8ab1e52891c01bd",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recognized parable-setting association\",\"reader_payoff\":\"The reader recognizes the noun as part of a recurring Quranic way of setting forth analogies, not as a free metaphor built only here.\",\"reason\":\"The co-occurrence and idiom rows tie the parable noun to the root used in the following verb as an established parable-setting formula.\",\"representative_source_ids\":[\"QI-1b107aab\",\"QI-24c93d49\",\"MI-a707c637\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:5:fused-delivery-path",
+      "source_type": "word_analysis",
+      "support_id": "sup_7fbccf65ca17d9ee7904",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"compact path into the audience noun\",\"reader_payoff\":\"The reader notices the object first and then the opened path toward the audience, with the particle bound to that noun.\",\"reason\":\"The preposition is written with the audience noun and follows the object suffix, giving a compact object-to-recipient sequence.\",\"representative_source_ids\":[\"QF-120b54b2\",\"QT-2a22512e\",\"QP-fe7bdf2f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/15",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:43:8:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_8100796bf88042e9650a",
+      "text": "{\"lemma_ar\":\"عَٰلِم\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|LEM:Ea`lim|ROOT:Elm|MP|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:43:8:2\",\"qac_word_ref\":\"29:43:8\",\"root_ar\":\"ع ل م\",\"surface_ar\":\"عَٰلِمُونَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_type": "channel",
+      "support_id": "sup_812506a2232b0254c2fd",
+      "text": "A maker strikes or stamps a representative form so that observers can compare structures and bind judgment to the demonstrated relation.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:10:connected-subset-boundary",
+      "source_type": "word_analysis",
+      "support_id": "sup_8482ce30c7665099e2e4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowers carved from the audience\",\"reader_payoff\":\"The reader understands the knowers as a selected subset within the addressed human field, not a separate species of recipient.\",\"reason\":\"The connected exception and final placement divide the wider human audience into excluded and admitted classes.\",\"representative_source_ids\":[\"QG-e53cec0d\",\"QS-e589d951\",\"QT-c32e01d5\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:sound-compression-after-preposition",
+      "source_type": "word_analysis",
+      "support_id": "sup_8498462151319c949183",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"compact recipient phrase sound\",\"reader_payoff\":\"The reader hears the recipient phrase compressed rather than loosely appended.\",\"reason\":\"The article assimilation after the preposition makes the governed audience phrase acoustically tight.\",\"representative_source_ids\":[\"QP-d437a84f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000906/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_85e062256780aca0bd75",
+      "text": "1. **A parable that makes cognitive impact.** ض ر ب B003 is setting forth an example, while B001 is making an impact on something. The parables are directed to all people, but grasping is restricted to those who know. I infer that presentation supplies the strike but learned reasoning must receive and bind its relations; نضربها reads as an impact designed to reorganize understanding, not decorative comparison.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11:final-knowledge-closure",
+      "source_type": "word_analysis",
+      "support_id": "sup_8bece1208a642bc06e80",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closure lands on the knowing class\",\"reader_payoff\":\"The reader hears the ayah resolve on the only class that passes the comprehension filter.\",\"reason\":\"The final position and cadence rows make the knowing class the audible and structural landing of the restriction.\",\"representative_source_ids\":[\"QT-c94894e4\",\"QP-708036f0\",\"QP-cc88207d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:10:exception-cadence",
+      "source_type": "word_analysis",
+      "support_id": "sup_8d6ba6ed05a900e83afe",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"sound opens toward final plural closure\",\"reader_payoff\":\"The reader hears the movement from clipped denial to expanded exception and final class.\",\"reason\":\"The phonetic rows describe the exception particle as a longer opening between negation and the final noun.\",\"representative_source_ids\":[\"QF-9e5da5b1\",\"QP-c7644afb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_type": "channel",
+      "support_id": "sup_8ee1ac1034d73713b47b",
+      "text": "A force moving through the upper air lifts grit and stones, carries them, and delivers repeated impacts downward.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_type": "channel",
+      "support_id": "sup_90cdef2d951b71b0d70c",
+      "text": "ح ص ب 29:40; س م و 29:34,44; ن ز ل 29:34; ض ر ب 29:43.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:2:concord-and-topic-fronting",
+      "source_type": "word_analysis",
+      "support_id": "sup_91278aea9c0cd72320cc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"feminine pointer locked to the parable noun\",\"reader_payoff\":\"The reader sees the parables established as the ayah topic before the divine act is named.\",\"reason\":\"The demonstrative functions as the nominal subject, and the following definite broken plural clarifies it by apposition or clarification.\",\"representative_source_ids\":[\"QG-00f37c6c\",\"QG-5e2e5e0e\",\"MT-07d86675\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/4",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_984a7274c5c72ef8cc1b",
+      "text": "{\"lemma_ar\":\"ضَرَبَ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:Daraba|ROOT:Drb|1P\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:43:3:1\",\"qac_word_ref\":\"29:43:3\",\"root_ar\":\"ض ر ب\",\"surface_ar\":\"نَضْرِبُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:reasoning-endpoint-pair",
+      "source_type": "word_analysis",
+      "support_id": "sup_98ed046cfa6a13e9d859",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"parables paired with knowers and reasoning\",\"reader_payoff\":\"The reader hears the parables as the object that will be answered by reason and by the knowing class at the end.\",\"reason\":\"The co-occurrence row links the parable noun to the reasoning verb, and the cadence row supports the object-endpoint relation with the final knowing class.\",\"representative_source_ids\":[\"QI-2f90176e\",\"QP-ffadfe24\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11:nearby-divine-to-human-knowledge",
+      "source_type": "word_analysis",
+      "support_id": "sup_a0ec1ab7b351aa70d16d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowledge root moves into human reception\",\"reader_payoff\":\"The reader notices the root moving from nearby divine knowledge language into the human class qualified to understand parables.\",\"reason\":\"The same-surah rows connect this final noun with divine knowing in 29:42 and with nearby knowledge language in 29:32.\",\"representative_source_ids\":[\"QE-eab44efb\",\"QB-a866eb5f\",\"MI-72682a03\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:3:spider-parable-generalized",
+      "source_type": "word_analysis",
+      "support_id": "sup_a290ee7a865c7182ac94",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"29:41 example becomes a class\",\"reader_payoff\":\"The reader notices the move from the specific spider comparison in 29:41 to a general statement about such parables.\",\"reason\":\"The definite plural and the pronoun chain support reading the earlier mathal in 29:41 as a representative instance of the present class.\",\"representative_source_ids\":[\"QE-516737cc\",\"ME-97a02c75\",\"QY-02de7c34\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:10:restriction-completion",
+      "source_type": "word_analysis",
+      "support_id": "sup_a9079f26ef37b437a5c1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"exception completes exclusive comprehension\",\"reader_payoff\":\"The reader sees the negated clause converted into a selective claim: only the knowing comprehend.\",\"reason\":\"The particle supplies the exception after negation and pivots from the denied predicate to the named class.\",\"representative_source_ids\":[\"QG-fdeaad63\",\"QI-293992fe\",\"QT-593dd20c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:1:fused-soft-opening",
+      "source_type": "word_analysis",
+      "support_id": "sup_a9b7886477b913993eb3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"connector fused to the pointer\",\"reader_payoff\":\"The reader notices that the first visible unit links the discourse and points to the parables in one compact start.\",\"reason\":\"The written bound form joins the connector to the demonstrative, and the phonetic row adds audible pickup without changing the grammar.\",\"representative_source_ids\":[\"QF-bc35c088\",\"QP-4e3d53e1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:5:benefactive-purpose-recipient",
+      "source_type": "word_analysis",
+      "support_id": "sup_b05d2152f3a8f78d596d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"purpose and benefit toward people\",\"reader_payoff\":\"The reader sees that the parables are directed for people and for their benefit before the ayah narrows who understands.\",\"reason\":\"The preposition governs the following noun and functions as recipient, benefit, purpose, or direction in the local verb frame.\",\"representative_source_ids\":[\"QG-fde02c0c\",\"QG-ff50d11a\",\"QS-ef75e0ae\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_type": "channel",
+      "support_id": "sup_b34391442b8156bfbef2",
+      "text": "A truth becomes cognitively usable when it is marked, modeled, and impressed into a form that can restrain mistaken judgment.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:7:fused-negation-entry",
+      "source_type": "word_analysis",
+      "support_id": "sup_b36f200518de60413391",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"contrast fused with negation\",\"reader_payoff\":\"The reader hears the second beat begin as a compact turn into denial before exception opens it again.\",\"reason\":\"The written sequence binds the connector to the negator, and the repeated connector gives the ayah an audible two-beat frame.\",\"representative_source_ids\":[\"QF-9df63de0\",\"QP-97a551cd\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:8:sharp-turn-pacing",
+      "source_type": "word_analysis",
+      "support_id": "sup_b66e75f8279881af37df",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"clipped denial before narrow allowance\",\"reader_payoff\":\"The reader hears the clause turn sharply from public availability into broad denial before exception opens the gate.\",\"reason\":\"The connector-plus-negator structure creates a restrictive counterstatement, and the short particle gives the denial a clipped onset.\",\"representative_source_ids\":[\"QT-a3027c47\",\"QP-554ab0c6\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11:definite-active-participle-class",
+      "source_type": "word_analysis",
+      "support_id": "sup_b8fc07b5947987e8bb40",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recognized class characterized by knowing\",\"reader_payoff\":\"The reader hears a stable class of people characterized by knowledge, not merely people who once knew something.\",\"reason\":\"The noun is definite, nominative, active-participial, and plural, supplying the excepted subject of the reasoning verb.\",\"representative_source_ids\":[\"QG-282ee199\",\"MG-477491ef\",\"QF-26942342\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_b91888914b9e84f1f02c",
+      "text": "{\"gloss_range\":\"distal feminine singular demonstrative pointing to the known parable set\",\"prose\":\"{{ar:تِلْكَ}} ({{tr:tilka}}) is the fronted pointer of the nominal opening. Its feminine singular form agrees with the non-human broken plural {{ar:ٱلْأَمْثَٰلُ}} ({{tr:al-amthālu}}), so the demonstrative is not floating; the following noun resolves it locally while the pointer reaches back to the parable field, especially 29:41. The distal choice gives those parables a bounded, elevated retrospective feel before the predicate {{ar:نَضْرِبُهَا}} ({{tr:naḍribuhā}}) arrives, and that fronting prepares the later restriction on who actually understands.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:تِلْكَ}} ({{tr:tilka}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:2:linked-deixis-surface",
+      "source_type": "word_analysis",
+      "support_id": "sup_bc3da4dc42c4bc21f2ec",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"surface fusion of link and deixis\",\"reader_payoff\":\"The reader notices the ayah opening as one compact bridge-and-pointer gesture.\",\"reason\":\"The surface form fuses the connector with the demonstrative, preserving linkage and deixis in the first written unit.\",\"representative_source_ids\":[\"QF-d4852afc\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_type": "channel",
+      "support_id": "sup_bd5c1d8ef495a1eb5a04",
+      "text": "Each destroyed community is removed by a different physical operation that attacks its assumed stability.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_bea437f45b72baacb492",
+      "text": "{\"gloss_range\":\"imperfect first-person plural parable-setting verb with a feminine object suffix referring to the parables\",\"prose\":\"{{ar:نَضْرِبُهَا}} ({{tr:naḍribuhā}}) carries divine first-person plural agency in the prefix and the parable object in the suffix. The imperfect makes the action current or habitual, not a closed past event, and the following {{ar:لِلنَّاسِ}} ({{tr:li-l-nāsi}}) gives it a recipient path. The {{ar:ض ر ب}} ({{tr:ḍ-r-b}}) field is broad, but here the idiom with {{ar:ٱلْأَمْثَٰلُ}} ({{tr:al-amthālu}}) selects setting forth parables while preserving impact, imprinting, fixing, and proliferation as controlled pressures. The verb also names what 29:41 just enacted: God sets the parables forth, and the same {{ar:هَا}} ({{tr:hā}}) object later becomes what the knowing bind with reason.\",\"root_display\":\"{{ar:ض ر ب}} ({{tr:ḍ-r-b}})\",\"root_gloss_range\":\"broad root range including striking, setting forth, stamping, fixing, traveling, and multiplying; local idiom selects setting forth while retaining impact and imprint pressure\",\"surface_display\":\"{{ar:نَضْرِبُهَا}} ({{tr:naḍribuhā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_c60551d1ebb087a1d883",
+      "text": "2. **The general public receives the image, but stable comprehension is a learned act.** Lexical evidence: `لِلنَّاس`, root `ن و س`, `B001` (swaying or oscillation), contrasted with `ع ل م B001` clarity. Structural cue: the parables are set forth broadly, yet comprehension is restricted; earlier `29:38` showed inner sight coexisting with diversion. Assigned role: oscillation supplies an exploratory image for unstable public reception, while knowledge supplies stabilization. Abductive move: this is a cautious activation because `ناس` is the ordinary noun for people; I infer resonance only from the explicit public/knowers contrast and the surah's repeated allegiance shifts. Reading change: accessibility of the image is separated from disciplined grasp of its causal relation.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/11",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_cb2f6a9c9f1b09c23f89",
+      "text": "{\"lemma_ar\":\"عَقَلُ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:Eaqalu|ROOT:Eql|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:43:6:1\",\"qac_word_ref\":\"29:43:6\",\"root_ar\":\"ع ق ل\",\"surface_ar\":\"يَعْقِلُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_cb33213fca33da61e303",
+      "text": "29:63 shows people correctly naming the giver of rain yet failing to reason. That later scene demonstrates the exact gap this ayah marks: possessing the terms of an analogy is not grasping its binding relation.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:6:human-audience-recurrence",
+      "source_type": "word_analysis",
+      "support_id": "sup_cdc276a99eb50257f1aa",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"public parable address as a recurring profile\",\"reader_payoff\":\"The reader can place this audience noun inside a broader same-surah and Quranic pattern of addressing people through tests and parables.\",\"reason\":\"The occurrence rows connect people with parables and knowledge, and mark the noun as part of a recurrent human-audience thread.\",\"representative_source_ids\":[\"QI-43599c62\",\"QI-9d12d3b7\",\"QE-cc12dc8a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:delivery-reasoning-mirror",
+      "source_type": "word_analysis",
+      "support_id": "sup_cdd768c9bfe536d73b23",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"shared object between divine delivery and human reasoning\",\"reader_payoff\":\"The reader notices the two-beat mirror: God sets forth the same parables that the knowing must bind with reason.\",\"reason\":\"Both verbs govern the same feminine object suffix, producing a structural and audible pairing between delivery and comprehension.\",\"representative_source_ids\":[\"QT-d1cef82b\",\"QY-0427b8fe\",\"QP-eeb70328\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:9:shared-object-mirror",
+      "source_type": "word_analysis",
+      "support_id": "sup_d1ee563703a63a1bf728",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same parables under divine and human acts\",\"reader_payoff\":\"The reader tracks one object through two actions: God sets the parables forth, and the knowing bind those same parables with reason.\",\"reason\":\"Both verbs carry the same feminine object suffix referring to the parables, creating a direct structural mirror.\",\"representative_source_ids\":[\"QG-58a36654\",\"QT-22b3090f\",\"MT-82b63e35\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_d8490cff95bbf40c6a26",
+      "text": "{\"gloss_range\":\"exception particle completing the restriction and naming the admitted class\",\"prose\":\"{{ar:إِلَّا}} ({{tr:illā}}) completes the restriction begun by {{ar:مَا}} ({{tr:mā}}). It is exceptive here, not conditional: after broad negation, it carves {{ar:ٱلْعَٰلِمُونَ}} ({{tr:al-ʿālimūna}}) out as the admitted class. Because the exception is connected to the human audience field, the knowers are not an unrelated outside group but the subset that passes the comprehension filter. Positioned immediately before the final noun, the particle pivots the clause from denied act to qualified subject and gives the ending an audible opening into closure.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِلَّا}} ({{tr:illā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:2:distal-retrospective-deixis",
+      "source_type": "word_analysis",
+      "support_id": "sup_e0af9d94d1ad401abf87",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"distal pointer to known parables\",\"reader_payoff\":\"The reader retrieves the already-given parable field as something set at meaningful distance, not as a new nearby illustration.\",\"reason\":\"The distal demonstrative treats the referent as identifiable and retrospective, with contextual support tying it to the earlier parable field in 29:41.\",\"representative_source_ids\":[\"QG-7dbc77a7\",\"QS-9991cef4\",\"QE-20411421\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:8:negative-not-relative",
+      "source_type": "word_analysis",
+      "support_id": "sup_e11b5c6bf52b4115c7b6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negative particle, not relative wording\",\"reader_payoff\":\"The reader preserves the declarative denial of comprehension instead of turning the word into a relative pronoun or prohibition.\",\"reason\":\"The following exception forces the negative-particle parse, and the verb remains indicative rather than jussive.\",\"representative_source_ids\":[\"QG-a89af950\",\"QF-35b8f587\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:4:object-recipient-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_e14bd2c1164dedc3ae4c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"parables as object, people as recipient\",\"reader_payoff\":\"The reader can track the parables as the direct object and humanity as the beneficiary before the later comprehension filter appears.\",\"reason\":\"Attachment evidence forces the suffix as object referring to the parables and the following prepositional phrase as the governed recipient complement.\",\"representative_source_ids\":[\"QG-a03180fc\",\"QG-d7e33182\",\"QF-b8bf86d1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_e2671a2eddd3323490d0",
+      "text": "{\"gloss_range\":\"imperfect reasoning verb with object suffix referring to the parables\",\"prose\":\"{{ar:يَعْقِلُهَآ}} ({{tr:yaʿqiluhā}}) names the act that the second beat restricts. The same {{ar:هَا}} ({{tr:hā}}) object from {{ar:نَضْرِبُهَا}} ({{tr:naḍribuhā}}) returns, so the parables move from divine presentation to human reasoning without changing object. The verb is imperfect and declarative under {{ar:مَا}} ({{tr:mā}}), with standard pre-subject singular agreement before {{ar:ٱلْعَٰلِمُونَ}} ({{tr:al-ʿālimūna}}). Its {{ar:ع ق ل}} ({{tr:ʿ-q-l}}) field makes comprehension an act of binding and securing meaning, not mere noticing; 29:35 gives a same-surah reasoning backdrop, while here the reasoning is aimed specifically at parables. After the wisdom close of 29:42, the knowledgeable answer divine parable-setting by holding the meaning fast.\",\"root_display\":\"{{ar:ع ق ل}} ({{tr:ʿ-q-l}})\",\"root_gloss_range\":\"binding, hobbling, restraining, securing, and rational comprehension; local form selects active transitive comprehension of the parables\",\"surface_display\":\"{{ar:يَعْقِلُهَآ}} ({{tr:yaʿqiluhā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_e5af33cd1aadd4df68a9",
+      "text": "{\"gloss_range\":\"negative particle beginning the restriction that is completed by exception\",\"prose\":\"{{ar:مَا}} ({{tr:mā}}) supplies the negative half of {{ar:مَا ... إِلَّا}} ({{tr:mā ... illā}}). It negates {{ar:يَعْقِلُهَآ}} ({{tr:yaʿqiluhā}}) before the subject class is named, making non-comprehension the default field until the exception arrives. The particle is negative here, not relative, and it does not turn the verb into a command or prohibition; the clause states an epistemic boundary. Its clipped sound helps the second beat close broadly before {{ar:إِلَّا}} ({{tr:illā}}) reopens a narrow allowance.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مَا}} ({{tr:mā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Struck Model and Rational Restraint",
+      "source_type": "channel",
+      "support_id": "sup_ea32c5ea77a215cea15a",
+      "text": "To \"strike\" an example is to make a repeatable model whose form carries an invariant relation. عقل contributes both understanding and tether: the comparison checks wandering judgment by fastening it to a visible structure.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:9:binding-comprehension-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_ee65348e18015694ccc9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"binding imagery in mental comprehension\",\"reader_payoff\":\"The reader feels understanding as securing the parables so their meaning does not escape, while keeping mental comprehension as the local sense.\",\"reason\":\"The root-family evidence supports physical binding, tethers, refuge, and obligation imagery; the local transitive verb selects cognitive binding of the parables.\",\"representative_source_ids\":[\"QS-41bfcb57\",\"QS-b405cbb0\",\"MS-6ea175a1\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:43:11:structured-knowledge-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_ee9763e82b74a630d43b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowledge field narrowed to human knowers\",\"reader_payoff\":\"The reader feels knowledge as relation to real, learnable, teachable content, while the local form names human knowers rather than every root derivative.\",\"reason\":\"The root family includes known content, teaching, learning, and world/reality associations; the local active participle selects the human knowing class.\",\"representative_source_ids\":[\"QS-c1ae7a8d\",\"QS-c23f8c5f\",\"QS-f1dedf62\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000906/B001",
+        "root_000906/B003",
+        "root_001036/B001",
+        "root_001397/B003"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_f8c20a983075f8d37824",
+      "text": "{\"anchors\":[[\"29:43:2\",\"root_001397\",[\"B003\"]],[\"29:43:3\",\"root_000906\",[\"B001\",\"B003\"]],[\"29:43:6\",\"root_001036\",[\"B001\"]]],\"grade\":\"strong\",\"text\":\"Örnek yalnız bir benzerlik sunmaz; zihne çarpıp ilişkileri yeniden düzenlediğinde kişiyi yanlıştan alıkoyan kavrayışa dönüşür.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000325/B001",
+        "root_000325/B002",
+        "root_000325/B003",
+        "root_000745/B004",
+        "root_000906/B013",
+        "root_001492/B002",
+        "root_001492/B006"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Stone-Bearing Wind and Descending Impact",
+      "source_type": "channel",
+      "support_id": "sup_f8e1eef4030c5b5d00de",
+      "text": "loose stones and stony ground `quranic:root_000325:B001/m01`; pelting with stones `quranic:root_000325:B002/m01`; violent wind carrying grit or hail `quranic:root_000325:B003/m01`; upper cover, sky, and cloud `quranic:root_000745:B004/m01`; causing an affliction to descend `quranic:root_001492:B002/m01`; a calamity that comes down upon a people `quranic:root_001492:B006/m01`; weather striking land and vegetation `quranic:root_000906:B013/m01`",
+      "trust": "trusted"
+    }
+  ]
+}

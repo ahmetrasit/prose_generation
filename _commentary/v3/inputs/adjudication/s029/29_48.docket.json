@@ -1,0 +1,4533 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": false,
+    "degraded_reasons": [
+      "quarantined_hft",
+      "incomplete_focus_root_branch_coverage"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication",
+      "Focus-root branch dictionaries are unavailable for unmapped QAC root خ ط ط; branch surprise coverage is incomplete"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dal, kendiliğinden geçersiz veya temelsiz olma durumunu kapsar; bir öznenin başka bir şeyi geçersiz kılması, yiğitlik ve işsiz kalma bu sınırın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000127/B001",
+          "gloss": "doğru ve gerçek temelden yoksun olup geçerliliğini koruyamama",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal yapan, etkilenen bir nesne ve geçersizleşme sonucu gerektirir; bir şeyin baştan asılsız olması veya bir kişinin yalan söylemesi tek başına bu anlam değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000127/B002",
+          "gloss": "bir şeyi geçersiz kılıp bozma veya ortadan kaldırma",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, kişinin söz veya iddia yoluyla gerçek dışı içerik üretmesini ya da doğruyu geçersizleştirmeye çalışmasını kapsar; nesneyi fiziksel olarak bozmak bu anlamın parçası değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000127/B003",
+          "gloss": "gerçek dışı söz veya iddia ileri sürme ya da doğruyu geçersizleştirmeye çalışma",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dalın çekirdeği tehlikeye göğüs geren yiğitliktir; doğruluk ve geçerlilik yoksunluğu, işten uzak kalma ve kanın yerde kalması bu anlamdan ayrıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000127/B004",
+          "gloss": "tehlike ve ölüm karşısında geri durmayan yiğitlik",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek, iş veya yarar sağlayan uğraşın kesilmesidir; yiğitlik, doğruluğa aykırılık ve geçersiz kılma anlamları bu dalın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000127/B005",
+          "gloss": "işten veya yararlı uğraştan uzak kalma",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal yalnızca kanla kurulan kalıplarda, öldürmenin öç veya bedel bakımından karşılıksız kalmasını anlatır; genel geçersizlik anlamına genişletilemez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000127/B006",
+          "gloss": "öldürülenin kanının heder kalması ve öcünün alınmaması",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal yalnızca belirtilen kullanımdaki büyücü topluluğunu adlandırır; yiğit kadın, aylaklık veya genel geçersizlik anlamına taşınmaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000127/B007",
+          "gloss": "belirli kullanımdaki büyücüler topluluğu",
+          "source_pointer": "/root_lexicon/root_000127/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ب ط ل"
+      ],
+      "root_ar": "ب ط ل",
+      "root_id": "root_000127"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal yalnızca yükseltiyi anlatır; boyun, yere serme, dökme ve öteki eş sesli anlamları kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B001",
+          "gloss": "küçük tepe veya yer kabartısı",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu anatomik anlam, aynı kökün tepe, yere serme, dökme ve güç bildiren dallarından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B002",
+          "gloss": "boyun",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal eylemin kendisidir; dökme ve teslim etme eylemlerini ya da bu işte kullanılan mızrağın niteliğini kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000185/B003",
+          "gloss": "yere serme veya yüzüstü düşürme",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dökme yalın çekirdektir; ele verme ve teslim etme anlamları yalnızca belirtilen kuruluşlarda geçerlidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000185/B004",
+          "gloss": "dökme; ele verme veya teslim etme",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Sarsıp huzursuz etme çekirdeği ile ağır sıkıntılar bildiren çoğul kullanım tanımda ayrı tutulur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B005",
+          "gloss": "sarsıp huzursuz etme; ağır sıkıntılar",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yere serme eylemini değil, güçlü ve iri olma niteliğini ve bu nitelikteki mızrağı adlandırır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000185/B006",
+          "gloss": "iri ve güçlü oluş; kalın, sağlam mızrak",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal her türlü bardağı değil, malzemesi ve içme işlevi belirtilmiş özel kabı adlandırır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B007",
+          "gloss": "hurma salkımı kabuğundan içki kabı",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu anlam bağımsız bir yalın ad değil, kötü durum bildiren sabit kuruluşla sınırlıdır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000185/B008",
+          "gloss": "kötü durumda olma",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kötü durum, borç kalanı, ağız ıslaklığı ve dökülen miktar anlamlarından ayrıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B009",
+          "gloss": "uzanma ya da tembellik",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel bir kalanı değil, özellikle borcun henüz kapanmamış bölümünü belirtir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000185/B010",
+          "gloss": "borçtan kalan tutar",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam ağızdaki nemle sınırlıdır; tükürme, kan, el sertliği veya genel yer ıslaklığı değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000185/B011",
+          "gloss": "ağızdaki ıslaklık",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sapma kavramının kendisi değil, o kavrama eşlik eden uyaklı ve anlamı bağımsız olmayan söz tekrarıdır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000185/B012",
+          "gloss": "sapma sözünde uyaklı pekiştirme",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal çiftleşmenin kendisini veya erkek hayvanın davranışını değil, kısrak için eş aramaya gitme eylemini anlatır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000185/B013",
+          "gloss": "kısrağa damızlık erkek aramaya gitme",
+          "source_pointer": "/root_lexicon/root_000185/dictionary_entry/branches/12",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "ت ل و"
+      ],
+      "root_ar": "ت ل و",
+      "root_id": "root_000185"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek, izleme ve ardışıklıkla sınırlıdır; borç, güvence, okuma ve terk kullanımları ayrı dallardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B001",
+          "gloss": "ardından izleme",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, kutsal kitap sözlerinin okunması ve izlenmesidir; sıradan metin okuma veya yalnız fiziksel ardışıklık değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B002",
+          "gloss": "kutsal kitabı okuyup izleme",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, önceki miktarın ardından kalan paydır; güvence, havale ve kutsal metin okuma bu dalda değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B003",
+          "gloss": "ardından kalan bakiye",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, bağlı sorumluluk, güvence ve hakkın başka kişiye yöneltilmesidir; sırf izleme veya bakiye değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B004",
+          "gloss": "bağlı güvence ve talep",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, destekten vazgeçme veya öne geçip geride bırakmadır; sürekli takip, okuma ve bakiye değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B005",
+          "gloss": "geride bırakıp terk etme",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, yavru ve doğumla ilgili izleme ilişkisidir; borç kalanı, kutsal okuma ve güvence değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000186/B006",
+          "gloss": "anneyi izleyen yavru",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, sesle karşılık verme ve bir sesi izleme alanıdır; kitap okuma veya genel takip değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000186/B007",
+          "gloss": "sese karşılık veren eşlikçi",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, kişinin son canlılık halinde bulunmasıdır; izleme, okuma veya kalan pay anlamı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000186/B008",
+          "gloss": "son nefeste olmak",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Sınır, bir kimse hakkında yalan isnat etmektir; okuma, izleme veya sorumluluk değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000186/B009",
+          "gloss": "hakkında yalan söylemek",
+          "source_pointer": "/root_lexicon/root_000186/dictionary_entry/branches/8",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ت ل و"
+      ],
+      "root_ar": "ت ل و",
+      "root_id": "root_000186"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, sıradan kuşkudan kişiye yönelik güvensizliğe ve kuşku uyandıran etkene uzanır; zamanın olayları ile gereksinim anlamları bu sınırın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000616/B001",
+          "gloss": "kuşku ve güvensizlik",
+          "source_pointer": "/root_lexicon/root_000616/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam bağımsız bir kuşku adı değildir; yalnızca zaman ve ölümle bağlantılı kalıplaşmış yapılarda, olaylar ile onların geliş vaktine yönelik kaygıyı gösterir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000616/B002",
+          "gloss": "zamanın değişimleri ve olayları",
+          "source_pointer": "/root_lexicon/root_000616/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dalın gönderimi gereksinimdir; elde edememe korkusu ve kararsızlık, gereksinimin kendisinin yerine geçmez ve yalnızca onu arayan kişinin tutumunu açıklar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000616/B003",
+          "gloss": "karşılanması gereken gereksinim",
+          "source_pointer": "/root_lexicon/root_000616/dictionary_entry/branches/2",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ر ي ب"
+      ],
+      "root_ar": "ر ي ب",
+      "root_id": "root_000616"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal zamansal önceliği, hoşnutlukla benimsemeyi veya güvence üstlenmeyi değil, uzamsal ya da algısal karşı karşıyalığı anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B001",
+          "gloss": "karşı karşıya olma ve ön yön",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yüz yüze karşılaşmayı değil; zaman, yer, sıra veya düzey bakımından önce oluşu ve yaklaşan dönemi anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B002",
+          "gloss": "önce olma ve sırada yaklaşma",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu anlam bağımsız bir yer yönü değildir; kişiyle kurulan kaynak, yan veya elde bulundurma ilişkisine bağlıdır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001198/B003",
+          "gloss": "birinin tarafından veya nezdinde",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Burada belirleyici unsur karşı karşıya bulunma değil, sunulan şeyi olumlu değerlendirip benimsemedir; güvence üstlenme de bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B004",
+          "gloss": "uygun bulup benimseme",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel yön ya da hedefi değil, belirli ibadet eyleminde ortak biçimde yönelinen yönü anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B005",
+          "gloss": "namazda yönelinen yön",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal ibadette yönelinen yerle veya takı ve boncukla ilgili değildir; ağızla yapılan bedensel temasla sınırlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B006",
+          "gloss": "öpücük ve öpme",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel benimsemeyi değil, belirli bir süreçten çıkan canlıyı veya nesneyi hazır bulunup karşılamayı anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B007",
+          "gloss": "çıkanı karşılayıp teslim alma",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal bir şeyi uygun bulup almaktan farklıdır; yükümlülüğün yerine getirileceğini kendi sorumluluğuyla güvenceye bağlar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B008",
+          "gloss": "güvence ve sorumluluk üstlenme",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tanım, güvence veren kişi anlamını dışarıda tutar ve topluluğu ortak soy ya da yerleşik toplumsal sınıf bağıyla sınırlar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B009",
+          "gloss": "soy veya kuşak topluluğu",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/8",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal soy topluluğunu değil, birbirine karşılık gelen, eklenen veya bağ görevi gören somut parçaları anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B010",
+          "gloss": "karşılıklı birleşen ve bağlayan parçalar",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/9",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal genel yönelme eylemi değildir; göz, bacak, boynuz veya kulakta yerleşik bir biçim ya da işaret olarak görülen yönlenmedir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B011",
+          "gloss": "beden bölümünün belirli yöne dönüklüğü",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/10",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Tanım yalnız karşı rüzgar çiftinin bu üyesini belirtir; her tür esintiyi veya yön değiştiren rüzgarı kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B012",
+          "gloss": "batı rüzgarının karşıtı olan rüzgar",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel güç adı değildir; belirli bir şeyle yüzleşme ve onu karşılama yeterliğine bağlanan kalıpla sınırlıdır.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001198/B013",
+          "gloss": "onunla başa çıkacak gücü olmama",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel olarak su verme ya da develeri suya götürme değildir; hayvan içerken suyun başı veya ağzı üzerinde çekilip dökülmesi koşulunu taşır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B014",
+          "gloss": "develer içerken önlerine su çekip dökme",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/13",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel zamansal öncelikten farklı olarak bir eylemin ilk kez, yeniden ya da ön hazırlık olmadan başlatılmasını anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001198/B015",
+          "gloss": "ilk elden veya yeniden başlama",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/14",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Çekirdek asılan boncuk veya benzeri süs nesnesidir; yüzü birine çevirme inancı kaynaklar arası değişen özel kullanımdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001198/B016",
+          "gloss": "asılan boncuk veya makara biçimli takı",
+          "source_pointer": "/root_lexicon/root_001198/dictionary_entry/branches/15",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ق ب ل"
+      ],
+      "root_ar": "ق ب ل",
+      "root_id": "root_001198"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, yazı yazma ya da hüküm verme anlamını değil, fiziksel veya toplu birleştirme işlemini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001283/B001",
+          "gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "source_pointer": "/root_lexicon/root_001283/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yazı üretimi ve yazılı ürünle sınırlıdır; yazının bağlayıcı hüküm için mecazlaşması ayrı dalda tutulur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001283/B002",
+          "gloss": "yazma ve yazılı metin",
+          "source_pointer": "/root_lexicon/root_001283/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Salt yazı yazmak bu dala girmez; belirleme işleminin yükümlülük, hüküm veya yazgı sonucu doğurması gerekir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001283/B003",
+          "gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "source_pointer": "/root_lexicon/root_001283/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, genel yazma eylemini değil, adı kayda geçirerek kişiyi bir listeye veya belirli topluluğa dâhil etmeyi anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001283/B004",
+          "gloss": "adını sicile yazma veya bir gruba dâhil etme",
+          "source_pointer": "/root_lexicon/root_001283/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, her türlü yazılı sözleşmeyi değil, bedelin ödenmesiyle özgürlüğe götüren bu özel sözleşme türünü kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001283/B005",
+          "gloss": "özgürlük bedelini ödemeye dayalı özgürleşme sözleşmesi",
+          "source_pointer": "/root_lexicon/root_001283/dictionary_entry/branches/4",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ك ت ب"
+      ],
+      "root_ar": "ك ت ب",
+      "root_id": "root_001283"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, gerçekleşme ve bulunma çekirdeğiyle sınırlıdır; yer, konum, üstlenme ve boyun eğme ayrı dallardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B001",
+          "gloss": "gerçekleşme, bulunma ve olma bildirimi",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yer, bulunulan nokta ve konum değeriyle sınırlıdır; genel olma ya da üstlenme anlamına açılmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B002",
+          "gloss": "bulunma yeri ve konum değeri",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal bir kişi adına sorumluluk üstlenmeyle sınırlıdır; genel olma, yer veya güven duyma anlamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001332/B003",
+          "gloss": "birini güvenceyle üstlenme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal boyun eğme ve direnç göstermeme anlamındadır; güvence, yer veya kötü durum anlamı değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001332/B004",
+          "gloss": "boyun eğme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yaşlanan kişinin gençlik anılarını dile getirmesine dayalı nitelemeyle sınırlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001332/B005",
+          "gloss": "gençliğini anan yaşlı kişi",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnız kötü durum içinde gece geçirme deyişiyle sınırlıdır; genel hal veya bela adı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001332/B006",
+          "gloss": "kötü durumda gece geçirme",
+          "source_pointer": "/root_lexicon/root_001332/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
+      "root_ar": "ك و ن",
+      "root_id": "root_001332"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, sağ elin veya sağ yönün kendisini değil, bunlara ancak uğur ve mutluluk değeri yüklendiği kullanımları kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001698/B001",
+          "gloss": "uğur ve iyilik getirme, bunları umma",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, uğur, ant, güç veya ülke anlamlarını değil, somut sağ el ile sağ yönü ve bunlara doğrudan bağlı hareketleri kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001698/B002",
+          "gloss": "sağ el ve sağ yön",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, sağ elin kendisini veya genel bir antlaşmayı değil, ant içme eylemini, onun sonucundaki bağlı sözü ve ant sözlerini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001698/B003",
+          "gloss": "kutsal tanıklı ant ve söz güvencesi",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Güç çekirdeği ile doğruluk veya dinî gerekçenin geldiği güçlü taraf kullanımı ayrılır; somut sağ el bu dalın doğrudan anlamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001698/B004",
+          "gloss": "güç, savunma ve güçlü doğruluk dayanağı",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/3",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal uğur veya sağ yön anlamını değil, Yemen ülkesini, halkını ve bu yere doğrudan aidiyet ya da yönelişi kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001698/B005",
+          "gloss": "Yemen ülkesi, halkı ve ona aidiyet",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Antlaşmayla bağlı kişi ile kesin sahiplik bildirimi ayrı tutulur; genel ant, el veya güç anlamı bu dala taşınmaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001698/B006",
+          "gloss": "antlaşma bağı veya kesin sahiplik bildiren sağ el sözleri",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnız ölmek anlamındaki özel kullanımı kapsar; uğur umma, sağa gitme veya gömme eyleminin kendisi bu dalın çekirdeği değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001698/B007",
+          "gloss": "ölmek; mezarda sağ yana yatırılmayla ilişkilendirilen kullanım",
+          "source_pointer": "/root_lexicon/root_001698/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ي م ن"
+      ],
+      "root_ar": "ي م ن",
+      "root_id": "root_001698"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ede52f4dc70cefb0d0fd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:10:bipartite-literacy-denial",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3da7ca785ce107ec82ae",
+        "sup_592dcc6adfa2eb92a950"
+      ],
+      "title": "recitation and writing form a pair",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_58ba8b23072037514d46",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:10:local-negation-inherited-tense",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_592dcc6adfa2eb92a950",
+        "sup_7454776a79184a4e3aae"
+      ],
+      "title": "local negator inherits the past frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a873b9d35cce1fdf07fc",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:11:object-suffix-book-referent",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c9214630e0117f9465f7",
+        "sup_d4d232c77dcc5796cb49"
+      ],
+      "title": "suffix returns to the negated book",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d55f9949c8c1251ab3ec",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:11:past-continuous-manual-writing",
+      "source_pointer": "/word_analysis/words/10/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a606ad9cfff681560e3f",
+        "sup_d4d232c77dcc5796cb49"
+      ],
+      "title": "writing practice is denied",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d72fad87ad1caa3f1ff7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:11:physical-line-inscription-root",
+      "source_pointer": "/word_analysis/words/10/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_62f3bc048d0009fe1e72",
+        "sup_d4d232c77dcc5796cb49"
+      ],
+      "title": "root selects line-making",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_66ee0517c90c4ae16672",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:11:text-line-root-split",
+      "source_pointer": "/word_analysis/words/10/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1997b3191eb9e9e7b68d",
+        "sup_d4d232c77dcc5796cb49"
+      ],
+      "title": "book noun and writing verb do different work",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4a6f5950b950ea9efb0e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:11:unique-and-sounded-writing-denial",
+      "source_pointer": "/word_analysis/words/10/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_9616de6e69c82a603784",
+        "sup_d4d232c77dcc5796cb49"
+      ],
+      "title": "hapax root and sound intensify physicality",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8600ef24b65b3ff7d6de",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:12:bound-body-link",
+      "source_pointer": "/word_analysis/words/11/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_05a444972a2d4602afdb",
+        "sup_8fd1c0d6cbceabcdd67d"
+      ],
+      "title": "bound preposition ties verb to body",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7e14aaae663771caf99c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:12:instrumental-hand-marker",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_05a444972a2d4602afdb",
+        "sup_b247d88fa0054fe608d4"
+      ],
+      "title": "bi makes the hand an instrument",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0b8d5c3c62761288550f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:13:boundary-contracts-to-body",
+      "source_pointer": "/word_analysis/words/12/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0ca8f1ed62311c57c99c",
+        "sup_81832a53eef486351c3a"
+      ],
+      "title": "the discourse contracts to the body",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8622a688db06936729ec",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:13:owned-right-hand-instrument",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0ca8f1ed62311c57c99c",
+        "sup_61e7a421f33b179e053b"
+      ],
+      "title": "your right hand individualizes the proof",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6e1d7ea54a1370739338",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:13:right-hand-specificity-and-echo",
+      "source_pointer": "/word_analysis/words/12/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0ca8f1ed62311c57c99c",
+        "sup_2a810c941a7ac4adc9cb"
+      ],
+      "title": "right-hand form intensifies authorship denial",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3c0058476b8a35fc607b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:13:yamin-authority-resonance",
+      "source_pointer": "/word_analysis/words/12/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0ca8f1ed62311c57c99c",
+        "sup_b5c3ea0d6474b541b39f"
+      ],
+      "title": "hand is primary, authority resonates",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5be901c7122eccf79f61",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:14:compact-apodosis-sound",
+      "source_pointer": "/word_analysis/words/13/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_778f6bb2dffeac92c9b1",
+        "sup_882b3ee805757573e1ed"
+      ],
+      "title": "particle form makes the hinge compact",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0b3997999c06ea69d354",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:14:counterfactual-result-hinge",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_882b3ee805757573e1ed",
+        "sup_bf65130e971390ee4a33"
+      ],
+      "title": "idhan turns absence into consequence logic",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0a39e279eecc5bdaab64",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:14:inferential-three-beat-architecture",
+      "source_pointer": "/word_analysis/words/13/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_460efaf69f318f4bb4c0",
+        "sup_882b3ee805757573e1ed"
+      ],
+      "title": "two denials resolve in one result",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_804874da4e73729d22b8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:15:emphatic-counterfactual-apodosis",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4356371153edaf31122f",
+        "sup_7c5b6ff728211e3a8b40"
+      ],
+      "title": "lām makes the hypothetical result forceful",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cd700a0497d0a30a42c7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:15:fused-entry-into-doubt",
+      "source_pointer": "/word_analysis/words/14/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_05af212dd8c73dd7ae72",
+        "sup_7c5b6ff728211e3a8b40"
+      ],
+      "title": "emphasis attaches to the doubt verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9927078bfca487002600",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:form-viii-internal-doubt",
+      "source_pointer": "/word_analysis/words/15/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_c7463025633310794bb1"
+      ],
+      "title": "Form VIII internalizes suspicion",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6fcb6d548a03c0ce12d4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:perfect-counterfactual-doubt",
+      "source_pointer": "/word_analysis/words/15/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_ac54f9891f25a0ea6049"
+      ],
+      "title": "perfect verb completes the unreal result",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_121666fef906aea811c8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:scripture-doubt-recurrence",
+      "source_pointer": "/word_analysis/words/15/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_63d01615b9cc13495720"
+      ],
+      "title": "book-authentication field is inverted",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_95d8db28b0a33e59c3e7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:singular-preverbal-agreement",
+      "source_pointer": "/word_analysis/words/15/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_53988e72b0d47a927d95"
+      ],
+      "title": "singular verb before plural subject is normal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6cd061844eda7573ae57",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:surah-boundary-doubt-to-challenge",
+      "source_pointer": "/word_analysis/words/15/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_9528c2c6bbaac9bbbb24"
+      ],
+      "title": "blocked doubt contrasts with later haste",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e27c075ed45b018954ca",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:16:suspicious-not-neutral-doubt",
+      "source_pointer": "/word_analysis/words/15/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_02d3be2d63b03e62eb4d",
+        "sup_4ffed4ea93ba08094f57"
+      ],
+      "title": "rayb is disturbed suspicion",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_680bfd14f2e6bbd38ace",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:boundary-class-refinement",
+      "source_pointer": "/word_analysis/words/16/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_dc9cd4b4e47842b273a7",
+        "sup_eea01a0798c8b469039c"
+      ],
+      "title": "deniers become invalidators",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f8a2c824a32757fa3682",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:class-morphology-and-closure",
+      "source_pointer": "/word_analysis/words/16/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_53ad032a95536bafae11",
+        "sup_eea01a0798c8b469039c"
+      ],
+      "title": "plural participle closes the ayah",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d6aeac6842a48d242f27",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:definite-adversary-subject",
+      "source_pointer": "/word_analysis/words/16/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_ecc82fad25524049e2ba",
+        "sup_eea01a0798c8b469039c"
+      ],
+      "title": "known invalidators receive the doubt",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1bfacdcf28d0aef7979e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:nullifying-active-agency",
+      "source_pointer": "/word_analysis/words/16/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_ac4b7d0455916d3f31a4",
+        "sup_eea01a0798c8b469039c"
+      ],
+      "title": "participle names active invalidation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ee17b209fb34541eedea",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:polysemy-and-truth-polarity",
+      "source_pointer": "/word_analysis/words/16/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b7c603ed9dcf9638d2c9",
+        "sup_eea01a0798c8b469039c"
+      ],
+      "title": "falsehood field colors the class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:17"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6b3f94f2e58c477e92f6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:17:surah-root-handoff",
+      "source_pointer": "/word_analysis/words/16/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_eea01a0798c8b469039c",
+        "sup_ffc4323287f57b81ae7a"
+      ],
+      "title": "agent of invalidation anticipates falsehood field",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_660cb8911127f1eecfee",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:1:continuing-evidentiary-opening",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a4d35e18e4538e3e9f67",
+        "sup_f2ce38a85f129feadb7b"
+      ],
+      "title": "continuation becomes evidence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bcb8a359f0d90ccda30b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:1:wa-ma-negative-frame",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2884f3db0132c2e7f964",
+        "sup_a4d35e18e4538e3e9f67"
+      ],
+      "title": "connector and negator form the opening frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6494ccbd31d09c7dc757",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:2:continuing-negation-architecture",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_9c232bd97afbc5d268d8",
+        "sup_ded7c44d08547f6368a0"
+      ],
+      "title": "one polarity frame serves two denials",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4c2b9a226806680998ab",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:2:past-state-negation",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_696483dddc23925be69d",
+        "sup_9c232bd97afbc5d268d8"
+      ],
+      "title": "negation targets a past state",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_de6f38d6fc0a49d5666d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:3:address-bound-proof",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_9173cdb419c8433afc3f",
+        "sup_b095597c41ca4298a7e6"
+      ],
+      "title": "second person makes the proof personal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_03d6d5e909ca441ff883",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:3:being-root-auxiliary-narrowed",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4ebd67bee5fb07b90d83",
+        "sup_b095597c41ca4298a7e6"
+      ],
+      "title": "being language is grammaticalized",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c028a2d5eb4102105ec6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:3:past-continuous-state",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b095597c41ca4298a7e6",
+        "sup_be3334d3d7d4f5e964dd"
+      ],
+      "title": "auxiliary denies a habitual condition",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ce60c164841193dc87f5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:4:denied-prior-recitation-practice",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1533383c0d39fdab2710",
+        "sup_6d6888d6551828747b1c"
+      ],
+      "title": "imperfect denies ongoing recitation practice",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_31e16962eb031adcd58b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:4:following-reciting-root-range",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d6888d6551828747b1c",
+        "sup_b5ee3e047a2e43dfdabb"
+      ],
+      "title": "following and reciting converge locally",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7a6be7ba9dab2728fe37",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:4:form-and-sound-compression",
+      "source_pointer": "/word_analysis/words/3/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5d34dd2102d7a19a7e2f",
+        "sup_6d6888d6551828747b1c"
+      ],
+      "title": "form keeps agency direct and sound binds the frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2e29b52bba4e29d85c3a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:4:min-object-valency",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d6888d6551828747b1c",
+        "sup_d564a8212f3fd67a5674"
+      ],
+      "title": "object comes through the any-book phrase",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ddbd72123e4e212fe3f7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:4:recitation-authentication-echo",
+      "source_pointer": "/word_analysis/words/3/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2b28f00decc5293180fe",
+        "sup_6d6888d6551828747b1c"
+      ],
+      "title": "denied past contrasts with affirmed recitation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ab57ed2b02b2f275e72f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:5:double-min-layering",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2f8524cee463935599d6",
+        "sup_f0d88df41ac838156ba5"
+      ],
+      "title": "time precedes category",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_de77e4d3545647df8374",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:5:temporal-before-frame",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_d3a2c251b6a30fe8de96",
+        "sup_f0d88df41ac838156ba5"
+      ],
+      "title": "first min marks prior time",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_85e387572c905698461a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:6:anteriority-root-narrowed",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_14d85a0c89fae87a45d8",
+        "sup_595062456d9d5e217ddc"
+      ],
+      "title": "orientation root selects before-ness",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c8ad7a42aded48e16285",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:6:min-governed-temporal-noun",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_595062456d9d5e217ddc",
+        "sup_9f7f3fe93795d69d903b"
+      ],
+      "title": "genitive noun forms the temporal phrase",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f789df419d992de7e99a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:6:suffixed-antecedent",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_595062456d9d5e217ddc",
+        "sup_ae098937934bdecbfec8"
+      ],
+      "title": "suffix imports the prior Book",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d3f43af9676df00dda92",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:7:emphatic-any-book-min",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4f7fd9d2810fec736246",
+        "sup_bd12c45096c13df08390"
+      ],
+      "title": "second min universalizes absence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6e0c73cedb8ceb1eb664",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:7:visible-min-tanwin-construction",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4f7fd9d2810fec736246",
+        "sup_81fe7e3605e18c603017"
+      ],
+      "title": "form shows unbounded object scope",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cb3fe40cb0247ef4f670",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:8:any-book-object-domain",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1ed06fbf5f6758fda9c3",
+        "sup_5426ffe3bab87e6f2772"
+      ],
+      "title": "indefinite object becomes universal absence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_28906a739d39d7b0ce23",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:8:authoritative-text-range",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5426ffe3bab87e6f2772",
+        "sup_778c79ab61a79184ae59"
+      ],
+      "title": "book range is textual authority",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_df7d5faaea0382c19b50",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:8:book-doubt-field",
+      "source_pointer": "/word_analysis/words/7/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5426ffe3bab87e6f2772",
+        "sup_5a8b478520633bc09452"
+      ],
+      "title": "book language links to blocked doubt",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b9cc91b3b69bd4ce29b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:8:definite-indefinite-book-contrast",
+      "source_pointer": "/word_analysis/words/7/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_08f0c70fb9387395d5a6",
+        "sup_5426ffe3bab87e6f2772"
+      ],
+      "title": "indefinite absence supports the definite Book",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_20746401b5b6a0030189",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:8:k-t-b-and-kh-t-t-split",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1a46604279bd1a3ba96c",
+        "sup_5426ffe3bab87e6f2772"
+      ],
+      "title": "text object differs from hand-writing act",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5211a26d473bf2acd45a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:9:audible-negative-reset",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d84666590948ad04734",
+        "sup_a909a9657f6320a7d35e"
+      ],
+      "title": "short cluster resets the beat",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0b5cd8c9758c3cfe10c5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:48:9:coordinated-second-negation",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6d84666590948ad04734",
+        "sup_9c9a2dc05402d791ecb6"
+      ],
+      "title": "wa-lā adds a second denial",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:45",
+        "29:46",
+        "29:48"
+      ],
+      "branch_refs": [
+        "root_000422/B001",
+        "root_001283/B002",
+        "root_001283/B003",
+        "root_001492/B002",
+        "root_001492/B004",
+        "root_001633/B001",
+        "root_001633/B003",
+        "root_001633/B004"
+      ],
+      "candidate_id": "cand_b11986eb00595c61dc2b",
+      "focus_branch_refs": [
+        "root_001283/B002",
+        "root_001283/B003"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000422/B001",
+        "root_001492/B002",
+        "root_001492/B004",
+        "root_001633/B001",
+        "root_001633/B003",
+        "root_001633/B004"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_235284e25477f2b0ee2f",
+        "sup_33f7127ce558c06cc85a",
+        "sup_696fe37bdab516a731ba",
+        "sup_81c786b7bae087d15d9e",
+        "sup_b309e1d5b67d107622c1"
+      ],
+      "title": "Hidden Delivery and Durable Inscription",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:45",
+        "29:48",
+        "29:56"
+      ],
+      "branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_000973/B003",
+        "root_001198/B005",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "candidate_id": "cand_aa64b9eb5336ee700a45",
+      "focus_branch_refs": [
+        "root_001198/B005"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_000973/B003",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_284fe741c9b4931003a7",
+        "sup_3264975db429c4c4dcfb",
+        "sup_77d918f7f196029e8a66",
+        "sup_9b5cef69bcf5acf87ea5",
+        "sup_be85e901ad8638142b8a"
+      ],
+      "title": "Standing, Direction, and Maintained Service",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4b00153c03ca0b08a02b",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001698"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:10:2",
+      "source_pointer": "/qac_morphemes/15",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_ec986ca737a72257363d"
+      ],
+      "title": "QAC root occurrence: ي م ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dbbb7c75c01dd2c6168a",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000616"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:12:2",
+      "source_pointer": "/qac_morphemes/19",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_1390e435c8d779b5f7b8"
+      ],
+      "title": "QAC root occurrence: ر ي ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_72fc834cefce057796a3",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000127"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:13:2",
+      "source_pointer": "/qac_morphemes/21",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_a23d8981cc7e2c346d12"
+      ],
+      "title": "QAC root occurrence: ب ط ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dbde40536f4b28d3aba8",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001332"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:2:1",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_98b590278139e1697b77"
+      ],
+      "title": "QAC root occurrence: ك و ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ef1ed87d8acc25dbbeeb",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000185",
+        "root_000186"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:3:1",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_aa0f2900f91f8b27d781"
+      ],
+      "title": "QAC root occurrence: ت ل و",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_91f458f72137e69906f7",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001198"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:5:1",
+      "source_pointer": "/qac_morphemes/6",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_5698d584c1204c58b245"
+      ],
+      "title": "QAC root occurrence: ق ب ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a66830c07d98b95b1ff6",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001283"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:7:1",
+      "source_pointer": "/qac_morphemes/9",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_25d45d52d9b894c50ecc"
+      ],
+      "title": "QAC root occurrence: ك ت ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ddfc8b3fa2c93ac31f53",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:48:9:1",
+      "source_pointer": "/qac_morphemes/12",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_125d2e48994a5e53cc28"
+      ],
+      "title": "QAC root occurrence: خ ط ط",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:48"
+      ],
+      "branch_refs": [
+        "root_000422/B001",
+        "root_000422/B005"
+      ],
+      "candidate_id": "cand_f814c61a874b4abc444b",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [
+        "root_000422/B001"
+      ],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_6d6b0875ff4b19916199"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": [
+        "root_000422/B005"
+      ]
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0012bd4635ac932751e8",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_00488848ea7bf1e9ff95"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:48"
+      ],
+      "branch_refs": [
+        "root_000422/B001",
+        "root_001283/B002",
+        "root_001698/B002"
+      ],
+      "candidate_id": "cand_57626f786ca6ffadeda1",
+      "focus_branch_refs": [
+        "root_001283/B002",
+        "root_001698/B002"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [
+        "root_000422/B001"
+      ],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_d78777c78bfeb1f84ef0"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "ت ل و/B001",
+          "reason": "ambiguous root mapping: root_000185/B001, root_000186/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48"
+      ],
+      "branch_refs": [
+        "root_000616/B001"
+      ],
+      "candidate_id": "cand_a695d6e694d2c89d2e7a",
+      "focus_branch_refs": [
+        "root_000616/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_1176058090ab88f63386"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:48"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7c5d47557ed609bfa9c7",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_985cda1d00ec52faedef"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 83,
+    "by_disposition": {
+      "docket_mandatory": 58,
+      "docket_optional": 13,
+      "parse_failed": 7,
+      "quarantined": 5
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 1,
+      "hft": 11,
+      "qac_morpheme": 8,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 56
+    },
+    "discovered_seed_count": 83,
+    "docket_candidate_count": 71,
+    "mandatory_candidate_count": 58,
+    "optional_candidate_count": 13,
+    "selection_eligible_candidate_count": 58,
+    "selection_ineligible_candidate_count": 13
+  },
+  "focus": {
+    "arabic_uthmani": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَٰبٍۢ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ إِذًۭا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:48:1:1",
+        "qac_word_ref": "29:48:1",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "مَا",
+        "morph_features": "STEM|POS:NEG|LEM:maA",
+        "morpheme_role": "STEM",
+        "pos": "NEG",
+        "qac_ref": "29:48:1:2",
+        "qac_word_ref": "29:48:1",
+        "root_ar": "",
+        "surface_ar": "مَا"
+      },
+      {
+        "lemma_ar": "كَانَ",
+        "morph_features": "STEM|POS:V|PERF|LEM:kaAna|ROOT:kwn|SP:kaAn|2MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:48:2:1",
+        "qac_word_ref": "29:48:2",
+        "root_ar": "ك و ن",
+        "surface_ar": "كُن"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:2MS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:48:2:2",
+        "qac_word_ref": "29:48:2",
+        "root_ar": "",
+        "surface_ar": "تَ"
+      },
+      {
+        "lemma_ar": "تَلَىٰ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:talaY`|ROOT:tlw|3FS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:48:3:1",
+        "qac_word_ref": "29:48:3",
+        "root_ar": "ت ل و",
+        "surface_ar": "تَتْلُوا۟"
+      },
+      {
+        "lemma_ar": "مِن",
+        "morph_features": "STEM|POS:P|LEM:min",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:48:4:1",
+        "qac_word_ref": "29:48:4",
+        "root_ar": "",
+        "surface_ar": "مِن"
+      },
+      {
+        "lemma_ar": "قَبْل",
+        "morph_features": "STEM|POS:N|LEM:qabol|ROOT:qbl|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:48:5:1",
+        "qac_word_ref": "29:48:5",
+        "root_ar": "ق ب ل",
+        "surface_ar": "قَبْلِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:48:5:2",
+        "qac_word_ref": "29:48:5",
+        "root_ar": "",
+        "surface_ar": "هِۦ"
+      },
+      {
+        "lemma_ar": "مِن",
+        "morph_features": "STEM|POS:P|LEM:min",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:48:6:1",
+        "qac_word_ref": "29:48:6",
+        "root_ar": "",
+        "surface_ar": "مِن"
+      },
+      {
+        "lemma_ar": "كِتَٰب",
+        "morph_features": "STEM|POS:N|LEM:kita`b|ROOT:ktb|M|INDEF|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:48:7:1",
+        "qac_word_ref": "29:48:7",
+        "root_ar": "ك ت ب",
+        "surface_ar": "كِتَٰبٍ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:48:8:1",
+        "qac_word_ref": "29:48:8",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "لَا",
+        "morph_features": "STEM|POS:NEG|LEM:laA",
+        "morpheme_role": "STEM",
+        "pos": "NEG",
+        "qac_ref": "29:48:8:2",
+        "qac_word_ref": "29:48:8",
+        "root_ar": "",
+        "surface_ar": "لَا"
+      },
+      {
+        "lemma_ar": "تَخُطُّ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:taxuT~u|ROOT:xTT|2MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:48:9:1",
+        "qac_word_ref": "29:48:9",
+        "root_ar": "خ ط ط",
+        "surface_ar": "تَخُطُّ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:48:9:2",
+        "qac_word_ref": "29:48:9",
+        "root_ar": "",
+        "surface_ar": "هُۥ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|bi+",
+        "morpheme_role": "PREFIX",
+        "pos": "P",
+        "qac_ref": "29:48:10:1",
+        "qac_word_ref": "29:48:10",
+        "root_ar": "",
+        "surface_ar": "بِ"
+      },
+      {
+        "lemma_ar": "يَمِين",
+        "morph_features": "STEM|POS:N|LEM:yamiyn|ROOT:ymn|M|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:48:10:2",
+        "qac_word_ref": "29:48:10",
+        "root_ar": "ي م ن",
+        "surface_ar": "يَمِينِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:2MS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:48:10:3",
+        "qac_word_ref": "29:48:10",
+        "root_ar": "",
+        "surface_ar": "كَ"
+      },
+      {
+        "lemma_ar": "إِذًا",
+        "morph_features": "STEM|POS:SUR|LEM:<i*FA",
+        "morpheme_role": "STEM",
+        "pos": "SUR",
+        "qac_ref": "29:48:11:1",
+        "qac_word_ref": "29:48:11",
+        "root_ar": "",
+        "surface_ar": "إِذًا"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:EMPH+",
+        "morpheme_role": "PREFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:48:12:1",
+        "qac_word_ref": "29:48:12",
+        "root_ar": "",
+        "surface_ar": "لَّ"
+      },
+      {
+        "lemma_ar": "ٱرْتَابَ",
+        "morph_features": "STEM|POS:V|PERF|(VIII)|LEM:{rotaAba|ROOT:ryb|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:48:12:2",
+        "qac_word_ref": "29:48:12",
+        "root_ar": "ر ي ب",
+        "surface_ar": "ٱرْتَابَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:48:13:1",
+        "qac_word_ref": "29:48:13",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "مُبْطِلُون",
+        "morph_features": "STEM|POS:N|ACT|PCPL|(IV)|LEM:muboTiluwn|ROOT:bTl|MP|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:48:13:2",
+        "qac_word_ref": "29:48:13",
+        "root_ar": "ب ط ل",
+        "surface_ar": "مُبْطِلُونَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:48:1:1"
+      ],
+      [
+        "29:48:1:2"
+      ],
+      [
+        "29:48:2:1",
+        "29:48:2:2"
+      ],
+      [
+        "29:48:3:1"
+      ],
+      [
+        "29:48:4:1"
+      ],
+      [
+        "29:48:5:1",
+        "29:48:5:2"
+      ],
+      [
+        "29:48:6:1"
+      ],
+      [
+        "29:48:7:1"
+      ],
+      [
+        "29:48:8:1"
+      ],
+      [
+        "29:48:8:2"
+      ],
+      [
+        "29:48:9:1",
+        "29:48:9:2"
+      ],
+      [
+        "29:48:10:1"
+      ],
+      [
+        "29:48:10:2",
+        "29:48:10:3"
+      ],
+      [
+        "29:48:11:1"
+      ],
+      [
+        "29:48:12:1"
+      ],
+      [
+        "29:48:12:2"
+      ],
+      [
+        "29:48:13:1",
+        "29:48:13:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:48:1",
+      "29:48:2",
+      "29:48:3",
+      "29:48:4",
+      "29:48:5",
+      "29:48:6",
+      "29:48:7",
+      "29:48:8",
+      "29:48:9",
+      "29:48:10",
+      "29:48:11",
+      "29:48:12",
+      "29:48:13",
+      "29:48:14",
+      "29:48:15",
+      "29:48:16",
+      "29:48:17"
+    ]
+  },
+  "focus_root_mappings": {
+    "ب ط ل": [
+      "root_000127"
+    ],
+    "ت ل و": [
+      "root_000185",
+      "root_000186"
+    ],
+    "خ ط ط": [],
+    "ر ي ب": [
+      "root_000616"
+    ],
+    "ق ب ل": [
+      "root_001198"
+    ],
+    "ك ت ب": [
+      "root_001283"
+    ],
+    "ك و ن": [
+      "root_001332"
+    ],
+    "ي م ن": [
+      "root_001698"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:48",
+    "docket_payload_sha256": "e8d7d8b7c6e50a28ec0780d144e806076340a6b9773392576b9754dff65e4c91",
+    "source_canonical_sha256": "9bbf065f17361d0f232f12f24a5d64910e72f5af6597e170efb9f33cc2f23bb0"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000422/B001",
+      "image_ar": "أثر ممتد وخط مرسوم",
+      "image_en": "an extended trace or drawn line",
+      "root_ar": "خ ط ط",
+      "scope_ar": "يدخل فيه الخط والكتابة بالقلم والتسطير والتخطيط والخطوط في الوجه أو الشيء والطريق أو الشق المرسوم وأدوات الخط.",
+      "scope_en": "It includes a line, writing with a pen, ruling or marking, lines on a face or object, a marked path or cleft, and writing implements.",
+      "source_file": "v4/outputs/pass2_branches/root_000422.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/9/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000879/B003",
+      "image_ar": "العبادة المخصوصة",
+      "image_en": "the prescribed worship",
+      "root_ar": "ص ل و",
+      "scope_ar": "يدخل فيه الصلاة الشرعية ذات الركوع والسجود والقيام بحدودها وإقامتها",
+      "scope_en": "Includes the legally prescribed act of worship with bowing, prostration, required limits, and proper performance",
+      "source_file": "v4/outputs/pass2_branches/root_000879.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/8/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000879/B007",
+      "image_ar": "مواضع الصلاة ودور العبادة",
+      "image_en": "places of prayer and worship",
+      "root_ar": "ص ل و",
+      "scope_ar": "يدخل فيه الصلوات بمعنى كنائس اليهود أو مواضع صلوات الصابئين واسم موضع العبادة",
+      "scope_en": "Includes ṣalawāt as synagogues, places of Sabian prayer, and naming a place by worship",
+      "source_file": "v4/outputs/pass2_branches/root_000879.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/8/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_000973/B003",
+      "image_ar": "العبادة والطاعة الخاضعة",
+      "image_en": "worship and submissive obedience",
+      "root_ar": "ع ب د",
+      "scope_ar": "يدخل فيه عبادة الله والتنسك والطاعة مع الخضوع والتوحيد وعبادة الطاغوت بمعنى طاعته والخضوع لملك أو دنيا",
+      "scope_en": "Acts or states of worship, devotion, ritual service, or submissive obedience, including misdirected obedience where sources state it.",
+      "source_file": "v4/outputs/pass2_branches/root_000973.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/3/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B002",
+      "image_ar": "انتصاب وقيام بالبدن",
+      "image_en": "upright standing and bodily rising",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه قام قياما، والقومة مرة الانتصاب، والقيام في الصلاة أو الذكر، وقيام الشجر والنبت على أصله، ووقوف الدابة",
+      "scope_en": "Includes standing up or being upright, a single standing, standing in prayer or remembrance, trees or plants remaining upright, and an animal standing still.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B004",
+      "image_ar": "رعاية وحفظ وولاية",
+      "image_en": "care, guardianship, and preservation",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه القيام على الشيء أو بالأمر بمعنى الحفظ والمراعاة والمواظبة والسياسة والولاية، والقيم والقوام والقيوم",
+      "scope_en": "Includes standing over or for a thing as guarding, maintaining, persevering, governing, managing, or sustaining; includes qayyim, qawwam, and qayyum in that semantic frame.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B008",
+      "image_ar": "استقامة واعتدال واستواء",
+      "image_en": "straightness, uprightness, and evenness",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه استقامة الطريق أو الإنسان أو الأمر، والاعتدال والاستواء، والقويم والقيم والدين المستقيم وعدل الكلام",
+      "scope_en": "Includes straightness of path, person, or matter, evenness and uprightness, qawim and qayyim, upright religion, and just speech.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B002",
+      "image_ar": "إنزال الشيء وإيصاله",
+      "image_en": "bringing down or sending down",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه إنزال غيره، وإنزال الله النعم والنقم والكتاب والماء واللباس ونحو ذلك، وتنزل الملائكة والأمر، مع تمييز الإنزال العام والتنزيل المتكرر في الوحي.",
+      "scope_en": "Includes causing something to descend, divine sending down of favors, punishments, scripture, water, clothing and similar things, and descent of angels or command, with the distinction between general sending down and repeated revelation.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B004",
+      "image_ar": "وضع الشيء في منزلته",
+      "image_en": "placing in proper order",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه التنزيل بمعنى ترتيب الشيء ووضعه منزله، أي إيقاع الشيء في موضعه أو مرتبته المناسبة.",
+      "scope_en": "Includes arranging something and putting it in its proper place or rank.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001633/B001",
+      "image_ar": "إلقاء علم في خفاء",
+      "image_en": "hidden imparting of knowledge",
+      "root_ar": "و ح ي",
+      "scope_ar": "كل إيصال علم أو كلام إلى غير على خفاء، سواء كان بإلقاء أو كلام خفي أو رمز",
+      "scope_en": "Any covert or hidden conveying of knowledge or speech to another, including casting, concealed speech, or symbolic communication",
+      "source_file": "v4/outputs/pass2_branches/root_001633.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001633/B003",
+      "image_ar": "كتابة ونقش",
+      "image_en": "Writing and inscription",
+      "root_ar": "و ح ي",
+      "scope_ar": "الكتاب والكتابة، وكتابة الكلام أو نقشه في الحجر، وما يتصل بالمكتوب من كتاب أو رسالة",
+      "scope_en": "Writing, inscribing, book-like text, and message or letter material connected with written form",
+      "source_file": "v4/outputs/pass2_branches/root_001633.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001633/B004",
+      "image_ar": "نبأ وإلهام من الله",
+      "image_en": "Divine message and inspiration",
+      "root_ar": "و ح ي",
+      "scope_ar": "وحي الله، والنبوءة، والإلهام، والإلقاء في الروع، والرؤيا، والتسخير، وما يبلغه الرسول بإذن الله",
+      "scope_en": "Divine revelation, inspiration, casting into the heart, dream, subjection, or angelic delivery",
+      "source_file": "v4/outputs/pass2_branches/root_001633.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/2/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": false,
+      "focus_root_count": 8,
+      "mapped_root_record_count": 8,
+      "missing_dictionary_roots": [
+        {
+          "qac_roots_ar": [
+            "خ ط ط"
+          ],
+          "reason": "no root_lexicon mapping for this QAC focus root",
+          "root_ar": "خ ط ط",
+          "root_id": null
+        }
+      ],
+      "registered_branch_count": 66
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 45,
+      "ayah_to": 56,
+      "id": "s029-p04-045-056",
+      "label": "Prayer, scripture, and disputation",
+      "number": 4,
+      "refs": [
+        "29:45",
+        "29:46",
+        "29:47",
+        "29:48",
+        "29:49",
+        "29:50",
+        "29:51",
+        "29:52",
+        "29:53",
+        "29:54",
+        "29:55",
+        "29:56"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_00488848ea7bf1e9ff95",
+      "text": "29:49 supplies the immediate surprise: the alternative to an external traced line is not formless orality but clear signs borne internally by people of knowledge. Provenance shifts from hand-mark to living reception.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16",
+      "source_type": "word_analysis",
+      "support_id": "sup_02d3be2d63b03e62eb4d",
+      "text": "{\"gloss_range\":\"Form VIII intransitive suspicious doubt inside a counterfactual result clause\",\"prose\":\"{{ar:ٱرْتَابَ}} ({{tr:irtāba}}) is the counterfactual result verb: they would have entered suspicious doubt if the denied premise were true. Its Form VIII shape makes the doubt arise within the invalidators rather than as a direct object caused by the book, and the preposed singular verb before the plural subject is normal Arabic agreement. The r-y-b field ties this unrealized suspicion to scripture-authentication language such as 2:2 and 10:37, while 29:53 shows the surah's movement from blocked doubt to later active challenge.\",\"root_display\":\"{{ar:ر ي ب}} ({{tr:r-y-b}})\",\"root_gloss_range\":\"disturbance, suspicion, epistemic doubt; locally internalized adversarial doubt, not neutral inquiry\",\"surface_display\":\"{{ar:ٱرْتَابَ}} ({{tr:irtāba}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:12",
+      "source_type": "word_analysis",
+      "support_id": "sup_05a444972a2d4602afdb",
+      "text": "{\"gloss_range\":\"instrumental preposition binding the right hand to the writing verb\",\"prose\":\"{{ar:بِ}} ({{tr:bi}}) selects instrumentality here: the right hand is the means by which writing would have happened. That turns the writing denial from a general claim about authorship into an embodied denial of personal inscription.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:بِ}} ({{tr:bi}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:15:fused-entry-into-doubt",
+      "source_type": "word_analysis",
+      "support_id": "sup_05af212dd8c73dd7ae72",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"emphasis attaches to the doubt verb\",\"reader_payoff\":\"The reader hears the consequence marker route directly into the internal doubt verb.\",\"reason\":\"The lām precedes the Form VIII doubt verb and is licensed by the idhan result frame.\",\"representative_source_ids\":[\"QF-e70397d4\",\"QT-34349d2a\",\"MT-0c368726\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8:definite-indefinite-book-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_08f0c70fb9387395d5a6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"indefinite absence supports the definite Book\",\"reader_payoff\":\"The reader sees the movement from the definite Book in 29:47 to no indefinite book in 29:48 as authentication logic.\",\"reason\":\"The source rows give the concrete 29:47 contrast and the local grammar supports the indefinite negative reading.\",\"representative_source_ids\":[\"QI-8ddf78c6\",\"MT-721f22e3\",\"QB-764f1d99\",\"QY-486e4a1e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:13",
+      "source_type": "word_analysis",
+      "support_id": "sup_0ca8f1ed62311c57c99c",
+      "text": "{\"gloss_range\":\"the addressee's own right hand as instrumental proof of non-authorship\",\"prose\":\"{{ar:يَمِينِكَ}} ({{tr:yamīnika}}) individualizes the instrument: not a generic hand, but your right hand, definite through the second-person suffix. The y-m-n range adds oath and authority resonance only under the physical hand reading, so the word denies both bodily inscription and personally authorized production. The recurrence contrast with right-hand book reception in 84:7 and blessed-side language in 56:27 remains a useful echo, while the local grammar keeps the instrument literal.\",\"root_display\":\"{{ar:ي م ن}} ({{tr:y-m-n}})\",\"root_gloss_range\":\"right hand, oath, strength, auspicious side, and authority; locally physical hand is primary with authority resonance narrowed\",\"surface_display\":\"{{ar:يَمِينِكَ}} ({{tr:yamīnika}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000616/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_1176058090ab88f63386",
+      "text": "2. **The unrealized cause closes a specific route for disturbing doubt.** Lexical evidence: `لَٱرْتَاب`, root `ر ي ب`, `B001` (disturbing doubt and suspicion), and `ٱلْمُبْطِلُون`, root `ب ط ل`, `B003` (making false claims and speaking unreality). Structural cue: `إِذًا` makes the doubt explicitly counterfactual upon prior reading or writing, while surrounding ayat distinguish trusting recognition from knowing denial. Assigned role: false claimants would use an observable production history as suspicion's handle; the negations remove it. Abductive move: I do not infer that all doubt is impossible, only that this stated causal route lacks its antecedent. Reading change: the ayah offers a narrowly structured evidentiary argument rather than a blanket psychological claim.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/12",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:9:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_125d2e48994a5e53cc28",
+      "text": "{\"lemma_ar\":\"تَخُطُّ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:taxuT~u|ROOT:xTT|2MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:48:9:1\",\"qac_word_ref\":\"29:48:9\",\"root_ar\":\"خ ط ط\",\"surface_ar\":\"تَخُطُّ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/19",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:12:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_1390e435c8d779b5f7b8",
+      "text": "{\"lemma_ar\":\"ٱرْتَابَ\",\"morph_features\":\"STEM|POS:V|PERF|(VIII)|LEM:{rotaAba|ROOT:ryb|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:48:12:2\",\"qac_word_ref\":\"29:48:12\",\"root_ar\":\"ر ي ب\",\"surface_ar\":\"ٱرْتَابَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:6:anteriority-root-narrowed",
+      "source_type": "word_analysis",
+      "support_id": "sup_14d85a0c89fae87a45d8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"orientation root selects before-ness\",\"reader_payoff\":\"The reader notices that the proof depends on before-after alignment, not on acceptance or facing branches of the root.\",\"reason\":\"The governed nominal form selects temporal anteriority, while the broader q-b-l field adds orientation pressure only within that limit.\",\"representative_source_ids\":[\"QS-73784792\",\"QS-d2787884\",\"QI-566d64a5\",\"QE-b123a885\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4:denied-prior-recitation-practice",
+      "source_type": "word_analysis",
+      "support_id": "sup_1533383c0d39fdab2710",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"imperfect denies ongoing recitation practice\",\"reader_payoff\":\"The reader sees prior recitation excluded as a practice or capacity, not merely as one act.\",\"reason\":\"The verb is imperfect under the negated auxiliary and is conjoined with the later writing denial.\",\"representative_source_ids\":[\"QG-68750c28\",\"MF-3a3308e2\",\"QT-1d0e6d36\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11:text-line-root-split",
+      "source_type": "word_analysis",
+      "support_id": "sup_1997b3191eb9e9e7b68d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"book noun and writing verb do different work\",\"reader_payoff\":\"The reader keeps prior text and embodied writing hand together without collapsing k-t-b into kh-ṭ-ṭ.\",\"reason\":\"The local pair uses k-t-b for the book object and kh-ṭ-ṭ for line inscription.\",\"representative_source_ids\":[\"QF-e8daa640\",\"QE-568e1905\",\"QB-54593e0a\",\"QY-1c649ec2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8:k-t-b-and-kh-t-t-split",
+      "source_type": "word_analysis",
+      "support_id": "sup_1a46604279bd1a3ba96c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"text object differs from hand-writing act\",\"reader_payoff\":\"The reader keeps textual source and physical inscription as related but distinct denials.\",\"reason\":\"The ayah uses k-t-b for the text noun and kh-t-t for the physical writing verb.\",\"representative_source_ids\":[\"QF-341f976b\",\"QF-cde52af3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8:any-book-object-domain",
+      "source_type": "word_analysis",
+      "support_id": "sup_1ed06fbf5f6758fda9c3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"indefinite object becomes universal absence\",\"reader_payoff\":\"The reader sees the ayah deny access to any prior textual source, even though the noun is grammatically genitive.\",\"reason\":\"The noun is indefinite genitive after emphatic min and functions in the negated object domain of recitation.\",\"representative_source_ids\":[\"QG-2cb626db\",\"QG-4aaa9904\",\"MS-b2c545ee\",\"QF-587b3207\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_type": "channel",
+      "support_id": "sup_235284e25477f2b0ee2f",
+      "text": "و ح ي 29:45; ن ز ل 29:46-47,50-51; ك ت ب 29:45-48,51; خ ط ط 29:48.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/9",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:7:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_25d45d52d9b894c50ecc",
+      "text": "{\"lemma_ar\":\"كِتَٰب\",\"morph_features\":\"STEM|POS:N|LEM:kita`b|ROOT:ktb|M|INDEF|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:48:7:1\",\"qac_word_ref\":\"29:48:7\",\"root_ar\":\"ك ت ب\",\"surface_ar\":\"كِتَٰبٍ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_284fe741c9b4931003a7",
+      "text": "A worshiper takes an upright position, maintains the rite, aligns to its direction, and submits the body in service.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:1:wa-ma-negative-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_2884f3db0132c2e7f964",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"connector and negator form the opening frame\",\"reader_payoff\":\"The reader hears the first beat as denial-mode from the start, not as ordinary narration.\",\"reason\":\"The surface sequence places the connector before the past-negating particle and auxiliary frame.\",\"representative_source_ids\":[\"QF-b987f16a\",\"QT-576cf93d\",\"MT-6f3c8332\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:13:right-hand-specificity-and-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_2a810c941a7ac4adc9cb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"right-hand form intensifies authorship denial\",\"reader_payoff\":\"The reader notices the irony that the hand associated with receiving or authorization is denied producing any prior book.\",\"reason\":\"The local word chooses right hand rather than a generic hand, and the source rows give concrete echoes at 84:7 and 56:27.\",\"representative_source_ids\":[\"MS-f9f5021f\",\"QF-b92cec64\",\"QI-9e1ca790\",\"MI-de3378eb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4:recitation-authentication-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_2b28f00decc5293180fe",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"denied past contrasts with affirmed recitation\",\"reader_payoff\":\"The reader sees prior recitation denied so later or actual Quranic recitation can function as authenticated revelation.\",\"reason\":\"The source rows give concrete parallels in 10:16, 29:45, and 29:51, and no guardrail evidence contradicts the contrast.\",\"representative_source_ids\":[\"QI-66d10194\",\"MI-62efbe48\",\"MI-faba49eb\",\"QE-1c9ff0f3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:5:double-min-layering",
+      "source_type": "word_analysis",
+      "support_id": "sup_2f8524cee463935599d6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"time precedes category\",\"reader_payoff\":\"The reader sees the clause build from prior time to total absence of any book.\",\"reason\":\"The two min phrases have different local functions, temporal first and object-domain second.\",\"representative_source_ids\":[\"QF-a2417cdc\",\"QT-a13f5533\",\"MT-847c3af1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_3264975db429c4c4dcfb",
+      "text": "Prayer establishes a bodily and social order whose operation is to stop conduct at the boundary of the shameful and unrecognized.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_type": "channel",
+      "support_id": "sup_33f7127ce558c06cc85a",
+      "text": "Knowledge is conveyed discreetly, impressed into a durable surface, joined as a document, and delivered into its proper place.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:10:bipartite-literacy-denial",
+      "source_type": "word_analysis",
+      "support_id": "sup_3da7ca785ce107ec82ae",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"recitation and writing form a pair\",\"reader_payoff\":\"The reader sees the ayah closing the receptive and productive paths by which prior textual dependence could be alleged.\",\"reason\":\"The syntax coordinates recitation and writing as two denied actions under one evidentiary frame.\",\"representative_source_ids\":[\"QF-7998b676\",\"QF-aa6945a7\",\"QT-4570546b\",\"QT-b9776dae\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:15:emphatic-counterfactual-apodosis",
+      "source_type": "word_analysis",
+      "support_id": "sup_4356371153edaf31122f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"lām makes the hypothetical result forceful\",\"reader_payoff\":\"The reader notices that the projected doubt is presented as a strong consequence of the unreal condition.\",\"reason\":\"QAC identifies the particle as emphatic lām of counterfactual apodosis.\",\"representative_source_ids\":[\"QG-39a63568\",\"QG-840b15f9\",\"MG-36107468\",\"QS-b3a14759\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:14:inferential-three-beat-architecture",
+      "source_type": "word_analysis",
+      "support_id": "sup_460efaf69f318f4bb4c0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"two denials resolve in one result\",\"reader_payoff\":\"The reader sees the ayah's architecture: no recitation, no writing, therefore the blocked ground for adversarial doubt.\",\"reason\":\"The final result clause depends on the contrary condition built by the two preceding denials.\",\"representative_source_ids\":[\"QS-76ba6cdd\",\"QI-7bcda958\",\"QT-ac1b24f3\",\"MT-b02049d9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:3:being-root-auxiliary-narrowed",
+      "source_type": "word_analysis",
+      "support_id": "sup_4ebd67bee5fb07b90d83",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"being language is grammaticalized\",\"reader_payoff\":\"The reader keeps the force of a denied state of being while not overreading the root as an independent existential claim.\",\"reason\":\"The k-w-n root supplies being pressure, but the local form is an auxiliary of past state.\",\"representative_source_ids\":[\"QS-25605d4f\",\"QS-d3750632\",\"MS-52f2e9b1\",\"QI-28494cef\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_4f7fd9d2810fec736246",
+      "text": "{\"gloss_range\":\"emphatic/partitive min under negation, universalizing the book object\",\"prose\":\"The second {{ar:مِنْ}} ({{tr:min}}) is not the same temporal preposition repeated. Under negation it works with indefinite {{ar:كِتَٰبٍ}} ({{tr:kitābin}}) to mean any book at all, so the first denial excludes the whole category of prior textual source.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مِنْ}} ({{tr:min}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:suspicious-not-neutral-doubt",
+      "source_type": "word_analysis",
+      "support_id": "sup_4ffed4ea93ba08094f57",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"rayb is disturbed suspicion\",\"reader_payoff\":\"The reader understands the response as adversarial epistemic disturbance rather than careful inquiry.\",\"reason\":\"The r-y-b field and Form VIII morphology support suspicious internal disturbance.\",\"representative_source_ids\":[\"QS-95093d71\",\"QS-e1fa5e20\",\"QF-c6282e3e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:singular-preverbal-agreement",
+      "source_type": "word_analysis",
+      "support_id": "sup_53988e72b0d47a927d95",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"singular verb before plural subject is normal\",\"reader_payoff\":\"The reader avoids treating the singular verb as a mismatch or as evidence for a singular subject.\",\"reason\":\"QAC notes third masculine singular before the plural subject, and attachment evidence identifies the following noun as subject.\",\"representative_source_ids\":[\"QG-eec68cf7\",\"MG-74a690ab\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:class-morphology-and-closure",
+      "source_type": "word_analysis",
+      "support_id": "sup_53ad032a95536bafae11",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural participle closes the ayah\",\"reader_payoff\":\"The reader hears the ayah close not on doubt itself but on the class that would weaponize it.\",\"reason\":\"The word stacks definiteness, participial form, sound masculine plural ending, and final position.\",\"representative_source_ids\":[\"QF-58d75ee1\",\"QF-a5ede9f1\",\"QT-647fe351\",\"QP-7d3430f6\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_5426ffe3bab87e6f2772",
+      "text": "{\"gloss_range\":\"indefinite book/textual source under negation, semantic object of recitation\",\"prose\":\"{{ar:كِتَٰبٍ}} ({{tr:kitābin}}) is genitive in form because of {{ar:مِنْ}} ({{tr:min}}), yet it remains the semantic object domain of recitation. Its indefiniteness under negation is the point: not any prior book. The k-t-b range keeps written text, scripture, and authoritative record in view, while the next verb reserves physical line-making for kh-t-t; the contrast with the definite Book in 29:47 makes absence authenticate the revealed Book rather than compete with it.\",\"root_display\":\"{{ar:ك ت ب}} ({{tr:k-t-b}})\",\"root_gloss_range\":\"writing, written text, scripture, prescription, and record; locally narrowed to any prior textual authority\",\"surface_display\":\"{{ar:كِتَٰبٍ}} ({{tr:kitābin}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/6",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:5:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_5698d584c1204c58b245",
+      "text": "{\"lemma_ar\":\"قَبْل\",\"morph_features\":\"STEM|POS:N|LEM:qabol|ROOT:qbl|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:48:5:1\",\"qac_word_ref\":\"29:48:5\",\"root_ar\":\"ق ب ل\",\"surface_ar\":\"قَبْلِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_592dcc6adfa2eb92a950",
+      "text": "{\"gloss_range\":\"local negator for the writing verb, inheriting the past-continuous frame\",\"prose\":\"{{ar:لَا}} ({{tr:lā}}) supplies a local negation for {{ar:تَخُطُّهُ}} ({{tr:takhuṭṭuhu}}), while the earlier {{ar:كُنْتَ}} ({{tr:kunta}}) gives it the past-continuous frame. That lets the ayah close both literacy routes: oral/receptive recitation and manual/productive inscription.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَا}} ({{tr:lā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_595062456d9d5e217ddc",
+      "text": "{\"gloss_range\":\"specific before-frame, governed by min and bound to a prior Book/revelation antecedent\",\"prose\":\"{{ar:قَبْلِهِ}} ({{tr:qablihi}}) makes the before-frame specific because the suffix points back across the boundary to the Book claim in 29:47. The q-b-l root's orientation range is narrowed to temporal anteriority here: the prior revelation becomes the reference point against which the addressee's earlier non-recitation is measured.\",\"root_display\":\"{{ar:ق ب ل}} ({{tr:q-b-l}})\",\"root_gloss_range\":\"orientation and anteriority root, locally narrowed to temporal anteriority with referential alignment\",\"surface_display\":\"{{ar:قَبْلِهِ}} ({{tr:qablihi}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8:book-doubt-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_5a8b478520633bc09452",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"book language links to blocked doubt\",\"reader_payoff\":\"The reader sees why the denied book matters: it is the missing ground for the later counterfactual doubt.\",\"reason\":\"The co-occurrence rows tie k-t-b to r-y-b, and the local apodosis makes that relation explicit.\",\"representative_source_ids\":[\"QI-9a868436\",\"MI-e42f53eb\",\"QE-d52028d0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4:form-and-sound-compression",
+      "source_type": "word_analysis",
+      "support_id": "sup_5d34dd2102d7a19a7e2f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"form keeps agency direct and sound binds the frame\",\"reader_payoff\":\"The reader hears the auxiliary and recitation verb as tightly linked while the form keeps the denied agency on the addressee.\",\"reason\":\"The form is a direct Form I imperfect and the row's sound observation supports the already-forced auxiliary bond.\",\"representative_source_ids\":[\"QF-18212532\",\"QF-215c5163\",\"QF-c58b1eb0\",\"QP-d5487978\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:13:owned-right-hand-instrument",
+      "source_type": "word_analysis",
+      "support_id": "sup_61e7a421f33b179e053b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"your right hand individualizes the proof\",\"reader_payoff\":\"The reader sees the argument narrow to the addressee's own embodied capacity.\",\"reason\":\"The noun is governed by instrumental bi and carries a second-person possessive suffix.\",\"representative_source_ids\":[\"QG-3765ff81\",\"QG-7a5db20a\",\"QG-fa48564a\",\"QF-ea08d351\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11:physical-line-inscription-root",
+      "source_type": "word_analysis",
+      "support_id": "sup_62f3bc048d0009fe1e72",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"root selects line-making\",\"reader_payoff\":\"The reader notices the denial of embodied handwriting, not merely general composing or decreeing.\",\"reason\":\"The right-hand instrument and local root branch support physical line-inscription as the active sense.\",\"representative_source_ids\":[\"QS-054b1a2c\",\"QS-5edd082f\",\"QS-9eebe406\",\"MS-6c58d0ea\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:scripture-doubt-recurrence",
+      "source_type": "word_analysis",
+      "support_id": "sup_63d01615b9cc13495720",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"book-authentication field is inverted\",\"reader_payoff\":\"The reader sees the absence of prior book access as preventing the kind of rayb that scripture language often addresses.\",\"reason\":\"The rows cite scripture-doubt contexts including 2:2 and 10:37 and tie r-y-b to k-t-b recurrence.\",\"representative_source_ids\":[\"MS-4386757b\",\"QI-672d6f67\",\"QI-a7b9f94a\",\"MI-960b1a3a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:2:past-state-negation",
+      "source_type": "word_analysis",
+      "support_id": "sup_696483dddc23925be69d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negation targets a past state\",\"reader_payoff\":\"The reader notices that the ayah denies a settled past condition, not a single missed event.\",\"reason\":\"QAC identifies past negation with kāna, and the attachment frame makes the auxiliary govern the first verbal predicate.\",\"representative_source_ids\":[\"QG-138715b6\",\"QG-4fbf6a05\",\"MG-286c75ca\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_type": "channel",
+      "support_id": "sup_696fe37bdab516a731ba",
+      "text": "Revelation moves from concealed delivery through inscription and ordered sequence into voiced remembrance and embodied knowledge.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_6d6888d6551828747b1c",
+      "text": "{\"gloss_range\":\"imperfect reciting/following denied as prior practice, with object supplied through the later min phrase\",\"prose\":\"{{ar:تَتْلُوا۟}} ({{tr:tatlū}}) names the first literacy channel denied inside the past-state frame. Its t-l-w range lets the absence include ordered following and recitation from a previous textual line, while the grammar keeps the object in the later {{ar:مِنْ كِتَٰبٍ}} ({{tr:min kitābin}}) domain rather than a specified prior text. The Form I imperfect keeps the denied agency on the addressee, and the adjacent auxiliary-recitation sound compression reinforces the syntactic bond. The same root's links to 10:16, 29:45, and 29:51 make the denial part of a wider recitation-authentication pattern.\",\"root_display\":\"{{ar:ت ل و}} ({{tr:t-l-w}})\",\"root_gloss_range\":\"following-in-sequence and recitation both locally relevant, narrowed to denied prior textual recitation/dependence\",\"surface_display\":\"{{ar:تَتْلُوا۟}} ({{tr:tatlū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000422/B001",
+        "root_000422/B005"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_6d6b0875ff4b19916199",
+      "text": "1. **Absence of an authorial trace closes a causal route for doubt.** خ ط ط B001 is an extended trace or drawn line, and B005 is an affair, plan, or case. No prior recitation and no right-hand tracing precede the counterfactual “then the falsifiers would doubt.” I infer that a visible scribal line would enable a rival authorship-case; its absence makes the ayah an argument about blocked provenance, not a devaluation of writing.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_6d84666590948ad04734",
+      "text": "{\"gloss_range\":\"negative coordinator introducing the second excluded literacy action\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) before {{ar:لَا}} ({{tr:lā}}) links the writing denial to the recitation denial without collapsing them. The short cluster creates the second beat: another excluded channel of textual engagement, parallel to but distinct from recitation.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:10:local-negation-inherited-tense",
+      "source_type": "word_analysis",
+      "support_id": "sup_7454776a79184a4e3aae",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"local negator inherits the past frame\",\"reader_payoff\":\"The reader notices that writing is separately negated but still belongs to the same past biographical denial.\",\"reason\":\"The second negated clause is coordinated under the first negated kāna frame.\",\"representative_source_ids\":[\"QG-1776c94c\",\"QG-c2070401\",\"MG-ce208afd\",\"QS-5eb651b9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:8:authoritative-text-range",
+      "source_type": "word_analysis",
+      "support_id": "sup_778c79ab61a79184ae59",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"book range is textual authority\",\"reader_payoff\":\"The reader notices that the denied object is an authoritative written source, not a casual object or mere possession.\",\"reason\":\"The local noun is book/text, while wider k-t-b branches such as decree or joining remain secondary texture.\",\"representative_source_ids\":[\"QS-6669a162\",\"QS-9d721605\",\"QS-de4af95c\",\"MS-0a0f380e\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:14:compact-apodosis-sound",
+      "source_type": "word_analysis",
+      "support_id": "sup_778f6bb2dffeac92c9b1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"particle form makes the hinge compact\",\"reader_payoff\":\"The reader hears the counterfactual turn before the doubt verb fully arrives.\",\"reason\":\"The surface cluster joins the consequence particle with the following emphatic lām.\",\"representative_source_ids\":[\"QF-309eb39f\",\"QF-5ef09aae\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_77d918f7f196029e8a66",
+      "text": "\"Establish prayer\" combines erection and maintenance: the body stands, the practice is kept in repair, and attention is aligned toward a direction. Prayer thereby supplies an ordered stance before it supplies a prohibitive effect.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:15",
+      "source_type": "word_analysis",
+      "support_id": "sup_7c5b6ff728211e3a8b40",
+      "text": "{\"gloss_range\":\"emphatic lām of the counterfactual apodosis before the doubt verb\",\"prose\":\"{{ar:لَ}} ({{tr:la}}) completes the apodosis environment begun by {{ar:إِذًا}} ({{tr:idhan}}). It does not add a lexical meaning of its own; it marks the unrealized doubt as a forcefully projected consequence and fuses that emphasis directly onto the Form VIII verb {{ar:ٱرْتَابَ}} ({{tr:irtāba}}), so emphasis and internalized doubt arrive as one onset.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَ}} ({{tr:la}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:13:boundary-contracts-to-body",
+      "source_type": "word_analysis",
+      "support_id": "sup_81832a53eef486351c3a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"the discourse contracts to the body\",\"reader_payoff\":\"The reader feels the shift from communal reception to intimate biographical evidence.\",\"reason\":\"The second-person suffix binds the body-part noun to the addressed person.\",\"representative_source_ids\":[\"QF-da8493c6\",\"QE-9e1c0c93\",\"QB-a3af0283\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000422/B001",
+        "root_001283/B002",
+        "root_001283/B003",
+        "root_001492/B002",
+        "root_001492/B004",
+        "root_001633/B001",
+        "root_001633/B003",
+        "root_001633/B004"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_type": "channel",
+      "support_id": "sup_81c786b7bae087d15d9e",
+      "text": "concealed communication of knowledge `quranic:root_001633:B001/m01`; writing and engraving `quranic:root_001633:B003/m01`; divine report and inspiration `quranic:root_001633:B004/m01`; revelation delivered downward `quranic:root_001492:B002/m02`; ordered placement into the proper rank `quranic:root_001492:B004/m01`; written document and arranged letters `quranic:root_001283:B002/m01`; binding determination in writing `quranic:root_001283:B003/m01`; extended written line `quranic:root_000422:B001/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:7:visible-min-tanwin-construction",
+      "source_type": "word_analysis",
+      "support_id": "sup_81fe7e3605e18c603017",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"form shows unbounded object scope\",\"reader_payoff\":\"The reader notices the two min phrases doing different jobs inside one clause.\",\"reason\":\"The second min precedes an indefinite genitive noun, unlike the earlier temporal phrase.\",\"representative_source_ids\":[\"QF-6c360326\",\"QT-f402dbb1\",\"MT-e0703e05\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:14",
+      "source_type": "word_analysis",
+      "support_id": "sup_882b3ee805757573e1ed",
+      "text": "{\"gloss_range\":\"counterfactual consequence hinge introducing the unrealized result clause\",\"prose\":\"{{ar:إِذًا}} ({{tr:idhan}}) is the hinge that reveals why the two denials matter. Its final nasalized particle shape and immediate lām make the counterfactual turn acoustically compact before the doubt verb arrives. It frames {{ar:لَ ٱرْتَابَ ٱلْمُبْطِلُونَ}} ({{tr:la-rtāba al-mubṭilūna}}) as the result that would have followed if the denied literacy condition were true, so the doubt remains counterfactual rather than actual.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِذًا}} ({{tr:idhan}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:12:bound-body-link",
+      "source_type": "word_analysis",
+      "support_id": "sup_8fd1c0d6cbceabcdd67d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bound preposition ties verb to body\",\"reader_payoff\":\"The reader hears the clause narrow from writing in general to writing with the addressee's own hand.\",\"reason\":\"The preposition attaches the hand phrase to the writing verb as its means.\",\"representative_source_ids\":[\"QF-47a26477\",\"QT-d9275f1e\",\"MT-3d146f40\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:3:address-bound-proof",
+      "source_type": "word_analysis",
+      "support_id": "sup_9173cdb419c8433afc3f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second person makes the proof personal\",\"reader_payoff\":\"The reader sees the argument contract from communities to the addressed person's own textual history.\",\"reason\":\"QAC and implicit-argument evidence mark the verb as second masculine singular.\",\"representative_source_ids\":[\"QG-6617db0a\",\"QF-82404a5b\",\"QB-f27791cb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:surah-boundary-doubt-to-challenge",
+      "source_type": "word_analysis",
+      "support_id": "sup_9528c2c6bbaac9bbbb24",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"blocked doubt contrasts with later haste\",\"reader_payoff\":\"The reader notices the surah's polemical movement from unrealized suspicion here to active pressure later in 29:53.\",\"reason\":\"The source rows give the concrete same-surah contrast between 29:48 and 29:53.\",\"representative_source_ids\":[\"QE-9249018c\",\"ME-6826d7ba\",\"QB-d5aac329\",\"QY-51941e29\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11:unique-and-sounded-writing-denial",
+      "source_type": "word_analysis",
+      "support_id": "sup_9616de6e69c82a603784",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"hapax root and sound intensify physicality\",\"reader_payoff\":\"The reader hears the sole explicit physical-writing root placed exactly where manual authorship is denied.\",\"reason\":\"The distributional rows identify kh-ṭ-ṭ as unique here, and the sound rows reinforce the physical scoring image.\",\"representative_source_ids\":[\"QI-14e7728d\",\"QH-68878055\",\"MH-cf3d3a1c\",\"QP-a278a0a8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_985cda1d00ec52faedef",
+      "text": "- **Later confirmation (`29:51`):** The book “recited upon them” supplies the positive present operation contrasted with absent prior reading and handwriting. The biographical negations do not leave an evidentiary vacuum; they clear the field for a received text whose ongoing sequence is publicly encounterable.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/2",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:2:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_98b590278139e1697b77",
+      "text": "{\"lemma_ar\":\"كَانَ\",\"morph_features\":\"STEM|POS:V|PERF|LEM:kaAna|ROOT:kwn|SP:kaAn|2MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:48:2:1\",\"qac_word_ref\":\"29:48:2\",\"root_ar\":\"ك و ن\",\"surface_ar\":\"كُن\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_000973/B003",
+        "root_001198/B005",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_9b5cef69bcf5acf87ea5",
+      "text": "prescribed prayer with standing and prostration `quranic:root_000879:B003/m01`; houses and places of prayer `quranic:root_000879:B007/m01`; bodily standing `quranic:root_001273:B002/m01`; sustained care and maintenance `quranic:root_001273:B004/m01`; straight alignment `quranic:root_001273:B008/m01`; submissive worship `quranic:root_000973:B003/m01`; prayer-direction faced by the body `quranic:root_001198:B005/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_9c232bd97afbc5d268d8",
+      "text": "{\"gloss_range\":\"past-state negator governing the kāna frame and extending into the coordinated denial\",\"prose\":\"{{ar:مَا}} ({{tr:mā}}) negates the past state carried by {{ar:كُنْتَ}} ({{tr:kunta}}), so the denial is not only that one act of recitation did not happen. It frames an absent pre-revelatory condition and remains the polarity backdrop for the later {{ar:وَلَا}} ({{tr:wa-lā}}) writing denial.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مَا}} ({{tr:mā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:9:coordinated-second-negation",
+      "source_type": "word_analysis",
+      "support_id": "sup_9c9a2dc05402d791ecb6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"wa-lā adds a second denial\",\"reader_payoff\":\"The reader hears writing added as a separate denied competence rather than an afterthought.\",\"reason\":\"QAC marks coordination with negation, and attachment evidence conjoins the writing verb to the recitation verb.\",\"representative_source_ids\":[\"QG-0cd31cf7\",\"QG-37faf0e4\",\"QS-12b060a5\",\"QT-47b72100\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:6:min-governed-temporal-noun",
+      "source_type": "word_analysis",
+      "support_id": "sup_9f7f3fe93795d69d903b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"genitive noun forms the temporal phrase\",\"reader_payoff\":\"The reader sees time as a possessed reference point, not as a loose adverb.\",\"reason\":\"The noun is genitive under min and carries a third masculine singular suffix.\",\"representative_source_ids\":[\"QG-bb66895d\",\"MG-1912fed3\",\"QF-0be5b0f6\",\"QF-eaea8f4a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/21",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:13:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_a23d8981cc7e2c346d12",
+      "text": "{\"lemma_ar\":\"مُبْطِلُون\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|(IV)|LEM:muboTiluwn|ROOT:bTl|MP|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:48:13:2\",\"qac_word_ref\":\"29:48:13\",\"root_ar\":\"ب ط ل\",\"surface_ar\":\"مُبْطِلُونَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_a4d35e18e4538e3e9f67",
+      "text": "{\"gloss_range\":\"connector that resumes the previous Book argument and opens a negated evidentiary frame\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) makes the ayah continue the prior Book claim rather than begin as an isolated statement. Joined immediately to {{ar:مَا}} ({{tr:mā}}), it opens a negated biographical proof: the previous assertion remains complete, while this ayah adds the absence of prior recitation and writing as supporting evidence.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11:past-continuous-manual-writing",
+      "source_type": "word_analysis",
+      "support_id": "sup_a606ad9cfff681560e3f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"writing practice is denied\",\"reader_payoff\":\"The reader sees ongoing manual agency denied, not simply one completed written act.\",\"reason\":\"The verb is second-person imperfect, conjoined under the negated past-state frame, and takes an instrumental phrase.\",\"representative_source_ids\":[\"QG-805087ce\",\"QF-f349c21d\",\"QS-bbb4d30b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:9:audible-negative-reset",
+      "source_type": "word_analysis",
+      "support_id": "sup_a909a9657f6320a7d35e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"short cluster resets the beat\",\"reader_payoff\":\"The reader can track the two-part architecture by the compact wa-lā reset.\",\"reason\":\"The connector and negator are segmentable words but function together to open the second denial.\",\"representative_source_ids\":[\"QF-468ea12f\",\"MT-28b7a7f7\",\"QP-8dc6a8c9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/4",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:3:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_aa0f2900f91f8b27d781",
+      "text": "{\"lemma_ar\":\"تَلَىٰ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:talaY`|ROOT:tlw|3FS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:48:3:1\",\"qac_word_ref\":\"29:48:3\",\"root_ar\":\"ت ل و\",\"surface_ar\":\"تَتْلُوا۟\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:nullifying-active-agency",
+      "source_type": "word_analysis",
+      "support_id": "sup_ac4b7d0455916d3f31a4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"participle names active invalidation\",\"reader_payoff\":\"The reader recognizes adversarial nullification rather than ordinary questioning or simple error.\",\"reason\":\"The Form IV active participle encodes causative agency in making things void or false.\",\"representative_source_ids\":[\"QS-b6876c6a\",\"QS-c910f0b2\",\"QS-d7aa36b8\",\"QF-fb20f7b3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:perfect-counterfactual-doubt",
+      "source_type": "word_analysis",
+      "support_id": "sup_ac54f9891f25a0ea6049",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"perfect verb completes the unreal result\",\"reader_payoff\":\"The reader hears doubt as the unrealized outcome of the denied literacy condition.\",\"reason\":\"The verb stands after idhan and emphatic lām in the result clause.\",\"representative_source_ids\":[\"QG-2923b20c\",\"QF-fa1f7033\",\"QP-4501686d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:6:suffixed-antecedent",
+      "source_type": "word_analysis",
+      "support_id": "sup_ae098937934bdecbfec8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"suffix imports the prior Book\",\"reader_payoff\":\"The reader carries the prior Book claim into this ayah instead of treating before it as vague time.\",\"reason\":\"Cross-reference evidence resolves the suffix to the Book mentioned in 29:47.\",\"representative_source_ids\":[\"QG-4a3e3d50\",\"QG-4cd3763e\",\"MS-bb1b7824\",\"QB-b024380a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_b095597c41ca4298a7e6",
+      "text": "{\"gloss_range\":\"second-person auxiliary of past continuous state\",\"prose\":\"{{ar:كُنْتَ}} ({{tr:kunta}}) turns the denial into a past state of the addressee: he was not in the condition of reciting from a prior book. The second-person ending makes the proof biographical, while the auxiliary reaches forward to the coordinated writing denial, so both excluded actions sit inside one past-status frame.\",\"root_display\":\"{{ar:ك و ن}} ({{tr:k-w-n}})\",\"root_gloss_range\":\"being/existence root narrowed here to auxiliary past-state grammar\",\"surface_display\":\"{{ar:كُنْتَ}} ({{tr:kunta}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:12:instrumental-hand-marker",
+      "source_type": "word_analysis",
+      "support_id": "sup_b247d88fa0054fe608d4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"bi makes the hand an instrument\",\"reader_payoff\":\"The reader notices that the proof reaches the bodily means of writing, not only the written product.\",\"reason\":\"QAC and attachment evidence identify bi as instrumental and make it govern the hand noun.\",\"representative_source_ids\":[\"QG-29148131\",\"QG-5fb68c86\",\"MG-06f76e21\",\"QS-9379d64d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Hidden Delivery and Durable Inscription",
+      "source_type": "channel",
+      "support_id": "sup_b309e1d5b67d107622c1",
+      "text": "Revelation traverses two media without losing identity: a hidden transfer of knowledge becomes a durable inscription. Descent is also placement, so the book arrives not merely from above but into an ordered textual form.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:13:yamin-authority-resonance",
+      "source_type": "word_analysis",
+      "support_id": "sup_b5c3ea0d6474b541b39f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"hand is primary, authority resonates\",\"reader_payoff\":\"The reader senses authorization and oath-pressure without losing the literal hand as the selected local sense.\",\"reason\":\"The instrumental grammar selects the body-part sense, while the y-m-n family licenses authority resonance as secondary.\",\"representative_source_ids\":[\"QS-6e49cd80\",\"QS-80273d11\",\"QS-98451f05\",\"MS-97cb168e\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4:following-reciting-root-range",
+      "source_type": "word_analysis",
+      "support_id": "sup_b5ee3e047a2e43dfdabb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"following and reciting converge locally\",\"reader_payoff\":\"The reader notices that the denied act is not bare vocalization but dependence on a prior textual sequence.\",\"reason\":\"The local sense is recitation, while the root's following-sequence branch gives valid texture without replacing the verb's grammar.\",\"representative_source_ids\":[\"QS-1b00de0d\",\"QS-2fd2f04c\",\"MS-99c961ea\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:polysemy-and-truth-polarity",
+      "source_type": "word_analysis",
+      "support_id": "sup_b7c603ed9dcf9638d2c9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"falsehood field colors the class\",\"reader_payoff\":\"The reader senses an ironic false-champion undertone while the local sense remains invalidators of truth.\",\"reason\":\"Falsehood/nullification is the local branch; heroic-bravado pressure is secondary and must not replace the active participle sense.\",\"representative_source_ids\":[\"QS-95127645\",\"MS-63593305\",\"MF-189e6b56\",\"QI-0040a753\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:7:emphatic-any-book-min",
+      "source_type": "word_analysis",
+      "support_id": "sup_bd12c45096c13df08390",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second min universalizes absence\",\"reader_payoff\":\"The reader hears not a missing particular book but the exclusion of any prior book whatsoever.\",\"reason\":\"QAC marks emphatic/partitive min, and attachment evidence places the phrase in the negated object domain.\",\"representative_source_ids\":[\"QG-3e8bfaa2\",\"QG-65afd0a7\",\"MG-cfa26578\",\"QS-801a6e60\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:3:past-continuous-state",
+      "source_type": "word_analysis",
+      "support_id": "sup_be3334d3d7d4f5e964dd",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"auxiliary denies a habitual condition\",\"reader_payoff\":\"The reader notices a denied literacy condition rather than a denied isolated act.\",\"reason\":\"The local evidence marks a perfect auxiliary governing an imperfect predicate in a negated kāna clause.\",\"representative_source_ids\":[\"QG-56c5a25e\",\"MG-bcf414ce\",\"QF-baea186b\",\"QT-8244cd6f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_be85e901ad8638142b8a",
+      "text": "ص ل و 29:45; ق و م 29:45,51; ع ب د 29:56; ق ب ل 29:48.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:14:counterfactual-result-hinge",
+      "source_type": "word_analysis",
+      "support_id": "sup_bf65130e971390ee4a33",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"idhan turns absence into consequence logic\",\"reader_payoff\":\"The reader notices that the final clause is an unrealized consequence, not a report of actual doubt.\",\"reason\":\"QAC marks a counterfactual consequence marker, and attachment evidence links the final clause as result.\",\"representative_source_ids\":[\"QG-4470f178\",\"QG-a7db4922\",\"MG-64f2b76c\",\"QT-5839feb1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:16:form-viii-internal-doubt",
+      "source_type": "word_analysis",
+      "support_id": "sup_c7463025633310794bb1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form VIII internalizes suspicion\",\"reader_payoff\":\"The reader sees the suspicion generated within the adversaries, not treated as neutral evidence compelling doubt.\",\"reason\":\"The verb instance is Form VIII and intransitive with the invalidators as subject.\",\"representative_source_ids\":[\"QG-fae32a4c\",\"QS-30a09c6e\",\"QF-5e3660bf\",\"MF-d7bcbde4\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11:object-suffix-book-referent",
+      "source_type": "word_analysis",
+      "support_id": "sup_c9214630e0117f9465f7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"suffix returns to the negated book\",\"reader_payoff\":\"The reader sees the writing denial target the same book-domain rather than a new unspecified object.\",\"reason\":\"Cross-reference evidence resolves the object suffix to the negated book.\",\"representative_source_ids\":[\"QG-42f4af7f\",\"QG-bf919bac\",\"MG-2c01e5fd\",\"QF-86804450\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:5:temporal-before-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_d3a2c251b6a30fe8de96",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first min marks prior time\",\"reader_payoff\":\"The reader recognizes that the denial covers the pre-revelatory interval rather than an unspecified source relation.\",\"reason\":\"QAC marks this preposition as temporal, and attachment evidence makes it govern the time noun.\",\"representative_source_ids\":[\"QG-340aa133\",\"QG-ed53524b\",\"MG-7b014951\",\"QS-dc4328d1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_d4d232c77dcc5796cb49",
+      "text": "{\"gloss_range\":\"direct manual line-writing denied, with object suffix referring back to the negated book\",\"prose\":\"{{ar:تَخُطُّهُ}} ({{tr:takhuṭṭuhu}}) denies the addressee's own act of writing it, with the suffix returning to the negated book-domain. The kh-ṭ-ṭ root makes the denial concrete: hand-made lines, scoring, and inscription, not just abstract authorship. Its unique Quranic distribution, right-hand instrument, and doubled emphatic ṭṭ sound all sharpen the same payoff: physical production of a prior text is structurally blocked.\",\"root_display\":\"{{ar:خ ط ط}} ({{tr:kh-ṭ-ṭ}})\",\"root_gloss_range\":\"line drawing, scoring, and physical inscription; locally selected over broader k-t-b authorship language\",\"surface_display\":\"{{ar:تَخُطُّهُ}} ({{tr:takhuṭṭuhu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:4:min-object-valency",
+      "source_type": "word_analysis",
+      "support_id": "sup_d564a8212f3fd67a5674",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"object comes through the any-book phrase\",\"reader_payoff\":\"The reader avoids inventing a particular previous text as the direct object.\",\"reason\":\"The verb instance marks no direct object and lists the two min prepositional complements.\",\"representative_source_ids\":[\"QG-c3dda3bb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000422/B001",
+        "root_001283/B002",
+        "root_001698/B002"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_d78777c78bfeb1f84ef0",
+      "text": "1. **Two negated production channels shift attention to the present received text.** Lexical evidence: `تَتْلُوا`, root `ت ل و`, `B001` (following in sequence); `كِتَاب`, root `ك ت ب`, `B002` (joined writing); `تَخُطُّه`, root `خ ط ط`, `B001` (extended trace or drawn line); and `يَمِينِك`, root `ي م ن`, `B002` (right hand). Structural cue: prior sequential reading and manual line-drawing are separately negated; `29:47` has just named descent, and `29:49` relocates signs to knowledgeable chests. Assigned role: the two absent channels block an authorship history based on prior textual apprenticeship or handwriting. Abductive move: the packet supplies the counterfactual link to doubt; I infer that evidentiary weight shifts from the speaker's production to the received, recited object's present operation. Reading change: biographical absence becomes positive constraint on a fabrication account.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:boundary-class-refinement",
+      "source_type": "word_analysis",
+      "support_id": "sup_dc9cd4b4e47842b273a7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"deniers become invalidators\",\"reader_payoff\":\"The reader notices the shift from the previous ayah's deniers to this ayah's agents of invalidation.\",\"reason\":\"The boundary rows compare the closing adversary classes across 29:47 and 29:48.\",\"representative_source_ids\":[\"QB-cdd0688f\",\"QY-1f2d165c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:2:continuing-negation-architecture",
+      "source_type": "word_analysis",
+      "support_id": "sup_ded7c44d08547f6368a0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one polarity frame serves two denials\",\"reader_payoff\":\"The reader sees the final doubt clause depend on the built-up absence rather than on a stand-alone accusation.\",\"reason\":\"The translation support warns that the negation covers both prior recitation and writing.\",\"representative_source_ids\":[\"QS-b0ce30d3\",\"QF-2c05fb1f\",\"QF-d87f2019\",\"QT-79a51de0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/15",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:48:10:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_ec986ca737a72257363d",
+      "text": "{\"lemma_ar\":\"يَمِين\",\"morph_features\":\"STEM|POS:N|LEM:yamiyn|ROOT:ymn|M|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:48:10:2\",\"qac_word_ref\":\"29:48:10\",\"root_ar\":\"ي م ن\",\"surface_ar\":\"يَمِينِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:definite-adversary-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_ecc82fad25524049e2ba",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"known invalidators receive the doubt\",\"reader_payoff\":\"The reader sees the counterfactual doubt assigned to a recognized adversary class, not left impersonal.\",\"reason\":\"QAC marks a definite nominative plural active participle, and attachment evidence identifies it as the subject of the doubt verb.\",\"representative_source_ids\":[\"QG-1bcf6a4d\",\"QG-3cded482\",\"QG-511e586d\",\"MG-79b5f999\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17",
+      "source_type": "word_analysis",
+      "support_id": "sup_eea01a0798c8b469039c",
+      "text": "{\"gloss_range\":\"definite nominative plural active participle naming the known invalidator class\",\"prose\":\"{{ar:ٱلْمُبْطِلُونَ}} ({{tr:al-mubṭilūna}}) supplies the subject of the counterfactual doubt and seals the ayah on a known adversary class. The definite plural active participle does more than call them mistaken: from b-ṭ-l it names agents who make truth void or advance falsehood. Its final position puts responsibility for the hypothetical suspicion on the invalidators, while later 29:52 returns to the same root in the abstract falsehood field.\",\"root_display\":\"{{ar:ب ط ل}} ({{tr:b-ṭ-l}})\",\"root_gloss_range\":\"falsehood, nullity, invalidation, vanity, and secondary heroic-bravado undertone; locally active nullifying agency\",\"surface_display\":\"{{ar:ٱلْمُبْطِلُونَ}} ({{tr:al-mubṭilūna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_f0d88df41ac838156ba5",
+      "text": "{\"gloss_range\":\"temporal preposition governing the before-frame\",\"prose\":\"The first {{ar:مِنْ}} ({{tr:min}}) is temporal: it governs {{ar:قَبْلِهِ}} ({{tr:qablihi}}) and sets the denial inside the whole prior interval. Its placement before the second {{ar:مِنْ}} ({{tr:min}}) layers time first, then the any-book object domain.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مِنْ}} ({{tr:min}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:1:continuing-evidentiary-opening",
+      "source_type": "word_analysis",
+      "support_id": "sup_f2ce38a85f129feadb7b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"continuation becomes evidence\",\"reader_payoff\":\"The reader notices that the ayah is attached to the prior Book argument while adding a fresh proof-ground.\",\"reason\":\"QAC marks coordination, and the local clause opens a negated evidence sequence that follows the Book claim in 29:47.\",\"representative_source_ids\":[\"QG-9b22fdbc\",\"QS-5a9b26d7\",\"QT-6479da0b\",\"QB-01653b6c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/16/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:48:17:surah-root-handoff",
+      "source_type": "word_analysis",
+      "support_id": "sup_ffc4323287f57b81ae7a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"agent of invalidation anticipates falsehood field\",\"reader_payoff\":\"The reader sees the adversary noun in 29:48 anticipate the abstract falsehood language of 29:52.\",\"reason\":\"The source rows give the same-root movement from the agent noun in 29:48 to the falsehood field in 29:52.\",\"representative_source_ids\":[\"QI-a3798caa\",\"MI-2d2169eb\",\"MI-f0f1ced6\",\"QE-e581b969\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    }
+  ]
+}

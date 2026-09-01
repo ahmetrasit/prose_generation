@@ -1,0 +1,1480 @@
+{
+  "artifacts": {
+    "docket": "inputs/adjudication/s029/29_10.docket.json",
+    "docket_payload_sha256": "d50b0a1a254b5adfc8aacc3dadcaf628cab0863e8c8c58a7cec759c59c912d5e",
+    "prepared": "inputs/prepared/s029/29_10.prepared.json",
+    "source_bundle": "inputs/source/s029/29_10.bundle.json"
+  },
+  "budget": {
+    "branch_count": 126,
+    "docket_bytes": 189362,
+    "estimated_tokens_chars_div_4": 47341,
+    "nominated_branch_count": 4,
+    "support_count": 114
+  },
+  "candidate_ledger": [
+    {
+      "candidate_id": "cand_3cd00d71ab7c334547cb",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "B:Spoken Profession and the Unvoiced Interior",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel"
+    },
+    {
+      "candidate_id": "cand_d7beaddb64a5da31b906",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "C:Injury Amplified as Public Circulation",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel"
+    },
+    {
+      "candidate_id": "cand_b2f1e06a6ecef1d664c2",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "finding anchors[0] root_id is not carried by QAC word 29:10:2",
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_spoken_security_vs_chest",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_false_equivalence",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:baseline_victory_indexed_withness",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/2",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000852/B004', 'root_001290/B001']",
+      "source_local_id": "reader_hft_a:delta_test_sorts_speech",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B003', 'root_000791/B002', 'root_000956/B001']",
+      "source_local_id": "reader_hft_a:delta_intimate_authority_collision",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000430/B004', 'root_000504/B001', 'root_000791/B002', 'root_001476/B001']",
+      "source_local_id": "reader_hft_a:delta_sea_reversal_state_machine",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/10",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000313/B003', 'root_000423/B001']",
+      "source_local_id": "reader_hft_a:delta_secure_sanctuary_misread",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/11",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000323/B002', 'root_000672/B001', 'root_001583/B001']",
+      "source_local_id": "reader_hft_a:delta_closing_true_withness",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/12",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_001537/B004']",
+      "source_local_id": "reader_hft_a:delta_two_exit_hypocrisy",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000175/B004', 'root_000202/B001', 'root_000357/B003']",
+      "source_local_id": "reader_hft_a:delta_burden_transfer_membership",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000311/B002', 'root_001200/B001', 'root_001476/B001']",
+      "source_local_id": "reader_hft_a:delta_counterfeit_fire_judgment",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/4",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:delta_arriving_support_separates",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/5",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000166/B001', 'root_001684/B004', 'root_001687/B001']",
+      "source_local_id": "reader_hft_a:delta_fragile_social_shelter",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/6",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003']",
+      "source_local_id": "reader_hft_a:delta_chests_carry_signs",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/7",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000177/B001', 'root_000372/B006', 'root_000526/B002', 'root_001088/B002', 'root_001188/B001']",
+      "source_local_id": "reader_hft_a:delta_punishment_has_total_geometry",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/8",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000840/B001', 'root_001681/B002']",
+      "source_local_id": "reader_hft_a:delta_patience_reallocates_dependence",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/9",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:outlier_rattling_speech",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "quarantined",
+      "reason": "HFT packet failed scope/identity audit",
+      "source_local_id": "reader_hft_a:outlier_human_warmth_as_rival_refuge",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": "cand_556935d2c278b22c4995",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:8:1",
+      "source_pointer": "/qac_morphemes/12",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_e5bcfe6d1ee95a5d0793",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:11:1",
+      "source_pointer": "/qac_morphemes/15",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_834f6377fcff50d3a333",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:12:1",
+      "source_pointer": "/qac_morphemes/16",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_99908d24fa900db0e721",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:14:2",
+      "source_pointer": "/qac_morphemes/20",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_d48e18c6734200420931",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:17:1",
+      "source_pointer": "/qac_morphemes/25",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_8fc134c50214dccc4eed",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:18:1",
+      "source_pointer": "/qac_morphemes/26",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_fe464bfaaccfaff68ae9",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:20:1",
+      "source_pointer": "/qac_morphemes/28",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_ef095b5a5b02644aef1f",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:2:2",
+      "source_pointer": "/qac_morphemes/3",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_d9535263061051dd5feb",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:23:1",
+      "source_pointer": "/qac_morphemes/35",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_b87746914774adfb5b2a",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:25:3",
+      "source_pointer": "/qac_morphemes/41",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_c68164c9435cd2a89cdd",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:27:2",
+      "source_pointer": "/qac_morphemes/44",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_9847542589662142a958",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:30:1",
+      "source_pointer": "/qac_morphemes/48",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_6bdd044158503a355d80",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:4:1",
+      "source_pointer": "/qac_morphemes/5",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_f57973278a43fcd41d12",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:5:1",
+      "source_pointer": "/qac_morphemes/6",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_ffccfea67010652c9f3f",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "29:10:6:2",
+      "source_pointer": "/qac_morphemes/9",
+      "source_type": "qac_morpheme"
+    },
+    {
+      "candidate_id": "cand_a8420fca2bfa1008e7f8",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_193ec653ceedca15f555",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_6f1509c039b730edb69f",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks"
+    },
+    {
+      "candidate_id": "cand_b7e3fee6b6bd52d57e63",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_28caa79135a3b76e296b",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_7fe3077149f9ea9c9cf4",
+      "disposition": "docket_optional",
+      "reason": null,
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide"
+    },
+    {
+      "candidate_id": "cand_bdf41915594cffb98c06",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:1:resumptive-contrastive-opening",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f63ef02c80fb96fcde59",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:2:fronted-partitive-frame",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_71fe9ad207dc33d316ed",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:11:passive-harm-focused-on-the-claimant",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e2552a6cfdd9d7c50c4b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:12:harm-located-in-relation-to-god",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_4a2f499d95b4b8f4d63b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:13:second-divine-name-as-domain-of-suffering",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_eb20b144326cbd5d0f8a",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:14:cognitive-making-as-false-equation",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d35c25d056cd8b0958e0",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:15:social-trial-as-assay-not-punishment",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_0cdc6097a7b8ba4dfe05",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:16:people-become-source-of-trial",
+      "source_pointer": "/word_analysis/words/15/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_00150b642a4b86874966",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:17:comparative-hinge-of-mismeasurement",
+      "source_pointer": "/word_analysis/words/16/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_030e9bc8be39b776ef1a",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:18:divine-punishment-as-false-benchmark",
+      "source_pointer": "/word_analysis/words/17/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_a7028aea184f4db69a1b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:19:third-divine-name-at-crisis-point",
+      "source_pointer": "/word_analysis/words/18/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d1ae70d4326b8730bf88",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:20:second-test-scene-coordinated",
+      "source_pointer": "/word_analysis/words/19/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_68acbf20209f1404d96b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:3:human-collective-as-unstable-opening-field",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_b2194ae3b7a86ec93432",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:21:oath-colored-condition",
+      "source_pointer": "/word_analysis/words/20/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_8cec8d9c40edced2d4c9",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:22:conditional-victory-contrasted-with-expected-harm",
+      "source_pointer": "/word_analysis/words/21/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_0b5f9b543c1c43864aea",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:23:victory-arrives-as-event",
+      "source_pointer": "/word_analysis/words/22/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_7e66e940afbaa85fb4fe",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:24:indefinite-aid-from-the-lord",
+      "source_pointer": "/word_analysis/words/23/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_b365c48b96eda673ecaf",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:25:source-marker-for-aid",
+      "source_pointer": "/word_analysis/words/24/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_67d7ce199c85338e07d3",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:26:your-lord-and-the-address-shift",
+      "source_pointer": "/word_analysis/words/25/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_de010aac9fc5f939290f",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:27:answer-lam-binding-condition-to-speech",
+      "source_pointer": "/word_analysis/words/26/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_fcd3fcbedcc7ededb4f1",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:28:emphatic-plural-speech-exposes-group-opportunism",
+      "source_pointer": "/word_analysis/words/27/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_47f65c000829b96ef00e",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:29:emphatic-self-certification",
+      "source_pointer": "/word_analysis/words/28/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ca51c9e2efe8f69eabfd",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:30:past-being-used-to-rewrite-allegiance",
+      "source_pointer": "/word_analysis/words/29/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f72f07f56058ff1c2748",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:4:singular-relative-exposing-a-class",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_f4dea0d0a24c88cb6c9c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:31:with-you-as-social-prize",
+      "source_pointer": "/word_analysis/words/30/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_d51e3bdcd27b11a261ce",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:32:rhetorical-question-pivots-to-divine-rebuttal",
+      "source_pointer": "/word_analysis/words/31/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_fb37ea736164679f01dc",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:33:negative-question-as-emphatic-affirmation",
+      "source_pointer": "/word_analysis/words/32/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_14df24444349cdea9998",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:34:god-as-final-knower-subject",
+      "source_pointer": "/word_analysis/words/33/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_7861309e123f454ef987",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:35:reinforcing-ba-before-elative-predicate",
+      "source_pointer": "/word_analysis/words/34/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_0f1fa8a91a1cc743d07e",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:36:elative-knowledge-over-interiors",
+      "source_pointer": "/word_analysis/words/35/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e29d0b97365419ea4d4c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:37:known-content-attached-by-ba",
+      "source_pointer": "/word_analysis/words/36/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ffc0465c6076b5920897",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:38:broad-relative-content-inside-breasts",
+      "source_pointer": "/word_analysis/words/37/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_b26b9e8c57b5c6e1252b",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:39:interior-locator",
+      "source_pointer": "/word_analysis/words/38/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_06f47ed8d9d650623a58",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:40:breasts-as-distributed-interior-locus",
+      "source_pointer": "/word_analysis/words/39/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e6a4edcdcca8e6f97fd7",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:5:ongoing-speech-as-diagnostic-frame",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_bf97615c9ee59ec3621c",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:41:universal-scope-and-knowledge-root-ring",
+      "source_pointer": "/word_analysis/words/40/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_25d7030e81a067723f40",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:6:completed-collective-faith-claim-under-trial",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_16e2720fb13af3730ede",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:7:faith-bound-to-god-by-ba",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_66471cf4c4a7edb28594",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:8:first-divine-name-as-object-of-profession",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_2c1c3162fc6c84c78a62",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:9:immediate-pivot-from-claim-to-test",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e84f35c3fcbc0cf9fd94",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:10:10:expected-harm-condition",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis"
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 84,
+    "by_disposition": {
+      "docket_mandatory": 43,
+      "docket_optional": 22,
+      "parse_failed": 13,
+      "quarantined": 6
+    },
+    "by_source_type": {
+      "channel": 2,
+      "cross_run_publication": 2,
+      "hft": 18,
+      "qac_morpheme": 15,
+      "v12_reader_walks": 3,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 41
+    },
+    "discovered_seed_count": 84,
+    "docket_candidate_count": 65,
+    "mandatory_candidate_count": 43,
+    "optional_candidate_count": 22,
+    "selection_eligible_candidate_count": 44,
+    "selection_ineligible_candidate_count": 21
+  },
+  "diagnostics": {
+    "blocking_seed_failures": [],
+    "branch_review_grounding_gaps": [],
+    "focus_root_dictionary_gaps": [
+      {
+        "qac_roots_ar": [
+          "ج ي ء"
+        ],
+        "reason": "dictionary_entry is explicitly null in the source bundle",
+        "root_ar": "ج ي ء",
+        "root_id": "root_000281"
+      }
+    ],
+    "quarantined_hft": {
+      "audit": {
+        "adjudicable": false,
+        "evidence_lane": "macro",
+        "evidence_scope": "pericope",
+        "legacy_response_allowed": false,
+        "packet": {
+          "ayah_count": 69,
+          "focus_ref": "29:10",
+          "protocol": "focus-trace-pericope-lean-v1",
+          "source_file": "latent_activation/focus_trace/runs/s29/packets/29_10.packet.json",
+          "window": [
+            "29:1",
+            "29:2",
+            "29:3",
+            "29:4",
+            "29:5",
+            "29:6",
+            "29:7",
+            "29:8",
+            "29:9",
+            "29:10",
+            "29:11",
+            "29:12",
+            "29:13",
+            "29:14",
+            "29:15",
+            "29:16",
+            "29:17",
+            "29:18",
+            "29:19",
+            "29:20",
+            "29:21",
+            "29:22",
+            "29:23",
+            "29:24",
+            "29:25",
+            "29:26",
+            "29:27",
+            "29:28",
+            "29:29",
+            "29:30",
+            "29:31",
+            "29:32",
+            "29:33",
+            "29:34",
+            "29:35",
+            "29:36",
+            "29:37",
+            "29:38",
+            "29:39",
+            "29:40",
+            "29:41",
+            "29:42",
+            "29:43",
+            "29:44",
+            "29:45",
+            "29:46",
+            "29:47",
+            "29:48",
+            "29:49",
+            "29:50",
+            "29:51",
+            "29:52",
+            "29:53",
+            "29:54",
+            "29:55",
+            "29:56",
+            "29:57",
+            "29:58",
+            "29:59",
+            "29:60",
+            "29:61",
+            "29:62",
+            "29:63",
+            "29:64",
+            "29:65",
+            "29:66",
+            "29:67",
+            "29:68",
+            "29:69"
+          ],
+          "window_scope": null,
+          "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+        },
+        "readers": [
+          {
+            "focus_ref": "29:10",
+            "identity_status": "legacy_unbound",
+            "note": "Response matches focus/protocol but carries no packet hash echo.",
+            "packet_identity": null,
+            "protocol": "focus-trace-hermetic-response-v4",
+            "reader_id": "reader_hft_a",
+            "reasons": []
+          }
+        ],
+        "reasons": [
+          "packet window does not exactly match declared pericope (69 refs vs 13)",
+          "reader reader_hft_a: response is not bound to packet identity"
+        ],
+        "status": "invalid"
+      },
+      "malformed_payload": null,
+      "seeds": [
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10"
+          ],
+          "branch_refs": [
+            "root_000059/B001",
+            "root_000248/B002",
+            "root_000994/B005",
+            "root_001128/B001",
+            "root_001128/B004"
+          ],
+          "changed_reading": {
+            "after": "The unstable speaker grants social pressure the governing status of divine judgment, letting people determine allegiance by an enacted false equivalence.",
+            "before": "Human persecution feels as severe as divine punishment."
+          },
+          "focus_anchor": "جعل فتنة الناس كعذاب الله",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_false_equivalence",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10"
+          ],
+          "branch_refs": [
+            "root_000054/B001",
+            "root_000054/B002",
+            "root_000849/B004",
+            "root_001040/B001",
+            "root_001272/B001"
+          ],
+          "changed_reading": {
+            "after": "The ayah stages an evidentiary conflict between public allegiance and the inward source of stable trust; changing speech under changing outcomes is measured against what the chest actually carries.",
+            "before": "A person verbally professes belief but privately proves weak."
+          },
+          "focus_anchor": "يقول آمنا ... أعلم بما في صدور العالمين",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_spoken_security_vs_chest",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10"
+          ],
+          "branch_refs": [
+            "root_000281/B001",
+            "root_000532/B001",
+            "root_001272/B001",
+            "root_001332/B001",
+            "root_001510/B001"
+          ],
+          "changed_reading": {
+            "after": "The grammar exposes a temporal manipulation of belonging: visible aid causes the speaker to manufacture a favorable past and convert co-presence into a claim on the outcome.",
+            "before": "A hypocrite joins the winners after victory."
+          },
+          "focus_anchor": "ولئن جاء نصر من ربك ليقولن إنا كنا معكم",
+          "kind": "baseline_model",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:baseline_victory_indexed_withness",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/2"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:30",
+            "29:31"
+          ],
+          "branch_refs": [
+            "root_000281/B001",
+            "root_000532/B001",
+            "root_001332/B001",
+            "root_001510/B001"
+          ],
+          "changed_reading": {
+            "after": "Once lordly intervention makes the boundary and outcome visible, the speaker retrospectively crosses that boundary by speech and claims a share in a separation he did not endure.",
+            "before": "Visible victory attracts a late ally."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:delta_arriving_support_separates",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/5"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:12",
+            "29:13"
+          ],
+          "branch_refs": [
+            "root_000175/B004",
+            "root_000202/B001",
+            "root_000248/B002",
+            "root_000357/B003",
+            "root_001332/B001"
+          ],
+          "changed_reading": {
+            "after": "The speaker seeks a costless social membership: human pressure is assigned divine weight, while victory is claimed without having borne the tested allegiance that preceded it.",
+            "before": "The speaker opportunistically joins the successful side."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000175/B004', 'root_000202/B001', 'root_000357/B003']",
+          "source_local_id": "reader_hft_a:delta_burden_transfer_membership",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:49"
+          ],
+          "branch_refs": [
+            "root_000074/B003",
+            "root_000849/B004",
+            "root_001040/B001",
+            "root_001272/B001"
+          ],
+          "changed_reading": {
+            "after": "God knows whether the chest is an empty backstage for adaptive speech or an inwardly marked source from which stable belief and action proceed.",
+            "before": "God sees hypocrisy hidden inside the chest."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003']",
+          "source_local_id": "reader_hft_a:delta_chests_carry_signs",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/7"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:69"
+          ],
+          "branch_refs": [
+            "root_000047/B001",
+            "root_000268/B001",
+            "root_000323/B002",
+            "root_000672/B001",
+            "root_001272/B001",
+            "root_001332/B001",
+            "root_001583/B001"
+          ],
+          "changed_reading": {
+            "after": "The claim counterfeits the surah's true withness: tested striving and good action receive God's accompaniment, while post-outcome speech cannot manufacture that relation.",
+            "before": "The latecomer falsely claims to have been with the believers."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B001', 'root_000323/B002', 'root_000672/B001', 'root_001583/B001']",
+          "source_local_id": "reader_hft_a:delta_closing_true_withness",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/12"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:24"
+          ],
+          "branch_refs": [
+            "root_000311/B002",
+            "root_000994/B005",
+            "root_001128/B002",
+            "root_001200/B001",
+            "root_001476/B001"
+          ],
+          "changed_reading": {
+            "after": "Human persecutors can stage a counterfeit fire-judgment, but treating that imitative violence as God's own verdict erases the possibility of divine rescue and reversal.",
+            "before": "The speaker merely exaggerates social pain."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000311/B002', 'root_001200/B001', 'root_001476/B001']",
+          "source_local_id": "reader_hft_a:delta_counterfeit_fire_judgment",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/4"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:41"
+          ],
+          "branch_refs": [
+            "root_000054/B001",
+            "root_000059/B003",
+            "root_000166/B001",
+            "root_001684/B004",
+            "root_001687/B001"
+          ],
+          "changed_reading": {
+            "after": "The speaker relocates security into a human alliance-house, so damage to social belonging feels like divine punishment even though the chosen shelter is structurally weak.",
+            "before": "The speaker fears people and flatters winners."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000166/B001', 'root_001684/B004', 'root_001687/B001']",
+          "source_local_id": "reader_hft_a:delta_fragile_social_shelter",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/6"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:8"
+          ],
+          "branch_refs": [
+            "root_000059/B003",
+            "root_000268/B003",
+            "root_000791/B002",
+            "root_000956/B001",
+            "root_001128/B004"
+          ],
+          "changed_reading": {
+            "after": "Human affliction can be a coercive chain from intimacy to authority to obedience, making relational loss feel ultimate enough to redirect worship.",
+            "before": "People inflict generic harm on a professing believer."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000268/B003', 'root_000791/B002', 'root_000956/B001']",
+          "source_local_id": "reader_hft_a:delta_intimate_authority_collision",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:59"
+          ],
+          "branch_refs": [
+            "root_000532/B001",
+            "root_000840/B001",
+            "root_001681/B002"
+          ],
+          "changed_reading": {
+            "after": "The speaker fails to contain panic and reallocates dependence to people, whereas tested allegiance holds the self and entrusts the unseen outcome to the Lord.",
+            "before": "The speaker simply lacks courage under persecution."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000840/B001', 'root_001681/B002']",
+          "source_local_id": "reader_hft_a:delta_patience_reallocates_dependence",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/9"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:54",
+            "29:55"
+          ],
+          "branch_refs": [
+            "root_000177/B001",
+            "root_000372/B006",
+            "root_000526/B002",
+            "root_000994/B005",
+            "root_001088/B002",
+            "root_001188/B001"
+          ],
+          "changed_reading": {
+            "after": "The false comparison collapses unlike structures: episodic social pressure is treated as if it had divine punishment's appointed arrival, total enclosure, and deed-responsive authority.",
+            "before": "Human harm and divine punishment are two comparable painful events."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000177/B001', 'root_000372/B006', 'root_000526/B002', 'root_001088/B002', 'root_001188/B001']",
+          "source_local_id": "reader_hft_a:delta_punishment_has_total_geometry",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/8"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:65"
+          ],
+          "branch_refs": [
+            "root_000430/B004",
+            "root_000504/B001",
+            "root_000791/B002",
+            "root_001272/B001",
+            "root_001476/B001"
+          ],
+          "changed_reading": {
+            "after": "The speaker belongs to a surah-wide pattern in which devotion toggles with danger and relief; the issue is state-dependent allegiance rather than one isolated act of cowardice.",
+            "before": "The focus speaker changes sides under persecution and victory."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000430/B004', 'root_000504/B001', 'root_000791/B002', 'root_001476/B001']",
+          "source_local_id": "reader_hft_a:delta_sea_reversal_state_machine",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/10"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:67"
+          ],
+          "branch_refs": [
+            "root_000054/B001",
+            "root_000059/B001",
+            "root_000313/B003",
+            "root_000423/B001"
+          ],
+          "changed_reading": {
+            "after": "The speaker may have treated belief as a contract for social sanctuary; when people can still seize or harm, the failed safety expectation is falsely promoted into a verdict from God.",
+            "before": "Persecution causes the speaker to doubt or defect."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000313/B003', 'root_000423/B001']",
+          "source_local_id": "reader_hft_a:delta_secure_sanctuary_misread",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/11"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:2",
+            "29:3"
+          ],
+          "branch_refs": [
+            "root_000852/B004",
+            "root_001128/B001",
+            "root_001290/B001"
+          ],
+          "changed_reading": {
+            "after": "The inconsistent response is the observable output of a test designed to separate enacted truth from an ungrounded profession.",
+            "before": "The focus describes one person's inconsistent response to hardship."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000852/B004', 'root_001290/B001']",
+          "source_local_id": "reader_hft_a:delta_test_sorts_speech",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10",
+            "29:11"
+          ],
+          "branch_refs": [
+            "root_000849/B004",
+            "root_001040/B001",
+            "root_001272/B001",
+            "root_001537/B004"
+          ],
+          "changed_reading": {
+            "after": "The speaker maintains a concealed route system, presenting whichever public opening preserves access to the currently safer group.",
+            "before": "The speaker says contradictory things to different audiences."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_001537/B004']",
+          "source_local_id": "reader_hft_a:delta_two_exit_hypocrisy",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10"
+          ],
+          "branch_refs": [
+            "root_000054/B001",
+            "root_000059/B003",
+            "root_001332/B002"
+          ],
+          "changed_reading": {
+            "after": "The threatened punishment may also be re-expulsion into social estrangement: human familiarity becomes a rival refuge, so restored group belonging is claimed as soon as victory makes it available.",
+            "before": "The speaker fears pain inflicted by a hostile public."
+          },
+          "focus_anchor": "من الناس ... فتنة الناس ... إنا كنا معكم",
+          "kind": "surprising_outlier",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:outlier_human_warmth_as_rival_refuge",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:10"
+          ],
+          "branch_refs": [
+            "root_001251/B006"
+          ],
+          "changed_reading": {
+            "after": "Exploratorily, the speech itself behaves like a rattle: each external shock moves the speaker into a new voiced position because no inward position is settled.",
+            "before": "The two statements merely report contradictory affiliations."
+          },
+          "focus_anchor": "The two occurrences of يقول frame the speaker's switch under harm and support.",
+          "kind": "surprising_outlier",
+          "quarantine_reason": "HFT packet failed scope/identity audit",
+          "source_local_id": "reader_hft_a:outlier_rattling_speech",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0"
+        }
+      ],
+      "structural_error": null,
+      "visible_to_adjudication": false
+    }
+  },
+  "identity": {
+    "ayah_ref": "29:10",
+    "source": {
+      "ayah_ref": "29:10",
+      "canonical_sha256": "4407ebaa00280fc68b5b0b2e13091060ff5aa30fffbe99b8171f4edf8c862c94",
+      "path": "inputs/source/s029/29_10.bundle.json",
+      "raw_sha256": "923ddd36e323a542044930c5c1b91febfa5af190cbc2f20d9cd8434280d03d70",
+      "schema_version": "input-bundle-v3"
+    }
+  },
+  "mandatory_candidates_ready": true,
+  "readiness": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": false,
+    "degraded_reasons": [
+      "quarantined_hft",
+      "incomplete_focus_root_branch_coverage"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication",
+      "Focus-root branch dictionaries are unavailable for root_000281 (ج ي ء); branch surprise coverage is incomplete"
+    ]
+  },
+  "schema_version": "commentary-v3-prepared-v1",
+  "scope_audit": {
+    "allow_incomplete_branch_coverage": true,
+    "allow_legacy_hft_response": false,
+    "hft": {
+      "adjudicable": false,
+      "evidence_lane": "macro",
+      "evidence_scope": "pericope",
+      "legacy_response_allowed": false,
+      "packet": {
+        "ayah_count": 69,
+        "focus_ref": "29:10",
+        "protocol": "focus-trace-pericope-lean-v1",
+        "source_file": "latent_activation/focus_trace/runs/s29/packets/29_10.packet.json",
+        "window": [
+          "29:1",
+          "29:2",
+          "29:3",
+          "29:4",
+          "29:5",
+          "29:6",
+          "29:7",
+          "29:8",
+          "29:9",
+          "29:10",
+          "29:11",
+          "29:12",
+          "29:13",
+          "29:14",
+          "29:15",
+          "29:16",
+          "29:17",
+          "29:18",
+          "29:19",
+          "29:20",
+          "29:21",
+          "29:22",
+          "29:23",
+          "29:24",
+          "29:25",
+          "29:26",
+          "29:27",
+          "29:28",
+          "29:29",
+          "29:30",
+          "29:31",
+          "29:32",
+          "29:33",
+          "29:34",
+          "29:35",
+          "29:36",
+          "29:37",
+          "29:38",
+          "29:39",
+          "29:40",
+          "29:41",
+          "29:42",
+          "29:43",
+          "29:44",
+          "29:45",
+          "29:46",
+          "29:47",
+          "29:48",
+          "29:49",
+          "29:50",
+          "29:51",
+          "29:52",
+          "29:53",
+          "29:54",
+          "29:55",
+          "29:56",
+          "29:57",
+          "29:58",
+          "29:59",
+          "29:60",
+          "29:61",
+          "29:62",
+          "29:63",
+          "29:64",
+          "29:65",
+          "29:66",
+          "29:67",
+          "29:68",
+          "29:69"
+        ],
+        "window_scope": null,
+        "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+      },
+      "readers": [
+        {
+          "focus_ref": "29:10",
+          "identity_status": "legacy_unbound",
+          "note": "Response matches focus/protocol but carries no packet hash echo.",
+          "packet_identity": null,
+          "protocol": "focus-trace-hermetic-response-v4",
+          "reader_id": "reader_hft_a",
+          "reasons": []
+        }
+      ],
+      "reasons": [
+        "packet window does not exactly match declared pericope (69 refs vs 13)",
+        "reader reader_hft_a: response is not bound to packet identity"
+      ],
+      "status": "invalid"
+    },
+    "hft_policy": "quarantine",
+    "pericope": {
+      "ayah_from": 1,
+      "ayah_to": 13,
+      "id": "s029-p01-001-013",
+      "label": "Trials of faith and accountability",
+      "number": 1,
+      "refs": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13"
+      ]
+    }
+  },
+  "source_inventory": {
+    "butuncul_okuma_line": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Whole-reading prose is excluded to avoid importing a prior synthesis as evidence.",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "channel_generated_outputs": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Generated channel prose is excluded; reviewed anchored channel nominations are used.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "channel_subchannels_anchored_here": {
+      "dispositions": {
+        "docket_mandatory": 2
+      },
+      "policy": "candidate_source",
+      "seed_count": 2,
+      "state": "present_nonempty"
+    },
+    "inter_ayah_rows": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Raw inter-ayah rows are not model-visible in v1; adjudicable relations must arrive through bounded word, channel, HFT, walk, or publication seeds.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "qac_morphemes": {
+      "dispositions": {
+        "docket_optional": 15
+      },
+      "policy": "candidate_source",
+      "seed_count": 15,
+      "state": "present_nonempty"
+    },
+    "v12_cross_run_publication": {
+      "dispositions": {
+        "docket_optional": 1,
+        "parse_failed": 1
+      },
+      "policy": "candidate_source",
+      "seed_count": 2,
+      "state": "present_nonempty"
+    },
+    "v12_focus_trace_hermetic": {
+      "dispositions": {
+        "parse_failed": 12,
+        "quarantined": 6
+      },
+      "policy": "candidate_source",
+      "seed_count": 18,
+      "state": "present_nonempty"
+    },
+    "v12_reader_responses": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "v12_reader_walks": {
+      "dispositions": {
+        "docket_optional": 3
+      },
+      "policy": "candidate_source",
+      "seed_count": 3,
+      "state": "present_nonempty"
+    },
+    "v12_reader_walks_wide": {
+      "dispositions": {
+        "docket_optional": 3
+      },
+      "policy": "candidate_source",
+      "seed_count": 3,
+      "state": "present_nonempty"
+    },
+    "word_analysis": {
+      "dispositions": {
+        "docket_mandatory": 41
+      },
+      "policy": "candidate_source",
+      "seed_count": 41,
+      "state": "present_nonempty"
+    }
+  }
+}

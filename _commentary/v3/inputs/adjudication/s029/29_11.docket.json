@@ -1,0 +1,2885 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dal, tapınma eylemi ile bundan türeyen tapınılan veya tapınılır kılınan varlık anlamlarını kapsar; şaşkınlık, yoğun üzüntü ve salt özel ad kullanımları bu sınırın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B001",
+          "gloss": "tapınma ve tapınılan varlık",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, özel ad ile bu ada bağlı seslenme, dilek, şaşma ve ant biçimleriyle sınırlıdır; herhangi bir tapınılan varlığı gösteren genel ad anlamına genişletilmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B002",
+          "gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/1",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء ل ه"
+      ],
+      "root_ar": "ء ل ه",
+      "root_id": "root_000047"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal inanma ya da dua cevabi degil; korkudan emin olma, guven verme ve guvenilir sayilma alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B001",
+          "gloss": "guven ve guvenilirlik",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik hali degil; bir soz, haber, vaat veya hakikati dogru kabul etme alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B002",
+          "gloss": "dogru sayip kabul etme",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik ya da tasdik degil; duada kabul talebini bildiren sabit sozdur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B003",
+          "gloss": "duada kabul istegi sozu",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/2",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
+      "root_ar": "ء م ن",
+      "root_id": "root_000054"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek, bir şeyi bilme ve gerçeğiyle kavramadır; bildirme, öğretme, öğrenme ve bilgi yarışında yenme ayrı biçimlere bağlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B001",
+          "gloss": "bilme ve gerçeğini kavrama",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bütün işaret türlerini sınırsızca kapsamaz; kaynakta anılan ayırt etme ve yol gösterme işlevli izlerle bunlara bağlı kullanımlarla sınırlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B002",
+          "gloss": "ayırt edici ve yol gösterici işaret",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yaratılmış varlıkların bütünü veya sınıflarıyla sınırlıdır; bilme durumu ve bağımsız bir fiziksel işaret anlamına gelmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B003",
+          "gloss": "evren ve bütün yaratılmışlar",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Belirti özellikle üst dudakta bulunur; genel çatlaklar, alt dudak ve ağız çevresindeki başka eğrilikler kapsam dışıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B004",
+          "gloss": "üst dudak yarığı",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Deniz ile suyu bol kuyu tek bir ara nesnede birleştirilmez; bunlar aynı biçimin kaynaklarda verilen iki ayrı sözlük karşılığıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B005",
+          "gloss": "deniz ya da suyu bol kuyu",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/4",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Çekirdek yırtıcı kuş adıdır; çevik ve zeki erkek nitelemesi yalnızca bu addan türeyen biçime bağlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B006",
+          "gloss": "doğan veya atmaca türü yırtıcı kuş",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca erkek sırtlanı adlandırır; başka erkek hayvan adları ve benzer sesli su veya kuş adları kapsam dışıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B007",
+          "gloss": "erkek sırtlan",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
+      "root_ar": "ع ل م",
+      "root_id": "root_001040"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, genel tükenme çekirdeğini kapsar; pazarın canlanması, ölüm, çabuk kesilme, soyulma ve tüy dökme yalnızca belirtilen kullanım çevrelerinde geçerlidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001537/B001",
+          "gloss": "tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma",
+          "source_pointer": "/root_lexicon/root_001537/dictionary_entry/branches/0",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Genel çekirdek, bir şeyi gider veya verme amacıyla elden çıkarmaktır; kişinin yoksullaşması yalnızca belirtilen özne yapısında bu eylemin sonucudur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001537/B002",
+          "gloss": "bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma",
+          "source_pointer": "/root_lexicon/root_001537/dictionary_entry/branches/1",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dalın çekirdeği, başka bir yere çıkışı bulunan yer altı geçididir; yuva girişi, gizli çıkış ve hayvanın girip çıkması bu fiziksel yapıya bağlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001537/B003",
+          "gloss": "başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış",
+          "source_pointer": "/root_lexicon/root_001537/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, içte saklanan inanç veya tutumun tersini dışarıya gösterme durumudur; genel aldatma, gösteriş ve açıkça inançtan dönme bununla özdeş değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001537/B004",
+          "gloss": "içindeki inanç veya tutumun tersini göstererek bağlı görünme",
+          "source_pointer": "/root_lexicon/root_001537/dictionary_entry/branches/3",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ن ف ق"
+      ],
+      "root_ar": "ن ف ق",
+      "root_id": "root_001537"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3b1821369b43427d0e43",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:concealed-exit-root-image",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_e3734a53d80aeb4eb014"
+      ],
+      "title": "hypocrisy as hidden-route practice",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a3fe7d0bc1b44c3a1403",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:covert-versus-overt-rejection",
+      "source_pointer": "/word_analysis/words/9/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_34ee49dd0f44b620be75",
+        "sup_3e6ba30ad5f0083521f1"
+      ],
+      "title": "covert class before open rejection",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_cfaed2c56470911fe589",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:definite-active-participle-class",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_4f3a885f8a1f10c9ca40"
+      ],
+      "title": "definite active participial object class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0218618bda759f176d04",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:depletion-and-spending-pressure",
+      "source_pointer": "/word_analysis/words/9/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_fcc9acbfcfcfeb7a9b60"
+      ],
+      "title": "passage-through pressure beside hypocrisy",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e0e459791f1c22e96051",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:final-word-exposure",
+      "source_pointer": "/word_analysis/words/9/topics/8",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_ab35b16703ed183878a3"
+      ],
+      "title": "closure lands on exposed negative class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d0ed3b5f37fc09f64d9b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:object-case-parallel",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_f0b7e9fd75f236128f94"
+      ],
+      "title": "oblique plural fits the object slot",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_572f90e5e2d903a46154",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:portrait-to-judgment-boundary",
+      "source_pointer": "/word_analysis/words/9/topics/9",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_3f59aff2d3995afcc442"
+      ],
+      "title": "prior portrait becomes judicial category",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_12cc1903f49c9784bec5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:relational-form-iii",
+      "source_pointer": "/word_analysis/words/9/topics/11",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_674335894ae271b84f6f"
+      ],
+      "title": "Form III agency as practiced role",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_837817442f000f391491",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:sound-link",
+      "source_pointer": "/word_analysis/words/9/topics/10",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_3f27ec3a63d7b8c05649"
+      ],
+      "title": "sound resemblance binds opposed classes",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b68527db7d77806135c3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:testing-arc-closure",
+      "source_pointer": "/word_analysis/words/9/topics/7",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_14e0d1ede069af224320",
+        "sup_3e6ba30ad5f0083521f1"
+      ],
+      "title": "fitnah-testing arc reaches named result",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b5deb9d86a40c782cf4f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:trust-concealment-contrast",
+      "source_pointer": "/word_analysis/words/9/topics/6",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_de2db38a1ade0cf9c420"
+      ],
+      "title": "negative pole against trust",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e13538f79c805f660c22",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:10:variant-scope-contrast",
+      "source_pointer": "/word_analysis/words/9/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3e6ba30ad5f0083521f1",
+        "sup_deebb958bc59ba4643b0"
+      ],
+      "title": "variant highlights canonical binary scope",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5fed42f384b4c93617c2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:1:boundary-framing",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_ac457166746d333a200d",
+        "sup_df5912f49ce5e59fc0ed"
+      ],
+      "title": "boundary connector into sworn declaration",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_576716b790195b97268c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:1:doubled-oath-frame",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3193508be294380d45a5",
+        "sup_ac457166746d333a200d"
+      ],
+      "title": "first launch of a two-part oath frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bca649cc29aee2dd911e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:2:oath-certainty",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_751b03b10f232c835384",
+        "sup_87b204cad1278f900024"
+      ],
+      "title": "oath particle, not preposition",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2d644155b9234f18c9db",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:2:paired-emphasis",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_26d8738a30126f009f7b",
+        "sup_87b204cad1278f900024"
+      ],
+      "title": "first half of repeated oath apparatus",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_271d386848a4aeb4d9b4",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:3:emphatic-future",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_af2591a4138dc6eca827",
+        "sup_f207ebb394b1571cffd8"
+      ],
+      "title": "imperfect made certain by oath emphasis",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eb4717ffbb8c47221df2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:3:form-i-not-informing",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4ce635c59dcc7986af4f",
+        "sup_af2591a4138dc6eca827"
+      ],
+      "title": "Form I cognition rather than notification",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_88b53b9b267dc7c39994",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:3:knowing-as-distinguishing",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5ce0788268e9e03876c8",
+        "sup_af2591a4138dc6eca827"
+      ],
+      "title": "knowledge that marks and distinguishes",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_421288ad62a640c65405",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:3:local-predicate-architecture",
+      "source_pointer": "/word_analysis/words/2/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_af2591a4138dc6eca827",
+        "sup_d02e3b9f6906bf4f5713"
+      ],
+      "title": "first complete judicial beat",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3d63339cd6333232484f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:3:testing-formula-and-boundary",
+      "source_pointer": "/word_analysis/words/2/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_585b0f8cc507e158ab7c",
+        "sup_af2591a4138dc6eca827"
+      ],
+      "title": "testing formula becomes classification",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ac663b04c5903546801e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:4:boundary-divine-knowing",
+      "source_pointer": "/word_analysis/words/3/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_797fd3e7cdbc449eece7",
+        "sup_c4b9680cb19dfc955301"
+      ],
+      "title": "prior divine knowledge becomes present agency",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_972d8b917ab4bc1cd3a2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:4:carried-subject-across-clauses",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_797fd3e7cdbc449eece7",
+        "sup_e911faec5c2c1fc05354"
+      ],
+      "title": "one named subject governs both clauses",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_588116ad8bb7d86edcdd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:4:explicit-subject-agency",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_797fd3e7cdbc449eece7",
+        "sup_c02115c7c0ea2e18a3f8"
+      ],
+      "title": "nominative subject fixes agency",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_bef56ef5b5b981724558",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:4:proper-name-specificity",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3308c01a79a9c39b33e6",
+        "sup_797fd3e7cdbc449eece7"
+      ],
+      "title": "fixed proper name, not generic deity term",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_636e130e375b61347d8a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:5:asymmetric-binary",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_446733b77278cdd36c46",
+        "sup_77b0dd21039b69604e30"
+      ],
+      "title": "verb-defined believers against noun-defined opposite",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_444c9bae36c7df4422e1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:5:relative-object",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_446733b77278cdd36c46",
+        "sup_78fdc91f70b6d70f453e"
+      ],
+      "title": "object opened by relative pronoun",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a550bf04f8335286a2ca",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:completed-belief-under-future-knowing",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2cfff76e62829800e4d2",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "perfect belief under future-certain sorting",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1ac885a4f44878dca56a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:divine-verification-field",
+      "source_pointer": "/word_analysis/words/5/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_33aa22c3bbff971a6150",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "faith placed under divine knowledge",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5a46b7eff44bd8d6f2ac",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:relative-clause-completion",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_93912f4fa0fb23a78f4f",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "plural verb completes the relative object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d5e95e27476ba3a6bd6d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:security-root-form-iv",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_9ee6c6b2b623b16cbf83",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "belief as active entry into trust",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4d86104883932601cfb6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:sound-thread",
+      "source_pointer": "/word_analysis/words/5/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_458632bb84ef8b40791c",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "nasal sound links predicate and objects",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a48107bc3e03623ea024",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:6:trust-versus-concealment",
+      "source_pointer": "/word_analysis/words/5/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8633eac22374905dfdf8",
+        "sup_dea90cb6dc20a56c34e0"
+      ],
+      "title": "trust root set against concealed-exit root",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2a1fd55590507988a1ae",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:7:binary-pivot-and-refrain",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_040f911b99115bae7efe",
+        "sup_330af51569f274f7eca7"
+      ],
+      "title": "midline pivot with repeated launch",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_81acac8cf112e8b68a1f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:7:fresh-second-clause",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_040f911b99115bae7efe",
+        "sup_72330018fe2e3b3796e7"
+      ],
+      "title": "connector starts a separate oath clause",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f71f6a4c921158f9af53",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:8:formal-acoustic-parity",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_242aa92e338017909f02",
+        "sup_ac5fa7feeadf364f6c2e"
+      ],
+      "title": "repeated particle keeps the clauses balanced",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0d13b0f03fea8a2b81e8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:8:independent-second-oath",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_07beceef5032a09de861",
+        "sup_242aa92e338017909f02"
+      ],
+      "title": "second group receives its own oath scope",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7e0a99a1c1200898dcb9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:binary-distribution-and-echo",
+      "source_pointer": "/word_analysis/words/8/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_48d4b0434dce85478d7e",
+        "sup_a03b8381bcc096f7dd98"
+      ],
+      "title": "same predicate distributed over opposed classes",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a651a9300865bdb4b84f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:carried-subject-focus",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3c8b143cc71002598771",
+        "sup_a03b8381bcc096f7dd98"
+      ],
+      "title": "subject ellipsis shifts focus to object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_54dc18cc586181b238ab",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:exposure-of-concealment",
+      "source_pointer": "/word_analysis/words/8/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_53058f2480501b26e5ba",
+        "sup_a03b8381bcc096f7dd98"
+      ],
+      "title": "knowing sharpens into exposure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f8235731258e1299871e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:full-verb-repetition",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a03b8381bcc096f7dd98",
+        "sup_e085c4126474c0f2609c"
+      ],
+      "title": "full emphatic verb repeated",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_48ca40f6ab319227243f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:second-emphatic-sound",
+      "source_pointer": "/word_analysis/words/8/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7696ea687e483230b5fc",
+        "sup_a03b8381bcc096f7dd98"
+      ],
+      "title": "second heavy closure matches the first",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_818748fd2b89132a715b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:11:9:testing-reprise-negative-pole",
+      "source_pointer": "/word_analysis/words/8/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8da7a06f05f6ff7c0c52",
+        "sup_a03b8381bcc096f7dd98"
+      ],
+      "title": "reprise names the negative pole",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f262ec65f6bfd0b24ce0",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001040"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:11:1:3",
+      "source_pointer": "/qac_morphemes/2",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_d71e035d8e0ca36f910a"
+      ],
+      "title": "QAC root occurrence: ع ل م",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_aa37f308cffdd4761215",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000047"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:11:2:1",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_2f6e09085b0e99d14140"
+      ],
+      "title": "QAC root occurrence: ء ل ه",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a9ec273140d3d1761e8e",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000054"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:11:4:1",
+      "source_pointer": "/qac_morphemes/6",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_337b23655c0bd108e796"
+      ],
+      "title": "QAC root occurrence: ء م ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3430843a84d910a46d0d",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001537"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:11:6:2",
+      "source_pointer": "/qac_morphemes/13",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_b6834be20084f78115b2"
+      ],
+      "title": "QAC root occurrence: ن ف ق",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5b61fb4bf7e75c6d1fac",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only"
+      ],
+      "source_local_id": "29:11:3:world-branch-overread",
+      "source_pointer": "/word_analysis/words/2/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_272678bf529b61f41f05",
+        "sup_af2591a4138dc6eca827"
+      ],
+      "title": "created-world branch controls the local verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11:1",
+        "29:11:5",
+        "29:11:6"
+      ],
+      "branch_refs": [
+        "root_001040/B002",
+        "root_001537/B003",
+        "root_001537/B004"
+      ],
+      "candidate_id": "cand_faa6434d396d40fc2eba",
+      "focus_branch_refs": [
+        "root_001040/B002",
+        "root_001537/B003",
+        "root_001537/B004"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_0fa6eccbef773a14dc17"
+      ],
+      "title": "İkiyüzlülük, görünen bağlılığın ardında koşullar değişince kullanılacak gizli bir çıkış bulunduran yapı olarak sınamayla görünür olur.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11"
+      ],
+      "branch_refs": [
+        "root_001537/B003"
+      ],
+      "candidate_id": "cand_ddbd23c2be9b37d4bb47",
+      "focus_branch_refs": [
+        "root_001537/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_47e79922ffdf1fe131d5"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_50521de3cef499c9cd7b",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_21fbedad5573c4016871"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11"
+      ],
+      "branch_refs": [
+        "root_001040/B002"
+      ],
+      "candidate_id": "cand_159788df4769d0067ba2",
+      "focus_branch_refs": [
+        "root_001040/B002"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_bec0b5bfb5ee89df0d89"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11"
+      ],
+      "branch_refs": [
+        "root_000054/B001"
+      ],
+      "candidate_id": "cand_89ed9fb8a1bf91f61f9d",
+      "focus_branch_refs": [
+        "root_000054/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_0a99deaae413cc576135"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:11"
+      ],
+      "branch_refs": [
+        "root_001537/B004"
+      ],
+      "candidate_id": "cand_bd0b49e4f3e3bf847069",
+      "focus_branch_refs": [
+        "root_001537/B004"
+      ],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_fe5cc6b36e4bd1326251"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 64,
+    "by_disposition": {
+      "docket_mandatory": 43,
+      "docket_optional": 11,
+      "parse_failed": 7,
+      "quarantined": 3
+    },
+    "by_source_type": {
+      "cross_run_publication": 1,
+      "hft": 10,
+      "qac_morpheme": 4,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 44
+    },
+    "discovered_seed_count": 64,
+    "docket_candidate_count": 54,
+    "mandatory_candidate_count": 43,
+    "optional_candidate_count": 11,
+    "selection_eligible_candidate_count": 44,
+    "selection_ineligible_candidate_count": 10
+  },
+  "focus": {
+    "arabic_uthmani": "وَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَلَيَعْلَمَنَّ ٱلْمُنَٰفِقِينَ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:11:1:1",
+        "qac_word_ref": "29:11:1",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:EMPH+",
+        "morpheme_role": "PREFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:11:1:2",
+        "qac_word_ref": "29:11:1",
+        "root_ar": "",
+        "surface_ar": "لَ"
+      },
+      {
+        "lemma_ar": "عَلِمَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Ealima|ROOT:Elm|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:11:1:3",
+        "qac_word_ref": "29:11:1",
+        "root_ar": "ع ل م",
+        "surface_ar": "يَعْلَمَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|+n:EMPH",
+        "morpheme_role": "SUFFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:11:1:4",
+        "qac_word_ref": "29:11:1",
+        "root_ar": "",
+        "surface_ar": "نَّ"
+      },
+      {
+        "lemma_ar": "ٱللَّه",
+        "morph_features": "STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM",
+        "morpheme_role": "STEM",
+        "pos": "PN",
+        "qac_ref": "29:11:2:1",
+        "qac_word_ref": "29:11:2",
+        "root_ar": "ء ل ه",
+        "surface_ar": "ٱللَّهُ"
+      },
+      {
+        "lemma_ar": "ٱلَّذِى",
+        "morph_features": "STEM|POS:REL|LEM:{l~a*iY|MP",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:11:3:1",
+        "qac_word_ref": "29:11:3",
+        "root_ar": "",
+        "surface_ar": "ٱلَّذِينَ"
+      },
+      {
+        "lemma_ar": "ءَامَنَ",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:11:4:1",
+        "qac_word_ref": "29:11:4",
+        "root_ar": "ء م ن",
+        "surface_ar": "ءَامَنُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:11:4:2",
+        "qac_word_ref": "29:11:4",
+        "root_ar": "",
+        "surface_ar": "وا۟"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:11:5:1",
+        "qac_word_ref": "29:11:5",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|l:EMPH+",
+        "morpheme_role": "PREFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:11:5:2",
+        "qac_word_ref": "29:11:5",
+        "root_ar": "",
+        "surface_ar": "لَ"
+      },
+      {
+        "lemma_ar": "عَلِمَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Ealima|ROOT:Elm|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:11:5:3",
+        "qac_word_ref": "29:11:5",
+        "root_ar": "ع ل م",
+        "surface_ar": "يَعْلَمَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|+n:EMPH",
+        "morpheme_role": "SUFFIX",
+        "pos": "EMPH",
+        "qac_ref": "29:11:5:4",
+        "qac_word_ref": "29:11:5",
+        "root_ar": "",
+        "surface_ar": "نَّ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:11:6:1",
+        "qac_word_ref": "29:11:6",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "مُنَٰفِقُون",
+        "morph_features": "STEM|POS:N|ACT|PCPL|(III)|LEM:muna`fiquwn|ROOT:nfq|MP|ACC",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:11:6:2",
+        "qac_word_ref": "29:11:6",
+        "root_ar": "ن ف ق",
+        "surface_ar": "مُنَٰفِقِينَ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:11:1:1"
+      ],
+      [
+        "29:11:1:2"
+      ],
+      [
+        "29:11:1:3",
+        "29:11:1:4"
+      ],
+      [
+        "29:11:2:1"
+      ],
+      [
+        "29:11:3:1"
+      ],
+      [
+        "29:11:4:1",
+        "29:11:4:2"
+      ],
+      [
+        "29:11:5:1"
+      ],
+      [
+        "29:11:5:2"
+      ],
+      [
+        "29:11:5:3",
+        "29:11:5:4"
+      ],
+      [
+        "29:11:6:1",
+        "29:11:6:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:11:1",
+      "29:11:2",
+      "29:11:3",
+      "29:11:4",
+      "29:11:5",
+      "29:11:6",
+      "29:11:7",
+      "29:11:8",
+      "29:11:9",
+      "29:11:10"
+    ]
+  },
+  "focus_root_mappings": {
+    "ء ل ه": [
+      "root_000047"
+    ],
+    "ء م ن": [
+      "root_000054"
+    ],
+    "ع ل م": [
+      "root_001040"
+    ],
+    "ن ف ق": [
+      "root_001537"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:11",
+    "docket_payload_sha256": "7ba898fcfc56b19eff0d073f6f99a74627729aceca5c2bbb365eed50936bb4c9",
+    "source_canonical_sha256": "46088d43120e63e4793aee61a48029dacffbf2e120931b296ae246bebe9e0230"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 4,
+      "mapped_root_record_count": 4,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 16
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 1,
+      "ayah_to": 13,
+      "id": "s029-p01-001-013",
+      "label": "Trials of faith and accountability",
+      "number": 1,
+      "refs": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_040f911b99115bae7efe",
+      "text": "{\"gloss_range\":\"mid-ayah conjunction that coordinates a fresh repeated oath clause rather than merely adding a second object\",\"prose\":\"The second {{ar:وَ}} ({{tr:wa}}) is the hinge of the ayah. It adds the second group, but it also separates that group into its own coordinated oath clause, restarting the same launch instead of letting the final object trail behind the first verb.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:8:independent-second-oath",
+      "source_type": "word_analysis",
+      "support_id": "sup_07beceef5032a09de861",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second group receives its own oath scope\",\"reader_payoff\":\"The reader notices that the second clause is separately sworn over, not merely included under the first oath.\",\"reason\":\"QAC identifies the second particle as the same oath lām, and the attachment evidence marks a second coordinated verbal assertion.\",\"representative_source_ids\":[\"QG-bb0dc14a\",\"QI-5bc91e54\",\"MT-c8f42330\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000054/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_0a99deaae413cc576135",
+      "text": "2. **Security is tested against the concealed exit.** Lexical evidence: `ءَامَنُوا`, root `ء م ن`, `B001` (settled security and trust), opposed structurally to `ن ف ق B004`. Structural cue: the preceding person changes affiliation under injury and victory, whereas the following invitation asks believers to follow another route. Assigned role: settled trust removes the need for an emergency exit; hypocrisy keeps one available. Abductive move: the packet does not say trust physically blocks hypocrisy, so the directional contrast is mine, inferred from stability versus hidden egress. Reading change: faith here reads as settled relational security demonstrated by not changing exits with circumstance.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [
+        "root_001040/B002",
+        "root_001537/B003",
+        "root_001537/B004"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_0fa6eccbef773a14dc17",
+      "text": "{\"anchors\":[[\"29:11:1\",\"root_001040\",[\"B002\"]],[\"29:11:5\",\"root_001040\",[\"B002\"]],[\"29:11:6\",\"root_001537\",[\"B003\",\"B004\"]]],\"grade\":\"strong\",\"text\":\"İkiyüzlülük, görünen bağlılığın ardında koşullar değişince kullanılacak gizli bir çıkış bulunduran yapı olarak sınamayla görünür olur.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:testing-arc-closure",
+      "source_type": "word_analysis",
+      "support_id": "sup_14e0d1ede069af224320",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fitnah-testing arc reaches named result\",\"reader_payoff\":\"The reader connects the final label to the testing frame at the surah opening (29:2-3).\",\"reason\":\"The CRITICAL rows give concrete references to 29:2-3, and the final word names the exposed outcome of that testing discourse.\",\"representative_source_ids\":[\"MI-2ebd586f\",\"QE-8d40614e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_21fbedad5573c4016871",
+      "text": "The ship crisis in 29:65 reveals exclusive devotion and the shore restores association, giving the concealed-exit image a temporal form: one allegiance surfaces under danger and another exits into view under safety.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_242aa92e338017909f02",
+      "text": "{\"gloss_range\":\"second oath-emphasis particle giving the hypocrite clause its own sworn scope\",\"prose\":\"The second {{ar:لَ}} ({{tr:la}}) repeats the oath force with a new target. It makes the exposure of the second group independently emphatic and formally balanced with the first classification beat, returning the same short-particle-to-heavy-closure pressure contour.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَ}} ({{tr:la}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:2:paired-emphasis",
+      "source_type": "word_analysis",
+      "support_id": "sup_26d8738a30126f009f7b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first half of repeated oath apparatus\",\"reader_payoff\":\"The reader notices that the first particle is designed to be echoed, making the two object classes equally exposed to divine certainty.\",\"reason\":\"The second oath clause repeats the same construction, so the first particle begins a balanced frame rather than a one-off intensifier.\",\"representative_source_ids\":[\"QT-351d5747\",\"MT-75d04f18\",\"QP-eb007365\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:world-branch-overread",
+      "source_type": "word_analysis",
+      "support_id": "sup_272678bf529b61f41f05",
+      "text": "{\"blocking_evidence\":\"V4 separates the created-realm branch into different lexical units, while the local surface is a transitive cognition verb in an oath frame.\",\"headline\":\"created-world branch controls the local verb\",\"reader_payoff\":null,\"reason\":\"The root-family association may be historically interesting, but it does not govern the local Form I verb or add a reader-facing payoff here.\",\"representative_source_ids\":[\"MS-9038c585\"],\"status\":\"rejected\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:completed-belief-under-future-knowing",
+      "source_type": "word_analysis",
+      "support_id": "sup_2cfff76e62829800e4d2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"perfect belief under future-certain sorting\",\"reader_payoff\":\"The reader sees a gap between the completed human claim of belief and the still-to-be-manifest divine sorting.\",\"reason\":\"QAC marks this verb as perfect while the governing knowing verb is oath-bound imperfect with future certainty.\",\"representative_source_ids\":[\"QG-fbd209a8\",\"MG-1ecd2dea\",\"QE-85ff472b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/4",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:11:2:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_2f6e09085b0e99d14140",
+      "text": "{\"lemma_ar\":\"ٱللَّه\",\"morph_features\":\"STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"PN\",\"qac_ref\":\"29:11:2:1\",\"qac_word_ref\":\"29:11:2\",\"root_ar\":\"ء ل ه\",\"surface_ar\":\"ٱللَّهُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:1:doubled-oath-frame",
+      "source_type": "word_analysis",
+      "support_id": "sup_3193508be294380d45a5",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first launch of a two-part oath frame\",\"reader_payoff\":\"The reader hears the first connector as the opening beat of a paired sorting structure that will return at mid-ayah.\",\"reason\":\"The attachment evidence marks two coordinated verbal assertions, and the later repeated connector plus oath particle confirms the internal pairing.\",\"representative_source_ids\":[\"QI-aac97cee\",\"MT-bd734462\",\"QY-ac2499cb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:4:proper-name-specificity",
+      "source_type": "word_analysis",
+      "support_id": "sup_3308c01a79a9c39b33e6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fixed proper name, not generic deity term\",\"reader_payoff\":\"The reader sees the subject as the singular named divine agent, while derivational debates remain only background gravity.\",\"reason\":\"The local grammar and QAC entry select the fixed proper name; missing V4 root rows do not negate the derivational pressure, but they also do not license replacing the proper-name function.\",\"representative_source_ids\":[\"QG-e24dc821\",\"QF-16a6f3b5\",\"QS-226c498b\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:7:binary-pivot-and-refrain",
+      "source_type": "word_analysis",
+      "support_id": "sup_330af51569f274f7eca7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"midline pivot with repeated launch\",\"reader_payoff\":\"The reader hears the ayah turn from believers to hypocrites through the same connective doorway.\",\"reason\":\"The same connector-plus-oath cadence returns at the beginning of the second half.\",\"representative_source_ids\":[\"QS-da5e5f44\",\"QT-677bc1d6\",\"QE-b68f829e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/6",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:11:4:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_337b23655c0bd108e796",
+      "text": "{\"lemma_ar\":\"ءَامَنَ\",\"morph_features\":\"STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:11:4:1\",\"qac_word_ref\":\"29:11:4\",\"root_ar\":\"ء م ن\",\"surface_ar\":\"ءَامَنُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:divine-verification-field",
+      "source_type": "word_analysis",
+      "support_id": "sup_33aa22c3bbff971a6150",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"faith placed under divine knowledge\",\"reader_payoff\":\"The reader notices that belief is not merely named; it is the object of divine verification after the pressure of the prior claim (29:10).\",\"reason\":\"The local syntax embeds the faith verb inside the object known by the divine subject, and the boundary row gives the prior contrast.\",\"representative_source_ids\":[\"QI-d236126d\",\"QI-dfc81e9b\",\"MI-00f0f50c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:covert-versus-overt-rejection",
+      "source_type": "word_analysis",
+      "support_id": "sup_34ee49dd0f44b620be75",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"covert class before open rejection\",\"reader_payoff\":\"The reader sees the final word distinguish covert rejection here from open rejection in the following ayah (29:12).\",\"reason\":\"The supplied rows give the concrete adjacent reference, and the local word names the covert class before the next ayah names open rejection.\",\"representative_source_ids\":[\"QI-0c05376a\",\"MI-8fe6bb62\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:carried-subject-focus",
+      "source_type": "word_analysis",
+      "support_id": "sup_3c8b143cc71002598771",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"subject ellipsis shifts focus to object\",\"reader_payoff\":\"The reader notices that the divine agent is already fixed, so the second clause can compress toward the newly named object.\",\"reason\":\"Attachment evidence notes the implicit subject in the second verb and the explicit subject supplied by the first clause.\",\"representative_source_ids\":[\"QG-4bd66133\",\"MG-29f2235b\",\"QY-73ea848e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_3e6ba30ad5f0083521f1",
+      "text": "{\"gloss_range\":\"definite masculine plural active participial class, the exposed object of the second knowing verb\",\"prose\":\"{{ar:ٱلْمُنَٰفِقِينَ}} ({{tr:al-munāfiqīn}}) lands as the ayah's final object and exposed negative class, grammatically locked into the same object architecture as the first group. Its definite active participial plural names an established practiced role, and its Form III pressure makes hypocrisy relational rather than solitary. The root's passage-and-hidden-exit field makes the label more concrete than inward insincerity alone, with depletion and pass-through pressure kept secondary to the local hypocrisy sense. The canonical wording stays tightly binary: believers are distinguished, and this concealed class is exposed. Across the local sequence, the word names the exposed result of testing (29:2-3), resolves the prior portrait (29:10), and precedes open rejection in the next ayah (29:12). A nasal-and-long-vowel resemblance binds the opposed object terms while their roots divide them.\",\"root_display\":\"{{ar:ن ف ق}} ({{tr:n-f-q}})\",\"root_gloss_range\":\"root range includes passing away or depletion, spending as wealth going out, tunnel or passage with an exit, and hypocrisy as showing one face while concealing another; local noun selects the hypocrisy class with concealed-exit pressure\",\"surface_display\":\"{{ar:ٱلْمُنَٰفِقِينَ}} ({{tr:al-munāfiqīn}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:sound-link",
+      "source_type": "word_analysis",
+      "support_id": "sup_3f27ec3a63d7b8c05649",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"sound resemblance binds opposed classes\",\"reader_payoff\":\"The reader hears a sound resemblance between the two opposed object terms even as their roots separate them.\",\"reason\":\"The sound observation is local to the two object terms and adds an auditory layer to the semantic opposition.\",\"representative_source_ids\":[\"QP-9bcd0e41\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:portrait-to-judgment-boundary",
+      "source_type": "word_analysis",
+      "support_id": "sup_3f59aff2d3995afcc442",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"prior portrait becomes judicial category\",\"reader_payoff\":\"The reader sees the behavior sketched in the prior ayah (29:10) resolved into a definite class-name.\",\"reason\":\"The boundary rows tie the final label to the prior unnamed pattern and show the register shift into oath-governed classification.\",\"representative_source_ids\":[\"QB-0ed06b1a\",\"QB-36ff9bdd\",\"QB-580c0a09\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_446733b77278cdd36c46",
+      "text": "{\"gloss_range\":\"masculine plural relative pronoun forming the object phrase whose defining clause follows\",\"prose\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}}) does not give the first object as a bare label. It opens a relative phrase whose following action defines the group, so the first side of the binary is known through enacted belief rather than a static class-name.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:sound-thread",
+      "source_type": "word_analysis",
+      "support_id": "sup_458632bb84ef8b40791c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"nasal sound links predicate and objects\",\"reader_payoff\":\"The reader hears a compact sound thread binding the knowing verb and both classified groups.\",\"reason\":\"The phonetic observation is local to the recited surfaces and adds a small but concrete auditory payoff.\",\"representative_source_ids\":[\"QP-e683b6cb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001537/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_47e79922ffdf1fe131d5",
+      "text": "1. **Exit-bearing duplicity made visible.** ن ف ق B003 is a tunnel or burrow with an exit; B004 is “showing one face while concealing another exit.” Repeated knowing separates believers from hypocrites immediately after the pressure-driven shifts of 29:10. I infer that trial reveals the concealed escape route by which public belonging can be abandoned; hypocrisy reads as a structure built with a second exit, not merely a false sentence.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:binary-distribution-and-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_48d4b0434dce85478d7e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same predicate distributed over opposed classes\",\"reader_payoff\":\"The reader sees the ayah as two matched passes of the same classification act, with only the object class changing.\",\"reason\":\"The two verbs have identical morphology and parallel object positions in coordinated clauses.\",\"representative_source_ids\":[\"QT-481ed00b\",\"QE-9491a6b4\",\"ME-b517414d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:form-i-not-informing",
+      "source_type": "word_analysis",
+      "support_id": "sup_4ce635c59dcc7986af4f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form I cognition rather than notification\",\"reader_payoff\":\"The reader notices that the text keeps the event inside divine knowing instead of shifting to an announcement made to others.\",\"reason\":\"The local form is the simple cognition verb, and no local Form IV notification construction is present.\",\"representative_source_ids\":[\"QF-26ecd798\",\"MF-2f547c81\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:definite-active-participle-class",
+      "source_type": "word_analysis",
+      "support_id": "sup_4f3a885f8a1f10c9ca40",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"definite active participial object class\",\"reader_payoff\":\"The reader notices that the final object is a recognized practiced class, not an indefinite possibility or one-time act.\",\"reason\":\"QAC identifies the word as a definite active participle in the direct-object slot of the second knowing verb.\",\"representative_source_ids\":[\"QG-e2cb097f\",\"QF-067e147c\",\"QF-98ddf81a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:exposure-of-concealment",
+      "source_type": "word_analysis",
+      "support_id": "sup_53058f2480501b26e5ba",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowing sharpens into exposure\",\"reader_payoff\":\"The reader notices that the same knowing verb becomes sharper when aimed at a class defined by concealment.\",\"reason\":\"The local direct object is the hypocrite class, so the supported mark-and-knowledge pressure is narrowed to exposure rather than a free root-wide expansion.\",\"representative_source_ids\":[\"QS-0ce550a0\",\"QS-fe6be403\",\"QI-221286b8\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:testing-formula-and-boundary",
+      "source_type": "word_analysis",
+      "support_id": "sup_585b0f8cc507e158ab7c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"testing formula becomes classification\",\"reader_payoff\":\"The reader connects this sworn knowing to the testing-and-knowing pattern already in the surah (29:3) and to the wider testing formula (3:140).\",\"reason\":\"The rows give concrete references, and the local clause uses the same emphatic knowing predicate inside a test-to-classification movement.\",\"representative_source_ids\":[\"QE-7a10779d\",\"QE-cdb363cf\",\"QB-f1e3d4e2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:knowing-as-distinguishing",
+      "source_type": "word_analysis",
+      "support_id": "sup_5ce0788268e9e03876c8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowledge that marks and distinguishes\",\"reader_payoff\":\"The reader sees divine knowing as the act that makes the two human classes legible, not as passive awareness.\",\"reason\":\"V4 supports both knowing and mark branches for the root, while the local transitive verb selects knowing and the opposed object frame narrows that knowing into distinction.\",\"representative_source_ids\":[\"QS-3e9e2464\",\"QS-b2dfe622\",\"MS-3506636f\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:relational-form-iii",
+      "source_type": "word_analysis",
+      "support_id": "sup_674335894ae271b84f6f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form III agency as practiced role\",\"reader_payoff\":\"The reader notices hypocrisy as an agentive practiced role, while the local noun form keeps that role in the definite class label.\",\"reason\":\"QAC supports the active participial class from Form III; broader claims about reciprocity are kept as role pressure rather than an independent local construction.\",\"representative_source_ids\":[\"MF-ba118dd2\",\"QH-592aae70\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:7:fresh-second-clause",
+      "source_type": "word_analysis",
+      "support_id": "sup_72330018fe2e3b3796e7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"connector starts a separate oath clause\",\"reader_payoff\":\"The reader notices that the second group receives its own sworn declaration, not a compressed add-on to the first.\",\"reason\":\"Attachment evidence marks the second verbal clause as coordinated with the first, not as a second object in the first clause.\",\"representative_source_ids\":[\"QG-5778d3d2\",\"QT-8d07b18a\",\"MT-45677d6b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:2:oath-certainty",
+      "source_type": "word_analysis",
+      "support_id": "sup_751b03b10f232c835384",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"oath particle, not preposition\",\"reader_payoff\":\"The reader notices that the first knowing clause is sworn and emphatic before its subject or object is named.\",\"reason\":\"QAC identifies the particle as oath emphasis in the full emphatic construction with the heavy final emphasis on the verb.\",\"representative_source_ids\":[\"QG-5ee24b1f\",\"QS-3cd20960\",\"QI-372cc509\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:second-emphatic-sound",
+      "source_type": "word_analysis",
+      "support_id": "sup_7696ea687e483230b5fc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second heavy closure matches the first\",\"reader_payoff\":\"The reader hears that the second classification is acoustically no weaker than the first.\",\"reason\":\"The final heavy emphasis is repeated in the second verb's recited form.\",\"representative_source_ids\":[\"QP-647a08ea\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:5:asymmetric-binary",
+      "source_type": "word_analysis",
+      "support_id": "sup_77b0dd21039b69604e30",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"verb-defined believers against noun-defined opposite\",\"reader_payoff\":\"The reader sees the first group defined by action, preparing the contrast with the final noun-class.\",\"reason\":\"The two object slots are parallel, but the first is a relative clause and the second is a definite active participial noun.\",\"representative_source_ids\":[\"QT-2746b6ae\",\"MT-2496eeea\",\"QE-461b8c35\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:5:relative-object",
+      "source_type": "word_analysis",
+      "support_id": "sup_78fdc91f70b6d70f453e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"object opened by relative pronoun\",\"reader_payoff\":\"The reader notices that the first object is a clause-defined group, not a simple noun label.\",\"reason\":\"Attachment evidence marks the relative pronoun as the direct object of the knowing verb and the subject of the relative clause.\",\"representative_source_ids\":[\"QG-3a60bf89\",\"QG-fa7be2b0\",\"MG-af719d8b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_797fd3e7cdbc449eece7",
+      "text": "{\"gloss_range\":\"the explicit nominative divine proper name serving as subject of the first knowing verb and carried into the second\",\"prose\":\"{{ar:ٱللَّهُ}} ({{tr:Allāhu}}) is named after the emphatic verb, so the predicate strikes first and then the agent is installed explicitly. The fixed proper name prevents a generic deity reading and gives the predicate its named divine authority. The proper name fixes one divine subject for both clauses; when the name is omitted in the second half, agency is already secure and attention moves to the changed object. Across the boundary, the prior question about divine knowledge (29:10) becomes present oath-governed agency.\",\"root_display\":\"{{ar:أ ل ه}} ({{tr:ʾ-l-h}})\",\"root_gloss_range\":\"divine-name and deity/worship field with debated derivational pressure; local use is the fixed proper name, not a generic deity noun\",\"surface_display\":\"{{ar:ٱللَّهُ}} ({{tr:Allāhu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:trust-versus-concealment",
+      "source_type": "word_analysis",
+      "support_id": "sup_8633eac22374905dfdf8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"trust root set against concealed-exit root\",\"reader_payoff\":\"The reader sees the ayah's two object groups as a semantic opposition between trust/security and concealed exit, not only as social labels.\",\"reason\":\"The two object terms occupy matched slots under repeated knowing verbs, and the supplied pairings support the local contrast.\",\"representative_source_ids\":[\"QS-062429a0\",\"QI-a449969c\",\"ME-494fd1ef\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_87b204cad1278f900024",
+      "text": "{\"gloss_range\":\"oath-emphasis particle prefixed to the first imperfect verb, not a prepositional or purposive particle\",\"prose\":\"The first {{ar:لَ}} ({{tr:la}}) turns the coming verb into sworn certainty rather than ordinary report. Its force is local to the first classification beat, yet the same particle will be repeated for the second beat so neither group is treated as an afterthought.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَ}} ({{tr:la}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:testing-reprise-negative-pole",
+      "source_type": "word_analysis",
+      "support_id": "sup_8da7a06f05f6ff7c0c52",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"reprise names the negative pole\",\"reader_payoff\":\"The reader connects the second repeated verb to the earlier testing formula (29:3), now completed by the negative class.\",\"reason\":\"The CRITICAL row supplies the concrete 29:3 reference, and the local second clause names the negative pole after the believer pole.\",\"representative_source_ids\":[\"QE-f2a948fd\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:relative-clause-completion",
+      "source_type": "word_analysis",
+      "support_id": "sup_93912f4fa0fb23a78f4f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural verb completes the relative object\",\"reader_payoff\":\"The reader notices that the believer group is grammatically completed inside the action of believing.\",\"reason\":\"The verb agrees with the plural relative pronoun and supplies the predicate of the relative clause.\",\"representative_source_ids\":[\"QG-6d016a4d\",\"QF-458794d6\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:security-root-form-iv",
+      "source_type": "word_analysis",
+      "support_id": "sup_9ee6c6b2b623b16cbf83",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"belief as active entry into trust\",\"reader_payoff\":\"The reader notices that belief carries trust and security pressure, while the local clause still selects the act of believing.\",\"reason\":\"The root is missing from V4 guardrail rows, so the coherent CRITICAL root pressure is preserved but kept subordinate to the local Form IV perfect verb.\",\"representative_source_ids\":[\"QS-b664ec4f\",\"QF-8e95b523\",\"MF-fb302727\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_a03b8381bcc096f7dd98",
+      "text": "{\"gloss_range\":\"repeated sworn knowing verb, with the subject carried from the first clause and the object shifted to the concealed hypocrite class\",\"prose\":\"The second {{ar:يَعْلَمَنَّ}} ({{tr:yaʿlamanna}}) is not a reduced reprise. The subject is carried from the first clause, but the full emphatic verb returns so the second object receives the same predicate force and the same held emphatic closure. Because the object is the concealed class, knowing now feels especially like exposure. The repeated formula also completes the testing reprise (29:3) by naming the negative pole after the believer pole.\",\"root_display\":\"{{ar:ع ل م}} ({{tr:ʿ-l-m}})\",\"root_gloss_range\":\"root range includes knowing, recognizing, teaching or informing, and the sign or mark field; local repetition selects knowing as exposure and classification\",\"surface_display\":\"{{ar:يَعْلَمَنَّ}} ({{tr:yaʿlamanna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:final-word-exposure",
+      "source_type": "word_analysis",
+      "support_id": "sup_ab35b16703ed183878a3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closure lands on exposed negative class\",\"reader_payoff\":\"The reader feels the ayah land not on neutral classification but on the exposed concealed class.\",\"reason\":\"The final word position, definite class form, and root image converge to make exposure the landing point.\",\"representative_source_ids\":[\"QT-d17801b1\",\"QB-a6e16bb3\",\"QY-dfdb0c9c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_ac457166746d333a200d",
+      "text": "{\"gloss_range\":\"opening connector that can either coordinate with the prior ayah or resume a fresh oath-register declaration\",\"prose\":\"The opening {{ar:وَ}} ({{tr:wa}}) keeps the prior scene (29:10) in reach while also allowing a solemn restart. It does not merely add another statement; it launches the first half of a doubled oath architecture whose second launch will mirror it inside the ayah.\",\"root_display\":\"—\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:8:formal-acoustic-parity",
+      "source_type": "word_analysis",
+      "support_id": "sup_ac5fa7feeadf364f6c2e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"repeated particle keeps the clauses balanced\",\"reader_payoff\":\"The reader hears the second classification as no weaker than the first because the same emphatic contour returns.\",\"reason\":\"The repeated bound particle fuses to the repeated imperfect and recreates the first clause's formal pressure.\",\"representative_source_ids\":[\"QS-c90de4d7\",\"QF-d3a469ba\",\"QP-9a1bdf14\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_af2591a4138dc6eca827",
+      "text": "{\"gloss_range\":\"sworn future-certain knowing that functions as distinguishing or classifying the first object, not mere neutral awareness\",\"prose\":\"{{ar:يَعْلَمَنَّ}} ({{tr:yaʿlamanna}}) is the ayah's first active predicate of classification, completing a subject-object judgment before the second clause begins. The oath frame and heavy ending make the knowing future-certain, while the root's mark-and-knowledge field lets knowing function as distinction. The Form I shape keeps the act as divine cognition itself, not merely informing someone else. The wording also resumes a testing-and-knowing pattern within the surah (29:3) and intensifies the wider testing formula (3:140).\",\"root_display\":\"{{ar:ع ل م}} ({{tr:ʿ-l-m}})\",\"root_gloss_range\":\"root range includes knowing, recognizing, teaching or informing, and the sign or mark field; local Form I verb selects knowing that marks or distinguishes\",\"surface_display\":\"{{ar:يَعْلَمَنَّ}} ({{tr:yaʿlamanna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/13",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:11:6:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_b6834be20084f78115b2",
+      "text": "{\"lemma_ar\":\"مُنَٰفِقُون\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|(III)|LEM:muna`fiquwn|ROOT:nfq|MP|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:11:6:2\",\"qac_word_ref\":\"29:11:6\",\"root_ar\":\"ن ف ق\",\"surface_ar\":\"مُنَٰفِقِينَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001040/B002"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_bec0b5bfb5ee89df0d89",
+      "text": "1. **Knowing becomes the exposure of two allegiance structures.** Lexical evidence: repeated `لَيَعْلَمَنَّ`, root `ع ل م`, `B002` (a distinguishing mark that points to something), and `ٱلْمُنَافِقِينَ`, root `ن ف ق`, `B004` (showing one face while concealing another exit). Structural cue: `29:10` supplies the two contrary speeches generated by harm and aid; `29:12` supplies another attractive public promise that conceals failed liability. Assigned role: the tunnel-image of hypocrisy explains how one displayed entrance can preserve a hidden exit, while knowledge marks the actual structure. Abductive move: I infer from the repeated future-emphatic verb and the adjacent behavioral switches that knowing is enacted as differentiation, not acquisition of missing information. Reading change: believers and hypocrites become visibly separable modes of allegiance.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:4:explicit-subject-agency",
+      "source_type": "word_analysis",
+      "support_id": "sup_c02115c7c0ea2e18a3f8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"nominative subject fixes agency\",\"reader_payoff\":\"The reader notices that divine agency is grammatically installed before the two groups are sorted.\",\"reason\":\"Attachment evidence marks this word as the explicit subject of the first knowing verb.\",\"representative_source_ids\":[\"QG-65f4f521\",\"MG-0f09306d\",\"QT-df1cba16\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:4:boundary-divine-knowing",
+      "source_type": "word_analysis",
+      "support_id": "sup_c4b9680cb19dfc955301",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"prior divine knowledge becomes present agency\",\"reader_payoff\":\"The reader connects the named subject in this ayah to the prior question about divine knowledge (29:10).\",\"reason\":\"The CRITICAL boundary row gives the prior reference, and local syntax turns the already invoked divine knowledge into an explicit subject-predicate act.\",\"representative_source_ids\":[\"QE-b849fe3a\",\"QI-b7092dfa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:local-predicate-architecture",
+      "source_type": "word_analysis",
+      "support_id": "sup_d02e3b9f6906bf4f5713",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first complete judicial beat\",\"reader_payoff\":\"The reader notices that the first verb forms a complete classification beat before the second clause begins.\",\"reason\":\"Attachment evidence gives this verb an explicit subject and object, making the first clause complete before coordination.\",\"representative_source_ids\":[\"QT-a01e02d9\",\"MT-b4eebdb0\",\"QY-4d279832\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/2",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:11:1:3",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_d71e035d8e0ca36f910a",
+      "text": "{\"lemma_ar\":\"عَلِمَ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:Ealima|ROOT:Elm|3MS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:11:1:3\",\"qac_word_ref\":\"29:11:1\",\"root_ar\":\"ع ل م\",\"surface_ar\":\"يَعْلَمَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:trust-concealment-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_de2db38a1ade0cf9c420",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negative pole against trust\",\"reader_payoff\":\"The reader sees the final noun-class as the negative pole against the earlier trust/belief phrase.\",\"reason\":\"The word is the second object under the repeated knowing verb and stands opposite the action-defined believer phrase.\",\"representative_source_ids\":[\"QI-976354ce\",\"QI-a7f8645a\",\"QT-419efb00\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_dea90cb6dc20a56c34e0",
+      "text": "{\"gloss_range\":\"completed plural believing in the relative clause, with trust/security pressure from the root and active Form IV participation\",\"prose\":\"{{ar:ءَامَنُوا۟}} ({{tr:āmanū}}) completes the relative object by naming what the group has done, with the plural subject carried inside the verb. Its perfect form makes the belief a completed claim or act now placed under future-certain divine distinction, answering the prior claim under pressure (29:10). The Form IV root pressure makes belief active entry into trust and security rather than bare opinion, and that trust stands opposite the concealed-exit field of the final class. A compact m/n sound thread links the knowing predicate and both classified groups.\",\"root_display\":\"{{ar:أ م ن}} ({{tr:ʾ-m-n}})\",\"root_gloss_range\":\"root range centers on safety, security, trust, faith, and giving credence; local Form IV perfect selects enacted belief as entry into trust\",\"surface_display\":\"{{ar:ءَامَنُوا۟}} ({{tr:āmanū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:variant-scope-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_deebb958bc59ba4643b0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"variant highlights canonical binary scope\",\"reader_payoff\":\"The reader notices that the received wording keeps divine knowledge focused on two named classes instead of expanding the statement into universal scope.\",\"reason\":\"The variant is useful as apparatus because it contrasts with the canonical two-object structure, but it does not control the local parse.\",\"representative_source_ids\":[\"QS-68c9ffc7\",\"QF-4e4306d4\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:1:boundary-framing",
+      "source_type": "word_analysis",
+      "support_id": "sup_df5912f49ce5e59fc0ed",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"boundary connector into sworn declaration\",\"reader_payoff\":\"The reader notices that the ayah opens as an answer or continuation to the prior pressure, not as a detached maxim.\",\"reason\":\"The QAC grammar allows coordination or resumption, and both readings keep the first connector tied to the oath clause that follows.\",\"representative_source_ids\":[\"QG-db942d9d\",\"QT-d07c012d\",\"QB-9ff73ee3\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:9:full-verb-repetition",
+      "source_type": "word_analysis",
+      "support_id": "sup_e085c4126474c0f2609c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"full emphatic verb repeated\",\"reader_payoff\":\"The reader sees that the second judgment is formally complete and not dependent on a lighter anaphoric construction.\",\"reason\":\"The second clause repeats the full imperfect plus heavy emphasis instead of using only a coordinated object.\",\"representative_source_ids\":[\"QF-13b12c9a\",\"QF-2c1f45b2\",\"MT-5f68a739\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:concealed-exit-root-image",
+      "source_type": "word_analysis",
+      "support_id": "sup_e3734a53d80aeb4eb014",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"hypocrisy as hidden-route practice\",\"reader_payoff\":\"The reader feels the hypocrite label as a concealed-route practice: one visible entrance with another way out.\",\"reason\":\"V4 supports the tunnel and hypocrisy branches, while local grammar selects the active participial hypocrisy class rather than making every root branch independently active.\",\"representative_source_ids\":[\"QS-a3ffbf76\",\"QS-69e084e0\",\"MS-79c607ed\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:4:carried-subject-across-clauses",
+      "source_type": "word_analysis",
+      "support_id": "sup_e911faec5c2c1fc05354",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one named subject governs both clauses\",\"reader_payoff\":\"The reader notices that the second clause can omit the name because the first clause has already fixed the agent for the whole binary judgment.\",\"reason\":\"The second verb has an implicit subject while the first clause supplies the explicit divine subject.\",\"representative_source_ids\":[\"QG-57b17a51\",\"QI-0dc496b9\",\"QI-d7c4a3d7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:object-case-parallel",
+      "source_type": "word_analysis",
+      "support_id": "sup_f0b7e9fd75f236128f94",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"oblique plural fits the object slot\",\"reader_payoff\":\"The reader sees the final class grammatically locked into the same object architecture as the first group.\",\"reason\":\"The sound masculine plural oblique form fits the accusative object role governed by the repeated verb.\",\"representative_source_ids\":[\"QG-a89da73a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:3:emphatic-future",
+      "source_type": "word_analysis",
+      "support_id": "sup_f207ebb394b1571cffd8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"imperfect made certain by oath emphasis\",\"reader_payoff\":\"The reader notices that the verb is not a loose habitual present but a guaranteed realization inside the testing discourse.\",\"reason\":\"The lām plus heavy emphasis on the imperfect licenses the future-certain force described in the QAC grammar.\",\"representative_source_ids\":[\"QG-49458673\",\"MG-6e987c4f\",\"QF-2fda9fd0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:11:10:depletion-and-spending-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_fcc9acbfcfcfeb7a9b60",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"passage-through pressure beside hypocrisy\",\"reader_payoff\":\"The reader notices a secondary passage-through and depletion pressure that thickens the label without replacing its local hypocrisy sense.\",\"reason\":\"The depletion and expenditure branches are real root-family evidence, but the local active participle selects the hypocrisy branch, so these pressures remain subordinate.\",\"representative_source_ids\":[\"QS-f48e8070\",\"MS-994790e6\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_001537/B004"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_fe5cc6b36e4bd1326251",
+      "text": "- **Later activation (`29:65`, `29:67`):** Crisis-only purity followed by safe-land association gives the hidden-exit image of `ن ف ق B004` a concrete late form; sanctuary then shows trust attached to voidness despite lived security. Manifest differentiation therefore concerns durable object-attachment across states.",
+      "trust": "legacy_unbound"
+    }
+  ]
+}

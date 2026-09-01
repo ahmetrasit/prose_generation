@@ -1,0 +1,1082 @@
+{
+  "artifacts": {
+    "docket": "inputs/adjudication/s029/29_1.docket.json",
+    "docket_payload_sha256": "4aa9443c82d0422830a2bb92a237414a89dcbea8badd33a040a293b4d09521ff",
+    "prepared": "inputs/prepared/s029/29_1.prepared.json",
+    "source_bundle": "inputs/source/s029/29_1.bundle.json"
+  },
+  "budget": {
+    "branch_count": 0,
+    "docket_bytes": 22433,
+    "estimated_tokens_chars_div_4": 5609,
+    "nominated_branch_count": 0,
+    "support_count": 12
+  },
+  "candidate_ledger": [
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation_trace must not be empty",
+      "source_local_id": "reader_hft_a:B0_semantic_suspension",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation_trace must not be empty",
+      "source_local_id": "reader_hft_a:B0_units_before_composition",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000054/B002', 'root_000852/B004', 'root_001040/B001', 'root_001128/B001', 'root_001272/B001']",
+      "source_local_id": "reader_hft_a:D1_claim_under_assay",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000090/B001', 'root_000434/B002', 'root_001058/B001', 'root_001502/B006']",
+      "source_local_id": "reader_hft_a:D2_compositional_zero_point",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003', 'root_000186/B007', 'root_000849/B001', 'root_001283/B002']",
+      "source_local_id": "reader_hft_a:D3_recited_inscription",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003', 'root_000170/B005', 'root_000180/B002']",
+      "source_local_id": "reader_hft_a:D4_residual_sign",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": null,
+      "disposition": "parse_failed",
+      "reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000046/B002']",
+      "source_local_id": "reader_hft_a:O1_pain_root_echo",
+      "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0",
+      "source_type": "hft"
+    },
+    {
+      "candidate_id": "cand_8a03ef7a087922c376c1",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:outside-clause-grammar",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_1f32d0aa5e5373109889",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:opacity-attention-reset",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ffa144241125195bc6f3",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:qiraat-boundary-to-question",
+      "source_pointer": "/word_analysis/words/0/topics/10",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_5c011d4751957e172cd7",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:polyvalent-opening-functions",
+      "source_pointer": "/word_analysis/words/0/topics/2",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_3b3adc5e840471daca3d",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:alphabetic-material-display",
+      "source_pointer": "/word_analysis/words/0/topics/3",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_e55381226b0d956890be",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:articulatory-sound-arc",
+      "source_pointer": "/word_analysis/words/0/topics/4",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_10edb881d79057de87c2",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:compact-token-recited-separation",
+      "source_pointer": "/word_analysis/words/0/topics/5",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_c6ca7717a98e62e6d3fe",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:root-family-analysis-blocked",
+      "source_pointer": "/word_analysis/words/0/topics/6",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_64563007049c16867755",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:latent-initial-expansion",
+      "source_pointer": "/word_analysis/words/0/topics/7",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_cefa47f316a7a30a68fd",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:alm-distribution-pattern",
+      "source_pointer": "/word_analysis/words/0/topics/8",
+      "source_type": "word_analysis"
+    },
+    {
+      "candidate_id": "cand_ac8ec43c5fb6f2a93a32",
+      "disposition": "docket_mandatory",
+      "reason": null,
+      "source_local_id": "29:1:1:whole-ayah-threshold",
+      "source_pointer": "/word_analysis/words/0/topics/9",
+      "source_type": "word_analysis"
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 18,
+    "by_disposition": {
+      "docket_mandatory": 11,
+      "parse_failed": 7
+    },
+    "by_source_type": {
+      "hft": 7,
+      "word_analysis": 11
+    },
+    "discovered_seed_count": 18,
+    "docket_candidate_count": 11,
+    "mandatory_candidate_count": 11,
+    "optional_candidate_count": 0,
+    "selection_eligible_candidate_count": 11,
+    "selection_ineligible_candidate_count": 0
+  },
+  "diagnostics": {
+    "blocking_seed_failures": [],
+    "branch_review_grounding_gaps": [],
+    "focus_root_dictionary_gaps": [],
+    "quarantined_hft": {
+      "audit": {
+        "adjudicable": false,
+        "evidence_lane": "macro",
+        "evidence_scope": "pericope",
+        "legacy_response_allowed": false,
+        "packet": {
+          "ayah_count": 69,
+          "focus_ref": "29:1",
+          "protocol": "focus-trace-pericope-lean-v1",
+          "source_file": "latent_activation/focus_trace/runs/s29/packets/29_1.packet.json",
+          "window": [
+            "29:1",
+            "29:2",
+            "29:3",
+            "29:4",
+            "29:5",
+            "29:6",
+            "29:7",
+            "29:8",
+            "29:9",
+            "29:10",
+            "29:11",
+            "29:12",
+            "29:13",
+            "29:14",
+            "29:15",
+            "29:16",
+            "29:17",
+            "29:18",
+            "29:19",
+            "29:20",
+            "29:21",
+            "29:22",
+            "29:23",
+            "29:24",
+            "29:25",
+            "29:26",
+            "29:27",
+            "29:28",
+            "29:29",
+            "29:30",
+            "29:31",
+            "29:32",
+            "29:33",
+            "29:34",
+            "29:35",
+            "29:36",
+            "29:37",
+            "29:38",
+            "29:39",
+            "29:40",
+            "29:41",
+            "29:42",
+            "29:43",
+            "29:44",
+            "29:45",
+            "29:46",
+            "29:47",
+            "29:48",
+            "29:49",
+            "29:50",
+            "29:51",
+            "29:52",
+            "29:53",
+            "29:54",
+            "29:55",
+            "29:56",
+            "29:57",
+            "29:58",
+            "29:59",
+            "29:60",
+            "29:61",
+            "29:62",
+            "29:63",
+            "29:64",
+            "29:65",
+            "29:66",
+            "29:67",
+            "29:68",
+            "29:69"
+          ],
+          "window_scope": null,
+          "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+        },
+        "readers": [
+          {
+            "focus_ref": "29:1",
+            "identity_status": "legacy_unbound",
+            "note": "Response matches focus/protocol but carries no packet hash echo.",
+            "packet_identity": null,
+            "protocol": "focus-trace-hermetic-response-v4",
+            "reader_id": "reader_hft_a",
+            "reasons": []
+          }
+        ],
+        "reasons": [
+          "packet window does not exactly match declared pericope (69 refs vs 13)",
+          "reader reader_hft_a: response is not bound to packet identity"
+        ],
+        "status": "invalid"
+      },
+      "malformed_payload": {
+        "packet_summary": {
+          "ayah_count": 69,
+          "focus_ref": "29:1",
+          "protocol": "focus-trace-pericope-lean-v1",
+          "source_file": "latent_activation/focus_trace/runs/s29/packets/29_1.packet.json",
+          "split_root_mappings": [],
+          "window": [
+            "29:1",
+            "29:2",
+            "29:3",
+            "29:4",
+            "29:5",
+            "29:6",
+            "29:7",
+            "29:8",
+            "29:9",
+            "29:10",
+            "29:11",
+            "29:12",
+            "29:13",
+            "29:14",
+            "29:15",
+            "29:16",
+            "29:17",
+            "29:18",
+            "29:19",
+            "29:20",
+            "29:21",
+            "29:22",
+            "29:23",
+            "29:24",
+            "29:25",
+            "29:26",
+            "29:27",
+            "29:28",
+            "29:29",
+            "29:30",
+            "29:31",
+            "29:32",
+            "29:33",
+            "29:34",
+            "29:35",
+            "29:36",
+            "29:37",
+            "29:38",
+            "29:39",
+            "29:40",
+            "29:41",
+            "29:42",
+            "29:43",
+            "29:44",
+            "29:45",
+            "29:46",
+            "29:47",
+            "29:48",
+            "29:49",
+            "29:50",
+            "29:51",
+            "29:52",
+            "29:53",
+            "29:54",
+            "29:55",
+            "29:56",
+            "29:57",
+            "29:58",
+            "29:59",
+            "29:60",
+            "29:61",
+            "29:62",
+            "29:63",
+            "29:64",
+            "29:65",
+            "29:66",
+            "29:67",
+            "29:68",
+            "29:69"
+          ]
+        },
+        "readers": {
+          "reader_hft_a": {
+            "baseline_models": [
+              {
+                "activation_trace": [],
+                "changed_reading": {
+                  "after": "A deliberately nonlexical threshold whose immediately available action is to be seen and voiced in sequence.",
+                  "before": "An opaque abbreviation awaiting expansion into a hidden statement."
+                },
+                "confidence": "strong",
+                "focus_anchor": "The focus consists of the ordered letter-names alif, lam, and mim, with no rooted morphemes or predication.",
+                "mechanism": "A serial vocal and graphic event is available, but lexical assertion is withheld; the opening makes form and recitation precede proposition.",
+                "model_id": "B0_semantic_suspension"
+              },
+              {
+                "activation_trace": [],
+                "changed_reading": {
+                  "after": "An ordered set of linguistic components displayed prior to lexical composition.",
+                  "before": "A single mysterious token."
+                },
+                "confidence": "medium",
+                "focus_anchor": "Three alphabetic units occur in a fixed order without binding into a rooted word.",
+                "mechanism": "Sequence is already present while lexical synthesis is withheld, foregrounding components before a composed discourse.",
+                "model_id": "B0_units_before_composition"
+              }
+            ],
+            "context_deltas": [
+              {
+                "activation_trace": [
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_001272",
+                    "role": "Externalized speech supplies the claim whose mere voicing is insufficient.",
+                    "root": "ق و ل",
+                    "source_ref": "29:2",
+                    "source_word_indices": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_000054",
+                    "role": "Heart-settling assent supplies the asserted content that must become more than sound.",
+                    "root": "ء م ن",
+                    "source_ref": "29:2",
+                    "source_word_indices": [
+                      "7"
+                    ]
+                  },
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_001128",
+                    "role": "Assaying metal or a person supplies the discriminating process applied to the claim.",
+                    "root": "ف ت ن",
+                    "source_ref": "29:2",
+                    "source_word_indices": [
+                      "10"
+                    ]
+                  },
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_001040",
+                    "role": "Disclosure to a knower supplies the eventual uncovering of what speech alone leaves unresolved.",
+                    "root": "ع ل م",
+                    "source_ref": "29:3",
+                    "source_word_indices": [
+                      "6",
+                      "10"
+                    ]
+                  },
+                  {
+                    "branch_id": "B004",
+                    "mapped_root_id": "root_000852",
+                    "role": "Truth realized in promise and action supplies the verified outcome beyond verbal profession.",
+                    "root": "ص د ق",
+                    "source_ref": "29:3",
+                    "source_word_indices": [
+                      "9"
+                    ]
+                  }
+                ],
+                "changed_reading": {
+                  "after": "The opening enacts a claim-free threshold before the surah tests whether voiced belief becomes disclosed truth.",
+                  "before": "The opening suspends lexical meaning without specifying why."
+                },
+                "confidence": "strong",
+                "mechanism": "Because alif-lam-mim can be voiced without making a lexical claim, the immediate movement from spoken belief to assay, disclosure, and realized truth turns its semantic suspension into a gap between utterance and verification.",
+                "model_id": "D1_claim_under_assay",
+                "reader_inference": "The packet supplies utterance, trust, assay, disclosure, and truth realized in action; I infer that the focus's withheld proposition formally stages the interval between saying and verification. A live alternative is that the letters are only an incipit with no thematic role.",
+                "status": "revised",
+                "structural_cues": [
+                  "29:2-3 moves from saying belief, through trial, to the disclosure of truthful and lying parties.",
+                  "The focus precedes that sequence while itself offering pronounceable form but no proposition."
+                ],
+                "trigger_roots": [
+                  "ق و ل",
+                  "ء م ن",
+                  "ف ت ن",
+                  "ع ل م",
+                  "ص د ق"
+                ]
+              },
+              {
+                "activation_trace": [
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_000090",
+                    "role": "Opening and putting first make the focus's initial position function as a beginning rather than an isolated anomaly.",
+                    "root": "ب د ء",
+                    "source_ref": "29:19",
+                    "source_word_indices": [
+                      "4"
+                    ]
+                  },
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_000434",
+                    "role": "Origination and bringing into existence supply the transition from available units to formed discourse.",
+                    "root": "خ ل ق",
+                    "source_ref": "29:19",
+                    "source_word_indices": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_001058",
+                    "role": "Return after departure and repetition after beginning supply the recurrent re-voicing of the opening.",
+                    "root": "ع و د",
+                    "source_ref": "29:19",
+                    "source_word_indices": [
+                      "8"
+                    ]
+                  },
+                  {
+                    "branch_id": "B006",
+                    "mapped_root_id": "root_001502",
+                    "role": "Causing a thing to emerge supplies a second formation from the initial display of components.",
+                    "root": "ن ش ء",
+                    "source_ref": "29:20",
+                    "source_word_indices": [
+                      "11",
+                      "12"
+                    ]
+                  }
+                ],
+                "changed_reading": {
+                  "after": "The letters become a compositional zero point: discourse begins from exposed units, and every recitation brings that beginning forth again.",
+                  "before": "The letters are ordered components without synthesis."
+                },
+                "confidence": "medium",
+                "mechanism": "The first-position display of discrete alphabetic material is activated by the paired motions of beginning, forming, returning, and bringing forth again: articulated discourse unfolds from units and recitation repeatedly returns those units to voiced form.",
+                "model_id": "D2_compositional_zero_point",
+                "reader_inference": "The packet supplies beginning, origination, return, and renewed emergence; I map that cycle onto textual composition and re-recitation. The compositional arrow is mine, and the live alternative is a purely formal alphabetic opening unrelated to creation.",
+                "status": "strengthened",
+                "structural_cues": [
+                  "29:19 pairs beginning creation with returning it.",
+                  "29:20 repeats the command to inspect how creation began and then names another emergence."
+                ],
+                "trigger_roots": [
+                  "ب د ء",
+                  "خ ل ق",
+                  "ع و د",
+                  "ن ش ء"
+                ]
+              },
+              {
+                "activation_trace": [
+                  {
+                    "branch_id": "B007",
+                    "mapped_root_id": "root_000186",
+                    "role": "Sound following sound makes the ordered voicing of separate letter-names an instance of recitational sequence.",
+                    "root": "ت ل و",
+                    "source_ref": "29:45",
+                    "source_word_indices": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_001283",
+                    "role": "The ordering of letters into what is written supplies the compositional medium from which the focus deliberately stops short.",
+                    "root": "ك ت ب",
+                    "source_ref": "29:45",
+                    "source_word_indices": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_001283",
+                    "role": "Ordered written letters make the focus inspectable as script even before lexical decoding.",
+                    "root": "ك ت ب",
+                    "source_ref": "29:48",
+                    "source_word_indices": [
+                      "7"
+                    ]
+                  },
+                  {
+                    "branch_id": "B003",
+                    "mapped_root_id": "root_000074",
+                    "role": "A manifest sign allows visible form itself to carry evidentiary force without becoming an ordinary word.",
+                    "root": "ء ي ي",
+                    "source_ref": "29:49",
+                    "source_word_indices": [
+                      "3",
+                      "12"
+                    ]
+                  },
+                  {
+                    "branch_id": "B001",
+                    "mapped_root_id": "root_000849",
+                    "role": "The bodily chest supplies inward lodging for signs that also exist as voiced and written forms.",
+                    "root": "ص د ر",
+                    "source_ref": "29:49",
+                    "source_word_indices": [
+                      "6"
+                    ]
+                  },
+                  {
+                    "branch_id": "B007",
+                    "mapped_root_id": "root_000186",
+                    "role": "One sound following another makes the written book present as an event repeatedly heard.",
+                    "root": "ت ل و",
+                    "source_ref": "29:51",
+                    "source_word_indices": [
+                      "7"
+                    ]
+                  }
+                ],
+                "changed_reading": {
+                  "after": "A minimal specimen of the book's double life: ordered marks become sounds one after another and are carried inward without requiring lexical expansion.",
+                  "before": "A nonlexical threshold that can only be repeated."
+                },
+                "confidence": "strong",
+                "mechanism": "The letter-names are simultaneously visible marks and sounds that follow one another. The later recitation-book cluster activates them as a minimal specimen of revelation crossing ordered inscription, serial voicing, and inward custody.",
+                "model_id": "D3_recited_inscription",
+                "reader_inference": "The packet supplies serial sound, ordered letters, visible signs, inward chests, and the explicit recitation-writing contrast; I infer that the focus condenses these media into one event. A live alternative is that its graphic and oral forms are incidental to the later book discourse.",
+                "status": "strengthened",
+                "structural_cues": [
+                  "29:45 joins recitation to the book.",
+                  "29:48 contrasts prior recitation and book with tracing by the right hand; the packet supplies no branch inventory for خ ط ط, so this remains structural.",
+                  "29:49 places clear signs in chests, while 29:51 describes the book as recited to its hearers."
+                ],
+                "trigger_roots": [
+                  "ت ل و",
+                  "ك ت ب",
+                  "ء ي ي",
+                  "ص د ر"
+                ]
+              },
+              {
+                "activation_trace": [
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_000180",
+                    "role": "An effect remaining after departure supplies the focus with the form of a preserved textual residue.",
+                    "root": "ت ر ك",
+                    "source_ref": "29:35",
+                    "source_word_indices": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "branch_id": "B003",
+                    "mapped_root_id": "root_000074",
+                    "role": "A visible sign makes the residual form positive evidence rather than merely missing explanation.",
+                    "root": "ء ي ي",
+                    "source_ref": "29:35",
+                    "source_word_indices": [
+                      "4"
+                    ]
+                  },
+                  {
+                    "branch_id": "B005",
+                    "mapped_root_id": "root_000170",
+                    "role": "Meaning disclosed through speech or a mark supplies the trace with a communicative function.",
+                    "root": "ب ي ن",
+                    "source_ref": "29:35",
+                    "source_word_indices": [
+                      "5"
+                    ]
+                  }
+                ],
+                "changed_reading": {
+                  "after": "The reduced opening can function as a retained sign whose fragmentary form is itself what asks to be recognized.",
+                  "before": "Lack of lexical content feels like missing information."
+                },
+                "confidence": "medium",
+                "mechanism": "The reduced, nonpropositional opening is re-read as a deliberately retained trace: absence of a lexical body need not mean absence of signification when a remaining mark can disclose by its very visibility.",
+                "model_id": "D4_residual_sign",
+                "reader_inference": "The packet supplies a remaining effect, a visible sign, and disclosure by mark; I infer that the focus's reduction is residue rather than deficiency. The live alternative is that 29:35 concerns only its narrated material sign and does not reflect back on the opening.",
+                "status": "new",
+                "structural_cues": [
+                  "29:35 explicitly combines leaving, sign, and clarity in one construction.",
+                  "The focus is itself a conspicuous remainder-sized form: present and ordered, yet lacking ordinary predication."
+                ],
+                "trigger_roots": [
+                  "ت ر ك",
+                  "ء ي ي",
+                  "ب ي ن"
+                ]
+              }
+            ],
+            "focus_ref": "29:1",
+            "protocol": "focus-trace-hermetic-response-v4",
+            "reader_id": "reader_hft_a",
+            "rootless_focus": true,
+            "summary": {
+              "remaining_uncertainties": [
+                "The trial, creation, and retained-sign models depend on formal analogy rather than a grammatical link supplied by the focus.",
+                "The alif-hamza distance prevents the pain-root echo from establishing a lexical reading.",
+                "The writing-recitation model is strongly packet-supported but may describe how the opening is encountered rather than what it denotes."
+              ],
+              "strongest_changes": [
+                "The immediate trial sequence turns semantic suspension into a formal gap between voiced profession and verified truth.",
+                "The recitation-book cluster turns the opening into a compact crossing of visible letters, serial sound, and inwardly held signs.",
+                "Beginning, creation, return, and renewed emergence activate the initial letters as a compositional zero point."
+              ],
+              "what_was_special": "Because the focus has no rooted morphemes, context could not refine a lexical baseline; it instead activated sequence, position, medium, residue, and one explicitly contained consonantal echo."
+            },
+            "surprising_valid_outliers": [
+              {
+                "activation_trace": [
+                  {
+                    "branch_id": "B002",
+                    "mapped_root_id": "root_000046",
+                    "role": "The branch's painful descriptor supplies an attested contextual realization near the opening's ordered letter-frame and activates a contained pain resonance.",
+                    "root": "ء ل م",
+                    "source_ref": "29:23",
+                    "source_word_indices": [
+                      "13"
+                    ]
+                  }
+                ],
+                "changed_reading": {
+                  "after": "Once the painful descriptor appears, the opening can carry an exploratory echo of ء ل م while remaining grammatically and lexically rootless.",
+                  "before": "The letter sequence has no available root resonance inside the focus."
+                },
+                "confidence": "exploratory",
+                "containment": "This is surprising because the packet explicitly marks the focus rootless and alif is not identical to the hamza radical. It remains worth carrying because the ordered graphic frame alif-lam-mim closely matches the contextual root sequence hamza-lam-mim through initial alif as hamza seat. Downstream prose should call this a retrospective consonantal echo of pain, never a lexical parsing, translation, or intended decoding of the opening.",
+                "focus_anchor": "The three focus letter-names occur in the same order as the visible consonantal frame associated with ء ل م, subject to the alif-hamza distinction.",
+                "outlier_id": "O1_pain_root_echo"
+              }
+            ],
+            "trace_kind": "reconstructed"
+          }
+        }
+      },
+      "seeds": [
+        {
+          "adjudicable": false,
+          "anchor_refs": [],
+          "branch_refs": [],
+          "changed_reading": {
+            "after": "A deliberately nonlexical threshold whose immediately available action is to be seen and voiced in sequence.",
+            "before": "An opaque abbreviation awaiting expansion into a hidden statement."
+          },
+          "focus_anchor": "The focus consists of the ordered letter-names alif, lam, and mim, with no rooted morphemes or predication.",
+          "kind": "baseline_model",
+          "quarantine_reason": "activation_trace must not be empty",
+          "source_local_id": "reader_hft_a:B0_semantic_suspension",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [],
+          "branch_refs": [],
+          "changed_reading": {
+            "after": "An ordered set of linguistic components displayed prior to lexical composition.",
+            "before": "A single mysterious token."
+          },
+          "focus_anchor": "Three alphabetic units occur in a fixed order without binding into a rooted word.",
+          "kind": "baseline_model",
+          "quarantine_reason": "activation_trace must not be empty",
+          "source_local_id": "reader_hft_a:B0_units_before_composition",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/baseline_models/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:2",
+            "29:3"
+          ],
+          "branch_refs": [
+            "root_000054/B002",
+            "root_000852/B004",
+            "root_001040/B001",
+            "root_001128/B001",
+            "root_001272/B001"
+          ],
+          "changed_reading": {
+            "after": "The opening enacts a claim-free threshold before the surah tests whether voiced belief becomes disclosed truth.",
+            "before": "The opening suspends lexical meaning without specifying why."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000054/B002', 'root_000852/B004', 'root_001040/B001', 'root_001128/B001', 'root_001272/B001']",
+          "source_local_id": "reader_hft_a:D1_claim_under_assay",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/0"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:19",
+            "29:20"
+          ],
+          "branch_refs": [
+            "root_000090/B001",
+            "root_000434/B002",
+            "root_001058/B001",
+            "root_001502/B006"
+          ],
+          "changed_reading": {
+            "after": "The letters become a compositional zero point: discourse begins from exposed units, and every recitation brings that beginning forth again.",
+            "before": "The letters are ordered components without synthesis."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000090/B001', 'root_000434/B002', 'root_001058/B001', 'root_001502/B006']",
+          "source_local_id": "reader_hft_a:D2_compositional_zero_point",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/1"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:45",
+            "29:48",
+            "29:49",
+            "29:51"
+          ],
+          "branch_refs": [
+            "root_000074/B003",
+            "root_000186/B007",
+            "root_000849/B001",
+            "root_001283/B002"
+          ],
+          "changed_reading": {
+            "after": "A minimal specimen of the book's double life: ordered marks become sounds one after another and are carried inward without requiring lexical expansion.",
+            "before": "A nonlexical threshold that can only be repeated."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003', 'root_000186/B007', 'root_000849/B001', 'root_001283/B002']",
+          "source_local_id": "reader_hft_a:D3_recited_inscription",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/2"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:35"
+          ],
+          "branch_refs": [
+            "root_000074/B003",
+            "root_000170/B005",
+            "root_000180/B002"
+          ],
+          "changed_reading": {
+            "after": "The reduced opening can function as a retained sign whose fragmentary form is itself what asks to be recognized.",
+            "before": "Lack of lexical content feels like missing information."
+          },
+          "focus_anchor": null,
+          "kind": "context_delta",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000074/B003', 'root_000170/B005', 'root_000180/B002']",
+          "source_local_id": "reader_hft_a:D4_residual_sign",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/context_deltas/3"
+        },
+        {
+          "adjudicable": false,
+          "anchor_refs": [
+            "29:23"
+          ],
+          "branch_refs": [
+            "root_000046/B002"
+          ],
+          "changed_reading": {
+            "after": "Once the painful descriptor appears, the opening can carry an exploratory echo of ء ل م while remaining grammatically and lexically rootless.",
+            "before": "The letter sequence has no available root resonance inside the focus."
+          },
+          "focus_anchor": "The three focus letter-names occur in the same order as the visible consonantal frame associated with ء ل م, subject to the alif-hamza distinction.",
+          "kind": "surprising_outlier",
+          "quarantine_reason": "activation trace cites branches outside the retained focus/pericope registries: ['root_000046/B002']",
+          "source_local_id": "reader_hft_a:O1_pain_root_echo",
+          "source_pointer": "/v12_focus_trace_hermetic/readers/reader_hft_a/surprising_valid_outliers/0"
+        }
+      ],
+      "structural_error": "reader_hft_a:B0_semantic_suspension: activation_trace must not be empty",
+      "visible_to_adjudication": false
+    }
+  },
+  "identity": {
+    "ayah_ref": "29:1",
+    "source": {
+      "ayah_ref": "29:1",
+      "canonical_sha256": "6b73b297416b76be4db2073920d20bc3812580c1ff69031a21516265b6b37cd0",
+      "path": "inputs/source/s029/29_1.bundle.json",
+      "raw_sha256": "d3478181c2c468e9e0f8531092e510fdebc6cb39a11117613c99572c41700990",
+      "schema_version": "input-bundle-v3"
+    }
+  },
+  "mandatory_candidates_ready": true,
+  "readiness": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "schema_version": "commentary-v3-prepared-v1",
+  "scope_audit": {
+    "allow_incomplete_branch_coverage": true,
+    "allow_legacy_hft_response": false,
+    "hft": {
+      "adjudicable": false,
+      "evidence_lane": "macro",
+      "evidence_scope": "pericope",
+      "legacy_response_allowed": false,
+      "packet": {
+        "ayah_count": 69,
+        "focus_ref": "29:1",
+        "protocol": "focus-trace-pericope-lean-v1",
+        "source_file": "latent_activation/focus_trace/runs/s29/packets/29_1.packet.json",
+        "window": [
+          "29:1",
+          "29:2",
+          "29:3",
+          "29:4",
+          "29:5",
+          "29:6",
+          "29:7",
+          "29:8",
+          "29:9",
+          "29:10",
+          "29:11",
+          "29:12",
+          "29:13",
+          "29:14",
+          "29:15",
+          "29:16",
+          "29:17",
+          "29:18",
+          "29:19",
+          "29:20",
+          "29:21",
+          "29:22",
+          "29:23",
+          "29:24",
+          "29:25",
+          "29:26",
+          "29:27",
+          "29:28",
+          "29:29",
+          "29:30",
+          "29:31",
+          "29:32",
+          "29:33",
+          "29:34",
+          "29:35",
+          "29:36",
+          "29:37",
+          "29:38",
+          "29:39",
+          "29:40",
+          "29:41",
+          "29:42",
+          "29:43",
+          "29:44",
+          "29:45",
+          "29:46",
+          "29:47",
+          "29:48",
+          "29:49",
+          "29:50",
+          "29:51",
+          "29:52",
+          "29:53",
+          "29:54",
+          "29:55",
+          "29:56",
+          "29:57",
+          "29:58",
+          "29:59",
+          "29:60",
+          "29:61",
+          "29:62",
+          "29:63",
+          "29:64",
+          "29:65",
+          "29:66",
+          "29:67",
+          "29:68",
+          "29:69"
+        ],
+        "window_scope": null,
+        "window_sha256": "7d71e91eadd483d43910bd7ca019e58be8696fdaf8d72bf9994e1a2393055690"
+      },
+      "readers": [
+        {
+          "focus_ref": "29:1",
+          "identity_status": "legacy_unbound",
+          "note": "Response matches focus/protocol but carries no packet hash echo.",
+          "packet_identity": null,
+          "protocol": "focus-trace-hermetic-response-v4",
+          "reader_id": "reader_hft_a",
+          "reasons": []
+        }
+      ],
+      "reasons": [
+        "packet window does not exactly match declared pericope (69 refs vs 13)",
+        "reader reader_hft_a: response is not bound to packet identity"
+      ],
+      "status": "invalid"
+    },
+    "hft_policy": "quarantine",
+    "pericope": {
+      "ayah_from": 1,
+      "ayah_to": 13,
+      "id": "s029-p01-001-013",
+      "label": "Trials of faith and accountability",
+      "number": 1,
+      "refs": [
+        "29:1",
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "29:9",
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13"
+      ]
+    }
+  },
+  "source_inventory": {
+    "butuncul_okuma_line": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Whole-reading prose is excluded to avoid importing a prior synthesis as evidence.",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "channel_generated_outputs": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Generated channel prose is excluded; reviewed anchored channel nominations are used.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "channel_subchannels_anchored_here": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "inter_ayah_rows": {
+      "dispositions": {},
+      "policy": "excluded",
+      "reason": "Raw inter-ayah rows are not model-visible in v1; adjudicable relations must arrive through bounded word, channel, HFT, walk, or publication seeds.",
+      "seed_count": 0,
+      "state": "present_nonempty_excluded"
+    },
+    "qac_morphemes": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_nonempty"
+    },
+    "v12_cross_run_publication": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_nonempty"
+    },
+    "v12_focus_trace_hermetic": {
+      "dispositions": {
+        "parse_failed": 7
+      },
+      "policy": "candidate_source",
+      "seed_count": 7,
+      "state": "present_nonempty"
+    },
+    "v12_reader_responses": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "v12_reader_walks": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "v12_reader_walks_wide": {
+      "dispositions": {},
+      "policy": "candidate_source",
+      "seed_count": 0,
+      "state": "present_empty"
+    },
+    "word_analysis": {
+      "dispositions": {
+        "docket_mandatory": 11
+      },
+      "policy": "candidate_source",
+      "seed_count": 11,
+      "state": "present_nonempty"
+    }
+  }
+}

@@ -1,0 +1,3925 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Temel yer anlamı ile yalnız tamlamalarda beliren alt bölüm ve hayvan ayağı anlamları birbirinden ayrılmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000025/B001",
+          "gloss": "yer ve yere bakan alt bölüm",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Toprağın niteliği çekirdektir; bitkinin gelişmesi ve oğlağın beslenmesi sonuç ya da ilişkili kullanım olarak kalmalıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000025/B002",
+          "gloss": "yumuşak ve verimli toprak",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalnız verilen kişi ve eylem yapılarında geçerlidir; genel bir kök anlamı veya doğrudan ahlaki iyilik adı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000025/B003",
+          "gloss": "iyiliğe yatkın ve layık",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu anlam yalnız sabit adlandırmaya aittir ve genel olarak yeryüzünde yaşayan kişiyi anlatmaz.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000025/B004",
+          "gloss": "yabancı kimse",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel yer, hasır, döşek veya süslü kumaş değil; malzemesi ve kalınlığı belirtilmiş bir yaygıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B005",
+          "gloss": "kalın yün veya kıl yaygı",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, yere yönelen ağırlık ve kalma durumudur; tembellik, geri kayma veya bir başkasına karşı çıkma değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B006",
+          "gloss": "yere çökercesine ağırlaşıp oyalanmak",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal bir başkasına yönelmiş karşı duruşu anlatır; yere çökme, ağırlaşma veya yalnızca yüz yüze bulunma değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B007",
+          "gloss": "karşısına çıkıp kendini ortaya koymak",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal genel şiddetli sarsıntı veya belirli bir ateş nöbeti değil, insanda görülen titreme durumudur.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B008",
+          "gloss": "titreme veya ürperme",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal solunumla ilgili başka hastalıkları veya genel beden titremesini değil, soğuk algınlığı durumunu ve ilgili türevleri kapsar.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B009",
+          "gloss": "soğuk algınlığı",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Canlının kendisi çekirdektir; odunun yenmiş duruma gelmesi yalnız belirtilen eylem yapısına bağlı sonuçtur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000025/B010",
+          "gloss": "odun yiyen küçük canlı",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalnız yara ile kurulan yapıda geçerlidir ve irinlenmenin yol açtığı bozulmayı zorunlu olarak içerir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000025/B011",
+          "gloss": "yaranın irinlenip bozulması",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnız akıl karışıklığı değildir; doğaüstü nedene bağlanma ve istemsiz baş-gövde hareketi birlikte korunmalıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000025/B012",
+          "gloss": "doğaüstü etkiye bağlanan istemsiz sarsıntılı akıl bozukluğu",
+          "source_pointer": "/root_lexicon/root_000025/dictionary_entry/branches/11",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء ر ض"
+      ],
+      "root_ar": "ء ر ض",
+      "root_id": "root_000025"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal inanma ya da dua cevabi degil; korkudan emin olma, guven verme ve guvenilir sayilma alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B001",
+          "gloss": "guven ve guvenilirlik",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik hali degil; bir soz, haber, vaat veya hakikati dogru kabul etme alanidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B002",
+          "gloss": "dogru sayip kabul etme",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal guvenlik ya da tasdik degil; duada kabul talebini bildiren sabit sozdur.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000054/B003",
+          "gloss": "duada kabul istegi sozu",
+          "source_pointer": "/root_lexicon/root_000054/dictionary_entry/branches/2",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
+      "root_ar": "ء م ن",
+      "root_id": "root_000054"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dalın çekirdeği zamanın sürmesi ve belirli bir zaman kesitidir; gece içindeki gecikme, birim zamana göre işlem ve çetin zaman anlatımları yalnızca kendi yapılarında geçerlidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000760/B001",
+          "gloss": "zamanın sürmesi ve belirli bir zaman kesiti",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Çekirdek, hayvanı gözetimsiz bırakıp başıboş gitmesine yol açmaktır; genel kayıp ve mal savurma anlamları bunun kapsam genişlemeleridir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000760/B002",
+          "gloss": "gözetimsiz bırakıp başıboş gitmesine yol açma",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal genel put kavramını değil, eski anlatılarda geçen belirli bir putun özel adını gösterir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000760/B003",
+          "gloss": "eski anlatılarda geçen belirli bir putun özel adı",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, saman katılmış çamur malzemesidir; genel çamur, çamur sıvama eylemi veya kurutulmuş yapı parçası değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000760/B004",
+          "gloss": "saman karıştırılmış çamur",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Çekirdek boşalma sıvısından önce çıkan salgıdır; bu salgıyla ilgilenme buyruğu ayrı bir sözlük birimine bağlı ilişkili kullanımdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000760/B005",
+          "gloss": "boşalma öncesi salgı",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal ölüm ya da yok oluş olayını değil, bu sonuca uğramış kimseleri topluca gösterir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000760/B006",
+          "gloss": "ölüp yok olanlar",
+          "source_pointer": "/root_lexicon/root_000760/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "و س ع"
+      ],
+      "root_ar": "و س ع",
+      "root_id": "root_000760"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Anlam, köle edinme eylemini ve dinsel bağlılığı değil, özgür olmayan kişinin statüsünü bildirir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000973/B001",
+          "gloss": "özgür olmayan, sahip olunan kişi",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, insanın Tanrı'ya nispet edilen konumunu anlatır; kişinin hukuki statüsünü veya yaptığı tapınmayı tek başına bildirmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B002",
+          "gloss": "Tanrı'ya ait sayılan insan veya topluluk",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal hukuki köleliği değil, bir öznenin boyun eğerek itaat veya tapınma göstermesini anlatır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B003",
+          "gloss": "boyun eğerek itaat ve tapınma",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam insanı köleleştiren veya köle gibi boyunduruk altına alan eylemdir; tapınma ya da nesneleri kullanıma hazırlama değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000973/B004",
+          "gloss": "köleleştirmek veya köle gibi boyunduruk altına almak",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tanım yalnızca verilen yol, deve ve gemi yapılarıyla sınırlıdır; insanı köleleştirme anlamına genellenemez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B005",
+          "gloss": "düzleşmiş yol, katranlanmış deve veya kaplanmış gemi",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, saygı ve hizmet gören kişiyi niteler; alçaltma, köleleştirme veya nesneyi işleme anlamı taşımaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000973/B006",
+          "gloss": "saygı gösterilip hizmet edilen kişi",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal fiziksel güç, sağlamlık ve dayanıklılığı anlatır; toplumsal kölelik ya da duygusal öfke anlamı taşımaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B007",
+          "gloss": "güç, sağlamlık ve dayanıklılık",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal incinmiş gururdan yükselen öfke ile kederli iç duygulanımı kapsar; güç ve sağlamlık anlamından ayrıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B008",
+          "gloss": "incinmiş gurur, öfke veya kederli iç duygulanım",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/7",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dal yalnız verilen iki söz öbeğinde gecikmeme veya biraz hızlanma bildirir; genel bir hız kökü gibi yorumlanmaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000973/B009",
+          "gloss": "gecikmeden yapmak veya koşuda biraz hızlanmak",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/8",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal insan, nesne veya yolların ayrı yönlere dağılmışlığını bildirir; kölelerin çoğul adı değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000973/B010",
+          "gloss": "her yana dağılmış kümeler, nesneler veya yollar",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal bineğe bağlı yolda kalma ve güçlükle direnen deve kullanımlarıyla sınırlıdır; genel yorgunluk veya nesneyi uysallaştırma anlamı değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000973/B011",
+          "gloss": "bineği yüzünden yolda kalma veya güçlükle direnen deve",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/10",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal güzel koku hazırlamada kullanılan ezme aracını adlandırır; koku maddesinin kendisini, kokuyu veya güç niteliğini bildirmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000973/B012",
+          "gloss": "güzel koku maddesi ezme taşı",
+          "source_pointer": "/root_lexicon/root_000973/dictionary_entry/branches/11",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ب د"
+      ],
+      "root_ar": "ع ب د",
+      "root_id": "root_000973"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Bu dal para bolluğunu, bir işi yapabilme gücünü veya hayvanın adım uzunluğunu değil, uzamsal genişliği ve onun değişimini kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001647/B001",
+          "gloss": "genişlik, genişleme ve genişletme",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal insanın güç yetirmesi ile kabın alma kapasitesini kapsar; para zenginliğini bağımsız bir ana anlam olarak kapsamaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001647/B002",
+          "gloss": "güç yetirme ve alma kapasitesi",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Bu dal para ve geçim bakımından bolluktur; genel iş yapabilme gücü yalnız harcama ölçüsünü belirlediği yerde sınır teması kurar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001647/B003",
+          "gloss": "para ve geçim bolluğu",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, Tanrı'nın bilgi, esirgeme, güç ve bağış bakımından her şeyi kuşatmasını anlatır; sıradan maddi ya da uzamsal genişlik değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001647/B004",
+          "gloss": "her şeyi kuşatan bilgi, esirgeme, güç ve bağış",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnız belirli kolaylık ve iyi karşılayış kalıplarında işler; genel uzamsal genişlik ya da yalın izin verme anlamı değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_001647/B005",
+          "gloss": "kolaylık tanıyıp güçlüğü azaltma",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal özellikle atın geniş ve uzun adımı ile buna bağlı hızlı gidişi anlatır; genel hız veya genel uzamsal genişlik değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001647/B006",
+          "gloss": "geniş ve uzun adımlı hızlı gidiş",
+          "source_pointer": "/root_lexicon/root_001647/dictionary_entry/branches/5",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "و س ع"
+      ],
+      "root_ar": "و س ع",
+      "root_id": "root_001647"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5e7c441b3ac146f6dd3b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:10:double-fa-bracket",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0f917a23ece479f49e7e",
+        "sup_9063498e4515daf91499"
+      ],
+      "title": "double-particle bracket frames object and command",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_92af3d36c00d97a7b3df",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:10:fused-imperative",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0f917a23ece479f49e7e",
+        "sup_48520b8b7cd5638219c6"
+      ],
+      "title": "prefix fuses resumption with the command",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_abbc52f7a319506219c6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:10:resumptive-explanation",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0f917a23ece479f49e7e",
+        "sup_813991d5a8ade00e35d0"
+      ],
+      "title": "resumptive particle turns exclusivity into action",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2048a09020a490085225",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:boundary-action-contrast",
+      "source_pointer": "/word_analysis/words/10/topics/10",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_35e46b7a2a3f3731be7d",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "punitive command contrasts prescriptive worship",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_22e5f0ee34d692d78dca",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:first-person-command-contrast",
+      "source_pointer": "/word_analysis/words/10/topics/8",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5140835229fecde4c474",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "same-surah worship commands culminate in first-person address",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b11e2fa92b8d877fe697",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:form-i-direct-command",
+      "source_pointer": "/word_analysis/words/10/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c855ec87515d53111e2f",
+        "sup_e1da6503135f06c17297"
+      ],
+      "title": "Form I keeps the command direct",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8fccd1ddd94af774a98e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:imperative-required-action",
+      "source_pointer": "/word_analysis/words/10/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c35fa345dbdf02c68737",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "imperative turns premise into required worship",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d8900dabfa7339c7587b",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:object-doubling",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3867e778cda22c059d7d",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "fronted and suffixed object reinforce exclusivity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_621757d1bfe5e098b8b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:plural-to-singular-object",
+      "source_pointer": "/word_analysis/words/10/topics/6",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_39f984caafc82f3fa69e",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "many servants are bound to one worship target",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_301b2799c39359f4aaf7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:ring-with-earth-center",
+      "source_pointer": "/word_analysis/words/10/topics/11",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_563bb8aeed3f7e762c95",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "servant-worship ring frames spacious earth",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_81a36dd8385de0d30795",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:route-image",
+      "source_pointer": "/word_analysis/words/10/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c855ec87515d53111e2f",
+        "sup_cfa3e60aabbe9297c72b"
+      ],
+      "title": "road-smoothing image gives route pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_05d750d0eb9c859a84c3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:servant-to-service-ring",
+      "source_pointer": "/word_analysis/words/10/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a45c3bb1690f340aa934",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "closing command answers opening servant-name",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_711b3221a2beda7729b9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:sound-and-cadence",
+      "source_pointer": "/word_analysis/words/10/topics/9",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_88f08be2823dbef4cc07",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "closing sound concentrates the root ring",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_589fc66ad8cbd1b859cf",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:variant-pronoun-closure",
+      "source_pointer": "/word_analysis/words/10/topics/7",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_909f67851fdef96bb2ec",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "variant endings keep the divine object relation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_58ac30693417f97dbeba",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:11:worship-service-range",
+      "source_pointer": "/word_analysis/words/10/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a5866f961229d3c96798",
+        "sup_c855ec87515d53111e2f"
+      ],
+      "title": "worship includes devotional service",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e264562ee6b902aa6732",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:1:direct-address-shift",
+      "source_pointer": "/word_analysis/words/0/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6a628beccbba670e2e43",
+        "sup_992e042c3a5b4731f2aa"
+      ],
+      "title": "direct address after the punishment scene",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a86893004cf7c1009de5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:1:distance-call-immediacy",
+      "source_pointer": "/word_analysis/words/0/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8557054b77c83b516872",
+        "sup_992e042c3a5b4731f2aa"
+      ],
+      "title": "call particle creates address-immediacy",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3ca1455b989a8167b64e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:1:vocative-governance",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_992e042c3a5b4731f2aa",
+        "sup_d881aa04159e73b9823d"
+      ],
+      "title": "vocative particle governs the summoned audience",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f29d004152b5caa015ae",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:boundary-and-sound",
+      "source_pointer": "/word_analysis/words/1/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_323ab9780ebce5ef667a",
+        "sup_49bbb7a42f213eb5c38a"
+      ],
+      "title": "boundary contrast and audible root frame",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4519113d55e3282cb5db",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:devoted-servant-plural",
+      "source_pointer": "/word_analysis/words/1/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_49bbb7a42f213eb5c38a",
+        "sup_5be52420e9cec7322fd8"
+      ],
+      "title": "servant plural leans toward devotional belonging",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a2f321c1593980b092b8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:identity-to-command-ring",
+      "source_pointer": "/word_analysis/words/1/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0e6659cf4c4ad8e408bb",
+        "sup_49bbb7a42f213eb5c38a"
+      ],
+      "title": "servant identity opens the worship ring",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3e9025e7d98cb8b643b7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:migration-formula-and-surah-contrasts",
+      "source_pointer": "/word_analysis/words/1/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_49bbb7a42f213eb5c38a",
+        "sup_8077f91d8784b49871e3"
+      ],
+      "title": "formulaic and same-surah worship links",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_6a4cb208916e20308232",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:possessed-vocative-servants",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_07577e09880789097df4",
+        "sup_49bbb7a42f213eb5c38a"
+      ],
+      "title": "possessed servants are the summoned audience",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d1f6ebf010ed811ff587",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:2:route-pressure",
+      "source_pointer": "/word_analysis/words/1/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_49bbb7a42f213eb5c38a",
+        "sup_fbcfe198a23448163382"
+      ],
+      "title": "road-smoothing image gives route pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a2681939265cdc65d241",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:3:plural-agreement",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2910b45cb11105ebcf63",
+        "sup_a7ce044c8236f800d9fa"
+      ],
+      "title": "plural form ties qualifier to a rational group",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_85086aeb9f994bdfebd5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:3:restrictive-relative",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a7ce044c8236f800d9fa",
+        "sup_f8a3e8a11bdcc3fd5d93"
+      ],
+      "title": "relative pronoun restricts the address",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_61d87a6c9cd8e42d89a7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:3:sequenced-audience-boundary",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_71850ad6f098dfc3ab9d",
+        "sup_a7ce044c8236f800d9fa"
+      ],
+      "title": "qualification finishes before the premise",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a71c3383eecbf5751d72",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:4:completed-belief-identity",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03892268819184c508f8",
+        "sup_69b3140b63ddeb9b75e4"
+      ],
+      "title": "perfect verb makes belief a settled qualifier",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_43b514e4ec36e46056a6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:4:faith-security-pressure",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03892268819184c508f8",
+        "sup_d97356785d270aa1df6d"
+      ],
+      "title": "faith carries trust and security pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d9e9ed57a2fb2c2c54d3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:4:faith-space-migration-logic",
+      "source_pointer": "/word_analysis/words/3/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03892268819184c508f8",
+        "sup_62bd23eabb5adf169078"
+      ],
+      "title": "faith joins the spacious-earth logic",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d0ebcb6fdca791ad3a38",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:4:form-iv-commitment",
+      "source_pointer": "/word_analysis/words/3/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03892268819184c508f8",
+        "sup_743a1654c7945399b72e"
+      ],
+      "title": "Form IV marks active faith commitment",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_54b3656c9bf697ff74a8",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:4:surah-faith-sorting",
+      "source_pointer": "/word_analysis/words/3/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03892268819184c508f8",
+        "sup_f4efa3c6429eecb96871"
+      ],
+      "title": "same-surah faith contrast stabilizes the address",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_668e09d2da15f82ecbba",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:5:asserted-premise",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_93fa7f35efac226fbfb3",
+        "sup_c4dba30de29b30e48559"
+      ],
+      "title": "emphatic premise grounds the command",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1a3346dcc574f785a4e0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:5:case-architecture",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c4dba30de29b30e48559",
+        "sup_dbc464622752a30fe407"
+      ],
+      "title": "case governance separates subject and predicate",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a0a715a9719aa25e75b5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:5:compressed-migration-route",
+      "source_pointer": "/word_analysis/words/4/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_c4dba30de29b30e48559",
+        "sup_ce8c194ae9ef067db942"
+      ],
+      "title": "spaciousness implies a practical migration route",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_5d236920dce470596bda",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:5:hinge-from-address-to-command",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_641569022a6478f18ca0",
+        "sup_c4dba30de29b30e48559"
+      ],
+      "title": "premise hinges address into imperative",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e1b9d7acc923a04273d0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:boundary-reversal",
+      "source_pointer": "/word_analysis/words/5/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2646eb6130f98f5aab91",
+        "sup_86ec1a4671c4cb73b654"
+      ],
+      "title": "underfoot ground becomes wide provision",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3ceededb03b9d860383d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:first-person-domain",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_715226f9e2577e7f4f1b",
+        "sup_86ec1a4671c4cb73b654"
+      ],
+      "title": "first-person possession claims the territory",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c7bdee44ecd80cffc6a9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:ism-inna-subject",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_86ec1a4671c4cb73b654",
+        "sup_da0b24bf47203c5671a3"
+      ],
+      "title": "earth is the governed subject of the assertion",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ec0166f3febadbbd7689",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:same-surah-earth-recurrence",
+      "source_pointer": "/word_analysis/words/5/topics/6",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_267a97d1e2ca31ae07a1",
+        "sup_86ec1a4671c4cb73b654"
+      ],
+      "title": "same-surah earth language narrows to possession",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0c59ec8ceed1c9e25795",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:singular-domain",
+      "source_pointer": "/word_analysis/words/5/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_86ec1a4671c4cb73b654",
+        "sup_a3279cb9235151e75be6"
+      ],
+      "title": "singular earth gathers possible territories",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8398f3ab6f714331199d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:spacious-earth-formula",
+      "source_pointer": "/word_analysis/words/5/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7aecef4ecdd659f060b2",
+        "sup_86ec1a4671c4cb73b654"
+      ],
+      "title": "first-person version of spacious-earth formula",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_56b5c57fe7f8a45d492d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:6:terrestrial-land-not-escape",
+      "source_pointer": "/word_analysis/words/5/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_86ec1a4671c4cb73b654",
+        "sup_942b15ecce5da24c2f2e"
+      ],
+      "title": "earth remains concrete terrestrial room",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e1e3d2ebb1260f16b2c2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:agreement-with-earth",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_d24fb6630f01efc0bf5f"
+      ],
+      "title": "agreement locks capacity to the earth",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_1f0a2f44dc7882d62aa7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:capacity-not-size-only",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_cfcb67c376bddc83eadf"
+      ],
+      "title": "root capacity makes spaciousness usable",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_02258d8165945ec0461f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:divine-capacity-resonance",
+      "source_pointer": "/word_analysis/words/6/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_bcf24a985563f8f12a44"
+      ],
+      "title": "divine-capacity resonance reflects through creation",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7273c5b5c69c062a4b9e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:migration-formula-capacity",
+      "source_pointer": "/word_analysis/words/6/topics/5",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_4b4fab8592178ca78e34"
+      ],
+      "title": "spacious-earth recurrence carries migration pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_538fa91a68124f3ead4d",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:predicate-form",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_26cbfd10ed819aaffb68"
+      ],
+      "title": "indefinite predicate asserts open capacity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8679f39b4620d5780433",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:7:standing-capacity",
+      "source_pointer": "/word_analysis/words/6/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1413256f2712752ffaa2",
+        "sup_deb339b02b250bc0f5e0"
+      ],
+      "title": "active participle marks standing capacity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dac00a93a62a9b274ff1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:8:boundary-urgency-and-migration",
+      "source_pointer": "/word_analysis/words/7/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b58ba583c67fb17370b",
+        "sup_c4d2c1194f410df04f40"
+      ],
+      "title": "result gains urgency from confinement contrast",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d42484d3004ab54f1fcd",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:8:declaration-to-command-hinge",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_063fc381bf9e4dd9f479",
+        "sup_1b58ba583c67fb17370b"
+      ],
+      "title": "hinge from declaration to command",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a98b0872982fe11a6bc7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:8:exclusive-object-first",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b58ba583c67fb17370b",
+        "sup_34dcd04aceb681941bbc"
+      ],
+      "title": "consequence lands first on the exclusive object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3ef0c6ff3bdc94545cd2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:8:result-from-premise",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1b58ba583c67fb17370b",
+        "sup_909ea66e7d7865fcd7eb"
+      ],
+      "title": "result particle turns premise into consequence",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_67aef23572167698923f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:9:detached-and-suffixed-object-contrast",
+      "source_pointer": "/word_analysis/words/8/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_714ce623a8e2e35b41bb",
+        "sup_ef0fe872d29abc4db2a8"
+      ],
+      "title": "detached focus anticipates suffixed object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eaee9624a73ce61ebcce",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:9:fatiha-mirror",
+      "source_pointer": "/word_analysis/words/8/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_874444adf3cc7469f5ac",
+        "sup_ef0fe872d29abc4db2a8"
+      ],
+      "title": "worship-pronoun pattern reverses discourse direction",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_a454f726e674839f653f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:9:first-person-chain",
+      "source_pointer": "/word_analysis/words/8/topics/4",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_60ae351124878b6519b7",
+        "sup_ef0fe872d29abc4db2a8"
+      ],
+      "title": "three first-person anchors accumulate claim",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_132a2878c60a015ba412",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:9:first-person-exclusive-object",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_64395d0c64d1a6e13ef3",
+        "sup_ef0fe872d29abc4db2a8"
+      ],
+      "title": "first-person pronoun names the exclusive object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_410e4cefa3677bc3b524",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:56:9:fronted-object-exclusivity",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_293f584be1391485f3af",
+        "sup_ef0fe872d29abc4db2a8"
+      ],
+      "title": "fronting creates exclusivity before the verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:45",
+        "29:48",
+        "29:56"
+      ],
+      "branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_000973/B003",
+        "root_001198/B005",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "candidate_id": "cand_db6cfc15e4f1f44bfcbd",
+      "focus_branch_refs": [
+        "root_000973/B003"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_001198/B005",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_1a38f07519a0c09a19ee",
+        "sup_37e8b528919b9adad773",
+        "sup_39fab515a1ae853c9592",
+        "sup_6ff18495f5ce35a523a3",
+        "sup_d86f8351f232738d22cd"
+      ],
+      "title": "Standing, Direction, and Maintained Service",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_130d1d76d30a12bda42d",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000973"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:56:1:2",
+      "source_pointer": "/qac_morphemes/1",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_d559e563643d6b99c093"
+      ],
+      "title": "QAC root occurrence: ع ب د",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_e2bc4c20816e7ae8fb1f",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000054"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:56:3:1",
+      "source_pointer": "/qac_morphemes/4",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_2bda1fdcc6dd34f87d68"
+      ],
+      "title": "QAC root occurrence: ء م ن",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_dbaf5ca58c1dedc5f96e",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000025"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:56:5:1",
+      "source_pointer": "/qac_morphemes/7",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_c21c692de6e6c356cc06"
+      ],
+      "title": "QAC root occurrence: ء ر ض",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8bb7a2cfcf76e6f75f49",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000760",
+        "root_001647"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:56:6:1",
+      "source_pointer": "/qac_morphemes/9",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_cd051ca18a6b0cbe128c"
+      ],
+      "title": "QAC root occurrence: و س ع",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:3",
+        "29:56:5",
+        "29:56:6"
+      ],
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001",
+        "root_001647/B001",
+        "root_001647/B005",
+        "root_001647/B006"
+      ],
+      "candidate_id": "cand_5529d3fecc0adf543f8f",
+      "focus_branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001",
+        "root_001647/B001",
+        "root_001647/B005",
+        "root_001647/B006"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_cb36efdbe2321cd468fa"
+      ],
+      "title": "Yeryüzünün genişliği, yerel baskı kulluğu engellediğinde hareket ve göç için Allah'ın sağladığı yeni bir eylem alanıdır.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56:1",
+        "29:56:8"
+      ],
+      "branch_refs": [
+        "root_000973/B003"
+      ],
+      "candidate_id": "cand_79d88164f287f3e1a85e",
+      "focus_branch_refs": [
+        "root_000973/B003"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_115e1efc5eaf49e3712b"
+      ],
+      "title": "“Kullarım”, “benim yeryüzüm” ve “yalnız bana” dizilişi, yer değişse de kişi ile mekânın sahibine kulluk ilişkisinin taşınabilir ve sabit kaldığını gösterir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:56"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_14589eba5eeee0653d38",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_9700cd5008c657238f19"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "و س ع/B001",
+          "reason": "ambiguous root mapping: root_000760/B001, root_001647/B001"
+        },
+        {
+          "citation": "و س ع/B006",
+          "reason": "ambiguous root mapping: root_000760/B006, root_001647/B006"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c459e8c7922510aaec63",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_cec43645838ddee818fb"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:56"
+      ],
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001"
+      ],
+      "candidate_id": "cand_b86870ecf660fd0684c2",
+      "focus_branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_8d62aa6cee971ba96a4d"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "و س ع/B001",
+          "reason": "ambiguous root mapping: root_000760/B001, root_001647/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56"
+      ],
+      "branch_refs": [
+        "root_000973/B003"
+      ],
+      "candidate_id": "cand_6b460e2c0e326b86c5e4",
+      "focus_branch_refs": [
+        "root_000973/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_e588b7b1e03cee6b415f"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:56"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_93206b9466e5f96b721b",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_b531b8141f5ece10f962"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 82,
+    "by_disposition": {
+      "docket_mandatory": 59,
+      "docket_optional": 11,
+      "parse_failed": 8,
+      "quarantined": 4
+    },
+    "by_source_type": {
+      "channel": 1,
+      "cross_run_publication": 2,
+      "hft": 12,
+      "qac_morpheme": 4,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 58
+    },
+    "discovered_seed_count": 82,
+    "docket_candidate_count": 70,
+    "mandatory_candidate_count": 59,
+    "optional_candidate_count": 11,
+    "selection_eligible_candidate_count": 61,
+    "selection_ineligible_candidate_count": 9
+  },
+  "focus": {
+    "arabic_uthmani": "يَٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌۭ فَإِيَّٰىَ فَٱعْبُدُونِ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|ya+",
+        "morpheme_role": "PREFIX",
+        "pos": "VOC",
+        "qac_ref": "29:56:1:1",
+        "qac_word_ref": "29:56:1",
+        "root_ar": "",
+        "surface_ar": "يَٰ"
+      },
+      {
+        "lemma_ar": "عَبْد",
+        "morph_features": "STEM|POS:N|LEM:Eabod|ROOT:Ebd|MP|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:56:1:2",
+        "qac_word_ref": "29:56:1",
+        "root_ar": "ع ب د",
+        "surface_ar": "عِبَادِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:1S",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:56:1:3",
+        "qac_word_ref": "29:56:1",
+        "root_ar": "",
+        "surface_ar": "ىَ"
+      },
+      {
+        "lemma_ar": "ٱلَّذِى",
+        "morph_features": "STEM|POS:REL|LEM:{l~a*iY|MP",
+        "morpheme_role": "STEM",
+        "pos": "REL",
+        "qac_ref": "29:56:2:1",
+        "qac_word_ref": "29:56:2",
+        "root_ar": "",
+        "surface_ar": "ٱلَّذِينَ"
+      },
+      {
+        "lemma_ar": "ءَامَنَ",
+        "morph_features": "STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:56:3:1",
+        "qac_word_ref": "29:56:3",
+        "root_ar": "ء م ن",
+        "surface_ar": "ءَامَنُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:56:3:2",
+        "qac_word_ref": "29:56:3",
+        "root_ar": "",
+        "surface_ar": "وٓا۟"
+      },
+      {
+        "lemma_ar": "إِنّ",
+        "morph_features": "STEM|POS:ACC|LEM:<in~|SP:<in~",
+        "morpheme_role": "STEM",
+        "pos": "ACC",
+        "qac_ref": "29:56:4:1",
+        "qac_word_ref": "29:56:4",
+        "root_ar": "",
+        "surface_ar": "إِنَّ"
+      },
+      {
+        "lemma_ar": "أَرْض",
+        "morph_features": "STEM|POS:N|LEM:>aroD|ROOT:ArD|F|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:56:5:1",
+        "qac_word_ref": "29:56:5",
+        "root_ar": "ء ر ض",
+        "surface_ar": "أَرْضِ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:1S",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:56:5:2",
+        "qac_word_ref": "29:56:5",
+        "root_ar": "",
+        "surface_ar": "ى"
+      },
+      {
+        "lemma_ar": "وَٰسِعَة",
+        "morph_features": "STEM|POS:N|ACT|PCPL|LEM:wa`siEap|ROOT:wsE|F|INDEF|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:56:6:1",
+        "qac_word_ref": "29:56:6",
+        "root_ar": "و س ع",
+        "surface_ar": "وَٰسِعَةٌ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|f:REM+",
+        "morpheme_role": "PREFIX",
+        "pos": "REM",
+        "qac_ref": "29:56:7:1",
+        "qac_word_ref": "29:56:7",
+        "root_ar": "",
+        "surface_ar": "فَ"
+      },
+      {
+        "lemma_ar": "إِيَّا",
+        "morph_features": "STEM|POS:PRON|LEM:<iy~aA|1S",
+        "morpheme_role": "STEM",
+        "pos": "PRON",
+        "qac_ref": "29:56:7:2",
+        "qac_word_ref": "29:56:7",
+        "root_ar": "",
+        "surface_ar": "إِيَّٰىَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|f:REM+",
+        "morpheme_role": "PREFIX",
+        "pos": "REM",
+        "qac_ref": "29:56:8:1",
+        "qac_word_ref": "29:56:8",
+        "root_ar": "",
+        "surface_ar": "فَ"
+      },
+      {
+        "lemma_ar": "عَبَدَ",
+        "morph_features": "STEM|POS:V|IMPV|LEM:Eabada|ROOT:Ebd|2MP",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:56:8:2",
+        "qac_word_ref": "29:56:8",
+        "root_ar": "ع ب د",
+        "surface_ar": "ٱعْبُدُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:2MP",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:56:8:3",
+        "qac_word_ref": "29:56:8",
+        "root_ar": "",
+        "surface_ar": "و"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:1S",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:56:8:4",
+        "qac_word_ref": "29:56:8",
+        "root_ar": "",
+        "surface_ar": "نِ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [],
+      [],
+      [
+        "29:56:2:1"
+      ],
+      [
+        "29:56:3:1",
+        "29:56:3:2"
+      ],
+      [
+        "29:56:4:1"
+      ],
+      [
+        "29:56:5:1",
+        "29:56:5:2"
+      ],
+      [
+        "29:56:6:1"
+      ],
+      [
+        "29:56:7:1"
+      ],
+      [
+        "29:56:7:2"
+      ],
+      [
+        "29:56:8:1"
+      ],
+      [
+        "29:56:8:2",
+        "29:56:8:3",
+        "29:56:8:4"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:56:1",
+      "29:56:2",
+      "29:56:3",
+      "29:56:4",
+      "29:56:5",
+      "29:56:6",
+      "29:56:7",
+      "29:56:8",
+      "29:56:9",
+      "29:56:10",
+      "29:56:11"
+    ]
+  },
+  "focus_root_mappings": {
+    "ء ر ض": [
+      "root_000025"
+    ],
+    "ء م ن": [
+      "root_000054"
+    ],
+    "ع ب د": [
+      "root_000973"
+    ],
+    "و س ع": [
+      "root_000760",
+      "root_001647"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:56",
+    "docket_payload_sha256": "0952726920512474c3db40082d952c28304061cf8999058d664b4f21db3e27ad",
+    "source_canonical_sha256": "8bc76173ba74c7f3116fc1469a7402943ab76437c3ac7e0809becb7f02569e52"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000879/B003",
+      "image_ar": "العبادة المخصوصة",
+      "image_en": "the prescribed worship",
+      "root_ar": "ص ل و",
+      "scope_ar": "يدخل فيه الصلاة الشرعية ذات الركوع والسجود والقيام بحدودها وإقامتها",
+      "scope_en": "Includes the legally prescribed act of worship with bowing, prostration, required limits, and proper performance",
+      "source_file": "v4/outputs/pass2_branches/root_000879.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000879/B007",
+      "image_ar": "مواضع الصلاة ودور العبادة",
+      "image_en": "places of prayer and worship",
+      "root_ar": "ص ل و",
+      "scope_ar": "يدخل فيه الصلوات بمعنى كنائس اليهود أو مواضع صلوات الصابئين واسم موضع العبادة",
+      "scope_en": "Includes ṣalawāt as synagogues, places of Sabian prayer, and naming a place by worship",
+      "source_file": "v4/outputs/pass2_branches/root_000879.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001198/B005",
+      "image_ar": "جهة الصلاة المتوجه إليها",
+      "image_en": "prayer-facing direction",
+      "root_ar": "ق ب ل",
+      "scope_ar": "يدخل فيه القبلة التي يقبل الناس عليها في صلاتهم وما صار اسما للمكان المتوجه إليه للصلاة",
+      "scope_en": "the qiblah, the direction or place faced in prayer",
+      "source_file": "v4/outputs/pass2_branches/root_001198.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/1/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B002",
+      "image_ar": "انتصاب وقيام بالبدن",
+      "image_en": "upright standing and bodily rising",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه قام قياما، والقومة مرة الانتصاب، والقيام في الصلاة أو الذكر، وقيام الشجر والنبت على أصله، ووقوف الدابة",
+      "scope_en": "Includes standing up or being upright, a single standing, standing in prayer or remembrance, trees or plants remaining upright, and an animal standing still.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B004",
+      "image_ar": "رعاية وحفظ وولاية",
+      "image_en": "care, guardianship, and preservation",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه القيام على الشيء أو بالأمر بمعنى الحفظ والمراعاة والمواظبة والسياسة والولاية، والقيم والقوام والقيوم",
+      "scope_en": "Includes standing over or for a thing as guarding, maintaining, persevering, governing, managing, or sustaining; includes qayyim, qawwam, and qayyum in that semantic frame.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001273/B008",
+      "image_ar": "استقامة واعتدال واستواء",
+      "image_en": "straightness, uprightness, and evenness",
+      "root_ar": "ق و م",
+      "scope_ar": "يدخل فيه استقامة الطريق أو الإنسان أو الأمر، والاعتدال والاستواء، والقويم والقيم والدين المستقيم وعدل الكلام",
+      "scope_en": "Includes straightness of path, person, or matter, evenness and uprightness, qawim and qayyim, upright religion, and just speech.",
+      "source_file": "v4/outputs/pass2_branches/root_001273.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/2/branches/2/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 4,
+      "mapped_root_record_count": 5,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 39
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 45,
+      "ayah_to": 56,
+      "id": "s029-p04-045-056",
+      "label": "Prayer, scripture, and disputation",
+      "number": 4,
+      "refs": [
+        "29:45",
+        "29:46",
+        "29:47",
+        "29:48",
+        "29:49",
+        "29:50",
+        "29:51",
+        "29:52",
+        "29:53",
+        "29:54",
+        "29:55",
+        "29:56"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_03892268819184c508f8",
+      "text": "{\"gloss_range\":\"completed collective belief/trust used as the defining qualifier of the addressed servants\",\"prose\":\"{{ar:ءَامَنُوٓا۟}} ({{tr:āmanū}}) makes belief the settled qualifier of the summoned servants. The perfect plural does not merely report a past episode; it identifies the group that receives the spacious-earth premise and contrasts with unstable claimed belief elsewhere in the surah (29:10). The root's trust and security field remains relevant: faith is heard as an entered trust-state that fits outward room for worship, but it must be heard through the local Form IV faith verb rather than as a free claim that physical safety is already complete.\",\"root_display\":\"{{ar:أ م ن}} ({{tr:ʾ-m-n}})\",\"root_gloss_range\":\"belief, trust, and security/safety belong to the root family; this Form IV perfect locally selects entering or holding faith as a settled group identity\",\"surface_display\":\"{{ar:ءَامَنُوٓا۟}} ({{tr:āmanū}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:8:declaration-to-command-hinge",
+      "source_type": "word_analysis",
+      "support_id": "sup_063fc381bf9e4dd9f479",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"hinge from declaration to command\",\"reader_payoff\":\"The reader notices the stepped movement from established fact to obligation through the two-particle frame.\",\"reason\":\"The first particle starts the result clause and the later particle resumes the imperative, creating a local stepped structure.\",\"representative_source_ids\":[\"QT-e882f724\",\"MT-3f19820d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:possessed-vocative-servants",
+      "source_type": "word_analysis",
+      "support_id": "sup_07577e09880789097df4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"possessed servants are the summoned audience\",\"reader_payoff\":\"The reader notices that the command addresses people already claimed as the speaker's servants.\",\"reason\":\"The noun is vocative, plural, and first-person possessed, so relational belonging is established before the premise and imperative.\",\"representative_source_ids\":[\"QG-5a7ce85d\",\"QG-84736f94\",\"MG-64890565\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:identity-to-command-ring",
+      "source_type": "word_analysis",
+      "support_id": "sup_0e6659cf4c4ad8e408bb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"servant identity opens the worship ring\",\"reader_payoff\":\"The reader notices that the ayah turns named servant identity into commanded worship rather than introducing a separate final topic.\",\"reason\":\"The same root appears in the opening noun and closing imperative, with the earth-premise between them.\",\"representative_source_ids\":[\"QF-e6fc9c74\",\"QT-aed199e4\",\"QE-5179531e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_0f917a23ece479f49e7e",
+      "text": "{\"gloss_range\":\"resumptive/explanatory particle that releases the fronted exclusive object into the imperative verb\",\"prose\":\"The second {{ar:فَ}} ({{tr:fa}}) resumes after the fronted object and turns Me alone into the required act: worship Me. Together, the two particles bracket the ending: first therefore Me alone, then therefore worship Me. The command feels like the unpacking of exclusivity rather than a detached new clause.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:فَ}} ({{tr:fa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000973/B003"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/1",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-2",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_115e1efc5eaf49e3712b",
+      "text": "{\"anchors\":[[\"29:56:1\",\"root_000973\",[\"B003\"]],[\"29:56:8\",\"root_000973\",[\"B003\"]]],\"grade\":\"weak\",\"text\":\"“Kullarım”, “benim yeryüzüm” ve “yalnız bana” dizilişi, yer değişse de kişi ile mekânın sahibine kulluk ilişkisinin taşınabilir ve sabit kaldığını gösterir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_1413256f2712752ffaa2",
+      "text": "{\"gloss_range\":\"spacious, ample, and capacity-bearing as the indefinite predicate of God's earth\",\"prose\":\"{{ar:وَٰسِعَةٌۭ}} ({{tr:wāsiʿatun}}) predicates open capacity of God's earth. Its indefiniteness leaves the room unboxed, while its feminine agreement keeps the spaciousness attached to the earth rather than floating as a general attribute. As an active participle, it presents available standing capacity, though not personal agency for the earth. The root's breadth and capacity fields make the land not just large but usable for worship beyond constraining places; the spacious-earth recurrence gives this migration-capacity weight (39:10; 4:97). Divine-capacity resonance survives as reflection of encompassing provision, not as a replacement of the literal land premise.\",\"root_display\":\"{{ar:و س ع}} ({{tr:w-s-ʿ}})\",\"root_gloss_range\":\"spaciousness against constriction, capacity to contain or bear, ample means, and encompassing breadth; locally the active participle predicates usable room of the earth\",\"surface_display\":\"{{ar:وَٰسِعَةٌۭ}} ({{tr:wāsiʿatun}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_1a38f07519a0c09a19ee",
+      "text": "Prayer establishes a bodily and social order whose operation is to stop conduct at the boundary of the shameful and unrecognized.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_1b58ba583c67fb17370b",
+      "text": "{\"gloss_range\":\"result/consequence particle that turns the spacious-earth premise toward the fronted exclusive object\",\"prose\":\"The first {{ar:فَ}} ({{tr:fa}}) is the hinge where the premise becomes consequence. Because it attaches before the fronted object, the first visible result of the spacious earth is not the verb but Me alone. This makes exclusivity the practical conclusion of divine spatial provision and starts the two-particle escalation that will resume in the imperative. Against the prior confinement scene, the result feels urgent: the practical route is worship-capable relocation, with migration pressure understood contextually rather than supplied as a separate explicit clause.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:فَ}} ({{tr:fa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:boundary-reversal",
+      "source_type": "word_analysis",
+      "support_id": "sup_2646eb6130f98f5aab91",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"underfoot ground becomes wide provision\",\"reader_payoff\":\"The reader notices the same spatial plane reversed from punishment beneath the feet in the prior ayah to wide divine territory here.\",\"reason\":\"The boundary contrast is a discourse-level payoff attached to the local earth noun and its spaciousness predicate.\",\"representative_source_ids\":[\"QS-b4df0d19\",\"QB-d4e5240d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:same-surah-earth-recurrence",
+      "source_type": "word_analysis",
+      "support_id": "sup_267a97d1e2ca31ae07a1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same-surah earth language narrows to possession\",\"reader_payoff\":\"The reader notices general same-surah earth language narrowing here into direct divine possession (29:52).\",\"reason\":\"The concrete same-surah contrast can be used as recurrence background while the local syntax remains decisive.\",\"representative_source_ids\":[\"MT-472c8b56\",\"QE-28b70a12\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:predicate-form",
+      "source_type": "word_analysis",
+      "support_id": "sup_26cbfd10ed819aaffb68",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"indefinite predicate asserts open capacity\",\"reader_payoff\":\"The reader notices spaciousness as the asserted open quality that grounds the command.\",\"reason\":\"The word is the nominative indefinite predicate of the emphatic clause.\",\"representative_source_ids\":[\"QG-55e60655\",\"QG-8e18ce38\",\"MG-71f5f219\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:3:plural-agreement",
+      "source_type": "word_analysis",
+      "support_id": "sup_2910b45cb11105ebcf63",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"plural form ties qualifier to a rational group\",\"reader_payoff\":\"The reader notices the qualifier as a group marker matching the plural believer verb, not an abstract label.\",\"reason\":\"The masculine plural relative is followed by a third-person masculine plural perfect verb.\",\"representative_source_ids\":[\"QF-5d910054\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9:fronted-object-exclusivity",
+      "source_type": "word_analysis",
+      "support_id": "sup_293f584be1391485f3af",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fronting creates exclusivity before the verb\",\"reader_payoff\":\"The reader notices the object pulled before the verb so the command cannot be heard as worship plus something else.\",\"reason\":\"Attachment evidence marks the pronoun as the fronted direct object of the later imperative.\",\"representative_source_ids\":[\"QG-8473cdfc\",\"MG-3dbf6792\",\"QI-4006f89a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/4",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:56:3:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_2bda1fdcc6dd34f87d68",
+      "text": "{\"lemma_ar\":\"ءَامَنَ\",\"morph_features\":\"STEM|POS:V|PERF|(IV)|LEM:'aAmana|ROOT:Amn|3MP\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:56:3:1\",\"qac_word_ref\":\"29:56:3\",\"root_ar\":\"ء م ن\",\"surface_ar\":\"ءَامَنُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:boundary-and-sound",
+      "source_type": "word_analysis",
+      "support_id": "sup_323ab9780ebce5ef667a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"boundary contrast and audible root frame\",\"reader_payoff\":\"The reader notices the shift from constricted punishment to intimate summons, with the repeated servant-root sound helping frame that turn.\",\"reason\":\"The boundary rows and sound row both reinforce the same transition from prior punishment to the present servant address.\",\"representative_source_ids\":[\"QP-d0507442\",\"QB-e2a23016\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:8:exclusive-object-first",
+      "source_type": "word_analysis",
+      "support_id": "sup_34dcd04aceb681941bbc",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"consequence lands first on the exclusive object\",\"reader_payoff\":\"The reader notices Me alone as the first expressed consequence before the imperative arrives.\",\"reason\":\"The particle prefixes the detached object, and attachment evidence marks that object as the direct object of the later imperative.\",\"representative_source_ids\":[\"QF-e1e72d44\",\"QT-7526eccd\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:boundary-action-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_35e46b7a2a3f3731be7d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"punitive command contrasts prescriptive worship\",\"reader_payoff\":\"The reader notices human action redirected from punishable deeds in the prior scene to worshipful service here.\",\"reason\":\"The boundary contrast keeps the imperative mood in view while distinguishing punishment-command from prescriptive command.\",\"representative_source_ids\":[\"QB-11013583\",\"QB-d7e64ba0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_37e8b528919b9adad773",
+      "text": "\"Establish prayer\" combines erection and maintenance: the body stands, the practice is kept in repair, and attention is aligned toward a direction. Prayer thereby supplies an ordered stance before it supplies a prohibitive effect.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:object-doubling",
+      "source_type": "word_analysis",
+      "support_id": "sup_3867e778cda22c059d7d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"fronted and suffixed object reinforce exclusivity\",\"reader_payoff\":\"The reader notices the worship object first as independent focus and again inside the verb, making exclusivity explicit twice.\",\"reason\":\"Attachment evidence marks both the fronted pronoun and the verbal suffix as first-person objects of the imperative.\",\"representative_source_ids\":[\"QG-b64ca8f2\",\"QG-bc71eb73\",\"MG-fb2264b2\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:plural-to-singular-object",
+      "source_type": "word_analysis",
+      "support_id": "sup_39f984caafc82f3fa69e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"many servants are bound to one worship target\",\"reader_payoff\":\"The reader notices a plural audience commanded toward one first-person object.\",\"reason\":\"The verb carries second-person masculine plural imperative agreement and a first-person object suffix.\",\"representative_source_ids\":[\"QF-beae8b94\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_39fab515a1ae853c9592",
+      "text": "A worshiper takes an upright position, maintains the rite, aligns to its direction, and submits the body in service.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:10:fused-imperative",
+      "source_type": "word_analysis",
+      "support_id": "sup_48520b8b7cd5638219c6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"prefix fuses resumption with the command\",\"reader_payoff\":\"The reader notices the imperative delivered as the resolution of the suspended object focus.\",\"reason\":\"The particle prefixes the imperative word directly, and the verb resolves the fronted object.\",\"representative_source_ids\":[\"QF-2bb37b9a\",\"QT-e1f892f1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_49bbb7a42f213eb5c38a",
+      "text": "{\"gloss_range\":\"My devoted servants as a plural vocative group; relational belonging is active before the later command to worship\",\"prose\":\"{{ar:عِبَادِيَ}} ({{tr:ʿibādiya}}) names the addressees as possessed by the divine speaker before it asks them to act. The plural servant-name is not generic humanity or a merely social slave class; it is the believing servant group summoned into devotional belonging, and the later plural imperative distributes the obligation across that group. The road-smoothing branch gives a narrowed route pressure beside the wide-earth setting: servant identity can be lived as traversable worship, while the local noun still means My servants. The address also belongs to the spacious-earth migration formula (39:10) and to same-surah worship contrasts (29:17; 29:36). The root ring matters: servant identity opens the ayah, worshipful service closes it, and the repeated servant-root sound makes the shift from constricted punishment to intimate summons audible.\",\"root_display\":\"{{ar:ع ب د}} ({{tr:ʿ-b-d}})\",\"root_gloss_range\":\"servanthood, devotional worship or obedience, owned-slave language, and some nonlocal physical or emotional branches; this word selects creaturely and devotional servanthood under divine possession\",\"surface_display\":\"{{ar:عِبَادِيَ}} ({{tr:ʿibādiya}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:migration-formula-capacity",
+      "source_type": "word_analysis",
+      "support_id": "sup_4b4fab8592178ca78e34",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"spacious-earth recurrence carries migration pressure\",\"reader_payoff\":\"The reader notices the phrase as a migration-capacity warrant, especially through the spacious-earth pattern (39:10) and related capacity pressure (4:97).\",\"reason\":\"The local earth-plus-spaciousness premise and supplied recurrence evidence make migration capacity a strong surviving payoff.\",\"representative_source_ids\":[\"QI-7bf9825e\",\"QI-bba2f238\",\"QY-e84c09de\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:first-person-command-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_5140835229fecde4c474",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same-surah worship commands culminate in first-person address\",\"reader_payoff\":\"The reader notices the shift from third-person or prophetic worship formulas to direct divine first-person command (29:17; 29:36).\",\"reason\":\"The concrete same-surah contrasts sharpen the direct divine speech register without changing the local imperative.\",\"representative_source_ids\":[\"QI-819f0185\",\"MI-5778eb92\",\"QE-d30c4dd6\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:ring-with-earth-center",
+      "source_type": "word_analysis",
+      "support_id": "sup_563bb8aeed3f7e762c95",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"servant-worship ring frames spacious earth\",\"reader_payoff\":\"The reader notices the root ring framing the spacious-earth center as the reason servant identity must become worship.\",\"reason\":\"The opening servant noun, central earth premise, and closing worship command are all local and structurally aligned.\",\"representative_source_ids\":[\"QY-34935b39\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:devoted-servant-plural",
+      "source_type": "word_analysis",
+      "support_id": "sup_5be52420e9cec7322fd8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"servant plural leans toward devotional belonging\",\"reader_payoff\":\"The reader notices the addressees as God's devoted servants rather than a merely social slave class.\",\"reason\":\"V4 separates owned-slave language from creaturely servanthood to God; the first-person divine possession and vocative setting select the devotional-servanthood branch while the plural contrast remains lexical pressure.\",\"representative_source_ids\":[\"QS-b28a6598\",\"MS-ab9585db\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9:first-person-chain",
+      "source_type": "word_analysis",
+      "support_id": "sup_60ae351124878b6519b7",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"three first-person anchors accumulate claim\",\"reader_payoff\":\"The reader notices the chain of My servants, My earth, and Me alone as one claim over audience, space, and worship direction.\",\"reason\":\"The three first-person anchors are all locally present and converge in the final worship object.\",\"representative_source_ids\":[\"QY-bee5b6e0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4:faith-space-migration-logic",
+      "source_type": "word_analysis",
+      "support_id": "sup_62bd23eabb5adf169078",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"faith joins the spacious-earth logic\",\"reader_payoff\":\"The reader notices that the faith qualifier prepares for the earth premise as worship-capacity rather than mere geography.\",\"reason\":\"The co-occurrence and sequence support faith-to-space pressure, while any implied migration step remains contextual rather than a syntactically explicit ellipsis.\",\"representative_source_ids\":[\"QI-dd79703a\",\"QY-b11af725\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:5:hinge-from-address-to-command",
+      "source_type": "word_analysis",
+      "support_id": "sup_641569022a6478f18ca0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"premise hinges address into imperative\",\"reader_payoff\":\"The reader notices the ayah's three-beat movement: address, grounded premise, then exclusive command.\",\"reason\":\"The clause ordering places the emphatic premise between the qualified vocative and the result-command.\",\"representative_source_ids\":[\"QT-a149e4e1\",\"MT-aec9ecc1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9:first-person-exclusive-object",
+      "source_type": "word_analysis",
+      "support_id": "sup_64395d0c64d1a6e13ef3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first-person pronoun names the exclusive object\",\"reader_payoff\":\"The reader notices the same divine I becoming the sole worship target after owning servants and earth.\",\"reason\":\"The detached pronoun is first-person and refers to the divine speaker in the discourse frame.\",\"representative_source_ids\":[\"QG-59ceb841\",\"QS-b9834945\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4:completed-belief-identity",
+      "source_type": "word_analysis",
+      "support_id": "sup_69b3140b63ddeb9b75e4",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"perfect verb makes belief a settled qualifier\",\"reader_payoff\":\"The reader notices that the addressees are already defined by belief before being commanded.\",\"reason\":\"The Form IV perfect verb sits inside the relative clause that qualifies the vocative group.\",\"representative_source_ids\":[\"QG-aadb94b0\",\"MG-e4918338\",\"QT-ab939a65\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:1:direct-address-shift",
+      "source_type": "word_analysis",
+      "support_id": "sup_6a628beccbba670e2e43",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"direct address after the punishment scene\",\"reader_payoff\":\"The reader notices the boundary shift from observed punishment into direct speech to believing servants.\",\"reason\":\"The vocative opens a new discourse frame, and the repeated first-person markers across the ayah support immediate divine address.\",\"representative_source_ids\":[\"QI-a44546f3\",\"QY-5ed3b695\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000879/B003",
+        "root_000879/B007",
+        "root_000973/B003",
+        "root_001198/B005",
+        "root_001273/B002",
+        "root_001273/B004",
+        "root_001273/B008"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_6ff18495f5ce35a523a3",
+      "text": "prescribed prayer with standing and prostration `quranic:root_000879:B003/m01`; houses and places of prayer `quranic:root_000879:B007/m01`; bodily standing `quranic:root_001273:B002/m01`; sustained care and maintenance `quranic:root_001273:B004/m01`; straight alignment `quranic:root_001273:B008/m01`; submissive worship `quranic:root_000973:B003/m01`; prayer-direction faced by the body `quranic:root_001198:B005/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9:detached-and-suffixed-object-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_714ce623a8e2e35b41bb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"detached focus anticipates suffixed object\",\"reader_payoff\":\"The reader notices exclusivity first as an independent focus and then as the object inside the command.\",\"reason\":\"The local grammar has both the fronted detached object and a first-person object suffix on the imperative.\",\"representative_source_ids\":[\"QF-49285df4\",\"QT-7e9e581e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:first-person-domain",
+      "source_type": "word_analysis",
+      "support_id": "sup_715226f9e2577e7f4f1b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first-person possession claims the territory\",\"reader_payoff\":\"The reader notices that the space offered for worship is not neutral territory but My earth.\",\"reason\":\"The first-person possessive aligns this earth noun with the same divine speaker who owns the servants and receives worship.\",\"representative_source_ids\":[\"QG-f8b88b77\",\"MG-4a5ca6a3\",\"QT-94ffdd06\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:3:sequenced-audience-boundary",
+      "source_type": "word_analysis",
+      "support_id": "sup_71850ad6f098dfc3ab9d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"qualification finishes before the premise\",\"reader_payoff\":\"The reader notices that the ayah defines the protected audience before announcing that God's earth is wide.\",\"reason\":\"The relative clause precedes the assertive premise and separates this believing audience from the prior punishment scene.\",\"representative_source_ids\":[\"QT-b3920b36\",\"MT-bab8d41a\",\"QY-2527b062\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4:form-iv-commitment",
+      "source_type": "word_analysis",
+      "support_id": "sup_743a1654c7945399b72e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form IV marks active faith commitment\",\"reader_payoff\":\"The reader notices belief as an entered commitment, not a passive condition.\",\"reason\":\"The Form IV label supports the commitment frame, but the stronger claim of self-caused safety is narrowed because the local verb simply qualifies the believing group.\",\"representative_source_ids\":[\"QF-b0dd05fb\",\"MF-4fa061f7\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:spacious-earth-formula",
+      "source_type": "word_analysis",
+      "support_id": "sup_7aecef4ecdd659f060b2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"first-person version of spacious-earth formula\",\"reader_payoff\":\"The reader notices the spacious-earth pattern as a migration-capacity formula intensified by direct first-person possession (39:10).\",\"reason\":\"The concrete reference to the known formula is compatible with the local possessed earth noun and its predicate.\",\"representative_source_ids\":[\"QI-4d633351\",\"MI-6b11d44a\",\"QI-9695a8ca\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:migration-formula-and-surah-contrasts",
+      "source_type": "word_analysis",
+      "support_id": "sup_8077f91d8784b49871e3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"formulaic and same-surah worship links\",\"reader_payoff\":\"The reader notices the address as part of a wider migration and worship pattern, especially the spacious-earth formula (39:10) and same-surah worship contrasts (29:17; 29:36).\",\"reason\":\"The rows give concrete parallels and contrasts; they illuminate formula and register without controlling the local parse.\",\"representative_source_ids\":[\"QI-d9913903\",\"MI-500fdc56\",\"MT-f9d184fa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:10:resumptive-explanation",
+      "source_type": "word_analysis",
+      "support_id": "sup_813991d5a8ade00e35d0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"resumptive particle turns exclusivity into action\",\"reader_payoff\":\"The reader notices that Me alone is immediately explained as worship Me.\",\"reason\":\"After the fronted object, the particle resumes the imperative that supplies the action.\",\"representative_source_ids\":[\"QG-faf44220\",\"MG-1253e722\",\"QS-139a6473\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:1:distance-call-immediacy",
+      "source_type": "word_analysis",
+      "support_id": "sup_8557054b77c83b516872",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"call particle creates address-immediacy\",\"reader_payoff\":\"The reader notices the call form making distant addressees immediately reachable within divine speech.\",\"reason\":\"The vocative force is secure, while the distance-collapse language should be kept as rhetorical address effect rather than a separate lexical claim.\",\"representative_source_ids\":[\"QS-ab636076\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_86ec1a4671c4cb73b654",
+      "text": "{\"gloss_range\":\"My earth as concrete land and divine domain, governed as the subject of the emphatic spaciousness premise\",\"prose\":\"{{ar:أَرْضِى}} ({{tr:arḍī}}) is the governed subject of the premise, and its first-person suffix is the point. The ayah does not say only that land exists; it says the land available for worship belongs to the speaker, so physical territory and theological domain stay together without escaping the earthly sense. The singular possessed earth gathers possible places under one divine domain, reversing the prior underfoot enclosure into wide provision. It also intensifies the spacious-earth formula by shifting from reported divine possession to direct My earth (39:10), while same-surah earth language narrows here into first-person possession (29:52).\",\"root_display\":\"{{ar:أ ر ض}} ({{tr:ʾ-r-ḍ}})\",\"root_gloss_range\":\"earth, ground, land, and territory; locally the noun remains concrete terrestrial domain under first-person divine possession\",\"surface_display\":\"{{ar:أَرْضِى}} ({{tr:arḍī}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9:fatiha-mirror",
+      "source_type": "word_analysis",
+      "support_id": "sup_874444adf3cc7469f5ac",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"worship-pronoun pattern reverses discourse direction\",\"reader_payoff\":\"The reader notices a worship-pronoun echo with 1:5, but with God speaking about Himself rather than humans addressing God.\",\"reason\":\"The concrete reference gives an inter-ayah contrast that remains subordinate to the local fronted-object grammar.\",\"representative_source_ids\":[\"QI-1427d34d\",\"MI-9690d38e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:sound-and-cadence",
+      "source_type": "word_analysis",
+      "support_id": "sup_88f08be2823dbef4cc07",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closing sound concentrates the root ring\",\"reader_payoff\":\"The reader notices the sound movement from the fronted pronoun into the compact imperative and the repeated servant-root frame.\",\"reason\":\"The sound rows reinforce the same semantic ring from servant identity to worship command.\",\"representative_source_ids\":[\"QP-89738877\",\"QP-ac723d75\",\"MP-aca251e1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_8d62aa6cee971ba96a4d",
+      "text": "1. **Wide earth supplies room for faithful action without supplying escape from return.** Lexical evidence: `أَرْضِى`, root `ء ر ض`, `B001` (lower ground); `وَاسِعَة`, root `و س ع`, `B001` (spaciousness against constriction); and `ءَامَنُوا`, root `ء م ن`, `B001` (settled security and trust). Structural cue: the ayah follows ruinous enclosure (`29:54-55`) but precedes universal death and return (`29:57`). Assigned role: spaciousness removes local constriction around worship; trust enables movement into that room. Abductive move: I infer a distinction between escaping oppressive locality and escaping final accountability: the first is enabled, the second remains impossible. Reading change: divine spaciousness authorizes relocation rather than passive endurance of every place.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:10:double-fa-bracket",
+      "source_type": "word_analysis",
+      "support_id": "sup_9063498e4515daf91499",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"double-particle bracket frames object and command\",\"reader_payoff\":\"The reader notices the local cadence separating consequence from verbal execution: first Me alone, then worship Me.\",\"reason\":\"The two particles occur around the fronted object and imperative, creating a compact syntactic frame.\",\"representative_source_ids\":[\"QT-00a8102f\",\"MT-833a7286\",\"QE-60a15f1f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:8:result-from-premise",
+      "source_type": "word_analysis",
+      "support_id": "sup_909ea66e7d7865fcd7eb",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"result particle turns premise into consequence\",\"reader_payoff\":\"The reader notices that the command follows as a consequence of God's spacious earth, not as a loose next item.\",\"reason\":\"The attachment bundle marks the following clause as result linked to the emphatic premise.\",\"representative_source_ids\":[\"QG-77f48ca9\",\"MG-cf51fd31\",\"QS-4336c165\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:variant-pronoun-closure",
+      "source_type": "word_analysis",
+      "support_id": "sup_909f67851fdef96bb2ec",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"variant endings keep the divine object relation\",\"reader_payoff\":\"The reader notices that recitational variation affects final pronominal closure without changing the worship command or divine object relation.\",\"reason\":\"The variant evidence is useful as apparatus for sound and pronoun completion, not as a different local command.\",\"representative_source_ids\":[\"QF-e0e42788\",\"QP-0fd6c74c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:5:asserted-premise",
+      "source_type": "word_analysis",
+      "support_id": "sup_93fa7f35efac226fbfb3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"emphatic premise grounds the command\",\"reader_payoff\":\"The reader notices the earth's spaciousness as a certified premise for action, not a detached reassurance.\",\"reason\":\"The inna-clause is syntactically forced as the emphatic assertion before the result clause.\",\"representative_source_ids\":[\"QG-c2013b90\",\"MG-0df03437\",\"QS-14d7e17a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:terrestrial-land-not-escape",
+      "source_type": "word_analysis",
+      "support_id": "sup_942b15ecce5da24c2f2e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"earth remains concrete terrestrial room\",\"reader_payoff\":\"The reader notices that the liberation is room in God's land, not escape from earthly obligation.\",\"reason\":\"The root lacks V4 guardrail rows, but local grammar and contextual profiles support concrete earth or land as the selected noun range.\",\"representative_source_ids\":[\"QS-046f5ada\",\"QS-5ccd61f1\",\"MS-a5bc326f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_9700cd5008c657238f19",
+      "text": "1. **Spatial room releases exclusive worship.** و س ع B001 is spaciousness against constriction, B005 is easing by making room, and B006 is wide stride or pace. The possessive “my earth” precedes exclusive worship, so geography is offered as room to leave coercive constraint. I infer that movement is an enabling condition when local pressure blocks fidelity; vastness reads as divinely supplied action-space for worship.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_992e042c3a5b4731f2aa",
+      "text": "{\"gloss_range\":\"direct vocative address that opens the ayah by summoning the addressees before the premise and command\",\"prose\":\"{{ar:يَا}} ({{tr:yā}}) makes the ayah begin as direct summons rather than detached narration. It establishes the caller-called relation before the assertion about the earth and before the worship command, so the reader crosses from the previous punishment scene into immediate divine address.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:يَا}} ({{tr:yā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:singular-domain",
+      "source_type": "word_analysis",
+      "support_id": "sup_a3279cb9235151e75be6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"singular earth gathers possible territories\",\"reader_payoff\":\"The reader notices many possible places gathered under one possessed earth rather than scattered alternatives outside divine claim.\",\"reason\":\"The local noun is feminine singular and concrete, making earth a stable spatial substrate under divine possession.\",\"representative_source_ids\":[\"QF-20067476\",\"QF-6b1b768c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:servant-to-service-ring",
+      "source_type": "word_analysis",
+      "support_id": "sup_a45c3bb1690f340aa934",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"closing command answers opening servant-name\",\"reader_payoff\":\"The reader notices the closing command as the enacted fulfillment of the servant identity named at the opening.\",\"reason\":\"The same root frames the ayah in the opening servant noun and the closing worship imperative.\",\"representative_source_ids\":[\"QS-ef932aee\",\"QE-cc8416c6\",\"ME-73bb383c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:worship-service-range",
+      "source_type": "word_analysis",
+      "support_id": "sup_a5866f961229d3c96798",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"worship includes devotional service\",\"reader_payoff\":\"The reader notices the command as directed devotional service, not only ritual performance.\",\"reason\":\"The worship and submissive-obedience branch is locally selected, while the claim of the full semantic spectrum is narrowed to relevant devotional service.\",\"representative_source_ids\":[\"QS-c235928d\",\"MS-83dfdd7d\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_a7ce044c8236f800d9fa",
+      "text": "{\"gloss_range\":\"restrictive masculine plural relative pronoun that qualifies the summoned servants as the ones who have believed\",\"prose\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}}) narrows the vocative. The address is affectionate and direct, but this masculine plural relative pronoun prevents it from becoming unlimited: the servants in view are the rational plural group matched by the following plural belief verb. That completed-belief qualification is finished before the earth-premise begins, separating this protected audience from the punished group of the previous scene.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_b531b8141f5ece10f962",
+      "text": "- **Later activation (`29:60`, `29:65`):** Moving creatures receive provision they do not carry, and ship passengers are transferred safely to land. These scenes give wide earth a kinetic meaning: spaciousness supports creaturely movement and worshipful relocation under provision, not idle territorial abundance.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:divine-capacity-resonance",
+      "source_type": "word_analysis",
+      "support_id": "sup_bcf24a985563f8f12a44",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"divine-capacity resonance reflects through creation\",\"reader_payoff\":\"The reader notices physical spaciousness resonating with divine encompassing provision without leaving the land sense.\",\"reason\":\"The broader divine-capacity branch is real for the root, but local grammar predicates spaciousness of the possessed earth.\",\"representative_source_ids\":[\"QS-dc061b59\",\"MS-109ebf9f\",\"QE-2964effb\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/7",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:56:5:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_c21c692de6e6c356cc06",
+      "text": "{\"lemma_ar\":\"أَرْض\",\"morph_features\":\"STEM|POS:N|LEM:>aroD|ROOT:ArD|F|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:56:5:1\",\"qac_word_ref\":\"29:56:5\",\"root_ar\":\"ء ر ض\",\"surface_ar\":\"أَرْضِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:imperative-required-action",
+      "source_type": "word_analysis",
+      "support_id": "sup_c35fa345dbdf02c68737",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"imperative turns premise into required worship\",\"reader_payoff\":\"The reader notices the ayah moving from asserted spaciousness into required worshipful action.\",\"reason\":\"The word is a Form I plural imperative in the result clause after the emphatic premise.\",\"representative_source_ids\":[\"QG-dd6706ee\",\"QF-1128aa56\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:8:boundary-urgency-and-migration",
+      "source_type": "word_analysis",
+      "support_id": "sup_c4d2c1194f410df04f40",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"result gains urgency from confinement contrast\",\"reader_payoff\":\"The reader notices the consequence as urgent against the prior confinement scene and as practically oriented toward worship-capable relocation.\",\"reason\":\"The confinement contrast and migration logic survive as contextual pressure, but the attachment evidence does not make a separate migration ellipsis explicit.\",\"representative_source_ids\":[\"QB-30adefc0\",\"QY-992d28e6\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_c4dba30de29b30e48559",
+      "text": "{\"gloss_range\":\"emphatic introducer of a nominal premise that grounds the result-command\",\"prose\":\"{{ar:إِنَّ}} ({{tr:inna}}) turns the middle of the ayah into an asserted premise: God's earth is wide. It governs the subject-predicate architecture and places that assertion between the summons and the command. The migration route may be contextually understood from the spacious-earth formula, but the local syntax gives the explicit bridge through emphatic premise and result, not through a spelled-out omitted command.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِنَّ}} ({{tr:inna}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_c855ec87515d53111e2f",
+      "text": "{\"gloss_range\":\"plural imperative to worship or serve Me, with the divine object both anticipated by the fronted pronoun and repeated in the suffix\",\"prose\":\"{{ar:ٱعْبُدُونِ}} ({{tr:ʿbudūni}}) completes the ayah by turning servant identity into commanded service. The imperative is plural, so the summoned servants remain a collective audience, while the first-person object keeps the worship target singular and exclusive. The object has already been fronted and is then repeated in the suffix, so the command carries both exclusivity and verbal completion; variant endings affect the final pronominal closure without altering that object relation. Form I keeps the command as immediate worshipful service toward Me, not causing others to serve or describing self-formation. Wider root images such as smoothed route can enrich the movement through God's wide earth, but the local verb selects direct worshipful service. Same-surah worship formulas shift here into direct first-person command (29:17; 29:36), the closing servant-root sound answers the opening servant-name, and the boundary redirects human action from punishable deeds to prescribed worship.\",\"root_display\":\"{{ar:ع ب د}} ({{tr:ʿ-b-d}})\",\"root_gloss_range\":\"worship, devotional service, submissive obedience, servant identity, owned-slave language, and other nonlocal branches such as road-smoothing; locally the Form I imperative selects worshipful service to the divine speaker\",\"surface_display\":\"{{ar:ٱعْبُدُونِ}} ({{tr:ʿbudūni}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000025/B001",
+        "root_000054/B001",
+        "root_001647/B001",
+        "root_001647/B005",
+        "root_001647/B006"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_cb36efdbe2321cd468fa",
+      "text": "{\"anchors\":[[\"29:56:3\",\"root_000054\",[\"B001\"]],[\"29:56:5\",\"root_000025\",[\"B001\"]],[\"29:56:6\",\"root_001647\",[\"B001\",\"B005\",\"B006\"]]],\"grade\":\"strong\",\"text\":\"Yeryüzünün genişliği, yerel baskı kulluğu engellediğinde hareket ve göç için Allah'ın sağladığı yeni bir eylem alanıdır.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/9",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_cd051ca18a6b0cbe128c",
+      "text": "{\"lemma_ar\":\"وَٰسِعَة\",\"morph_features\":\"STEM|POS:N|ACT|PCPL|LEM:wa`siEap|ROOT:wsE|F|INDEF|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:56:6:1\",\"qac_word_ref\":\"29:56:6\",\"root_ar\":\"و س ع\",\"surface_ar\":\"وَٰسِعَةٌ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:5:compressed-migration-route",
+      "source_type": "word_analysis",
+      "support_id": "sup_ce8c194ae9ef067db942",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"spaciousness implies a practical migration route\",\"reader_payoff\":\"The reader notices that the spacious-earth premise presses toward practical relocation for exclusive worship, while the syntax itself does not spell out that migration command.\",\"reason\":\"The attachment bundle lists no explicit ellipsis, so the row's omitted migration language is narrowed to contextual implication carried by spacious-earth and result linkage.\",\"representative_source_ids\":[\"QG-a9181916\",\"QT-7e0e9678\",\"QY-d4b3935d\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_cec43645838ddee818fb",
+      "text": "29:58 supplies lasting chambers after movement, and 29:60 promises provision to creatures that do not carry it. Spaciousness therefore includes both a destination and sustenance along the route.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:route-image",
+      "source_type": "word_analysis",
+      "support_id": "sup_cfa3e60aabbe9297c72b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"road-smoothing image gives route pressure\",\"reader_payoff\":\"The reader notices worship as a directed path through God's wide earth, while the verb still means worshipful service.\",\"reason\":\"The smoothed-road branch is a real root branch but is construction-bound, so it survives here only as route image beside the spacious-earth premise.\",\"representative_source_ids\":[\"QS-5b18d6ad\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:capacity-not-size-only",
+      "source_type": "word_analysis",
+      "support_id": "sup_cfcb67c376bddc83eadf",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"root capacity makes spaciousness usable\",\"reader_payoff\":\"The reader notices the earth's width as practical capacity for worship beyond constraining places.\",\"reason\":\"V4 supports both spatial breadth and capacity or easing branches; the local predicate selects usable spaciousness.\",\"representative_source_ids\":[\"QS-8cf2ee7b\",\"QS-df75babb\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:agreement-with-earth",
+      "source_type": "word_analysis",
+      "support_id": "sup_d24fb6630f01efc0bf5f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"agreement locks capacity to the earth\",\"reader_payoff\":\"The reader notices that the capacity belongs to God's earth in this premise, not to an abstract topic.\",\"reason\":\"The feminine singular predicate agrees with the earth noun.\",\"representative_source_ids\":[\"QG-92cd7fde\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/1",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:56:1:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_d559e563643d6b99c093",
+      "text": "{\"lemma_ar\":\"عَبْد\",\"morph_features\":\"STEM|POS:N|LEM:Eabod|ROOT:Ebd|MP|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:56:1:2\",\"qac_word_ref\":\"29:56:1\",\"root_ar\":\"ع ب د\",\"surface_ar\":\"عِبَادِ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Standing, Direction, and Maintained Service",
+      "source_type": "channel",
+      "support_id": "sup_d86f8351f232738d22cd",
+      "text": "ص ل و 29:45; ق و م 29:45,51; ع ب د 29:56; ق ب ل 29:48.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:1:vocative-governance",
+      "source_type": "word_analysis",
+      "support_id": "sup_d881aa04159e73b9823d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"vocative particle governs the summoned audience\",\"reader_payoff\":\"The reader notices that the ayah's first move is grammatical summoning, not information or command.\",\"reason\":\"The attachment evidence marks the following servant noun as the vocative dependent, and the later premise and command follow inside that address frame.\",\"representative_source_ids\":[\"QG-bc290888\",\"QT-66551169\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4:faith-security-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_d97356785d270aa1df6d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"faith carries trust and security pressure\",\"reader_payoff\":\"The reader notices faith as a trust-bearing state that fits the move toward God's spacious provision.\",\"reason\":\"No V4 root guardrail is available for this root, so the trust-security family survives as lexical pressure, while local grammar keeps the selected sense as the faith verb.\",\"representative_source_ids\":[\"QS-3ab37c38\",\"QS-6c584a58\",\"QS-c9eac97b\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:6:ism-inna-subject",
+      "source_type": "word_analysis",
+      "support_id": "sup_da0b24bf47203c5671a3",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"earth is the governed subject of the assertion\",\"reader_payoff\":\"The reader notices that the premise centers God's earth as the asserted subject before it predicates spaciousness.\",\"reason\":\"The noun is accusative under the emphatic particle as its governed ism.\",\"representative_source_ids\":[\"QG-63cc3944\",\"MT-fbf10780\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:5:case-architecture",
+      "source_type": "word_analysis",
+      "support_id": "sup_dbc464622752a30fe407",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"case governance separates subject and predicate\",\"reader_payoff\":\"The reader notices that My earth is the asserted subject and spacious is the predicate carrying the warrant.\",\"reason\":\"The particle governs the earth noun as its ism and the spaciousness predicate as its khabar.\",\"representative_source_ids\":[\"QG-abf87ec0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:7:standing-capacity",
+      "source_type": "word_analysis",
+      "support_id": "sup_deb339b02b250bc0f5e0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"active participle marks standing capacity\",\"reader_payoff\":\"The reader notices spaciousness as an available standing quality, while the form does not require treating the earth as personally agentive.\",\"reason\":\"The active participle supports standing capacity, but the claim that the earth is actively animate or agentive is narrowed.\",\"representative_source_ids\":[\"QF-f2bf61e4\",\"MF-d8947d97\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:11:form-i-direct-command",
+      "source_type": "word_analysis",
+      "support_id": "sup_e1da6503135f06c17297",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"Form I keeps the command direct\",\"reader_payoff\":\"The reader notices the command as immediate service toward Me, not causing others to serve or describing self-formation.\",\"reason\":\"The local verb is Form I imperative, and no causative or reflexive alternative is locally present.\",\"representative_source_ids\":[\"QF-6c9ac99c\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000973/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_e588b7b1e03cee6b415f",
+      "text": "2. **Possessive repetition relocates service under the owner of servant and terrain.** Lexical evidence: `عِبَادِى / فَٱعْبُدُون`, root `ع ب د`, `B003` (worship and submissive obedience), and the first-person possessives in “My servants,” “My earth,” and “Me.” Structural cue: exclusive fronting `فَإِيَّايَ` follows the declaration of broad terrain; `29:59-62` then link reliance, provision, and divine allocation. Assigned role: ownership of persons and space grounds the exclusive claim to service. Abductive move: the packet supplies possessive grammar and later provision; I infer that worship is the stable dependency that can persist across changed locations. Reading change: migration changes place while preserving, and clarifying, the governing relation.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_ef0fe872d29abc4db2a8",
+      "text": "{\"gloss_range\":\"fronted first-person accusative object, isolating the divine speaker as the exclusive worship target before the verb\",\"prose\":\"{{ar:إِيَّٰىَ}} ({{tr:iyyāya}}) pulls the worship object forward and makes the result of the premise visible as Me alone. The later verb must be read through this focus block: worship is not merely commanded, but restricted to the speaking I who has already said My servants and My earth. The echo with the worship formula in 1:5 is useful as a reversed discourse direction, not as a replacement for the local grammar.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِيَّٰىَ}} ({{tr:iyyāya}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:4:surah-faith-sorting",
+      "source_type": "word_analysis",
+      "support_id": "sup_f4efa3c6429eecb96871",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same-surah faith contrast stabilizes the address\",\"reader_payoff\":\"The reader notices that this settled belief contrasts with unstable or claimed belief elsewhere in the surah (29:10).\",\"reason\":\"The concrete same-surah contrast can be retained as a lexical and discourse echo without changing the local parse.\",\"representative_source_ids\":[\"QI-d06e5c94\",\"MI-e0df3628\",\"QE-62180435\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:3:restrictive-relative",
+      "source_type": "word_analysis",
+      "support_id": "sup_f8a3e8a11bdcc3fd5d93",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"relative pronoun restricts the address\",\"reader_payoff\":\"The reader notices that the divine summons is narrowed to the believing subset before the premise is stated.\",\"reason\":\"The relative clause is strongly licensed as a qualifier of the vocative servant noun.\",\"representative_source_ids\":[\"QG-2ecef141\",\"QG-9a60afbf\",\"QS-73bdb750\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:56:2:route-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_fbcfe198a23448163382",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"road-smoothing image gives route pressure\",\"reader_payoff\":\"The reader notices servant identity as something that can be lived out through traversable worship in God's wide earth.\",\"reason\":\"The road-smoothing branch is real but construction-bound; here it survives only as image-pressure beside the spacious-earth setting, not as the selected sense of the servant noun.\",\"representative_source_ids\":[\"QS-8e6b764c\",\"QI-ba0b242b\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    }
+  ]
+}

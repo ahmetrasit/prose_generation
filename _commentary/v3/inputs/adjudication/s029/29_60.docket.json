@@ -1,0 +1,4013 @@
+{
+  "adjudication_gate": {
+    "blocker_counts": {},
+    "blockers": [],
+    "branch_coverage_complete": true,
+    "degraded_reasons": [
+      "quarantined_hft"
+    ],
+    "incomplete_branch_coverage_authorized": true,
+    "mode": "quarantine_without_hft",
+    "ready": true,
+    "warnings": [
+      "HFT failed trust checks and is excluded from adjudication"
+    ]
+  },
+  "adjudication_rules": {
+    "available_focus_branches_require_exactly_one_review": true,
+    "mandatory_candidates_require_exactly_one_disposition": true,
+    "new_candidates_must_use_registered_branches_and_existing_supports": true,
+    "quarantined_material_visible": false
+  },
+  "branch_registry": [
+    {
+      "branches": [
+        {
+          "boundary": "Dal, tapınma eylemi ile bundan türeyen tapınılan veya tapınılır kılınan varlık anlamlarını kapsar; şaşkınlık, yoğun üzüntü ve salt özel ad kullanımları bu sınırın dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B001",
+          "gloss": "tapınma ve tapınılan varlık",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, özel ad ile bu ada bağlı seslenme, dilek, şaşma ve ant biçimleriyle sınırlıdır; herhangi bir tapınılan varlığı gösteren genel ad anlamına genişletilmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000047/B002",
+          "gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "source_pointer": "/root_lexicon/root_000047/dictionary_entry/branches/1",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ء ل ه"
+      ],
+      "root_ar": "ء ل ه",
+      "root_id": "root_000047"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Fiziksel taşıma çekirdektir; ileti ve suç yükü soyut uzantı, sel ve taşıt kullanımları ise taşıyan öznenin değiştiği özel gerçekleşmelerdir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B001",
+          "gloss": "bir yükü kaldırıp götürme veya üstlenme",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal gebelikte rahimde gelişen yavruyu ve ağacın meyve vermesini kapsar; dış yük taşıma ya da gebelik olmadan süt gelmesi çekirdeğe dahil değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B002",
+          "gloss": "gebelik veya ağacın meyve yükü",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal yalnızca belirtilen görev, güven, ileti ve suç yapılarında geçerlidir; genel fiziksel taşıma anlamına genişletilmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000357/B003",
+          "gloss": "görev veya suç yükünü üstlenme",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/2",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Çekirdek sıradan bir yük taşımak değil, başkasının ödeme veya hak borcunu güvence vererek kendi üzerine almaktır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B004",
+          "gloss": "başkasının borcunu üstlenip güvence verme",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal, taşınma, bulunma ya da sonradan bir aileye bağlanma nedeniyle soyu doğrulanamayan kişiyi kapsar; genel çocukluk veya sıradan akrabalık anlamı taşımaz.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B005",
+          "gloss": "soy bağı doğrulanamayan getirilmiş çocuk",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal taşınan nesnenin kendisini değil, kılıcı, yolcuyu veya yükü taşıyan kayış, düzenek ve hayvanı adlandırır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B006",
+          "gloss": "taşıma kayışı, binek düzeneği veya yük hayvanı",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Güçlük altında çabalama, birine doğru yüklenme ve güvenilir dayanak aynı biçim ailesindedir, fakat birbirinin yerine geçmeyen ayrı kullanımlardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B007",
+          "gloss": "zorlanarak yüklenme, eğilme veya dayanak olma",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/6",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Dal yalnızca belirtilen türemiş biçimlerde geçerlidir ve öfkeye kapılma ile öfkeyi denetleyip katlanma anlamları kesin olarak ayrı tutulmalıdır.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000357/B008",
+          "gloss": "öfkeye kapılma veya incinmeye ağırbaşlılıkla katlanma",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal koyun türünün genç yavrusuyla sınırlıdır; bütün küçük çiftlik hayvanlarını, yetişkin koyunu veya gökteki burcu kapsamaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000357/B009",
+          "gloss": "kuzu",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Göksel burç, ona bağlanan hava dönemi ve su yüklü bulut ya da şimşek ayrı tutulur; genç koyun anlamı bu dala girmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000357/B010",
+          "gloss": "Koç burcu ve onunla ilişkilendirilen yağışlı gök olayı",
+          "source_pointer": "/root_lexicon/root_000357/dictionary_entry/branches/9",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ح م ل"
+      ],
+      "root_ar": "ح م ل",
+      "root_id": "root_000357"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Süreklilik ve eyleme bağlı kalma kurucudur; alışkanlık anlamı ile başkasını yorma anlamı bu dalın dışında kalır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000456/B001",
+          "gloss": "bir işi kararlılıkla ve sürekli sürdürme",
+          "source_pointer": "/root_lexicon/root_000456/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Yerleşmiş alışkanlık, tutum ve süregelen durum bu dalın içindedir; yılmadan çalışma ile başkasını yorma ayrı dallardır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000456/B002",
+          "gloss": "süregelen alışkanlık ve tutum",
+          "source_pointer": "/root_lexicon/root_000456/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Başkasını yorma bu dalın çekirdeğidir; kişinin kendi çabasını sürdürmesi veya kendisinin yorulması bu dala girmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000456/B003",
+          "gloss": "bir başkasını yormak",
+          "source_pointer": "/root_lexicon/root_000456/dictionary_entry/branches/2",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "د ب ب"
+      ],
+      "root_ar": "د ب ب",
+      "root_id": "root_000456"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek yerde hafif ya da yavaş ilerlemedir; çocuğu buna yöneltme ve ağır devenin yürüyüşü özel kullanımlar olarak ayrılır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000457/B001",
+          "gloss": "yerde hafif ya da yavaş ilerleme",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam belirli bir hayvan türüyle sınırlı değildir; yerde hareket eden canlı sınıfını ve iki yerleşik özel kullanımı kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000457/B002",
+          "gloss": "yerde hareket eden canlı",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Gizli yayılma yalnızca kaynakta verilen kullanım çevresi ve kanı ilerleyen yara yapısı içinde değerlendirilir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000457/B003",
+          "gloss": "duyulmadan içten içe yayılma",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yalnızca insanlar arasında söz taşıyan kişiyi anlatır; genel dolaşma veya her tür dedikodu bununla özdeş değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000457/B004",
+          "gloss": "laf taşıyan kimse",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Kişinin yolu ve alışılmış tutumu çekirdektir; başkasını örnek alma ile gizli ilerleyiş yapı içinde ayrı özelleşmelerdir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000457/B005",
+          "gloss": "izlenen yol ve alışılmış tutum",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/4",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam olumsuz varlık-yokluk kalıbına bağlıdır ve olumlu cümlede bağımsız bir kişi adı olarak kullanılamaz.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000457/B006",
+          "gloss": "orada hiç kimse yok",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "İki söz tek bir düz anlam gibi birleştirilemez; gençlikten yaşlılığa süre ile yaşayanlar ve ölmüşler kapsamı ayrı tutulur.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000457/B007",
+          "gloss": "yaşam evrelerini kapsayan kalıplaşmış sözler",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/6",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal belirli hayvan türünü, onun dişisini ve bu türün yaşadığı araziyi kapsar; bütün hayvanlara genellenmez.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000457/B008",
+          "gloss": "ayı",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/7",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Nesne anlamı kesindir; köken açıklaması olasılık olarak tutulur ve hareket dalının gerçek anlamı sayılmaz.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000457/B009",
+          "gloss": "kabak",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/8",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca yağın saklandığı kabı anlatır; genel kap adı veya aynı ses biçimindeki başka nesneler değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000457/B010",
+          "gloss": "yağ kabı",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/9",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal kumun birikerek oluşturduğu tepeyle sınırlıdır; her tür toprak yükseltisi veya başka eşsesli nesne değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000457/B011",
+          "gloss": "kum tepesi",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal sel ve karınca için verilen geçiş yerleriyle sınırlıdır; genel yol ya da hareket olayı olarak genişletilmez.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000457/B012",
+          "gloss": "akış veya geçiş yatağı",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/11",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal yüzün ince tüyüyle sınırlıdır; bütün vücut kılları veya ilk sakal çıkışıyla bütünüyle özdeş değildir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000457/B013",
+          "gloss": "yüz tüyü",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dal ses olayını anlatır; atların koşu biçimi veya yerdeki hafif hareket bu ses anlamına dahil değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000457/B014",
+          "gloss": "bir tür ses",
+          "source_pointer": "/root_lexicon/root_000457/dictionary_entry/branches/13",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "non_dominant_split_target",
+      "qac_roots_ar": [
+        "د ب ب"
+      ],
+      "root_ar": "د ب ب",
+      "root_id": "root_000457"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, yalnız yiyecek ya da para değil, alıcıya ayrılan ve onun yararlandığı maddi veya manevi payı kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000560/B001",
+          "gloss": "yararlanılmak üzere verilen pay",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnız doğrudan yenilen veya bedene alınarak besleyen şeyi kapsar; genel yardım ve yağmur bu anlamın parçası değildir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000560/B002",
+          "gloss": "yenip beslenilen yiyecek",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dalın göndergesi yağmurdur; canlılığı destekleme, adlandırmanın gerekçesidir ve anlamı bütün yararlı şeylere genişletmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000560/B003",
+          "gloss": "yağmur",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Dalın alıcısı askerdir ve verilen şey kurumsal ödenektir; iş ücreti veya genel bağış anlamı tek başına yeterli değildir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000560/B004",
+          "gloss": "asker ödeneği",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yapılan iyiliğin kendisi değildir; iyiliğe verilmesi beklenen olumlu karşılık veya bunun yalanlamayla değiştirilmesidir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000560/B005",
+          "gloss": "iyiliğe gönül borcunu bildirme",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, kişiye bir şey verilmiş olmasını değil, onun yaşamda iyi sonuçlarla karşılaşan talihli biri oluşunu anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000560/B006",
+          "gloss": "iyi talih sahibi olma",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/5",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu kayıt genel kök anlamı gibi genişletilmemeli, içindeki öğeler birbirinin yerine geçen tek bir sözlük karşılığı sayılmamalı ve yalnız kanıtın verdiği adlandırma sınırı içinde kullanılmalıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000560/B007",
+          "gloss": "biçime bağlı adlandırmalar",
+          "source_pointer": "/root_lexicon/root_000560/dictionary_entry/branches/6",
+          "status": "qualified"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ر ز ق"
+      ],
+      "root_ar": "ر ز ق",
+      "root_id": "root_000560"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Dal, kulağın kendisini, ün kazanmayı ve şarkı söylemeyi değil, sesin işitsel olarak algılanmasını kapsar.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000741/B001",
+          "gloss": "duymak ve dikkatle dinlemek",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/0",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal işitme eylemini değil, kulağı ve özellikle sesin alındığı kulak açıklığını adlandırır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B002",
+          "gloss": "kulak ve kulak açıklığı",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/1",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Yalın ses algısı yeterli değildir; işitilen sözün anlaşılması, kabul edilmesi veya ona uyulması gerekir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B003",
+          "gloss": "anlayıp kabul etmek ve uymak",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Bu dal iletiyi yaygınlaştırmayı değil, belirli bir alıcının sesi duymasını veya sözü anlamasını sağlamayı anlatır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B004",
+          "gloss": "duyurmak veya kavratmak",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Ün veya yaygın söz edilme çekirdektir; haberi yayma, birini öne çıkarma ve duyulsun diye gösteriş yapma ayrı kullanımlardır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000741/B005",
+          "gloss": "adı yayılıp tanınmak",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/4",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Sövme, kötü söz işittirme, kınayıp rezil etme ve duymamaya yönelik beddua yalnızca tanıklanan kalıplarda geçerlidir.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000741/B006",
+          "gloss": "kötü söz işittirip sövmek",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Her türlü ses veya duyma değil, kulağa hoş gelen ezgili ses, şarkı ve bunu söyleyen kadın icracı kapsanır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B007",
+          "gloss": "kulağa hoş gelen ezgili ses",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/6",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Temel gönderim kova veya su kabındaki taşıma ve dengeleme parçasıdır; yan, uzantı ve sepet tahtası kullanımları ayrı türlerdir.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000741/B008",
+          "gloss": "taşıma kabının sap veya denge parçası",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/7",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal, kişiyi bağlayan ayak bağı veya bağı anlatır; aynı biçimli kova parçası ve kulak anlamları bunun dışındadır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000741/B009",
+          "gloss": "ayak bağı veya hareket kısıtlayıcı bağ",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/8",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Tarihsel ad, kurt ile sırtlan arasında tasarlanan yırtıcıyı gösterir; keskin işitme üzerine söz yalnız bu hayvana bağlı kalıptır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_000741/B010",
+          "gloss": "kurt ile sırtlan arasında sayılan yırtıcı",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/9",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam yalnız bu kalıptaki kötü haber dileğine bağlıdır; genel işitme, ün veya haber bildirme anlamına genişletilemez.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000741/B011",
+          "gloss": "duyulsun ama bana ulaşmasın",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/10",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Küçük başlılık, ince uzun yapı, atılgan çeviklik ve kötülük kaynakta yan yana gelen ayrı niteleme türleridir.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B012",
+          "gloss": "küçük başlı, ince uzun veya çevik atılgan kimse",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/11",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Anlam yalnız kadın için kullanılan bu birleşik nitelemeye bağlıdır; genel dinleme, bakma veya tahminde bulunma anlamı değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000741/B013",
+          "gloss": "bakıp dinlediği hâlde göremeyince tahmin eden kadın",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/12",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam boş arazinin kendisinden çok, orada kişiyi duyacak veya görecek başka hiç kimsenin bulunmaması koşuludur.",
+          "branch_kind": "collocation",
+          "branch_ref": "root_000741/B014",
+          "gloss": "kimsenin görüp duymadığı boş arazide",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/13",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Gönderim herhangi bir değneğe değil, iki öküzün bağlandığı tarım düzeneğindeki iki uzun çubuğa özgüdür.",
+          "branch_kind": "bare",
+          "branch_ref": "root_000741/B015",
+          "gloss": "öküz koşumundaki iki uzun çubuk",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/14",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Anlam yalnız bu birleşik adlarda beyindir; kulak, işitme gücü veya kulağın açıklığı bu dalın gönderimi değildir.",
+          "branch_kind": "non_bare",
+          "branch_ref": "root_000741/B016",
+          "gloss": "beyin",
+          "source_pointer": "/root_lexicon/root_000741/dictionary_entry/branches/15",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "س م ع"
+      ],
+      "root_ar": "س م ع",
+      "root_id": "root_000741"
+    },
+    {
+      "branches": [
+        {
+          "boundary": "Çekirdek, bir şeyi bilme ve gerçeğiyle kavramadır; bildirme, öğretme, öğrenme ve bilgi yarışında yenme ayrı biçimlere bağlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B001",
+          "gloss": "bilme ve gerçeğini kavrama",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/0",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal bütün işaret türlerini sınırsızca kapsamaz; kaynakta anılan ayırt etme ve yol gösterme işlevli izlerle bunlara bağlı kullanımlarla sınırlıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B002",
+          "gloss": "ayırt edici ve yol gösterici işaret",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/1",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yaratılmış varlıkların bütünü veya sınıflarıyla sınırlıdır; bilme durumu ve bağımsız bir fiziksel işaret anlamına gelmez.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B003",
+          "gloss": "evren ve bütün yaratılmışlar",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/2",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Belirti özellikle üst dudakta bulunur; genel çatlaklar, alt dudak ve ağız çevresindeki başka eğrilikler kapsam dışıdır.",
+          "branch_kind": "mixed_non_bare",
+          "branch_ref": "root_001040/B004",
+          "gloss": "üst dudak yarığı",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/3",
+          "status": "accepted"
+        },
+        {
+          "boundary": "Deniz ile suyu bol kuyu tek bir ara nesnede birleştirilmez; bunlar aynı biçimin kaynaklarda verilen iki ayrı sözlük karşılığıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B005",
+          "gloss": "deniz ya da suyu bol kuyu",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/4",
+          "status": "reframed"
+        },
+        {
+          "boundary": "Çekirdek yırtıcı kuş adıdır; çevik ve zeki erkek nitelemesi yalnızca bu addan türeyen biçime bağlıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B006",
+          "gloss": "doğan veya atmaca türü yırtıcı kuş",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/5",
+          "status": "qualified"
+        },
+        {
+          "boundary": "Dal yalnızca erkek sırtlanı adlandırır; başka erkek hayvan adları ve benzer sesli su veya kuş adları kapsam dışıdır.",
+          "branch_kind": "bare",
+          "branch_ref": "root_001040/B007",
+          "gloss": "erkek sırtlan",
+          "source_pointer": "/root_lexicon/root_001040/dictionary_entry/branches/6",
+          "status": "accepted"
+        }
+      ],
+      "mapping_role": "dominant",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
+      "root_ar": "ع ل م",
+      "root_id": "root_001040"
+    }
+  ],
+  "candidates": [
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_3617a52426dd29e6afb1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:10:creature-recipient-shift",
+      "source_pointer": "/word_analysis/words/9/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_95c30fdea5ef50fe4bbe",
+        "sup_dff0c29c10eb3fe1c58f"
+      ],
+      "title": "same creature shifts from non-agent to recipient",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7b5418e6b3fe2dca9cf0",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:10:object-chain-to-audience",
+      "source_pointer": "/word_analysis/words/9/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_32fb48b76a9713c94367",
+        "sup_95c30fdea5ef50fe4bbe"
+      ],
+      "title": "one verb reaches creature and audience",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ec423cea40e64182d0d2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:10:ongoing-direct-provision",
+      "source_pointer": "/word_analysis/words/9/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_95c30fdea5ef50fe4bbe",
+        "sup_d15dc2db482e664e7b90"
+      ],
+      "title": "ongoing provision answers ongoing non-carrying",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:10"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_21e2052b20f3b602ed16",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:10:provision-thread-reprise",
+      "source_pointer": "/word_analysis/words/9/topics/3",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7c04984224c94a872827",
+        "sup_95c30fdea5ef50fe4bbe"
+      ],
+      "title": "verb activates the earlier noun",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_00d6079167bb9e72cde2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:11:shared-object-coordination",
+      "source_pointer": "/word_analysis/words/10/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0b9cc312a20aaeeb143a",
+        "sup_64238cd458405c0710db"
+      ],
+      "title": "one verb governs creature and audience",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_85636fdf46331bc03424",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:12:audience-co-recipient-shift",
+      "source_pointer": "/word_analysis/words/11/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1e1258bcc5f33f384fcd",
+        "sup_926c50b93943f81dff22"
+      ],
+      "title": "creature observation becomes direct address",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2afe7ca2a829ff440087",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:12:detached-object-foregrounding",
+      "source_pointer": "/word_analysis/words/11/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_1e1258bcc5f33f384fcd",
+        "sup_53592da40bd10c842512"
+      ],
+      "title": "grammar forces a foregrounded object",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2c47c97801d25942a7e6",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:13:attribute-clause-scope",
+      "source_pointer": "/word_analysis/words/12/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2c0264d912ea29de8012",
+        "sup_a27e7afb23d06c1acc03"
+      ],
+      "title": "resumption and circumstance ground the close",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:13"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2f1f976729ae04ddae23",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:13:compact-clause-hinge",
+      "source_pointer": "/word_analysis/words/12/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_2c0264d912ea29de8012",
+        "sup_df6bac55c75b836f1348"
+      ],
+      "title": "minimal hinge turns action to identity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_732ecf06ca15c7e80b0e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:14:divine-resumption",
+      "source_pointer": "/word_analysis/words/13/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5816ea5e44f8a4a4588f",
+        "sup_fcbc7948dbb0fb7c46c0"
+      ],
+      "title": "pronoun carries the divine name into the close",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:14"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_469174f22e1fc77a7f43",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:14:nominal-subject-reset",
+      "source_pointer": "/word_analysis/words/13/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_094e1cf702d510ba0f12",
+        "sup_5816ea5e44f8a4a4588f"
+      ],
+      "title": "explicit pronoun stabilizes the attribute seal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c3b5a934fa65ee80e0ec",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:15:definite-comprehensive-hearing",
+      "source_pointer": "/word_analysis/words/14/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_7851ff9cd9ef3f459311",
+        "sup_925c0ecacd168897f18d"
+      ],
+      "title": "stable all-hearing attribute",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c478ae2b5f5be43a888f",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:15:pair-cadence-and-surah-echo",
+      "source_pointer": "/word_analysis/words/14/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3c2d801ce161604b3b6c",
+        "sup_925c0ecacd168897f18d"
+      ],
+      "title": "sound and same-surah echo unify the pair",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:15"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_71b47e39a127d9edccce",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:15:provision-to-awareness-seal",
+      "source_pointer": "/word_analysis/words/14/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_925c0ecacd168897f18d",
+        "sup_a562553762c71b0980d8"
+      ],
+      "title": "hearing joins knowledge as provision's ground",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f08ccbc4d78a808d6fc7",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:16:comprehensive-knowledge",
+      "source_pointer": "/word_analysis/words/15/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_682a4eacfb97c678fba8",
+        "sup_816f864b354e8463fae0"
+      ],
+      "title": "knowing selected over teaching or informing",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f988653f920f352ade71",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:16:final-frame-and-echo",
+      "source_pointer": "/word_analysis/words/15/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_5874a9a264b38bdfbc91",
+        "sup_682a4eacfb97c678fba8"
+      ],
+      "title": "final knowledge frames the creature proof",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:16"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_c37cbd48b7882f8df5b1",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:16:paired-definite-attribute",
+      "source_pointer": "/word_analysis/words/15/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_682a4eacfb97c678fba8",
+        "sup_ece490e433fba121f9e9"
+      ],
+      "title": "second predicate completes the paired seal",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:1"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_32315ac31c54bbbb1925",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:1:resumptive-proof-launch",
+      "source_pointer": "/word_analysis/words/0/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_8321d6e8d56e6d8fc2c2",
+        "sup_94669a479ea1b72867e6"
+      ],
+      "title": "opening connector turns reliance into proof",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:2"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eaa73b69ed225c11722a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:2:compound-abundance",
+      "source_pointer": "/word_analysis/words/1/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_4d869722f2efb67f2e52",
+        "sup_54d635a66bf2a1379259"
+      ],
+      "title": "simile particle fused into quantifier",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_ec33379e936dbf12e478",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:3:exclamatory-abundance",
+      "source_pointer": "/word_analysis/words/2/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_6ed7dedd52b8f8df7dc7",
+        "sup_dd7460d5fa1a97c2ef29"
+      ],
+      "title": "abundance before ordinary predication",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_81c002917d7676008ec9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:3:lesson-formula-echo",
+      "source_pointer": "/word_analysis/words/2/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3fe5e57b5e0edec1946b",
+        "sup_6ed7dedd52b8f8df7dc7"
+      ],
+      "title": "formula reused for large-scale lessons",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_811fdaa267ce8dd4418a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:3:variant-stable-compound",
+      "source_pointer": "/word_analysis/words/2/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_03c55e3c65b9e0b084b9",
+        "sup_6ed7dedd52b8f8df7dc7"
+      ],
+      "title": "variant shapes keep the same quantifier force",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_68a060e9c203ed56e1c5",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:4:creature-class-specifier",
+      "source_pointer": "/word_analysis/words/3/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_13af78bdeeaf03a648de",
+        "sup_1da90e586b526de6a548"
+      ],
+      "title": "preposition specifies the quantified class",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:4"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0fc38a2b95e12b0e5f54",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:4:open-ended-partitive-pressure",
+      "source_pointer": "/word_analysis/words/3/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_13af78bdeeaf03a648de",
+        "sup_d3349e600e34d41eb91a"
+      ],
+      "title": "partitive residue leaves the abundance open",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_08ed20d79293882595b9",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:5:creature-provision-echo",
+      "source_pointer": "/word_analysis/words/4/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_237b7cc8859c0feb213d",
+        "sup_9e57d3acaa3461743f33"
+      ],
+      "title": "creature-provision field becomes local proof",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_95fa105e5fcfa4690248",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:5:motile-dependent-life",
+      "source_pointer": "/word_analysis/words/4/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_237b7cc8859c0feb213d",
+        "sup_27ec0973de3632b5aa12"
+      ],
+      "title": "moving life with persistence pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f961b94e30d86914e44e",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:5:singular-tracked-creature",
+      "source_pointer": "/word_analysis/words/4/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_237b7cc8859c0feb213d",
+        "sup_9d9f9c2edf7d37f0b370"
+      ],
+      "title": "indefinite singular becomes a tracked participant",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_af44a502998625038465",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:6:need-before-answer",
+      "source_pointer": "/word_analysis/words/5/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_13666c5272628caf047d",
+        "sup_fb76c8439d4bd9f95145"
+      ],
+      "title": "negative gap prepares divine provision",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0bd772493d158ffcd652",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:6:scoped-habitual-negation",
+      "source_pointer": "/word_analysis/words/5/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_3ac48524462f479766f1",
+        "sup_fb76c8439d4bd9f95145"
+      ],
+      "title": "negation belongs to the relative verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f29136e979bad84d612c",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:7:ongoing-creature-non-carrying",
+      "source_pointer": "/word_analysis/words/6/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_a3b8348ccdddc000bf10",
+        "sup_b038a5c874ab72f6707c"
+      ],
+      "title": "imperfect feminine verb denies ongoing carrying",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0db2f0cd5312157ed202",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:7:root-shift-to-provision",
+      "source_pointer": "/word_analysis/words/6/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_73a5e6ad904935bec488",
+        "sup_b038a5c874ab72f6707c"
+      ],
+      "title": "carrying root shifts from burdens to provision",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_7cd2e0fb9d6800b23917",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:7:simple-carrying-burden-pressure",
+      "source_pointer": "/word_analysis/words/6/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_33ff89d3e20438dea48e",
+        "sup_b038a5c874ab72f6707c"
+      ],
+      "title": "simple carrying with burden-family pressure",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_8779a33c783d7b088406",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:8:allotted-provision",
+      "source_pointer": "/word_analysis/words/7/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_939e2db698eeccf679fa",
+        "sup_9fdde3207960ad551a75"
+      ],
+      "title": "provision as allotted livelihood",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_51429fb3769f1b98bc1a",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:8:possessed-object-paradox",
+      "source_pointer": "/word_analysis/words/7/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_9fdde3207960ad551a75",
+        "sup_cb57827dd37b62a77520"
+      ],
+      "title": "its provision is possessed but not self-carried",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:8"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_32a133d17d6aeba0c6d2",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:8:root-reprise-provider-contrast",
+      "source_pointer": "/word_analysis/words/7/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0edd902d413a113165c2",
+        "sup_9fdde3207960ad551a75"
+      ],
+      "title": "noun prepares the provision verb",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_d6200ab09ac8537d68ba",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "must_integrate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:9:definite-provider-pivot",
+      "source_pointer": "/word_analysis/words/8/topics/0",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_0474d547d8997255e7de",
+        "sup_b96b7435b2aa9fb8148e"
+      ],
+      "title": "divine name pivots from lack to supply",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_eee5411b4e7bbc599566",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:9:surah-provider-thread",
+      "source_pointer": "/word_analysis/words/8/topics/2",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_b96b7435b2aa9fb8148e",
+        "sup_c42c2bcfe9b723cc481a"
+      ],
+      "title": "provider thread recurs around the ayah",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:9"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f65274599bbe7a227ae3",
+      "focus_branch_refs": [],
+      "kind": "word_topic",
+      "lane": "micro",
+      "mandatory": true,
+      "nominated_branch_refs": [],
+      "obligation": "candidate",
+      "root_ids": [],
+      "scope": "focus_ayah",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "29:60:9:worship-refuge-name-pressure",
+      "source_pointer": "/word_analysis/words/8/topics/1",
+      "source_type": "word_analysis",
+      "support_ids": [
+        "sup_351373ec1f7fdd0d6782",
+        "sup_b96b7435b2aa9fb8148e"
+      ],
+      "title": "divine-name background grounds provider identity",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:59",
+        "29:60"
+      ],
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "candidate_id": "cand_69a0730361db61cb6c33",
+      "focus_branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_pointer": "/channel_subchannels_anchored_here/1",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_2cf764f8bddef132bc80",
+        "sup_53aafaeb99149fad5ccf",
+        "sup_72f2cba079d848a1b8c0",
+        "sup_8ad1f11daba5f79bc21e",
+        "sup_be8bf9f33237d9992d3f"
+      ],
+      "title": "Load, Guarantor, and Entrusted Care",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60",
+        "29:61",
+        "29:63"
+      ],
+      "branch_refs": [
+        "root_000025/B002",
+        "root_000383/B002",
+        "root_000560/B003",
+        "root_001458/B001",
+        "root_001458/B002",
+        "root_001458/B003",
+        "root_001492/B001",
+        "root_001492/B002"
+      ],
+      "candidate_id": "cand_3ae1c65771bd3ee9a767",
+      "focus_branch_refs": [
+        "root_000560/B003"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000025/B002",
+        "root_000383/B002",
+        "root_001458/B001",
+        "root_001458/B002",
+        "root_001458/B003",
+        "root_001492/B001",
+        "root_001492/B002"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_pointer": "/channel_subchannels_anchored_here/0",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_69bfbfbe92a967e504ca",
+        "sup_a86dd35d9a89f53b622d",
+        "sup_baeca4dc0117c1e6cec3",
+        "sup_c5bf17af20959e0c2ef0",
+        "sup_dc1e57cfe54471c7ee29"
+      ],
+      "title": "Descending Water and Revived Ground",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60",
+        "29:62"
+      ],
+      "branch_refs": [
+        "root_000116/B001",
+        "root_000116/B002",
+        "root_000116/B003",
+        "root_000116/B004",
+        "root_000560/B001",
+        "root_001205/B001",
+        "root_001205/B004",
+        "root_001205/B005"
+      ],
+      "candidate_id": "cand_067ec1fde7298258cef8",
+      "focus_branch_refs": [
+        "root_000560/B001"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000116/B001",
+        "root_000116/B002",
+        "root_000116/B003",
+        "root_000116/B004",
+        "root_001205/B001",
+        "root_001205/B004",
+        "root_001205/B005"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_pointer": "/channel_subchannels_anchored_here/2",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_2c0d83f488fd0d1153e2",
+        "sup_7287e14faa7a55aff5f8",
+        "sup_8b5748965e87b92a5e6b",
+        "sup_bc02303ca746e4303b89",
+        "sup_f77a833310244742c997"
+      ],
+      "title": "Spreading, Extending, and Exact Constriction",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60",
+        "29:61",
+        "29:64"
+      ],
+      "branch_refs": [
+        "root_000019/B002",
+        "root_000493/B003",
+        "root_000560/B002",
+        "root_001255/B007",
+        "root_001358/B001",
+        "root_001382/B003"
+      ],
+      "candidate_id": "cand_2c0ee84e1d009451ef9a",
+      "focus_branch_refs": [
+        "root_000560/B002"
+      ],
+      "kind": "resonance_nomination",
+      "lane": "macro",
+      "mandatory": true,
+      "nominated_branch_refs": [
+        "root_000019/B002",
+        "root_000493/B003",
+        "root_001255/B007",
+        "root_001358/B001",
+        "root_001382/B003"
+      ],
+      "obligation": "review",
+      "root_ids": [],
+      "scope": "pericope",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_pointer": "/channel_subchannels_anchored_here/3",
+      "source_type": "channel",
+      "support_ids": [
+        "sup_212817e9d2b93d46e63e",
+        "sup_2d60a1da9c2ec056588c",
+        "sup_a36cc12966191e0b0fea",
+        "sup_b3501c7e58f1ce96bf99",
+        "sup_ec38549511a45e56c16e"
+      ],
+      "title": "Wagering the Immediate Against the Deferred",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:11"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_56a9a6fe321ea2915c00",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000741"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:11:2",
+      "source_pointer": "/qac_morphemes/16",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_ea5ec03ee025998e5fa7"
+      ],
+      "title": "QAC root occurrence: س م ع",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:12"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_0874748830626f9beb49",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_001040"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:12:2",
+      "source_pointer": "/qac_morphemes/18",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_4cd8348adbf3be478f3d"
+      ],
+      "title": "QAC root occurrence: ع ل م",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:3"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b54a1173dfe573bbbe9b",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000456",
+        "root_000457"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:3:1",
+      "source_pointer": "/qac_morphemes/3",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_cc4850a5f02a5b120774"
+      ],
+      "title": "QAC root occurrence: د ب ب",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:5"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_4d41d27d7b6c8587e10a",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000357"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:5:1",
+      "source_pointer": "/qac_morphemes/5",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_ca3df4db4f26bf13db0b"
+      ],
+      "title": "QAC root occurrence: ح م ل",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:6"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_f7365de07b28c6067654",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000560"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:6:1",
+      "source_pointer": "/qac_morphemes/6",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_64508c54f6851153299b"
+      ],
+      "title": "QAC root occurrence: ر ز ق",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:7"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b17f56e0e2bcf4c21dbb",
+      "focus_branch_refs": [],
+      "kind": "focus_root_occurrence",
+      "lane": "micro",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "ledger_only",
+      "root_ids": [
+        "root_000047"
+      ],
+      "scope": "focus_ayah",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "ledger_only",
+        "no_candidate_evidence",
+        "occurrence_only"
+      ],
+      "source_local_id": "29:60:7:1",
+      "source_pointer": "/qac_morphemes/8",
+      "source_type": "qac_morpheme",
+      "support_ids": [
+        "sup_82c13c4e0c2eabac6603"
+      ],
+      "title": "QAC root occurrence: ء ل ه",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:3",
+        "29:60:5",
+        "29:60:6",
+        "29:60:8"
+      ],
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000457/B001",
+        "root_000560/B001"
+      ],
+      "candidate_id": "cand_7a03936de62426d75ce4",
+      "focus_branch_refs": [
+        "root_000357/B001",
+        "root_000457/B001",
+        "root_000560/B001"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-1",
+      "source_pointer": "/v12_cross_run_publication/findings/0",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_c7d86b2ff4f56b0c498e"
+      ],
+      "title": "Hareket eden canlının gelecekteki rızkını yük olarak yanında taşımaması, hareketi terk etmeden kendi kendine kapalı güvenlikten daha geniş bir rızık ilişkisine dayanabileceğini gösterir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60:11",
+        "29:60:12"
+      ],
+      "branch_refs": [
+        "root_000741/B003",
+        "root_001040/B001"
+      ],
+      "candidate_id": "cand_3f1aeefcbf2f5d30d7b4",
+      "focus_branch_refs": [
+        "root_000741/B003",
+        "root_001040/B001"
+      ],
+      "kind": "published_finding",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "cross_run",
+      "selection_eligible": true,
+      "selection_ineligibility_reasons": [],
+      "source_local_id": "finding-2",
+      "source_pointer": "/v12_cross_run_publication/findings/1",
+      "source_type": "cross_run_publication",
+      "support_ids": [
+        "sup_72993c87a826773714bc"
+      ],
+      "title": "Allah'ın işitmesi ve bilmesi, rızkı yalnız ihtiyacını dile getirebilenlere bağlamaz; konuşamayan canlının durumu da sağlayıcının bilgisi içindedir.",
+      "trust": "trusted",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:60"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_2424a9215431304d81e3",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_c80dcda51bd012648ec4"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "د ب ب/B001",
+          "reason": "ambiguous root mapping: root_000456/B001, root_000457/B001"
+        },
+        {
+          "citation": "د ب ب/B003",
+          "reason": "ambiguous root mapping: root_000456/B003, root_000457/B003"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_b2c51d910d4ae453a2f0",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "surah_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks",
+      "support_ids": [
+        "sup_91f8cc3f944f2cf7014a"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": false,
+      "anchor_refs": [
+        "29:60"
+      ],
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000560/B001"
+      ],
+      "candidate_id": "cand_86e0bcb62c2c0dd19d89",
+      "focus_branch_refs": [
+        "root_000357/B001",
+        "root_000560/B001"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence",
+        "not_adjudicable"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_2671b5220e7b6fcb441e"
+      ],
+      "title": "reader_a:activated_readings_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [
+        {
+          "citation": "د ب ب/B001",
+          "reason": "ambiguous root mapping: root_000456/B001, root_000457/B001"
+        }
+      ],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60"
+      ],
+      "branch_refs": [
+        "root_000741/B003"
+      ],
+      "candidate_id": "cand_7a99fbbe86b594492a60",
+      "focus_branch_refs": [
+        "root_000741/B003"
+      ],
+      "kind": "reader_walk_activation",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md#item-2",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_c53ec7ba803d971e4cc7"
+      ],
+      "title": "reader_a:activated_readings_md:2",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    },
+    {
+      "adjudicable": true,
+      "anchor_refs": [
+        "29:60"
+      ],
+      "branch_refs": [],
+      "candidate_id": "cand_9f2dc2b722f6f6e2b793",
+      "focus_branch_refs": [],
+      "kind": "reader_walk_retrospective",
+      "lane": "global",
+      "mandatory": false,
+      "nominated_branch_refs": [],
+      "obligation": "optional_review",
+      "root_ids": [],
+      "scope": "wide_context_legacy",
+      "selection_eligible": false,
+      "selection_ineligibility_reasons": [
+        "legacy_unbound",
+        "no_candidate_evidence"
+      ],
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md#item-1",
+      "source_type": "v12_reader_walks_wide",
+      "support_ids": [
+        "sup_03d4edc58c4113f0982c"
+      ],
+      "title": "reader_a:retrospective_surprises_md:1",
+      "trust": "legacy_unbound",
+      "unresolved_branch_citations": [],
+      "unresolved_branch_refs": []
+    }
+  ],
+  "coverage": {
+    "accounted_seed_count": 64,
+    "by_disposition": {
+      "docket_mandatory": 42,
+      "docket_optional": 13,
+      "parse_failed": 7,
+      "quarantined": 2
+    },
+    "by_source_type": {
+      "channel": 4,
+      "cross_run_publication": 2,
+      "hft": 9,
+      "qac_morpheme": 6,
+      "v12_reader_walks": 2,
+      "v12_reader_walks_wide": 3,
+      "word_analysis": 38
+    },
+    "discovered_seed_count": 64,
+    "docket_candidate_count": 55,
+    "mandatory_candidate_count": 42,
+    "optional_candidate_count": 13,
+    "selection_eligible_candidate_count": 44,
+    "selection_ineligible_candidate_count": 11
+  },
+  "focus": {
+    "arabic_uthmani": "وَكَأَيِّن مِّن دَآبَّةٍۢ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+    "qac_morphemes": [
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:60:1:1",
+        "qac_word_ref": "29:60:1",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "كَأَيِّن",
+        "morph_features": "STEM|POS:N|LEM:ka>ay~in|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:60:1:2",
+        "qac_word_ref": "29:60:1",
+        "root_ar": "",
+        "surface_ar": "كَأَيِّن"
+      },
+      {
+        "lemma_ar": "مِن",
+        "morph_features": "STEM|POS:P|LEM:min",
+        "morpheme_role": "STEM",
+        "pos": "P",
+        "qac_ref": "29:60:2:1",
+        "qac_word_ref": "29:60:2",
+        "root_ar": "",
+        "surface_ar": "مِّن"
+      },
+      {
+        "lemma_ar": "دَآبَّة",
+        "morph_features": "STEM|POS:N|LEM:daA^b~ap|ROOT:dbb|F|INDEF|GEN",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:60:3:1",
+        "qac_word_ref": "29:60:3",
+        "root_ar": "د ب ب",
+        "surface_ar": "دَآبَّةٍ"
+      },
+      {
+        "lemma_ar": "لَا",
+        "morph_features": "STEM|POS:NEG|LEM:laA",
+        "morpheme_role": "STEM",
+        "pos": "NEG",
+        "qac_ref": "29:60:4:1",
+        "qac_word_ref": "29:60:4",
+        "root_ar": "",
+        "surface_ar": "لَّا"
+      },
+      {
+        "lemma_ar": "حَمَلَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:Hamala|ROOT:Hml|3FS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:60:5:1",
+        "qac_word_ref": "29:60:5",
+        "root_ar": "ح م ل",
+        "surface_ar": "تَحْمِلُ"
+      },
+      {
+        "lemma_ar": "رِزْق",
+        "morph_features": "STEM|POS:N|LEM:rizoq|ROOT:rzq|M|ACC",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:60:6:1",
+        "qac_word_ref": "29:60:6",
+        "root_ar": "ر ز ق",
+        "surface_ar": "رِزْقَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3FS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:60:6:2",
+        "qac_word_ref": "29:60:6",
+        "root_ar": "",
+        "surface_ar": "هَا"
+      },
+      {
+        "lemma_ar": "ٱللَّه",
+        "morph_features": "STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM",
+        "morpheme_role": "STEM",
+        "pos": "PN",
+        "qac_ref": "29:60:7:1",
+        "qac_word_ref": "29:60:7",
+        "root_ar": "ء ل ه",
+        "surface_ar": "ٱللَّهُ"
+      },
+      {
+        "lemma_ar": "رَزَقَ",
+        "morph_features": "STEM|POS:V|IMPF|LEM:razaqa|ROOT:rzq|3MS",
+        "morpheme_role": "STEM",
+        "pos": "V",
+        "qac_ref": "29:60:8:1",
+        "qac_word_ref": "29:60:8",
+        "root_ar": "ر ز ق",
+        "surface_ar": "يَرْزُقُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "SUFFIX|PRON:3FS",
+        "morpheme_role": "SUFFIX",
+        "pos": "PRON",
+        "qac_ref": "29:60:8:2",
+        "qac_word_ref": "29:60:8",
+        "root_ar": "",
+        "surface_ar": "هَا"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:60:9:1",
+        "qac_word_ref": "29:60:9",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "إِيَّا",
+        "morph_features": "STEM|POS:PRON|LEM:<iy~aA|2MP",
+        "morpheme_role": "STEM",
+        "pos": "PRON",
+        "qac_ref": "29:60:9:2",
+        "qac_word_ref": "29:60:9",
+        "root_ar": "",
+        "surface_ar": "إِيَّاكُمْ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|w:CONJ+",
+        "morpheme_role": "PREFIX",
+        "pos": "CONJ",
+        "qac_ref": "29:60:10:1",
+        "qac_word_ref": "29:60:10",
+        "root_ar": "",
+        "surface_ar": "وَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "STEM|POS:PRON|3MS",
+        "morpheme_role": "STEM",
+        "pos": "PRON",
+        "qac_ref": "29:60:10:2",
+        "qac_word_ref": "29:60:10",
+        "root_ar": "",
+        "surface_ar": "هُوَ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:60:11:1",
+        "qac_word_ref": "29:60:11",
+        "root_ar": "",
+        "surface_ar": "ٱل"
+      },
+      {
+        "lemma_ar": "سَمِيع",
+        "morph_features": "STEM|POS:N|LEM:samiyE|ROOT:smE|MS|NOM",
+        "morpheme_role": "STEM",
+        "pos": "N",
+        "qac_ref": "29:60:11:2",
+        "qac_word_ref": "29:60:11",
+        "root_ar": "س م ع",
+        "surface_ar": "سَّمِيعُ"
+      },
+      {
+        "lemma_ar": "",
+        "morph_features": "PREFIX|Al+",
+        "morpheme_role": "PREFIX",
+        "pos": "DET",
+        "qac_ref": "29:60:12:1",
+        "qac_word_ref": "29:60:12",
+        "root_ar": "",
+        "surface_ar": "ٱلْ"
+      },
+      {
+        "lemma_ar": "عَلِيم",
+        "morph_features": "STEM|POS:ADJ|LEM:Ealiym|ROOT:Elm|MS|NOM",
+        "morpheme_role": "STEM",
+        "pos": "ADJ",
+        "qac_ref": "29:60:12:2",
+        "qac_word_ref": "29:60:12",
+        "root_ar": "ع ل م",
+        "surface_ar": "عَلِيمُ"
+      }
+    ],
+    "word_analysis_qac_refs": [
+      [
+        "29:60:1:1"
+      ],
+      [],
+      [],
+      [
+        "29:60:2:1"
+      ],
+      [
+        "29:60:3:1"
+      ],
+      [
+        "29:60:4:1"
+      ],
+      [
+        "29:60:5:1"
+      ],
+      [
+        "29:60:6:1",
+        "29:60:6:2"
+      ],
+      [
+        "29:60:7:1"
+      ],
+      [
+        "29:60:8:1",
+        "29:60:8:2"
+      ],
+      [
+        "29:60:9:1"
+      ],
+      [
+        "29:60:9:2"
+      ],
+      [
+        "29:60:10:1"
+      ],
+      [
+        "29:60:10:2"
+      ],
+      [
+        "29:60:11:1",
+        "29:60:11:2"
+      ],
+      [
+        "29:60:12:1",
+        "29:60:12:2"
+      ]
+    ],
+    "word_analysis_refs": [
+      "29:60:1",
+      "29:60:2",
+      "29:60:3",
+      "29:60:4",
+      "29:60:5",
+      "29:60:6",
+      "29:60:7",
+      "29:60:8",
+      "29:60:9",
+      "29:60:10",
+      "29:60:11",
+      "29:60:12",
+      "29:60:13",
+      "29:60:14",
+      "29:60:15",
+      "29:60:16"
+    ]
+  },
+  "focus_root_mappings": {
+    "ء ل ه": [
+      "root_000047"
+    ],
+    "ح م ل": [
+      "root_000357"
+    ],
+    "د ب ب": [
+      "root_000456",
+      "root_000457"
+    ],
+    "ر ز ق": [
+      "root_000560"
+    ],
+    "س م ع": [
+      "root_000741"
+    ],
+    "ع ل م": [
+      "root_001040"
+    ]
+  },
+  "identity": {
+    "ayah_ref": "29:60",
+    "docket_payload_sha256": "0f83bbeaf96902fe480532ab2fabc719c643c261882852c0b151b13c86ff0cde",
+    "source_canonical_sha256": "7c07d78d48c5941504b85b7cf5d4f747b6047345db76ef9e6a8462aa7bb2ff66"
+  },
+  "limits": {
+    "max_branch_bytes_per_root": 32000,
+    "max_docket_bytes": 500000,
+    "max_optional_candidates": 40,
+    "max_pericope_ayahs": 512,
+    "max_support_chars": 8000,
+    "max_support_per_candidate": 5
+  },
+  "nominated_branch_registry": [
+    {
+      "branch_ref": "root_000019/B002",
+      "image_ar": "التأخير إلى وقت لاحق",
+      "image_en": "postponing or deferring to a later time",
+      "root_ar": "ء خ ر",
+      "scope_ar": "يدخل فيه أخرته وتأخر واستأخر والمستأخر، وبيع بأخرة أو بنظرة، وما يبقى إلى آخر الشيء كالمئخار.",
+      "scope_en": "This branch covers delaying, being late, deferring a term or sale, and things remaining until the end.",
+      "source_file": "v4/outputs/pass2_branches/root_000019.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/6/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000025/B002",
+      "image_ar": "الأرض اللينة المنبتة",
+      "image_en": "soft fertile ground",
+      "root_ar": "ء ر ض",
+      "scope_ar": "الأرض الأريضة والروضة الأريضة؛ الأرض الزاكية الحسنة النبت؛ النبات المتأرض إذا تمكن في الأرض وكثر أو أمكن جزه؛ الجدي الأريض إذا تناول نبت الأرض أو سمن",
+      "scope_en": "fertile, soft, pleasant ground; vegetation that has established itself in the ground or is ready to cut; a young goat described through feeding on ground vegetation",
+      "source_file": "v4/outputs/pass2_branches/root_000025.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/5/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000116/B001",
+      "image_ar": "النشر والامتداد ضد القبض",
+      "image_en": "spreading and extending opposite constriction",
+      "root_ar": "ب س ط",
+      "scope_ar": "يدخل فيه بسط الشيء ونشره وتوسيعه وانبساطه على الأرض وكون الشيء مبسوطا",
+      "scope_en": "Includes spreading, unfolding, widening, and extending a thing, especially as the opposite of قبض.",
+      "source_file": "v4/outputs/pass2_branches/root_000116.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/15/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000116/B002",
+      "image_ar": "الأرض والبساط المبسوط",
+      "image_en": "the spread-out expanse of ground",
+      "root_ar": "ب س ط",
+      "scope_ar": "يدخل فيه البساط والبسيطة من الأرض، والمكان البسيط أو البساط، والأرض العريضة الواسعة المستوية، وما يبسط من المتاع",
+      "scope_en": "Includes the ground as a spread expanse, a broad flat place, and a carpet or thing spread out.",
+      "source_file": "v4/outputs/pass2_branches/root_000116.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/15/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_000116/B003",
+      "image_ar": "السعة والزيادة والفضل",
+      "image_en": "spacious increase and ample capacity",
+      "root_ar": "ب س ط",
+      "scope_ar": "يدخل فيه البسطة بمعنى السعة والزيادة والفضيلة، وبسط الرزق، وبسطة الجسم والباع والعلم، والفراش الذي يسع صاحبه",
+      "scope_en": "Includes breadth, increase, ample provision, advantage, and capacity in body, reach, knowledge, or a fitting bed.",
+      "source_file": "v4/outputs/pass2_branches/root_000116.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/15/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_000116/B004",
+      "image_ar": "مد اليد وإطلاقها",
+      "image_en": "extending and releasing the hand",
+      "root_ar": "ب س ط",
+      "scope_ar": "يدخل فيه بسط اليد والذراع والكف للطلب أو الأخذ أو الصولة أو البذل والإعطاء، واليد المطلقة أو المبسوطة",
+      "scope_en": "Includes extending the hand or forearm for asking, taking, striking, giving, or being open and unrestricted.",
+      "source_file": "v4/outputs/pass2_branches/root_000116.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/15/branches/3/variants/0"
+    },
+    {
+      "branch_ref": "root_000383/B002",
+      "image_ar": "حياة الأرض بالمطر والنبات",
+      "image_en": "earth brought alive by rain and growth",
+      "root_ar": "ح ي ي",
+      "scope_ar": "يدخل فيه الحيا بمعنى المطر، وخصب الأرض، والنبات الطري، وإحياء الأرض أو إصابة القوم بالمطر والمرعى.",
+      "scope_en": "This branch covers rain as life-giving, fertile land, fresh living vegetation, and people or animals receiving rain and pasture.",
+      "source_file": "v4/outputs/pass2_branches/root_000383.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/8/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000493/B003",
+      "image_ar": "الدناءة والضعة",
+      "image_en": "lowness and baseness",
+      "root_ar": "د ن و",
+      "scope_ar": "ما يدل على الدنيء المهموز، والدون، والنقيصة، وضعف المنزلة، وخساسة الأمور وصغارها",
+      "scope_en": "Includes the hamzated دنيء as low/base, deficiency or low rank, weak/low status, and attending to petty or vile matters.",
+      "source_file": "v4/outputs/pass2_branches/root_000493.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/9/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_000840/B003",
+      "image_ar": "تحمل الكفالة والملازمة",
+      "image_en": "bearing surety or standing with someone",
+      "root_ar": "ص ب ر",
+      "scope_ar": "يدخل فيه الصبير بمعنى الكفيل، وصبرت بفلان إذا كفلت به، وما قرب منه من صبير القوم الذي يكون معهم في أمورهم.",
+      "scope_en": "suretyship, bearing liability for someone, or standing with a group in their affairs.",
+      "source_file": "v4/outputs/pass2_branches/root_000840.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/11/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001205/B001",
+      "image_ar": "المقدار الذي يبلغ الشيء حده",
+      "image_en": "measure reaching a thing's extent",
+      "root_ar": "ق د ر",
+      "scope_ar": "يدخل فيه مبلغ الشيء وكميته ومقداره وحده وأجله وما يجري بقدر معلوم أو بحسب طاقة مقدرة.",
+      "scope_en": "A thing's measured amount, extent, limit, term, or proportion, including what is given or flows according to a known measure or capacity.",
+      "source_file": "v4/outputs/pass2_branches/root_001205.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001205/B004",
+      "image_ar": "تضييق الشيء حتى يصير بقدر يسير",
+      "image_en": "narrowing to a scant measure",
+      "root_ar": "ق د ر",
+      "scope_ar": "يدخل فيه قدر عليه رزقه بمعنى ضيق أو قتر، ونقدر عليه بمعنى نضيق عليه، وكل جعل للشيء في قدر يسير بخلاف البسط.",
+      "scope_en": "Constriction, restriction, or scanting, especially of provision, by making something limited rather than expansive.",
+      "source_file": "v4/outputs/pass2_branches/root_001205.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001205/B005",
+      "image_ar": "تدبير الأمر بتقدير ونظر",
+      "image_en": "arranging by estimate and deliberation",
+      "root_ar": "ق د ر",
+      "scope_ar": "يدخل فيه تقدير الأمر بالنظر والتفكير والقياس والنية، وتهيئة الشيء وتسويته وإحكامه، وحساب الهلال أو العدد.",
+      "scope_en": "Estimating, planning, intending, preparing, proportioning, or making something orderly by calculation or deliberation.",
+      "source_file": "v4/outputs/pass2_branches/root_001205.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/7/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_001255/B007",
+      "image_ar": "المقامرة والغلبة بالخداع",
+      "image_en": "gambling, contesting, and defeating by trickery",
+      "root_ar": "ق م ر",
+      "scope_ar": "يدخل فيه القمار والمقامرة، قامرته أو لاعبته فغلبته، وتقامروا، وتقمر الرجل إذا طلب من يقامره، وقمر فلانا بمعنى خدعه عنه.",
+      "scope_en": "This includes gambling or gaming against someone and beating him, people gambling together, seeking someone to gamble with, and deceiving someone away from something.",
+      "source_file": "v4/outputs/pass2_branches/root_001255.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/14/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001358/B001",
+      "image_ar": "فعل هازل لا يقصد مقصدا صحيحا",
+      "image_en": "non-serious action without a sound aim",
+      "root_ar": "ل ع ب",
+      "scope_ar": "اللعب المعروف؛ الهزل ضد الجد؛ التلعب وتكرار اللعب؛ اللعبة والملعوب به؛ الملعب موضع اللعب؛ اللعاب صاحب حرفة اللعب",
+      "scope_en": "Play, joking opposed to seriousness, repeated playing, a game or plaything, a place of play, and a professional player.",
+      "source_file": "v4/outputs/pass2_branches/root_001358.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/18/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001382/B003",
+      "image_ar": "طرح الشيء في فم الرحى والعطاء المشبه به",
+      "image_en": "casting grain into the mill mouth, with gift by likeness",
+      "root_ar": "ل ه و",
+      "scope_ar": "يدخل فيه اللهوة: ما يطرحه الطاحن أو يلقى في فم الرحى من الحب، واسم العطية أو الدراهم تشبيها بها، وكثرة اللهى بمعنى كثرة العطاء.",
+      "scope_en": "Includes the material put into a mill for grinding and the derived use for a gift or payment by comparison.",
+      "source_file": "v4/outputs/pass2_branches/root_001382.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/17/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001458/B001",
+      "image_ar": "الماء المعروف وأصل اسمه",
+      "image_en": "water itself and its base name",
+      "root_ar": "م و ه",
+      "scope_ar": "يدخل فيه الماء المعروف، وأصل بنائه على موه أو ماه، وتصغيره مويه، وجمعه مياه وأمواه، والنسبة إليه.",
+      "scope_en": "This branch covers ordinary water, its underlying form as موه or ماه, its diminutive مويه, plurals مياه and أمواه, and nisba forms.",
+      "source_file": "v4/outputs/pass2_branches/root_001458.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/16/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001458/B002",
+      "image_ar": "ظهور الماء ودخوله وكثرته",
+      "image_en": "water appearing, entering, or becoming abundant",
+      "root_ar": "م و ه",
+      "scope_ar": "يدخل فيه ظهور الماء وكثرته في الركية والبئر، ودخول الماء في السفينة، وظهور النز في الأرض، وإسالة السماء ماء كثيرا، وامتلاء الثمر ماء للينع.",
+      "scope_en": "This branch covers water appearing or becoming abundant in a well, entering a ship, seepage appearing in land, the sky pouring much water, and fruit filling with water as it ripens.",
+      "source_file": "v4/outputs/pass2_branches/root_001458.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/16/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001458/B003",
+      "image_ar": "إيصال الماء بالسقي والصب",
+      "image_en": "supplying water by watering or pouring",
+      "root_ar": "م و ه",
+      "scope_ar": "يدخل فيه سقي الإنسان أو الشيء بالماء، وصب الماء في الدواة أو الحوض، وجعل الماء في الشيء، والشجر المسقي.",
+      "scope_en": "This branch covers giving water to a person or object, pouring water into an inkwell or basin, putting water into something, and trees that are watered.",
+      "source_file": "v4/outputs/pass2_branches/root_001458.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/16/branches/2/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B001",
+      "image_ar": "هبوط الشيء وحلوله",
+      "image_en": "descent and alighting",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه الهبوط من علو إلى سفل، النزول عن الدابة، نزول المطر، الحلول في موضع، والتنزل في مهلة.",
+      "scope_en": "Includes descent from above to below, dismounting, rain coming down, settling in a place, and gradual descent.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/10/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001492/B002",
+      "image_ar": "إنزال الشيء وإيصاله",
+      "image_en": "bringing down or sending down",
+      "root_ar": "ن ز ل",
+      "scope_ar": "يدخل فيه إنزال غيره، وإنزال الله النعم والنقم والكتاب والماء واللباس ونحو ذلك، وتنزل الملائكة والأمر، مع تمييز الإنزال العام والتنزيل المتكرر في الوحي.",
+      "scope_en": "Includes causing something to descend, divine sending down of favors, punishments, scripture, water, clothing and similar things, and descent of angels or command, with the distinction between general sending down and repeated revelation.",
+      "source_file": "v4/outputs/pass2_branches/root_001492.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/10/branches/1/variants/0"
+    },
+    {
+      "branch_ref": "root_001681/B001",
+      "image_ar": "تسليم الأمر إلى غيره",
+      "image_en": "handing a matter over to another",
+      "root_ar": "و ك ل",
+      "scope_ar": "يدخل فيه التوكيل والتفويض والوكالة والوكيل الموكول إليه الأمر وما يكل المرء إليه أمره",
+      "scope_en": "Delegation, authorization, agency, the agent entrusted with a matter, and committing one's matter to another belong here.",
+      "source_file": "v4/outputs/pass2_branches/root_001681.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/12/branches/0/variants/0"
+    },
+    {
+      "branch_ref": "root_001681/B006",
+      "image_ar": "القائم بالأمر كفاية وحفظا",
+      "image_en": "the one who undertakes, suffices, and guards",
+      "root_ar": "و ك ل",
+      "scope_ar": "يدخل فيه الوكيل بمعنى الكافي والحافظ والكفيل والقائم بما وكل إليه ورب الإبل في النقل المنفرد",
+      "scope_en": "The agent as sufficer, guardian, guarantor, undertaker of affairs, and the isolated gloss as keeper of camels belong here.",
+      "source_file": "v4/outputs/pass2_branches/root_001681.branches.tsv",
+      "source_pointer": "/branch_inventories/full_context_packet/branch_inventories/12/branches/1/variants/0"
+    }
+  ],
+  "schema_version": "commentary-v3-candidate-docket-v2",
+  "scope": {
+    "branch_coverage": {
+      "complete": true,
+      "focus_root_count": 6,
+      "mapped_root_record_count": 7,
+      "missing_dictionary_roots": [],
+      "registered_branch_count": 59
+    },
+    "hft": {
+      "adjudicable": false,
+      "packet": null,
+      "status": "invalid"
+    },
+    "lane_contract": {
+      "global": "reader walks and cross-run publications with explicit trust labels",
+      "macro": "pericope-anchored channels and exactly matching HFT only",
+      "micro": "focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit"
+    },
+    "pericope": {
+      "ayah_from": 57,
+      "ayah_to": 69,
+      "id": "s029-p05-057-069",
+      "label": "Migration, provision, and striving",
+      "number": 5,
+      "refs": [
+        "29:57",
+        "29:58",
+        "29:59",
+        "29:60",
+        "29:61",
+        "29:62",
+        "29:63",
+        "29:64",
+        "29:65",
+        "29:66",
+        "29:67",
+        "29:68",
+        "29:69"
+      ]
+    }
+  },
+  "support_registry": [
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:3:variant-stable-compound",
+      "source_type": "word_analysis",
+      "support_id": "sup_03c55e3c65b9e0b084b9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"variant shapes keep the same quantifier force\",\"reader_payoff\":\"The reader sees that accepted variant shapes expose the compound's phonological flexibility without relocating its syntactic role or meaning.\",\"reason\":\"The variant rows are useful as apparatus because they preserve the same abundance function rather than replacing the canonical local parse.\",\"representative_source_ids\":[\"QG-7e355cd7\",\"MG-25e05c5a\",\"QF-058931d5\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_03d4edc58c4113f0982c",
+      "text": "- **Later activation (`29:62-63`):** Provision is next shown as deliberate spreading or narrowing and then as rain that converts dead earth to life. These later modes clarify the creature example: non-carrying does not mean provision is unstructured, but that its measure and life-effect originate beyond the creature's stored load.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:9:definite-provider-pivot",
+      "source_type": "word_analysis",
+      "support_id": "sup_0474d547d8997255e7de",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"divine name pivots from lack to supply\",\"reader_payoff\":\"The reader sees agency shift decisively from creature incapacity to the named provider.\",\"reason\":\"The proper name is nominative and syntactically forced as subject of the provision verb.\",\"representative_source_ids\":[\"QG-12d0d0fc\",\"QG-60fe1553\",\"QT-201cccd8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:14:nominal-subject-reset",
+      "source_type": "word_analysis",
+      "support_id": "sup_094e1cf702d510ba0f12",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"explicit pronoun stabilizes the attribute seal\",\"reader_payoff\":\"The reader notices the move from a verbal provision clause to a stable identity clause.\",\"reason\":\"The pronoun is the subject of the final nominal clause whose predicates are the two divine attributes.\",\"representative_source_ids\":[\"QG-62ec1d5d\",\"QG-83657acd\",\"QF-8644ae5f\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:11:shared-object-coordination",
+      "source_type": "word_analysis",
+      "support_id": "sup_0b9cc312a20aaeeb143a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one verb governs creature and audience\",\"reader_payoff\":\"The reader notices that humans are not added in a separate claim; they share the creature's provision verb.\",\"reason\":\"Attachment evidence coordinates the detached object with the suffix object of the same verb.\",\"representative_source_ids\":[\"QG-0a9a39c3\",\"QG-c2db93d1\",\"QT-e1e4c8e4\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:8:root-reprise-provider-contrast",
+      "source_type": "word_analysis",
+      "support_id": "sup_0edd902d413a113165c2",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"noun prepares the provision verb\",\"reader_payoff\":\"The reader hears the provision named as a noun and then enacted by the same root, while the surah contrasts false and true provision (29:17, 29:62).\",\"reason\":\"The local noun-verb reprise and same-surah rows make the provider contrast concrete without importing an unrelated sense.\",\"representative_source_ids\":[\"QT-a2b22ba1\",\"QE-e7dea802\",\"ME-b7fef017\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:6:need-before-answer",
+      "source_type": "word_analysis",
+      "support_id": "sup_13666c5272628caf047d",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negative gap prepares divine provision\",\"reader_payoff\":\"The reader feels dependence structurally: a lack of self-provision is stated before the divine answer appears.\",\"reason\":\"The negated relative clause precedes the positive provider clause and sets up the dependency contrast.\",\"representative_source_ids\":[\"QS-fbc46838\",\"QT-39226ac2\",\"MT-ab34bb20\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:4",
+      "source_type": "word_analysis",
+      "support_id": "sup_13af78bdeeaf03a648de",
+      "text": "{\"gloss_range\":\"specifying preposition after the abundance formula, fixing the counted class as creature while keeping open-ended partitive pressure\",\"prose\":\"{{ar:مِنْ}} ({{tr:min}}) turns the abstract abundance into a named class: how many of creature-kind. It governs the following noun and fixes the field before the relative clause describes incapacity, while its partitive residue keeps the multitude open rather than exhausted. The nasal contact with the following tanwīn also lets the particle-noun bond be heard, not only parsed.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:مِنْ}} ({{tr:min}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:4:creature-class-specifier",
+      "source_type": "word_analysis",
+      "support_id": "sup_1da90e586b526de6a548",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"preposition specifies the quantified class\",\"reader_payoff\":\"The reader notices that the abundance is not generic multitude; it is specified as creature-kind before the incapacity clause arrives.\",\"reason\":\"Attachment evidence forces the prepositional complement relation and the translation guardrail identifies the construction as the abundance formula.\",\"representative_source_ids\":[\"QG-4799b829\",\"QG-63cee7f7\",\"QT-27b122df\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:12",
+      "source_type": "word_analysis",
+      "support_id": "sup_1e1258bcc5f33f384fcd",
+      "text": "{\"gloss_range\":\"detached second-person plural accusative object, foregrounding the addressed audience as co-recipients of provision\",\"prose\":\"{{ar:إِيَّاكُمْ}} ({{tr:iyyākum}}) turns the observed creature lesson into direct address. The detached accusative form is grammatically needed after the earlier object suffix, but that necessity gives the audience weight: the listeners are not outside the provision claim but stand beside the creature as recipients of the same verb. The pronoun chain also pulls the relying group from the prior discourse into direct address (29:59).\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:إِيَّاكُمْ}} ({{tr:iyyākum}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/3/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_type": "channel",
+      "support_id": "sup_212817e9d2b93d46e63e",
+      "text": "The present life becomes a wager when sustenance is fed into an immediate contest whose apparent gain is produced by postponing the real settlement. The lunar root's gambling sense makes the created moon itself a pressure on treating the near world as a gaming table.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:5",
+      "source_type": "word_analysis",
+      "support_id": "sup_237b7cc8859c0feb213d",
+      "text": "{\"gloss_range\":\"any moving creature under the abundance construction, singular and indefinite yet tracked by later feminine suffixes\",\"prose\":\"{{ar:دَآبَّةٍ}} ({{tr:dābbatin}}) is singular and indefinite, so each living creature can stand as one case while the quantifier multiplies the cases. The feminine form then keeps that creature trackable through the later suffixes. Its root pressure makes the scene embodied: moving life on earth persists, yet the relative clause will say it does not carry its own provision. The creature-provision field also recalls the broader claim that no moving creature is outside divine provision (11:6), while 29:60 casts that claim as an exclamatory proof-scene.\",\"root_display\":\"{{ar:د أ ب}} ({{tr:d-ʾ-b}})\",\"root_gloss_range\":\"root range includes creaturely motion and persistence/habit pressure; the local noun selects a motile living being while persistence remains image-pressure\",\"surface_display\":\"{{ar:دَآبَّةٍ}} ({{tr:dābbatin}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000560/B001"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_2671b5220e7b6fcb441e",
+      "text": "1. **Moving creatures live without carrying their own allotted future.** Lexical evidence: `دَابَّة`, root `د ب ب`, `B001` (creeping or light movement on the ground); `تَحْمِل`, root `ح م ل`, `B001` (bearing an outward load); and repeated `رِزْق / يَرْزُق`, root `ر ز ق`, `B001` (provision as an allotted gift). Structural cue: outward carrying is negated, then God supplies creature and addressees together; `29:59` has just named reliance, while `29:61-63` name cosmic command and rain. Assigned role: creaturely motion displays active life; non-carrying blocks self-stockpiling as its sufficient cause; allotment locates provision outside the creature's own load. Abductive move: I infer that inability to transport all future provision is evidence for reliance, not a prohibition on ordinary effort. Reading change: livelihood is decoupled from total self-carrying without decoupling creatures from movement.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:5:motile-dependent-life",
+      "source_type": "word_analysis",
+      "support_id": "sup_27ec0973de3632b5aa12",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"moving life with persistence pressure\",\"reader_payoff\":\"The reader sees a broad class of earth-moving life, with persistence pressure sharpening the irony that such living movement is not self-sustaining.\",\"reason\":\"The local noun selects a motile creature, while the persistence/toil branch remains background pressure rather than replacing the creature sense.\",\"representative_source_ids\":[\"QS-20dc578f\",\"QS-71786813\",\"QS-d8c28ffd\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:13",
+      "source_type": "word_analysis",
+      "support_id": "sup_2c0264d912ea29de8012",
+      "text": "{\"gloss_range\":\"conjunction introducing the final nominal attribute clause, with resumptive and circumstantial force both locally useful\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) launches the closing attribute clause without severing it from provision. As resumption, it sets off a final identifying assertion; as circumstance, it lets hearing and knowing stand concurrent with providing. The compact movement into the pronoun turns the ayah from divine action to divine identity.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/2/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_type": "channel",
+      "support_id": "sup_2c0d83f488fd0d1153e2",
+      "text": "Expansion and constriction are two calibrated gestures of one allocator. The spread ground and extended hand make abundance spatial, while قدر returns it to a bounded quantity suited to the recipient and time.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_2cf764f8bddef132bc80",
+      "text": "The creature's inability to carry provision is not inactivity but a mismatch between mobility and storage. Trust names a transfer of care to a competent agent, while patience resembles surety that remains with the dependent party through the interval.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/3/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_type": "channel",
+      "support_id": "sup_2d60a1da9c2ec056588c",
+      "text": "ق م ر 29:61; ل ع ب 29:64; ل ه و 29:64; ر ز ق 29:60,62; ء خ ر 29:64; د ن و 29:64.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:10:object-chain-to-audience",
+      "source_type": "word_analysis",
+      "support_id": "sup_32fb48b76a9713c94367",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"one verb reaches creature and audience\",\"reader_payoff\":\"The reader sees the provision claim expand from observed creature to addressed listeners under one verb.\",\"reason\":\"Attachment evidence coordinates the later detached pronoun with the object suffix of this same verb.\",\"representative_source_ids\":[\"QG-6bc7825e\",\"QT-b1e61407\",\"QY-81b3085e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:7:simple-carrying-burden-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_33ff89d3e20438dea48e",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"simple carrying with burden-family pressure\",\"reader_payoff\":\"The reader feels provision as a carryable burden that the creature does not self-transport, while the local Form I blocks replacing the verb with endurance or reflexive burden-taking.\",\"reason\":\"The explicit object selects material carrying, while wider burden, pregnancy, and responsibility branches remain comparative pressure rather than local senses.\",\"representative_source_ids\":[\"MG-30a1e7ab\",\"QS-0c9e727a\",\"QF-d1c4516c\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:9:worship-refuge-name-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_351373ec1f7fdd0d6782",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"divine-name background grounds provider identity\",\"reader_payoff\":\"The reader feels provision as an act of the worship-focus and refuge, while the local form remains the proper divine name.\",\"reason\":\"The derivational dispute can color the named provider but does not replace the local proper-name reference.\",\"representative_source_ids\":[\"QS-2a23137e\",\"QS-c06e2c5c\",\"QF-746b0686\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:6:scoped-habitual-negation",
+      "source_type": "word_analysis",
+      "support_id": "sup_3ac48524462f479766f1",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"negation belongs to the relative verb\",\"reader_payoff\":\"The reader notices that the ayah denies an ongoing creature action, not provision or creaturely existence.\",\"reason\":\"Attachment evidence places the negation inside the relative modifier and the translation support warns against extending its scope to divine provision.\",\"representative_source_ids\":[\"QG-a180b5c7\",\"QG-b57d83fc\",\"MG-3b266df0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:15:pair-cadence-and-surah-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_3c2d801ce161604b3b6c",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"sound and same-surah echo unify the pair\",\"reader_payoff\":\"The reader hears the two predicates as a designed pair through their tightened onset and shared cadence, and sees their same-surah reprise (29:5).\",\"reason\":\"The rows give the concrete same-surah pair and the local cadence that binds the two attributes.\",\"representative_source_ids\":[\"QE-d4c60820\",\"ME-8282ff45\",\"QP-de4d7945\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:3:lesson-formula-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_3fe5e57b5e0edec1946b",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"formula reused for large-scale lessons\",\"reader_payoff\":\"The reader notices that this creature example participates in a wider lesson-opening formula used in other Quranic scenes (3:146, 22:45, 47:13).\",\"reason\":\"The rows give concrete parallels and the local ayah adapts the same formula to biological dependence.\",\"representative_source_ids\":[\"QI-e2804198\",\"MI-a9dd01c7\",\"QE-f13674fc\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/18",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:12:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_4cd8348adbf3be478f3d",
+      "text": "{\"lemma_ar\":\"عَلِيم\",\"morph_features\":\"STEM|POS:ADJ|LEM:Ealiym|ROOT:Elm|MS|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"ADJ\",\"qac_ref\":\"29:60:12:2\",\"qac_word_ref\":\"29:60:12\",\"root_ar\":\"ع ل م\",\"surface_ar\":\"عَلِيمُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:2:compound-abundance",
+      "source_type": "word_analysis",
+      "support_id": "sup_4d869722f2efb67f2e52",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"simile particle fused into quantifier\",\"reader_payoff\":\"The reader notices that the particle helps form an abundance formula, not a standalone comparison.\",\"reason\":\"The local construction is the recognized compound abundance formula, so the comparison-like residue survives only inside that formation.\",\"representative_source_ids\":[\"QG-12be5cee\",\"QS-541b5222\",\"QF-447c05e8\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:12:detached-object-foregrounding",
+      "source_type": "word_analysis",
+      "support_id": "sup_53592da40bd10c842512",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"grammar forces a foregrounded object\",\"reader_payoff\":\"The reader notices that the separate pronoun is not a new topic but a foregrounded object under the provision verb.\",\"reason\":\"The pronoun is an explicit coordinated object because a second object suffix cannot attach to the same verb.\",\"representative_source_ids\":[\"QG-460b5254\",\"QG-75a79bb1\",\"QF-2f7d5668\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_53aafaeb99149fad5ccf",
+      "text": "Sustenance depends on apportioned expansion and reliable custody, not on a creature's ability to carry and secure its own future.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:2",
+      "source_type": "word_analysis",
+      "support_id": "sup_54d635a66bf2a1379259",
+      "text": "{\"gloss_range\":\"bound first element of the abundance formula, no longer an ordinary free simile marker\",\"prose\":\"{{ar:كَ}} ({{tr:ka}}) is absorbed into the compound quantifier, so its likeness force becomes a way of multiplying imagined cases rather than making a simple comparison. The visible and heard fusion with the next particle helps the opening feel like one abundance-launch.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:كَ}} ({{tr:ka}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:14",
+      "source_type": "word_analysis",
+      "support_id": "sup_5816ea5e44f8a4a4588f",
+      "text": "{\"gloss_range\":\"explicit third-person pronoun resuming the divine name as subject of the final nominal attribute clause\",\"prose\":\"{{ar:هُوَ}} ({{tr:huwa}}) retains the subject before the two predicates and resets the clause from action to identity. It resumes the earlier divine name rather than the nearby creature, so the provision subject remains continuous while the ayah closes on stable attributes.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:هُوَ}} ({{tr:huwa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:16:final-frame-and-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_5874a9a264b38bdfbc91",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"final knowledge frames the creature proof\",\"reader_payoff\":\"The reader notices that the ayah closes from countless dependent lives into complete knowledge, with the attribute pair reprised from 29:5.\",\"reason\":\"The row family ties final position, same-surah echo, and opening abundance into one frame.\",\"representative_source_ids\":[\"QT-05bcff60\",\"QE-837e6a46\",\"QY-3e6ed41e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/10",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:11",
+      "source_type": "word_analysis",
+      "support_id": "sup_64238cd458405c0710db",
+      "text": "{\"gloss_range\":\"coordinating particle that joins the detached human object to the creature suffix under the same provision verb\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) is the small hinge that keeps the human addressees under the same provision verb as the creature. By coordinating the detached pronoun with the prior suffix, it prevents a separate human-provision clause and makes creature and audience co-present in one dependency field.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/6",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:6:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_64508c54f6851153299b",
+      "text": "{\"lemma_ar\":\"رِزْق\",\"morph_features\":\"STEM|POS:N|LEM:rizoq|ROOT:rzq|M|ACC\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:60:6:1\",\"qac_word_ref\":\"29:60:6\",\"root_ar\":\"ر ز ق\",\"surface_ar\":\"رِزْقَ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:16",
+      "source_type": "word_analysis",
+      "support_id": "sup_682a4eacfb97c678fba8",
+      "text": "{\"gloss_range\":\"definite intensive knowing attribute, second predicate completing the hearing-knowledge seal and final word of the ayah\",\"prose\":\"{{ar:ٱلْعَلِيمُ}} ({{tr:al-ʿalīmu}}) completes the seal by making provision land under comprehensive knowledge. The form selects possessed knowledge itself, not teaching or informing, and it matches the preceding attribute in definiteness, nominative ending, and faʿīl shape. As the final word, it lets the ayah's movement run from uncounted creatures to exhaustive divine knowledge, with the same pair echoing earlier in the surah (29:5).\",\"root_display\":\"{{ar:ع ل م}} ({{tr:ʿ-l-m}})\",\"root_gloss_range\":\"root range includes knowing, learning, teaching, informing, distinguishing marks, and created realms as signs; local faʿīl attribute selects comprehensive knowledge\",\"surface_display\":\"{{ar:ٱلْعَلِيمُ}} ({{tr:al-ʿalīmu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000025/B002",
+        "root_000383/B002",
+        "root_000560/B003",
+        "root_001458/B001",
+        "root_001458/B002",
+        "root_001458/B003",
+        "root_001492/B001",
+        "root_001492/B002"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_type": "channel",
+      "support_id": "sup_69bfbfbe92a967e504ca",
+      "text": "water in its basic substance `quranic:root_001458:B001/m01`; water appearing and increasing in ground or vessel `quranic:root_001458:B002/m01`; watering by delivery and pouring `quranic:root_001458:B003/m01`; rain descending and settling `quranic:root_001492:B001/m01`; water delivered downward `quranic:root_001492:B002/m03`; land revived by rain and vegetation `quranic:root_000383:B002/m01`; soft productive ground `quranic:root_000025:B002/m01`; rain as provision `quranic:root_000560:B003/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:3",
+      "source_type": "word_analysis",
+      "support_id": "sup_6ed7dedd52b8f8df7dc7",
+      "text": "{\"gloss_range\":\"exclamatory quantifier core of the abundance formula, with interrogative residue making the multitude feel uncounted\",\"prose\":\"{{ar:أَيِّ}} ({{tr:ayyi}}) gives the opening its exclamatory quantity: the clause is built around countless cases before the creature is even described. Its interrogative ancestry still matters because the quantity feels open-ended, and the variant evidence shows flexibility in sound and compression without changing that abundance function. The same formula introduces large-scale lessons elsewhere (3:146, 22:45, 47:13), here adapted to dependent creatures.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:أَيِّ}} ({{tr:ayyi}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/2/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_type": "channel",
+      "support_id": "sup_7287e14faa7a55aff5f8",
+      "text": "ب س ط 29:62; ق د ر 29:62; ر ز ق 29:60,62.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000741/B003",
+        "root_001040/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/1",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-2",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_72993c87a826773714bc",
+      "text": "{\"anchors\":[[\"29:60:11\",\"root_000741\",[\"B003\"]],[\"29:60:12\",\"root_001040\",[\"B001\"]]],\"grade\":\"weak\",\"text\":\"Allah'ın işitmesi ve bilmesi, rızkı yalnız ihtiyacını dile getirebilenlere bağlamaz; konuşamayan canlının durumu da sağlayıcının bilgisi içindedir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000357/B004",
+        "root_000357/B007",
+        "root_000457/B001",
+        "root_000457/B012",
+        "root_000840/B003",
+        "root_001681/B001",
+        "root_001681/B006"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_72f2cba079d848a1b8c0",
+      "text": "carrying a visible load `quranic:root_000357:B001/m01`; guaranteeing an obligation `quranic:root_000357:B004/m01`; exhausting effort under a load `quranic:root_000357:B007/m01`; creature moving lightly or slowly on earth `quranic:root_000457:B001/m01`; path along which small creatures or water move `quranic:root_000457:B012/m01`; surety and continuing accompaniment `quranic:root_000840:B003/m01`; entrusting an affair to another `quranic:root_001681:B001/m01`; agent who suffices, guards, and manages `quranic:root_001681:B006/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:7:root-shift-to-provision",
+      "source_type": "word_analysis",
+      "support_id": "sup_73a5e6ad904935bec488",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"carrying root shifts from burdens to provision\",\"reader_payoff\":\"The reader notices a same-root expansion: what can be carried biologically or morally elsewhere becomes provision-dependence here (7:189, 29:12-13).\",\"reason\":\"The rows provide concrete same-root contrasts and the local direct object changes the field to provision.\",\"representative_source_ids\":[\"QI-995bbe18\",\"MI-dae3a736\",\"QE-3b33a34a\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:15:definite-comprehensive-hearing",
+      "source_type": "word_analysis",
+      "support_id": "sup_7851ff9cd9ef3f459311",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"stable all-hearing attribute\",\"reader_payoff\":\"The reader recognizes a stable comprehensive hearing attribute, while derivative listening forms remain contrast rather than the selected local sense.\",\"reason\":\"The local definite faʿīl predicate selects comprehensive hearing; effortful listening derivatives are useful contrast but do not control the surface.\",\"representative_source_ids\":[\"QG-5dcb43e7\",\"QS-36fc517d\",\"QF-01e16c34\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/3",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:10:provision-thread-reprise",
+      "source_type": "word_analysis",
+      "support_id": "sup_7c04984224c94a872827",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"verb activates the earlier noun\",\"reader_payoff\":\"The reader hears the root move from named provision to enacted provision, making the central semantic turn audible.\",\"reason\":\"The same root appears as the prior noun and this verb, with the divine name as explicit subject.\",\"representative_source_ids\":[\"QI-90e56dd7\",\"QE-48ee9c77\",\"ME-39c00e25\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:16:comprehensive-knowledge",
+      "source_type": "word_analysis",
+      "support_id": "sup_816f864b354e8463fae0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"knowing selected over teaching or informing\",\"reader_payoff\":\"The reader understands the close as complete knowledge of states and needs, while teaching and informing remain root-family contrasts rather than local actions.\",\"reason\":\"The local faʿīl predicate selects the comprehensive knower attribute; other root branches do not replace that selected sense.\",\"representative_source_ids\":[\"QS-0e2ce52c\",\"QS-793994c7\",\"QF-82ffc7c9\"],\"status\":\"narrowed\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/8",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:7:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_82c13c4e0c2eabac6603",
+      "text": "{\"lemma_ar\":\"ٱللَّه\",\"morph_features\":\"STEM|POS:PN|LEM:{ll~ah|ROOT:Alh|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"PN\",\"qac_ref\":\"29:60:7:1\",\"qac_word_ref\":\"29:60:7\",\"root_ar\":\"ء ل ه\",\"surface_ar\":\"ٱللَّهُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:1",
+      "source_type": "word_analysis",
+      "support_id": "sup_8321d6e8d56e6d8fc2c2",
+      "text": "{\"gloss_range\":\"opening connective that resumes the prior reliance command and launches the creature-provision proof\",\"prose\":\"{{ar:وَ}} ({{tr:wa}}) makes the ayah begin as connected argument, not as an isolated observation. It carries the prior reliance setting (29:59) into a new proof-scene, so the reader meets the creature tableau as evidence for trusting the provider rather than as a detached natural fact.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:وَ}} ({{tr:wa}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_8ad1f11daba5f79bc21e",
+      "text": "A moving creature lacks the means to bear its store, so responsibility passes to a guarantor or entrusted agent who preserves and supplies it.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000116/B001",
+        "root_000116/B002",
+        "root_000116/B003",
+        "root_000116/B004",
+        "root_000560/B001",
+        "root_001205/B001",
+        "root_001205/B004",
+        "root_001205/B005"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/2/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_type": "channel",
+      "support_id": "sup_8b5748965e87b92a5e6b",
+      "text": "spreading and extension `quranic:root_000116:B001/m01`; broad level ground or carpet `quranic:root_000116:B002/m01`; increase and abundance `quranic:root_000116:B003/m01`; extending the hand to give or withhold `quranic:root_000116:B004/m01`; measured quantity and limit `quranic:root_001205:B001/m01`; constricting provision `quranic:root_001205:B004/m01`; planning an allotment by measure `quranic:root_001205:B005/m01`; assigned gift or share `quranic:root_000560:B001/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/retrospective_surprises_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:retrospective_surprises_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_91f8cc3f944f2cf7014a",
+      "text": "29:62 explains the variable provisioning field through expansion and measured restriction. The creature model does not promise uniform abundance; it locates both conditions under one knowing provider.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:15",
+      "source_type": "word_analysis",
+      "support_id": "sup_925c0ecacd168897f18d",
+      "text": "{\"gloss_range\":\"definite intensive hearing attribute, first predicate of the final seal and paired with knowledge\",\"prose\":\"{{ar:ٱلسَّمِيعُ}} ({{tr:al-samīʿu}}) identifies the provider through comprehensive hearing, not merely through an added quality. The definite faʿīl form makes hearing stable and total rather than effortful listening, and its position before the knowledge predicate shifts the argument from material supply to divine awareness. Its assimilated onset begins the seal tightly, and the shared long vowel and final nominative cadence with the next predicate make the pair audible as a unit. The pair recurs earlier in the surah (29:5), so the provision scene closes with a familiar hearing-knowledge seal.\",\"root_display\":\"{{ar:س م ع}} ({{tr:s-m-ʿ}})\",\"root_gloss_range\":\"root range includes hearing, attentive listening, understanding/compliance, causing to hear, reputation, and other named extensions; local faʿīl attribute selects comprehensive hearing rather than effortful listening\",\"surface_display\":\"{{ar:ٱلسَّمِيعُ}} ({{tr:al-samīʿu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/11/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:12:audience-co-recipient-shift",
+      "source_type": "word_analysis",
+      "support_id": "sup_926c50b93943f81dff22",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"creature observation becomes direct address\",\"reader_payoff\":\"The reader feels the rhetorical turn from third-person creature to second-person audience: the hearers from the prior reliance discourse (29:59) are conscripted into the same dependency relation.\",\"reason\":\"The pronoun's second-person plural form and coordination with the creature suffix create the direct-address turn.\",\"representative_source_ids\":[\"QS-51229040\",\"QI-4e17cac7\",\"QY-d42da3d6\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:8:allotted-provision",
+      "source_type": "word_analysis",
+      "support_id": "sup_939e2db698eeccf679fa",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"provision as allotted livelihood\",\"reader_payoff\":\"The reader understands the object as an allotted livelihood broader than mere food, which makes dependence more than a feeding image.\",\"reason\":\"The local possessed noun selects provision/allotment while food remains one branch within the broader root range.\",\"representative_source_ids\":[\"QS-9e4336cd\",\"QS-d0d9b929\",\"MS-7ce5b58e\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/0/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:1:resumptive-proof-launch",
+      "source_type": "word_analysis",
+      "support_id": "sup_94669a479ea1b72867e6",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"opening connector turns reliance into proof\",\"reader_payoff\":\"The reader notices that the creature-provision scene answers the prior reliance discourse (29:59) instead of beginning a standalone reflection.\",\"reason\":\"The opening conjunction precedes the quantified construction and links the prior reliance frame to the empirical provision claim.\",\"representative_source_ids\":[\"QG-57d04d97\",\"QT-a4c2333b\",\"QB-7b3a2a94\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:10",
+      "source_type": "word_analysis",
+      "support_id": "sup_95c30fdea5ef50fe4bbe",
+      "text": "{\"gloss_range\":\"ongoing divine provision for the creature, with the object suffix later expanded to include the addressees\",\"prose\":\"{{ar:يَرْزُقُهَا}} ({{tr:yarzuquhā}}) answers the negated carrying with ongoing divine provision: sustaining supply rather than a single feeding event. The suffix returns to the same creature, turning the non-carrying subject into a recipient, and the finite Form I verb presents provision as direct action rather than only a title. The verb does not stop with the creature; it opens the object chain that will add the audience as co-recipients.\",\"root_display\":\"{{ar:ر ز ق}} ({{tr:r-z-q}})\",\"root_gloss_range\":\"root range includes providing, sustaining, feeding, allotment, and provider names; local Form I imperfect selects direct ongoing supply by God\",\"surface_display\":\"{{ar:يَرْزُقُهَا}} ({{tr:yarzuquhā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:5:singular-tracked-creature",
+      "source_type": "word_analysis",
+      "support_id": "sup_9d9f9c2edf7d37f0b370",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"indefinite singular becomes a tracked participant\",\"reader_payoff\":\"The reader notices that an unnamed creature becomes grammatically stable through agreement and suffix tracking.\",\"reason\":\"The noun is the quantified complement, controls the feminine verb and suffix chain, and remains the antecedent for later pronouns.\",\"representative_source_ids\":[\"QG-00236e7d\",\"QG-a64ea12c\",\"QF-6a1b7d0b\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/4/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:5:creature-provision-echo",
+      "source_type": "word_analysis",
+      "support_id": "sup_9e57d3acaa3461743f33",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"creature-provision field becomes local proof\",\"reader_payoff\":\"The reader notices that the local creature scene participates in a known creature-provision field (11:6) while also grounding the surah's reliance argument.\",\"reason\":\"The rows provide concrete parallels and the local syntax changes the universal field into an exclamatory proof.\",\"representative_source_ids\":[\"QI-dcf79caf\",\"MI-a8f3e04e\",\"QE-5cc8ecd9\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:8",
+      "source_type": "word_analysis",
+      "support_id": "sup_9fdde3207960ad551a75",
+      "text": "{\"gloss_range\":\"the creature's possessed provision or allotted livelihood, named as the object it does not carry\",\"prose\":\"{{ar:رِزْقَهَا}} ({{tr:rizqahā}}) names the provision as the creature's own share while making it the object of negated carrying. That suffix creates the paradox: the provision is related to the creature, but possession does not mean self-transport or self-control. The same root soon returns as a verb, so the named allotment becomes enacted provision, and the surah's false-provider contrast is sharpened by 29:17 and 29:62.\",\"root_display\":\"{{ar:ر ز ق}} ({{tr:r-z-q}})\",\"root_gloss_range\":\"root range includes provision as allotted gift, sustaining food, rain as provision, stipends, and fortunate share; local possessed noun selects the creature's allotted provision\",\"surface_display\":\"{{ar:رِزْقَهَا}} ({{tr:rizqahā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:13:attribute-clause-scope",
+      "source_type": "word_analysis",
+      "support_id": "sup_a27e7afb23d06c1acc03",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"resumption and circumstance ground the close\",\"reader_payoff\":\"The reader notices that the final names are not a loose formula; they are either the next grounding assertion or the circumstance of provision.\",\"reason\":\"The final nominal clause is syntactically forced, and both resumptive and circumstantial readings preserve the closure's relation to provision.\",\"representative_source_ids\":[\"QG-a6632fbd\",\"QG-c7e6f41e\",\"QS-3d781006\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/3/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_type": "channel",
+      "support_id": "sup_a36cc12966191e0b0fea",
+      "text": "Immediate play diverts attention from a deferred reality and consumes or risks what should sustain purposeful life.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:7:ongoing-creature-non-carrying",
+      "source_type": "word_analysis",
+      "support_id": "sup_a3b8348ccdddc000bf10",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"imperfect feminine verb denies ongoing carrying\",\"reader_payoff\":\"The reader sees the creature itself as the continuing subject of non-carrying, not a generic plural or human group.\",\"reason\":\"The verb is imperfect, feminine singular, and part of the relative modifier of the creature.\",\"representative_source_ids\":[\"QG-2fbdbd4b\",\"QG-5ccd3587\",\"QF-440e8925\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/14/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:15:provision-to-awareness-seal",
+      "source_type": "word_analysis",
+      "support_id": "sup_a562553762c71b0980d8",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"hearing joins knowledge as provision's ground\",\"reader_payoff\":\"The reader notices that provision is grounded in receptive awareness, not pictured as blind distribution.\",\"reason\":\"The final predicates form a known divine-name pair and are syntactically tied to the provider pronoun.\",\"representative_source_ids\":[\"QI-292fbf17\",\"QT-80b07157\",\"QY-5c0782a7\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_type": "channel",
+      "support_id": "sup_a86dd35d9a89f53b622d",
+      "text": "Water is delivered from above, enters exhausted ground, and converts it into a living, productive surface.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/6",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:7",
+      "source_type": "word_analysis",
+      "support_id": "sup_b038a5c874ab72f6707c",
+      "text": "{\"gloss_range\":\"ongoing simple carrying or bearing of provision, negated of the creature in a relative modifier\",\"prose\":\"{{ar:تَحْمِلُ}} ({{tr:taḥmilu}}) is the ongoing action denied of the creature, with feminine agreement keeping the creature itself as subject. The Form I verb selects simple carrying rather than a reflexive endurance form, yet the load-bearing root range makes provision feel like something too weighty to self-manage. The same root has carried biological and moral burdens elsewhere (7:189, 29:12, 29:13); here the object shifts the pressure into material dependence.\",\"root_display\":\"{{ar:ح م ل}} ({{tr:ḥ-m-l}})\",\"root_gloss_range\":\"root range includes physical carrying, inward bearing, moral burden, responsibility, guarantee, and burdened exertion; local Form I with a provision object selects simple carrying while retaining burden pressure\",\"surface_display\":\"{{ar:تَحْمِلُ}} ({{tr:taḥmilu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/3/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_type": "channel",
+      "support_id": "sup_b3501c7e58f1ce96bf99",
+      "text": "A player stakes an immediate possession, feeds resources into a game-like mechanism, and risks the deferred return for a near gain.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:9",
+      "source_type": "word_analysis",
+      "support_id": "sup_b96b7435b2aa9fb8148e",
+      "text": "{\"gloss_range\":\"the definite divine proper name as nominative subject and agency pivot for provision\",\"prose\":\"{{ar:ٱللَّهُ}} ({{tr:Allāhu}}) enters exactly where the creature's non-carrying needs an agent. As a nominative, definite proper name, it blocks any generic provider reading and makes the subject of provision explicit before the verb. The worship/refuge background of the divine name survives as pressure: the provider is not an impersonal supply-source but the named One to whom reliance is directed, a provision thread reinforced nearby (29:17, 29:62).\",\"root_display\":\"{{ar:أ ل ه}} ({{tr:ʾ-l-h}})\",\"root_gloss_range\":\"divine-name field includes deity, worship-focus, refuge, and debated derivational backgrounds; the local proper name fixes the definite provider\",\"surface_display\":\"{{ar:ٱللَّهُ}} ({{tr:Allāhu}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_type": "channel",
+      "support_id": "sup_baeca4dc0117c1e6cec3",
+      "text": "م و ه 29:63; ن ز ل 29:63; ح ي ي 29:63-64; ء ر ض 29:61,63; ر ز ق 29:60,62.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/2/scene_or_process",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_type": "channel",
+      "support_id": "sup_bc02303ca746e4303b89",
+      "text": "An allotter spreads resources or extends a giving hand, then narrows the quantity to an exact measure.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/1/ayah_anchors",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "A:Load, Guarantor, and Entrusted Care",
+      "source_type": "channel",
+      "support_id": "sup_be8bf9f33237d9992d3f",
+      "text": "ح م ل 29:60; د ب ب 29:60; ص ب ر 29:59; و ك ل 29:59.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/8/topics/2",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:9:surah-provider-thread",
+      "source_type": "word_analysis",
+      "support_id": "sup_c42c2bcfe9b723cc481a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"provider thread recurs around the ayah\",\"reader_payoff\":\"The reader notices that the divine name with provision is part of the surah's provider argument (29:17, 29:62).\",\"reason\":\"The local subject-verb relation realizes the broader divine-name/provision pairing in a compact clause.\",\"representative_source_ids\":[\"QI-7fac0cfd\",\"QE-72513c9b\",\"ME-75a5529d\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000741/B003"
+      ],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks_wide/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:2",
+      "source_type": "v12_reader_walks_wide",
+      "support_id": "sup_c53ec7ba803d971e4cc7",
+      "text": "2. **Divine reception and knowledge encompass moving need before human inference catches up.** Lexical evidence: `ٱلسَّمِيع`, root `س م ع`, `B003` (understanding and compliance), and `ٱلْعَلِيم`, root `ع ل م`, `B001` (knowing as clear). Structural cue: the attribute pair follows provision to animals and people; `29:61` shows humans giving a correct verbal answer yet being diverted, and `29:63` says most do not restrain themselves by understanding. Assigned role: hearing receives articulated need, while knowledge reaches unarticulated creaturely condition. Abductive move: the packet does not state that every allotment is triggered by a request; I infer that provision is not limited by whether its recipient can formulate one. Reading change: provider knowledge outruns the beneficiary's explicit speech and reasoning.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/synthesis",
+      "role": "candidate_evidence",
+      "scope": "macro",
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_type": "channel",
+      "support_id": "sup_c5bf17af20959e0c2ef0",
+      "text": "Revival is a material conversion: descending water enters an apparently finished substrate and reopens its productive capacity. The same rain is provision because it feeds a system before it appears as food in a hand.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000357/B001",
+        "root_000457/B001",
+        "root_000560/B001"
+      ],
+      "citable": true,
+      "json_pointer": "/v12_cross_run_publication/findings/0",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "finding-1",
+      "source_type": "cross_run_publication",
+      "support_id": "sup_c7d86b2ff4f56b0c498e",
+      "text": "{\"anchors\":[[\"29:60:3\",\"root_000457\",[\"B001\"]],[\"29:60:5\",\"root_000357\",[\"B001\"]],[\"29:60:6\",\"root_000560\",[\"B001\"]],[\"29:60:8\",\"root_000560\",[\"B001\"]]],\"grade\":\"strong\",\"text\":\"Hareket eden canlının gelecekteki rızkını yük olarak yanında taşımaması, hareketi terk etmeden kendi kendine kapalı güvenlikten daha geniş bir rızık ilişkisine dayanabileceğini gösterir.\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": false,
+      "json_pointer": "/v12_reader_walks/reader_a/activated_readings_md",
+      "role": "candidate_evidence",
+      "scope": "global",
+      "source_local_id": "reader_a:activated_readings_md:1",
+      "source_type": "v12_reader_walks",
+      "support_id": "sup_c80dcda51bd012648ec4",
+      "text": "1. **Provision accompanies low, vulnerable movement.** د ب ب B001 is creeping or light movement on the ground, and B003 is imperceptible creeping spread. The creature does not carry its own provision, yet God provisions it and the addressed migrants alike. I infer that mobility without stored load is not abandonment of means but exposure to a broader provisioning relation; the ayah reads the creeping creature as a model that decouples movement from self-contained security.",
+      "trust": "legacy_unbound"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/5",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:5:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_ca3df4db4f26bf13db0b",
+      "text": "{\"lemma_ar\":\"حَمَلَ\",\"morph_features\":\"STEM|POS:V|IMPF|LEM:Hamala|ROOT:Hml|3FS\",\"morpheme_role\":\"STEM\",\"pos\":\"V\",\"qac_ref\":\"29:60:5:1\",\"qac_word_ref\":\"29:60:5\",\"root_ar\":\"ح م ل\",\"surface_ar\":\"تَحْمِلُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/7/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:8:possessed-object-paradox",
+      "source_type": "word_analysis",
+      "support_id": "sup_cb57827dd37b62a77520",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"its provision is possessed but not self-carried\",\"reader_payoff\":\"The reader notices the tension between relational possession and incapacity: the provision is its share, yet it cannot carry it.\",\"reason\":\"The noun is the direct object of the negated verb and its suffix resolves to the creature.\",\"representative_source_ids\":[\"QG-83f5ed2e\",\"QG-b7dbe689\",\"MT-c5eba994\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/3",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:3:1",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_cc4850a5f02a5b120774",
+      "text": "{\"lemma_ar\":\"دَآبَّة\",\"morph_features\":\"STEM|POS:N|LEM:daA^b~ap|ROOT:dbb|F|INDEF|GEN\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:60:3:1\",\"qac_word_ref\":\"29:60:3\",\"root_ar\":\"د ب ب\",\"surface_ar\":\"دَآبَّةٍ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:10:ongoing-direct-provision",
+      "source_type": "word_analysis",
+      "support_id": "sup_d15dc2db482e664e7b90",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"ongoing provision answers ongoing non-carrying\",\"reader_payoff\":\"The reader notices that the answer to continuing creature incapacity is continuing direct sustaining provision by God, not a single feeding event or mediated title.\",\"reason\":\"The imperfect Form I verb with divine subject and object suffix selects ongoing direct supply.\",\"representative_source_ids\":[\"QG-073d015c\",\"QS-1079cee8\",\"QF-226610d5\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/3/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:4:open-ended-partitive-pressure",
+      "source_type": "word_analysis",
+      "support_id": "sup_d3349e600e34d41eb91a",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"partitive residue leaves the abundance open\",\"reader_payoff\":\"The reader feels the creature class as sampled from an unexhausted living field, with the particle-noun bond also audible rather than only conceptual.\",\"reason\":\"The local use is explicative/specifying, while the row's partitive pressure coherently supports the uncounted abundance.\",\"representative_source_ids\":[\"QS-675ecfc5\",\"QP-22c3bf23\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/0/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Descending Water and Revived Ground",
+      "source_type": "channel",
+      "support_id": "sup_dc1e57cfe54471c7ee29",
+      "text": "Life moves through loss, return, descending water, and renewed circulation rather than remaining a self-sustaining possession.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/2/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:3:exclamatory-abundance",
+      "source_type": "word_analysis",
+      "support_id": "sup_dd7460d5fa1a97c2ef29",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"abundance before ordinary predication\",\"reader_payoff\":\"The reader notices that the ayah begins from uncounted multiplicity, making the proof grow from a vast creature-field.\",\"reason\":\"The quantified construction occupies the clause opening and is explicitly guarded as an indefinite abundance formula.\",\"representative_source_ids\":[\"QG-f7572478\",\"QS-f70c914c\",\"QT-0b282a05\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/12/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:13:compact-clause-hinge",
+      "source_type": "word_analysis",
+      "support_id": "sup_df6bac55c75b836f1348",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"minimal hinge turns action to identity\",\"reader_payoff\":\"The reader feels a concise transition from providing action to stable divine identity.\",\"reason\":\"The conjunction-pronoun sequence is the local form that opens the final nominal predication.\",\"representative_source_ids\":[\"QF-81c012eb\",\"QF-eed3faa1\",\"QP-5ab98367\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/9/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:10:creature-recipient-shift",
+      "source_type": "word_analysis",
+      "support_id": "sup_dff0c29c10eb3fe1c58f",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"same creature shifts from non-agent to recipient\",\"reader_payoff\":\"The reader tracks one creature across the turn from inability to receiving.\",\"reason\":\"The suffix in the provision verb is strongly linked back to the creature, not to the human addressees.\",\"representative_source_ids\":[\"QG-abff03f3\",\"QS-dd9843f7\",\"MS-c028a9f0\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/qac_morphemes/16",
+      "role": "focus_occurrence",
+      "scope": "micro",
+      "source_local_id": "29:60:11:2",
+      "source_type": "qac_morpheme",
+      "support_id": "sup_ea5ec03ee025998e5fa7",
+      "text": "{\"lemma_ar\":\"سَمِيع\",\"morph_features\":\"STEM|POS:N|LEM:samiyE|ROOT:smE|MS|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"29:60:11:2\",\"qac_word_ref\":\"29:60:11\",\"root_ar\":\"س م ع\",\"surface_ar\":\"سَّمِيعُ\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [
+        "root_000019/B002",
+        "root_000493/B003",
+        "root_000560/B002",
+        "root_001255/B007",
+        "root_001358/B001",
+        "root_001382/B003"
+      ],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/3/active_motifs",
+      "role": "branch_nomination",
+      "scope": "macro",
+      "source_local_id": "B:Wagering the Immediate Against the Deferred",
+      "source_type": "channel",
+      "support_id": "sup_ec38549511a45e56c16e",
+      "text": "gambling and victory by wager or deception `quranic:root_001255:B007/m01`; game or plaything `quranic:root_001358:B001/m02`; professional player `quranic:root_001358:B001/m03`; grain cast into a mill-mouth and gift likened to it `quranic:root_001382:B003/m01`; nourishment consumed `quranic:root_000560:B002/m01`; deferral to a later time `quranic:root_000019:B002/m01`; baseness of the lower choice `quranic:root_000493:B003/m01`",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/15/topics/0",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:16:paired-definite-attribute",
+      "source_type": "word_analysis",
+      "support_id": "sup_ece490e433fba121f9e9",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"second predicate completes the paired seal\",\"reader_payoff\":\"The reader sees the final word as part of a tight two-predicate seal, not as a loose added quality.\",\"reason\":\"Attachment evidence coordinates the second attribute with the first as predicates of the same pronoun.\",\"representative_source_ids\":[\"QG-45e989fc\",\"QG-f7d1671e\",\"QF-045f62aa\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/channel_subchannels_anchored_here/2/parent_semantic_invariant",
+      "role": "context_only",
+      "scope": "macro",
+      "source_local_id": "B:Spreading, Extending, and Exact Constriction",
+      "source_type": "channel",
+      "support_id": "sup_f77a833310244742c997",
+      "text": "Sustenance depends on apportioned expansion and reliable custody, not on a creature's ability to carry and secure its own future.",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/5",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:6",
+      "source_type": "word_analysis",
+      "support_id": "sup_fb76c8439d4bd9f95145",
+      "text": "{\"gloss_range\":\"negative particle scoped inside the creature's relative clause, denying ongoing self-carrying rather than provision itself\",\"prose\":\"{{ar:لَا}} ({{tr:lā}}) narrows the negation to the creature's carrying action. It does not deny the creature or its provision; it creates the ongoing gap that the next clause fills when God provides. The short particle makes the refusal of self-carrying arrive before the heavier verb unfolds.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:لَا}} ({{tr:lā}})\"}",
+      "trust": "trusted"
+    },
+    {
+      "branch_refs": [],
+      "citable": true,
+      "json_pointer": "/word_analysis/words/13/topics/1",
+      "role": "candidate_evidence",
+      "scope": "micro",
+      "source_local_id": "29:60:14:divine-resumption",
+      "source_type": "word_analysis",
+      "support_id": "sup_fcbc7948dbb0fb7c46c0",
+      "text": "{\"blocking_evidence\":null,\"headline\":\"pronoun carries the divine name into the close\",\"reader_payoff\":\"The reader tracks the same provider from explicit name to pronoun, avoiding a mistaken link to the nearby creature.\",\"reason\":\"Cross-reference evidence strongly resolves the pronoun to the divine name, not to the creature.\",\"representative_source_ids\":[\"QG-9a81e3cb\",\"QT-b1716d2a\",\"QE-f8a3d9d1\"],\"status\":\"used\"}",
+      "trust": "trusted"
+    }
+  ]
+}

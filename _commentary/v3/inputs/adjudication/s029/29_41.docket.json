@@ -6,7 +6,7 @@
     "degraded_reasons": [
       "quarantined_hft"
     ],
-    "incomplete_branch_coverage_authorized": false,
+    "incomplete_branch_coverage_authorized": true,
     "mode": "quarantine_without_hft",
     "ready": true,
     "warnings": [
@@ -4511,15 +4511,15 @@
   },
   "identity": {
     "ayah_ref": "29:41",
-    "docket_payload_sha256": "1cad9591d9230e011704e8ec8e28be94ec0201559f344674fb54f09e089597a2",
-    "source_canonical_sha256": "72a2d64f386bfe78796f4a8e1160f737a804d1314231f5619ea95e5efcd7f8d5"
+    "docket_payload_sha256": "6e07efe423b04f646235633bc11a27b308c21a1ae2bcdb5c15454f7200688936",
+    "source_canonical_sha256": "0ae61fabad1a4e67d51d42afeb695497b3a99addbf82b0825209ea5bbd7fad21"
   },
   "limits": {
     "max_branch_bytes_per_root": 32000,
     "max_docket_bytes": 500000,
     "max_optional_candidates": 40,
     "max_pericope_ayahs": 512,
-    "max_support_chars": 1600,
+    "max_support_chars": 8000,
     "max_support_per_candidate": 5
   },
   "nominated_branch_registry": [
