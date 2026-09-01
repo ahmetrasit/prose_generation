@@ -102,10 +102,10 @@ locked ledger, scope drafts, or source packets. Its short output is a
 reader-facing derivative with no authority to add findings or alter the
 editorial commentary.
 
-GPT-5.5 code-review agents are not routine linguistic workers. Use them only
-when implementation, schema, validation, prompt-template, orchestration, or
-operational README files change. Keep the same reviewer sessions for the
-initial review and every revised patch.
+GPT-5.6 Luna code-review agents at maximum reasoning are not routine linguistic
+workers. Use them only when implementation, schema, validation,
+prompt-template, orchestration, or operational README files change. Keep the
+same reviewer sessions for the initial review and every revised patch.
 
 ## 3. Establish the exact ayah queue
 
@@ -509,8 +509,9 @@ If such a change is necessary:
    ayah.
 3. Keep validation limited to identity, completeness, provenance, lineage,
    paths, hashes, and safe repair preservation.
-4. Send the exact implementation and prompt diff to persistent GPT-5.5 code
-   reviewers covering orchestration, prompts, and validation.
+4. Send the exact implementation and prompt diff to persistent GPT-5.6 Luna
+   code reviewers at maximum reasoning, covering orchestration, prompts, and
+   validation.
 5. Address their findings, then send the revised exact patch back to those same
    reviewer sessions. Require an explicit GO before continuing production.
 6. Rerun proportional deterministic checks such as Python compilation,
