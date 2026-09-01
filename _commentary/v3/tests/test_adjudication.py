@@ -633,7 +633,11 @@ class AdjudicationTests(unittest.TestCase):
     )
     def test_real_s29_docket_renders_current_contract(self) -> None:
         docket, _path = load_docket_for_ayah(
-            "29:38", prepare_options=PrepareOptions(hft_policy="quarantine")
+            "29:38",
+            prepare_options=PrepareOptions(
+                hft_policy="quarantine",
+                max_support_chars=8000,
+            ),
         )
         prompt, manifest = render_adjudication_prompt(docket)
         self.assertTrue(docket["adjudication_gate"]["ready"])
@@ -683,6 +687,7 @@ class AdjudicationTests(unittest.TestCase):
             "29:39",
             prepare_options=PrepareOptions(
                 hft_policy="quarantine",
+                max_support_chars=8000,
                 allow_incomplete_branch_coverage=True,
             ),
         )
@@ -716,7 +721,7 @@ class AdjudicationTests(unittest.TestCase):
 
     def test_load_rebinds_docket_to_prepared_and_source_snapshot(self) -> None:
         bundle = fixture_bundle()
-        raw = pretty_json_bytes(bundle)
+        raw = canonical_json_bytes(bundle)
         prepared, docket = build_prepared_artifacts(
             bundle,
             source_path=Path("fixture.json"),
@@ -732,8 +737,8 @@ class AdjudicationTests(unittest.TestCase):
             }
             for relative, payload in (
                 (relatives["source"], raw),
-                (relatives["prepared"], pretty_json_bytes(prepared)),
-                (relatives["docket"], pretty_json_bytes(docket)),
+                (relatives["prepared"], canonical_json_bytes(prepared)),
+                (relatives["docket"], canonical_json_bytes(docket)),
             ):
                 path = inputs_root / relative
                 path.parent.mkdir(parents=True, exist_ok=True)
@@ -838,7 +843,7 @@ class AdjudicationTests(unittest.TestCase):
                 payload["identity"].pop("docket_payload_sha256")
                 stale["identity"]["docket_payload_sha256"] = canonical_sha256(payload)
                 (inputs_root / relatives["docket"]).write_bytes(
-                    pretty_json_bytes(stale)
+                    canonical_json_bytes(stale)
                 )
                 with self.assertRaisesRegex(ValidationError, "bind docket"):
                     load_docket_for_ayah("29:38", prepare_options=policy)
@@ -861,10 +866,10 @@ class AdjudicationTests(unittest.TestCase):
                     "estimated_tokens_chars_div_4"
                 ] = (len(canonical_json_bytes(coordinated)) + 3) // 4
                 (inputs_root / relatives["docket"]).write_bytes(
-                    pretty_json_bytes(coordinated)
+                    canonical_json_bytes(coordinated)
                 )
                 (inputs_root / relatives["prepared"]).write_bytes(
-                    pretty_json_bytes(coordinated_prepared)
+                    canonical_json_bytes(coordinated_prepared)
                 )
                 with self.assertRaisesRegex(
                     ValidationError, "identity hash|rederive from source"
@@ -872,10 +877,10 @@ class AdjudicationTests(unittest.TestCase):
                     load_docket_for_ayah("29:38", prepare_options=policy)
 
                 (inputs_root / relatives["docket"]).write_bytes(
-                    pretty_json_bytes(docket)
+                    canonical_json_bytes(docket)
                 )
                 (inputs_root / relatives["prepared"]).write_bytes(
-                    pretty_json_bytes(prepared)
+                    canonical_json_bytes(prepared)
                 )
                 (inputs_root / relatives["source"]).write_bytes(
                     json.dumps(bundle, ensure_ascii=False, indent=2).encode("utf-8")
@@ -887,7 +892,7 @@ class AdjudicationTests(unittest.TestCase):
                 forged_path = copy.deepcopy(prepared)
                 forged_path["identity"]["source"]["path"] = "/forged/source.json"
                 (inputs_root / relatives["prepared"]).write_bytes(
-                    pretty_json_bytes(forged_path)
+                    canonical_json_bytes(forged_path)
                 )
                 with self.assertRaisesRegex(ValidationError, "rederive from source"):
                     load_docket_for_ayah("29:38", prepare_options=policy)
@@ -895,7 +900,7 @@ class AdjudicationTests(unittest.TestCase):
     def test_handoff_policy_cannot_be_promoted_by_artifact_edits(self) -> None:
         bundle = fixture_bundle()
         bundle["root_lexicon"]["root_000121"]["dictionary_entry"] = None
-        raw = pretty_json_bytes(bundle)
+        raw = canonical_json_bytes(bundle)
         authorized_policy = PrepareOptions(
             hft_policy="quarantine",
             allow_incomplete_branch_coverage=True,
@@ -912,11 +917,11 @@ class AdjudicationTests(unittest.TestCase):
                 (Path("source/s029/29_38.bundle.json"), raw),
                 (
                     Path("prepared/s029/29_38.prepared.json"),
-                    pretty_json_bytes(prepared),
+                    canonical_json_bytes(prepared),
                 ),
                 (
                     Path("adjudication/s029/29_38.docket.json"),
-                    pretty_json_bytes(docket),
+                    canonical_json_bytes(docket),
                 ),
             ):
                 path = inputs_root / relative

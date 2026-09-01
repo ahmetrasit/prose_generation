@@ -89,10 +89,10 @@ ayah bundle filenames rather than duplicating them and carries surah-scope
 material with no single-ayah home: every Quran-text row for the surah including
 the `S:0` basmalah, the full whole-surah reading, and a coverage rollup.
 
-`build_bundle.py` deliberately leaves the base ayah bundle pretty-printed and
-its `root_lexicon` branch arrays full. Run `tier_branch_payloads.py` before
-`instantiate.py`; the instantiator then compacts the tiered JSON while inlining
-it and records both `source_bytes` and `inlined_bytes` in the manifest.
+`build_bundle.py` writes canonical minified JSON and keeps its `root_lexicon`
+branch arrays full. Run `tier_branch_payloads.py` before `instantiate.py`; the
+instantiator then compacts the tiered JSON while inlining it and records both
+`source_bytes` and `inlined_bytes` in the manifest.
 
 ### Branch inventories: focus run, else surah packet
 

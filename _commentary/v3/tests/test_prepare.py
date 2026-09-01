@@ -2471,7 +2471,7 @@ class PrepareTests(unittest.TestCase):
                         options=policy,
                     )
 
-    def test_prepare_retains_exact_source_snapshot_under_v3_inputs(self) -> None:
+    def test_prepare_retains_minified_source_snapshot_under_v3_inputs(self) -> None:
         with tempfile.TemporaryDirectory(dir=V3_ROOT) as temp_dir:
             temporary = Path(temp_dir)
             source_path = temporary / "source.json"
@@ -2484,13 +2484,25 @@ class PrepareTests(unittest.TestCase):
                 prepared, _docket, paths = prepare_bundle_file(
                     source_path,
                     options=PrepareOptions(hft_policy="quarantine"),
-                )
+            )
             snapshot = Path(paths["source_bundle"])
             self.assertTrue(snapshot.is_relative_to(inputs_root))
-            self.assertEqual(snapshot.read_bytes(), raw)
+            self.assertEqual(snapshot.read_bytes(), canonical_json_bytes(fixture_bundle()))
             self.assertEqual(
                 prepared["artifacts"]["source_bundle"],
                 "inputs/source/s029/29_38.bundle.json",
+            )
+            self.assertEqual(
+                prepared["identity"]["source"]["raw_sha256"],
+                prepared["identity"]["source"]["canonical_sha256"],
+            )
+            self.assertEqual(
+                Path(paths["prepared"]).read_bytes(),
+                canonical_json_bytes(prepared),
+            )
+            self.assertEqual(
+                Path(paths["docket"]).read_bytes(),
+                canonical_json_bytes(_docket),
             )
             Path(paths["prepared"]).unlink()
             with patch("v3lib.prepare.INPUTS_ROOT", inputs_root):

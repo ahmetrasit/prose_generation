@@ -49,6 +49,17 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+
+def compact_json_text(value):
+    return json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+        allow_nan=False,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Repo layout — single source root
 # ---------------------------------------------------------------------------
@@ -3019,7 +3030,7 @@ def main() -> int:
         bundle = build_ayah_bundle(surah, args.ayah, quran_text, word_analysis, qac_by_ayah,
                                     root_id_map, pericopes, alignment)
         out_path = out_dir / f"{surah}_{args.ayah}.ayah.json"
-        out_path.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+        out_path.write_text(compact_json_text(bundle), encoding="utf-8")
         print(f"wrote {out_path}")
         return 0
 
@@ -3032,7 +3043,7 @@ def main() -> int:
         bundle = build_ayah_bundle(surah, a, quran_text, word_analysis, qac_by_ayah,
                                     root_id_map, pericopes, alignment)
         fname = f"{surah}_{a}.ayah.json"
-        (out_dir / fname).write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+        (out_dir / fname).write_text(compact_json_text(bundle), encoding="utf-8")
         ayah_bundles.append(bundle)
         filenames.append(fname)
         print(f"wrote {out_dir / fname}")
@@ -3042,7 +3053,7 @@ def main() -> int:
 
     surah_bundle = build_surah_bundle(surah, ayah_bundles, filenames, pericopes)
     surah_out_path = out_dir / f"{surah}.surah.json"
-    surah_out_path.write_text(json.dumps(surah_bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+    surah_out_path.write_text(compact_json_text(surah_bundle), encoding="utf-8")
     print(f"wrote {surah_out_path}")
     return 0
 

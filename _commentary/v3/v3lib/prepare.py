@@ -21,7 +21,6 @@ from .common import (
     load_json_object,
     parse_json_object_bytes,
     preflight_confined_writes,
-    pretty_json_bytes,
     sha256_bytes,
     write_bytes_confined,
 )
@@ -4562,19 +4561,21 @@ def build_prepared_artifacts(
             or options.allow_incomplete_branch_coverage
         )
     )
+    incomplete_branch_coverage_authorized = (
+        bool(focus_root_dictionary_gaps)
+        and options.allow_incomplete_branch_coverage
+    )
     adjudication_gate = {
         "ready": ready,
         "mode": clean_readiness_mode if ready else "blocked",
         "branch_coverage_complete": branch_coverage_complete,
-        "incomplete_branch_coverage_authorized": (
-            options.allow_incomplete_branch_coverage
-        ),
+        "incomplete_branch_coverage_authorized": incomplete_branch_coverage_authorized,
         "degraded_reasons": degraded_reasons,
         "blockers": blockers,
         "blocker_counts": dict(sorted(blocker_counts.items())),
         "warnings": warnings,
     }
-    raw = source_raw if source_raw is not None else canonical_json_bytes(bundle)
+    raw = canonical_json_bytes(bundle)
     retained_source_path = (
         Path("inputs")
         / "source"
@@ -4670,7 +4671,7 @@ def build_prepared_artifacts(
             "hft_policy": options.hft_policy,
             "allow_legacy_hft_response": options.allow_legacy_hft_response,
             "allow_incomplete_branch_coverage": (
-                options.allow_incomplete_branch_coverage
+                incomplete_branch_coverage_authorized
             ),
         },
         "diagnostics": {
@@ -4741,9 +4742,9 @@ def prepare_bundle_file(
     }
     if write:
         payloads = {
-            source_rel: raw,
-            docket_rel: pretty_json_bytes(docket),
-            prepared_rel: pretty_json_bytes(prepared),
+            source_rel: canonical_json_bytes(bundle),
+            docket_rel: canonical_json_bytes(docket),
+            prepared_rel: canonical_json_bytes(prepared),
         }
         preflight_confined_writes(INPUTS_ROOT, payloads, replace=force)
         for relative in (source_rel, docket_rel, prepared_rel):

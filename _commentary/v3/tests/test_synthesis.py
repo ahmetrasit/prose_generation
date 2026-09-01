@@ -973,7 +973,7 @@ class SynthesisTests(unittest.TestCase):
         synthesis_response = response_for_packet(packet)
         synthesis_prompt, synthesis_manifest = render_synthesis_prompt(packet)
         source_bundle = fixture_bundle_for_docket()
-        source_raw = pretty_json_bytes(source_bundle)
+        source_raw = canonical_json_bytes(source_bundle)
         prepared, rebuilt_docket = build_prepared_artifacts(
             source_bundle,
             source_path=Path("fixture.json"),
@@ -985,10 +985,10 @@ class SynthesisTests(unittest.TestCase):
             temporary = Path(temp_dir)
             inputs_root = temporary / "inputs"
             outputs_root = temporary / "outputs"
-            write_json_confined(
+            write_bytes_confined(
                 inputs_root,
                 Path("source/s029/29_38.bundle.json"),
-                source_bundle,
+                canonical_json_bytes(source_bundle),
             )
             write_json_confined(
                 inputs_root,

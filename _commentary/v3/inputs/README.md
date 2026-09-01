@@ -2,9 +2,9 @@
 
 The v3 CLI writes typed, deterministic model inputs here:
 
-- `source/sNNN/`: exact byte snapshots of ingested hermetic ayah bundles;
-- `prepared/sNNN/`: source identity, scope audit, quarantine diagnostics, and seed ledger;
-- `adjudication/sNNN/`: adjudication-safe dockets, prompts, and exact prompt manifests;
+- `source/sNNN/`: canonical minified snapshots of ingested hermetic ayah bundles;
+- `prepared/sNNN/`: canonical minified source identity, scope audit, quarantine diagnostics, and seed ledger;
+- `adjudication/sNNN/`: canonical minified adjudication-safe dockets, prompts, and exact prompt manifests;
 - `synthesis/sNNN/`: validated selected-evidence packets, prompts, and exact prompt manifests.
 - `authoring/sNNN/S_A/`: content-addressed hermetic micro, macro, global,
   reconciliation, repair, prose-follow-up, genuine prose-rewrite, merge, and

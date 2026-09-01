@@ -102,12 +102,13 @@ The stage order is:
    content-addressed generations remain immutable and stageable but are not
    asserted as active lineage.
 
-Embedded JSON is canonical and minified (`ensure_ascii=false`, sorted keys, no
-indentation or separator whitespace). Downstream reconciliation also stores
-cross-lane branch semantics once while retaining every lane-specific link. This
-is transport deduplication only: evidence and findings are never summarized,
-sampled, truncated, or semantically compressed for token savings. Human-facing
-JSON artifacts remain pretty-printed for inspection.
+Embedded JSON and agent-facing v3 input payloads are canonical and minified
+(`ensure_ascii=false`, sorted keys, no indentation or separator whitespace).
+Downstream reconciliation also stores cross-lane branch semantics once while
+retaining every lane-specific link. This is transport deduplication only:
+evidence and findings are never summarized, sampled, truncated, or semantically
+compressed for token savings. Non-payload manifests and reports may remain
+pretty-printed for inspection.
 
 Each scope-prose context contains only records cited by its locked findings or
 resolved referrals. A referral also pulls in origin-only candidate, raw support
