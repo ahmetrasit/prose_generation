@@ -44,14 +44,20 @@ repairing cross-scope identity, and consolidating exact semantic duplicates.
    exact `support_id`; HFT supports are accounted for through their candidates.
    For macro and global, verify that every existing branch citation and every
    reported plausible branch contact has exactly one `atlas_facets_tested` row,
-   that the row accounts for every supplied facet ID, and that every branch
-   cited by an accepted finding retains its distinctive contribution.
+   that the row accounts for every supplied `review_facets[].facet_id`, and that
+   every branch cited by an accepted finding retains one or more distinctive
+   contributions. Every contribution must name exactly one supplied facet ID,
+   and that same facet must have result `contact` in the lane's tested ledger.
 5. Confirm that every cited support and branch belongs to the supplied evidence.
    In the macro and global lanes, also confirm that every cited connection
    belongs to the supplied packet and that every supplied connection has exactly
-   one disposition in `connection_coverage`. An accepted, narrowed, or
-   represented connection must point to the finding or findings that preserve
-   it.
+   one aggregate disposition in `connection_coverage`. Every authored and
+   reciprocal `connection_evidence_ref` must also have exactly one independent
+   nested result. The parent finding refs must equal the nested union, and its
+   result must follow the required deterministic precedence. An accepted,
+   narrowed, or represented connection must point to the finding or findings
+   that preserve it; a rejected nested direction must remain visible beside a
+   positive one.
 6. Inspect every rejection. Flag it as disputed when its reason is
    canonical absence, novelty, similarity, conflict, difficulty of explanation,
    source count, confidence label, vividness, prose length, or a trust label by
@@ -71,6 +77,9 @@ repairing cross-scope identity, and consolidating exact semantic duplicates.
    finding must retain every referred evidence ref that exists in its own lane's
    packet. Evidence available only in the origin lane remains attached verbatim
    to the corresponding locked finding through `referral_payloads`.
+   Treat `contact_opportunities` as complete semantic contacts only. Failed
+   attempted edges belong in their candidate, branch/facet, support, or
+   connection coverage rows and must not receive synthetic contact identities.
 9. Compare accepted findings across lanes. Consolidate only exact semantic
    duplicates: the same local anchor, mechanism, direction, and reader payoff.
    Preserve the union of evidence, all member finding refs, and every member's
@@ -109,7 +118,7 @@ lane repair or rerun needed. Do not silently make the set look complete.
 
 Return one JSON object with:
 
-- `schema_version: "commentary-v3-reconciled-findings-v1"`;
+- `schema_version: "commentary-v3-reconciled-findings-v2"`;
 - `identity` containing `ayah_ref: "@@AYAH_REF@@"` and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
 - `ayah_ref: "@@AYAH_REF@@"`;

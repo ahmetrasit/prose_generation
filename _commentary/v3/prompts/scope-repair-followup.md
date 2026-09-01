@@ -56,12 +56,22 @@ schema permits only one primary value.
 Audit the complete response for every instance of the reported error class;
 the named row may only be the first fail-fast example. In particular:
 
-- an accepted or narrowed contact's complete support, branch, and connection
-  evidence must survive across its accepted `finding_refs`, and each receiving
-  finding must retain the contact ref;
+- an accepted, narrowed, or represented contact's complete support, branch,
+  and connection evidence must survive across its accepted `finding_refs`, and
+  each receiving finding must retain the contact ref. A failed attempted edge
+  belongs in candidate, branch/facet, or connection coverage, not in
+  `contact_opportunities`;
 - facet coverage uses `tested_facets` (or its `facets_tested` alias) as a list
-  of objects. Each object carries `facet_id` and a nonempty, facet-specific
-  `result`. A bare `facet_ids_tested` string list does not satisfy this ledger.
+  of objects. Each object carries a packet-supplied `facet_id` and exactly one
+  result: `contact`, `no_independent_trigger`, or `scope_referral`. Every branch
+  contribution carries one packet-supplied `facet_id`, and an accepted
+  contribution's corresponding tested result is `contact`. A bare
+  `facet_ids_tested` string list does not satisfy this ledger;
+- macro and global connection coverage contains exactly one
+  `evidence_row_results` row per packet-supplied `connection_evidence_ref`.
+  Preserve each row's independent reason and finding refs; the parent result
+  and finding refs must be the deterministic aggregate required by the scope
+  contract.
 
 <requested_repairs_json>
 @@REPAIR_REQUESTS_JSON@@

@@ -12,11 +12,13 @@ Apply the structured Arabic span consistently:
 
 {ar:<Arabic surface>, tr:<Turkish-readable transliteration>, gloss:<Turkish meaning>}
 
-Whenever an Arabic ayah word becomes active in a new paragraph, or the prose returns to it after discussing another word, give its full structured span again. Never let bare transliteration be the only representation of an Arabic word in a paragraph. Within the same immediate sequence, later references may use its Turkish meaning or a natural pronoun. Audit every paragraph for this requirement.
+Give the full structured span when an Arabic ayah word first becomes active and when a later paragraph returns to it after the prose has moved elsewhere. Within one immediate movement, its Turkish meaning or a natural pronoun is enough across paragraph boundaries when the referent remains unmistakable. Never let bare transliteration be the only representation of an Arabic word in a paragraph.
 
 Use short, reader-facing subtitles only where the reading genuinely changes movement. Let the ayah determine their number and placement. Subtitles should create an expectation about what becomes visible next; they must not name words, roots, findings, evidence categories, resonances, or workflow stages.
 
 Create cinematic continuity without adding drama or interpretation. Each section should inherit a concrete image, question, tension, relation, or motion from the preceding section and carry it somewhere new. Use transitions to change the reader’s viewpoint or deepen what is already present. Avoid restarting every paragraph as an independent finding or repeatedly announcing another image. Hooks must arise from the ayah and its accepted findings.
+
+Distinguish architecture from texture. A major move, where the reader's understanding genuinely changes, should arrive through its concrete image or scene and have room to land. A refinement that adds a facet, boundary, or comparison to an established reading should move faster, without rebuilding its setup or repeating an already absorbed Arabic span. Vary paragraph openings, and use an explicit boundary negation only when the positive statement would otherwise invite a likely misreading or lose essential containment. Rhetorical weight does not alter evidentiary status: every retained finding must remain recoverable.
 
 Keep distinct findings recoverable even when they belong to one larger movement. Let the ending return naturally to the ayah’s plain force and show what has become newly visible, rather than listing all findings again.
 

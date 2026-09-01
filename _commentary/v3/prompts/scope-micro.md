@@ -68,16 +68,22 @@ boundary. A duplicate target must preserve the evidence union.
 Conduct one linear screen of every supplied focus branch. This is not a request
 to pair every branch with every other branch. For each branch, ask whether its
 distinctive definition or facet meets both its actual focus-ayah carrier and an
-independent local trigger. Record `nominated`, `no_independent_trigger`, or
+independent local trigger. “Independent” means independent of the branch
+definition, not necessarily a second surface token: morphology, valency,
+syntax, discourse contrast, recurrence, or an evidenced sound pattern can
+supply the trigger. Record `nominated`, `no_independent_trigger`, or
 `scope_referral`. A gloss or branch ID without its distinctive semantic content
 does not count as review or coverage.
 
 A multi-facet branch is not reviewed by naming one representative facet.
+`review_facets` is the packet's normalized authoritative facet list, including
+stable IDs for older source images that lacked numbered concept-map facets.
 Silently test every supplied facet against the local evidence, then record every
-tested facet ID and its result in that branch's screen row. The statement stays
-in the evidence packet and need not be copied into the response. Emit contact
-opportunities only for plausible contacts; an unactivated facet may remain in
-the tested ledger without becoming a finding. The supplied
+tested facet ID with only `contact`, `no_independent_trigger`, or
+`scope_referral` in that branch's screen row. The statement stays in the
+evidence packet and need not be copied into the response. Emit contact
+opportunities only for complete plausible contacts; an unactivated facet may
+remain in the terse tested ledger without becoming a finding. The supplied
 `focus_root_occurrences` are same-root occurrences, not proof that a branch
 sense is active.
 
@@ -105,6 +111,18 @@ material is never silently rejected; compatible items may share prose later.
 Scope overreach justifies rejection only when no bounded micro core survives;
 otherwise narrow the claim or issue a `scope_referral`.
 
+Work in two internal phases. First answer the bold micro question and discover
+the real carrier/facet/trigger/payoff contacts without drafting coverage rows.
+Then serialize those completed judgments. Coverage rows verify a judgment; they
+must not generate one. Before returning JSON, re-ask the bold question and add
+any grounded local work the ledger-building pass nearly displaced.
+
+Boundary example: valid coverage says that carrier `X`, facet `F002` (“a
+boundary channels movement”), and the clause's explicit destination together
+turn generic motion into constrained passage, with a stated reader payoff.
+False coverage merely lists `root_x/B_y`, `F002`, or “boundary/path” without the
+independent trigger and changed reading.
+
 Do not write the commentary yet. Acceptance must be settled before prose
 facility can influence it.
 
@@ -116,7 +134,7 @@ All model-created stable refs in this response (`finding_ref`, `proposal_key`,
 `contact_ref`, and `referral_ref`) must begin with `micro:` so their identities
 remain unambiguous when the three independent ledgers are reconciled.
 
-- `schema_version: "commentary-v3-scope-review-v1"`;
+- `schema_version: "commentary-v3-scope-review-v2"`;
 - `identity` containing `ayah_ref: "@@AYAH_REF@@"`, `lane: "micro"`,
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
@@ -130,18 +148,23 @@ remain unambiguous when the three independent ledgers are reconciled.
   `transparent`) and the accepted `finding_refs` that justify non-transparent
   treatment. Coordinates are internal and must not enter reader prose;
 - `branch_screen[]`, one row per supplied focus branch, with `branch_ref`, its
-  complete `tested_facets` (facet IDs and per-facet results), branch-level
+  complete `tested_facets` as `{facet_id, result}` objects, where `result` is
+  `contact`, `no_independent_trigger`, or `scope_referral`, branch-level
   `result` (`nominated`, `no_independent_trigger`, or `scope_referral`), any
   `contact_refs`, and a specific reason. Do not echo facet statements or full
   root-occurrence records already present in the packet. A `nominated` branch
-  must land in an accepted finding or in a linked accepted/narrowed/referred
-  contact; it cannot be a positive orphan;
+  must land in an accepted finding or in a linked
+  accepted/narrowed/represented/referred contact; it cannot be a positive
+  orphan;
 - `contact_opportunities[]`, one row per meaningful contact discovered, with
   stable `contact_ref`, `surface_carrier`, `distinctive_facet`,
   `independent_trigger`, `changed_reading`, `reader_payoff`, `containment`,
-  `suggested_lane`, `disposition` (`accept`, `narrow`, `reject`, or
-  `scope_referral`), the accepted `finding_refs` for an accepted or narrowed
-  contact, complete `support_ids`, and complete `branch_refs`;
+  `suggested_lane`, `disposition` (`accept`, `narrow`, `represented`, or
+  `scope_referral`), the accepted `finding_refs` for an accepted, narrowed, or
+  exactly represented contact, complete `support_ids`, and complete
+  `branch_refs`. A failed attempted edge belongs in its candidate, branch, or
+  facet ledger with the specific failure; it is not a contact and receives no
+  `contact_ref`;
 - `candidate_decisions[]`, one row per supplied candidate, with `candidate_id`,
   `decision` (`accept`, `narrow`, `reject`, or `scope_referral`), concise
   `reason`, `failed_edge` when rejected, related `accepted_finding_refs`, and
@@ -169,8 +192,10 @@ remain unambiguous when the three independent ledgers are reconciled.
   contributions for every cited `branch_ref`. Give separate rows when one
   branch activates multiple distinctive facets or independently anchored
   contributions; never flatten them into one generic row. Each row names the
-  exact `distinctive_facet`, `surface_carrier`, `independent_anchor`, its actual
-  `contribution`, and its `boundary`;
+  exact single `facet_id` from that branch's `review_facets`, its
+  `distinctive_facet`, `surface_carrier`, `independent_anchor`, actual
+  `contribution`, and `boundary`. The same facet ID must have result `contact`
+  in that branch's tested-facet ledger;
 - `friction_notes[]` for real ambiguity, evidence gaps, scope referrals, or
   decisions a reconciler should inspect.
 

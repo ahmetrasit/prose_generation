@@ -71,7 +71,10 @@ They are not a veto and do not excuse a fresh focus-side pass. Any connection,
 including a derived seed whose `origin` is determined by the presence of a
 nomination, may carry both kinds of `reciprocal_evidence`. Inspect every nested
 row, including same-surah evidence beyond the pericope. Keep disagreements
-visible; never collapse the two directions into one judgment.
+visible; never collapse the two directions into one judgment. The authored row,
+when present, and every nested row have distinct `connection_evidence_ref`
+values. Judge each one separately before deriving the connection-level
+disposition.
 
 Every authored connection and every nested reciprocal row carries
 `source_row_role`; a derived connection exposes its roles through its nested
@@ -115,20 +118,19 @@ facet that matters; a branch ID or generic gloss alone is false coverage.
 Use the complete focus-branch atlas, not only candidate-cited branches. Silently
 scan every atlas branch and every one of its supplied facets against the wider
 records and supplied connections. A multi-facet branch is not reviewed by
-choosing one representative facet. Record `atlas_facets_tested[]` for every
+choosing one representative facet. `review_facets` is the packet's normalized
+authoritative facet list, including stable IDs for older source images that
+lacked numbered concept-map facets. Record `atlas_facets_tested[]` for every
 branch with a plausible wider contact or an existing citation in a supplied
 candidate, an emitted contact, or an accepted finding, listing all tested facet
 IDs and a branch-level `result` (`nominated`,
 `no_independent_trigger`, or `scope_referral`), and any contact refs. The facet
 statements stay in the packet and need not be copied into the response. Emit
 findings only for real contacts; do not enumerate branch-by-branch combinations.
-Every tested facet row requires its own result, and a `nominated` branch must
-land in an accepted finding or a linked accepted/narrowed/referred contact.
-
-Some nominated branches supply their semantic facet as `image_ar`, `image_en`,
-`branch_image_ar`, or `what_is_ar` rather than a numbered concept-map facet.
-Treat that supplied image as the facet; identify it by its source field (or use
-`facet_id: null`) without inventing a facet ID.
+Every tested facet row is a `{facet_id, result}` object whose `result` is only
+`contact`, `no_independent_trigger`, or `scope_referral`; a `nominated` branch
+must land in an accepted finding or a linked
+accepted/narrowed/represented/referred contact.
 
 Every accepted finding must re-enter through a word, relation, or act already
 present in the focus ayah. Reader agreement is not authority; an outlier is not
@@ -153,6 +155,19 @@ anticipated prose length never decides.
 Scope overreach justifies rejection only when no bounded global core survives;
 otherwise narrow the claim or issue a `scope_referral`.
 
+Work in two internal phases. First answer the bold global question and discover
+real carrier/trigger/relation/payoff returns without drafting coverage rows.
+Then serialize those completed judgments. Coverage rows verify a judgment; they
+must not generate one. Before returning JSON, re-ask the bold question and
+recover any wider visibility that connection or facet accounting nearly
+displaced.
+
+Boundary example: valid coverage says that carrier `X`, facet `F002` (“a
+boundary channels movement”), and a distant blocked destination together make
+an otherwise generic motion read as constrained passage, with a stated reader
+payoff. False coverage merely lists `root_x/B_y`, `F002`, or “boundary/path”
+without the wider trigger, return path, and changed reading.
+
 Do not write a surah thesis and do not write the commentary yet. Acceptance
 must be settled before prose facility can influence it.
 
@@ -164,7 +179,7 @@ All model-created stable refs in this response (`finding_ref`, `proposal_key`,
 `contact_ref`, and `referral_ref`) must begin with `global:` so their identities
 remain unambiguous when the three independent ledgers are reconciled.
 
-- `schema_version: "commentary-v3-scope-review-v1"`;
+- `schema_version: "commentary-v3-scope-review-v2"`;
 - `identity` containing `ayah_ref: "@@AYAH_REF@@"`, `lane: "global"`,
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
   `authoring_request_sha256: "@@AUTHORING_REQUEST_SHA256@@"`;
@@ -178,17 +193,24 @@ remain unambiguous when the three independent ledgers are reconciled.
 - `connection_coverage[]`, one row per supplied connection, with
   `connection_ref`, `target_ref`, `result` (`accepted`, `narrowed`,
   `represented`, or `rejected`), related `finding_refs`, and a specific reason
-  independent of the prior label;
+  independent of the prior label. Include `evidence_row_results[]`, exactly one
+  row per supplied authored or reciprocal `connection_evidence_ref`, each with
+  its own result from the same enum, related `finding_refs`, and a specific
+  reason. The connection-level `finding_refs` are the exact union of the nested
+  rows; its result is the first present result in this precedence: `accepted`,
+  `narrowed`, `represented`, `rejected`;
 - `atlas_facets_tested[]` as defined above, so a cited or plausible branch cannot
   hide behind a generic gloss or one representative facet;
 - `contact_opportunities[]`, one row per meaningful wider contact, with stable
   `contact_ref`, `focus_carrier`, `wider_trigger`, `relation`,
   `isolated_before`, `wider_after`, `reader_payoff`, `containment`, complete
   `support_ids`, complete `branch_refs`, complete `connection_refs`,
-  `disposition` (`accept`, `narrow`, `reject`, or `scope_referral`), the
-  accepted `finding_refs` for an accepted or narrowed contact, and any
-  `cross_root_boundary` needed to prevent analogy from being mistaken for
-  lexical identity;
+  `disposition` (`accept`, `narrow`, `represented`, or `scope_referral`), the
+  accepted `finding_refs` for an accepted, narrowed, or exactly represented
+  contact, and any `cross_root_boundary` needed to prevent analogy from being
+  mistaken for lexical identity. A failed attempted edge stays in candidate,
+  connection, or facet coverage with its specific failure; it is not a contact
+  and receives no `contact_ref`;
 - `candidate_decisions[]`, one row per supplied candidate, with `candidate_id`,
   `decision` (`accept`, `narrow`, `reject`, or `scope_referral`), concise
   `reason`, `failed_edge` when rejected, related `accepted_finding_refs`, and
@@ -215,8 +237,10 @@ remain unambiguous when the three independent ledgers are reconciled.
   and `epistemic_status`. Supply one or more distinct contributions for every
   cited `branch_ref`; give separate rows when one branch activates multiple
   distinctive facets or independently anchored contributions, rather than
-  flattening them. Each row states the distinctive facet, carrier, independent
-  anchor, actual contribution, and boundary;
+  flattening them. Each row states the exact single `facet_id` from that
+  branch's `review_facets`, distinctive facet, carrier, independent anchor,
+  actual contribution, and boundary. The same facet ID must have result
+  `contact` in that branch's tested-facet ledger;
 - `friction_notes[]` for live ambiguity, evidence gaps, source qualification,
   scope referrals, or decisions a reconciler should inspect.
 

@@ -72,6 +72,7 @@ Conversation ownership is fixed:
 | `scope-global` | fresh global review | global validation repair, reconciler-requested global repair, and global prose preparation/repair |
 | `scope-reconciler` | fresh cross-scope reconciliation | reconciliation validation repairs |
 | `canonical-writer` | fresh canonical merge | the exact canonical editorial follow-up |
+| `invitation-writer` | fresh invitation summary from editorial prose and index only | resume only if its captured output is still missing |
 
 The micro, macro, and global first turns must be independent. They must not see
 one another's responses or an existing commentary. Their later prose turns
@@ -85,6 +86,12 @@ not rank readings or optimize the finding set for elegant prose.
 The canonical writer is fresh. It receives the reconciled locked ledger and all
 three prose-ready scope drafts, writes the four first-pass files, then receives
 the canonical editorial prompt verbatim in the same session.
+
+The invitation writer is a separate fresh agent. It receives only the editorial
+prose and editorial findings index, never the evidence file, friction file,
+locked ledger, scope drafts, or source packets. Its short output is a
+reader-facing derivative with no authority to add findings or alter the
+editorial commentary.
 
 GPT-5.5 code-review agents are not routine linguistic workers. Use them only
 when implementation, schema, validation, prompt-template, orchestration, or
@@ -198,7 +205,7 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
    Read this file completely and follow it exactly:
    /absolute/path/from/prompt_path
 
-   Write your contracted JSON response yourself to:
+   Write your contracted response yourself to:
    /absolute/path/from/expected_response
    ```
 
@@ -220,12 +227,17 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
 3. Do not create or record a new session receipt.
 4. Wait patiently for completion.
 
-### Capturing structured responses
+### Capturing single-file responses
 
 Scope reviews, repairs, reconciliation turns, and scope-prose drafts return one
 JSON object. The preferred executor mode keeps their workspace read-only and
 uses native final-response capture to write the response directly and
 atomically to `expected_response`.
+
+The invitation writer likewise uses read-only native final-response capture,
+but its single response is Markdown rather than JSON. Capture exactly the final
+message at `expected_response`; do not wrap it, prepend a label, or derive it
+from the editorial output yourself.
 
 The approved native multi-agent adapter is an explicit exception to native
 capture. In that mode, the orchestrator supplies the returned
@@ -233,9 +245,11 @@ capture. In that mode, the orchestrator supplies the returned
 itself. The orchestrator must not copy the worker's final message into the
 file, repair JSON, reserialize JSON, pretty-print JSON, wrap JSON, or edit the
 file after the worker returns. The response file must contain only the worker's
-contracted JSON object. Empty, truncated, malformed, or non-object files are a
-loud stop unless `authoring-advance` itself returns an explicit same-session
-follow-up; never improvise recovery.
+contracted response: one JSON object for structured stages or the unwrapped
+Markdown invitation for the invitation stage. Empty or truncated files, and
+malformed or non-object structured responses, are a loud stop unless
+`authoring-advance` itself returns an explicit same-session follow-up; never
+improvise recovery.
 
 The executor adapter must implement the following operations. Names vary by
 host, but the preferred native-capture semantics are:
@@ -276,7 +290,7 @@ spawn_persistent(
   model=LUNA_5_6, reasoning=MAX,
   message="Read this file completely and follow it exactly:\n" +
           handoff.prompt_path + "\n\n" +
-          "Write your contracted JSON response yourself to:\n" +
+          "Write your contracted response yourself to:\n" +
           handoff.expected_response
 ) -> session_id
 
@@ -285,7 +299,7 @@ resume_persistent(
   model=LUNA_5_6, reasoning=MAX,
   message="Read this file completely and follow it exactly:\n" +
           handoff.prompt_path + "\n\n" +
-          "Write your contracted JSON response yourself to:\n" +
+          "Write your contracted response yourself to:\n" +
           handoff.expected_response
 )
 ```
@@ -348,6 +362,7 @@ Never guess the next step. Dispatch exactly what `authoring-advance` returns.
 | `canonical_merge` / `execution_receipt_required` | Run the exact returned `record_command`; do not construct a receipt manually. |
 | `canonical_editorial_followup` / `waiting_for_agent` | Resume the same canonical writer. The prompt file must be the byte-exact canonical editorial follow-up. |
 | `canonical_editorial_followup` / `execution_receipt_required` | Run the exact returned `record_command`, including its prior merge receipt. |
+| `invitation_summary` / `waiting_for_agent` | Start the returned fresh invitation writer, or resume that same writer only when a prior attempt has no captured output. It receives only the generated invitation prompt and writes one captured Markdown response. |
 | `complete` / `complete` | Continue with the verification and prose-review gates below. |
 
 Several validation or reconciliation turns may be required. This is expected.
@@ -390,7 +405,9 @@ Then confirm:
 2. It binds every artifact in the active lineage—prompt packets, manifests,
    scope responses and active repairs, scope drafts, session receipts,
    canonical workspace guards when the run is guarded, canonical turn receipts,
-   and all eight first-pass and editorial files—by byte count and SHA-256.
+   every v2 completion that admits historical pre-guard receipts, all eight
+   first-pass and editorial files, and the invitation summary—by byte count and
+   SHA-256.
    A reported historical pre-guard completion has no invented guard and is not
    a production guard test. Superseded content-addressed
    generations remain immutable and Git-stageable in their canonical trees but
@@ -405,17 +422,22 @@ Then confirm:
    the editorial receipt is bound to the exact merge receipt.
 6. The generated editorial prompt is byte-for-byte identical to
    `_commentary/v3/prompts/editorial-followup.md`.
-7. No production artifact is a symlink, ignored by Git, outside the canonical
+7. The invitation has its own fresh `invitation-writer` session, and its
+   generated prompt contains only the editorial prose and index as semantic
+   source material. It has no locked-finding coverage obligation and exposes no
+   internal finding or workflow markers.
+8. No production artifact is a symlink, ignored by Git, outside the canonical
    authoring trees, or dependent on `/tmp` or `/private`.
-8. The final reader prose contains no candidate IDs, support IDs, branch IDs,
+9. The final reader prose contains no candidate IDs, support IDs, branch IDs,
    scope names, workflow language, HFT/QAC labels, or internal coordinates.
 
 These are completeness checks, not a judgment that the prose is good.
 
 ## 9. Prose review and approval
 
-Present the editorial prose to the user at any requested approval gate. If a
-canonical or previously approved output exists, compare them semantically:
+Present the editorial prose and invitation summary to the user at any requested
+approval gate. If a canonical or previously approved output exists, compare
+them semantically:
 
 - what the new prose genuinely reveals or explains more fully;
 - whether any previous finding, mechanism, image, ambiguity, or reader payoff
@@ -436,14 +458,15 @@ rewrite it to satisfy an internal preference.
 After one ayah passes completion and any required user gate, repeat sections
 4–9 for the next queued ayah. Each ayah gets independent content-addressed
 trees and fresh first-turn sessions. Never reuse a scope, reconciler, or
-canonical-writer session across ayahs.
+canonical-writer, or invitation-writer session across ayahs.
 
 Maintain a concise run ledger containing, for each ayah:
 
 - completion manifest path;
-- micro, macro, global, reconciler, and canonical-writer session IDs;
+- micro, macro, global, reconciler, canonical-writer, and invitation-writer
+  session IDs;
 - locked counts by scope;
-- first-pass and editorial prose paths and hashes;
+- first-pass, editorial prose, and invitation paths and hashes;
 - inter-ayah fallback/warning status;
 - user approval status when an approval gate exists.
 
@@ -455,7 +478,8 @@ When using the native multi-agent adapter, close each completed ayah's worker
 agents after all possible same-ayah resumes, receipts, idempotence checks, and
 approval gates are finished. Never close an agent that may still be needed for
 a same-session repair, prose preparation, canonical merge resume, or editorial
-follow-up.
+follow-up. Close the invitation writer only after its captured output and
+completion lineage have been verified.
 
 ## 11. Implementation-change protocol
 

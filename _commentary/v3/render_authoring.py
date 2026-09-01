@@ -4,9 +4,10 @@
 This is deliberately a prompt transport helper, not a prose validator. It
 projects the complete candidate docket into isolated lane packets, inlines each
 packet into one hermetic prompt, and later composes reconciliation, lane-prose,
-canonical merge, and editorial handoffs from explicit response files. The main
-``workflow.py authoring-advance`` command exposes this state machine while model
-execution remains an inspectable path-only trust boundary.
+canonical merge, editorial, and fresh invitation handoffs from explicit
+response files. The main ``workflow.py authoring-advance`` command exposes this
+state machine while model execution remains an inspectable path-only trust
+boundary.
 """
 
 from __future__ import annotations
@@ -1180,6 +1181,18 @@ def _editorial_paths(
     }
 
 
+def _invitation_paths(
+    layout: AuthoringLayout, request_sha256: str
+) -> dict[str, Path]:
+    input_dir = layout.inputs / "invitation" / request_sha256
+    output_dir = layout.outputs / "invitation" / request_sha256
+    return {
+        "prompt": input_dir / "prompt.md",
+        "manifest": input_dir / "manifest.json",
+        "response": output_dir / f"{layout.stem}.invitation.tr.md",
+    }
+
+
 def _session_receipt_path(
     layout: AuthoringLayout, conversation: str, generation: str
 ) -> Path:
@@ -1189,6 +1202,7 @@ def _session_receipt_path(
         "scope-global",
         "scope-reconciler",
         "canonical-writer",
+        "invitation-writer",
     }:
         raise SystemExit(f"Unknown authoring conversation: {conversation}")
     if not isinstance(generation, str) or not re.fullmatch(r"[0-9a-f]{64}", generation):
@@ -1338,6 +1352,67 @@ def _branch_semantic_detail(source_branch: Any) -> dict[str, Any]:
         if qualifications:
             detail["source_qualifications"] = qualifications
     return detail
+
+
+def _branch_review_facets(semantic_detail: dict[str, Any]) -> list[dict[str, Any]]:
+    """Normalize every reviewable branch facet to one stable local identity."""
+
+    distinctive = semantic_detail.get("distinctive_facets", [])
+    if not isinstance(distinctive, list):
+        raise SystemExit("Branch distinctive_facets is malformed")
+    normalized: list[dict[str, Any]] = []
+    supplied_ids: set[str] = set()
+    for facet in distinctive:
+        if not isinstance(facet, dict):
+            raise SystemExit("Branch distinctive_facets contains a malformed row")
+        facet_id = facet.get("facet_id")
+        statement = facet.get("statement")
+        if (
+            not isinstance(facet_id, str)
+            or not facet_id
+            or not isinstance(statement, str)
+            or not statement.strip()
+        ):
+            raise SystemExit("A numbered branch facet lacks an identity or statement")
+        if facet_id in supplied_ids:
+            raise SystemExit(f"A branch repeats facet identity {facet_id}")
+        supplied_ids.add(facet_id)
+        normalized.append(
+            {
+                "facet_id": facet_id,
+                "source_fields": [f"distinctive_facets[{facet_id}]"],
+                "role": facet.get("role"),
+                "statements": {"statement": statement.strip()},
+            }
+        )
+    if normalized:
+        return normalized
+
+    # Older branch inventories sometimes carry one source image instead of a
+    # numbered concept map. Pair translations under one identity, while
+    # retaining independently authored Arabic fields as separate facets.
+    fallback_groups = (
+        ("SOURCE_IMAGE", ("image_ar", "image_en")),
+        ("SOURCE_BRANCH_IMAGE", ("branch_image_ar",)),
+        ("SOURCE_WHAT_IS", ("what_is_ar",)),
+    )
+    for facet_id, fields in fallback_groups:
+        statements = {
+            field: semantic_detail[field]
+            for field in fields
+            if isinstance(semantic_detail.get(field), str)
+            and semantic_detail[field].strip()
+        }
+        if statements:
+            normalized.append(
+                {
+                    "facet_id": facet_id,
+                    "source_fields": list(statements),
+                    "role": "source_semantic_image",
+                    "statements": statements,
+                }
+            )
+    return normalized
 
 
 def _focus_root_occurrences(
@@ -1665,6 +1740,7 @@ def _flatten_branches(
             "boundary": boundary,
             "source_pointer": source_pointer,
             "semantic_detail": source_detail,
+            "review_facets": _branch_review_facets(source_detail),
             "focus_root_occurrences": _focus_root_occurrences(
                 docket, root_id, root_ar
             ),
@@ -2253,6 +2329,18 @@ def _hft_authoring_projection(
     }
 
 
+def _connection_evidence_ref(
+    connection_ref: str, direction: str, row: dict[str, Any]
+) -> str:
+    return "conn_ev_" + _sha256_json(
+        {
+            "connection_ref": connection_ref,
+            "direction": direction,
+            "source_row": row,
+        }
+    )[:20]
+
+
 def _lane_packet(
     docket: dict[str, Any],
     lane: str,
@@ -2464,6 +2552,7 @@ def _lane_packet(
             ),
             "source_pointer": None,
             "semantic_detail": {},
+            "review_facets": [],
             "focus_root_occurrences": [],
             "root_occurrence_qualification": (
                 "No registered root occurrence is supplied; this unresolved "
@@ -2572,7 +2661,18 @@ def _lane_packet(
                 ),
             }
         )[:20]
-        reverse_rows = reciprocal_evidence_with_ranges.get(target_ref, [])
+        authored_evidence_ref = _connection_evidence_ref(
+            connection_ref, "focus_to_target", row
+        )
+        reverse_rows = [
+            {
+                **item,
+                "connection_evidence_ref": _connection_evidence_ref(
+                    connection_ref, "target_to_focus", item
+                ),
+            }
+            for item in reciprocal_evidence_with_ranges.get(target_ref, [])
+        ]
         has_reciprocal_nomination = any(
             item.get("record_type") == "reciprocal_nomination"
             for item in reverse_rows
@@ -2592,6 +2692,7 @@ def _lane_packet(
         ]
         connection = {
             "connection_ref": connection_ref,
+            "connection_evidence_ref": authored_evidence_ref,
             "target_ref": target_ref,
             "relation_scope": relation_scope,
             "origin": "authored_focus_row",
@@ -2713,6 +2814,15 @@ def _lane_packet(
                     "projection_record_sha256": evidence_hashes,
                 }
             )[:20]
+            tagged_evidence_rows = [
+                {
+                    **item,
+                    "connection_evidence_ref": _connection_evidence_ref(
+                        connection_ref, "target_to_focus", item
+                    ),
+                }
+                for item in evidence_rows
+            ]
             boundary = (
                 "At least one source-direction review meaningfully linked this "
                 "target back to the focus ayah. Treat its note and label only "
@@ -2743,7 +2853,7 @@ def _lane_packet(
                         item["projection_pointer"] for item in evidence_rows
                     ],
                     "target_evidence": target_evidence(origin_ref),
-                    "reciprocal_evidence": evidence_rows,
+                    "reciprocal_evidence": tagged_evidence_rows,
                     "qualification": {
                         "derived_reciprocal_seed": has_nomination,
                         "derived_reciprocal_counterevidence": (
@@ -2790,7 +2900,7 @@ def _lane_packet(
         set(hft_anchor_refs) - set(supplied_hft_anchor_refs)
     )
     packet: dict[str, Any] = {
-        "schema_version": "commentary-v3-lane-evidence-packet-v1",
+        "schema_version": "commentary-v3-lane-evidence-packet-v2",
         "identity": {
             "ayah_ref": docket["identity"]["ayah_ref"],
             "lane": lane,
@@ -2868,6 +2978,11 @@ def _lane_packet(
             "hft_anchor_evidence_count": len(supplied_hft_anchor_refs),
             "missing_hft_anchor_refs": missing_hft_anchor_refs,
             "connection_count": len(connection_registry),
+            "connection_evidence_row_count": sum(
+                (1 if item.get("connection_evidence_ref") else 0)
+                + len(item.get("reciprocal_evidence", []))
+                for item in connection_registry
+            ),
             "authored_connection_count": sum(
                 item["origin"] == "authored_focus_row"
                 for item in connection_registry
@@ -2918,9 +3033,14 @@ def _lane_packet(
             "unresolved_hft_branch_citations_do_not_erase_the_record": True,
             "branch_ids_do_not_count_as_semantic_coverage": True,
             "distinctive_branch_facets_must_be_explained": True,
+            "accepted_branch_contributions_bind_one_tested_facet": True,
+            "failed_edges_remain_in_coverage_ledgers_without_contact_refs": True,
             "prior_connection_labels_are_not_decisions": True,
             "reciprocal_source_labels_are_not_focus_direction_decisions": True,
             "reciprocal_counterevidence_is_visible_but_not_a_veto": True,
+            "every_connection_evidence_row_requires_independent_review": (
+                lane in {"macro", "global"}
+            ),
             "connections_require_explicit_review": lane in {"macro", "global"},
             "conflict_is_not_a_rejection_reason": True,
             "prose_length_is_not_a_decision_criterion": True,
@@ -3111,19 +3231,56 @@ def _string_list(value: Any, *, label: str, allow_empty: bool = True) -> list[st
 
 
 def _branch_facet_ids(branch: dict[str, Any]) -> set[str]:
-    semantic_detail = branch.get("semantic_detail")
-    if not isinstance(semantic_detail, dict):
-        return set()
-    facets = semantic_detail.get("distinctive_facets", [])
-    if not isinstance(facets, list):
-        raise SystemExit("Branch distinctive_facets is malformed")
-    return {
-        facet["facet_id"]
-        for facet in facets
-        if isinstance(facet, dict)
-        and isinstance(facet.get("facet_id"), str)
-        and facet["facet_id"]
-    }
+    facets = branch.get("review_facets")
+    if facets is None:
+        # Historical packet support is intentionally read-only. New v2 packets
+        # always carry review_facets, including an explicit empty list.
+        semantic_detail = branch.get("semantic_detail")
+        if not isinstance(semantic_detail, dict):
+            return set()
+        facets = semantic_detail.get("distinctive_facets", [])
+        if not isinstance(facets, list):
+            raise SystemExit("Branch distinctive_facets is malformed")
+        return {
+            facet["facet_id"]
+            for facet in facets
+            if isinstance(facet, dict)
+            and isinstance(facet.get("facet_id"), str)
+            and facet["facet_id"]
+        }
+    return _record_id_set(facets, "facet_id", label="branch review facets")
+
+
+FACET_RESULTS = {"contact", "no_independent_trigger", "scope_referral"}
+CONNECTION_RESULTS = ("accepted", "narrowed", "represented", "rejected")
+
+
+def _connection_evidence_refs(connection: dict[str, Any], *, label: str) -> set[str]:
+    refs: list[str] = []
+    authored_ref = connection.get("connection_evidence_ref")
+    if authored_ref is not None:
+        if not isinstance(authored_ref, str) or not authored_ref:
+            raise SystemExit(f"{label} has an invalid authored evidence ref")
+        refs.append(authored_ref)
+    reciprocal = connection.get("reciprocal_evidence", [])
+    refs.extend(
+        _record_id_set(
+            reciprocal,
+            "connection_evidence_ref",
+            label=f"{label} reciprocal evidence",
+        )
+    )
+    if not refs or len(refs) != len(set(refs)):
+        raise SystemExit(f"{label} lacks unique connection evidence rows")
+    return set(refs)
+
+
+def _aggregate_connection_result(evidence_results: list[dict[str, Any]]) -> str:
+    supplied = {row.get("result") for row in evidence_results}
+    for result in CONNECTION_RESULTS:
+        if result in supplied:
+            return result
+    raise SystemExit("Connection evidence rows have no valid aggregate result")
 
 
 def _candidate_branch_refs(candidate: dict[str, Any], *, label: str) -> set[str]:
@@ -3194,6 +3351,10 @@ def _tested_facets(row: dict[str, Any], *, label: str) -> Any:
 def _validate_scope_review(
     lane: str, packet: dict[str, Any], review: dict[str, Any]
 ) -> None:
+    if packet.get("schema_version") != "commentary-v3-lane-evidence-packet-v2":
+        raise SystemExit(f"{lane} lane packet does not use the v2 evidence contract")
+    if review.get("schema_version") != "commentary-v3-scope-review-v2":
+        raise SystemExit(f"{lane} review does not use the v2 scope contract")
     if review.get("coverage_complete") is not True:
         raise SystemExit(f"{lane} review does not attest complete coverage")
 
@@ -3230,6 +3391,14 @@ def _validate_scope_review(
     branch_ids = _record_id_set(
         packet.get("branch_registry"), "branch_ref", label=f"{lane} branches"
     )
+    branches_by_ref = {
+        branch["branch_ref"]: branch
+        for branch in packet.get("branch_registry", [])
+    }
+    branch_facets_by_ref = {
+        branch_ref: _branch_facet_ids(branch)
+        for branch_ref, branch in branches_by_ref.items()
+    }
     connection_ids = _record_id_set(
         packet.get("connection_registry"),
         "connection_ref",
@@ -3352,6 +3521,7 @@ def _validate_scope_review(
 
     represented_candidates: set[str] = set()
     represented_proposals: set[str] = set()
+    accepted_facet_uses: list[tuple[str, str, str]] = []
     for finding_ref, finding in accepted_by_ref.items():
         finding_candidates = _string_list(
             finding.get("candidate_ids"),
@@ -3410,6 +3580,18 @@ def _validate_scope_review(
                     f"{lane} finding {finding_ref} has a branch contribution "
                     "without a branch_ref"
                 )
+            facet_id = contribution.get("facet_id")
+            if not isinstance(facet_id, str) or not facet_id:
+                raise SystemExit(
+                    f"{lane} finding {finding_ref} contribution for "
+                    f"{contribution_ref} lacks one facet_id"
+                )
+            if facet_id not in branch_facets_by_ref.get(contribution_ref, set()):
+                raise SystemExit(
+                    f"{lane} finding {finding_ref} contribution cites unknown facet "
+                    f"{contribution_ref}:{facet_id}"
+                )
+            accepted_facet_uses.append((finding_ref, contribution_ref, facet_id))
             contribution_branch_refs.add(contribution_ref)
             facet = _nonempty_aliased_text(
                 contribution,
@@ -3436,7 +3618,15 @@ def _validate_scope_review(
                 ("boundary",),
                 label=f"{lane} contribution {finding_ref}:{contribution_ref} boundary",
             )
-            identity = (contribution_ref, facet, carrier, anchor, effect, boundary)
+            identity = (
+                contribution_ref,
+                facet_id,
+                facet,
+                carrier,
+                anchor,
+                effect,
+                boundary,
+            )
             if identity in contribution_identities:
                 raise SystemExit(
                     f"{lane} finding {finding_ref} repeats a branch contribution"
@@ -3561,16 +3751,56 @@ def _validate_scope_review(
     if any(not ref.startswith(f"{lane}:") for ref in contact_refs):
         raise SystemExit(f"{lane} contact refs must be lane-qualified")
     contacts_by_ref = {contact["contact_ref"]: contact for contact in contacts}
+    contact_semantic_fields = {
+        "micro": (
+            "surface_carrier",
+            "distinctive_facet",
+            "independent_trigger",
+            "changed_reading",
+            "reader_payoff",
+            "containment",
+        ),
+        "macro": (
+            "focus_carrier",
+            "context_anchor",
+            "distinctive_facet",
+            "local_before",
+            "context_after",
+            "mechanism",
+            "reader_payoff",
+            "containment",
+        ),
+        "global": (
+            "focus_carrier",
+            "wider_trigger",
+            "relation",
+            "isolated_before",
+            "wider_after",
+            "reader_payoff",
+            "containment",
+        ),
+    }[lane]
     for contact in contacts:
         contact_ref = contact["contact_ref"]
         disposition = contact.get("disposition")
-        if disposition not in {"accept", "narrow", "reject", "scope_referral"}:
+        if disposition not in {
+            "accept",
+            "narrow",
+            "represented",
+            "scope_referral",
+        }:
             raise SystemExit(f"{lane} contact {contact_ref} has an invalid disposition")
+        for field in contact_semantic_fields:
+            value = contact.get(field)
+            if not isinstance(value, str) or not value.strip():
+                raise SystemExit(
+                    f"{lane} contact {contact_ref} requires a nonempty {field}"
+                )
         finding_refs = _coverage_finding_refs(
             contact,
             accepted_refs,
             label=f"{lane} contact {contact_ref}",
-            require=disposition in {"accept", "narrow"},
+            require=disposition in {"accept", "narrow", "represented"},
         )
         for finding_ref in finding_refs:
             if contact_ref not in _string_list(
@@ -3667,6 +3897,7 @@ def _validate_scope_review(
     if any(not ref.startswith(f"{lane}:") for ref in referral_refs):
         raise SystemExit(f"{lane} referral refs must be lane-qualified")
 
+    tested_facet_results_by_branch: dict[str, dict[str, str]] = {}
     if lane == "micro":
         expected_surface = {
             row.get("analysis_record_ref")
@@ -3742,7 +3973,7 @@ def _validate_scope_review(
                 )
             linked_terminal_contact = any(
                 contacts_by_ref[contact_ref].get("disposition")
-                in {"accept", "narrow", "scope_referral"}
+                in {"accept", "narrow", "represented", "scope_referral"}
                 and branch_ref
                 in _string_list(
                     contacts_by_ref[contact_ref].get("branch_refs", []),
@@ -3777,13 +4008,15 @@ def _validate_scope_review(
                     f"Micro facet coverage is incomplete for {row['branch_ref']}"
                 )
             if any(
-                not isinstance(facet.get("result"), str)
-                or not facet["result"].strip()
+                facet.get("result") not in FACET_RESULTS
                 for facet in tested
             ):
                 raise SystemExit(
-                    f"Micro facet results are incomplete for {row['branch_ref']}"
+                    f"Micro facet results are invalid for {row['branch_ref']}"
                 )
+            tested_facet_results_by_branch[branch_ref] = {
+                facet["facet_id"]: facet["result"] for facet in tested
+            }
     else:
         expected_connections = _record_id_set(
             packet.get("connection_registry"),
@@ -3797,12 +4030,26 @@ def _validate_scope_review(
         )
         if actual_connections != expected_connections:
             raise SystemExit(f"{lane} connection coverage is not exact")
+        packet_connections_by_ref = {
+            connection["connection_ref"]: connection
+            for connection in packet.get("connection_registry", [])
+        }
         for row in review.get("connection_coverage", []):
             connection_ref = row["connection_ref"]
+            packet_connection = packet_connections_by_ref[connection_ref]
+            if row.get("target_ref") != packet_connection.get("target_ref"):
+                raise SystemExit(
+                    f"{lane} connection {connection_ref} has a stale target_ref"
+                )
             result = row.get("result")
-            if result not in {"accepted", "narrowed", "represented", "rejected"}:
+            if result not in CONNECTION_RESULTS:
                 raise SystemExit(
                     f"{lane} connection {connection_ref} has an invalid result"
+                )
+            reason = row.get("reason")
+            if not isinstance(reason, str) or not reason.strip():
+                raise SystemExit(
+                    f"{lane} connection {connection_ref} requires a specific reason"
                 )
             finding_refs = _coverage_finding_refs(
                 row,
@@ -3810,6 +4057,51 @@ def _validate_scope_review(
                 label=f"{lane} connection {connection_ref}",
                 require=result in {"accepted", "narrowed", "represented"},
             )
+            evidence_results = row.get("evidence_row_results")
+            actual_evidence_refs = _record_id_set(
+                evidence_results,
+                "connection_evidence_ref",
+                label=f"{lane} connection {connection_ref} evidence-row results",
+            )
+            expected_evidence_refs = _connection_evidence_refs(
+                packet_connection,
+                label=f"{lane} connection {connection_ref}",
+            )
+            if actual_evidence_refs != expected_evidence_refs:
+                raise SystemExit(
+                    f"{lane} connection {connection_ref} evidence-row coverage is "
+                    "not exact"
+                )
+            evidence_finding_refs: set[str] = set()
+            for evidence_result in evidence_results:
+                evidence_ref = evidence_result["connection_evidence_ref"]
+                row_result = evidence_result.get("result")
+                if row_result not in CONNECTION_RESULTS:
+                    raise SystemExit(
+                        f"{lane} connection evidence {evidence_ref} has an invalid "
+                        "result"
+                    )
+                row_reason = evidence_result.get("reason")
+                if not isinstance(row_reason, str) or not row_reason.strip():
+                    raise SystemExit(
+                        f"{lane} connection evidence {evidence_ref} requires a "
+                        "specific reason"
+                    )
+                evidence_finding_refs.update(
+                    _coverage_finding_refs(
+                        evidence_result,
+                        accepted_refs,
+                        label=f"{lane} connection evidence {evidence_ref}",
+                        require=row_result
+                        in {"accepted", "narrowed", "represented"},
+                    )
+                )
+            derived_result = _aggregate_connection_result(evidence_results)
+            if result != derived_result or set(finding_refs) != evidence_finding_refs:
+                raise SystemExit(
+                    f"{lane} connection {connection_ref} aggregate does not match "
+                    "its evidence-row results"
+                )
             for finding_ref in finding_refs:
                 if connection_ref not in _string_list(
                     accepted_by_ref[finding_ref].get("connection_refs"),
@@ -3872,13 +4164,15 @@ def _validate_scope_review(
                     f"{lane} facet coverage is incomplete for {row['branch_ref']}"
                 )
             if any(
-                not isinstance(facet.get("result"), str)
-                or not facet["result"].strip()
+                facet.get("result") not in FACET_RESULTS
                 for facet in tested
             ):
                 raise SystemExit(
-                    f"{lane} facet results are incomplete for {row['branch_ref']}"
+                    f"{lane} facet results are invalid for {row['branch_ref']}"
                 )
+            tested_facet_results_by_branch[branch_ref] = {
+                facet["facet_id"]: facet["result"] for facet in tested
+            }
         accepted_branch_refs = {
             branch_ref
             for finding in accepted
@@ -3932,7 +4226,7 @@ def _validate_scope_review(
                 continue
             linked_terminal_contact = any(
                 contacts_by_ref[contact_ref].get("disposition")
-                in {"accept", "narrow", "scope_referral"}
+                in {"accept", "narrow", "represented", "scope_referral"}
                 and branch_ref
                 in _string_list(
                     contacts_by_ref[contact_ref].get("branch_refs", []),
@@ -3948,6 +4242,16 @@ def _validate_scope_review(
                     f"{lane} nominated branch {branch_ref} has no accepted or "
                     "referred landing"
                 )
+
+    for finding_ref, branch_ref, facet_id in accepted_facet_uses:
+        if (
+            tested_facet_results_by_branch.get(branch_ref, {}).get(facet_id)
+            != "contact"
+        ):
+            raise SystemExit(
+                f"{lane} finding {finding_ref} claims unactivated facet "
+                f"{branch_ref}:{facet_id}"
+            )
 
     if lane == "global":
         expected_supports = {
@@ -4091,6 +4395,7 @@ _SCOPE_REVIEW_ROW_IDS = {
     "candidate_decisions": "candidate_id",
     "connection_coverage": "connection_ref",
     "contact_opportunities": "contact_ref",
+    "evidence_row_results": "connection_evidence_ref",
     "facets_tested": "facet_id",
     "new_findings": "proposal_key",
     "scope_referrals": "referral_ref",
@@ -4113,7 +4418,7 @@ _SCOPE_REVIEW_CONTROL_VALUES = {
     ("contact_opportunities", "disposition"): {
         "accept",
         "narrow",
-        "reject",
+        "represented",
         "scope_referral",
     },
     ("surface_coverage", "treatment"): {
@@ -4131,7 +4436,15 @@ _SCOPE_REVIEW_CONTROL_VALUES = {
         "no_independent_trigger",
         "scope_referral",
     },
+    ("tested_facets", "result"): FACET_RESULTS,
+    ("facets_tested", "result"): FACET_RESULTS,
     ("connection_coverage", "result"): {
+        "accepted",
+        "narrowed",
+        "represented",
+        "rejected",
+    },
+    ("evidence_row_results", "result"): {
         "accepted",
         "narrowed",
         "represented",
@@ -4290,7 +4603,11 @@ def _scope_validation_exception_paths(
     for contact in _scope_record_rows(
         semantic_baseline.get("contact_opportunities")
     ):
-        if contact.get("disposition") not in {"accept", "narrow"}:
+        if contact.get("disposition") not in {
+            "accept",
+            "narrow",
+            "represented",
+        }:
             continue
         branch_refs = contact.get("branch_refs")
         if isinstance(branch_refs, str):
@@ -4522,6 +4839,63 @@ def _scope_validation_exception_paths(
                     f"accepted_findings[finding_ref={finding_ref}]."
                     f"branch_contributions[branch_ref={branch_ref}].branch_ref"
                 )
+        for contribution in contributions:
+            if not isinstance(contribution, dict):
+                continue
+            branch_ref = contribution.get("branch_ref")
+            facet_id = contribution.get("facet_id")
+            if (
+                isinstance(branch_ref, str)
+                and branch_ref
+                and isinstance(facet_id, str)
+                and facet_id
+                and facet_id not in branch_facets.get(branch_ref, set())
+            ):
+                exceptions.add(
+                    f"accepted_findings[finding_ref={finding_ref}]."
+                    f"branch_contributions[branch_ref={branch_ref}].facet_id"
+                )
+
+    if lane in {"macro", "global"}:
+        packet_connections = {
+            row.get("connection_ref"): row
+            for row in packet.get("connection_registry", [])
+            if isinstance(row, dict)
+            and isinstance(row.get("connection_ref"), str)
+        }
+        for coverage in _scope_record_rows(
+            semantic_baseline.get("connection_coverage")
+        ):
+            connection_ref = coverage.get("connection_ref")
+            if not isinstance(connection_ref, str) or not connection_ref:
+                continue
+            connection = packet_connections.get(connection_ref)
+            if connection is None:
+                continue
+            expected_evidence = _connection_evidence_refs(
+                connection, label=f"{lane} connection {connection_ref}"
+            )
+            results = _scope_record_rows(coverage.get("evidence_row_results"))
+            supplied_refs = [
+                row.get("connection_evidence_ref")
+                for row in results
+                if isinstance(row.get("connection_evidence_ref"), str)
+                and row["connection_evidence_ref"]
+            ]
+            repeated_refs = {
+                row_ref
+                for row_ref in supplied_refs
+                if supplied_refs.count(row_ref) > 1
+            }
+            for row_ref in set(supplied_refs):
+                if row_ref in repeated_refs or row_ref not in expected_evidence:
+                    exceptions.add(
+                        "connection_coverage"
+                        f"[connection_ref={connection_ref}]."
+                        "evidence_row_results"
+                        f"[connection_evidence_ref={row_ref}]."
+                        "connection_evidence_ref"
+                    )
 
     packet_candidates = {
         row.get("candidate_id"): row
@@ -4758,6 +5132,60 @@ def _scope_validation_fallback_identity_paths(
                     f"accepted_findings[finding_ref={finding_ref}]."
                     f"branch_contributions[branch_ref={branch_ref}].branch_ref"
                 )
+            facet_id = contribution.get("facet_id")
+            if (
+                isinstance(branch_ref, str)
+                and branch_ref
+                and isinstance(facet_id, str)
+                and facet_id
+                and facet_id not in branch_facets.get(branch_ref, set())
+            ):
+                fallback_paths.add(
+                    f"accepted_findings[finding_ref={finding_ref}]."
+                    f"branch_contributions[branch_ref={branch_ref}].facet_id"
+                )
+
+    if lane in {"macro", "global"}:
+        packet_connections = {
+            row.get("connection_ref"): row
+            for row in packet.get("connection_registry", [])
+            if isinstance(row, dict)
+            and isinstance(row.get("connection_ref"), str)
+        }
+        for coverage in _scope_record_rows(
+            semantic_baseline.get("connection_coverage")
+        ):
+            connection_ref = coverage.get("connection_ref")
+            if not isinstance(connection_ref, str) or not connection_ref:
+                continue
+            connection = packet_connections.get(connection_ref)
+            if connection is None:
+                continue
+            expected_evidence = _connection_evidence_refs(
+                connection, label=f"{lane} connection {connection_ref}"
+            )
+            supplied_refs = [
+                row.get("connection_evidence_ref")
+                for row in _scope_record_rows(
+                    coverage.get("evidence_row_results")
+                )
+                if isinstance(row.get("connection_evidence_ref"), str)
+                and row["connection_evidence_ref"]
+            ]
+            repeated_refs = {
+                row_ref
+                for row_ref in supplied_refs
+                if supplied_refs.count(row_ref) > 1
+            }
+            for row_ref in set(supplied_refs):
+                if row_ref in repeated_refs or row_ref not in expected_evidence:
+                    fallback_paths.add(
+                        "connection_coverage"
+                        f"[connection_ref={connection_ref}]."
+                        "evidence_row_results"
+                        f"[connection_evidence_ref={row_ref}]."
+                        "connection_evidence_ref"
+                    )
 
     packet_candidates = {
         row.get("candidate_id"): row
@@ -5238,6 +5666,23 @@ def _scope_validation_semantic_projection(
                 )
             ]
         if is_contribution:
+            contribution_facet_id = value.get("facet_id")
+            contribution_facet_path = (
+                ".".join((*identity_context, "facet_id"))
+                if identity_context
+                else None
+            )
+            if (
+                isinstance(contribution_facet_id, str)
+                and contribution_facet_id
+                and not (
+                    _scope_exception_path_matches(
+                        contribution_facet_path, exception_paths
+                    )
+                    and contribution_facet_path in fallback_identity_paths
+                )
+            ):
+                projected["semantic_facet_id"] = contribution_facet_id
             for canonical, aliases in contribution_aliases:
                 values = {
                     text_value
@@ -6084,6 +6529,11 @@ def _load_bound_scope_artifacts(
     reviews = {lane: _load_object(review_paths[lane]) for lane in LANES}
     for lane in LANES:
         identity = packets[lane].get("identity", {})
+        if (
+            packets[lane].get("schema_version")
+            != "commentary-v3-lane-evidence-packet-v2"
+        ):
+            raise SystemExit(f"{lane} packet does not use the v2 evidence contract")
         if identity.get("ayah_ref") != args.ayah or identity.get("lane") != lane:
             raise SystemExit(f"{lane} packet identity does not match this run")
         expected_packet_hash = _payload_hash_with_identity_field_removed(
@@ -6158,7 +6608,7 @@ def _reconciliation_audit_packet(
             }
         )
     return {
-        "schema_version": "commentary-v3-reconciliation-audit-packet-v1",
+        "schema_version": "commentary-v3-reconciliation-audit-packet-v2",
         "ayah_ref": packets["micro"].get("identity", {}).get("ayah_ref"),
         "encoding_note": (
             "Every lane packet is preserved in full except branch_registry. "
@@ -6461,7 +6911,7 @@ def _validate_reconciled_findings(
     identity = reconciled.get("identity")
     if (
         reconciled.get("schema_version")
-        != "commentary-v3-reconciled-findings-v1"
+        != "commentary-v3-reconciled-findings-v2"
         or not isinstance(identity, dict)
         or identity.get("ayah_ref") != ayah_ref
         or reconciled.get("ayah_ref") != ayah_ref
@@ -8333,6 +8783,7 @@ def _load_session_receipt(
         "scope-global": "scope-global-review",
         "scope-reconciler": "scope-reconcile",
         "canonical-writer": "canonical-merge",
+        "invitation-writer": "invitation-summary",
     }[conversation]
     if (
         started_manifest.get("prompt_sha256")
@@ -9075,6 +9526,7 @@ def record_authoring_session(args: argparse.Namespace) -> dict[str, Any]:
         "scope-global": "scope-global-review",
         "scope-reconciler": "scope-reconcile",
         "canonical-writer": "canonical-merge",
+        "invitation-writer": "invitation-summary",
     }[args.conversation]
     generation = manifest.get("authoring_request_sha256")
     if (
@@ -9318,14 +9770,14 @@ def record_authoring_turn(args: argparse.Namespace) -> dict[str, Any]:
     }
 
 
-def _legacy_completion_attests_guardless_receipt(
+def _legacy_completions_attesting_guardless_receipt(
     layout: AuthoringLayout, receipt_path: Path
-) -> bool:
-    """Admit only guardless receipts already sealed by a complete old lineage."""
+) -> list[Path]:
+    """Return every old completion that sealed a guardless receipt."""
 
     completion_root = layout.outputs / "completion"
     if not completion_root.exists():
-        return False
+        return []
     receipt_payload = _required_confined_file(
         layout.outputs, receipt_path, label="legacy canonical turn receipt"
     ).read_bytes()
@@ -9334,6 +9786,7 @@ def _legacy_completion_attests_guardless_receipt(
         "bytes": len(receipt_payload),
         "sha256": _sha256_bytes(receipt_payload),
     }
+    attesting_paths: list[Path] = []
     for completion_path in sorted(completion_root.glob("*/COMPLETION.json")):
         completion_path = _required_confined_file(
             layout.outputs,
@@ -9406,8 +9859,8 @@ def _legacy_completion_attests_guardless_receipt(
                 outputs_valid = False
                 break
         if outputs_valid:
-            return True
-    return False
+            attesting_paths.append(completion_path)
+    return attesting_paths
 
 
 def _load_verified_turn_receipt(
@@ -9416,6 +9869,7 @@ def _load_verified_turn_receipt(
     receipt_path: Path,
     *,
     prior_receipt: Path | None = None,
+    legacy_completion_paths: list[Path] | None = None,
 ) -> dict[str, Any] | None:
     resolved = _optional_confined_file(
         layout.outputs, receipt_path, label="canonical turn receipt"
@@ -9433,14 +9887,17 @@ def _load_verified_turn_receipt(
     actual = _load_object(resolved)
     if _canonical_json(actual) != _canonical_json(expected):
         raise SystemExit("Canonical turn receipt is stale or output hashes changed")
-    if (
-        "workspace_guard" not in actual
-        and not _legacy_completion_attests_guardless_receipt(layout, resolved)
-    ):
-        raise SystemExit(
-            "A guardless canonical receipt is admissible only as an immutable "
-            "pre-guard completed lineage"
+    if "workspace_guard" not in actual:
+        attesting_paths = _legacy_completions_attesting_guardless_receipt(
+            layout, resolved
         )
+        if not attesting_paths:
+            raise SystemExit(
+                "A guardless canonical receipt is admissible only as an immutable "
+                "pre-guard completed lineage"
+            )
+        if legacy_completion_paths is not None:
+            legacy_completion_paths.extend(attesting_paths)
     return actual
 
 
@@ -9491,6 +9948,157 @@ def _render_editorial(
     }
 
 
+def _render_invitation(
+    args: argparse.Namespace,
+    editorial_result: dict[str, Any],
+    editorial_receipt: dict[str, Any],
+) -> dict[str, Any]:
+    """Render the fresh reader-invitation handoff from editorial artifacts only."""
+
+    layout = _authoring_layout(args.ayah)
+    editorial_outputs = {
+        key: Path(value) for key, value in editorial_result["outputs"].items()
+    }
+    prose_path = _required_confined_file(
+        layout.outputs,
+        editorial_outputs["prose"],
+        label="editorial prose invitation source",
+    )
+    index_path = _required_confined_file(
+        layout.outputs,
+        editorial_outputs["index"],
+        label="editorial index invitation source",
+    )
+    try:
+        editorial_prose = prose_path.read_text(encoding="utf-8")
+        editorial_index = index_path.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise SystemExit(f"Cannot read invitation source artifacts: {exc}") from exc
+
+    template = _read_prompt("invitation-summary.md")
+    template_sha256 = _sha256_bytes(template.encode("utf-8"))
+    editorial_receipt_path = Path(editorial_result["receipt"])
+    editorial_receipt_payload = _required_confined_file(
+        layout.outputs,
+        editorial_receipt_path,
+        label="editorial receipt invitation source",
+    ).read_bytes()
+    request_inputs = {
+        "ayah_ref": args.ayah,
+        "template_sha256": template_sha256,
+        "editorial_request_sha256": editorial_result["request_sha256"],
+        "editorial_receipt_sha256": _sha256_bytes(editorial_receipt_payload),
+        "editorial_outputs_sha256": _sha256_json(editorial_receipt["outputs"]),
+        "editorial_prose_sha256": _sha256_bytes(prose_path.read_bytes()),
+        "editorial_index_sha256": _sha256_bytes(index_path.read_bytes()),
+    }
+    request_sha256 = _request_sha256("invitation-summary", request_inputs)
+    paths = _invitation_paths(layout, request_sha256)
+    prompt = _render(
+        template,
+        {
+            "@@AYAH_REF@@": args.ayah,
+            "@@EDITORIAL_PROSE@@": editorial_prose,
+            "@@EDITORIAL_INDEX@@": editorial_index,
+        },
+        label="invitation summary",
+    )
+    manifest = _prompt_manifest(
+        stage="invitation-summary",
+        ayah_ref=args.ayah,
+        prompt=prompt,
+        expected_response=paths["response"],
+        authoring_request_sha256=request_sha256,
+        inputs=request_inputs,
+    )
+    _write(V3_ROOT, paths["prompt"], prompt)
+    _write(V3_ROOT, paths["manifest"], _pretty_json(manifest))
+    return {
+        "ayah_ref": args.ayah,
+        "request_sha256": request_sha256,
+        "prompt": str(paths["prompt"]),
+        "manifest": str(paths["manifest"]),
+        "workspace": str(layout.workspace),
+        "expected_response": str(paths["response"]),
+    }
+
+
+def _validate_invitation_summary(layout: AuthoringLayout, path: Path) -> None:
+    """Reject recognizable apparatus leakage without imposing a style gate."""
+
+    resolved = _required_confined_file(
+        layout.outputs, path, label="invitation summary"
+    )
+    try:
+        text = resolved.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise SystemExit(f"Cannot read invitation summary: {exc}") from exc
+    lowered = text.casefold()
+    forbidden_markers = (
+        LOCKED_REF_PREFIX,
+        "surprise:",
+        "[supports-primary]",
+        "[shifts-primary]",
+        "[inference]",
+        "candidate_id",
+        "candidate_ref",
+        "finding_ref",
+        "branch_ref",
+        "contact_ref",
+        "connection_ref",
+        "atlas_facets_tested",
+        "support_id",
+        "support_ref",
+        "scope-micro",
+        "scope-macro",
+        "scope-global",
+        "json_pointer",
+        "source_pointer",
+        "analysis_record_ref",
+        "qac_ref",
+    )
+    forbidden_patterns = (
+        (
+            "stable internal ID",
+            r"\b(?:sup|cand|conn|contact|referral)_[a-z0-9]"
+            r"[a-z0-9_.:-]*\b",
+        ),
+        (
+            "internal apparatus token",
+            r"\b(?:hft|qac|scope|canonical|invitation|authoring|workflow|lane|"
+            r"candidate|finding|branch|support|contact|connection|referral|"
+            r"proposal|atlas)(?:[-_][a-z0-9]+)+\b",
+        ),
+        ("branch ID", r"\broot_[a-z0-9]+/b[a-z0-9]+\b|\bb[0-9]{3,}\b"),
+        ("source record ID", r"\b(?:qi|qg|qs|qt|mg|ms)-[0-9a-f]{8}\b"),
+        ("scope label", r"\b(?:micro|macro|global)\b"),
+        (
+            "workflow label",
+            r"\b(?:authoring|workflow|scope|lane|candidate|finding|branch|"
+            r"reconcile|reconciler|reconciliation)\b|\bi[sş] ak[ıi][sş][ıi]\b",
+        ),
+        ("HFT/QAC label", r"\b(?:hft|qac)\b"),
+        (
+            "analysis coordinate",
+            r"\b[0-9]+:[0-9]+:[0-9]+(?::[0-9]+)?\b|#l[0-9]+\b",
+        ),
+        (
+            "JSON pointer",
+            r"(?<![a-z0-9_])/[a-z][a-z0-9_-]*(?:/[a-z0-9_.:-]+)+",
+        ),
+        ("content hash", r"\b[0-9a-f]{64}\b"),
+    )
+    leaked = [marker for marker in forbidden_markers if marker in lowered]
+    leaked.extend(
+        label for label, pattern in forbidden_patterns if re.search(pattern, lowered)
+    )
+    if leaked:
+        raise SystemExit(
+            "Invitation summary exposes internal editorial apparatus: "
+            f"{sorted(set(leaked))}"
+        )
+
+
 def _output_presence(
     run_dir: Path, outputs: dict[str, Path], *, label: str
 ) -> tuple[list[str], list[str]]:
@@ -9512,6 +10120,8 @@ def _authoring_completion(
     lineage_paths: list[Path],
     first_pass_outputs: dict[str, Path],
     editorial_outputs: dict[str, Path],
+    invitation_output: Path,
+    invitation_session_path: Path,
     merge_receipt_path: Path,
     editorial_receipt_path: Path,
 ) -> tuple[dict[str, Any], Path]:
@@ -9545,6 +10155,7 @@ def _authoring_completion(
     for phase, outputs in (
         ("first_pass", first_pass_outputs),
         ("editorial", editorial_outputs),
+        ("invitation", {"summary": invitation_output}),
     ):
         for key, path in outputs.items():
             resolved = _required_confined_file(
@@ -9558,7 +10169,7 @@ def _authoring_completion(
             }
 
     completion = {
-        "schema_version": "commentary-v3-authoring-completion-v2",
+        "schema_version": "commentary-v3-authoring-completion-v3",
         "ayah_ref": ayah_ref,
         "transport": {
             "prompt_delivery": "absolute_path_only",
@@ -9568,6 +10179,11 @@ def _authoring_completion(
         "phase_receipts": {
             "canonical_merge": _manifest_path(merge_receipt_path),
             "canonical_editorial": _manifest_path(editorial_receipt_path),
+        },
+        "invitation_summary": {
+            "fresh_session_receipt": _manifest_path(invitation_session_path),
+            "semantic_authority": "reader_invitation_only",
+            "locked_finding_coverage_required": False,
         },
         "outputs": output_records,
     }
@@ -9585,7 +10201,7 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
     layout = _authoring_layout(args.ayah)
     scope_result = _render_scopes(args)
     common = {
-        "schema_version": "commentary-v3-authoring-workflow-status-v2",
+        "schema_version": "commentary-v3-authoring-workflow-status-v3",
         "ayah_ref": args.ayah,
         "canonical_paths": {
             "inputs": str(layout.inputs),
@@ -9606,6 +10222,7 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
         "inter_ayah_evidence": scope_result["inter_ayah_evidence"],
     }
     lineage_paths: list[Path] = []
+    legacy_completion_paths: list[Path] = []
     base_review_paths: dict[str, Path] = {}
     base_review_manifests: dict[str, Path] = {}
     missing_reviews: list[str] = []
@@ -10312,7 +10929,10 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
 
     merge_receipt_path = Path(merge_result["receipt"])
     merge_receipt = _load_verified_turn_receipt(
-        layout, merge_manifest, merge_receipt_path
+        layout,
+        merge_manifest,
+        merge_receipt_path,
+        legacy_completion_paths=legacy_completion_paths,
     )
     if merge_receipt is None:
         canonical_session, _ = _load_session_receipt(
@@ -10379,6 +10999,7 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
         editorial_manifest,
         editorial_receipt_path,
         prior_receipt=merge_receipt_path,
+        legacy_completion_paths=legacy_completion_paths,
     )
     if editorial_receipt is None:
         canonical_session, _ = _load_session_receipt(
@@ -10404,6 +11025,42 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
                 str(merge_receipt_path),
             ],
         }
+
+    invitation_result = _render_invitation(
+        args, editorial_result, editorial_receipt
+    )
+    invitation_prompt = Path(invitation_result["prompt"])
+    invitation_manifest = Path(invitation_result["manifest"])
+    invitation_output = Path(invitation_result["expected_response"])
+    lineage_paths.extend([invitation_prompt, invitation_manifest])
+    if _optional_confined_file(
+        layout.outputs, invitation_output, label="invitation summary"
+    ) is None:
+        return {
+            **common,
+            "status": "waiting_for_agent",
+            "stage": "invitation_summary",
+            "handoffs": [
+                _generated_prompt_handoff(
+                    layout,
+                    role="invitation_summary_writer",
+                    conversation="invitation-writer",
+                    conversation_generation=invitation_result["request_sha256"],
+                    prompt_path=invitation_prompt,
+                    manifest_path=invitation_manifest,
+                    expected_response=invitation_output,
+                )
+            ],
+        }
+    invitation_session, invitation_session_path = _load_session_receipt(
+        layout, "invitation-writer", invitation_result["request_sha256"]
+    )
+    if invitation_session is None:
+        raise SystemExit(
+            "Invitation summary exists without its persisted fresh-agent session"
+        )
+    _validate_invitation_summary(layout, invitation_output)
+    lineage_paths.extend([invitation_session_path])
 
     lineage_paths.extend(
         [
@@ -10441,12 +11098,15 @@ def advance_authoring(args: argparse.Namespace) -> dict[str, Any]:
         if guard_record.get("sha256") != _sha256_bytes(guard_payload):
             raise SystemExit("Canonical workspace guard changed after notarization")
         lineage_paths.append(guard_path)
+    lineage_paths.extend(legacy_completion_paths)
     completion, completion_path = _authoring_completion(
         layout,
         args.ayah,
         lineage_paths,
         first_pass_outputs,
         editorial_outputs,
+        invitation_output,
+        invitation_session_path,
         merge_receipt_path,
         editorial_receipt_path,
     )
@@ -10562,6 +11222,7 @@ def _build_parser() -> argparse.ArgumentParser:
             "scope-global",
             "scope-reconciler",
             "canonical-writer",
+            "invitation-writer",
         ),
     )
     record_session.add_argument("--session-id", required=True)

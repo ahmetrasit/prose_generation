@@ -57,16 +57,19 @@ must write itself. On a new conversation, record the returned persistent
 session ID with the returned `authoring-record-session` command before
 accepting its output. Scope prose and repair follow-ups resume their
 corresponding scope sessions, while the verbatim canonical editorial follow-up
-resumes the canonical merge writer. Ephemeral sessions are forbidden.
+resumes the canonical merge writer. A final invitation summary starts a fresh
+read-only conversation that receives only the editorial prose and findings
+index. Ephemeral sessions are forbidden.
 
 Structured responses prefer read-only workers and the executor's native atomic
 final-response capture. The approved native multi-agent adapter is an explicit
 transport exception: persistent spawned workers write their own
-`expected_response` JSON files, and the orchestrator only spawns, monitors,
-records sessions, reruns the state machine, and closes agents when the ayah no
-longer needs them. The orchestrator must not copy, repair, reserialize,
-pretty-print, wrap, or otherwise edit a worker response. Canonical writers use
-the exact declared outputs plus a content-addressed pre-turn workspace guard.
+`expected_response` files in the contracted JSON or Markdown format, and the
+orchestrator only spawns, monitors, records sessions, reruns the state machine,
+and closes agents when the ayah no longer needs them. The orchestrator must not
+copy, repair, reserialize, pretty-print, wrap, or otherwise edit a worker
+response. Canonical writers use the exact declared outputs plus a
+content-addressed pre-turn workspace guard.
 Turn notarization rejects Git-visible changes outside those paths. Each handoff
 also returns hashes for outputs already present before a resumed turn so the
 external orchestrator can require them to remain unchanged.
@@ -78,8 +81,9 @@ completion created before guard enforcement existed. Status reports that case
 as `legacy_pre_guard_completed_lineage` and sets
 `production_workspace_guard_enforced: false`; it is an explicit historical
 benchmark compatibility state, never an inferred guard or an end-to-end
-production-guard pass. The first new authoring run must report `enforced` before
-the guarded workflow is called production-ready.
+production-guard pass. A successor completion binds every admitting v2
+completion into its own hashed lineage. The first new authoring run must report
+`enforced` before the guarded workflow is called production-ready.
 
 The stage order is:
 
@@ -97,7 +101,9 @@ The stage order is:
    conversation, producing four editorial counterparts;
 7. explicit merge and editorial turn receipts binding the persistent writer
    session, request, prompt, ordered phase, and exact output hashes;
-8. a deterministic completion manifest binding every artifact in the active
+8. one fresh invitation writer receiving only editorial prose and index and
+   producing a short reader-facing invitation with no finding-coverage duty;
+9. a deterministic completion manifest binding every artifact in the active
    lineage and every final file by path, byte count, and SHA-256. Superseded
    content-addressed generations remain immutable and stageable but are not
    asserted as active lineage.
@@ -114,6 +120,17 @@ retaining every lane-specific link. This is transport deduplication only:
 evidence and findings are never summarized, sampled, truncated, or semantically
 compressed for token savings. Non-payload manifests and reports may remain
 pretty-printed for inspection.
+
+The v2 scope-review contract normalizes every reviewable branch meaning under
+`review_facets` with a stable `facet_id`. Tested-facet rows and accepted branch
+contributions cite that same identity, so a generic branch citation cannot
+stand in for the facet actually claimed. Macro and global packets likewise give
+every authored and reciprocal connection source row a stable
+`connection_evidence_ref`; each direction receives an independent nested result
+before the parent connection result is derived. `contact_opportunities` contains
+only complete semantic contacts. Failed attempted edges remain visible in their
+candidate, branch/facet, support, or connection coverage ledgers without being
+assigned synthetic contact identities.
 
 Each scope-prose context contains only records cited by its locked findings or
 resolved referrals. A referral also pulls in origin-only candidate, raw support
@@ -147,11 +164,14 @@ surface accounting, accepted-to-locked finding conservation, reconciliation-
 repair semantic preservation, path confinement, symlinks, persistent-session
 continuity, canonical-writer Git-visible workspace guards, ordered turn
 receipts, exact locked-ref coverage in both canonical indexes and evidence
-files, and exact output hashes. These are loss-prevention checks, not prose
-gates. It deliberately does not impose prose length, paragraph, finding-density,
-thesis, or stylistic schema requirements. Missing, stale, malformed, escaped,
-partial, or hash-inconsistent artifacts stop the workflow loudly; no fallback
-may silently omit a scope or an accepted finding.
+files, explicit-apparatus exclusion in the invitation, and exact output hashes.
+The invitation is a reader derivative, not a new semantic authority: it neither
+adds a locked-finding coverage requirement nor changes editorial artifacts.
+These are loss-prevention checks, not prose gates. The workflow deliberately
+does not impose prose length, paragraph, finding-density, thesis, or stylistic
+schema requirements. Missing, stale, malformed, escaped, partial, or
+hash-inconsistent artifacts stop the workflow loudly; no fallback may silently
+omit a scope or an accepted finding.
 
 ## Legacy structured workflow
 

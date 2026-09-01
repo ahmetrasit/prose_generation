@@ -142,6 +142,7 @@ def _build_parser() -> argparse.ArgumentParser:
             "scope-global",
             "scope-reconciler",
             "canonical-writer",
+            "invitation-writer",
         ),
     )
     authoring_record_session.add_argument("--session-id", required=True)
