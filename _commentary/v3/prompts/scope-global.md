@@ -116,10 +116,14 @@ Use the complete focus-branch atlas, not only candidate-cited branches. Silently
 scan every atlas branch and every one of its supplied facets against the wider
 records and supplied connections. A multi-facet branch is not reviewed by
 choosing one representative facet. Record `atlas_facets_tested[]` for every
-branch with a plausible wider contact or an existing citation, listing all
-tested facet IDs, result, and any contact refs. The facet statements stay in the
-packet and need not be copied into the response. Emit findings only for real
-contacts; do not enumerate branch-by-branch combinations.
+branch with a plausible wider contact or an existing citation in a supplied
+candidate, an emitted contact, or an accepted finding, listing all tested facet
+IDs and a branch-level `result` (`nominated`,
+`no_independent_trigger`, or `scope_referral`), and any contact refs. The facet
+statements stay in the packet and need not be copied into the response. Emit
+findings only for real contacts; do not enumerate branch-by-branch combinations.
+Every tested facet row requires its own result, and a `nominated` branch must
+land in an accepted finding or a linked accepted/narrowed/referred contact.
 
 Some nominated branches supply their semantic facet as `image_ar`, `image_en`,
 `branch_image_ar`, or `what_is_ar` rather than a numbered concept-map facet.
@@ -156,6 +160,10 @@ must be settled before prose facility can influence it.
 
 Return one JSON object with:
 
+All model-created stable refs in this response (`finding_ref`, `proposal_key`,
+`contact_ref`, and `referral_ref`) must begin with `global:` so their identities
+remain unambiguous when the three independent ledgers are reconciled.
+
 - `schema_version: "commentary-v3-scope-review-v1"`;
 - `identity` containing `ayah_ref: "@@AYAH_REF@@"`, `lane: "global"`,
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
@@ -176,7 +184,9 @@ Return one JSON object with:
 - `contact_opportunities[]`, one row per meaningful wider contact, with stable
   `contact_ref`, `focus_carrier`, `wider_trigger`, `relation`,
   `isolated_before`, `wider_after`, `reader_payoff`, `containment`, complete
-  `support_ids`, complete `branch_refs`, complete `connection_refs`, and any
+  `support_ids`, complete `branch_refs`, complete `connection_refs`,
+  `disposition` (`accept`, `narrow`, `reject`, or `scope_referral`), the
+  accepted `finding_refs` for an accepted or narrowed contact, and any
   `cross_root_boundary` needed to prevent analogy from being mistaken for
   lexical identity;
 - `candidate_decisions[]`, one row per supplied candidate, with `candidate_id`,
@@ -193,16 +203,20 @@ Return one JSON object with:
   plus a specific `reason`. A referral is lossless work for another lane, not a
   rejection shorthand;
 - `new_findings[]`, a compact map for uncandidate discoveries, each with a
-  stable `proposal_key`, its `accepted_finding_ref`, and originating
-  `contact_refs`/`connection_refs`; put the finding content and evidence only in
+  stable `proposal_key`, its `accepted_finding_ref`, a nonempty exact
+  `contact_refs` list naming its originating contacts, and any originating
+  `connection_refs`; put the finding content and evidence only in
   `accepted_findings`;
 - `accepted_findings[]`, one row for every accepted existing or new finding,
   with `finding_ref`, complete `candidate_ids`, complete `proposal_keys`,
   `title`, `isolated_before`, `wider_after`, `wider_trigger`, `claim`,
   `mechanism`, `reader_payoff`, `containment`, complete `support_ids`,
-  `branch_refs`, `connection_refs`, `contact_refs`, and `branch_contributions`, and
-  `epistemic_status`. Each branch contribution must state the distinctive facet,
-  carrier, independent anchor, actual contribution, and boundary;
+  `branch_refs`, `connection_refs`, `contact_refs`, and `branch_contributions`,
+  and `epistemic_status`. Supply one or more distinct contributions for every
+  cited `branch_ref`; give separate rows when one branch activates multiple
+  distinctive facets or independently anchored contributions, rather than
+  flattening them. Each row states the distinctive facet, carrier, independent
+  anchor, actual contribution, and boundary;
 - `friction_notes[]` for live ambiguity, evidence gaps, source qualification,
   scope referrals, or decisions a reconciler should inspect.
 

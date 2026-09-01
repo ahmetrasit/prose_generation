@@ -8,6 +8,8 @@ import json
 import sys
 from pathlib import Path
 
+import render_authoring
+
 from v3lib.adjudication import (
     ADJUDICATION_RESPONSE_SAFETY_CEILING,
     AdjudicationOptions,
@@ -99,6 +101,64 @@ def _build_parser() -> argparse.ArgumentParser:
         "--max-adjudication-prompt-bytes", type=int, default=750_000
     )
     _add_synthesis_options(advance)
+
+    authoring_advance = subparsers.add_parser(
+        "authoring-advance",
+        help=(
+            "Advance the complete prose-first workflow to its next path-only "
+            "agent handoff or verified completion."
+        ),
+    )
+    authoring_advance.add_argument("--ayah", required=True)
+    authoring_advance.add_argument("--docket", type=Path)
+    authoring_advance.add_argument("--source-bundle", type=Path)
+    authoring_advance.add_argument(
+        "--inter-ayah-dir",
+        type=Path,
+        default=render_authoring.DEFAULT_INTER_AYAH_DIR,
+    )
+    authoring_advance.add_argument(
+        "--inter-ayah-parent-dir",
+        type=Path,
+        default=render_authoring.DEFAULT_INTER_AYAH_PARENT_DIR,
+    )
+    authoring_advance.add_argument(
+        "--quran-text",
+        type=Path,
+        default=render_authoring.DEFAULT_QURAN_TEXT,
+    )
+
+    authoring_record_session = subparsers.add_parser(
+        "authoring-record-session",
+        help="Bind a persisted agent session to a canonical authoring conversation.",
+    )
+    authoring_record_session.add_argument("--ayah", required=True)
+    authoring_record_session.add_argument(
+        "--conversation",
+        required=True,
+        choices=(
+            "scope-micro",
+            "scope-macro",
+            "scope-global",
+            "scope-reconciler",
+            "canonical-writer",
+        ),
+    )
+    authoring_record_session.add_argument("--session-id", required=True)
+    authoring_record_session.add_argument(
+        "--prompt-manifest", required=True, type=Path
+    )
+
+    authoring_record_turn = subparsers.add_parser(
+        "authoring-record-turn",
+        help="Bind a completed canonical writer turn to its exact output hashes.",
+    )
+    authoring_record_turn.add_argument("--ayah", required=True)
+    authoring_record_turn.add_argument("--session-id", required=True)
+    authoring_record_turn.add_argument(
+        "--prompt-manifest", required=True, type=Path
+    )
+    authoring_record_turn.add_argument("--prior-receipt", type=Path)
 
     prepare = subparsers.add_parser(
         "prepare", help="Audit one source bundle and build an adjudication docket."
@@ -240,6 +300,24 @@ def _run_prepare(args: argparse.Namespace) -> int:
         "docket_bytes": prepared["budget"]["docket_bytes"],
         "paths": paths if not args.dry_run else None,
     }
+    print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
+    return 0
+
+
+def _run_authoring_advance(args: argparse.Namespace) -> int:
+    result = render_authoring.advance_authoring(args)
+    print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
+    return 0
+
+
+def _run_authoring_record_session(args: argparse.Namespace) -> int:
+    result = render_authoring.record_authoring_session(args)
+    print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
+    return 0
+
+
+def _run_authoring_record_turn(args: argparse.Namespace) -> int:
+    result = render_authoring.record_authoring_turn(args)
     print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
     return 0
 
@@ -590,6 +668,12 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if args.command == "advance":
             return _run_advance(args)
+        if args.command == "authoring-advance":
+            return _run_authoring_advance(args)
+        if args.command == "authoring-record-session":
+            return _run_authoring_record_session(args)
+        if args.command == "authoring-record-turn":
+            return _run_authoring_record_turn(args)
         if args.command == "prepare":
             return _run_prepare(args)
         if args.command == "render-adjudication":

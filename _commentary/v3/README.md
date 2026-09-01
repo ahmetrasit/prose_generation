@@ -5,6 +5,11 @@ hermetic ayah bundle, retains its exact bytes under `inputs/source/`, and does
 not import or execute legacy commentary scripts. Every retained input,
 intermediate artifact, response, and final output remains under this directory.
 
+A cold agent asked to orchestrate this workflow for an ayah set or surah must
+be given the absolute path to `ORCHESTRATION.md` and follow that document as its
+single orchestration entrypoint. This README explains the implementation and
+artifact contracts; it is not the cold-agent runbook.
+
 ## Evidence lanes
 
 - **micro**: source-bound QAC morphology, word-analysis topics, and a complete record of
@@ -15,11 +20,130 @@ intermediate artifact, response, and final output remains under this directory.
 - **global**: reader walks and cross-run findings, each carrying an explicit
   trust label.
 
-The lanes are evidence scopes, not separate model calls. The complete workflow
-uses one structured adjudication call and one constrained Turkish synthesis
-call.
+In the legacy structured path below, the lanes are evidence scopes inside one
+adjudication call. The prose-first path now gives each lane its own fresh review
+conversation before reconciliation and prose preparation.
 
-## Complete workflow
+## Prose-first authoring workflow
+
+The prose-first path is advanced by one idempotent command:
+
+```bash
+python3 _commentary/v3/workflow.py authoring-advance \
+  --ayah 29:38
+```
+
+`--ayah` deterministically selects two canonical, repository-tracked trees:
+
+- hermetic packets, prompts, and prompt manifests under
+  `inputs/authoring/sNNN/S_A/`;
+- responses, drafts, session/turn receipts, and prose outputs under
+  `outputs/authoring/sNNN/S_A/`.
+
+Each scope and downstream stage has a content-addressed request directory. A
+semantic source/evidence, governing-document, or prompt change therefore creates
+a new stage path instead of overwriting or silently reusing an older artifact. The
+production command accepts no arbitrary run directory, and it never emits a
+bundle under `/tmp` or `/private`. Every generated artifact is visible to Git
+and can be staged and committed.
+
+The command stops whenever an agent handoff is required and returns the
+absolute prompt path, prompt hash, expected response or output paths, workspace
+access, stable conversation key, and a separate `start`/`resume` action. Prompt
+contents are never piped or copied into the initial agent message. The operator
+gives the agent only the absolute path; the agent reads the complete hermetic
+file itself. On a new conversation, record the returned persistent session ID
+with the returned `authoring-record-session` command before accepting its
+output. Scope prose and repair follow-ups resume their corresponding scope
+sessions, while the verbatim canonical editorial follow-up resumes the
+canonical merge writer. Ephemeral sessions are forbidden.
+
+Structured responses use read-only workers and the executor's native atomic
+final-response capture. Canonical writers use the executor's real
+`workspace_write` mode because the CLI has no per-file write allowlist; each
+handoff therefore includes exact declared outputs plus a content-addressed
+pre-turn workspace guard. Turn notarization rejects Git-visible changes outside
+those paths. Each handoff also returns hashes for outputs already present before
+a resumed turn so the external orchestrator can require them to remain
+unchanged.
+
+New canonical turn recording always requires this guard. A guardless receipt
+can be loaded only when it was already sealed, together with both phase
+receipts and all eight unchanged outputs, by a valid content-addressed v2
+completion created before guard enforcement existed. Status reports that case
+as `legacy_pre_guard_completed_lineage` and sets
+`production_workspace_guard_enforced: false`; it is an explicit historical
+benchmark compatibility state, never an inferred guard or an end-to-end
+production-guard pass. The first new authoring run must report `enforced` before
+the guarded workflow is called production-ready.
+
+The stage order is:
+
+1. three fresh micro, macro, and global reviews in parallel;
+2. deterministic conservation checks, with content-addressed same-scope repair
+   follow-ups when a review has a loss/accounting gap;
+3. one cross-scope reconciliation, with same-reconciler accounting repair turns
+   and repeated same-scope repairs when a concrete evidentiary gap is found;
+4. three prose-preparation follow-ups in the original scope conversations,
+   followed only when needed by bounded same-agent accounting repairs that
+   preserve prose, movement order, and friction exactly, or by a genuine
+   same-agent prose rewrite when lossless relabeling is impossible;
+5. one fresh canonical merge writer producing the four first-pass files;
+6. the canonical editorial follow-up, verbatim, in that same writer
+   conversation, producing four editorial counterparts;
+7. explicit merge and editorial turn receipts binding the persistent writer
+   session, request, prompt, ordered phase, and exact output hashes;
+8. a deterministic completion manifest binding every artifact in the active
+   lineage and every final file by path, byte count, and SHA-256. Superseded
+   content-addressed generations remain immutable and stageable but are not
+   asserted as active lineage.
+
+Embedded JSON is canonical and minified (`ensure_ascii=false`, sorted keys, no
+indentation or separator whitespace). Downstream reconciliation also stores
+cross-lane branch semantics once while retaining every lane-specific link. This
+is transport deduplication only: evidence and findings are never summarized,
+sampled, truncated, or semantically compressed for token savings. Human-facing
+JSON artifacts remain pretty-printed for inspection.
+
+Each scope-prose context contains only records cited by its locked findings or
+resolved referrals. A referral also pulls in origin-only candidate, raw support
+(including HFT payload and qualification), branch/facet, connection, contact,
+and decision records even when those refs cannot appear in the receiving
+finding's top-level evidence union. Repeated branch semantics are carried once;
+lane availability and only the selected candidate/support/HFT links remain.
+Missing cited or origin records stop the workflow rather than yielding thinner
+prose.
+
+Scope prose accounting uses the reconciler's exact `locked_finding_ref` values;
+member finding refs remain provenance and are never converted by a presumed
+prefix rule. A repair follow-up carries only the prior minified draft, the
+validation issue, and a compact explicit locked-to-member map. It does not
+repeat the much larger original hermetic prose prompt because it resumes the
+original scope session. Runtime checks reject any repair that changes prose,
+movement keys or order, friction, or other non-accounting content. A missing or
+empty response capture, or malformed JSON, stops loudly. A valid scope draft
+with empty prose or movements, stale identity, or another genuine
+prose/structure defect is routed to a bounded follow-up in the same scope
+session instead of being disguised as an accounting repair. That follow-up
+remains high-recall and may rewrite prose only as needed while preserving every
+assigned locked finding. Ref repair is
+allowed only when every assigned locked finding already has one unambiguous
+prior locked/member-ref occurrence. The workflow derives the exact normalized
+movement and landing map in code; a missing, unknown, or multiply attached
+finding cannot be made to look covered by relabeling unrelated prose.
+
+The workflow checks identity, lineage, exact candidate/connection/support and
+surface accounting, accepted-to-locked finding conservation, reconciliation-
+repair semantic preservation, path confinement, symlinks, persistent-session
+continuity, canonical-writer Git-visible workspace guards, ordered turn
+receipts, exact locked-ref coverage in both canonical indexes and evidence
+files, and exact output hashes. These are loss-prevention checks, not prose
+gates. It deliberately does not impose prose length, paragraph, finding-density,
+thesis, or stylistic schema requirements. Missing, stale, malformed, escaped,
+partial, or hash-inconsistent artifacts stop the workflow loudly; no fallback
+may silently omit a scope or an accepted finding.
+
+## Legacy structured workflow
 
 `advance` is the normal entry point. It runs every deterministic stage that is
 currently possible and returns JSON describing either the next model handoff or

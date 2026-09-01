@@ -47,11 +47,27 @@ ayah reference and lane; `coverage_complete`; `movements[]` (`movement_key`,
 finding, with `finding_ref` and `movement_key`); and `friction_notes[]`. Several findings may share a movement only
 when their wider mechanisms and reader payoffs genuinely belong together.
 
+In both `movements[].finding_refs` and
+`finding_landings[].finding_ref`, copy only the exact
+`locked_findings[].locked_finding_ref` values from the prose-context packet.
+`member_finding_records[].finding_ref` values are provenance only. Never use a
+member ref in those accounting fields, and never derive a locked ref by adding
+a prefix.
+
 The prose-context packet repeats the locked set together with wider-source,
 connection, and facet coverage, relevant friction, exact focus surface, and only
 the evidence records cited by those findings. Use it to preserve the wider
 trigger and return path even if this follow-up is delivered in a fresh
 invocation. It does not authorize new findings or reopened decisions.
+
+`member_finding_records` preserves each originating accepted finding verbatim;
+the consolidated locked wording organizes those records but never replaces or
+genericizes their carrier, mechanism, payoff, containment, or epistemic status.
+`resolved_referrals` and `originating_referral_records` may carry evidence that
+exists only in another lane. Its complete originating candidate, raw support,
+branch/facets, connection, and contact records are included in the corresponding
+`cited_*_records`; use them as first-class evidence even when their refs are
+absent from the locked finding's top-level unions.
 
 <global_prose_context_json>
 @@LANE_PROSE_CONTEXT_JSON@@

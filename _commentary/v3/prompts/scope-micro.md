@@ -112,6 +112,10 @@ facility can influence it.
 
 Return one JSON object with:
 
+All model-created stable refs in this response (`finding_ref`, `proposal_key`,
+`contact_ref`, and `referral_ref`) must begin with `micro:` so their identities
+remain unambiguous when the three independent ledgers are reconciled.
+
 - `schema_version: "commentary-v3-scope-review-v1"`;
 - `identity` containing `ayah_ref: "@@AYAH_REF@@"`, `lane: "micro"`,
   `lane_packet_sha256: "@@LANE_PACKET_SHA256@@"`, and
@@ -129,11 +133,15 @@ Return one JSON object with:
   complete `tested_facets` (facet IDs and per-facet results), branch-level
   `result` (`nominated`, `no_independent_trigger`, or `scope_referral`), any
   `contact_refs`, and a specific reason. Do not echo facet statements or full
-  root-occurrence records already present in the packet;
+  root-occurrence records already present in the packet. A `nominated` branch
+  must land in an accepted finding or in a linked accepted/narrowed/referred
+  contact; it cannot be a positive orphan;
 - `contact_opportunities[]`, one row per meaningful contact discovered, with
   stable `contact_ref`, `surface_carrier`, `distinctive_facet`,
   `independent_trigger`, `changed_reading`, `reader_payoff`, `containment`,
-  `suggested_lane`, complete `support_ids`, and complete `branch_refs`;
+  `suggested_lane`, `disposition` (`accept`, `narrow`, `reject`, or
+  `scope_referral`), the accepted `finding_refs` for an accepted or narrowed
+  contact, complete `support_ids`, and complete `branch_refs`;
 - `candidate_decisions[]`, one row per supplied candidate, with `candidate_id`,
   `decision` (`accept`, `narrow`, `reject`, or `scope_referral`), concise
   `reason`, `failed_edge` when rejected, related `accepted_finding_refs`, and
@@ -148,15 +156,20 @@ Return one JSON object with:
   plus a specific `reason`. A referral is lossless work for another lane, not a
   rejection shorthand;
 - `new_findings[]`, a compact map for uncandidate discoveries, each with a
-  stable `proposal_key`, its `accepted_finding_ref`, and originating
-  `contact_refs`; put the finding content and evidence only in
+  stable `proposal_key`, its `accepted_finding_ref`, and exact `contact_refs`
+  naming its originating contacts when contact-derived. Use an empty list for a
+  purely surface, grammar, syntax, form, or sound discovery that needs no
+  branch contact; put the finding content and evidence only in
   `accepted_findings`;
 - `accepted_findings[]`, one row for every accepted existing or new finding,
   with `finding_ref`, complete `candidate_ids`, complete `proposal_keys`,
   `title`, `claim`, `mechanism`, `reader_payoff`, `containment`, complete
-  `support_ids`, `branch_refs`, `contact_refs`, and `branch_contributions`, and
-  `epistemic_status`. Each branch contribution names `branch_ref`, the exact
-  `distinctive_facet`, `surface_carrier`, `independent_anchor`, its actual
+  `support_ids`, `branch_refs`, `connection_refs`, `contact_refs`, and
+  `branch_contributions`, and `epistemic_status`. Supply one or more distinct
+  contributions for every cited `branch_ref`. Give separate rows when one
+  branch activates multiple distinctive facets or independently anchored
+  contributions; never flatten them into one generic row. Each row names the
+  exact `distinctive_facet`, `surface_carrier`, `independent_anchor`, its actual
   `contribution`, and its `boundary`;
 - `friction_notes[]` for real ambiguity, evidence gaps, scope referrals, or
   decisions a reconciler should inspect.
