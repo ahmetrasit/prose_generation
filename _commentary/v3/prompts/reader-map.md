@@ -14,10 +14,12 @@ rendering.
 
 ## Core and detail
 
-`core` is the shortest coherent path through the existing commentary that
-keeps all of the following reachable:
+`core` is the selective, continuous architectural path through the existing
+commentary. It keeps all of the following reachable:
 
 - the ayah's plain propositional force;
+- major turns where the reader's understanding changes, even when the index
+  does not tag that turn as a holistic surprise;
 - the concrete carriers and changed readings of its indexed holistic
   surprises;
 - enough transition material for the retained paragraphs to read as one
@@ -49,6 +51,7 @@ attach one to a detail block, or treat the index summary as replacement prose.
 Core blocks use one or more of these reasons:
 
 - `plain_reading`
+- `architectural_move`
 - `surprise_carrier`
 - `surprise_payoff`
 - `continuity`

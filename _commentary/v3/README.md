@@ -114,6 +114,13 @@ The stage order is:
    content-addressed generations remain immutable and stageable but are not
    asserted as active lineage.
 
+The structured reader view supports three mechanical presentations of the same
+authored prose: Guided keeps `core` blocks visible and collapses detail; Custom
+opens detail blocks by their typed information kinds; Full opens every block.
+No view rewrites the prose. The same ordered blocks are also suitable as future
+TTS units, so audio can follow the reader's chosen depth without asking another
+agent to segment the commentary.
+
 Embedded JSON and agent-facing v3 input payloads are canonical and minified
 (`ensure_ascii=false`, sorted keys, no indentation or separator whitespace).
 Agent-facing authoring packets also omit recoverable source/projection

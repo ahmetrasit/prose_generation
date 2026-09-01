@@ -138,6 +138,7 @@ SURPRISE_INDEX_ROW_RE = re.compile(
 )
 READER_CORE_REASONS = (
     "plain_reading",
+    "architectural_move",
     "surprise_carrier",
     "surprise_payoff",
     "continuity",
@@ -10224,6 +10225,19 @@ def _reader_exact_fields(
     return value
 
 
+def _reader_string_list(
+    value: Any, *, allowed: tuple[str, ...] | None = None, label: str
+) -> list[str]:
+    if (
+        not isinstance(value, list)
+        or any(not isinstance(item, str) for item in value)
+        or len(set(value)) != len(value)
+        or (allowed is not None and any(item not in allowed for item in value))
+    ):
+        raise SystemExit(f"{label} must be a unique list of contracted strings")
+    return value
+
+
 def _validated_reader_map_response(
     layout: AuthoringLayout,
     reader_map_result: dict[str, Any],
@@ -10388,20 +10402,23 @@ def _validated_reader_map_response(
             )
         flattened_paragraphs.extend(block_paragraphs)
         role = block.get("role")
-        core_reasons = block.get("core_reasons")
-        detail_kinds = block.get("detail_kinds")
-        block_surprises = block.get("surprise_refs")
+        core_reasons = _reader_string_list(
+            block.get("core_reasons"),
+            allowed=READER_CORE_REASONS,
+            label=f"Reader-map {expected_block_key} core reasons",
+        )
+        detail_kinds = _reader_string_list(
+            block.get("detail_kinds"),
+            allowed=READER_DETAIL_KINDS,
+            label=f"Reader-map {expected_block_key} detail kinds",
+        )
+        block_surprises = _reader_string_list(
+            block.get("surprise_refs"),
+            label=f"Reader-map {expected_block_key} surprise refs",
+        )
         label_tr = block.get("label_tr")
         if (
             role not in {"core", "detail"}
-            or not isinstance(core_reasons, list)
-            or len(set(core_reasons)) != len(core_reasons)
-            or any(reason not in READER_CORE_REASONS for reason in core_reasons)
-            or not isinstance(detail_kinds, list)
-            or len(set(detail_kinds)) != len(detail_kinds)
-            or any(kind not in READER_DETAIL_KINDS for kind in detail_kinds)
-            or not isinstance(block_surprises, list)
-            or len(set(block_surprises)) != len(block_surprises)
             or any(ref not in surprise_refs for ref in block_surprises)
         ):
             raise SystemExit(f"Reader-map {expected_block_key} has invalid roles")
