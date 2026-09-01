@@ -21,7 +21,10 @@ length, paragraph, thesis, or prose-density gate.
 3. Never pipe, shell-expand, paste, summarize, or inline a hermetic prompt into
    an agent message. Give the worker the absolute `prompt_path` returned by the
    workflow and only a short instruction to read that file completely and
-   follow it exactly.
+   follow it exactly. When using the approved native multi-agent adapter, the
+   wrapper may also name the returned `expected_response` or
+   `expected_outputs` path(s) so the worker can write its own contracted
+   artifact. The wrapper must not add substantive analysis or coaching.
 4. Use persistent agent sessions. An ephemeral agent is forbidden. Follow the
    returned `conversation_action` exactly:
    - `start` means a genuinely fresh session;
@@ -33,8 +36,10 @@ length, paragraph, thesis, or prose-density gate.
    Do not use process inspection as a substitute for waiting. A transient
    capacity failure does not authorize model substitution: retry or resume the
    same session, profile, and prompt path.
-7. Never hand-edit, overwrite, delete, rename, or relocate a generated response
-   to make validation pass. Rerun the orchestrator and use only the repair or
+7. Never hand-edit, overwrite, delete, rename, relocate, reserialize,
+   pretty-print, wrap, or copy a generated response to make validation pass.
+   Under the native multi-agent adapter, the worker itself must write the
+   response or output file. Rerun the orchestrator and use only the repair or
    follow-up handoff it returns. Generated artifacts are immutable and
    content-addressed.
 8. Do not invent an unrequested global repair or combine scopes manually. If a
@@ -172,13 +177,29 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
 
 1. Launch one fresh persistent worker with the required model and reasoning
    profile, the returned working directory, and the returned access mode.
-2. Its initial message must contain no hermetic prompt content. Use only:
+2. Its initial message must contain no hermetic prompt content. For an executor
+   with native response capture, use only:
 
    ```text
    Read this file completely and follow it exactly:
    /absolute/path/from/prompt_path
    ```
 
+   For the approved native multi-agent adapter, where workers write their own
+   artifacts, use the same path-only handoff plus the returned output path(s):
+
+   ```text
+   Read this file completely and follow it exactly:
+   /absolute/path/from/prompt_path
+
+   Write your contracted JSON response yourself to:
+   /absolute/path/from/expected_response
+   ```
+
+   For canonical writer handoffs, replace the JSON-response line with the
+   returned `expected_outputs` paths when the prompt does not already name them
+   clearly. Do not add interpretation, advice, summaries, or selected evidence
+   outside the hermetic prompt.
 3. As soon as a session ID is available, execute the returned
    `session_record_command`, replacing only `<returned-session-id>`.
 4. Wait patiently for completion.
@@ -186,24 +207,32 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
 ### Resuming a conversation
 
 1. Resume exactly the returned `session_id` using the same model profile.
-2. Send the same two-line path-only instruction with the newly returned
-   absolute prompt path.
+2. Send the same prompt-path instruction with the newly returned absolute
+   prompt path. When using the native multi-agent adapter, include only the
+   newly returned `expected_response` or `expected_outputs` path(s) as described
+   above.
 3. Do not create or record a new session receipt.
 4. Wait patiently for completion.
 
 ### Capturing structured responses
 
 Scope reviews, repairs, reconciliation turns, and scope-prose drafts return one
-JSON object. Keep their workspace read-only and use the executor's native
-final-response capture to write the response directly and atomically to
-`expected_response`. Do not use a shell pipe and do not manually reserialize,
-pretty-print, repair, or wrap the JSON. The response file must contain only the
-worker's contracted JSON object. Empty, truncated, malformed, or non-object
-capture is a loud stop unless `authoring-advance` itself returns an explicit
-same-session follow-up; never improvise recovery.
+JSON object. The preferred executor mode keeps their workspace read-only and
+uses native final-response capture to write the response directly and
+atomically to `expected_response`.
+
+The approved native multi-agent adapter is an explicit exception to native
+capture. In that mode, the orchestrator supplies the returned
+`expected_response` path in the wrapper and the worker writes the response file
+itself. The orchestrator must not copy the worker's final message into the
+file, repair JSON, reserialize JSON, pretty-print JSON, wrap JSON, or edit the
+file after the worker returns. The response file must contain only the worker's
+contracted JSON object. Empty, truncated, malformed, or non-object files are a
+loud stop unless `authoring-advance` itself returns an explicit same-session
+follow-up; never improvise recovery.
 
 The executor adapter must implement the following operations. Names vary by
-host, but the semantics do not:
+host, but the preferred native-capture semantics are:
 
 ```text
 start_persistent(
@@ -233,6 +262,35 @@ structured response capture; do not add `--ephemeral`, `-`, or stdin prompt
 input. The installed executor/profile supplies the exact production model name
 and maximum-reasoning configuration—do not guess or silently substitute them.
 
+The approved native multi-agent adapter instead uses persistent
+`spawn_agent`/`send_input`/`wait_agent` semantics:
+
+```text
+spawn_persistent(
+  model=LUNA_5_6, reasoning=MAX,
+  message="Read this file completely and follow it exactly:\n" +
+          handoff.prompt_path + "\n\n" +
+          "Write your contracted JSON response yourself to:\n" +
+          handoff.expected_response
+) -> session_id
+
+resume_persistent(
+  session_id=handoff.session_id,
+  model=LUNA_5_6, reasoning=MAX,
+  message="Read this file completely and follow it exactly:\n" +
+          handoff.prompt_path + "\n\n" +
+          "Write your contracted JSON response yourself to:\n" +
+          handoff.expected_response
+)
+```
+
+For this adapter, `workspace_access` is treated as the workflow's declared
+intent, but the enforcement boundary is weaker than an executor-native
+read-only/write split. The orchestrator must not compensate manually; it relies
+on session receipts, expected paths, canonical writer guards, Git-visible
+change checks, hashes, and the next `authoring-advance` validation to accept or
+reject the turn. Record the returned multi-agent ID as the session ID.
+
 ### Canonical writer outputs
 
 The canonical merge and editorial workers receive the executor's real
@@ -260,9 +318,11 @@ missing files; present outputs remain immutable. An empty, malformed, or
 truncated file is not “missing” and stops loudly. It never authorizes a fresh
 writer, manual completion, or overwriting an existing artifact.
 
-If the executor cannot provide persistent start/resume semantics, native final
-response capture, or the requested workspace access, stop and report that the
-execution environment cannot satisfy the workflow contract.
+If the executor cannot provide persistent start/resume semantics, stop and
+report that the execution environment cannot satisfy the workflow contract. If
+native final-response capture or strict workspace access is unavailable, use
+the approved native multi-agent adapter only when the user has explicitly
+authorized that transport relaxation for the run.
 
 ## 6. State-machine stages
 
@@ -384,6 +444,12 @@ Maintain a concise run ledger containing, for each ayah:
 Do not create the ledger outside the repository. If it must be persisted, put
 it in the canonical task documentation or requested surah output tree so it is
 Git-stageable.
+
+When using the native multi-agent adapter, close each completed ayah's worker
+agents after all possible same-ayah resumes, receipts, idempotence checks, and
+approval gates are finished. Never close an agent that may still be needed for
+a same-session repair, prose preparation, canonical merge resume, or editorial
+follow-up.
 
 ## 11. Implementation-change protocol
 

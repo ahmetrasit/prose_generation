@@ -51,21 +51,25 @@ The command stops whenever an agent handoff is required and returns the
 absolute prompt path, prompt hash, expected response or output paths, workspace
 access, stable conversation key, and a separate `start`/`resume` action. Prompt
 contents are never piped or copied into the initial agent message. The operator
-gives the agent only the absolute path; the agent reads the complete hermetic
-file itself. On a new conversation, record the returned persistent session ID
-with the returned `authoring-record-session` command before accepting its
-output. Scope prose and repair follow-ups resume their corresponding scope
-sessions, while the verbatim canonical editorial follow-up resumes the
-canonical merge writer. Ephemeral sessions are forbidden.
+gives the agent the absolute prompt path, and, when using the approved native
+multi-agent adapter, the returned expected response/output path that the worker
+must write itself. On a new conversation, record the returned persistent
+session ID with the returned `authoring-record-session` command before
+accepting its output. Scope prose and repair follow-ups resume their
+corresponding scope sessions, while the verbatim canonical editorial follow-up
+resumes the canonical merge writer. Ephemeral sessions are forbidden.
 
-Structured responses use read-only workers and the executor's native atomic
-final-response capture. Canonical writers use the executor's real
-`workspace_write` mode because the CLI has no per-file write allowlist; each
-handoff therefore includes exact declared outputs plus a content-addressed
-pre-turn workspace guard. Turn notarization rejects Git-visible changes outside
-those paths. Each handoff also returns hashes for outputs already present before
-a resumed turn so the external orchestrator can require them to remain
-unchanged.
+Structured responses prefer read-only workers and the executor's native atomic
+final-response capture. The approved native multi-agent adapter is an explicit
+transport exception: persistent spawned workers write their own
+`expected_response` JSON files, and the orchestrator only spawns, monitors,
+records sessions, reruns the state machine, and closes agents when the ayah no
+longer needs them. The orchestrator must not copy, repair, reserialize,
+pretty-print, wrap, or otherwise edit a worker response. Canonical writers use
+the exact declared outputs plus a content-addressed pre-turn workspace guard.
+Turn notarization rejects Git-visible changes outside those paths. Each handoff
+also returns hashes for outputs already present before a resumed turn so the
+external orchestrator can require them to remain unchanged.
 
 New canonical turn recording always requires this guard. A guardless receipt
 can be loaded only when it was already sealed, together with both phase
