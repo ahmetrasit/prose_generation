@@ -104,6 +104,11 @@ The stage order is:
 
 Embedded JSON and agent-facing v3 input payloads are canonical and minified
 (`ensure_ascii=false`, sorted keys, no indentation or separator whitespace).
+Agent-facing authoring packets also omit recoverable source/projection
+provenance coordinates such as JSON pointers, source files, source lines, row
+hashes, and projection pointers; those coordinates remain recoverable from the
+committed source snapshots and data repositories, while semantic fields and
+exact evidence payloads remain present.
 Downstream reconciliation also stores cross-lane branch semantics once while
 retaining every lane-specific link. This is transport deduplication only:
 evidence and findings are never summarized, sampled, truncated, or semantically

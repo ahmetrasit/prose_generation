@@ -1025,10 +1025,10 @@ class SynthesisTests(unittest.TestCase):
                 Path("adjudication/s029/29_39.adjudication.json"),
                 adjudication,
             )
-            write_json_confined(
+            write_bytes_confined(
                 inputs_root,
                 Path("synthesis/s029/29_38.packet.json"),
-                packet,
+                canonical_json_bytes(packet),
             )
             write_bytes_confined(
                 inputs_root,
@@ -1105,6 +1105,12 @@ class SynthesisTests(unittest.TestCase):
                     "29:38",
                     options=synthesis_options,
                     prepare_options=prepare_options,
+                )
+                packet_path = Path(paths["packet"])
+                retained_packet = json.loads(packet_path.read_text(encoding="utf-8"))
+                self.assertEqual(
+                    packet_path.read_bytes(),
+                    canonical_json_bytes(retained_packet),
                 )
                 forged_response_hash = copy.deepcopy(first)
                 forged_response_hash["identity"]["response_canonical_sha256"] = "0" * 64

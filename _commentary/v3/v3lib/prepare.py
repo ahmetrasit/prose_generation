@@ -4575,7 +4575,7 @@ def build_prepared_artifacts(
         "blocker_counts": dict(sorted(blocker_counts.items())),
         "warnings": warnings,
     }
-    raw = canonical_json_bytes(bundle)
+    raw = source_raw if source_raw is not None else canonical_json_bytes(bundle)
     retained_source_path = (
         Path("inputs")
         / "source"
@@ -4721,11 +4721,12 @@ def prepare_bundle_file(
     write: bool = True,
     force: bool = False,
 ) -> tuple[dict[str, Any], dict[str, Any], dict[str, str]]:
-    bundle, raw = load_json_object(bundle_path)
+    bundle, _raw = load_json_object(bundle_path)
+    retained_source_raw = canonical_json_bytes(bundle)
     prepared, docket = build_prepared_artifacts(
         bundle,
         source_path=bundle_path,
-        source_raw=raw,
+        source_raw=retained_source_raw,
         options=options,
     )
     ayah_ref = prepared["identity"]["ayah_ref"]
@@ -4742,7 +4743,7 @@ def prepare_bundle_file(
     }
     if write:
         payloads = {
-            source_rel: canonical_json_bytes(bundle),
+            source_rel: retained_source_raw,
             docket_rel: canonical_json_bytes(docket),
             prepared_rel: canonical_json_bytes(prepared),
         }

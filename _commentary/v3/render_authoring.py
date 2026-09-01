@@ -87,6 +87,20 @@ INTER_AYAH_COLUMNS = (
     "source_line",
     "source_row_sha256",
 )
+RECOVERABLE_TRANSPORT_PROVENANCE_KEYS = frozenset(
+    {
+        "json_pointer",
+        "projection_pointer",
+        "projection_pointers",
+        "projection_record_sha256",
+        "source_column_order",
+        "source_file",
+        "source_line",
+        "source_pointer",
+        "source_pointers",
+        "source_row_sha256",
+    }
+)
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 AUTHORING_INPUTS_ROOT = (V3_ROOT / "inputs" / "authoring").resolve()
 AUTHORING_OUTPUTS_ROOT = (V3_ROOT / "outputs" / "authoring").resolve()
@@ -161,6 +175,18 @@ def _canonical_json(value: Any) -> str:
         sort_keys=True,
         separators=(",", ":"),
     )
+
+
+def _strip_recoverable_transport_provenance(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {
+            key: _strip_recoverable_transport_provenance(item)
+            for key, item in value.items()
+            if key not in RECOVERABLE_TRANSPORT_PROVENANCE_KEYS
+        }
+    if isinstance(value, list):
+        return [_strip_recoverable_transport_provenance(item) for item in value]
+    return value
 
 
 def _sha256_bytes(payload: bytes) -> str:
@@ -2899,8 +2925,12 @@ def _lane_packet(
             "connections_require_explicit_review": lane in {"macro", "global"},
             "conflict_is_not_a_rejection_reason": True,
             "prose_length_is_not_a_decision_criterion": True,
+            "recoverable_source_provenance_is_omitted_from_agent_transport": (
+                True
+            ),
         },
     }
+    packet = _strip_recoverable_transport_provenance(packet)
     packet["identity"]["lane_packet_sha256"] = (
         _payload_hash_with_identity_field_removed(packet, "lane_packet_sha256")
     )

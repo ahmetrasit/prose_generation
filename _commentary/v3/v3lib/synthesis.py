@@ -794,7 +794,7 @@ def render_synthesis_for_ayah(
     }
     if write:
         payloads = {
-            relatives["packet"]: pretty_json_bytes(packet),
+            relatives["packet"]: canonical_json_bytes(packet),
             relatives["prompt"]: prompt.encode("utf-8"),
             relatives["prompt_manifest"]: pretty_json_bytes(manifest),
         }

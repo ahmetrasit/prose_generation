@@ -28,6 +28,7 @@ from v3lib.common import (  # noqa: E402
     confined_destination,
     load_json_object,
     pretty_json_bytes,
+    sha256_bytes,
     write_json_confined,
 )
 from v3lib.prepare import (  # noqa: E402
@@ -2495,6 +2496,27 @@ class PrepareTests(unittest.TestCase):
             self.assertEqual(
                 prepared["identity"]["source"]["raw_sha256"],
                 prepared["identity"]["source"]["canonical_sha256"],
+            )
+            self.assertEqual(
+                prepared["identity"]["source"]["raw_sha256"],
+                sha256_bytes(snapshot.read_bytes()),
+            )
+            legacy_prepared, legacy_docket = build_prepared_artifacts(
+                fixture_bundle(),
+                source_path=source_path,
+                source_raw=raw,
+                options=PrepareOptions(hft_policy="quarantine"),
+            )
+            self.assertNotEqual(
+                legacy_prepared["identity"]["source"]["raw_sha256"],
+                legacy_prepared["identity"]["source"]["canonical_sha256"],
+            )
+            validate_prepared(
+                legacy_prepared,
+                legacy_docket,
+                source_bundle=fixture_bundle(),
+                source_raw=raw,
+                options=PrepareOptions(hft_policy="quarantine"),
             )
             self.assertEqual(
                 Path(paths["prepared"]).read_bytes(),
