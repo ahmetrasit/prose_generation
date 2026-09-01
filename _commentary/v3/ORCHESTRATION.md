@@ -160,6 +160,12 @@ workflow's workspace guard has passed end to end. The first newly authored ayah
 must report `canonical_workspace_guard_status: enforced` before that production
 claim is made.
 
+If a completion reports
+`canonical_workspace_guard_status: mixed_guard_lineage`, stop and report it.
+That state means exactly one canonical writer turn in the lineage has a
+workspace guard and one does not. It is not an approved historical completion
+state and it is not equivalent to end-to-end guard enforcement.
+
 ## 5. How to execute a returned handoff
 
 Each item in `handoffs[]` is authoritative. Check these fields before launch:

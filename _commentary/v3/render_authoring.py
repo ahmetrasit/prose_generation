@@ -17,12 +17,18 @@ import json
 import os
 import re
 import subprocess
+import sys
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from v3lib.common import ValidationError
+from v3lib.common import (
+    WorkflowError,
+    canonical_json_bytes,
+    load_json_object_bounded,
+    pretty_json_bytes,
+)
 from v3lib.prepare import validate_docket
 
 
@@ -104,6 +110,7 @@ RECOVERABLE_TRANSPORT_PROVENANCE_KEYS = frozenset(
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 AUTHORING_INPUTS_ROOT = (V3_ROOT / "inputs" / "authoring").resolve()
 AUTHORING_OUTPUTS_ROOT = (V3_ROOT / "outputs" / "authoring").resolve()
+MAX_AUTHORING_JSON_BYTES = 128_000_000
 MAX_RECONCILIATION_ATTEMPTS = 16
 MAX_SCOPE_PROSE_REPAIR_ATTEMPTS = 8
 MAX_SCOPE_PROSE_REWRITE_ATTEMPTS = 4
@@ -159,22 +166,14 @@ def _authoring_layout(ayah_ref: str) -> AuthoringLayout:
 
 
 def _load_object(path: Path) -> dict[str, Any]:
-    try:
-        value = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        raise SystemExit(f"Cannot load JSON object {path}: {exc}") from exc
-    if not isinstance(value, dict):
-        raise SystemExit(f"Expected a JSON object at {path}")
+    value, _raw = load_json_object_bounded(
+        path, max_bytes=MAX_AUTHORING_JSON_BYTES
+    )
     return value
 
 
 def _canonical_json(value: Any) -> str:
-    return json.dumps(
-        value,
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-    )
+    return canonical_json_bytes(value).decode("utf-8")
 
 
 def _strip_recoverable_transport_provenance(value: Any) -> Any:
@@ -198,7 +197,7 @@ def _sha256_json(value: Any) -> str:
 
 
 def _pretty_json(value: Any) -> str:
-    return json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n"
+    return pretty_json_bytes(value).decode("utf-8")
 
 
 def _ayah_parts(ayah_ref: str) -> tuple[int, int, str, str]:
@@ -10584,10 +10583,40 @@ def _build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     parser = _build_parser()
     args = parser.parse_args()
-    result = args.func(args)
-    if result is not None:
-        print(_pretty_json(result), end="")
-    return 0
+    try:
+        result = args.func(args)
+        if result is not None:
+            print(_pretty_json(result), end="")
+        return 0
+    except WorkflowError as exc:
+        print(
+            _pretty_json(
+                {
+                    "status": "error",
+                    "error_type": type(exc).__name__,
+                    "message": str(exc),
+                }
+            ),
+            file=sys.stderr,
+            end="",
+        )
+        return 2
+    except SystemExit as exc:
+        if exc.code in (None, 0):
+            return 0
+        message = exc.code if isinstance(exc.code, str) else str(exc)
+        print(
+            _pretty_json(
+                {
+                    "status": "error",
+                    "error_type": "SystemExit",
+                    "message": message,
+                }
+            ),
+            file=sys.stderr,
+            end="",
+        )
+        return exc.code if isinstance(exc.code, int) else 2
 
 
 if __name__ == "__main__":
