@@ -1,0 +1,1313 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "29:0",
+    "lane": "micro",
+    "lane_packet_sha256": "ff4a1b33e2b712a10440c0198abbde7493ebc6240cba4394c6cb6e4ca83e5ea0",
+    "authoring_request_sha256": "876a58aea61240a77ad45bc33b16d09ce89aa092b1af4eb22f494a5433a5ef37"
+  },
+  "ayah_ref": "29:0",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:1:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:find-bi-beat",
+        "micro:find-bi-range",
+        "micro:find-ellipsis"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:find-name-raised",
+        "micro:find-name-construct",
+        "micro:find-name-frame",
+        "micro:find-name-root-contrast",
+        "micro:find-name-variant-pressure"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:3",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:find-divine-anchor",
+        "micro:find-name-recurrence",
+        "micro:find-divine-proper",
+        "micro:find-deity-pressure"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:4",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:find-case-variants",
+        "micro:find-mercy-attachment",
+        "micro:find-mercy-breadth",
+        "micro:find-mercy-onset",
+        "micro:find-womb-pressure"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:5",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:find-cadence",
+        "micro:find-formula-completion",
+        "micro:find-scalar-refinement",
+        "micro:find-shareable-mercy",
+        "micro:find-enacted-mercy",
+        "micro:find-pause-bridge"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000047/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "contact"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-deity-entity"],
+      "reason": "The proper name ٱللَّهِ is a local carrier for the worshiped-referent facet, activated by its definite unique referent and divine naming frame. No worship action, causative making, or historical sun example is independently present."
+    },
+    {
+      "branch_ref": "root_000047/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"},
+        {"facet_id": "F005", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-divine-proper"],
+      "reason": "ٱللَّهِ is explicitly a unique divine proper name and is reached through the construct. The formation, oath, vocative, and shortened-form facets lack their required articles, negation, direct address, or abbreviated sound pattern."
+    },
+    {
+      "branch_ref": "root_000552/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "contact"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"},
+        {"facet_id": "F005", "result": "contact"}
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact-mercy-core",
+        "micro:contact-mercy-breadth",
+        "micro:contact-mercy-action"
+      ],
+      "reason": "The two definite genitive mercy adjectives are actual carriers. Their paired adjective morphology, divine attachment, expansive first form, and enacted final form independently activate compassion, active mercy, and divine breadth; reciprocal-human, wish, and direct mercy-action facets are not locally triggered."
+    },
+    {
+      "branch_ref": "root_000552/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The r-h-m epithets are attributes of the divine name, but the surface contains no kinship relation, bodily-organ naming, or explicit act of maintaining or severing kinship."
+    },
+    {
+      "branch_ref": "root_000552/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-womb-pressure"],
+      "reason": "The r-h-m carriers and their protective, encompassing mercy pressure permit an embodied container image as a bounded secondary color. The divine adjective syntax prevents a literal organ reading."
+    },
+    {
+      "branch_ref": "root_000552/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The mercy adjectives provide no uterine pain, disease, retained membrane, swelling, animal, or postpartum context."
+    },
+    {
+      "branch_ref": "root_000743/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The surface noun سْمِ is a name in construct; no narrow hole, bodily opening, or sword notch is present."
+    },
+    {
+      "branch_ref": "root_000743/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Nothing in the name noun or its construct marks an ingested lethal substance, administering it, or a venom-bearing animal."
+    },
+    {
+      "branch_ref": "root_000743/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The construct does not describe an inner circle, relatives, or selective distribution of a benefit."
+    },
+    {
+      "branch_ref": "root_000743/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The name phrase contains no hot wind, affected day or night, or damaged plant."
+    },
+    {
+      "branch_ref": "root_000743/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The surface has no explicit reconciliation of people or renewed social closeness; the name's designation function belongs to the separate name branch."
+    },
+    {
+      "branch_ref": "root_000743/B006",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No sea shell, drilled bead, belt loop, or ceiling ornament is evoked by سْمِ."
+    },
+    {
+      "branch_ref": "root_000743/B007",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The local noun does not identify a small bird or a fast female camel."
+    },
+    {
+      "branch_ref": "root_000743/B008",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The name construction supplies no fox, seed, place, red-ant, or light/fast-person naming context."
+    },
+    {
+      "branch_ref": "root_000743/B009",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "There is no exclusive statement about a person's sole concern for an addressee."
+    },
+    {
+      "branch_ref": "root_000743/B010",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No death or ending of living existence is present."
+    },
+    {
+      "branch_ref": "root_000743/B011",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The opening is relational, but it does not state an aim, route, target, or deep investigation that would activate this branch."
+    },
+    {
+      "branch_ref": "root_000743/B012",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The construct is grammatically bound, but no vessel mouth is closed and no object is physically tied."
+    },
+    {
+      "branch_ref": "root_000743/B013",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No visible body, upper surface, palm pith, or other concrete top-section image is supplied."
+    },
+    {
+      "branch_ref": "root_000745/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The name's abstract designation does not supply physical or social elevation, a raised gaze, or any upward movement."
+    },
+    {
+      "branch_ref": "root_000745/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No rising object becomes visible from afar, no elevated body is described, and no crescent-on-the-horizon image occurs."
+    },
+    {
+      "branch_ref": "root_000745/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The text supplies no male camel entering a female herd or upward animal movement."
+    },
+    {
+      "branch_ref": "root_000745/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"},
+        {"facet_id": "F005", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The selected name sense has no sky, roof, cloud, rain, plant, horse-back, or upper-covering scene."
+    },
+    {
+      "branch_ref": "root_000745/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"},
+        {"facet_id": "F005", "result": "contact"}
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact-name-core",
+        "micro:contact-name-raised"
+      ],
+      "reason": "سْمِ is the actual name/designation noun in construct, activating the core naming facet. Its root-supported raised/distinct designation pressure is also a bounded secondary contact. Naming action, namesake, equivalence, and the fuller etymological claim beyond distinctness have no separate local trigger."
+    },
+    {
+      "branch_ref": "root_000745/B006",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The name noun has no hunting expedition, hunter, search for prey, or hot-ground sock context."
+    },
+    {
+      "branch_ref": "root_000745/B007",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No contest, boastful comparison, opposition, or unattainable superiority is expressed."
+    },
+    {
+      "branch_ref": "root_000745/B008",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The divine name is not locally presented as a spreading report or specifically as good reputation."
+    },
+    {
+      "branch_ref": "root_001650/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The designation may distinguish a referent abstractly, but no visible brand, cut, notch, or branding tool is present."
+    },
+    {
+      "branch_ref": "root_001650/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No observed bodily sign, intuitive inference, or morally positive or negative character judgment is supplied."
+    },
+    {
+      "branch_ref": "root_001650/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "There is no first rain, plant-producing soil, or resulting vegetative condition."
+    },
+    {
+      "branch_ref": "root_001650/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The phrase does not set a communal meeting time or place, pilgrimage gathering, market, or act of attending such a gathering."
+    },
+    {
+      "branch_ref": "root_001650/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No person's visible beauty, facial grace, or enduring elegance is described."
+    },
+    {
+      "branch_ref": "root_001650/B006",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No dye-producing plant, leaves, or small tree is present."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:contact-name-core",
+      "surface_carrier": "سْمِ (ismi)",
+      "distinctive_facet": "root_000745/B005 F001: a name is a designation that identifies a referent and makes it speakable",
+      "independent_trigger": "The noun is the selected name sense in a genitive construct: بِ governs it and ٱللَّهِ completes it.",
+      "changed_reading": "The opening is mediated through a named designation rather than an unqualified label.",
+      "reader_payoff": "The reader hears the name as the hinge between the opening relation and the divine referent.",
+      "containment": "Local name sense only; sky, hunting, rivalry, and other same-root branches are not activated.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": ["micro:find-name-construct"],
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_ba54357b33ac2f1cbc46"],
+      "branch_refs": ["root_000745/B005"]
+    },
+    {
+      "contact_ref": "micro:contact-name-raised",
+      "surface_carrier": "سْمِ (ismi)",
+      "distinctive_facet": "root_000745/B005 F005: naming is explained as raising the named thing into distinctness",
+      "independent_trigger": "The local construct binds the designation to a specific referent, while the selected name sense is contrasted with the root's concrete sky and height fields.",
+      "changed_reading": "Name carries a secondary raised-or-marked distinctness pressure without becoming literal elevation or a physical mark.",
+      "reader_payoff": "The reader can feel why the designation is more than a neutral tag while keeping the ordinary meaning name.",
+      "containment": "Exploratory etymological color only; do not gloss سْمِ as sky, height, or physical branding.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:find-name-raised"],
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_46da0fbbee759728567b"],
+      "branch_refs": ["root_000745/B005"]
+    },
+    {
+      "contact_ref": "micro:contact-deity-entity",
+      "surface_carrier": "ٱللَّهِ (Allahi)",
+      "distinctive_facet": "root_000047/B001 F002: the derived entity sense names the worshiped referent",
+      "independent_trigger": "The local form is a definite divine proper name in a construct, and the surrounding name-and-mercy formula supplies a worship-directed divine referent rather than a generic class noun.",
+      "changed_reading": "The name retains worship-oriented referent pressure while remaining a proper name, not a generic word for a deity.",
+      "reader_payoff": "The reader sees why the following mercy attributes belong to the singular referent who is named as the object of worship.",
+      "containment": "Narrow exploratory root pressure; reported longing or bewilderment color is not made into the local lexical gloss.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:find-deity-pressure"],
+      "support_ids": ["sup_ce242bd892b0c6e51152", "sup_f7725957d9a8549cb393"],
+      "branch_refs": ["root_000047/B001"]
+    },
+    {
+      "contact_ref": "micro:contact-divine-proper",
+      "surface_carrier": "ٱللَّهِ (Allahi)",
+      "distinctive_facet": "root_000047/B002 F001: the unique Creator-specific proper name distinguishes the referent",
+      "independent_trigger": "POS:PN, definiteness, and the genitive construct identify a singular proper name reached through سْمِ.",
+      "changed_reading": "The divine name is grammatically dependent on the preceding designation but referentially unique, not an indefinite deity class.",
+      "reader_payoff": "The reader notices the tension between being reached through the name construct and being the uniquely fixed referent of the formula.",
+      "containment": "Local proper-name facet only; no oath, vocative, derivational formation, or shortened-form reading is imported.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": ["micro:find-divine-proper"],
+      "support_ids": ["sup_9616286c79c43182bed8", "sup_f7725957d9a8549cb393"],
+      "branch_refs": ["root_000047/B002"]
+    },
+    {
+      "contact_ref": "micro:contact-mercy-core",
+      "surface_carrier": "رَّحْمَٰنِ (al-rahmani)",
+      "distinctive_facet": "root_000552/B001 F001: compassion begins as inward softening and close mercy",
+      "independent_trigger": "The r-h-m carrier is a definite genitive adjective attached to the divine name, so the root's compassion field is selected as an attribute rather than an independent event.",
+      "changed_reading": "Mercy is heard as an attached quality of the named referent, with tenderness inside the attribute rather than a bare translation label.",
+      "reader_payoff": "The first mercy word has emotional and protective depth while remaining syntactically subordinate to Allah's name.",
+      "containment": "Local mercy attribute; reciprocal human mercy, a wish formula, and disease branches are not activated.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": ["micro:find-mercy-attachment"],
+      "support_ids": ["sup_1675ff53e3dda1fc6912", "sup_4f18b826f6b812c5f5c8"],
+      "branch_refs": ["root_000552/B001"]
+    },
+    {
+      "contact_ref": "micro:contact-mercy-breadth",
+      "surface_carrier": "رَّحْمَٰنِ (al-rahmani)",
+      "distinctive_facet": "root_000552/B001 F005: divine mercy is marked by breadth and reaches created beings as good",
+      "independent_trigger": "The first mercy pattern is expansive and is attached in genitive apposition to the divine proper name before the second, specifying form.",
+      "changed_reading": "The first mercy term opens a wide field of divine benevolence rather than merely repeating a generic adjective.",
+      "reader_payoff": "The paired ending can be read as beginning with expansive reach before settling into a more enacted quality.",
+      "containment": "Bound to the divine epithet and labeled established at the local level; it does not assert every possible theological extension.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": ["micro:find-mercy-breadth"],
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_990bff7b47282b7f417a"],
+      "branch_refs": ["root_000552/B001"]
+    },
+    {
+      "contact_ref": "micro:contact-mercy-action",
+      "surface_carrier": "رَّحِيمِ (al-rahimi)",
+      "distinctive_facet": "root_000552/B001 F002: compassion carries an active result of sparing and doing good",
+      "independent_trigger": "The second r-h-m adjective has the durable enacted form, follows the expansive form immediately, and occupies the final semantic position.",
+      "changed_reading": "The ending lands not on an abstract capacity for pity but on mercy as a stable quality that reaches others in action.",
+      "reader_payoff": "The second mercy word refines the first and gives the formula a concrete ethical landing.",
+      "containment": "Local adjective contrast only; no reciprocal-human or optative use is inferred.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": ["micro:find-enacted-mercy"],
+      "support_ids": ["sup_5a43ccd2baac6c45ad04", "sup_696cad80b84a282418b4"],
+      "branch_refs": ["root_000552/B001"]
+    },
+    {
+      "contact_ref": "micro:contact-womb-pressure",
+      "surface_carrier": "رَّحْمَٰنِ / رَّحِيمِ (the paired r-h-m epithets)",
+      "distinctive_facet": "root_000552/B003 F001: the womb is an inner place that forms, carries, and protects offspring",
+      "independent_trigger": "The same root appears in two protective divine adjectives, and the local mercy selection explicitly retains encompassing embodied pressure while excluding a literal organ sense.",
+      "changed_reading": "Mercy can carry a restrained container-and-protection image beneath the ordinary divine attribute reading.",
+      "reader_payoff": "The reader feels mercy as sheltering and carrying, not merely as an abstract decision to forgive.",
+      "containment": "Exploratory analogy and root imagery only; the epithets do not mean womb, disease, or a bodily organ here.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:find-womb-pressure"],
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_dbb3006e444c60b8325c"],
+      "branch_refs": ["root_000552/B003"]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1c46d52273a24776b639",
+      "decision": "accept",
+      "reason": "The bound بِ and the following name form a real first formulaic beat whose dependency is audible before the phrase is unpacked.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-bi-beat"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_ba2e80731a21e085717f",
+      "decision": "narrow",
+      "reason": "The particle has genuine instrumental, locative, accompanying, and binding pressure, but the local grammar compresses these into one governed relation rather than four propositions.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-bi-range"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d9c0b1b4fdb4684a48d0",
+      "decision": "accept",
+      "reason": "The opening particle leaves the governing act unspoken and routes the reader's beginning, recitation, or invocation through the name construct.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-ellipsis"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3de911178ef87a39e8e3",
+      "decision": "narrow",
+      "reason": "The selected name sense can carry raised and marked distinctness pressure through its root field, but the local noun remains an ordinary name in construct.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-raised"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_39aa3d63b7af231e1d7f",
+      "decision": "accept",
+      "reason": "The noun is governed from the left by بِ and bound from the right to ٱللَّهِ, making the name the medium of the opening act.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-construct"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a73536c6f1f30d661198",
+      "decision": "accept",
+      "reason": "The construct noun is a structural hinge: the opening relation reaches the divine name and then the attached mercy chain.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-frame"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_231d00f4806e5125e785",
+      "decision": "narrow",
+      "reason": "The name sense is a meaningful abstract channel inside a root with prominent sky and height fields, but those concrete fields are contrastive rather than locally active.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-root-contrast"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_cf4f3a926ca2139c97f4",
+      "decision": "narrow",
+      "reason": "The reported alternate root routing is useful as apparatus that sharpens the selected name reading, but it is not the local root or a second active meaning.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-variant-pressure"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_94927b25c0fed4865f58",
+      "decision": "accept",
+      "reason": "The singular divine proper name locally anchors both following mercy epithets as genitive attributes.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-divine-anchor"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_4b0304416b7855a41e73",
+      "decision": "narrow",
+      "reason": "The local construct has genuine dense liaison and sound binding; its recurrence at 1:2 is retained only as a bounded contextual note outside the core micro claim.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-name-recurrence"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_fa521af54ad04516cae8",
+      "decision": "accept",
+      "reason": "The definite unique proper name is reached through the preceding construct dependency rather than functioning as a generic deity noun or overt subject.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-divine-proper"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "decision": "narrow",
+      "reason": "The proper name carries worship-oriented and reported longing pressure as a contrastive root color, while its local form remains a proper name.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-deity-pressure"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "decision": "narrow",
+      "reason": "The case apparatus exposes live predicate or object alternatives, but the supplied local morphology keeps the epithet pair in genitive apposition.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-case-variants"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "decision": "accept",
+      "reason": "The first definite mercy epithet is locally attached to the divine proper name as a genitive adjective, not left as a free quality.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-mercy-attachment"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "decision": "accept",
+      "reason": "The first mercy pattern is expansive and is differentiated by the immediate second mercy form, preventing flat synonymy.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-mercy-breadth"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_9685004bc52b37b5f3cb",
+      "decision": "accept",
+      "reason": "The definite first mercy epithet participates in an evidenced doubled onset and bound paired cadence, adding an audible relation to its syntax.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-mercy-onset"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_15645155a921e968fbc4",
+      "decision": "scope_referral",
+      "reason": "Its decisive reader payoff is the first mercy strand's recurrence at 1:3 and contrast with the 1:2 praise frame, which belongs in a macro cross-ayah treatment rather than this prefatory-basmala micro lane.",
+      "failed_edge": null,
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_0d92dd869e87a9099286",
+      "decision": "narrow",
+      "reason": "Protective womb-root pressure is a real embodied secondary image, but the local epithets select divine mercy and do not literally name a womb.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-womb-pressure"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "decision": "narrow",
+      "reason": "The final word locally seals the paired cadence; its recurrence at 1:3 is contextual evidence and is not used to expand the micro claim.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-cadence"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_4d462bc2882a3f01451d",
+      "decision": "accept",
+      "reason": "The final epithet completes and specifies the mercy chain while remaining attached to the same divine name.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-formula-completion"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_505f30bd726b25681f68",
+      "decision": "accept",
+      "reason": "Immediate same-root repetition with a changed form creates scalar refinement rather than redundant repetition.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-scalar-refinement"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_69fbec494e02bcd3e720",
+      "decision": "narrow",
+      "reason": "The final mercy form has shareable uses beyond an exclusive title, but this occurrence is held to its local divine genitive attachment.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-shareable-mercy"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e74130c63d851de1a020",
+      "decision": "accept",
+      "reason": "The final epithet gives the formula a durable enacted-mercy landing after the expansive first form.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-enacted-mercy"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "decision": "narrow",
+      "reason": "Case and pause variants expose recitational and syntactic pressure, but the local genitive ending remains the operative closure; the bridge is not made into a new parse.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:find-pause-bridge"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_353c6d0b915f11c20788",
+      "decision": "reject",
+      "reason": "This ledger-only QAC occurrence supplies carrier provenance but no independent branch facet, changed reading, or reader payoff by itself.",
+      "failed_edge": "no_changed_reading: a root occurrence record alone cannot activate a branch or create a finding.",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_59d76ebb0fb3cf746c5e",
+      "decision": "reject",
+      "reason": "This ledger-only QAC occurrence identifies the ٱللَّهِ carrier but adds no independent semantic trigger or reader-visible consequence beyond the reviewed proper-name contacts.",
+      "failed_edge": "no_changed_reading: carrier/provenance is present, but the standalone occurrence has no distinctive facet activation or payoff.",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2e4a10b0c79321d62da2",
+      "decision": "reject",
+      "reason": "This ledger-only QAC occurrence identifies the r-h-m carrier but cannot independently create the mercy, enacted, or womb findings.",
+      "failed_edge": "no_changed_reading: same-root occurrence is provenance only without an independent facet trigger and payoff.",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [
+    {
+      "referral_ref": "micro:referral-cand-15645155a921e968fbc4",
+      "origin_ref": "cand_15645155a921e968fbc4",
+      "referred_lane": "macro",
+      "focus_carrier": "رَّحْمَٰنِ (al-rahmani) and its same-surah return",
+      "mechanism": "The first mercy strand recurs at 1:3 and contrasts with the praise-frame relation at 1:2.",
+      "reader_payoff": "The recurrence can frame mercy across the opening sequence as a returning strand rather than a one-off epithet.",
+      "containment": "Cross-ayah structural evidence for macro treatment; it does not alter the local 1:1 genitive appositional parse.",
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_ba63014c1294abaed965"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "reason": "The evidence is genuine but its decisive mechanism lies outside the prefatory basmala micro unit."
+    }
+  ],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:find-bi-beat",
+      "candidate_ids": ["cand_1c46d52273a24776b639"],
+      "proposal_keys": [],
+      "title": "The opening particle is a fused first beat",
+      "claim": "بِ opens the formula as a bound relation whose dependency on the following name is heard before the phrase is analytically unpacked.",
+      "mechanism": "The preposition is attached to the following name noun and is evidenced as the first fused beat of the formula rather than an independent clause.",
+      "reader_payoff": "The reader hears the opening as relation and dependence before receiving a complete proposition.",
+      "containment": "Local particle and phrase formation; no single English preposition is treated as exhaustive.",
+      "support_ids": ["sup_0269958b2367af9c5e43", "sup_86c91a923c49bc88a942"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-bi-range",
+      "candidate_ids": ["cand_ba2e80731a21e085717f"],
+      "proposal_keys": [],
+      "title": "One governed relation carries several prepositional pressures",
+      "claim": "The opening بِ can color the act as by, in, with, and in attachment to the name, but the local syntax keeps these pressures inside one governed phrase.",
+      "mechanism": "The particle's wider relational range is constrained by its government of سْمِ and does not yield four separate propositions.",
+      "reader_payoff": "The reader can preserve the particle's relational depth without multiplying the translation into unsupported clauses.",
+      "containment": "Narrow to local semantic pressure; do not render every available prepositional value independently.",
+      "support_ids": ["sup_86c91a923c49bc88a942", "sup_a9711d331c8ab9ebfd32"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-ellipsis",
+      "candidate_ids": ["cand_d9c0b1b4fdb4684a48d0"],
+      "proposal_keys": [],
+      "title": "The governing act is left unspoken",
+      "claim": "The opening does not state the act of beginning, reciting, or invoking; بِ makes the reader supply that act through the name.",
+      "mechanism": "Formulaic ellipsis combines with prepositional government and the following genitive construct.",
+      "reader_payoff": "The reader is drawn into performing or imagining the beginning rather than merely receiving a completed assertion.",
+      "containment": "A compressed performative frame, not a license to invent a specific omitted verb or full clause.",
+      "support_ids": ["sup_86c91a923c49bc88a942", "sup_db7bbf7d31cf15bf9543"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-name-raised",
+      "candidate_ids": ["cand_3de911178ef87a39e8e3"],
+      "proposal_keys": [],
+      "title": "Name carries raised distinctness pressure",
+      "claim": "سْمِ remains the ordinary word name, while its root field permits a bounded sense of designation that raises or marks the referent into distinctness.",
+      "mechanism": "The name sense is selected in a referent-binding construct and contrasted with the root's concrete elevation fields.",
+      "reader_payoff": "The reader notices that naming is not a neutral tag, yet does not mistake the word for sky, height, or a physical mark.",
+      "containment": "Secondary exploratory root color only; ordinary name remains the local gloss.",
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_46da0fbbee759728567b"],
+      "branch_refs": ["root_000745/B005"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-name-raised"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "distinctive_facet": "Naming is explained as raising the named thing into remembrance and distinctness.",
+          "surface_carrier": "سْمِ",
+          "independent_anchor": "The genitive construct binds the designation to the specific referent ٱللَّهِ and the local noun selects name rather than a concrete height sense.",
+          "contribution": "This branch supplies the restrained image of a designation that lifts the referent into distinct notice.",
+          "boundary": "It is not literal elevation, sky, or physical branding, and it does not replace the local name sense."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-name-construct",
+      "candidate_ids": ["cand_39aa3d63b7af231e1d7f"],
+      "proposal_keys": [],
+      "title": "The name is governed and bound to its referent",
+      "claim": "سْمِ is both governed by بِ and placed in construct with ٱللَّهِ, making the designation the medium through which the opening reaches its referent.",
+      "mechanism": "Prepositional government and genitive construct operate together in the same local phrase.",
+      "reader_payoff": "The reader sees the opening act pass through a name rather than simply point at Allah from outside the phrase.",
+      "containment": "Local syntax and designation relation; no independent overt verb is supplied.",
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_ba54357b33ac2f1cbc46"],
+      "branch_refs": ["root_000745/B005"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-name-core"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "A name is a designation that identifies a being and makes it possible to speak of it.",
+          "surface_carrier": "سْمِ",
+          "independent_anchor": "The noun's construct relation to ٱللَّهِ and government by بِ make its identifying function structurally active.",
+          "contribution": "The branch supplies the designation function that turns the name noun into the local hinge of reference.",
+          "boundary": "The branch contributes naming, not naming-as-an-action, namesake equivalence, or a concrete same-root image."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-name-frame",
+      "candidate_ids": ["cand_a73536c6f1f30d661198"],
+      "proposal_keys": [],
+      "title": "Designation is framed immediately by name and mercy",
+      "claim": "The name noun is the hinge from the opening relation to the divine proper name and then to the two mercy epithets.",
+      "mechanism": "The construct closes on ٱللَّهِ, whose genitive adjective chain continues directly into the mercy pair.",
+      "reader_payoff": "The name is experienced as a live structural channel rather than an isolated vocabulary item.",
+      "containment": "Local formula sequence only; the claim does not decide wider surah-level recurrence.",
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_4a6a06dc50a4443bda26"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-name-root-contrast",
+      "candidate_ids": ["cand_231d00f4806e5125e785"],
+      "proposal_keys": [],
+      "title": "The abstract name channel sits inside a sky-heavy root field",
+      "claim": "The local abstract designation is selected from a root field with much more visible sky and height vocabulary, making the name sense a marked channel by contrast.",
+      "mechanism": "The surface noun and construct choose the name branch while the supplied root range keeps the concrete sky-heavy alternatives in the background.",
+      "reader_payoff": "The reader notices the lexical pressure around the ordinary word name without importing a sky image into the phrase.",
+      "containment": "Contrastive distributional pressure; no concrete sky, elevation, or rival branch is active locally.",
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_8e572e4e186ddeacaa5c"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-name-variant-pressure",
+      "candidate_ids": ["cand_cf4f3a926ca2139c97f4"],
+      "proposal_keys": [],
+      "title": "Variant root pressure remains apparatus",
+      "claim": "A reported alternate root-routing pressure can sharpen the selected name reading by contrast, but it does not become the local root or a second lexical gloss.",
+      "mechanism": "The aligned surface and root evidence select س م و and the name branch, while the variant is retained as explicitly qualified apparatus.",
+      "reader_payoff": "The reader can register a live lexical tension without allowing an apparatus alternative to contaminate the local meaning.",
+      "containment": "Narrow contrastive apparatus; no alternate root meaning is stated as active in the ayah.",
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_3904c7864e7ec72fc6b8"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-divine-anchor",
+      "candidate_ids": ["cand_94927b25c0fed4865f58"],
+      "proposal_keys": [],
+      "title": "The divine name anchors the mercy chain",
+      "claim": "ٱللَّهِ is not a detached referent: the two following mercy epithets are routed through this singular divine name as genitive attributes.",
+      "mechanism": "The proper name completes the construct and licenses the following adjective chain.",
+      "reader_payoff": "Mercy is heard as attached to the named referent rather than as an independent quality floating after it.",
+      "containment": "Local attachment and referential anchoring; no generic deity reading.",
+      "support_ids": ["sup_02991ac40aeaac854e72", "sup_f7725957d9a8549cb393"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-name-recurrence",
+      "candidate_ids": ["cand_4b0304416b7855a41e73"],
+      "proposal_keys": [],
+      "title": "The name is heard as a dense construct unit",
+      "claim": "The local liaison makes the name phrase acoustically compact and supplies a bounded echo of the name's later return in the praise frame.",
+      "mechanism": "Construct attachment compresses the local beat, while the supplied recurrence evidence gives the sound-density an explicitly qualified continuation.",
+      "reader_payoff": "The reader hears the name as a carried unit rather than a loose sequence of words.",
+      "containment": "The local sound effect is micro evidence; any full inter-ayah recurrence argument remains contextual and cannot expand this lane's scope.",
+      "support_ids": ["sup_106108c5d58aa80ed91f", "sup_f7725957d9a8549cb393"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-divine-proper",
+      "candidate_ids": ["cand_fa521af54ad04516cae8"],
+      "proposal_keys": [],
+      "title": "The unique proper name is reached through dependency",
+      "claim": "ٱللَّهِ is a definite singular divine proper name, yet the grammar reaches it through the preceding governed name noun.",
+      "mechanism": "Proper-name status and genitive construct dependency coexist without turning the word into a generic class term or overt subject.",
+      "reader_payoff": "The reader notices that unique reference is grammatically mediated rather than simply asserted.",
+      "containment": "Local proper-name and construct reading; no generic deity noun, oath, or vocative branch.",
+      "support_ids": ["sup_9616286c79c43182bed8", "sup_f7725957d9a8549cb393"],
+      "branch_refs": ["root_000047/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-divine-proper"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "The branch centers on a Creator-specific proper name that distinguishes the referent from others.",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "The proper-name morphology and singular definite referent are placed in genitive construct after سْمِ.",
+          "contribution": "This branch supplies the uniqueness and divine-name force of the referent reached through the construct.",
+          "boundary": "The local form does not activate the branch's derivational, oath, vocative, or shortened-form facets."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-deity-pressure",
+      "candidate_ids": ["cand_3a84a87d7339e33a9ee4"],
+      "proposal_keys": [],
+      "title": "The proper name retains worship-directed pressure",
+      "claim": "The divine proper name gathers worship-oriented pressure, with reported awe or longing color kept as a narrow contrastive possibility rather than its local gloss.",
+      "mechanism": "The name's local divine referent activates the worshiped-entity facet, while the supplied root discussion qualifies the additional longing pressure.",
+      "reader_payoff": "The reader feels that the name points toward a worshiped referent without replacing the proper name with the generic word deity.",
+      "containment": "Narrow exploratory root pressure; no worship action or generic class noun is asserted.",
+      "support_ids": ["sup_ce242bd892b0c6e51152", "sup_f7725957d9a8549cb393"],
+      "branch_refs": ["root_000047/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-deity-entity"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "The derived entity sense names the being or object toward which worship is directed.",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "The definite proper-name form and surrounding divine attribute chain identify a singular worship-directed referent.",
+          "contribution": "This branch supplies worshiped-referent pressure beneath the local proper-name reading.",
+          "boundary": "It does not activate the worship action, causative making, or historical sun example, and reported longing remains only color."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-case-variants",
+      "candidate_ids": ["cand_3f864ad15356ff2ac1aa"],
+      "proposal_keys": [],
+      "title": "Case variants expose live syntactic pressure",
+      "claim": "Reported case alternatives could recast the mercy pair as predicate or object, but the aligned local forms keep both words in genitive apposition.",
+      "mechanism": "Variant apparatus is held beside the supplied morphology and attachment evidence rather than allowed to override it.",
+      "reader_payoff": "The reader sees that the adjective chain is a chosen syntactic relation, not an inevitable flat string.",
+      "containment": "Apparatus and ambiguity note only; local genitive is the operative reading.",
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_6ead5cbdfb87cc7d1f19"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-mercy-attachment",
+      "candidate_ids": ["cand_2189a4173d3d3e00fd4b"],
+      "proposal_keys": [],
+      "title": "The first mercy epithet attaches to the divine name",
+      "claim": "رَّحْمَٰنِ is a definite genitive epithet of ٱللَّهِ, so the first mercy word is an attached quality rather than a free-floating noun or assertion.",
+      "mechanism": "Definiteness, adjective morphology, and genitive apposition bind the first mercy form to the proper name.",
+      "reader_payoff": "The first mercy term enters as an attribute carried by the named referent, with compassion and tenderness still audible in the root field.",
+      "containment": "Local genitive epithet and mercy branch; alternate case readings remain apparatus.",
+      "support_ids": ["sup_1675ff53e3dda1fc6912", "sup_4f18b826f6b812c5f5c8"],
+      "branch_refs": ["root_000552/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mercy-core"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Mercy begins as inward softening, compassion, and close tenderness toward another.",
+          "surface_carrier": "رَّحْمَٰنِ",
+          "independent_anchor": "The root carrier is a definite genitive adjective attached to the divine proper name, selecting mercy as an attribute.",
+          "contribution": "The branch supplies the tender compassion inside the attached first mercy quality.",
+          "boundary": "The local word is not a reciprocal-human event, a wish formula, or a literal womb term."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-mercy-breadth",
+      "candidate_ids": ["cand_846cad2f7d38c7dae4f1"],
+      "proposal_keys": [],
+      "title": "Expansive mercy precedes refinement",
+      "claim": "The first mercy epithet opens a broad field of divine benevolence before the second form gives that field a more enacted specification.",
+      "mechanism": "The expansive first pattern, divine genitive attachment, and immediate same-root neighbor prevent the pair from being flat synonymy.",
+      "reader_payoff": "The reader hears mercy widening before it settles into a durable quality that reaches others.",
+      "containment": "Local paired morphology and divine attribute frame; no exhaustive theological definition is claimed.",
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_990bff7b47282b7f417a"],
+      "branch_refs": ["root_000552/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mercy-breadth"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "distinctive_facet": "When used of God, mercy's breadth and its arrival as good to created beings become prominent.",
+          "surface_carrier": "رَّحْمَٰنِ",
+          "independent_anchor": "The divine proper name governs the first expansive mercy adjective, which precedes the specifying second form.",
+          "contribution": "This branch supplies the wide reach of the first mercy term before the pair narrows into enactment.",
+          "boundary": "The breadth is local attribute pressure, not a claim that every divine-mercy branch is active."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-mercy-onset",
+      "candidate_ids": ["cand_9685004bc52b37b5f3cb"],
+      "proposal_keys": [],
+      "title": "The first mercy word binds an audible doubled onset",
+      "claim": "Definiteness, repeated r-h-m onset, and paired cadence make the first mercy epithet audible as a bound member of the ending.",
+      "mechanism": "The sound evidence aligns with the definite adjective and its immediate same-root partner.",
+      "reader_payoff": "The reader can hear the syntax of the mercy pair as well as analyze it.",
+      "containment": "Evidenced sound binding only; this is not a separate lexical branch or an independent semantic claim.",
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_5e4026cbb17c38d001fa"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-womb-pressure",
+      "candidate_ids": ["cand_0d92dd869e87a9099286"],
+      "proposal_keys": [],
+      "title": "Protective womb-root pressure colors mercy",
+      "claim": "The r-h-m pair can carry a restrained image of sheltering, carrying protection beneath the local divine mercy reading, without literally meaning womb.",
+      "mechanism": "The accepted womb branch meets the paired protective mercy adjectives and the evidence's explicit boundary against a literal organ gloss.",
+      "reader_payoff": "Mercy can be felt as encompassing and carrying, not only as an abstract disposition.",
+      "containment": "Narrow exploratory embodied analogy; do not replace either epithet's mercy sense with a bodily-organ meaning.",
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_dbb3006e444c60b8325c"],
+      "branch_refs": ["root_000552/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-womb-pressure"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "The womb is an inner organ that forms, carries, and protects offspring within the body.",
+          "surface_carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+          "independent_anchor": "The paired divine adjectives supply protective and encompassing mercy pressure while explicitly selecting the mercy, not organ, sense.",
+          "contribution": "This branch contributes a bounded shelter-and-carry image beneath the mercy attribute.",
+          "boundary": "The image is analogical root pressure only; no literal womb, disease, or physical body is named."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-cadence",
+      "candidate_ids": ["cand_2d0978cd3ad4a24e0f20"],
+      "proposal_keys": [],
+      "title": "The closing mercy word seals the local cadence",
+      "claim": "The final رَّحِيمِ closes the prefatory phrase with the paired mercy cadence, while any return at 1:3 remains a bounded contextual echo.",
+      "mechanism": "The final word's sound completes the adjacent mercy pair and its local semantic position.",
+      "reader_payoff": "The formula lands audibly on mercy rather than ending as an unfinished attribute chain.",
+      "containment": "Local cadence is micro evidence; same-surah recurrence is not used to expand the local finding.",
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_6ef75f06d3884729980a"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-formula-completion",
+      "candidate_ids": ["cand_4d462bc2882a3f01451d"],
+      "proposal_keys": [],
+      "title": "The final epithet completes the formula",
+      "claim": "رَّحِيمِ completes the mercy formula and specifies the preceding epithet while remaining attached to the same divine name.",
+      "mechanism": "The adjective chain and final word order make the second form a specifying completion rather than an independent quality.",
+      "reader_payoff": "The reader receives the ending as a designed completion of one attached mercy frame.",
+      "containment": "Local adjective chain; no separate referent or independent clause is introduced.",
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_a0459e602e39b3c6f314"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-scalar-refinement",
+      "candidate_ids": ["cand_505f30bd726b25681f68"],
+      "proposal_keys": [],
+      "title": "Same-root repetition refines rather than repeats",
+      "claim": "The adjacent r-h-m forms echo one another but change the form and force so the second word refines the first into enacted mercy.",
+      "mechanism": "Same-root adjacency combines with the contrast between the expansive first pattern and the durable second pattern.",
+      "reader_payoff": "The reader hears repetition as movement from breadth toward a settled, enacted quality.",
+      "containment": "Local morphological contrast; do not flatten the two forms into identical synonyms or overstate a complete scale.",
+      "support_ids": ["sup_5a2186ca53d4a45fa108", "sup_696cad80b84a282418b4"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-shareable-mercy",
+      "candidate_ids": ["cand_69fbec494e02bcd3e720"],
+      "proposal_keys": [],
+      "title": "The final mercy form has a shareable contrast",
+      "claim": "رَّحِيمِ can describe enacted compassion beyond an exclusive title in other contexts, but here its local genitive attachment keeps it as a divine epithet.",
+      "mechanism": "The form's wider attestation is held against the local proper-name attachment and adjective-chain syntax.",
+      "reader_payoff": "The reader notices both the form's lexical portability and the force of its restricted referent here.",
+      "containment": "Narrow contrastive lexical evidence; no human referent is imported into this occurrence.",
+      "support_ids": ["sup_59953667b2f192780589", "sup_696cad80b84a282418b4"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:find-enacted-mercy",
+      "candidate_ids": ["cand_e74130c63d851de1a020"],
+      "proposal_keys": [],
+      "title": "The final epithet lands on enacted mercy",
+      "claim": "The final رَّحِيمِ turns the mercy field into a durable, enacted quality after the first epithet's expansive opening.",
+      "mechanism": "Its durable adjective form, final position, and immediate contrast with رَّحْمَٰنِ give the pair a settled endpoint.",
+      "reader_payoff": "The formula does more than repeat mercy: it lands on mercy as something that reaches others in action.",
+      "containment": "Local adjective contrast and divine attachment; no reciprocal or optative use is inferred.",
+      "support_ids": ["sup_5a43ccd2baac6c45ad04", "sup_696cad80b84a282418b4"],
+      "branch_refs": ["root_000552/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mercy-action"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "The inward mercy impulse has an active result in sparing and doing good to the one shown mercy.",
+          "surface_carrier": "رَّحِيمِ",
+          "independent_anchor": "The final adjective's durable form and terminal position distinguish enacted result from the preceding expansive pattern.",
+          "contribution": "This branch supplies the active, outward-reaching result that gives the final epithet its ethical landing.",
+          "boundary": "It is not a reciprocal-human event or a wish formula; the local referent remains the divine name."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:find-pause-bridge",
+      "candidate_ids": ["cand_d37a7bc52f828cc7df3e"],
+      "proposal_keys": [],
+      "title": "Pause and case pressure can expose a bridge",
+      "claim": "Reported case and pause variants can make the final epithet feel like a bridge into 1:2 or a special recitational focus, while the aligned local form remains genitive closure.",
+      "mechanism": "Variant apparatus and pause evidence are contrasted with the supplied genitive adjective analysis rather than used to replace it.",
+      "reader_payoff": "The reader can sense recitational flexibility and syntactic pressure without losing the operative local ending.",
+      "containment": "Narrow apparatus note; the bridge is not a second local parse and does not expand the micro lane.",
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_f5a6078ed810bdf095da"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    }
+  ],
+  "friction_notes": [
+    {
+      "topic": "cross-ayah recurrence",
+      "note": "The recurrence of رَّحْمَٰنِ at 1:3 and its contrast with 1:2 are genuine but referred to macro because the packet defines this as a prefatory-basmala micro unit. Local sound and closure remain accepted where a bounded core survives."
+    },
+    {
+      "topic": "proper-name branch tension",
+      "note": "The same ٱللَّهِ carrier supports both the Creator-specific proper-name facet and the worshiped-referent facet. They are retained as distinct contacts: uniqueness and grammatical dependency are not collapsed into worship pressure."
+    },
+    {
+      "topic": "r-h-m embodied pressure",
+      "note": "The womb branch is accepted only as exploratory protective and encompassing imagery. The local morphology and divine adjective syntax do not license a literal organ gloss."
+    },
+    {
+      "topic": "variant apparatus",
+      "note": "Case, pause, and root-routing alternatives remain visible as pressure and contrast. None overrides the aligned genitive apposition, selected س م و name sense, or local proper-name reading."
+    },
+    {
+      "topic": "HFT",
+      "note": "The packet reports zero assigned HFT records, so there is no additional HFT candidate beyond the 27 supplied inventory rows."
+    }
+  ]
+}
