@@ -30,8 +30,7 @@ MAX_JSON_BYTES = 128_000_000
 MAX_LANE_PACKET_BYTES = 32_000_000
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 MAX_BATCH_UNITS = 512
-DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles-layer2"
-BASE_BUNDLES_DIR = REPO_ROOT / "bundles"
+DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles"
 PROJECTS_ROOT = REPO_ROOT.parent
 
 # Reuse v3's evidence projection and exact request identity. The orchestration
@@ -79,6 +78,10 @@ class Layout:
     @property
     def source_bundle(self) -> Path:
         return self.input / "source.bundle.json"
+
+    @property
+    def prefatory_basmala_bundle(self) -> Path:
+        return self.input / "prefatory_basmala.bundle.json"
 
     @property
     def docket(self) -> Path:
@@ -527,25 +530,25 @@ def _basmala_docket_template(source_bundle: dict[str, Any]) -> dict[str, Any]:
 def _focus_bundle_origin(
     args: argparse.Namespace,
     context_bundles_dir: Path,
+    member_bundles_dir: Path,
     composition: compositions.Composition | None,
 ) -> Path:
     explicit = getattr(args, "source_bundle", None)
     if explicit is not None:
         return Path(explicit)
 
-    selected = compositions.unit_bundle_path(context_bundles_dir, args.ayah)
-    if selected.exists() or selected.is_symlink() or composition is not None:
-        return selected
-
-    base = compositions.unit_bundle_path(BASE_BUNDLES_DIR, args.ayah)
-    if base.is_file() and not base.is_symlink():
-        return base
-    return selected
+    if (
+        composition is not None
+        and args.ayah in composition.added_member_refs
+    ):
+        return compositions.unit_bundle_path(member_bundles_dir, args.ayah)
+    return compositions.unit_bundle_path(context_bundles_dir, args.ayah)
 
 
 def _load_focus_inputs(
     args: argparse.Namespace,
     context_bundles_dir: Path,
+    member_bundles_dir: Path,
     composition: compositions.Composition | None,
 ) -> tuple[
     Path,
@@ -554,7 +557,9 @@ def _load_focus_inputs(
     dict[str, Any],
     dict[str, Any],
 ]:
-    source_origin = _focus_bundle_origin(args, context_bundles_dir, composition)
+    source_origin = _focus_bundle_origin(
+        args, context_bundles_dir, member_bundles_dir, composition
+    )
     source_payload, source_bundle = _load_json_with_bytes(source_origin)
     try:
         unit_identity = compositions.validate_unit_bundle(
@@ -634,6 +639,8 @@ def _composition_projection(
     composition: compositions.Composition,
     focus_ref: str,
     bundle_root: Path,
+    *,
+    skip_refs: set[str] | None = None,
 ) -> dict[str, Any]:
     by_lane: dict[str, dict[str, list[dict[str, Any]]]] = {
         lane: {"candidates": [], "supports": [], "units": []}
@@ -641,6 +648,8 @@ def _composition_projection(
     }
     all_units: list[dict[str, Any]] = []
     for context_row in composition.context_rows(focus_ref):
+        if skip_refs is not None and context_row["ref"] in skip_refs:
+            continue
         try:
             path, bundle, identity = compositions.load_unit_bundle(
                 bundle_root, context_row["ref"]
@@ -662,6 +671,115 @@ def _composition_projection(
         lane_projection["units"].append(inventory)
         all_units.append(inventory)
     return {"by_lane": by_lane, "units": all_units}
+
+
+def _surah_membership_projection(
+    composition: compositions.Composition,
+    focus_ref: str,
+    package_bundle_root: Path,
+    member_bundle_root: Path,
+) -> dict[str, Any] | None:
+    rows = composition.surah_membership_rows(focus_ref, LANES)
+    if not rows:
+        return None
+    by_lane: dict[str, dict[str, list[dict[str, Any]]]] = {
+        lane: {"items": []} for lane in LANES
+    }
+    all_units: list[dict[str, Any]] = []
+    for row in rows:
+        try:
+            bundle_root = (
+                member_bundle_root
+                if row["membership_added_ref"]
+                else package_bundle_root
+            )
+            path, bundle, identity = compositions.load_unit_bundle(
+                bundle_root, row["ref"]
+            )
+            candidate, supports, inventory = compositions.project_context_unit(
+                composition=composition,
+                focus_ref=focus_ref,
+                context_row=row,
+                source_path=path,
+                bundle=bundle,
+                identity=identity,
+                projects_root=PROJECTS_ROOT,
+            )
+        except compositions.CompositionError as exc:
+            raise WorkflowError(str(exc)) from exc
+        candidate.update({
+            "source_type": "augmented_surah_member",
+            "kind": "augmented_surah_member",
+            "scope": "augmented_surah_membership",
+            "membership_target_surah": row["membership_target_surah"],
+            "membership_added_ref": row["membership_added_ref"],
+            "membership_focus_is_added_ref": row[
+                "membership_focus_is_added_ref"
+            ],
+            "commentary_obligation": "review",
+        })
+        for support in supports:
+            qualification = support.setdefault("qualification", {})
+            qualification.update({
+                "augmented_surah_membership": True,
+                "membership_target_surah": row["membership_target_surah"],
+                "membership_added_ref": row["membership_added_ref"],
+                "membership_focus_is_added_ref": row[
+                    "membership_focus_is_added_ref"
+                ],
+            })
+        inventory.update({
+            "augmented_surah_membership": True,
+            "membership_target_surah": row["membership_target_surah"],
+            "membership_added_ref": row["membership_added_ref"],
+            "membership_focus_is_added_ref": row[
+                "membership_focus_is_added_ref"
+            ],
+        })
+        by_lane[row["lane"]]["items"].append({
+            "candidate": candidate,
+            "supports": supports,
+            "unit": inventory,
+        })
+        all_units.append(inventory)
+    return {"by_lane": by_lane, "units": all_units}
+
+
+def _surah_membership_context_refs(
+    composition: compositions.Composition | None,
+    focus_ref: str,
+) -> set[str]:
+    if composition is None or composition.member_surah is None:
+        return set()
+    return {row["ref"] for row in composition.surah_membership_rows(focus_ref, LANES)}
+
+
+def _load_prefatory_basmala_context(
+    source_bundle: dict[str, Any],
+    context_bundles_dir: Path,
+) -> tuple[Path, bytes, dict[str, Any], dict[str, Any]] | None:
+    if source_bundle.get("unit_kind", "numbered_ayah") != "numbered_ayah":
+        return None
+    surah = source_bundle.get("surah")
+    ayah = source_bundle.get("ayah")
+    if not isinstance(surah, int) or not isinstance(ayah, int) or ayah <= 0:
+        return None
+    if surah in compositions.BASMALA_EXCLUDED_SURAHS:
+        return None
+    ref = f"{surah}:0"
+    try:
+        path = compositions.unit_bundle_path(context_bundles_dir, ref)
+        payload, bundle = _load_json_with_bytes(path)
+        identity = compositions.validate_unit_bundle(bundle, expected_ref=ref)
+    except (WorkflowError, compositions.CompositionError) as exc:
+        raise WorkflowError(
+            f"Prefatory basmala bundle is required for numbered unit "
+            f"{source_bundle.get('ayahRef')} but could not be loaded from "
+            f"{context_bundles_dir}: {exc}"
+        ) from exc
+    identity["canonical_sha256"] = v3._sha256_json(bundle)
+    identity["bytes"] = len(payload)
+    return path, payload, bundle, identity
 
 
 def _append_basmala_focus_evidence(
@@ -726,13 +844,145 @@ def _append_basmala_focus_evidence(
     })
 
 
+def _append_numbered_ayah_basmala_context(
+    packet: dict[str, Any],
+    *,
+    focus_ref: str,
+    basmala_path: Path,
+    basmala_bundle: dict[str, Any],
+    basmala_identity: dict[str, Any],
+    lane: str,
+) -> dict[str, Any]:
+    surah = focus_ref.split(":", 1)[0]
+    basmala_ref = basmala_identity["ayah_ref"]
+    existing_units = packet.setdefault("selected_context_units", [])
+    if not isinstance(existing_units, list):
+        raise WorkflowError(f"{lane} packet selected_context_units must be a list")
+    source_file = None
+    for existing in existing_units:
+        if isinstance(existing, dict) and existing.get("ayah_ref") == basmala_ref:
+            existing["automatic_prefatory_basmala_membership"] = True
+            source_file = existing.get("source_file")
+            packet["scope"]["prefatory_basmala"] = {
+                "status": "included_as_surah_preface_context",
+                "ayah_ref": basmala_identity["ayah_ref"],
+                "surface_ref": basmala_identity["surface_ref"],
+                "linguistic_source_ref": basmala_identity["linguistic_source_ref"],
+                "source_bundle_canonical_sha256": basmala_identity["canonical_sha256"],
+                "source_file": source_file or v3._stable_source_path(basmala_path),
+                "via": "explicit_composition_context",
+            }
+            return existing
+    automatic_composition = compositions.Composition(
+        analysis_id=f"native-prefatory-basmala-s{int(surah):03d}",
+        segments=(
+            compositions.Segment(
+                segment_id="surah-with-prefatory-basmala",
+                refs=(basmala_ref, focus_ref),
+            ),
+        ),
+        focus_refs=(focus_ref,),
+        description=(
+            "Automatic target-surah prefatory basmala membership for native "
+            "numbered-ayah packets."
+        ),
+    )
+    candidate, supports, inventory = compositions.project_context_unit(
+        composition=automatic_composition,
+        focus_ref=focus_ref,
+        context_row={
+            "ref": basmala_ref,
+            "segment_id": "surah-with-prefatory-basmala",
+            "segment_index": 0,
+            "unit_index": 0,
+            "composition_order": 0,
+            "lane": lane,
+        },
+        source_path=basmala_path,
+        bundle=basmala_bundle,
+        identity=basmala_identity,
+        projects_root=PROJECTS_ROOT,
+    )
+    candidate.update({
+        "source_type": "automatic_prefatory_basmala_surah_member",
+        "source_pointer": "/scope/prefatory_basmala",
+        "kind": "surah_prefatory_basmala",
+        "title": "Prefatory basmala as surah member",
+        "scope": "surah_preface",
+        "commentary_obligation": "review",
+    })
+    for support in supports:
+        qualification = support.setdefault("qualification", {})
+        qualification.update({
+            "context_unit_is_the_surah_preface": True,
+            "numbered_ayah_focus_is_unchanged": True,
+            "automatic_prefatory_basmala_membership": True,
+        })
+    inventory["automatic_prefatory_basmala_membership"] = True
+    packet["candidate_inventory"].append(candidate)
+    _merge_context_supports(packet["support_registry"], supports)
+    existing_units.append(inventory)
+    packet["scope"]["prefatory_basmala"] = {
+        "status": "included_as_surah_preface_context",
+        "ayah_ref": basmala_identity["ayah_ref"],
+        "surface_ref": basmala_identity["surface_ref"],
+        "linguistic_source_ref": basmala_identity["linguistic_source_ref"],
+        "source_bundle_canonical_sha256": basmala_identity["canonical_sha256"],
+        "source_file": inventory["source_file"],
+        "via": "automatic_surah_membership",
+    }
+    return inventory
+
+
+def _append_surah_membership_lane(
+    packet: dict[str, Any],
+    items: list[dict[str, Any]],
+    *,
+    lane: str,
+) -> list[dict[str, Any]]:
+    selected_units = packet.setdefault("selected_context_units", [])
+    if not isinstance(selected_units, list):
+        raise WorkflowError(f"{lane} packet selected_context_units must be a list")
+    added_units: list[dict[str, Any]] = []
+    for item in items:
+        candidate = item["candidate"]
+        supports = item["supports"]
+        unit = item["unit"]
+        context_ref = unit["ayah_ref"]
+        existing = next(
+            (
+                selected
+                for selected in selected_units
+                if isinstance(selected, dict)
+                and selected.get("ayah_ref") == context_ref
+            ),
+            None,
+        )
+        if existing is not None:
+            existing["augmented_surah_membership"] = True
+            existing["membership_target_surah"] = unit["membership_target_surah"]
+            existing["membership_added_ref"] = unit["membership_added_ref"]
+            existing["membership_focus_is_added_ref"] = unit[
+                "membership_focus_is_added_ref"
+            ]
+            added_units.append(existing)
+            continue
+        packet["candidate_inventory"].append(candidate)
+        _merge_context_supports(packet["support_registry"], supports)
+        selected_units.append(unit)
+        added_units.append(unit)
+    return added_units
+
+
 def _augment_lane_packet(
     packet: dict[str, Any],
     *,
     layout: Layout,
     composition: compositions.Composition | None,
     projection: dict[str, Any] | None,
+    surah_membership_projection: dict[str, Any] | None,
     source_bundle: dict[str, Any],
+    prefatory_basmala_context: tuple[Path, dict[str, Any], dict[str, Any]] | None,
     lane: str,
 ) -> dict[str, Any]:
     if source_bundle.get("unit_kind") == "prefatory_basmala":
@@ -769,6 +1019,29 @@ def _augment_lane_packet(
             "analysis_id": composition.analysis_id,
             "analysis_composition_sha256": composition.canonical_sha256,
         })
+    if surah_membership_projection is not None:
+        lane_items = surah_membership_projection["by_lane"][lane]["items"]
+        added_units = _append_surah_membership_lane(
+            packet, lane_items, lane=lane
+        )
+        packet["scope"]["surah_membership"] = {
+            "mode": "augmented_surah",
+            "analysis_id": composition.analysis_id if composition else None,
+            "current_focus_ref": layout.ayah_ref,
+            "lane_context_refs": [
+                unit["ayah_ref"] for unit in added_units
+            ],
+        }
+    if prefatory_basmala_context is not None:
+        basmala_path, basmala_bundle, basmala_identity = prefatory_basmala_context
+        _append_numbered_ayah_basmala_context(
+            packet,
+            focus_ref=layout.ayah_ref,
+            basmala_path=basmala_path,
+            basmala_bundle=basmala_bundle,
+            basmala_identity=basmala_identity,
+            lane=lane,
+        )
     candidate_ids = [
         candidate.get("candidate_id") for candidate in packet["candidate_inventory"]
     ]
@@ -814,8 +1087,17 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
         type=Path,
         default=DEFAULT_CONTEXT_BUNDLES_DIR,
         help=(
-            "Root containing canonical/tiered sNNN/S_A.ayah.json files used "
-            "for focus and selected-context units in an ordered analysis."
+            "Root containing canonical sNNN/S_A.ayah.json files used "
+            "for focus and selected-context package units."
+        ),
+    )
+    parser.add_argument(
+        "--member-bundles-dir",
+        type=Path,
+        default=DEFAULT_CONTEXT_BUNDLES_DIR,
+        help=(
+            "Root containing added or out-of-package member units for an "
+            "augmented-surah analysis."
         ),
     )
     parser.add_argument(
@@ -825,22 +1107,63 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
     )
 
 
+def _dedupe_context_units(units: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    deduped: list[dict[str, Any]] = []
+    seen: set[tuple[Any, ...]] = set()
+    for unit in units:
+        if not isinstance(unit, dict):
+            continue
+        key = (
+            unit.get("ayah_ref"),
+            unit.get("source_file"),
+            unit.get("canonical_sha256"),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(copy.deepcopy(unit))
+    return deduped
+
+
 def _input_manifest_base(
     layout: Layout,
     source_origin: Path,
     docket_lineage: dict[str, Any],
     source_bundle: dict[str, Any],
+    prefatory_basmala_record: dict[str, Any] | None,
     docket: dict[str, Any],
     quran_coverage: dict[str, Any],
     inter_ayah_coverage: dict[str, Any],
     lane_records: dict[str, Any],
     composition: compositions.Composition | None,
     composition_projection: dict[str, Any] | None,
+    surah_membership_projection: dict[str, Any] | None,
     context_bundles_dir: Path,
+    member_bundles_dir: Path,
 ) -> dict[str, Any]:
     canonical_template = PROMPTS_ROOT / "canonical.md"
     editorial_instructions = V3_PROMPTS_ROOT / "editorial-followup.md"
     editorial_template = PROMPTS_ROOT / "editorial.md"
+    prefatory_context_units = []
+    if isinstance(prefatory_basmala_record, dict):
+        units = prefatory_basmala_record.get("selected_context_units")
+        if isinstance(units, list):
+            prefatory_context_units = [
+                unit for unit in units if isinstance(unit, dict)
+            ]
+    selected_context_units = (
+        prefatory_context_units
+        if composition is None
+        else _dedupe_context_units([
+            *composition_projection["units"],
+            *(
+                surah_membership_projection["units"]
+                if surah_membership_projection is not None
+                else []
+            ),
+            *prefatory_context_units,
+        ])
+    )
     return {
         "schema_version": "commentary-v4-unit-manifest-v2",
         "analysis_id": layout.analysis_id,
@@ -855,6 +1178,7 @@ def _input_manifest_base(
             "origin": v3._stable_source_path(source_origin),
             "canonical_sha256": v3._sha256_json(source_bundle),
         },
+        "prefatory_basmala": prefatory_basmala_record,
         "docket": {
             "snapshot": _path_record(layout.docket),
             "origin": docket_lineage,
@@ -871,7 +1195,8 @@ def _input_manifest_base(
                 "analysis_id": "native",
                 "composition": None,
                 "context_bundles_dir": None,
-                "selected_context_units": [],
+                "member_bundles_dir": None,
+                "selected_context_units": selected_context_units,
             }
             if composition is None
             else {
@@ -880,7 +1205,21 @@ def _input_manifest_base(
                 "composition": _path_record(layout.composition),
                 "composition_canonical_sha256": composition.canonical_sha256,
                 "context_bundles_dir": v3._stable_source_path(context_bundles_dir),
-                "selected_context_units": composition_projection["units"],
+                "member_bundles_dir": v3._stable_source_path(member_bundles_dir),
+                "selected_context_units": selected_context_units,
+                "surah_membership": (
+                    None
+                    if composition.member_surah is None
+                    else {
+                        "target_surah": composition.member_surah,
+                        "added_refs": list(composition.added_member_refs),
+                        "context_units": _dedupe_context_units(
+                            surah_membership_projection["units"]
+                            if surah_membership_projection is not None
+                            else []
+                        ),
+                    }
+                ),
             }
         ),
         "lanes": lane_records,
@@ -909,13 +1248,18 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     context_bundles_dir = Path(
         getattr(args, "context_bundles_dir", DEFAULT_CONTEXT_BUNDLES_DIR)
     ).resolve(strict=False)
+    member_bundles_dir = Path(
+        getattr(args, "member_bundles_dir", DEFAULT_CONTEXT_BUNDLES_DIR)
+    ).resolve(strict=False)
     (
         source_origin,
         source_payload,
         source_bundle,
         docket,
         docket_lineage,
-    ) = _load_focus_inputs(args, context_bundles_dir, composition)
+    ) = _load_focus_inputs(
+        args, context_bundles_dir, member_bundles_dir, composition
+    )
     try:
         unit_identity = compositions.validate_unit_bundle(
             source_bundle, expected_ref=args.ayah
@@ -932,6 +1276,38 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         != docket.get("identity", {}).get("source_canonical_sha256")
     ):
         raise WorkflowError("Source bundle canonical hash does not match docket")
+    prefatory_basmala_loaded = _load_prefatory_basmala_context(
+        source_bundle, member_bundles_dir
+    )
+    prefatory_basmala_packet_context = None
+    prefatory_basmala_record = None
+    if prefatory_basmala_loaded is not None:
+        (
+            basmala_origin,
+            basmala_payload,
+            basmala_bundle,
+            basmala_identity,
+        ) = prefatory_basmala_loaded
+        _write_generated(
+            layout.prefatory_basmala_bundle,
+            basmala_payload,
+            replace_changed=args.force_input,
+            root=INPUT_ROOT,
+        )
+        prefatory_basmala_record = {
+            "snapshot": _path_record(layout.prefatory_basmala_bundle),
+            "origin": v3._stable_source_path(basmala_origin),
+            "canonical_sha256": basmala_identity["canonical_sha256"],
+            "ayah_ref": basmala_identity["ayah_ref"],
+            "surface_ref": basmala_identity["surface_ref"],
+            "linguistic_source_ref": basmala_identity["linguistic_source_ref"],
+            "mode": "included_as_surah_preface_context_in_every_lane_packet",
+        }
+        prefatory_basmala_packet_context = (
+            basmala_origin,
+            basmala_bundle,
+            basmala_identity,
+        )
 
     quran_evidence, quran_coverage = _quran_text_projection(args.quran_text)
     numbered_refs = {
@@ -953,8 +1329,21 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             numbered_refs,
         )
     hft_projection = v3._hft_authoring_projection(docket, source_bundle)
+    membership_skip_refs = _surah_membership_context_refs(composition, args.ayah)
     composition_projection = (
-        _composition_projection(composition, args.ayah, context_bundles_dir)
+        _composition_projection(
+            composition,
+            args.ayah,
+            context_bundles_dir,
+            skip_refs=membership_skip_refs,
+        )
+        if composition is not None
+        else None
+    )
+    surah_membership_projection = (
+        _surah_membership_projection(
+            composition, args.ayah, context_bundles_dir, member_bundles_dir
+        )
         if composition is not None
         else None
     )
@@ -984,6 +1373,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     )
 
     lane_records: dict[str, Any] = {}
+    prefatory_basmala_context_units: list[dict[str, Any]] = []
     for lane in LANES:
         packet = v3._lane_packet(
             docket,
@@ -1001,9 +1391,22 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             layout=layout,
             composition=composition,
             projection=composition_projection,
+            surah_membership_projection=surah_membership_projection,
             source_bundle=source_bundle,
+            prefatory_basmala_context=prefatory_basmala_packet_context,
             lane=lane,
         )
+        if prefatory_basmala_record is not None:
+            units = packet.get("selected_context_units")
+            if isinstance(units, list):
+                for unit in units:
+                    if (
+                        isinstance(unit, dict)
+                        and unit.get("ayah_ref")
+                        == prefatory_basmala_record["ayah_ref"]
+                    ):
+                        prefatory_basmala_context_units.append(copy.deepcopy(unit))
+                        break
         template_path = V3_PROMPTS_ROOT / f"scope-{lane}.md"
         template = template_path.read_text(encoding="utf-8")
         template_sha256 = _sha256(template.encode("utf-8"))
@@ -1049,19 +1452,26 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "template_sha256": template_sha256,
             "expected_response": _repo_path(layout.scope_review(lane)),
         }
+    if prefatory_basmala_record is not None:
+        prefatory_basmala_record["selected_context_units"] = (
+            _dedupe_context_units(prefatory_basmala_context_units)
+        )
 
     manifest = _input_manifest_base(
         layout,
         source_origin,
         docket_lineage,
         source_bundle,
+        prefatory_basmala_record,
         docket,
         quran_coverage,
         inter_coverage,
         lane_records,
         composition,
         composition_projection,
+        surah_membership_projection,
         context_bundles_dir,
+        member_bundles_dir,
     )
     if layout.manifest.exists():
         if layout.manifest.is_symlink() or not layout.manifest.is_file():
@@ -1211,31 +1621,33 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             or layout.ayah_ref not in composition.focus_refs
         ):
             raise WorkflowError("Analysis composition identity is stale")
-        selected_units = analysis.get("selected_context_units")
-        if not isinstance(selected_units, list):
-            raise WorkflowError("Analysis context-unit lineage is malformed")
-        for unit in selected_units:
-            if not isinstance(unit, dict):
-                raise WorkflowError("Analysis context-unit lineage contains a non-object")
-            source_file = unit.get("source_file")
-            if not isinstance(source_file, str) or not source_file:
-                raise WorkflowError("Analysis context unit has no source_file")
-            source_path = Path(source_file)
-            if not source_path.is_absolute():
-                source_path = PROJECTS_ROOT / source_path
-            if not source_path.is_file() or source_path.is_symlink():
-                raise WorkflowError(f"Analysis context source is unavailable: {source_path}")
-            source_bytes = source_path.read_bytes()
-            if len(source_bytes) != unit.get("bytes"):
-                raise WorkflowError(f"Analysis context source size changed: {source_path}")
-            try:
-                source_value = json.loads(source_bytes)
-            except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-                raise WorkflowError(f"Invalid analysis context source {source_path}: {exc}") from exc
-            if compositions.canonical_sha256(source_value) != unit.get(
-                "canonical_sha256"
-            ):
-                raise WorkflowError(f"Analysis context source changed: {source_path}")
+    selected_units = analysis.get("selected_context_units")
+    if selected_units is None:
+        selected_units = []
+    if not isinstance(selected_units, list):
+        raise WorkflowError("Analysis context-unit lineage is malformed")
+    for unit in selected_units:
+        if not isinstance(unit, dict):
+            raise WorkflowError("Analysis context-unit lineage contains a non-object")
+        source_file = unit.get("source_file")
+        if not isinstance(source_file, str) or not source_file:
+            raise WorkflowError("Analysis context unit has no source_file")
+        source_path = Path(source_file)
+        if not source_path.is_absolute():
+            source_path = PROJECTS_ROOT / source_path
+        if not source_path.is_file() or source_path.is_symlink():
+            raise WorkflowError(f"Analysis context source is unavailable: {source_path}")
+        source_bytes = source_path.read_bytes()
+        if len(source_bytes) != unit.get("bytes"):
+            raise WorkflowError(f"Analysis context source size changed: {source_path}")
+        try:
+            source_value = json.loads(source_bytes)
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            raise WorkflowError(f"Invalid analysis context source {source_path}: {exc}") from exc
+        if compositions.canonical_sha256(source_value) != unit.get(
+            "canonical_sha256"
+        ):
+            raise WorkflowError(f"Analysis context source changed: {source_path}")
     _verify_source_binding(
         canonical_template,
         path_field="path",
@@ -1932,6 +2344,24 @@ def _parser() -> argparse.ArgumentParser:
             type=Path,
             help="JSON composition file; its focus_refs are used when --ayah is omitted.",
         )
+        subparser.add_argument(
+            "--member-surah",
+            type=int,
+            help=(
+                "Target surah for an augmented-surah analysis. Added refs are "
+                "treated as members of this surah for package projection."
+            ),
+        )
+        subparser.add_argument(
+            "--add-member",
+            action="append",
+            default=[],
+            metavar="REFS",
+            help=(
+                "Refs or ranges to add as members of --member-surah. Repeatable; "
+                "focuses may be either target-surah refs or added refs."
+            ),
+        )
         _source_options(subparser)
     verify_parser = subparsers.add_parser(
         "verify", help="Check lineage identity and the presence of all eight outputs."
@@ -1953,6 +2383,16 @@ def main() -> int:
         composition: compositions.Composition | None = None
         analysis_path = getattr(args, "analysis", None)
         segment_specs = getattr(args, "segment", [])
+        added_member_specs = getattr(args, "add_member", [])
+        member_surah = getattr(args, "member_surah", None)
+        if analysis_path is not None and (member_surah is not None or added_member_specs):
+            raise WorkflowError(
+                "--analysis cannot be combined with --member-surah/--add-member"
+            )
+        if added_member_specs and member_surah is None:
+            raise WorkflowError("--add-member requires --member-surah")
+        if member_surah is not None and not segment_specs:
+            raise WorkflowError("--member-surah requires --segment definitions")
         if analysis_path is not None and segment_specs:
             raise WorkflowError("--analysis cannot be combined with --segment")
         if analysis_path is not None:
@@ -1975,7 +2415,11 @@ def main() -> int:
                 raise WorkflowError("--segment requires --ayah focus selectors")
             try:
                 composition = compositions.composition_from_cli(
-                    args.analysis_id, segment_specs, args.ayah
+                    args.analysis_id,
+                    segment_specs,
+                    args.ayah,
+                    member_surah=member_surah,
+                    added_member_selectors=added_member_specs,
                 )
             except compositions.CompositionError as exc:
                 raise WorkflowError(str(exc)) from exc

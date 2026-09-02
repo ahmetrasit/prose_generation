@@ -102,6 +102,55 @@ class SelectorTests(unittest.TestCase):
                 ["2:1"],
             )
 
+    def test_augmented_surah_membership_projects_added_refs_for_native_focus(self) -> None:
+        analysis = composition.composition_from_cli(
+            "s100-plus-17-50",
+            ["target=100:1-3", "added=17:50"],
+            ["100:2"],
+            member_surah=100,
+            added_member_selectors=["17:50"],
+        )
+
+        rows = analysis.surah_membership_rows("100:2", ("micro", "macro", "global"))
+
+        self.assertEqual(
+            [(row["ref"], row["lane"]) for row in rows],
+            [("17:50", "micro"), ("17:50", "macro"), ("17:50", "global")],
+        )
+        self.assertEqual(analysis.member_surah, 100)
+        self.assertEqual(analysis.added_member_refs, ("17:50",))
+
+    def test_augmented_surah_membership_allows_added_ref_focus(self) -> None:
+        analysis = composition.composition_from_cli(
+            "s100-plus-17-50",
+            ["target=100:1-2", "added=17:50"],
+            ["17:50"],
+            member_surah=100,
+            added_member_selectors=["17:50"],
+        )
+
+        rows = analysis.surah_membership_rows("17:50", ("micro", "macro"))
+
+        self.assertEqual(
+            [(row["ref"], row["lane"]) for row in rows],
+            [
+                ("100:1", "micro"),
+                ("100:1", "macro"),
+                ("100:2", "micro"),
+                ("100:2", "macro"),
+            ],
+        )
+
+    def test_augmented_surah_membership_requires_added_refs_in_composition(self) -> None:
+        with self.assertRaisesRegex(composition.CompositionError, "outside"):
+            composition.composition_from_cli(
+                "bad-membership",
+                ["target=100:1-2"],
+                ["100:1"],
+                member_surah=100,
+                added_member_selectors=["17:50"],
+            )
+
 
 class BundleValidationTests(unittest.TestCase):
     def test_prefatory_bundle_keeps_positive_linguistic_refs(self) -> None:

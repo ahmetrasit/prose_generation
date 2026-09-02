@@ -102,6 +102,32 @@ Numbered-ayah discovery remains `1..N`. A full-surah build emits `S:0` first
 where applicable, then `1..N`; a requested span remains numbered-only and a
 span starting at zero is rejected.
 
+## build_pericope_bundles.py
+
+Builds traceable non-tiered pericope package roots without changing the
+whole-surah builder:
+
+```sh
+# One indexed pericope
+python3 scripts/build_pericope_bundles.py --surah 29 --pericope 2
+
+# Every indexed pericope for the surah
+python3 scripts/build_pericope_bundles.py --surah 29 --all
+
+# Manual span, useful before a pericope index row exists
+python3 scripts/build_pericope_bundles.py \
+  --surah 29 --pericope 2 --ayah-from 36 --ayah-to 69 \
+  --pericope-label "Second half"
+```
+
+The script wraps `build_bundle.py --ayah-from/--ayah-to`, writes direct ayah
+files under `bundles/sNNN-pericopes/pPP_AAA-BBB/`, and adds
+`pericope.bundle-manifest.json` with the exact command, file hashes, pericope
+span, and policy. It emits no surah aggregate and no `S:0` unit in the
+pericope root. For v4, use that pericope directory as `--context-bundles-dir`
+and pass external/out-of-pericope units, including prefatory basmala, through a
+separate `--member-bundles-dir`.
+
 Run without `--ayah`, it also emits `{surah}.surah.json`, which references the
 ayah bundle filenames rather than duplicating them and carries surah-scope
 material with no single-ayah home: every Quran-text row for the surah including

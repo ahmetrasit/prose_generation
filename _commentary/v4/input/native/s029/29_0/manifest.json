@@ -1,0 +1,140 @@
+{
+  "analysis": {
+    "analysis_id": "native",
+    "composition": null,
+    "context_bundles_dir": null,
+    "mode": "native",
+    "selected_context_units": []
+  },
+  "analysis_id": "native",
+  "ayah_ref": "29:0",
+  "canonical": null,
+  "canonical_template": {
+    "path": "_commentary/v4/prompts/canonical.md",
+    "sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
+  },
+  "docket": {
+    "origin": {
+      "adapter": "prefatory_basmala_linguistic_alias_v1",
+      "implementation": "_commentary/v3/v3lib/prepare.py",
+      "kind": "derived_in_memory",
+      "linguistic_source_ref": "1:1",
+      "prepare_options": {
+        "allow_incomplete_branch_coverage": false,
+        "allow_legacy_hft_response": false,
+        "hft_policy": "quarantine",
+        "max_branch_bytes_per_root": 32000,
+        "max_docket_bytes": 500000,
+        "max_optional_candidates": 40,
+        "max_pericope_ayahs": 512,
+        "max_support_chars": 8000,
+        "max_support_per_candidate": 5
+      },
+      "source": "prose_generation/bundles/s029/29_0.ayah.json",
+      "surface_ref": "29:0",
+      "template_identity_adapter": "s0_bundle_as_positive_1_1_v1"
+    },
+    "payload_sha256": "7b116254fba6f3c2db48d0f482659e43a56d53f11480adcc8166461aeec7ffd3",
+    "snapshot": {
+      "bytes": 62966,
+      "path": "_commentary/v4/input/native/s029/29_0/docket.json",
+      "sha256": "caf7ff0876701622b0d7db617c5f49b801613c818b41386f3a8394349d71529a"
+    }
+  },
+  "editorial": {
+    "expected_outputs": {
+      "evidence": "_commentary/v4/editorial/native/s029/29_0/29_0.evidence.editorial.tr.md",
+      "friction": "_commentary/v4/editorial/native/s029/29_0/29_0.friction.editorial.tr.md",
+      "index": "_commentary/v4/editorial/native/s029/29_0/29_0.index.editorial.tr.md",
+      "prose": "_commentary/v4/editorial/native/s029/29_0/29_0.prose.editorial.tr.md"
+    },
+    "handoff_template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b",
+    "handoff_template_source": "_commentary/v4/prompts/editorial.md",
+    "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
+    "instructions_source": "_commentary/v3/prompts/editorial-followup.md"
+  },
+  "editorial_turn": null,
+  "evidence_projection": {
+    "implementation": "_commentary/v3/render_authoring.py",
+    "inter_ayah": {
+      "focus_ref": "29:0",
+      "reason": "inter-ayah evidence is defined on numbered ayahs only",
+      "status": "not_applicable"
+    },
+    "quran_text": {
+      "ayah_count": 6348,
+      "source_id": "quran-data/quran-uthmani",
+      "source_path": "quran-data/data/text/quran-uthmani.tsv",
+      "source_sha256": "9c89cdb0be69ced88ce38bae183b336ae6a6e4eed2f1ae3db0f7e811b8e729dd"
+    }
+  },
+  "lanes": {
+    "global": {
+      "expected_response": "_commentary/v4/raw/native/s029/29_0/global.review.json",
+      "lane_packet_sha256": "febed84ac0062e02a9aabaa95d74bf1f9f180c0aca52047e4491aa2d338247c7",
+      "packet": {
+        "bytes": 266258,
+        "path": "_commentary/v4/input/native/s029/29_0/global.packet.json",
+        "sha256": "bb46fba084a65f3187ac2f1d9ed662050fd7cfd2e6753eeffa3c344c37b1ecbd"
+      },
+      "prompt": {
+        "bytes": 282277,
+        "path": "_commentary/v4/input/native/s029/29_0/global.prompt.md",
+        "sha256": "ec2b0d491e96bfc69fae546bf19000634e238697b8d1bd722073d5c2633b16cd"
+      },
+      "request_sha256": "9372a42332e8df8be62e851b2272ac89a5d3752197271aa84af2674708f8f090",
+      "template_sha256": "5582ea99648ce111338f28ac033f9a53b51a055c8421162dd1f2b8dc44f566d5",
+      "template_source": "_commentary/v3/prompts/scope-global.md"
+    },
+    "macro": {
+      "expected_response": "_commentary/v4/raw/native/s029/29_0/macro.review.json",
+      "lane_packet_sha256": "c545abd5e288c983d7c33e2f36d7fc8cbe6cf0996899d3549df1db51b5e30c4a",
+      "packet": {
+        "bytes": 257901,
+        "path": "_commentary/v4/input/native/s029/29_0/macro.packet.json",
+        "sha256": "b68c04377dd4b58f1ed4554e15fdeab631b450681efd590a4d5db3418fcb8830"
+      },
+      "prompt": {
+        "bytes": 272817,
+        "path": "_commentary/v4/input/native/s029/29_0/macro.prompt.md",
+        "sha256": "5e727b095c05746b5dcecbfd6b06c21f3115e1fbf6ab36ac50d38877c2118631"
+      },
+      "request_sha256": "ce5324f27d8416d39dd8efe6bfdd9b642e8f4e3180d69bd9ab7c79b812a92c5c",
+      "template_sha256": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
+      "template_source": "_commentary/v3/prompts/scope-macro.md"
+    },
+    "micro": {
+      "expected_response": "_commentary/v4/raw/native/s029/29_0/micro.review.json",
+      "lane_packet_sha256": "2a1358c970e3d34f001aebdc09914edcaf56392ed32c430a0e63ad989500c4f1",
+      "packet": {
+        "bytes": 299243,
+        "path": "_commentary/v4/input/native/s029/29_0/micro.packet.json",
+        "sha256": "c14c4a62a60ed4c3898eee8b3d4820ddfba2a73b1c33f2cbb32eeb0994e8a4c0"
+      },
+      "prompt": {
+        "bytes": 312228,
+        "path": "_commentary/v4/input/native/s029/29_0/micro.prompt.md",
+        "sha256": "a9381ded17b30bb9358cf0a88060255271ae2c16d8ed251561cf2e4e1900571b"
+      },
+      "request_sha256": "395cfff29d7e93a7605690001103d4700a380f0d27aefbc70163651a352b0414",
+      "template_sha256": "75f233e513b724d90ad1f5c0c8fa461bb7dea2a65c3fd2dc71c14b3c7bf65b72",
+      "template_source": "_commentary/v3/prompts/scope-micro.md"
+    }
+  },
+  "layout": {
+    "editorial": "_commentary/v4/editorial/native/s029/29_0",
+    "input": "_commentary/v4/input/native/s029/29_0",
+    "raw": "_commentary/v4/raw/native/s029/29_0"
+  },
+  "prefatory_basmala": null,
+  "schema_version": "commentary-v4-unit-manifest-v2",
+  "source": {
+    "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
+    "origin": "prose_generation/bundles/s029/29_0.ayah.json",
+    "snapshot": {
+      "bytes": 380628,
+      "path": "_commentary/v4/input/native/s029/29_0/source.bundle.json",
+      "sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22"
+    }
+  }
+}

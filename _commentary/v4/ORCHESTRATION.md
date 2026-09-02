@@ -2,12 +2,12 @@
 
 This is the complete runbook for a cold orchestrator. Do not invoke v3's
 authoring state machine. V4 reads focus and context units from the single
-`bundles-layer2/` root by default, derives the V3 docket in memory, and writes
-only under `input/<analysis-id>/`, `raw/<analysis-id>/`, and
-`editorial/<analysis-id>/`. A native focus missing from the tiered root falls
-back to its base `bundles/` unit with the origin recorded in the manifest.
-Ordered compositions never mix roots; pass `--context-bundles-dir bundles` if
-any selected unit has not been tiered.
+`bundles/` root by default, derives the V3 docket in memory, and writes only
+under `input/<analysis-id>/`, `raw/<analysis-id>/`, and
+`editorial/<analysis-id>/`. Ordered compositions never fall back between roots.
+If you intentionally run a controlled package source, pass an explicit
+`--context-bundles-dir`; pass `--member-bundles-dir` separately for ayat added
+to that package membership.
 
 ## One unit
 
@@ -49,11 +49,9 @@ any selected unit has not been tiered.
 On the first wave, define the ordered composition and all desired focus units:
 
 ```bash
-# Add one external ayah to every Fatiha focus. S17 is not tiered yet, so use
-# one explicit base-bundle root for the complete composition.
+# Add one external ayah to every Fatiha focus.
 python3 _commentary/v4/workflow.py advance \
   --analysis-id fatiha-with-17-50 \
-  --context-bundles-dir bundles \
   --segment fatiha=1:1-7 \
   --segment external=17:50 \
   --ayah 1:1-7
@@ -84,8 +82,43 @@ bound context to the analysis packets. A same-surah unit in the focus's segment
 goes to macro even when it lies outside the native pericope. A separate-segment
 or cross-surah unit goes to global. Selected units can be discontinuous and
 cross-surah, and their order and segment IDs are preserved. Do not put the same
-unit in two segments. `S:0` uses this same mechanism with no special
-orchestration mode; name it explicitly because ranges cannot start at zero.
+unit in two segments. Direct `S:0` focus/context analysis uses this same
+mechanism; name it explicitly because ranges cannot start at zero. Numbered
+ayah packets for S2-S8 and S10-S114 automatically include the target surah's
+`S:0` prefatory basmala as hash-bound surah-preface context in every lane.
+
+## Pericope package roots
+
+For larger surahs, build pericope package roots with the dedicated wrapper
+instead of altering the whole-surah builder:
+
+```bash
+python3 scripts/build_pericope_bundles.py --surah 29 --pericope 3
+```
+
+This writes non-tiered direct ayah files under
+`bundles/sNNN-pericopes/pPP_AAA-BBB/` plus
+`pericope.bundle-manifest.json`. Use that directory as
+`--context-bundles-dir`. Add the prefatory basmala or any other external /
+out-of-pericope ayah through `--member-bundles-dir`, and declare membership with
+`--member-surah` and one or more `--add-member` flags:
+
+```bash
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id s029-p03-with-basmala \
+  --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
+  --member-bundles-dir bundles \
+  --member-surah 29 \
+  --add-member 29:0 \
+  --segment p03=29:28-44 \
+  --segment basmala=29:0 \
+  --ayah 29:38
+```
+
+Inside the pericope, focus and selected same-package context are non-tiered.
+Out-of-pericope members are read from the member root, so use the full, basic,
+or tiered member root appropriate to the size budget and record that choice in
+the command.
 
 ## Rules
 
@@ -151,4 +184,7 @@ exits nonzero so automation cannot miss the failed unit, but its JSON and
 Prefatory basmala units are valid for S2-S8 and S10-S114. Their target surface
 and target-surah reader evidence remain `S:0`; word/QAC identities remain
 canonical `1:1:*`; HFT, inter-ayah, and native pericope states are explicitly
-not applicable. Never synthesize `1:0`, `9:0`, or `S:0:*` linguistic refs.
+not applicable. For numbered ayahs in those surahs, preparation snapshots
+`prefatory_basmala.bundle.json` beside the focus source and embeds that full
+bundle into each micro, macro, and global lane packet. Never synthesize `1:0`,
+`9:0`, or `S:0:*` linguistic refs.

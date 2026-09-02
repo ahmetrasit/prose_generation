@@ -16,9 +16,8 @@ human-readable ID, so several readings of the same focus have disjoint paths
 without run IDs or session directories.
 
 V4 simplifies the authoring workflow, not upstream evidence construction. Its
-default input is one canonical/tiered unit bundle under `bundles-layer2/`. For
-a native focus not yet materialized there, it uses the corresponding base unit
-under `bundles/`; the exact origin and hash are recorded in the unit manifest.
+default input is one canonical non-tiered unit bundle under `bundles/`; the
+exact origin and hash are recorded in the unit manifest.
 It reuses V3's deterministic preparation and packet-projection code in memory,
 then snapshots the source, derived docket, and packets into the V4 unit input.
 No pre-existing V3 input, adjudication, output, or session tree is required. An
@@ -109,7 +108,6 @@ other units become context for each focus:
 # Add one external ayah to every Fatiha focus, in parallel.
 python3 _commentary/v4/workflow.py advance \
   --analysis-id fatiha-with-17-50 \
-  --context-bundles-dir bundles \
   --segment fatiha=1:1-7 \
   --segment external=17:50 \
   --ayah 1:1-7
@@ -151,9 +149,11 @@ zero. Every selected unit other than the current focus becomes context without
 changing the canonical pericope. Same-surah context in the focus's segment is
 routed to macro, including an explicitly selected ayah outside the native
 pericope; cross-segment or cross-surah context is routed to global; micro
-remains focus-local. `S:0` is selected in exactly the same way as any explicit
-ref, with no basmala-specific orchestration mode. S1 uses numbered `1:1`; S9
-has no `9:0`.
+remains focus-local. Direct `S:0` focus/context analysis is selected in exactly
+the same way as any explicit ref. Independently of explicit composition, every
+numbered ayah packet for S2-S8 and S10-S114 automatically carries the target
+surah's `S:0` prefatory basmala as hash-bound surah-preface context in each
+lane. S1 uses numbered `1:1`; S9 has no `9:0`.
 
 After the writer has produced both phases:
 
@@ -177,11 +177,33 @@ python3 _commentary/v4/workflow.py prepare \
 ```
 
 `--docket path/to/29_38.docket.json` is an optional compatibility override, not
-a normal workflow step. `--context-bundles-dir` changes the single canonical
-bundle root used for focus and selected-context units. Ordered compositions do
-not use the native base fallback because that would silently mix bundle roots;
-when selected units are not tiered, pass `--context-bundles-dir bundles` and V4
-will load every focus and context unit from that base root.
+a normal workflow step. `--context-bundles-dir` changes the canonical package
+root used for the focus and same-package selected-context units. The default is
+`bundles/`. If you intentionally run a controlled alternate package root, such
+as `bundles/s029-pericopes/p02_036-069/`, V4 loads package units from that root
+and does not fall back to another root. `--member-bundles-dir` is a separate
+root for units added to the package membership, including prefatory basmala or
+out-of-pericope ayat.
+
+For larger surahs, build a non-tiered pericope root first:
+
+```bash
+python3 scripts/build_pericope_bundles.py --surah 29 --pericope 3
+python3 _commentary/v4/workflow.py prepare \
+  --analysis-id s029-p03-with-basmala \
+  --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
+  --member-bundles-dir bundles \
+  --member-surah 29 \
+  --add-member 29:0 \
+  --segment p03=29:28-44 \
+  --segment basmala=29:0 \
+  --ayah 29:38
+```
+
+Inside the pericope package, selected context stays non-tiered because it is
+loaded from the pericope root. Out-of-pericope or external members are loaded
+from `--member-bundles-dir`, so the operator can point that root at the desired
+basic/tiered/full bundle set while preserving exact path and hash lineage.
 
 Generated inputs are idempotent. If their semantic source changes, preparation
 stops instead of mixing old raw output with new evidence. `--force-input`
@@ -207,10 +229,13 @@ evidence boundary remains an agent instruction. Exact-path checks prevent the
 workflow or a returned handoff from following symlinked unit directories or
 output filenames outside the three artifact roots.
 
-V4 accepts `prefatory_basmala` focus/context units with explicit `unit_kind`,
-`surface_ref`, and `linguistic_source_ref`. S:0 surface evidence belongs to the
-target surah while QAC and word identities remain `1:1:*`; native HFT,
-inter-ayah, and pericope scope are explicitly not applicable.
+V4 accepts `prefatory_basmala` units with explicit `unit_kind`, `surface_ref`,
+and `linguistic_source_ref`. S:0 surface evidence belongs to the target surah
+while QAC and word identities remain `1:1:*`; native HFT, inter-ayah, and
+pericope scope are explicitly not applicable. For numbered ayahs in a surah
+with a prefatory basmala, preparation snapshots `prefatory_basmala.bundle.json`
+beside the focus source and embeds that full bundle into every micro, macro,
+and global lane packet as surah-preface context.
 
 ## Deliberate omissions
 
